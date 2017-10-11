@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.2" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Annotations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T033131Z" creationid="Admin" creationdate="20171011T033131Z">
+        <seg>注解</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034935Z" creationid="Admin" creationdate="20171011T034935Z">
+        <seg>表示一个整型参数，字段或方法的返回值，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a boolean resource reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T033739Z" creationid="Admin" creationdate="20171011T033739Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个 boolean 资源引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a color resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034723Z" creationid="Admin" creationdate="20171011T034723Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个 color 资源引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a dimension resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034731Z" creationid="Admin" creationdate="20171011T034731Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个 dimension 资源引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a drawable resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034819Z" creationid="Admin" creationdate="20171011T034819Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个 drawable 资源引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a resource reference of any type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T033412Z" creationid="Admin" creationdate="20171011T033412Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个任意类型的资源引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an anim resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T033748Z" creationid="Admin" creationdate="20171011T033342Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个 anim 资源引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T033744Z" creationid="Admin" creationdate="20171011T033325Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个 animator 资源引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an array resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T033756Z" creationid="Admin" creationdate="20171011T033500Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个 array 资源引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an attribute reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T033801Z" creationid="Admin" creationdate="20171011T033535Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个 attribute 资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to represent a dimension.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034759Z" creationid="Admin" creationdate="20171011T034759Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期表示一个尺寸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that any overriding methods should invoke this method as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034425Z" creationid="Admin" creationdate="20171011T033841Z">
+        <seg>表示任何重写的方法也应该调用该方法。（译注：如Activity.onCreate）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element represents a packed color int, &lt;c0&gt;AARRGGBB&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034708Z" creationid="Admin" creationdate="20171011T034708Z">
+        <seg>表示所注解的元素表示一个包装的颜色整型, &lt;c0&gt;AARRGGBB&lt;/c0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element should be a float or double in the given range</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034907Z" creationid="Admin" creationdate="20171011T034907Z">
+        <seg>表示所注解的元素应该是在指定范围内的 float 或 double </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated method can be called from any thread (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T033446Z" creationid="Admin" creationdate="20171011T033446Z">
+        <seg>表示所注解的方法可以从任意线程调用 (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated method returns a result that it typically is an error to ignore.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034516Z" creationid="Admin" creationdate="20171011T034516Z">
+        <seg>表示所注解的方法的返回值，如果被忽略通常会出错。（译注：如File.delete()）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated method should only be called on the binder thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T033717Z" creationid="Admin" creationdate="20171011T033717Z">
+        <seg>表示所注解的方法只应该在绑定线程被调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a fraction resource reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T034959Z" creationid="Admin" creationdate="20171011T034959Z">
+        <seg>预期是一个 fraction 资源引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be an id resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035021Z" creationid="Admin" creationdate="20171011T035021Z">
+        <seg>预期是一个 id 资源引用。</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

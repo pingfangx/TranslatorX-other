@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>#</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035943Z" creationid="Admin" creationdate="20171011T035943Z">
+        <seg>#</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#inhmethods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035941Z" creationid="Admin" creationdate="20171011T035941Z">
+        <seg>#inhmethods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>*</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -42,6 +58,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>../../../../assets/images/android_logo.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../assets/images/styles/disclosure_down.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040112Z" creationid="Admin" creationdate="20171011T040112Z">
+        <seg>../../../../assets/images/styles/disclosure_down.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -2006,6 +2030,142 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Boolean.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040358Z" creationid="Admin" creationdate="20171011T040358Z">
+        <seg>../../../../reference/java/lang/Boolean.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Byte.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040354Z" creationid="Admin" creationdate="20171011T040354Z">
+        <seg>../../../../reference/java/lang/Byte.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Character.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040355Z" creationid="Admin" creationdate="20171011T040355Z">
+        <seg>../../../../reference/java/lang/Character.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Class.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040129Z" creationid="Admin" creationdate="20171011T040129Z">
+        <seg>../../../../reference/java/lang/Class.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Double.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040355Z" creationid="Admin" creationdate="20171011T040355Z">
+        <seg>../../../../reference/java/lang/Double.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Float.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040356Z" creationid="Admin" creationdate="20171011T040356Z">
+        <seg>../../../../reference/java/lang/Float.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Integer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040356Z" creationid="Admin" creationdate="20171011T040356Z">
+        <seg>../../../../reference/java/lang/Integer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Long.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040357Z" creationid="Admin" creationdate="20171011T040357Z">
+        <seg>../../../../reference/java/lang/Long.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Object.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040201Z" creationid="Admin" creationdate="20171011T040201Z">
+        <seg>../../../../reference/java/lang/Object.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/Short.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040358Z" creationid="Admin" creationdate="20171011T040358Z">
+        <seg>../../../../reference/java/lang/Short.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/String.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040401Z" creationid="Admin" creationdate="20171011T040401Z">
+        <seg>../../../../reference/java/lang/String.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/String.html#hashCode()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040325Z" creationid="Admin" creationdate="20171011T040325Z">
+        <seg>../../../../reference/java/lang/String.html#hashCode()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035952Z" creationid="Admin" creationdate="20171011T035952Z">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html#annotationType()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040134Z" creationid="Admin" creationdate="20171011T040134Z">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html#annotationType()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html#equals(java.lang.Object)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040201Z" creationid="Admin" creationdate="20171011T040201Z">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html#equals(java.lang.Object)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html#hashCode()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040239Z" creationid="Admin" creationdate="20171011T040239Z">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html#hashCode()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html#toString()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040402Z" creationid="Admin" creationdate="20171011T040402Z">
+        <seg>../../../../reference/java/lang/annotation/Annotation.html#toString()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/annotation/package-summary.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -2630,10 +2790,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;About Android&lt;/a0&gt; &lt;a1&gt;Auto&lt;/a1&gt; &lt;a2&gt;TV&lt;/a2&gt; &lt;a3&gt;Wear&lt;/a3&gt; &lt;a4&gt;Legal&lt;/a4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040506Z" creationid="Admin" creationdate="20171011T040506Z">
+        <seg>&lt;a0&gt;About Android&lt;/a0&gt; &lt;a1&gt;Auto&lt;/a1&gt; &lt;a2&gt;TV&lt;/a2&gt; &lt;a3&gt;Wear&lt;/a3&gt; &lt;a4&gt;Legal&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Blog&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>&lt;a0&gt;Blog&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Blog&lt;/a0&gt; &lt;a1&gt;Support&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040449Z" creationid="Admin" creationdate="20171011T040449Z">
+        <seg>&lt;a0&gt;Blog&lt;/a0&gt; &lt;a1&gt;Support&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;annotationType&lt;/a0&gt;()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040137Z" creationid="Admin" creationdate="20171011T040137Z">
+        <seg>&lt;a0&gt;annotationType&lt;/a0&gt;()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;equals&lt;/a0&gt;(&lt;a1&gt;Object&lt;/a1&gt; obj)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040203Z" creationid="Admin" creationdate="20171011T040203Z">
+        <seg>&lt;a0&gt;equals&lt;/a0&gt;(&lt;a1&gt;Object&lt;/a1&gt; obj)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;hashCode&lt;/a0&gt;()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040239Z" creationid="Admin" creationdate="20171011T040239Z">
+        <seg>&lt;a0&gt;hashCode&lt;/a0&gt;()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;toString&lt;/a0&gt;()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040403Z" creationid="Admin" creationdate="20171011T040403Z">
+        <seg>&lt;a0&gt;toString&lt;/a0&gt;()</seg>
       </tuv>
     </tu>
     <tu>
@@ -2674,6 +2882,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>&lt;a4&gt;Legal&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt; public abstract @interface AnimatorRes &lt;/c0&gt; &lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035954Z" creationid="Admin" creationdate="20171011T035954Z">
+        <seg>&lt;c0&gt; public abstract @interface AnimatorRes &lt;/c0&gt; &lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c2&gt; implements &lt;a3&gt;Annotation&lt;/a3&gt; &lt;/c2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035957Z" creationid="Admin" creationdate="20171011T035957Z">
+        <seg>&lt;c2&gt; implements &lt;a3&gt;Annotation&lt;/a3&gt; &lt;/c2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2778,6 +3002,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>AnimatorRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AnimatorRes - Android SDK | Android Developers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035935Z" creationid="Admin" creationdate="20171011T035935Z">
+        <seg>AnimatorRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
     <tu>
@@ -3010,6 +3242,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g. &lt;c0&gt;android.R.animator.fade_in&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040109Z" creationid="Admin" creationdate="20171011T040109Z">
+        <seg>表示一个整型参数，字段或方法的返回值，预期是一个 animator 资源引用 (e.g. &lt;c0&gt;android.R.animator.fade_in&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3318,10 +3558,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For details and restrictions, see the &lt;a1&gt; Content License&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040504Z" creationid="Admin" creationdate="20171011T040504Z">
+        <seg>For details and restrictions, see the &lt;a1&gt; Content License&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>FractionRes</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>FractionRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From interface &lt;c0&gt; &lt;a1&gt;java.lang.annotation.Annotation&lt;/a1&gt; &lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040128Z" creationid="Admin" creationdate="20171011T040128Z">
+        <seg>从接口 &lt;c0&gt; &lt;a1&gt;java.lang.annotation.Annotation&lt;/a1&gt; &lt;/c0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3410,6 +3666,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>IdRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inherited methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041730Z" creationid="Admin" creationdate="20171011T040046Z">
+        <seg>继承的方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -3614,6 +3878,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns a string representation of this annotation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040443Z" creationid="Admin" creationdate="20171011T040413Z">
+        <seg>返回此注释的字符串表示形式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the annotation type of this annotation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040159Z" creationid="Admin" creationdate="20171011T040159Z">
+        <seg>返回该注解的注解类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the hash code of this annotation, as defined below:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040325Z" creationid="Admin" creationdate="20171011T040325Z">
+        <seg>返回该注解的哈希码，定义如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns true if the specified object represents an annotation that is logically equivalent to this one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040237Z" creationid="Admin" creationdate="20171011T040237Z">
+        <seg>如果指定的对象表示一个逻辑上等效于此的注解，则返回 true 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Search</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -3694,10 +3990,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040035Z" creationid="Admin" creationdate="20171011T040035Z">
+        <seg>摘要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: &lt;a0&gt;Inherited Methods&lt;/a0&gt; | &lt;a1&gt;[Expand All]&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035948Z" creationid="Admin" creationdate="20171011T035948Z">
+        <seg>Summary: &lt;a0&gt;Inherited Methods&lt;/a0&gt; | &lt;a1&gt;[Expand All]&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TV</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>TV</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The hash code of a member-value depends on its type:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041213Z" creationid="Admin" creationdate="20171011T040353Z">
+        <seg>成员值的哈希码取决于其类型：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The hash code of a primitive value &lt;t0&gt;&lt;i1&gt;v&lt;/i1&gt;&lt;/t0&gt; is equal to &lt;t2&gt;&lt;i3&gt;WrapperType&lt;/i3&gt;.valueOf(&lt;i4&gt;v&lt;/i4&gt;).hashCode()&lt;/t2&gt;, where &lt;t5&gt;&lt;i6&gt;WrapperType&lt;/i6&gt;&lt;/t5&gt; is the wrapper type corresponding to the primitive type of &lt;t7&gt;&lt;i8&gt;v&lt;/i8&gt;&lt;/t7&gt; (&lt;c9&gt;&lt;a10&gt;Byte&lt;/a10&gt;&lt;/c9&gt;, &lt;c11&gt;&lt;a12&gt;Character&lt;/a12&gt;&lt;/c11&gt;, &lt;c13&gt;&lt;a14&gt;Double&lt;/a14&gt;&lt;/c13&gt;, &lt;c15&gt;&lt;a16&gt;Float&lt;/a16&gt;&lt;/c15&gt;, &lt;c17&gt;&lt;a18&gt;Integer&lt;/a18&gt;&lt;/c17&gt;, &lt;c19&gt;&lt;a20&gt;Long&lt;/a20&gt;&lt;/c19&gt;, &lt;c21&gt;&lt;a22&gt;Short&lt;/a22&gt;&lt;/c21&gt;, or &lt;c23&gt;&lt;a24&gt;Boolean&lt;/a24&gt;&lt;/c23&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041455Z" creationid="Admin" creationdate="20171011T040359Z">
+        <seg>基本类型的哈希码 &lt;t0&gt;&lt;i1&gt;v&lt;/i1&gt;&lt;/t0&gt; 等于 &lt;t2&gt;&lt;i3&gt;WrapperType&lt;/i3&gt;.valueOf(&lt;i4&gt;v&lt;/i4&gt;).hashCode()&lt;/t2&gt; ， &lt;t5&gt;&lt;i6&gt;WrapperType&lt;/i6&gt;&lt;/t5&gt; 是基本类型 &lt;t7&gt;&lt;i8&gt;v&lt;/i8&gt;&lt;/t7&gt; 对应的包装类型 (&lt;c9&gt;&lt;a10&gt;Byte&lt;/a10&gt;&lt;/c9&gt;, &lt;c11&gt;&lt;a12&gt;Character&lt;/a12&gt;&lt;/c11&gt;, &lt;c13&gt;&lt;a14&gt;Double&lt;/a14&gt;&lt;/c13&gt;, &lt;c15&gt;&lt;a16&gt;Float&lt;/a16&gt;&lt;/c15&gt;, &lt;c17&gt;&lt;a18&gt;Integer&lt;/a18&gt;&lt;/c17&gt;, &lt;c19&gt;&lt;a20&gt;Long&lt;/a20&gt;&lt;/c19&gt;, &lt;c21&gt;&lt;a22&gt;Short&lt;/a22&gt;&lt;/c21&gt;, 或者 &lt;c23&gt;&lt;a24&gt;Boolean&lt;/a24&gt;&lt;/c23&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The hash code of an annotation is the sum of the hash codes of its members (including those with default values), as defined below: The hash code of an annotation member is (127 times the hash code of the member-name as computed by &lt;c0&gt;&lt;a1&gt;hashCode()&lt;/a1&gt;&lt;/c0&gt;) XOR the hash code of the member-value, as defined below:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041410Z" creationid="Admin" creationdate="20171011T040351Z">
+        <seg>注解的哈希码是它的成员的哈希码之和（包括那些默认值）；注解的成员的哈希码是 (127 乘以成员名的哈希码，由 &lt;c0&gt;&lt;a1&gt;hashCode()&lt;/a1&gt;&lt;/c0&gt; 计算 )，再 XOR 成员值的哈希码；</seg>
       </tuv>
     </tu>
     <tu>
@@ -3770,6 +4106,38 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>a logical type and that its value should be one of the explicitly</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>abstract &lt;a0&gt;Class&lt;/a0&gt;&lt;? extends &lt;a1&gt;Annotation&lt;/a1&gt;&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040132Z" creationid="Admin" creationdate="20171011T040132Z">
+        <seg>abstract &lt;a0&gt;Class&lt;/a0&gt;&lt;? extends &lt;a1&gt;Annotation&lt;/a1&gt;&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>abstract &lt;a0&gt;String&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040401Z" creationid="Admin" creationdate="20171011T040401Z">
+        <seg>abstract &lt;a0&gt;String&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>abstract boolean</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040200Z" creationid="Admin" creationdate="20171011T040200Z">
+        <seg>abstract boolean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>abstract int</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040238Z" creationid="Admin" creationdate="20171011T040238Z">
+        <seg>abstract int</seg>
       </tuv>
     </tu>
     <tu>
@@ -4466,6 +4834,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>android.support.annotation - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.annotation.AnimatorRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035959Z" creationid="Admin" creationdate="20171011T035959Z">
+        <seg>android.support.annotation.AnimatorRes</seg>
       </tuv>
     </tu>
     <tu>
