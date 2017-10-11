@@ -1,0 +1,6233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.2" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>*</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>...</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../about/versions/marshmallow/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../about/versions/marshmallow/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../assets/css/default.css?v=16</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../assets/css/default.css?v=16</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../assets/images/android_logo.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../assets/images/android_logo.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../auto/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../auto/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../design/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../design/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../develop/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../develop/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../distribute/analyze/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../distribute/analyze/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../distribute/engage/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../distribute/engage/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../distribute/essentials/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../distribute/essentials/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../distribute/googleplay/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../distribute/googleplay/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../distribute/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../distribute/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../distribute/monetize/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../distribute/monetize/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../distribute/stories/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../distribute/stories/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../distribute/users/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../distribute/users/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../favicon.ico</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../favicon.ico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../google/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../google/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../guide/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../guide/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../license.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../license.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../preview/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../preview/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/accessibilityservice/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/accessibilityservice/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/accounts/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/accounts/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/animation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/animation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/annotation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/annotation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/app/admin/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/app/admin/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/app/assist/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/app/assist/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/app/backup/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/app/backup/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/app/job/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/app/job/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/app/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/app/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/app/usage/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/app/usage/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/appwidget/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/appwidget/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/bluetooth/le/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/bluetooth/le/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/bluetooth/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/bluetooth/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/content/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/content/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/content/pm/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/content/pm/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/content/res/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/content/res/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/database/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/database/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/database/sqlite/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/database/sqlite/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/databinding/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/databinding/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/drm/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/drm/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/gesture/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/gesture/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/graphics/drawable/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/graphics/drawable/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/graphics/drawable/shapes/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/graphics/drawable/shapes/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/graphics/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/graphics/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/graphics/pdf/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/graphics/pdf/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/hardware/camera2/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/hardware/camera2/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/hardware/camera2/params/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/hardware/camera2/params/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/hardware/display/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/hardware/display/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/hardware/fingerprint/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/hardware/fingerprint/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/hardware/input/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/hardware/input/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/hardware/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/hardware/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/hardware/usb/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/hardware/usb/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/icu/lang/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/icu/lang/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/icu/math/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/icu/math/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/icu/text/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/icu/text/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/icu/util/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/icu/util/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/inputmethodservice/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/inputmethodservice/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/location/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/location/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/media/audiofx/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/media/audiofx/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/media/browse/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/media/browse/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/media/effect/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/media/effect/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/media/midi/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/media/midi/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/media/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/media/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/media/projection/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/media/projection/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/media/session/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/media/session/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/media/tv/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/media/tv/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/mtp/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/mtp/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/net/http/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/net/http/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/net/nsd/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/net/nsd/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/net/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/net/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/net/rtp/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/net/rtp/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/net/sip/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/net/sip/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/net/wifi/p2p/nsd/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/net/wifi/p2p/nsd/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/net/wifi/p2p/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/net/wifi/p2p/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/net/wifi/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/net/wifi/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/nfc/cardemulation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/nfc/cardemulation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/nfc/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/nfc/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/nfc/tech/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/nfc/tech/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/opengl/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/opengl/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/os/health/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/os/health/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/os/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/os/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/os/storage/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/os/storage/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/preference/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/preference/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/print/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/print/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/print/pdf/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/print/pdf/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/printservice/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/printservice/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/provider/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/provider/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/renderscript/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/renderscript/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/sax/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/sax/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/security/keystore/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/security/keystore/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/security/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/security/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/carrier/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/carrier/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/chooser/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/chooser/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/dreams/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/dreams/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/media/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/media/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/notification/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/notification/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/quicksettings/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/quicksettings/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/restrictions/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/restrictions/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/textservice/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/textservice/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/voice/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/voice/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/vr/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/vr/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/service/wallpaper/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/service/wallpaper/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/speech/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/speech/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/speech/tts/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/speech/tts/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/AnimRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/AnimRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/AnimatorRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/AnimatorRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/AnyRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/AnyRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/AnyThread.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/AnyThread.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/ArrayRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/ArrayRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/AttrRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/AttrRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/BinderThread.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/BinderThread.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/BoolRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/BoolRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/CallSuper.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/CallSuper.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/CheckResult.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/CheckResult.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/ColorInt.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/ColorInt.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/ColorRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/ColorRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/DimenRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/DimenRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/Dimension.Unit.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/Dimension.Unit.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/Dimension.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/Dimension.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/DrawableRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/DrawableRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/FloatRange.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/FloatRange.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/FractionRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/FractionRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/IdRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/IdRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/IntDef.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/IntDef.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/IntRange.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/IntRange.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/IntegerRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/IntegerRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/InterpolatorRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/InterpolatorRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/Keep.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/Keep.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/LayoutRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/LayoutRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/MainThread.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/MainThread.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/MenuRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/MenuRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/NonNull.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/NonNull.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/Nullable.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/Nullable.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/PluralsRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/PluralsRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/Px.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/Px.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/RawRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/RawRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/RequiresApi.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/RequiresApi.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/RequiresPermission.Read.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/RequiresPermission.Read.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/RequiresPermission.Write.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/RequiresPermission.Write.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/RequiresPermission.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/RequiresPermission.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/Size.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/Size.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/StringDef.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/StringDef.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/StringRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/StringRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/StyleRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/StyleRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/StyleableRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/StyleableRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/TransitionRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/TransitionRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/UiThread.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/UiThread.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/VisibleForTesting.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/VisibleForTesting.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/WorkerThread.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/WorkerThread.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/XmlRes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/XmlRes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/annotations/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/annotations/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/app/recommendation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/app/recommendation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/customtabs/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/customtabs/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/design/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/design/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/design/widget/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/design/widget/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/graphics/drawable/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/graphics/drawable/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/multidex/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/multidex/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/percent/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/percent/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/provider/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/provider/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v13/app/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v13/app/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v13/view/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v13/view/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v14/preference/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v14/preference/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v17/leanback/app/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v17/leanback/app/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v17/leanback/database/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v17/leanback/database/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v17/leanback/graphics/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v17/leanback/graphics/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v17/leanback/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v17/leanback/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v17/leanback/system/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v17/leanback/system/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v17/leanback/widget/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v17/leanback/widget/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v17/leanback/widget/picker/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v17/leanback/widget/picker/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v17/preference/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v17/preference/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/accessibilityservice/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/accessibilityservice/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/app/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/app/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/content/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/content/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/content/pm/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/content/pm/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/content/res/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/content/res/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/database/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/database/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/graphics/drawable/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/graphics/drawable/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/graphics/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/graphics/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/hardware/display/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/hardware/display/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/hardware/fingerprint/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/hardware/fingerprint/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/media/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/media/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/media/session/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/media/session/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/net/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/net/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/os/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/os/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/print/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/print/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/provider/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/provider/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/text/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/text/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/util/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/util/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/view/accessibility/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/view/accessibility/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/view/animation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/view/animation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/view/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/view/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v4/widget/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v4/widget/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/app/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/app/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/appcompat/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/appcompat/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/cardview/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/cardview/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/content/res/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/content/res/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/graphics/drawable/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/graphics/drawable/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/graphics/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/graphics/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/gridlayout/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/gridlayout/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/media/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/media/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/mediarouter/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/mediarouter/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/palette/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/palette/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/preference/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/preference/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/recyclerview/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/recyclerview/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/util/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/util/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/view/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/view/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/widget/helper/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/widget/helper/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/widget/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/widget/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v7/widget/util/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v7/widget/util/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/support/v8/renderscript/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/support/v8/renderscript/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/system/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/system/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/telecom/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/telecom/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/telephony/cdma/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/telephony/cdma/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/telephony/gsm/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/telephony/gsm/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/telephony/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/telephony/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/test/mock/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/test/mock/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/test/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/test/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/test/suitebuilder/annotation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/test/suitebuilder/annotation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/test/suitebuilder/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/test/suitebuilder/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/text/format/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/text/format/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/text/method/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/text/method/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/text/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/text/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/text/style/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/text/style/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/text/util/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/text/util/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/transition/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/transition/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/util/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/util/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/view/accessibility/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/view/accessibility/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/view/animation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/view/animation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/view/inputmethod/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/view/inputmethod/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/view/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/view/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/view/textservice/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/view/textservice/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/webkit/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/webkit/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/android/widget/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/android/widget/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/com/android/internal/backup/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/com/android/internal/backup/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/com/android/internal/logging/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/com/android/internal/logging/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/com/android/internal/os/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/com/android/internal/os/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/com/android/internal/statusbar/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/com/android/internal/statusbar/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/com/android/internal/widget/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/com/android/internal/widget/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/com/android/test/runner/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/com/android/test/runner/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/dalvik/annotation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/dalvik/annotation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/dalvik/bytecode/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/dalvik/bytecode/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/dalvik/system/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/dalvik/system/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/awt/font/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/awt/font/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/beans/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/beans/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/io/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/io/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/annotation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/lang/annotation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/lang/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/ref/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/lang/ref/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/lang/reflect/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/lang/reflect/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/math/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/math/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/net/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/net/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/nio/channels/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/nio/channels/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/nio/channels/spi/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/nio/channels/spi/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/nio/charset/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/nio/charset/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/nio/charset/spi/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/nio/charset/spi/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/nio/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/nio/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/security/acl/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/security/acl/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/security/cert/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/security/cert/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/security/interfaces/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/security/interfaces/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/security/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/security/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/security/spec/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/security/spec/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/sql/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/sql/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/text/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/text/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/concurrent/atomic/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/concurrent/atomic/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/concurrent/locks/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/concurrent/locks/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/concurrent/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/concurrent/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/function/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/function/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/jar/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/jar/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/logging/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/logging/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/prefs/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/prefs/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/regex/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/regex/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/stream/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/stream/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/java/util/zip/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/java/util/zip/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/crypto/interfaces/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/crypto/interfaces/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/crypto/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/crypto/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/crypto/spec/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/crypto/spec/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/microedition/khronos/egl/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/microedition/khronos/egl/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/microedition/khronos/opengles/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/microedition/khronos/opengles/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/net/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/net/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/net/ssl/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/net/ssl/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/security/auth/callback/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/security/auth/callback/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/security/auth/login/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/security/auth/login/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/security/auth/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/security/auth/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/security/auth/x500/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/security/auth/x500/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/security/cert/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/security/cert/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/sql/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/sql/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/datatype/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/datatype/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/namespace/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/namespace/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/parsers/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/parsers/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/transform/dom/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/transform/dom/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/transform/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/transform/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/transform/sax/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/transform/sax/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/transform/stream/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/transform/stream/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/validation/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/validation/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/javax/xml/xpath/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/javax/xml/xpath/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/junit/framework/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/junit/framework/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/junit/runner/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/junit/runner/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/apache/http/conn/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/apache/http/conn/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/apache/http/conn/scheme/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/apache/http/conn/scheme/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/apache/http/conn/ssl/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/apache/http/conn/ssl/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/apache/http/params/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/apache/http/params/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/json/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/json/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/w3c/dom/ls/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/w3c/dom/ls/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/w3c/dom/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/w3c/dom/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/xml/sax/ext/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/xml/sax/ext/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/xml/sax/helpers/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/xml/sax/helpers/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/xml/sax/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/xml/sax/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/xmlpull/v1/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/xmlpull/v1/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/org/xmlpull/v1/sax2/package-summary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/org/xmlpull/v1/sax2/package-summary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../reference/packages.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../reference/packages.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../sdk/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../sdk/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../training/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../training/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../tv/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../tv/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../../../../wear/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../../../../wear/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/about/android.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>/about/android.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/auto/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>/auto/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/legal.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>/legal.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/support.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>/support.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/tv/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>/tv/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/wear/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>/wear/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;About Android&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;a0&gt;About Android&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Blog&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;a0&gt;Blog&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a1&gt;Auto&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;a1&gt;Auto&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a1&gt;Support&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;a1&gt;Support&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a2&gt;TV&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;a2&gt;TV&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a3&gt;Wear&lt;/a3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;a3&gt;Wear&lt;/a3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a4&gt;Legal&lt;/a4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;a4&gt;Legal&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Developer&lt;/s0&gt; Console</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;s0&gt;Developer&lt;/s0&gt; Console</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Which best describes your business:&lt;/s0&gt;&lt;s1&gt;*&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;s0&gt;Which best describes your business:&lt;/s0&gt;&lt;s1&gt;*&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>@FloatRange(from=0.0,to=1.0)</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>@FloatRange(from=0.0,to=1.0)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>@IntRange(from=0,to=255)</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>@IntRange(from=0,to=255)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>API Guides</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>API Guides</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>API level:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>API level:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add me to the mailing list for the monthly newsletter and occasional emails about development and Google Play opportunities.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Add me to the mailing list for the monthly newsletter and occasional emails about development and Google Play opportunities.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Analyze</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Analyze</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Android</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android 6.0 r1 —</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Android 6.0 r1 —</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android APIs</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Android APIs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AnimRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>AnimRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AnimatorRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>AnimatorRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Annotations</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Annotations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AnyRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>AnyRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AnyThread</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>AnyThread</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Apps</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps &amp; Games</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Apps &amp; Games</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps and Games</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Apps and Games</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ArrayRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>ArrayRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AttrRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>AttrRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Auto</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Auto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Back</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Back</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bahasa Indonesia</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Bahasa Indonesia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BinderThread</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>BinderThread</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BoolRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>BoolRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CallSuper</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>CallSuper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CheckResult</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>CheckResult</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ColorInt</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>ColorInt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ColorRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>ColorRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Company / developer name</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Company / developer name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Content License&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Content License&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that a parameter, field or method return value can be null.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that a parameter, field or method return value can be null.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that a parameter, field or method return value can never be null.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that a parameter, field or method return value can never be null.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a boolean resource reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a boolean resource reference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a color resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a color resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a dimension resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a dimension resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a drawable resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a drawable resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a resource reference of any type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be a resource reference of any type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an anim resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an anim resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an array resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an array resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an attribute reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to be an attribute reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that an integer parameter, field or method return value is expected to represent a dimension.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that an integer parameter, field or method return value is expected to represent a dimension.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that any overriding methods should invoke this method as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that any overriding methods should invoke this method as well.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated String element, represents a logical</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated String element, represents a logical</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element of integer type, represents</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated element of integer type, represents</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element represents a packed color int, &lt;c0&gt;AARRGGBB&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated element represents a packed color int, &lt;c0&gt;AARRGGBB&lt;/c0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element requires (or may require) one or more permissions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated element requires (or may require) one or more permissions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element should be a float or double in the given range</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated element should be a float or double in the given range</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element should be an int or long in the given range</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated element should be an int or long in the given range</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element should have a given size or length.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated element should have a given size or length.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element should not be removed when</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated element should not be removed when</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated element should only be called on the given API level</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated element should only be called on the given API level</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated method can be called from any thread (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated method can be called from any thread (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated method or constructor should only be called on the UI thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated method or constructor should only be called on the UI thread.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated method returns a result that it typically is an error to ignore.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated method returns a result that it typically is an error to ignore.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated method should only be called on a worker thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated method should only be called on a worker thread.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated method should only be called on the binder thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated method should only be called on the binder thread.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the annotated method should only be called on the main thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the annotated method should only be called on the main thread.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Denotes that the class, method or field has its visibility relaxed, so that it is more widely</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Denotes that the class, method or field has its visibility relaxed, so that it is more widely</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Design</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Design</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Develop</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Develop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Developers</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DimenRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>DimenRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dimension</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Dimension</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dimension.Unit</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Dimension.Unit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Distribute</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Distribute</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DrawableRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>DrawableRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Earn</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Earn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Email address</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Email address</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Engage &amp; Retain</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Engage &amp; Retain</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>English</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Español</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Español</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Essentials</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Essentials</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Except as noted, this content is licensed under &lt;a0&gt;Apache 2.0&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Except as noted, this content is licensed under &lt;a0&gt;Apache 2.0&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FloatRange</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>FloatRange</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For details and restrictions, see the &lt;a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>For details and restrictions, see the &lt;a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FractionRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>FractionRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Full name</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Full name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Games</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Games</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Get Users</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Get Users</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Get news &amp; tips</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Get news &amp; tips</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Google Play</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Google Play</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Google Services</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Google Services</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Home</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Home</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hooray!</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Hooray!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IE=edge</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>IE=edge</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IdRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>IdRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IntDef</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>IntDef</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IntRange</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>IntRange</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IntegerRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>IntegerRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>InterpolatorRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>InterpolatorRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keep</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Keep</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LayoutRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>LayoutRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MainThread</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>MainThread</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MenuRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>MenuRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most visited</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Most visited</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NonNull</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>NonNull</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nullable</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Nullable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One of your Play Store app URLs</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>One of your Play Store app URLs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open navigation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Open navigation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PluralsRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>PluralsRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Português Brasileiro</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Português Brasileiro</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Preview</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Preview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Px</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Px</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RawRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>RawRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recently visited</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Recently visited</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reference</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Reference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RequiresApi</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>RequiresApi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RequiresPermission</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>RequiresPermission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RequiresPermission.Read</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>RequiresPermission.Read</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RequiresPermission.Write</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>RequiresPermission.Write</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Results for</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Results for</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Search</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select your target API level to dim unavailable APIs</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Select your target API level to dim unavailable APIs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Size</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Size</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies that the given permission is required for read operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Specifies that the given permission is required for read operations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies that the given permission is required for write operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Specifies that the given permission is required for write operations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Stories</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Stories</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>StringDef</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>StringDef</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>StringRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>StringRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>StyleRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>StyleRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>StyleableRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>StyleableRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TV</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>TV</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tools</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Tools</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Training</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Training</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TransitionRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>TransitionRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>UiThread</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>UiThread</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>VisibleForTesting</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>VisibleForTesting</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wear</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Wear</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>WorkerThread</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>WorkerThread</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>XmlRes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>XmlRes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a logical type and that its value should be one of the explicitly</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>a logical type and that its value should be one of the explicitly</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.accessibilityservice</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.accessibilityservice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.accounts</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.accounts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.animation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.animation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.annotation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.annotation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.app</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.app</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.app.admin</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.app.admin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.app.assist</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.app.assist</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.app.backup</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.app.backup</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.app.job</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.app.job</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.app.usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.app.usage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.appwidget</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.appwidget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.bluetooth</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.bluetooth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.bluetooth.le</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.bluetooth.le</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.content</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.content</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.content.pm</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.content.pm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.content.res</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.content.res</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.database</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.database</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.database.sqlite</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.database.sqlite</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.databinding</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.databinding</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.drm</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.drm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.gesture</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.gesture</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.graphics</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.graphics</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.graphics.drawable</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.graphics.drawable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.graphics.drawable.shapes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.graphics.drawable.shapes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.graphics.pdf</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.graphics.pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.hardware</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.hardware</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.hardware.camera2</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.hardware.camera2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.hardware.camera2.params</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.hardware.camera2.params</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.hardware.display</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.hardware.display</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.hardware.fingerprint</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.hardware.fingerprint</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.hardware.input</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.hardware.input</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.hardware.usb</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.hardware.usb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.icu.lang</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.icu.lang</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.icu.math</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.icu.math</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.icu.text</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.icu.text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.icu.util</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.icu.util</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.inputmethodservice</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.inputmethodservice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.location</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.location</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.media</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.media</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.media.audiofx</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.media.audiofx</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.media.browse</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.media.browse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.media.effect</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.media.effect</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.media.midi</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.media.midi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.media.projection</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.media.projection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.media.session</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.media.session</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.media.tv</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.media.tv</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.mtp</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.mtp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.net</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.net</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.net.http</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.net.http</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.net.nsd</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.net.nsd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.net.rtp</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.net.rtp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.net.sip</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.net.sip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.net.wifi</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.net.wifi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.net.wifi.p2p</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.net.wifi.p2p</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.net.wifi.p2p.nsd</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.net.wifi.p2p.nsd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.nfc</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.nfc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.nfc.cardemulation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.nfc.cardemulation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.nfc.tech</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.nfc.tech</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.opengl</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.opengl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.os</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.os</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.os.health</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.os.health</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.os.storage</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.os.storage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.preference</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.preference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.print</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.print</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.print.pdf</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.print.pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.printservice</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.printservice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.provider</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.provider</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.renderscript</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.renderscript</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.sax</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.sax</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.security</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.security</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.security.keystore</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.security.keystore</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.carrier</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.carrier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.chooser</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.chooser</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.dreams</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.dreams</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.media</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.media</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.notification</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.notification</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.quicksettings</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.quicksettings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.restrictions</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.restrictions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.textservice</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.textservice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.voice</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.voice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.vr</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.vr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.service.wallpaper</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.service.wallpaper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.speech</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.speech</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.speech.tts</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.speech.tts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.annotation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.annotation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.annotation - Android SDK | Android Developers</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.annotation - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.annotations</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.annotations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.app.recommendation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.app.recommendation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.customtabs</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.customtabs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.design</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.design</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.design.widget</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.design.widget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.graphics.drawable</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.graphics.drawable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.multidex</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.multidex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.percent</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.percent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.provider</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.provider</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v13.app</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v13.app</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v13.view</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v13.view</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v14.preference</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v14.preference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v17.leanback</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v17.leanback</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v17.leanback.app</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v17.leanback.app</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v17.leanback.database</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v17.leanback.database</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v17.leanback.graphics</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v17.leanback.graphics</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v17.leanback.system</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v17.leanback.system</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v17.leanback.widget</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v17.leanback.widget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v17.leanback.widget.picker</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v17.leanback.widget.picker</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v17.preference</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v17.preference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.accessibilityservice</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.accessibilityservice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.app</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.app</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.content</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.content</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.content.pm</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.content.pm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.content.res</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.content.res</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.database</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.database</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.graphics</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.graphics</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.graphics.drawable</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.graphics.drawable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.hardware.display</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.hardware.display</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.hardware.fingerprint</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.hardware.fingerprint</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.media</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.media</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.media.session</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.media.session</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.net</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.net</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.os</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.os</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.print</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.print</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.provider</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.provider</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.text</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.util</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.util</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.view</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.view</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.view.accessibility</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.view.accessibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.view.animation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.view.animation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v4.widget</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v4.widget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.app</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.app</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.appcompat</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.appcompat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.cardview</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.cardview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.content.res</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.content.res</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.graphics</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.graphics</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.graphics.drawable</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.graphics.drawable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.gridlayout</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.gridlayout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.media</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.media</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.mediarouter</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.mediarouter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.palette</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.palette</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.preference</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.preference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.recyclerview</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.recyclerview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.util</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.util</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.view</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.view</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.widget</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.widget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.widget.helper</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.widget.helper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v7.widget.util</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v7.widget.util</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.support.v8.renderscript</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.support.v8.renderscript</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.system</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.system</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.telecom</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.telecom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.telephony</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.telephony</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.telephony.cdma</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.telephony.cdma</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.telephony.gsm</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.telephony.gsm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.test</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.test.mock</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.test.mock</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.test.suitebuilder</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.test.suitebuilder</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.test.suitebuilder.annotation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.test.suitebuilder.annotation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.text</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.text.format</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.text.format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.text.method</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.text.method</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.text.style</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.text.style</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.text.util</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.text.util</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.transition</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.transition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.util</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.util</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.view</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.view</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.view.accessibility</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.view.accessibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.view.animation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.view.animation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.view.inputmethod</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.view.inputmethod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.view.textservice</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.view.textservice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.webkit</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.webkit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.widget</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>android.widget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>com.android.internal.backup</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>com.android.internal.backup</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>com.android.internal.logging</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>com.android.internal.logging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>com.android.internal.os</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>com.android.internal.os</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>com.android.internal.statusbar</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>com.android.internal.statusbar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>com.android.internal.widget</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>com.android.internal.widget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>com.android.test.runner</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>com.android.test.runner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dalvik.annotation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>dalvik.annotation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dalvik.bytecode</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>dalvik.bytecode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dalvik.system</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>dalvik.system</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>en</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>en</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>es</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>es</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://android-developers.blogspot.com/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://android-developers.blogspot.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/intl/es/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/intl/es/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/intl/id/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/intl/id/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/intl/ja/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/intl/ja/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/intl/ko/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/intl/ko/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/intl/pt-br/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/intl/pt-br/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/intl/ru/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/intl/ru/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/intl/vi/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/intl/vi/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/intl/zh-cn/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/intl/zh-cn/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://developer.android.com/intl/zh-tw/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://developer.android.com/intl/zh-tw/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://fonts.googleapis.com/css?family=Roboto+Condensed</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://fonts.googleapis.com/css?family=Roboto+Condensed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://fonts.googleapis.com/css?family=Roboto:light,regular,medium,thin,italic,mediumitalic,bold</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://fonts.googleapis.com/css?family=Roboto:light,regular,medium,thin,italic,mediumitalic,bold</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.apache.org/licenses/LICENSE-2.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://www.apache.org/licenses/LICENSE-2.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://play.google.com/apps/publish/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://play.google.com/apps/publish/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://plus.google.com/+AndroidDevelopers</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://plus.google.com/+AndroidDevelopers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://twitter.com/AndroidDev</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://twitter.com/AndroidDev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.youtube.com/user/androiddevelopers</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://www.youtube.com/user/androiddevelopers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>id</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ja</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>ja</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.awt.font</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.awt.font</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.beans</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.beans</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.io</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.io</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.lang</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.lang</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.lang.annotation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.lang.annotation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.lang.ref</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.lang.ref</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.lang.reflect</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.lang.reflect</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.math</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.math</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.net</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.net</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.nio</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.nio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.nio.channels</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.nio.channels</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.nio.channels.spi</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.nio.channels.spi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.nio.charset</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.nio.charset</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.nio.charset.spi</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.nio.charset.spi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.security</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.security</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.security.acl</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.security.acl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.security.cert</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.security.cert</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.security.interfaces</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.security.interfaces</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.security.spec</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.security.spec</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.sql</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.sql</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.text</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.concurrent</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.concurrent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.concurrent.atomic</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.concurrent.atomic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.concurrent.locks</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.concurrent.locks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.function</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.function</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.logging</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.logging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.prefs</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.prefs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.regex</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.regex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.stream</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.stream</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java.util.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>java.util.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javascript:;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javascript:;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.crypto</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.crypto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.crypto.interfaces</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.crypto.interfaces</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.crypto.spec</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.crypto.spec</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.microedition.khronos.egl</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.microedition.khronos.egl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.microedition.khronos.opengles</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.microedition.khronos.opengles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.net</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.net</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.net.ssl</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.net.ssl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.security.auth</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.security.auth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.security.auth.callback</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.security.auth.callback</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.security.auth.login</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.security.auth.login</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.security.auth.x500</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.security.auth.x500</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.security.cert</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.security.cert</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.sql</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.sql</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml.datatype</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml.datatype</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml.namespace</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml.namespace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml.parsers</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml.parsers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml.transform</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml.transform</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml.transform.dom</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml.transform.dom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml.transform.sax</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml.transform.sax</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml.transform.stream</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml.transform.stream</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml.validation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml.validation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javax.xml.xpath</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>javax.xml.xpath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>junit.framework</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>junit.framework</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>junit.runner</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>junit.runner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ko</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>ko</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>named constants.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>named constants.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>or higher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>or higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.http.conn</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.apache.http.conn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.http.conn.scheme</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.apache.http.conn.scheme</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.http.conn.ssl</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.apache.http.conn.ssl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.http.params</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.apache.http.params</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.json</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.json</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.w3c.dom</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.w3c.dom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.w3c.dom.ls</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.w3c.dom.ls</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.xml.sax</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.xml.sax</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.xml.sax.ext</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.xml.sax.ext</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.xml.sax.helpers</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.xml.sax.helpers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.xmlpull.v1</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.xmlpull.v1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.xmlpull.v1.sax2</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>org.xmlpull.v1.sax2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pt-br</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>pt-br</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>public float getAlpha() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>public float getAlpha() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>public int getAlpha() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>public int getAlpha() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>roboto</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>roboto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ru</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>ru</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the code is minified at build time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>the code is minified at build time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tiếng Việt</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>tiếng Việt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a String resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be a String resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a fraction resource reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be a fraction resource reference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a layout resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be a layout resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a menu resource reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be a menu resource reference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a plurals resource reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be a plurals resource reference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a raw resource reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be a raw resource reference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a style resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be a style resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a styleable resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be a styleable resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be a transition resource reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be a transition resource reference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be an XML resource reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be an XML resource reference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be an id resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be an id resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be an integer resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be an integer resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to be an interpolator resource reference (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to be an interpolator resource reference (e.g.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to represent a pixel dimension.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>to represent a pixel dimension.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>type and that its value should be one of the explicitly named constants.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>type and that its value should be one of the explicitly named constants.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>vi</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>vi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>visible than otherwise necessary to make code testable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>visible than otherwise necessary to make code testable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035659Z">
+        <seg>width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>zh-cn</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>zh-cn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>zh-tw</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>zh-tw</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Русский</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Русский</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>中文（简体)</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>中文（简体)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>中文（繁體)</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>中文（繁體)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>日本語</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>日本語</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>한국어</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>한국어</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
