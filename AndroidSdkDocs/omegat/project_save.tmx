@@ -3872,8 +3872,8 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that an integer parameter, field or method return value is expected</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062426Z">
+        <seg>指示一个整型参数、字段或方法的返回值，</seg>
       </tuv>
     </tu>
     <tu>
@@ -3881,7 +3881,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a String resource reference (e.g. &lt;c0&gt;android.R.string.ok&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054652Z" creationid="Admin" creationdate="20171011T054652Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 String 资源引用 (e.g. &lt;c0&gt;android.R.string.ok&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 String 资源引用 (e.g. &lt;c0&gt;android.R.string.ok&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3889,15 +3889,15 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a boolean resource reference.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042647Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 boolean 资源引用。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 boolean 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a color resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that an integer parameter, field or method return value is expected to be a color resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063650Z">
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 color 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3905,15 +3905,15 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a color resource reference (e.g. &lt;c0&gt;android.R.color.black&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045250Z" creationid="Admin" creationdate="20171011T045250Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 color 资源引用 (e.g. &lt;c0&gt;android.R.color.black&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 color 资源引用 (e.g. &lt;c0&gt;android.R.color.black&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a dimension resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that an integer parameter, field or method return value is expected to be a dimension resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063657Z">
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 dimension 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3921,15 +3921,15 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a dimension resource reference (e.g. &lt;c0&gt;android.R.dimen.app_icon_size&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045330Z" creationid="Admin" creationdate="20171011T045330Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 dimension 资源引用 (e.g. &lt;c0&gt;android.R.dimen.app_icon_size&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 dimension 资源引用 (e.g. &lt;c0&gt;android.R.dimen.app_icon_size&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a drawable resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that an integer parameter, field or method return value is expected to be a drawable resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063703Z">
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 drawable 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3937,7 +3937,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a drawable resource reference (e.g. &lt;c0&gt;android.R.attr.alertDialogIcon&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045546Z" creationid="Admin" creationdate="20171011T045546Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 drawable 资源引用 (e.g. &lt;c0&gt;android.R.attr.alertDialogIcon&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 drawable 资源引用 (e.g. &lt;c0&gt;android.R.attr.alertDialogIcon&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3945,7 +3945,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a fraction resource reference.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050528Z" creationid="Admin" creationdate="20171011T045642Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 fraction 资源引用。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 fraction 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3953,7 +3953,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a layout resource reference (e.g. &lt;c0&gt;android.R.layout.list_content&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050417Z" creationid="Admin" creationdate="20171011T050417Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 layout 资源引用 (e.g. &lt;c0&gt;android.R.layout.list_content&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 layout 资源引用 (e.g. &lt;c0&gt;android.R.layout.list_content&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3961,7 +3961,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a menu resource reference.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050512Z" creationid="Admin" creationdate="20171011T050512Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 menu 资源引用。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 menu 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3969,7 +3969,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a plurals resource reference.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051037Z" creationid="Admin" creationdate="20171011T051037Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 plurals 资源引用。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 plurals 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3977,7 +3977,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a raw resource reference.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051144Z" creationid="Admin" creationdate="20171011T051144Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 raw 资源引用。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 raw 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3985,7 +3985,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a resource reference of any type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042021Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个任意类型的资源引用。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个任意类型的资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3993,7 +3993,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a style resource reference (e.g. &lt;c0&gt;android.R.style.TextAppearance&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054756Z" creationid="Admin" creationdate="20171011T054756Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 style 资源引用 (e.g. &lt;c0&gt;android.R.style.TextAppearance&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 style 资源引用 (e.g. &lt;c0&gt;android.R.style.TextAppearance&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4001,7 +4001,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a styleable resource reference (e.g. &lt;c0&gt;android.R.styleable.TextView_text&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054740Z" creationid="Admin" creationdate="20171011T054740Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 styleable 资源引用 (e.g. &lt;c0&gt;android.R.styleable.TextView_text&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 styleable 资源引用 (e.g. &lt;c0&gt;android.R.styleable.TextView_text&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4009,7 +4009,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be a transition resource reference.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054821Z" creationid="Admin" creationdate="20171011T054821Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 transition 资源引用。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 transition 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4017,15 +4017,15 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be an XML resource reference.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055947Z" creationid="Admin" creationdate="20171011T055947Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 XML 资源引用。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 XML 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an anim resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that an integer parameter, field or method return value is expected to be an anim resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063740Z">
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 anim 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4033,15 +4033,15 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be an anim resource reference (e.g. &lt;c0&gt;android.R.anim.fade_in&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041943Z" creationid="Admin" creationdate="20171011T041943Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 anim 资源引用 (e.g. &lt;c0&gt;android.R.anim.fade_in&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 anim 资源引用 (e.g. &lt;c0&gt;android.R.anim.fade_in&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063736Z">
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 animator 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4049,15 +4049,15 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g. &lt;c0&gt;android.R.animator.fade_in&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040109Z" creationid="Admin" creationdate="20171011T040109Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 animator 资源引用 (e.g. &lt;c0&gt;android.R.animator.fade_in&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 animator 资源引用 (e.g. &lt;c0&gt;android.R.animator.fade_in&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an array resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that an integer parameter, field or method return value is expected to be an array resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063745Z">
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 array 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4065,15 +4065,15 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be an array resource reference (e.g. &lt;c0&gt;android.R.array.phoneTypes&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042351Z" creationid="Admin" creationdate="20171011T042351Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 array 资源引用 (e.g. &lt;c0&gt;android.R.array.phoneTypes&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 array 资源引用 (e.g. &lt;c0&gt;android.R.array.phoneTypes&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an attribute reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that an integer parameter, field or method return value is expected to be an attribute reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063751Z">
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 attribute 资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4081,7 +4081,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be an attribute reference (e.g. &lt;c0&gt;android.R.attr.action&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042421Z" creationid="Admin" creationdate="20171011T042421Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 attribute 资源 (e.g. &lt;c0&gt;android.R.attr.action&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 attribute 资源 (e.g. &lt;c0&gt;android.R.attr.action&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4089,7 +4089,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be an id resource reference (e.g. &lt;c0&gt;android.R.id.copy&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045708Z" creationid="Admin" creationdate="20171011T045708Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 id 资源引用 (e.g. &lt;c0&gt;android.R.id.copy&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 id 资源引用 (e.g. &lt;c0&gt;android.R.id.copy&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4097,7 +4097,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be an integer resource reference (e.g. &lt;c0&gt;android.R.integer.config_shortAnimTime&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050047Z" creationid="Admin" creationdate="20171011T050047Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 integer 资源引用 (e.g. &lt;c0&gt;android.R.integer.config_shortAnimTime&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 integer 资源引用 (e.g. &lt;c0&gt;android.R.integer.config_shortAnimTime&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4105,7 +4105,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to be an interpolator resource reference (e.g. &lt;c0&gt;android.R.interpolator.cycle&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050116Z" creationid="Admin" creationdate="20171011T050116Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期是一个 interpolator 资源引用 (e.g. &lt;c0&gt;android.R.interpolator.cycle&lt;/c0&gt;).</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期是一个 interpolator 资源引用 (e.g. &lt;c0&gt;android.R.interpolator.cycle&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4113,7 +4113,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to represent a dimension.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045401Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期表示一个尺寸。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期表示一个尺寸。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4121,7 +4121,7 @@
         <seg>Denotes that an integer parameter, field or method return value is expected to represent a pixel dimension.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051129Z" creationid="Admin" creationdate="20171011T051129Z">
-        <seg>指示一个整型参数，字段或方法的返回值，预期表示一个像素尺寸。</seg>
+        <seg>指示一个整型参数、字段或方法的返回值，预期表示一个像素尺寸。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4136,8 +4136,8 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated String element, represents a logical</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that the annotated String element, represents a logical</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063208Z">
+        <seg>指示所注解的字符串元素，</seg>
       </tuv>
     </tu>
     <tu>
@@ -4152,8 +4152,8 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element of integer type, represents</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that the annotated element of integer type, represents</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062526Z">
+        <seg>指示所注解的整型元素，</seg>
       </tuv>
     </tu>
     <tu>
@@ -4208,8 +4208,8 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element should not be removed when</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that the annotated element should not be removed when</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062722Z">
+        <seg>指示所注解的元素在编译时压缩代码时，不应该被移除。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4224,8 +4224,8 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element should only be called on the given API level</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that the annotated element should only be called on the given API level</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063149Z">
+        <seg>指示所注解的元素，只应该在给定的 API 级别或更高级别上调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4240,8 +4240,8 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated method can be called from any thread (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that the annotated method can be called from any thread (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062315Z">
+        <seg>指示所注解的方法可以从任意线程调用</seg>
       </tuv>
     </tu>
     <tu>
@@ -4296,8 +4296,8 @@
       <tuv lang="EN-US">
         <seg>Denotes that the class, method or field has its visibility relaxed, so that it is more widely</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>Denotes that the class, method or field has its visibility relaxed, so that it is more widely</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063350Z">
+        <seg>指示类，方法或字段的可见性放宽，</seg>
       </tuv>
     </tu>
     <tu>
@@ -5568,8 +5568,8 @@
       <tuv lang="EN-US">
         <seg>a logical type and that its value should be one of the explicitly</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>a logical type and that its value should be one of the explicitly</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062618Z">
+        <seg>表示一个逻辑类型，并且它的值应该是显示指明的常量之一。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8112,16 +8112,16 @@
       <tuv lang="EN-US">
         <seg>named constants.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>named constants.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062622Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>or higher.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>or higher.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063152Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -8488,8 +8488,8 @@
       <tuv lang="EN-US">
         <seg>the code is minified at build time.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>the code is minified at build time.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062725Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -8504,120 +8504,120 @@
       <tuv lang="EN-US">
         <seg>to be a String resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be a String resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063308Z">
+        <seg>预期是一个 resource 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be a fraction resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be a fraction resource reference.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062448Z">
+        <seg>预期是一个 fraction 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be a layout resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be a layout resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062743Z">
+        <seg>预期是一个 layout 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be a menu resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be a menu resource reference.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062753Z">
+        <seg>预期是一个 menu 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be a plurals resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be a plurals resource reference.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062804Z">
+        <seg>预期是一个 plurals 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be a raw resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be a raw resource reference.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063143Z">
+        <seg>预期是一个 raw 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be a style resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be a style resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063324Z">
+        <seg>预期是一个 style 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be a styleable resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be a styleable resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063316Z">
+        <seg>预期是一个 styleable 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be a transition resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be a transition resource reference.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063333Z">
+        <seg>预期是一个 transition 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be an XML resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be an XML resource reference.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063453Z">
+        <seg>预期是一个 XML 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be an id resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be an id resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062509Z">
+        <seg>预期是一个 id 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be an integer resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be an integer resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062642Z">
+        <seg>预期是一个 integer 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to be an interpolator resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to be an interpolator resource reference (e.g.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062707Z">
+        <seg>预期是一个 interpolator 资源引用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>to represent a pixel dimension.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>to represent a pixel dimension.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062823Z">
+        <seg>预期是一个像素尺寸。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>type and that its value should be one of the explicitly named constants.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>type and that its value should be one of the explicitly named constants.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063252Z">
+        <seg>表示一个逻辑类型，并且它的值应该是显示指明的常量之一。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8640,8 +8640,8 @@
       <tuv lang="EN-US">
         <seg>visible than otherwise necessary to make code testable.</seg>
       </tuv>
-      <tuv lang="ZH-CN">
-        <seg>visible than otherwise necessary to make code testable.</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063357Z">
+        <seg>它比必要的可见性更广以使代码更可测试。</seg>
       </tuv>
     </tu>
     <tu>
