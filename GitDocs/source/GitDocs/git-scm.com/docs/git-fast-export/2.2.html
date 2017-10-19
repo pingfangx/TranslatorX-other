@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from git-scm.com/docs/git-fast-export/2.2.0 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:52:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+
+  <title>Git - git-fast-export Documentation</title>
+
+  <link href='https://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+  <link rel="alternate" href="https://git-scm.com/blog.rss" type="application/rss+xml" title="Git - Blog">
+
+  <link rel="stylesheet" media="screen" href="../../assets/git-scm-e7baad50e93810401dcff271ffd82512.css" />
+  <script src="../../assets/modernizr-0a2ce4076d64283b11c658f7ef3100c6.js"></script>
+<script src="../../assets/modernizr-tests-73fae1efb92f6d477f2f589e95775709.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/javascripts/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <script src="../../../use.typekit.com/jsq2fql.js" type="text/javascript"></script>
+  <script>
+    //<![CDATA[
+      try{Typekit.load();}catch(e){}
+    //]]>
+  </script>
+
+</head>
+
+<body id="documentation">
+
+  <div class="inner">
+    <header>
+
+  <a href="https://git-scm.com/"><img src="../../images/logo%402x.png" width="110" height="46" alt="Git" /></a>
+  <span id="tagline"></span>
+  <script type="text/javascript">
+    var taglines = ["fast-version-control","everything-is-local","distributed-even-if-your-workflow-isnt","local-branching-on-the-cheap","distributed-is-the-new-centralized"];
+    var tagline = taglines[Math.floor(Math.random() * taglines.length)];
+    document.getElementById('tagline').innerHTML = '--' + tagline;
+  </script>
+  <form id="search" action="https://git-scm.com/search/results">
+    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
+  </form>
+  <div id="search-results"></div>
+
+</header>
+
+  </div> <!-- .inner -->
+
+    <div class="inner">
+      <div id="content-wrapper">
+        <aside class="sidebar">
+  <nav>
+    <ul>
+      <li>
+        <a href="https://git-scm.com/about">About</a>
+      </li>
+      <li>
+        <a class="active" href="https://git-scm.com/doc">Documentation</a>
+        <ul class="expanded">
+          <li>
+            <a href="https://git-scm.com/docs">Reference</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/book">Book</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/videos">Videos</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/doc/ext">External Links</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/blog">Blog</a>
+      </li>
+      <li>
+        <a href="https://git-scm.com/downloads">Downloads</a>
+        <ul class="">
+          <li>
+            <a href="https://git-scm.com/downloads/guis">GUI Clients</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/downloads/logos">Logos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/community">Community</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+        <div id="content">
+          
+
+  <div id='reference-version'>
+    <a class="dropdown-trigger" id="reference-topics-trigger" data-panel-id="topics-dropdown" href="#">Topics ▾</a>
+<div class='dropdown-panel right' id='topics-dropdown'>
+  <div class='three-column'>
+    <div class='column-left'>
+      <h3 class='setup'>Setup and Config</h3>
+<ul class='unstyled'>
+  <li><a href="../git.html">git</a></li>
+  <li><a href="../git-config.html">config</a></li>
+  <li><a href="../git-help.html">help</a></li>
+</ul>
+
+      <h3 class='projects'>Getting and Creating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="../git-init.html">init</a></li>
+  <li><a href="../git-clone.html">clone</a></li>
+</ul>
+
+      <h3 class='snapshotting'>Basic Snapshotting</h3>
+<ul class='unstyled'>
+  <li><a href="../git-add.html">add</a></li>
+  <li><a href="../git-status.html">status</a></li>
+  <li><a href="../git-diff.html">diff</a></li>
+  <li><a href="../git-commit.html">commit</a></li>
+  <li><a href="../git-reset.html">reset</a></li>
+  <li><a href="../git-rm.html">rm</a></li>
+  <li><a href="../git-mv.html">mv</a></li>
+</ul>
+
+      <h3 class='branching'>Branching and Merging</h3>
+<ul class='unstyled'>
+  <li><a href="../git-branch.html">branch</a></li>
+  <li><a href="../git-checkout.html">checkout</a></li>
+  <li><a href="../git-merge.html">merge</a></li>
+  <li><a href="../git-mergetool.html">mergetool</a></li>
+  <li><a href="../git-log.html">log</a></li>
+  <li><a href="../git-stash.html">stash</a></li>
+  <li><a href="../git-tag.html">tag</a></li>
+</ul>
+
+      <h3 class='sharing'>Sharing and Updating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="../git-fetch.html">fetch</a></li>
+  <li><a href="../git-pull.html">pull</a></li>
+  <li><a href="../git-push.html">push</a></li>
+  <li><a href="../git-remote.html">remote</a></li>
+  <li><a href="../git-submodule.html">submodule</a></li>
+</ul>
+
+    </div>
+    <div class='column-middle'>
+      <h3 class='inspection'>Inspection and Comparison</h3>
+<ul class='unstyled'>
+  <li><a href="../git-show.html">show</a></li>
+  <li><a href="../git-log.html">log</a></li>
+  <li><a href="../git-diff.html">diff</a></li>
+  <li><a href="../git-shortlog.html">shortlog</a></li>
+  <li><a href="../git-describe.html">describe</a></li>
+</ul>
+
+      <h3 class='patching'>Patching</h3>
+<ul class='unstyled'>
+  <li><a href="../git-apply.html">apply</a></li>
+  <li><a href="../git-cherry-pick.html">cherry-pick</a></li>
+  <li><a href="../git-diff.html">diff</a></li>
+  <li><a href="../git-rebase.html">rebase</a></li>
+  <li><a href="../git-revert.html">revert</a></li>
+</ul>
+
+      <h3 class='debugging'>Debugging</h3>
+<ul class='unstyled'>
+  <li><a href="../git-bisect.html">bisect</a></li>
+  <li><a href="../git-blame.html">blame</a></li>
+  <li><a href="../git-grep.html">grep</a></li>
+</ul>
+
+      <h3 class='email'>Email</h3>
+<ul class='unstyled'>
+  <li><a href="../git-am.html">am</a></li>
+  <li><a href="../git-apply.html">apply</a></li>
+  <li><a href="../git-format-patch.html">format-patch</a></li>
+  <li><a href="../git-send-email.html">send-email</a></li>
+  <li><a href="../git-request-pull.html">request-pull</a></li>
+</ul>
+
+      <h3 class='external'>External Systems</h3>
+<ul class='unstyled'>
+  <li><a href="../git-svn.html">svn</a></li>
+  <li><a href="../git-fast-import.html">fast-import</a></li>
+</ul>
+
+      <h3 class='server-admin'>Server Admin</h3>
+<ul class='unstyled'>
+  <li><a href="../git-daemon.html">daemon</a></li>
+  <li><a href="../git-update-server-info.html">update-server-info</a></li>
+</ul>
+
+    </div>
+    <div class='column-right'>
+      <h3 class='guides'>Guides</h3>
+<ul class='unstyled'>
+  <li><a href="../gitattributes.html">gitattributes</a></li>
+  <li><a href="../giteveryday.html">Everyday Git</a></li>
+  <li><a href="../gitglossary.html">Glossary</a></li>
+  <li><a href="../gitignore.html">gitignore</a></li>
+  <li><a href="../gitmodules.html">gitmodules</a></li>
+  <li><a href="../gitrevisions.html">Revisions</a></li>
+  <li><a href="../gittutorial.html">Tutorial</a></li>
+  <li><a href="../gitworkflows.html">Workflows</a></li>
+</ul>
+
+      <h3 class='admin'>Administration</h3>
+<ul class='unstyled'>
+  <li><a href="../git-clean.html">clean</a></li>
+  <li><a href="../git-gc.html">gc</a></li>
+  <li><a href="../git-fsck.html">fsck</a></li>
+  <li><a href="../git-reflog.html">reflog</a></li>
+  <li><a href="../git-filter-branch.html">filter-branch</a></li>
+  <li><a href="../git-instaweb.html">instaweb</a></li>
+  <li><a href="../git-archive.html">archive</a></li>
+  <li><a href="../git-bundle.html">bundle</a></li>
+</ul>
+
+      <h3 class='plumbing'>Plumbing Commands</h3>
+<ul class='unstyled'>
+  <li><a href="../git-cat-file.html">cat-file</a></li>
+  <li><a href="../git-check-ignore.html">check-ignore</a></li>
+  <li><a href="../git-commit-tree.html">commit-tree</a></li>
+  <li><a href="../git-count-objects.html">count-objects</a></li>
+  <li><a href="../git-diff-index.html">diff-index</a></li>
+  <li><a href="../git-for-each-ref.html">for-each-ref</a></li>
+  <li><a href="../git-hash-object.html">hash-object</a></li>
+  <li><a href="../git-ls-files.html">ls-files</a></li>
+  <li><a href="../git-merge-base.html">merge-base</a></li>
+  <li><a href="../git-read-tree.html">read-tree</a></li>
+  <li><a href="../git-rev-list.html">rev-list</a></li>
+  <li><a href="../git-rev-parse.html">rev-parse</a></li>
+  <li><a href="../git-show-ref.html">show-ref</a></li>
+  <li><a href="../git-symbolic-ref.html">symbolic-ref</a></li>
+  <li><a href="../git-update-index.html">update-index</a></li>
+  <li><a href="../git-update-ref.html">update-ref</a></li>
+  <li><a href="../git-verify-pack.html">verify-pack</a></li>
+  <li><a href="../git-write-tree.html">write-tree</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+    <a class="dropdown-trigger" id="reference-versions-trigger" data-panel-id="previous-versions-dropdown" href="#">Version 2.2.0 ▾</a>
+<span class="light">git-fast-export last updated in 2.14.2</span>
+<div class='dropdown-panel left' id='previous-versions-dropdown'>
+  <header>Changes in the <strong>git-fast-export</strong> manual</header>
+  <ol class='reference-previous-versions'>
+        <li class="no-change"><span>2.4.4 &rarr; 2.14.2 no changes</span></li>
+        <li>
+        <a href="2.4.html"><span class="version">2.4.3</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">06/05/15</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.2.1 &rarr; 2.4.2 no changes</span></li>
+        <li>
+        <a href="2.2.html"><span class="version">2.2.0</span>
+          <span class="diff">
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">11/26/14</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.1.1 &rarr; 2.1.4 no changes</span></li>
+        <li>
+        <a href="2.1.html"><span class="version">2.1.0</span>
+          <span class="diff">
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">08/15/14</em>
+        </a>
+        </li>
+    <li>&nbsp;</li>
+    <!-- <li><a class="more" href="#">See more previous releases →</a></li> -->
+  </ol>
+  <footer>
+    <span class="light">Check your version of git by running<br></span>
+    <strong>$</strong>
+    <input type="text" class="copyable" value="git --version" />
+  </footer>
+</div>
+
+  </div>
+
+  <div id='main'>
+    <div class="sect1">
+<h2 id="_name"><a class="anchor" href="#_name"></a>NAME</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>git-fast-export - Git data exporter</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_synopsis"><a class="anchor" href="#_synopsis"></a>SYNOPSIS</h2>
+<div class="sectionbody">
+<div class="verseblock">
+<pre class="content"><em>git fast-export [options]</em> | <em>git fast-import</em></pre>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_description"><a class="anchor" href="#_description"></a>DESCRIPTION</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This program dumps the given revisions in a form suitable to be piped
+into <em>git fast-import</em>.</p>
+</div>
+<div class="paragraph">
+<p>You can use it as a human-readable bundle replacement (see
+<a href='../git-bundle.html'>git-bundle[1]</a>), or as a kind of an interactive
+<em>git filter-branch</em>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_options"><a class="anchor" href="#_options"></a>OPTIONS</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1" id="git-fast-export---progressltngt"> <a class="anchor" href="#git-fast-export---progressltngt"></a>--progress=&lt;n&gt; </dt>
+<dd>
+<p>Insert <em>progress</em> statements every &lt;n&gt; objects, to be shown by
+<em>git fast-import</em> during import.</p>
+</dd>
+<dt class="hdlist1" id="git-fast-export---signed-tagsverbatimwarnwarn-stripstripabort"> <a class="anchor" href="#git-fast-export---signed-tagsverbatimwarnwarn-stripstripabort"></a>--signed-tags=(verbatim|warn|warn-strip|strip|abort) </dt>
+<dd>
+<p>Specify how to handle signed tags.  Since any transformation
+after the export can change the tag names (which can also happen
+when excluding revisions) the signatures will not match.</p>
+<div class="paragraph">
+<p>When asking to <em>abort</em> (which is the default), this program will die
+when encountering a signed tag.  With <em>strip</em>, the tags will silently
+be made unsigned, with <em>warn-strip</em> they will be made unsigned but a
+warning will be displayed, with <em>verbatim</em>, they will be silently
+exported and with <em>warn</em>, they will be exported, but you will see a
+warning.</p>
+</div>
+</dd>
+<dt class="hdlist1" id="git-fast-export---tag-of-filtered-objectabortdroprewrite"> <a class="anchor" href="#git-fast-export---tag-of-filtered-objectabortdroprewrite"></a>--tag-of-filtered-object=(abort|drop|rewrite) </dt>
+<dd>
+<p>Specify how to handle tags whose tagged object is filtered out.
+Since revisions and files to export can be limited by path,
+tagged objects may be filtered completely.</p>
+<div class="paragraph">
+<p>When asking to <em>abort</em> (which is the default), this program will die
+when encountering such a tag.  With <em>drop</em> it will omit such tags from
+the output.  With <em>rewrite</em>, if the tagged object is a commit, it will
+rewrite the tag to tag an ancestor commit (via parent rewriting; see
+<a href='../git-rev-list.html'>git-rev-list[1]</a>)</p>
+</div>
+</dd>
+<dt class="hdlist1" id="git-fast-export--M"> <a class="anchor" href="#git-fast-export--M"></a>-M </dt>
+<dt class="hdlist1" id="git-fast-export--C"> <a class="anchor" href="#git-fast-export--C"></a>-C </dt>
+<dd>
+<p>Perform move and/or copy detection, as described in the
+<a href='../git-diff.html'>git-diff[1]</a> manual page, and use it to generate
+rename and copy commands in the output dump.</p>
+<div class="paragraph">
+<p>Note that earlier versions of this command did not complain and
+produced incorrect results if you gave these options.</p>
+</div>
+</dd>
+<dt class="hdlist1" id="git-fast-export---export-marksltfilegt"> <a class="anchor" href="#git-fast-export---export-marksltfilegt"></a>--export-marks=&lt;file&gt; </dt>
+<dd>
+<p>Dumps the internal marks table to &lt;file&gt; when complete.
+Marks are written one per line as <code>:markid SHA-1</code>. Only marks
+for revisions are dumped; marks for blobs are ignored.
+Backends can use this file to validate imports after they
+have been completed, or to save the marks table across
+incremental runs.  As &lt;file&gt; is only opened and truncated
+at completion, the same path can also be safely given to
+\--import-marks.
+The file will not be written if no new object has been
+marked/exported.</p>
+</dd>
+<dt class="hdlist1" id="git-fast-export---import-marksltfilegt"> <a class="anchor" href="#git-fast-export---import-marksltfilegt"></a>--import-marks=&lt;file&gt; </dt>
+<dd>
+<p>Before processing any input, load the marks specified in
+&lt;file&gt;.  The input file must exist, must be readable, and
+must use the same format as produced by \--export-marks.</p>
+<div class="paragraph">
+<p>Any commits that have already been marked will not be exported again.
+If the backend uses a similar \--import-marks file, this allows for
+incremental bidirectional exporting of the repository by keeping the
+marks the same across runs.</p>
+</div>
+</dd>
+<dt class="hdlist1" id="git-fast-export---fake-missing-tagger"> <a class="anchor" href="#git-fast-export---fake-missing-tagger"></a>--fake-missing-tagger </dt>
+<dd>
+<p>Some old repositories have tags without a tagger.  The
+fast-import protocol was pretty strict about that, and did not
+allow that.  So fake a tagger to be able to fast-import the
+output.</p>
+</dd>
+<dt class="hdlist1" id="git-fast-export---use-done-feature"> <a class="anchor" href="#git-fast-export---use-done-feature"></a>--use-done-feature </dt>
+<dd>
+<p>Start the stream with a <em>feature done</em> stanza, and terminate
+it with a <em>done</em> command.</p>
+</dd>
+<dt class="hdlist1" id="git-fast-export---no-data"> <a class="anchor" href="#git-fast-export---no-data"></a>--no-data </dt>
+<dd>
+<p>Skip output of blob objects and instead refer to blobs via
+their original SHA-1 hash.  This is useful when rewriting the
+directory structure or history of a repository without
+touching the contents of individual files.  Note that the
+resulting stream can only be used by a repository which
+already contains the necessary objects.</p>
+</dd>
+<dt class="hdlist1" id="git-fast-export---full-tree"> <a class="anchor" href="#git-fast-export---full-tree"></a>--full-tree </dt>
+<dd>
+<p>This option will cause fast-export to issue a "deleteall"
+directive for each commit followed by a full list of all files
+in the commit (as opposed to just listing the files which are
+different from the commit&#8217;s first parent).</p>
+</dd>
+<dt class="hdlist1" id="git-fast-export---anonymize"> <a class="anchor" href="#git-fast-export---anonymize"></a>--anonymize </dt>
+<dd>
+<p>Anonymize the contents of the repository while still retaining
+the shape of the history and stored tree.  See the section on
+<code>ANONYMIZING</code> below.</p>
+</dd>
+<dt class="hdlist1" id="git-fast-export---refspec"> <a class="anchor" href="#git-fast-export---refspec"></a>--refspec </dt>
+<dd>
+<p>Apply the specified refspec to each ref exported. Multiple of them can
+be specified.</p>
+</dd>
+<dt class="hdlist1" id="git-fast-export-ltgit-rev-list-argsgt82308203"> <a class="anchor" href="#git-fast-export-ltgit-rev-list-argsgt82308203"></a>[&lt;git-rev-list-args&gt;&#8230;&#8203;] </dt>
+<dd>
+<p>A list of arguments, acceptable to <em>git rev-parse</em> and
+<em>git rev-list</em>, that specifies the specific objects and references
+to export.  For example, <code>master~10..master</code> causes the
+current master reference to be exported along with all objects
+added since its 10th ancestor commit.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_examples"><a class="anchor" href="#_examples"></a>EXAMPLES</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre>$ git fast-export --all | (cd /empty/repository &amp;&amp; git fast-import)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This will export the whole repository and import it into the existing
+empty repository.  Except for reencoding commits that are not in
+UTF-8, it would be a one-to-one mirror.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git fast-export master~5..master |
+	sed "s|refs/heads/master|refs/heads/other|" |
+	git fast-import</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This makes a new branch called <em>other</em> from <em>master~5..master</em>
+(i.e. if <em>master</em> has linear history, it will take the last 5 commits).</p>
+</div>
+<div class="paragraph">
+<p>Note that this assumes that none of the blobs and commit messages
+referenced by that revision range contains the string
+<em>refs/heads/master</em>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anonymizing"><a class="anchor" href="#_anonymizing"></a>ANONYMIZING</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If the <code>--anonymize</code> option is given, git will attempt to remove all
+identifying information from the repository while still retaining enough
+of the original tree and history patterns to reproduce some bugs. The
+goal is that a git bug which is found on a private repository will
+persist in the anonymized repository, and the latter can be shared with
+git developers to help solve the bug.</p>
+</div>
+<div class="paragraph">
+<p>With this option, git will replace all refnames, paths, blob contents,
+commit and tag messages, names, and email addresses in the output with
+anonymized data.  Two instances of the same string will be replaced
+equivalently (e.g., two commits with the same author will have the same
+anonymized author in the output, but bear no resemblance to the original
+author string). The relationship between commits, branches, and tags is
+retained, as well as the commit timestamps (but the commit messages and
+refnames bear no resemblance to the originals). The relative makeup of
+the tree is retained (e.g., if you have a root tree with 10 files and 3
+trees, so will the output), but their names and the contents of the
+files will be replaced.</p>
+</div>
+<div class="paragraph">
+<p>If you think you have found a git bug, you can start by exporting an
+anonymized stream of the whole repository:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git fast-export --anonymize --all &gt;anon-stream</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then confirm that the bug persists in a repository created from that
+stream (many bugs will not, as they really do depend on the exact
+repository contents):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git init anon-repo
+$ cd anon-repo
+$ git fast-import &lt;../anon-stream
+$ ... test your bug ...</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If the anonymized repository shows the bug, it may be worth sharing
+<code>anon-stream</code> along with a regular bug report. Note that the anonymized
+stream compresses very well, so gzipping it is encouraged. If you want
+to examine the stream to see that it does not contain any private data,
+you can peruse it directly before sending. You may also want to try:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ perl -pe 's/\d+/X/g' &lt;anon-stream | sort -u | less</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>which shows all of the unique lines (with numbers converted to "X", to
+collapse "User 0", "User 1", etc into "User X"). This produces a much
+smaller output, and it is usually easy to quickly confirm that there is
+no private data in the stream.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_limitations"><a class="anchor" href="#_limitations"></a>Limitations</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Since <em>git fast-import</em> cannot tag trees, you will not be
+able to export the linux.git repository completely, as it contains
+a tag referencing a tree instead of a commit.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_also"><a class="anchor" href="#_see_also"></a>SEE ALSO</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href='../git-fast-import.html'>git-fast-import[1]</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_git"><a class="anchor" href="#_git"></a>GIT</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Part of the <a href='../git.html'>git[1]</a> suite</p>
+</div>
+</div>
+</div>
+  </div>
+
+        </div>
+      </div>
+      <footer>
+  <div class="site-source">
+    This <a href="https://github.com/git/git-scm.com/blob/master/README.md#license">open sourced</a> site is <a href="https://github.com/git/git-scm.com">hosted on GitHub.</a><br>
+    Patches, suggestions and comments are welcome.
+  </div>
+  <div class="sfc-member">
+    Git is a member of <a href="https://git-scm.com/sfc">Software Freedom Conservancy</a>
+  </div>
+</footer>
+
+<script src="../../assets/jquery-1.7.1.min-1e7a63d6feb237e04147914d7b3f8b05.js"></script>
+<script src="../../assets/jquery-ui-1.8.18.custom.min-01c113ee6bd3a021d2aceb47c8807458.js"></script>
+<script src="../../assets/jquery.defaultvalue-a3344e839433713d41ec7304ecdd6138.js"></script>
+<script src="../../assets/session.min-bf0ddfe17e69417e50f0eb3b9c3e1214.js"></script>
+<script src="../../assets/site-19b3bff50bab526421befb3d0b04eb62.js"></script>
+
+    </div>
+
+</body>
+
+<!-- Mirrored from git-scm.com/docs/git-fast-export/2.2.0 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:52:25 GMT -->
+</html>

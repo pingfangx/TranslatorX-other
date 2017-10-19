@@ -1,0 +1,32 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 19 Oct 2017 17:41:09 at https://git-scm.com/docs/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://git-scm.com/docs/ -O1 "D:\workspace\WebsiteCopy\GitDocs2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:41:29	Warning: 	Retry after error -4 (No data (connection closed)) at link https://git-scm.com/docs/ (from primary/primary)
+17:42:24	Error: 	"Not Found" (404) at link https://use.typekit.com/jsq2fql.js (from https://git-scm.com/docs/)
+17:51:03	Error: 	"Not Found" (404) at link https://git-scm.com/docs/git-web{litdd}browse (from https://git-scm.com/docs/git-config)
+17:52:23	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://git-scm.com/docs/user-manual/2.12.0 (from https://git-scm.com/docs/user-manual.html)
+17:52:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://git-scm.com/docs/user-manual/2.8.0 (from https://git-scm.com/docs/user-manual.html)
+17:52:27	Error: 	"Not Found" (404) at link https://git-scm.com/docs/git-sh-i18n{litdd}envsubst (from https://git-scm.com/docs/git-sh-i18n)
+17:52:38	Error: 	"Not Found" (404) at link https://git-scm.com/docs/:git-gui (from https://git-scm.com/docs/git-config/2.8.3)
+17:52:39	Error: 	"Not Found" (404) at link https://git-scm.com/docs/gitweb.conf/2.13.0 (from https://git-scm.com/docs/gitweb.conf)
+17:52:39	Error: 	"Not Found" (404) at link https://git-scm.com/docs/gitweb.conf/2.11.0 (from https://git-scm.com/docs/gitweb.conf)
+17:52:39	Error: 	"Not Found" (404) at link https://git-scm.com/docs/gitweb.conf/2.9.1 (from https://git-scm.com/docs/gitweb.conf)
+17:52:39	Error: 	"Not Found" (404) at link https://git-scm.com/docs/gitweb.conf/2.5.0 (from https://git-scm.com/docs/gitweb.conf)
+17:52:39	Error: 	"Not Found" (404) at link https://git-scm.com/docs/gitweb.conf/2.4.0 (from https://git-scm.com/docs/gitweb.conf)
+17:52:39	Error: 	"Not Found" (404) at link https://git-scm.com/docs/gitweb.conf/2.3.6 (from https://git-scm.com/docs/gitweb.conf)
+17:52:39	Error: 	"Not Found" (404) at link https://git-scm.com/docs/gitweb.conf/2.1.0 (from https://git-scm.com/docs/gitweb.conf)
+17:52:40	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://git-scm.com/docs/gitremote-helpers/2.4.3 (from https://git-scm.com/docs/gitremote-helpers)
+17:52:44	Error: 	"Not Found" (404) at link https://git-scm.com/docs/git-rebase/howto/revert-a-faulty-merge.html (from https://git-scm.com/docs/git-rebase/2.14.0)
+17:52:44	Error: 	"Not Found" (404) at link https://git-scm.com/docs/git-revert/howto/revert-a-faulty-merge.html (from https://git-scm.com/docs/git-revert/2.9.3)
+17:52:44	Error: 	"Not Found" (404) at link https://git-scm.com/docs/giteveryday/howto/update-hook-example.html (from https://git-scm.com/docs/giteveryday/2.12.0)
+17:52:44	Error: 	"Not Found" (404) at link https://git-scm.com/docs/:git-rev-list (from https://git-scm.com/docs/git-for-each-ref/2.8.3)
+17:52:44	Error: 	"Not Found" (404) at link https://git-scm.com/docs/user-manual/howto/setup-git-server-over-http.html (from https://git-scm.com/docs/user-manual/2.14.2)
+17:52:45	Error: 	"Not Found" (404) at link https://git-scm.com/docs/gitcvs-migration/howto/update-hook-example.html (from https://git-scm.com/docs/gitcvs-migration/2.12.0)
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 minutes 36 seconds : 1008 links scanned, 986 files written (48492721 bytes overall) [12259471 bytes received at 17614 bytes/sec], 47996379 bytes transferred using HTTP compression in 896 files, ratio 22%, 37.6 requests per connection
+(17 errors, 4 warnings, 0 messages)

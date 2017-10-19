@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from git-scm.com/docs/git-commit-tree/2.6.2 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:52:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+
+  <title>Git - git-commit-tree Documentation</title>
+
+  <link href='https://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+  <link rel="alternate" href="https://git-scm.com/blog.rss" type="application/rss+xml" title="Git - Blog">
+
+  <link rel="stylesheet" media="screen" href="../../assets/git-scm-e7baad50e93810401dcff271ffd82512.css" />
+  <script src="../../assets/modernizr-0a2ce4076d64283b11c658f7ef3100c6.js"></script>
+<script src="../../assets/modernizr-tests-73fae1efb92f6d477f2f589e95775709.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/javascripts/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <script src="../../../use.typekit.com/jsq2fql.js" type="text/javascript"></script>
+  <script>
+    //<![CDATA[
+      try{Typekit.load();}catch(e){}
+    //]]>
+  </script>
+
+</head>
+
+<body id="documentation">
+
+  <div class="inner">
+    <header>
+
+  <a href="https://git-scm.com/"><img src="../../images/logo%402x.png" width="110" height="46" alt="Git" /></a>
+  <span id="tagline"></span>
+  <script type="text/javascript">
+    var taglines = ["fast-version-control","everything-is-local","distributed-even-if-your-workflow-isnt","local-branching-on-the-cheap","distributed-is-the-new-centralized"];
+    var tagline = taglines[Math.floor(Math.random() * taglines.length)];
+    document.getElementById('tagline').innerHTML = '--' + tagline;
+  </script>
+  <form id="search" action="https://git-scm.com/search/results">
+    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
+  </form>
+  <div id="search-results"></div>
+
+</header>
+
+  </div> <!-- .inner -->
+
+    <div class="inner">
+      <div id="content-wrapper">
+        <aside class="sidebar">
+  <nav>
+    <ul>
+      <li>
+        <a href="https://git-scm.com/about">About</a>
+      </li>
+      <li>
+        <a class="active" href="https://git-scm.com/doc">Documentation</a>
+        <ul class="expanded">
+          <li>
+            <a href="https://git-scm.com/docs">Reference</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/book">Book</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/videos">Videos</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/doc/ext">External Links</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/blog">Blog</a>
+      </li>
+      <li>
+        <a href="https://git-scm.com/downloads">Downloads</a>
+        <ul class="">
+          <li>
+            <a href="https://git-scm.com/downloads/guis">GUI Clients</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/downloads/logos">Logos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/community">Community</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+        <div id="content">
+          
+
+  <div id='reference-version'>
+    <a class="dropdown-trigger" id="reference-topics-trigger" data-panel-id="topics-dropdown" href="#">Topics ▾</a>
+<div class='dropdown-panel right' id='topics-dropdown'>
+  <div class='three-column'>
+    <div class='column-left'>
+      <h3 class='setup'>Setup and Config</h3>
+<ul class='unstyled'>
+  <li><a href="../git.html">git</a></li>
+  <li><a href="../git-config.html">config</a></li>
+  <li><a href="../git-help.html">help</a></li>
+</ul>
+
+      <h3 class='projects'>Getting and Creating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="../git-init.html">init</a></li>
+  <li><a href="../git-clone.html">clone</a></li>
+</ul>
+
+      <h3 class='snapshotting'>Basic Snapshotting</h3>
+<ul class='unstyled'>
+  <li><a href="../git-add.html">add</a></li>
+  <li><a href="../git-status.html">status</a></li>
+  <li><a href="../git-diff.html">diff</a></li>
+  <li><a href="../git-commit.html">commit</a></li>
+  <li><a href="../git-reset.html">reset</a></li>
+  <li><a href="../git-rm.html">rm</a></li>
+  <li><a href="../git-mv.html">mv</a></li>
+</ul>
+
+      <h3 class='branching'>Branching and Merging</h3>
+<ul class='unstyled'>
+  <li><a href="../git-branch.html">branch</a></li>
+  <li><a href="../git-checkout.html">checkout</a></li>
+  <li><a href="../git-merge.html">merge</a></li>
+  <li><a href="../git-mergetool.html">mergetool</a></li>
+  <li><a href="../git-log.html">log</a></li>
+  <li><a href="../git-stash.html">stash</a></li>
+  <li><a href="../git-tag.html">tag</a></li>
+</ul>
+
+      <h3 class='sharing'>Sharing and Updating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="../git-fetch.html">fetch</a></li>
+  <li><a href="../git-pull.html">pull</a></li>
+  <li><a href="../git-push.html">push</a></li>
+  <li><a href="../git-remote.html">remote</a></li>
+  <li><a href="../git-submodule.html">submodule</a></li>
+</ul>
+
+    </div>
+    <div class='column-middle'>
+      <h3 class='inspection'>Inspection and Comparison</h3>
+<ul class='unstyled'>
+  <li><a href="../git-show.html">show</a></li>
+  <li><a href="../git-log.html">log</a></li>
+  <li><a href="../git-diff.html">diff</a></li>
+  <li><a href="../git-shortlog.html">shortlog</a></li>
+  <li><a href="../git-describe.html">describe</a></li>
+</ul>
+
+      <h3 class='patching'>Patching</h3>
+<ul class='unstyled'>
+  <li><a href="../git-apply.html">apply</a></li>
+  <li><a href="../git-cherry-pick.html">cherry-pick</a></li>
+  <li><a href="../git-diff.html">diff</a></li>
+  <li><a href="../git-rebase.html">rebase</a></li>
+  <li><a href="../git-revert.html">revert</a></li>
+</ul>
+
+      <h3 class='debugging'>Debugging</h3>
+<ul class='unstyled'>
+  <li><a href="../git-bisect.html">bisect</a></li>
+  <li><a href="../git-blame.html">blame</a></li>
+  <li><a href="../git-grep.html">grep</a></li>
+</ul>
+
+      <h3 class='email'>Email</h3>
+<ul class='unstyled'>
+  <li><a href="../git-am.html">am</a></li>
+  <li><a href="../git-apply.html">apply</a></li>
+  <li><a href="../git-format-patch.html">format-patch</a></li>
+  <li><a href="../git-send-email.html">send-email</a></li>
+  <li><a href="../git-request-pull.html">request-pull</a></li>
+</ul>
+
+      <h3 class='external'>External Systems</h3>
+<ul class='unstyled'>
+  <li><a href="../git-svn.html">svn</a></li>
+  <li><a href="../git-fast-import.html">fast-import</a></li>
+</ul>
+
+      <h3 class='server-admin'>Server Admin</h3>
+<ul class='unstyled'>
+  <li><a href="../git-daemon.html">daemon</a></li>
+  <li><a href="../git-update-server-info.html">update-server-info</a></li>
+</ul>
+
+    </div>
+    <div class='column-right'>
+      <h3 class='guides'>Guides</h3>
+<ul class='unstyled'>
+  <li><a href="../gitattributes.html">gitattributes</a></li>
+  <li><a href="../giteveryday.html">Everyday Git</a></li>
+  <li><a href="../gitglossary.html">Glossary</a></li>
+  <li><a href="../gitignore.html">gitignore</a></li>
+  <li><a href="../gitmodules.html">gitmodules</a></li>
+  <li><a href="../gitrevisions.html">Revisions</a></li>
+  <li><a href="../gittutorial.html">Tutorial</a></li>
+  <li><a href="../gitworkflows.html">Workflows</a></li>
+</ul>
+
+      <h3 class='admin'>Administration</h3>
+<ul class='unstyled'>
+  <li><a href="../git-clean.html">clean</a></li>
+  <li><a href="../git-gc.html">gc</a></li>
+  <li><a href="../git-fsck.html">fsck</a></li>
+  <li><a href="../git-reflog.html">reflog</a></li>
+  <li><a href="../git-filter-branch.html">filter-branch</a></li>
+  <li><a href="../git-instaweb.html">instaweb</a></li>
+  <li><a href="../git-archive.html">archive</a></li>
+  <li><a href="../git-bundle.html">bundle</a></li>
+</ul>
+
+      <h3 class='plumbing'>Plumbing Commands</h3>
+<ul class='unstyled'>
+  <li><a href="../git-cat-file.html">cat-file</a></li>
+  <li><a href="../git-check-ignore.html">check-ignore</a></li>
+  <li><a href="../git-commit-tree.html">commit-tree</a></li>
+  <li><a href="../git-count-objects.html">count-objects</a></li>
+  <li><a href="../git-diff-index.html">diff-index</a></li>
+  <li><a href="../git-for-each-ref.html">for-each-ref</a></li>
+  <li><a href="../git-hash-object.html">hash-object</a></li>
+  <li><a href="../git-ls-files.html">ls-files</a></li>
+  <li><a href="../git-merge-base.html">merge-base</a></li>
+  <li><a href="../git-read-tree.html">read-tree</a></li>
+  <li><a href="../git-rev-list.html">rev-list</a></li>
+  <li><a href="../git-rev-parse.html">rev-parse</a></li>
+  <li><a href="../git-show-ref.html">show-ref</a></li>
+  <li><a href="../git-symbolic-ref.html">symbolic-ref</a></li>
+  <li><a href="../git-update-index.html">update-index</a></li>
+  <li><a href="../git-update-ref.html">update-ref</a></li>
+  <li><a href="../git-verify-pack.html">verify-pack</a></li>
+  <li><a href="../git-write-tree.html">write-tree</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+    <a class="dropdown-trigger" id="reference-versions-trigger" data-panel-id="previous-versions-dropdown" href="#">Version 2.6.2 ▾</a>
+<span class="light">git-commit-tree last updated in 2.14.2</span>
+<div class='dropdown-panel left' id='previous-versions-dropdown'>
+  <header>Changes in the <strong>git-commit-tree</strong> manual</header>
+  <ol class='reference-previous-versions'>
+        <li>
+        <a href="2.14.html"><span class="version">2.14.2</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">09/22/17</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.9.4 &rarr; 2.14.1 no changes</span></li>
+        <li>
+        <a href="2.9.html"><span class="version">2.9.3</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">08/12/16</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.9.1 &rarr; 2.9.2 no changes</span></li>
+        <li>
+        <a href="2.9-2.html"><span class="version">2.9.0</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">06/13/16</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.6.4 &rarr; 2.8.6 no changes</span></li>
+        <li>
+        <a href="2.6.html"><span class="version">2.6.3</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">11/05/15</em>
+        </a>
+        </li>
+        <li>
+        <a href="2.6-2.html"><span class="version">2.6.2</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">10/16/15</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.4.1 &rarr; 2.6.1 no changes</span></li>
+        <li>
+        <a href="2.4.html"><span class="version">2.4.0</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">04/30/15</em>
+        </a>
+        </li>
+    <li>&nbsp;</li>
+    <!-- <li><a class="more" href="#">See more previous releases →</a></li> -->
+  </ol>
+  <footer>
+    <span class="light">Check your version of git by running<br></span>
+    <strong>$</strong>
+    <input type="text" class="copyable" value="git --version" />
+  </footer>
+</div>
+
+  </div>
+
+  <div id='main'>
+    <div class="sect1">
+<h2 id="_name"><a class="anchor" href="#_name"></a>NAME</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>git-commit-tree - Create a new commit object</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_synopsis"><a class="anchor" href="#_synopsis"></a>SYNOPSIS</h2>
+<div class="sectionbody">
+<div class="verseblock">
+<pre class="content"><em>git commit-tree</em> &lt;tree&gt; [(-p &lt;parent&gt;)&#8230;&#8203;] &lt; changelog
+<em>git commit-tree</em> [(-p &lt;parent&gt;)&#8230;&#8203;] [-S[&lt;keyid&gt;]] [(-m &lt;message&gt;)&#8230;&#8203;]
+		  [(-F &lt;file&gt;)&#8230;&#8203;] &lt;tree&gt;</pre>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_description"><a class="anchor" href="#_description"></a>DESCRIPTION</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is usually not what an end user wants to run directly.  See
+<a href='../git-commit.html'>git-commit[1]</a> instead.</p>
+</div>
+<div class="paragraph">
+<p>Creates a new commit object based on the provided tree object and
+emits the new commit object id on stdout. The log message is read
+from the standard input, unless <code>-m</code> or <code>-F</code> options are given.</p>
+</div>
+<div class="paragraph">
+<p>A commit object may have any number of parents. With exactly one
+parent, it is an ordinary commit. Having more than one parent makes
+the commit a merge between several lines of history. Initial (root)
+commits have no parents.</p>
+</div>
+<div class="paragraph">
+<p>While a tree represents a particular directory state of a working
+directory, a commit represents that state in "time", and explains how
+to get there.</p>
+</div>
+<div class="paragraph">
+<p>Normally a commit would identify a new "HEAD" state, and while Git
+doesn&#8217;t care where you save the note about that state, in practice we
+tend to just write the result to the file that is pointed at by
+<code>.git/HEAD</code>, so that we can always see what the last committed
+state was.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_options"><a class="anchor" href="#_options"></a>OPTIONS</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1" id="git-commit-tree-lttreegt"> <a class="anchor" href="#git-commit-tree-lttreegt"></a>&lt;tree&gt; </dt>
+<dd>
+<p>An existing tree object</p>
+</dd>
+<dt class="hdlist1" id="git-commit-tree--pltparentgt"> <a class="anchor" href="#git-commit-tree--pltparentgt"></a>-p &lt;parent&gt; </dt>
+<dd>
+<p>Each <em>-p</em> indicates the id of a parent commit object.</p>
+</dd>
+<dt class="hdlist1" id="git-commit-tree--mltmessagegt"> <a class="anchor" href="#git-commit-tree--mltmessagegt"></a>-m &lt;message&gt; </dt>
+<dd>
+<p>A paragraph in the commit log message. This can be given more than
+once and each &lt;message&gt; becomes its own paragraph.</p>
+</dd>
+<dt class="hdlist1" id="git-commit-tree--Fltfilegt"> <a class="anchor" href="#git-commit-tree--Fltfilegt"></a>-F &lt;file&gt; </dt>
+<dd>
+<p>Read the commit log message from the given file. Use <code>-</code> to read
+from the standard input.</p>
+</dd>
+<dt class="hdlist1" id="git-commit-tree--Sltkeyidgt"> <a class="anchor" href="#git-commit-tree--Sltkeyidgt"></a>-S[&lt;keyid&gt;] </dt>
+<dt class="hdlist1" id="git-commit-tree---gpg-signltkeyidgt"> <a class="anchor" href="#git-commit-tree---gpg-signltkeyidgt"></a>--gpg-sign[=&lt;keyid&gt;] </dt>
+<dd>
+<p>GPG-sign commits. The <code>keyid</code> argument is optional and
+defaults to the committer identity; if specified, it must be
+stuck to the option without a space.</p>
+</dd>
+<dt class="hdlist1" id="git-commit-tree---no-gpg-sign"> <a class="anchor" href="#git-commit-tree---no-gpg-sign"></a>--no-gpg-sign </dt>
+<dd>
+<p>Countermand <code>commit.gpgSign</code> configuration variable that is
+set to force each and every commit to be signed.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_commit_information"><a class="anchor" href="#_commit_information"></a>Commit Information</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A commit encapsulates:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>all parent object ids</p>
+</li>
+<li>
+<p>author name, email and date</p>
+</li>
+<li>
+<p>committer name and email and the commit time.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>While parent object ids are provided on the command line, author and
+committer information is taken from the following environment variables,
+if set:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>GIT_AUTHOR_NAME
+GIT_AUTHOR_EMAIL
+GIT_AUTHOR_DATE
+GIT_COMMITTER_NAME
+GIT_COMMITTER_EMAIL
+GIT_COMMITTER_DATE</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>(nb "&lt;", "&gt;" and "\n"s are stripped)</p>
+</div>
+<div class="paragraph">
+<p>In case (some of) these environment variables are not set, the information
+is taken from the configuration items user.name and user.email, or, if not
+present, the environment variable EMAIL, or, if that is not set,
+system user name and the hostname used for outgoing mail (taken
+from <code>/etc/mailname</code> and falling back to the fully qualified hostname when
+that file does not exist).</p>
+</div>
+<div class="paragraph">
+<p>A commit comment is read from stdin. If a changelog
+entry is not provided via "&lt;" redirection, <em>git commit-tree</em> will just wait
+for one to be entered and terminated with ^D.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_date_formats"><a class="anchor" href="#_date_formats"></a>DATE FORMATS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The GIT_AUTHOR_DATE, GIT_COMMITTER_DATE environment variables
+support the following date formats:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1" id="git-commit-tree-Gitinternalformat"> <a class="anchor" href="#git-commit-tree-Gitinternalformat"></a>Git internal format </dt>
+<dd>
+<p>It is <code>&lt;unix timestamp&gt; &lt;time zone offset&gt;</code>, where <code>&lt;unix
+timestamp&gt;</code> is the number of seconds since the UNIX epoch.
+<code>&lt;time zone offset&gt;</code> is a positive or negative offset from UTC.
+For example CET (which is 2 hours ahead UTC) is <code>+0200</code>.</p>
+</dd>
+<dt class="hdlist1" id="git-commit-tree-RFC2822"> <a class="anchor" href="#git-commit-tree-RFC2822"></a>RFC 2822 </dt>
+<dd>
+<p>The standard email format as described by RFC 2822, for example
+<code>Thu, 07 Apr 2005 22:13:13 +0200</code>.</p>
+</dd>
+<dt class="hdlist1" id="git-commit-tree-ISO8601"> <a class="anchor" href="#git-commit-tree-ISO8601"></a>ISO 8601 </dt>
+<dd>
+<p>Time and date specified by the ISO 8601 standard, for example
+<code>2005-04-07T22:13:13</code>. The parser accepts a space instead of the
+<code>T</code> character as well.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+In addition, the date part is accepted in the following formats:
+<code>YYYY.MM.DD</code>, <code>MM/DD/YYYY</code> and <code>DD.MM.YYYY</code>.
+</td>
+</tr>
+</table>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_discussion"><a class="anchor" href="#_discussion"></a>Discussion</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Git is to some extent character encoding agnostic.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The contents of the blob objects are uninterpreted sequences
+of bytes.  There is no encoding translation at the core
+level.</p>
+</li>
+<li>
+<p>Path names are encoded in UTF-8 normalization form C. This
+applies to tree objects, the index file, ref names, as well as
+path names in command line arguments, environment variables
+and config files (<code>.git/config</code> (see <a href='../git-config.html'>git-config[1]</a>),
+<a href='../gitignore.html'>gitignore[5]</a>, <a href='../gitattributes.html'>gitattributes[5]</a> and
+<a href='../gitmodules.html'>gitmodules[5]</a>).</p>
+<div class="paragraph">
+<p>Note that Git at the core level treats path names simply as
+sequences of non-NUL bytes, there are no path name encoding
+conversions (except on Mac and Windows). Therefore, using
+non-ASCII path names will mostly work even on platforms and file
+systems that use legacy extended ASCII encodings. However,
+repositories created on such systems will not work properly on
+UTF-8-based systems (e.g. Linux, Mac, Windows) and vice versa.
+Additionally, many Git-based tools simply assume path names to
+be UTF-8 and will fail to display other encodings correctly.</p>
+</div>
+</li>
+<li>
+<p>Commit log messages are typically encoded in UTF-8, but other
+extended ASCII encodings are also supported. This includes
+ISO-8859-x, CP125x and many others, but <em>not</em> UTF-16/32,
+EBCDIC and CJK multi-byte encodings (GBK, Shift-JIS, Big5,
+EUC-x, CP9xx etc.).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Although we encourage that the commit log messages are encoded
+in UTF-8, both the core and Git Porcelain are designed not to
+force UTF-8 on projects.  If all participants of a particular
+project find it more convenient to use legacy encodings, Git
+does not forbid it.  However, there are a few things to keep in
+mind.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><em>git commit</em> and <em>git commit-tree</em> issues
+a warning if the commit log message given to it does not look
+like a valid UTF-8 string, unless you explicitly say your
+project uses a legacy encoding.  The way to say this is to
+have i18n.commitencoding in <code>.git/config</code> file, like this:</p>
+<div class="listingblock">
+<div class="content">
+<pre>[i18n]
+	commitencoding = ISO-8859-1</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Commit objects created with the above setting record the value
+of <code>i18n.commitencoding</code> in its <code>encoding</code> header.  This is to
+help other people who look at them later.  Lack of this header
+implies that the commit log message is encoded in UTF-8.</p>
+</div>
+</li>
+<li>
+<p><em>git log</em>, <em>git show</em>, <em>git blame</em> and friends look at the
+<code>encoding</code> header of a commit object, and try to re-code the
+log message into UTF-8 unless otherwise specified.  You can
+specify the desired output encoding with
+<code>i18n.logoutputencoding</code> in <code>.git/config</code> file, like this:</p>
+<div class="listingblock">
+<div class="content">
+<pre>[i18n]
+	logoutputencoding = ISO-8859-1</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you do not have this configuration variable, the value of
+<code>i18n.commitencoding</code> is used instead.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Note that we deliberately chose not to re-code the commit log
+message when a commit is made to force UTF-8 at the commit
+object level, because re-coding to UTF-8 is not necessarily a
+reversible operation.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_files"><a class="anchor" href="#_files"></a>FILES</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>/etc/mailname</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_also"><a class="anchor" href="#_see_also"></a>SEE ALSO</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href='../git-write-tree.html'>git-write-tree[1]</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_git"><a class="anchor" href="#_git"></a>GIT</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Part of the <a href='../git.html'>git[1]</a> suite</p>
+</div>
+</div>
+</div>
+  </div>
+
+        </div>
+      </div>
+      <footer>
+  <div class="site-source">
+    This <a href="https://github.com/git/git-scm.com/blob/master/README.md#license">open sourced</a> site is <a href="https://github.com/git/git-scm.com">hosted on GitHub.</a><br>
+    Patches, suggestions and comments are welcome.
+  </div>
+  <div class="sfc-member">
+    Git is a member of <a href="https://git-scm.com/sfc">Software Freedom Conservancy</a>
+  </div>
+</footer>
+
+<script src="../../assets/jquery-1.7.1.min-1e7a63d6feb237e04147914d7b3f8b05.js"></script>
+<script src="../../assets/jquery-ui-1.8.18.custom.min-01c113ee6bd3a021d2aceb47c8807458.js"></script>
+<script src="../../assets/jquery.defaultvalue-a3344e839433713d41ec7304ecdd6138.js"></script>
+<script src="../../assets/session.min-bf0ddfe17e69417e50f0eb3b9c3e1214.js"></script>
+<script src="../../assets/site-19b3bff50bab526421befb3d0b04eb62.js"></script>
+
+    </div>
+
+</body>
+
+<!-- Mirrored from git-scm.com/docs/git-commit-tree/2.6.2 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:52:19 GMT -->
+</html>

@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from git-scm.com/docs/gitrepository-layout/2.12.0 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:52:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+
+  <title>Git - gitrepository-layout Documentation</title>
+
+  <link href='https://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+  <link rel="alternate" href="https://git-scm.com/blog.rss" type="application/rss+xml" title="Git - Blog">
+
+  <link rel="stylesheet" media="screen" href="../../assets/git-scm-e7baad50e93810401dcff271ffd82512.css" />
+  <script src="../../assets/modernizr-0a2ce4076d64283b11c658f7ef3100c6.js"></script>
+<script src="../../assets/modernizr-tests-73fae1efb92f6d477f2f589e95775709.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/javascripts/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <script src="../../../use.typekit.com/jsq2fql.js" type="text/javascript"></script>
+  <script>
+    //<![CDATA[
+      try{Typekit.load();}catch(e){}
+    //]]>
+  </script>
+
+</head>
+
+<body id="documentation">
+
+  <div class="inner">
+    <header>
+
+  <a href="https://git-scm.com/"><img src="../../images/logo%402x.png" width="110" height="46" alt="Git" /></a>
+  <span id="tagline"></span>
+  <script type="text/javascript">
+    var taglines = ["fast-version-control","everything-is-local","distributed-even-if-your-workflow-isnt","local-branching-on-the-cheap","distributed-is-the-new-centralized"];
+    var tagline = taglines[Math.floor(Math.random() * taglines.length)];
+    document.getElementById('tagline').innerHTML = '--' + tagline;
+  </script>
+  <form id="search" action="https://git-scm.com/search/results">
+    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
+  </form>
+  <div id="search-results"></div>
+
+</header>
+
+  </div> <!-- .inner -->
+
+    <div class="inner">
+      <div id="content-wrapper">
+        <aside class="sidebar">
+  <nav>
+    <ul>
+      <li>
+        <a href="https://git-scm.com/about">About</a>
+      </li>
+      <li>
+        <a class="active" href="https://git-scm.com/doc">Documentation</a>
+        <ul class="expanded">
+          <li>
+            <a href="https://git-scm.com/docs">Reference</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/book">Book</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/videos">Videos</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/doc/ext">External Links</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/blog">Blog</a>
+      </li>
+      <li>
+        <a href="https://git-scm.com/downloads">Downloads</a>
+        <ul class="">
+          <li>
+            <a href="https://git-scm.com/downloads/guis">GUI Clients</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/downloads/logos">Logos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/community">Community</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+        <div id="content">
+          
+
+  <div id='reference-version'>
+    <a class="dropdown-trigger" id="reference-topics-trigger" data-panel-id="topics-dropdown" href="#">Topics ▾</a>
+<div class='dropdown-panel right' id='topics-dropdown'>
+  <div class='three-column'>
+    <div class='column-left'>
+      <h3 class='setup'>Setup and Config</h3>
+<ul class='unstyled'>
+  <li><a href="../git.html">git</a></li>
+  <li><a href="../git-config.html">config</a></li>
+  <li><a href="../git-help.html">help</a></li>
+</ul>
+
+      <h3 class='projects'>Getting and Creating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="../git-init.html">init</a></li>
+  <li><a href="../git-clone.html">clone</a></li>
+</ul>
+
+      <h3 class='snapshotting'>Basic Snapshotting</h3>
+<ul class='unstyled'>
+  <li><a href="../git-add.html">add</a></li>
+  <li><a href="../git-status.html">status</a></li>
+  <li><a href="../git-diff.html">diff</a></li>
+  <li><a href="../git-commit.html">commit</a></li>
+  <li><a href="../git-reset.html">reset</a></li>
+  <li><a href="../git-rm.html">rm</a></li>
+  <li><a href="../git-mv.html">mv</a></li>
+</ul>
+
+      <h3 class='branching'>Branching and Merging</h3>
+<ul class='unstyled'>
+  <li><a href="../git-branch.html">branch</a></li>
+  <li><a href="../git-checkout.html">checkout</a></li>
+  <li><a href="../git-merge.html">merge</a></li>
+  <li><a href="../git-mergetool.html">mergetool</a></li>
+  <li><a href="../git-log.html">log</a></li>
+  <li><a href="../git-stash.html">stash</a></li>
+  <li><a href="../git-tag.html">tag</a></li>
+</ul>
+
+      <h3 class='sharing'>Sharing and Updating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="../git-fetch.html">fetch</a></li>
+  <li><a href="../git-pull.html">pull</a></li>
+  <li><a href="../git-push.html">push</a></li>
+  <li><a href="../git-remote.html">remote</a></li>
+  <li><a href="../git-submodule.html">submodule</a></li>
+</ul>
+
+    </div>
+    <div class='column-middle'>
+      <h3 class='inspection'>Inspection and Comparison</h3>
+<ul class='unstyled'>
+  <li><a href="../git-show.html">show</a></li>
+  <li><a href="../git-log.html">log</a></li>
+  <li><a href="../git-diff.html">diff</a></li>
+  <li><a href="../git-shortlog.html">shortlog</a></li>
+  <li><a href="../git-describe.html">describe</a></li>
+</ul>
+
+      <h3 class='patching'>Patching</h3>
+<ul class='unstyled'>
+  <li><a href="../git-apply.html">apply</a></li>
+  <li><a href="../git-cherry-pick.html">cherry-pick</a></li>
+  <li><a href="../git-diff.html">diff</a></li>
+  <li><a href="../git-rebase.html">rebase</a></li>
+  <li><a href="../git-revert.html">revert</a></li>
+</ul>
+
+      <h3 class='debugging'>Debugging</h3>
+<ul class='unstyled'>
+  <li><a href="../git-bisect.html">bisect</a></li>
+  <li><a href="../git-blame.html">blame</a></li>
+  <li><a href="../git-grep.html">grep</a></li>
+</ul>
+
+      <h3 class='email'>Email</h3>
+<ul class='unstyled'>
+  <li><a href="../git-am.html">am</a></li>
+  <li><a href="../git-apply.html">apply</a></li>
+  <li><a href="../git-format-patch.html">format-patch</a></li>
+  <li><a href="../git-send-email.html">send-email</a></li>
+  <li><a href="../git-request-pull.html">request-pull</a></li>
+</ul>
+
+      <h3 class='external'>External Systems</h3>
+<ul class='unstyled'>
+  <li><a href="../git-svn.html">svn</a></li>
+  <li><a href="../git-fast-import.html">fast-import</a></li>
+</ul>
+
+      <h3 class='server-admin'>Server Admin</h3>
+<ul class='unstyled'>
+  <li><a href="../git-daemon.html">daemon</a></li>
+  <li><a href="../git-update-server-info.html">update-server-info</a></li>
+</ul>
+
+    </div>
+    <div class='column-right'>
+      <h3 class='guides'>Guides</h3>
+<ul class='unstyled'>
+  <li><a href="../gitattributes.html">gitattributes</a></li>
+  <li><a href="../giteveryday.html">Everyday Git</a></li>
+  <li><a href="../gitglossary.html">Glossary</a></li>
+  <li><a href="../gitignore.html">gitignore</a></li>
+  <li><a href="../gitmodules.html">gitmodules</a></li>
+  <li><a href="../gitrevisions.html">Revisions</a></li>
+  <li><a href="../gittutorial.html">Tutorial</a></li>
+  <li><a href="../gitworkflows.html">Workflows</a></li>
+</ul>
+
+      <h3 class='admin'>Administration</h3>
+<ul class='unstyled'>
+  <li><a href="../git-clean.html">clean</a></li>
+  <li><a href="../git-gc.html">gc</a></li>
+  <li><a href="../git-fsck.html">fsck</a></li>
+  <li><a href="../git-reflog.html">reflog</a></li>
+  <li><a href="../git-filter-branch.html">filter-branch</a></li>
+  <li><a href="../git-instaweb.html">instaweb</a></li>
+  <li><a href="../git-archive.html">archive</a></li>
+  <li><a href="../git-bundle.html">bundle</a></li>
+</ul>
+
+      <h3 class='plumbing'>Plumbing Commands</h3>
+<ul class='unstyled'>
+  <li><a href="../git-cat-file.html">cat-file</a></li>
+  <li><a href="../git-check-ignore.html">check-ignore</a></li>
+  <li><a href="../git-commit-tree.html">commit-tree</a></li>
+  <li><a href="../git-count-objects.html">count-objects</a></li>
+  <li><a href="../git-diff-index.html">diff-index</a></li>
+  <li><a href="../git-for-each-ref.html">for-each-ref</a></li>
+  <li><a href="../git-hash-object.html">hash-object</a></li>
+  <li><a href="../git-ls-files.html">ls-files</a></li>
+  <li><a href="../git-merge-base.html">merge-base</a></li>
+  <li><a href="../git-read-tree.html">read-tree</a></li>
+  <li><a href="../git-rev-list.html">rev-list</a></li>
+  <li><a href="../git-rev-parse.html">rev-parse</a></li>
+  <li><a href="../git-show-ref.html">show-ref</a></li>
+  <li><a href="../git-symbolic-ref.html">symbolic-ref</a></li>
+  <li><a href="../git-update-index.html">update-index</a></li>
+  <li><a href="../git-update-ref.html">update-ref</a></li>
+  <li><a href="../git-verify-pack.html">verify-pack</a></li>
+  <li><a href="../git-write-tree.html">write-tree</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+    <a class="dropdown-trigger" id="reference-versions-trigger" data-panel-id="previous-versions-dropdown" href="#">Version 2.12.0 ▾</a>
+<span class="light">gitrepository-layout last updated in 2.14.2</span>
+<div class='dropdown-panel left' id='previous-versions-dropdown'>
+  <header>Changes in the <strong>gitrepository-layout</strong> manual</header>
+  <ol class='reference-previous-versions'>
+        <li class="no-change"><span>2.12.1 &rarr; 2.14.2 no changes</span></li>
+        <li>
+        <a href="2.12.html"><span class="version">2.12.0</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">02/24/17</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.10.4 &rarr; 2.11.4 no changes</span></li>
+        <li>
+        <a href="2.10.html"><span class="version">2.10.3</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">05/05/17</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.6.1 &rarr; 2.10.2 no changes</span></li>
+        <li>
+        <a href="2.6.html"><span class="version">2.6.0</span>
+          <span class="diff">
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/green-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+          </span>
+          <em class="date">09/28/15</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.5.1 &rarr; 2.5.6 no changes</span></li>
+        <li>
+        <a href="2.5.html"><span class="version">2.5.0</span>
+          <span class="diff">
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">07/27/15</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.1.1 &rarr; 2.4.12 no changes</span></li>
+        <li>
+        <a href="2.1.html"><span class="version">2.1.0</span>
+          <span class="diff">
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/red-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+              <img src="../../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">08/15/14</em>
+        </a>
+        </li>
+    <li>&nbsp;</li>
+    <!-- <li><a class="more" href="#">See more previous releases →</a></li> -->
+  </ol>
+  <footer>
+    <span class="light">Check your version of git by running<br></span>
+    <strong>$</strong>
+    <input type="text" class="copyable" value="git --version" />
+  </footer>
+</div>
+
+  </div>
+
+  <div id='main'>
+    <div class="sect1">
+<h2 id="_name"><a class="anchor" href="#_name"></a>NAME</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>gitrepository-layout - Git Repository Layout</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_synopsis"><a class="anchor" href="#_synopsis"></a>SYNOPSIS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>$GIT_DIR/*</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_description"><a class="anchor" href="#_description"></a>DESCRIPTION</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A Git repository comes in two different flavours:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>a <code>.git</code> directory at the root of the working tree;</p>
+</li>
+<li>
+<p>a <code>&lt;project&gt;.git</code> directory that is a <em>bare</em> repository
+(i.e. without its own working tree), that is typically used for
+exchanging histories with others by pushing into it and fetching
+from it.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Note</strong>: Also you can have a plain text file <code>.git</code> at the root of
+your working tree, containing <code>gitdir: &lt;path&gt;</code> to point at the real
+directory that has the repository.  This mechanism is often used for
+a working tree of a submodule checkout, to allow you in the
+containing superproject to <code>git checkout</code> a branch that does not
+have the submodule.  The <code>checkout</code> has to remove the entire
+submodule working tree, without losing the submodule repository.</p>
+</div>
+<div class="paragraph">
+<p>These things may exist in a Git repository.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1" id="gitrepository-layout-objects"> <a class="anchor" href="#gitrepository-layout-objects"></a>objects </dt>
+<dd>
+<p>Object store associated with this repository.  Usually
+an object store is self sufficient (i.e. all the objects
+that are referred to by an object found in it are also
+found in it), but there are a few ways to violate it.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>You could have an incomplete but locally usable repository
+by creating a shallow clone.  See <a href='../git-clone.html'>git-clone[1]</a>.</p>
+</li>
+<li>
+<p>You could be using the <code>objects/info/alternates</code> or
+<code>$GIT_ALTERNATE_OBJECT_DIRECTORIES</code> mechanisms to <em>borrow</em>
+objects from other object stores.  A repository with this kind
+of incomplete object store is not suitable to be published for
+use with dumb transports but otherwise is OK as long as
+<code>objects/info/alternates</code> points at the object stores it
+borrows from.</p>
+<div class="paragraph">
+<p>This directory is ignored if $GIT_COMMON_DIR is set and
+"$GIT_COMMON_DIR/objects" will be used instead.</p>
+</div>
+</li>
+</ol>
+</div>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-objects0-9a-f0-9a-f"> <a class="anchor" href="#gitrepository-layout-objects0-9a-f0-9a-f"></a>objects/[0-9a-f][0-9a-f] </dt>
+<dd>
+<p>A newly created object is stored in its own file.
+The objects are splayed over 256 subdirectories using
+the first two characters of the sha1 object name to
+keep the number of directory entries in <code>objects</code>
+itself to a manageable number. Objects found
+here are often called <em>unpacked</em> (or <em>loose</em>) objects.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-objectspack"> <a class="anchor" href="#gitrepository-layout-objectspack"></a>objects/pack </dt>
+<dd>
+<p>Packs (files that store many object in compressed form,
+along with index files to allow them to be randomly
+accessed) are found in this directory.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-objectsinfo"> <a class="anchor" href="#gitrepository-layout-objectsinfo"></a>objects/info </dt>
+<dd>
+<p>Additional information about the object store is
+recorded in this directory.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-objectsinfopacks"> <a class="anchor" href="#gitrepository-layout-objectsinfopacks"></a>objects/info/packs </dt>
+<dd>
+<p>This file is to help dumb transports discover what packs
+are available in this object store.  Whenever a pack is
+added or removed, <code>git update-server-info</code> should be run
+to keep this file up-to-date if the repository is
+published for dumb transports.  <em>git repack</em> does this
+by default.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-objectsinfoalternates"> <a class="anchor" href="#gitrepository-layout-objectsinfoalternates"></a>objects/info/alternates </dt>
+<dd>
+<p>This file records paths to alternate object stores that
+this object store borrows objects from, one pathname per
+line. Note that not only native Git tools use it locally,
+but the HTTP fetcher also tries to use it remotely; this
+will usually work if you have relative paths (relative
+to the object database, not to the repository!) in your
+alternates file, but it will not work if you use absolute
+paths unless the absolute path in filesystem and web URL
+is the same. See also <em>objects/info/http-alternates</em>.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-objectsinfohttp-alternates"> <a class="anchor" href="#gitrepository-layout-objectsinfohttp-alternates"></a>objects/info/http-alternates </dt>
+<dd>
+<p>This file records URLs to alternate object stores that
+this object store borrows objects from, to be used when
+the repository is fetched over HTTP.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-refs"> <a class="anchor" href="#gitrepository-layout-refs"></a>refs </dt>
+<dd>
+<p>References are stored in subdirectories of this
+directory.  The <em>git prune</em> command knows to preserve
+objects reachable from refs found in this directory and
+its subdirectories. This directory is ignored if $GIT_COMMON_DIR
+is set and "$GIT_COMMON_DIR/refs" will be used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-refsheadscodenamecode"> <a class="anchor" href="#gitrepository-layout-refsheadscodenamecode"></a>refs/heads/<code>name</code> </dt>
+<dd>
+<p>records tip-of-the-tree commit objects of branch <code>name</code></p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-refstagscodenamecode"> <a class="anchor" href="#gitrepository-layout-refstagscodenamecode"></a>refs/tags/<code>name</code> </dt>
+<dd>
+<p>records any object name (not necessarily a commit
+object, or a tag object that points at a commit object).</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-refsremotescodenamecode"> <a class="anchor" href="#gitrepository-layout-refsremotescodenamecode"></a>refs/remotes/<code>name</code> </dt>
+<dd>
+<p>records tip-of-the-tree commit objects of branches copied
+from a remote repository.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-refsreplacecodeltobj-sha1gtcode"> <a class="anchor" href="#gitrepository-layout-refsreplacecodeltobj-sha1gtcode"></a>refs/replace/<code>&lt;obj-sha1&gt;</code> </dt>
+<dd>
+<p>records the SHA-1 of the object that replaces <code>&lt;obj-sha1&gt;</code>.
+This is similar to info/grafts and is internally used and
+maintained by <a href='../git-replace.html'>git-replace[1]</a>. Such refs can be exchanged
+between repositories while grafts are not.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-packed-refs"> <a class="anchor" href="#gitrepository-layout-packed-refs"></a>packed-refs </dt>
+<dd>
+<p>records the same information as refs/heads/, refs/tags/,
+and friends record in a more efficient way.  See
+<a href='../git-pack-refs.html'>git-pack-refs[1]</a>. This file is ignored if $GIT_COMMON_DIR
+is set and "$GIT_COMMON_DIR/packed-refs" will be used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-HEAD"> <a class="anchor" href="#gitrepository-layout-HEAD"></a>HEAD </dt>
+<dd>
+<p>A symref (see glossary) to the <code>refs/heads/</code> namespace
+describing the currently active branch.  It does not mean
+much if the repository is not associated with any working tree
+(i.e. a <em>bare</em> repository), but a valid Git repository
+<strong>must</strong> have the HEAD file; some porcelains may use it to
+guess the designated "default" branch of the repository
+(usually <em>master</em>).  It is legal if the named branch
+<em>name</em> does not (yet) exist.  In some legacy setups, it is
+a symbolic link instead of a symref that points at the current
+branch.</p>
+<div class="paragraph">
+<p>HEAD can also record a specific commit directly, instead of
+being a symref to point at the current branch.  Such a state
+is often called <em>detached HEAD.</em>  See <a href='../git-checkout.html'>git-checkout[1]</a>
+for details.</p>
+</div>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-config"> <a class="anchor" href="#gitrepository-layout-config"></a>config </dt>
+<dd>
+<p>Repository specific configuration file. This file is ignored
+if $GIT_COMMON_DIR is set and "$GIT_COMMON_DIR/config" will be
+used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-branches"> <a class="anchor" href="#gitrepository-layout-branches"></a>branches </dt>
+<dd>
+<p>A slightly deprecated way to store shorthands to be used
+to specify a URL to <em>git fetch</em>, <em>git pull</em> and <em>git push</em>.
+A file can be stored as <code>branches/&lt;name&gt;</code> and then
+<em>name</em> can be given to these commands in place of
+<em>repository</em> argument.  See the REMOTES section in
+<a href='../git-fetch.html'>git-fetch[1]</a> for details.  This mechanism is legacy
+and not likely to be found in modern repositories. This
+directory is ignored if $GIT_COMMON_DIR is set and
+"$GIT_COMMON_DIR/branches" will be used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-hooks"> <a class="anchor" href="#gitrepository-layout-hooks"></a>hooks </dt>
+<dd>
+<p>Hooks are customization scripts used by various Git
+commands.  A handful of sample hooks are installed when
+<em>git init</em> is run, but all of them are disabled by
+default.  To enable, the <code>.sample</code> suffix has to be
+removed from the filename by renaming.
+Read <a href='../githooks.html'>githooks[5]</a> for more details about
+each hook. This directory is ignored if $GIT_COMMON_DIR is set
+and "$GIT_COMMON_DIR/hooks" will be used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-index"> <a class="anchor" href="#gitrepository-layout-index"></a>index </dt>
+<dd>
+<p>The current index file for the repository.  It is
+usually not found in a bare repository.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-sharedindexltSHA-1gt"> <a class="anchor" href="#gitrepository-layout-sharedindexltSHA-1gt"></a>sharedindex.&lt;SHA-1&gt; </dt>
+<dd>
+<p>The shared index part, to be referenced by $GIT_DIR/index and
+other temporary index files. Only valid in split index mode.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-info"> <a class="anchor" href="#gitrepository-layout-info"></a>info </dt>
+<dd>
+<p>Additional information about the repository is recorded
+in this directory. This directory is ignored if $GIT_COMMON_DIR
+is set and "$GIT_COMMON_DIR/info" will be used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-inforefs"> <a class="anchor" href="#gitrepository-layout-inforefs"></a>info/refs </dt>
+<dd>
+<p>This file helps dumb transports discover what refs are
+available in this repository.  If the repository is
+published for dumb transports, this file should be
+regenerated by <em>git update-server-info</em> every time a tag
+or branch is created or modified.  This is normally done
+from the <code>hooks/update</code> hook, which is run by the
+<em>git-receive-pack</em> command when you <em>git push</em> into the
+repository.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-infografts"> <a class="anchor" href="#gitrepository-layout-infografts"></a>info/grafts </dt>
+<dd>
+<p>This file records fake commit ancestry information, to
+pretend the set of parents a commit has is different
+from how the commit was actually created.  One record
+per line describes a commit and its fake parents by
+listing their 40-byte hexadecimal object names separated
+by a space and terminated by a newline.</p>
+<div class="paragraph">
+<p>Note that the grafts mechanism is outdated and can lead to problems
+transferring objects between repositories; see <a href='../git-replace.html'>git-replace[1]</a>
+for a more flexible and robust system to do the same thing.</p>
+</div>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-infoexclude"> <a class="anchor" href="#gitrepository-layout-infoexclude"></a>info/exclude </dt>
+<dd>
+<p>This file, by convention among Porcelains, stores the
+exclude pattern list. <code>.gitignore</code> is the per-directory
+ignore file.  <em>git status</em>, <em>git add</em>, <em>git rm</em> and
+<em>git clean</em> look at it but the core Git commands do not look
+at it.  See also: <a href='../gitignore.html'>gitignore[5]</a>.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-infosparse-checkout"> <a class="anchor" href="#gitrepository-layout-infosparse-checkout"></a>info/sparse-checkout </dt>
+<dd>
+<p>This file stores sparse checkout patterns.
+See also: <a href='../git-read-tree.html'>git-read-tree[1]</a>.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-remotes"> <a class="anchor" href="#gitrepository-layout-remotes"></a>remotes </dt>
+<dd>
+<p>Stores shorthands for URL and default refnames for use
+when interacting with remote repositories via <em>git fetch</em>,
+<em>git pull</em> and <em>git push</em> commands.  See the REMOTES section
+in <a href='../git-fetch.html'>git-fetch[1]</a> for details.  This mechanism is legacy
+and not likely to be found in modern repositories. This
+directory is ignored if $GIT_COMMON_DIR is set and
+"$GIT_COMMON_DIR/remotes" will be used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-logs"> <a class="anchor" href="#gitrepository-layout-logs"></a>logs </dt>
+<dd>
+<p>Records of changes made to refs are stored in this directory.
+See <a href='../git-update-ref.html'>git-update-ref[1]</a> for more information. This
+directory is ignored if $GIT_COMMON_DIR is set and
+"$GIT_COMMON_DIR/logs" will be used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-logsrefsheadscodenamecode"> <a class="anchor" href="#gitrepository-layout-logsrefsheadscodenamecode"></a>logs/refs/heads/<code>name</code> </dt>
+<dd>
+<p>Records all changes made to the branch tip named <code>name</code>.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-logsrefstagscodenamecode"> <a class="anchor" href="#gitrepository-layout-logsrefstagscodenamecode"></a>logs/refs/tags/<code>name</code> </dt>
+<dd>
+<p>Records all changes made to the tag named <code>name</code>.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-shallow"> <a class="anchor" href="#gitrepository-layout-shallow"></a>shallow </dt>
+<dd>
+<p>This is similar to <code>info/grafts</code> but is internally used
+and maintained by shallow clone mechanism.  See <code>--depth</code>
+option to <a href='../git-clone.html'>git-clone[1]</a> and <a href='../git-fetch.html'>git-fetch[1]</a>. This
+file is ignored if $GIT_COMMON_DIR is set and
+"$GIT_COMMON_DIR/shallow" will be used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-commondir"> <a class="anchor" href="#gitrepository-layout-commondir"></a>commondir </dt>
+<dd>
+<p>If this file exists, $GIT_COMMON_DIR (see <a href='../git.html'>git[1]</a>) will
+be set to the path specified in this file if it is not
+explicitly set. If the specified path is relative, it is
+relative to $GIT_DIR. The repository with commondir is
+incomplete without the repository pointed by "commondir".</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-modules"> <a class="anchor" href="#gitrepository-layout-modules"></a>modules </dt>
+<dd>
+<p>Contains the git-repositories of the submodules.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-worktrees"> <a class="anchor" href="#gitrepository-layout-worktrees"></a>worktrees </dt>
+<dd>
+<p>Contains administrative data for linked
+working trees. Each subdirectory contains the working tree-related
+part of a linked working tree. This directory is ignored if
+$GIT_COMMON_DIR is set, in which case
+"$GIT_COMMON_DIR/worktrees" will be used instead.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-worktreesltidgtgitdir"> <a class="anchor" href="#gitrepository-layout-worktreesltidgtgitdir"></a>worktrees/&lt;id&gt;/gitdir </dt>
+<dd>
+<p>A text file containing the absolute path back to the .git file
+that points to here. This is used to check if the linked
+repository has been manually removed and there is no need to
+keep this directory any more. The mtime of this file should be
+updated every time the linked repository is accessed.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-worktreesltidgtlocked"> <a class="anchor" href="#gitrepository-layout-worktreesltidgtlocked"></a>worktrees/&lt;id&gt;/locked </dt>
+<dd>
+<p>If this file exists, the linked working tree may be on a
+portable device and not available. The presence of this file
+prevents <code>worktrees/&lt;id&gt;</code> from being pruned either automatically
+or manually by <code>git worktree prune</code>. The file may contain a string
+explaining why the repository is locked.</p>
+</dd>
+<dt class="hdlist1" id="gitrepository-layout-worktreesltidgtlink"> <a class="anchor" href="#gitrepository-layout-worktreesltidgtlink"></a>worktrees/&lt;id&gt;/link </dt>
+<dd>
+<p>If this file exists, it is a hard link to the linked .git
+file. It is used to detect if the linked repository is
+manually removed.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_also"><a class="anchor" href="#_see_also"></a>SEE ALSO</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href='../git-init.html'>git-init[1]</a>,
+<a href='../git-clone.html'>git-clone[1]</a>,
+<a href='../git-fetch.html'>git-fetch[1]</a>,
+<a href='../git-pack-refs.html'>git-pack-refs[1]</a>,
+<a href='../git-gc.html'>git-gc[1]</a>,
+<a href='../git-checkout.html'>git-checkout[1]</a>,
+<a href='../gitglossary.html'>gitglossary[7]</a>,
+<a href="../gitrepository-layout.html">The Git User&#8217;s Manual</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_git"><a class="anchor" href="#_git"></a>GIT</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Part of the <a href='../git.html'>git[1]</a> suite</p>
+</div>
+</div>
+</div>
+  </div>
+
+        </div>
+      </div>
+      <footer>
+  <div class="site-source">
+    This <a href="https://github.com/git/git-scm.com/blob/master/README.md#license">open sourced</a> site is <a href="https://github.com/git/git-scm.com">hosted on GitHub.</a><br>
+    Patches, suggestions and comments are welcome.
+  </div>
+  <div class="sfc-member">
+    Git is a member of <a href="https://git-scm.com/sfc">Software Freedom Conservancy</a>
+  </div>
+</footer>
+
+<script src="../../assets/jquery-1.7.1.min-1e7a63d6feb237e04147914d7b3f8b05.js"></script>
+<script src="../../assets/jquery-ui-1.8.18.custom.min-01c113ee6bd3a021d2aceb47c8807458.js"></script>
+<script src="../../assets/jquery.defaultvalue-a3344e839433713d41ec7304ecdd6138.js"></script>
+<script src="../../assets/session.min-bf0ddfe17e69417e50f0eb3b9c3e1214.js"></script>
+<script src="../../assets/site-19b3bff50bab526421befb3d0b04eb62.js"></script>
+
+    </div>
+
+</body>
+
+<!-- Mirrored from git-scm.com/docs/gitrepository-layout/2.12.0 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:52:28 GMT -->
+</html>
