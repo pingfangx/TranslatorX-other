@@ -4,6 +4,1670 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../assets/git-scm-e7baad50e93810401dcff271ffd82512.css</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../assets/git-scm-e7baad50e93810401dcff271ffd82512.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../images/logo%402x.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>../images/logo%402x.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>About</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023603Z">
+        <seg>关于</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Administration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024357Z">
+        <seg>管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basic Snapshotting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024154Z">
+        <seg>快照基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Blog</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023756Z">
+        <seg>博客</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Book</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023709Z">
+        <seg>书籍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Branching and Merging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023943Z">
+        <seg>分支与合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Community</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023824Z">
+        <seg>社区</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Debugging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024038Z">
+        <seg>调试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023609Z">
+        <seg>文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloads</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023802Z">
+        <seg>下载</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Email</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024337Z">
+        <seg>邮件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Everyday Git</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Everyday Git</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>External Links</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023750Z">
+        <seg>外部链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>External Systems</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024354Z">
+        <seg>外部系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GUI Clients</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023808Z">
+        <seg>GUI 客户端</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getting and Creating Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024146Z">
+        <seg>获取与创建项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Git</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - Blog</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Git - Blog</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - Reference</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Git - Reference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git is a member of &lt;a0&gt;Software Freedom Conservancy&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Git is a member of &lt;a0&gt;Software Freedom Conservancy&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Glossary</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Glossary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Guides</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T025046Z">
+        <seg>指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IE=edge,chrome=1</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>IE=edge,chrome=1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inspection and Comparison</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024213Z">
+        <seg>检查与比较</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Logos</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023817Z">
+        <seg>标志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Patches, suggestions and comments are welcome.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Patches, suggestions and comments are welcome.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Patching</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024254Z">
+        <seg>补丁</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plumbing Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024434Z">
+        <seg>底层命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Quick reference guides: &lt;a0&gt;GitHub Cheat Sheet&lt;/a0&gt; &lt;s1&gt;(PDF)  | &lt;/s1&gt; &lt;a2&gt;Visual Git Cheat Sheet&lt;/a2&gt; &lt;s3&gt;(SVG | PNG)&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023908Z">
+        <seg>快速参考指南: &lt;a0&gt;GitHub Cheat Sheet&lt;/a0&gt; &lt;s1&gt;(PDF)  | &lt;/s1&gt; &lt;a2&gt;可视化 Git 小抄&lt;/a2&gt; &lt;s3&gt;(SVG | PNG)&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reference</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023635Z">
+        <seg>参考</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Revisions</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Revisions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search entire site...</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Search entire site...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Server Admin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024432Z">
+        <seg>服务器管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setup and Config</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024139Z">
+        <seg>设置与配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sharing and Updating Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024207Z">
+        <seg>项目分享与更新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This &lt;a0&gt;open sourced&lt;/a0&gt; site is &lt;a1&gt;hosted on GitHub.&lt;/a1&gt;&lt;br2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>This &lt;a0&gt;open sourced&lt;/a0&gt; site is &lt;a1&gt;hosted on GitHub.&lt;/a1&gt;&lt;br2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tutorial</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Tutorial</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Videos</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023712Z">
+        <seg>视频</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Workflows</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Workflows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>add</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>add</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>am</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>am</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>apply</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>archive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>bisect</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>bisect</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>blame</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>blame</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>branch</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>branch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>bundle</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>bundle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cat-file</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>cat-file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>check-ignore</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>check-ignore</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>checkout</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>checkout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cherry-pick</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>cherry-pick</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>clean</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>clean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>clone</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>clone</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>commit</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>commit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>commit-tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>commit-tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>config</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>config</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>count-objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>count-objects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>daemon</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>daemon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>describe</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>describe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>diff</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>diff</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>diff-index</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>diff-index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>en</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>en</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fast-import</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>fast-import</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fetch</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>fetch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>filter-branch</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>filter-branch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>for-each-ref</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>for-each-ref</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>format-patch</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>format-patch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fsck</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>fsck</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gc</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-add.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-add.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-am.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-am.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-apply.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-apply.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-archive.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-archive.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-bisect.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-bisect.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-blame.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-blame.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-branch.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-branch.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-bundle.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-bundle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-cat-file.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-cat-file.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-check-ignore.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-check-ignore.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-checkout.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-checkout.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-cherry-pick.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-cherry-pick.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clean.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-clean.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-clone.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-commit-tree.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-commit-tree.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-commit.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-commit.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-config.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-count-objects.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-count-objects.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-daemon.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-daemon.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-describe.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-describe.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-diff-index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-diff-index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-diff.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-diff.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-fast-import.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-fast-import.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-fetch.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-fetch.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-filter-branch.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-filter-branch.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-for-each-ref.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-for-each-ref.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-format-patch.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-format-patch.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-fsck.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-fsck.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-gc.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-gc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-grep.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-grep.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-hash-object.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-hash-object.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-help.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-help.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-init.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-init.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-instaweb.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-instaweb.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-log.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-log.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-ls-files.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-ls-files.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-merge-base.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-merge-base.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-merge.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-merge.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-mergetool.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-mergetool.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-mv.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-mv.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-pull.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-pull.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-push.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-push.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-read-tree.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-read-tree.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-rebase.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-rebase.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-reflog.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-reflog.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-remote.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-remote.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-request-pull.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-request-pull.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-reset.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-reset.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-rev-list.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-rev-list.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-rev-parse.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-rev-parse.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-revert.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-revert.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-rm.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-rm.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-send-email.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-send-email.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-shortlog.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-shortlog.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-show-ref.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-show-ref.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-show.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-show.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-stash.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-stash.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-status.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-status.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-submodule.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-submodule.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-svn.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-svn.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-symbolic-ref.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-symbolic-ref.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-tag.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-tag.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-update-index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-update-index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-update-ref.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-update-ref.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-update-server-info.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-update-server-info.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-verify-pack.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-verify-pack.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-write-tree.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git-write-tree.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>git.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gitattributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gitattributes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gitattributes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gitattributes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>giteveryday.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>giteveryday.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gitglossary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gitglossary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gitignore</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gitignore</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gitignore.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gitignore.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gitmodules</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gitmodules</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gitmodules.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gitmodules.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gitrevisions.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gitrevisions.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gittutorial.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gittutorial.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gitworkflows.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>gitworkflows.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>grep</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>grep</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hash-object</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>hash-object</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>help</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>help</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://ndpsoftware.com/git-cheatsheet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>http://ndpsoftware.com/git-cheatsheet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/about</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/about</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/blog</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/blog</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/blog.rss</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/blog.rss</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/book</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/book</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/community</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/community</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/doc</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/doc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/doc/ext</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/doc/ext</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/docs</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/docs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/downloads</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/downloads</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/downloads/guis</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/downloads/guis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/downloads/logos</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/downloads/logos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/favicon.ico</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/favicon.ico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/sfc</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/sfc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://git-scm.com/videos</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://git-scm.com/videos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://github.com/git/git-scm.com</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://github.com/git/git-scm.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://github.com/git/git-scm.com/blob/master/README.md#license</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://github.com/git/git-scm.com/blob/master/README.md#license</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>init</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>init</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>instaweb</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>instaweb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>log</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>log</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ls-files</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>ls-files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>merge</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>merge</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>merge-base</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>merge-base</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mergetool</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>mergetool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mv</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>mv</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pull</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>pull</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>push</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>push</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>read-tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>read-tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rebase</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>rebase</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>reflog</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>reflog</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>remote</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>remote</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>request-pull</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>request-pull</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>reset</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>reset</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rev-list</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>rev-list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rev-parse</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>rev-parse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>revert</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>revert</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rm</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>rm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>send-email</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>send-email</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>shortlog</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>shortlog</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>show</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>show</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>show-ref</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>show-ref</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>stash</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>stash</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>status</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>submodule</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>submodule</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>svn</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>svn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>symbolic-ref</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>symbolic-ref</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tag</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>tag</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>update-index</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>update-index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>update-ref</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>update-ref</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>update-server-info</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>update-server-info</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>verify-pack</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>verify-pack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>write-tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>write-tree</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
