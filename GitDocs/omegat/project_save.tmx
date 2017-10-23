@@ -52,6 +52,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#EXAMPLES</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T101425Z" creationid="Admin" creationdate="20171023T101425Z">
+        <seg>#EXAMPLES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#FILES</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T101710Z" creationid="Admin" creationdate="20171023T101710Z">
+        <seg>#FILES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#_ancillary_commands</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -88,6 +104,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>#_discussion_a_id_discussion_a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#_environment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120949Z" creationid="Admin" creationdate="20171023T120949Z">
+        <seg>#_environment</seg>
       </tuv>
     </tu>
     <tu>
@@ -276,6 +300,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#_syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121405Z" creationid="Admin" creationdate="20171023T121405Z">
+        <seg>#_syntax</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#_terminology</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -288,6 +320,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>#_the_git_repository</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#_variables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102014Z" creationid="Admin" creationdate="20171023T102014Z">
+        <seg>#_variables</seg>
       </tuv>
     </tu>
     <tu>
@@ -1948,6 +1988,342 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#git-config---add</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112956Z" creationid="Admin" creationdate="20171023T112956Z">
+        <seg>#git-config---add</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---blobblob</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114425Z" creationid="Admin" creationdate="20171023T114425Z">
+        <seg>#git-config---blobblob</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---bool</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114551Z" creationid="Admin" creationdate="20171023T114551Z">
+        <seg>#git-config---bool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---bool-or-int</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115017Z" creationid="Admin" creationdate="20171023T115017Z">
+        <seg>#git-config---bool-or-int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---edit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115859Z" creationid="Admin" creationdate="20171023T115859Z">
+        <seg>#git-config---edit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---fileconfig-file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114239Z" creationid="Admin" creationdate="20171023T114239Z">
+        <seg>#git-config---fileconfig-file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---get</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113122Z" creationid="Admin" creationdate="20171023T113122Z">
+        <seg>#git-config---get</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---get-all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113146Z" creationid="Admin" creationdate="20171023T113146Z">
+        <seg>#git-config---get-all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---get-colorboolnamestdout-is-tty</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115702Z" creationid="Admin" creationdate="20171023T115702Z">
+        <seg>#git-config---get-colorboolnamestdout-is-tty</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---get-colornamedefault</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115837Z" creationid="Admin" creationdate="20171023T115837Z">
+        <seg>#git-config---get-colornamedefault</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---get-regexp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113208Z" creationid="Admin" creationdate="20171023T113208Z">
+        <seg>#git-config---get-regexp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---get-urlmatchnameURL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113702Z" creationid="Admin" creationdate="20171023T113702Z">
+        <seg>#git-config---get-urlmatchnameURL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---global</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113855Z" creationid="Admin" creationdate="20171023T113855Z">
+        <seg>#git-config---global</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---int</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114626Z" creationid="Admin" creationdate="20171023T114626Z">
+        <seg>#git-config---int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---list</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114542Z" creationid="Admin" creationdate="20171023T114542Z">
+        <seg>#git-config---list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---local</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114149Z" creationid="Admin" creationdate="20171023T114149Z">
+        <seg>#git-config---local</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---name-only</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115513Z" creationid="Admin" creationdate="20171023T115513Z">
+        <seg>#git-config---name-only</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---no-includes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115925Z" creationid="Admin" creationdate="20171023T115925Z">
+        <seg>#git-config---no-includes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115355Z" creationid="Admin" creationdate="20171023T115355Z">
+        <seg>#git-config---null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115050Z" creationid="Admin" creationdate="20171023T115050Z">
+        <seg>#git-config---path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---remove-section</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114508Z" creationid="Admin" creationdate="20171023T114508Z">
+        <seg>#git-config---remove-section</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---rename-section</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114514Z" creationid="Admin" creationdate="20171023T114514Z">
+        <seg>#git-config---rename-section</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---replace-all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112922Z" creationid="Admin" creationdate="20171023T112922Z">
+        <seg>#git-config---replace-all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---show-origin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115541Z" creationid="Admin" creationdate="20171023T115541Z">
+        <seg>#git-config---show-origin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---system</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114051Z" creationid="Admin" creationdate="20171023T114051Z">
+        <seg>#git-config---system</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---unset</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114519Z" creationid="Admin" creationdate="20171023T114519Z">
+        <seg>#git-config---unset</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config---unset-all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114529Z" creationid="Admin" creationdate="20171023T114529Z">
+        <seg>#git-config---unset-all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config--e</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115858Z" creationid="Admin" creationdate="20171023T115858Z">
+        <seg>#git-config--e</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config--fconfig-file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114237Z" creationid="Admin" creationdate="20171023T114237Z">
+        <seg>#git-config--fconfig-file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config--l</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114540Z" creationid="Admin" creationdate="20171023T114540Z">
+        <seg>#git-config--l</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config--z</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115353Z" creationid="Admin" creationdate="20171023T115353Z">
+        <seg>#git-config--z</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-GITCONFIG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120952Z" creationid="Admin" creationdate="20171023T120952Z">
+        <seg>#git-config-GITCONFIG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-GITCONFIGNOSYSTEM</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121109Z" creationid="Admin" creationdate="20171023T121109Z">
+        <seg>#git-config-GITCONFIGNOSYSTEM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-GITDIRconfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120615Z" creationid="Admin" creationdate="20171023T120615Z">
+        <seg>#git-config-GITDIRconfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-XDGCONFIGHOMEgitconfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120500Z" creationid="Admin" creationdate="20171023T120500Z">
+        <seg>#git-config-XDGCONFIGHOMEgitconfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-color</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123646Z" creationid="Admin" creationdate="20171023T123646Z">
+        <seg>#git-config-color</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123540Z" creationid="Admin" creationdate="20171023T123540Z">
+        <seg>#git-config-false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-gitconfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120606Z" creationid="Admin" creationdate="20171023T120606Z">
+        <seg>#git-config-gitconfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-integer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123615Z" creationid="Admin" creationdate="20171023T123615Z">
+        <seg>#git-config-integer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-prefixetcgitconfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120454Z" creationid="Admin" creationdate="20171023T120454Z">
+        <seg>#git-config-prefixetcgitconfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123433Z" creationid="Admin" creationdate="20171023T123433Z">
+        <seg>#git-config-true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-config-webbrowser</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123815Z" creationid="Admin" creationdate="20171023T123815Z">
+        <seg>#git-config-webbrowser</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#git-emEMAILem</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -2056,6 +2432,46 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>#git-lttypegt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(prefix)/etc/gitconfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120455Z" creationid="Admin" creationdate="20171023T120455Z">
+        <seg>$(prefix)/etc/gitconfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$GIT_DIR/config</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120616Z" creationid="Admin" creationdate="20171023T120616Z">
+        <seg>$GIT_DIR/config</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$XDG_CONFIG_HOME/git/config</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120501Z" creationid="Admin" creationdate="20171023T120501Z">
+        <seg>$XDG_CONFIG_HOME/git/config</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--[no-]includes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115925Z" creationid="Admin" creationdate="20171023T115925Z">
+        <seg>--[no-]includes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--add</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112957Z" creationid="Admin" creationdate="20171023T112957Z">
+        <seg>--add</seg>
       </tuv>
     </tu>
     <tu>
@@ -2068,10 +2484,98 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--blob blob</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114426Z" creationid="Admin" creationdate="20171023T114426Z">
+        <seg>--blob blob</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--bool</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114551Z" creationid="Admin" creationdate="20171023T114551Z">
+        <seg>--bool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--bool-or-int</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115018Z" creationid="Admin" creationdate="20171023T115018Z">
+        <seg>--bool-or-int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--edit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115859Z" creationid="Admin" creationdate="20171023T115859Z">
+        <seg>--edit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--exec-path[=&lt;path&gt;]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070122Z" creationid="Admin" creationdate="20171020T070122Z">
         <seg>--exec-path[=&lt;path&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--file config-file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114240Z" creationid="Admin" creationdate="20171023T114240Z">
+        <seg>--file config-file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--get</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113123Z" creationid="Admin" creationdate="20171023T113123Z">
+        <seg>--get</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--get-all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113147Z" creationid="Admin" creationdate="20171023T113147Z">
+        <seg>--get-all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--get-color name [default]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115838Z" creationid="Admin" creationdate="20171023T115838Z">
+        <seg>--get-color name [default]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--get-colorbool name [stdout-is-tty]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115704Z" creationid="Admin" creationdate="20171023T115704Z">
+        <seg>--get-colorbool name [stdout-is-tty]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--get-regexp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113208Z" creationid="Admin" creationdate="20171023T113208Z">
+        <seg>--get-regexp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--get-urlmatch name URL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113702Z" creationid="Admin" creationdate="20171023T113702Z">
+        <seg>--get-urlmatch name URL</seg>
       </tuv>
     </tu>
     <tu>
@@ -2088,6 +2592,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T073210Z" creationid="Admin" creationdate="20171020T073210Z">
         <seg>--glob-pathspecs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--global</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113855Z" creationid="Admin" creationdate="20171023T113855Z">
+        <seg>--global</seg>
       </tuv>
     </tu>
     <tu>
@@ -2124,6 +2636,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--int</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114627Z" creationid="Admin" creationdate="20171023T114627Z">
+        <seg>--int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--list</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114542Z" creationid="Admin" creationdate="20171023T114542Z">
+        <seg>--list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--literal-pathspecs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072817Z" creationid="Admin" creationdate="20171020T072817Z">
@@ -2132,10 +2660,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--local</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114150Z" creationid="Admin" creationdate="20171023T114150Z">
+        <seg>--local</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--man-path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070446Z" creationid="Admin" creationdate="20171020T070446Z">
         <seg>--man-path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--name-only</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115514Z" creationid="Admin" creationdate="20171023T115514Z">
+        <seg>--name-only</seg>
       </tuv>
     </tu>
     <tu>
@@ -2172,6 +2716,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115355Z" creationid="Admin" creationdate="20171023T115355Z">
+        <seg>--null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--paginate</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070627Z" creationid="Admin" creationdate="20171020T070627Z">
@@ -2180,10 +2732,74 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115051Z" creationid="Admin" creationdate="20171023T115051Z">
+        <seg>--path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--remove-section</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114509Z" creationid="Admin" creationdate="20171023T114509Z">
+        <seg>--remove-section</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--rename-section</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114515Z" creationid="Admin" creationdate="20171023T114515Z">
+        <seg>--rename-section</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--replace-all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112923Z" creationid="Admin" creationdate="20171023T112923Z">
+        <seg>--replace-all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--show-origin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115541Z" creationid="Admin" creationdate="20171023T115541Z">
+        <seg>--show-origin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--super-prefix=&lt;path&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072518Z" creationid="Admin" creationdate="20171020T072518Z">
         <seg>--super-prefix=&lt;path&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--system</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114052Z" creationid="Admin" creationdate="20171023T114052Z">
+        <seg>--system</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--unset</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114520Z" creationid="Admin" creationdate="20171023T114520Z">
+        <seg>--unset</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--unset-all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114530Z" creationid="Admin" creationdate="20171023T114530Z">
+        <seg>--unset-all</seg>
       </tuv>
     </tu>
     <tu>
@@ -2220,10 +2836,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-e</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115858Z" creationid="Admin" creationdate="20171023T115858Z">
+        <seg>-e</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-f config-file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114238Z" creationid="Admin" creationdate="20171023T114238Z">
+        <seg>-f config-file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-l</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114541Z" creationid="Admin" creationdate="20171023T114541Z">
+        <seg>-l</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-p</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070621Z" creationid="Admin" creationdate="20171020T070621Z">
         <seg>-p</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-z</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115354Z" creationid="Admin" creationdate="20171023T115354Z">
+        <seg>-z</seg>
       </tuv>
     </tu>
     <tu>
@@ -2268,10 +2916,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.1.1 → 2.3.10 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100636Z" creationid="Admin" creationdate="20171023T100636Z">
+        <seg>2.1.1 → 2.3.10 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.10.4 → 2.10.5 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034746Z" creationid="Admin" creationdate="20171020T034746Z">
-        <seg>2.10.4 → 2.10.5 无变化</seg>
+        <seg>2.10.4 → 2.10.5 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -2279,7 +2935,7 @@
         <seg>2.11.3 → 2.11.4 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034731Z" creationid="Admin" creationdate="20171020T034728Z">
-        <seg>2.11.3 → 2.11.4 无变化</seg>
+        <seg>2.11.3 → 2.11.4 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -2287,7 +2943,7 @@
         <seg>2.12.4 → 2.12.5 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034708Z" creationid="Admin" creationdate="20171020T034708Z">
-        <seg>2.12.4 → 2.12.5 无变化</seg>
+        <seg>2.12.4 → 2.12.5 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -2295,7 +2951,23 @@
         <seg>2.13.2 → 2.14.1 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034648Z" creationid="Admin" creationdate="20171020T034648Z">
-        <seg>2.13.2 → 2.14.1 无变化</seg>
+        <seg>2.13.2 → 2.14.1 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.4.1 → 2.5.6 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100629Z" creationid="Admin" creationdate="20171023T100629Z">
+        <seg>2.4.1 → 2.5.6 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.6.1 → 2.7.6 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100618Z" creationid="Admin" creationdate="20171023T100618Z">
+        <seg>2.6.1 → 2.7.6 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -2303,7 +2975,23 @@
         <seg>2.7.6 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034858Z" creationid="Admin" creationdate="20171020T034858Z">
-        <seg>2.7.6 无变化</seg>
+        <seg>2.7.6 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.8.1 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100611Z" creationid="Admin" creationdate="20171023T100611Z">
+        <seg>2.8.1 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.8.4 → 2.9.0 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100602Z" creationid="Admin" creationdate="20171023T100602Z">
+        <seg>2.8.4 → 2.9.0 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -2311,7 +2999,15 @@
         <seg>2.8.6 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034833Z" creationid="Admin" creationdate="20171020T034833Z">
-        <seg>2.8.6 无变化</seg>
+        <seg>2.8.6 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.9.2 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100555Z" creationid="Admin" creationdate="20171023T100555Z">
+        <seg>2.9.2 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -2319,7 +3015,15 @@
         <seg>2.9.5 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034810Z" creationid="Admin" creationdate="20171020T034810Z">
-        <seg>2.9.5 无变化</seg>
+        <seg>2.9.5 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.9.5 → 2.14.1 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100546Z" creationid="Admin" creationdate="20171023T100546Z">
+        <seg>2.9.5 → 2.14.1 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -2336,6 +3040,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034232Z" creationid="Admin" creationdate="20171020T034232Z">
         <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git 最后更新于 2.14.2&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-config last updated in 2.14.2&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100452Z" creationid="Admin" creationdate="20171023T100452Z">
+        <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-config 最后更新于 2.14.2&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2388,6 +3100,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c2&gt;stdout-is-tty&lt;/c2&gt; should be either "true" or "false", and is taken into account when configuration says "auto".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115827Z" creationid="Admin" creationdate="20171023T115827Z">
+        <seg>&lt;c2&gt;stdout-is-tty&lt;/c2&gt; 应为“true”或“false”，并在配置为“auto”时考虑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c4&gt;GIT_EXTERNAL_DIFF&lt;/c4&gt; should not worry about unlinking the temporary file --- it is removed when &lt;c5&gt;GIT_EXTERNAL_DIFF&lt;/c5&gt; exits.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074812Z">
@@ -2416,6 +3136,74 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>&lt;commit&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git config&lt;/e0&gt; [&lt;file-option&gt;] [type] [--show-origin] [-z|--null] name [value [value_regex]]
+&lt;e1&gt;git config&lt;/e1&gt; [&lt;file-option&gt;] [type] --add name value
+&lt;e2&gt;git config&lt;/e2&gt; [&lt;file-option&gt;] [type] --replace-all name value [value_regex]
+&lt;e3&gt;git config&lt;/e3&gt; [&lt;file-option&gt;] [type] [--show-origin] [-z|--null] --get name [value_regex]
+&lt;e4&gt;git config&lt;/e4&gt; [&lt;file-option&gt;] [type] [--show-origin] [-z|--null] --get-all name [value_regex]
+&lt;e5&gt;git config&lt;/e5&gt; [&lt;file-option&gt;] [type] [--show-origin] [-z|--null] [--name-only] --get-regexp name_regex [value_regex]
+&lt;e6&gt;git config&lt;/e6&gt; [&lt;file-option&gt;] [type] [-z|--null] --get-urlmatch name URL
+&lt;e7&gt;git config&lt;/e7&gt; [&lt;file-option&gt;] --unset name [value_regex]
+&lt;e8&gt;git config&lt;/e8&gt; [&lt;file-option&gt;] --unset-all name [value_regex]
+&lt;e9&gt;git config&lt;/e9&gt; [&lt;file-option&gt;] --rename-section old_name new_name
+&lt;e10&gt;git config&lt;/e10&gt; [&lt;file-option&gt;] --remove-section name
+&lt;e11&gt;git config&lt;/e11&gt; [&lt;file-option&gt;] [--show-origin] [-z|--null] [--name-only] -l | --list
+&lt;e12&gt;git config&lt;/e12&gt; [&lt;file-option&gt;] --get-color name [default]
+&lt;e13&gt;git config&lt;/e13&gt; [&lt;file-option&gt;] --get-colorbool name [stdout-is-tty]
+&lt;e14&gt;git config&lt;/e14&gt; [&lt;file-option&gt;] -e | --edit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T101405Z" creationid="Admin" creationdate="20171023T101405Z">
+        <seg>&lt;e0&gt;git config&lt;/e0&gt; [&lt;file-option&gt;] [type] [--show-origin] [-z|--null] name [value [value_regex]]
+&lt;e1&gt;git config&lt;/e1&gt; [&lt;file-option&gt;] [type] --add name value
+&lt;e2&gt;git config&lt;/e2&gt; [&lt;file-option&gt;] [type] --replace-all name value [value_regex]
+&lt;e3&gt;git config&lt;/e3&gt; [&lt;file-option&gt;] [type] [--show-origin] [-z|--null] --get name [value_regex]
+&lt;e4&gt;git config&lt;/e4&gt; [&lt;file-option&gt;] [type] [--show-origin] [-z|--null] --get-all name [value_regex]
+&lt;e5&gt;git config&lt;/e5&gt; [&lt;file-option&gt;] [type] [--show-origin] [-z|--null] [--name-only] --get-regexp name_regex [value_regex]
+&lt;e6&gt;git config&lt;/e6&gt; [&lt;file-option&gt;] [type] [-z|--null] --get-urlmatch name URL
+&lt;e7&gt;git config&lt;/e7&gt; [&lt;file-option&gt;] --unset name [value_regex]
+&lt;e8&gt;git config&lt;/e8&gt; [&lt;file-option&gt;] --unset-all name [value_regex]
+&lt;e9&gt;git config&lt;/e9&gt; [&lt;file-option&gt;] --rename-section old_name new_name
+&lt;e10&gt;git config&lt;/e10&gt; [&lt;file-option&gt;] --remove-section name
+&lt;e11&gt;git config&lt;/e11&gt; [&lt;file-option&gt;] [--show-origin] [-z|--null] [--name-only] -l | --list
+&lt;e12&gt;git config&lt;/e12&gt; [&lt;file-option&gt;] --get-color name [default]
+&lt;e13&gt;git config&lt;/e13&gt; [&lt;file-option&gt;] --get-colorbool name [stdout-is-tty]
+&lt;e14&gt;git config&lt;/e14&gt; [&lt;file-option&gt;] -e | --edit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git config&lt;/e0&gt; will ensure that the output is "true" or "false"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114625Z" creationid="Admin" creationdate="20171023T114625Z">
+        <seg>&lt;e0&gt;git config&lt;/e0&gt; 将确保输出为“true”或“false”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git config&lt;/e0&gt; will ensure that the output is a simple decimal number.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114848Z" creationid="Admin" creationdate="20171023T114848Z">
+        <seg>&lt;e0&gt;git config&lt;/e0&gt; 将确保输出是一个简单的十进制数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git config&lt;/e0&gt; will ensure that the output matches the format of either --bool or --int, as described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115049Z" creationid="Admin" creationdate="20171023T115049Z">
+        <seg>&lt;e0&gt;git config&lt;/e0&gt; 将确保输出与 --bool 或 --int 的格式匹配，如上所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git-config&lt;/e0&gt; will expand leading &lt;e1&gt;~&lt;/e1&gt; to the value of &lt;e2&gt;$HOME&lt;/e2&gt;, and &lt;e3&gt;~user&lt;/e3&gt; to the home directory for the specified user.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115242Z" creationid="Admin" creationdate="20171023T115242Z">
+        <seg>&lt;e0&gt;git-config&lt;/e0&gt; 将 &lt;e1&gt;~&lt;/e1&gt; 开头扩展为 &lt;e2&gt;$HOME&lt;/e2&gt; ，将 &lt;e3&gt;~user&lt;/e3&gt; 的值扩展到指定用户的主目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2648,6 +3436,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034653Z" creationid="Admin" creationdate="20171020T034653Z">
         <seg>&lt;s0&gt;2.13.1&lt;/s0&gt; &lt;s1&gt; &lt;i2/&gt; &lt;i3/&gt; &lt;i4/&gt; &lt;i5/&gt; &lt;i6/&gt; &lt;i7/&gt; &lt;i8/&gt; &lt;i9/&gt; &lt;/s1&gt; &lt;e10&gt;06/05/17&lt;/e10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;2.14.2&lt;/s0&gt; &lt;s1&gt; &lt;i2/&gt; &lt;i3/&gt; &lt;i4/&gt; &lt;i5/&gt; &lt;i6/&gt; &lt;i7/&gt; &lt;i8/&gt; &lt;/s1&gt; &lt;e9&gt;09/22/17&lt;/e9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100525Z" creationid="Admin" creationdate="20171023T100525Z">
+        <seg>&lt;s0&gt;2.14.2&lt;/s0&gt; &lt;s1&gt; &lt;i2/&gt; &lt;i3/&gt; &lt;i4/&gt; &lt;i5/&gt; &lt;i6/&gt; &lt;i7/&gt; &lt;i8/&gt; &lt;/s1&gt; &lt;e9&gt;09/22/17&lt;/e9&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3148,6 +3944,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;&lt;e3&gt;git config&lt;/e3&gt; will only ever change one file at a time&lt;/s2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120926Z" creationid="Admin" creationdate="20171023T120926Z">
+        <seg>&lt;s2&gt;&lt;e3&gt;git config&lt;/e3&gt; 一次只会更改一个文件&lt;/s2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;tag&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -3332,6 +4136,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds a new line to the option without altering any existing values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113112Z" creationid="Admin" creationdate="20171023T113112Z">
+        <seg>在选项中添加新行，而不更改任何现有值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Administration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024357Z">
@@ -3356,6 +4168,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All writing options will per default write to the repository specific configuration file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120819Z" creationid="Admin" creationdate="20171023T120819Z">
+        <seg>所有写入选项将默认写入仓库特定的配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also called "global" configuration file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120615Z" creationid="Admin" creationdate="20171023T120615Z">
+        <seg>也称为"全局"配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also, a variable defined without &lt;c4&gt;= &lt;value&gt;&lt;/c4&gt; is taken as true.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123539Z" creationid="Admin" creationdate="20171023T123539Z">
+        <seg>另外，没有 &lt;c4&gt;= &lt;value&gt;&lt;/c4&gt; 定义的变量被认为是 true 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, if the variable is set to an absolute path (starting with a &lt;e0&gt;/&lt;/e0&gt; character), Git will interpret this as a file path and will try to write the trace messages into it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080011Z" creationid="Admin" creationdate="20171023T080011Z">
@@ -3368,6 +4204,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T091518Z" creationid="Admin" creationdate="20171020T091518Z">
         <seg>虽然 Git 包含自己的高层命令，但其低级命令足以支持替代高级命令的开发。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An optional value suffix of &lt;e1&gt;k&lt;/e1&gt;, &lt;e2&gt;m&lt;/e2&gt;, or &lt;e3&gt;g&lt;/e3&gt; in the config file will cause the value to be multiplied by 1024, 1048576, or 1073741824 prior to output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115016Z" creationid="Admin" creationdate="20171023T115016Z">
+        <seg>配置文件中的可选值后缀为 &lt;e1&gt;k&lt;/e1&gt; ， &lt;e2&gt;m&lt;/e2&gt; 或 &lt;e3&gt;g&lt;/e3&gt; 将导致该值乘以1024,1048576或1073741824。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3392,6 +4236,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070029Z" creationid="Admin" creationdate="20171023T070029Z">
         <seg>任何接受任何&lt;object&gt;的 Git 命令也可以使用以下符号表示法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any single-valued variable set in this file will be overwritten by whatever is in &lt;c1&gt;~/.gitconfig&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120550Z" creationid="Admin" creationdate="20171023T120550Z">
+        <seg>此文件中设置的任何单值变量将被 &lt;c1&gt;~/.gitconfig&lt;/c1&gt; 中的任何内容覆盖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3424,6 +4276,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074243Z" creationid="Admin" creationdate="20171020T074243Z">
         <seg>应用一些现有提交引入的更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Augment the output of all queried config options with the origin type (file, standard input, blob, command line) and the actual origin (config file path, ref, or blob id if applicable).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115701Z" creationid="Admin" creationdate="20171023T115701Z">
+        <seg>以源类型（文件，标准输入，blob，命令行）和实际源（配置文件路径，引用或 blob id（如果适用））增加所有查询配置选项的输出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3476,6 +4336,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Boolean false literals are &lt;c0&gt;no&lt;/c0&gt;, &lt;c1&gt;off&lt;/c1&gt;, &lt;c2&gt;false&lt;/c2&gt;, &lt;c3&gt;0&lt;/c3&gt; and the empty string.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123606Z" creationid="Admin" creationdate="20171023T123545Z">
+        <seg>布尔 false 的文字是 &lt;c0&gt;no&lt;/c0&gt;, &lt;c1&gt;off&lt;/c1&gt;, &lt;c2&gt;false&lt;/c2&gt;, &lt;c3&gt;0&lt;/c3&gt; 和空字符串。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Boolean true literals are &lt;c0&gt;yes&lt;/c0&gt;, &lt;c1&gt;on&lt;/c1&gt;, &lt;c2&gt;true&lt;/c2&gt;, and &lt;c3&gt;1&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123521Z" creationid="Admin" creationdate="20171023T123453Z">
+        <seg>布尔 true 的文字是 &lt;c0&gt;yes&lt;/c0&gt;, &lt;c1&gt;on&lt;/c1&gt;, &lt;c2&gt;true&lt;/c2&gt;, 和 &lt;c3&gt;1&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Branching and Merging</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023943Z">
@@ -3504,6 +4380,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070820Z" creationid="Admin" creationdate="20171023T070820Z">
         <seg>默认使用索引文件版本2或3。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CONFIGURATION FILE</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121216Z" creationid="Admin" creationdate="20171023T121216Z">
+        <seg>配置文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes in the &lt;s0&gt;git-config&lt;/s0&gt; manual</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100521Z" creationid="Admin" creationdate="20171023T100521Z">
+        <seg>&lt;s0&gt;git-config&lt;/s0&gt; 手册中的更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -3724,6 +4616,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Currently only &lt;a0&gt;git-instaweb[1]&lt;/a0&gt; and &lt;a1&gt;git-help[1]&lt;/a1&gt; may use it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123825Z" creationid="Admin" creationdate="20171023T123825Z">
+        <seg>目前，只有 &lt;a0&gt;git-instaweb[1]&lt;/a0&gt; 和 &lt;a1&gt;git-help[1]&lt;/a1&gt; 可能会使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DESCRIPTION</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T040252Z" creationid="Admin" creationdate="20171020T040252Z">
@@ -3744,6 +4644,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024038Z">
         <seg>调试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default behavior is to replace at most one line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112931Z" creationid="Admin" creationdate="20171023T112931Z">
+        <seg>默认行为是最多替换一行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defaults to &lt;c1&gt;off&lt;/c1&gt; when a specific file is given (e.g., using &lt;c2&gt;--file&lt;/c2&gt;, &lt;c3&gt;--global&lt;/c3&gt;, etc) and &lt;c4&gt;on&lt;/c4&gt; when searching all config files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120145Z" creationid="Admin" creationdate="20171023T120145Z">
+        <seg>默认为  &lt;c1&gt;off&lt;/c1&gt; 当给定特定文件(例如，使用 &lt;c2&gt;--file&lt;/c2&gt; ， &lt;c3&gt;--global&lt;/c3&gt; 等)时，当搜索所有配置文件时为 &lt;c4&gt;on&lt;/c4&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3860,6 +4776,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>E.g. you can use &lt;e1&gt;master:.gitmodules&lt;/e1&gt; to read values from the file &lt;e2&gt;.gitmodules&lt;/e2&gt; in the master branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114502Z" creationid="Admin" creationdate="20171023T114502Z">
+        <seg>例如。您可以使用 &lt;e1&gt;master:.gitmodules&lt;/e1&gt; 从主分支中的文件 &lt;e2&gt;.gitmodules&lt;/e2&gt; 读取值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>E.g., the value
 `"path-with-\"-and-:-in-it":vanilla-path` has two paths:
 `path-with-"-and-:-in-it` and `vanilla-path`.</seg>
@@ -3876,6 +4800,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085319Z" creationid="Admin" creationdate="20171023T072824Z">
         <seg>EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ENVIRONMENT</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120951Z" creationid="Admin" creationdate="20171023T120951Z">
+        <seg>环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>EXAMPLES</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121130Z" creationid="Admin" creationdate="20171023T121130Z">
+        <seg>例子</seg>
       </tuv>
     </tu>
     <tu>
@@ -4004,6 +4944,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123308Z" creationid="Admin" creationdate="20171023T123308Z">
+        <seg>例子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Export a single commit to a CVS checkout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090654Z" creationid="Admin" creationdate="20171020T090654Z">
@@ -4040,6 +4988,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094203Z" creationid="Admin" creationdate="20171020T094203Z">
         <seg>从单个电子邮件中提取补丁和作者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FILES</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120154Z" creationid="Admin" creationdate="20171023T120154Z">
+        <seg>文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -4100,6 +5056,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Find the color configured for &lt;c0&gt;name&lt;/c0&gt; (e.g. &lt;c1&gt;color.diff.new&lt;/c1&gt;) and output it as the ANSI color escape sequence to the standard output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115853Z" creationid="Admin" creationdate="20171023T115853Z">
+        <seg>找到为 &lt;c0&gt;name&lt;/c0&gt; (例如 &lt;c1&gt;color.diff.new&lt;/c1&gt; )配置的颜色，并将其作为 ANSI 颜色转义序列输出到标准输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Find the color setting for &lt;c0&gt;name&lt;/c0&gt; (e.g. &lt;c1&gt;color.diff&lt;/c1&gt;) and output "true" or "false".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115713Z" creationid="Admin" creationdate="20171023T115713Z">
+        <seg>找到 &lt;c0&gt;name&lt;/c0&gt; (例如 &lt;c1&gt;color.diff&lt;/c1&gt; )的颜色设置，并输出“true”或“false”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a more complete list of ways to spell object names, see "SPECIFYING REVISIONS" section in &lt;a0&gt;gitrevisions[7]&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070406Z" creationid="Admin" creationdate="20171023T070406Z">
@@ -4120,6 +5092,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T073912Z" creationid="Admin" creationdate="20171023T073912Z">
         <seg>对于未合并的路径，使用1个参数&lt;path&gt;调用 &lt;c0&gt;GIT_EXTERNAL_DIFF&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For all options that output values and/or keys, always end values with the null character (instead of a newline).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115402Z" creationid="Admin" creationdate="20171023T115402Z">
+        <seg>对于输出值和/或键的所有选项，始终使用空字符结束值(而不是换行符)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For command-specific variables, you will find a more detailed description in the appropriate manual page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123726Z" creationid="Admin" creationdate="20171023T102055Z">
+        <seg>对于特定于命令的变量，您将在相应的手册页面中找到更详细的描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4152,6 +5140,54 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080609Z" creationid="Admin" creationdate="20171023T080609Z">
         <seg>例如，运行 &lt;c1&gt;GIT_LITERAL_PATHSPECS=1 git log -- '*.c'&lt;/c1&gt; 将搜索匹配路径 &lt;c2&gt;*.c&lt;/c2&gt; 的提交，而不是 glob &lt;c3&gt;*.c&lt;/c3&gt; 匹配的路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For reading options: read only from global &lt;c0&gt;~/.gitconfig&lt;/c0&gt; and from &lt;c1&gt;$XDG_CONFIG_HOME/git/config&lt;/c1&gt; rather than from all available files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114131Z" creationid="Admin" creationdate="20171023T114045Z">
+        <seg>读取选项：读取只从全局的 &lt;c0&gt;~/.gitconfig&lt;/c0&gt; 和 &lt;c1&gt;$XDG_CONFIG_HOME/git/config&lt;/c1&gt; 而不是所有可用的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For reading options: read only from system-wide &lt;c0&gt;$(prefix)/etc/gitconfig&lt;/c0&gt; rather than from all available files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114147Z" creationid="Admin" creationdate="20171023T114125Z">
+        <seg>读取选项：读取只从系统范围的 &lt;c0&gt;$(prefix)/etc/gitconfig&lt;/c0&gt; 而不是所有可用的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For reading options: read only from the repository &lt;c0&gt;.git/config&lt;/c0&gt; rather than from all available files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114236Z" creationid="Admin" creationdate="20171023T114236Z">
+        <seg>读取选项：读取只从仓库的 &lt;c0&gt;.git/config&lt;/c0&gt; ，而不是所有可用的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For writing options: write to global &lt;c0&gt;~/.gitconfig&lt;/c0&gt; file rather than the repository &lt;c1&gt;.git/config&lt;/c1&gt;, write to &lt;c2&gt;$XDG_CONFIG_HOME/git/config&lt;/c2&gt; file if this file exists and the &lt;c3&gt;~/.gitconfig&lt;/c3&gt; file doesn’t.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114002Z" creationid="Admin" creationdate="20171023T114002Z">
+        <seg>写入选项：写入全局 &lt;c0&gt;~/.gitconfig&lt;/c0&gt; 文件，而不是仓库 &lt;c1&gt;.git/config&lt;/c1&gt; ，写入 &lt;c2&gt;$XDG_CONFIG_HOME/git/config&lt;/c2&gt; 文件，如果此文件存在，并且 &lt;c3&gt;~/.gitconfig&lt;/c3&gt; 文件不存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For writing options: write to system-wide &lt;c0&gt;$(prefix)/etc/gitconfig&lt;/c0&gt; rather than the repository &lt;c1&gt;.git/config&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114103Z" creationid="Admin" creationdate="20171023T114103Z">
+        <seg>对于写入选项：写入系统范围的 &lt;c0&gt;$(prefix)/etc/gitconfig&lt;/c0&gt; 而不是仓库 &lt;c1&gt;.git/config&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For writing options: write to the repository &lt;c0&gt;.git/config&lt;/c0&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114155Z" creationid="Admin" creationdate="20171023T114155Z">
+        <seg>写入选项：写入仓库 &lt;c0&gt;.git/config&lt;/c0&gt; 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4256,6 +5292,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN">
         <seg>GIT_COMMON_DIR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GIT_CONFIG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120953Z" creationid="Admin" creationdate="20171023T120953Z">
+        <seg>GIT_CONFIG</seg>
       </tuv>
     </tu>
     <tu>
@@ -4564,6 +5608,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Get the value for a given key (optionally filtered by a regex matching the value).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113132Z" creationid="Admin" creationdate="20171023T113132Z">
+        <seg>获取给定键的值(可选地由与该值匹配的正则表达式过滤)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Getting and Creating Projects</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024146Z">
@@ -4600,6 +5652,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034129Z" creationid="Admin" creationdate="20171020T034129Z">
         <seg>Git - git 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-config Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100348Z" creationid="Admin" creationdate="20171023T100348Z">
+        <seg>Git - git-config 文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -4684,6 +5744,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Given a .git/config like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121141Z" creationid="Admin" creationdate="20171023T121141Z">
+        <seg>给出一个 .git/config，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Glossary</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4764,6 +5832,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, in neither case will an error message be issued.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120734Z" creationid="Admin" creationdate="20171023T120734Z">
+        <seg>但是，在任何一种情况下都不会发出错误消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IE=edge,chrome=1</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4776,6 +5852,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T065217Z" creationid="Admin" creationdate="20171023T065217Z">
         <seg>标识符术语</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If $XDG_CONFIG_HOME is not set or empty, &lt;c0&gt;$HOME/.config/git/config&lt;/c0&gt; will be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120516Z" creationid="Admin" creationdate="20171023T120516Z">
+        <seg>如果$ XDG_CONFIG_HOME 未设置或为空，则将使用 &lt;c0&gt;$HOME/.config/git/config&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If &lt;c3&gt;stdout-is-tty&lt;/c3&gt; is missing, then checks the standard output of the command itself, and exits with status 0 if color is to be used, or exits with status 1 otherwise.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115832Z" creationid="Admin" creationdate="20171023T115832Z">
+        <seg>如果缺少 &lt;c3&gt;stdout-is-tty&lt;/c3&gt; ，则检查命令本身的标准输出，如果要使用颜色则退出状态0，否则退出状态1。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4812,10 +5904,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no further options are given, all reading options will read all of these files that are available.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120638Z" creationid="Admin" creationdate="20171023T120638Z">
+        <seg>如果没有进一步的选项，所有阅读选项将会读取所有可用的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no path is given, &lt;e0&gt;git&lt;/e0&gt; will print the current setting and then exit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070216Z" creationid="Admin" creationdate="20171020T070216Z">
         <seg>如果没有给出路径， &lt;e0&gt;git&lt;/e0&gt; 将打印当前设置，然后退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no type specifier is passed, no checks or transformations are performed on the value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112414Z" creationid="Admin" creationdate="20171023T112414Z">
+        <seg>如果没有类型说明符传递，则不会对该值执行检查或转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If not set explicitly with &lt;c0&gt;--file&lt;/c0&gt;, there are four files where &lt;e1&gt;git config&lt;/e1&gt; will search for configuration options:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120452Z" creationid="Admin" creationdate="20171023T120452Z">
+        <seg>如果没有使用 &lt;c0&gt;--file&lt;/c0&gt; 显式设置，&lt;e1&gt;git config&lt;/e1&gt; 将在四个文件中搜索配置选项：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4860,6 +5976,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the global or the system-wide configuration file are not available they will be ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120647Z" creationid="Admin" creationdate="20171023T120647Z">
+        <seg>如果全局或全系统配置文件不可用，它们将被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the object storage directory is specified via this environment variable then the sha1 directories are created underneath - otherwise the default &lt;c0&gt;$GIT_DIR/objects&lt;/c0&gt; directory is used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070857Z" creationid="Admin" creationdate="20171023T070857Z">
@@ -4872,6 +5996,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T065040Z" creationid="Admin" creationdate="20171020T060322Z">
         <seg>如果给出选项 &lt;c0&gt;--all&lt;/c0&gt; 或 &lt;c1&gt;-a&lt;/c1&gt; ，则打印所有可用的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the repository configuration file is not available or readable, &lt;e0&gt;git config&lt;/e0&gt; will exit with a non-zero error code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120730Z" creationid="Admin" creationdate="20171023T120730Z">
+        <seg>如果仓库配置文件不可用或不可读，则 &lt;e0&gt;git config&lt;/e0&gt; 将以非零错误代码退出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4952,6 +6084,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084950Z" creationid="Admin" creationdate="20171023T084950Z">
         <seg>如果您有 git.git 本身的克隆，则 &lt;a0&gt;git-shortlog[1]&lt;/a0&gt; 和 &lt;a1&gt;git-blame[1]&lt;/a1&gt; 的输出可以显示作者的特定部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to handle the lines that do &lt;s2&gt;not&lt;/s2&gt; match the regex, just prepend a single exclamation mark in front (see also &lt;a3&gt;EXAMPLES&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T103031Z" creationid="Admin" creationdate="20171023T103031Z">
+        <seg>如果要处理 &lt;s2&gt;不&lt;/s2&gt; 匹配正则表达式的行，只需在前面添加一个感叹号(见 &lt;a3&gt;EXAMPLES&lt;/a3&gt; )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to update or unset an option which can occur on multiple lines, a POSIX regexp &lt;c1&gt;value_regex&lt;/c1&gt; needs to be given.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102938Z" creationid="Admin" creationdate="20171023T102938Z">
+        <seg>如果要更新或取消设置可能出现多行的选项，则需要给出 POSIX 正则表达式 &lt;c1&gt;value_regex&lt;/c1&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5140,6 +6288,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is a good idea not to create this file if you sometimes use older versions of Git, as support for this file was added fairly recently.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120604Z" creationid="Admin" creationdate="20171023T120604Z">
+        <seg>如果您有时使用旧版本的 Git，则不建议创建此文件，因为最近才添加对该文件的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is used by several Git commands when, on interactive mode, an editor is to be launched.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074148Z" creationid="Admin" creationdate="20171023T074148Z">
@@ -5172,10 +6328,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Like --get-all, but interprets the name as a regular expression and writes out the key names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113232Z" creationid="Admin" creationdate="20171023T113232Z">
+        <seg>像 --get-all 一样，但将该名称解释为正则表达式并写出关键名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like &lt;c0&gt;GIT_CEILING_DIRECTORIES&lt;/c0&gt;, this will not affect an explicit repository directory set via &lt;c1&gt;GIT_DIR&lt;/c1&gt; or on the command line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T072435Z" creationid="Admin" creationdate="20171023T072435Z">
         <seg>像 &lt;c0&gt;GIT_CEILING_DIRECTORIES&lt;/c0&gt; 一样，这不会影响通过 &lt;c1&gt;GIT_DIR&lt;/c1&gt; 或命令行设置的显式仓库目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like get, but returns all values for a multi-valued key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113207Z" creationid="Admin" creationdate="20171023T113207Z">
+        <seg>类似 get，但返回多值键的所有值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>List all variables set in config file, along with their values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114550Z" creationid="Admin" creationdate="20171023T114550Z">
+        <seg>列出配置文件中设置的所有变量及其值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5308,6 +6488,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Multiple lines can be added to an option by using the &lt;c0&gt;--add&lt;/c0&gt; option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102912Z" creationid="Admin" creationdate="20171023T102912Z">
+        <seg>可以通过使用 &lt;c0&gt;--add&lt;/c0&gt; 选项将多行添加到选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T035422Z" creationid="Admin" creationdate="20171020T035422Z">
@@ -5356,10 +6544,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that this also affects options like &lt;c0&gt;--replace-all&lt;/c0&gt; and &lt;c1&gt;--unset&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120825Z" creationid="Admin" creationdate="20171023T120825Z">
+        <seg>请注意，这也会影响选项，如 &lt;c0&gt;--replace-all&lt;/c0&gt; 和 &lt;c1&gt;--unset&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that this is currently only implemented for the client side of clones and fetches.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080230Z" creationid="Admin" creationdate="20171023T080230Z">
         <seg>请注意，目前仅针对客户端进行克隆和提取。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that this list is non-comprehensive and not necessarily complete.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123721Z" creationid="Admin" creationdate="20171023T102031Z">
+        <seg>请注意，此列表不非全面的，不一定完整。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5380,6 +6584,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On success, the command returns the exit code 0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112918Z" creationid="Admin" creationdate="20171023T112918Z">
+        <seg>成功后，该命令返回退出代码 0。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One use is to give submodules context about the superproject that invoked it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072640Z" creationid="Admin" creationdate="20171020T072640Z">
@@ -5388,10 +6600,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only the existing values that match the regexp are updated or unset.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T103003Z" creationid="Admin" creationdate="20171023T103003Z">
+        <seg>只有与正则表达式匹配的现有值会更新或取消设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Only valid setting is "--unified=??" or "-u??" to set the number of context lines shown when a unified diff is created.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T073312Z" creationid="Admin" creationdate="20171023T073312Z">
         <seg>有效的设置只有 "--unified=??" 或 "-u??" ，设置创建统一差异时显示的上下文行数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Opens an editor to modify the specified config file; either &lt;c0&gt;--system&lt;/c0&gt;, &lt;c1&gt;--global&lt;/c1&gt;, or repository (default).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115924Z" creationid="Admin" creationdate="20171023T115924Z">
+        <seg>打开编辑器修改指定的配置文件; &lt;c0&gt;--system&lt;/c0&gt; ， &lt;c1&gt;--global&lt;/c1&gt; 或仓库(默认)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other git-related tools may and do use their own variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123731Z" creationid="Admin" creationdate="20171023T102104Z">
+        <seg>其他与 git 相关的工具可能会使用自己的变量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5408,6 +6644,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092415Z" creationid="Admin" creationdate="20171020T092415Z">
         <seg>输出每个引用的信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output only the names of config variables for &lt;c0&gt;--list&lt;/c0&gt; or &lt;c1&gt;--get-regexp&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115540Z" creationid="Admin" creationdate="20171023T115540Z">
+        <seg>仅输出配置变量名称为 &lt;c0&gt;--list&lt;/c0&gt; 或 &lt;c1&gt;--get-regexp&lt;/c1&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5708,6 +6952,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Regular expression matching is currently case-sensitive and done against a canonicalized version of the key in which section and variable names are lowercased, but subsection names are not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113622Z" creationid="Admin" creationdate="20171023T113622Z">
+        <seg>正则表达式匹配当前是区分大小写的，并且对于 section 和变量名小写规范版本的 key，但子 section 名称没有。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove all lines matching the key from config file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114539Z" creationid="Admin" creationdate="20171023T114539Z">
+        <seg>从配置文件中移除与 key 匹配的所有行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove extra objects that are already in pack files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092036Z" creationid="Admin" creationdate="20171020T092036Z">
@@ -5720,6 +6980,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T075206Z" creationid="Admin" creationdate="20171020T075206Z">
         <seg>从工作树和索引中移除文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove the given section from the configuration file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114513Z" creationid="Admin" creationdate="20171023T114513Z">
+        <seg>从配置文件中移除给定的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove the line matching the key from config file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114528Z" creationid="Admin" creationdate="20171023T114528Z">
+        <seg>从配置文件中移除与 key 匹配的行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5740,6 +7016,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rename the given section to a new name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114519Z" creationid="Admin" creationdate="20171023T114519Z">
+        <seg>将给定的部分重命名为新名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Report bugs to the Git mailing list &lt;&lt;a0&gt;git@vger.kernel.org&lt;/a0&gt;&gt; where the development and maintenance is primarily done.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085052Z" creationid="Admin" creationdate="20171023T085052Z">
@@ -5756,10 +7040,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Repository specific configuration file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120629Z" creationid="Admin" creationdate="20171023T120629Z">
+        <seg>仓库特定的配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reset current HEAD to the specified state</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T075152Z" creationid="Admin" creationdate="20171020T075152Z">
         <seg>将当前 HEAD 重置到指定状态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Respect &lt;c0&gt;include.*&lt;/c0&gt; directives in config files when looking up values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115930Z" creationid="Admin" creationdate="20171023T115930Z">
+        <seg>查找值时，在配置文件中尊重 &lt;c0&gt;include.*&lt;/c0&gt; 指令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5776,6 +7076,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094125Z" creationid="Admin" creationdate="20171020T094125Z">
         <seg>检索和存储用户凭据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns error code 1 if no value is found.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113854Z" creationid="Admin" creationdate="20171023T113854Z">
+        <seg>如果没有找到值，则返回错误代码1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns error code 1 if the key was not found and the last value if multiple key values were found.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113145Z" creationid="Admin" creationdate="20171023T113145Z">
+        <seg>如果找不到键，则返回错误代码1，如果找到多个键值，则返回最后一个值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5892,6 +7208,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Second user-specific configuration file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120505Z" creationid="Admin" creationdate="20171023T120505Z">
+        <seg>第二个用户特定的配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See "SPECIFYING REVISIONS" section in &lt;a3&gt;gitrevisions[7]&lt;/a3&gt; for a more complete list of ways to spell blob names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114507Z" creationid="Admin" creationdate="20171023T114507Z">
+        <seg>请参阅 &lt;a3&gt;gitrevisions[7]&lt;/a3&gt; 中的"指定版本"部分，以获取更完整的拼写名称拼写方式列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;git-config[1]&lt;/a0&gt; for a list and more details about the configuration mechanism.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T065204Z" creationid="Admin" creationdate="20171023T065204Z">
@@ -5928,6 +7260,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070825Z" creationid="Admin" creationdate="20171023T070825Z">
         <seg>有关详细信息，请参阅 &lt;a0&gt;git-update-index[1]&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;git[1]&lt;/a0&gt; for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121127Z" creationid="Admin" creationdate="20171023T121127Z">
+        <seg>详见 &lt;a0&gt;git[1]&lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5972,6 +7312,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;git[1]&lt;/a1&gt; for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120812Z" creationid="Admin" creationdate="20171023T120812Z">
+        <seg>详见 &lt;a1&gt;git[1]&lt;/a1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;c0&gt;GIT_TRACE&lt;/c0&gt; for available trace output options.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080044Z" creationid="Admin" creationdate="20171023T080044Z">
@@ -5992,6 +7340,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080359Z" creationid="Admin" creationdate="20171023T080359Z">
         <seg>有关可用的跟踪输出选项，请参见 &lt;c2&gt;GIT_TRACE&lt;/c2&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See also &lt;a0&gt;FILES&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114050Z" creationid="Admin" creationdate="20171023T114050Z">
+        <seg>另见 &lt;a0&gt;FILES&lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6300,10 +7656,42 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similar to &lt;c0&gt;--file&lt;/c0&gt; but use the given blob instead of a file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114434Z" creationid="Admin" creationdate="20171023T114434Z">
+        <seg>与 &lt;c0&gt;--file&lt;/c0&gt; 类似，但使用给定的 blob 而不是文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Simple UNIX mbox splitter program</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094208Z" creationid="Admin" creationdate="20171020T094208Z">
         <seg>简单的 UNIX mbox 分割程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some exit codes are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112730Z" creationid="Admin" creationdate="20171023T112730Z">
+        <seg>一些退出代码是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some variables may appear multiple times; we say then that the variable is multivalued.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121404Z" creationid="Admin" creationdate="20171023T121404Z">
+        <seg>一些变量可能会出现多次;那么我们说这个变量是多值的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specify a web browser that may be used by some commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123820Z" creationid="Admin" creationdate="20171023T123820Z">
+        <seg>指定某些命令可能使用的 Web 浏览器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6372,6 +7760,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121442Z" creationid="Admin" creationdate="20171023T121442Z">
+        <seg>语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>System-wide configuration file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120459Z" creationid="Admin" creationdate="20171023T120459Z">
+        <seg>系统范围的配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Take the configuration from the given file instead of .git/config. Using the "--global" option forces this to ~/.gitconfig. Using the "--system" option forces this to $(prefix)/etc/gitconfig.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121108Z" creationid="Admin" creationdate="20171023T121108Z">
+        <seg>从给定的文件而不是 .git/config 中进行配置。使用“--global”选项强制这个为 ~/.gitconfig 。使用“--system”选项强制这个为 $(prefix)/etc/gitconfig。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Terminology</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070506Z" creationid="Admin" creationdate="20171023T070506Z">
@@ -6404,6 +7816,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;--global&lt;/c0&gt; and the &lt;c1&gt;--system&lt;/c1&gt; options will limit the file used to the global or system-wide file respectively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120941Z" creationid="Admin" creationdate="20171023T120941Z">
+        <seg> &lt;c0&gt;--global&lt;/c0&gt; 和 &lt;c1&gt;--system&lt;/c1&gt; 选项将分别限制用于全局或全系统文件的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;.git/config&lt;/c0&gt; file in each repository is used to store the configuration for that repository, and &lt;c1&gt;$HOME/.gitconfig&lt;/c1&gt; is used to store a per-user configuration as fallback values for the &lt;c2&gt;.git/config&lt;/c2&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121235Z" creationid="Admin" creationdate="20171023T121235Z">
+        <seg>每个存储库中的 &lt;c0&gt;.git/config&lt;/c0&gt; 文件用于存储该存储库的配置，并且 &lt;c1&gt;$HOME/.gitconfig&lt;/c1&gt; 用于将每个用户配置存储为备用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c1&gt;--namespace&lt;/c1&gt; command-line option also sets this value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T072011Z" creationid="Admin" creationdate="20171023T072011Z">
@@ -6420,6 +7848,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c2&gt;GIT_CONFIG&lt;/c2&gt; environment variable has a similar effect, but you can specify any filename you want.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120948Z" creationid="Admin" creationdate="20171023T120948Z">
+        <seg>环境变量 &lt;c2&gt;GIT_CONFIG&lt;/c2&gt; 具有相似的效果，但您可以指定所需的任何文件名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;e0&gt;#&lt;/e0&gt; and &lt;e1&gt;;&lt;/e1&gt; characters begin comments to the end of line, blank lines are ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T122029Z" creationid="Admin" creationdate="20171023T122029Z">
+        <seg>&lt;e0&gt;#&lt;/e0&gt; 和 &lt;e1&gt;;&lt;/e1&gt; 字符开始注释到行尾，空行被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;name&gt; is expected in the same format as listed by &lt;e0&gt;git config&lt;/e0&gt; (subkeys separated by dots).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T065749Z" creationid="Admin" creationdate="20171020T065749Z">
@@ -6432,6 +7876,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070542Z" creationid="Admin" creationdate="20171023T070542Z">
         <seg>Git 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Git configuration file contains a number of variables that affect the Git commands' behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121228Z" creationid="Admin" creationdate="20171023T121228Z">
+        <seg>Git 配置文件包含一些影响 Git 命令行为的变量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6476,6 +7928,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The configuration variables are used by both the Git plumbing and the porcelains.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121310Z" creationid="Admin" creationdate="20171023T121310Z">
+        <seg>配置变量由 Git 低级命令和高级命令使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The entire history leading up to a commit can be vouched for by signing just that commit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083447Z" creationid="Admin" creationdate="20171023T083447Z">
@@ -6484,10 +7944,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The file &lt;c3&gt;/etc/gitconfig&lt;/c3&gt; can be used to store a system-wide default configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121241Z" creationid="Admin" creationdate="20171023T121241Z">
+        <seg>文件 &lt;c3&gt;/etc/gitconfig&lt;/c3&gt; 可用于存储系统范围的默认配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The file parameters can point at the user’s working file (e.g. &lt;c0&gt;new-file&lt;/c0&gt; in "git-diff-files"), &lt;c1&gt;/dev/null&lt;/c1&gt; (e.g. &lt;c2&gt;old-file&lt;/c2&gt; when a new file is added), or a temporary file (e.g. &lt;c3&gt;old-file&lt;/c3&gt; in the index).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T073819Z" creationid="Admin" creationdate="20171023T073819Z">
         <seg>该文件参数可以指向用户的工作文件 (如 "git-diff-files" 中的&lt;c0&gt;new-file&lt;/c0&gt;), &lt;c1&gt;/dev/null&lt;/c1&gt; (如当新文件添另时的 &lt;c2&gt;old-file&lt;/c2&gt; ), 或临时文件 (如 index 中的 &lt;c3&gt;old-file&lt;/c3&gt; ).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The files are read in the order given above, with last value found taking precedence over values read earlier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120748Z" creationid="Admin" creationdate="20171023T120748Z">
+        <seg>文件以上面给出的顺序读取，最后找到的值优先于先前阅读的值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6551,7 +8027,7 @@ C 风格引用的路径，删除前导和尾随的双引号，
         <seg>The interface to Porcelain commands on the other hand are subject to change in order to improve the end user experience.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T091724Z" creationid="Admin" creationdate="20171020T091724Z">
-        <seg>另一方面，高级指令的接口可能会发生变化，以改善最终用户体验。</seg>
+        <seg>另一方面，高级指令的接口可能会发生更改，以改善最终用户体验。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6564,10 +8040,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name is actually the section and the key separated by a dot, and the value will be escaped.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102901Z" creationid="Admin" creationdate="20171023T102901Z">
+        <seg>名称实际上是由点分隔的 section 和 key，值将被转义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The object database contains objects of three main types: blobs, which hold file data; trees, which point to blobs and other trees to build up directory hierarchies; and commits, which each reference a single tree and some number of parent commits.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083048Z" creationid="Admin" creationdate="20171023T083048Z">
         <seg>对象数据库包含三种主要类型的对象：保存文件数据的 blob ; 指向 blob 和其他树来建立目录层次结构的树（tree）; 以及引用单个树和一些父提交的提交（commit）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The optional &lt;c2&gt;default&lt;/c2&gt; parameter is used instead, if there is no color configured for &lt;c3&gt;name&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115857Z" creationid="Admin" creationdate="20171023T115857Z">
+        <seg>如果没有为 &lt;c3&gt;name&lt;/c3&gt; ，则使用可选的 &lt;c2&gt;default&lt;/c2&gt; 参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The section or key is invalid (ret=1),</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112818Z" creationid="Admin" creationdate="20171023T112749Z">
+        <seg>section 或键无效(ret = 1)，</seg>
       </tuv>
     </tu>
     <tu>
@@ -6580,6 +8080,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The syntax is fairly flexible and permissive; whitespaces are mostly ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121457Z" creationid="Admin" creationdate="20171023T121457Z">
+        <seg>语法是相当灵活和宽容的;空白大多被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The total number of paths.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T073953Z" creationid="Admin" creationdate="20171023T073953Z">
@@ -6588,10 +8096,50 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The type specifier can be either &lt;c0&gt;--int&lt;/c0&gt; or &lt;c1&gt;--bool&lt;/c1&gt;, to make &lt;e2&gt;git config&lt;/e2&gt; ensure that the variable(s) are of the given type and convert the value to the canonical form (simple decimal number for int, a "true" or "false" string for bool), or &lt;c3&gt;--path&lt;/c3&gt;, which does some path expansion (see &lt;c4&gt;--path&lt;/c4&gt; below).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112405Z" creationid="Admin" creationdate="20171023T112405Z">
+        <seg>类型说明符可以是 &lt;c0&gt;--int&lt;/c0&gt; 或 &lt;c1&gt;--bool&lt;/c1&gt; ，以使 &lt;e2&gt;git config&lt;/e2&gt; 确保变量是给定的类型并将该值转换为规范形式（简单十进制数为 int，“true”或“false”字符串为bool）或 &lt;c3&gt;--path&lt;/c3&gt; ，表示一些路径扩展（参见下面的 &lt;c4&gt;--path&lt;/c4&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The value for a variable that takes a color is a list of colors (at most two, one for foreground and one for background) and attributes (as many as you want), separated by spaces.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123708Z" creationid="Admin" creationdate="20171023T123708Z">
+        <seg>获取颜色的变量的值是颜色列表(最多两个，一个用于前台，另一个用于背景)和属性(尽可能多的)，以空格分隔。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The value for many variables that specify various sizes can be suffixed with &lt;c0&gt;k&lt;/c0&gt;, &lt;c1&gt;M&lt;/c1&gt;,…​ to mean "scale the number by 1024", "by 1024x1024", etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123645Z" creationid="Admin" creationdate="20171023T123645Z">
+        <seg>指定各种大小的许多变量的值，可以后缀为 &lt;c0&gt;k&lt;/c0&gt; ， &lt;c1&gt;M&lt;/c1&gt; ，...表示“将数字缩放1024”，“1024×1024”等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The value given will override values from configuration files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T065725Z" creationid="Admin" creationdate="20171020T065725Z">
         <seg>给定的值将覆盖配置文件中的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The variable names are case-insensitive, allow only alphanumeric characters and &lt;c0&gt;-&lt;/c0&gt;, and must start with an alphabetic character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121341Z" creationid="Admin" creationdate="20171023T121341Z">
+        <seg>变量名称不区分大小写，仅允许字母数字字符和 &lt;c0&gt;-&lt;/c0&gt; ，并且必须以字母字符开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The variables are divided into sections, wherein the fully qualified variable name of the variable itself is the last dot-separated segment and the section name is everything before the last dot.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121326Z" creationid="Admin" creationdate="20171023T121326Z">
+        <seg>变量分为几个部分，其中变量本身的完全限定变量名称是最后一个点分隔的段，段名称是最后一个点之前的所有内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6636,6 +8184,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This allows for secure parsing of the output without getting confused e.g. by values that contain line breaks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115512Z" creationid="Admin" creationdate="20171023T115512Z">
+        <seg>这允许输出包含换行符的值时安全解析，而不会变得混淆。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can also be controlled by setting the &lt;c0&gt;GIT_DIR&lt;/c0&gt; environment variable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070941Z" creationid="Admin" creationdate="20171020T070941Z">
@@ -6672,6 +8228,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080106Z" creationid="Admin" creationdate="20171023T080106Z">
         <seg>这可以帮助调试对象协商或其他协议问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command will fail with non-zero status upon error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112727Z" creationid="Admin" creationdate="20171023T112727Z">
+        <seg>该命令将以非零的错误状态码失败。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6764,6 +8328,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the default behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114157Z" creationid="Admin" creationdate="20171023T114157Z">
+        <seg>这是默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is the same as providing &lt;e0&gt;^$&lt;/e0&gt; as the value_regex in &lt;c1&gt;--replace-all&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113121Z" creationid="Admin" creationdate="20171023T113121Z">
+        <seg>这与在 &lt;c1&gt;--replace-all&lt;/c1&gt; 中提供 &lt;e0&gt;^$&lt;/e0&gt; 作为 value_regex 相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is useful to restrict recursive submodule initialization from an untrusted repository or for programs which feed potentially-untrusted URLS to git commands.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T082353Z" creationid="Admin" creationdate="20171023T082353Z">
@@ -6788,6 +8368,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This option has no effect when setting the value (but you can use &lt;e4&gt;git config bla ~/&lt;/e4&gt; from the command line to let your shell do the expansion).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115352Z" creationid="Admin" creationdate="20171023T115352Z">
+        <seg>此选项在设置值时无效(但您可以使用命令行中的 &lt;e4&gt;git config bla ~/&lt;/e4&gt; 来让您的 shell 进行扩展)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This option overrides setting the &lt;c1&gt;GIT_CURL_VERBOSE&lt;/c1&gt; environment variable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080351Z" creationid="Admin" creationdate="20171023T080351Z">
@@ -6800,6 +8388,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070854Z" creationid="Admin" creationdate="20171020T070854Z">
         <seg>这将覆盖 &lt;c1&gt;pager.&lt;cmd&gt;&lt;/c1&gt; 配置选项(请参阅下面的"配置机制"部分)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This replaces all lines matching the key (and optionally the value_regex).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112955Z" creationid="Admin" creationdate="20171023T112955Z">
+        <seg>这将替换匹配键(和可选的 value_regex)的所有行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6940,6 +8536,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use newline instead as a delimiter between key and value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115414Z" creationid="Admin" creationdate="20171023T115414Z">
+        <seg>使用换行符作为键和值之间的分隔符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the given config file instead of the one specified by GIT_CONFIG.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114246Z" creationid="Admin" creationdate="20171023T114246Z">
+        <seg>使用给定的配置文件，而不是 GIT_CONFIG 指定的配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>User-specific configuration file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120610Z" creationid="Admin" creationdate="20171023T120610Z">
+        <seg>用户特定的配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Users migrating from CVS may also want to read &lt;a0&gt;gitcvs-migration[7]&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084807Z" creationid="Admin" creationdate="20171023T084807Z">
@@ -6960,6 +8580,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092852Z" creationid="Admin" creationdate="20171020T092852Z">
         <seg>验证打包的 Git 归档文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Values</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123322Z" creationid="Admin" creationdate="20171023T123322Z">
+        <seg>值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Values of many variables are treated as a simple string, but there are variables that take values of specific types and there are rules as to how to spell them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123350Z" creationid="Admin" creationdate="20171023T123350Z">
+        <seg>Values of many variables are treated as a simple string, but there are variables that take values of specific types and there are rules as to how to spell them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Variables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102019Z" creationid="Admin" creationdate="20171023T102019Z">
+        <seg>变量</seg>
       </tuv>
     </tu>
     <tu>
@@ -7020,10 +8664,50 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a variable is said to take a boolean value, many synonyms are accepted for &lt;e0&gt;true&lt;/e0&gt; and &lt;e1&gt;false&lt;/e1&gt;; these are all case-insensitive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123432Z" creationid="Admin" creationdate="20171023T123432Z">
+        <seg>当一个变量被认为是一个布尔值时，很多同义词被接受为 &lt;e0&gt;true&lt;/e0&gt; 和 &lt;e1&gt;false&lt;/e1&gt; ;这些都是不区分大小写的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When converting value to the canonical form using &lt;c0&gt;--bool&lt;/c0&gt; type specifier, &lt;e1&gt;git config&lt;/e1&gt; will ensure that the output is "true" or "false" (spelled in lowercase).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123614Z" creationid="Admin" creationdate="20171023T123614Z">
+        <seg>当使用 &lt;c0&gt;--bool&lt;/c0&gt; 类型说明符将值转换为规范形式时， &lt;e1&gt;git config&lt;/e1&gt; 将确保输出为“true”或“false”(拼写为小写)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When first created, objects are stored in individual files, but for efficiency may later be compressed together into "pack files".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083517Z" creationid="Admin" creationdate="20171023T083517Z">
         <seg>当第一次创建时，对象存储在单个文件中，但是为了更效率可以稍后压缩成"包文件"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When given a two-part name section.key, the value for section.&lt;url&gt;.key whose &lt;url&gt; part matches the best to the given URL is returned (if no such key exists, the value for section.key is used as a fallback).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113839Z" creationid="Admin" creationdate="20171023T113839Z">
+        <seg>当给出两部分名称 section.key 时，返回 &lt;url&gt; 部分与给定 URL 匹配最佳的&lt;url&gt;.key（如果没有这样的键，则使用 section.key 的值）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When given just the section as name, do so for all the keys in the section and list them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113849Z" creationid="Admin" creationdate="20171023T113849Z">
+        <seg>当给出该部分作为名称时，对于该部分中的所有键执行此操作，并列出它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When inventing new variables for use in your own tool, make sure their names do not conflict with those that are used by Git itself and other popular tools, and describe them in your documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123739Z" creationid="Admin" creationdate="20171023T102112Z">
+        <seg>当在您自己的工具中使用新变量时，请确保其名称与 Git 本身和其他流行工具使用的名称不冲突，并在文档中进行描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7036,6 +8720,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When multiple values are taken then all values of a key from all files will be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120758Z" creationid="Admin" creationdate="20171023T120758Z">
+        <seg>当采用多个值时，将使用所有文件中的所有值的所有值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When reading, the values are read from the system, global and repository local configuration files by default, and options &lt;c0&gt;--system&lt;/c0&gt;, &lt;c1&gt;--global&lt;/c1&gt;, &lt;c2&gt;--local&lt;/c2&gt; and &lt;c3&gt;--file &lt;filename&gt;&lt;/c3&gt; can be used to tell the command to read from only that location (see &lt;a4&gt;FILES&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112515Z" creationid="Admin" creationdate="20171023T112515Z">
+        <seg>读取时，默认情况下，从系统，全局和仓库本地配置文件读取值，并且选项 &lt;c0&gt;--system&lt;/c0&gt; ， &lt;c1&gt;--global&lt;/c1&gt; ， &lt;c2&gt;--local&lt;/c2&gt; 和 &lt;c3&gt;--file &lt;filename&gt;&lt;/c3&gt; 可用于告知命令只从该位置读取(请参阅 &lt;a4&gt;FILES&lt;/a4&gt; )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When run in a directory that does not have ".git" repository directory, Git tries to find such a directory in the parent directories to find the top of the working tree, but by default it does not cross filesystem boundaries.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T072402Z" creationid="Admin" creationdate="20171023T072402Z">
@@ -7044,10 +8744,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the color setting for &lt;c4&gt;name&lt;/c4&gt; is undefined, the command uses &lt;c5&gt;color.ui&lt;/c5&gt; as fallback.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115836Z" creationid="Admin" creationdate="20171023T115836Z">
+        <seg>当 &lt;c4&gt;name&lt;/c4&gt; 的颜色设置未定义时，该命令将使用 &lt;c5&gt;color.ui&lt;/c5&gt; 作为备用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the environment variable &lt;c0&gt;GIT_EXTERNAL_DIFF&lt;/c0&gt; is set, the program named by it is called, instead of the diff invocation described above.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T073351Z" creationid="Admin" creationdate="20171023T073351Z">
         <seg>当设置环境变量 &lt;c0&gt;GIT_EXTERNAL_DIFF&lt;/c0&gt; 时，调用由其命名的程序，而不是上述的 diff 调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When writing, the new value is written to the repository local configuration file by default, and options &lt;c0&gt;--system&lt;/c0&gt;, &lt;c1&gt;--global&lt;/c1&gt;, &lt;c2&gt;--file &lt;filename&gt;&lt;/c2&gt; can be used to tell the command to write to that location (you can say &lt;c3&gt;--local&lt;/c3&gt; but that is the default).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112621Z" creationid="Admin" creationdate="20171023T112621Z">
+        <seg>写入时，默认情况下将新值写入仓库本地配置文件，选项 &lt;c0&gt;--system&lt;/c0&gt; ， &lt;c1&gt;--global&lt;/c1&gt; ， &lt;c2&gt;--file &lt;filename&gt;&lt;/c2&gt; 可以用来告诉命令写入该位置(你可以说 &lt;c3&gt;--local&lt;/c3&gt; ，但这是默认的)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to skip reading settings from the system-wide $(prefix)/etc/gitconfig file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121124Z" creationid="Admin" creationdate="20171023T121124Z">
+        <seg>是否从系统范围的  $(prefix)/etc/gitconfig 文件中跳过阅读设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7092,10 +8816,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can override these rules either by command-line options or by environment variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120932Z" creationid="Admin" creationdate="20171023T120932Z">
+        <seg>您可以通过命令行选项或环境变量覆盖这些规则。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can query/set/replace/unset options with this command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102816Z" creationid="Admin" creationdate="20171023T102816Z">
+        <seg>你可以使用此命令 查询/设置/更换/取消 选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You do not have to be subscribed to the list to send a message there.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085059Z" creationid="Admin" creationdate="20171023T085059Z">
         <seg>您不必订阅该列表即可在那里发送消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may override individual configuration parameters when running any git command by using the &lt;c0&gt;-c&lt;/c0&gt; option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120808Z" creationid="Admin" creationdate="20171023T120808Z">
+        <seg>使用 &lt;c0&gt;-c&lt;/c0&gt; 选项运行任何 git 命令时，可以覆盖单个配置参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7236,6 +8984,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>boolean</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123353Z" creationid="Admin" creationdate="20171023T123353Z">
+        <seg>boolean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>branch</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -7296,6 +9052,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN">
         <seg>clone</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>color</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123646Z" creationid="Admin" creationdate="20171023T123646Z">
+        <seg>color</seg>
       </tuv>
     </tu>
     <tu>
@@ -7368,6 +9132,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN">
         <seg>en</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123540Z" creationid="Admin" creationdate="20171023T123540Z">
+        <seg>false</seg>
       </tuv>
     </tu>
     <tu>
@@ -7862,10 +9634,98 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-config - Get and set repository or global options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100712Z" creationid="Admin" creationdate="20171023T100712Z">
+        <seg>git-config - 获取和设置仓库或全局选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-config.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-config.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.1.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100637Z" creationid="Admin" creationdate="20171023T100637Z">
+        <seg>git-config/2.1.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.14.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100522Z" creationid="Admin" creationdate="20171023T100522Z">
+        <seg>git-config/2.14.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.4.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100630Z" creationid="Admin" creationdate="20171023T100630Z">
+        <seg>git-config/2.4.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.6.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100619Z" creationid="Admin" creationdate="20171023T100619Z">
+        <seg>git-config/2.6.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.8-2.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100606Z" creationid="Admin" creationdate="20171023T100606Z">
+        <seg>git-config/2.8-2.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.8-3.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100612Z" creationid="Admin" creationdate="20171023T100612Z">
+        <seg>git-config/2.8-3.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.8.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100603Z" creationid="Admin" creationdate="20171023T100603Z">
+        <seg>git-config/2.8.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.9-2.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100549Z" creationid="Admin" creationdate="20171023T100549Z">
+        <seg>git-config/2.9-2.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.9-3.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100556Z" creationid="Admin" creationdate="20171023T100556Z">
+        <seg>git-config/2.9-3.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-config/2.9.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100547Z" creationid="Admin" creationdate="20171023T100547Z">
+        <seg>git-config/2.9.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -10718,6 +12578,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>integer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123615Z" creationid="Admin" creationdate="20171023T123615Z">
+        <seg>integer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>log</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -10770,6 +12638,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>mv</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>no section or name was provided (ret=2),</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112824Z" creationid="Admin" creationdate="20171023T112803Z">
+        <seg>没有提供 section 或名称(ret = 2)，</seg>
       </tuv>
     </tu>
     <tu>
@@ -10974,6 +12850,30 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>the config file cannot be written (ret=4),</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112828Z" creationid="Admin" creationdate="20171023T112828Z">
+        <seg>配置文件无法写入(ret = 4)，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the config file is invalid (ret=3),</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112810Z" creationid="Admin" creationdate="20171023T112810Z">
+        <seg>配置文件无效(ret = 3)，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123434Z" creationid="Admin" creationdate="20171023T123434Z">
+        <seg>true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>update-index</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -11022,6 +12922,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>web.browser</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123815Z" creationid="Admin" creationdate="20171023T123815Z">
+        <seg>web.browser</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>where:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T073449Z" creationid="Admin" creationdate="20171023T073449Z">
@@ -11034,6 +12942,38 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>write-tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>you try to unset an option which does not exist (ret=5),</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112836Z" creationid="Admin" creationdate="20171023T112836Z">
+        <seg>您尝试取消设置不存在的选项(ret = 5)，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>you try to unset/set an option for which multiple lines match (ret=5), or</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112902Z" creationid="Admin" creationdate="20171023T112902Z">
+        <seg>您尝试取消设置/设置的选项有多个行匹配(ret = 5)，或</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>you try to use an invalid regexp (ret=6).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112907Z" creationid="Admin" creationdate="20171023T112907Z">
+        <seg>您尝试使用无效的正则表达式(ret = 6)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>~/.gitconfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120606Z" creationid="Admin" creationdate="20171023T120606Z">
+        <seg>~/.gitconfig</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
