@@ -1628,6 +1628,182 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#git-clone---bare</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070123Z" creationid="Admin" creationdate="20171024T070123Z">
+        <seg>#git-clone---bare</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---branchltnamegt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070450Z" creationid="Admin" creationdate="20171024T070450Z">
+        <seg>#git-clone---branchltnamegt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---configltkeygtltvaluegt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070617Z" creationid="Admin" creationdate="20171024T070617Z">
+        <seg>#git-clone---configltkeygtltvaluegt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---local</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065448Z" creationid="Admin" creationdate="20171024T065448Z">
+        <seg>#git-clone---local</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---mirror</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070341Z" creationid="Admin" creationdate="20171024T070341Z">
+        <seg>#git-clone---mirror</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---no-checkout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070054Z" creationid="Admin" creationdate="20171024T070054Z">
+        <seg>#git-clone---no-checkout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---no-hardlinks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065736Z" creationid="Admin" creationdate="20171024T065736Z">
+        <seg>#git-clone---no-hardlinks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---originltnamegt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070428Z" creationid="Admin" creationdate="20171024T070428Z">
+        <seg>#git-clone---originltnamegt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---progress</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070034Z" creationid="Admin" creationdate="20171024T070034Z">
+        <seg>#git-clone---progress</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---shared</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065750Z" creationid="Admin" creationdate="20171024T065750Z">
+        <seg>#git-clone---shared</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---templatelttemplatedirectorygt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070608Z" creationid="Admin" creationdate="20171024T070608Z">
+        <seg>#git-clone---templatelttemplatedirectorygt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---upload-packltupload-packgt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070558Z" creationid="Admin" creationdate="20171024T070558Z">
+        <seg>#git-clone---upload-packltupload-packgt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone---verbose</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070018Z" creationid="Admin" creationdate="20171024T070018Z">
+        <seg>#git-clone---verbose</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone--bltnamegt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070452Z" creationid="Admin" creationdate="20171024T070452Z">
+        <seg>#git-clone--bltnamegt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone--cltkeygtltvaluegt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070619Z" creationid="Admin" creationdate="20171024T070619Z">
+        <seg>#git-clone--cltkeygtltvaluegt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone--l</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065450Z" creationid="Admin" creationdate="20171024T065450Z">
+        <seg>#git-clone--l</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone--n</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070056Z" creationid="Admin" creationdate="20171024T070056Z">
+        <seg>#git-clone--n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone--oltnamegt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070429Z" creationid="Admin" creationdate="20171024T070429Z">
+        <seg>#git-clone--oltnamegt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone--q</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065935Z" creationid="Admin" creationdate="20171024T065935Z">
+        <seg>#git-clone--q</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone--s</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065751Z" creationid="Admin" creationdate="20171024T065751Z">
+        <seg>#git-clone--s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone--ultupload-packgt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070600Z" creationid="Admin" creationdate="20171024T070600Z">
+        <seg>#git-clone--ultupload-packgt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-clone--v</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070019Z" creationid="Admin" creationdate="20171024T070019Z">
+        <seg>#git-clone--v</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#git-codeGITALLOWPROTOCOLcode</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -2656,6 +2832,22 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--branch &lt;name&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070451Z" creationid="Admin" creationdate="20171024T070451Z">
+        <seg>--branch &lt;name&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--config &lt;key&gt;=&lt;value&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070618Z" creationid="Admin" creationdate="20171024T070618Z">
+        <seg>--config &lt;key&gt;=&lt;value&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--edit</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115859Z" creationid="Admin" creationdate="20171023T115859Z">
@@ -2848,6 +3040,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--mirror</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070341Z" creationid="Admin" creationdate="20171024T070341Z">
+        <seg>--mirror</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--name-only</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115514Z" creationid="Admin" creationdate="20171023T115514Z">
@@ -2860,6 +3060,22 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T071716Z" creationid="Admin" creationdate="20171020T071716Z">
         <seg>--namespace=&lt;path&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--no-checkout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070055Z" creationid="Admin" creationdate="20171024T070055Z">
+        <seg>--no-checkout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--no-hardlinks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065737Z" creationid="Admin" creationdate="20171024T065737Z">
+        <seg>--no-hardlinks</seg>
       </tuv>
     </tu>
     <tu>
@@ -2896,6 +3112,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--origin &lt;name&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070428Z" creationid="Admin" creationdate="20171024T070428Z">
+        <seg>--origin &lt;name&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--paginate</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070627Z" creationid="Admin" creationdate="20171020T070627Z">
@@ -2908,6 +3132,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115051Z" creationid="Admin" creationdate="20171023T115051Z">
         <seg>--path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--progress</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070035Z" creationid="Admin" creationdate="20171024T070035Z">
+        <seg>--progress</seg>
       </tuv>
     </tu>
     <tu>
@@ -2940,6 +3172,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112923Z" creationid="Admin" creationdate="20171023T112923Z">
         <seg>--replace-all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--shared</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065751Z" creationid="Admin" creationdate="20171024T065751Z">
+        <seg>--shared</seg>
       </tuv>
     </tu>
     <tu>
@@ -2992,6 +3232,22 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--upload-pack &lt;upload-pack&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070559Z" creationid="Admin" creationdate="20171024T070559Z">
+        <seg>--upload-pack &lt;upload-pack&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--verbose</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070019Z" creationid="Admin" creationdate="20171024T070019Z">
+        <seg>--verbose</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--version</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T050614Z" creationid="Admin" creationdate="20171020T050614Z">
@@ -3028,6 +3284,22 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T034135Z" creationid="Admin" creationdate="20171024T034135Z">
         <seg>-a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-b &lt;name&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070453Z" creationid="Admin" creationdate="20171024T070453Z">
+        <seg>-b &lt;name&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-c &lt;key&gt;=&lt;value&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070619Z" creationid="Admin" creationdate="20171024T070619Z">
+        <seg>-c &lt;key&gt;=&lt;value&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3088,6 +3360,22 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-n</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070056Z" creationid="Admin" creationdate="20171024T070056Z">
+        <seg>-n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-o &lt;name&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070430Z" creationid="Admin" creationdate="20171024T070430Z">
+        <seg>-o &lt;name&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-p</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070621Z" creationid="Admin" creationdate="20171020T070621Z">
@@ -3100,6 +3388,30 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060313Z" creationid="Admin" creationdate="20171024T060313Z">
         <seg>-q</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-s</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065752Z" creationid="Admin" creationdate="20171024T065752Z">
+        <seg>-s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-u &lt;upload-pack&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070601Z" creationid="Admin" creationdate="20171024T070601Z">
+        <seg>-u &lt;upload-pack&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-v</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070020Z" creationid="Admin" creationdate="20171024T070020Z">
+        <seg>-v</seg>
       </tuv>
     </tu>
     <tu>
@@ -3184,6 +3496,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.11.1 → 2.12.5 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065414Z" creationid="Admin" creationdate="20171024T065414Z">
+        <seg>2.11.1 → 2.12.5 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.11.3 → 2.11.4 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034731Z" creationid="Admin" creationdate="20171020T034728Z">
@@ -3208,6 +3528,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.13.1 → 2.13.6 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065408Z" creationid="Admin" creationdate="20171024T065408Z">
+        <seg>2.13.1 → 2.13.6 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.13.2 → 2.14.1 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034648Z" creationid="Admin" creationdate="20171020T034648Z">
@@ -3216,10 +3544,26 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.14.1 → 2.14.2 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065401Z" creationid="Admin" creationdate="20171024T065401Z">
+        <seg>2.14.1 → 2.14.2 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.2.1 → 2.3.10 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T042513Z" creationid="Admin" creationdate="20171024T042513Z">
         <seg>2.2.1 → 2.3.10 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.3.1 → 2.6.7 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065443Z" creationid="Admin" creationdate="20171024T065443Z">
+        <seg>2.3.1 → 2.6.7 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -3248,6 +3592,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.7.2 → 2.7.6 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065433Z" creationid="Admin" creationdate="20171024T065433Z">
+        <seg>2.7.2 → 2.7.6 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.7.6 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034858Z" creationid="Admin" creationdate="20171020T034858Z">
@@ -3260,6 +3612,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100611Z" creationid="Admin" creationdate="20171023T100611Z">
         <seg>2.8.1 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.8.1 → 2.8.6 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065427Z" creationid="Admin" creationdate="20171024T065427Z">
+        <seg>2.8.1 → 2.8.6 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -3284,6 +3644,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100555Z" creationid="Admin" creationdate="20171023T100555Z">
         <seg>2.9.2 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.9.2 → 2.10.5 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065419Z" creationid="Admin" creationdate="20171024T065419Z">
+        <seg>2.9.2 → 2.10.5 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -3332,6 +3700,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034232Z" creationid="Admin" creationdate="20171020T034232Z">
         <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git 最后更新于 2.14.2&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-clone last updated in 2.14.2&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065340Z" creationid="Admin" creationdate="20171024T065340Z">
+        <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-clone 最后更新于 2.14.2&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3410,6 +3786,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c1&gt;--branch&lt;/c1&gt; can also take tags and detaches the HEAD at that commit in the resulting repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070530Z" creationid="Admin" creationdate="20171024T070530Z">
+        <seg>&lt;c1&gt;--branch&lt;/c1&gt; 也可以在生成的存储库中的标签和分离 HEAD。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c2&gt;$GIT_SSH&lt;/c2&gt; on the other hand must be just the path to a program (which can be a wrapper shell script, if additional arguments are needed).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T075140Z">
@@ -3454,6 +3838,26 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>&lt;commit&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git clone&lt;/e0&gt; [--template=&lt;template_directory&gt;]
+	  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]
+	  [-o &lt;name&gt;] [-b &lt;name&gt;] [-u &lt;upload-pack&gt;] [--reference &lt;repository&gt;]
+	  [--dissociate] [--separate-git-dir &lt;git dir&gt;]
+	  [--depth &lt;depth&gt;] [--[no-]single-branch] [--no-tags]
+	  [--recurse-submodules] [--[no-]shallow-submodules]
+	  [--jobs &lt;n&gt;] [--] &lt;repository&gt; [&lt;directory&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065445Z" creationid="Admin" creationdate="20171024T065445Z">
+        <seg>&lt;e0&gt;git clone&lt;/e0&gt; [--template=&lt;template_directory&gt;]
+	  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]
+	  [-o &lt;name&gt;] [-b &lt;name&gt;] [-u &lt;upload-pack&gt;] [--reference &lt;repository&gt;]
+	  [--dissociate] [--separate-git-dir &lt;git dir&gt;]
+	  [--depth &lt;depth&gt;] [--[no-]single-branch] [--no-tags]
+	  [--recurse-submodules] [--[no-]shallow-submodules]
+	  [--jobs &lt;n&gt;] [--] &lt;repository&gt; [&lt;directory&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -3776,6 +4180,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034653Z" creationid="Admin" creationdate="20171020T034653Z">
         <seg>&lt;s0&gt;2.13.1&lt;/s0&gt; &lt;s1&gt; &lt;i2/&gt; &lt;i3/&gt; &lt;i4/&gt; &lt;i5/&gt; &lt;i6/&gt; &lt;i7/&gt; &lt;i8/&gt; &lt;i9/&gt; &lt;/s1&gt; &lt;e10&gt;06/05/17&lt;/e10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;2.14.0&lt;/s0&gt; &lt;s1&gt; &lt;i2/&gt; &lt;i3/&gt; &lt;i4/&gt; &lt;i5/&gt; &lt;i6/&gt; &lt;i7/&gt; &lt;i8/&gt; &lt;i9/&gt; &lt;/s1&gt; &lt;e10&gt;08/04/17&lt;/e10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065404Z" creationid="Admin" creationdate="20171024T065404Z">
+        <seg>&lt;s0&gt;2.14.0&lt;/s0&gt; &lt;s1&gt; &lt;i2/&gt; &lt;i3/&gt; &lt;i4/&gt; &lt;i5/&gt; &lt;i6/&gt; &lt;i7/&gt; &lt;i8/&gt; &lt;i9/&gt; &lt;/s1&gt; &lt;e10&gt;08/04/17&lt;/e10&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4140,6 +4552,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;2.7.0&lt;/s0&gt; &lt;s1&gt; &lt;i2/&gt; &lt;i3/&gt; &lt;i4/&gt; &lt;i5/&gt; &lt;i6/&gt; &lt;i7/&gt; &lt;i8/&gt; &lt;/s1&gt; &lt;e9&gt;01/04/16&lt;/e9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065439Z" creationid="Admin" creationdate="20171024T065439Z">
+        <seg>&lt;s0&gt;2.7.0&lt;/s0&gt; &lt;s1&gt; &lt;i2/&gt; &lt;i3/&gt; &lt;i4/&gt; &lt;i5/&gt; &lt;i6/&gt; &lt;i7/&gt; &lt;i8/&gt; &lt;/s1&gt; &lt;e9&gt;01/04/16&lt;/e9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;2.7.0&lt;/s0&gt; &lt;s1&gt; &lt;i2/&gt; &lt;i3/&gt; &lt;i4/&gt; &lt;i5/&gt; &lt;i6/&gt; &lt;i7/&gt; &lt;i8/&gt; &lt;i9/&gt; &lt;/s1&gt; &lt;e10&gt;01/04/16&lt;/e10&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034917Z" creationid="Admin" creationdate="20171020T034917Z">
@@ -4280,6 +4700,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T035410Z" creationid="Admin" creationdate="20171020T035410Z">
         <seg>&lt;s0&gt;通过运行检查您的 git 版本&lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;NOTE&lt;/s0&gt;: see the NOTE for the &lt;c1&gt;--shared&lt;/c1&gt; option, and also the &lt;c2&gt;--dissociate&lt;/c2&gt; option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071415Z" creationid="Admin" creationdate="20171024T071415Z">
+        <seg>&lt;s0&gt;注意&lt;/s0&gt; ：请参阅 &lt;c1&gt;--shared&lt;/c1&gt; 选项的注释，以及 &lt;c2&gt;--dissociate&lt;/c2&gt; 选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4508,6 +4936,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After the clone, a plain &lt;c0&gt;git fetch&lt;/c0&gt; without arguments will update all the remote-tracking branches, and a &lt;c1&gt;git pull&lt;/c1&gt; without arguments will in addition merge the remote master branch into the current master branch, if any (this is untrue when "--single-branch" is given; see below).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065139Z" creationid="Admin" creationdate="20171024T065139Z">
+        <seg>克隆之后，没有参数的普通 &lt;c0&gt;git fetch&lt;/c0&gt; 将更新所有远程跟踪分支，而没有参数的 &lt;c1&gt;git pull&lt;/c1&gt; 将额外地将远程主分支合并到当前主分支（如果有的话）（当给出 "--single-branch" 时，这是不真实的;见下文）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After you mastered the basic concepts, you can come back to this page to learn what commands Git offers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T050418Z" creationid="Admin" creationdate="20171020T050418Z">
@@ -4536,6 +4972,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120615Z" creationid="Admin" creationdate="20171023T120615Z">
         <seg>也称为"全局"配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also the branch heads at the remote are copied directly to corresponding local branch heads, without mapping them to &lt;c6&gt;refs/remotes/origin/&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070300Z" creationid="Admin" creationdate="20171024T070300Z">
+        <seg>远端的分支头也直接复制到相应的本地分支头，而不将它们映射到 &lt;c6&gt;refs/remotes/origin/&lt;/c6&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4716,6 +5160,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Borrow the objects from reference repositories specified with the &lt;c0&gt;--reference&lt;/c0&gt; options only to reduce network transfer, and stop borrowing from them after a clone is made by making necessary local copies of borrowed objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071445Z" creationid="Admin" creationdate="20171024T071445Z">
+        <seg>通过使用 &lt;c0&gt;--reference&lt;/c0&gt; 选项指定的参考资料库中的对象，只能减少网络传输，并在通过进行借用对象的必需本地副本进行克隆后停止借用它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Branching and Merging</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023943Z">
@@ -4768,6 +5220,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T041022Z" creationid="Admin" creationdate="20171024T041022Z">
         <seg>配置变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes in the &lt;s0&gt;git-clone&lt;/s0&gt; manual</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065354Z" creationid="Admin" creationdate="20171024T065354Z">
+        <seg>&lt;s0&gt;git-clone&lt;/s0&gt; 手册中的更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -4830,8 +5290,49 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       <tuv lang="EN-US">
         <seg>Clone a repository into a new directory</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074333Z" creationid="Admin" creationdate="20171020T074333Z">
-        <seg>克隆个个仓库到新目录中</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T062421Z" creationid="Admin" creationdate="20171020T074333Z">
+        <seg>克隆一个仓库到新目录中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clone from upstream while borrowing from an existing local directory:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071635Z" creationid="Admin" creationdate="20171024T071635Z">
+        <seg>从现有本地目录借用时从上游克隆：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clone from upstream:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071558Z" creationid="Admin" creationdate="20171024T071558Z">
+        <seg>从上游克隆：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clone only the history leading to the tip of a single branch, either specified by the &lt;c0&gt;--branch&lt;/c0&gt; option or the primary branch remote’s &lt;c1&gt;HEAD&lt;/c1&gt; points at.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070934Z" creationid="Admin" creationdate="20171024T070934Z">
+        <seg>仅克隆由 &lt;c0&gt;--branch&lt;/c0&gt; 选项或主分支远程的 &lt;c1&gt;HEAD&lt;/c1&gt; 指定的单个分支的提示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using &lt;c0&gt;git branch -r&lt;/c0&gt;), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065013Z" creationid="Admin" creationdate="20171024T065013Z">
+        <seg>将仓库克隆到新创建的目录中，为克隆的仓库中的每个分支创建远程跟踪分支(使用 &lt;c0&gt;git branch -r&lt;/c0&gt; 可见)，并创建并检出所克隆的仓库当前活动分支。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cloning into an existing directory is only allowed if the directory is empty.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071129Z" creationid="Admin" creationdate="20171024T071129Z">
+        <seg>仅当目录为空时才允许克隆到现有目录中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4864,6 +5365,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092312Z" creationid="Admin" creationdate="20171020T092312Z">
         <seg>将树与工作树或索引进行比较</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compared to &lt;c1&gt;--bare&lt;/c1&gt;, &lt;c2&gt;--mirror&lt;/c2&gt; not only maps local branches of the source to local branches of the target, it maps all refs (including remote-tracking branches, notes etc.) and sets up a refspec configuration such that all these refs are overwritten by a &lt;c3&gt;git remote update&lt;/c3&gt; in the target repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070427Z" creationid="Admin" creationdate="20171024T070427Z">
+        <seg>与 &lt;c1&gt;--bare&lt;/c1&gt; 相比，&lt;/c2&gt;不仅将源的本地分支映射到目标的本地分支，它映射所有引用(包括远程跟踪分支，注释等等)，并设置一个 refspec 配置，以便所有这些引用被目标仓库中的 &lt;c3&gt;git remote update&lt;/c3&gt; 覆盖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4932,6 +5441,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a &lt;e0&gt;shallow&lt;/e0&gt; clone with a history truncated to the specified number of commits.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070803Z" creationid="Admin" creationdate="20171024T070803Z">
+        <seg>创建具有截断到指定数量的提交的历史记录的 &lt;e0&gt;shallow&lt;/e0&gt; 克隆。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a bare repository to publish your changes to the public:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071828Z" creationid="Admin" creationdate="20171024T071828Z">
+        <seg>创建一个裸仓库以将您的更改发布给公众：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a bare repository.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060624Z" creationid="Admin" creationdate="20171024T060624Z">
@@ -4952,6 +5477,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092027Z" creationid="Admin" creationdate="20171020T092027Z">
         <seg>创建对象的打包归档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a shallow clone with a history after the specified time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070858Z" creationid="Admin" creationdate="20171024T070858Z">
+        <seg>在指定时间后创建具有历史记录的浅克隆。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a shallow clone with a history, excluding commits reachable from a specified remote branch or tag.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070914Z" creationid="Admin" creationdate="20171024T070914Z">
+        <seg>创建具有历史记录的浅克隆，不包括从指定的远程分支或标记可访问的提交。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5180,6 +5721,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Does not affect the reporting of progress status to the standard error stream.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070033Z" creationid="Admin" creationdate="20171024T070033Z">
+        <seg>不影响标准错误流的进度状态报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Download from a remote Git repository via HTTP</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T093259Z" creationid="Admin" creationdate="20171020T093259Z">
@@ -5383,6 +5932,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
         <seg>Example</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123308Z" creationid="Admin" creationdate="20171023T123308Z">
+        <seg>例子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071554Z" creationid="Admin" creationdate="20171024T071554Z">
         <seg>例子</seg>
       </tuv>
     </tu>
@@ -5624,6 +6181,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114155Z" creationid="Admin" creationdate="20171023T114155Z">
         <seg>写入选项：写入仓库 &lt;c0&gt;.git/config&lt;/c0&gt; 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Force the cloning process from a repository on a local filesystem to copy the files under the &lt;c0&gt;.git/objects&lt;/c0&gt; directory instead of using hardlinks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065746Z" creationid="Admin" creationdate="20171024T065746Z">
+        <seg>强制克隆过程从本地文件系统上的仓库复制 &lt;c0&gt;.git/objects&lt;/c0&gt; 目录下的文件，而不是使用硬链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Further fetches into the resulting repository will only update the remote-tracking branch for the branch this option was used for the initial cloning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070942Z" creationid="Admin" creationdate="20171024T070942Z">
+        <seg>进一步获取到仓库将仅更新用于初始克隆的此选项的分支的远程跟踪分支。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6092,6 +6665,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-clone Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T062354Z" creationid="Admin" creationdate="20171024T062354Z">
+        <seg>Git - git-clone 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-config Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100348Z" creationid="Admin" creationdate="20171023T100348Z">
@@ -6460,6 +7041,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the HEAD at the remote did not point at any branch when &lt;c2&gt;--single-branch&lt;/c2&gt; clone was made, no remote-tracking branch is created.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070951Z" creationid="Admin" creationdate="20171024T070951Z">
+        <seg>如果远程的 HEAD 在 &lt;c2&gt;--single-branch&lt;/c2&gt; 克隆时没有指向任何分支，则不会创建远程跟踪分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the global or the system-wide configuration file are not available they will be ignored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120647Z" creationid="Admin" creationdate="20171023T120647Z">
@@ -6508,10 +7097,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the reference repository is on the local machine, automatically setup &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; to obtain objects from the reference repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071345Z" creationid="Admin" creationdate="20171024T071345Z">
+        <seg>如果参考仓库在本地机器上，自动设置 &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; 以从参考存储库获取对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the repository configuration file is not available or readable, &lt;e0&gt;git config&lt;/e0&gt; will exit with a non-zero error code.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120730Z" creationid="Admin" creationdate="20171023T120730Z">
         <seg>如果仓库配置文件不可用或不可读，则 &lt;e0&gt;git config&lt;/e0&gt; 将以非零错误代码退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the repository is specified as a URL, then this flag is ignored (and we never use the local optimizations).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065552Z" creationid="Admin" creationdate="20171024T065552Z">
+        <seg>如果仓库被指定为 URL，则该标志将被忽略(我们从不使用本地优化)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the repository is specified as a local path (e.g., &lt;c0&gt;/path/to/repo&lt;/c0&gt;), this is the default, and --local is essentially a no-op.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065545Z" creationid="Admin" creationdate="20171024T065545Z">
+        <seg>如果仓库被指定为本地路径(例如， &lt;c0&gt;/path/to/repo&lt;/c0&gt; )，则这是默认值，而 --local 本质上是无操作的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6596,6 +7209,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to clone submodules shallowly, also pass &lt;c3&gt;--shallow-submodules&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070832Z" creationid="Admin" creationdate="20171024T070832Z">
+        <seg>如果要轻松克隆子模块，还可以通过 &lt;c3&gt;--shallow-submodules&lt;/c3&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to handle the lines that do &lt;s2&gt;not&lt;/s2&gt; match the regex, just prepend a single exclamation mark in front (see also &lt;a3&gt;EXAMPLES&lt;/a3&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T103031Z" creationid="Admin" creationdate="20171023T103031Z">
@@ -6612,6 +7233,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implies &lt;c1&gt;--single-branch&lt;/c1&gt; unless &lt;c2&gt;--no-single-branch&lt;/c2&gt; is given to fetch the histories near the tips of all branches.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070824Z" creationid="Admin" creationdate="20171024T070824Z">
+        <seg>隐含 &lt;c1&gt;--single-branch&lt;/c1&gt; ，除非 &lt;c2&gt;--no-single-branch&lt;/c2&gt; 被提供以获取所有分支提示附近的历史记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Import an Arch repository into Git</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090636Z" creationid="Admin" creationdate="20171020T090636Z">
@@ -6624,6 +7253,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090801Z" creationid="Admin" creationdate="20171020T090801Z">
         <seg>从 Perforce 仓库导入及提交给 Perforce 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In a non-bare repository, this is the branch that will be checked out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070519Z" creationid="Admin" creationdate="20171024T070519Z">
+        <seg>在非裸库中，这是将被检出的分支。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6744,6 +7381,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090258Z" creationid="Admin" creationdate="20171020T090258Z">
         <seg>在 gitweb 中即时浏览您的工作仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead of pointing the newly created HEAD to the branch pointed to by the cloned repository’s HEAD, point to &lt;c0&gt;&lt;name&gt;&lt;/c0&gt; branch instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070511Z" creationid="Admin" creationdate="20171024T070511Z">
+        <seg>不是将新创建的 HEAD 指向克隆的存储库 HEAD 指向的分支，而是指向 &lt;c0&gt;&lt;name&gt;&lt;/c0&gt; 分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead of using the remote name &lt;c0&gt;origin&lt;/c0&gt; to keep track of the upstream repository, use &lt;c1&gt;&lt;name&gt;&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070450Z" creationid="Admin" creationdate="20171024T070450Z">
+        <seg>不要使用远程名称 &lt;c0&gt;origin&lt;/c0&gt; 跟踪上游仓库，使用 &lt;c1&gt;&lt;name&gt;&lt;/c1&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6940,6 +7593,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Make a &lt;e0&gt;bare&lt;/e0&gt; Git repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070132Z" creationid="Admin" creationdate="20171024T070132Z">
+        <seg>创建一个 &lt;e0&gt;bare&lt;/e0&gt; Git 仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make a local clone that borrows from the current directory, without checking things out:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071614Z" creationid="Admin" creationdate="20171024T071614Z">
+        <seg>使本地克隆从当前目录中借用，而无需检出：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Manage multiple working trees</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T085434Z" creationid="Admin" creationdate="20171020T085434Z">
@@ -7040,6 +7709,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T071100Z" creationid="Admin" creationdate="20171023T071100Z">
         <seg>新对象不会写入这些目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No checkout of HEAD is performed after the clone is complete.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070122Z" creationid="Admin" creationdate="20171024T070122Z">
+        <seg>克隆完成后，不执行检出 HEAD 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7152,6 +7829,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115924Z" creationid="Admin" creationdate="20171023T115924Z">
         <seg>打开编辑器修改指定的配置文件; &lt;c0&gt;--system&lt;/c0&gt; ， &lt;c1&gt;--global&lt;/c1&gt; 或仓库(默认)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Operate quietly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065943Z" creationid="Admin" creationdate="20171024T065943Z">
+        <seg>安静地操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7376,6 +8061,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094148Z" creationid="Admin" creationdate="20171020T094148Z">
         <seg>生成合并提交消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Progress is not reported to the standard error stream.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065956Z" creationid="Admin" creationdate="20171024T065956Z">
+        <seg>进度不会报告给标准错误流。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Progress status is reported on the standard error stream by default when it is attached to a terminal, unless -q is specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070047Z" creationid="Admin" creationdate="20171024T070047Z">
+        <seg>默认情况下，标准错误流在连接到终端时报告进度状态，除非指定 -q 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7724,6 +8425,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Run verbosely.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070023Z" creationid="Admin" creationdate="20171024T070022Z">
+        <seg>详细地运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Running &lt;e0&gt;git init&lt;/e0&gt; in an existing repository is safe.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T043106Z" creationid="Admin" creationdate="20171024T043106Z">
@@ -8020,6 +8729,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set a configuration variable in the newly-created repository; this takes effect immediately after the repository is initialized, but before the remote history is fetched or any files checked out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070728Z" creationid="Admin" creationdate="20171024T070728Z">
+        <seg>在新创建的存储库中设置配置变量;这在存储库初始化之后，但在获取远程历史记录或任何文件签出之前立即生效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set a prefix which gives a path from above a repository down to its root.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072545Z" creationid="Admin" creationdate="20171020T072545Z">
@@ -8072,6 +8789,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T082340Z" creationid="Admin" creationdate="20171023T082340Z">
         <seg>设置为 0 以防止被配置为 &lt;c0&gt;user&lt;/c0&gt; 状态的协议用于 fetch/push/clone 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set up a mirror of the source repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070347Z" creationid="Admin" creationdate="20171024T070347Z">
+        <seg>设置源仓库的镜像。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8268,6 +8993,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specify the directory from which templates will be used; (See the "TEMPLATE DIRECTORY" section of &lt;a0&gt;git-init[1]&lt;/a0&gt;.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070616Z" creationid="Admin" creationdate="20171024T070616Z">
+        <seg>指定使用模板的目录; (参见 &lt;a0&gt;git-init[1]&lt;/a0&gt; 的"TEMPLATE DIRECTORY"部分。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifying &lt;c1&gt;--no-local&lt;/c1&gt; will override the default when &lt;c2&gt;/path/to/repo&lt;/c2&gt; is given, using the regular Git transport instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065735Z" creationid="Admin" creationdate="20171024T065735Z">
+        <seg>当使用 &lt;c2&gt;/path/to/repo&lt;/c2&gt; 时，指定 &lt;c1&gt;--no-local&lt;/c1&gt; 会覆盖默认值，使用正常的 Git 传输。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Start a new Git repository for an existing code base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060748Z" creationid="Admin" creationdate="20171024T060748Z">
@@ -8368,6 +9109,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070506Z" creationid="Admin" creationdate="20171023T070506Z">
         <seg>术语</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That is, instead of creating &lt;c1&gt;&lt;directory&gt;&lt;/c1&gt; and placing the administrative files in &lt;c2&gt;&lt;directory&gt;/.git&lt;/c2&gt;, make the &lt;c3&gt;&lt;directory&gt;&lt;/c3&gt; itself the &lt;c4&gt;$GIT_DIR&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070232Z" creationid="Admin" creationdate="20171024T070232Z">
+        <seg>也就是说，不要创建 &lt;c1&gt;&lt;directory&gt;&lt;/c1&gt; 并将管理文件放在 &lt;c2&gt;&lt;directory&gt;/.git&lt;/c2&gt; 中，使 &lt;c3&gt;&lt;directory&gt;&lt;/c3&gt; 本身 &lt;c4&gt;$GIT_DIR&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "humanish" part of the source repository is used if no directory is explicitly given (&lt;c0&gt;repo&lt;/c0&gt; for &lt;c1&gt;/path/to/repo.git&lt;/c1&gt; and &lt;c2&gt;foo&lt;/c2&gt; for &lt;c3&gt;host.xz:foo/.git&lt;/c3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071124Z" creationid="Admin" creationdate="20171024T071124Z">
+        <seg>如果没有明确指定目录，则使用源库的"人性化"部分(&lt;c0&gt;repo&lt;/c0&gt; for &lt;c1&gt;/path/to/repo.git&lt;/c1&gt; and &lt;c2&gt;foo&lt;/c2&gt; for &lt;c3&gt;host.xz:foo/.git&lt;/c3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8564,6 +9321,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The files under &lt;c0&gt;.git/objects/&lt;/c0&gt; directory are hardlinked to save space when possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065526Z" creationid="Admin" creationdate="20171024T065526Z">
+        <seg>&lt;c0&gt;.git/objects/&lt;/c0&gt; 目录下的文件是硬链接的，以尽可能节省空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following are helper commands used by the above; end users typically do not use them directly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T093128Z" creationid="Admin" creationdate="20171020T093128Z">
@@ -8644,6 +9409,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of a new directory to clone into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071025Z" creationid="Admin" creationdate="20171024T071025Z">
+        <seg>要克隆到的新目录的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The object database contains objects of three main types: blobs, which hold file data; trees, which point to blobs and other trees to build up directory hierarchies; and commits, which each reference a single tree and some number of parent commits.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083048Z" creationid="Admin" creationdate="20171023T083048Z">
@@ -8664,6 +9437,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T043123Z" creationid="Admin" creationdate="20171024T043123Z">
         <seg>重新运行 &lt;e1&gt;git init&lt;/e1&gt; 的主要原因是拾取新添加的模板(或者如果给出了--separate-git-dir，则将仓库移动到另一个位置)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The resulting repository starts out without any object of its own.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065807Z" creationid="Admin" creationdate="20171024T065807Z">
+        <seg>生成的仓库开始没有任何自己的对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8860,6 +9641,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This default configuration is achieved by creating references to the remote branch heads under &lt;c0&gt;refs/remotes/origin&lt;/c0&gt; and by initializing &lt;c1&gt;remote.origin.url&lt;/c1&gt; and &lt;c2&gt;remote.origin.fetch&lt;/c2&gt; configuration variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065242Z" creationid="Admin" creationdate="20171024T065242Z">
+        <seg>默认配置的实现通过在 &lt;c0&gt;refs/remotes/origin&lt;/c0&gt; 下创建对远程分支头的引用，并通过初始化 &lt;c1&gt;remote.origin.url&lt;/c1&gt; 和 &lt;c2&gt;remote.origin.fetch&lt;/c2&gt; 配置变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This environment allows the specification of an alternate index file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070743Z" creationid="Admin" creationdate="20171023T070743Z">
@@ -8904,6 +9693,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074058Z" creationid="Admin" creationdate="20171023T074058Z">
         <seg>此环境变量覆盖 &lt;c0&gt;$PAGER&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This flag forces progress status even if the standard error stream is not directed to a terminal.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070053Z" creationid="Admin" creationdate="20171024T070053Z">
+        <seg>即使标准错误流未指向终端，该标志也强制进行状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implies &lt;c0&gt;--bare&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070352Z" creationid="Admin" creationdate="20171024T070352Z">
+        <seg>这意味着 &lt;c0&gt;--bare&lt;/c0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8972,6 +9777,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This may be desirable if you are trying to make a back-up of your repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065749Z" creationid="Admin" creationdate="20171024T065749Z">
+        <seg>如果您想要备份存储库，这可能是可取的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This may be helpful for troubleshooting some pack-related performance problems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080039Z" creationid="Admin" creationdate="20171023T080039Z">
@@ -8980,10 +9793,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This obviously implies the &lt;c5&gt;-n&lt;/c5&gt; because there is nowhere to check out the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070249Z" creationid="Admin" creationdate="20171024T070249Z">
+        <seg>这显然意味着 &lt;c5&gt;-n&lt;/c5&gt; ，因为没有办法检出工作树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This option affects options that expect path name like &lt;c0&gt;--git-dir&lt;/c0&gt; and &lt;c1&gt;--work-tree&lt;/c1&gt; in that their interpretations of the path names would be made relative to the working directory caused by the &lt;c2&gt;-C&lt;/c2&gt; option.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T065659Z" creationid="Admin" creationdate="20171020T065622Z">
         <seg>该选项影响期望路径名称的选项，像 &lt;c0&gt;--git-dir&lt;/c0&gt; 和 &lt;c1&gt;--work-tree&lt;/c1&gt;，因为他们对路径名称的解释将相对于由  &lt;c2&gt;-C&lt;/c2&gt;  选项指定的工作目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option can also be used when cloning locally from a repository that already borrows objects from another repository—​the new repository will borrow objects from the same repository, and this option can be used to stop the borrowing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071513Z" creationid="Admin" creationdate="20171024T071513Z">
+        <seg>当从已经从另一个存储库借用对象的存储库本地克隆时，也可以使用此选项 - 新存储库将从同一存储库中借用对象，并且此选项可用于停止借用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option can be specified multiple times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070919Z" creationid="Admin" creationdate="20171024T070919Z">
+        <seg>此选项可以多次指定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9220,6 +10057,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using an already existing repository as an alternate will require fewer objects to be copied from the repository being cloned, reducing network and local storage costs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071354Z" creationid="Admin" creationdate="20171024T071354Z">
+        <seg>将已存在的存储库用作备用数据库将需要从要克隆的存储库复制的对象较少，从而降低网络和本地存储成本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Usually it is easier to configure any desired options through your personal &lt;c0&gt;.ssh/config&lt;/c0&gt; file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T075220Z" creationid="Admin" creationdate="20171023T075220Z">
@@ -9356,6 +10201,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When given, and the repository to clone from is accessed via ssh, this specifies a non-default path for the command run on the other end.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070607Z" creationid="Admin" creationdate="20171024T070607Z">
+        <seg>给定时，通过 ssh 访问要克隆的仓库，这指定了另一端运行的命令的非默认路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When inventing new variables for use in your own tool, make sure their names do not conflict with those that are used by Git itself and other popular tools, and describe them in your documentation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123739Z" creationid="Admin" creationdate="20171023T102112Z">
@@ -9408,6 +10261,38 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T073351Z" creationid="Admin" creationdate="20171023T073351Z">
         <seg>当设置环境变量 &lt;c0&gt;GIT_EXTERNAL_DIFF&lt;/c0&gt; 时，调用由其命名的程序，而不是上述的 diff 调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the repository to clone from is on a local machine, this flag bypasses the normal "Git aware" transport mechanism and clones the repository by making a copy of HEAD and everything under objects and refs directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065518Z" creationid="Admin" creationdate="20171024T065518Z">
+        <seg>当克隆的存储库在本地机器上时，此标志绕过正常的"Git 感知"传输机制，并通过将 HEAD 的副本和对象和参考目录下的所有内容复制到存储库中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the repository to clone is on the local machine, instead of using hard links, automatically setup &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; to share the objects with the source repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065802Z" creationid="Admin" creationdate="20171024T065802Z">
+        <seg>当克隆的存储库在本地机器上时，而不是使用硬链接，自动设置 &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; 以与源存储库共享对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When this option is used, neither remote-tracking branches nor the related configuration variables are created.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070307Z" creationid="Admin" creationdate="20171024T070307Z">
+        <seg>使用此选项时，不会创建远程跟踪分支和相关配置变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using the &lt;c1&gt;--reference-if-able&lt;/c1&gt;, a non existing directory is skipped with a warning instead of aborting the clone.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071404Z" creationid="Admin" creationdate="20171024T071404Z">
+        <seg>当使用 &lt;c1&gt;--reference-if-able&lt;/c1&gt; 时，会跳过一个不存在的目录，而不是中止该克隆。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10230,10 +11115,90 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-clone - Clone a repository into a new directory</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T064439Z" creationid="Admin" creationdate="20171024T064439Z">
+        <seg>git-clone - 克隆一个仓库到新目录中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-clone.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-clone.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone/2.11.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065415Z" creationid="Admin" creationdate="20171024T065415Z">
+        <seg>git-clone/2.11.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone/2.13.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065409Z" creationid="Admin" creationdate="20171024T065409Z">
+        <seg>git-clone/2.13.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone/2.14.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065402Z" creationid="Admin" creationdate="20171024T065402Z">
+        <seg>git-clone/2.14.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone/2.3.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065443Z" creationid="Admin" creationdate="20171024T065443Z">
+        <seg>git-clone/2.3.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone/2.7-2.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065437Z" creationid="Admin" creationdate="20171024T065437Z">
+        <seg>git-clone/2.7-2.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone/2.7.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065434Z" creationid="Admin" creationdate="20171024T065434Z">
+        <seg>git-clone/2.7.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone/2.8.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065429Z" creationid="Admin" creationdate="20171024T065429Z">
+        <seg>git-clone/2.8.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone/2.9-2.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065422Z" creationid="Admin" creationdate="20171024T065422Z">
+        <seg>git-clone/2.9-2.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-clone/2.9.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065420Z" creationid="Admin" creationdate="20171024T065420Z">
+        <seg>git-clone/2.9.html</seg>
       </tuv>
     </tu>
     <tu>
