@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>"git diff A...B" is equivalent to "git diff $(git-merge-base A B) B".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085114Z" creationid="Admin" creationdate="20171024T085114Z">
+        <seg>"git diff A...B" 等价于 "git diff $(git-merge-base A B) B".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034143Z" creationid="Admin" creationdate="20171020T034143Z">
@@ -3688,6 +3696,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--staged is a synonym of --cached.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084757Z" creationid="Admin" creationdate="20171024T084757Z">
+        <seg>--staged 是--cached 的同义词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--super-prefix=&lt;path&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072518Z" creationid="Admin" creationdate="20171020T072518Z">
@@ -6032,6 +6048,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Changes between the index and your last commit; what you would be committing if you run "git commit" without "-a" option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090040Z" creationid="Admin" creationdate="20171024T090040Z">
+        <seg>索引和最后一次提交之间的更改;如果您运行“git commit”而没有“-a”选项，那么您将提交的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes between the tips of the topic and the master branches.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090534Z" creationid="Admin" creationdate="20171024T090534Z">
+        <seg>比较 topic 与主分支顶部之间的变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Changes in the &lt;s0&gt;git-add&lt;/s0&gt; manual</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082455Z" creationid="Admin" creationdate="20171024T082455Z">
@@ -6076,6 +6108,30 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T033834Z" creationid="Admin" creationdate="20171020T034305Z">
         <seg>&lt;s0&gt;git&lt;/s0&gt; 手册中的更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes in the working tree not yet staged for the next commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090006Z" creationid="Admin" creationdate="20171024T090006Z">
+        <seg>工作树中尚未暂存进行下一次提交的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes in the working tree since your last commit; what you would be committing if you run "git commit -a"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090053Z" creationid="Admin" creationdate="20171024T090053Z">
+        <seg>自上次提交以来工作树中的更改;如果你运行"git commit -a"，你会提交的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes that occurred on the master branch since when the topic branch was started off it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090622Z" creationid="Admin" creationdate="20171024T090622Z">
+        <seg>从 topic 分支离开主分支开始时，主分支上发生的更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6185,6 +6241,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compare the version before the last commit and the last commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090444Z" creationid="Admin" creationdate="20171024T090444Z">
+        <seg>比较上次提交之前的版本和最后一次提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compared to &lt;c1&gt;--bare&lt;/c1&gt;, &lt;c2&gt;--mirror&lt;/c2&gt; not only maps local branches of the source to local branches of the target, it maps all refs (including remote-tracking branches, notes etc.) and sets up a refspec configuration such that all these refs are overwritten by a &lt;c3&gt;git remote update&lt;/c3&gt; in the target repository.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070427Z" creationid="Admin" creationdate="20171024T070427Z">
@@ -6205,6 +6269,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092355Z" creationid="Admin" creationdate="20171020T092355Z">
         <seg>比较两个树对象找到的 blob 的内容和模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Comparing branches</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090448Z" creationid="Admin" creationdate="20171024T090448Z">
+        <seg>比较分支</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Comparing with arbitrary commits</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090110Z" creationid="Admin" creationdate="20171024T090110Z">
+        <seg>与任意提交相比</seg>
       </tuv>
     </tu>
     <tu>
@@ -6969,6 +7049,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a more complete list of ways to spell &lt;commit&gt;, see "SPECIFYING REVISIONS" section in &lt;a0&gt;gitrevisions[7]&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085154Z" creationid="Admin" creationdate="20171024T085154Z">
+        <seg>有关拼写 &lt;commit&gt; 的更完整的方法列表，请参阅 &lt;a0&gt;gitrevisions[7]&lt;/a0&gt; 中的"指定版本"部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a more complete list of ways to spell object names, see "SPECIFYING REVISIONS" section in &lt;a0&gt;gitrevisions[7]&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070406Z" creationid="Admin" creationdate="20171023T070406Z">
@@ -7521,6 +7609,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generating patches with -p</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085832Z" creationid="Admin" creationdate="20171024T085832Z">
+        <seg>用 -p 生成补丁</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Get and set repository or global options</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T085608Z" creationid="Admin" creationdate="20171020T085608Z">
@@ -7597,6 +7693,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100348Z" creationid="Admin" creationdate="20171023T100348Z">
         <seg>Git - git-config 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-diff Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084104Z" creationid="Admin" creationdate="20171024T084104Z">
+        <seg>Git - git-diff 文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -7793,6 +7897,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, "diff" is about comparing two &lt;e1&gt;endpoints&lt;/e1&gt;, not ranges, and the range notations ("&lt;commit&gt;..&lt;commit&gt;" and "&lt;commit&gt;...&lt;commit&gt;") do not mean a range as defined in the "SPECIFYING RANGES" section in &lt;a2&gt;gitrevisions[7]&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085223Z" creationid="Admin" creationdate="20171024T085223Z">
+        <seg>然而，“diff”是关于比较两个 &lt;e1&gt;endpoints&lt;/e1&gt; 而不是范围和范围符号(“&lt;commit&gt; .. &lt;commit&gt;”和“&lt;commit&gt; ... &lt;commit&gt;”)不代表 &lt;a2&gt;gitrevisions[7]&lt;/a2&gt; 中“SPECIFYING RANGES”部分中定义的范围。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, enabling it may help git to detect and abort some operations in the presence of broken refs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T081806Z" creationid="Admin" creationdate="20171023T081800Z">
@@ -7873,10 +7985,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;commit&gt; on one side is omitted, it will have the same effect as using HEAD instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084950Z" creationid="Admin" creationdate="20171024T084950Z">
+        <seg>如果忽略一方面的 &lt;commit&gt;，则与使用 HEAD 的效果相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If GIT_DIR environment is not set, it is set to the current working directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072748Z" creationid="Admin" creationdate="20171020T072748Z">
         <seg>如果 GIT_DIR 环境未设置，则将其设置为当前工作目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If HEAD does not exist (e.g. unborn branches) and &lt;commit&gt; is not given, it shows all staged changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084724Z" creationid="Admin" creationdate="20171024T084724Z">
+        <seg>如果 HEAD 不存在(例如未出生的分支)，并且未提供&lt;commit&gt;，则显示所有暂存更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8329,6 +8457,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In other words, the differences are what you &lt;e0&gt;could&lt;/e0&gt; tell Git to further add to the index but you still haven’t.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084343Z" creationid="Admin" creationdate="20171024T084343Z">
+        <seg>换句话说，差异是你&lt;e0&gt;可以&lt;/e0&gt;告诉 Git 进一步添加到索引，但你还没有。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Including the equals but with an empty value (like &lt;c4&gt;git -c foo.bar= ...&lt;/c4&gt;) sets &lt;c5&gt;foo.bar&lt;/c5&gt; to the empty string which ` git config --bool` will convert to &lt;c6&gt;false&lt;/c6&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070120Z" creationid="Admin" creationdate="20171020T070120Z">
@@ -8425,6 +8561,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead of comparing with the tip of "test" branch, compare with the tip of the current branch, but limit the comparison to the file "test".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090433Z" creationid="Admin" creationdate="20171024T090203Z">
+        <seg>与“test”分支的顶部进行比较，而不是与当前分支的顶部进行比较，但限制为文件“test”的比较。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead of pointing the newly created HEAD to the branch pointed to by the cloned repository’s HEAD, point to &lt;c0&gt;&lt;name&gt;&lt;/c0&gt; branch instead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070511Z" creationid="Admin" creationdate="20171024T070511Z">
@@ -8437,6 +8581,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070450Z" creationid="Admin" creationdate="20171024T070450Z">
         <seg>不要使用远程名称 &lt;c0&gt;origin&lt;/c0&gt; 跟踪上游仓库，使用 &lt;c1&gt;&lt;name&gt;&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead of using the tip of the current branch, compare with the tip of "test" branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090353Z" creationid="Admin" creationdate="20171024T090127Z">
+        <seg>不是使用当前分支的顶部，而使用"test"分支的顶部进行比较。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8585,6 +8737,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Just in case if you are doing something exotic, it should be noted that all of the &lt;commit&gt; in the above description, except in the last two forms that use ".." notations, can be any &lt;tree&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085136Z" creationid="Admin" creationdate="20171024T085136Z">
+        <seg>为了防止异常情况发生，请注意，上述描述中的所有&lt;commit&gt;除了使用".."符号的最后两种形式都可以是任何&lt;tree&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like --get-all, but interprets the name as a regular expression and writes out the key names.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113232Z" creationid="Admin" creationdate="20171023T113232Z">
@@ -8605,6 +8765,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113207Z" creationid="Admin" creationdate="20171023T113207Z">
         <seg>类似 get，但返回多值键的所有值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Limit diff output to named subtrees.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090705Z" creationid="Admin" creationdate="20171024T090705Z">
+        <seg>将 diff 输出限制为指定的子树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Limiting the diff output</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090626Z" creationid="Admin" creationdate="20171024T090626Z">
+        <seg>限制 diff 输出</seg>
       </tuv>
     </tu>
     <tu>
@@ -8773,6 +8949,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102912Z" creationid="Admin" creationdate="20171023T102912Z">
         <seg>可以通过使用 &lt;c0&gt;--add&lt;/c0&gt; 选项将多行添加到选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Munging the diff output</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090730Z" creationid="Admin" creationdate="20171024T090730Z">
+        <seg>改写 diff 输出</seg>
       </tuv>
     </tu>
     <tu>
@@ -8989,6 +9173,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T060541Z" creationid="Admin" creationdate="20171020T060541Z">
         <seg>其他选项可用于控制手册页面的显示方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output diff in reverse.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090824Z" creationid="Admin" creationdate="20171024T090802Z">
+        <seg>反向输出 diff。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9657,6 +9849,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Same as above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090536Z" creationid="Admin" creationdate="20171024T090536Z">
+        <seg>与上述相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Search entire site...</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085901Z">
@@ -10089,6 +10289,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes between two blob objects, or changes between two files on disk.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084155Z" creationid="Admin" creationdate="20171024T084155Z">
+        <seg>显示工作树和索引或树之间的更改，索引和树之间的更改，两个树之间的更改，两个 blob 对象之间的更改或两个文件在磁盘上的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Show changes using common diff tools</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090052Z" creationid="Admin" creationdate="20171020T090052Z">
@@ -10125,6 +10333,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090603Z" creationid="Admin" creationdate="20171020T090603Z">
         <seg>显示每个提交的差异的日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show only modification, rename, and copy, but not addition or deletion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090637Z" creationid="Admin" creationdate="20171024T090637Z">
+        <seg>仅显示修改，重命名和复制，但不显示添加或删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show only names and the nature of change, but not actual diff output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090655Z" creationid="Admin" creationdate="20171024T090655Z">
+        <seg>仅显示名称和更改的性质，但不显示实际的差异输出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10245,6 +10469,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065735Z" creationid="Admin" creationdate="20171024T065735Z">
         <seg>当使用 &lt;c2&gt;/path/to/repo&lt;/c2&gt; 时，指定 &lt;c1&gt;--no-local&lt;/c1&gt; 会覆盖默认值，使用正常的 Git 传输。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Spend extra cycles to find renames, copies and complete rewrites (very expensive).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090743Z" creationid="Admin" creationdate="20171024T090743Z">
+        <seg>花费额外的周期来查找重命名，复制和完成重写(非常昂贵)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11129,6 +11361,54 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This form is to compare the given two paths on the filesystem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084435Z" creationid="Admin" creationdate="20171024T084435Z">
+        <seg>该形式是比较文件系统上给定的两个路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This form is to view the changes on the branch containing and up to the second &lt;commit&gt;, starting at a common ancestor of both &lt;commit&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085023Z" creationid="Admin" creationdate="20171024T085023Z">
+        <seg>此形式是查看包含并直到第二个&lt;commit&gt; 的分支上的更改，从 &lt;commit&gt; 的共同祖先开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This form is to view the changes you have in your working tree relative to the named &lt;commit&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084839Z" creationid="Admin" creationdate="20171024T084839Z">
+        <seg>该形式是查看您在工作树中的改变相对于指定的 &lt;commit&gt; 所做的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This form is to view the changes you made relative to the index (staging area for the next commit).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084307Z" creationid="Admin" creationdate="20171024T084307Z">
+        <seg>该形式是查看您对索引(下一次提交的暂存区)所做的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This form is to view the changes you staged for the next commit relative to the named &lt;commit&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084614Z" creationid="Admin" creationdate="20171024T084614Z">
+        <seg>该形式用于查看暂存的用于下一次提交的相对于指定的 &lt;commit&gt; 的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This form is to view the differences between the raw contents of two blob objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085234Z" creationid="Admin" creationdate="20171024T085234Z">
+        <seg>此表单是查看两个 blob 对象的原始内容之间的差异。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This gives the user a chance to review the difference before adding modified contents to the index.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073904Z" creationid="Admin" creationdate="20171024T073904Z">
@@ -11201,6 +11481,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is synonymous to the previous form.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084939Z" creationid="Admin" creationdate="20171024T084939Z">
+        <seg>这是上一个形式的同义词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is the default behavior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114157Z" creationid="Admin" creationdate="20171023T114157Z">
@@ -11221,6 +11509,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113121Z" creationid="Admin" creationdate="20171023T113121Z">
         <seg>这与在 &lt;c1&gt;--replace-all&lt;/c1&gt; 中提供 &lt;e0&gt;^$&lt;/e0&gt; 作为 value_regex 相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is to view the changes between two arbitrary &lt;commit&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084926Z" creationid="Admin" creationdate="20171024T084926Z">
+        <seg>这是查看两个任意的&lt;commit&gt;之间的变化。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11529,6 +11825,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Typically you would want comparison with the latest commit, so if you do not give &lt;commit&gt;, it defaults to HEAD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084707Z" creationid="Admin" creationdate="20171024T084707Z">
+        <seg>通常，您需要与最新的提交进行比较，所以如果不给出&lt;commit&gt;，则默认为 HEAD。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unlike other trace output, this trace is verbatim: no headers, and no quoting of binary data.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080145Z" creationid="Admin" creationdate="20171023T080145Z">
@@ -11713,6 +12017,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Various ways to check your working tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085946Z" creationid="Admin" creationdate="20171024T085946Z">
+        <seg>检查你的工作树的各种方式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Verifies the connectivity and validity of the objects in the database</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090106Z" creationid="Admin" creationdate="20171020T090106Z">
@@ -11757,6 +12069,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080110Z" creationid="Admin" creationdate="20171024T080110Z">
         <seg>然后用 &lt;e0&gt;*&lt;/e0&gt; 突出显示您所选择的内容，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When "git-diff-index", "git-diff-tree", or "git-diff-files" are run with a &lt;c0&gt;-p&lt;/c0&gt; option, "git diff" without the &lt;c1&gt;--raw&lt;/c1&gt; option, or "git log" with the "-p" option, they do not produce the output described above; instead they produce a patch file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085908Z" creationid="Admin" creationdate="20171024T085908Z">
+        <seg>当使用 &lt;c0&gt;-p&lt;/c0&gt; 选项运行“git-diff-index”，“git-diff-tree”或“git-diff-files”时，“git diff”不带 &lt;c1&gt;--raw&lt;/c1&gt; 选项或“git log”与“-p”选项，它们不产生上述输出;而是产生补丁文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12001,10 +12321,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can omit any one of &lt;commit&gt;, which has the same effect as using HEAD instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085119Z" creationid="Admin" creationdate="20171024T085119Z">
+        <seg>您可以省略任何一个&lt;commit&gt;，这与使用 HEAD 有相同的效果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can omit having to type return here, by setting the configuration variable &lt;c0&gt;interactive.singleKey&lt;/c0&gt; to &lt;c1&gt;true&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081033Z" creationid="Admin" creationdate="20171024T081033Z">
         <seg>通过将配置变量 &lt;c0&gt;interactive.singleKey&lt;/c0&gt; 设置为 &lt;c1&gt;true&lt;/c1&gt; ，可以省略输入返回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can omit the &lt;c0&gt;--no-index&lt;/c0&gt; option when running the command in a working tree controlled by Git and at least one of the paths points outside the working tree, or when running the command outside a working tree controlled by Git.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084509Z" creationid="Admin" creationdate="20171024T084509Z">
+        <seg>在由 Git 控制的工作树中运行命令时，可以省略 &lt;c0&gt;--no-index&lt;/c0&gt; 选项，并且至少有一个路径指向工作树之外，或者在工作树之外运行命令时由 Git 控制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12069,6 +12405,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082138Z" creationid="Admin" creationdate="20171024T082138Z">
         <seg>您可以通过将空格转换为"-"来排列要删除的上下文行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can stage these changes by using &lt;a1&gt;git-add[1]&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084355Z" creationid="Admin" creationdate="20171024T084355Z">
+        <seg>您可以使用 &lt;a1&gt;git-add[1]&lt;/a1&gt; 来暂存这些更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use HEAD to compare it with the latest commit, or a branch name to compare with the tip of a different branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084917Z" creationid="Admin" creationdate="20171024T084917Z">
+        <seg>您可以使用 HEAD 将其与最新的提交进行比较，或分支名称以与不同分支的提示进行比较。</seg>
       </tuv>
     </tu>
     <tu>
