@@ -3160,10 +3160,26 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(It does not affect the working tree or the current branch.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122212Z" creationid="Admin" creationdate="20171024T122212Z">
+        <seg>(它不影响工作树或当前分支。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(See the "RECOVERING FROM UPSTREAM REBASE" section in &lt;a0&gt;git-rebase[1]&lt;/a0&gt;.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T102841Z" creationid="Admin" creationdate="20171024T102841Z">
         <seg>(见 &lt;a0&gt;git-rebase[1]&lt;/a0&gt; 中的"从 UPSTREAM REBASE 恢复"部分。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(See the "RECOVERING FROM UPSTREAM REBASE" section in &lt;a1&gt;git-rebase[1]&lt;/a1&gt; for the implications of doing so.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123903Z" creationid="Admin" creationdate="20171024T123903Z">
+        <seg>（参见 &lt;a1&gt;git-rebase[1]&lt;/a1&gt; 中的"从 UPSTREAM REBASE 恢复"部分的含义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5752,6 +5768,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After running &lt;c0&gt;git reset &lt;paths&gt;&lt;/c0&gt; to update the index entry, you can use &lt;a1&gt;git-checkout[1]&lt;/a1&gt; to check the contents out of the index to the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122259Z" creationid="Admin" creationdate="20171024T122259Z">
+        <seg>运行 &lt;c0&gt;git reset &lt;paths&gt;&lt;/c0&gt; 更新索引条目后，可以使用 &lt;a1&gt;git-checkout[1]&lt;/a1&gt; 检查索引中的内容到工作树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After staging changes to many files, you can alter the order the changes are recorded in, by giving pathnames to &lt;c0&gt;git commit&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115219Z" creationid="Admin" creationdate="20171024T115219Z">
@@ -5864,6 +5888,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively, using &lt;a2&gt;git-checkout[1]&lt;/a2&gt; and specifying a commit, you can copy the contents of a path out of a commit to the index and to the working tree in one go.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122325Z" creationid="Admin" creationdate="20171024T122325Z">
+        <seg>或者，使用 &lt;a2&gt;git-checkout[1]&lt;/a2&gt; 并指定提交，您可以一次性将索引的内容从提交中复制到索引和工作树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Although Git includes its own porcelain layer, its low-level commands are sufficient to support development of alternative porcelains.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T091518Z" creationid="Admin" creationdate="20171020T091518Z">
@@ -5924,6 +5956,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070029Z" creationid="Admin" creationdate="20171023T070029Z">
         <seg>任何接受任何&lt;object&gt;的 Git 命令也可以使用以下符号表示法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any changes to tracked files in the working tree since &lt;commit&gt; are discarded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123000Z" creationid="Admin" creationdate="20171024T123000Z">
+        <seg>自 &lt;commit&gt; 以来，工作树中跟踪的文件的任何更改都将被丢弃。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6012,6 +6052,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024154Z">
         <seg>快照基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be quiet, only report errors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123231Z" creationid="Admin" creationdate="20171024T123231Z">
+        <seg>安静，只报告错误。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6809,6 +6857,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do &lt;s0&gt;not&lt;/s0&gt; do this if you have already given these commits to somebody else.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123855Z" creationid="Admin" creationdate="20171024T123855Z">
+        <seg>如果您已经向其他人提交了这些提交，请 &lt;s0&gt;不要&lt;/s0&gt; 执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Do not change the message at all.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T101618Z" creationid="Admin" creationdate="20171024T101618Z">
@@ -6869,6 +6925,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070033Z" creationid="Admin" creationdate="20171024T070033Z">
         <seg>不影响标准错误流的进度状态报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Does not touch the index file or the working tree at all (but resets the head to &lt;commit&gt;, just like all modes do).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122843Z" creationid="Admin" creationdate="20171024T122843Z">
+        <seg>根本没有触及索引文件或工作树(但是将头重置为&lt;commit&gt;，就像所有模式一样)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7977,6 +8041,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-reset Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T121933Z" creationid="Admin" creationdate="20171024T121933Z">
+        <seg>Git - git-reset 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-status Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083012Z" creationid="Admin" creationdate="20171024T083012Z">
@@ -8249,6 +8321,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;c0&gt;-N&lt;/c0&gt; is specified, removed paths are marked as intent-to-add (see &lt;a1&gt;git-add[1]&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122947Z" creationid="Admin" creationdate="20171024T122947Z">
+        <seg>如果指定了 &lt;c0&gt;-N&lt;/c0&gt; ，则删除的路径被标记为意图添加(参见 &lt;a1&gt;git-add[1]&lt;/a1&gt; )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;c0&gt;GIT_DIR&lt;/c0&gt; environment is not set, it is set to the current working directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060627Z" creationid="Admin" creationdate="20171024T060627Z">
@@ -8289,6 +8369,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;mode&gt; is omitted, defaults to "--mixed".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122823Z" creationid="Admin" creationdate="20171024T122823Z">
+        <seg>如果省略&lt;mode&gt;，则默认为"--mixed"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If GIT_DIR environment is not set, it is set to the current working directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072748Z" creationid="Admin" creationdate="20171020T072748Z">
@@ -8317,6 +8405,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T034058Z" creationid="Admin" creationdate="20171024T034058Z">
         <seg>如果给出了命令或指南，则会给出该命令或指南的手册页。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a file that is different between &lt;commit&gt; and HEAD has local changes, reset is aborted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123141Z" creationid="Admin" creationdate="20171024T123141Z">
+        <seg>如果在&lt;commit&gt;和 HEAD 之间不同的文件有本地更改，则重置将中止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a file that is different between &lt;commit&gt; and the index has unstaged changes, reset is aborted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123054Z" creationid="Admin" creationdate="20171024T123054Z">
+        <seg>如果&lt;commit&gt;与索引之间的文件有不同的更改，则重置将中止。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8713,6 +8817,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to undo a commit other than the latest on a branch, &lt;a0&gt;git-revert[1]&lt;/a0&gt; is your friend.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123152Z" creationid="Admin" creationdate="20171024T123152Z">
+        <seg>如果你想撤销一个分支上最新的提交，那么你的朋友就是 &lt;a0&gt;git-revert[1]&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to update or unset an option which can occur on multiple lines, a POSIX regexp &lt;c1&gt;value_regex&lt;/c1&gt; needs to be given.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102938Z" creationid="Admin" creationdate="20171023T102938Z">
@@ -8833,6 +8945,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In other words, --merge does something like a &lt;e0&gt;git read-tree -u -m &lt;commit&gt;&lt;/e0&gt;, but carries forward unmerged index entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123107Z" creationid="Admin" creationdate="20171024T123107Z">
+        <seg>换句话说，--merge 会像 &lt;e0&gt;git read-tree -u -m &lt;commit&gt;&lt;/e0&gt; 这样做，但是会传递未标记的索引条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In other words, any protocol not mentioned will be disallowed (i.e., this is a whitelist, not a blacklist).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T082139Z" creationid="Admin" creationdate="20171023T082139Z">
@@ -8845,6 +8965,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084343Z" creationid="Admin" creationdate="20171024T084343Z">
         <seg>换句话说，差异是你&lt;e0&gt;可以&lt;/e0&gt;告诉 Git 进一步添加到索引，但你还没有。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the first and second form, copy entries from &lt;tree-ish&gt; to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122017Z" creationid="Admin" creationdate="20171024T122017Z">
+        <seg>在第一和第二种形式中，将条目从&lt;tree-ish&gt;复制到索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the third form, set the current branch head (HEAD) to &lt;commit&gt;, optionally modifying index and working tree to match.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122043Z" creationid="Admin" creationdate="20171024T122043Z">
+        <seg>在第三种形式中，将当前分支头(HEAD)设置为&lt;commit&gt;，可选择修改索引和工作树进行匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9017,6 +9153,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Interactively select hunks in the difference between the index and &lt;tree-ish&gt; (defaults to HEAD).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122356Z" creationid="Admin" creationdate="20171024T122356Z">
+        <seg>在索引和 &lt;tree-ish&gt; (默认为 HEAD) 之间的差异中交互选择 hunks。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Internal helper commands</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T093957Z" creationid="Admin" creationdate="20171020T093957Z">
@@ -9037,6 +9181,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T085859Z" creationid="Admin" creationdate="20171020T085859Z">
         <seg>询问命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Interrupted workflow</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123939Z" creationid="Admin" creationdate="20171024T123939Z">
+        <seg>工作流中断</seg>
       </tuv>
     </tu>
     <tu>
@@ -9165,6 +9317,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085136Z" creationid="Admin" creationdate="20171024T085136Z">
         <seg>为了防止异常情况发生，请注意，上述描述中的所有&lt;commit&gt;除了使用".."符号的最后两种形式都可以是任何&lt;tree&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keep changes in working tree while discarding some previous commits</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T124229Z" creationid="Admin" creationdate="20171024T124229Z">
+        <seg>在删除一些以前的提交时，保持工作树中的更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -10185,10 +10345,50 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Reset a single file in the index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T124127Z" creationid="Admin" creationdate="20171024T124127Z">
+        <seg>重置索引中的单个文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reset current HEAD to the specified state</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T075152Z" creationid="Admin" creationdate="20171020T075152Z">
         <seg>将当前 HEAD 重置到指定状态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resets index entries and updates files in the working tree that are different between &lt;commit&gt; and HEAD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123127Z" creationid="Admin" creationdate="20171024T123127Z">
+        <seg>重置索引条目并更新工作树中与&lt;commit&gt;和 HEAD 不同的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resets the index and updates the files in the working tree that are different between &lt;commit&gt; and HEAD, but keeps those which are different between the index and working tree (i.e. which have changes which have not been added).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123041Z" creationid="Admin" creationdate="20171024T123041Z">
+        <seg>重置索引并更新工作树中不同于&lt;commit&gt;和 HEAD 之间的文件，但保留索引和工作树之间不同的文件(即哪些具有尚未添加的更改)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resets the index and working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122951Z" creationid="Admin" creationdate="20171024T122951Z">
+        <seg>重置索引和工作树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resets the index but not the working tree (i.e., the changed files are preserved but not marked for commit) and reports what has not been updated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122931Z" creationid="Admin" creationdate="20171024T122931Z">
+        <seg>重置索引但不重置工作树(即，更改的文件被保留但未标记为提交)，并报告尚未更新的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10681,6 +10881,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See the “Interactive Mode” section of &lt;a2&gt;git-add[1]&lt;/a2&gt; to learn how to operate the &lt;c3&gt;--patch&lt;/c3&gt; mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122442Z" creationid="Admin" creationdate="20171024T122442Z">
+        <seg>请参阅 &lt;a2&gt;git-add[1]&lt;/a2&gt; 的“交互模式”部分，了解如何操作 &lt;c3&gt;--patch&lt;/c3&gt; 模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See “Interactive mode” for details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073826Z" creationid="Admin" creationdate="20171024T073826Z">
@@ -11105,6 +11313,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Split a commit apart into a sequence of commits</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T124242Z" creationid="Admin" creationdate="20171024T124242Z">
+        <seg>将提交分解成一系列提交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Start a new Git repository for an existing code base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060748Z" creationid="Admin" creationdate="20171024T060748Z">
@@ -11441,10 +11657,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;mode&gt; must be one of the following:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122826Z" creationid="Admin" creationdate="20171024T122826Z">
+        <seg>&lt;mode&gt;必须是以下之一：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;name&gt; is expected in the same format as listed by &lt;e0&gt;git config&lt;/e0&gt; (subkeys separated by dots).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T065749Z" creationid="Admin" creationdate="20171020T065749Z">
         <seg>预期 &lt;name&gt; 的格式与 &lt;e0&gt;git config&lt;/e0&gt; (由点分隔的子项)列出的格式相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;tree-ish&gt;/&lt;commit&gt; defaults to HEAD in all forms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122054Z" creationid="Admin" creationdate="20171024T122054Z">
+        <seg>所有形式的&lt;tree-ish&gt;/&lt;commit&gt;默认为 HEAD。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11501,6 +11733,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115323Z" creationid="Admin" creationdate="20171024T115323Z">
         <seg>生成的提交中不包括 &lt;c1&gt;hello.c&lt;/c1&gt; 和 &lt;c2&gt;hello.h&lt;/c2&gt; 的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The chosen hunks are applied in reverse to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122425Z" creationid="Admin" creationdate="20171024T122425Z">
+        <seg>所选的块反向应用到索引。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11753,6 +11993,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The last three commits (HEAD, HEAD^, and HEAD~2) were bad and you do not want to ever see them again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123842Z" creationid="Admin" creationdate="20171024T123842Z">
+        <seg>最后三个提交 (HEAD, HEAD^, 和 HEAD~2) 都不好，你不想再看到它们了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The list below describes some common things you may see in a patch, and which editing operations make sense on them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081227Z" creationid="Admin" creationdate="20171024T081227Z">
@@ -11925,6 +12173,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121457Z" creationid="Admin" creationdate="20171023T121457Z">
         <seg>语法是相当灵活和宽容的;空白大多被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The tables below show what happens when running:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T124848Z" creationid="Admin" creationdate="20171024T124848Z">
+        <seg>下表显示运行时会发生什么：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12305,6 +12561,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This form resets the current branch head to &lt;commit&gt; and possibly updates the index (resetting it to the tree of &lt;commit&gt;) and the working tree depending on &lt;mode&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122819Z" creationid="Admin" creationdate="20171024T122819Z">
+        <seg>该形式将当前分支头重置到 &lt;commit&gt;，并根据 &lt;mode&gt; 可能更新索引(将其重置为 &lt;commit&gt; 树)和工作树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This form resets the index entries for all &lt;paths&gt; to their state at &lt;tree-ish&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122232Z" creationid="Admin" creationdate="20171024T122200Z">
+        <seg>该形式将所有 &lt;paths&gt; 的索引条目重置为其 &lt;tree-ish&gt; 的状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This gives the user a chance to review the difference before adding modified contents to the index.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073904Z" creationid="Admin" creationdate="20171024T073904Z">
@@ -12393,6 +12665,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the default action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122933Z" creationid="Admin" creationdate="20171024T122933Z">
+        <seg>这是默认动作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is the default behavior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114157Z" creationid="Admin" creationdate="20171023T114157Z">
@@ -12465,6 +12745,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This leaves all your changed files "Changes to be committed", as &lt;e0&gt;git status&lt;/e0&gt; would put it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122901Z" creationid="Admin" creationdate="20171024T122901Z">
+        <seg>这将保留所有更改后的文件为"要进行的更改"，如 &lt;e0&gt;git status&lt;/e0&gt; 所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This lets you choose one path out of a &lt;e0&gt;status&lt;/e0&gt; like selection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080349Z" creationid="Admin" creationdate="20171024T080349Z">
@@ -12501,6 +12789,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080039Z" creationid="Admin" creationdate="20171023T080039Z">
         <seg>这可能有助于排除某些与包相关的性能问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that &lt;c0&gt;git reset -p&lt;/c0&gt; is the opposite of &lt;c1&gt;git add -p&lt;/c1&gt;, i.e. you can use it to selectively reset hunks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122434Z" creationid="Admin" creationdate="20171024T122434Z">
+        <seg>这意味着 &lt;c0&gt;git reset -p&lt;/c0&gt; 与 &lt;c1&gt;git add -p&lt;/c1&gt; 相反，即可以使用它来选择性地重置 hunks。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that &lt;c0&gt;git reset &lt;paths&gt;&lt;/c0&gt; is the opposite of &lt;c1&gt;git add &lt;paths&gt;&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122230Z" creationid="Admin" creationdate="20171024T122230Z">
+        <seg>这意味着 &lt;c0&gt;git reset &lt;paths&gt;&lt;/c0&gt; 与 &lt;c1&gt;git add &lt;paths&gt;&lt;/c1&gt; 相反。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12821,6 +13125,54 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084707Z" creationid="Admin" creationdate="20171024T084707Z">
         <seg>通常，您需要与最新的提交进行比较，所以如果不给出&lt;commit&gt;，则默认为 HEAD。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undo a commit and redo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123714Z" creationid="Admin" creationdate="20171024T123714Z">
+        <seg>撤消提交并重做</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undo a commit, making it a topic branch</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123751Z" creationid="Admin" creationdate="20171024T123751Z">
+        <seg>撤销提交，使其成为 topic 分支</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undo a merge or pull</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123916Z" creationid="Admin" creationdate="20171024T123916Z">
+        <seg>撤消合并或拉</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undo a merge or pull inside a dirty working tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123930Z" creationid="Admin" creationdate="20171024T123930Z">
+        <seg>撤消合并或拉在脏的工作树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undo add</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123235Z" creationid="Admin" creationdate="20171024T123235Z">
+        <seg>撤消添加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undo commits permanently</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123804Z" creationid="Admin" creationdate="20171024T123804Z">
+        <seg>永久撤消提交</seg>
       </tuv>
     </tu>
     <tu>
