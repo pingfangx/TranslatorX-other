@@ -84,6 +84,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#_configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082641Z" creationid="Admin" creationdate="20171024T082641Z">
+        <seg>#_configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#_configuration_mechanism</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -116,6 +124,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#_editing_patches</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082720Z" creationid="Admin" creationdate="20171024T082720Z">
+        <seg>#_editing_patches</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#_environment</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120949Z" creationid="Admin" creationdate="20171023T120949Z">
@@ -128,6 +144,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>#_environment_variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#_examples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082643Z" creationid="Admin" creationdate="20171024T082643Z">
+        <seg>#_examples</seg>
       </tuv>
     </tu>
     <tu>
@@ -200,6 +224,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>#_interacting_with_others</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#_interactive_mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082646Z" creationid="Admin" creationdate="20171024T082646Z">
+        <seg>#_interactive_mode</seg>
       </tuv>
     </tu>
     <tu>
@@ -512,6 +544,326 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>#git-HEAD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082639Z" creationid="Admin" creationdate="20171024T082639Z">
+        <seg>#git-add---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082625Z" creationid="Admin" creationdate="20171024T082625Z">
+        <seg>#git-add---all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---chmod-x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082638Z" creationid="Admin" creationdate="20171024T082638Z">
+        <seg>#git-add---chmod-x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---dry-run</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082533Z" creationid="Admin" creationdate="20171024T082533Z">
+        <seg>#git-add---dry-run</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---edit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082619Z" creationid="Admin" creationdate="20171024T082619Z">
+        <seg>#git-add---edit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---force</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082612Z" creationid="Admin" creationdate="20171024T082612Z">
+        <seg>#git-add---force</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---ignore-errors</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082634Z" creationid="Admin" creationdate="20171024T082634Z">
+        <seg>#git-add---ignore-errors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---ignore-missing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082635Z" creationid="Admin" creationdate="20171024T082635Z">
+        <seg>#git-add---ignore-missing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---ignore-removal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082629Z" creationid="Admin" creationdate="20171024T082629Z">
+        <seg>#git-add---ignore-removal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---intent-to-add</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082631Z" creationid="Admin" creationdate="20171024T082631Z">
+        <seg>#git-add---intent-to-add</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---interactive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082614Z" creationid="Admin" creationdate="20171024T082614Z">
+        <seg>#git-add---interactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---no-all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082628Z" creationid="Admin" creationdate="20171024T082628Z">
+        <seg>#git-add---no-all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---no-ignore-removal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082626Z" creationid="Admin" creationdate="20171024T082626Z">
+        <seg>#git-add---no-ignore-removal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---no-warn-embedded-repo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082637Z" creationid="Admin" creationdate="20171024T082637Z">
+        <seg>#git-add---no-warn-embedded-repo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---patch</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082617Z" creationid="Admin" creationdate="20171024T082617Z">
+        <seg>#git-add---patch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---refresh</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082633Z" creationid="Admin" creationdate="20171024T082633Z">
+        <seg>#git-add---refresh</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---update</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082622Z" creationid="Admin" creationdate="20171024T082622Z">
+        <seg>#git-add---update</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add---verbose</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082555Z" creationid="Admin" creationdate="20171024T082555Z">
+        <seg>#git-add---verbose</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add--A</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082624Z" creationid="Admin" creationdate="20171024T082624Z">
+        <seg>#git-add--A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add--N</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082630Z" creationid="Admin" creationdate="20171024T082630Z">
+        <seg>#git-add--N</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add--e</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082618Z" creationid="Admin" creationdate="20171024T082618Z">
+        <seg>#git-add--e</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add--f</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082556Z" creationid="Admin" creationdate="20171024T082556Z">
+        <seg>#git-add--f</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add--i</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082613Z" creationid="Admin" creationdate="20171024T082613Z">
+        <seg>#git-add--i</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add--n</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082532Z" creationid="Admin" creationdate="20171024T082532Z">
+        <seg>#git-add--n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add--p</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082616Z" creationid="Admin" creationdate="20171024T082616Z">
+        <seg>#git-add--p</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add--u</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082621Z" creationid="Admin" creationdate="20171024T082621Z">
+        <seg>#git-add--u</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add--v</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082554Z" creationid="Admin" creationdate="20171024T082554Z">
+        <seg>#git-add--v</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-addedcontent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082722Z" creationid="Admin" creationdate="20171024T082722Z">
+        <seg>#git-add-addedcontent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-adduntracked</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082702Z" creationid="Admin" creationdate="20171024T082702Z">
+        <seg>#git-add-adduntracked</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-diff</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082719Z" creationid="Admin" creationdate="20171024T082719Z">
+        <seg>#git-add-diff</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-ltpathspecgt82308203</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073453Z" creationid="Admin" creationdate="20171024T073453Z">
+        <seg>#git-add-ltpathspecgt82308203</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-modifiedcontent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082724Z" creationid="Admin" creationdate="20171024T082724Z">
+        <seg>#git-add-modifiedcontent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-modifyingexistingcontent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082726Z" creationid="Admin" creationdate="20171024T082726Z">
+        <seg>#git-add-modifyingexistingcontent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-newcontent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082726Z" creationid="Admin" creationdate="20171024T082726Z">
+        <seg>#git-add-newcontent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-patch</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082712Z" creationid="Admin" creationdate="20171024T082712Z">
+        <seg>#git-add-patch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-removedcontent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082723Z" creationid="Admin" creationdate="20171024T082723Z">
+        <seg>#git-add-removedcontent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-removinguntouchedcontent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082725Z" creationid="Admin" creationdate="20171024T082725Z">
+        <seg>#git-add-removinguntouchedcontent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-revert</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082701Z" creationid="Admin" creationdate="20171024T082701Z">
+        <seg>#git-add-revert</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-status</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082651Z" creationid="Admin" creationdate="20171024T082651Z">
+        <seg>#git-add-status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#git-add-update</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082656Z" creationid="Admin" creationdate="20171024T082656Z">
+        <seg>#git-add-update</seg>
       </tuv>
     </tu>
     <tu>
@@ -2752,6 +3104,22 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$ git add Documentation/\*.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082644Z" creationid="Admin" creationdate="20171024T082644Z">
+        <seg>$ git add Documentation/\*.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$ git add git-*.sh</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082645Z" creationid="Admin" creationdate="20171024T082645Z">
+        <seg>$ git add git-*.sh</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$(prefix)/etc/gitconfig</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120455Z" creationid="Admin" creationdate="20171023T120455Z">
@@ -2772,6 +3140,30 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120501Z" creationid="Admin" creationdate="20171023T120501Z">
         <seg>$XDG_CONFIG_HOME/git/config</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>*** Commands ***</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082649Z" creationid="Admin" creationdate="20171024T082649Z">
+        <seg>*** Commands ***</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- print help</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080956Z" creationid="Admin" creationdate="20171024T080956Z">
+        <seg>- 输出帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082640Z" creationid="Admin" creationdate="20171024T082640Z">
+        <seg>--</seg>
       </tuv>
     </tu>
     <tu>
@@ -2840,10 +3232,26 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--chmod=(+|-)x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082737Z" creationid="Admin" creationdate="20171024T082737Z">
+        <seg>--chmod=(+|-)x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--config &lt;key&gt;=&lt;value&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070618Z" creationid="Admin" creationdate="20171024T070618Z">
         <seg>--config &lt;key&gt;=&lt;value&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--dry-run</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082534Z" creationid="Admin" creationdate="20171024T082534Z">
+        <seg>--dry-run</seg>
       </tuv>
     </tu>
     <tu>
@@ -2868,6 +3276,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114240Z" creationid="Admin" creationdate="20171023T114240Z">
         <seg>--file config-file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--force</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082612Z" creationid="Admin" creationdate="20171024T082612Z">
+        <seg>--force</seg>
       </tuv>
     </tu>
     <tu>
@@ -2976,6 +3392,30 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--ignore-errors</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082635Z" creationid="Admin" creationdate="20171024T082635Z">
+        <seg>--ignore-errors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--ignore-missing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082636Z" creationid="Admin" creationdate="20171024T082636Z">
+        <seg>--ignore-missing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--ignore-removal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082630Z" creationid="Admin" creationdate="20171024T082630Z">
+        <seg>--ignore-removal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--info</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T034216Z" creationid="Admin" creationdate="20171024T034216Z">
@@ -2996,6 +3436,22 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114627Z" creationid="Admin" creationdate="20171023T114627Z">
         <seg>--int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--intent-to-add</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082632Z" creationid="Admin" creationdate="20171024T082632Z">
+        <seg>--intent-to-add</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--interactive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082615Z" creationid="Admin" creationdate="20171024T082615Z">
+        <seg>--interactive</seg>
       </tuv>
     </tu>
     <tu>
@@ -3064,6 +3520,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--no-all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082628Z" creationid="Admin" creationdate="20171024T082628Z">
+        <seg>--no-all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--no-checkout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070055Z" creationid="Admin" creationdate="20171024T070055Z">
@@ -3080,6 +3544,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--no-ignore-removal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082627Z" creationid="Admin" creationdate="20171024T082627Z">
+        <seg>--no-ignore-removal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--no-pager</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070856Z" creationid="Admin" creationdate="20171020T070856Z">
@@ -3092,6 +3564,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072750Z" creationid="Admin" creationdate="20171020T072750Z">
         <seg>--no-replace-objects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--no-warn-embedded-repo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082637Z" creationid="Admin" creationdate="20171024T082637Z">
+        <seg>--no-warn-embedded-repo</seg>
       </tuv>
     </tu>
     <tu>
@@ -3128,6 +3608,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--patch</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082618Z" creationid="Admin" creationdate="20171024T082618Z">
+        <seg>--patch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115051Z" creationid="Admin" creationdate="20171023T115051Z">
@@ -3148,6 +3636,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060314Z" creationid="Admin" creationdate="20171024T060314Z">
         <seg>--quiet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>--refresh</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082633Z" creationid="Admin" creationdate="20171024T082633Z">
+        <seg>--refresh</seg>
       </tuv>
     </tu>
     <tu>
@@ -3232,6 +3728,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>--update</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082623Z" creationid="Admin" creationdate="20171024T082623Z">
+        <seg>--update</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>--upload-pack &lt;upload-pack&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070559Z" creationid="Admin" creationdate="20171024T070559Z">
@@ -3272,10 +3776,26 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-A</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082624Z" creationid="Admin" creationdate="20171024T082624Z">
+        <seg>-A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-C &lt;path&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T065126Z" creationid="Admin" creationdate="20171020T065126Z">
         <seg>-C &lt;path&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-N</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082631Z" creationid="Admin" creationdate="20171024T082631Z">
+        <seg>-N</seg>
       </tuv>
     </tu>
     <tu>
@@ -3316,6 +3836,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115858Z" creationid="Admin" creationdate="20171023T115858Z">
         <seg>-e</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-f</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082610Z" creationid="Admin" creationdate="20171024T082610Z">
+        <seg>-f</seg>
       </tuv>
     </tu>
     <tu>
@@ -3400,6 +3928,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-u</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082621Z" creationid="Admin" creationdate="20171024T082621Z">
+        <seg>-u</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-u &lt;upload-pack&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070601Z" creationid="Admin" creationdate="20171024T070601Z">
@@ -3472,6 +4008,32 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1:       binary      nothing foo.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082653Z" creationid="Admin" creationdate="20171024T082653Z">
+        <seg>1:       binary      nothing foo.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1:       binary      nothing foo.png
+* 2:     +403/-35        +1/-1 git-add--interactive.perl</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082659Z" creationid="Admin" creationdate="20171024T082659Z">
+        <seg>1:       binary      nothing foo.png
+* 2:     +403/-35        +1/-1 git-add--interactive.perl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1: status       2: update       3: revert       4: add untracked</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082649Z" creationid="Admin" creationdate="20171024T082649Z">
+        <seg>1: status       2: update       3: revert       4: add untracked</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.1.1 → 2.3.10 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100636Z" creationid="Admin" creationdate="20171023T100636Z">
@@ -3484,6 +4046,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T033931Z" creationid="Admin" creationdate="20171024T033931Z">
         <seg>2.1.1 → 2.9.0 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.10.2 → 2.13.6 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082509Z" creationid="Admin" creationdate="20171024T082509Z">
+        <seg>2.10.2 → 2.13.6 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -3560,10 +4130,26 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.3.1 → 2.3.10 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082528Z" creationid="Admin" creationdate="20171024T082528Z">
+        <seg>2.3.1 → 2.3.10 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.3.1 → 2.6.7 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065443Z" creationid="Admin" creationdate="20171024T065443Z">
         <seg>2.3.1 → 2.6.7 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.4.1 → 2.4.2 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082523Z" creationid="Admin" creationdate="20171024T082523Z">
+        <seg>2.4.1 → 2.4.2 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -3584,10 +4170,26 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.4.4 → 2.7.0 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082518Z" creationid="Admin" creationdate="20171024T082518Z">
+        <seg>2.4.4 → 2.7.0 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.6.1 → 2.7.6 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100618Z" creationid="Admin" creationdate="20171023T100618Z">
         <seg>2.6.1 → 2.7.6 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.7.2 → 2.10.0 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082514Z" creationid="Admin" creationdate="20171024T082514Z">
+        <seg>2.7.2 → 2.10.0 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -3688,6 +4290,22 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2:     +403/-35        +1/-1 git-add--interactive.perl</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082653Z" creationid="Admin" creationdate="20171024T082653Z">
+        <seg>2:     +403/-35        +1/-1 git-add--interactive.perl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5: patch        6: diff         7: quit         8: help</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082650Z" creationid="Admin" creationdate="20171024T082650Z">
+        <seg>5: patch        6: diff         7: quit         8: help</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/s0&gt; &lt;s2&gt;$&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T035411Z" creationid="Admin" creationdate="20171020T035411Z">
@@ -3700,6 +4318,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034232Z" creationid="Admin" creationdate="20171020T034232Z">
         <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git 最后更新于 2.14.2&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-add last updated in 2.14.2&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082445Z" creationid="Admin" creationdate="20171024T082445Z">
+        <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-add 最后更新于 2.14.2&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3732,6 +4358,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T042420Z" creationid="Admin" creationdate="20171024T042420Z">
         <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-init 最后更新于 2.14.2&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;git-status[1]&lt;/a0&gt; &lt;a1&gt;git-rm[1]&lt;/a1&gt; &lt;a2&gt;git-reset[1]&lt;/a2&gt; &lt;a3&gt;git-mv[1]&lt;/a3&gt; &lt;a4&gt;git-commit[1]&lt;/a4&gt; &lt;a5&gt;git-update-index[1]&lt;/a5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082744Z" creationid="Admin" creationdate="20171024T082744Z">
+        <seg>&lt;a0&gt;git-status[1]&lt;/a0&gt; &lt;a1&gt;git-rm[1]&lt;/a1&gt; &lt;a2&gt;git-reset[1]&lt;/a2&gt; &lt;a3&gt;git-mv[1]&lt;/a3&gt; &lt;a4&gt;git-commit[1]&lt;/a4&gt; &lt;a5&gt;git-update-index[1]&lt;/a5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3838,6 +4472,20 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>&lt;commit&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git add&lt;/e0&gt; [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
+	  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]]
+	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing]
+	  [--chmod=(+|-)x] [--] [&lt;pathspec&gt;…​]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082530Z" creationid="Admin" creationdate="20171024T082530Z">
+        <seg>&lt;e0&gt;git add&lt;/e0&gt; [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
+	  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]]
+	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing]
+	  [--chmod=(+|-)x] [--] [&lt;pathspec&gt;…​]</seg>
       </tuv>
     </tu>
     <tu>
@@ -4004,6 +4652,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>&lt;old|new&gt;-mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;pathspec&gt;…​</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073454Z" creationid="Admin" creationdate="20171024T073454Z">
+        <seg>&lt;pathspec&gt;…​</seg>
       </tuv>
     </tu>
     <tu>
@@ -4840,6 +5496,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A sample output looks like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075745Z" creationid="Admin" creationdate="20171024T075745Z">
+        <seg>示例输出如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A scripted Porcelain command can use set_reflog_action helper function in &lt;c0&gt;git-sh-setup&lt;/c0&gt; to set its name to this variable when it is invoked as the top level command by the end user, to be recorded in the body of the reflog.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T081325Z" creationid="Admin" creationdate="20171023T081325Z">
@@ -4912,10 +5576,26 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add modified contents in the working tree interactively to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073808Z" creationid="Admin" creationdate="20171024T073808Z">
+        <seg>将工作树中的修改内容交互地添加到索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add or inspect object notes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074922Z" creationid="Admin" creationdate="20171020T074922Z">
         <seg>添加或检查对象注释</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Added content is represented by lines beginning with "+".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081238Z" creationid="Admin" creationdate="20171024T081238Z">
+        <seg>添加的内容由以"+"开头的行表示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4928,6 +5608,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds content from all &lt;c0&gt;*.txt&lt;/c0&gt; files under &lt;c1&gt;Documentation&lt;/c1&gt; directory and its subdirectories:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074851Z" creationid="Admin" creationdate="20171024T074851Z">
+        <seg>从 &lt;c1&gt;Documentation&lt;/c1&gt; 目录及其子目录中的所有 &lt;c0&gt;*.txt&lt;/c0&gt; 文件中添加内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Administration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024357Z">
@@ -4936,10 +5624,42 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After choosing the path, it presents the diff between the index and the working tree file and asks you if you want to stage the change of each hunk.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080410Z" creationid="Admin" creationdate="20171024T080410Z">
+        <seg>选择路径后，它会显示索引和工作树文件之间的差异，并询问您是否要对每个 hunk 进行更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After deciding the fate for all hunks, if there is any hunk that was chosen, the index is updated with the selected hunks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081019Z" creationid="Admin" creationdate="20171024T081019Z">
+        <seg>在决定所有块的命运之后，如果选择了任何块，索引将随选定的块更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After making the selection, answer with an empty line to stage the contents of working tree files for selected paths in the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080208Z" creationid="Admin" creationdate="20171024T080208Z">
+        <seg>进行选择后，用空行回答，对索引中所选路径的工作树文件的内容进行暂存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After the clone, a plain &lt;c0&gt;git fetch&lt;/c0&gt; without arguments will update all the remote-tracking branches, and a &lt;c1&gt;git pull&lt;/c1&gt; without arguments will in addition merge the remote master branch into the current master branch, if any (this is untrue when "--single-branch" is given; see below).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065139Z" creationid="Admin" creationdate="20171024T065139Z">
         <seg>克隆之后，没有参数的普通 &lt;c0&gt;git fetch&lt;/c0&gt; 将更新所有远程跟踪分支，而没有参数的 &lt;c1&gt;git pull&lt;/c1&gt; 将额外地将远程主分支合并到当前主分支（如果有的话）（当给出 "--single-branch" 时，这是不真实的;见下文）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After the editor was closed, adjust the hunk headers and apply the patch to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073940Z" creationid="Admin" creationdate="20171024T073940Z">
+        <seg>编辑器关闭后，调整 hunk 标题并将补丁应用于索引。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4968,6 +5688,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Allow adding otherwise ignored files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073735Z" creationid="Admin" creationdate="20171024T073735Z">
+        <seg>允许添加其他忽略的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also a leading directory name (e.g. &lt;c1&gt;dir&lt;/c1&gt; to add &lt;c2&gt;dir/file1&lt;/c2&gt; and &lt;c3&gt;dir/file2&lt;/c3&gt;) can be given to update the index to match the current state of the directory as a whole (e.g. specifying &lt;c4&gt;dir&lt;/c4&gt; will record not just a file &lt;c5&gt;dir/file1&lt;/c5&gt; modified in the working tree, a file &lt;c6&gt;dir/file2&lt;/c6&gt; added to the working tree, but also a file &lt;c7&gt;dir/file3&lt;/c7&gt; removed from the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073618Z" creationid="Admin" creationdate="20171024T073618Z">
+        <seg>还可以给出一个以目录开头的名称（例如 &lt;c1&gt;dir&lt;/c1&gt; 来添加 &lt;c2&gt;dir/file1&lt;/c2&gt; 和 &lt;c3&gt;dir/file2&lt;/c3&gt; ）来更新索引以匹配当前目录作为一个整体的状态（例如指定 &lt;c4&gt;dir&lt;/c4&gt; 将不仅记录在工作树中修改的文件 &lt;c5&gt;dir/file1&lt;/c5&gt; ，文件 &lt;c6&gt;dir/file2&lt;/c6&gt; 添加到工作树中，还从工作树中删除了一个文件 &lt;c7&gt;dir/file3&lt;/c7&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Also called "global" configuration file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120615Z" creationid="Admin" creationdate="20171023T120615Z">
@@ -4980,6 +5716,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070300Z" creationid="Admin" creationdate="20171024T070300Z">
         <seg>远端的分支头也直接复制到相应的本地分支头，而不将它们映射到 &lt;c6&gt;refs/remotes/origin/&lt;/c6&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also you can say ranges.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080033Z" creationid="Admin" creationdate="20171024T080033Z">
+        <seg>你也可以说范围。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5004,6 +5748,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T091518Z" creationid="Admin" creationdate="20171020T091518Z">
         <seg>虽然 Git 包含自己的高层命令，但其低级命令足以支持替代高级命令的开发。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An entry for the path is placed in the index with no content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074435Z" creationid="Admin" creationdate="20171024T074435Z">
+        <seg>路径的条目被放置在没有内容的索引中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5104,6 +5856,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Avoid using these constructs, or do so with extreme caution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082054Z" creationid="Admin" creationdate="20171024T082054Z">
+        <seg>避免使用这些结构，否则要非常小心。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Backend for fast Git data importers</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T085627Z" creationid="Admin" creationdate="20171020T085627Z">
@@ -5116,6 +5876,30 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024154Z">
         <seg>快照基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be verbose.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073722Z" creationid="Admin" creationdate="20171024T073722Z">
+        <seg>详细。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because this example lets the shell expand the asterisk (i.e. you are listing the files explicitly), it does not consider &lt;c0&gt;subdir/git-foo.sh&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075454Z" creationid="Admin" creationdate="20171024T075454Z">
+        <seg>因为这个例子让 shell 扩展星号(即你明确列出文件)，所以它不考虑 &lt;c0&gt;subdir/git-foo.sh&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beware that modifying only half of the pair is likely to introduce confusing changes to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081943Z" creationid="Admin" creationdate="20171024T081943Z">
+        <seg>请注意，仅修改该对的一半可能会对索引引入混乱的更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5192,6 +5976,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But beware that because the patch is applied only to the index and not the working tree, the working tree will appear to "undo" the change in the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082007Z" creationid="Admin" creationdate="20171024T082007Z">
+        <seg>但是要注意，因为修补程序仅应用于索引而不是工作树，所以工作树将显示为"撤消"索引中的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default index file version 2 or 3 is used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070820Z" creationid="Admin" creationdate="20171023T070820Z">
@@ -5208,6 +6000,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, &lt;c0&gt;git add&lt;/c0&gt; will warn when adding an embedded repository to the index without using &lt;c1&gt;git submodule add&lt;/c1&gt; to create an entry in &lt;c2&gt;.gitmodules&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074559Z" creationid="Admin" creationdate="20171024T074559Z">
+        <seg>默认情况下，在向索引添加嵌入式仓库时，将不会使用 &lt;c1&gt;git submodule add&lt;/c1&gt; 在 &lt;c2&gt;.gitmodules&lt;/c2&gt; 中创建一个条目时，将会警告 &lt;c0&gt;git add&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By using this option the user can check if any of the given files would be ignored, no matter if they are already present in the work tree or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074543Z" creationid="Admin" creationdate="20171024T074543Z">
+        <seg>通过使用此选项，用户可以检查任何给定的文件是否被忽略，无论它们是否已经存在于工作树中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CONFIGURATION FILE</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121216Z" creationid="Admin" creationdate="20171023T121216Z">
@@ -5220,6 +6028,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T041022Z" creationid="Admin" creationdate="20171024T041022Z">
         <seg>配置变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes in the &lt;s0&gt;git-add&lt;/s0&gt; manual</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082455Z" creationid="Admin" creationdate="20171024T082455Z">
+        <seg>&lt;s0&gt;git-add&lt;/s0&gt; 手册中的更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -5409,10 +6225,34 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074747Z" creationid="Admin" creationdate="20171024T074747Z">
+        <seg>配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration Mechanism</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T065057Z" creationid="Admin" creationdate="20171023T065057Z">
         <seg>配置机制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Considers adding content from all git-*.sh scripts:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075419Z" creationid="Admin" creationdate="20171024T075419Z">
+        <seg>考虑从所有 git-*.sh 脚本添加内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Content which does not differ between the index and working tree may be shown on context lines, beginning with a " " (space).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082130Z" creationid="Admin" creationdate="20171024T082130Z">
+        <seg>在索引和工作树之间没有不同的内容可以在上下文行中显示，从 " " (空格)开始。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5729,6 +6569,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Don’t actually add the file(s), just show if they exist and/or will be ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082553Z" creationid="Admin" creationdate="20171024T073710Z">
+        <seg>不要实际上添加文件，只显示它们是否存在和/或将被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don’t add the file(s), but only refresh their stat() information in the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074500Z" creationid="Admin" creationdate="20171024T074500Z">
+        <seg>不要添加文件，而只能在索引中刷新其 stat() 信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Download from a remote Git repository via HTTP</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T093259Z" creationid="Admin" creationdate="20171020T093259Z">
@@ -5761,6 +6617,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>E.g. "2-5 7,9" to choose 2,3,4,5,7,9 from the list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080045Z" creationid="Admin" creationdate="20171024T080045Z">
+        <seg>例如， "2-5 7,9"从列表中选择2,3,4,5,7,9。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>E.g. "7-" to choose 7,8,9 from the list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080100Z" creationid="Admin" creationdate="20171024T080100Z">
+        <seg>例如。 "7-"从列表中选择7,8,9。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>E.g. you can use &lt;e1&gt;master:.gitmodules&lt;/e1&gt; to read values from the file &lt;e2&gt;.gitmodules&lt;/e2&gt; in the master branch.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114502Z" creationid="Admin" creationdate="20171023T114502Z">
@@ -5777,6 +6649,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
         <seg>如，值
 `"path-with-\"-and-:-in-it":vanilla-path` 有 2 个路径：
 `path-with-"-and-:-in-it` 和 `vanilla-path`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>EDITING PATCHES</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081047Z" creationid="Admin" creationdate="20171024T081047Z">
+        <seg>编辑补丁</seg>
       </tuv>
     </tu>
     <tu>
@@ -6017,6 +6897,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fileglobs (e.g. &lt;c0&gt;*.c&lt;/c0&gt;) can be given to add all matching files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073517Z" creationid="Admin" creationdate="20171024T073517Z">
+        <seg>可以给出 Fileglobs(例如 &lt;c0&gt;*.c&lt;/c0&gt; )来添加所有匹配的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Files to add content from.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073459Z" creationid="Admin" creationdate="20171024T073459Z">
+        <seg>要添加内容的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Find as good common ancestors as possible for a merge</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092503Z" creationid="Admin" creationdate="20171020T092503Z">
@@ -6125,6 +7021,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T065628Z" creationid="Admin" creationdate="20171020T065628Z">
         <seg>例如，以下调用是等效的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, introducing a new line into the index that is in neither the HEAD nor the working tree will stage the new line for commit, but the line will appear to be reverted in the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082047Z" creationid="Admin" creationdate="20171024T082047Z">
+        <seg>例如，将新行引入到既不在 HEAD 中也不在工作树中的索引中，将为新的行提交提交，但该行将在工作树中显示为还原。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6665,6 +7569,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-add Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T072629Z" creationid="Admin" creationdate="20171024T072629Z">
+        <seg>Git - git-add 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-clone Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T062354Z" creationid="Admin" creationdate="20171024T062354Z">
@@ -6873,6 +7785,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, it is easy to confuse oneself and create a patch that does not apply to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074013Z" creationid="Admin" creationdate="20171024T074013Z">
+        <seg>但是，很容易混淆自己，并创建一个不适用于索引的补丁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IE=edge,chrome=1</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -6937,6 +7857,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If any ignored files were explicitly specified on the command line, &lt;c1&gt;git add&lt;/c1&gt; will fail with a list of ignored files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073310Z" creationid="Admin" creationdate="20171024T073310Z">
+        <seg>如果在命令行上明确指定了任何被忽略的文件，那么 &lt;c1&gt;git add&lt;/c1&gt; 将会失败并列出被忽略的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If either of these environment variables is set then &lt;e0&gt;git fetch&lt;/e0&gt; and &lt;e1&gt;git push&lt;/e1&gt; will use the specified command instead of &lt;e2&gt;ssh&lt;/e2&gt; when they need to connect to a remote system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074225Z" creationid="Admin" creationdate="20171023T074225Z">
@@ -6949,6 +7877,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074113Z" creationid="Admin" creationdate="20171023T074113Z">
         <seg>如果设置为空字符串或值"cat"，Git 将不会启动 pager。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no &lt;pathspec&gt; is given when &lt;c0&gt;-A&lt;/c0&gt; option is used, all files in the entire working tree are updated (old versions of Git used to limit the update to the current directory and its subdirectories).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074233Z" creationid="Admin" creationdate="20171024T074233Z">
+        <seg>如果在使用 &lt;c0&gt;-A&lt;/c0&gt; 选项时未指定&lt;pathspec&gt;，则会更新整个工作树中的所有文件(旧版本的 Git 用于限制更新到当前目录及其子目录)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no &lt;pathspec&gt; is given when &lt;c0&gt;-u&lt;/c0&gt; option is used, all tracked files in the entire working tree are updated (old versions of Git used to limit the update to the current directory and its subdirectories).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074120Z" creationid="Admin" creationdate="20171024T074120Z">
+        <seg>如果在使用 &lt;c0&gt;-u&lt;/c0&gt; 选项时未指定&lt;pathspec&gt;，则会更新整个工作树中的所有跟踪文件(用于限制更新到当前目录及其子目录的 Git 旧版本)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7021,6 +7965,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T072058Z" creationid="Admin" creationdate="20171023T072058Z">
         <seg>如果设置，它是 Git 在查找仓库目录时不应该进入的目录列表(用于排除缓慢加载的网络目录)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If some files could not be added because of errors indexing them, do not abort the operation, but continue adding the others.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074510Z" creationid="Admin" creationdate="20171024T074510Z">
+        <seg>如果某些文件因为索引错误而无法添加，则不要中止操作，而是继续添加其他文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7129,6 +8081,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the second number in a range is omitted, all remaining patches are taken.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080055Z" creationid="Admin" creationdate="20171024T080055Z">
+        <seg>如果省略了范围中的第二个数字，则将采取所有剩余的补丁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the variable is set to an integer value greater than 2 and lower than 10 (strictly) then Git will interpret this value as an open file descriptor and will try to write the trace messages into this file descriptor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T075940Z" creationid="Admin" creationdate="20171023T075940Z">
@@ -7209,6 +8169,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to abort the operation entirely (i.e., stage nothing new in the index), simply delete all lines of the patch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081215Z" creationid="Admin" creationdate="20171024T081215Z">
+        <seg>如果要完全中止操作(即索引中没有新功能)，只需删除补丁的所有行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to clone submodules shallowly, also pass &lt;c3&gt;--shallow-submodules&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070832Z" creationid="Admin" creationdate="20171024T070832Z">
@@ -7229,6 +8197,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102938Z" creationid="Admin" creationdate="20171023T102938Z">
         <seg>如果要更新或取消设置可能出现多行的选项，则需要给出 POSIX 正则表达式 &lt;c1&gt;value_regex&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ignored files reached by directory recursion or filename globbing performed by Git (quote your globs before the shell) will be silently ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073325Z" creationid="Admin" creationdate="20171024T073325Z">
+        <seg>由 Git(在 shell 之前引用 globs)执行的目录递归或文件名 globbing 所达到的忽略文件将被忽略。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7273,10 +8249,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In all cases, the new modification will appear reverted in the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082314Z" creationid="Admin" creationdate="20171024T082314Z">
+        <seg>在所有情况下，新修改将在工作树中显示为还原。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In general, the interrogate commands do not touch the files in the working tree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092929Z" creationid="Admin" creationdate="20171020T092929Z">
         <seg>一般来说，询问命令不会触及工作树中的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, when the prompt ends with a single &lt;e0&gt;&gt;&lt;/e0&gt;, you can pick only one of the choices given and type return, like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075557Z" creationid="Admin" creationdate="20171024T075557Z">
+        <seg>通常，当提示以单个 &lt;e0&gt;&gt;&lt;/e0&gt; 结尾时，您只能选择一个给定的选项并键入 return，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7409,6 +8401,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Interactive mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075504Z" creationid="Admin" creationdate="20171024T075504Z">
+        <seg>交互模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Interactively choose hunks of patch between the index and the work tree and add them to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073856Z" creationid="Admin" creationdate="20171024T073856Z">
+        <seg>在索引和工作树之间交互选择补丁，并将它们添加到索引中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Internal helper commands</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T093957Z" creationid="Admin" creationdate="20171020T093957Z">
@@ -7429,6 +8437,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T085859Z" creationid="Admin" creationdate="20171020T085859Z">
         <seg>询问命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Invoking &lt;c0&gt;git add -e&lt;/c0&gt; or selecting &lt;c1&gt;e&lt;/c1&gt; from the interactive hunk selector will open a patch in your editor; after the editor exits, the result is applied to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081155Z" creationid="Admin" creationdate="20171024T081155Z">
+        <seg>调用 &lt;c0&gt;git add -e&lt;/c0&gt; 或从交互式 hunk 选择器中选择 &lt;c1&gt;e&lt;/c1&gt; 将在编辑器中打开一个补丁;编辑器退出后，结果将应用于索引。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7461,6 +8477,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074148Z" creationid="Admin" creationdate="20171023T074148Z">
         <seg>当在交互模式下，编辑器将被启动时，它被几个 Git 命令使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It only adds the content of the specified file(s) at the time the add command is run; if you want subsequent changes included in the next commit, then you must run &lt;c0&gt;git add&lt;/c0&gt; again to add the new content to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073151Z" creationid="Admin" creationdate="20171024T073151Z">
+        <seg>它只在运行 add 命令时添加指定文件的内容;如果要下次提交中包含的后续更改，则必须再次运行 &lt;c0&gt;git add&lt;/c0&gt; 以将新内容添加到索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It shows that foo.png has differences from HEAD (but that is binary so line count cannot be shown) and there is no difference between indexed copy and the working tree version (if the working tree version were also different, &lt;e0&gt;binary&lt;/e0&gt; would have been shown in place of &lt;e1&gt;nothing&lt;/e1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075836Z" creationid="Admin" creationdate="20171024T075836Z">
+        <seg>它显示 foo.png 与 HEAD 有差异(但是二进制，因此不能显示行数)，并且索引副本和工作树版本之间没有差异(如果工作树版本也不同，&lt;e0&gt; binary &lt;/e0&gt;将被显示代替 &lt;e1&gt;nothing&lt;/e1&gt; )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It typically adds the current content of existing paths as a whole, but with some options it can also be used to add content with only part of the changes made to the working tree files applied, or remove paths that do not exist in the working tree anymore.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073048Z" creationid="Admin" creationdate="20171024T073048Z">
+        <seg>它通常将现有路径的当前内容作为一个整体添加，但是通过一些选项，它也可以用于仅添加对应用的工作树文件所做更改的一部分内容，或移除工作树中不存在的路径了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7649,6 +8689,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Modified content is represented by "-" lines (removing the old content) followed by "+" lines (adding the replacement content).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081921Z" creationid="Admin" creationdate="20171024T081921Z">
+        <seg>修改内容由“-”行(删除旧内容)后跟“+”行(添加替换内容)表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More detail on the following is available from the &lt;a0&gt;Git concepts chapter of the user-manual&lt;/a0&gt; and &lt;a1&gt;gitcore-tutorial[7]&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T082553Z" creationid="Admin" creationdate="20171023T082553Z">
@@ -7737,10 +8785,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that older versions of Git used to ignore removed files; use &lt;c8&gt;--no-all&lt;/c8&gt; option if you want to add modified or new files but ignore removed ones.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073640Z" creationid="Admin" creationdate="20171024T073640Z">
+        <seg>请注意，旧版本的 Git 用于忽略删除的文件;如果要添加修改或新文件但忽略删除的文件，请使用 &lt;c8&gt;--no-all&lt;/c8&gt; 选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that omitting the &lt;c0&gt;=&lt;/c0&gt; in &lt;c1&gt;git -c foo.bar ...&lt;/c1&gt; is allowed and sets &lt;c2&gt;foo.bar&lt;/c2&gt; to the boolean true value (just like &lt;c3&gt;[foo]bar&lt;/c3&gt; would in a config file).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T065911Z" creationid="Admin" creationdate="20171020T065911Z">
         <seg>请注意，省略 &lt;c1&gt;git -c foo.bar ...&lt;/c1&gt; 中的 &lt;c0&gt;=&lt;/c0&gt; 是允许的，并将 &lt;c2&gt;foo.bar&lt;/c2&gt; 设置为布尔值 true （就像 &lt;c3&gt;[foo]bar&lt;/c3&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that the asterisk &lt;c0&gt;*&lt;/c0&gt; is quoted from the shell in this example; this lets the command include the files from subdirectories of &lt;c1&gt;Documentation/&lt;/c1&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075353Z" creationid="Admin" creationdate="20171024T074944Z">
+        <seg>请注意，本示例中的 shell 星号 &lt;c0&gt;*&lt;/c0&gt; 是引用的，这允许命令包含来自 &lt;c1&gt;Documentation/&lt;/c1&gt; 目录的子目录的文件。（译注 * 将只匹配目录下的文件，\* 会包括子目录）</seg>
       </tuv>
     </tu>
     <tu>
@@ -7793,6 +8857,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One can also modify context lines by staging them for removal (by converting " " to "-") and adding a "+" line with the new content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082234Z" creationid="Admin" creationdate="20171024T082234Z">
+        <seg>还可以通过转移上下文行来进行删除(通过将" " 转为 "-")并在新内容中添加“+”行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One use is to give submodules context about the superproject that invoked it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072640Z" creationid="Admin" creationdate="20171020T072640Z">
@@ -7825,6 +8897,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open the diff vs. the index in an editor and let the user edit it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073933Z" creationid="Admin" creationdate="20171024T073933Z">
+        <seg>在编辑器中打开 diff 与索引，让用户编辑它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Opens an editor to modify the specified config file; either &lt;c0&gt;--system&lt;/c0&gt;, &lt;c1&gt;--global&lt;/c1&gt;, or repository (default).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115924Z" creationid="Admin" creationdate="20171023T115924Z">
@@ -7837,6 +8917,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065943Z" creationid="Admin" creationdate="20171024T065943Z">
         <seg>安静地操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optional path arguments may be supplied to limit operation to a subset of the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073820Z" creationid="Admin" creationdate="20171024T073820Z">
+        <seg>可以提供可选路径参数，以将操作限制到工作树的子集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7869,6 +8957,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115540Z" creationid="Admin" creationdate="20171023T115540Z">
         <seg>仅输出配置变量名称为 &lt;c0&gt;--list&lt;/c0&gt; 或 &lt;c1&gt;--get-regexp&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Override the executable bit of the added files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074611Z" creationid="Admin" creationdate="20171024T074611Z">
+        <seg>覆盖添加文件的可执行位。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7937,6 +9033,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Patterns in the exclude file are used in addition to those in info/exclude.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074833Z" creationid="Admin" creationdate="20171024T074833Z">
+        <seg>除了  info/exclude 中的模式外，还使用排除文件中的模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pick out and massage parameters</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090528Z" creationid="Admin" creationdate="20171020T090528Z">
@@ -7957,6 +9061,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T075226Z" creationid="Admin" creationdate="20171023T075226Z">
         <seg>请参阅您的 ssh 文档以获取更多详细信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please see &lt;a0&gt;git-commit[1]&lt;/a0&gt; for alternative ways to add content to a commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073408Z" creationid="Admin" creationdate="20171024T073408Z">
+        <seg>请参阅 &lt;a0&gt;git-commit[1]&lt;/a0&gt; ，以了解添加要提交内容的其他方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8177,6 +9289,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Record only the fact that the path will be added later.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074430Z" creationid="Admin" creationdate="20171024T074430Z">
+        <seg>只记录路径将被添加的事实。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Record the pristine state as the first commit in the history.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060815Z" creationid="Admin" creationdate="20171024T060815Z">
@@ -8273,6 +9393,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Removed content is represented by lines beginning with "-".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081318Z" creationid="Admin" creationdate="20171024T081318Z">
+        <seg>已移除的内容由以"-"开头的行表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rename the given section to a new name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114519Z" creationid="Admin" creationdate="20171023T114519Z">
@@ -8365,6 +9493,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T075157Z" creationid="Admin" creationdate="20171020T075157Z">
         <seg>恢复一些现有的提交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reverting new paths makes them untracked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080233Z" creationid="Admin" creationdate="20171024T080233Z">
+        <seg>恢复新的路径使它们未被追踪。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8593,6 +9729,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;gitignore[5]&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074836Z" creationid="Admin" creationdate="20171024T074836Z">
+        <seg>参见 &lt;a1&gt;gitignore[5]&lt;/a1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a4&gt;git-web{litdd}browse[1]&lt;/a4&gt; for more information about this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T041018Z" creationid="Admin" creationdate="20171024T041018Z">
@@ -8621,6 +9765,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080359Z" creationid="Admin" creationdate="20171023T080359Z">
         <seg>有关可用的跟踪输出选项，请参见 &lt;c2&gt;GIT_TRACE&lt;/c2&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See EDITING PATCHES below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074029Z" creationid="Admin" creationdate="20171024T074029Z">
+        <seg>见下面的编辑补丁。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8677,6 +9829,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084444Z" creationid="Admin" creationdate="20171023T084444Z">
         <seg>请参阅"说明"部分中的引用来开始使用 Git 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See “Interactive mode” for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073826Z" creationid="Admin" creationdate="20171024T073826Z">
+        <seg>详情请参阅“交互模式”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8961,6 +10121,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similarly, one can modify "+" lines for existing additions or modifications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082244Z" creationid="Admin" creationdate="20171024T082244Z">
+        <seg>类似地，可以修改现有添加或修改的"+"行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Simple UNIX mbox splitter program</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094208Z" creationid="Admin" creationdate="20171020T094208Z">
@@ -9129,6 +10297,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The "index" holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the contents of the next commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073103Z" creationid="Admin" creationdate="20171024T073103Z">
+        <seg>"index"保存工作树内容的快照，并将该快照作为下一个提交的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The .git directory contains, among other things, a compressed object database representing the complete history of the project, an "index" file which links that history to the current contents of the working tree, and named pointers into that history such as tags and branch heads.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T082848Z" creationid="Admin" creationdate="20171023T082848Z">
@@ -9165,6 +10341,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121235Z" creationid="Admin" creationdate="20171023T121235Z">
         <seg>每个存储库中的 &lt;c0&gt;.git/config&lt;/c0&gt; 文件用于存储该存储库的配置，并且 &lt;c1&gt;$HOME/.gitconfig&lt;/c1&gt; 用于将每个用户配置存储为备用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;git add&lt;/c0&gt; command will not add ignored files by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073258Z" creationid="Admin" creationdate="20171024T073258Z">
+        <seg>默认情况下， &lt;c0&gt;git add&lt;/c0&gt; 命令不会添加忽略的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;git status&lt;/c0&gt; command can be used to obtain a summary of which files have changes that are staged for the next commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073251Z" creationid="Admin" creationdate="20171024T073251Z">
+        <seg>可以使用 &lt;c0&gt;git status&lt;/c0&gt; 命令来获取有关哪些文件暂存用于下一次提交的摘要。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9217,6 +10409,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;e2&gt;git add&lt;/e2&gt; command can be used to add ignored files with the &lt;c3&gt;-f&lt;/c3&gt; (force) option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073333Z" creationid="Admin" creationdate="20171024T073333Z">
+        <seg>&lt;e2&gt;git add&lt;/e2&gt; 命令可用于使用 &lt;c3&gt;-f&lt;/c3&gt; (强制)选项添加忽略的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;name&gt; is expected in the same format as listed by &lt;e0&gt;git config&lt;/e0&gt; (subkeys separated by dots).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T065749Z" creationid="Admin" creationdate="20171020T065749Z">
@@ -9249,6 +10449,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The addition will appear reverted in the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082347Z" creationid="Admin" creationdate="20171024T082347Z">
+        <seg>该添加将在工作树中显示为还原。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The attributes (last modified time, size, etc.) are taken from the corresponding file in the working tree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083844Z" creationid="Admin" creationdate="20171023T083844Z">
@@ -9261,6 +10469,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083831Z" creationid="Admin" creationdate="20171023T083831Z">
         <seg>blob 对象表示当前分支头部的文件内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command loop shows the list of subcommands available, and gives a prompt "What now&gt; ".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075524Z" creationid="Admin" creationdate="20171024T075524Z">
+        <seg>命令循环显示可用的子命令列表，并提示"What now&gt;"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command shall still exit with non-zero status.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074516Z" creationid="Admin" creationdate="20171024T074516Z">
+        <seg>命令仍然以非零状态退出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9281,6 +10505,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The configuration variable &lt;c0&gt;add.ignoreErrors&lt;/c0&gt; can be set to true to make this the default behaviour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074522Z" creationid="Admin" creationdate="20171024T074522Z">
+        <seg>可以将配置变量 &lt;c0&gt;add.ignoreErrors&lt;/c0&gt; 设置为 true，使其成为默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The configuration variables are used by both the Git plumbing and the porcelains.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121310Z" creationid="Admin" creationdate="20171023T121310Z">
@@ -9293,6 +10525,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083447Z" creationid="Admin" creationdate="20171023T083447Z">
         <seg>整个历史上一些重要的提交可以签名那个提交来表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The executable bit is only changed in the index, the files on disk are left unchanged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074624Z" creationid="Admin" creationdate="20171024T074624Z">
+        <seg>可执行位只在索引中更改，磁盘上的文件保持不变。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9377,6 +10617,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The intent of this option is to pick and choose lines of the patch to apply, or even to modify the contents of lines to be staged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074000Z" creationid="Admin" creationdate="20171024T074000Z">
+        <seg>此选项的目的是选择并选择要应用的补丁行，或者甚至修改要暂存的行的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The interface (input, output, set of options and the semantics) to these low-level commands are meant to be a lot more stable than Porcelain level commands, because these commands are primarily for scripted use.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T091653Z" creationid="Admin" creationdate="20171020T091653Z">
@@ -9397,6 +10645,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084758Z" creationid="Admin" creationdate="20171023T084758Z">
         <seg>内部文档记录在&lt;a0&gt; Git API 文档&lt;/a0&gt;中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The list below describes some common things you may see in a patch, and which editing operations make sense on them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081227Z" creationid="Admin" creationdate="20171024T081227Z">
+        <seg>下面的列表介绍了您可能在补丁中看到的一些常见问题，哪些编辑操作对它们有意义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The main command loop has 6 subcommands (plus help and quit).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075655Z" creationid="Admin" creationdate="20171024T075655Z">
+        <seg>主命令循环有6个子命令(加上帮助和退出)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9433,6 +10697,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The optional configuration variable &lt;c0&gt;core.excludesFile&lt;/c0&gt; indicates a path to a file containing patterns of file names to exclude from git-add, similar to $GIT_DIR/info/exclude.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074813Z" creationid="Admin" creationdate="20171024T074813Z">
+        <seg>可选配置变量 &lt;c0&gt;core.excludesFile&lt;/c0&gt; 表示包含要从 git-add 中排除的文件名模式的文件的路径，类似于 $GIT_DIR/info/exclude 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The other file, git-add{litdd}interactive.perl, has 403 lines added and 35 lines deleted if you commit what is in the index, but working tree file has further modifications (one addition and one deletion).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075930Z" creationid="Admin" creationdate="20171024T075930Z">
+        <seg>另一个文件，git-add{litdd}interactive.perl，如果提交了索引，则添加了403行，删除了35行，但是工作树文件进一步修改(一次添加和一次删除)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The primary reason for rerunning &lt;e1&gt;git init&lt;/e1&gt; is to pick up newly added templates (or to move the repository to another place if --separate-git-dir is given).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T043123Z" creationid="Admin" creationdate="20171024T043123Z">
@@ -9445,6 +10725,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065807Z" creationid="Admin" creationdate="20171024T065807Z">
         <seg>生成的仓库开始没有任何自己的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The resulting working tree file will appear to re-add the content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082148Z" creationid="Admin" creationdate="20171024T082148Z">
+        <seg>生成的工作树文件将显示为重新添加内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9537,6 +10825,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are also more complex operations that can be performed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081949Z" creationid="Admin" creationdate="20171024T081949Z">
+        <seg>还可以执行更复杂的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are also several operations which should be avoided entirely, as they will make the patch impossible to apply:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082359Z" creationid="Admin" creationdate="20171024T082359Z">
+        <seg>还有几个操作应该完全避免，因为它们会使补丁变得不可行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These are internal helper commands used by other commands; end users typically do not use them directly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094033Z" creationid="Admin" creationdate="20171020T094033Z">
@@ -9573,6 +10877,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085208Z">
         <seg>该 &lt;a0&gt;开源&lt;/a0&gt; 网站 &lt;a1&gt;在 GitHub 拖管。&lt;/a1&gt;&lt;br2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This adds, modifies, and removes index entries to match the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074215Z" creationid="Admin" creationdate="20171024T074215Z">
+        <seg>这将添加，修改和删除索引条目以匹配工作树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9617,6 +10929,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be quicker and more flexible than using the interactive hunk selector.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074005Z" creationid="Admin" creationdate="20171024T074005Z">
+        <seg>这可以比使用交互式 hunk 选择器更快更灵活。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can help with debugging object negotiation or other protocol issues.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080106Z" creationid="Admin" creationdate="20171023T080106Z">
@@ -9625,10 +10945,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This command can be performed multiple times before a commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073123Z" creationid="Admin" creationdate="20171024T073123Z">
+        <seg>该命令可以在提交之前多次执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This command creates an empty Git repository - basically a &lt;c0&gt;.git&lt;/c0&gt; directory with subdirectories for &lt;c1&gt;objects&lt;/c1&gt;, &lt;c2&gt;refs/heads&lt;/c2&gt;, &lt;c3&gt;refs/tags&lt;/c3&gt;, and template files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T043020Z" creationid="Admin" creationdate="20171024T043020Z">
         <seg>此命令创建一个空的 Git 仓库 - 基本上是一个 &lt;c0&gt;.git&lt;/c0&gt; 目录，其目录包含 &lt;c1&gt;objects&lt;/c1&gt; ， &lt;c2&gt;refs/heads&lt;/c2&gt; ，&lt;c3&gt;refs/tags &lt;/c3&gt;和模板文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T072902Z" creationid="Admin" creationdate="20171024T072902Z">
+        <seg>此命令使用工作树中找到的当前内容更新索引，以为下一次提交准备暂存的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9645,6 +10981,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065242Z" creationid="Admin" creationdate="20171024T065242Z">
         <seg>默认配置的实现通过在 &lt;c0&gt;refs/remotes/origin&lt;/c0&gt; 下创建对远程分支头的引用，并通过初始化 &lt;c1&gt;remote.origin.url&lt;/c1&gt; 和 &lt;c2&gt;remote.origin.fetch&lt;/c2&gt; 配置变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This effectively runs &lt;c0&gt;add --interactive&lt;/c0&gt;, but bypasses the initial command menu and directly jumps to the &lt;c1&gt;patch&lt;/c1&gt; subcommand.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073918Z" creationid="Admin" creationdate="20171024T073918Z">
+        <seg>这有效地运行 &lt;c0&gt;add --interactive&lt;/c0&gt; ，但绕过初始命令菜单，直接跳转到 &lt;c1&gt;patch&lt;/c1&gt; 子命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9701,6 +11045,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070053Z" creationid="Admin" creationdate="20171024T070053Z">
         <seg>即使标准错误流未指向终端，该标志也强制进行状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This gives the user a chance to review the difference before adding modified contents to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073904Z" creationid="Admin" creationdate="20171024T073904Z">
+        <seg>这样可以让用户在将修改后的内容添加到索引之前查看差异。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This has a very similar UI to &lt;e0&gt;update&lt;/e0&gt; and &lt;e1&gt;revert&lt;/e1&gt;, and lets you add untracked paths to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080244Z" creationid="Admin" creationdate="20171024T080244Z">
+        <seg>这与 &lt;e0&gt;update&lt;/e0&gt; 和 &lt;e1&gt;revert&lt;/e1&gt; 具有非常相似的界面，并允许您将未追溯路径添加到索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This has a very similar UI to &lt;e0&gt;update&lt;/e0&gt;, and the staged information for selected paths are reverted to that of the HEAD version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080225Z" creationid="Admin" creationdate="20171024T080225Z">
+        <seg>这与 &lt;e0&gt;update&lt;/e0&gt; 具有非常相似的界面，所选路径的暂存信息将恢复为 HEAD 版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9769,10 +11137,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is useful for, among other things, showing the unstaged content of such files with &lt;c0&gt;git diff&lt;/c0&gt; and committing them with &lt;c1&gt;git commit -a&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074446Z" creationid="Admin" creationdate="20171024T074446Z">
+        <seg>这对于使用 &lt;c0&gt;git diff&lt;/c0&gt; 显示这些文件的未分页内容以及使用 &lt;c1&gt;git commit -a&lt;/c1&gt; 提交它们非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is useful to restrict recursive submodule initialization from an untrusted repository or for programs which feed potentially-untrusted URLS to git commands.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T082353Z" creationid="Admin" creationdate="20171023T082353Z">
         <seg>这对从不受信任的仓库或将可能不受信任的 URLS 提供给 git 命令的程序来限制递归子模块初始化是有用的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This lets you choose one path out of a &lt;e0&gt;status&lt;/e0&gt; like selection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080349Z" creationid="Admin" creationdate="20171024T080349Z">
+        <seg>这允许您从一个 &lt;e0&gt;status&lt;/e0&gt; 中像选择一样选择一个补丁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This lets you review what will be committed (i.e. between HEAD and index).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081040Z" creationid="Admin" creationdate="20171024T081040Z">
+        <seg>这可以让您查看将要提交的内容(即 HEAD 和索引之间)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9825,10 +11217,42 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This option can be used to separate command-line options from the list of files, (useful when filenames might be mistaken for command-line options).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074648Z" creationid="Admin" creationdate="20171024T074648Z">
+        <seg>该选项可用于从文件列表中分离命令行选项(当文件名可能被误认为是命令行选项时很有用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option can only be used together with --dry-run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074532Z" creationid="Admin" creationdate="20171024T074532Z">
+        <seg>此选项只能与 --dry-run 一起使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This option has no effect when setting the value (but you can use &lt;e4&gt;git config bla ~/&lt;/e4&gt; from the command line to let your shell do the expansion).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115352Z" creationid="Admin" creationdate="20171023T115352Z">
         <seg>此选项在设置值时无效(但您可以使用命令行中的 &lt;e4&gt;git config bla ~/&lt;/e4&gt; 来让您的 shell 进行扩展)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option is a no-op when no &lt;pathspec&gt; is used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074350Z" creationid="Admin" creationdate="20171024T074350Z">
+        <seg>当不使用 &lt;pathspec&gt; 时，此选项是无操作的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option is primarily to help users who are used to older versions of Git, whose "git add &lt;pathspec&gt;…​" was a synonym for "git add --no-all &lt;pathspec&gt;…​", i.e. ignored removed files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074411Z" creationid="Admin" creationdate="20171024T074411Z">
+        <seg>此选项主要用于帮助用户使用旧版 Git，其“git add &lt;pathspec&gt; ...”是“git add --no-all &lt;pathspec&gt; ...”的同义词，即忽略删除的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9857,6 +11281,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This option will suppress the warning (e.g., if you are manually performing operations on submodules).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074603Z" creationid="Admin" creationdate="20171024T074603Z">
+        <seg>此选项将抑制警告(例如，如果您手动对子模块执行操作)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This overrides the &lt;c1&gt;pager.&lt;cmd&gt;&lt;/c1&gt; configuration options (see the "Configuration Mechanism" section below).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070854Z" creationid="Admin" creationdate="20171020T070854Z">
@@ -9873,6 +11305,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This removes as well as modifies index entries to match the working tree, but adds no new files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074102Z" creationid="Admin" creationdate="20171024T074102Z">
+        <seg>这将删除以及修改索引条目以匹配工作树，但不会添加新文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This replaces all lines matching the key (and optionally the value_regex).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112955Z" creationid="Admin" creationdate="20171023T112955Z">
@@ -9885,6 +11325,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T072023Z" creationid="Admin" creationdate="20171023T072023Z">
         <seg>这应该是一个冒号分隔的绝对路径列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This shows the change between HEAD and index (i.e. what will be committed if you say &lt;c0&gt;git commit&lt;/c0&gt;), and between index and working tree files (i.e. what you could stage further before &lt;c1&gt;git commit&lt;/c1&gt; using &lt;c2&gt;git add&lt;/c2&gt;) for each path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075741Z" creationid="Admin" creationdate="20171024T075741Z">
+        <seg>这显示了 HEAD 和索引之间的变化(即，如果你说的是 &lt;c0&gt;git commit&lt;/c0&gt; )以及索引和工作树文件之间的转换(也就是你可以在 &lt;c1&gt;git commit&lt;/c1&gt; 使用 &lt;c2&gt;git add&lt;/c2&gt; )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This shows the status information and issues an "Update&gt;&gt;" prompt.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075949Z" creationid="Admin" creationdate="20171024T075949Z">
+        <seg>这将显示状态信息并发出"更新&gt;&gt;"提示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9921,10 +11377,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thus after making any changes to the working tree, and before running the commit command, you must use the &lt;c0&gt;add&lt;/c0&gt; command to add any new or modified files to the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073118Z" creationid="Admin" creationdate="20171024T073118Z">
+        <seg>因此，在对工作树进行任何更改后，在运行 commit 命令之前，必须使用 &lt;c0&gt;add&lt;/c0&gt; 命令将任何新的或修改的文件添加到索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To display the &lt;a0&gt;git[1]&lt;/a0&gt; man page, use &lt;c1&gt;git help git&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T034127Z" creationid="Admin" creationdate="20171024T034127Z">
         <seg>要显示 &lt;a0&gt;git[1]&lt;/a0&gt; 手册页，请使用 &lt;c1&gt;git help git&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To remove selection, prefix the input with &lt;c0&gt;-&lt;/c0&gt; like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080145Z" creationid="Admin" creationdate="20171024T080145Z">
+        <seg>要移除选项，输入请使用前缀 &lt;c0&gt;-&lt;/c0&gt; 像这样：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10009,10 +11481,42 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Update the index by adding new files that are unknown to the index and files modified in the working tree, but ignore files that have been removed from the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074342Z" creationid="Admin" creationdate="20171024T074342Z">
+        <seg>通过添加索引未知的新文件和在工作树中修改的文件来更新索引，但忽略已从工作树中删除的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update the index just where it already has an entry matching &lt;pathspec&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074044Z" creationid="Admin" creationdate="20171024T074044Z">
+        <seg>更新索引，只要它已经有一个条目匹配 &lt;pathspec&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update the index not only where the working tree has a file matching &lt;pathspec&gt; but also where the index already has an entry.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074209Z" creationid="Admin" creationdate="20171024T074209Z">
+        <seg>更新索引不仅工作树具有与 &lt;pathspec&gt; 匹配的文件，而且索引已经具有条目的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Update the object name stored in a ref safely</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092137Z" creationid="Admin" creationdate="20171020T092137Z">
         <seg>安全地更新存储在 ref 中的对象名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update&gt;&gt; -2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082700Z" creationid="Admin" creationdate="20171024T082700Z">
+        <seg>Update&gt;&gt; -2</seg>
       </tuv>
     </tu>
     <tu>
@@ -10153,6 +11657,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What now&gt; 1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082651Z" creationid="Admin" creationdate="20171024T082651Z">
+        <seg>What now&gt; 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What you chose are then highlighted with &lt;e0&gt;*&lt;/e0&gt;, like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080110Z" creationid="Admin" creationdate="20171024T080110Z">
+        <seg>然后用 &lt;e0&gt;*&lt;/e0&gt; 突出显示您所选择的内容，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When a ref is updated, reflog entries are created to keep track of the reason why the ref was updated (which is typically the name of the high-level command that updated the ref), in addition to the old and new values of the ref.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T081203Z" creationid="Admin" creationdate="20171023T081203Z">
@@ -10257,10 +11777,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the command enters the interactive mode, it shows the output of the &lt;e0&gt;status&lt;/e0&gt; subcommand, and then goes into its interactive command loop.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075515Z" creationid="Admin" creationdate="20171024T075515Z">
+        <seg>当命令进入交互模式时，它显示 &lt;e0&gt;status&lt;/e0&gt; 子命令的输出，然后进入其交互式命令循环。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the environment variable &lt;c0&gt;GIT_EXTERNAL_DIFF&lt;/c0&gt; is set, the program named by it is called, instead of the diff invocation described above.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T073351Z" creationid="Admin" creationdate="20171023T073351Z">
         <seg>当设置环境变量 &lt;c0&gt;GIT_EXTERNAL_DIFF&lt;/c0&gt; 时，调用由其命名的程序，而不是上述的 diff 调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the prompt ends with double &lt;e0&gt;&gt;&gt;&lt;/e0&gt;, you can make more than one selection, concatenated with whitespace or comma.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080027Z" creationid="Admin" creationdate="20171024T080027Z">
+        <seg>当提示以双倍的 &lt;e0&gt;&gt;&gt;&lt;/e0&gt; 结束时，您可以进行多个选择，并用空格或逗号连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10353,10 +11889,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You also could say &lt;c0&gt;s&lt;/c0&gt; or &lt;c1&gt;sta&lt;/c1&gt; or &lt;c2&gt;status&lt;/c2&gt; above as long as the choice is unique.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075648Z" creationid="Admin" creationdate="20171024T075648Z">
+        <seg>只要选择是唯一的，您也可以说 &lt;c0&gt;s&lt;/c0&gt; 或 &lt;c1&gt;sta&lt;/c1&gt; 或 &lt;c2&gt;status&lt;/c2&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You are free to make arbitrary changes to the patch, but note that some changes may have confusing results, or even result in a patch that cannot be applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081206Z" creationid="Admin" creationdate="20171024T081206Z">
+        <seg>您可以随意对修补程序进行任意更改，但请注意，某些更改可能会导致混乱的结果，甚至导致无法应用的修补程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can learn more about individual Git commands with "git help command".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T050455Z" creationid="Admin" creationdate="20171020T050455Z">
         <seg>您可以使用 “git help command” 了解有关单个 Git 命令的更多信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can omit having to type return here, by setting the configuration variable &lt;c0&gt;interactive.singleKey&lt;/c0&gt; to &lt;c1&gt;true&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081033Z" creationid="Admin" creationdate="20171024T081033Z">
+        <seg>通过将配置变量 &lt;c0&gt;interactive.singleKey&lt;/c0&gt; 设置为 &lt;c1&gt;true&lt;/c1&gt; ，可以省略输入返回。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10369,6 +11929,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can prevent staging any addition lines by deleting them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081259Z" creationid="Admin" creationdate="20171024T081259Z">
+        <seg>删除它们可以防止暂存任何添加行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can prevent staging the modification by converting "-" lines to " ", and removing "+" lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081937Z" creationid="Admin" creationdate="20171024T081937Z">
+        <seg>您可以通过将“ - ”行转换为 " "，并删除“+”行来防止进行修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can prevent staging their removal by converting the "-" to a " " (space).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081830Z" creationid="Admin" creationdate="20171024T081329Z">
+        <seg>您可以通过将 “-” 转为 " " (空格)来防止其移除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can query/set/replace/unset options with this command.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102816Z" creationid="Admin" creationdate="20171023T102816Z">
@@ -10377,10 +11961,42 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can say &lt;e1&gt;*&lt;/e1&gt; to choose everything.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080104Z" creationid="Admin" creationdate="20171024T080104Z">
+        <seg>您可以说 &lt;e1&gt;*&lt;/e1&gt; 选择所有内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can select one of the following options and type return:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080422Z" creationid="Admin" creationdate="20171024T080422Z">
+        <seg>您可以选择以下选项之一并键入 return：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can stage context lines for removal by converting the space to a "-".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082138Z" creationid="Admin" creationdate="20171024T082138Z">
+        <seg>您可以通过将空格转换为"-"来排列要删除的上下文行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You do not have to be subscribed to the list to send a message there.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085059Z" creationid="Admin" creationdate="20171023T085059Z">
         <seg>您不必订阅该列表即可在那里发送消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may also add new content that does not exist in the patch; simply add new lines, each starting with "+".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082327Z" creationid="Admin" creationdate="20171024T082327Z">
+        <seg>您还可以添加补丁中不存在的新内容;只需添加新行，每行以"+"开头。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10461,6 +12077,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN">
         <seg>add</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>add untracked</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082710Z" creationid="Admin" creationdate="20171024T082710Z">
+        <seg>add untracked</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>added content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081839Z" creationid="Admin" creationdate="20171024T081232Z">
+        <seg>添加的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>adding context (" ") or removal ("-") lines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082413Z" creationid="Admin" creationdate="20171024T082413Z">
+        <seg>添加上下文 (" ") 或删除(“ - ”)行</seg>
       </tuv>
     </tu>
     <tu>
@@ -10649,6 +12289,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>deleting context or removal lines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082416Z" creationid="Admin" creationdate="20171024T082416Z">
+        <seg>删除上下文或删除行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>describe</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -10779,10 +12427,66 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-add - Add file contents to the index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T072643Z" creationid="Admin" creationdate="20171024T072643Z">
+        <seg>git-add - 将文件内容添加到索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-add.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-add.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-add/2.10.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082509Z" creationid="Admin" creationdate="20171024T082509Z">
+        <seg>git-add/2.10.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-add/2.14.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082457Z" creationid="Admin" creationdate="20171024T082457Z">
+        <seg>git-add/2.14.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-add/2.3.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082528Z" creationid="Admin" creationdate="20171024T082528Z">
+        <seg>git-add/2.3.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-add/2.4-2.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082524Z" creationid="Admin" creationdate="20171024T082524Z">
+        <seg>git-add/2.4-2.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-add/2.4.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082519Z" creationid="Admin" creationdate="20171024T082519Z">
+        <seg>git-add/2.4.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-add/2.7.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082514Z" creationid="Admin" creationdate="20171024T082514Z">
+        <seg>git-add/2.7.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -14347,10 +16051,42 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>modified content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081844Z" creationid="Admin" creationdate="20171024T081832Z">
+        <seg>修改的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>modifying existing content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082152Z" creationid="Admin" creationdate="20171024T082152Z">
+        <seg>修改现有内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>modifying the contents of context or removal lines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082423Z" creationid="Admin" creationdate="20171024T082423Z">
+        <seg>修改上下文或删除行的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>mv</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>mv</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>new content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082317Z" creationid="Admin" creationdate="20171024T082317Z">
+        <seg>新内容</seg>
       </tuv>
     </tu>
     <tu>
@@ -14367,6 +16103,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074003Z" creationid="Admin" creationdate="20171023T074003Z">
         <seg>其他</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>patch</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082713Z" creationid="Admin" creationdate="20171024T082713Z">
+        <seg>patch</seg>
       </tuv>
     </tu>
     <tu>
@@ -14423,6 +16167,22 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>remote</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>removed content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081841Z" creationid="Admin" creationdate="20171024T081308Z">
+        <seg>移除的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>removing untouched content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082106Z" creationid="Admin" creationdate="20171024T082106Z">
+        <seg>删除未触及的内容</seg>
       </tuv>
     </tu>
     <tu>
@@ -14515,6 +16275,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>staged     unstaged path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082657Z" creationid="Admin" creationdate="20171024T082657Z">
+        <seg>staged     unstaged path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>stash</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14587,6 +16355,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>update</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075933Z" creationid="Admin" creationdate="20171024T075933Z">
+        <seg>update</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>update-index</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14655,6 +16431,40 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>write-tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>y - stage this hunk
+n - do not stage this hunk
+q - quit; do not stage this hunk or any of the remaining ones
+a - stage this hunk and all later hunks in the file
+d - do not stage this hunk or any of the later hunks in the file
+g - select a hunk to go to
+/ - search for a hunk matching the given regex
+j - leave this hunk undecided, see next undecided hunk
+J - leave this hunk undecided, see next hunk
+k - leave this hunk undecided, see previous undecided hunk
+K - leave this hunk undecided, see previous hunk
+s - split the current hunk into smaller hunks
+e - manually edit the current hunk
+?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080946Z" creationid="Admin" creationdate="20171024T080946Z">
+        <seg>y - 暂存该块
+n - 不暂存该块
+q - quit; 不暂存该块或任何剩下的
+a - 暂存该块及文件中所有以后的
+d - 不暂存该块或后续文件中的任何块
+g - 选择一个块以继续
+/ - 搜索匹配给定正则表达式的一个块
+j - 离开该块暂不决定，查看下一个未决定的块
+J - 离开该块暂不决定，查看下一个块
+k - 离开该块暂不决定，查看上一个未决定的块
+K - 离开该块暂不决定，查看上一个块
+s - 分割当前块为更小的块
+e - 手动编辑当前块
+?</seg>
       </tuv>
     </tu>
     <tu>
