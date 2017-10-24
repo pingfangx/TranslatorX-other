@@ -6537,6 +6537,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git (and are not ignored by &lt;a0&gt;gitignore[5]&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083253Z" creationid="Admin" creationdate="20171024T083253Z">
+        <seg>显示索引和当前 HEAD 提交之间有差异的文件，在工作树和索引之间有差异的文件，以及工作树中未被 Git 跟踪的路径（并且不被 &lt;a0&gt;gitignore[5]&lt;/a0&gt; 忽略）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Do not pipe Git output into a pager.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070913Z" creationid="Admin" creationdate="20171020T070913Z">
@@ -7609,6 +7617,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-status Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083012Z" creationid="Admin" creationdate="20171024T083012Z">
+        <seg>Git - git-status 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git Commits</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T072810Z" creationid="Admin" creationdate="20171023T072810Z">
@@ -7685,6 +7701,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094304Z" creationid="Admin" creationdate="20171020T094304Z">
         <seg>Git 的 shell 脚本的国际化设置代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Give the output in the long-format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083615Z" creationid="Admin" creationdate="20171024T083615Z">
+        <seg>给出长格式的输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Give the output in the short-format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083441Z" creationid="Admin" creationdate="20171024T083441Z">
+        <seg>以短格式输出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7821,6 +7853,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060627Z" creationid="Admin" creationdate="20171024T060627Z">
         <seg>如果 &lt;c0&gt;GIT_DIR&lt;/c0&gt; 环境未设置，则将其设置为当前工作目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If &lt;c1&gt;-v&lt;/c1&gt; is specified twice, then also show the changes in the working tree that have not yet been staged (i.e., like the output of &lt;c2&gt;git diff&lt;/c2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083706Z" creationid="Admin" creationdate="20171024T083706Z">
+        <seg>如果指定了 &lt;c1&gt;-v&lt;/c1&gt; 两次，那么还会显示工作树中尚未暂存的更改(即，像 &lt;c2&gt;git diff&lt;/c2&gt; 的输出)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8245,6 +8285,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T081724Z" creationid="Admin" creationdate="20171023T081724Z">
         <seg>在正常的，未损坏的仓库中，这不做任何事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to the names of files that have been changed, also show the textual changes that are staged to be committed (i.e., like the output of &lt;c0&gt;git diff --cached&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083644Z" creationid="Admin" creationdate="20171024T083644Z">
+        <seg>除了已更改的文件的名称之外，还会显示已暂存要提交的文本更改(例如，如 &lt;c0&gt;git diff --cached&lt;/c0&gt; 的输出)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10057,6 +10105,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show ignored files as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083719Z" creationid="Admin" creationdate="20171024T083719Z">
+        <seg>也显示忽略的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Show information about files in the index and the working tree</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092425Z" creationid="Admin" creationdate="20171020T092425Z">
@@ -10077,6 +10133,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092806Z" creationid="Admin" creationdate="20171020T092806Z">
         <seg>显示打包的归档索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show the branch and tracking info even in short-format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083452Z" creationid="Admin" creationdate="20171024T083452Z">
+        <seg>以短格式显示分支和跟踪信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show the number of entries currently stashed away.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083516Z" creationid="Admin" creationdate="20171024T083516Z">
+        <seg>显示当前被暂存的条目数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10565,6 +10637,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065526Z" creationid="Admin" creationdate="20171024T065526Z">
         <seg>&lt;c0&gt;.git/objects/&lt;/c0&gt; 目录下的文件是硬链接的，以尽可能节省空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first are what you &lt;e1&gt;would&lt;/e1&gt; commit by running &lt;c2&gt;git commit&lt;/c2&gt;; the second and third are what you &lt;e3&gt;could&lt;/e3&gt; commit by running &lt;e4&gt;git add&lt;/e4&gt; before running &lt;c5&gt;git commit&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083433Z" creationid="Admin" creationdate="20171024T083433Z">
+        <seg>第一个是您 &lt;e1&gt;将&lt;/e1&gt; 通过运行 &lt;c2&gt;git commit&lt;/c2&gt; 来提交，第二个和第三个你 &lt;e3&gt;可以&lt;/e3&gt; 在运行 &lt;c5&gt;git commit&lt;/c5&gt; 之前运行 &lt;e4&gt;git add&lt;/e4&gt;  来提交。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11125,6 +11205,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114157Z" creationid="Admin" creationdate="20171023T114157Z">
         <seg>这是默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is the default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083621Z" creationid="Admin" creationdate="20171024T083621Z">
+        <seg>这是默认的。</seg>
       </tuv>
     </tu>
     <tu>
