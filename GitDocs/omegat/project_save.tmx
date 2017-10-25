@@ -5936,6 +5936,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A stash is by default listed as "WIP on &lt;e5&gt;branchname&lt;/e5&gt; …​", but you can give a more descriptive message on the command line when you create one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T115630Z" creationid="Admin" creationdate="20171025T115316Z">
+        <seg>默认情况下，储藏保存列表为"WIP on &lt;e5&gt;branchname&lt;/e5&gt; …​"，但是您可以在创建时在命令行上给出更详细的描述性消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A web browser will be used for that purpose.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T035901Z" creationid="Admin" creationdate="20171024T035901Z">
@@ -6720,6 +6728,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calling &lt;c3&gt;git stash&lt;/c3&gt; without any arguments is equivalent to &lt;c4&gt;git stash save&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T115216Z" creationid="Admin" creationdate="20171025T115216Z">
+        <seg>没有任何参数调用 &lt;c3&gt;git stash&lt;/c3&gt; 等同于 &lt;c4&gt;git stash save&lt;/c4&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Can be used with additional commit message options (&lt;c1&gt;-m&lt;/c1&gt;/&lt;c2&gt;-c&lt;/c2&gt;/&lt;c3&gt;-C&lt;/c3&gt;/&lt;c4&gt;-F&lt;/c4&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T095528Z" creationid="Admin" creationdate="20171024T095528Z">
@@ -7173,6 +7189,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070914Z" creationid="Admin" creationdate="20171024T070914Z">
         <seg>创建具有历史记录的浅克隆，不包括从指定的远程分支或标记可访问的提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a stash entry (which is a regular commit object) and return its object name, without storing it anywhere in the ref namespace.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120739Z" creationid="Admin" creationdate="20171025T120739Z">
+        <seg>创建一个 stash 条目(它是一个常规的提交对象)并返回其对象名称，而不将其存储在 ref 命名空间中的任何位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7689,6 +7713,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121130Z" creationid="Admin" creationdate="20171023T121130Z">
         <seg>例子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each &lt;e0&gt;stash entry&lt;/e0&gt; is listed with its name (e.g. &lt;c1&gt;stash@{0}&lt;/c1&gt; is the latest entry, &lt;c2&gt;stash@{1}&lt;/c2&gt; is the one before, etc.), the name of the branch that was current when the entry was made, and a short description of the commit the entry was based on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120030Z" creationid="Admin" creationdate="20171025T120030Z">
+        <seg>每个 &lt;e0&gt;stash entry&lt;/e0&gt; 列出其名称(例如 &lt;c1&gt;stash@{0}&lt;/c1&gt; 是最新条目， &lt;c2&gt;stash@{1}&lt;/c2&gt; 是之前的，等等)，作为条目时当前的分支的名称，以及该条目所基于的提交的简短描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8785,6 +8817,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-stash Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114744Z" creationid="Admin" creationdate="20171025T114744Z">
+        <seg>Git - git-stash 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-status Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083012Z" creationid="Admin" creationdate="20171024T083012Z">
@@ -9069,6 +9109,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115335Z" creationid="Admin" creationdate="20171024T115335Z">
         <seg>然而，他们的变化并没有消失 - 他们仍然暂存，只是被阻止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, there are cases in which your local changes do conflict with the upstream changes, and &lt;c0&gt;git pull&lt;/c0&gt; refuses to overwrite your changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121017Z" creationid="Admin" creationdate="20171025T121017Z">
+        <seg>但是，有些情况是您的本地更改与上游更改相冲突，而 &lt;c0&gt;git pull&lt;/c0&gt; 拒绝覆盖您的更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9937,6 +9985,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In such a case, you can stash your changes away, perform a pull, and then unstash, like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121040Z" creationid="Admin" creationdate="20171025T121040Z">
+        <seg>在这种情况下，您可以将更改储藏起来，执行拉取，然后取消储藏，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the first and second form, copy entries from &lt;tree-ish&gt; to the index.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122017Z" creationid="Admin" creationdate="20171024T122017Z">
@@ -10273,6 +10329,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is probably not the command you want to use; see "save" above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120758Z" creationid="Admin" creationdate="20171025T120758Z">
+        <seg>它可能不是您想要使用的命令；参见上面的“保存”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is typically run after &lt;e1&gt;git merge&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104201Z" creationid="Admin" creationdate="20171025T104201Z">
@@ -10409,6 +10473,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Like &lt;c0&gt;pop&lt;/c0&gt;, but do not remove the state from the stash list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120517Z" creationid="Admin" creationdate="20171025T120517Z">
+        <seg>像 &lt;c0&gt;pop&lt;/c0&gt; 一样，但是不要从该隐藏列表中移除该状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like &lt;e0&gt;-C&lt;/e0&gt;, but with &lt;c1&gt;-c&lt;/c1&gt; the editor is invoked, so that the user can further edit the commit message.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T094302Z" creationid="Admin" creationdate="20171024T094302Z">
@@ -10509,6 +10581,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092451Z" creationid="Admin" creationdate="20171020T092451Z">
         <seg>列出树对象的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>List the stash entries that you currently have.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120000Z" creationid="Admin" creationdate="20171025T120000Z">
+        <seg>列出您当前拥有的储藏条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10885,6 +10965,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061602Z" creationid="Admin" creationdate="20171025T061602Z">
         <seg>请注意，这将创建新的分支，但不会将工作树切换到它;使用"git checkout &lt;newbranch&gt;"切换到新分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that those entries will then be subject to pruning, and may be impossible to recover (see &lt;e0&gt;Examples&lt;/e0&gt; below for a possible strategy).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120631Z" creationid="Admin" creationdate="20171025T120631Z">
+        <seg>请注意，这些条目将被修剪，并且可能无法恢复(有关可能的策略，请参阅下面的 &lt;e0&gt;例子&lt;/e0&gt; )。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11425,6 +11513,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Pulling into a dirty tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120949Z" creationid="Admin" creationdate="20171025T120949Z">
+        <seg>拉进一棵肮的树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Push objects over Git protocol to another repository</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T093054Z" creationid="Admin" creationdate="20171020T093054Z">
@@ -11529,6 +11625,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Recovering stash entries that were cleared/dropped erroneously</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121141Z" creationid="Admin" creationdate="20171025T121141Z">
+        <seg>恢复被错误地清除/删除的隐藏条目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reference</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023635Z">
@@ -11561,10 +11665,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove a single stash entry from the list of stash entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120644Z" creationid="Admin" creationdate="20171025T120644Z">
+        <seg>从储藏条目列表中移除单个的储藏条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove a single stashed state from the stash list and apply it on top of the current working tree state, i.e., do the inverse operation of &lt;c0&gt;git stash save&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120454Z" creationid="Admin" creationdate="20171025T120454Z">
+        <seg>从储藏列表中移除一个单独的储藏，并将其应用于当前工作树状态之上，即执行 &lt;c0&gt;git stash save&lt;/c0&gt; 的反向操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove all lines matching the key from config file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114539Z" creationid="Admin" creationdate="20171023T114539Z">
         <seg>从配置文件中移除与 key 匹配的所有行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove all the stash entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120612Z" creationid="Admin" creationdate="20171025T120612Z">
+        <seg>移除所有的储藏条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11953,6 +12081,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Save your local modifications to a new &lt;e0&gt;stash entry&lt;/e0&gt; and roll them back to HEAD (in the working tree and in the index).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T115919Z" creationid="Admin" creationdate="20171025T115919Z">
+        <seg>将您的本地修改保存到一个新的 &lt;e0&gt;stash entry&lt;/e0&gt; ，并将其回滚到 HEAD(在工作树和索引中)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Search entire site...</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085901Z">
@@ -12077,6 +12213,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T082357Z" creationid="Admin" creationdate="20171023T082357Z">
         <seg>有关详细信息，请参阅 &lt;a1&gt;git-config[1]&lt;/a1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;git-log[1]&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120042Z" creationid="Admin" creationdate="20171025T120042Z">
+        <seg>参见 &lt;a1&gt;git-log[1]&lt;/a1&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12633,6 +12777,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show the changes recorded in the stash entry as a diff between the stashed contents and the commit back when the stash entry was first created.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120421Z" creationid="Admin" creationdate="20171025T120421Z">
+        <seg>将储藏条目中记录的更改，显示为已存储的内容和当存储空间条目首次创建时的提交后的差异。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Show the commits that are in the "test" branch but not yet in the "release" branch, along with the list of paths each commit modifies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114121Z" creationid="Admin" creationdate="20171025T114121Z">
@@ -12937,6 +13089,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Stashes may also be referenced by specifying just the stash index (e.g. the integer &lt;c4&gt;n&lt;/c4&gt; is equivalent to &lt;c5&gt;stash@{n}&lt;/c5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T115710Z" creationid="Admin" creationdate="20171025T115710Z">
+        <seg>也可以通过指定储藏索引(例如，整数 &lt;c4&gt;n&lt;/c4&gt; 等同于 &lt;c5&gt;stash@{n}&lt;/c5&gt; )来引用储藏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Store a given stash created via &lt;e0&gt;git stash create&lt;/e0&gt; (which is a dangling merge commit) in the stash ref, updating the stash reflog.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120922Z" creationid="Admin" creationdate="20171025T120922Z">
+        <seg>在储藏引乃用中一个存储通过 &lt;e0&gt;git stash create&lt;/e0&gt;创建的储藏 (这是一个悬空的合并提交)，更新储藏 reflog。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Stores the current contents of the index in a new commit along with a log message from the user describing the changes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T093318Z" creationid="Admin" creationdate="20171024T093318Z">
@@ -13077,6 +13245,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070506Z" creationid="Admin" creationdate="20171023T070506Z">
         <seg>术语</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Testing partial commits</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121055Z" creationid="Admin" creationdate="20171025T121055Z">
+        <seg>测试部分提交</seg>
       </tuv>
     </tu>
     <tu>
@@ -13297,6 +13473,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;message&gt; part is optional and gives the description along with the stashed state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T115953Z" creationid="Admin" creationdate="20171025T115953Z">
+        <seg>&lt;message&gt;部分是可选的，并给出描述以及隐藏的状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;mode&gt; must be one of the following:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122826Z" creationid="Admin" creationdate="20171024T122826Z">
@@ -13433,6 +13617,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command saves your local modifications away and reverts the working directory to match the &lt;c1&gt;HEAD&lt;/c1&gt; commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114817Z" creationid="Admin" creationdate="20171025T114817Z">
+        <seg>该命令保存您的本地修改，并恢复工作目录以匹配 &lt;c1&gt;HEAD&lt;/c1&gt; 提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The command shall still exit with non-zero status.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074516Z" creationid="Admin" creationdate="20171024T074516Z">
@@ -13445,6 +13637,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T111834Z" creationid="Admin" creationdate="20171025T111834Z">
         <seg>该命令采用适用于 &lt;c0&gt;git rev-list&lt;/c0&gt; 命令的选项来控制显示的内容以及如何以显示，使用适用于 &lt;c1&gt;git diff-*&lt;/c1&gt; 命令的选项，以控制每个提交的介绍如何显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command takes options applicable to the &lt;e0&gt;git log&lt;/e0&gt; command to control what is shown and how.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120040Z" creationid="Admin" creationdate="20171025T120040Z">
+        <seg>该命令采用适用于 &lt;e0&gt;git log&lt;/e0&gt; 命令的选项来控制显示的内容和方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13753,6 +13953,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The latest stash you created is stored in &lt;c0&gt;refs/stash&lt;/c0&gt;; older stashes are found in the reflog of this reference and can be named using the usual reflog syntax (e.g. &lt;c1&gt;stash@{0}&lt;/c1&gt; is the most recently created stash, &lt;c2&gt;stash@{1}&lt;/c2&gt; is the one before it, &lt;c3&gt;stash@{2.hours.ago}&lt;/c3&gt; is also possible).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T115647Z" creationid="Admin" creationdate="20171025T115442Z">
+        <seg>您创建的最新的储藏存储在 &lt;c0&gt;refs/stash&lt;/c0&gt; 中;在这个引用的 reflog 中可以找到较旧的储藏，并且可以使用通常的 reflog 语法来命名(例如 &lt;c1&gt;stash@{0}&lt;/c1&gt; 是最近创建的储藏，&lt;c2&gt;stash@{1}&lt;/c2&gt; 是之前的一个， &lt;c3&gt;stash@{2.hours.ago}&lt;/c3&gt; 也是可能的)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The list below describes some common things you may see in a patch, and which editing operations make sense on them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081227Z" creationid="Admin" creationdate="20171024T081227Z">
@@ -13789,6 +13997,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T112126Z" creationid="Admin" creationdate="20171024T112126Z">
         <seg>mode 参数是可选的(默认为 &lt;e0&gt;all&lt;/e0&gt; )，用于指定未跟踪文件的处理;当不使用 -u 时，默认值为 &lt;e1&gt;normal&lt;/e1&gt; ，即显示未跟踪的文件和目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The modifications stashed away by this command can be listed with &lt;c0&gt;git stash list&lt;/c0&gt;, inspected with &lt;c1&gt;git stash show&lt;/c1&gt;, and restored (potentially on top of a different commit) with &lt;c2&gt;git stash apply&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T115620Z" creationid="Admin" creationdate="20171025T115209Z">
+        <seg>可以使用 &lt;c0&gt;git stash list&lt;/c0&gt; 列出此命令储藏的修改，使用 &lt;c1&gt;git stash show&lt;/c1&gt; 进行检查，并使用 &lt;c2&gt;git stash apply&lt;/c2&gt; 还原（可能在不同的提交之上）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14093,6 +14309,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T041002Z" creationid="Admin" creationdate="20171024T041002Z">
         <seg>该 Web 浏览器可以使用配置的变量 &lt;c0&gt;help.browser&lt;/c0&gt; 指定，如果前者未设置，也可以使用 &lt;c1&gt;web.browser&lt;/c1&gt; 指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The working directory must match the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120456Z" creationid="Admin" creationdate="20171025T120456Z">
+        <seg>工作目录必须与索引匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14581,6 +14805,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T073657Z" creationid="Admin" creationdate="20171020T073657Z">
         <seg>这相当于将 &lt;c0&gt;GIT_NOGLOB_PATHSPECS&lt;/c0&gt; 环境变量设置为 &lt;c1&gt;1&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is intended to be useful for scripts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120741Z" creationid="Admin" creationdate="20171025T120741Z">
+        <seg>这是为脚本有用的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15201,6 +15433,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unlike &lt;c1&gt;pop&lt;/c1&gt;, &lt;c2&gt;&lt;stash&gt;&lt;/c2&gt; may be any commit that looks like a commit created by &lt;c3&gt;stash save&lt;/c3&gt; or &lt;c4&gt;stash create&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120552Z" creationid="Admin" creationdate="20171025T120552Z">
+        <seg>与 &lt;c1&gt;pop&lt;/c1&gt; 不同， &lt;c2&gt;&lt;stash&gt;&lt;/c2&gt; 可能是任何看起来像由 &lt;c3&gt;stash save&lt;/c3&gt; 或 &lt;c4&gt;stash create&lt;/c4&gt; 创建的提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unlike other trace output, this trace is verbatim: no headers, and no quoting of binary data.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080145Z" creationid="Admin" creationdate="20171023T080145Z">
@@ -15301,6 +15541,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104028Z" creationid="Admin" creationdate="20171025T104028Z">
         <seg>使用 &lt;c0&gt;git mergetool&lt;/c0&gt; 运行多个合并实用程序之一来解决合并冲突。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;c0&gt;git stash&lt;/c0&gt; when you want to record the current state of the working directory and the index, but want to go back to a clean working directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114809Z" creationid="Admin" creationdate="20171025T114809Z">
+        <seg>当要记录工作目录和索引的当前状态，但是要返回到干净的工作目录时，请使用 &lt;c0&gt;git stash&lt;/c0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15713,6 +15961,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When no &lt;c0&gt;&lt;stash&gt;&lt;/c0&gt; is given, it removes the latest one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120650Z" creationid="Admin" creationdate="20171025T120650Z">
+        <seg>当没有给出 &lt;c0&gt;&lt;stash&gt;&lt;/c0&gt; 时，它会删除最新的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When pathnames are given, the command makes a commit that only records the changes made to the named paths:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115237Z" creationid="Admin" creationdate="20171024T115237Z">
@@ -15845,6 +16101,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115621Z" creationid="Admin" creationdate="20171024T115621Z">
         <seg>完成后，运行 &lt;c1&gt;git commit&lt;/c1&gt; 以最终记录合并：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you are in the middle of something, you learn that there are upstream changes that are possibly relevant to what you are doing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120957Z" creationid="Admin" creationdate="20171025T120957Z">
+        <seg>当你处于某种状态的时候，你会发现上游的变化与你正在做的事情有关。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When your local changes do not conflict with the changes in the upstream, a simple &lt;c0&gt;git pull&lt;/c0&gt; will let you move forward.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121006Z" creationid="Admin" creationdate="20171025T121006Z">
+        <seg>当您的本地更改与上游的更改不冲突时，简单的 &lt;c0&gt;git pull&lt;/c0&gt; 将让您向前推进。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18963,6 +19235,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-stash - Stash the changes in a dirty working directory away</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114753Z" creationid="Admin" creationdate="20171025T114753Z">
+        <seg>git-stash - 把脏工作目录中的更改暂存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-stash.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -20343,6 +20623,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>i.e. &lt;c1&gt;stash@{0}&lt;/c1&gt;, otherwise &lt;c2&gt;&lt;stash&gt;&lt;/c2&gt; must be a valid stash log reference of the form &lt;c3&gt;stash@{&lt;revision&gt;}&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120726Z" creationid="Admin" creationdate="20171025T120726Z">
+        <seg>即 &lt;c1&gt;stash@{0}&lt;/c1&gt; ，否则 &lt;c2&gt;&lt;stash&gt;&lt;/c2&gt; 必须是 &lt;c3&gt;stash@{&lt;revision&gt;}&lt;/c3&gt; 形式的的有效的储藏日志引用。</seg>
       </tuv>
     </tu>
     <tu>
