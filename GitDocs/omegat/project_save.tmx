@@ -6082,8 +6082,8 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       <tuv lang="EN-US">
         <seg>Allow recursive removal when a leading directory name is given.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T015642Z" creationid="Admin" creationdate="20171025T015642Z">
-        <seg>当提供目录开头的名称时允许递归删除。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T040816Z" creationid="Admin" creationdate="20171025T015642Z">
+        <seg>当给出开头目录名时允许递归删除。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6164,6 +6164,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074435Z" creationid="Admin" creationdate="20171024T074435Z">
         <seg>路径的条目被放置在没有内容的索引中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An error happens when a source is neither existing nor controlled by Git, or when it would overwrite an existing file unless &lt;c0&gt;-f&lt;/c0&gt; is given.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T033512Z" creationid="Admin" creationdate="20171025T033512Z">
+        <seg>当源既不存在也不受 Git 控制时，或者当覆盖现有文件时，除非给出了 &lt;c0&gt;-f&lt;/c0&gt; ，否则会发生错误。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7193,6 +7201,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do nothing; only show what would happen</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T033549Z" creationid="Admin" creationdate="20171025T033549Z">
+        <seg>什么也不做;只显示会发生什么</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023609Z">
@@ -7817,6 +7833,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Force renaming or moving of a file even if the target exists</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T023044Z" creationid="Admin" creationdate="20171025T023044Z">
+        <seg>强制重命名或移动文件，即使目标已存在</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Force the cloning process from a repository on a local filesystem to copy the files under the &lt;c0&gt;.git/objects&lt;/c0&gt; directory instead of using hardlinks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065746Z" creationid="Admin" creationdate="20171024T065746Z">
@@ -8357,6 +8381,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T042410Z" creationid="Admin" creationdate="20171024T042410Z">
         <seg>Git - git-init 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-mv Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T022819Z" creationid="Admin" creationdate="20171025T022819Z">
+        <seg>Git - git-mv 文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -9345,6 +9377,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the first form, it renames &lt;source&gt;, which must exist and be either a file, symlink or directory, to &lt;destination&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T022958Z" creationid="Admin" creationdate="20171025T022958Z">
+        <seg>在第一个形式中，它将重命名&lt;source&gt; 为&lt;destination&gt;，它必须存在，并且是文件，符号链接或目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the second form, the last argument has to be an existing directory; the given sources will be moved into this directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T023019Z" creationid="Admin" creationdate="20171025T023019Z">
+        <seg>在第二种形式中，最后一个参数必须是现有的目录;给定的源将被移动到这个目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the third form, set the current branch head (HEAD) to &lt;commit&gt;, optionally modifying index and working tree to match.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122043Z" creationid="Admin" creationdate="20171024T122043Z">
@@ -9925,6 +9973,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074913Z" creationid="Admin" creationdate="20171020T074913Z">
         <seg>移动或重命名文件，目录或符号链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move or rename a file, directory or symlink.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T022922Z" creationid="Admin" creationdate="20171025T022922Z">
+        <seg>移动或重命名文件，目录或符号链接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10749,6 +10805,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085052Z" creationid="Admin" creationdate="20171023T085052Z">
         <seg>向 Git 邮件列表报告错误 &lt;&lt;a0&gt;git@vger.kernel.org&lt;/a0&gt;&gt; ，其主要完成开发和维护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Report the names of files as they are moved.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T033601Z" creationid="Admin" creationdate="20171025T033601Z">
+        <seg>报告移动文件的名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11697,6 +11761,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Skip move or rename actions which would lead to an error condition.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T033417Z" creationid="Admin" creationdate="20171025T033417Z">
+        <seg>跳过移动或重命名可能导致错误状态的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some exit codes are:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112730Z" creationid="Admin" creationdate="20171023T112730Z">
@@ -12405,6 +12477,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084238Z" creationid="Admin" creationdate="20171023T084238Z">
         <seg>该 index 还能够存储给定路径名的多个条目(称为"stages")。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The index is updated after successful completion, but the change must still be committed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T023031Z" creationid="Admin" creationdate="20171025T023031Z">
+        <seg>索引在成功完成后更新，但仍必须提交更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13803,8 +13883,8 @@ C 风格引用的路径，删除前导和尾随的双引号，
       <tuv lang="EN-US">
         <seg>Use this option to unstage and remove paths only from the index.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T015734Z" creationid="Admin" creationdate="20171025T015734Z">
-        <seg>使用此选项可以从索引中取消暂存和移除路径。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T040828Z" creationid="Admin" creationdate="20171025T015734Z">
+        <seg>使用此选项可以从索引中取消暂存和移除文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14283,8 +14363,8 @@ C 风格引用的路径，删除前导和尾随的双引号，
       <tuv lang="EN-US">
         <seg>Working tree files, whether modified or not, will be left alone.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T015749Z" creationid="Admin" creationdate="20171025T015749Z">
-        <seg>工作树文件（无论是否修改）将被遗弃。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T040846Z" creationid="Admin" creationdate="20171025T015749Z">
+        <seg>工作树文件（无论是否修改）将被留下。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16535,6 +16615,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-mktree[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-mv - Move or rename a file, a directory, or a symlink</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T022844Z" creationid="Admin" creationdate="20171025T022844Z">
+        <seg>git-mv - 移动或重命名文件，目录或符号链接</seg>
       </tuv>
     </tu>
     <tu>
