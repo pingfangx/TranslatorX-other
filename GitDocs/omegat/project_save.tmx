@@ -5008,6 +5008,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;num&gt; specifies how many lines from the annotation, if any, are printed when using -l.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121718Z" creationid="Admin" creationdate="20171025T121718Z">
+        <seg>&lt;num&gt;指定在使用-l 时打印多少条注释（如果有）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;object&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -5832,6 +5840,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A GnuPG signed tag object will be created when &lt;c0&gt;-s&lt;/c0&gt; or &lt;c1&gt;-u &lt;keyid&gt;&lt;/c1&gt; is used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121512Z" creationid="Admin" creationdate="20171025T121512Z">
+        <seg>当使用 &lt;c0&gt;-s&lt;/c0&gt; 或 &lt;c1&gt;-u &lt;keyid&gt;&lt;/c1&gt; 时，将创建一个 GnuPG 签名的标签对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A command that takes a &lt;commit-ish&gt; argument ultimately wants to operate on a &lt;commit&gt; object but automatically dereferences &lt;tag&gt; objects that point at a &lt;commit&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T065736Z" creationid="Admin" creationdate="20171023T065736Z">
@@ -5988,6 +6004,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T100146Z" creationid="Admin" creationdate="20171024T100146Z">
         <seg>在提交日志消息结束时由提交者添加签名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a tag reference in &lt;c0&gt;refs/tags/&lt;/c0&gt;, unless &lt;c1&gt;-d/-l/-v&lt;/c1&gt; is given to delete, list or verify tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121400Z" creationid="Admin" creationdate="20171025T121400Z">
+        <seg>在 &lt;c0&gt;refs/tags/&lt;/c0&gt; 中添加一个标签引用，除非给出了删除，列出或验证标签的 &lt;c1&gt;-d/-l/-v&lt;/c1&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6332,6 +6356,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T085920Z" creationid="Admin" creationdate="20171020T085920Z">
         <seg>使用提交信息注释文件行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Annotated tags are meant for release while lightweight tags are meant for private or temporary object labels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121605Z" creationid="Admin" creationdate="20171025T121605Z">
+        <seg>注释标签用于发布，而轻量级标签用于私有或临时对象标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7377,6 +7409,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Delete existing tags with the given names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121701Z" creationid="Admin" creationdate="20171025T121701Z">
+        <seg>删除具有给定名称的现有标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Delete the "test" branch even if the "master" branch (or whichever branch is currently checked out) does not have all commits from the test branch.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T063347Z" creationid="Admin" creationdate="20171025T063248Z">
@@ -8177,6 +8217,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For this reason, some git commands for naming objects (like &lt;c0&gt;git describe&lt;/c0&gt;) will ignore lightweight tags by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121617Z" creationid="Admin" creationdate="20171025T121617Z">
+        <seg>为此，一些用于命名对象的 git 命令(如 &lt;c0&gt;git describe&lt;/c0&gt; )将默认忽略轻量级标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For writing options: write to global &lt;c0&gt;~/.gitconfig&lt;/c0&gt; file rather than the repository &lt;c1&gt;.git/config&lt;/c1&gt;, write to &lt;c2&gt;$XDG_CONFIG_HOME/git/config&lt;/c2&gt; file if this file exists and the &lt;c3&gt;~/.gitconfig&lt;/c3&gt; file doesn’t.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114002Z" creationid="Admin" creationdate="20171023T114002Z">
@@ -8833,6 +8881,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-tag Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121320Z" creationid="Admin" creationdate="20171025T121320Z">
+        <seg>Git - git-tag 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git Commits</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T072810Z" creationid="Admin" creationdate="20171023T072810Z">
@@ -9185,6 +9241,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;c0&gt;-m &lt;msg&gt;&lt;/c0&gt; or &lt;c1&gt;-F &lt;file&gt;&lt;/c1&gt; is given and &lt;c2&gt;-a&lt;/c2&gt;, &lt;c3&gt;-s&lt;/c3&gt;, and &lt;c4&gt;-u &lt;keyid&gt;&lt;/c4&gt; are absent, &lt;c5&gt;-a&lt;/c5&gt; is implied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121437Z" creationid="Admin" creationdate="20171025T121437Z">
+        <seg>如果给出了 &lt;c0&gt;-m &lt;msg&gt;&lt;/c0&gt; 或 &lt;c1&gt;-F &lt;file&gt;&lt;/c1&gt; ，并且 &lt;c2&gt;-a&lt;/c2&gt; ， &lt;c3&gt;-s&lt;/c3&gt; 和 &lt;c4&gt;-u &lt;keyid&gt;&lt;/c4&gt; 不存在， &lt;c5&gt;-a&lt;/c5&gt; 是隐含的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;c0&gt;GIT_DIR&lt;/c0&gt; environment is not set, it is set to the current working directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060627Z" creationid="Admin" creationdate="20171024T060627Z">
@@ -9393,6 +9457,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no number is given to &lt;c0&gt;-n&lt;/c0&gt;, only the first line is printed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121741Z" creationid="Admin" creationdate="20171025T121741Z">
+        <seg>如果没有数字被赋予 &lt;c0&gt;-n&lt;/c0&gt; ，则只打印第一行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no path is given, &lt;e0&gt;git&lt;/e0&gt; will print the current setting and then exit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070216Z" creationid="Admin" creationdate="20171020T070216Z">
@@ -9445,6 +9517,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085642Z" creationid="Admin" creationdate="20171025T085642Z">
         <seg>如果未指定，将使用索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If one of &lt;c0&gt;-a&lt;/c0&gt;, &lt;c1&gt;-s&lt;/c1&gt;, or &lt;c2&gt;-u &lt;keyid&gt;&lt;/c2&gt; is passed, the command creates a &lt;e3&gt;tag&lt;/e3&gt; object, and requires a tag message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121418Z" creationid="Admin" creationdate="20171025T121418Z">
+        <seg>如果传递 &lt;c0&gt;-a&lt;/c0&gt; ， &lt;c1&gt;-s&lt;/c1&gt; 或 &lt;c2&gt;-u &lt;keyid&gt;&lt;/c2&gt; 之一，则该命令将创建一个 &lt;e3&gt;tag&lt;/e3&gt; 对象，并且需要一个标签消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9629,6 +9709,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080055Z" creationid="Admin" creationdate="20171024T080055Z">
         <seg>如果省略了范围中的第二个数字，则将采取所有剩余的补丁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the tag is not annotated, the commit message is displayed instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121746Z" creationid="Admin" creationdate="20171025T121746Z">
+        <seg>如果标记未注释，则会显示提交消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10577,6 +10665,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>List tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121749Z" creationid="Admin" creationdate="20171025T121749Z">
+        <seg>列出标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>List the contents of a tree object</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092451Z" creationid="Admin" creationdate="20171020T092451Z">
@@ -10657,6 +10753,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Make a GPG-signed tag, using the default e-mail address’s key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121646Z" creationid="Admin" creationdate="20171025T121646Z">
+        <seg>使用默认的电子邮件地址键进行 GPG 签名的标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make a GPG-signed tag, using the given key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121649Z" creationid="Admin" creationdate="20171025T121649Z">
+        <seg>使用给定的密钥进行 GPG 签名的标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Make a commit by taking the updated working tree contents of the paths specified on the command line, disregarding any contents that have been staged for other paths.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T111954Z" creationid="Admin" creationdate="20171024T103105Z">
@@ -10669,6 +10781,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071614Z" creationid="Admin" creationdate="20171024T071614Z">
         <seg>使本地克隆从当前目录中借用，而无需检出：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make an unsigned, annotated tag object</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121638Z" creationid="Admin" creationdate="20171025T121638Z">
+        <seg>创建一个无符号的，带注释的标签对象</seg>
       </tuv>
     </tu>
     <tu>
@@ -10789,6 +10909,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102912Z" creationid="Admin" creationdate="20171023T102912Z">
         <seg>可以通过使用 &lt;c0&gt;--add&lt;/c0&gt; 选项将多行添加到选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multiple patterns may be given; if any of them matches, the tag is shown.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121830Z" creationid="Admin" creationdate="20171025T121830Z">
+        <seg>可以给出多种模式;如果其中任何一个匹配，则显示标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11041,6 +11169,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On Automatic following</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T122025Z" creationid="Admin" creationdate="20171025T122025Z">
+        <seg>自动跟随</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On Backdating Tags</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T122037Z" creationid="Admin" creationdate="20171025T122037Z">
+        <seg>回溯标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On Re-tagging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T122016Z" creationid="Admin" creationdate="20171025T122016Z">
+        <seg>重新标记</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On success, the command returns the exit code 0.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112918Z" creationid="Admin" creationdate="20171023T112918Z">
@@ -11173,6 +11325,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T102104Z" creationid="Admin" creationdate="20171024T102104Z">
         <seg>否则与 &lt;c1&gt;whitespace&lt;/c1&gt; 相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise just a tag reference for the SHA-1 object name of the commit object is created (i.e. a lightweight tag).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121506Z" creationid="Admin" creationdate="20171025T121506Z">
+        <seg>否则，将创建提交对象的 SHA-1对象名称的标签引用(即轻量级标记)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11777,6 +11937,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Replace an existing tag with the given name (instead of failing)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121655Z" creationid="Admin" creationdate="20171025T121655Z">
+        <seg>用给定的名称替换现有的标签(而不是失败)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Replace the tip of the current branch by creating a new commit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T102520Z" creationid="Admin" creationdate="20171024T102520Z">
@@ -11997,6 +12165,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070023Z" creationid="Admin" creationdate="20171024T070022Z">
         <seg>详细地运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running "git tag" without arguments also lists all tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121812Z" creationid="Admin" creationdate="20171025T121812Z">
+        <seg>运行没有参数的 "git tag" 也会列出所有标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12405,6 +12581,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T082144Z" creationid="Admin" creationdate="20171023T082144Z">
         <seg>有关详细信息，请参阅 &lt;a5&gt;git-config[1]&lt;/a5&gt; 中 &lt;c4&gt;protocol.allow&lt;/c4&gt; 的描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See the documentation for each of those options for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121841Z" creationid="Admin" creationdate="20171025T121841Z">
+        <seg>有关详细信息，请参阅每个选项的文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12969,6 +13153,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some of these checks may restrict the characters allowed in a tag name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121932Z" creationid="Admin" creationdate="20171025T121932Z">
+        <seg>其中一些检查可能会限制标签名称中允许的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some variables may appear multiple times; we say then that the variable is multivalued.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121404Z" creationid="Admin" creationdate="20171023T121404Z">
@@ -12997,6 +13189,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T062739Z" creationid="Admin" creationdate="20171025T062739Z">
         <seg>排序和过滤分支不区分大小写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sorting and filtering tags are case insensitive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121858Z" creationid="Admin" creationdate="20171025T121858Z">
+        <seg>排序和过滤标签不区分大小写。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13205,6 +13405,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104321Z" creationid="Admin" creationdate="20171025T104321Z">
         <seg>临时文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tag objects (created with &lt;c0&gt;-a&lt;/c0&gt;, &lt;c1&gt;-s&lt;/c1&gt;, or &lt;c2&gt;-u&lt;/c2&gt;) are called "annotated" tags; they contain a creation date, the tagger name and e-mail, a tagging message, and an optional GnuPG signature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121546Z" creationid="Admin" creationdate="20171025T121546Z">
+        <seg>标签对象(使用 &lt;c0&gt;-a&lt;/c0&gt; ， &lt;c1&gt;-s&lt;/c1&gt; 或 &lt;c2&gt;-u&lt;/c2&gt; 创建)被称为"annotated"标签;它们包含创建日期，标记名称和电子邮件，标记消息和可选的 GnuPG 签名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13697,6 +13905,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The configuration variable &lt;c3&gt;gpg.program&lt;/c3&gt; is used to specify custom GnuPG binary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121524Z" creationid="Admin" creationdate="20171025T121524Z">
+        <seg>配置变量 &lt;c3&gt;gpg.program&lt;/c3&gt; 用于指定自定义 GnuPG 二进制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The configuration variables are used by both the Git plumbing and the porcelains.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121310Z" creationid="Admin" creationdate="20171023T121310Z">
@@ -13741,6 +13957,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T112205Z" creationid="Admin" creationdate="20171024T112205Z">
         <seg>可以使用 &lt;a0&gt;git-config[1]&lt;/a0&gt; 中记录的 status.showUntrackedFiles 配置变量来更改默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default is not to print any annotation lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121736Z" creationid="Admin" creationdate="20171025T121736Z">
+        <seg>默认情况下不打印任何注解行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14049,6 +14273,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the tag to create, delete, or describe.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121921Z" creationid="Admin" creationdate="20171025T121921Z">
+        <seg>要创建，删除或描述的标签的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The new branch head will point to this commit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T062947Z" creationid="Admin" creationdate="20171025T062947Z">
@@ -14081,6 +14313,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The new tag name must pass all checks defined by &lt;a0&gt;git-check-ref-format[1]&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121927Z" creationid="Admin" creationdate="20171025T121927Z">
+        <seg>新的标签名称必须通过由 &lt;a0&gt;git-check-ref-format[1]&lt;/a0&gt; 定义的所有检查。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The next &lt;e0&gt;fetch&lt;/e0&gt; or &lt;e1&gt;pull&lt;/e1&gt; will create them again unless you configure them not to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T063202Z" creationid="Admin" creationdate="20171025T063202Z">
@@ -14093,6 +14333,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083048Z" creationid="Admin" creationdate="20171023T083048Z">
         <seg>对象数据库包含三种主要类型的对象：保存文件数据的 blob ; 指向 blob 和其他树来建立目录层次结构的树（tree）; 以及引用单个树和一些父提交的提交（commit）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The object that the new tag will refer to, usually a commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121939Z" creationid="Admin" creationdate="20171025T121939Z">
+        <seg>新标签将引用的对象，通常是提交。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14133,6 +14381,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T114002Z" creationid="Admin" creationdate="20171024T114002Z">
         <seg>解析器也接受一个空格而不是 &lt;c1&gt;T&lt;/c1&gt; 字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The pattern is a shell wildcard (i.e., matched using fnmatch(3)).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121825Z" creationid="Admin" creationdate="20171025T121825Z">
+        <seg>该模式是一个 shell 通配符（即使用 fnmatch(3) 进行匹配）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15105,6 +15361,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This option is implicitly supplied if any other list-like option such as &lt;c0&gt;--contains&lt;/c0&gt; is provided.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121837Z" creationid="Admin" creationdate="20171025T121837Z">
+        <seg>如果提供了任何其他类似列表的选项（如 &lt;c0&gt;--contains&lt;/c0&gt; ），则会隐式提供此选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This option is primarily to help users who are used to older versions of Git, whose "git add &lt;pathspec&gt;…​" was a synonym for "git add --no-all &lt;pathspec&gt;…​", i.e. ignored removed files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074411Z" creationid="Admin" creationdate="20171024T074411Z">
@@ -15433,6 +15697,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unless &lt;c0&gt;-f&lt;/c0&gt; is given, the named tag must not yet exist.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121406Z" creationid="Admin" creationdate="20171025T121406Z">
+        <seg>除非给出 &lt;c0&gt;-f&lt;/c0&gt; ，否则命名标签不能存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unless &lt;c4&gt;-m &lt;msg&gt;&lt;/c4&gt; or &lt;c5&gt;-F &lt;file&gt;&lt;/c5&gt; is given, an editor is started for the user to type in the tag message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121425Z" creationid="Admin" creationdate="20171025T121425Z">
+        <seg>除非给出了 &lt;c4&gt;-m &lt;msg&gt;&lt;/c4&gt; 或 &lt;c5&gt;-F &lt;file&gt;&lt;/c5&gt; ，否则将启动一个编辑器，供用户键入标签消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unlike &lt;c1&gt;pop&lt;/c1&gt;, &lt;c2&gt;&lt;stash&gt;&lt;/c2&gt; may be any commit that looks like a commit created by &lt;c3&gt;stash save&lt;/c3&gt; or &lt;c4&gt;stash create&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120552Z" creationid="Admin" creationdate="20171025T120552Z">
@@ -15753,6 +16033,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Verify the GPG signature of the given tag names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121710Z" creationid="Admin" creationdate="20171025T121710Z">
+        <seg>验证给定标签名称的 GPG 签名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Videos</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023712Z">
@@ -15797,6 +16085,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T085908Z" creationid="Admin" creationdate="20171024T085908Z">
         <seg>当使用 &lt;c0&gt;-p&lt;/c0&gt; 选项运行“git-diff-index”，“git-diff-tree”或“git-diff-files”时，“git diff”不带 &lt;c1&gt;--raw&lt;/c1&gt; 选项或“git log”与“-p”选项，它们不产生上述输出;而是产生补丁文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When &lt;c2&gt;-u &lt;keyid&gt;&lt;/c2&gt; is not used, the committer identity for the current user is used to find the GnuPG key for signing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121520Z" creationid="Admin" creationdate="20171025T121520Z">
+        <seg>当不使用 &lt;c2&gt;-u &lt;keyid&gt;&lt;/c2&gt; 时，当前用户的提交者身份用于查找用于签名的 GnuPG 密钥。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16121,6 +16417,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whereas a "lightweight" tag is simply a name for an object (usually a commit object).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121554Z" creationid="Admin" creationdate="20171025T121554Z">
+        <seg>而"轻量级"标签只是一个对象的名称(通常是提交对象)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether to skip reading settings from the system-wide $(prefix)/etc/gitconfig file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121124Z" creationid="Admin" creationdate="20171023T121124Z">
@@ -16197,6 +16501,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T062812Z" creationid="Admin" creationdate="20171025T062812Z">
         <seg>使用可选的 &lt;c0&gt;&lt;pattern&gt;...&lt;/c0&gt; ，例如 &lt;c1&gt;git branch --list 'maint-*' &lt;/c1&gt; 仅列出与模式匹配的分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With optional &lt;c0&gt;&lt;pattern&gt;...&lt;/c0&gt;, e.g. &lt;c1&gt;git tag --list 'v-*'&lt;/c1&gt;, list only the tags that match the pattern(s).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121758Z" creationid="Admin" creationdate="20171025T121758Z">
+        <seg>使用可选的 &lt;c0&gt;&lt;pattern&gt;...&lt;/c0&gt; ，例如 &lt;c1&gt;git tag --list 'v-*' &lt;/c1&gt; ，仅列出与模式匹配的标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19335,6 +19647,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-symbolic-ref[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-tag - Create, list, delete or verify a tag object signed with GPG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121331Z" creationid="Admin" creationdate="20171025T121331Z">
+        <seg>git-tag - 创建，列出，删除或使用 GPG 签名检验标签对象</seg>
       </tuv>
     </tu>
     <tu>
