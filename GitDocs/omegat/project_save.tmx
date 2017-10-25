@@ -4936,6 +4936,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e1&gt;git merge --abort&lt;/e1&gt; will abort the merge process and try to reconstruct the pre-merge state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091947Z" creationid="Admin" creationdate="20171025T091947Z">
+        <seg>&lt;e1&gt;git merge --abort&lt;/e1&gt; 将中止合并进程，并尝试重构合并前状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;file&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -5712,6 +5720,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Warning&lt;/s0&gt;: Running &lt;e1&gt;git merge&lt;/e1&gt; with non-trivial uncommitted changes is discouraged: while possible, it may leave you in a state that is hard to back out of in the case of a conflict.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T092230Z" creationid="Admin" creationdate="20171025T092230Z">
+        <seg>&lt;s0&gt;警告&lt;/s0&gt; ：带有非琐碎的未提交的更改，运行 &lt;e1&gt;git merge&lt;/e1&gt; 是不鼓励的：它可能会使您因冲突处于难以返回的状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;&lt;e3&gt;git config&lt;/e3&gt; will only ever change one file at a time&lt;/s2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120926Z" creationid="Admin" creationdate="20171023T120926Z">
@@ -6356,6 +6372,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115629Z" creationid="Admin" creationdate="20171024T115629Z">
         <seg>与记录您自己的更改的情况一样，您可以使用 &lt;c0&gt;-a&lt;/c0&gt; 选项来保存打字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assume the following history exists and the current branch is "&lt;c0&gt;master&lt;/c0&gt;":</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091642Z" creationid="Admin" creationdate="20171025T091642Z">
+        <seg>假设存在以下历史记录，当前分支是"&lt;c0&gt;master&lt;/c0&gt;"：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8569,6 +8593,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-merge Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091302Z" creationid="Admin" creationdate="20171025T091302Z">
+        <seg>Git - git-merge 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-mv Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T022819Z" creationid="Admin" creationdate="20171025T022819Z">
@@ -8829,6 +8861,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T072332Z" creationid="Admin" creationdate="20171023T072332Z">
         <seg>但是，如果这个访问速度很慢，您可以向列表中添加一个空条目，告诉 Git 后续条目不是符号链接，不需要解析;如 &lt;c0&gt;GIT_CEILING_DIRECTORIES=/maybe/symlink::/very/slow/non/symlink&lt;/c0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, if there were uncommitted changes when the merge started (and especially if those changes were further modified after the merge was started), &lt;e2&gt;git merge --abort&lt;/e2&gt; will in some cases be unable to reconstruct the original (pre-merge) changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T092015Z" creationid="Admin" creationdate="20171025T092015Z">
+        <seg>但是，如果在合并开始时有未提交的更改(特别是如果这些更改在合并开始后进一步修改)， &lt;e2&gt;git merge --abort&lt;/e2&gt; 将在某些情况下无法重建原始(预合并)更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9761,6 +9801,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091617Z" creationid="Admin" creationdate="20171025T091617Z">
+        <seg>将来自指定提交的变化合并(自从他们的历史从当前分支分离)到当前分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Indicates a blob object name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T065816Z" creationid="Admin" creationdate="20171023T065255Z">
@@ -10349,6 +10397,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T085534Z" creationid="Admin" creationdate="20171020T085534Z">
         <seg>操纵命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Merge branch &lt;c0&gt;maint&lt;/c0&gt; into the current branch, but do not make a new commit automatically:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T093739Z" creationid="Admin" creationdate="20171025T093739Z">
+        <seg>将分支 &lt;c0&gt;maint&lt;/c0&gt; 合并到当前分支中，但不要自动进行新的提交：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Merge branch &lt;c0&gt;obsolete&lt;/c0&gt; into the current branch, using &lt;c1&gt;ours&lt;/c1&gt; merge strategy:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T093730Z" creationid="Admin" creationdate="20171025T093730Z">
+        <seg>合并分支 &lt;c0&gt;obsolete&lt;/c0&gt; 到当前分支，使用 &lt;c1&gt;ours&lt;/c1&gt; 合并策略：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Merge branches &lt;c0&gt;fixes&lt;/c0&gt; and &lt;c1&gt;enhancements&lt;/c1&gt; on top of the current branch, making an octopus merge:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T093608Z" creationid="Admin" creationdate="20171025T093608Z">
+        <seg>合并分支 &lt;c0&gt;fixes&lt;/c0&gt; 和 &lt;c1&gt;enhancements&lt;/c1&gt; 在当前分支的顶部，做 octopus 合并：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12329,6 +12401,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Small fixups like bumping release/version name would be acceptable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T094020Z" creationid="Admin" creationdate="20171025T094020Z">
+        <seg>小修复，如碰撞释放/版本名称将是可以接受的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some exit codes are:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112730Z" creationid="Admin" creationdate="20171023T112730Z">
@@ -13129,6 +13209,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The fourth syntax ("&lt;c0&gt;git merge --continue&lt;/c0&gt;") can only be run after the merge has resulted in conflicts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T092327Z" creationid="Admin" creationdate="20171025T092327Z">
+        <seg>第四个语法("&lt;c0&gt;git merge --continue&lt;/c0&gt;")只能在冲突合并有结果后运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The index file is initialized with a list of all paths and, for each path, a blob object and a set of attributes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083815Z" creationid="Admin" creationdate="20171023T083815Z">
@@ -13425,6 +13513,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The second syntax ("&lt;c0&gt;git merge --abort&lt;/c0&gt;") can only be run after the merge has resulted in conflicts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091939Z" creationid="Admin" creationdate="20171025T091939Z">
+        <seg>第二个语法("&lt;c0&gt;git merge --abort&lt;/c0&gt;")只能在合并导致冲突后运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The section or key is invalid (ret=1),</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112818Z" creationid="Admin" creationdate="20171023T112749Z">
@@ -13537,6 +13633,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then "&lt;c0&gt;git merge topic&lt;/c0&gt;" will replay the changes made on the &lt;c1&gt;topic&lt;/c1&gt; branch since it diverged from &lt;c2&gt;master&lt;/c2&gt; (i.e., &lt;c3&gt;E&lt;/c3&gt;) until its current commit (&lt;c4&gt;C&lt;/c4&gt;) on top of &lt;c5&gt;master&lt;/c5&gt;, and record the result in a new commit along with the names of the two parent commits and a log message from the user describing the changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091929Z" creationid="Admin" creationdate="20171025T091815Z">
+        <seg>"&lt;c0&gt;git merge topic&lt;/c0&gt;"将在&lt;c5&gt;master&lt;/c5&gt; 之上重播 &lt;c1&gt;topic&lt;/c1&gt; 分支上所做的更改，从它与 &lt;c2&gt;master&lt;/c2&gt; 分离(即 &lt;c3&gt;E&lt;/c3&gt; )，直到它的当前提交( &lt;c4&gt;C&lt;/c4&gt; )，并将结果记录在一个新的提交中，有两个父提交的名称和一个用户描述更改的日志消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are also more complex operations that can be performed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081949Z" creationid="Admin" creationdate="20171024T081949Z">
@@ -13557,6 +13661,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T020259Z" creationid="Admin" creationdate="20171025T020259Z">
         <seg>&lt;c0&gt;git rm&lt;/c0&gt; 没有选项可以从索引中移除已从文件系统中消失的路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T092019Z" creationid="Admin" creationdate="20171025T092019Z">
+        <seg>因此：</seg>
       </tuv>
     </tu>
     <tu>
@@ -13673,6 +13785,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be used when you want to include further changes to the merge, or want to write your own merge commit message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T093758Z" creationid="Admin" creationdate="20171025T093758Z">
+        <seg>当您想要对合并进行进一步更改时，或者想要自己编写合并提交消息，可以使用此选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can help with debugging object negotiation or other protocol issues.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080106Z" creationid="Admin" creationdate="20171023T080106Z">
@@ -13701,6 +13821,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T043020Z" creationid="Admin" creationdate="20171024T043020Z">
         <seg>此命令创建一个空的 Git 仓库 - 基本上是一个 &lt;c0&gt;.git&lt;/c0&gt; 目录，其目录包含 &lt;c1&gt;objects&lt;/c1&gt; ， &lt;c2&gt;refs/heads&lt;/c2&gt; ，&lt;c3&gt;refs/tags &lt;/c3&gt;和模板文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command is used by &lt;e0&gt;git pull&lt;/e0&gt; to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091634Z" creationid="Admin" creationdate="20171025T091634Z">
+        <seg>该命令由 &lt;e0&gt;git pull&lt;/e0&gt; 用于包含来自另一个仓库的更改，可以手动使用将一个分支的更改合并到另一个分支。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15533,6 +15661,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T081921Z" creationid="Admin" creationdate="20171023T081921Z">
         <seg>您不需要自己设置，除非您想要确保操作是否已触及每个引用(例如，因为您正在克隆仓库进行备份)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should refrain from abusing this option to sneak substantial changes into a merge commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T094003Z" creationid="Admin" creationdate="20171025T094003Z">
+        <seg>您不应该滥用此选项来将大量更改潜入到合并提交中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17455,6 +17591,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-mailsplit[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-merge - Join two or more development histories together</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091455Z" creationid="Admin" creationdate="20171025T091455Z">
+        <seg>git-merge - 合并两个或多个开发历史</seg>
       </tuv>
     </tu>
     <tu>
