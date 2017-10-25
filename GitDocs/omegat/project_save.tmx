@@ -4786,6 +4786,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git checkout&lt;/e0&gt; with &lt;paths&gt; or &lt;c1&gt;--patch&lt;/c1&gt; is used to restore modified or deleted paths to their original contents from the index or replace paths with the contents from a named &lt;tree-ish&gt; (most often a commit-ish).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070005Z" creationid="Admin" creationdate="20171025T070005Z">
+        <seg>&lt;e0&gt;git checkout&lt;/e0&gt; 带 &lt;paths&gt; 或 &lt;c1&gt;--patch&lt;/c1&gt; 用于从索引中的将修改或删除的文件恢复到其原始内容，或者使用指定的&lt;tree-ish&gt;(最常见的是 commit-ish)替换文件内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;git clone&lt;/e0&gt; [--template=&lt;template_directory&gt;]
 	  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]
 	  [-o &lt;name&gt;] [-b &lt;name&gt;] [-u &lt;upload-pack&gt;] [--reference &lt;repository&gt;]
@@ -6080,6 +6088,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After this three-way merge, the local modifications are &lt;e0&gt;not&lt;/e0&gt; registered in your index file, so &lt;c1&gt;git diff&lt;/c1&gt; would show you what changes you made since the tip of the new branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T090118Z" creationid="Admin" creationdate="20171025T090118Z">
+        <seg>在这种三路合并之后，本地的修改 &lt;e0&gt;没有&lt;/e0&gt; 在您的索引文件中注册，所以 &lt;c1&gt;git diff&lt;/c1&gt; 将显示您从新分支的提示之后所做的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After working in the wrong branch, switching to the correct branch would be done using:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T090008Z" creationid="Admin" creationdate="20171025T090008Z">
+        <seg>在错误的分支工作后，切换到正确的分支将使用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After you mastered the basic concepts, you can come back to this page to learn what commands Git offers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T050418Z" creationid="Admin" creationdate="20171020T050418Z">
@@ -6304,10 +6328,42 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a convenience, &lt;c5&gt;--track&lt;/c5&gt; without &lt;c6&gt;-b&lt;/c6&gt; implies branch creation; see the description of &lt;c7&gt;--track&lt;/c7&gt; below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064940Z" creationid="Admin" creationdate="20171025T064940Z">
+        <seg>为方便起见，没有 &lt;c6&gt;-b&lt;/c6&gt; 的 &lt;c5&gt;--track&lt;/c5&gt; 意味着分支创建;请参阅下面的 &lt;c7&gt;--track&lt;/c7&gt; 的说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As a further special case, you may use &lt;c0&gt;"A...B"&lt;/c0&gt; as a shortcut for the merge base of &lt;c1&gt;A&lt;/c1&gt; and &lt;c2&gt;B&lt;/c2&gt; if there is exactly one merge base.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085436Z" creationid="Admin" creationdate="20171025T085436Z">
+        <seg>作为另一个特殊情况，您可以使用 &lt;c0&gt;"A...B"&lt;/c0&gt; 作为 &lt;c1&gt;A&lt;/c1&gt; 和 &lt;c2&gt;B&lt;/c2&gt; 的合并基的快捷方式，如果只有一个合并基。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As a special case, the &lt;c0&gt;"@{-N}"&lt;/c0&gt; syntax for the N-th last branch/commit checks out branches (instead of detaching).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085359Z" creationid="Admin" creationdate="20171025T085359Z">
+        <seg>作为特殊情况，&lt;c0&gt;"@{-N}"&lt;/c0&gt; 语法检出第 N 个最后的分支/提交为分支(而不是分离)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As with the case to record your own changes, you can use &lt;c0&gt;-a&lt;/c0&gt; option to save typing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115629Z" creationid="Admin" creationdate="20171024T115629Z">
         <seg>与记录您自己的更改的情况一样，您可以使用 &lt;c0&gt;-a&lt;/c0&gt; 选项来保存打字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At this point, &lt;c0&gt;git diff&lt;/c0&gt; shows the changes cleanly merged as in the previous example, as well as the changes in the conflicted files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T090133Z" creationid="Admin" creationdate="20171025T090133Z">
+        <seg>在这一点上， &lt;c0&gt;git diff&lt;/c0&gt; 显示了像上一个例子中那样干净地合并的更改以及冲突文件的更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6456,6 +6512,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Branch to checkout; if it refers to a branch (i.e., a name that, when prepended with "refs/heads/", is a valid ref), then that branch is checked out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T083645Z" creationid="Admin" creationdate="20171025T083645Z">
+        <seg>要检出的分支，如果它引用一个分支（即一个前缀 "refs/heads/" 的有效的引用名)，将会检出那个分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Branching and Merging</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023943Z">
@@ -6508,6 +6572,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074559Z" creationid="Admin" creationdate="20171024T074559Z">
         <seg>默认情况下，在向索引添加嵌入式仓库时，将不会使用 &lt;c1&gt;git submodule add&lt;/c1&gt; 在 &lt;c2&gt;.gitmodules&lt;/c2&gt; 中创建一个条目时，将会警告 &lt;c0&gt;git add&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, if you try to check out such an entry from the index, the checkout operation will fail and nothing will be checked out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070031Z" creationid="Admin" creationdate="20171025T070031Z">
+        <seg>默认情况下，如果您尝试从索引中检出这样的条目，则检出操作将失败，并且不会检出任何内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6913,6 +6985,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a new branch named &lt;new_branch&gt; and start it at &lt;start_point&gt;; see &lt;a0&gt;git-branch[1]&lt;/a0&gt; for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070156Z" creationid="Admin" creationdate="20171025T070156Z">
+        <seg>创建一个名为&lt;new_branch&gt;的新分支，并从&lt;start_point&gt;开始;详见 &lt;a0&gt;git-branch[1]&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a new commit object</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T091915Z" creationid="Admin" creationdate="20171020T091915Z">
@@ -7001,6 +7081,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creates the branch &lt;new_branch&gt; and start it at &lt;start_point&gt;; if it already exists, then reset it to &lt;start_point&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070208Z" creationid="Admin" creationdate="20171025T070208Z">
+        <seg>创建分支&lt;new_branch&gt;并在&lt;start_point&gt;启动它;如果它已经存在，则将其重置为&lt;start_point&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Currently for internal use only.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072525Z" creationid="Admin" creationdate="20171020T072525Z">
@@ -7077,6 +7165,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120145Z" creationid="Admin" creationdate="20171023T120145Z">
         <seg>默认为  &lt;c1&gt;off&lt;/c1&gt; 当给定特定文件(例如，使用 &lt;c2&gt;--file&lt;/c2&gt; ， &lt;c3&gt;--global&lt;/c3&gt; 等)时，当搜索所有配置文件时为 &lt;c4&gt;on&lt;/c4&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defaults to HEAD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085522Z" creationid="Admin" creationdate="20171025T085522Z">
+        <seg>默认为 HEAD。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7425,6 +7521,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121130Z" creationid="Admin" creationdate="20171023T121130Z">
         <seg>例子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit and resolve the conflict and mark it resolved with &lt;c1&gt;git add&lt;/c1&gt; as usual:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T090206Z" creationid="Admin" creationdate="20171025T090206Z">
+        <seg>修改并解决冲突，并按照常规使用 &lt;c1&gt;git add&lt;/c1&gt; 将其标记为已解决:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8409,6 +8513,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-checkout Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T063916Z" creationid="Admin" creationdate="20171025T063916Z">
+        <seg>Git - git-checkout 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-clone Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T062354Z" creationid="Admin" creationdate="20171024T062354Z">
@@ -8745,6 +8857,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, your "wrong" branch and correct "mytopic" branch may differ in files that you have modified locally, in which case the above checkout would fail like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T090026Z" creationid="Admin" creationdate="20171025T090026Z">
+        <seg>但是，您的“错误”分支和正确的“mytopic”分支可能会在您在本地进行修改的文件中有所不同，在这种情况下，上述检出将会失败：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IE=edge,chrome=1</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8769,10 +8889,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;branch&gt; is not found but there does exist a tracking branch in exactly one remote (call it &lt;remote&gt;) with a matching name, treat as equivalent to</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064317Z" creationid="Admin" creationdate="20171025T064317Z">
+        <seg>如果没有找到&lt;branch&gt;，但确切存在一个跟踪分支在一个远程(称之为&lt;remote&gt;)与一个匹配的名称，被视为等同于</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;c0&gt;--list&lt;/c0&gt; is given, or if there are no non-option arguments, existing branches are listed; the current branch will be highlighted with an asterisk.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061002Z" creationid="Admin" creationdate="20171025T061002Z">
         <seg>如果给出了 &lt;c0&gt;--list&lt;/c0&gt; ，或者如果没有非选项参数，则列出现有的分支;当前分支将以星号突出显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If &lt;c0&gt;-B&lt;/c0&gt; is given, &lt;new_branch&gt; is created if it doesn’t exist; otherwise, it is reset.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065013Z" creationid="Admin" creationdate="20171025T065013Z">
+        <seg>如果给出了 &lt;c0&gt;-B&lt;/c0&gt; ，若不存在 &lt;new_branch&gt; 将被创建;否则，它被重置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8993,6 +9129,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no paths are given, &lt;e0&gt;git checkout&lt;/e0&gt; will also update &lt;c1&gt;HEAD&lt;/c1&gt; to set the specified branch as the current branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064207Z" creationid="Admin" creationdate="20171025T064207Z">
+        <seg>如果没有给出路径，则 &lt;e0&gt;git checkout&lt;/e0&gt; 也会更新 &lt;c1&gt;HEAD&lt;/c1&gt; ，将指定的分支设置为当前分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no type specifier is passed, no checks or transformations are performed on the value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T112414Z" creationid="Admin" creationdate="20171023T112414Z">
@@ -9021,6 +9165,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070801Z" creationid="Admin" creationdate="20171023T070801Z">
         <seg>如果未指定，则使用默认值 &lt;c0&gt;$GIT_DIR/index&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If not specified, the index will be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085642Z" creationid="Admin" creationdate="20171025T085642Z">
+        <seg>如果未指定，将使用索引。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9313,6 +9465,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have an unfortunate branch that is named &lt;c0&gt;hello.c&lt;/c0&gt;, this step would be confused as an instruction to switch to that branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085947Z" creationid="Admin" creationdate="20171025T085947Z">
+        <seg>如果你有一个不幸的分支，名为 &lt;c0&gt;hello.c&lt;/c0&gt; ，这个步骤将被混淆为一个指令切换到该分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you intend that your next commit should record all modifications of tracked files in the working tree and record all removals of files that have been removed from the working tree with &lt;c0&gt;rm&lt;/c0&gt; (as opposed to &lt;c1&gt;git rm&lt;/c1&gt;), use &lt;c2&gt;git commit -a&lt;/c2&gt;, as it will automatically notice and record all removals.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T020712Z" creationid="Admin" creationdate="20171025T020712Z">
@@ -9341,6 +9501,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081215Z" creationid="Admin" creationdate="20171024T081215Z">
         <seg>如果要完全中止操作(即索引中没有新功能)，只需删除补丁的所有行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to check out &lt;e0&gt;all&lt;/e0&gt; C source files out of the index, you can say</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085854Z" creationid="Admin" creationdate="20171025T085854Z">
+        <seg>如果你想从索引中检出 &lt;e0&gt;全部&lt;/e0&gt; C 源文件，你可以说</seg>
       </tuv>
     </tu>
     <tu>
@@ -9561,6 +9729,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case you can use the &lt;c2&gt;--track&lt;/c2&gt; or &lt;c3&gt;--no-track&lt;/c3&gt; options, which will be passed to &lt;e4&gt;git branch&lt;/e4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064927Z" creationid="Admin" creationdate="20171025T064927Z">
+        <seg>在这种情况下，您可以使用将被传递给 &lt;e4&gt;git branch&lt;/e4&gt; 的 &lt;c2&gt;--track&lt;/c2&gt; 或 &lt;c3&gt;--no-track&lt;/c3&gt; 选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case, the &lt;c3&gt;-b&lt;/c3&gt; and &lt;c4&gt;--track&lt;/c4&gt; options are meaningless and giving either of them results in an error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065752Z" creationid="Admin" creationdate="20171025T065752Z">
+        <seg>在这种情况下， &lt;c3&gt;-b&lt;/c3&gt; 和 &lt;c4&gt;--track&lt;/c4&gt; 选项是无意义的，并且给出其中任何一个会导致错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Include the output of &lt;a0&gt;git-status[1]&lt;/a0&gt; in the commit message template when using an editor to prepare the commit message.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T112429Z" creationid="Admin" creationdate="20171024T112429Z">
@@ -9737,6 +9921,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Interactively select hunks in the difference between the &lt;tree-ish&gt; (or the index, if unspecified) and the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070323Z" creationid="Admin" creationdate="20171025T070323Z">
+        <seg>在&lt;tree-ish&gt;(或索引，如果未指定)和工作树之间的差异中交互选择 hunks。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Interactively select hunks in the difference between the index and &lt;tree-ish&gt; (defaults to HEAD).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122356Z" creationid="Admin" creationdate="20171024T122356Z">
@@ -9869,6 +10061,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073048Z" creationid="Admin" creationdate="20171024T073048Z">
         <seg>它通常将现有路径的当前内容作为一个整体添加，但是通过一些选项，它也可以用于仅添加对应用的工作树文件所做更改的一部分内容，或移除工作树中不存在的路径了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It updates the named paths in the working tree from the index file or from a named &lt;tree-ish&gt; (most often a commit).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065742Z" creationid="Admin" creationdate="20171025T065742Z">
+        <seg>它从索引文件或指定的&lt;tree-ish&gt;(通常是提交)更新工作树中的指定路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10049,6 +10249,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Local modifications to the files in the working tree are kept, so that the resulting working tree will be the state recorded in the commit plus the local modifications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065348Z" creationid="Admin" creationdate="20171025T065348Z">
+        <seg>对工作树中的文件进行本地修改会保留，所以生成的工作树的状态将是提交中的记录加上本地修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Local modifications to the files in the working tree are kept, so that they can be committed to the &lt;branch&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064254Z" creationid="Admin" creationdate="20171025T064254Z">
+        <seg>保留对工作树中文件的本地修改，以便它们可以被提交到&lt;branch&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Logos</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023817Z">
@@ -10209,6 +10425,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Name for the new branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085501Z" creationid="Admin" creationdate="20171025T085501Z">
+        <seg>新分支的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Named pointers called refs mark interesting points in history.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085629Z" creationid="Admin" creationdate="20171023T083535Z">
@@ -10345,6 +10569,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note the quotes around &lt;c0&gt;*.c&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085914Z" creationid="Admin" creationdate="20171025T085914Z">
+        <seg>注意 &lt;c0&gt;*.c&lt;/c0&gt; 周围的引号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note, that it only makes sense to delete remote-tracking branches if they no longer exist in the remote repository or if &lt;e2&gt;git fetch&lt;/e2&gt; was configured not to fetch them again.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T062017Z" creationid="Admin" creationdate="20171025T062017Z">
@@ -10373,6 +10605,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T050608Z" creationid="Admin" creationdate="20171020T050608Z">
         <seg>选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Omitting &lt;branch&gt; detaches HEAD at the tip of the current branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065641Z" creationid="Admin" creationdate="20171025T065641Z">
+        <seg>省略&lt;branch&gt;分离当前分支的尖端的 HEAD。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10509,6 +10749,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T102104Z" creationid="Admin" creationdate="20171024T102104Z">
         <seg>否则与 &lt;c1&gt;whitespace&lt;/c1&gt; 相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, if it refers to a valid commit, your HEAD becomes "detached" and you are no longer on any branch (see below for details).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085220Z" creationid="Admin" creationdate="20171025T085220Z">
+        <seg>否则，如果它引用一个有效的提交，您的 HEAD 变为"分离"，并且您不再处于任何分支(有关详细信息，请参阅下文)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10709,6 +10957,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074653Z" creationid="Admin" creationdate="20171020T074653Z">
         <seg>准备补丁以提交电子邮件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Prepare to work on top of &lt;commit&gt;, by detaching HEAD at it (see "DETACHED HEAD" section), and updating the index and the files in the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065144Z" creationid="Admin" creationdate="20171025T065144Z">
+        <seg>准备在&lt;commit&gt;之上工作，通过分离 HEAD(参见"DETACHED HEAD"部分)，并更新索引和工作树中的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11657,6 +11913,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See the “Interactive Mode” section of &lt;a1&gt;git-add[1]&lt;/a1&gt; to learn how to operate the &lt;c2&gt;--patch&lt;/c2&gt; mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070900Z" creationid="Admin" creationdate="20171025T070900Z">
+        <seg>请参阅 &lt;a1&gt;git-add[1]&lt;/a1&gt; 的“交互模式”部分，了解如何操作 &lt;c2&gt;--patch&lt;/c2&gt; 模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See the “Interactive Mode” section of &lt;a1&gt;git-add[1]&lt;/a1&gt; to learn how to operate these modes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T093843Z" creationid="Admin" creationdate="20171024T093843Z">
@@ -12129,6 +12393,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifying &lt;c0&gt;-b&lt;/c0&gt; causes a new branch to be created as if &lt;a1&gt;git-branch[1]&lt;/a1&gt; were called and then checked out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064916Z" creationid="Admin" creationdate="20171025T064916Z">
+        <seg>指定 &lt;c0&gt;-b&lt;/c0&gt; 将创建一个新的分支，就像调用了 &lt;a1&gt;git-branch[1]&lt;/a1&gt; ，然后检出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specifying &lt;c1&gt;--no-local&lt;/c1&gt; will override the default when &lt;c2&gt;/path/to/repo&lt;/c2&gt; is given, using the regular Git transport instead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065735Z" creationid="Admin" creationdate="20171024T065735Z">
@@ -12529,6 +12801,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;tree-ish&gt; argument can be used to specify a specific tree-ish (i.e. commit, tag or tree) to update the index for the given paths before updating the working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065830Z" creationid="Admin" creationdate="20171025T065830Z">
+        <seg>在更新工作树之前，可以使用&lt;tree-ish&gt;参数来指定特定的 tree-ish (即提交，标签或树)来更新给定路径的索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;tree-ish&gt;/&lt;commit&gt; defaults to HEAD in all forms.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122054Z" creationid="Admin" creationdate="20171024T122054Z">
@@ -12605,6 +12885,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122425Z" creationid="Admin" creationdate="20171024T122425Z">
         <seg>所选的块反向应用到索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The chosen hunks are then applied in reverse to the working tree (and if a &lt;tree-ish&gt; was specified, the index).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070332Z" creationid="Admin" creationdate="20171025T070332Z">
+        <seg>然后将所选择的 hunks 反向应用于工作树(并且如果指定了&lt;tree-ish&gt;，则为索引)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12705,6 +12993,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The contents from a specific side of the merge can be checked out of the index by using &lt;c1&gt;--ours&lt;/c1&gt; or &lt;c2&gt;--theirs&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070053Z" creationid="Admin" creationdate="20171025T070053Z">
+        <seg>通过使用 &lt;c1&gt;--ours&lt;/c1&gt; 或 &lt;c2&gt;--theirs&lt;/c2&gt; ，可以从索引中检出合并特定方面的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The contents of these files are also staged for the next commit on top of what have been staged before.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T113113Z" creationid="Admin" creationdate="20171024T113045Z">
@@ -12749,6 +13045,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074624Z" creationid="Admin" creationdate="20171024T074624Z">
         <seg>可执行位只在索引中更改，磁盘上的文件保持不变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The file &lt;c1&gt;hello.c&lt;/c1&gt; will also be checked out, even though it is no longer in the working tree, because the file globbing is used to match entries in the index (not in the working tree by the shell).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085936Z" creationid="Admin" creationdate="20171025T085936Z">
+        <seg>文件 &lt;c1&gt;hello.c&lt;/c1&gt; 也将被检出，即使它不再在工作树中，因为文件 globbing 用于匹配索引中的条目（不在工作树中的 shell） ）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12817,6 +13121,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following sequence checks out the &lt;c0&gt;master&lt;/c0&gt; branch, reverts the &lt;c1&gt;Makefile&lt;/c1&gt; to two revisions back, deletes hello.c by mistake, and gets it back from the index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085820Z" creationid="Admin" creationdate="20171025T085820Z">
+        <seg>以下顺序检出 &lt;c0&gt;master&lt;/c0&gt; 分支，将 &lt;c1&gt;Makefile&lt;/c1&gt; 还原两个版本，错误地删除 hello.c，并从索引中取回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The index file is initialized with a list of all paths and, for each path, a blob object and a set of attributes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T083815Z" creationid="Admin" creationdate="20171023T083815Z">
@@ -12845,6 +13157,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084211Z" creationid="Admin" creationdate="20171023T084211Z">
         <seg>index 可以用新内容更新，并且新提交可以从存储在 index 中的内容创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The index may contain unmerged entries because of a previous failed merge.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070013Z" creationid="Admin" creationdate="20171025T070013Z">
+        <seg>索引可能包含未合并的条目，因为以前的合并失败。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12933,6 +13253,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T102901Z" creationid="Admin" creationdate="20171023T102901Z">
         <seg>名称实际上是由点分隔的 section 和 key，值将被转义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of a commit at which to start the new branch; see &lt;a0&gt;git-branch[1]&lt;/a0&gt; for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085520Z" creationid="Admin" creationdate="20171025T085520Z">
+        <seg>启动新分支的提交的名称;详见 &lt;a0&gt;git-branch[1]&lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13585,6 +13913,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is equivalent to running "git branch" with "-f"; see &lt;a0&gt;git-branch[1]&lt;/a0&gt; for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070311Z" creationid="Admin" creationdate="20171025T070311Z">
+        <seg>这相当于运行“git branch”与“-f”;详见 &lt;a0&gt;git-branch[1]&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is equivalent to setting the &lt;c0&gt;GIT_GLOB_PATHSPECS&lt;/c0&gt; environment variable to &lt;c1&gt;1&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T073233Z" creationid="Admin" creationdate="20171020T073228Z">
@@ -13681,6 +14017,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the transactional equivalent of</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065033Z" creationid="Admin" creationdate="20171025T065033Z">
+        <seg>这是等价的事务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is to view the changes between two arbitrary &lt;commit&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T084926Z" creationid="Admin" creationdate="20171024T084926Z">
@@ -13773,6 +14117,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T122230Z" creationid="Admin" creationdate="20171024T122230Z">
         <seg>这意味着 &lt;c0&gt;git reset &lt;paths&gt;&lt;/c0&gt; 与 &lt;c1&gt;git add &lt;paths&gt;&lt;/c1&gt; 相反。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that you can use &lt;c0&gt;git checkout -p&lt;/c0&gt; to selectively discard edits from your current working tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070337Z" creationid="Admin" creationdate="20171025T070337Z">
+        <seg>这意味着您可以使用 &lt;c0&gt;git checkout -p&lt;/c0&gt; 选择性地丢弃当前工作树中的编辑。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14073,6 +14425,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To prepare for working on &lt;branch&gt;, switch to it by updating the index and the files in the working tree, and by pointing HEAD at the branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064244Z" creationid="Admin" creationdate="20171025T064244Z">
+        <seg>要准备在&lt;branch&gt;上工作，通过更新索引和工作树中的文件，并将 HEAD 指向分支，来切换到它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To remove selection, prefix the input with &lt;c0&gt;-&lt;/c0&gt; like this:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080145Z" creationid="Admin" creationdate="20171024T080145Z">
@@ -14109,6 +14469,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T072700Z" creationid="Admin" creationdate="20171020T072700Z">
         <seg>将仓库视为裸仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tree to checkout from (when paths are given).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085637Z" creationid="Admin" creationdate="20171025T085637Z">
+        <seg>检出的树(当路径给出)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14265,6 +14633,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Updates files in the working tree to match the version in the index or the specified tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064152Z" creationid="Admin" creationdate="20171025T064152Z">
+        <seg>更新工作树中的文件以匹配索引或指定树中的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use &lt;c0&gt;-r&lt;/c0&gt; together with &lt;c1&gt;-d&lt;/c1&gt; to delete remote-tracking branches.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061906Z" creationid="Admin" creationdate="20171025T061906Z">
@@ -14349,6 +14725,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084807Z" creationid="Admin" creationdate="20171023T084807Z">
         <seg>从 CVS 迁移的用户也可能想要读取 &lt;a0&gt;gitcvs-migration[7]&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using &lt;c0&gt;-f&lt;/c0&gt; will ignore these unmerged entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070039Z" creationid="Admin" creationdate="20171025T070039Z">
+        <seg>使用 &lt;c0&gt;-f&lt;/c0&gt; 将忽略这些未合并的条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14513,10 +14897,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When &lt;paths&gt; or &lt;c0&gt;--patch&lt;/c0&gt; are given, &lt;e1&gt;git checkout&lt;/e1&gt; does &lt;s2&gt;not&lt;/s2&gt; switch branches.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065709Z" creationid="Admin" creationdate="20171025T065709Z">
+        <seg>给出&lt;paths&gt;或 &lt;c0&gt;--patch&lt;/c0&gt; 时， &lt;e1&gt;git checkout&lt;/e1&gt; &lt;s2&gt;不&lt;/s2&gt; 切换分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When a local branch is started off a remote-tracking branch, Git sets up the branch (specifically the &lt;c0&gt;branch.&lt;name&gt;.remote&lt;/c0&gt; and &lt;c1&gt;branch.&lt;name&gt;.merge&lt;/c1&gt; configuration entries) so that &lt;e2&gt;git pull&lt;/e2&gt; will appropriately merge from the remote-tracking branch.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061703Z" creationid="Admin" creationdate="20171025T061703Z">
         <seg>当本地分支从远程跟踪分支启动时，Git 设置分支(具体为 &lt;c0&gt;branch.&lt;name&gt;.remote&lt;/c0&gt; 和 &lt;c1&gt;branch.&lt;name&gt;.merge&lt;/c1&gt; 配置条目)，以便 &lt;e2&gt;git pull&lt;/e2&gt; 将适当地从远程跟踪分支合并。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a merge conflict happens during switching branches with the &lt;c0&gt;-m&lt;/c0&gt; option, you would see something like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T090125Z" creationid="Admin" creationdate="20171025T090125Z">
+        <seg>当使用 &lt;c0&gt;-m&lt;/c0&gt; 选项切换分支时发生合并冲突时，您会看到如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -14689,6 +15089,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the &lt;commit&gt; argument is a branch name, the &lt;c0&gt;--detach&lt;/c0&gt; option can be used to detach HEAD at the tip of the branch (&lt;c1&gt;git checkout &lt;branch&gt;&lt;/c1&gt; would check out that branch without detaching HEAD).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065625Z" creationid="Admin" creationdate="20171025T065625Z">
+        <seg>当&lt;commit&gt;参数是一个分支名称时，可以使用 &lt;c0&gt;--detach&lt;/c0&gt; 选项分离头部的分支( &lt;c1&gt;git checkout &lt;branch&gt;&lt;/c1&gt; 将在不分离 HEAD 的情况下检出)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the color setting for &lt;c4&gt;name&lt;/c4&gt; is undefined, the command uses &lt;c5&gt;color.ui&lt;/c5&gt; as fallback.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115836Z" creationid="Admin" creationdate="20171023T115836Z">
@@ -14817,6 +15225,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With &lt;c3&gt;-m&lt;/c3&gt;, changes made to the working tree file can be discarded to re-create the original conflicted merge result.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070114Z" creationid="Admin" creationdate="20171025T070114Z">
+        <seg>使用 &lt;c3&gt;-m&lt;/c3&gt; ，可以丢弃对工作树文件所做的更改，以重新创建原始冲突的合并结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With a &lt;c0&gt;-d&lt;/c0&gt; or &lt;c1&gt;-D&lt;/c1&gt; option, &lt;c2&gt;&lt;branchname&gt;&lt;/c2&gt; will be deleted.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061832Z" creationid="Admin" creationdate="20171025T061832Z">
@@ -14921,10 +15337,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can give the &lt;c0&gt;-m&lt;/c0&gt; flag to the command, which would try a three-way merge:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T090035Z" creationid="Admin" creationdate="20171025T090035Z">
+        <seg>您可以将 &lt;c0&gt;-m&lt;/c0&gt; 标志指定给该命令，这将尝试三向合并：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can learn more about individual Git commands with "git help command".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T050455Z" creationid="Admin" creationdate="20171020T050455Z">
         <seg>您可以使用 “git help command” 了解有关单个 Git 命令的更多信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can leave out at most one of &lt;c3&gt;A&lt;/c3&gt; and &lt;c4&gt;B&lt;/c4&gt;, in which case it defaults to &lt;c5&gt;HEAD&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085456Z" creationid="Admin" creationdate="20171025T085456Z">
+        <seg>您最多可以省略 &lt;c3&gt;A&lt;/c3&gt; 和 &lt;c4&gt;B&lt;/c4&gt; ，默认为 &lt;c5&gt;HEAD&lt;/c5&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15033,6 +15465,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You could omit &lt;branch&gt;, in which case the command degenerates to "check out the current branch", which is a glorified no-op with a rather expensive side-effects to show only the tracking information, if exists, for the current branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064845Z" creationid="Admin" creationdate="20171025T064845Z">
+        <seg>您可以省略&lt;branch&gt;，在这种情况下，命令退化为"检出当前分支"，这是一个有非常昂贵的副作用的 glorified no-op ，用于显示当前分支的跟踪信息（如果存在） 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You do not have to be subscribed to the list to send a message there.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085059Z" creationid="Admin" creationdate="20171023T085059Z">
@@ -15045,6 +15485,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082327Z" creationid="Admin" creationdate="20171024T082327Z">
         <seg>您还可以添加补丁中不存在的新内容;只需添加新行，每行以"+"开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may also specify &lt;c1&gt;-&lt;/c1&gt; which is synonymous with &lt;c2&gt;"@{-1}"&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085413Z" creationid="Admin" creationdate="20171025T085413Z">
+        <seg>您也可以指定与 &lt;c2&gt;"@{-1}"&lt;/c2&gt; 同义的 &lt;c1&gt;-&lt;/c1&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15069,6 +15517,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080741Z" creationid="Admin" creationdate="20171023T080741Z">
         <seg>如果您正在向 Git 提供文字路径（如之前由 &lt;c4&gt;git ls-tree&lt;/c4&gt; ，&lt;c5&gt;--raw &lt;/c5&gt; diff 输出等提供给您的路径），您可能需要这样做。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should instead write:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085958Z" creationid="Admin" creationdate="20171025T085958Z">
+        <seg>你应该写：</seg>
       </tuv>
     </tu>
     <tu>
@@ -15871,6 +16327,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-check-ref-format[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-checkout - Switch branches or restore working tree files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064134Z" creationid="Admin" creationdate="20171025T064134Z">
+        <seg>git-checkout - 切换分支或恢复工作树文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -19395,6 +19859,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>restore hello.c from the index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085836Z" creationid="Admin" creationdate="20171025T085836Z">
+        <seg>从索引中恢复 hello.c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>rev-list</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -19507,6 +19979,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>switch branch</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085829Z" creationid="Admin" creationdate="20171025T085829Z">
+        <seg>切换分支</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>symbolic-ref</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -19519,6 +19999,22 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>tag</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>take a file out of another commit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085832Z" creationid="Admin" creationdate="20171025T085832Z">
+        <seg>从另一个提交中取出一个文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>that is to say, the branch is not reset/created unless "git checkout" is successful.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065044Z" creationid="Admin" creationdate="20171025T065044Z">
+        <seg>也就是说，除非"git checkout"成功，否则该分支不会重置/创建。</seg>
       </tuv>
     </tu>
     <tu>
