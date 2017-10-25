@@ -6520,6 +6520,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Besides specifying a range of commits that should be listed using the special notations explained in the description, additional commit limiting may be applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112336Z" creationid="Admin" creationdate="20171025T112336Z">
+        <seg>除了使用描述中说明的特殊符号指定应列出的提交范围外，还可以应用附加的提交限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Beware that modifying only half of the pair is likely to introduce confusing changes to the index.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081943Z" creationid="Admin" creationdate="20171024T081943Z">
@@ -6616,6 +6624,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But there are two parts of &lt;e0&gt;History Simplification&lt;/e0&gt;, one part is selecting the commits and the other is how to do it, as there are various strategies to simplify the history.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112641Z" creationid="Admin" creationdate="20171025T112641Z">
+        <seg>但是， &lt;e0&gt;历史简化&lt;/e0&gt; 有两个部分，一部分是选择提交，另一部分是如何做，因为有各种策略来简化历史。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default index file version 2 or 3 is used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070820Z" creationid="Admin" creationdate="20171023T070820Z">
@@ -6648,6 +6664,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, the commits are shown in reverse chronological order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113048Z" creationid="Admin" creationdate="20171025T113048Z">
+        <seg>默认情况下，提交按时间倒序显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By using this option the user can check if any of the given files would be ignored, no matter if they are already present in the work tree or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074543Z" creationid="Admin" creationdate="20171024T074543Z">
@@ -6660,6 +6684,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T102856Z" creationid="Admin" creationdate="20171024T102856Z">
         <seg>绕过 post-rewrite 钩子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>COMMON DIFF OPTIONS</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113837Z" creationid="Admin" creationdate="20171025T113837Z">
+        <seg>常见差异选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CONFIGURATION</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114445Z" creationid="Admin" creationdate="20171025T114445Z">
+        <seg>配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -6861,6 +6901,46 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071129Z" creationid="Admin" creationdate="20171024T071129Z">
         <seg>仅当目录为空时才允许克隆到现有目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commit Formatting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113245Z" creationid="Admin" creationdate="20171025T113140Z">
+        <seg>提交格式化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commit Limiting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112235Z" creationid="Admin" creationdate="20171025T112235Z">
+        <seg>提交限制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commit Ordering</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112919Z" creationid="Admin" creationdate="20171025T112919Z">
+        <seg>提交排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commits modifying the given &lt;paths&gt; are selected.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112708Z" creationid="Admin" creationdate="20171025T112708Z">
+        <seg>选择修改给定的&lt;paths&gt;的提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commits that are referred by some branch or tag are selected.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112719Z" creationid="Admin" creationdate="20171025T112719Z">
+        <seg>选择某些分支或标签引用的提交。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7305,6 +7385,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Diff Formatting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113149Z" creationid="Admin" creationdate="20171025T113149Z">
+        <seg>差异格式化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Disabling globbing on individual pathspecs can be done using pathspec magic ":(literal)"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T073812Z" creationid="Admin" creationdate="20171020T073310Z">
@@ -7517,6 +7605,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070915Z" creationid="Admin" creationdate="20171023T070915Z">
         <seg>由于 Git 对象的不变性质，旧对象可以归档到共享的只读目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>E.g, &lt;e0&gt;format:"The author of %h was %an, %ar%nThe title was &gt;&gt;%s&lt;&lt;%n"&lt;/e0&gt; would show something like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113722Z" creationid="Admin" creationdate="20171025T113722Z">
+        <seg>例如， &lt;e0&gt;format:"The author of %h was %an, %ar%nThe title was &gt;&gt;%s&lt;&lt;%n"&lt;/e0&gt; 将显示如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8641,6 +8737,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-log Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T111430Z" creationid="Admin" creationdate="20171025T111430Z">
+        <seg>Git - git-log 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-merge Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091302Z" creationid="Admin" creationdate="20171025T091302Z">
@@ -8873,6 +8977,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are the details of the built-in formats:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113546Z" creationid="Admin" creationdate="20171025T113546Z">
+        <seg>以下是内置格式的详细信息：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>High-level commands (porcelain)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T073935Z" creationid="Admin" creationdate="20171020T073915Z">
@@ -8885,6 +8997,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074738Z" creationid="Admin" creationdate="20171023T070459Z">
         <seg>较高级别的 SCM 可以提供和管理 &lt;c0&gt;$GIT_DIR&lt;/c0&gt; 中的附加信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>History Simplification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112557Z" creationid="Admin" creationdate="20171025T112557Z">
+        <seg>历史简化</seg>
       </tuv>
     </tu>
     <tu>
@@ -9365,6 +9485,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061845Z" creationid="Admin" creationdate="20171025T061845Z">
         <seg>如果分支目前有一个 reflog，那么 reflog 也将被删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the commit is a merge, and if the pretty-format is not &lt;e0&gt;oneline&lt;/e0&gt;, &lt;e1&gt;email&lt;/e1&gt; or &lt;e2&gt;raw&lt;/e2&gt;, an additional line is inserted before the &lt;e3&gt;Author:&lt;/e3&gt; line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113405Z" creationid="Admin" creationdate="20171025T113316Z">
+        <seg>如果提交是合并的，并且如果美化格式不是 &lt;e0&gt;oneline&lt;/e0&gt; ， &lt;e1&gt;email&lt;/e1&gt; 或 &lt;e2&gt;raw&lt;/e2&gt; ，则在&lt;e3&gt;Author:&lt;/e3&gt;行之前会有额外的行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10225,6 +10353,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It works a little bit like printf format, with the notable exception that you get a newline with &lt;e1&gt;%n&lt;/e1&gt; instead of &lt;e2&gt;\n&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113715Z" creationid="Admin" creationdate="20171025T113715Z">
+        <seg>它的工作原理有点像 printf 格式，唯一的例外是你使用 &lt;e1&gt;%n&lt;/e1&gt; 而不是 &lt;e2&gt;\n&lt;/e2&gt; 来获取一个换行符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Join two or more development histories together</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074903Z" creationid="Admin" creationdate="20171020T074903Z">
@@ -10297,10 +10433,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Limit the number of commits to output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112422Z" creationid="Admin" creationdate="20171025T112422Z">
+        <seg>限制输出的提交次数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Limiting the diff output</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090626Z" creationid="Admin" creationdate="20171024T090626Z">
         <seg>限制 diff 输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Limits the number of commits to show to 3.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114432Z" creationid="Admin" creationdate="20171025T114432Z">
+        <seg>将提交的数量限制为3。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10641,6 +10793,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that extra commits can be shown to give a meaningful history.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112724Z" creationid="Admin" creationdate="20171025T112724Z">
+        <seg>请注意，额外的提交可以显示，以提供有意义的历史。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that older versions of Git used to ignore removed files; use &lt;c8&gt;--no-all&lt;/c8&gt; option if you want to add modified or new files but ignore removed ones.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073640Z" creationid="Admin" creationdate="20171024T073640Z">
@@ -10669,6 +10829,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075353Z" creationid="Admin" creationdate="20171024T074944Z">
         <seg>请注意，本示例中的 shell 星号 &lt;c0&gt;*&lt;/c0&gt; 是引用的，这允许命令包含来自 &lt;c1&gt;Documentation/&lt;/c1&gt; 目录的子目录的文件。（译注 * 将只匹配目录下的文件，\* 会包括子目录）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that the listed commits may not necessarily be the list of the &lt;s4&gt;direct&lt;/s4&gt; parent commits if you have limited your view of history: for example, if you are only interested in changes related to a certain directory or file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113443Z" creationid="Admin" creationdate="20171025T113443Z">
+        <seg>请注意，列出的提交可能不一定是 &lt;s4&gt;direct&lt;/s4&gt; 父提交的列表，如果您限制了您的历史记录视图：例如，如果您只对与某个目录或文件相关的更改感兴趣。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that these are applied before commit ordering and formatting options, such as &lt;c0&gt;--reverse&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112408Z" creationid="Admin" creationdate="20171025T112408Z">
+        <seg>请注意，这些将在提交订单和格式化选项（例如 &lt;c0&gt;--reverse&lt;/c0&gt; ）之前应用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10757,6 +10933,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T050608Z" creationid="Admin" creationdate="20171020T050608Z">
         <seg>选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Object Traversal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113059Z" creationid="Admin" creationdate="20171025T113059Z">
+        <seg>对象遍历</seg>
       </tuv>
     </tu>
     <tu>
@@ -10977,6 +11161,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PRETTY FORMATS</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113330Z" creationid="Admin" creationdate="20171025T113256Z">
+        <seg>美化的格式化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pack heads and tags for efficient repository access</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T085703Z" creationid="Admin" creationdate="20171020T085703Z">
@@ -11029,6 +11221,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T070154Z" creationid="Admin" creationdate="20171020T070154Z">
         <seg>核心 Git 程序的安装路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Paths may need to be prefixed with ‘`-- '’ to separate them from options or the revision range, when confusion arises.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112231Z" creationid="Admin" creationdate="20171025T112231Z">
+        <seg>当混乱出现时，路径可能需要以 ‘`-- '’ 来作为前缀，以将其与选项或修订版本区分开来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11977,6 +12177,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;e0&gt;History Simplification&lt;/e0&gt; below for details and other simplification modes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112135Z" creationid="Admin" creationdate="20171025T112135Z">
+        <seg>请参阅下面的 &lt;e0&gt;历史简化&lt;/e0&gt; 和其他简化模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See EDITING PATCHES below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074029Z" creationid="Admin" creationdate="20171024T074029Z">
@@ -12297,6 +12505,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show all commits since version &lt;e0&gt;v2.6.12&lt;/e0&gt; that changed any file in the &lt;c1&gt;include/scsi&lt;/c1&gt; or &lt;c2&gt;drivers/scsi&lt;/c2&gt; subdirectories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113959Z" creationid="Admin" creationdate="20171025T113959Z">
+        <seg>显示从 &lt;e0&gt;v2.6.12&lt;/e0&gt; 版本以来的，更改 &lt;c1&gt;include/scsi&lt;/c1&gt; 或 &lt;c2&gt;drivers/scsi&lt;/c2&gt; 子目录中任何文件的所有提交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Show branches and their commits</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090534Z" creationid="Admin" creationdate="20171020T090534Z">
@@ -12369,6 +12585,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show only commits that are enough to explain how the files that match the specified paths came to be.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112045Z" creationid="Admin" creationdate="20171025T112045Z">
+        <seg>仅显示足以解释与指定路径匹配的文件的提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Show only modification, rename, and copy, but not addition or deletion.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090637Z" creationid="Admin" creationdate="20171024T090637Z">
@@ -12401,10 +12625,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show the changes during the last two weeks to the file &lt;e0&gt;gitk&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114035Z" creationid="Admin" creationdate="20171025T114035Z">
+        <seg>将最近两周内的对文件 &lt;e0&gt;gitk&lt;/e0&gt; 的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show the commits that are in the "test" branch but not yet in the "release" branch, along with the list of paths each commit modifies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114121Z" creationid="Admin" creationdate="20171025T114121Z">
+        <seg>显示“test”分支中尚未在“release”分支中的提交，以及每个提交修改的路径列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Show the number of entries currently stashed away.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083516Z" creationid="Admin" creationdate="20171024T083516Z">
         <seg>显示当前被暂存的条目数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show the whole commit history, but skip any merges</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113909Z" creationid="Admin" creationdate="20171025T113909Z">
+        <seg>显示整个提交历史记录，但跳过任何合并</seg>
       </tuv>
     </tu>
     <tu>
@@ -12457,6 +12705,54 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shows all commits that are in any of local branches but not in any of remote-tracking branches for &lt;e0&gt;origin&lt;/e0&gt; (what you have that origin doesn’t).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114237Z" creationid="Admin" creationdate="20171025T114237Z">
+        <seg>显示所有本地分支中的所有提交，但不包括任何 &lt;e0&gt;origin&lt;/e0&gt; 的远程跟踪分支中(您有的但 origin 没有的)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shows all commits that are in local master but not in any remote repository master branches.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114321Z" creationid="Admin" creationdate="20171025T114321Z">
+        <seg>显示本地 master 中的所有提交，但不在任何远程仓库的 master 分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shows how the function &lt;c0&gt;main()&lt;/c0&gt; in the file &lt;c1&gt;main.c&lt;/c1&gt; evolved over time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114427Z" creationid="Admin" creationdate="20171025T114427Z">
+        <seg>显示文件 &lt;c1&gt;main.c&lt;/c1&gt; 中的函数 &lt;c0&gt;main()&lt;/c0&gt; 随着时间的推移而发展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shows the commit logs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T111715Z" creationid="Admin" creationdate="20171025T111715Z">
+        <seg>显示提交日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shows the commits that changed &lt;c0&gt;builtin/rev-list.c&lt;/c0&gt;, including those commits that occurred before the file was given its present name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114145Z" creationid="Admin" creationdate="20171025T114145Z">
+        <seg>显示更改 &lt;c0&gt;builtin/rev-list.c&lt;/c0&gt; 的提交，包括在文件被赋予其现有名称之前发生的提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shows the history including change diffs, but only from the “main branch” perspective, skipping commits that come from merged branches, and showing full diffs of changes introduced by the merges.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114343Z" creationid="Admin" creationdate="20171025T114343Z">
+        <seg>显示历史，包括变化差异，但仅从“主分支”的角度，忽略来自合并分支的提交，并显示合并引入的变化的完全差异。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similar to &lt;c0&gt;--file&lt;/c0&gt; but use the given blob instead of a file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114434Z" creationid="Admin" creationdate="20171023T114434Z">
@@ -12477,6 +12773,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094208Z" creationid="Admin" creationdate="20171020T094208Z">
         <seg>简单的 UNIX mbox 分割程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Skip &lt;e0&gt;number&lt;/e0&gt; commits before starting to show the commit output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112549Z" creationid="Admin" creationdate="20171025T112549Z">
+        <seg>在开始显示提交输出之前跳过 &lt;e0&gt;number&lt;/e0&gt; 条。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12517,6 +12821,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121404Z" creationid="Admin" creationdate="20171023T121404Z">
         <seg>一些变量可能会出现多次;那么我们说这个变量是多值的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes you are only interested in parts of the history, for example the commits modifying a particular &lt;path&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112606Z" creationid="Admin" creationdate="20171025T112606Z">
+        <seg>有时您只对历史的部分感兴趣，例如修改特定&lt;path&gt;的提交。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12937,10 +13249,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;e0&gt;format:&lt;string&gt;&lt;/e0&gt; format allows you to specify which information you want to show.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113635Z" creationid="Admin" creationdate="20171025T113635Z">
+        <seg>&lt;e0&gt;format:&lt;string&gt;&lt;/e0&gt; 格式允许您指定要显示的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;e0&gt;man&lt;/e0&gt; program is used by default for this purpose, but this can be overridden by other options or configuration variables.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T034107Z" creationid="Admin" creationdate="20171024T034107Z">
         <seg>默认情况下， &lt;e0&gt;man&lt;/e0&gt; 程序用于此目的，但可以由其他选项或配置变量覆盖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;e0&gt;raw&lt;/e0&gt; format shows the entire commit exactly as stored in the commit object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113626Z" creationid="Admin" creationdate="20171025T113626Z">
+        <seg>&lt;e0&gt;raw&lt;/e0&gt; 格式显示完整存储在提交对象中的完整提交。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13109,6 +13437,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074516Z" creationid="Admin" creationdate="20171024T074516Z">
         <seg>命令仍然以非零状态退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command takes options applicable to the &lt;c0&gt;git rev-list&lt;/c0&gt; command to control what is shown and how, and options applicable to the &lt;c1&gt;git diff-*&lt;/c1&gt; commands to control how the changes each commit introduces are shown.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T111834Z" creationid="Admin" creationdate="20171025T111834Z">
+        <seg>该命令采用适用于 &lt;c0&gt;git rev-list&lt;/c0&gt; 命令的选项来控制显示的内容以及如何以显示，使用适用于 &lt;c1&gt;git diff-*&lt;/c1&gt; 命令的选项，以控制每个提交的介绍如何显示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13301,6 +13637,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084522Z" creationid="Admin" creationdate="20171023T084522Z">
         <seg>以下可能比第一次使用者需要的细节更详细。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following options affect the way the simplification is performed:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112749Z" creationid="Admin" creationdate="20171025T112749Z">
+        <seg>以下选项会影响简化的执行方式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following options select the commits to be shown:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112649Z" creationid="Admin" creationdate="20171025T112649Z">
+        <seg>以下选项选择要显示的提交：</seg>
       </tuv>
     </tu>
     <tu>
@@ -13569,6 +13921,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The placeholders are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113749Z" creationid="Admin" creationdate="20171025T113749Z">
+        <seg>占位符是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The possible options are:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T112130Z" creationid="Admin" creationdate="20171024T112130Z">
@@ -13737,6 +14097,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The “--” is necessary to avoid confusion with the &lt;s1&gt;branch&lt;/s1&gt; named &lt;e2&gt;gitk&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114050Z" creationid="Admin" creationdate="20171025T114050Z">
+        <seg>“--”是必要的，以避免与名为 &lt;e2&gt;gitk&lt;/e2&gt; 的 &lt;s1&gt;branch&lt;/s1&gt; 混淆</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then "&lt;c0&gt;git merge topic&lt;/c0&gt;" will replay the changes made on the &lt;c1&gt;topic&lt;/c1&gt; branch since it diverged from &lt;c2&gt;master&lt;/c2&gt; (i.e., &lt;c3&gt;E&lt;/c3&gt;) until its current commit (&lt;c4&gt;C&lt;/c4&gt;) on top of &lt;c5&gt;master&lt;/c5&gt;, and record the result in a new commit along with the names of the two parent commits and a log message from the user describing the changes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T091929Z" creationid="Admin" creationdate="20171025T091815Z">
@@ -13757,6 +14125,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082359Z" creationid="Admin" creationdate="20171024T082359Z">
         <seg>还有几个操作应该完全避免，因为它们会使补丁变得不可行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several built-in formats, and you can define additional formats by setting a pretty.&lt;name&gt; config option to either another format name, or a &lt;e0&gt;format:&lt;/e0&gt; string, as described below (see &lt;a1&gt;git-config[1]&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113542Z" creationid="Admin" creationdate="20171025T113542Z">
+        <seg>有几种内置格式，您可以通过 pretty.&lt;name&gt; 配置选项设置为另一种格式名称或 &lt;e0&gt;format:&lt;/e0&gt; 字符串来定义其他格式，如下所述(参见 &lt;a1&gt;git-config[1]&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13805,6 +14181,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070552Z" creationid="Admin" creationdate="20171023T070552Z">
         <seg>这些环境变量适用于&lt;e0&gt;全部&lt;/e0&gt;核心 Git 命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These options are mostly targeted for packing of Git repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113110Z" creationid="Admin" creationdate="20171025T113110Z">
+        <seg>这些选项主要用于打包 Git 存储库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14153,6 +14537,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is designed to be as compact as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113619Z" creationid="Admin" creationdate="20171025T113619Z">
+        <seg>这被设计为尽可能紧凑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is equivalent to running "git branch" with "-f"; see &lt;a0&gt;git-branch[1]&lt;/a0&gt; for details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070311Z" creationid="Admin" creationdate="20171025T070311Z">
@@ -14321,10 +14713,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This line begins with "Merge: " and the sha1s of ancestral commits are printed, separated by spaces.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113426Z" creationid="Admin" creationdate="20171025T113426Z">
+        <seg>该行以"Merge："开始，以空格分隔显示祖先提交的 sha1s 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This makes a commit that records the modification to &lt;c0&gt;Makefile&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115316Z" creationid="Admin" creationdate="20171024T115316Z">
         <seg>这做一个提交记录 &lt;c0&gt;Makefile&lt;/c0&gt; 的修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This makes sense only when following a strict policy of merging all topic branches when staying on a single integration branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114355Z" creationid="Admin" creationdate="20171025T114355Z">
+        <seg>只有当遵守在一个整合分支上合并所有主题分支的严格策略时，这才有意义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14989,6 +15397,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071354Z" creationid="Admin" creationdate="20171024T071354Z">
         <seg>将已存在的存储库用作备用数据库将需要从要克隆的存储库复制的对象较少，从而降低网络和本地存储成本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using more options generally further limits the output (e.g. &lt;c0&gt;--since=&lt;date1&gt;&lt;/c0&gt; limits to commits newer than &lt;c1&gt;&lt;date1&gt;&lt;/c1&gt;, and using it with &lt;c2&gt;--grep=&lt;pattern&gt;&lt;/c2&gt; further limits to commits whose log message has a line that matches &lt;c3&gt;&lt;pattern&gt;&lt;/c3&gt;), unless otherwise noted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112403Z" creationid="Admin" creationdate="20171025T112403Z">
+        <seg>使用更多选项通常进一步限制输出(例如 &lt;c0&gt;--since=&lt;date1&gt;&lt;/c0&gt; 限制提交比 &lt;c1&gt;&lt;date1&gt;&lt;/c1&gt; 更新，并使用 &lt;c2&gt;--grep=&lt;pattern&gt;&lt;/c2&gt; 进一步限制其日志消息具有与 &lt;c3&gt;&lt;pattern&gt;&lt;/c3&gt; 匹配的行)，除非另有说明。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16085,6 +16501,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T123646Z" creationid="Admin" creationdate="20171023T123646Z">
         <seg>color</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>combined diff format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113850Z" creationid="Admin" creationdate="20171025T113850Z">
+        <seg>组合差异格式</seg>
       </tuv>
     </tu>
     <tu>
@@ -17615,6 +18039,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-interpret-trailers[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-log - Show commit logs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T111712Z" creationid="Admin" creationdate="20171025T111712Z">
+        <seg>git-log - 显示提交日志。</seg>
       </tuv>
     </tu>
     <tu>
