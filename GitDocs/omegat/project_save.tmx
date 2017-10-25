@@ -4250,6 +4250,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.1.1 → 2.10.5 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T103823Z" creationid="Admin" creationdate="20171025T103823Z">
+        <seg>2.1.1 → 2.10.5 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.1.1 → 2.3.10 no changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100636Z" creationid="Admin" creationdate="20171023T100636Z">
@@ -4286,6 +4294,14 @@ $ git add .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065414Z" creationid="Admin" creationdate="20171024T065414Z">
         <seg>2.11.1 → 2.12.5 无更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.11.1 → 2.14.2 no changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T103827Z" creationid="Admin" creationdate="20171025T103812Z">
+        <seg>2.11.1 → 2.14.2 无更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -4586,6 +4602,14 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-mergetool last updated in 2.14.2&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T103758Z" creationid="Admin" creationdate="20171025T103758Z">
+        <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-mergetool 最后更新于 2.14.2&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Version 2.14.2 ▾&lt;/a0&gt; &lt;s1&gt;git-rm last updated in 2.14.2&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T013902Z" creationid="Admin" creationdate="20171025T013902Z">
@@ -4680,6 +4704,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T063706Z" creationid="Admin" creationdate="20171025T063706Z">
         <seg>&lt;c0&gt;--no-merged&lt;/c0&gt; 用于查找候选的合并到 HEAD 中的分支，因为这些分支未被 HEAD 完全包含。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;git mergetool&lt;/c0&gt; creates &lt;c1&gt;*.orig&lt;/c1&gt; backup files while resolving merges.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104328Z" creationid="Admin" creationdate="20171025T104328Z">
+        <seg>在解决合并时， &lt;c0&gt;git mergetool&lt;/c0&gt; 创建 &lt;c1&gt;*.orig&lt;/c1&gt; 备份文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4892,6 +4924,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
         <seg>&lt;e0&gt;git init&lt;/e0&gt; [-q | --quiet] [--bare] [--template=&lt;template_directory&gt;]
 	  [--separate-git-dir &lt;git dir&gt;]
 	  [--shared[=&lt;permissions&gt;]] [directory]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git mergetool&lt;/e0&gt; [--tool=&lt;tool&gt;] [-y | --[no-]prompt] [&lt;file&gt;…​]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T103838Z" creationid="Admin" creationdate="20171025T103838Z">
+        <seg>&lt;e0&gt;git mergetool&lt;/e0&gt; [--tool=&lt;tool&gt;] [-y | --[no-]prompt] [&lt;file&gt;…​]</seg>
       </tuv>
     </tu>
     <tu>
@@ -6700,6 +6740,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T042431Z" creationid="Admin" creationdate="20171024T042431Z">
         <seg>&lt;s0&gt;git-init&lt;/s0&gt; 手册中的更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes in the &lt;s0&gt;git-mergetool&lt;/s0&gt; manual</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T103808Z" creationid="Admin" creationdate="20171025T103808Z">
+        <seg>&lt;s0&gt;git-mergetool&lt;/s0&gt; 手册中的更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -8601,6 +8649,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-mergetool Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T103751Z" creationid="Admin" creationdate="20171025T103751Z">
+        <seg>Git - git-mergetool 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-mv Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T022819Z" creationid="Admin" creationdate="20171025T022819Z">
@@ -9129,6 +9185,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no &lt;file&gt; names are specified, &lt;e0&gt;git mergetool&lt;/e0&gt; will run the merge tool program on every file with merge conflicts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104311Z" creationid="Admin" creationdate="20171025T104311Z">
+        <seg>如果没有指定&lt;file&gt;名称，则 &lt;e0&gt;git mergetool&lt;/e0&gt; 将在具有合并冲突的每个文件上运行合并工具程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no &lt;pathspec&gt; is given when &lt;c0&gt;-A&lt;/c0&gt; option is used, all files in the entire working tree are updated (old versions of Git used to limit the update to the current directory and its subdirectories).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074233Z" creationid="Admin" creationdate="20171024T074233Z">
@@ -9213,6 +9277,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085642Z" creationid="Admin" creationdate="20171025T085642Z">
         <seg>如果未指定，将使用索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If one or more &lt;file&gt; parameters are given, the merge tool program will be run to resolve differences on each file (skipping those without conflicts).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104210Z" creationid="Admin" creationdate="20171025T104210Z">
+        <seg>如果给出一个或多个&lt;file&gt;参数，则将运行合并工具程序来解决每个文件的差异(跳过那些没有冲突的文件)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10069,6 +10141,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T102810Z" creationid="Admin" creationdate="20171024T102810Z">
         <seg>这是一个粗略的等同于：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is typically run after &lt;e1&gt;git merge&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104201Z" creationid="Admin" creationdate="20171025T104201Z">
+        <seg>它通常在 &lt;e1&gt;git merge&lt;/e1&gt; 之后运行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12137,6 +12217,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting the &lt;c0&gt;mergetool.keepBackup&lt;/c0&gt; configuration variable to &lt;c1&gt;false&lt;/c1&gt; causes &lt;c2&gt;git mergetool&lt;/c2&gt; to automatically remove the backup as files are successfully merged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104404Z" creationid="Admin" creationdate="20171025T104404Z">
+        <seg>将 &lt;c0&gt;mergetool.keepBackup&lt;/c0&gt; 配置变量设置为 &lt;c1&gt;false&lt;/c1&gt; 会导致 &lt;c2&gt;git mergetool&lt;/c2&gt; 在文件成功合并时自动移除备份。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting this variable to &lt;c0&gt;1&lt;/c0&gt; will cause Git to treat all pathspecs as case-insensitive.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080826Z" creationid="Admin" creationdate="20171023T080826Z">
@@ -12489,6 +12577,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifying a directory will include all unresolved files in that path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104218Z" creationid="Admin" creationdate="20171025T104218Z">
+        <seg>指定目录将包括该路径中的所有未解析文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Spend extra cycles to find renames, copies and complete rewrites (very expensive).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090743Z" creationid="Admin" creationdate="20171024T090743Z">
@@ -12621,6 +12717,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120459Z" creationid="Admin" creationdate="20171023T120459Z">
         <seg>系统范围的配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TEMPORARY FILES</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104321Z" creationid="Admin" creationdate="20171025T104321Z">
+        <seg>临时文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -13677,6 +13781,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094033Z" creationid="Admin" creationdate="20171020T094033Z">
         <seg>这些是其他命令使用的内部帮助命令；终端用户通常不直接使用它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are safe to remove once a file has been merged and its &lt;c2&gt;git mergetool&lt;/c2&gt; session has completed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104349Z" creationid="Admin" creationdate="20171025T104349Z">
+        <seg>一旦文件合并且其 &lt;c2&gt;git mergetool&lt;/c2&gt; 会话已完成，这些可以安全地移除。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14773,6 +14885,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061906Z" creationid="Admin" creationdate="20171025T061906Z">
         <seg>将 &lt;c0&gt;-r&lt;/c0&gt; 与 &lt;c1&gt;-d&lt;/c1&gt; 一起使用来删除远程跟踪分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;c0&gt;git mergetool&lt;/c0&gt; to run one of several merge utilities to resolve merge conflicts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104028Z" creationid="Admin" creationdate="20171025T104028Z">
+        <seg>使用 &lt;c0&gt;git mergetool&lt;/c0&gt; 运行多个合并实用程序之一来解决合并冲突。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17699,10 +17819,34 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-mergetool - Run merge conflict resolution tools to resolve merge conflicts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T103837Z" creationid="Admin" creationdate="20171025T103837Z">
+        <seg>git-mergetool - 运行合并冲突解决工具来解决合并冲突</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-mergetool.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-mergetool.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-mergetool/2.1.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T103828Z" creationid="Admin" creationdate="20171025T103828Z">
+        <seg>git-mergetool/2.1.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-mergetool/2.11.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T103813Z" creationid="Admin" creationdate="20171025T103813Z">
+        <seg>git-mergetool/2.11.html</seg>
       </tuv>
     </tu>
     <tu>
