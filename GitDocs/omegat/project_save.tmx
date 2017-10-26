@@ -6120,6 +6120,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additionally, "[PATCH]" will be stripped from the commit description.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082506Z" creationid="Admin" creationdate="20171026T082506Z">
+        <seg>另外， "[PATCH]" 将从提交描述中删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adds a new line to the option without altering any existing values.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113112Z" creationid="Admin" creationdate="20171023T113112Z">
@@ -8005,6 +8013,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each commit will be grouped by author and title.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082452Z" creationid="Admin" creationdate="20171026T082452Z">
+        <seg>每个提交将按作者和标题分组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Edit and resolve the conflict and mark it resolved with &lt;c1&gt;git add&lt;/c1&gt; as usual:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T090206Z" creationid="Admin" creationdate="20171025T090206Z">
@@ -9217,6 +9233,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-shortlog Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082426Z" creationid="Admin" creationdate="20171026T082426Z">
+        <seg>Git - git-shortlog 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-show Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T080234Z" creationid="Admin" creationdate="20171026T080234Z">
@@ -9877,6 +9901,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T064207Z" creationid="Admin" creationdate="20171025T064207Z">
         <seg>如果没有给出路径，则 &lt;e0&gt;git checkout&lt;/e0&gt; 也会更新 &lt;c1&gt;HEAD&lt;/c1&gt; ，将指定的分支设置为当前分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no revisions are passed on the command line and either standard input is not a terminal or there is no current branch, &lt;e0&gt;git shortlog&lt;/e0&gt; will output a summary of the log read from standard input, without reference to the current repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082556Z" creationid="Admin" creationdate="20171026T082556Z">
+        <seg>如果在命令行上没有传递任何修订版本，并且标准输入不是终端或没有当前分支，则 &lt;e0&gt;git shortlog&lt;/e0&gt; 将输出从标准输入读取的日志的摘要，而不引用当前库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14165,6 +14197,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T075214Z" creationid="Admin" creationdate="20171020T075214Z">
         <seg>总结 &lt;e0&gt;git log&lt;/e0&gt; 输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summarizes &lt;e0&gt;git log&lt;/e0&gt; output in a format suitable for inclusion in release announcements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082446Z" creationid="Admin" creationdate="20171026T082446Z">
+        <seg>以适合包含在发布公告中的格式汇总 &lt;e0&gt;git log&lt;/e0&gt; 输出。</seg>
       </tuv>
     </tu>
     <tu>
