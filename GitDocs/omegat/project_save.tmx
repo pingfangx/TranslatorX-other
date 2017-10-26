@@ -8465,6 +8465,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more information about submodules, see &lt;a0&gt;gitsubmodules[7]&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T074237Z" creationid="Admin" creationdate="20171026T074237Z">
+        <seg>有关子模块的更多信息，请参见 &lt;a0&gt;gitsubmodules[7]&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For reading options: read only from global &lt;c0&gt;~/.gitconfig&lt;/c0&gt; and from &lt;c1&gt;$XDG_CONFIG_HOME/git/config&lt;/c1&gt; rather than from all available files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114131Z" creationid="Admin" creationdate="20171023T114045Z">
@@ -9181,6 +9189,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083012Z" creationid="Admin" creationdate="20171024T083012Z">
         <seg>Git - git-status 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-submodule Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T074202Z" creationid="Admin" creationdate="20171026T074202Z">
+        <seg>Git - git-submodule 文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -10629,6 +10645,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024213Z">
         <seg>检查与比较</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inspects, updates and manages submodules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T074221Z" creationid="Admin" creationdate="20171026T074221Z">
+        <seg>检查，更新和管理子模块。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20767,6 +20791,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-stripspace[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-submodule - Initialize, update or inspect submodules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T074216Z" creationid="Admin" creationdate="20171026T074216Z">
+        <seg>git-submodule - 初始化，更新或检查子模块</seg>
       </tuv>
     </tu>
     <tu>
