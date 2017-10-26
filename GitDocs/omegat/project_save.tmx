@@ -7273,6 +7273,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Concatenates the contents of said Makefiles in the head of the branch &lt;c0&gt;master&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081833Z" creationid="Admin" creationdate="20171026T081833Z">
+        <seg>Concatenates the contents of said Makefiles in the head of the branch &lt;c0&gt;master&lt;/c0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074747Z" creationid="Admin" creationdate="20171024T074747Z">
@@ -8393,6 +8401,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For commits it shows the log message and textual diff.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T080433Z" creationid="Admin" creationdate="20171026T080433Z">
+        <seg>对于提交，它显示日志消息和文本差异。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For each access, the pack file name and an offset in the pack is recorded.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080032Z" creationid="Admin" creationdate="20171023T080032Z">
@@ -8473,6 +8489,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For plain blobs, it shows the plain contents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081204Z" creationid="Admin" creationdate="20171026T081204Z">
+        <seg>对于普通的 blobs，它显示了普通的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For reading options: read only from global &lt;c0&gt;~/.gitconfig&lt;/c0&gt; and from &lt;c1&gt;$XDG_CONFIG_HOME/git/config&lt;/c1&gt; rather than from all available files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114131Z" creationid="Admin" creationdate="20171023T114045Z">
@@ -8497,10 +8521,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For tags, it shows the tag message and the referenced objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081105Z" creationid="Admin" creationdate="20171026T081105Z">
+        <seg>对于标签，它显示标签消息和引用对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For this reason, some git commands for naming objects (like &lt;c0&gt;git describe&lt;/c0&gt;) will ignore lightweight tags by default.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121617Z" creationid="Admin" creationdate="20171025T121617Z">
         <seg>为此，一些用于命名对象的 git 命令(如 &lt;c0&gt;git describe&lt;/c0&gt; )将默认忽略轻量级标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For trees, it shows the names (equivalent to &lt;e0&gt;git ls-tree&lt;/e0&gt; with --name-only).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081129Z" creationid="Admin" creationdate="20171026T081129Z">
+        <seg>对于树，它显示名称(相当于 &lt;e0&gt;git ls-tree&lt;/e0&gt; 带有 --name-only )。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9173,6 +9213,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T013834Z" creationid="Admin" creationdate="20171025T013834Z">
         <seg>Git - git-rm 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-show Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T080234Z" creationid="Admin" creationdate="20171026T080234Z">
+        <seg>Git - git-show 文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -10801,6 +10849,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It also presents the merge commit in a special format as produced by &lt;e0&gt;git diff-tree --cc&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T080521Z" creationid="Admin" creationdate="20171026T080521Z">
+        <seg>它还以由 &lt;e0&gt;git diff-tree --cc&lt;/e0&gt; 生成的特殊格式呈现合并提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It can be an absolute path or a path relative to the current working directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T071101Z" creationid="Admin" creationdate="20171020T071101Z">
@@ -11649,6 +11705,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note: you can specify the default pretty format in the repository configuration (see &lt;a0&gt;git-config[1]&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081420Z" creationid="Admin" creationdate="20171026T081420Z">
+        <seg>注意：您可以在仓库配置中指定默认的漂亮格式(请参见 &lt;a0&gt;git-config[1]&lt;/a0&gt; )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T063407Z" creationid="Admin" creationdate="20171025T063407Z">
@@ -12133,6 +12197,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T065144Z" creationid="Admin" creationdate="20171025T065144Z">
         <seg>准备在&lt;commit&gt;之上工作，通过分离 HEAD(参见"DETACHED HEAD"部分)，并更新索引和工作树中的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pretty-print the contents of the commit logs in a given format, where &lt;e0&gt;&lt;format&gt;&lt;/e0&gt; can be one of &lt;e1&gt;oneline&lt;/e1&gt;, &lt;e2&gt;short&lt;/e2&gt;, &lt;e3&gt;medium&lt;/e3&gt;, &lt;e4&gt;full&lt;/e4&gt;, &lt;e5&gt;fuller&lt;/e5&gt;, &lt;e6&gt;email&lt;/e6&gt;, &lt;e7&gt;raw&lt;/e7&gt;, &lt;e8&gt;format:&lt;string&gt;&lt;/e8&gt; and &lt;e9&gt;tformat:&lt;string&gt;&lt;/e9&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081338Z" creationid="Admin" creationdate="20171026T081338Z">
+        <seg>以特定格式漂亮地打印提交日志的内容，其中 &lt;e0&gt;&lt;format&gt;&lt;/e0&gt; 可以是 &lt;e1&gt;oneline&lt;/e1&gt; ， &lt;e2&gt;short&lt;/e2&gt; ， &lt;e3&gt;medium&lt;/e3&gt; ， &lt;e4&gt;full&lt;/e4&gt; ， &lt;e5&gt;fuller&lt;/e5&gt; ， &lt;e6&gt;email&lt;/e6&gt; ， &lt;e7&gt;raw&lt;/e7&gt; ，&lt;e8&gt;format:&lt;string&gt;&lt;/e8&gt;和 &lt;e9&gt;tformat:&lt;string&gt;&lt;/e9&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13209,6 +13281,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See the "PRETTY FORMATS" section for some additional details for each format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081404Z" creationid="Admin" creationdate="20171026T081404Z">
+        <seg>有关每种格式的其他详细信息，请参阅"PRETTY FORMATS"一节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See the &lt;c1&gt;commit.verbose&lt;/c1&gt; configuration variable in &lt;a2&gt;git-config[1]&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T112303Z" creationid="Admin" creationdate="20171024T112303Z">
@@ -13737,6 +13817,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shows one or more objects (blobs, trees, tags and commits).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T080426Z" creationid="Admin" creationdate="20171026T080426Z">
+        <seg>显示一个或多个对象(blobs，树，标签和提交)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Shows the commit logs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T111715Z" creationid="Admin" creationdate="20171025T111715Z">
@@ -13753,10 +13841,42 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shows the contents of the file &lt;c0&gt;Documentation/README&lt;/c0&gt; as they were current in the 10th last commit of the branch &lt;c1&gt;next&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081737Z" creationid="Admin" creationdate="20171026T081737Z">
+        <seg>显示文件 &lt;c0&gt;Documentation/README&lt;/c0&gt; 的内容，在分支 &lt;c1&gt;next&lt;/c1&gt; 当前提交之前第10次提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Shows the history including change diffs, but only from the “main branch” perspective, skipping commits that come from merged branches, and showing full diffs of changes introduced by the merges.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114343Z" creationid="Admin" creationdate="20171025T114343Z">
         <seg>显示历史，包括变化差异，但仅从“主分支”的角度，忽略来自合并分支的提交，并显示合并引入的变化的完全差异。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shows the subject of the commit pointed to by the tag &lt;c0&gt;v1.0.0&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081605Z" creationid="Admin" creationdate="20171026T081605Z">
+        <seg>显示标签 &lt;c0&gt;v1.0.0&lt;/c0&gt; 指定的提交的主题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shows the tag &lt;c0&gt;v1.0.0&lt;/c0&gt;, along with the object the tags points at.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081541Z" creationid="Admin" creationdate="20171026T081541Z">
+        <seg>显示标签 &lt;c0&gt;v1.0.0&lt;/c0&gt; ，以及标签指向的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shows the tree pointed to by the tag &lt;c0&gt;v1.0.0&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081552Z" creationid="Admin" creationdate="20171026T081552Z">
+        <seg>显示标签 &lt;c0&gt;v1.0.0&lt;/c0&gt; 指向的树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14609,6 +14729,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command takes options applicable to the &lt;e0&gt;git diff-tree&lt;/e0&gt; command to control how the changes the commit introduces are shown.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081215Z" creationid="Admin" creationdate="20171026T081215Z">
+        <seg>该命令采用适用于 &lt;e0&gt;git diff-tree&lt;/e0&gt; 命令的选项来控制如何显示提交引入的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The command takes options applicable to the &lt;e0&gt;git log&lt;/e0&gt; command to control what is shown and how.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120040Z" creationid="Admin" creationdate="20171025T120040Z">
@@ -15093,6 +15221,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121921Z" creationid="Admin" creationdate="20171025T121921Z">
         <seg>要创建，删除或描述的标签的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The names of objects to show.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081258Z" creationid="Admin" creationdate="20171026T081258Z">
+        <seg>要显示的对象的名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15897,6 +16033,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a shorthand for "--pretty=oneline --abbrev-commit" used together.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081530Z" creationid="Admin" creationdate="20171026T081530Z">
+        <seg>这是一起使用的 "--pretty=oneline --abbrev-commit" 的缩写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is designed to be as compact as possible.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113619Z" creationid="Admin" creationdate="20171025T113619Z">
@@ -16117,6 +16261,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114355Z" creationid="Admin" creationdate="20171025T114355Z">
         <seg>只有当遵守在一个整合分支上合并所有主题分支的严格策略时，这才有意义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This manual page describes only the most frequently used options.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081220Z" creationid="Admin" creationdate="20171026T081220Z">
+        <seg>本手册页仅介绍最常用的选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17101,6 +17253,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T014618Z" creationid="Admin" creationdate="20171025T014452Z">
         <seg>当给出 &lt;c3&gt;--cached&lt;/c3&gt; 时，暂存内容必须与分支尖端或磁盘上的文件相匹配，从而仅将该文件从索引中删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When &lt;e0&gt;=&lt;format&gt;&lt;/e0&gt; part is omitted, it defaults to &lt;e1&gt;medium&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081410Z" creationid="Admin" creationdate="20171026T081410Z">
+        <seg>当 &lt;e0&gt;=&lt;format&gt;&lt;/e0&gt; 部分省略时，默认为 &lt;e1&gt;medium&lt;/e1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When &lt;e10&gt;&lt;format&gt;&lt;/e10&gt; is none of the above, and has &lt;e11&gt;%placeholder&lt;/e11&gt; in it, it acts as if &lt;e12&gt;--pretty=tformat:&lt;format&gt;&lt;/e12&gt; were given.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T081359Z" creationid="Admin" creationdate="20171026T081359Z">
+        <seg>当 &lt;e10&gt;&lt;format&gt;&lt;/e10&gt; 不是上述内容，并且其中有 &lt;e11&gt;%placeholder&lt;/e11&gt; 时，它的行为就好像 &lt;e12&gt;--pretty=tformat:&lt;format&gt;&lt;/e12&gt; 被给予。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20671,6 +20839,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T075208Z" creationid="Admin" creationdate="20171020T075208Z">
         <seg>git-shortlog[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-show - Show various types of objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T080400Z" creationid="Admin" creationdate="20171026T080400Z">
+        <seg>git-show - 显示各种类型的对象</seg>
       </tuv>
     </tu>
     <tu>
