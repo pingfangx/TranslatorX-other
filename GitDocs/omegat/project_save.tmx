@@ -6448,6 +6448,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternate terms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123529Z" creationid="Admin" creationdate="20171026T123529Z">
+        <seg>替代术语</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternately you could &lt;e0&gt;rsync&lt;/e0&gt; the changes into the working tree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T021036Z" creationid="Admin" creationdate="20171025T021036Z">
@@ -6484,6 +6492,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T091518Z" creationid="Admin" creationdate="20171020T091518Z">
         <seg>虽然 Git 包含自己的高层命令，但其低级命令足以支持替代高级命令的开发。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An empty string as search expression matches all lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124447Z" creationid="Admin" creationdate="20171026T124447Z">
+        <seg>一个空字符串作为搜索表达式匹配所有行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6548,6 +6564,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121605Z" creationid="Admin" creationdate="20171025T121605Z">
         <seg>注释标签用于发布，而轻量级标签用于私有或临时对象标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Annotates each line in the given file with information from the revision which last modified the line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124241Z" creationid="Admin" creationdate="20171026T124241Z">
+        <seg>注释给定文件中的每一行，用最后修改那行的修订版本的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6776,10 +6800,50 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Automatically bisect a broken build between v1.2 and HEAD:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123932Z" creationid="Admin" creationdate="20171026T123932Z">
+        <seg>在 v1.2 和 HEAD 之间自动二分查找一个损坏的构建：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Automatically bisect a broken test case:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124020Z" creationid="Admin" creationdate="20171026T124020Z">
+        <seg>自动二分查找一个损坏的测试用例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Automatically bisect a test failure between origin and HEAD:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123953Z" creationid="Admin" creationdate="20171026T123953Z">
+        <seg>自动二分查找 oritin 与 HEAD 之间的测试失败：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Automatically bisect with temporary modifications (hot-fix):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124053Z" creationid="Admin" creationdate="20171026T124053Z">
+        <seg>带临时修改(热修复)自动二分：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Avoid using these constructs, or do so with extreme caution.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082054Z" creationid="Admin" creationdate="20171024T082054Z">
         <seg>避免使用这些结构，否则要非常小心。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Avoiding testing a commit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123613Z" creationid="Admin" creationdate="20171026T123613Z">
+        <seg>避免测试提交</seg>
       </tuv>
     </tu>
     <tu>
@@ -6804,6 +6868,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024154Z">
         <seg>快照基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basic bisect commands: start, bad, good</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123443Z" creationid="Admin" creationdate="20171026T123443Z">
+        <seg>基本的二分命令：start, bad, good</seg>
       </tuv>
     </tu>
     <tu>
@@ -7733,6 +7805,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T114646Z" creationid="Admin" creationdate="20171026T114646Z">
         <seg>在 &lt;c0&gt;--interactive&lt;/c0&gt; 的 rebase 期间使用的自定义提交列表格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cutting down bisection by giving more parameters to bisect start</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123909Z" creationid="Admin" creationdate="20171026T123909Z">
+        <seg>通过在二分开始时给予更多的参数以减少二分</seg>
       </tuv>
     </tu>
     <tu>
@@ -9401,6 +9481,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-bisect Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T122448Z" creationid="Admin" creationdate="20171026T122448Z">
+        <seg>Git - git-bisect 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-blame Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124121Z" creationid="Admin" creationdate="20171026T124121Z">
+        <seg>Git - git-blame 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-branch Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T060936Z" creationid="Admin" creationdate="20171025T060936Z">
@@ -9469,6 +9565,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041251Z" creationid="Admin" creationdate="20171026T041251Z">
         <seg>Git - git-fetch 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-grep Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124331Z" creationid="Admin" creationdate="20171026T124331Z">
+        <seg>Git - git-grep 文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -11017,6 +11121,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In fact, &lt;c0&gt;git bisect&lt;/c0&gt; can be used to find the commit that changed &lt;s1&gt;any&lt;/s1&gt; property of your project; e.g., the commit that fixed a bug, or the commit that caused a benchmark’s performance to improve.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123340Z" creationid="Admin" creationdate="20171026T123340Z">
+        <seg>实际上，可以使用 &lt;c0&gt;git bisect&lt;/c0&gt; 找到改变项目的 &lt;s1&gt;任何&lt;/s1&gt; 属性的提交;例如，修复错误的提交或导致基准测试的性能提高的提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In fact, the command refuses to run when given pathnames (but see &lt;c2&gt;-i&lt;/c2&gt; option).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115654Z" creationid="Admin" creationdate="20171024T115654Z">
@@ -11441,6 +11553,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It continues narrowing down the range until it finds the exact commit that introduced the change.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123312Z" creationid="Admin" creationdate="20171026T123312Z">
+        <seg>它继续缩小范围，直到找到引入更改的确切提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is &lt;c0&gt;&lt;unix timestamp&gt; &lt;time zone offset&gt;&lt;/c0&gt;, where &lt;c1&gt;&lt;unix timestamp&gt;&lt;/c1&gt; is the number of seconds since the UNIX epoch.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T113900Z" creationid="Admin" creationdate="20171024T113900Z">
@@ -11797,6 +11917,38 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T023817Z">
         <seg>标志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Look for specified patterns in the tracked files in the work tree, blobs registered in the index file, or blobs in given tree objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124431Z" creationid="Admin" creationdate="20171026T124431Z">
+        <seg>查找指定的模式，在工作树中的跟踪文件中，在索引文件中注册的 blob ，或在给定树对象中的 blob。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Looks for &lt;c0&gt;time_t&lt;/c0&gt; in all tracked .c and .h files in the working directory and its subdirectories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124602Z" creationid="Admin" creationdate="20171026T124552Z">
+        <seg>在工作目录及其子目录中的所有跟踪的 .c 和 .h 文件中查找 &lt;c0&gt;time_t&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Looks for a line that has &lt;c0&gt;#define&lt;/c0&gt; and either &lt;c1&gt;MAX_PATH&lt;/c1&gt; or &lt;c2&gt;PATH_MAX&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124643Z" creationid="Admin" creationdate="20171026T124643Z">
+        <seg>查找具有 &lt;c0&gt;#define&lt;/c0&gt; ，并且有 &lt;c1&gt;MAX_PATH&lt;/c1&gt; 或 &lt;c2&gt;PATH_MAX&lt;/c2&gt; 的行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Looks for a line that has &lt;c0&gt;NODE&lt;/c0&gt; or &lt;c1&gt;Unexpected&lt;/c1&gt; in files that have lines that match both.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T125806Z" creationid="Admin" creationdate="20171026T125806Z">
+        <seg>找查一行（译注：应该是查找一个文件），存在行匹配 &lt;c0&gt;NODE&lt;/c0&gt; 和 &lt;c1&gt;Unexpected&lt;/c1&gt; （译注：可以不同行，分别匹配。）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12781,6 +12933,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112231Z" creationid="Admin" creationdate="20171025T112231Z">
         <seg>当混乱出现时，路径可能需要以 ‘`-- '’ 来作为前缀，以将其与选项或修订版本区分开来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Patterns are lists of one or more search expressions separated by newline characters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124440Z" creationid="Admin" creationdate="20171026T124440Z">
+        <seg>模式是由换行符分隔的一个或多个搜索表达式的列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14053,6 +14213,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T062903Z" creationid="Admin" creationdate="20171026T062903Z">
         <seg>请参阅 &lt;a1&gt;git-receive-pack[1]&lt;/a1&gt; 的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See section "Alternate terms" below for more information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123412Z" creationid="Admin" creationdate="20171026T123412Z">
+        <seg>有关详细信息，请参阅下面的"备用术语"部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15569,6 +15737,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command takes various subcommands, and different options depending on the subcommand:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123133Z" creationid="Admin" creationdate="20171026T123133Z">
+        <seg>该命令需要各种子命令，不同的选项取决于子命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The command will be given exactly two or four arguments: the &lt;e3&gt;username@host&lt;/e3&gt; (or just &lt;e4&gt;host&lt;/e4&gt;) from the URL and the shell command to execute on that remote system, optionally preceded by &lt;c5&gt;-p&lt;/c5&gt; (literally) and the &lt;e6&gt;port&lt;/e6&gt; from the URL when it specifies something other than the default SSH port.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074428Z" creationid="Admin" creationdate="20171023T074428Z">
@@ -16433,6 +16609,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then &lt;c0&gt;git bisect&lt;/c0&gt; picks a commit between those two endpoints and asks you whether the selected commit is "good" or "bad".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123257Z" creationid="Admin" creationdate="20171026T123257Z">
+        <seg>然后 &lt;c0&gt;git bisect&lt;/c0&gt; 在这两个端点之间选择一个提交，并询问所选提交是“good”还是“bad”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are also more complex operations that can be performed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081949Z" creationid="Admin" creationdate="20171024T081949Z">
@@ -16669,6 +16853,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T072902Z" creationid="Admin" creationdate="20171024T072902Z">
         <seg>此命令使用工作树中找到的当前内容更新索引，以为下一次提交准备暂存的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command uses a binary search algorithm to find which commit in your project’s history introduced a bug.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123154Z" creationid="Admin" creationdate="20171026T123154Z">
+        <seg>该命令使用二分查找算法来查找项目历史记录中提交的错误。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17601,6 +17793,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To support this more general usage, the terms "old" and "new" can be used in place of "good" and "bad", or you can choose your own terms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123425Z" creationid="Admin" creationdate="20171026T123405Z">
+        <seg>为了支持这种更普遍的用法，术语“old”和“new”可以用来代替“good”和“bad”，或者你可以选择自己的术语。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Topics ▾</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T034153Z" creationid="Admin" creationdate="20171020T034153Z">
@@ -18389,6 +18589,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070607Z" creationid="Admin" creationdate="20171024T070607Z">
         <seg>给定时，通过 ssh 访问要克隆的仓库，这指定了另一端运行的命令的非默认路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When giving multiple pattern expressions combined with &lt;c0&gt;--or&lt;/c0&gt;, this flag is specified to limit the match to files that have lines to match all of them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T125637Z" creationid="Admin" creationdate="20171026T125319Z">
+        <seg>当给出由 &lt;c0&gt;--or&lt;/c0&gt; 组合的多个正则表达式时，指定该标志用于限制匹配的文件为，有行匹配所有的正则（译注：不一定要在同一行）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19193,6 +19401,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You use it by first telling it a "bad" commit that is known to contain the bug, and a "good" commit that is known to be before the bug was introduced.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123229Z" creationid="Admin" creationdate="20171026T123229Z">
+        <seg>要使用它，首先告诉它一个已知包含该错误的“bad”提交，以及在引入错误之前已知的“good”提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You will have to resolve any such merge failure and run &lt;c0&gt;git rebase --continue&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T094304Z" creationid="Admin" creationdate="20171026T094304Z">
@@ -19883,6 +20099,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-bisect - Use binary search to find the commit that introduced a bug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T123015Z" creationid="Admin" creationdate="20171026T123015Z">
+        <seg>git-bisect - 使用二分法来查找引入错误的提交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-bisect.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -19895,6 +20119,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074123Z" creationid="Admin" creationdate="20171020T074123Z">
         <seg>git-bisect[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-blame - Show what revision and author last modified each line of a file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124139Z" creationid="Admin" creationdate="20171026T124139Z">
+        <seg>git-blame - 显示文件每一行的最后一次修订版本和作者</seg>
       </tuv>
     </tu>
     <tu>
@@ -20807,6 +21039,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-get-tar-commit-id[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-grep - Print lines matching a pattern</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124337Z" creationid="Admin" creationdate="20171026T124337Z">
+        <seg>git-grep - 打印匹配正则的行</seg>
       </tuv>
     </tu>
     <tu>
