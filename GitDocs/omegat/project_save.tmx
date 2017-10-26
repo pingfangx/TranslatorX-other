@@ -6824,6 +6824,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default (without --all or --tags) &lt;c0&gt;git describe&lt;/c0&gt; only shows annotated tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082858Z" creationid="Admin" creationdate="20171026T082858Z">
+        <seg>默认情况下(不包括--all 或--tags)&lt;/c0&gt; git 描述&lt;/c0&gt;仅显示注释标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default index file version 2 or 3 is used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T070820Z" creationid="Admin" creationdate="20171023T070820Z">
@@ -8497,6 +8505,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more information about creating annotated tags see the -a and -s options to &lt;a1&gt;git-tag[1]&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082906Z" creationid="Admin" creationdate="20171026T082906Z">
+        <seg>有关创建带注释的标签的更多信息，请参阅-a 和-s 选项，使用 &lt;a1&gt;git-tag[1]&lt;/a1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more information about submodules, see &lt;a0&gt;gitsubmodules[7]&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T074237Z" creationid="Admin" creationdate="20171026T074237Z">
@@ -9125,6 +9141,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T100348Z" creationid="Admin" creationdate="20171023T100348Z">
         <seg>Git - git-config 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-describe Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082740Z" creationid="Admin" creationdate="20171026T082740Z">
+        <seg>Git - git-describe 文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -10157,6 +10181,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121746Z" creationid="Admin" creationdate="20171025T121746Z">
         <seg>如果标记未注释，则会显示提交消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the tag points to the commit, then only the tag is shown.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082813Z" creationid="Admin" creationdate="20171026T082813Z">
+        <seg>如果有标签指向提交，则只显示该标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11981,6 +12013,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085220Z" creationid="Admin" creationdate="20171025T085220Z">
         <seg>否则，如果它引用一个有效的提交，您的 HEAD 变为"分离"，并且您不再处于任何分支(有关详细信息，请参阅下文)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, it suffixes the tag name with the number of additional commits on top of the tagged object and the abbreviated object name of the most recent commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082851Z" creationid="Admin" creationdate="20171026T082851Z">
+        <seg>否则，它将标签名称与标签对象之上的附加提交数量以及最近提交的缩写对象名称后缀。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14725,6 +14765,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072553Z" creationid="Admin" creationdate="20171026T072553Z">
         <seg>然后可以使用命令 &lt;c0&gt;git fetch &lt;name&gt;&lt;/c0&gt; 创建和更新远程跟踪分支 &lt;name&gt;/&lt;branch&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command finds the most recent tag that is reachable from a commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082801Z" creationid="Admin" creationdate="20171026T082801Z">
+        <seg>该命令查找从提交可访问的最新标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19447,6 +19495,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-daemon[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-describe - Describe a commit using the most recent tag reachable from it</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082756Z" creationid="Admin" creationdate="20171026T082756Z">
+        <seg>git-describe - 使用可从其访问的最新标记来描述提交</seg>
       </tuv>
     </tu>
     <tu>
