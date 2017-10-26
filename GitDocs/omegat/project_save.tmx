@@ -3304,6 +3304,22 @@ $ git add .</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(See &lt;a0&gt;git-config[1]&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054958Z" creationid="Admin" creationdate="20171026T054958Z">
+        <seg>(参见 &lt;a0&gt;git-config[1]&lt;/a0&gt; )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(See &lt;a1&gt;git-config[1]&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041700Z" creationid="Admin" creationdate="20171026T041700Z">
+        <seg>(参见 &lt;a1&gt;git-config[1]&lt;/a1&gt; )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(See the "RECOVERING FROM UPSTREAM REBASE" section in &lt;a0&gt;git-rebase[1]&lt;/a0&gt;.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T102841Z" creationid="Admin" creationdate="20171024T102841Z">
@@ -4906,6 +4922,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git fetch&lt;/e0&gt; can fetch from either a single named repository or URL, or from several repositories at once if &lt;group&gt; is given and there is a remotes.&lt;group&gt; entry in the configuration file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054412Z" creationid="Admin" creationdate="20171026T041615Z">
+        <seg>&lt;e0&gt;git fetch&lt;/e0&gt; 可以从单个命名的仓库或 URL 中抓取，也可以从多个仓库中抓取，如果给出了&lt;group&gt;，并且配置文件中有一个 remotes.&lt;group&gt; 条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;git help&lt;/e0&gt; [-a|--all] [-g|--guide]
 	   [-i|--info|-m|--man|-w|--web] [COMMAND|GUIDE]</seg>
       </tuv>
@@ -5896,6 +5920,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A name referring to a list of repositories as the value of remotes.&lt;group&gt; in the configuration file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054957Z" creationid="Admin" creationdate="20171026T054957Z">
+        <seg>在配置文件中通过 remotes.&lt;group&gt; 的值配置的，一组仓库的引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A number controlling the amount of output shown by the recursive merge strategy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074042Z" creationid="Admin" creationdate="20171023T074042Z">
@@ -6208,6 +6240,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All of these also allow you to omit the refspec from the command line because they each contain a refspec which git will use by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055327Z" creationid="Admin" creationdate="20171026T055327Z">
+        <seg>所有这些还允许您从命令行中省略 refspec，因为它们各自包含默认情况下将使用 git 的 refspec。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All writing options will per default write to the repository specific configuration file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120819Z" creationid="Admin" creationdate="20171023T120819Z">
@@ -6388,6 +6428,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T120550Z" creationid="Admin" creationdate="20171023T120550Z">
         <seg>此文件中设置的任何单值变量将被 &lt;c1&gt;~/.gitconfig&lt;/c1&gt; 中的任何内容覆盖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Append ref names and object names of fetched refs to the existing contents of &lt;c0&gt;.git/FETCH_HEAD&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T042112Z" creationid="Admin" creationdate="20171026T042112Z">
+        <seg>将引用的引用名称和对象名称附加到 &lt;c0&gt;.git/FETCH_HEAD&lt;/c0&gt; 的现有内容中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6696,6 +6744,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, any tag that points into the histories being fetched is also fetched; the effect is to fetch tags that point at branches that you are interested in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041442Z" creationid="Admin" creationdate="20171026T041442Z">
+        <seg>默认情况下，还会抓取指向正在获取的历史记录的任何标签;效果是获取指向您感兴趣的分支的标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, if you try to check out such an entry from the index, the checkout operation will fail and nothing will be checked out.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T070031Z" creationid="Admin" creationdate="20171025T070031Z">
@@ -6708,6 +6764,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113048Z" creationid="Admin" creationdate="20171025T113048Z">
         <seg>默认情况下，提交按时间倒序显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By using a refspec that fetches tags explicitly, you can fetch tags that do not point into branches you are interested in as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041544Z" creationid="Admin" creationdate="20171026T041544Z">
+        <seg>通过使用显式提取标签的 refspec，您可以获取不指向您感兴趣的分支的标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6756,6 +6820,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T041022Z" creationid="Admin" creationdate="20171024T041022Z">
         <seg>配置变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CONFIGURED REMOTE-TRACKING BRANCHES</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055451Z" creationid="Admin" creationdate="20171026T055451Z">
+        <seg>配置远程跟踪分支</seg>
       </tuv>
     </tu>
     <tu>
@@ -7433,6 +7505,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Depending on the transport protocol, some of this information may be absent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055106Z" creationid="Admin" creationdate="20171026T055106Z">
+        <seg>根据传输协议，有些信息可能不存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Describe a commit using the most recent tag reachable from it</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074357Z" creationid="Admin" creationdate="20171020T074357Z">
@@ -7973,6 +8053,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084430Z" creationid="Admin" creationdate="20171023T084430Z">
         <seg>进一步的文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fetch all remotes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054433Z" creationid="Admin" creationdate="20171026T042053Z">
+        <seg>抓取所有的远程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fetch branches and/or tags (collectively, "refs") from one or more other repositories, along with the objects necessary to complete their histories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054347Z" creationid="Admin" creationdate="20171026T041326Z">
+        <seg>从一个或多个其他仓库中抓取分支和/或标签(统称为"参考")，以及完成其历史所必需的对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8801,6 +8897,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-fetch Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041251Z" creationid="Admin" creationdate="20171026T041251Z">
+        <seg>Git - git-fetch 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-help Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T033714Z" creationid="Admin" creationdate="20171024T033707Z">
@@ -8949,6 +9053,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T081814Z" creationid="Admin" creationdate="20171023T081814Z">
         <seg>执行诸如 &lt;a1&gt;git-prune[1]&lt;/a1&gt; 的破坏性操作时，Git 会自动设置此变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git supports ssh, git, http, and https protocols (in addition, ftp, and ftps can be used for fetching, but this is inefficient and deprecated; do not use it).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055121Z" creationid="Admin" creationdate="20171026T055121Z">
+        <seg>Git 支持 ssh，git，http 和 https 协议(此外，ftp 和 ftps 可以用于抓取，但这是低效和不推荐的;不要使用它)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9389,6 +9501,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T074225Z" creationid="Admin" creationdate="20171023T074225Z">
         <seg>如果这些环境变量中的任何一个被设置，那么当需要连接到某个环境变量时， &lt;e0&gt;git fetch&lt;/e0&gt; 和 &lt;e1&gt;git push&lt;/e1&gt; 将使用指定的命令而不是 &lt;e2&gt;ssh&lt;/e2&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If fetching to a &lt;e0&gt;shallow&lt;/e0&gt; repository created by &lt;c1&gt;git clone&lt;/c1&gt; with &lt;c2&gt;--depth=&lt;depth&gt;&lt;/c2&gt; option (see &lt;a3&gt;git-clone[1]&lt;/a3&gt;), deepen or shorten the history to the specified number of commits.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054527Z" creationid="Admin" creationdate="20171026T054527Z">
+        <seg>如果抓取一个通过 &lt;c2&gt;--depth=&lt;depth&gt;&lt;/c2&gt; 选项创建的 &lt;e0&gt;shallow&lt;/e0&gt; 仓库(见 &lt;a3&gt;git-clone[1]&lt;/a3&gt; )，将历史加深或缩短到指定数量的提交。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10033,6 +10153,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In general, URLs contain information about the transport protocol, the address of the remote server, and the path to the repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055100Z" creationid="Admin" creationdate="20171026T055100Z">
+        <seg>通常，URL 包含有关传输协议，远程服务器的地址以及仓库的路径的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In general, the interrogate commands do not touch the files in the working tree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T092929Z" creationid="Admin" creationdate="20171020T092929Z">
@@ -10593,6 +10721,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Limit fetching to the specified number of commits from the tip of each remote branch history.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054445Z" creationid="Admin" creationdate="20171026T042210Z">
+        <seg>限制从每个远程分支历史记录的尖端抓取指定数量的提交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Limit the number of commits to output.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112422Z" creationid="Admin" creationdate="20171025T112422Z">
@@ -10945,10 +11081,34 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Named file in &lt;c0&gt;$GIT_DIR/branches&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055444Z" creationid="Admin" creationdate="20171026T055444Z">
+        <seg>在 &lt;c0&gt;$GIT_DIR/branches&lt;/c0&gt; 中指定的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Named file in &lt;c0&gt;$GIT_DIR/remotes&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055430Z" creationid="Admin" creationdate="20171026T055430Z">
+        <seg>在 &lt;c0&gt;$GIT_DIR/remotes&lt;/c0&gt; 中指定的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Named pointers called refs mark interesting points in history.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085629Z" creationid="Admin" creationdate="20171023T083535Z">
         <seg>称为 refs 的指针标记了历史上的有趣点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Named remote in configuration file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055417Z" creationid="Admin" creationdate="20171026T055417Z">
+        <seg>在配置文件中指定的远程</seg>
       </tuv>
     </tu>
     <tu>
@@ -11149,6 +11309,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T050608Z" creationid="Admin" creationdate="20171020T050608Z">
         <seg>选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>OUTPUT</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055505Z" creationid="Admin" creationdate="20171026T055505Z">
+        <seg>输出</seg>
       </tuv>
     </tu>
     <tu>
@@ -11489,6 +11657,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Peek at a remote’s branch, without configuring the remote in your local repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T060230Z" creationid="Admin" creationdate="20171026T060049Z">
+        <seg>在本地仓库中没有配置远程时，偷看一个远程分支：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pick out and massage parameters</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090528Z" creationid="Admin" creationdate="20171020T090528Z">
@@ -11821,6 +11997,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113622Z" creationid="Admin" creationdate="20171023T113622Z">
         <seg>正则表达式匹配当前是区分大小写的，并且对于 section 和变量名小写规范版本的 key，但子 section 名称没有。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remote-tracking branches are updated (see the description of &lt;refspec&gt; below for ways to control this behavior).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041346Z" creationid="Admin" creationdate="20171026T041346Z">
+        <seg>远程跟踪分支已更新(有关如何控制此行为，请参阅下面的&lt;refspec&gt;的描述)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12181,6 +12365,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T043106Z" creationid="Admin" creationdate="20171024T043106Z">
         <seg>在现有仓库中运行 &lt;e0&gt;git init&lt;/e0&gt; 是安全的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SECURITY</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T060242Z" creationid="Admin" creationdate="20171026T060242Z">
+        <seg>安全</seg>
       </tuv>
     </tu>
     <tu>
@@ -13041,6 +13233,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show what would be done, without making any changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054846Z" creationid="Admin" creationdate="20171026T054846Z">
+        <seg>显示将做什么，但不做任何更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Shows all commits that are in any of local branches but not in any of remote-tracking branches for &lt;e0&gt;origin&lt;/e0&gt; (what you have that origin doesn’t).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T114237Z" creationid="Admin" creationdate="20171025T114237Z">
@@ -13197,6 +13397,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121858Z" creationid="Admin" creationdate="20171025T121858Z">
         <seg>排序和过滤标签不区分大小写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies which refs to fetch and which local refs to update.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055020Z" creationid="Admin" creationdate="20171026T055020Z">
+        <seg>指定要获取的引用和更新哪些本地引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13417,6 +13625,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tags for the deepened commits are not fetched.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054557Z" creationid="Admin" creationdate="20171026T054557Z">
+        <seg>更深的提交的标签不会被抓取。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Take an existing commit object, and reuse the log message and the authorship information (including the timestamp) when creating the commit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T094243Z" creationid="Admin" creationdate="20171024T094243Z">
@@ -13505,6 +13721,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The "remote" repository that is the source of a fetch or pull operation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054858Z" creationid="Admin" creationdate="20171026T054858Z">
+        <seg>作为抓取或拉取操作的源的"远程"仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The .git directory contains, among other things, a compressed object database representing the complete history of the project, an "index" file which links that history to the current contents of the working tree, and named pointers into that history such as tags and branch heads.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T082848Z" creationid="Admin" creationdate="20171023T082848Z">
@@ -13589,6 +13813,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T112459Z" creationid="Admin" creationdate="20171024T112459Z">
         <seg>&lt;c0&gt;keyid&lt;/c0&gt; 参数是可选的，默认为提交者标识;如果指定，则必须将其粘贴到没有空格的选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;pu&lt;/c0&gt; branch will be updated even if it is does not fast-forward, because it is prefixed with a plus sign; &lt;c1&gt;tmp&lt;/c1&gt; will not be.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055901Z" creationid="Admin" creationdate="20171026T055901Z">
+        <seg>即使没有快进， &lt;c0&gt;pu&lt;/c0&gt; 分支也将被更新，因为它的前缀有一个加号; &lt;c1&gt;tmp&lt;/c1&gt; 则不会。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13741,6 +13973,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074829Z" creationid="Admin" creationdate="20171020T074829Z">
         <seg>Git 仓库浏览器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The above command copies all branches from the remote refs/heads/ namespace and stores them to the local refs/remotes/origin/ namespace, unless the branch.&lt;name&gt;.fetch option is used to specify a non-default refspec.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055609Z" creationid="Admin" creationdate="20171026T055609Z">
+        <seg>上述命令从远程 refs/heads/ 命名空间复制所有分支，并将它们存储到本地的 refs/remotes/origin/ 中，除非使用 branch.&lt;name&gt;.fetch 选项指定非默认的 refspec。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13993,6 +14233,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The fetched objects will eventually be removed by git’s built-in housekeeping (see &lt;a4&gt;git-gc[1]&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T060216Z" creationid="Admin" creationdate="20171026T060216Z">
+        <seg>获取的对象最终将被 git 的内置内务管理(请参阅 &lt;a4&gt;git-gc[1]&lt;/a4&gt; )删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The file &lt;c1&gt;hello.c&lt;/c1&gt; will also be checked out, even though it is no longer in the working tree, because the file globbing is used to match entries in the index (not in the working tree by the shell).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085936Z" creationid="Admin" creationdate="20171025T085936Z">
@@ -14041,6 +14289,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first command fetches the &lt;c0&gt;maint&lt;/c0&gt; branch from the repository at &lt;c1&gt;git://git.kernel.org/pub/scm/git/git.git&lt;/c1&gt; and the second command uses &lt;c2&gt;FETCH_HEAD&lt;/c2&gt; to examine the branch with &lt;a3&gt;git-log[1]&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T060200Z" creationid="Admin" creationdate="20171026T060200Z">
+        <seg>第一个命令从 &lt;c1&gt;git://git.kernel.org/pub/scm/git/git.git&lt;/c1&gt; 从仓库中获取 &lt;c0&gt;maint&lt;/c0&gt; 分支，第二个命令通过 &lt;c2&gt;FETCH_HEAD&lt;/c2&gt; 用 &lt;a3&gt;git-log[1]&lt;/a3&gt; 检查分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following are helper commands used by the above; end users typically do not use them directly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T093128Z" creationid="Admin" creationdate="20171020T093128Z">
@@ -14085,6 +14341,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T085820Z" creationid="Admin" creationdate="20171025T085820Z">
         <seg>以下顺序检出 &lt;c0&gt;master&lt;/c0&gt; 分支，将 &lt;c1&gt;Makefile&lt;/c1&gt; 还原两个版本，错误地删除 hello.c，并从索引中取回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following syntaxes may be used with them:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055211Z" creationid="Admin" creationdate="20171026T055211Z">
+        <seg>可以使用以下语法：</seg>
       </tuv>
     </tu>
     <tu>
@@ -14265,6 +14529,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of one of the following can be used instead of a URL as &lt;c0&gt;&lt;repository&gt;&lt;/c0&gt; argument:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055218Z" creationid="Admin" creationdate="20171026T055218Z">
+        <seg>可以使用以下名称之一替代 URL 作为 &lt;c0&gt;&lt;repository&gt;&lt;/c0&gt; 参数：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of the branch to create or delete.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T062912Z" creationid="Admin" creationdate="20171025T062912Z">
@@ -14277,6 +14549,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121921Z" creationid="Admin" creationdate="20171025T121921Z">
         <seg>要创建，删除或描述的标签的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The names of refs that are fetched, together with the object names they point at, are written to &lt;c0&gt;.git/FETCH_HEAD&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054425Z" creationid="Admin" creationdate="20171026T041908Z">
+        <seg>被抓取的引用名称与它们所指向的对象名称一起写入 &lt;c0&gt;.git/FETCH_HEAD&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The native transport (i.e. git:// URL) does no authentication and should be used with caution on unsecured networks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055156Z" creationid="Admin" creationdate="20171026T055156Z">
+        <seg>本地传输(即 git:// URL)不进行身份验证，在不安全的网络上应谨慎使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14825,6 +15113,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This default behavior can be changed by using the --tags or --no-tags options or by configuring remote.&lt;name&gt;.tagOpt.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041510Z" creationid="Admin" creationdate="20171026T041510Z">
+        <seg>可以使用--tags 或--no-tags 选项或配置 remote.&lt;name&gt;.tagOpt 来更改此默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This default configuration is achieved by creating references to the remote branch heads under &lt;c0&gt;refs/remotes/origin&lt;/c0&gt; and by initializing &lt;c1&gt;remote.origin.url&lt;/c1&gt; and &lt;c2&gt;remote.origin.fetch&lt;/c2&gt; configuration variables.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065242Z" creationid="Admin" creationdate="20171024T065242Z">
@@ -15013,6 +15309,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070352Z" creationid="Admin" creationdate="20171024T070352Z">
         <seg>这意味着 &lt;c0&gt;--bare&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This information may be used by scripts or other git commands, such as &lt;a1&gt;git-pull[1]&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041920Z" creationid="Admin" creationdate="20171026T041920Z">
+        <seg>该信息可以由脚本或其他 git 命令使用，例如 &lt;a1&gt;git-pull[1]&lt;/a1&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15441,6 +15745,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This parameter can be either a URL (see the section &lt;a0&gt;GIT URLS&lt;/a0&gt; below) or the name of a remote (see the section &lt;a1&gt;REMOTES&lt;/a1&gt; below).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054911Z" creationid="Admin" creationdate="20171026T054911Z">
+        <seg>此参数可以是 URL(请参见下面的 &lt;a0&gt;GIT URLS&lt;/a0&gt; 部分)或远程名称(请参阅下面的 &lt;a1&gt;REMOTES&lt;/a1&gt; 部分)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This removes as well as modifies index entries to match the working tree, but adds no new files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074102Z" creationid="Admin" creationdate="20171024T074102Z">
@@ -15501,6 +15813,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T073330Z" creationid="Admin" creationdate="20171023T073330Z">
         <seg>这优先于 Git diff 命令行上传递的任何“-U”或“--unified”选项值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This updates (or creates, as necessary) branches &lt;c0&gt;pu&lt;/c0&gt; and &lt;c1&gt;tmp&lt;/c1&gt; in the local repository by fetching from the branches (respectively) &lt;c2&gt;pu&lt;/c2&gt; and &lt;c3&gt;maint&lt;/c3&gt; from the remote repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055830Z" creationid="Admin" creationdate="20171026T055830Z">
+        <seg>更新（或者创建，如果需要的话）本地仓库中的 &lt;c0&gt;pu&lt;/c0&gt; 和 &lt;c1&gt;tmp&lt;/c1&gt; 分支，通地（分别地）抓取远程仓库的 &lt;c2&gt;pu&lt;/c2&gt; 和 &lt;c3&gt;maint&lt;/c3&gt; 分支。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15793,6 +16113,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Update the remote-tracking branches:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055515Z" creationid="Admin" creationdate="20171026T055515Z">
+        <seg>更新远程跟踪分支：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Update&gt;&gt; -2</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082700Z" creationid="Admin" creationdate="20171024T082700Z">
@@ -15933,6 +16261,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T112403Z" creationid="Admin" creationdate="20171025T112403Z">
         <seg>使用更多选项通常进一步限制输出(例如 &lt;c0&gt;--since=&lt;date1&gt;&lt;/c0&gt; 限制提交比 &lt;c1&gt;&lt;date1&gt;&lt;/c1&gt; 更新，并使用 &lt;c2&gt;--grep=&lt;pattern&gt;&lt;/c2&gt; 进一步限制其日志消息具有与 &lt;c3&gt;&lt;pattern&gt;&lt;/c3&gt; 匹配的行)，除非另有说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using refspecs explicitly:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055639Z" creationid="Admin" creationdate="20171026T055639Z">
+        <seg>明确使用 refspecs：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16265,6 +16601,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When no remote is specified, by default the &lt;c0&gt;origin&lt;/c0&gt; remote will be used, unless there’s an upstream branch configured for the current branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041807Z" creationid="Admin" creationdate="20171026T041807Z">
+        <seg>当没有指定远程时，默认情况下，将使用 &lt;c0&gt;origin&lt;/c0&gt; remote，除非为当前分支配置了上游分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When pathnames are given, the command makes a commit that only records the changes made to the named paths:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115237Z" creationid="Admin" creationdate="20171024T115237Z">
@@ -16525,6 +16869,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T095903Z" creationid="Admin" creationdate="20171024T095903Z">
         <seg>没有 &lt;c3&gt;-z&lt;/c3&gt; 选项，引用了具有"异常"字符的文件名，如配置变量 &lt;c4&gt;core.quotePath&lt;/c4&gt; 所述(参见&lt;a5&gt;git-config[1]&lt;/a5&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Without this option old data in &lt;c1&gt;.git/FETCH_HEAD&lt;/c1&gt; will be overwritten.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T042150Z" creationid="Admin" creationdate="20171026T042150Z">
+        <seg>没有这个选项， &lt;c1&gt;.git/FETCH_HEAD&lt;/c1&gt; 中的旧数据将被覆盖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16837,6 +17189,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T040246Z" creationid="Admin" creationdate="20171020T040246Z">
         <seg>[-p|--paginate|--no-pager] [--no-replace-objects] [--bare]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a file in the &lt;c0&gt;$GIT_DIR/branches&lt;/c0&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055248Z" creationid="Admin" creationdate="20171026T055248Z">
+        <seg>&lt;c0&gt;$GIT_DIR/branches&lt;/c0&gt; 目录中的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a file in the &lt;c0&gt;$GIT_DIR/remotes&lt;/c0&gt; directory, or</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055244Z" creationid="Admin" creationdate="20171026T055244Z">
+        <seg>&lt;c0&gt;$GIT_DIR/remotes&lt;/c0&gt; 目录中的文件，或</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a remote in the Git configuration file: &lt;c0&gt;$GIT_DIR/config&lt;/c0&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055240Z" creationid="Admin" creationdate="20171026T055240Z">
+        <seg>Git 配置文件&lt;c0&gt;$GIT_DIR/config&lt;/c0&gt; 中的一个远程： ，</seg>
       </tuv>
     </tu>
     <tu>
@@ -18207,6 +18583,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-fast-import[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-fetch - Download objects and refs from another repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T042032Z" creationid="Admin" creationdate="20171026T042032Z">
+        <seg>git-fetch - 从另一个仓库下载对象和引用</seg>
       </tuv>
     </tu>
     <tu>
