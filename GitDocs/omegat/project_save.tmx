@@ -6064,6 +6064,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add a new remote, fetch, and check out a branch from it</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T073301Z" creationid="Admin" creationdate="20171026T073301Z">
+        <seg>添加一个新的远程，抓取，并从中检出一个分支</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add a tag reference in &lt;c0&gt;refs/tags/&lt;/c0&gt;, unless &lt;c1&gt;-d/-l/-v&lt;/c1&gt; is given to delete, list or verify tags.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121400Z" creationid="Admin" creationdate="20171025T121400Z">
@@ -6116,6 +6124,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T113112Z" creationid="Admin" creationdate="20171023T113112Z">
         <seg>在选项中添加新行，而不更改任何现有值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds a remote named &lt;name&gt; for the repository at &lt;url&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072525Z" creationid="Admin" creationdate="20171026T072525Z">
+        <seg>在 &lt;url&gt; 中的仓库添加名为 &lt;name&gt; 的远程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6276,6 +6292,22 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T055327Z" creationid="Admin" creationdate="20171026T055327Z">
         <seg>所有这些还允许您从命令行中省略 refspec，因为它们各自包含默认情况下将使用 git 的 refspec。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All remote-tracking branches and configuration settings for the remote are removed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072941Z" creationid="Admin" creationdate="20171026T072941Z">
+        <seg>所有远程跟踪分支和远程的配置设置都将被删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All remote-tracking branches and configuration settings for the remote are updated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072841Z" creationid="Admin" creationdate="20171026T072841Z">
+        <seg>所有远程跟踪分支和远程的配置设置都会更新。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6624,6 +6656,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Be a little more verbose and show remote url after name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072349Z" creationid="Admin" creationdate="20171026T072349Z">
+        <seg>稍微更详细一些，并在名字后显示远程 URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Be quiet, only report errors.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T123231Z" creationid="Admin" creationdate="20171024T123231Z">
@@ -6816,6 +6856,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, only tags on fetched branches are imported (see &lt;a0&gt;git-fetch[1]&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072740Z" creationid="Admin" creationdate="20171026T072740Z">
+        <seg>默认情况下，只导入抓取的分支上的标签(参见 &lt;a0&gt;git-fetch[1]&lt;/a0&gt; )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the commits are shown in reverse chronological order.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113048Z" creationid="Admin" creationdate="20171025T113048Z">
@@ -6844,6 +6892,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T102856Z" creationid="Admin" creationdate="20171024T102856Z">
         <seg>绕过 post-rewrite 钩子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>COMMANDS</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072359Z" creationid="Admin" creationdate="20171026T072359Z">
+        <seg>命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -9089,6 +9145,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-remote Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072258Z" creationid="Admin" creationdate="20171026T072258Z">
+        <seg>Git - git-remote 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-reset Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T121933Z" creationid="Admin" creationdate="20171024T121933Z">
@@ -9253,6 +9317,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121141Z" creationid="Admin" creationdate="20171023T121141Z">
         <seg>给出一个 .git/config，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gives some information about the remote &lt;name&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T073036Z" creationid="Admin" creationdate="20171026T073036Z">
+        <seg>提供有关远程&lt;name&gt;的一些信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10217,6 +10289,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Imitate &lt;e0&gt;git clone&lt;/e0&gt; but track only selected branches</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T073939Z" creationid="Admin" creationdate="20171026T073939Z">
+        <seg>模仿 &lt;e0&gt;git clone&lt;/e0&gt; ，但只跟踪所选的分支</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Implies &lt;c0&gt;--dry-run&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T095748Z" creationid="Admin" creationdate="20171024T095748Z">
@@ -10293,6 +10373,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T082314Z" creationid="Admin" creationdate="20171024T082314Z">
         <seg>在所有情况下，新修改将在工作树中显示为还原。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In case &lt;old&gt; and &lt;new&gt; are the same, and &lt;old&gt; is a file under &lt;c0&gt;$GIT_DIR/remotes&lt;/c0&gt; or &lt;c1&gt;$GIT_DIR/branches&lt;/c1&gt;, the remote is converted to the configuration file format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072905Z" creationid="Admin" creationdate="20171026T072905Z">
+        <seg>如果&lt;old&gt;和&lt;new&gt;相同，&lt;old&gt;是 &lt;c0&gt;$GIT_DIR/remotes&lt;/c0&gt; 或 &lt;c1&gt;$GIT_DIR/branches&lt;/c1&gt; 下的文件，则将远程转换为配置文件格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11153,6 +11241,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Manage the set of repositories ("remotes") whose branches you track.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072343Z" creationid="Admin" creationdate="20171026T072343Z">
+        <seg>管理您跟踪的分支的一组仓库("remotes")。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Manipulation commands</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T091839Z" creationid="Admin" creationdate="20171020T091839Z">
@@ -11285,6 +11381,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T035422Z" creationid="Admin" creationdate="20171020T035422Z">
         <seg>名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NOTE: This must be placed between &lt;c0&gt;remote&lt;/c0&gt; and &lt;c1&gt;subcommand&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072355Z" creationid="Admin" creationdate="20171026T072355Z">
+        <seg>注意：这必须位于 &lt;c0&gt;remote&lt;/c0&gt; 和 &lt;c1&gt;subcommand&lt;/c1&gt; 之间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12361,6 +12465,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove the remote named &lt;name&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072908Z" creationid="Admin" creationdate="20171026T072908Z">
+        <seg>移除名为&lt;name&gt;的远程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove unnecessary whitespace</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094318Z" creationid="Admin" creationdate="20171020T094318Z">
@@ -12397,6 +12509,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114519Z" creationid="Admin" creationdate="20171023T114519Z">
         <seg>将给定的部分重命名为新名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rename the remote named &lt;old&gt; to &lt;new&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072833Z" creationid="Admin" creationdate="20171026T072833Z">
+        <seg>将名为&lt;old&gt;的远程重命名为&lt;new&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13257,6 +13377,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sets or deletes the default branch (i.e. the target of the symbolic-ref &lt;c0&gt;refs/remotes/&lt;name&gt;/HEAD&lt;/c0&gt;) for the named remote.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T073033Z" creationid="Admin" creationdate="20171026T073033Z">
+        <seg>设置或删除命名的远程的默认分支(即 symbolic-ref &lt;c0&gt;refs/remotes/&lt;name&gt;/HEAD&lt;/c0&gt; 的目标)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting the &lt;c0&gt;mergetool.keepBackup&lt;/c0&gt; configuration variable to &lt;c1&gt;false&lt;/c1&gt; causes &lt;c2&gt;git mergetool&lt;/c2&gt; to automatically remove the backup as files are successfully merged.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T104404Z" creationid="Admin" creationdate="20171025T104404Z">
@@ -13301,6 +13429,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024139Z">
         <seg>设置与配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Several subcommands are available to perform operations on the remotes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072416Z" creationid="Admin" creationdate="20171026T072416Z">
+        <seg>有几个子命令可用于对远程执行操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14397,6 +14533,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T115038Z" creationid="Admin" creationdate="20171024T115038Z">
         <seg>命令 &lt;c0&gt;git commit -a&lt;/c0&gt; 首先查看你的工作树，注意你修改了 hello.c 并删除了 goodbye.c，并执行必要的 &lt;c1&gt;git add&lt;/c1&gt; 和 &lt;c2&gt;git rm&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command &lt;c0&gt;git fetch &lt;name&gt;&lt;/c0&gt; can then be used to create and update remote-tracking branches &lt;name&gt;/&lt;branch&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072553Z" creationid="Admin" creationdate="20171026T072553Z">
+        <seg>然后可以使用命令 &lt;c0&gt;git fetch &lt;name&gt;&lt;/c0&gt; 创建和更新远程跟踪分支 &lt;name&gt;/&lt;branch&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17345,6 +17489,30 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With &lt;c0&gt;--no-tags&lt;/c0&gt; option, &lt;c1&gt;git fetch &lt;name&gt;&lt;/c1&gt; does not import tags from the remote repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072729Z" creationid="Admin" creationdate="20171026T072729Z">
+        <seg>使用 &lt;c0&gt;--no-tags&lt;/c0&gt; 选项， &lt;c1&gt;git fetch &lt;name&gt;&lt;/c1&gt; 不会从远程仓储库导入标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With &lt;c0&gt;--tags&lt;/c0&gt; option, &lt;c1&gt;git fetch &lt;name&gt;&lt;/c1&gt; imports every tag from the remote repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072620Z" creationid="Admin" creationdate="20171026T072620Z">
+        <seg>使用 &lt;c0&gt;--tags&lt;/c0&gt; 选项， &lt;c1&gt;git fetch &lt;name&gt;&lt;/c1&gt; 从远程仓库导入每个标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With &lt;c0&gt;-f&lt;/c0&gt; option, &lt;c1&gt;git fetch &lt;name&gt;&lt;/c1&gt; is run immediately after the remote information is set up.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072607Z" creationid="Admin" creationdate="20171026T072607Z">
+        <seg>使用 &lt;c0&gt;-f&lt;/c0&gt; 选项，在设置远程信息后立即运行 &lt;c1&gt;git fetch &lt;name&gt;&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With &lt;c2&gt;--merged&lt;/c2&gt;, only branches merged into the named commit (i.e. the branches whose tip commits are reachable from the named commit) will be listed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061354Z" creationid="Admin" creationdate="20171025T061354Z">
@@ -17389,6 +17557,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061749Z" creationid="Admin" creationdate="20171025T061749Z">
         <seg>使用 &lt;c0&gt;-m&lt;/c0&gt; 或 &lt;c1&gt;-M&lt;/c1&gt; 选项，&lt;oldbranch&gt;将被重命名为&lt;newbranch&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With no arguments, shows a list of existing remotes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072406Z" creationid="Admin" creationdate="20171026T072406Z">
+        <seg>没有参数，显示现有远程的列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20183,6 +20359,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-reflog[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-remote - Manage set of tracked repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072306Z" creationid="Admin" creationdate="20171026T072306Z">
+        <seg>git-remote - 管理一组跟踪的仓库</seg>
       </tuv>
     </tu>
     <tu>
