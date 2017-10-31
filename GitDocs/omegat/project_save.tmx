@@ -4976,6 +4976,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;git svn&lt;/e0&gt; is a simple conduit for changesets between Subversion and Git.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092712Z" creationid="Admin" creationdate="20171031T092712Z">
+        <seg>&lt;e0&gt;git svn&lt;/e0&gt; 是用于 Subversion 和 Git 之间的更改的简单管道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;git-config&lt;/e0&gt; will expand leading &lt;e1&gt;~&lt;/e1&gt; to the value of &lt;e2&gt;$HOME&lt;/e2&gt;, and &lt;e3&gt;~user&lt;/e3&gt; to the home directory for the specified user.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T115242Z" creationid="Admin" creationdate="20171023T115242Z">
@@ -5920,6 +5928,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A dumb server that does not do on-the-fly pack generations must have some auxiliary information files in $GIT_DIR/info and $GIT_OBJECT_DIRECTORY/info directories to help clients discover what references and packs the server has.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093633Z" creationid="Admin" creationdate="20171031T093633Z">
+        <seg>一个不做即时封装代码的哑服务器必须在 $GIT_DIR/info 和 $GIT_OBJECT_DIRECTORY/info 目录中有一些辅助信息文件，以帮助客户端发现服务器具有哪些引用和包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A file can be reverted back, only in the index but not in the working tree, to that of the last commit with &lt;c1&gt;git reset HEAD -- &lt;file&gt;&lt;/c1&gt;, which effectively reverts &lt;e2&gt;git add&lt;/e2&gt; and prevents the changes to this file from participating in the next commit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T114807Z" creationid="Admin" creationdate="20171024T114807Z">
@@ -5988,6 +6004,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T103034Z" creationid="Admin" creationdate="20171026T103034Z">
         <seg>一系列提交也可以用 rebase 删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A really simple TCP Git daemon that normally listens on port "DEFAULT_GIT_PORT" aka 9418.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093216Z" creationid="Admin" creationdate="20171031T093216Z">
+        <seg>一个非常简单的 TCP Git 守护程序，通常监听端口 "DEFAULT_GIT_PORT" 即 9418。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6188,6 +6212,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074851Z" creationid="Admin" creationdate="20171024T074851Z">
         <seg>从 &lt;c1&gt;Documentation&lt;/c1&gt; 目录及其子目录中的所有 &lt;c0&gt;*.txt&lt;/c0&gt; 文件中添加内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Administering</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091841Z" creationid="Admin" creationdate="20171031T091841Z">
+        <seg>管理</seg>
       </tuv>
     </tu>
     <tu>
@@ -6828,6 +6860,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T124053Z" creationid="Admin" creationdate="20171026T124053Z">
         <seg>带临时修改(热修复)自动二分：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Automating</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091835Z" creationid="Admin" creationdate="20171031T091835Z">
+        <seg>自动化</seg>
       </tuv>
     </tu>
     <tu>
@@ -7525,6 +7565,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T090110Z" creationid="Admin" creationdate="20171024T090110Z">
         <seg>与任意提交相比</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Composing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091806Z" creationid="Admin" creationdate="20171031T091806Z">
+        <seg>构成</seg>
       </tuv>
     </tu>
     <tu>
@@ -8289,6 +8337,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T120203Z" creationid="Admin" creationdate="20171024T120203Z">
         <seg>环境与配置变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>EXAMPLE</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091900Z" creationid="Admin" creationdate="20171031T091900Z">
+        <seg>例子</seg>
       </tuv>
     </tu>
     <tu>
@@ -9393,6 +9449,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generate a request asking your upstream project to pull changes into their tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092008Z" creationid="Admin" creationdate="20171031T092008Z">
+        <seg>生成一个请求，要求您的上游项目将更改拉入其树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generates a summary of pending changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090850Z" creationid="Admin" creationdate="20171020T090850Z">
@@ -9473,6 +9537,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-am Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T090600Z" creationid="Admin" creationdate="20171031T090600Z">
+        <seg>Git - git-am 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-apply Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T084744Z" creationid="Admin" creationdate="20171026T084744Z">
@@ -9545,6 +9617,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-daemon Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093124Z" creationid="Admin" creationdate="20171031T093124Z">
+        <seg>Git - git-daemon 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-describe Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T082740Z" creationid="Admin" creationdate="20171026T082740Z">
@@ -9561,10 +9641,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-fast-import Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092833Z" creationid="Admin" creationdate="20171031T092833Z">
+        <seg>Git - git-fast-import 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-fetch Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T041251Z" creationid="Admin" creationdate="20171026T041251Z">
         <seg>Git - git-fetch 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-format-patch Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091114Z" creationid="Admin" creationdate="20171031T091059Z">
+        <seg>Git - git-format-patch 文档 </seg>
       </tuv>
     </tu>
     <tu>
@@ -9657,6 +9753,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-request-pull Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091931Z" creationid="Admin" creationdate="20171031T091931Z">
+        <seg>Git - git-request-pull 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-reset Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T121933Z" creationid="Admin" creationdate="20171024T121933Z">
@@ -9677,6 +9781,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T013834Z" creationid="Admin" creationdate="20171025T013834Z">
         <seg>Git - git-rm 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-send-email Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091456Z" creationid="Admin" creationdate="20171031T091456Z">
+        <seg>Git - git-send-email 文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -9721,10 +9833,26 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git - git-svn Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092634Z" creationid="Admin" creationdate="20171031T092634Z">
+        <seg>Git - git-svn 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git - git-tag Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121320Z" creationid="Admin" creationdate="20171025T121320Z">
         <seg>Git - git-tag 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Git - git-update-server-info Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093520Z" creationid="Admin" creationdate="20171031T093520Z">
+        <seg>Git - git-update-server-info 文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -10881,6 +11009,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you do not supply this argument, the command reads from the standard input.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T090834Z" creationid="Admin" creationdate="20171031T090834Z">
+        <seg>如果不提供此参数，则该命令从标准输入读取。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have a clone of git.git itself, the output of &lt;a0&gt;git-shortlog[1]&lt;/a0&gt; and &lt;a1&gt;git-blame[1]&lt;/a1&gt; can show you the authors for specific parts of the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084950Z" creationid="Admin" creationdate="20171023T084950Z">
@@ -10909,6 +11045,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T094047Z" creationid="Admin" creationdate="20171024T094047Z">
         <seg>如果您做出提交，然后立即发现错误，您可以使用 &lt;e0&gt;git reset&lt;/e0&gt; 从中恢复。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you supply directories, they will be treated as Maildirs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091001Z" creationid="Admin" creationdate="20171031T091001Z">
+        <seg>如果您提供目录，它们将被视为 Maildirs。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11225,6 +11369,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the last case, any format accepted by &lt;a0&gt;git-format-patch[1]&lt;/a0&gt; can be passed to git send-email.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091733Z" creationid="Admin" creationdate="20171031T091733Z">
+        <seg>在最后一种情况下，任何由 &lt;a0&gt;git-format-patch[1]&lt;/a0&gt; 接受的格式都可以传递给 git send-email。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the second form, the last argument has to be an existing directory; the given sources will be moved into this directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T023019Z" creationid="Admin" creationdate="20171025T023019Z">
@@ -11357,6 +11509,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T065812Z" creationid="Admin" creationdate="20171023T065246Z">
         <seg>表示任何类型对象的对象名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Information</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091843Z" creationid="Admin" creationdate="20171031T091843Z">
+        <seg>信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -11629,6 +11789,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073151Z" creationid="Admin" creationdate="20171024T073151Z">
         <seg>它只在运行 add 命令时添加指定文件的内容;如果要下次提交中包含的后续更改，则必须再次运行 &lt;c0&gt;git add&lt;/c0&gt; 以将新内容添加到索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It provides a bidirectional flow of changes between a Subversion and a Git repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092724Z" creationid="Admin" creationdate="20171031T092724Z">
+        <seg>它提供 Subversion 和 Git 仓库之间的双向变更流程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12141,6 +12309,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T060817Z" creationid="Admin" creationdate="20171026T060817Z">
         <seg>更准确地说， &lt;e0&gt;git pull&lt;/e0&gt; 使用给定的参数运行 &lt;e1&gt;git fetch&lt;/e1&gt; ，并调用 &lt;e2&gt;git merge&lt;/e2&gt; 将检索到的分支头合并到当前分支中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most end users want to use one of the existing frontend programs, which parses a specific type of foreign source and feeds the contents stored there to &lt;e0&gt;git fast-import&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092935Z" creationid="Admin" creationdate="20171031T092935Z">
+        <seg>大多数终端用户希望使用现有的前端程序之一，该程序解析特定类型的外来源，并将存储在那里的内容提供给 &lt;e0&gt;git fast-import&lt;/e0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12897,6 +13073,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Patches can be specified as files, directories (which will send all files in the directory), or directly as a revision list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091712Z" creationid="Admin" creationdate="20171031T091712Z">
+        <seg>可以将补丁指定为文件，目录(将在目录中发送所有文件)，或直接作为修订列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Patches, suggestions and comments are welcome.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T085214Z">
@@ -13037,6 +13221,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T063045Z" creationid="Admin" creationdate="20171025T063045Z">
         <seg>前缀 &lt;c0&gt;-&lt;/c0&gt; 按照值的降序排序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Prepare each commit with its patch in one file per commit, formatted to resemble UNIX mailbox format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091317Z" creationid="Admin" creationdate="20171031T091317Z">
+        <seg>将每个提交的补丁准备在一个文件中，格式化为类似于 UNIX 邮箱格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14337,6 +14529,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sending</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091824Z" creationid="Admin" creationdate="20171031T091824Z">
+        <seg>发出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Server Admin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T024432Z">
@@ -15033,6 +15233,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Splits mail messages in a mailbox into commit log message, authorship information and patches, and applies them to the current branch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T090816Z" creationid="Admin" creationdate="20171031T090816Z">
+        <seg>将邮箱中的邮件拆分为提交日志消息，作者信息和补丁，并将其应用于当前分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Start a new Git repository for an existing code base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060748Z" creationid="Admin" creationdate="20171024T060748Z">
@@ -15237,6 +15445,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T121108Z" creationid="Admin" creationdate="20171023T121108Z">
         <seg>从给定的文件而不是 .git/config 中进行配置。使用“--global”选项强制这个为 ~/.gitconfig 。使用“--system”选项强制这个为 $(prefix)/etc/gitconfig。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Takes the patches given on the command line and emails them out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091653Z" creationid="Admin" creationdate="20171031T091653Z">
+        <seg>取得命令行上给出补丁并发送给他们。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15913,6 +16129,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The fast-import backend itself can import into an empty repository (one that has already been initialized by &lt;e0&gt;git init&lt;/e0&gt;) or incrementally update an existing populated repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093049Z" creationid="Admin" creationdate="20171031T093049Z">
+        <seg>快速导入后端本身可以导入到一个空的存储库(已经由 &lt;e0&gt;git init&lt;/e0&gt; 初始化了)或逐步更新现有的填充存储库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The fetched objects will eventually be removed by git’s built-in housekeeping (see &lt;a4&gt;git-gc[1]&lt;/a4&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T060216Z" creationid="Admin" creationdate="20171026T060216Z">
@@ -16153,6 +16377,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The list of mailbox files to read patches from.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T090828Z" creationid="Admin" creationdate="20171031T090828Z">
+        <seg>从中读取补丁的邮箱文件列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The main command loop has 6 subcommands (plus help and quit).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075655Z" creationid="Admin" creationdate="20171024T075655Z">
@@ -16377,6 +16609,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The output of this command is convenient for e-mail submission or for use with &lt;e0&gt;git am&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091330Z" creationid="Admin" creationdate="20171031T091330Z">
+        <seg>此命令的输出可方便电子邮件提交或与 &lt;e0&gt;git am&lt;/e0&gt; 一起使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The parser accepts a space instead of the &lt;c1&gt;T&lt;/c1&gt; character as well.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T114002Z" creationid="Admin" creationdate="20171024T114002Z">
@@ -16421,6 +16661,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T102640Z" creationid="Admin" creationdate="20171024T102640Z">
         <seg>记录的树按照常规进行准备(包括 &lt;c0&gt;-i&lt;/c0&gt; 和 &lt;c1&gt;-o&lt;/c1&gt; 选项和显式 pathspec 的效果)，并将来自原始提交的消息用作开始点，而不是空消息，当没有通过诸如 &lt;c2&gt;-m&lt;/c2&gt; ， &lt;c3&gt;-F&lt;/c3&gt; ，&lt;c4&gt;-c&lt;/c4&gt;等选项从命令行指定其他消息等时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The request, printed to the standard output, begins with the branch description, summarizes the changes and indicates from where they can be pulled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092136Z" creationid="Admin" creationdate="20171031T092136Z">
+        <seg>打印到标准输出的该请求以分支描述开始，总结了更改并指出可以从哪里拉出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16837,6 +17085,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T043020Z" creationid="Admin" creationdate="20171024T043020Z">
         <seg>此命令创建一个空的 Git 仓库 - 基本上是一个 &lt;c0&gt;.git&lt;/c0&gt; 目录，其目录包含 &lt;c1&gt;objects&lt;/c1&gt; ， &lt;c2&gt;refs/heads&lt;/c2&gt; ，&lt;c3&gt;refs/tags &lt;/c3&gt;和模板文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command generates such auxiliary files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093637Z" creationid="Admin" creationdate="20171031T093637Z">
+        <seg>此命令生成这样的辅助文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17613,6 +17869,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T054911Z" creationid="Admin" creationdate="20171026T054911Z">
         <seg>此参数可以是 URL(请参见下面的 &lt;a0&gt;GIT URLS&lt;/a0&gt; 部分)或远程名称(请参阅下面的 &lt;a1&gt;REMOTES&lt;/a1&gt; 部分)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This program is usually not what the end user wants to run directly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092911Z" creationid="Admin" creationdate="20171031T092911Z">
+        <seg>这个程序通常不是最终用户想要直接运行的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18465,6 +18729,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When EOF is received on standard input, fast import writes out updated branch and tag refs, fully updating the current repository with the newly imported data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093024Z" creationid="Admin" creationdate="20171031T093024Z">
+        <seg>当在标准输入上接收到 EOF 时，快速导入会写入更新的分支和标签引用，使用新导入的数据完全更新当前仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When a local branch is started off a remote-tracking branch, Git sets up the branch (specifically the &lt;c0&gt;branch.&lt;name&gt;.remote&lt;/c0&gt; and &lt;c1&gt;branch.&lt;name&gt;.merge&lt;/c1&gt; configuration entries) so that &lt;e2&gt;git pull&lt;/e2&gt; will appropriately merge from the remote-tracking branch.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T061703Z" creationid="Admin" creationdate="20171025T061703Z">
@@ -18869,6 +19141,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T121554Z" creationid="Admin" creationdate="20171025T121554Z">
         <seg>而"轻量级"标签只是一个对象的名称(通常是提交对象)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether or not incremental imports are supported from a particular foreign source depends on the frontend program in use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093102Z" creationid="Admin" creationdate="20171031T093102Z">
+        <seg>是否从特定的外部来源支持增量导入取决于正在使用的前端程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19833,6 +20113,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fast-import reads a mixed command/data stream from standard input and writes one or more packfiles directly into the current repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092952Z" creationid="Admin" creationdate="20171031T092952Z">
+        <seg>快速导入从标准输入读取混合命令/数据流，并将一个或多个包文件直接写入当前存储库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>fetch</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -20007,6 +20295,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T074012Z" creationid="Admin" creationdate="20171020T074012Z">
         <seg>git-add[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-am - Apply a series of patches from a mailbox</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T090624Z" creationid="Admin" creationdate="20171031T090624Z">
+        <seg>git-am - 从邮箱应用一系列补丁</seg>
       </tuv>
     </tu>
     <tu>
@@ -20739,6 +21035,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-daemon - A really simple server for Git repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093135Z" creationid="Admin" creationdate="20171031T093135Z">
+        <seg>git-daemon - 一个非常简单的 Git 仓库服务器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-daemon.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -20875,6 +21179,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-fast-import - Backend for fast Git data importers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092849Z" creationid="Admin" creationdate="20171031T092849Z">
+        <seg>git-fast-import - 后端快速 Git 数据导入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-fast-import.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -20975,6 +21287,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-for-each-ref[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-format-patch - Prepare patches for e-mail submission</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091128Z" creationid="Admin" creationdate="20171031T091128Z">
+        <seg>git-format-patch - 准备补丁以提交电子邮件</seg>
       </tuv>
     </tu>
     <tu>
@@ -21979,6 +22299,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-request-pull - Generates a summary of pending changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091948Z" creationid="Admin" creationdate="20171031T091948Z">
+        <seg>git-request-pull - 生成待更改的摘要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-request-pull.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -22119,6 +22447,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T075159Z" creationid="Admin" creationdate="20171020T075159Z">
         <seg>git-rm[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-send-email - Send a collection of patches as emails</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T091515Z" creationid="Admin" creationdate="20171031T091515Z">
+        <seg>git-send-email - 发送一组补丁作为电子邮件</seg>
       </tuv>
     </tu>
     <tu>
@@ -22371,6 +22707,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git-svn - Bidirectional operation between a Subversion repository and Git</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T092652Z" creationid="Admin" creationdate="20171031T092652Z">
+        <seg>git-svn - Subversion 仓库和 Git 之间的双向操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>git-svn.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -22487,6 +22831,14 @@ git --git-dir=c/a.git --work-tree=c/b status</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>git-update-ref[1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>git-update-server-info - Update auxiliary info file to help dumb servers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T093535Z" creationid="Admin" creationdate="20171031T093535Z">
+        <seg>git-update-server-info - 更新辅助信息文件以帮助哑服务器</seg>
       </tuv>
     </tu>
     <tu>
