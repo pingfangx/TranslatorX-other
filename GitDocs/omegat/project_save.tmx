@@ -6976,6 +6976,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Also when you are satisfied with the filtered result, press ENTER (empty) back to the main menu.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071940Z" creationid="Admin" creationdate="20171102T071920Z">
+        <seg>此外，当您对筛选结果感到满意时，请按 ENTER (empty) 返回主菜单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Also you can say ranges.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T080033Z" creationid="Admin" creationdate="20171024T080033Z">
@@ -7524,6 +7532,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T072349Z" creationid="Admin" creationdate="20171026T072349Z">
         <seg>稍微更详细一些，并在名字后显示远程 URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be quiet, only report errors, but not the files that are successfully removed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071211Z" creationid="Admin" creationdate="20171102T071211Z">
+        <seg>安静，只报告错误，不报告成功删除的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9097,10 +9113,26 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Don’t actually remove anything, just show what would be done.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071155Z" creationid="Admin" creationdate="20171102T071155Z">
+        <seg>实际上没有移除任何东西，只是显示将要做什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Don’t add the file(s), but only refresh their stat() information in the index.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074500Z" creationid="Admin" creationdate="20171024T074500Z">
         <seg>不要添加文件，而只能在索引中刷新其 stat() 信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don’t use the standard ignore rules read from .gitignore (per directory) and $GIT_DIR/info/exclude, but do still use the ignore rules given with &lt;c0&gt;-e&lt;/c0&gt; options.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071313Z" creationid="Admin" creationdate="20171102T071313Z">
+        <seg>不要使用从 .gitignore(每个目录)和 $GIT_DIR/info/exclude 读取的标准忽略规则，但仍然使用由 &lt;c0&gt;-e&lt;/c0&gt; 选项给出的忽略规则。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9141,6 +9173,14 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T113722Z" creationid="Admin" creationdate="20171025T113722Z">
         <seg>例如， &lt;e0&gt;format:"The author of %h was %an, %ar%nThe title was &gt;&gt;%s&lt;&lt;%n"&lt;/e0&gt; 将显示如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>E.g. "*.c *.h" will excludes files end with ".c" and ".h" from deletion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071706Z" creationid="Admin" creationdate="20171102T071706Z">
+        <seg>例如。 "*.c *.h" 将排除以 ".c" 和 ".h" 结尾的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11561,6 +11601,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Git will refuse to delete directories with .git sub directory or file unless a second -f is given.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071116Z" creationid="Admin" creationdate="20171102T071116Z">
+        <seg>Git 将拒绝删除具有 .git 子目录或文件的目录，除非给出了第二个 -f 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Git’s i18n setup code for shell scripts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094304Z" creationid="Admin" creationdate="20171020T094304Z">
@@ -11883,8 +11931,8 @@ C 风格引用的路径，删除前导和尾随的双引号，
       <tuv lang="EN-US">
         <seg>However, if the file is absent from the tree of some commit, a simple &lt;c0&gt;rm filename&lt;/c0&gt; will fail for that tree and commit.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171101T083155Z" creationid="Admin" creationdate="20171101T083155Z">
-        <seg>但是，如果文件不在某个提交的树中，那么一个简单的 &lt;c0&gt;rm filename&lt;/c0&gt; 将失败，并且提交。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T101926Z" creationid="Admin" creationdate="20171101T083155Z">
+        <seg>但是，如果文件不在某个提交的树中，那么对该树和提交的一个简单的 &lt;c0&gt;rm filename&lt;/c0&gt; 将失败。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12209,6 +12257,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If an untracked directory is managed by a different Git repository, it is not removed by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T070945Z" creationid="Admin" creationdate="20171102T070945Z">
+        <seg>如果未跟踪的目录由不同的 Git 存储库管理，则默认情况下不会删除它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If any ignored files were explicitly specified on the command line, &lt;c1&gt;git add&lt;/c1&gt; will fail with a list of ignored files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073310Z" creationid="Admin" creationdate="20171024T073310Z">
@@ -12529,6 +12585,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the Git configuration variable clean.requireForce is not set to false, &lt;e0&gt;git clean&lt;/e0&gt; will refuse to delete files or directories unless given -f, -n or -i.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071038Z" creationid="Admin" creationdate="20171102T071038Z">
+        <seg>如果 Git 配置变量 clean.requireForce 未设置为 false，则除非 -f，-n 或 -i，否则 &lt;e0&gt;git clean&lt;/e0&gt; 将拒绝删除文件或目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the HEAD at the remote did not point at any branch when &lt;c2&gt;--single-branch&lt;/c2&gt; clone was made, no remote-tracking branch is created.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T070951Z" creationid="Admin" creationdate="20171024T070951Z">
@@ -12669,6 +12733,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065545Z" creationid="Admin" creationdate="20171024T065545Z">
         <seg>如果仓库被指定为本地路径(例如， &lt;c0&gt;/path/to/repo&lt;/c0&gt; )，则这是默认值，而 --local 本质上是无操作的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the second number in a range is omitted, all remaining items are selected.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071850Z" creationid="Admin" creationdate="20171102T071850Z">
+        <seg>如果省略范围中的第二个数字，则选择所有剩余的项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12929,6 +13001,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to "completely forget" a file, it does not matter when it entered history, so we also add &lt;c4&gt;--ignore-unmatch&lt;/c4&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T102121Z" creationid="Admin" creationdate="20171102T102121Z">
+        <seg>如果你想 "完全忘记" 一个文件，它何时进入历史记录不重要，那么我们还添加了 &lt;c4&gt;--ignore-unmatch&lt;/c4&gt; ：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to abort the operation entirely (i.e., stage nothing new in the index), simply delete all lines of the patch.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081215Z" creationid="Admin" creationdate="20171024T081215Z">
@@ -13109,6 +13189,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T083644Z" creationid="Admin" creationdate="20171024T083644Z">
         <seg>除了已更改的文件的名称之外，还会显示已暂存要提交的文本更改(例如，如 &lt;c0&gt;git diff --cached&lt;/c0&gt; 的输出)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to those found in .gitignore (per directory) and $GIT_DIR/info/exclude, also consider these patterns to be in the set of the ignore rules in effect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071252Z" creationid="Admin" creationdate="20171102T071252Z">
+        <seg>除了在 .gitignore(每个目录)和 $GIT_DIR/info/exclude 中找到的那些外，还将这些模式视为有效的忽略规则的集合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14041,6 +14129,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Like with using &lt;c2&gt;rm filename&lt;/c2&gt;, &lt;c3&gt;git rm --cached filename&lt;/c3&gt; will fail if the file is absent from the tree of a commit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T102022Z" creationid="Admin" creationdate="20171102T102022Z">
+        <seg>像使用 &lt;c2&gt;rm filename&lt;/c2&gt; 一样，如果文件不在提交的树中，那么 &lt;c3&gt;git rm --cached filename&lt;/c3&gt; 将失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Likewise for any other integration branches e.g. &lt;c1&gt;maint&lt;/c1&gt;, &lt;c2&gt;next&lt;/c2&gt; and &lt;c3&gt;pu&lt;/c3&gt; (potential updates).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T113315Z" creationid="Admin" creationdate="20171031T113315Z">
@@ -14969,6 +15065,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now, you will get the rewritten history saved in HEAD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T102138Z" creationid="Admin" creationdate="20171102T102138Z">
+        <seg>现在，您将获得保存在 HEAD 中的重写历史记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Numerous contributions have come from the Git mailing list &lt;&lt;a0&gt;git@vger.kernel.org&lt;/a0&gt;&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T084906Z" creationid="Admin" creationdate="20171023T084906Z">
@@ -15665,6 +15769,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Please note that this action is not as efficient as the above two actions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071954Z" creationid="Admin" creationdate="20171102T071954Z">
+        <seg>请注意，此操作不如上述两个操作那么有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please see &lt;a0&gt;git-commit[1]&lt;/a0&gt; for alternative ways to add content to a commit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T073408Z" creationid="Admin" creationdate="20171024T073408Z">
@@ -16201,6 +16313,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove only files ignored by Git.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071347Z" creationid="Admin" creationdate="20171102T071347Z">
+        <seg>移除 Git 忽略的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove the given section from the configuration file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T114513Z" creationid="Admin" creationdate="20171023T114513Z">
@@ -16229,6 +16349,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T094318Z" creationid="Admin" creationdate="20171020T094318Z">
         <seg>移除不必要的空格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove untracked directories in addition to untracked files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T070925Z" creationid="Admin" creationdate="20171102T070925Z">
+        <seg>移除未跟踪的目录以及未跟踪的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17529,6 +17657,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show brief usage of interactive git-clean.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T072019Z" creationid="Admin" creationdate="20171102T072019Z">
+        <seg>显示交动 git-clean 的简要使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Show cached files in the output (default)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171101T090624Z" creationid="Admin" creationdate="20171101T090624Z">
@@ -17765,6 +17901,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171020T090005Z" creationid="Admin" creationdate="20171020T090005Z">
         <seg>显示文件每一行的最后一次修订版本和作者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show what would be done and clean files interactively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071146Z" creationid="Admin" creationdate="20171102T071146Z">
+        <seg>以交互方式显示将要完成的操作和清除文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18109,6 +18253,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T060748Z" creationid="Admin" creationdate="20171024T060748Z">
         <seg>为现有代码库启动一个新的 Git 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Start cleaning files and directories, and then quit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071601Z" creationid="Admin" creationdate="20171102T071601Z">
+        <seg>开始清理文件和目录，然后退出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19457,6 +19609,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The main command loop has 6 subcommands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071555Z" creationid="Admin" creationdate="20171102T071555Z">
+        <seg>主命令循环有6个子命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The meaning of a signoff depends on the project, but it typically certifies that committer has the rights to submit this work under the same license and agrees to a Developer Certificate of Origin (see &lt;a0&gt;http://developercertificate.org/&lt;/a0&gt; for more information).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T100159Z" creationid="Admin" creationdate="20171024T100159Z">
@@ -20169,6 +20329,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This allows removing all untracked files, including build products.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071320Z" creationid="Admin" creationdate="20171102T071320Z">
+        <seg>这允许删除所有未跟踪的文件，包括构建产品。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This also renews the author timestamp.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T095632Z" creationid="Admin" creationdate="20171024T095632Z">
@@ -20221,6 +20389,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T074005Z" creationid="Admin" creationdate="20171024T074005Z">
         <seg>这可以比使用交互式 hunk 选择器更快更灵活。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be used (possibly in conjunction with &lt;e1&gt;git reset&lt;/e1&gt;) to create a pristine working directory to test a clean build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071342Z" creationid="Admin" creationdate="20171102T071342Z">
+        <seg>这可以用来(可能与 &lt;e1&gt;git reset&lt;/e1&gt; 一起使用)创建一个原始的工作目录来测试一个干净的构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20857,6 +21033,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This lets you quit without do cleaning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T072012Z" creationid="Admin" creationdate="20171102T072012Z">
+        <seg>在没有做清洁的情况下退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This lets you review what will be committed (i.e. between HEAD and index).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T081040Z" creationid="Admin" creationdate="20171024T081040Z">
@@ -20925,6 +21109,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T080039Z" creationid="Admin" creationdate="20171023T080039Z">
         <seg>这可能有助于排除某些与包相关的性能问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This may be useful to rebuild everything from scratch, but keep manually created files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071447Z" creationid="Admin" creationdate="20171102T071447Z">
+        <seg>这可能用于从头开始重建，但保留手动创建的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21217,6 +21409,22 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This shows the files and directories to be deleted and issues an "Input ignore patterns&gt;&gt;" prompt.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071628Z" creationid="Admin" creationdate="20171102T071628Z">
+        <seg>这将显示要删除的文件和目录，并发出 "Input ignore patterns&gt;&gt;" 提示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This shows the files and directories to be deleted and issues an "Select items to delete&gt;&gt;" prompt.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071803Z" creationid="Admin" creationdate="20171102T071803Z">
+        <seg>这将显示要删除的文件和目录，并发出 "Select items to delete&gt;&gt;" 提示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This shows the status information and issues an "Update&gt;&gt;" prompt.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075949Z" creationid="Admin" creationdate="20171024T075949Z">
@@ -21285,6 +21493,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171023T071054Z" creationid="Admin" creationdate="20171023T071054Z">
         <seg>此变量指定可以用于搜索 Git 对象的 Git 对象目录列表，用的“:”分隔(在 Windows 用 “;”分隔)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will start to clean, and you must confirm one by one in order to delete items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071948Z" creationid="Admin" creationdate="20171102T071948Z">
+        <seg>这将开始清理，您必须逐个确认才能删除项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21761,6 +21977,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use -f option twice if you really want to remove such a directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T070958Z" creationid="Admin" creationdate="20171102T070958Z">
+        <seg>如果您真的要移除这样的目录，请使用 -f 选项两次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use &lt;a0&gt;git-am[1]&lt;/a0&gt; to create commits from patches generated by &lt;a1&gt;git-format-patch[1]&lt;/a1&gt; and/or received by email.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171026T085016Z" creationid="Admin" creationdate="20171026T085016Z">
@@ -21899,8 +22123,8 @@ C 风格引用的路径，删除前导和尾随的双引号，
       <tuv lang="EN-US">
         <seg>Using &lt;c0&gt;--index-filter&lt;/c0&gt; with &lt;e1&gt;git rm&lt;/e1&gt; yields a significantly faster version.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171101T083217Z" creationid="Admin" creationdate="20171101T083217Z">
-        <seg>使用 &lt;c0&gt;--index-filter&lt;/c0&gt; 与 &lt;e1&gt;git rm&lt;/e1&gt; 可以显着加快版本。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T101952Z" creationid="Admin" creationdate="20171101T083217Z">
+        <seg>使用 &lt;c0&gt;--index-filter&lt;/c0&gt; 和 &lt;e1&gt;git rm&lt;/e1&gt; 可以显着加快版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22553,6 +22777,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the command enters the interactive mode, it shows the files and directories to be cleaned, and goes into its interactive command loop.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071533Z" creationid="Admin" creationdate="20171102T071458Z">
+        <seg>当命令进入交互模式时，它显示要清理的文件和目录，并进入其交互式命令循环。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the command enters the interactive mode, it shows the output of the &lt;e0&gt;status&lt;/e0&gt; subcommand, and then goes into its interactive command loop.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075515Z" creationid="Admin" creationdate="20171024T075515Z">
@@ -22597,6 +22829,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171031T095048Z" creationid="Admin" creationdate="20171031T095048Z">
         <seg>当模式与所讨论的路径匹配时，行上列出的属性被赋予路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the prompt ends with double &lt;e0&gt;&gt;&gt;&lt;/e0&gt; like this, you can make more than one selection, concatenated with whitespace or comma.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071841Z" creationid="Admin" creationdate="20171102T071841Z">
+        <seg>当提示以双重的 &lt;e0&gt;&gt;&gt;&lt;/e0&gt; 结束时，您可以进行多个选择，用空格或逗号连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22677,6 +22917,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T120957Z" creationid="Admin" creationdate="20171025T120957Z">
         <seg>当你处于某种状态的时候，你会发现上游的变化与你正在做的事情有关。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you are satisfied with the filtered result, press ENTER (empty) back to the main menu.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071937Z" creationid="Admin" creationdate="20171102T071741Z">
+        <seg>当您对过滤后的结果感到满意时，按 ENTER (empty) 返回主菜单。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22985,6 +23233,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You also could say &lt;c0&gt;c&lt;/c0&gt; or &lt;c1&gt;clean&lt;/c1&gt; above as long as the choice is unique.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071549Z" creationid="Admin" creationdate="20171102T071549Z">
+        <seg>只要选择是唯一的，您也可以说 &lt;c0&gt;c&lt;/c0&gt; 或 &lt;c1&gt;clean&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You also could say &lt;c0&gt;s&lt;/c0&gt; or &lt;c1&gt;sta&lt;/c1&gt; or &lt;c2&gt;status&lt;/c2&gt; above as long as the choice is unique.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T075648Z" creationid="Admin" creationdate="20171024T075648Z">
@@ -23013,6 +23269,14 @@ C 风格引用的路径，删除前导和尾随的双引号，
       </tuv>
       <tuv lang="ZH-CN" changeid="Admin" changedate="20171025T090035Z" creationid="Admin" creationdate="20171025T090035Z">
         <seg>您可以将 &lt;c0&gt;-m&lt;/c0&gt; 标志指定给该命令，这将尝试三向合并：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can input space-separated patterns to exclude files and directories from deletion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171102T071646Z" creationid="Admin" creationdate="20171102T071646Z">
+        <seg>您可以输入空格分隔的模式，以排除删除的文件和目录。</seg>
       </tuv>
     </tu>
     <tu>
