@@ -11,3 +11,6 @@
 **/*-level1.tmx
 **/*-level2.tmx
 **/*-omegat.tmx
+# 只关心该分枝的文件夹
+/*
+!/GitDocs

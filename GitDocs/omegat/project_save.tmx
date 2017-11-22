@@ -7650,8 +7650,8 @@ $ git commit    &lt;b2&gt;(3)&lt;/b2&gt;</seg>
       <tuv lang="EN-US">
         <seg>Borrow the objects from reference repositories specified with the &lt;c0&gt;--reference&lt;/c0&gt; options only to reduce network transfer, and stop borrowing from them after a clone is made by making necessary local copies of borrowed objects.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071445Z" creationid="Admin" creationdate="20171024T071445Z">
-        <seg>通过使用 &lt;c0&gt;--reference&lt;/c0&gt; 选项指定的参考资料库中的对象，只能减少网络传输，并在通过进行借用对象的必需本地副本进行克隆后停止借用它们。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171122T030304Z" creationid="Admin" creationdate="20171024T071445Z">
+        <seg>从 &lt;c0&gt;--reference&lt;/c0&gt; 选项指定的引用仓库中借用对象，只为了减少网络传输（译注：相对于不使用该选项，是为了降低网络和本地存储成本，该选项只为了减少网络传输），对借用的对象做了必需的本地克隆后会停止从他们借用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12707,8 +12707,8 @@ C 风格引用的路径，删除前导和尾随的双引号，
       <tuv lang="EN-US">
         <seg>If the reference repository is on the local machine, automatically setup &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; to obtain objects from the reference repository.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071345Z" creationid="Admin" creationdate="20171024T071345Z">
-        <seg>如果参考仓库在本地机器上，自动设置 &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; 以从参考存储库获取对象。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171122T025756Z" creationid="Admin" creationdate="20171024T071345Z">
+        <seg>如果引用仓库在本地机器上，自动设置 &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; 以从引用仓库获取对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19971,8 +19971,8 @@ C 风格引用的路径，删除前导和尾随的双引号，
       <tuv lang="EN-US">
         <seg>The resulting repository starts out without any object of its own.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065807Z" creationid="Admin" creationdate="20171024T065807Z">
-        <seg>生成的仓库开始没有任何自己的对象。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171122T022409Z" creationid="Admin" creationdate="20171024T065807Z">
+        <seg>生成的仓库在开始时没有任何自己的对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22147,8 +22147,8 @@ C 风格引用的路径，删除前导和尾随的双引号，
       <tuv lang="EN-US">
         <seg>Using an already existing repository as an alternate will require fewer objects to be copied from the repository being cloned, reducing network and local storage costs.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071354Z" creationid="Admin" creationdate="20171024T071354Z">
-        <seg>将已存在的存储库用作备用数据库将需要从要克隆的存储库复制的对象较少，从而降低网络和本地存储成本。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171122T023221Z" creationid="Admin" creationdate="20171024T071354Z">
+        <seg>将已存在的仓库用作备用数据库，可以减少需要从要克隆的仓库复制的对象，从而降低网络和本地存储成本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22859,8 +22859,8 @@ C 风格引用的路径，删除前导和尾随的双引号，
       <tuv lang="EN-US">
         <seg>When the repository to clone is on the local machine, instead of using hard links, automatically setup &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; to share the objects with the source repository.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T065802Z" creationid="Admin" creationdate="20171024T065802Z">
-        <seg>当克隆的存储库在本地机器上时，而不是使用硬链接，自动设置 &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; 以与源存储库共享对象。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171122T022305Z" creationid="Admin" creationdate="20171024T065802Z">
+        <seg>当克隆的仓库在本地机器上时，不使用硬链接，而是自动设置 &lt;c0&gt;.git/objects/info/alternates&lt;/c0&gt; 以与源仓库共享对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22891,8 +22891,8 @@ C 风格引用的路径，删除前导和尾随的双引号，
       <tuv lang="EN-US">
         <seg>When using the &lt;c1&gt;--reference-if-able&lt;/c1&gt;, a non existing directory is skipped with a warning instead of aborting the clone.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171024T071404Z" creationid="Admin" creationdate="20171024T071404Z">
-        <seg>当使用 &lt;c1&gt;--reference-if-able&lt;/c1&gt; 时，会跳过一个不存在的目录，而不是中止该克隆。</seg>
+      <tuv lang="ZH-CN" changeid="Admin" changedate="20171122T023256Z" creationid="Admin" creationdate="20171024T071404Z">
+        <seg>当使用 &lt;c1&gt;--reference-if-able&lt;/c1&gt; 时，会带警告地跳过一个不存在的目录，而不是中止该克隆。</seg>
       </tuv>
     </tu>
     <tu>
