@@ -2838,6 +2838,48 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>/** If value is not a valid number, original port number is used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>/** 如果值不是有效的数字，将会使用原始端口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/** Set port.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>/** 设置端口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// Method is documented to just ignore invalid user input.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>// 方法文案表明会忽略无效的用户输入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// phew, made it all the way
+} catch (Exception e) {                 // I'll just catch all exceptions</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>// 全部都这样做
+} catch (Exception e) {                 // 捕获所有异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// serverPort will just be unchanged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>// 服务端口将保持不变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>/about/android.html</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -3499,6 +3541,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;@Deprecated&lt;/c0&gt;: The @Deprecated annotation must be used whenever the use of the annotated element is discouraged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;@Deprecated&lt;/c0&gt;：只要某个语言元素已不再建议使用了，就必须使用@Deprecated annotation。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;@Override&lt;/c0&gt;: The @Override annotation must be used whenever a method overrides the declaration or implementation from a super-class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;@Override&lt;/c0&gt;：只要某个方法重写了方法申明或者从父类继承，就必须使用@Override annotation。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;@SuppressWarnings&lt;/c0&gt;: The @SuppressWarnings annotation should be used only under circumstances where it is impossible to eliminate a warning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;@SuppressWarnings&lt;/c0&gt;：@SuppressWarnings annotation 仅用于无法消除编译警告的场合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;CHAIN_PACKED&lt;/c0&gt; -- the elements of the chain will be packed together.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -3539,10 +3605,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;DEBUG&lt;/c0&gt;: Use to further note what is happening on the device that could be relevant to investigate and debug unexpected behaviors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;DEBUG&lt;/c0&gt;：该级别的日志应该用于进一步记录有关调查、调试意外现象的设备事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;ERROR&lt;/c0&gt;: Use when something fatal has happened, i.e. something will have user-visible consequences and won't be recoverable without explicitly deleting some data, uninstalling applications, wiping the data partitions or reflashing the entire device (or worse).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;ERROR&lt;/c0&gt;：该级别日志应该在致命错误发生时使用，也就是说，错误的后果能被用户看到，但是不明确删除部分数据、卸装程序、清除数据区或重新刷机（或更糟糕）就无法恢复。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;GONE&lt;/c0&gt; widgets, as usual, are not going to be displayed and are not part of the layout itself (i.e. their actual dimensions will not be changed if marked as &lt;c1&gt;GONE&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>通常，&lt;c0&gt;GONE&lt;/c0&gt;小部件不会被显示，并且不是布局本身的一部分（即如果标记为&lt;c1&gt;GONE&lt;/c1&gt;则其实际尺寸将不会改变）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;INFORMATIVE:&lt;/c0&gt; Use to note that something interesting to most people happened, i.e. when a situation is detected that is likely to have widespread impact, though isn't necessarily an error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;INFORMATIVE&lt;/c0&gt; ：该级别的日志应该用于记录大部分人都会感兴趣的事件，也就是说，如果检测到事件的影响面可能很广，但不一定是错误。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3587,6 +3677,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;System.out.println()&lt;/c0&gt; (or &lt;c1&gt;printf()&lt;/c1&gt; for native code) should never be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>绝对不要使用&lt;c0&gt;System.out.println()&lt;/c0&gt; （或native代码中的 &lt;c1&gt;printf()&lt;/c1&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;VERBOSE&lt;/c0&gt;: Use for everything else.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;VERBOSE&lt;/c0&gt; ：该级别日志应用于所有其余的事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;View&lt;/c0&gt;: Apply the transformation to this page</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -3599,6 +3705,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>&lt;c0&gt;View&lt;/c0&gt;: 要装饰的子view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;WARNING&lt;/c0&gt;: Use when something serious and unexpected happened, i.e. something that will have user-visible consequences but is likely to be recoverable without data loss by performing some explicit action, ranging from waiting or restarting an app all the way to re-downloading a new version of an application or rebooting the device.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;WARNING&lt;/c0&gt;：该级别日志应该用于那些重大的、意外的事件，也就是说，错误的后果能被用户看到，但是不采取明确的动作可能就无法无损恢复，从等待或重启应用开始，直至重新下载新版程序或重启设备。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3675,6 +3789,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;java&lt;/c0&gt; and &lt;c1&gt;javax&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;java&lt;/c0&gt; 和 &lt;c1&gt;javax&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;onMeasure()&lt;/c0&gt; is a little more involved.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -3711,6 +3833,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>&lt;e0&gt;Adapter（适配器）：&lt;/e0&gt; &lt;c1&gt;&lt;a2&gt;RecyclerView.Adapter&lt;/a2&gt;&lt;/c1&gt;的子类，负责提供展示数据集中某条数据的view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;Anytime somebody has an empty catch clause they should have a creepy feeling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;e0&gt;无论何时，空的catch语句都应该让人感到不寒而栗。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3903,6 +4033,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>&lt;s0&gt;注意：&lt;/s0&gt;这不适用于3D图形。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note&lt;/s0&gt; The original exception is passed to the constructor for RuntimeException.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;s0&gt;注意&lt;/s0&gt; 原始异常会传给RuntimeException的构造函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4325,6 +4463,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A loss of network connectivity that has consequences within an app should be logged at the DEBUG or VERBOSE level (depending on whether the consequences are serious enough and unexpected enough to be logged in a release build).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>影响范围限于应用程序内部的网络中断应该记录在DEBUG或VERBOSE级别的日志中（根据影响的严重程度及意外程度，再来确定是否在发行版本中也记录日志）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A matcher finds matches in a subset of its input called the &lt;i0&gt;region&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4437,6 +4583,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Acceptable alternatives (in order of preference) are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>可接受的替代方案包括（按照推荐顺序）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adapters provide a binding from an app-specific data set to views that are displayed within a &lt;c0&gt;&lt;a1&gt;RecyclerView&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4497,6 +4651,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>Add me to the mailing list for the monthly newsletter and occasional emails about development and Google Play opportunities.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Additionally, we have not yet determined how to make all IDEs use the same ordering.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>另外，我们还未提到让所有IDE都遵守同一个次序的方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4733,6 +4895,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All the string building for the log also needs to be placed inside the &lt;c4&gt;if (LOCAL_LOG)&lt;/c4&gt; block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>所有日志所需的文字组织工作也应在 &lt;c4&gt;if (LOCAL_LOG)&lt;/c4&gt; 语句块内完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alphabetical within each grouping, with capital letters before lower case letters (e.g. Z before a).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在每组内部按字母排序，大写字母排在小写字母的前面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Also see &lt;c0&gt;&lt;a1&gt;ConstraintLayout.LayoutParams&lt;/a1&gt;&lt;/c0&gt; for layout attributes</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4745,6 +4923,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>当然，你也可以用3.0以前的动画类来按制view的渲染。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatives to catching generic Exception:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>比捕获顶级Exception更好的方案：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4837,6 +5023,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An explicit exception is made for java standard libraries (&lt;c1&gt;java.util.*&lt;/c1&gt;, &lt;c2&gt;java.io.*&lt;/c2&gt;, etc.) and unit test code (&lt;c3&gt;junit.framework.*&lt;/c3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>不过导入java标准库（&lt;c1&gt;java.util.*&lt;/c1&gt;、 &lt;c2&gt;java.io.*&lt;/c2&gt;等）和单元测试代码 (&lt;c3&gt;junit.framework.*&lt;/c3&gt;）时可以例外。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An implementation of &lt;c0&gt;&lt;a1&gt;RecyclerView.OnItemTouchListener&lt;/a1&gt;&lt;/c0&gt; that has empty method bodies and default return values.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4909,10 +5103,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Android does not currently enforce a specific style for writing Javadoc comments, but you should follow the instructions &lt;a0&gt;How to Write Doc Comments for the Javadoc Tool&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Android目前还没有规定自己的Javadoc注释撰写规范，但是应该遵守&lt;a0&gt;How to Write Doc Comments for the Javadoc Tool&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android doesn't use finalizers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>所以Android不要使用finalizers。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android follows standard Java coding conventions with the additional rules described below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Android遵循标准的Java编码规范，并加入了新的规则：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android offers a sophisticated and powerful componentized model for building your UI, based on the fundamental layout classes: &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>基于基本的布局类： &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt;，安卓提供了一套精致而强大的组件化模型来构建你的UI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android standard practices for the three predefined annotations in Java are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>对于Java 内建的三种annotation，Android标准的实现如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4973,6 +5199,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Annotations should precede other modifiers for the same language element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Annotation应该位于Java语言元素的其它修饰符之前。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any change you make to the default margin applies only to the views you add from then on.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4997,10 +5231,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any logging that is meant to be read by other people and to be available in release builds should be terse without being cryptic, and should be reasonably understandable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg> 所有要被人阅读并存在于发行版本中的日志，都应该简洁明了、没有秘密、容易理解。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any non-negative integer smaller than or equal to the value returned by this method is guaranteed to be a valid group index for this matcher.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>任何小于等于由此方法返回的值的非负整数保证是此匹配器的有效组索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any string building will be stripped out of release builds and needs to appear inside the &lt;c2&gt;if (LOCAL_LOGV)&lt;/c2&gt; block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>所有构建日志文字的代码将会在发行版本中剥离出去，并且需包含在&lt;c2&gt;if (LOCAL_LOGV)&lt;/c2&gt; 语句块中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5109,6 +5359,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a last resort, if you are confident that ignoring the exception is appropriate then you may ignore it, but you must also comment why with a good reason:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>最后一招：如果确信忽略异常比较合适，那就忽略吧，但必须把理想的原因注释出来：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As a remedy, the framework offers a touch filtering mechanism that can be used to improve the security of views that provide access to sensitive functionality.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -5129,6 +5387,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>和往常一样，先调用父类方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As both the JDK and the Android code bases are very inconsistent around acronyms, it is virtually impossible to be consistent with the surrounding code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如何对待简称，JDK和Android底层代码存在很大的差异。因此，你几乎不大可能与其它代码取得一致。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5293,6 +5559,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Be careful about security leaks through the log.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>小心日志会泄漏隐私。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Begin a nestable scroll operation along the given axes.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -5313,6 +5587,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>下面是XML文件和NinePatch图渲染出的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beware repeating too much code in the catch blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>请小心别在catch语句块中重复执行大量的代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5361,6 +5643,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>BoolRes - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Braces do not go on their own line; they go on the same line as the code before them:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>大括号不单独占用一行；它们紧接着上一行书写。就像这样：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5417,6 +5707,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>默认情况下，空间均匀分布在设置为“match constraints”的每个view之间，但是你可以使用&lt;c4&gt;layout_constraintHorizontal_weight&lt;/c4&gt; 和 &lt;c5&gt;layout_constraintVertical_weight&lt;/c5&gt; 属性为每个view分配一个重要性权重。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By doing so, you increase the readability and maintainability of your code and reduce the likelihood of error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这样可以增加代码的可读性和可维护性，并且降低发生错误的可能性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5689,6 +5987,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>调用父类的&lt;c7&gt;&lt;a8&gt;onMeasure(int, int)&lt;/a8&gt;&lt;/c7&gt; 是一个可用的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Catch each exception separately as separate catch blocks after a single try.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>分开捕获每一种异常，在一条try语句后面跟随多个catch 语句块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Catch the Exception and throw a new &lt;c0&gt;RuntimeException&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>捕获异常并抛出一个新的 &lt;c0&gt;RuntimeException&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6398,10 +6712,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Define Fields in Standard Places</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在标准的位置定义字段</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Define a Button in the layout file and assign it a unique ID.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在布局中定义一个Button，并给它申明一个唯一的ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Define fields either at the top of the file or immediately before the methods that use them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>字段应该定义在文件开头，或者紧挨着使用这些字段的方法之前。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7102,10 +7432,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do not do this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>绝对不要这么做。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Does not do anything to hide gaps.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>不做任何操作来隐藏间隙。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don't Catch Generic Exception</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>不要捕获顶级Exception</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don't Ignore Exceptions</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>不要忽略Exceptions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don't Use Finalizers</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>不要使用Finalizer</seg>
       </tuv>
     </tu>
     <tu>
@@ -7230,10 +7592,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each line of text in your code should be at most 100 characters long.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>每行代码的长度应该不超过100个字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each of these methods returns a boolean indicating success or failure.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>每个方法都返回一个表示成功或失败的布尔值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each variable should be declared in the innermost block that encloses all uses of the variable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>每个变量都应该在最小范围的代码块中进行声明，该代码块的大小只要能够包含所有对该变量的使用即可。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7358,6 +7736,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every class and nontrivial public method you write &lt;e0&gt;must&lt;/e0&gt; contain a Javadoc comment with at least one sentence describing what the class or method does.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>你写的每一个类及非琐碎的（nontrivial：重要的，非琐碎的，非平凡的）方法 &lt;e0&gt;必须&lt;/e0&gt;包含Javadoc注释，注释至少要包含描述该类或方法用途的语句。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every file should have a copyright statement at the top, followed by package and import statements (each block separated by a blank line) and finally the class or interface declaration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>每个文件的开头都应该有一句版权说明。然后下面应该是package包语句和import语句（每个语句块之间用空行分隔），然后是类或接口的定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every method you write, public or otherwise, would benefit from Javadoc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>无论是public的还是其它类型的，你写的所有方法都将受益于Javadoc。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every view must have at least two constraints: one horizontal and one vertical.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -7450,6 +7852,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>Except as noted, this content is licensed under &lt;a0&gt;Apache 2.0&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exception: If the entire conditional (the condition and the body) fit on one line, you may (but are not obligated to) put it all on one line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>不过也有例外，如果整个条件语句块（条件和语句本身）都能容纳在一行内，也可以（但不是必须）把它们放入同一行中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7558,6 +7968,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finalizers are a way to have a chunk of code executed when an object is garbage collected.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Finalizer提供了一个机会，可以让对象被垃圾回收器回收时执行一些代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Find the topmost view under the given point.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -7618,6 +8036,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>焦点移动基于一个找出所给方向最近的邻居的算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Follow Field Naming Conventions</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>遵守字段命名惯例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Follow test method naming conventions and use an underscore to separate what is being tested from the specific case being tested.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>命名测试方法时，可以用下划线来分隔测试的条件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7806,6 +8240,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you use the @inheritdocs Javadoc tag, and derive from a class (not an interface), you must also annotate that the method @Overrides the parent class's method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>例如，如果方法使用了@inheritdocs Javadoc 标记，且继承自超类（而不是interface），则必须同时用@Override标明覆盖了父类方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you want to access the item in the adapter on a ViewHolder click, you should use &lt;c5&gt;&lt;a6&gt;getAdapterPosition()&lt;/a6&gt;&lt;/c5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -7850,6 +8292,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>比如，父view可能先用未指明的尺寸来测量一遍所有的子view，以查明子view们想要多大。然后如果子view的不受约束的尺寸和太大或太小，则父类再以实际数字调用一次measure()方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, this is acceptable:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>比如，这是可接受的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, this is correct:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>例如这是正确的：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8038,6 +8496,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fully Qualify Imports</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>使用完全限定名称的Import</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fully customized components can be used to create graphical components that appear however you wish.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8158,6 +8624,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Handle the error gracefully and substitute an appropriate value in the catch {} block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>默默地处理错误并在catch {}语句块中替换为合适的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Having a full filesystem on a filesystem that is accessible to or on behalf of third-party applications should not be logged at a level higher than INFORMATIVE.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>有权访问的文件系统或第三方应用程序发起的系统空间满，应该记录大于INFORMATIVE级别的日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Helper objects are not displayed on device (they are marked as &lt;c2&gt;View.GONE&lt;/c2&gt;) and are only used for layout purposes.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8270,6 +8752,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, all the string building that happens for these calls still gets executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>可是，这些调用中的所有字符串创建工作都仍然会执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, even this case can be avoided by encapsulating the try-catch block in a method:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>但即便是这种情况也是可以避免的，把try-catch 块封装在一个方法内即可：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, if the given dimension has only one constraint, then the view expands to fit its contents.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8302,10 +8800,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Humans can easily follow the style.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>风格让人容易遵守。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IDEs can follow the style.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>IDE可以遵守。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8342,10 +8856,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a comment line contains an example command or a literal URL longer than 100 characters, that line may be longer than 100 characters for ease of cut and paste.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果注释行包含了超过100个字符的命令示例或者URL文字，为了便于剪切和复制，其长度可以超过100个字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a method exceeds 40 lines or so, think about whether it can be broken up without harming the structure of the program.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果方法代码超过了40行，就该考虑是否可以在不损害程序结构的前提下进行分拆。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a single thread issues a sequence of method invocations that violates the contract of an object, the object may throw this exception.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>如果单线程发出违反对象协定的方法调用序列，则该对象可能抛出此异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a variable is initialized with the return value of a method that throws a checked exception, it must be initialized inside a try block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果变量是用方法的返回值来初始化的，而该方法可能会抛出一个checked异常，那么必须在try块中进行变量声明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a warning passes this "impossible to eliminate" test, the @SuppressWarnings annotation &lt;e1&gt;must&lt;/e1&gt; be used, so as to ensure that all warnings reflect actual problems in the code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果警告确实经过测试“不可能消除”，则 &lt;e1&gt;必须&lt;/e1&gt;使用@SuppressWarnings annotation，以确保所有的警告都能真实反映代码中的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8378,6 +8924,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在处理事件的过程中，如果view的边界可能需要改变，view将会调用&lt;c0&gt;&lt;a1&gt;requestLayout()&lt;/a1&gt;&lt;/c0&gt;方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If it's not obvious what the property "Foo" means, you should document it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果“Foo”属性的意义不容易理解，也应该进行注释。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8418,6 +8972,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>如果设置了边界的margins，它们将被应用于相应的约束（如果存在）（图3），将边距作为目标和源端之间的空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If that code uses spaces around the if clauses, you should too.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果它们在if语句前后使用了空格，那你也应该遵循。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8494,6 +9056,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the code comments have little boxes of stars around them, make your comments have little boxes of stars around them too.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果它们的注释是用星号组成的框框围起来的，那也请你照办。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the code you add to a file looks drastically different from the existing code around it, it throws readers out of their rhythm when they go to read it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果你要加入的代码和已存在的代码风格迥异，那就会突然打破阅读的节奏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the contents don't fit in this region, then the image will be stretched so that they do.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8518,6 +9096,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the method does something more complex (such as enforcing a constraint or has an important side effect), then you must document it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>但如果方法执行了比较复杂的操作（比如执行强制约束或者产生很重要的副作用），那就必须进行注释。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the padding lines are not included, Android uses the left and top lines to define this drawable area.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8538,6 +9124,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>如果已知特定的类型，使用一个更具体的注解代替，如 &lt;c0&gt;&lt;a1&gt;StringRes&lt;/a1&gt;&lt;/c0&gt; 或 &lt;c2&gt;&lt;a3&gt;DrawableRes&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the value must be used outside of the try block, then it must be declared before the try block, where it cannot yet be sensibly initialized:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果需在try块之外使用该变量，那它就必须在try块之前就进行声明了，这时它是不可能进行正确的初始化的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there are multiple annotations, or parameterized annotations, they should each be listed one-per-line in alphabetical order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg> 如果存在多个annotation，或者annotation是参数化的，则应按字母顺序各占一行来列出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8598,6 +9200,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If value is not a valid number, 80 is substituted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果值不是有效的数字，将会使用80代替。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If value is not a valid number, die.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果值不是有效的数字，结束。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you absolutely need it, define a close() method (or the like) and document exactly when that method needs to be called (see InputStream for an example).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果确实是需要使用finalizer，那就定义一个close()方法（或类似的方法），并且在文档中准确地记录下需要调用该方法的时机（相关例程可以参见InputStream）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you add opposing constraints on a view, the constraint lines become squiggly like a spring to indicate the opposing forces, as shown in video 2.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8618,6 +9244,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>如果你不想创建完全自定义的组件，而是想创建一个由一组已存在的控件组成的可复用的组件，那么创建一个组合组件（或组合控件）可以满足你的需求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you don't yet have enough information to initialize a variable sensibly, postpone the declaration until you do.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果还缺少足够的信息来正确地初始化变量，那就应该推迟声明，直至可以初始化为止。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8694,10 +9328,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you see old code that has a @deprecated Javadoc tag, please add the @Deprecated annotation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果看到以前的代码带有@deprecated Javadoc 标记，请加上 @Deprecated annotation。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you set a background drawable for a View, then the View will draw it before calling back to its &lt;c0&gt;onDraw()&lt;/c0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>如果你为view设置了一个背景drawable，view将在回调&lt;c0&gt;onDraw()&lt;/c0&gt;之前绘制背景。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you use the @Deprecated annotation, you must also have a @deprecated Javadoc tag and it should name an alternate implementation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果使用了@Deprecated annotation，则必须同时进行 @deprecated Javadoc 标记，并且给出一个替代的实现方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8718,6 +9368,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you're editing code, take a few minutes to look at the surrounding code and determine its style.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>。如果你正在编写代码，请花几分钟浏览一下前后的其它代码，以确定它们的风格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you're familiar with &lt;c6&gt;layout_weight&lt;/c6&gt; in a &lt;a7&gt;linear layout&lt;/a7&gt;, this works the same way.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8726,10 +9384,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If your TODO is of the form "At a future date do something" make sure that you either include a very specific date ("Fix by November 2005") or a very specific event ("Remove this code after all production mixers understand protocol V7.").</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果TODO注释是“将来要做某事”的格式，则请确保包含一个很明确的日期（“在2005年11月会修正”），或是一个很明确的事件（“在所有代码整合人员理解了V7协议之后删除本段代码”）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your code must compile under Java 1.3, you must omit the exception that is the cause.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果代码必须在Java 1.3版本下编译，需要忽略该异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If your custom View component is not defined as an inner class, then you can, alternatively, declare the View component with the XML element name, and exclude the &lt;c0&gt;class&lt;/c0&gt; attribute.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>如果你的自定义View组件没有定义为内部类，你也可以用XML的元素名字来申明View组件，而不需要&lt;c0&gt;class&lt;/c0&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your debug logs are dominating the log then you probably should be using verbose logging.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果debug日志占用了太多的日志空间，那就应该使用详细级别日志（verbose）才更为合适。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8806,10 +9488,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Import lines can go over the limit because humans rarely see them (this also simplifies tool writing).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>import行可以超过限制，因为很少有人会去阅读它（这也简化了编程工具的写入操作）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Imports from third parties (&lt;c0&gt;com&lt;/c0&gt;, &lt;c1&gt;junit&lt;/c1&gt;, &lt;c2&gt;net&lt;/c2&gt;, &lt;c3&gt;org&lt;/c3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>从第三方的imports（&lt;c0&gt;com&lt;/c0&gt;、 &lt;c1&gt;junit&lt;/c1&gt;、 &lt;c2&gt;net&lt;/c2&gt;、 &lt;c3&gt;org&lt;/c3&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Android, there are actually two other Views readily available to do this: &lt;c0&gt;&lt;a1&gt;Spinner&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;AutoCompleteTextView&lt;/a3&gt;&lt;/c2&gt;, but regardless, the concept of a Combo Box makes an easy-to-understand example.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在安卓中，事实上有2个View真的可以这样做，&lt;c0&gt;&lt;a1&gt;Spinner&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;AutoCompleteTextView&lt;/a3&gt;&lt;/c2&gt;但不管怎样，Combo Box的概念让这个例子更好理解。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Java you can't escape the creepy feeling.&lt;/e0&gt; -&lt;a1&gt;James Gosling&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在Java中你无法逃离这种恐惧感。 &lt;/e0&gt; -&lt;a1&gt;James Gosling&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In a chain of modules, other than at the VERBOSE level, when a lower-level module detects invalid data coming from a higher-level module, the lower-level module should only log this situation to the DEBUG log, and only if logging provides information that is not otherwise available to the caller.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>除了VERBOSE级别外，在一系列嵌套的模块中，当较低级别的模块对来自较高级别模块的非法数据进行检测时，应该只把检测情况记录在DEBUG日志中，并且只记录那些调用者无法获取的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8838,10 +9552,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition, remember that a @Deprecated method is &lt;e1&gt;still supposed to work&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>此外请记住，被 @Deprecated 的方法 &lt;e1&gt;仍然能正常执行&lt;/e1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In addition, several convenience methods are offered to avoid unnecessary computations, namely &lt;c0&gt;&lt;a1&gt;getRight()&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;getBottom()&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>此外，也提供几个额外的方法以避免不必要的计算。即&lt;c0&gt;&lt;a1&gt;getRight()&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;getBottom()&lt;/a3&gt;&lt;/c2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In almost all cases it is inappropriate to catch generic Exception or Throwable (preferably not Throwable because it includes Error exceptions).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>绝大部分情况下，捕获顶级的Exception 或 Throwable 都是不合适的（Throwable更不合适，因为它还包含了Error异常）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8910,6 +9640,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In most cases you shouldn't be handling different types of exception the same way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>绝大部分情况下，无论如何你都不应该用同一种方式来处理各种不同类型的异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In most cases, you can do what you need from a finalizer with good exception handling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>大多数情况下，可以用优秀的异常处理代码来执行那些要放入finalizer的工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In particular look at the definition of &lt;c0&gt;MyEditText&lt;/c0&gt; in the &lt;a1&gt;NoteEditor.java&lt;/a1&gt; file.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8958,6 +9704,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some cases, the convention has changed in important ways and older code might use a deprecated pattern or library.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>有时这些惯例会作出重大变化，可之前的代码也许会用到过时的模板或类库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In some cases, this might not be the margin you want (e.g. A had a 100dp margin to the side of its container, B only a 16dp to A, marking A as gone, B will have a margin of 16dp to the container).</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8986,6 +9740,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在与SDK一起的API示例项目中，有两个List例子——在Views/Lists中的Example 4 和 Example 6演示了一个继承LinearLayout来显示Speech quotes的SpeechView。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the Javadoc comments, describe what the class or interface does.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在Javadoc注释中，应描述类或接口的用途。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9062,10 +9824,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In these cases you may catch generic Exception (or Throwable) and handle the error appropriately.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这种情况下可以捕获顶级的Exception（或Throwable）并进行相应的错误处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In these situations, you can provide explicit overrides by using these XML attributes in the layout file:</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在这种情况下，你可以通过在布局文件中提供明确的复写：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case it is appropriate but not required to print a short log message from the finalizer, as long as it is not expected to flood the logs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这种情况下还是适合使用finalizer的，但不需要在finalizer中输出日志信息，因为日志不能因为这个而被撑爆。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9098,6 +9876,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>Infer Constraints扫描布局以确定所有view的最有效的约束集合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Information about protected content must definitely be avoided.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>受保护的内容肯定也不允许记录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9230,10 +10016,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Invalid data coming from any untrusted source (including any file on shared storage, or data coming through just about any network connection) is considered expected and should not trigger any logging at a level higher than DEBUG when it's detected to be invalid (and even then logging should be as limited as possible).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>来自任何未授信源的非法数据（包括共享存储上的任何文件，或来自任何网络连接的数据）可被视为可预见的，如果检测到非法数据也不应该记录大于DEBUG级别的日志（即使记录也应尽可能少）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Invalidates all ItemDecorations.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>使所有ItemDecorations无效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Issues that justify some logging at the ERROR level are typically good candidates to be reported to a statistics-gathering server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>需要记录ERROR级别日志的事件一般都应该向统计信息收集（statistics-gathering ）服务器报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Issues that justify some logging at the WARNING level might also be considered for reporting to a statistics-gathering server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>需记录WARNING级别日志的事件也可以考虑向统计信息收集服务器报告。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9250,6 +10060,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>它还包括模式中每个 &lt;a0&gt;捕获组&lt;/a0&gt; 捕获的输入子序列的开始和结束索引以及该子序列的总数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can also be tempting to be lazy when catching exceptions and do something like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>有时在捕获Exception时偷懒也是很吸引人的，类似如下的处理方式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can be tempting to write code that completely ignores an exception, such as:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>有时，完全忽略异常是非常诱人的，比如：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9310,6 +10136,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is very dangerous because it means that Exceptions you never expected (including RuntimeExceptions like ClassCastException) get caught in application-level error handling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这种捕获非常危险，这意味着本来不必考虑的Exception（包括类似ClassCastException的RuntimeException）被卷入到应用程序级的错误处理中来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It lets you create and save constraints, and apply them to an existing ConstraintLayout.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -9330,6 +10164,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>它的扩展名必须保存为&lt;c2&gt;.9.png&lt;/c2&gt;，并且保存在项目中的&lt;c3&gt;res/drawable/&lt;/c3&gt;文件夹。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It obscures the failure handling properties of your code, meaning if someone adds a new type of Exception in the code you're calling, the compiler won't help you realize you need to handle the error differently.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这会让代码运行的错误变得模糊不清。这意味着，假如别人在你调用的代码中加入了新的异常，编译器将无法帮助你识别出各种不同的错误类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9374,6 +10216,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Java Language Rules</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Java语言规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Java Library Rules</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Java类库规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Java Style Rules</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Java编码规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Javatests Style Rules</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>Javatest风格规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Keep</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -9386,6 +10260,30 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>Keep - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keep in mind that code that calls &lt;c2&gt;Log.v()&lt;/c2&gt; is compiled and executed on release builds, including building the strings, even if the logs aren't being read.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>还要记住，即使不会再去读取这些日志，调用 &lt;c2&gt;Log.v()&lt;/c2&gt; 的代码也将编译进发行版中并获得执行，包括创建字符串的代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keep in mind that the &lt;c0&gt;+&lt;/c0&gt; operator, when used on Strings, implicitly creates a &lt;c1&gt;StringBuilder&lt;/c1&gt; with the default buffer size (16 characters) and potentially other temporary String objects, i.e. that explicitly creating StringBuilders isn't more expensive than relying on the default '+' operator (and can be a lot more efficient in fact).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>请记住，对字符串使用&lt;c0&gt;+&lt;/c0&gt; 操作符时，会在后台以默认大小（16个字符）缓冲区创建一个 &lt;c1&gt;StringBuilder&lt;/c1&gt;对象，并且可能还会创建一些其它的临时String对象。换句话说，显式创建StringBuilders对象的代价并不会比用'+'操作符更高（事实上效率还将会提高很多）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keep the scope of local variables to a minimum.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>局部变量的作用范围应该是限制为最小的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9454,6 +10352,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Limit Line Length</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>限制代码行长度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Limit Variable Scope</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>限制变量的作用范围</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Line lengths up to 80 or 100 characters are perfectly acceptable, while lengths longer than about 130 or 160 characters (including the length of the tag) should be avoided if possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>行长最好不超过80或100个字符，尽可能避免超过130或160个字符（包括标识符）的行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Load a constraint set from a constraintSet.xml file</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -9462,10 +10384,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Local variables should be declared at the point they are first used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>应该在第一次用到局部变量的地方对其进行声明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Log Sparingly</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>慎用日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Logging that reports successes should never be used at levels higher than VERBOSE.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>报告成功的日志记录绝不应该出现在大于VERBOSE级别的日志中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Look for a descendant to call &lt;c0&gt;&lt;a1&gt;requestFocus()&lt;/a1&gt;&lt;/c0&gt; on.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>询找一个后代来调用&lt;c0&gt;&lt;a1&gt;requestFocus()&lt;/a1&gt;&lt;/c0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loop variables should be declared in the for statement itself unless there is a compelling reason to do otherwise:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>除非理由十分充分，否则循环变量都应该在for语句内进行声明：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Losses of network connectivity are considered common, fully expected, and should not be logged gratuitously.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>网络连接的丢失可被视为常见现象，也是完全可以预见的，不应该无缘无故就记录进日志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9494,6 +10456,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Makes it obvious what classes are actually used and the code is more readable for maintainers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>使实际用到的类一清二楚。代码的可读性更好，便于维护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Manually &lt;br0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -9506,6 +10476,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>手动渲染该view（及它所有的子view）到给定的画布上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many times you don't need to catch the exception at this level anyway, just let the method throw it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>很多时候在你这个级别根本就没必要捕获这个异常，只要让方法抛出该异常即可。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9622,6 +10600,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Nearly every local variable declaration should contain an initializer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>几乎所有局部变量声明都应该进行初始化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Nested classes</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -9634,6 +10620,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>不再支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Non-public, non-static field names start with m.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>非public的、非static的字段名称以m开头。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9782,6 +10776,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>注意：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notice how the width and height of the button varies with the text, and the background image stretches to accommodate it.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -9918,6 +10920,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Order Import Statements</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>对Import语句排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Order position</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -9926,10 +10936,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Originally, there was no style requirement on the ordering, meaning IDEs were either always changing the ordering or IDE developers had to disable the automatic import management features and manually maintain the imports.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>原先次序是不作为规范性要求的。这意味着要么允许IDE改变顺序，要么使用IDE的开发者不得不禁用import自动管理功能并且人工维护import。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other &lt;c0&gt;on...&lt;/c0&gt; methods may also be overridden as required.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>如果需要，其他的&lt;c0&gt;on...&lt;/c0&gt;方法也可能需要重写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other fields start with a lower case letter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>其它字段以小写字母开头。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9954,6 +10980,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>否则，你应该通过(&lt;c0&gt;&lt;a1&gt;setSpanIndexCacheEnabled(boolean)&lt;/a1&gt;&lt;/c0&gt;) 来启用span index的缓存以获取更优的性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Our parting thought: BE CONSISTENT.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>我们的最终想法是：保持一致。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10118,10 +11152,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Potentially reduces the number of import statements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>它可能会减少import语句。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Preview</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>Preview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Private information should be avoided.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>应该避免将私人信息记入日志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10162,6 +11212,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>公共方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Public methods are part of an API and therefore require Javadoc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>public的方法是API的组成部分，因此更需要Javadoc。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg> public static final字段（常量）全部字母大写并用下划线分隔。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10286,6 +11352,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Refactor your code to have more fine-grained error handling, with multiple try blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>重新组织一下代码，使用多个try块，使错误处理的粒度更细一些。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Refer to &lt;c0&gt;&lt;a1&gt;ViewGroup&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;ViewGroup.MarginLayoutParams&lt;/a3&gt;&lt;/c2&gt; for further information.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -10354,6 +11428,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>请记住其他的布局可以在内部任意嵌套，所以组件可以任意的复杂和构造。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remember: exceptions are your friend!</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>请记住：异常是你的朋友！</seg>
       </tuv>
     </tu>
     <tu>
@@ -10586,6 +11668,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>Results for</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rethrow the exception.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>再次抛出异常。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11494,6 +12584,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Separated by a blank line between each major grouping (&lt;c0&gt;android&lt;/c0&gt;, &lt;c1&gt;com&lt;/c1&gt;, &lt;c2&gt;junit&lt;/c2&gt;, &lt;c3&gt;net&lt;/c3&gt;, &lt;c4&gt;org&lt;/c4&gt;, &lt;c5&gt;java&lt;/c5&gt;, &lt;c6&gt;javax&lt;/c6&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>每个大组之间应该空一行（&lt;c0&gt;android&lt;/c0&gt;、 &lt;c1&gt;com&lt;/c1&gt;、 &lt;c2&gt;junit&lt;/c2&gt;、 &lt;c3&gt;net&lt;/c3&gt;、 &lt;c4&gt;org&lt;/c4&gt;、 &lt;c5&gt;java&lt;/c5&gt;、 &lt;c6&gt;javax&lt;/c6&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set X location of the pivot point around which the view will rotate and scale.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -11782,6 +12880,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Simple marker annotations (e.g. @Override) can be listed on the same line with the language element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg> 简单的marker annotation（@Override等）可以和语言元素放在同一行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since RecyclerView is a collection ViewGroup that includes virtual children (items that are in the Adapter but not visible in the UI), it employs a more involved focus search strategy that differs from other ViewGroups.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -11790,6 +12896,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since many consider this a low priority issue, just use your judgement and be consistent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>因为大多数人都认为这部分内容并不要紧，只要遵守你的决定并坚持下去即可。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Size</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -11802,6 +12916,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>Size - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Smile: the compiler just made it easier for you to catch runtime problems in your code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>而应该微笑：编译器帮助你找到了代码中的运行时（runtime）问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11862,6 +12984,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some people prefer static imports to be interspersed with the remaining imports, while some prefer them to reside above or below all other imports.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>有些人愿意让静态import和其它import混在一起，另一些人则期望让它们位于其它import之上或者之下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some points to note here</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -11898,6 +13028,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在topId 和 bottomId的view间垂直放置一组部件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifically, there is no need to log situations where an exception is thrown (the exception should contain all the relevant information), or where the only information being logged is contained in an error code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>特别是不需要记录已经抛出异常的情况（异常中应该包含了全部有价值的信息），也不必记录那些只包含错误代码的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11950,6 +13088,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Split up the IO from the parsing, handle errors separately in each case.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>把IO从解析内容的代码中分离出来，根据各自的情况进行单独的错误处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Staggered grids are likely to have gaps at the edges of the layout.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -11986,6 +13132,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>开始一个平滑的滚动到一个adapter position。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Static field names start with s.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>static字段名称以s开头。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12110,6 +13264,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Such a condition should only be logged by a module that reasonably believes that it is the most authoritative in that domain (to avoid duplicate logging by non-authoritative components).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>应该只有那些拥有本区域内最高级别身份认证的模块才能记录这些日志（为了避免级别不足的模块重复记录日志）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -12146,6 +13308,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>使用提供的适配器交换当前适配器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>System.out and System.err get redirected to /dev/null, so your print statements will have no visible effects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>System.out 和 System.err会重定向到/dev/null，因此print语句不会产生任何可见的效果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TODOs should include the string TODO in all caps, followed by a colon:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>TODO注释应该包含全部大写的TODO，后跟一个冒号：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12194,6 +13372,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>暂时分离并废弃所有当前附加的子views。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Temporary logging used to diagnose an issue that is hard to reproduce should be kept at the DEBUG or VERBOSE level and should be enclosed by if blocks that allow for disabling it entirely at compile time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg> 用于诊断难以重现事件的临时日志应该限于DEBUG或VERBOSE级别，并且应该用if语句块包裹，以便在编译时能够一次全部关闭。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12638,6 +13824,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The exception is try-catch statements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>本规则存在一个例外，就是涉及try-catch语句的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The explicit state of a matcher includes the start and end indices of the most recent successful match.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -12734,6 +13928,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The golden rule of logging is that your logs may not unnecessarily push other logs out of the buffer, just as others may not push out yours.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>日志的黄金法则是：你的日志记录不会导致其它日志的缓冲区溢出，正如其他人的日志也不会让你的溢出一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The hash code of a member-value depends on its type:</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -12798,6 +14000,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The imports people want to look at first tend to be at the top (&lt;c0&gt;android&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>导入人员期望最先看到的放在最开始位置（&lt;c0&gt;android&lt;/c0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The imports people want to look at least tend to be at the bottom (&lt;c0&gt;java&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>导入人员期望最后才看到的放在最后（&lt;c0&gt;java&lt;/c0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The index of the first character captured by the group, or &lt;t0&gt;-1&lt;/t0&gt; if the match was successful but the group itself did not match anything</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -12858,6 +14076,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>view的左边。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The logging call should not be re-factored out into a method call if it is going to cause the string building to take place outside of the &lt;c5&gt;if (LOCAL_LOG)&lt;/c5&gt; block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果对记录日志的调用会导致在 &lt;c5&gt;if (LOCAL_LOG)&lt;/c5&gt; 语句块之外完成文字组织工作，那该调用就必须控制在一个方法内完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The logging facilities provides five different levels of logging:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>日志功能支持五种不同的级别：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12958,6 +14192,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The only situations that should trigger logging at the INFORMATIVE level or higher is when a module or application detects an error at its own level or coming from a lower level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>仅当一个模块或应用程序检测到自身或来自更低级别模块的错误时，才应该记录INFORMATIVE及以上级别的日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ordering of import statements is:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>import语句的次序应该如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The other attributes and parameters in the definition are the ones passed into the custom component constructor, and then passed through to the EditText constructor, so they are the same parameters that you would use for an EditText view.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -13006,6 +14256,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The point of having style guidelines is to have a common vocabulary of coding, so people can concentrate on what you're saying, rather than on how you're saying it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>保持风格规范的重点是有一个公共的代码词汇表，这样大家就可以把注意力集中于你要说什么，而不是你如何说。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The possible values are:</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -13018,6 +14276,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>这些属性和方法也可以与基于&lt;c12&gt;&lt;a13&gt;Animator&lt;/a13&gt;&lt;/c12&gt;的动画结合使用，详见&lt;a14&gt;Animation&lt;/a14&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The rare exception to this rule is test code and top-level code where you want to catch all kinds of errors (to prevent them from showing up in a UI, or to keep a batch job running).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>本规则也有极少数例外情况：期望捕获所有类型错误的特定的测试代码和顶层代码（为了阻止这些错误在用户界面上显示出来，或者保持批量工作的运行）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13214,6 +14480,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The use and location of static imports have been mildly controversial issues.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>静态import的使用和位置已经成为略带争议的话题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The usual starting point is a Layout of some kind, so create a class that extends a Layout.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -13302,10 +14576,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are conventions for using Android's Java libraries and tools.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>使用Android的Java类库和工具存在一些惯例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are currently various types of constraints that you can use:</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>目前可以使用各种类型的约束：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are definitely times when it is actually the correct thing to do, but at least you have to think about it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>虽然很多情况下确实是一切正常，但至少你不得不去忧虑它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13338,6 +14628,30 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在某些情况下，创建自定义View有一种更简单的选择。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is some code that still says &lt;c0&gt;if (localLOGV)&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>还存在一些代码仍然在使用&lt;c0&gt;if (localLOGV)&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There must therefore be no active logic in an &lt;c3&gt;if (LOCAL_LOG)&lt;/c3&gt; block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>因此在 &lt;c3&gt;if (LOCAL_LOG)&lt;/c3&gt; 语句块中不允许存在逻辑判断语句。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore, always treat acronyms as words.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>因此，把简称当作完整的单词看待吧。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13478,6 +14792,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Think very carefully before doing this, though, and put in comments explaining why it is safe in this place.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在开始之前，你应该非常仔细地考虑一下，并在注释中解释清楚为什么这么做是安全的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This NinePatch defines one stretchable area with the left and top lines and the drawable area with the bottom and right lines.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -13506,6 +14828,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>这个行为与安卓3.0之前的基于 &lt;c8&gt;&lt;a9&gt;Animation&lt;/a9&gt;&lt;/c8&gt;的类形成对比，之前的动画只能按制view在显示时的绘制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be awkward but is still preferable to catching all Exceptions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这样可能会有点别扭，但总比捕获所有Exception要好些。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13631,6 +14961,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This includes all logging up to the DEBUG level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这里包括所有DEBUG以上级别的日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This includes changing the focus as views are removed or hidden, or as new views become available.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -13691,6 +15029,38 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>当view从窗口移队时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is considered acceptable as well, although the name is nonstandard.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这也是可以接受的，虽然名称不是标准的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is dangerous, so do it only if you are positive that if this error occurs the appropriate thing to do is crash.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这种做法比较危险：只有确信发生该错误时最合适的做法就是崩溃，才会这么做。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is especially important in the interaction between the framework and applications, and conditions caused by third-party applications that are properly handled by the framework should not trigger logging higher than the DEBUG level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>当应用程序与系统框架间进行交互时，这一点尤为重要。系统框架已能正确处理的第三方应用程序，也不应该记录大于DEBUG级别的日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is especially important when writing framework code as it's not easy to know in advance what will and will not be private information or protected content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这在编写系统框架级代码时尤为重要，因为很难预知哪些是私人信息和受保护信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13771,6 +15141,30 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>这通常用于没有副作用的方法，所以在没有实际查看结果的情况下调用它通常意味着开发人员误解了该方法的作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This level is always logged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>该级别总是记录日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This level will be logged, even on release builds, and is required to be surrounded by an &lt;c0&gt;if (LOCAL_LOG)&lt;/c0&gt; or &lt;c1&gt;if (LOCAL_LOGD)&lt;/c1&gt; block, where &lt;c2&gt;LOCAL_LOG[D]&lt;/c2&gt; is defined in your class or subcomponent, so that there can exist a possibility to disable all such logging.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>即使是发行版本（release build），该级别也会被记录，并且需用&lt;c0&gt;if (LOCAL_LOG)&lt;/c0&gt; 或 &lt;c1&gt;if (LOCAL_LOGD)&lt;/c1&gt; 语句块包裹，这里的&lt;c2&gt;LOCAL_LOG[D]&lt;/c2&gt; 在你的类或子控件中定义。这样就能够一次性关闭所有的调试日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This level will only be logged on debug builds and should be surrounded by an &lt;c1&gt;if (LOCAL_LOGV)&lt;/c1&gt; block (or equivalent) so it can be compiled out by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>该级别仅会在调试版本（debug build）下记录日志，并且需用 &lt;c1&gt;if (LOCAL_LOGV)&lt;/c1&gt; 语句块（或等效语句）包裹，这样该部分代码默认就不会编译进发行版本中去了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13863,6 +15257,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This sentence should start with a third person descriptive verb.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>并且该语句应该用第三人称的动词形式来开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This style makes it easier to see exactly what cases are being tested.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这种风格可以让测试的条件一目了然。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This style was chosen such that:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>基于以下原因，选定了本项规则：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This tells the system that we want the left side of button B to be constrained to the right side of button A. Such a position constraint means that the system will try to have both sides share the same location.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -13911,6 +15329,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This was deemed bad.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这看起来比较糟糕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This will apply similarly for vertical constraints.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -13919,10 +15345,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This will normally identify an offending class that has an awkward interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>通常是标明某个令人讨厌的类用到了某个拙劣的接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Those constraints allow you to position a given widget relative to another one.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>这些限制允许你相对其他部件来定位给定的布件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Throw a new exception that's appropriate to your level of abstraction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>根据抽象级别抛出新的异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Throw the exception up to the caller of your method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg> 向方法的调用者抛出异常。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14019,6 +15469,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>要启用触摸过滤，调用&lt;c0&gt;&lt;a1&gt;setFilterTouchesWhenObscured(boolean)&lt;/a1&gt;&lt;/c0&gt; 方法，或者设置android:filterTouchesWhenObscured 布局属性为true。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To exactly match the IDE settings, the imports should be:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>为了精确匹配IDE的配置，import顺序应该是：</seg>
       </tuv>
     </tu>
     <tu>
@@ -14183,10 +15641,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Treat Acronyms as Words</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>简称等同于单词</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Treat acronyms and abbreviations as words in naming variables, methods, and classes to make names more readable:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>简称和缩写都视为变量名、方法名和类名。以使名称可读性更强，如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>True if results of &lt;c0&gt;&lt;a1&gt;getSpanIndex(int, int)&lt;/a1&gt;&lt;/c0&gt; are cached.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>如果&lt;c0&gt;&lt;a1&gt;getSpanIndex(int, int)&lt;/a1&gt;&lt;/c0&gt; 的结果是缓存的，则返回true。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Try to avoid this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>请努力避免这种情况的发生。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14275,6 +15757,62 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>使 &lt;c0&gt;&lt;a1&gt;getItemOffsets(Rect, View, RecyclerView, State)&lt;/a1&gt;&lt;/c0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;c0&gt;import foo.Bar;&lt;/c0&gt; for importing all Android code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>使用后一种&lt;c0&gt;import foo.Bar;&lt;/c0&gt; 来importing 所有的Android代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use Javadoc Standard Comments</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>使用Javadoc标准的注释</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use Spaces for Indentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>使用空格进行缩进</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use Standard Brace Style</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>使用标准的大括号风格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use Standard Java Annotations</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>使用标准的Java Annotation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use TODO Comments</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>使用TODO注释</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use TODO comments for code that is temporary, a short-term solution, or good-enough but not perfect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>对那些临时性的、短期的、够棒但不完美的代码，请使用TODO注释。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14519,10 +16057,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We expect that as IDE users work on the code, imports in all packages will match this pattern without extra engineering effort.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>我们期望：不必耗费更多的精力，用IDE编码的用户就按照这种规则去import所有的package。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We now have our custom component, but how can we use it?</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>我们现在有自己的自定义组件了，怎么使用呢？We now have our custom component, but how can we use it?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We present global style rules here so people know the vocabulary, but local style is also important.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>我们在这里列出了全部的风格规范，于是大家也知道了这些词汇。不过本地化的风格也很重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We recognize that long methods are sometimes appropriate, so no hard limit is placed on method length.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>不过，有时较长的方法也是合适的，所以对方法的代码长度并没有硬性的限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We recognize that not all existing code follows these rules, but we expect all new code to be compliant.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>已有的代码未必全部遵守了这些规定，但是新的代码全部都应该遵守。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We require braces around the statements for a conditional.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>我们需要用大括号来包裹条件语句块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We use eight (8) space indents for line wraps, including function calls and assignments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>我们用8个空格作为换行后的缩进，包括函数调用和赋值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We use four (4) space indents for blocks and never tabs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>我们的代码块缩进使用4个空格。我们从不使用制表符tab。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14555,6 +16149,30 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在这种情况下发生的是，约束就像是从两边用相反的力拉小部件（图4），所以最终使得小部在父容器中居中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a @SuppressWarnings annotation is necessary, it must be prefixed with a TODO comment that explains the "impossible to eliminate" condition.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>当需要使用@SuppressWarnings annotation时，必须在前面加上TODO注释行，用于解释“不可能消除”警告的条件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a @SuppressWarnings annotation is required, the code should be refactored to isolate the software elements where the annotation applies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果需要使用@SuppressWarnings annotation，应该重新组织一下代码，把需要应用annotation的语言元素独立出来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a condition that would normally justify some logging is likely to occur many times, it can be a good idea to implement some rate-limiting mechanism to prevent overflowing the logs with many duplicate copies of the same (or very similar) information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg> 如果一个通常要记录日志的事件可能会多次发生，则采取一些频次限制措施或许是个好主意，以防日志被很多重复（或类似）的信息给撑爆了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14607,6 +16225,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When creating new components however, never use deprecated libraries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>创建新的组件时就不要再使用过时的类库了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When decorating a method call parameter, this denotes that the parameter can legitimately be null and the method will gracefully deal with it.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14631,6 +16257,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When feasible, keep methods small and focused.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>尽可能地保持方法简短和重点突出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When in doubt, be consistent with the surrounding code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果存在疑惑，与前后的其它代码保持一致即可。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When in touch mode (see notes below) views indicate whether they still would like focus via &lt;c4&gt;&lt;a5&gt;isFocusableInTouchMode()&lt;/a5&gt;&lt;/c4&gt; and can change this via &lt;c6&gt;&lt;a7&gt;setFocusableInTouchMode(boolean)&lt;/a7&gt;&lt;/c6&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14639,10 +16281,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When java-style was asked, the preferred styles varied wildly and it came down to Android needing to simply "pick an ordering and be consistent." So we chose a style, updated the style guide, and made the IDEs obey it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>每当说起java规范，推荐的规范到处都是。符合我们要求的差不多就是“选择一个次序并坚持下去。”于是，我们就选择一个规范，更新规范手册，并让IDE去遵守它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When pages are not visible to the user, their entire fragment may be destroyed, only keeping the saved state of that fragment.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>当页面对用户不可见时，它们的整个fragment可能被破坏，只保留该fragment的保存状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When possible, logging should be kept on a single line if it makes sense.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>只要有可能，日志就应该一句一行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14703,6 +16361,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the compiler complains you're not catching an exception, don't scowl.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>当编译器指出你没有捕获某个异常时，请不要皱眉头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When turned on, it automatically creates two or more constraints for each view as you add them to the layout, but only when appropriate to constrain the view to the parent layout.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14723,6 +16389,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>当我们完成后，新的类可以替换一个正常的&lt;c1&gt;EditText&lt;/c1&gt;类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When working with such code, it's okay to continue the existing style.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果用到这部分过时的代码，沿用已有的风格就是了</seg>
       </tuv>
     </tu>
     <tu>
@@ -14767,10 +16441,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you want to use class Bar from package foo,there are two possible ways to import it:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>当需要使用foo包中的Bar类时，存在两种可能的import方式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While both have default behavior, the default &lt;c2&gt;onDraw()&lt;/c2&gt; will do nothing, and the default &lt;c3&gt;onMeasure()&lt;/c3&gt; will always set a size of 100x100 — which is probably not what you want.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>虽然这2个方法都有默认的行为，默认的&lt;c2&gt;onDraw()&lt;/c2&gt;什么也不做，默认的&lt;c3&gt;onMeasure()&lt;/c3&gt;将设置尺寸为100x100 — 这可能并不是你想的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While logging is necessary, it has a significantly negative impact on performance and quickly loses its usefulness if not kept reasonably terse.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>记录日志会对性能产生显著的负面影响。如果日志内容不够简炼的话，很快会丧失可用性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While much discussion has surrounded this rule, the decision remains that 100 characters is the maximum &lt;e0&gt;with the following exceptions&lt;/e0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>有关本规则的讨论有很多，最后的结论还是最多不超过100个字符&lt;e0&gt;除了以下几种例外情况&lt;/e0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While they can be handy for doing cleanup (particularly of external resources), there are no guarantees as to when a finalizer will be called (or even that it will be called at all).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>尽管它们便于执行清理工作（特别是针对外部资源），但并不能保证调用finalizer的时机（甚至根本就不会调用）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While you may think your code will never encounter this error condition or that it is not important to handle it, ignoring exceptions as above creates mines in your code for someone else to trigger some day.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>也许你会认为：你的代码永远不会碰到这种出错的情况，或者处理异常并不重要，可类似上述忽略异常的代码将会在代码中埋下一颗地雷，说不定哪天它就会炸到某个人了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14799,6 +16513,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Within a given module, other than at the VERBOSE level, an error should only be reported once if possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>除了VERBOSE级别外，在同一个模块中同一个错误应该尽可能只报告一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Within a single chain of function calls within a module, only the innermost function should return the error, and callers in the same module should only add some logging if that significantly helps to isolate the issue.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>同一个模块内的一系列层层嵌套的函数调用中，只有最内层的函数才返回错误；并且只有能为解决问题提供明显帮助的时候，同一模块中的调用方才写入一些日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>WorkerThread</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14811,6 +16541,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>WorkerThread - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Write Short Methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>编写简短的方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -15087,6 +16825,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You do not need to write Javadoc for trivial get and set methods such as &lt;c0&gt;setFoo()&lt;/c0&gt; if all your Javadoc would say is "sets Foo".</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>你不需要为琐碎的类似&lt;c0&gt;setFoo()&lt;/c0&gt;的get、set方法写Javadoc，否则这些Javadoc都会写上"设置Foo"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You indicate a stretchable section by drawing one (or more) 1-pixel-wide black line(s) in the left and top part of the border (the other border pixels should be fully transparent or white).</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -15131,6 +16877,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>你必须调用&lt;c0&gt;&lt;a1&gt;getSupportFragmentManager()&lt;/a1&gt;&lt;/c0&gt;以获得&lt;c2&gt;&lt;a3&gt;FragmentManager&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You must handle every Exception in your code in a principled way; the specific handling varies depending on the case.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>你必须在代码中以某种规矩来处理所有的异常。根据情况的不同，处理的方式也会不一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should log only what is needed to gather enough information about what is going on about your component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>应该只记录那些有关控件运行所必需的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15263,6 +17025,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>and this is acceptable:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这样也是可接受的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and this is not correct:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>而这是不正确的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>android</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -16995,6 +18773,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>android.widget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>but this is not acceptable:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>但这是不可接受的：</seg>
       </tuv>
     </tu>
     <tu>
@@ -17107,6 +18893,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>来自R.layout.* 对象&lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>handleError();                      // with one generic handler!</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>handleError();                      // 使用一个通用的处理器！</seg>
       </tuv>
     </tu>
     <tu>
@@ -18163,6 +19957,30 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>设置view是否应用elevation。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>someComplicatedIOFunction();        // may throw IOException</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>someComplicatedIOFunction();        // 可能抛出 IOException</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>someComplicatedParsingFunction();   // may throw ParsingException</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>someComplicatedParsingFunction();   // 可能抛出 ParsingException</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>someComplicatedSecurityFunction();  // may throw SecurityException</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>someComplicatedSecurityFunction();  // 可能抛出 SecurityException</seg>
       </tuv>
     </tu>
     <tu>
