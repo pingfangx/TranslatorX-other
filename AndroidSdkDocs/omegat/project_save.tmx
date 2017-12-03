@@ -8,7 +8,7 @@
       <tuv lang="EN-US">
         <seg>#</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035943Z" creationid="Admin" creationdate="20171011T035943Z">
+      <tuv lang="ZH-CN">
         <seg>#</seg>
       </tuv>
     </tu>
@@ -16,7 +16,7 @@
       <tuv lang="EN-US">
         <seg>#constants</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045335Z" creationid="Admin" creationdate="20171011T045335Z">
+      <tuv lang="ZH-CN">
         <seg>#constants</seg>
       </tuv>
     </tu>
@@ -24,7 +24,7 @@
       <tuv lang="EN-US">
         <seg>#inhmethods</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035941Z" creationid="Admin" creationdate="20171011T035941Z">
+      <tuv lang="ZH-CN">
         <seg>#inhmethods</seg>
       </tuv>
     </tu>
@@ -32,7 +32,7 @@
       <tuv lang="EN-US">
         <seg>#nestedclasses</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045334Z" creationid="Admin" creationdate="20171011T045334Z">
+      <tuv lang="ZH-CN">
         <seg>#nestedclasses</seg>
       </tuv>
     </tu>
@@ -80,7 +80,7 @@
       <tuv lang="EN-US">
         <seg>../../../../assets/images/styles/disclosure_down.png</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040112Z" creationid="Admin" creationdate="20171011T040112Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../assets/images/styles/disclosure_down.png</seg>
       </tuv>
     </tu>
@@ -1024,7 +1024,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/android/support/annotation/Dimension.html#DP</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045424Z" creationid="Admin" creationdate="20171011T045424Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/android/support/annotation/Dimension.html#DP</seg>
       </tuv>
     </tu>
@@ -1032,7 +1032,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/android/support/annotation/Dimension.html#PX</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045429Z" creationid="Admin" creationdate="20171011T045429Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/android/support/annotation/Dimension.html#PX</seg>
       </tuv>
     </tu>
@@ -1040,7 +1040,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/android/support/annotation/Dimension.html#SP</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045433Z" creationid="Admin" creationdate="20171011T045433Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/android/support/annotation/Dimension.html#SP</seg>
       </tuv>
     </tu>
@@ -2072,7 +2072,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Boolean.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040358Z" creationid="Admin" creationdate="20171011T040358Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Boolean.html</seg>
       </tuv>
     </tu>
@@ -2080,7 +2080,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Byte.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040354Z" creationid="Admin" creationdate="20171011T040354Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Byte.html</seg>
       </tuv>
     </tu>
@@ -2088,7 +2088,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Character.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040355Z" creationid="Admin" creationdate="20171011T040355Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Character.html</seg>
       </tuv>
     </tu>
@@ -2096,7 +2096,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Class.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040129Z" creationid="Admin" creationdate="20171011T040129Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Class.html</seg>
       </tuv>
     </tu>
@@ -2104,7 +2104,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Double.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040355Z" creationid="Admin" creationdate="20171011T040355Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Double.html</seg>
       </tuv>
     </tu>
@@ -2112,7 +2112,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Float.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040356Z" creationid="Admin" creationdate="20171011T040356Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Float.html</seg>
       </tuv>
     </tu>
@@ -2120,7 +2120,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Integer.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040356Z" creationid="Admin" creationdate="20171011T040356Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Integer.html</seg>
       </tuv>
     </tu>
@@ -2128,7 +2128,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Long.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040357Z" creationid="Admin" creationdate="20171011T040357Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Long.html</seg>
       </tuv>
     </tu>
@@ -2136,7 +2136,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Object.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040201Z" creationid="Admin" creationdate="20171011T040201Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Object.html</seg>
       </tuv>
     </tu>
@@ -2144,7 +2144,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/Short.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040358Z" creationid="Admin" creationdate="20171011T040358Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/Short.html</seg>
       </tuv>
     </tu>
@@ -2152,7 +2152,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/String.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040401Z" creationid="Admin" creationdate="20171011T040401Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/String.html</seg>
       </tuv>
     </tu>
@@ -2160,7 +2160,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/String.html#hashCode()</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040325Z" creationid="Admin" creationdate="20171011T040325Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/String.html#hashCode()</seg>
       </tuv>
     </tu>
@@ -2168,7 +2168,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/annotation/Annotation.html</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035952Z" creationid="Admin" creationdate="20171011T035952Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/annotation/Annotation.html</seg>
       </tuv>
     </tu>
@@ -2176,7 +2176,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/annotation/Annotation.html#annotationType()</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040134Z" creationid="Admin" creationdate="20171011T040134Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/annotation/Annotation.html#annotationType()</seg>
       </tuv>
     </tu>
@@ -2184,7 +2184,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/annotation/Annotation.html#equals(java.lang.Object)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040201Z" creationid="Admin" creationdate="20171011T040201Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/annotation/Annotation.html#equals(java.lang.Object)</seg>
       </tuv>
     </tu>
@@ -2192,7 +2192,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/annotation/Annotation.html#hashCode()</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040239Z" creationid="Admin" creationdate="20171011T040239Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/annotation/Annotation.html#hashCode()</seg>
       </tuv>
     </tu>
@@ -2200,7 +2200,7 @@
       <tuv lang="EN-US">
         <seg>../../../../reference/java/lang/annotation/Annotation.html#toString()</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040402Z" creationid="Admin" creationdate="20171011T040402Z">
+      <tuv lang="ZH-CN">
         <seg>../../../../reference/java/lang/annotation/Annotation.html#toString()</seg>
       </tuv>
     </tu>
@@ -2832,7 +2832,7 @@
       <tuv lang="EN-US">
         <seg>&lt;a0&gt;About Android&lt;/a0&gt; &lt;a1&gt;Auto&lt;/a1&gt; &lt;a2&gt;TV&lt;/a2&gt; &lt;a3&gt;Wear&lt;/a3&gt; &lt;a4&gt;Legal&lt;/a4&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040506Z" creationid="Admin" creationdate="20171011T040506Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;a0&gt;About Android&lt;/a0&gt; &lt;a1&gt;Auto&lt;/a1&gt; &lt;a2&gt;TV&lt;/a2&gt; &lt;a3&gt;Wear&lt;/a3&gt; &lt;a4&gt;Legal&lt;/a4&gt;</seg>
       </tuv>
     </tu>
@@ -2848,7 +2848,7 @@
       <tuv lang="EN-US">
         <seg>&lt;a0&gt;Blog&lt;/a0&gt; &lt;a1&gt;Support&lt;/a1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040449Z" creationid="Admin" creationdate="20171011T040449Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;a0&gt;Blog&lt;/a0&gt; &lt;a1&gt;Support&lt;/a1&gt;</seg>
       </tuv>
     </tu>
@@ -2856,7 +2856,7 @@
       <tuv lang="EN-US">
         <seg>&lt;a0&gt;annotationType&lt;/a0&gt;()</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040137Z" creationid="Admin" creationdate="20171011T040137Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;a0&gt;annotationType&lt;/a0&gt;()</seg>
       </tuv>
     </tu>
@@ -2864,7 +2864,7 @@
       <tuv lang="EN-US">
         <seg>&lt;a0&gt;equals&lt;/a0&gt;(&lt;a1&gt;Object&lt;/a1&gt; obj)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040203Z" creationid="Admin" creationdate="20171011T040203Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;a0&gt;equals&lt;/a0&gt;(&lt;a1&gt;Object&lt;/a1&gt; obj)</seg>
       </tuv>
     </tu>
@@ -2872,7 +2872,7 @@
       <tuv lang="EN-US">
         <seg>&lt;a0&gt;hashCode&lt;/a0&gt;()</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040239Z" creationid="Admin" creationdate="20171011T040239Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;a0&gt;hashCode&lt;/a0&gt;()</seg>
       </tuv>
     </tu>
@@ -2880,7 +2880,7 @@
       <tuv lang="EN-US">
         <seg>&lt;a0&gt;toString&lt;/a0&gt;()</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040403Z" creationid="Admin" creationdate="20171011T040403Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;a0&gt;toString&lt;/a0&gt;()</seg>
       </tuv>
     </tu>
@@ -2928,7 +2928,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface AnimRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041922Z" creationid="Admin" creationdate="20171011T041922Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface AnimRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -2936,7 +2936,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface AnimatorRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035954Z" creationid="Admin" creationdate="20171011T035954Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface AnimatorRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -2944,7 +2944,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface AnyRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041952Z" creationid="Admin" creationdate="20171011T041952Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface AnyRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -2952,7 +2952,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface AnyThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042124Z" creationid="Admin" creationdate="20171011T042124Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface AnyThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -2960,7 +2960,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface ArrayRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042323Z" creationid="Admin" creationdate="20171011T042323Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface ArrayRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -2968,7 +2968,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface AttrRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042354Z" creationid="Admin" creationdate="20171011T042354Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface AttrRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -2976,7 +2976,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface BinderThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042423Z" creationid="Admin" creationdate="20171011T042423Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface BinderThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -2984,7 +2984,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface BoolRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042639Z" creationid="Admin" creationdate="20171011T042639Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface BoolRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -2992,7 +2992,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface CallSuper &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042650Z" creationid="Admin" creationdate="20171011T042650Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface CallSuper &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3000,7 +3000,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface CheckResult &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042721Z" creationid="Admin" creationdate="20171011T042721Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface CheckResult &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3008,7 +3008,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface ColorInt &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045128Z" creationid="Admin" creationdate="20171011T045128Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface ColorInt &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3016,7 +3016,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface ColorRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045240Z" creationid="Admin" creationdate="20171011T045240Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface ColorRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3024,7 +3024,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface DimenRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045254Z" creationid="Admin" creationdate="20171011T045254Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface DimenRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3032,7 +3032,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface Dimension &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045350Z" creationid="Admin" creationdate="20171011T045350Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface Dimension &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3040,7 +3040,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface DrawableRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045516Z" creationid="Admin" creationdate="20171011T045516Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface DrawableRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3048,7 +3048,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface FloatRange &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045550Z" creationid="Admin" creationdate="20171011T045550Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface FloatRange &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3056,7 +3056,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface FractionRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045618Z" creationid="Admin" creationdate="20171011T045618Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface FractionRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3064,7 +3064,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface IdRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045645Z" creationid="Admin" creationdate="20171011T045645Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface IdRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3072,7 +3072,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface IntDef &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045712Z" creationid="Admin" creationdate="20171011T045712Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface IntDef &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3080,7 +3080,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface IntRange &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050119Z" creationid="Admin" creationdate="20171011T050119Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface IntRange &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3088,7 +3088,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface IntegerRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050031Z" creationid="Admin" creationdate="20171011T050031Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface IntegerRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3096,7 +3096,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface InterpolatorRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050050Z" creationid="Admin" creationdate="20171011T050050Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface InterpolatorRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3104,7 +3104,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface Keep &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050140Z" creationid="Admin" creationdate="20171011T050140Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface Keep &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3112,7 +3112,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface LayoutRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050402Z" creationid="Admin" creationdate="20171011T050402Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface LayoutRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3120,7 +3120,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface MainThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050420Z" creationid="Admin" creationdate="20171011T050420Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface MainThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3128,7 +3128,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface MenuRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050453Z" creationid="Admin" creationdate="20171011T050453Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface MenuRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3136,7 +3136,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface NonNull &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050539Z" creationid="Admin" creationdate="20171011T050539Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface NonNull &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3144,7 +3144,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface Nullable &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050635Z" creationid="Admin" creationdate="20171011T050635Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface Nullable &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3152,7 +3152,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface PluralsRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050906Z" creationid="Admin" creationdate="20171011T050906Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface PluralsRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3160,7 +3160,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface Px &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051058Z" creationid="Admin" creationdate="20171011T051058Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface Px &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3168,7 +3168,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface RawRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051133Z" creationid="Admin" creationdate="20171011T051133Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface RawRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3176,7 +3176,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface RequiresApi &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051411Z" creationid="Admin" creationdate="20171011T051411Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface RequiresApi &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3184,7 +3184,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface RequiresPermission &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051852Z" creationid="Admin" creationdate="20171011T051852Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface RequiresPermission &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3192,7 +3192,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface Size &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T053713Z" creationid="Admin" creationdate="20171011T053713Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface Size &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3200,7 +3200,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface StringDef &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054507Z" creationid="Admin" creationdate="20171011T054507Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface StringDef &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3208,7 +3208,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface StringRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054630Z" creationid="Admin" creationdate="20171011T054630Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface StringRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3216,7 +3216,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface StyleRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054743Z" creationid="Admin" creationdate="20171011T054743Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface StyleRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3224,7 +3224,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface StyleableRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054654Z" creationid="Admin" creationdate="20171011T054654Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface StyleableRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3232,7 +3232,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface TransitionRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054800Z" creationid="Admin" creationdate="20171011T054800Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface TransitionRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3240,7 +3240,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface UiThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054830Z" creationid="Admin" creationdate="20171011T054830Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface UiThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3248,7 +3248,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface VisibleForTesting &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054900Z" creationid="Admin" creationdate="20171011T054900Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface VisibleForTesting &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3256,7 +3256,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface WorkerThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055909Z" creationid="Admin" creationdate="20171011T055909Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface WorkerThread &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3264,7 +3264,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public abstract @interface XmlRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055933Z" creationid="Admin" creationdate="20171011T055933Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public abstract @interface XmlRes &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3272,7 +3272,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public static abstract @interface Dimension.Unit &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045505Z" creationid="Admin" creationdate="20171011T045505Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public static abstract @interface Dimension.Unit &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3280,7 +3280,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public static abstract @interface RequiresPermission.Read &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052951Z" creationid="Admin" creationdate="20171011T052951Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public static abstract @interface RequiresPermission.Read &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3288,7 +3288,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt; public static abstract @interface RequiresPermission.Write &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T053210Z" creationid="Admin" creationdate="20171011T053210Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c0&gt; public static abstract @interface RequiresPermission.Write &lt;/c0&gt; &lt;br1&gt;</seg>
       </tuv>
     </tu>
@@ -3296,7 +3296,7 @@
       <tuv lang="EN-US">
         <seg>&lt;c2&gt; implements &lt;a3&gt;Annotation&lt;/a3&gt; &lt;/c2&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035957Z" creationid="Admin" creationdate="20171011T035957Z">
+      <tuv lang="ZH-CN">
         <seg>&lt;c2&gt; implements &lt;a3&gt;Annotation&lt;/a3&gt; &lt;/c2&gt;</seg>
       </tuv>
     </tu>
@@ -3320,7 +3320,7 @@
       <tuv lang="EN-US">
         <seg>@AnyThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042315Z" creationid="Admin" creationdate="20171011T042315Z">
+      <tuv lang="ZH-CN">
         <seg>@AnyThread</seg>
       </tuv>
     </tu>
@@ -3328,7 +3328,7 @@
       <tuv lang="EN-US">
         <seg>@BinderThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042630Z" creationid="Admin" creationdate="20171011T042630Z">
+      <tuv lang="ZH-CN">
         <seg>@BinderThread</seg>
       </tuv>
     </tu>
@@ -3336,7 +3336,7 @@
       <tuv lang="EN-US">
         <seg>@CallSuper</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042656Z" creationid="Admin" creationdate="20171011T042656Z">
+      <tuv lang="ZH-CN">
         <seg>@CallSuper</seg>
       </tuv>
     </tu>
@@ -3352,7 +3352,7 @@
       <tuv lang="EN-US">
         <seg>@IntDef(</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050022Z" creationid="Admin" creationdate="20171011T050022Z">
+      <tuv lang="ZH-CN">
         <seg>@IntDef(</seg>
       </tuv>
     </tu>
@@ -3360,7 +3360,7 @@
       <tuv lang="EN-US">
         <seg>@IntDef({NAVIGATION_MODE_STANDARD, NAVIGATION_MODE_LIST, NAVIGATION_MODE_TABS})</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050000Z" creationid="Admin" creationdate="20171011T050000Z">
+      <tuv lang="ZH-CN">
         <seg>@IntDef({NAVIGATION_MODE_STANDARD, NAVIGATION_MODE_LIST, NAVIGATION_MODE_TABS})</seg>
       </tuv>
     </tu>
@@ -3376,7 +3376,7 @@
       <tuv lang="EN-US">
         <seg>@Keep</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050357Z" creationid="Admin" creationdate="20171011T050357Z">
+      <tuv lang="ZH-CN">
         <seg>@Keep</seg>
       </tuv>
     </tu>
@@ -3384,7 +3384,7 @@
       <tuv lang="EN-US">
         <seg>@MainThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050449Z" creationid="Admin" creationdate="20171011T050449Z">
+      <tuv lang="ZH-CN">
         <seg>@MainThread</seg>
       </tuv>
     </tu>
@@ -3392,7 +3392,7 @@
       <tuv lang="EN-US">
         <seg>@NavigationMode</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050006Z" creationid="Admin" creationdate="20171011T050006Z">
+      <tuv lang="ZH-CN">
         <seg>@NavigationMode</seg>
       </tuv>
     </tu>
@@ -3400,7 +3400,7 @@
       <tuv lang="EN-US">
         <seg>@RequiresPermission(ACCESS_COARSE_LOCATION)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052004Z" creationid="Admin" creationdate="20171011T052004Z">
+      <tuv lang="ZH-CN">
         <seg>@RequiresPermission(ACCESS_COARSE_LOCATION)</seg>
       </tuv>
     </tu>
@@ -3408,7 +3408,7 @@
       <tuv lang="EN-US">
         <seg>@RequiresPermission(Manifest.permission.CALL_PHONE)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052858Z" creationid="Admin" creationdate="20171011T052858Z">
+      <tuv lang="ZH-CN">
         <seg>@RequiresPermission(Manifest.permission.CALL_PHONE)</seg>
       </tuv>
     </tu>
@@ -3416,7 +3416,7 @@
       <tuv lang="EN-US">
         <seg>@RequiresPermission(Manifest.permission.SET_WALLPAPER)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052003Z" creationid="Admin" creationdate="20171011T052003Z">
+      <tuv lang="ZH-CN">
         <seg>@RequiresPermission(Manifest.permission.SET_WALLPAPER)</seg>
       </tuv>
     </tu>
@@ -3424,7 +3424,7 @@
       <tuv lang="EN-US">
         <seg>@RequiresPermission(allOf = {ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION})</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052055Z" creationid="Admin" creationdate="20171011T052055Z">
+      <tuv lang="ZH-CN">
         <seg>@RequiresPermission(allOf = {ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION})</seg>
       </tuv>
     </tu>
@@ -3432,7 +3432,7 @@
       <tuv lang="EN-US">
         <seg>@RequiresPermission(anyOf = {ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION})</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052040Z" creationid="Admin" creationdate="20171011T052040Z">
+      <tuv lang="ZH-CN">
         <seg>@RequiresPermission(anyOf = {ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION})</seg>
       </tuv>
     </tu>
@@ -3440,7 +3440,7 @@
       <tuv lang="EN-US">
         <seg>@RequiresPermission.Read(@RequiresPermission(READ_HISTORY_BOOKMARKS))</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052231Z" creationid="Admin" creationdate="20171011T052231Z">
+      <tuv lang="ZH-CN">
         <seg>@RequiresPermission.Read(@RequiresPermission(READ_HISTORY_BOOKMARKS))</seg>
       </tuv>
     </tu>
@@ -3448,7 +3448,7 @@
       <tuv lang="EN-US">
         <seg>@RequiresPermission.Write(@RequiresPermission(WRITE_HISTORY_BOOKMARKS))</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052231Z" creationid="Admin" creationdate="20171011T052231Z">
+      <tuv lang="ZH-CN">
         <seg>@RequiresPermission.Write(@RequiresPermission(WRITE_HISTORY_BOOKMARKS))</seg>
       </tuv>
     </tu>
@@ -3456,7 +3456,7 @@
       <tuv lang="EN-US">
         <seg>@Retention(SOURCE)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050000Z" creationid="Admin" creationdate="20171011T050000Z">
+      <tuv lang="ZH-CN">
         <seg>@Retention(SOURCE)</seg>
       </tuv>
     </tu>
@@ -3464,7 +3464,7 @@
       <tuv lang="EN-US">
         <seg>@StringDef({</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054547Z" creationid="Admin" creationdate="20171011T054547Z">
+      <tuv lang="ZH-CN">
         <seg>@StringDef({</seg>
       </tuv>
     </tu>
@@ -3472,7 +3472,7 @@
       <tuv lang="EN-US">
         <seg>@UiThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054853Z" creationid="Admin" creationdate="20171011T054853Z">
+      <tuv lang="ZH-CN">
         <seg>@UiThread</seg>
       </tuv>
     </tu>
@@ -3480,7 +3480,7 @@
       <tuv lang="EN-US">
         <seg>@WorkerThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055928Z" creationid="Admin" creationdate="20171011T055928Z">
+      <tuv lang="ZH-CN">
         <seg>@WorkerThread</seg>
       </tuv>
     </tu>
@@ -3488,7 +3488,7 @@
       <tuv lang="EN-US">
         <seg>@interface</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045415Z" creationid="Admin" creationdate="20171011T045415Z">
+      <tuv lang="ZH-CN">
         <seg>@interface</seg>
       </tuv>
     </tu>
@@ -3560,7 +3560,7 @@
       <tuv lang="EN-US">
         <seg>AnimRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041919Z" creationid="Admin" creationdate="20171011T041919Z">
+      <tuv lang="ZH-CN">
         <seg>AnimRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3576,7 +3576,7 @@
       <tuv lang="EN-US">
         <seg>AnimatorRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035935Z" creationid="Admin" creationdate="20171011T035935Z">
+      <tuv lang="ZH-CN">
         <seg>AnimatorRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3600,7 +3600,7 @@
       <tuv lang="EN-US">
         <seg>AnyRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041948Z" creationid="Admin" creationdate="20171011T041948Z">
+      <tuv lang="ZH-CN">
         <seg>AnyRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3616,7 +3616,7 @@
       <tuv lang="EN-US">
         <seg>AnyThread - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042122Z" creationid="Admin" creationdate="20171011T042122Z">
+      <tuv lang="ZH-CN">
         <seg>AnyThread - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3656,7 +3656,7 @@
       <tuv lang="EN-US">
         <seg>ArrayRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042320Z" creationid="Admin" creationdate="20171011T042320Z">
+      <tuv lang="ZH-CN">
         <seg>ArrayRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3672,7 +3672,7 @@
       <tuv lang="EN-US">
         <seg>AttrRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042353Z" creationid="Admin" creationdate="20171011T042353Z">
+      <tuv lang="ZH-CN">
         <seg>AttrRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3712,7 +3712,7 @@
       <tuv lang="EN-US">
         <seg>BinderThread - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042422Z" creationid="Admin" creationdate="20171011T042422Z">
+      <tuv lang="ZH-CN">
         <seg>BinderThread - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3728,7 +3728,7 @@
       <tuv lang="EN-US">
         <seg>BoolRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042636Z" creationid="Admin" creationdate="20171011T042636Z">
+      <tuv lang="ZH-CN">
         <seg>BoolRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3744,7 +3744,7 @@
       <tuv lang="EN-US">
         <seg>CallSuper - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042649Z" creationid="Admin" creationdate="20171011T042649Z">
+      <tuv lang="ZH-CN">
         <seg>CallSuper - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3760,7 +3760,7 @@
       <tuv lang="EN-US">
         <seg>CheckResult - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042717Z" creationid="Admin" creationdate="20171011T042717Z">
+      <tuv lang="ZH-CN">
         <seg>CheckResult - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3776,7 +3776,7 @@
       <tuv lang="EN-US">
         <seg>ColorInt - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045125Z" creationid="Admin" creationdate="20171011T045125Z">
+      <tuv lang="ZH-CN">
         <seg>ColorInt - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3792,7 +3792,7 @@
       <tuv lang="EN-US">
         <seg>ColorRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045238Z" creationid="Admin" creationdate="20171011T045238Z">
+      <tuv lang="ZH-CN">
         <seg>ColorRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -3808,7 +3808,7 @@
       <tuv lang="EN-US">
         <seg>Constant Value: 0 (0x00000000)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045443Z" creationid="Admin" creationdate="20171011T045443Z">
+      <tuv lang="ZH-CN">
         <seg>Constant Value: 0 (0x00000000)</seg>
       </tuv>
     </tu>
@@ -3816,7 +3816,7 @@
       <tuv lang="EN-US">
         <seg>Constant Value: 1 (0x00000001)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045445Z" creationid="Admin" creationdate="20171011T045445Z">
+      <tuv lang="ZH-CN">
         <seg>Constant Value: 1 (0x00000001)</seg>
       </tuv>
     </tu>
@@ -3824,7 +3824,7 @@
       <tuv lang="EN-US">
         <seg>Constant Value: 2 (0x00000002)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045447Z" creationid="Admin" creationdate="20171011T045447Z">
+      <tuv lang="ZH-CN">
         <seg>Constant Value: 2 (0x00000002)</seg>
       </tuv>
     </tu>
@@ -3832,7 +3832,7 @@
       <tuv lang="EN-US">
         <seg>Constants</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045422Z" creationid="Admin" creationdate="20171011T045422Z">
+      <tuv lang="ZH-CN">
         <seg>常量</seg>
       </tuv>
     </tu>
@@ -3848,7 +3848,7 @@
       <tuv lang="EN-US">
         <seg>DP</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045425Z" creationid="Admin" creationdate="20171011T045425Z">
+      <tuv lang="ZH-CN">
         <seg>DP</seg>
       </tuv>
     </tu>
@@ -3856,7 +3856,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that a parameter, field or method return value can be null.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050648Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个参数，字段或方法返回值可以为 null 。</seg>
       </tuv>
     </tu>
@@ -3864,7 +3864,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that a parameter, field or method return value can never be null.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050617Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个参数，字段或方法返回值不能为 null 。</seg>
       </tuv>
     </tu>
@@ -3872,7 +3872,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062426Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，</seg>
       </tuv>
     </tu>
@@ -3880,7 +3880,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a String resource reference (e.g. &lt;c0&gt;android.R.string.ok&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054652Z" creationid="Admin" creationdate="20171011T054652Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 String 资源引用 (e.g. &lt;c0&gt;android.R.string.ok&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -3888,7 +3888,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a boolean resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042647Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 boolean 资源引用。</seg>
       </tuv>
     </tu>
@@ -3896,7 +3896,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a color resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063650Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 color 资源引用。</seg>
       </tuv>
     </tu>
@@ -3904,7 +3904,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a color resource reference (e.g. &lt;c0&gt;android.R.color.black&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045250Z" creationid="Admin" creationdate="20171011T045250Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 color 资源引用 (e.g. &lt;c0&gt;android.R.color.black&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -3912,7 +3912,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a dimension resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063657Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 dimension 资源引用。</seg>
       </tuv>
     </tu>
@@ -3920,7 +3920,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a dimension resource reference (e.g. &lt;c0&gt;android.R.dimen.app_icon_size&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045330Z" creationid="Admin" creationdate="20171011T045330Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 dimension 资源引用 (e.g. &lt;c0&gt;android.R.dimen.app_icon_size&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -3928,7 +3928,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a drawable resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063703Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 drawable 资源引用。</seg>
       </tuv>
     </tu>
@@ -3936,7 +3936,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a drawable resource reference (e.g. &lt;c0&gt;android.R.attr.alertDialogIcon&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045546Z" creationid="Admin" creationdate="20171011T045546Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 drawable 资源引用 (e.g. &lt;c0&gt;android.R.attr.alertDialogIcon&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -3944,7 +3944,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a fraction resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050528Z" creationid="Admin" creationdate="20171011T045642Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 fraction 资源引用。</seg>
       </tuv>
     </tu>
@@ -3952,7 +3952,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a layout resource reference (e.g. &lt;c0&gt;android.R.layout.list_content&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050417Z" creationid="Admin" creationdate="20171011T050417Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 layout 资源引用 (e.g. &lt;c0&gt;android.R.layout.list_content&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -3960,7 +3960,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a menu resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050512Z" creationid="Admin" creationdate="20171011T050512Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 menu 资源引用。</seg>
       </tuv>
     </tu>
@@ -3968,7 +3968,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a plurals resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051037Z" creationid="Admin" creationdate="20171011T051037Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 plurals 资源引用。</seg>
       </tuv>
     </tu>
@@ -3976,7 +3976,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a raw resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051144Z" creationid="Admin" creationdate="20171011T051144Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 raw 资源引用。</seg>
       </tuv>
     </tu>
@@ -3984,7 +3984,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a resource reference of any type.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042021Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个任意类型的资源引用。</seg>
       </tuv>
     </tu>
@@ -3992,7 +3992,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a style resource reference (e.g. &lt;c0&gt;android.R.style.TextAppearance&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054756Z" creationid="Admin" creationdate="20171011T054756Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 style 资源引用 (e.g. &lt;c0&gt;android.R.style.TextAppearance&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -4000,7 +4000,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a styleable resource reference (e.g. &lt;c0&gt;android.R.styleable.TextView_text&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054740Z" creationid="Admin" creationdate="20171011T054740Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 styleable 资源引用 (e.g. &lt;c0&gt;android.R.styleable.TextView_text&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -4008,7 +4008,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be a transition resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054821Z" creationid="Admin" creationdate="20171011T054821Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 transition 资源引用。</seg>
       </tuv>
     </tu>
@@ -4016,7 +4016,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an XML resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055947Z" creationid="Admin" creationdate="20171011T055947Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 XML 资源引用。</seg>
       </tuv>
     </tu>
@@ -4024,7 +4024,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an anim resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063740Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 anim 资源引用。</seg>
       </tuv>
     </tu>
@@ -4032,7 +4032,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an anim resource reference (e.g. &lt;c0&gt;android.R.anim.fade_in&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041943Z" creationid="Admin" creationdate="20171011T041943Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 anim 资源引用 (e.g. &lt;c0&gt;android.R.anim.fade_in&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -4040,7 +4040,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063736Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 animator 资源引用。</seg>
       </tuv>
     </tu>
@@ -4048,7 +4048,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an animator resource reference (e.g. &lt;c0&gt;android.R.animator.fade_in&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040109Z" creationid="Admin" creationdate="20171011T040109Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 animator 资源引用 (e.g. &lt;c0&gt;android.R.animator.fade_in&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -4056,7 +4056,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an array resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063745Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 array 资源引用。</seg>
       </tuv>
     </tu>
@@ -4064,7 +4064,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an array resource reference (e.g. &lt;c0&gt;android.R.array.phoneTypes&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042351Z" creationid="Admin" creationdate="20171011T042351Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 array 资源引用 (e.g. &lt;c0&gt;android.R.array.phoneTypes&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -4072,7 +4072,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an attribute reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063751Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 attribute 资源。</seg>
       </tuv>
     </tu>
@@ -4080,7 +4080,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an attribute reference (e.g. &lt;c0&gt;android.R.attr.action&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042421Z" creationid="Admin" creationdate="20171011T042421Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 attribute 资源 (e.g. &lt;c0&gt;android.R.attr.action&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -4088,7 +4088,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an id resource reference (e.g. &lt;c0&gt;android.R.id.copy&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045708Z" creationid="Admin" creationdate="20171011T045708Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 id 资源引用 (e.g. &lt;c0&gt;android.R.id.copy&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -4096,7 +4096,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an integer resource reference (e.g. &lt;c0&gt;android.R.integer.config_shortAnimTime&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050047Z" creationid="Admin" creationdate="20171011T050047Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 integer 资源引用 (e.g. &lt;c0&gt;android.R.integer.config_shortAnimTime&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -4104,7 +4104,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to be an interpolator resource reference (e.g. &lt;c0&gt;android.R.interpolator.cycle&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050116Z" creationid="Admin" creationdate="20171011T050116Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期是一个 interpolator 资源引用 (e.g. &lt;c0&gt;android.R.interpolator.cycle&lt;/c0&gt;).</seg>
       </tuv>
     </tu>
@@ -4112,7 +4112,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to represent a dimension.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045401Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期表示一个尺寸。</seg>
       </tuv>
     </tu>
@@ -4120,7 +4120,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that an integer parameter, field or method return value is expected to represent a pixel dimension.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051129Z" creationid="Admin" creationdate="20171011T051129Z">
+      <tuv lang="ZH-CN">
         <seg>指示一个整型参数、字段或方法的返回值，预期表示一个像素尺寸。</seg>
       </tuv>
     </tu>
@@ -4128,7 +4128,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that any overriding methods should invoke this method as well.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042715Z">
+      <tuv lang="ZH-CN">
         <seg>指示任何重写的方法也应该调用该方法。</seg>
       </tuv>
     </tu>
@@ -4136,7 +4136,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated String element, represents a logical</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063208Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的字符串元素，</seg>
       </tuv>
     </tu>
@@ -4144,7 +4144,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated String element, represents a logical type and that its value should be one of the explicitly named constants.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054546Z" creationid="Admin" creationdate="20171011T054546Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的字符串元素，表示一个逻辑类型，并且它的值应该是显示指明的常量之一。</seg>
       </tuv>
     </tu>
@@ -4152,7 +4152,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element of integer type, represents</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062526Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的整型元素，</seg>
       </tuv>
     </tu>
@@ -4160,7 +4160,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element of integer type, represents a logical type and that its value should be one of the explicitly named constants.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045921Z" creationid="Admin" creationdate="20171011T045921Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的整型元素，表示一个逻辑类型，并且它的值应该是显示指明的常量之一。</seg>
       </tuv>
     </tu>
@@ -4168,7 +4168,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element represents a packed color int, &lt;c0&gt;AARRGGBB&lt;/c0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045143Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的元素表示一个包装的颜色整型, &lt;c0&gt;AARRGGBB&lt;/c0&gt;.</seg>
       </tuv>
     </tu>
@@ -4176,7 +4176,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element requires (or may require) one or more permissions.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051936Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的元素需要（或可能需要）一个或多个权限。</seg>
       </tuv>
     </tu>
@@ -4184,7 +4184,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element should be a float or double in the given range</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045612Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的元素应该是在指定范围内的 float 或 double </seg>
       </tuv>
     </tu>
@@ -4192,7 +4192,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element should be an int or long in the given range</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050136Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的元素应该是在指定范围内的 int 或 long</seg>
       </tuv>
     </tu>
@@ -4200,7 +4200,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element should have a given size or length.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T053801Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的元素应该有一个给定的尺寸或长度。</seg>
       </tuv>
     </tu>
@@ -4208,7 +4208,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element should not be removed when</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062722Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的元素在编译时压缩代码时，不应该被移除。</seg>
       </tuv>
     </tu>
@@ -4216,7 +4216,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element should not be removed when the code is minified at build time.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050320Z" creationid="Admin" creationdate="20171011T050247Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的元素在编译时压缩代码时，不应该被移除。</seg>
       </tuv>
     </tu>
@@ -4224,7 +4224,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element should only be called on the given API level</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063149Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的元素，只应该在给定的 API 级别或更高级别上调用。</seg>
       </tuv>
     </tu>
@@ -4232,7 +4232,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated element should only be called on the given API level or higher.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051450Z" creationid="Admin" creationdate="20171011T051450Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的元素，只应该在给定的 API 级别或更高级别上调用。</seg>
       </tuv>
     </tu>
@@ -4240,7 +4240,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated method can be called from any thread (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062315Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的方法可以从任意线程调用</seg>
       </tuv>
     </tu>
@@ -4248,7 +4248,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated method can be called from any thread (e.g. it is "thread safe".) If the annotated element is a class, then all methods in the class can be called from any thread.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042241Z" creationid="Admin" creationdate="20171011T042241Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的方法可以从任意线程调用 (e.g. it is "thread safe".) 如果注解的元素是一个类，则类中的所有方法都可以从任意线程调用。</seg>
       </tuv>
     </tu>
@@ -4256,7 +4256,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated method or constructor should only be called on the UI thread.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054844Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的方法应该只在 UI 线程被调用。</seg>
       </tuv>
     </tu>
@@ -4264,7 +4264,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated method returns a result that it typically is an error to ignore.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042734Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的方法的返回值，如果被忽略通常会出错。</seg>
       </tuv>
     </tu>
@@ -4272,7 +4272,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated method should only be called on a worker thread.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055921Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的方法应该只在工作线程被调用。</seg>
       </tuv>
     </tu>
@@ -4280,7 +4280,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated method should only be called on the binder thread.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042629Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的方法应该只在绑定线程被调用。</seg>
       </tuv>
     </tu>
@@ -4288,7 +4288,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the annotated method should only be called on the main thread.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050438Z">
+      <tuv lang="ZH-CN">
         <seg>指示所注解的方法应该只在主线程被调用。</seg>
       </tuv>
     </tu>
@@ -4296,7 +4296,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the class, method or field has its visibility relaxed, so that it is more widely</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063350Z">
+      <tuv lang="ZH-CN">
         <seg>指示类，方法或字段的可见性放宽，</seg>
       </tuv>
     </tu>
@@ -4304,7 +4304,7 @@
       <tuv lang="EN-US">
         <seg>Denotes that the class, method or field has its visibility relaxed, so that it is more widely visible than otherwise necessary to make code testable.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055907Z" creationid="Admin" creationdate="20171011T055907Z">
+      <tuv lang="ZH-CN">
         <seg>指示类，方法或字段的可见性放宽，它比必要的可见性更广以使代码更可测试。</seg>
       </tuv>
     </tu>
@@ -4344,7 +4344,7 @@
       <tuv lang="EN-US">
         <seg>DimenRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045252Z" creationid="Admin" creationdate="20171011T045252Z">
+      <tuv lang="ZH-CN">
         <seg>DimenRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4360,7 +4360,7 @@
       <tuv lang="EN-US">
         <seg>Dimension - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045332Z" creationid="Admin" creationdate="20171011T045332Z">
+      <tuv lang="ZH-CN">
         <seg>Dimension - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4376,7 +4376,7 @@
       <tuv lang="EN-US">
         <seg>Dimension.Unit - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045450Z" creationid="Admin" creationdate="20171011T045450Z">
+      <tuv lang="ZH-CN">
         <seg>Dimension.Unit - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4400,7 +4400,7 @@
       <tuv lang="EN-US">
         <seg>DrawableRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045508Z" creationid="Admin" creationdate="20171011T045508Z">
+      <tuv lang="ZH-CN">
         <seg>DrawableRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4456,7 +4456,7 @@
       <tuv lang="EN-US">
         <seg>Example of requiring a single permission:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052002Z" creationid="Admin" creationdate="20171011T052002Z">
+      <tuv lang="ZH-CN">
         <seg>需要一个权限的例子：</seg>
       </tuv>
     </tu>
@@ -4464,7 +4464,7 @@
       <tuv lang="EN-US">
         <seg>Example of requiring at least one permission from a set:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052039Z" creationid="Admin" creationdate="20171011T052006Z">
+      <tuv lang="ZH-CN">
         <seg>需要一组中至少一个权限的例子：</seg>
       </tuv>
     </tu>
@@ -4472,7 +4472,7 @@
       <tuv lang="EN-US">
         <seg>Example of requiring multiple permissions:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052053Z" creationid="Admin" creationdate="20171011T052053Z">
+      <tuv lang="ZH-CN">
         <seg>需要多个权限的例子：</seg>
       </tuv>
     </tu>
@@ -4480,7 +4480,7 @@
       <tuv lang="EN-US">
         <seg>Example of requiring separate read and write permissions for a content provider:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052229Z" creationid="Admin" creationdate="20171011T052147Z">
+      <tuv lang="ZH-CN">
         <seg>需要分别请求内容提供者的读写权限的例子：</seg>
       </tuv>
     </tu>
@@ -4488,7 +4488,7 @@
       <tuv lang="EN-US">
         <seg>Example:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T060530Z">
+      <tuv lang="ZH-CN">
         <seg>例子：</seg>
       </tuv>
     </tu>
@@ -4512,7 +4512,7 @@
       <tuv lang="EN-US">
         <seg>FloatRange - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045548Z" creationid="Admin" creationdate="20171011T045548Z">
+      <tuv lang="ZH-CN">
         <seg>FloatRange - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4520,7 +4520,7 @@
       <tuv lang="EN-US">
         <seg>For a flag, set the flag attribute:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050022Z" creationid="Admin" creationdate="20171011T050022Z">
+      <tuv lang="ZH-CN">
         <seg>For a flag, set the flag attribute:</seg>
       </tuv>
     </tu>
@@ -4536,7 +4536,7 @@
       <tuv lang="EN-US">
         <seg>For details and restrictions, see the &lt;a1&gt; Content License&lt;/a1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040504Z" creationid="Admin" creationdate="20171011T040504Z">
+      <tuv lang="ZH-CN">
         <seg>For details and restrictions, see the &lt;a1&gt; Content License&lt;/a1&gt;.</seg>
       </tuv>
     </tu>
@@ -4544,7 +4544,7 @@
       <tuv lang="EN-US">
         <seg>For example, consider &lt;c0&gt;android.app.Activity.startActivity(android.content.Intent)&lt;/c0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052712Z" creationid="Admin" creationdate="20171011T052712Z">
+      <tuv lang="ZH-CN">
         <seg>比如，考虑 &lt;c0&gt;android.app.Activity.startActivity(android.content.Intent)&lt;/c0&gt;:</seg>
       </tuv>
     </tu>
@@ -4552,7 +4552,7 @@
       <tuv lang="EN-US">
         <seg>For example, the code may look like this:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052822Z" creationid="Admin" creationdate="20171011T052822Z">
+      <tuv lang="ZH-CN">
         <seg>例如，代码可能如下所示：</seg>
       </tuv>
     </tu>
@@ -4568,7 +4568,7 @@
       <tuv lang="EN-US">
         <seg>FractionRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045615Z" creationid="Admin" creationdate="20171011T045615Z">
+      <tuv lang="ZH-CN">
         <seg>FractionRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4576,7 +4576,7 @@
       <tuv lang="EN-US">
         <seg>From interface &lt;c0&gt; &lt;a1&gt;java.lang.annotation.Annotation&lt;/a1&gt; &lt;/c0&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040128Z" creationid="Admin" creationdate="20171011T040128Z">
+      <tuv lang="ZH-CN">
         <seg>从接口 &lt;c0&gt; &lt;a1&gt;java.lang.annotation.Annotation&lt;/a1&gt; &lt;/c0&gt;</seg>
       </tuv>
     </tu>
@@ -4672,7 +4672,7 @@
       <tuv lang="EN-US">
         <seg>IdRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050532Z" creationid="Admin" creationdate="20171011T050532Z">
+      <tuv lang="ZH-CN">
         <seg>IdRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4680,7 +4680,7 @@
       <tuv lang="EN-US">
         <seg>If applied to an int array, every element in the array represents a color integer.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045234Z" creationid="Admin" creationdate="20171011T045219Z">
+      <tuv lang="ZH-CN">
         <seg>如果应用于一个 int 数组，数组中的每个元素都代表一个颜色的整型。</seg>
       </tuv>
     </tu>
@@ -4688,7 +4688,7 @@
       <tuv lang="EN-US">
         <seg>If the IntDef#flag() attribute is set to true, multiple constants can be combined.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045957Z" creationid="Admin" creationdate="20171011T045957Z">
+      <tuv lang="ZH-CN">
         <seg>如果 IntDef#flag() 属性设置为 true ，则可以组合多个常量。</seg>
       </tuv>
     </tu>
@@ -4696,7 +4696,7 @@
       <tuv lang="EN-US">
         <seg>If the annotated element is a class, then all methods in the class should be called on a worker thread.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055927Z" creationid="Admin" creationdate="20171011T055927Z">
+      <tuv lang="ZH-CN">
         <seg>如果注解的元素是一个类，则类中的所有方法都应该只在工作线程被调用。</seg>
       </tuv>
     </tu>
@@ -4704,7 +4704,7 @@
       <tuv lang="EN-US">
         <seg>If the annotated element is a class, then all methods in the class should be called on the UI thread.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054852Z" creationid="Admin" creationdate="20171011T054852Z">
+      <tuv lang="ZH-CN">
         <seg>如果注解的元素是一个类，则类中的所有方法都应该只在 UI 线程被调用。</seg>
       </tuv>
     </tu>
@@ -4712,7 +4712,7 @@
       <tuv lang="EN-US">
         <seg>If the annotated element is a class, then all methods in the class should be called on the binder thread.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042516Z" creationid="Admin" creationdate="20171011T042516Z">
+      <tuv lang="ZH-CN">
         <seg>如果注解的元素是一个类，则类中的所有方法都应该只在绑定线程被调用。</seg>
       </tuv>
     </tu>
@@ -4720,7 +4720,7 @@
       <tuv lang="EN-US">
         <seg>If the annotated element is a class, then all methods in the class should be called on the main thread.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050449Z" creationid="Admin" creationdate="20171011T050449Z">
+      <tuv lang="ZH-CN">
         <seg>如果注解的元素是一个类，则类中的所有方法都应该只在主线程被调用。</seg>
       </tuv>
     </tu>
@@ -4728,7 +4728,7 @@
       <tuv lang="EN-US">
         <seg>If the specific type is known, use one of the more specific annotations instead, such as &lt;c0&gt;&lt;a1&gt;StringRes&lt;/a1&gt;&lt;/c0&gt; or &lt;c2&gt;&lt;a3&gt;DrawableRes&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042117Z" creationid="Admin" creationdate="20171011T042114Z">
+      <tuv lang="ZH-CN">
         <seg>如果已知特定的类型，使用一个更具体的注解代替，如 &lt;c0&gt;&lt;a1&gt;StringRes&lt;/a1&gt;&lt;/c0&gt; 或 &lt;c2&gt;&lt;a3&gt;DrawableRes&lt;/a3&gt;&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
@@ -4736,7 +4736,7 @@
       <tuv lang="EN-US">
         <seg>Inherited methods</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041730Z" creationid="Admin" creationdate="20171011T040046Z">
+      <tuv lang="ZH-CN">
         <seg>继承的方法</seg>
       </tuv>
     </tu>
@@ -4752,7 +4752,7 @@
       <tuv lang="EN-US">
         <seg>IntDef - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045711Z" creationid="Admin" creationdate="20171011T045711Z">
+      <tuv lang="ZH-CN">
         <seg>IntDef - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4768,7 +4768,7 @@
       <tuv lang="EN-US">
         <seg>IntRange - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050118Z" creationid="Admin" creationdate="20171011T050118Z">
+      <tuv lang="ZH-CN">
         <seg>IntRange - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4784,7 +4784,7 @@
       <tuv lang="EN-US">
         <seg>IntegerRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050028Z" creationid="Admin" creationdate="20171011T050028Z">
+      <tuv lang="ZH-CN">
         <seg>IntegerRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4792,7 +4792,7 @@
       <tuv lang="EN-US">
         <seg>Intent intent = new Intent(Intent.ACTION_CALL);</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052826Z" creationid="Admin" creationdate="20171011T052826Z">
+      <tuv lang="ZH-CN">
         <seg>Intent intent = new Intent(Intent.ACTION_CALL);</seg>
       </tuv>
     </tu>
@@ -4808,7 +4808,7 @@
       <tuv lang="EN-US">
         <seg>InterpolatorRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050048Z" creationid="Admin" creationdate="20171011T050048Z">
+      <tuv lang="ZH-CN">
         <seg>InterpolatorRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4824,7 +4824,7 @@
       <tuv lang="EN-US">
         <seg>Keep - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050138Z" creationid="Admin" creationdate="20171011T050138Z">
+      <tuv lang="ZH-CN">
         <seg>Keep - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4832,7 +4832,7 @@
       <tuv lang="EN-US">
         <seg>LAYOUT_INFLATER_SERVICE</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054550Z" creationid="Admin" creationdate="20171011T054550Z">
+      <tuv lang="ZH-CN">
         <seg>LAYOUT_INFLATER_SERVICE</seg>
       </tuv>
     </tu>
@@ -4848,7 +4848,7 @@
       <tuv lang="EN-US">
         <seg>LayoutRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050400Z" creationid="Admin" creationdate="20171011T050400Z">
+      <tuv lang="ZH-CN">
         <seg>LayoutRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4864,7 +4864,7 @@
       <tuv lang="EN-US">
         <seg>MainThread - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050419Z" creationid="Admin" creationdate="20171011T050419Z">
+      <tuv lang="ZH-CN">
         <seg>MainThread - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4880,7 +4880,7 @@
       <tuv lang="EN-US">
         <seg>MenuRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050451Z" creationid="Admin" creationdate="20171011T050451Z">
+      <tuv lang="ZH-CN">
         <seg>MenuRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4896,7 +4896,7 @@
       <tuv lang="EN-US">
         <seg>Nested classes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045414Z" creationid="Admin" creationdate="20171011T045414Z">
+      <tuv lang="ZH-CN">
         <seg>嵌套类</seg>
       </tuv>
     </tu>
@@ -4912,7 +4912,7 @@
       <tuv lang="EN-US">
         <seg>NonNull - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050534Z" creationid="Admin" creationdate="20171011T050534Z">
+      <tuv lang="ZH-CN">
         <seg>NonNull - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4920,7 +4920,7 @@
       <tuv lang="EN-US">
         <seg>Note that "-1" means "unset".</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054245Z" creationid="Admin" creationdate="20171011T053802Z">
+      <tuv lang="ZH-CN">
         <seg>注意 "-1" 意味着 "unset" 。</seg>
       </tuv>
     </tu>
@@ -4928,7 +4928,7 @@
       <tuv lang="EN-US">
         <seg>Notice how there are no actual permission names listed in the annotation.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052755Z" creationid="Admin" creationdate="20171011T052755Z">
+      <tuv lang="ZH-CN">
         <seg>注意没有实际的权限名称在注解中列出来。</seg>
       </tuv>
     </tu>
@@ -4944,7 +4944,7 @@
       <tuv lang="EN-US">
         <seg>Nullable - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050633Z" creationid="Admin" creationdate="20171011T050633Z">
+      <tuv lang="ZH-CN">
         <seg>Nullable - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -4968,7 +4968,7 @@
       <tuv lang="EN-US">
         <seg>POWER_SERVICE,</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054548Z" creationid="Admin" creationdate="20171011T054548Z">
+      <tuv lang="ZH-CN">
         <seg>POWER_SERVICE,</seg>
       </tuv>
     </tu>
@@ -4976,7 +4976,7 @@
       <tuv lang="EN-US">
         <seg>PX</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045430Z" creationid="Admin" creationdate="20171011T045430Z">
+      <tuv lang="ZH-CN">
         <seg>PX</seg>
       </tuv>
     </tu>
@@ -4992,7 +4992,7 @@
       <tuv lang="EN-US">
         <seg>PluralsRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050904Z" creationid="Admin" creationdate="20171011T050904Z">
+      <tuv lang="ZH-CN">
         <seg>PluralsRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5024,7 +5024,7 @@
       <tuv lang="EN-US">
         <seg>Px - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051056Z" creationid="Admin" creationdate="20171011T051056Z">
+      <tuv lang="ZH-CN">
         <seg>Px - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5040,7 +5040,7 @@
       <tuv lang="EN-US">
         <seg>RawRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051132Z" creationid="Admin" creationdate="20171011T051132Z">
+      <tuv lang="ZH-CN">
         <seg>RawRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5072,7 +5072,7 @@
       <tuv lang="EN-US">
         <seg>RequiresApi - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051408Z" creationid="Admin" creationdate="20171011T051408Z">
+      <tuv lang="ZH-CN">
         <seg>RequiresApi - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5088,7 +5088,7 @@
       <tuv lang="EN-US">
         <seg>RequiresPermission - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051751Z" creationid="Admin" creationdate="20171011T051751Z">
+      <tuv lang="ZH-CN">
         <seg>RequiresPermission - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5104,7 +5104,7 @@
       <tuv lang="EN-US">
         <seg>RequiresPermission.Read - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052950Z" creationid="Admin" creationdate="20171011T052950Z">
+      <tuv lang="ZH-CN">
         <seg>RequiresPermission.Read - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5120,7 +5120,7 @@
       <tuv lang="EN-US">
         <seg>RequiresPermission.Write - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055952Z" creationid="Admin" creationdate="20171011T055952Z">
+      <tuv lang="ZH-CN">
         <seg>RequiresPermission.Write - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5136,7 +5136,7 @@
       <tuv lang="EN-US">
         <seg>Returns a string representation of this annotation.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040443Z" creationid="Admin" creationdate="20171011T040413Z">
+      <tuv lang="ZH-CN">
         <seg>返回此注释的字符串表示形式。</seg>
       </tuv>
     </tu>
@@ -5144,7 +5144,7 @@
       <tuv lang="EN-US">
         <seg>Returns the annotation type of this annotation.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040159Z" creationid="Admin" creationdate="20171011T040159Z">
+      <tuv lang="ZH-CN">
         <seg>返回该注解的注解类型。</seg>
       </tuv>
     </tu>
@@ -5152,7 +5152,7 @@
       <tuv lang="EN-US">
         <seg>Returns the hash code of this annotation, as defined below:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040325Z" creationid="Admin" creationdate="20171011T040325Z">
+      <tuv lang="ZH-CN">
         <seg>返回该注解的哈希码，定义如下：</seg>
       </tuv>
     </tu>
@@ -5160,7 +5160,7 @@
       <tuv lang="EN-US">
         <seg>Returns true if the specified object represents an annotation that is logically equivalent to this one.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040237Z" creationid="Admin" creationdate="20171011T040237Z">
+      <tuv lang="ZH-CN">
         <seg>如果指定的对象表示一个逻辑上等效于此的注解，则返回 true 。</seg>
       </tuv>
     </tu>
@@ -5168,7 +5168,7 @@
       <tuv lang="EN-US">
         <seg>SP</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045434Z" creationid="Admin" creationdate="20171011T045434Z">
+      <tuv lang="ZH-CN">
         <seg>SP</seg>
       </tuv>
     </tu>
@@ -5200,7 +5200,7 @@
       <tuv lang="EN-US">
         <seg>Size - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055957Z" creationid="Admin" creationdate="20171011T055957Z">
+      <tuv lang="ZH-CN">
         <seg>Size - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5208,7 +5208,7 @@
       <tuv lang="EN-US">
         <seg>Specifies that the given permission is required for read operations.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T053022Z">
+      <tuv lang="ZH-CN">
         <seg>指示给定的权限是读操作所需的。</seg>
       </tuv>
     </tu>
@@ -5216,7 +5216,7 @@
       <tuv lang="EN-US">
         <seg>Specifies that the given permission is required for write operations.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T061342Z">
+      <tuv lang="ZH-CN">
         <seg>指示给定的权限是写操作所需的。</seg>
       </tuv>
     </tu>
@@ -5240,7 +5240,7 @@
       <tuv lang="EN-US">
         <seg>StringDef - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054505Z" creationid="Admin" creationdate="20171011T054505Z">
+      <tuv lang="ZH-CN">
         <seg>StringDef - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5256,7 +5256,7 @@
       <tuv lang="EN-US">
         <seg>StringRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054556Z" creationid="Admin" creationdate="20171011T054556Z">
+      <tuv lang="ZH-CN">
         <seg>StringRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5272,7 +5272,7 @@
       <tuv lang="EN-US">
         <seg>StyleRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054742Z" creationid="Admin" creationdate="20171011T054742Z">
+      <tuv lang="ZH-CN">
         <seg>StyleRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5288,7 +5288,7 @@
       <tuv lang="EN-US">
         <seg>StyleableRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055958Z" creationid="Admin" creationdate="20171011T055958Z">
+      <tuv lang="ZH-CN">
         <seg>StyleableRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5296,7 +5296,7 @@
       <tuv lang="EN-US">
         <seg>Summary</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040035Z" creationid="Admin" creationdate="20171011T040035Z">
+      <tuv lang="ZH-CN">
         <seg>摘要</seg>
       </tuv>
     </tu>
@@ -5304,7 +5304,7 @@
       <tuv lang="EN-US">
         <seg>Summary: &lt;a0&gt;Inherited Methods&lt;/a0&gt; | &lt;a1&gt;[Expand All]&lt;/a1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035948Z" creationid="Admin" creationdate="20171011T035948Z">
+      <tuv lang="ZH-CN">
         <seg>Summary: &lt;a0&gt;Inherited Methods&lt;/a0&gt; | &lt;a1&gt;[Expand All]&lt;/a1&gt;</seg>
       </tuv>
     </tu>
@@ -5312,7 +5312,7 @@
       <tuv lang="EN-US">
         <seg>Summary: &lt;a0&gt;Nested Classes&lt;/a0&gt; | &lt;a1&gt;Constants&lt;/a1&gt; | &lt;a2&gt;Inherited Methods&lt;/a2&gt; | &lt;a3&gt;[Expand All]&lt;/a3&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045339Z" creationid="Admin" creationdate="20171011T045339Z">
+      <tuv lang="ZH-CN">
         <seg>Summary: &lt;a0&gt;Nested Classes&lt;/a0&gt; | &lt;a1&gt;Constants&lt;/a1&gt; | &lt;a2&gt;Inherited Methods&lt;/a2&gt; | &lt;a3&gt;[Expand All]&lt;/a3&gt;</seg>
       </tuv>
     </tu>
@@ -5320,7 +5320,7 @@
       <tuv lang="EN-US">
         <seg>Summary: &lt;a0&gt;Nested Classes&lt;/a0&gt; | &lt;a1&gt;Inherited Methods&lt;/a1&gt; | &lt;a2&gt;[Expand All]&lt;/a2&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051753Z" creationid="Admin" creationdate="20171011T051753Z">
+      <tuv lang="ZH-CN">
         <seg>Summary: &lt;a0&gt;Nested Classes&lt;/a0&gt; | &lt;a1&gt;Inherited Methods&lt;/a1&gt; | &lt;a2&gt;[Expand All]&lt;/a2&gt;</seg>
       </tuv>
     </tu>
@@ -5336,7 +5336,7 @@
       <tuv lang="EN-US">
         <seg>The actual permissions required will depend on the particular intent passed in.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052815Z" creationid="Admin" creationdate="20171011T052815Z">
+      <tuv lang="ZH-CN">
         <seg>实际所需的权限将取决于传递的特定的 intent 。</seg>
       </tuv>
     </tu>
@@ -5344,7 +5344,7 @@
       <tuv lang="EN-US">
         <seg>The hash code of a member-value depends on its type:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041213Z" creationid="Admin" creationdate="20171011T040353Z">
+      <tuv lang="ZH-CN">
         <seg>成员值的哈希码取决于其类型：</seg>
       </tuv>
     </tu>
@@ -5352,7 +5352,7 @@
       <tuv lang="EN-US">
         <seg>The hash code of a primitive value &lt;t0&gt;&lt;i1&gt;v&lt;/i1&gt;&lt;/t0&gt; is equal to &lt;t2&gt;&lt;i3&gt;WrapperType&lt;/i3&gt;.valueOf(&lt;i4&gt;v&lt;/i4&gt;).hashCode()&lt;/t2&gt;, where &lt;t5&gt;&lt;i6&gt;WrapperType&lt;/i6&gt;&lt;/t5&gt; is the wrapper type corresponding to the primitive type of &lt;t7&gt;&lt;i8&gt;v&lt;/i8&gt;&lt;/t7&gt; (&lt;c9&gt;&lt;a10&gt;Byte&lt;/a10&gt;&lt;/c9&gt;, &lt;c11&gt;&lt;a12&gt;Character&lt;/a12&gt;&lt;/c11&gt;, &lt;c13&gt;&lt;a14&gt;Double&lt;/a14&gt;&lt;/c13&gt;, &lt;c15&gt;&lt;a16&gt;Float&lt;/a16&gt;&lt;/c15&gt;, &lt;c17&gt;&lt;a18&gt;Integer&lt;/a18&gt;&lt;/c17&gt;, &lt;c19&gt;&lt;a20&gt;Long&lt;/a20&gt;&lt;/c19&gt;, &lt;c21&gt;&lt;a22&gt;Short&lt;/a22&gt;&lt;/c21&gt;, or &lt;c23&gt;&lt;a24&gt;Boolean&lt;/a24&gt;&lt;/c23&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041455Z" creationid="Admin" creationdate="20171011T040359Z">
+      <tuv lang="ZH-CN">
         <seg>基本类型的哈希码 &lt;t0&gt;&lt;i1&gt;v&lt;/i1&gt;&lt;/t0&gt; 等于 &lt;t2&gt;&lt;i3&gt;WrapperType&lt;/i3&gt;.valueOf(&lt;i4&gt;v&lt;/i4&gt;).hashCode()&lt;/t2&gt; ， &lt;t5&gt;&lt;i6&gt;WrapperType&lt;/i6&gt;&lt;/t5&gt; 是基本类型 &lt;t7&gt;&lt;i8&gt;v&lt;/i8&gt;&lt;/t7&gt; 对应的包装类型 (&lt;c9&gt;&lt;a10&gt;Byte&lt;/a10&gt;&lt;/c9&gt;, &lt;c11&gt;&lt;a12&gt;Character&lt;/a12&gt;&lt;/c11&gt;, &lt;c13&gt;&lt;a14&gt;Double&lt;/a14&gt;&lt;/c13&gt;, &lt;c15&gt;&lt;a16&gt;Float&lt;/a16&gt;&lt;/c15&gt;, &lt;c17&gt;&lt;a18&gt;Integer&lt;/a18&gt;&lt;/c17&gt;, &lt;c19&gt;&lt;a20&gt;Long&lt;/a20&gt;&lt;/c19&gt;, &lt;c21&gt;&lt;a22&gt;Short&lt;/a22&gt;&lt;/c21&gt;, 或者 &lt;c23&gt;&lt;a24&gt;Boolean&lt;/a24&gt;&lt;/c23&gt;)。</seg>
       </tuv>
     </tu>
@@ -5360,7 +5360,7 @@
       <tuv lang="EN-US">
         <seg>The hash code of an annotation is the sum of the hash codes of its members (including those with default values), as defined below: The hash code of an annotation member is (127 times the hash code of the member-name as computed by &lt;c0&gt;&lt;a1&gt;hashCode()&lt;/a1&gt;&lt;/c0&gt;) XOR the hash code of the member-value, as defined below:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041410Z" creationid="Admin" creationdate="20171011T040351Z">
+      <tuv lang="ZH-CN">
         <seg>注解的哈希码是它的成员的哈希码之和（包括那些默认值）；注解的成员的哈希码是 (127 乘以成员名的哈希码，由 &lt;c0&gt;&lt;a1&gt;hashCode()&lt;/a1&gt;&lt;/c0&gt; 计算 )，再 XOR 成员值的哈希码；</seg>
       </tuv>
     </tu>
@@ -5368,7 +5368,7 @@
       <tuv lang="EN-US">
         <seg>The main purpose of this method is to indicate that you believe a method can be called from any thread; static tools can then check that nothing you call from within this method or class have more strict threading requirements.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042313Z" creationid="Admin" creationdate="20171011T042313Z">
+      <tuv lang="ZH-CN">
         <seg>此方法的主要目的是表明您相信可以从任何线程调用方法；静态工具可以检查在该方法或类中调用的任何线程都没有更严格的线程需求。</seg>
       </tuv>
     </tu>
@@ -5376,7 +5376,7 @@
       <tuv lang="EN-US">
         <seg>This is a marker annotation and it has no specific attributes.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050630Z" creationid="Admin" creationdate="20171011T050630Z">
+      <tuv lang="ZH-CN">
         <seg>这是一个标记注解，它没有特定的属性。</seg>
       </tuv>
     </tu>
@@ -5384,7 +5384,7 @@
       <tuv lang="EN-US">
         <seg>This is similar in purpose to the older &lt;c0&gt;@TargetApi&lt;/c0&gt; annotation, but more clearly expresses that this is a requirement on the caller, rather than being used to "suppress" warnings within the method that exceed the &lt;c1&gt;minSdkVersion&lt;/c1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051747Z" creationid="Admin" creationdate="20171011T051747Z">
+      <tuv lang="ZH-CN">
         <seg>这和旧的 &lt;c0&gt;@TargetApi&lt;/c0&gt; 注解的目的相似，但更清晰地表示这是对调用者的要求，而不是在超过 &lt;c1&gt;minSdkVersion&lt;/c1&gt; 的方法内使用 "suppress" 警告。</seg>
       </tuv>
     </tu>
@@ -5392,7 +5392,7 @@
       <tuv lang="EN-US">
         <seg>This is typically used on methods and classes that are accessed only via reflection so a compiler may think that the code is unused.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050356Z" creationid="Admin" creationdate="20171011T050356Z">
+      <tuv lang="ZH-CN">
         <seg>这通常用于仅通过反射访问的方法和类，因此编译器可能认为代码未使用。</seg>
       </tuv>
     </tu>
@@ -5400,7 +5400,7 @@
       <tuv lang="EN-US">
         <seg>This is usually used for methods that have no side effect, so calling it without actually looking at the result usually means the developer has misunderstood what the method does.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T043118Z" creationid="Admin" creationdate="20171011T043118Z">
+      <tuv lang="ZH-CN">
         <seg>这通常用于没有副作用的方法，所以在没有实际查看结果的情况下调用它通常意味着开发人员误解了该方法的作用。</seg>
       </tuv>
     </tu>
@@ -5432,7 +5432,7 @@
       <tuv lang="EN-US">
         <seg>TransitionRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054759Z" creationid="Admin" creationdate="20171011T054759Z">
+      <tuv lang="ZH-CN">
         <seg>TransitionRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5440,7 +5440,7 @@
       <tuv lang="EN-US">
         <seg>Typically used on optional parameters.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050731Z" creationid="Admin" creationdate="20171011T050731Z">
+      <tuv lang="ZH-CN">
         <seg>通常用于可选参数。</seg>
       </tuv>
     </tu>
@@ -5448,7 +5448,7 @@
       <tuv lang="EN-US">
         <seg>Typically used with a parameter or return value of type array or collection.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054500Z" creationid="Admin" creationdate="20171011T054500Z">
+      <tuv lang="ZH-CN">
         <seg>通常用于数组或集合类型的参数或返回值。</seg>
       </tuv>
     </tu>
@@ -5464,7 +5464,7 @@
       <tuv lang="EN-US">
         <seg>UiThread - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054828Z" creationid="Admin" creationdate="20171011T054828Z">
+      <tuv lang="ZH-CN">
         <seg>UiThread - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5480,7 +5480,7 @@
       <tuv lang="EN-US">
         <seg>VisibleForTesting - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054857Z" creationid="Admin" creationdate="20171011T054857Z">
+      <tuv lang="ZH-CN">
         <seg>VisibleForTesting - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5488,7 +5488,7 @@
       <tuv lang="EN-US">
         <seg>WINDOW_SERVICE,</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054549Z" creationid="Admin" creationdate="20171011T054549Z">
+      <tuv lang="ZH-CN">
         <seg>WINDOW_SERVICE,</seg>
       </tuv>
     </tu>
@@ -5504,7 +5504,7 @@
       <tuv lang="EN-US">
         <seg>When decorating a method call parameter, this denotes that the parameter can legitimately be null and the method will gracefully deal with it.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050850Z" creationid="Admin" creationdate="20171011T050725Z">
+      <tuv lang="ZH-CN">
         <seg>在修饰方法调用参数时，指示该参数可以合理地为 null ，该方法将优雅地处理它。</seg>
       </tuv>
     </tu>
@@ -5512,7 +5512,7 @@
       <tuv lang="EN-US">
         <seg>When decorating a method, this denotes the method might legitimately return null.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050832Z" creationid="Admin" creationdate="20171011T050832Z">
+      <tuv lang="ZH-CN">
         <seg>在修饰一个方法时，指示该方法可以合理地返回 null 。</seg>
       </tuv>
     </tu>
@@ -5520,7 +5520,7 @@
       <tuv lang="EN-US">
         <seg>When specified on a parameter, the annotation indicates that the method requires a permission which depends on the value of the parameter (and typically the corresponding field passed in will be one of a set of constants which have been annotated with a &lt;c0&gt;@RequiresPermission&lt;/c0&gt; annotation.)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T053204Z" creationid="Admin" creationdate="20171011T053204Z">
+      <tuv lang="ZH-CN">
         <seg>当指示于一个参数时，该注解指示该方法需要的权限取决于参数的值。(通常所传递的相应字段将是使用 &lt;c0&gt;@RequiresPermission&lt;/c0&gt; 注解的一组常量。)</seg>
       </tuv>
     </tu>
@@ -5528,7 +5528,7 @@
       <tuv lang="EN-US">
         <seg>When specified on a parameter, the annotation indicates that the method requires a permission which depends on the value of the parameter.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052657Z" creationid="Admin" creationdate="20171011T052657Z">
+      <tuv lang="ZH-CN">
         <seg>当指示于一个参数时，该注解指示该方法需要的权限取决于参数的值。</seg>
       </tuv>
     </tu>
@@ -5544,7 +5544,7 @@
       <tuv lang="EN-US">
         <seg>WorkerThread - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055908Z" creationid="Admin" creationdate="20171011T055908Z">
+      <tuv lang="ZH-CN">
         <seg>WorkerThread - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5560,7 +5560,7 @@
       <tuv lang="EN-US">
         <seg>XmlRes - Android SDK | Android Developers</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055932Z" creationid="Admin" creationdate="20171011T055932Z">
+      <tuv lang="ZH-CN">
         <seg>XmlRes - Android SDK | Android Developers</seg>
       </tuv>
     </tu>
@@ -5568,7 +5568,7 @@
       <tuv lang="EN-US">
         <seg>a logical type and that its value should be one of the explicitly</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062618Z">
+      <tuv lang="ZH-CN">
         <seg>表示一个逻辑类型，并且它的值应该是显示指明的常量之一。</seg>
       </tuv>
     </tu>
@@ -5576,7 +5576,7 @@
       <tuv lang="EN-US">
         <seg>abstract &lt;a0&gt;Class&lt;/a0&gt;&lt;? extends &lt;a1&gt;Annotation&lt;/a1&gt;&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040132Z" creationid="Admin" creationdate="20171011T040132Z">
+      <tuv lang="ZH-CN">
         <seg>abstract &lt;a0&gt;Class&lt;/a0&gt;&lt;? extends &lt;a1&gt;Annotation&lt;/a1&gt;&gt;</seg>
       </tuv>
     </tu>
@@ -5584,7 +5584,7 @@
       <tuv lang="EN-US">
         <seg>abstract &lt;a0&gt;String&lt;/a0&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040401Z" creationid="Admin" creationdate="20171011T040401Z">
+      <tuv lang="ZH-CN">
         <seg>abstract &lt;a0&gt;String&lt;/a0&gt;</seg>
       </tuv>
     </tu>
@@ -5592,7 +5592,7 @@
       <tuv lang="EN-US">
         <seg>abstract boolean</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040200Z" creationid="Admin" creationdate="20171011T040200Z">
+      <tuv lang="ZH-CN">
         <seg>abstract boolean</seg>
       </tuv>
     </tu>
@@ -5600,7 +5600,7 @@
       <tuv lang="EN-US">
         <seg>abstract int</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T040238Z" creationid="Admin" creationdate="20171011T040238Z">
+      <tuv lang="ZH-CN">
         <seg>abstract int</seg>
       </tuv>
     </tu>
@@ -5608,7 +5608,7 @@
       <tuv lang="EN-US">
         <seg>and the actual permission requirement for this particular intent is described on the Intent name itself:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052858Z" creationid="Admin" creationdate="20171011T052858Z">
+      <tuv lang="ZH-CN">
         <seg>对这个特定意图的实际权限要求是在 intent 名称本身上描述的：</seg>
       </tuv>
     </tu>
@@ -6312,7 +6312,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.AnimRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041924Z" creationid="Admin" creationdate="20171011T041924Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.AnimRes</seg>
       </tuv>
     </tu>
@@ -6320,7 +6320,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.AnimatorRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035959Z" creationid="Admin" creationdate="20171011T035959Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.AnimatorRes</seg>
       </tuv>
     </tu>
@@ -6328,7 +6328,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.AnyRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T041954Z" creationid="Admin" creationdate="20171011T041954Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.AnyRes</seg>
       </tuv>
     </tu>
@@ -6336,7 +6336,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.AnyThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042127Z" creationid="Admin" creationdate="20171011T042127Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.AnyThread</seg>
       </tuv>
     </tu>
@@ -6344,7 +6344,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.ArrayRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042324Z" creationid="Admin" creationdate="20171011T042324Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.ArrayRes</seg>
       </tuv>
     </tu>
@@ -6352,7 +6352,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.AttrRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042356Z" creationid="Admin" creationdate="20171011T042356Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.AttrRes</seg>
       </tuv>
     </tu>
@@ -6360,7 +6360,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.BinderThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042424Z" creationid="Admin" creationdate="20171011T042424Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.BinderThread</seg>
       </tuv>
     </tu>
@@ -6368,7 +6368,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.BoolRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042641Z" creationid="Admin" creationdate="20171011T042641Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.BoolRes</seg>
       </tuv>
     </tu>
@@ -6376,7 +6376,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.CallSuper</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042652Z" creationid="Admin" creationdate="20171011T042652Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.CallSuper</seg>
       </tuv>
     </tu>
@@ -6384,7 +6384,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.CheckResult</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042722Z" creationid="Admin" creationdate="20171011T042722Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.CheckResult</seg>
       </tuv>
     </tu>
@@ -6392,7 +6392,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.ColorInt</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045129Z" creationid="Admin" creationdate="20171011T045129Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.ColorInt</seg>
       </tuv>
     </tu>
@@ -6400,7 +6400,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.ColorRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045241Z" creationid="Admin" creationdate="20171011T045241Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.ColorRes</seg>
       </tuv>
     </tu>
@@ -6408,7 +6408,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.DimenRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045255Z" creationid="Admin" creationdate="20171011T045255Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.DimenRes</seg>
       </tuv>
     </tu>
@@ -6416,7 +6416,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.Dimension</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045352Z" creationid="Admin" creationdate="20171011T045352Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.Dimension</seg>
       </tuv>
     </tu>
@@ -6424,7 +6424,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.Dimension.Unit</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045507Z" creationid="Admin" creationdate="20171011T045507Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.Dimension.Unit</seg>
       </tuv>
     </tu>
@@ -6432,7 +6432,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.DrawableRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045519Z" creationid="Admin" creationdate="20171011T045519Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.DrawableRes</seg>
       </tuv>
     </tu>
@@ -6440,7 +6440,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.FloatRange</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045551Z" creationid="Admin" creationdate="20171011T045551Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.FloatRange</seg>
       </tuv>
     </tu>
@@ -6448,7 +6448,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.FractionRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045619Z" creationid="Admin" creationdate="20171011T045619Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.FractionRes</seg>
       </tuv>
     </tu>
@@ -6456,7 +6456,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.IdRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045647Z" creationid="Admin" creationdate="20171011T045647Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.IdRes</seg>
       </tuv>
     </tu>
@@ -6464,7 +6464,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.IntDef</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045714Z" creationid="Admin" creationdate="20171011T045714Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.IntDef</seg>
       </tuv>
     </tu>
@@ -6472,7 +6472,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.IntRange</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050122Z" creationid="Admin" creationdate="20171011T050122Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.IntRange</seg>
       </tuv>
     </tu>
@@ -6480,7 +6480,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.IntegerRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050032Z" creationid="Admin" creationdate="20171011T050032Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.IntegerRes</seg>
       </tuv>
     </tu>
@@ -6488,7 +6488,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.InterpolatorRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050051Z" creationid="Admin" creationdate="20171011T050051Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.InterpolatorRes</seg>
       </tuv>
     </tu>
@@ -6496,7 +6496,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.Keep</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050141Z" creationid="Admin" creationdate="20171011T050141Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.Keep</seg>
       </tuv>
     </tu>
@@ -6504,7 +6504,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.LayoutRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050403Z" creationid="Admin" creationdate="20171011T050403Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.LayoutRes</seg>
       </tuv>
     </tu>
@@ -6512,7 +6512,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.MainThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050422Z" creationid="Admin" creationdate="20171011T050422Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.MainThread</seg>
       </tuv>
     </tu>
@@ -6520,7 +6520,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.MenuRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050453Z" creationid="Admin" creationdate="20171011T050453Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.MenuRes</seg>
       </tuv>
     </tu>
@@ -6528,7 +6528,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.NonNull</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050540Z" creationid="Admin" creationdate="20171011T050540Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.NonNull</seg>
       </tuv>
     </tu>
@@ -6536,7 +6536,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.Nullable</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050636Z" creationid="Admin" creationdate="20171011T050636Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.Nullable</seg>
       </tuv>
     </tu>
@@ -6544,7 +6544,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.PluralsRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050907Z" creationid="Admin" creationdate="20171011T050907Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.PluralsRes</seg>
       </tuv>
     </tu>
@@ -6552,7 +6552,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.Px</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051100Z" creationid="Admin" creationdate="20171011T051100Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.Px</seg>
       </tuv>
     </tu>
@@ -6560,7 +6560,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.RawRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051134Z" creationid="Admin" creationdate="20171011T051134Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.RawRes</seg>
       </tuv>
     </tu>
@@ -6568,7 +6568,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.RequiresApi</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051749Z" creationid="Admin" creationdate="20171011T051749Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.RequiresApi</seg>
       </tuv>
     </tu>
@@ -6576,7 +6576,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.RequiresPermission</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T051853Z" creationid="Admin" creationdate="20171011T051853Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.RequiresPermission</seg>
       </tuv>
     </tu>
@@ -6584,7 +6584,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.RequiresPermission.Read</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052953Z" creationid="Admin" creationdate="20171011T052953Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.RequiresPermission.Read</seg>
       </tuv>
     </tu>
@@ -6592,7 +6592,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.RequiresPermission.Write</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055953Z" creationid="Admin" creationdate="20171011T055953Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.RequiresPermission.Write</seg>
       </tuv>
     </tu>
@@ -6600,7 +6600,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.Size</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T053715Z" creationid="Admin" creationdate="20171011T053715Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.Size</seg>
       </tuv>
     </tu>
@@ -6608,7 +6608,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.StringDef</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054508Z" creationid="Admin" creationdate="20171011T054508Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.StringDef</seg>
       </tuv>
     </tu>
@@ -6616,7 +6616,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.StringRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054633Z" creationid="Admin" creationdate="20171011T054633Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.StringRes</seg>
       </tuv>
     </tu>
@@ -6624,7 +6624,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.StyleRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054744Z" creationid="Admin" creationdate="20171011T054744Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.StyleRes</seg>
       </tuv>
     </tu>
@@ -6632,7 +6632,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.StyleableRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054655Z" creationid="Admin" creationdate="20171011T054655Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.StyleableRes</seg>
       </tuv>
     </tu>
@@ -6640,7 +6640,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.TransitionRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054801Z" creationid="Admin" creationdate="20171011T054801Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.TransitionRes</seg>
       </tuv>
     </tu>
@@ -6648,7 +6648,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.UiThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054832Z" creationid="Admin" creationdate="20171011T054832Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.UiThread</seg>
       </tuv>
     </tu>
@@ -6656,7 +6656,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.VisibleForTesting</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054901Z" creationid="Admin" creationdate="20171011T054901Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.VisibleForTesting</seg>
       </tuv>
     </tu>
@@ -6664,7 +6664,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.WorkerThread</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055910Z" creationid="Admin" creationdate="20171011T055910Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.WorkerThread</seg>
       </tuv>
     </tu>
@@ -6672,7 +6672,7 @@
       <tuv lang="EN-US">
         <seg>android.support.annotation.XmlRes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055935Z" creationid="Admin" creationdate="20171011T055935Z">
+      <tuv lang="ZH-CN">
         <seg>android.support.annotation.XmlRes</seg>
       </tuv>
     </tu>
@@ -7440,7 +7440,7 @@
       <tuv lang="EN-US">
         <seg>flag = true</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050023Z" creationid="Admin" creationdate="20171011T050023Z">
+      <tuv lang="ZH-CN">
         <seg>flag = true</seg>
       </tuv>
     </tu>
@@ -7600,7 +7600,7 @@
       <tuv lang="EN-US">
         <seg>int</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045423Z" creationid="Admin" creationdate="20171011T045423Z">
+      <tuv lang="ZH-CN">
         <seg>int</seg>
       </tuv>
     </tu>
@@ -7608,7 +7608,7 @@
       <tuv lang="EN-US">
         <seg>int DP</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045441Z" creationid="Admin" creationdate="20171011T045441Z">
+      <tuv lang="ZH-CN">
         <seg>int DP</seg>
       </tuv>
     </tu>
@@ -7616,7 +7616,7 @@
       <tuv lang="EN-US">
         <seg>int PX</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045445Z" creationid="Admin" creationdate="20171011T045445Z">
+      <tuv lang="ZH-CN">
         <seg>int PX</seg>
       </tuv>
     </tu>
@@ -7624,7 +7624,7 @@
       <tuv lang="EN-US">
         <seg>int SP</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045446Z" creationid="Admin" creationdate="20171011T045446Z">
+      <tuv lang="ZH-CN">
         <seg>int SP</seg>
       </tuv>
     </tu>
@@ -8112,7 +8112,7 @@
       <tuv lang="EN-US">
         <seg>named constants.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062622Z">
+      <tuv lang="ZH-CN">
         <seg></seg>
       </tuv>
     </tu>
@@ -8120,7 +8120,7 @@
       <tuv lang="EN-US">
         <seg>or higher.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063152Z">
+      <tuv lang="ZH-CN">
         <seg></seg>
       </tuv>
     </tu>
@@ -8224,7 +8224,7 @@
       <tuv lang="EN-US">
         <seg>protected abstract FilterResults performFiltering(CharSequence constraint);</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T055929Z" creationid="Admin" creationdate="20171011T055929Z">
+      <tuv lang="ZH-CN">
         <seg>protected abstract FilterResults performFiltering(CharSequence constraint);</seg>
       </tuv>
     </tu>
@@ -8240,7 +8240,7 @@
       <tuv lang="EN-US">
         <seg>public @CheckResult String trim(String s) { return s.trim(); }</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T043120Z" creationid="Admin" creationdate="20171011T043120Z">
+      <tuv lang="ZH-CN">
         <seg>public @CheckResult String trim(String s) { return s.trim(); }</seg>
       </tuv>
     </tu>
@@ -8248,7 +8248,7 @@
       <tuv lang="EN-US">
         <seg>public @interface NavigationMode {}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050001Z" creationid="Admin" creationdate="20171011T050001Z">
+      <tuv lang="ZH-CN">
         <seg>public @interface NavigationMode {}</seg>
       </tuv>
     </tu>
@@ -8256,7 +8256,7 @@
       <tuv lang="EN-US">
         <seg>public @interface ServiceName {}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054551Z" creationid="Admin" creationdate="20171011T054551Z">
+      <tuv lang="ZH-CN">
         <seg>public @interface ServiceName {}</seg>
       </tuv>
     </tu>
@@ -8264,7 +8264,7 @@
       <tuv lang="EN-US">
         <seg>public BeamShareData createBeamShareData() { ... }</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042633Z" creationid="Admin" creationdate="20171011T042633Z">
+      <tuv lang="ZH-CN">
         <seg>public BeamShareData createBeamShareData() { ... }</seg>
       </tuv>
     </tu>
@@ -8272,7 +8272,7 @@
       <tuv lang="EN-US">
         <seg>public abstract Location getLastKnownLocation(String provider);</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052005Z" creationid="Admin" creationdate="20171011T052005Z">
+      <tuv lang="ZH-CN">
         <seg>public abstract Location getLastKnownLocation(String provider);</seg>
       </tuv>
     </tu>
@@ -8280,7 +8280,7 @@
       <tuv lang="EN-US">
         <seg>public abstract Object getSystemService(@ServiceName String name);</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054554Z" creationid="Admin" creationdate="20171011T054554Z">
+      <tuv lang="ZH-CN">
         <seg>public abstract Object getSystemService(@ServiceName String name);</seg>
       </tuv>
     </tu>
@@ -8288,7 +8288,7 @@
       <tuv lang="EN-US">
         <seg>public abstract int getNavigationMode();</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050007Z" creationid="Admin" creationdate="20171011T050007Z">
+      <tuv lang="ZH-CN">
         <seg>public abstract int getNavigationMode();</seg>
       </tuv>
     </tu>
@@ -8296,7 +8296,7 @@
       <tuv lang="EN-US">
         <seg>public abstract void onFocusLost();</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042657Z" creationid="Admin" creationdate="20171011T042657Z">
+      <tuv lang="ZH-CN">
         <seg>public abstract void onFocusLost();</seg>
       </tuv>
     </tu>
@@ -8304,7 +8304,7 @@
       <tuv lang="EN-US">
         <seg>public abstract void setNavigationMode(@NavigationMode int mode);</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050005Z" creationid="Admin" creationdate="20171011T050005Z">
+      <tuv lang="ZH-CN">
         <seg>public abstract void setNavigationMode(@NavigationMode int mode);</seg>
       </tuv>
     </tu>
@@ -8312,7 +8312,7 @@
       <tuv lang="EN-US">
         <seg>public abstract void setText(@NonNull String text) { ... }</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054854Z" creationid="Admin" creationdate="20171011T054854Z">
+      <tuv lang="ZH-CN">
         <seg>public abstract void setText(@NonNull String text) { ... }</seg>
       </tuv>
     </tu>
@@ -8320,7 +8320,7 @@
       <tuv lang="EN-US">
         <seg>public abstract void setTextColor(@ColorInt int color);</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045236Z" creationid="Admin" creationdate="20171011T045236Z">
+      <tuv lang="ZH-CN">
         <seg>public abstract void setTextColor(@ColorInt int color);</seg>
       </tuv>
     </tu>
@@ -8328,7 +8328,7 @@
       <tuv lang="EN-US">
         <seg>public abstract void setWallpaper(Bitmap bitmap) throws IOException;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052003Z" creationid="Admin" creationdate="20171011T052003Z">
+      <tuv lang="ZH-CN">
         <seg>public abstract void setWallpaper(Bitmap bitmap) throws IOException;</seg>
       </tuv>
     </tu>
@@ -8352,7 +8352,7 @@
       <tuv lang="EN-US">
         <seg>public static final String ACTION_CALL = "android.intent.action.CALL";</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052859Z" creationid="Admin" creationdate="20171011T052859Z">
+      <tuv lang="ZH-CN">
         <seg>public static final String ACTION_CALL = "android.intent.action.CALL";</seg>
       </tuv>
     </tu>
@@ -8360,7 +8360,7 @@
       <tuv lang="EN-US">
         <seg>public static final String LAYOUT_INFLATER_SERVICE = "layout_inflater";</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054553Z" creationid="Admin" creationdate="20171011T054553Z">
+      <tuv lang="ZH-CN">
         <seg>public static final String LAYOUT_INFLATER_SERVICE = "layout_inflater";</seg>
       </tuv>
     </tu>
@@ -8368,7 +8368,7 @@
       <tuv lang="EN-US">
         <seg>public static final String POWER_SERVICE = "power";</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054552Z" creationid="Admin" creationdate="20171011T054552Z">
+      <tuv lang="ZH-CN">
         <seg>public static final String POWER_SERVICE = "power";</seg>
       </tuv>
     </tu>
@@ -8376,7 +8376,7 @@
       <tuv lang="EN-US">
         <seg>public static final String WINDOW_SERVICE = "window";</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054553Z" creationid="Admin" creationdate="20171011T054553Z">
+      <tuv lang="ZH-CN">
         <seg>public static final String WINDOW_SERVICE = "window";</seg>
       </tuv>
     </tu>
@@ -8384,7 +8384,7 @@
       <tuv lang="EN-US">
         <seg>public static final Uri BOOKMARKS_URI = Uri.parse("content://browser/bookmarks");</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052232Z" creationid="Admin" creationdate="20171011T052232Z">
+      <tuv lang="ZH-CN">
         <seg>public static final Uri BOOKMARKS_URI = Uri.parse("content://browser/bookmarks");</seg>
       </tuv>
     </tu>
@@ -8392,7 +8392,7 @@
       <tuv lang="EN-US">
         <seg>public static final int NAVIGATION_MODE_LIST = 1;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050002Z" creationid="Admin" creationdate="20171011T050002Z">
+      <tuv lang="ZH-CN">
         <seg>public static final int NAVIGATION_MODE_LIST = 1;</seg>
       </tuv>
     </tu>
@@ -8400,7 +8400,7 @@
       <tuv lang="EN-US">
         <seg>public static final int NAVIGATION_MODE_STANDARD = 0;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050002Z" creationid="Admin" creationdate="20171011T050002Z">
+      <tuv lang="ZH-CN">
         <seg>public static final int NAVIGATION_MODE_STANDARD = 0;</seg>
       </tuv>
     </tu>
@@ -8408,7 +8408,7 @@
       <tuv lang="EN-US">
         <seg>public static final int NAVIGATION_MODE_TABS = 2;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050003Z" creationid="Admin" creationdate="20171011T050003Z">
+      <tuv lang="ZH-CN">
         <seg>public static final int NAVIGATION_MODE_TABS = 2;</seg>
       </tuv>
     </tu>
@@ -8416,7 +8416,7 @@
       <tuv lang="EN-US">
         <seg>public void deliverResult(D data) { ... }</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T042316Z" creationid="Admin" creationdate="20171011T042316Z">
+      <tuv lang="ZH-CN">
         <seg>public void deliverResult(D data) { ... }</seg>
       </tuv>
     </tu>
@@ -8424,7 +8424,7 @@
       <tuv lang="EN-US">
         <seg>public void foo() {</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050358Z" creationid="Admin" creationdate="20171011T050358Z">
+      <tuv lang="ZH-CN">
         <seg>public void foo() {</seg>
       </tuv>
     </tu>
@@ -8432,7 +8432,7 @@
       <tuv lang="EN-US">
         <seg>public void getLocationInWindow(@Size(2) int[] location) {</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054501Z" creationid="Admin" creationdate="20171011T054501Z">
+      <tuv lang="ZH-CN">
         <seg>public void getLocationInWindow(@Size(2) int[] location) {</seg>
       </tuv>
     </tu>
@@ -8440,7 +8440,7 @@
       <tuv lang="EN-US">
         <seg>public void startActivity(@RequiresPermission Intent intent) { ... }</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052712Z" creationid="Admin" creationdate="20171011T052712Z">
+      <tuv lang="ZH-CN">
         <seg>public void startActivity(@RequiresPermission Intent intent) { ... }</seg>
       </tuv>
     </tu>
@@ -8464,7 +8464,7 @@
       <tuv lang="EN-US">
         <seg>s = s.trim(); // ok</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T043136Z" creationid="Admin" creationdate="20171011T043136Z">
+      <tuv lang="ZH-CN">
         <seg>s = s.trim(); // ok</seg>
       </tuv>
     </tu>
@@ -8472,7 +8472,7 @@
       <tuv lang="EN-US">
         <seg>s.trim(); // this is probably an error</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T043123Z" creationid="Admin" creationdate="20171011T043123Z">
+      <tuv lang="ZH-CN">
         <seg>s.trim(); // this is probably an error</seg>
       </tuv>
     </tu>
@@ -8480,7 +8480,7 @@
       <tuv lang="EN-US">
         <seg>startActivity(intent);</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T052827Z" creationid="Admin" creationdate="20171011T052827Z">
+      <tuv lang="ZH-CN">
         <seg>startActivity(intent);</seg>
       </tuv>
     </tu>
@@ -8488,7 +8488,7 @@
       <tuv lang="EN-US">
         <seg>the code is minified at build time.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062725Z">
+      <tuv lang="ZH-CN">
         <seg></seg>
       </tuv>
     </tu>
@@ -8504,7 +8504,7 @@
       <tuv lang="EN-US">
         <seg>to be a String resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063308Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 resource 资源引用。</seg>
       </tuv>
     </tu>
@@ -8512,7 +8512,7 @@
       <tuv lang="EN-US">
         <seg>to be a fraction resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062448Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 fraction 资源引用。</seg>
       </tuv>
     </tu>
@@ -8520,7 +8520,7 @@
       <tuv lang="EN-US">
         <seg>to be a layout resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062743Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 layout 资源引用。</seg>
       </tuv>
     </tu>
@@ -8528,7 +8528,7 @@
       <tuv lang="EN-US">
         <seg>to be a menu resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062753Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 menu 资源引用。</seg>
       </tuv>
     </tu>
@@ -8536,7 +8536,7 @@
       <tuv lang="EN-US">
         <seg>to be a plurals resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062804Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 plurals 资源引用。</seg>
       </tuv>
     </tu>
@@ -8544,7 +8544,7 @@
       <tuv lang="EN-US">
         <seg>to be a raw resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063143Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 raw 资源引用。</seg>
       </tuv>
     </tu>
@@ -8552,7 +8552,7 @@
       <tuv lang="EN-US">
         <seg>to be a style resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063324Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 style 资源引用。</seg>
       </tuv>
     </tu>
@@ -8560,7 +8560,7 @@
       <tuv lang="EN-US">
         <seg>to be a styleable resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063316Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 styleable 资源引用。</seg>
       </tuv>
     </tu>
@@ -8568,7 +8568,7 @@
       <tuv lang="EN-US">
         <seg>to be a transition resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063333Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 transition 资源引用。</seg>
       </tuv>
     </tu>
@@ -8576,7 +8576,7 @@
       <tuv lang="EN-US">
         <seg>to be an XML resource reference.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063453Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 XML 资源引用。</seg>
       </tuv>
     </tu>
@@ -8584,7 +8584,7 @@
       <tuv lang="EN-US">
         <seg>to be an id resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062509Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 id 资源引用。</seg>
       </tuv>
     </tu>
@@ -8592,7 +8592,7 @@
       <tuv lang="EN-US">
         <seg>to be an integer resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062642Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 integer 资源引用。</seg>
       </tuv>
     </tu>
@@ -8600,7 +8600,7 @@
       <tuv lang="EN-US">
         <seg>to be an interpolator resource reference (e.g.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062707Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个 interpolator 资源引用。</seg>
       </tuv>
     </tu>
@@ -8608,7 +8608,7 @@
       <tuv lang="EN-US">
         <seg>to represent a pixel dimension.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T062823Z">
+      <tuv lang="ZH-CN">
         <seg>预期是一个像素尺寸。</seg>
       </tuv>
     </tu>
@@ -8616,7 +8616,7 @@
       <tuv lang="EN-US">
         <seg>type and that its value should be one of the explicitly named constants.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063252Z">
+      <tuv lang="ZH-CN">
         <seg>表示一个逻辑类型，并且它的值应该是显示指明的常量之一。</seg>
       </tuv>
     </tu>
@@ -8624,7 +8624,7 @@
       <tuv lang="EN-US">
         <seg>value = {NAVIGATION_MODE_STANDARD, NAVIGATION_MODE_LIST, NAVIGATION_MODE_TABS})</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T050024Z" creationid="Admin" creationdate="20171011T050024Z">
+      <tuv lang="ZH-CN">
         <seg>value = {NAVIGATION_MODE_STANDARD, NAVIGATION_MODE_LIST, NAVIGATION_MODE_TABS})</seg>
       </tuv>
     </tu>
@@ -8640,16 +8640,8 @@
       <tuv lang="EN-US">
         <seg>visible than otherwise necessary to make code testable.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T063357Z">
+      <tuv lang="ZH-CN">
         <seg>它比必要的可见性更广以使代码更可测试。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no</seg>
-      </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T035659Z">
-        <seg>width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no</seg>
       </tuv>
     </tu>
     <tu>
@@ -8672,7 +8664,7 @@
       <tuv lang="EN-US">
         <seg>}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T045613Z" creationid="Admin" creationdate="20171011T045613Z">
+      <tuv lang="ZH-CN">
         <seg>}</seg>
       </tuv>
     </tu>
@@ -8680,7 +8672,7 @@
       <tuv lang="EN-US">
         <seg>})</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Admin" changedate="20171011T054550Z" creationid="Admin" creationdate="20171011T054550Z">
+      <tuv lang="ZH-CN">
         <seg>})</seg>
       </tuv>
     </tu>
