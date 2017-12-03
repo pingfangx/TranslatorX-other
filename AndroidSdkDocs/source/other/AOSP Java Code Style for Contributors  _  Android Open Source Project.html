@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://source.android.com/setup/code-style -->
+<html lang="en" class="chekov"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/linkid.js"></script><script async="" src="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/analytics.js"></script><script>var a=window.devsite||{};window.devsite=a;a.readyCallbacks=[];window.devsite.readyCallbacks=a.readyCallbacks;a.ready=function(b){a.readyCallbacks.push(b)};window.devsite.ready=a.ready;
+</script><meta name="xsrf_token" content="FhihT5OYy_xwsDWykymGYMFJKv20r9MkgHmdBa6ODMg6MTUxMjMwODg1NTkyMjk1MA"><link rel="canonical" href="https://source.android.com/setup/code-style"><link rel="alternate" href="https://source.android.com/setup/code-style" hreflang="en"><link rel="alternate" href="https://source.android.google.cn/setup/code-style" hreflang="en-cn"><link rel="alternate" href="https://source.android.com/setup/code-style" hreflang="x-default"><link rel="shortcut icon" href="https://source.android.com/_static/4d0ad1dc9e/images/android/favicon.png"><link rel="apple-touch-icon" href="https://source.android.com/_static/4d0ad1dc9e/images/android/touchicon-180.png"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/css"><link rel="stylesheet" href="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/devsite-android-green.css"><link rel="search" type="application/opensearchdescription+xml" href="https://source.android.com/s/opensearch.xml" data-tooltip-align="b,c" data-tooltip="Android Open Source Project" aria-label="Android Open Source Project" data-title="Android Open Source Project"><script src="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/jquery-bundle.js"></script><meta property="og:site_name" content="Android Open Source Project"><meta property="og:type" content="website"><meta property="og:url" content="https://source.android.com/setup/code-style"><meta property="og:locale" content="en"><script>
+    var ___gcfg = ___gcfg || {};
+    ___gcfg.lang = 'zh-cn';
+  </script><title>AOSP Java Code Style for Contributors &nbsp;|&nbsp; Android Open Source Project</title><meta property="og:title" content="AOSP Java Code Style for Contributors  |  Android Open Source Project"></head><body class="
+               devsite-doc-page
+               
+               
+               
+               
+               devsite-header-no-lower-tabs no-touch" id="top_of_page"><div class="devsite-wrapper" style="margin-top: 48px;"><div class="devsite-top-section-wrapper
+            "><header class="devsite-top-section nocontent"><div class="devsite-top-logo-row-wrapper-wrapper" style="position: fixed;"><div class="devsite-top-logo-row-wrapper"><div class="devsite-top-logo-row devsite-full-site-width"><button type="button" class="devsite-expand-section-nav devsite-header-icon-button
+                                       button-flat material-icons gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Hamburger menu"></button><div class="devsite-product-name-wrapper"><a href="https://source.android.com/" class="devsite-site-logo-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Site logo"><img src="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/lockup.svg" class="devsite-site-logo" alt="Android Open Source Project"><span class="devsite-site-name devsite-product-name">Android Open Source Project</span></a></div><div class="devsite-header-upper-tabs"><nav class="devsite-doc-set-nav devsite-nav devsite-overflow-tabs-scroll-wrapper"><ul class="devsite-doc-set-nav-tab-list devsite-overflow-tabs-scroll" style="min-width: 615px; left: 0px;"><li class="devsite-doc-set-nav-tab-container"><a href="https://source.android.com/setup/" class="devsite-doc-set-nav-active
+                devsite-doc-set-nav-tab gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Setup">
+        Setup
+      </a></li><li class="devsite-doc-set-nav-tab-container"><a href="https://source.android.com/security/" class="
+                devsite-doc-set-nav-tab gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Security">
+        Security
+      </a></li><li class="devsite-doc-set-nav-tab-container"><a href="https://source.android.com/devices/" class="
+                devsite-doc-set-nav-tab gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Porting">
+        Porting
+      </a></li><li class="devsite-doc-set-nav-tab-container"><a href="https://source.android.com/devices/tech/" class="
+                devsite-doc-set-nav-tab gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Tuning">
+        Tuning
+      </a></li><li class="devsite-doc-set-nav-tab-container"><a href="https://source.android.com/compatibility/" class="
+                devsite-doc-set-nav-tab gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Compatibility">
+        Compatibility
+      </a></li><li class="devsite-doc-set-nav-tab-container"><a href="https://source.android.com/reference/" class="
+                devsite-doc-set-nav-tab gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Reference">
+        Reference
+      </a></li></ul><button type="button" class="devsite-overflow-tabs-scroll-button devsite-top-button material-icons devsite-scroll-forward devsite-hidden"></button><button type="button" class="devsite-overflow-tabs-scroll-button devsite-top-button material-icons devsite-scroll-back devsite-hidden"></button></nav></div><form class="devsite-search-form" action="https://source.android.com/s/results/" method="GET" id="top-search" search-placeholder="搜索"><div id="searchbox" class="devsite-searchbox"><input placeholder="搜索" type="text" class="devsite-search-field devsite-search-query" name="q" value="" autocomplete="off"><div class="devsite-search-image material-icons"></div></div><input type="hidden" name="p" id="search_project" value="/" data-project-name="Android Open Source Project" data-project-path="/" data-query-match=""><input type="hidden" class="suggest-project" value="Android Open Source Project"><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Android Developers"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Android Open Source Project"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Google Cloud Platform"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Dialogflow"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Firebase"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Link.app"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Nest Developers"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="OpenThread"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="TensorFlow"></div><div class="devsite-popout devsite-popout-closed"><div class="devsite-suggest-results" style="display: none;"></div></div></form><a class="devsite-header-link devsite-top-button button gc-analytics-event" href="https://android-review.googlesource.com/" data-category="Site-Wide Custom Events" data-label="Site header link" track-type="navigateTo" track-name="转到源代码" track-metadata-position="nav"><div class="devsite-header-link-label">转到源代码</div></a><button type="button" class="devsite-search-button devsite-header-icon-button button-flat
+                                       material-icons"></button></div></div></div><div class="devsite-collapsible-section" style="margin-top: 0px;"><div class="devsite-header-background devsite-full-site-width"><div class="devsite-product-id-row devsite-full-site-width" style="visibility: visible;"><div class="devsite-product-description-row"><ul class="devsite-breadcrumb-list"><li class="devsite-breadcrumb-item">
+    
+    
+    
+      Setup
+    
+    
+  </li></ul></div></div></div></div></header><script>
+    if (window.jQuery) {
+      $(document).ready(function() {
+        if (window.devsite && window.devsite.search) {
+          
+          window.devsite.search.init('zh-cn')
+        }
+      });
+    }
+  </script></div><div id="gc-wrapper" itemscope="" itemtype="http://schema.org/Article"><input class="google-analytics-id-json" type="hidden" value="{&quot;dimensions&quot;: {&quot;dimension6&quot;: &quot;en&quot;, &quot;dimension4&quot;: &quot;Android Open Source Project&quot;, &quot;dimension5&quot;: &quot;zh-cn&quot;, &quot;dimension3&quot;: false, &quot;dimension1&quot;: &quot;Signed out&quot;, &quot;dimension8&quot;: null}, &quot;gaid&quot;: &quot;UA-45455297-1&quot;}"><script>
+      var dataLayer = [{"freeTrialEligibleUser": "False", "userCountry": "US", "language": {"requested": "zh-cn", "served": "en"}, "projectName": "Android Open Source Project", "scriptsafe": null, "signedIn": "False", "internalUser": "False"}];
+    </script>
+
+      
+        <div class="devsite-site-mask"></div>
+        
+  
+
+<nav class="devsite-nav-responsive devsite-nav nocontent" tabindex="0" style="left: -256px;">
+  
+  <div class="devsite-nav-responsive-tabs-panel devsite-nav-responsive-transition devsite-nav-responsive-transform" style="display: none;">
+    
+      
+        
+
+
+
+<nav class="devsite-nav-responsive-tabs devsite-nav">
+  <ul class="devsite-nav-list">
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+    
+      <span class="devsite-nav-responsive-forward devsite-nav-responsive-tab devsite-nav-title
+                   devsite-nav-active gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Responsive Tab: Setup" tabindex="0"><span>
+        Setup
+      </span></span>
+    
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+    
+      <a href="https://source.android.com/security/?nav=true" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                " data-category="Site-Wide Custom Events" data-label="Responsive Tab: Security"><span>
+        Security
+      </span></a>
+      
+    
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+    
+      <a href="https://source.android.com/devices/?nav=true" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                " data-category="Site-Wide Custom Events" data-label="Responsive Tab: Porting"><span>
+        Porting
+      </span></a>
+      
+    
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+    
+      <a href="https://source.android.com/devices/tech/?nav=true" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                " data-category="Site-Wide Custom Events" data-label="Responsive Tab: Tuning"><span>
+        Tuning
+      </span></a>
+      
+    
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+    
+      <a href="https://source.android.com/compatibility/?nav=true" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                " data-category="Site-Wide Custom Events" data-label="Responsive Tab: Compatibility"><span>
+        Compatibility
+      </span></a>
+      
+    
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+    
+      <a href="https://source.android.com/reference/?nav=true" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                " data-category="Site-Wide Custom Events" data-label="Responsive Tab: Reference"><span>
+        Reference
+      </span></a>
+      
+    
+    </li>
+  
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      <a href="https://android-review.googlesource.com/" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Responsive Tab: go_to_code"><span>
+        转到源代码
+      </span></a>
+    </li>
+  
+  </ul>
+</nav>
+
+      
+    
+  </div>
+  
+  
+  <div class="devsite-nav-responsive-sidebar-panel" style="display: block;">
+    
+    <div class="devsite-nav-responsive-back" tabindex="0"></div>
+    
+    <nav class="devsite-nav-responsive-sidebar">
+      <ul class="devsite-nav-list devsite-nav-expandable"><li class="devsite-nav-item devsite-nav-item-section-expandable"><span class="devsite-nav-title devsite-nav-title-no-path" track-type="leftNav" track-name="expandNavSectionNoLink" track-metadata-position="0" tabindex="0"><span>Getting Started</span></span><a class="devsite-nav-toggle devsite-nav-toggle-collapsed material-icons" track-type="leftNav" track-name="expandNavSectionArrow" track-metadata-position="0"></a><ul class="devsite-nav-section devsite-nav-section-collapsed"><li class="devsite-nav-item"><a href="https://source.android.com/setup/" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Overview</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-lines" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Codelines,<wbr> Branches,<wbr> and Releases</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/build-numbers" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Codenames,<wbr> Tags,<wbr> and Build Numbers</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/roles" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Project Roles</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/brands" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Brand Guidelines</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/licenses" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Licenses</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/faqs" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>FAQ</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/site-updates" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Site Updates</span></a></li></ul></li><li class="devsite-nav-item devsite-nav-item-section-expandable"><span class="devsite-nav-title devsite-nav-title-no-path" track-type="leftNav" track-name="expandNavSectionNoLink" track-metadata-position="0" tabindex="0"><span>Downloading and Building</span></span><a class="devsite-nav-toggle devsite-nav-toggle-collapsed material-icons" track-type="leftNav" track-name="expandNavSectionArrow" track-metadata-position="0"></a><ul class="devsite-nav-section devsite-nav-section-collapsed"><li class="devsite-nav-item"><a href="https://source.android.com/setup/requirements" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Requirements</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/initializing" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Establishing a Build Environment</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/downloading" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Downloading the Source</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/building" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Preparing to Build</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/jack" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Compiling with Jack</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/devices" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Using Reference Boards</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/running" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Running Builds</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/building-kernels" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Building Kernels</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/known-issues" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Known Issues</span></a></li></ul></li><li class="devsite-nav-item devsite-nav-item-section-expandable"><span class="devsite-nav-title devsite-nav-title-no-path" track-type="leftNav" track-name="expandNavSectionNoLink" track-metadata-position="0" tabindex="0"><span>Developing</span></span><a class="devsite-nav-toggle devsite-nav-toggle-collapsed material-icons" track-type="leftNav" track-name="expandNavSectionArrow" track-metadata-position="0"></a><ul class="devsite-nav-section devsite-nav-section-collapsed"><li class="devsite-nav-item"><a href="https://source.android.com/setup/developing" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Overview</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/using-repo" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Using Repo</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/git-resources" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Learning Git</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/add-device" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Adding a New Device</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/64-bit-builds" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Understanding 64-bit Builds</span></a></li></ul></li><li class="devsite-nav-item devsite-nav-item-section-expandable"><span class="devsite-nav-title devsite-nav-title-no-path" track-type="leftNav" track-name="expandNavSectionNoLink" track-metadata-position="0" tabindex="0"><span>Contributing</span></span><a class="devsite-nav-toggle devsite-nav-toggle-expanded material-icons" track-type="leftNav" track-name="expandNavSectionArrow" track-metadata-position="0"></a><ul class="devsite-nav-section devsite-nav-section-expanded"><li class="devsite-nav-item"><a href="https://source.android.com/setup/contributing" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Overview</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/life-of-a-patch" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Life of a Patch</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/submit-patches" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Submitting Patches</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/view-patches" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>View Patches</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/life-of-a-bug" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Life of a Bug</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/report-bugs" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Reporting Bugs</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/read-bug-reports" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Reading Bug Reports</span></a></li><li class="devsite-nav-item devsite-nav-active"><a href="https://source.android.com/setup/code-style" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Java Code Style Rules</span></a></li></ul></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/community" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="0" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Community</span></a></li></ul>
+    </nav>
+  </div>
+  
+</nav>
+
+
+        <div class="devsite-main-content clearfix" style="margin-top: 40px;">
+
+        
+        
+
+        
+  
+  
+    
+    
+      
+  <nav class="devsite-section-nav devsite-nav nocontent" style="left: auto; max-height: 416px; position: relative; top: 0px;">
+    <ul class="devsite-nav-list devsite-nav-expandable"><li class="devsite-nav-item devsite-nav-item-section-expandable"><span class="devsite-nav-title devsite-nav-title-no-path" track-type="leftNav" track-name="expandNavSectionNoLink" track-metadata-position="0" tabindex="0"><span>Getting Started</span></span><a class="devsite-nav-toggle devsite-nav-toggle-collapsed material-icons" track-type="leftNav" track-name="expandNavSectionArrow" track-metadata-position="0"></a><ul class="devsite-nav-section devsite-nav-section-collapsed"><li class="devsite-nav-item"><a href="https://source.android.com/setup/" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Overview</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-lines" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Codelines,<wbr> Branches,<wbr> and Releases</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/build-numbers" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Codenames,<wbr> Tags,<wbr> and Build Numbers</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/roles" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Project Roles</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/brands" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Brand Guidelines</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/licenses" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Licenses</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/faqs" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>FAQ</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/site-updates" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Site Updates</span></a></li></ul></li><li class="devsite-nav-item devsite-nav-item-section-expandable"><span class="devsite-nav-title devsite-nav-title-no-path" track-type="leftNav" track-name="expandNavSectionNoLink" track-metadata-position="0" tabindex="0"><span>Downloading and Building</span></span><a class="devsite-nav-toggle devsite-nav-toggle-collapsed material-icons" track-type="leftNav" track-name="expandNavSectionArrow" track-metadata-position="0"></a><ul class="devsite-nav-section devsite-nav-section-collapsed"><li class="devsite-nav-item"><a href="https://source.android.com/setup/requirements" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Requirements</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/initializing" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Establishing a Build Environment</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/downloading" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Downloading the Source</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/building" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Preparing to Build</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/jack" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Compiling with Jack</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/devices" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Using Reference Boards</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/running" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Running Builds</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/building-kernels" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Building Kernels</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/known-issues" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Known Issues</span></a></li></ul></li><li class="devsite-nav-item devsite-nav-item-section-expandable"><span class="devsite-nav-title devsite-nav-title-no-path" track-type="leftNav" track-name="expandNavSectionNoLink" track-metadata-position="0" tabindex="0"><span>Developing</span></span><a class="devsite-nav-toggle devsite-nav-toggle-collapsed material-icons" track-type="leftNav" track-name="expandNavSectionArrow" track-metadata-position="0"></a><ul class="devsite-nav-section devsite-nav-section-collapsed"><li class="devsite-nav-item"><a href="https://source.android.com/setup/developing" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Overview</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/using-repo" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Using Repo</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/git-resources" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Learning Git</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/add-device" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Adding a New Device</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/64-bit-builds" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Understanding 64-bit Builds</span></a></li></ul></li><li class="devsite-nav-item devsite-nav-item-section-expandable"><span class="devsite-nav-title devsite-nav-title-no-path" track-type="leftNav" track-name="expandNavSectionNoLink" track-metadata-position="0" tabindex="0"><span>Contributing</span></span><a class="devsite-nav-toggle devsite-nav-toggle-expanded material-icons" track-type="leftNav" track-name="expandNavSectionArrow" track-metadata-position="0"></a><ul class="devsite-nav-section devsite-nav-section-expanded"><li class="devsite-nav-item"><a href="https://source.android.com/setup/contributing" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Overview</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/life-of-a-patch" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Life of a Patch</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/submit-patches" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Submitting Patches</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/view-patches" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>View Patches</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/life-of-a-bug" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Life of a Bug</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/report-bugs" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Reporting Bugs</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/read-bug-reports" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Reading Bug Reports</span></a></li><li class="devsite-nav-item devsite-nav-active"><a href="https://source.android.com/setup/code-style" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="1" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Java Code Style Rules</span></a></li></ul></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/community" class="devsite-nav-title gc-analytics-event" track-type="leftNav" track-name="titleLink" track-metadata-position="0" data-category="Site-Wide Custom Events" data-label="Left nav" data-action="click"><span>Community</span></a></li></ul>
+  </nav>
+
+    
+
+    
+  <nav class="devsite-page-nav devsite-nav" style="position: relative; left: auto; max-height: 416px; top: 0px;"><ul class="devsite-page-nav-list"><li class="devsite-nav-item devsite-nav-item-heading"><a href="https://source.android.com/setup/code-style#top_of_page" class="devsite-nav-title"><span>目录</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#java-language-rules" class="devsite-nav-title"><span>Java Language Rules</span></a><ul class="devsite-page-nav-list"><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#dont-ignore-exceptions" class="devsite-nav-title"><span>Don't Ignore Exceptions</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#dont-catch-generic-exception" class="devsite-nav-title"><span>Don't Catch Generic Exception</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#dont-use-finalizers" class="devsite-nav-title"><span>Don't Use Finalizers</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#fully-qualify-imports" class="devsite-nav-title"><span>Fully Qualify Imports</span></a></li></ul></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#java-library-rules" class="devsite-nav-title"><span>Java Library Rules</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#java-style-rules" class="devsite-nav-title"><span>Java Style Rules</span></a><ul class="devsite-page-nav-list"><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-javadoc-standard-comments" class="devsite-nav-title"><span>Use Javadoc Standard Comments</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#write-short-methods" class="devsite-nav-title"><span>Write Short Methods</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#define-fields-in-standard-places" class="devsite-nav-title"><span>Define Fields in Standard Places</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#limit-variable-scope" class="devsite-nav-title"><span>Limit Variable Scope</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#order-import-statements" class="devsite-nav-title"><span>Order Import Statements</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-spaces-for-indentation" class="devsite-nav-title"><span>Use Spaces for Indentation</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#follow-field-naming-conventions" class="devsite-nav-title"><span>Follow Field Naming Conventions</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-standard-brace-style" class="devsite-nav-title"><span>Use Standard Brace Style</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#limit-line-length" class="devsite-nav-title"><span>Limit Line Length</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-standard-java-annotations" class="devsite-nav-title"><span>Use Standard Java Annotations</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#treat-acronyms-as-words" class="devsite-nav-title"><span>Treat Acronyms as Words</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-todo-comments" class="devsite-nav-title"><span>Use TODO Comments</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#log-sparingly" class="devsite-nav-title"><span>Log Sparingly</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#be-consistent" class="devsite-nav-title"><span>Be Consistent</span></a></li></ul></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#javatests-style-rules" class="devsite-nav-title"><span>Javatests Style Rules</span></a></li></ul></nav>
+
+
+      <article class="devsite-article">
+        <article class="devsite-article-inner">
+  
+          
+  
+
+
+
+  
+  <nav class="devsite-breadcrumb-nav devsite-nav">
+    
+
+
+<ul class="devsite-breadcrumb-list">
+  
+  <li class="devsite-breadcrumb-item">
+    
+    
+    <a href="https://source.android.com/" class="devsite-breadcrumb-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Breadcrumbs" data-value="1">
+    
+    
+      AOSP
+    
+    
+    </a>
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item">
+    
+    
+    <div class="devsite-breadcrumb-guillemet material-icons"></div>
+    
+    
+    <a href="https://source.android.com/setup/" class="devsite-breadcrumb-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Breadcrumbs" data-value="2">
+    
+    
+      Setup
+    
+    
+    </a>
+    
+  </li>
+  
+</ul>
+
+  </nav>
+  
+  
+  <h1 itemprop="name" class="devsite-page-title">
+    AOSP Java Code Style for Contributors
+  </h1>
+  
+  
+  <nav class="devsite-page-nav-embedded devsite-nav"><ul class="devsite-page-nav-list"><li class="devsite-nav-item devsite-nav-item-heading"><a href="https://source.android.com/setup/code-style#top_of_page" class="devsite-nav-title"><span>目录</span></a><button type="button" class="devsite-nav-show-all button-transparent material-icons" data-tooltip-align="b,c" data-tooltip="展开/收起内容" aria-label="展开/收起内容" data-title="展开/收起内容"></button></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#java-language-rules" class="devsite-nav-title"><span>Java Language Rules</span></a><ul class="devsite-page-nav-list"><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#dont-ignore-exceptions" class="devsite-nav-title"><span>Don't Ignore Exceptions</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#dont-catch-generic-exception" class="devsite-nav-title"><span>Don't Catch Generic Exception</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#dont-use-finalizers" class="devsite-nav-title"><span>Don't Use Finalizers</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#fully-qualify-imports" class="devsite-nav-title devsite-nav-item-hidden"><span>Fully Qualify Imports</span></a></li></ul></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#java-library-rules" class="devsite-nav-title devsite-nav-item-hidden"><span>Java Library Rules</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#java-style-rules" class="devsite-nav-title devsite-nav-item-hidden"><span>Java Style Rules</span></a><ul class="devsite-page-nav-list"><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-javadoc-standard-comments" class="devsite-nav-title devsite-nav-item-hidden"><span>Use Javadoc Standard Comments</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#write-short-methods" class="devsite-nav-title devsite-nav-item-hidden"><span>Write Short Methods</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#define-fields-in-standard-places" class="devsite-nav-title devsite-nav-item-hidden"><span>Define Fields in Standard Places</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#limit-variable-scope" class="devsite-nav-title devsite-nav-item-hidden"><span>Limit Variable Scope</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#order-import-statements" class="devsite-nav-title devsite-nav-item-hidden"><span>Order Import Statements</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-spaces-for-indentation" class="devsite-nav-title devsite-nav-item-hidden"><span>Use Spaces for Indentation</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#follow-field-naming-conventions" class="devsite-nav-title devsite-nav-item-hidden"><span>Follow Field Naming Conventions</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-standard-brace-style" class="devsite-nav-title devsite-nav-item-hidden"><span>Use Standard Brace Style</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#limit-line-length" class="devsite-nav-title devsite-nav-item-hidden"><span>Limit Line Length</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-standard-java-annotations" class="devsite-nav-title devsite-nav-item-hidden"><span>Use Standard Java Annotations</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#treat-acronyms-as-words" class="devsite-nav-title devsite-nav-item-hidden"><span>Treat Acronyms as Words</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#use-todo-comments" class="devsite-nav-title devsite-nav-item-hidden"><span>Use TODO Comments</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#log-sparingly" class="devsite-nav-title devsite-nav-item-hidden"><span>Log Sparingly</span></a></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#be-consistent" class="devsite-nav-title devsite-nav-item-hidden"><span>Be Consistent</span></a></li></ul></li><li class="devsite-nav-item"><a href="https://source.android.com/setup/code-style#javatests-style-rules" class="devsite-nav-title devsite-nav-item-hidden"><span>Javatests Style Rules</span></a></li><li class="devsite-nav-item"><button type="button" class="button-flat devsite-nav-more-items material-icons" data-tooltip-align="b,c" data-tooltip="展开/收起内容" aria-label="展开/收起内容" data-title="展开/收起内容"></button></li></ul></nav>
+  
+  <div class="devsite-article-body clearfix
+            " itemprop="articleBody">
+    
+  <!--
+      Copyright 2017 The Android Open Source Project
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+  -->
+
+
+
+<p>The code styles below are strict rules for contributing Java code to the
+Android Open Source Project (AOSP).  Contributions to the Android platform that
+do not adhere to these rules are generally <em>not accepted</em>. We recognize
+that not all existing code follows these rules, but we expect all new code to
+be compliant.</p>
+
+<p class="note"><strong>Note:</strong> These rules are intended for the Android
+platform and are not required of Android app developers. App developers may
+follow the standard of their choosing, such as the <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style
+Guide</a>.</p>
+
+<h2 id="java-language-rules"><a href="https://source.android.com/setup/code-style#top_of_page" class="devsite-back-to-top-link material-icons" data-tooltip-align="b,c" data-tooltip="返回页首" aria-label="返回页首" data-title="返回页首"></a>Java Language Rules</h2>
+<p>Android follows standard Java coding conventions with the additional rules
+described below.</p>
+
+<h3 id="dont-ignore-exceptions">Don't Ignore Exceptions</h3>
+<p>It can be tempting to write code that completely ignores an exception, such
+as:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>void setServerPort(String value) {
+    try {
+        serverPort = Integer.parseInt(value);
+    } catch (NumberFormatException e) { }
+}
+</code></pre>
+<p>Do not do this. While you may think your code will never encounter this error
+condition or that it is not important to handle it, ignoring exceptions as above
+creates mines in your code for someone else to trigger some day. You must handle
+every Exception in your code in a principled way; the specific handling varies
+depending on the case.</p>
+<p><em>Anytime somebody has an empty catch clause they should have a
+creepy feeling. There are definitely times when it is actually the correct
+thing to do, but at least you have to think about it. In Java you can't escape
+the creepy feeling.</em> -<a href="http://www.artima.com/intv/solid4.html">James Gosling</a></p>
+<p>Acceptable alternatives (in order of preference) are:</p>
+<ul>
+<li>Throw the exception up to the caller of your method.
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>void setServerPort(String value) throws NumberFormatException {
+    serverPort = Integer.parseInt(value);
+}
+</code></pre>
+</li>
+<li>Throw a new exception that's appropriate to your level of abstraction.
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>void setServerPort(String value) throws ConfigurationException {
+    try {
+        serverPort = Integer.parseInt(value);
+    } catch (NumberFormatException e) {
+        throw new ConfigurationException("Port " + value + " is not valid.");
+    }
+}
+</code></pre>
+</li>
+<li>Handle the error gracefully and substitute an appropriate value in the
+catch {} block.
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>/** Set port. If value is not a valid number, 80 is substituted. */
+
+void setServerPort(String value) {
+    try {
+        serverPort = Integer.parseInt(value);
+    } catch (NumberFormatException e) {
+        serverPort = 80;  // default port for server
+    }
+}
+</code></pre>
+</li>
+<li>Catch the Exception and throw a new <code>RuntimeException</code>. This is
+dangerous, so do it only if you are positive that if this error occurs the
+appropriate thing to do is crash.
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>/** Set port. If value is not a valid number, die. */
+
+void setServerPort(String value) {
+    try {
+        serverPort = Integer.parseInt(value);
+    } catch (NumberFormatException e) {
+        throw new RuntimeException("port " + value " is invalid, ", e);
+    }
+}
+</code></pre>
+<p class="note"><strong>Note</strong> The original exception is passed to the
+constructor for RuntimeException. If your code must compile under Java 1.3, you
+must omit the exception that is the cause.</p>
+</li>
+<li>As a last resort, if you are confident that ignoring the exception is
+appropriate then you may ignore it, but you must also comment why with a good
+reason:
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>/** If value is not a valid number, original port number is used. */
+void setServerPort(String value) {
+    try {
+        serverPort = Integer.parseInt(value);
+    } catch (NumberFormatException e) {
+        // Method is documented to just ignore invalid user input.
+        // serverPort will just be unchanged.
+    }
+}
+</code></pre>
+</li>
+</ul>
+
+<h3 id="dont-catch-generic-exception">Don't Catch Generic Exception</h3>
+<p>It can also be tempting to be lazy when catching exceptions and do
+something like this:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>try {
+    someComplicatedIOFunction();        // may throw IOException
+    someComplicatedParsingFunction();   // may throw ParsingException
+    someComplicatedSecurityFunction();  // may throw SecurityException
+    // phew, made it all the way
+} catch (Exception e) {                 // I'll just catch all exceptions
+    handleError();                      // with one generic handler!
+}
+</code></pre>
+<p>Do not do this. In almost all cases it is inappropriate to catch generic
+Exception or Throwable (preferably not Throwable because it includes Error
+exceptions). It is very dangerous because it means that Exceptions
+you never expected (including RuntimeExceptions like ClassCastException) get
+caught in application-level error handling. It obscures the failure handling
+properties of your code, meaning if someone adds a new type of Exception in the
+code you're calling, the compiler won't help you realize you need to handle the
+error differently. In most cases you shouldn't be handling different types of
+exception the same way.</p>
+<p>The rare exception to this rule is test code and top-level code where you
+want to catch all kinds of errors (to prevent them from showing up in a UI, or
+to keep a batch job running). In these cases you may catch generic Exception
+(or Throwable) and handle the error appropriately. Think very carefully before
+doing this, though, and put in comments explaining why it is safe in this place.</p>
+<p>Alternatives to catching generic Exception:</p>
+<ul>
+<li>
+<p>Catch each exception separately as separate catch blocks after a single
+try. This can be awkward but is still preferable to catching all Exceptions.
+Beware repeating too much code in the catch blocks.</p></li><p></p>
+
+<li>
+<p>Refactor your code to have more fine-grained error handling, with multiple
+try blocks. Split up the IO from the parsing, handle errors separately in each
+case.</p>
+</li>
+<li>
+<p>Rethrow the exception. Many times you don't need to catch the exception at
+this level anyway, just let the method throw it.</p>
+</li>
+</ul>
+<p>Remember: exceptions are your friend! When the compiler complains you're
+not catching an exception, don't scowl. Smile: the compiler just made it
+easier for you to catch runtime problems in your code.</p>
+<h3 id="dont-use-finalizers">Don't Use Finalizers</h3>
+<p>Finalizers are a way to have a chunk of code executed when an object is
+garbage collected. While they can be handy for doing cleanup (particularly of
+external resources), there are no guarantees as to when a finalizer will be
+called (or even that it will be called at all).</p>
+<p>Android doesn't use finalizers. In most cases, you can do what
+you need from a finalizer with good exception handling. If you absolutely need
+it, define a close() method (or the like) and document exactly when that
+method needs to be called (see InputStream for an example). In this case it is
+appropriate but not required to print a short log message from the finalizer,
+as long as it is not expected to flood the logs.</p>
+
+<h3 id="fully-qualify-imports">Fully Qualify Imports</h3>
+<p>When you want to use class Bar from package foo,there
+are two possible ways to import it:</p>
+<ul>
+<li><code>import foo.*;</code>
+<p>Potentially reduces the number of import statements.</p></li>
+<li><code>import foo.Bar;</code>
+<p>Makes it obvious what classes are actually used and the code is more readable
+for maintainers.</p></li></ul>
+<p>Use <code>import foo.Bar;</code> for importing all Android code. An explicit
+exception is made for java standard libraries (<code>java.util.*</code>,
+<code>java.io.*</code>, etc.) and unit test code
+(<code>junit.framework.*</code>).</p>
+
+<h2 id="java-library-rules"><a href="https://source.android.com/setup/code-style#top_of_page" class="devsite-back-to-top-link material-icons" data-tooltip-align="b,c" data-tooltip="返回页首" aria-label="返回页首" data-title="返回页首"></a>Java Library Rules</h2>
+<p>There are conventions for using Android's Java libraries and tools. In some
+cases, the convention has changed in important ways and older code might use a
+deprecated pattern or library. When working with such code, it's okay to
+continue the existing style. When creating new components however, never use
+deprecated libraries.</p>
+
+<h2 id="java-style-rules"><a href="https://source.android.com/setup/code-style#top_of_page" class="devsite-back-to-top-link material-icons" data-tooltip-align="b,c" data-tooltip="返回页首" aria-label="返回页首" data-title="返回页首"></a>Java Style Rules</h2>
+
+<h3 id="use-javadoc-standard-comments">Use Javadoc Standard Comments</h3>
+<p>Every file should have a copyright statement at the top, followed by package
+and import statements (each block separated by a blank line) and finally the
+class or interface declaration. In the Javadoc comments, describe what the class
+or interface does.</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>/*
+ * Copyright 2017 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.android.internal.foo;
+
+import android.os.Blah;
+import android.view.Yada;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+/**
+ * Does X and Y and provides an abstraction for Z.
+ */
+
+public class Foo {
+    ...
+}
+</code></pre>
+<p>Every class and nontrivial public method you write <em>must</em> contain a
+Javadoc comment with at least one sentence describing what the class or method
+does. This sentence should start with a third person descriptive verb.</p>
+<p>Examples:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>/** Returns the correctly rounded positive square root of a double value. */
+static double sqrt(double a) {
+    ...
+}
+</code></pre>
+<p>or</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>/**
+ * Constructs a new String by converting the specified array of
+ * bytes using the platform's default character encoding.
+ */
+public String(byte[] bytes) {
+    ...
+}
+</code></pre>
+<p>You do not need to write Javadoc for trivial get and set methods such as
+<code>setFoo()</code> if all your Javadoc would say is "sets Foo". If the method
+does something more complex (such as enforcing a constraint or has an important
+side effect), then you must document it. If it's not obvious what the property
+"Foo" means, you should document it.
+</p><p>Every method you write, public or otherwise, would benefit from Javadoc.
+Public methods are part of an API and therefore require Javadoc. Android does
+not currently enforce a specific style for writing Javadoc comments, but you
+should follow the instructions <a href="http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html">How
+to Write Doc Comments for the Javadoc Tool</a>.</p>
+
+<h3 id="write-short-methods">Write Short Methods</h3>
+<p>When feasible, keep methods small and focused. We recognize that long methods
+are sometimes appropriate, so no hard limit is placed on method length. If a
+method exceeds 40 lines or so, think about whether it can be broken up without
+harming the structure of the program.</p>
+
+<h3 id="define-fields-in-standard-places">Define Fields in Standard Places</h3>
+<p>Define fields either at the top of the file or immediately before the
+methods that use them.</p>
+
+<h3 id="limit-variable-scope">Limit Variable Scope</h3>
+<p>Keep the scope of local variables to a minimum. By doing so, you
+increase the readability and maintainability of your code and reduce the
+likelihood of error. Each variable should be declared in the innermost block
+that encloses all uses of the variable.</p>
+<p>Local variables should be declared at the point they are first used. Nearly
+every local variable declaration should contain an initializer. If you don't
+yet have enough information to initialize a variable sensibly, postpone the
+declaration until you do.</p>
+<p>The exception is try-catch statements. If a variable is initialized with the
+return value of a method that throws a checked exception, it must be initialized
+inside a try block. If the value must be used outside of the try block, then it
+must be declared before the try block, where it cannot yet be sensibly
+initialized:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>// Instantiate class cl, which represents some sort of Set
+Set s = null;
+try {
+    s = (Set) cl.newInstance();
+} catch(IllegalAccessException e) {
+    throw new IllegalArgumentException(cl + " not accessible");
+} catch(InstantiationException e) {
+    throw new IllegalArgumentException(cl + " not instantiable");
+}
+
+// Exercise the set
+s.addAll(Arrays.asList(args));
+</code></pre>
+<p>However, even this case can be avoided by encapsulating the try-catch block
+in a method:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>Set createSet(Class cl) {
+    // Instantiate class cl, which represents some sort of Set
+    try {
+        return (Set) cl.newInstance();
+    } catch(IllegalAccessException e) {
+        throw new IllegalArgumentException(cl + " not accessible");
+    } catch(InstantiationException e) {
+        throw new IllegalArgumentException(cl + " not instantiable");
+    }
+}
+
+...
+
+// Exercise the set
+Set s = createSet(cl);
+s.addAll(Arrays.asList(args));
+</code></pre>
+<p>Loop variables should be declared in the for statement itself unless there
+is a compelling reason to do otherwise:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>for (int i = 0; i &lt; n; i++) {
+    doSomething(i);
+}
+</code></pre>
+<p>and</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>for (Iterator i = c.iterator(); i.hasNext(); ) {
+    doSomethingElse(i.next());
+}
+</code></pre>
+
+<h3 id="order-import-statements">Order Import Statements</h3>
+<p>The ordering of import statements is:</p>
+<ol>
+<li>
+<p>Android imports</p>
+</li>
+<li>
+<p>Imports from third parties (<code>com</code>, <code>junit</code>,
+<code>net</code>, <code>org</code>)</p>
+</li>
+<li>
+<p><code>java</code> and <code>javax</code></p>
+</li>
+</ol>
+<p>To exactly match the IDE settings, the imports should be:</p>
+<ul>
+<li>
+<p>Alphabetical within each grouping, with capital letters before lower case
+letters (e.g. Z before a).</p>
+</li>
+<li>
+<p>Separated by a blank line between each major grouping (<code>android</code>,
+<code>com</code>, <code>junit</code>, <code>net</code>, <code>org</code>,
+<code>java</code>, <code>javax</code>).</p>
+</li>
+</ul>
+<p>Originally, there was no style requirement on the ordering, meaning IDEs were
+either always changing the ordering or IDE developers had to disable the
+automatic import management features and manually maintain the imports. This was
+deemed bad. When java-style was asked, the preferred styles varied wildly and it
+came down to Android needing to simply "pick an ordering and be consistent." So
+we chose a style, updated the style guide, and made the IDEs obey it. We expect
+that as IDE users work on the code, imports in all packages will match this
+pattern without extra engineering effort.</p>
+<p>This style was chosen such that:</p>
+<ul>
+<li>
+<p>The imports people want to look at first tend to be at the top
+(<code>android</code>).</p>
+</li>
+<li>
+<p>The imports people want to look at least tend to be at the bottom
+(<code>java</code>).</p>
+</li>
+<li>
+<p>Humans can easily follow the style.</p>
+</li>
+<li>
+<p>IDEs can follow the style.</p>
+</li>
+</ul>
+<p>The use and location of static imports have been mildly controversial
+issues. Some people prefer static imports to be interspersed with the
+remaining imports, while some prefer them to reside above or below all
+other imports. Additionally, we have not yet determined how to make all IDEs use
+the same ordering. Since many consider this a low priority issue, just use your
+judgement and be consistent.</p>
+
+<h3 id="use-spaces-for-indentation">Use Spaces for Indentation</h3>
+<p>We use four (4) space indents for blocks and never tabs. When in doubt, be
+consistent with the surrounding code.</p>
+<p>We use eight (8) space indents for line wraps, including function calls and
+assignments. For example, this is correct:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>Instrument i =
+        someLongExpression(that, wouldNotFit, on, one, line);
+</code></pre>
+<p>and this is not correct:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>Instrument i =
+    someLongExpression(that, wouldNotFit, on, one, line);
+</code></pre>
+
+<h3 id="follow-field-naming-conventions">Follow Field Naming Conventions</h3>
+<ul>
+<li>
+<p>Non-public, non-static field names start with m.</p>
+</li>
+<li>
+<p>Static field names start with s.</p>
+</li>
+<li>
+<p>Other fields start with a lower case letter.</p>
+</li>
+<li>
+<p>Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.</p>
+</li>
+</ul>
+<p>For example:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>public class MyClass {
+    public static final int SOME_CONSTANT = 42;
+    public int publicField;
+    private static MyClass sSingleton;
+    int mPackagePrivate;
+    private int mPrivate;
+    protected int mProtected;
+}
+</code></pre>
+<h3 id="use-standard-brace-style">Use Standard Brace Style</h3>
+<p>Braces do not go on their own line; they go on the same line as the code
+before them:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>class MyClass {
+    int func() {
+        if (something) {
+            // ...
+        } else if (somethingElse) {
+            // ...
+        } else {
+            // ...
+        }
+    }
+}
+</code></pre>
+<p>We require braces around the statements for a conditional. Exception: If the
+entire conditional (the condition and the body) fit on one line, you may (but
+are not obligated to) put it all on one line. For example, this is acceptable:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>if (condition) {
+    body();
+}
+</code></pre>
+<p>and this is acceptable:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>if (condition) body();
+</code></pre>
+<p>but this is not acceptable:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>if (condition)
+    body();  // bad!
+</code></pre>
+
+<h3 id="limit-line-length">Limit Line Length</h3>
+<p>Each line of text in your code should be at most 100 characters long. While
+much discussion has surrounded this rule, the decision remains that 100
+characters is the maximum <em>with the following exceptions</em>:</p>
+<ul>
+<li>If a comment line contains an example command or a literal URL
+longer than 100 characters, that line may be longer than 100 characters for
+ease of cut and paste.</li>
+<li>Import lines can go over the limit because humans rarely see them (this also
+simplifies tool writing).</li>
+</ul>
+
+<h3 id="use-standard-java-annotations">Use Standard Java Annotations</h3>
+<p>Annotations should precede other modifiers for the same language element.
+Simple marker annotations (e.g. @Override) can be listed on the same line with
+the language element. If there are multiple annotations, or parameterized
+annotations, they should each be listed one-per-line in alphabetical
+order.</p>
+<p>Android standard practices for the three predefined annotations in Java are:</p>
+<ul>
+<li><code>@Deprecated</code>: The @Deprecated annotation must be used whenever
+the use of the annotated element is discouraged. If you use the @Deprecated
+annotation, you must also have a @deprecated Javadoc tag and it should name an
+alternate implementation. In addition, remember that a @Deprecated method is
+<em>still supposed to work</em>. If you see old code that has a @deprecated
+Javadoc tag, please add the @Deprecated annotation.
+</li>
+<li><code>@Override</code>: The @Override annotation must be used whenever a
+method overrides the declaration or implementation from a super-class. For
+example, if you use the @inheritdocs Javadoc tag, and derive from a class (not
+an interface), you must also annotate that the method @Overrides the parent
+class's method.</li>
+<li><code>@SuppressWarnings</code>: The @SuppressWarnings annotation should be
+used only under circumstances where it is impossible to eliminate a warning. If
+a warning passes this "impossible to eliminate" test, the @SuppressWarnings
+annotation <em>must</em> be used, so as to ensure that all warnings reflect
+actual problems in the code.
+<p>When a @SuppressWarnings annotation is necessary, it must be prefixed with
+a TODO comment that explains the "impossible to eliminate" condition. This
+will normally identify an offending class that has an awkward interface. For
+example:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>// TODO: The third-party class com.third.useful.Utility.rotate() needs generics
+@SuppressWarnings("generic-cast")
+List&lt;String&gt; blix = Utility.rotate(blax);
+</code></pre>
+<p>When a @SuppressWarnings annotation is required, the code should be
+refactored to isolate the software elements where the annotation applies.</p>
+</li>
+</ul>
+
+<h3 id="treat-acronyms-as-words">Treat Acronyms as Words</h3>
+<p>Treat acronyms and abbreviations as words in naming variables, methods, and
+classes to make names more readable:</p>
+<div class="devsite-table-wrapper"><table>
+<thead>
+<tr>
+<th>Good</th>
+<th>Bad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XmlHttpRequest</td>
+<td>XMLHTTPRequest</td>
+</tr>
+<tr>
+<td>getCustomerId</td>
+<td>getCustomerID</td>
+</tr>
+<tr>
+<td>class Html</td>
+<td>class HTML</td>
+</tr>
+<tr>
+<td>String url</td>
+<td>String URL</td>
+</tr>
+<tr>
+<td>long id</td>
+<td>long ID</td>
+</tr>
+</tbody>
+</table></div>
+<p>As both the JDK and the Android code bases are very inconsistent around
+acronyms, it is virtually impossible to be consistent with the surrounding
+code. Therefore, always treat acronyms as words.</p>
+
+<h3 id="use-todo-comments">Use TODO Comments</h3>
+<p>Use TODO comments for code that is temporary, a short-term solution, or
+good-enough but not perfect. TODOs should include the string TODO in all caps,
+followed by a colon:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>// TODO: Remove this code after the UrlTable2 has been checked in.
+</code></pre>
+<p>and</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>// TODO: Change this to use a flag instead of a constant.
+</code></pre>
+<p>If your TODO is of the form "At a future date do something" make sure that
+you either include a very specific date ("Fix by November 2005") or a very
+specific event ("Remove this code after all production mixers understand
+protocol V7.").</p>
+
+<h3 id="log-sparingly">Log Sparingly</h3>
+<p>While logging is necessary, it has a significantly negative impact on
+performance and quickly loses its usefulness if not kept reasonably
+terse. The logging facilities provides five different levels of logging:</p>
+<ul>
+<li><code>ERROR</code>:
+Use when something fatal has happened, i.e. something will have user-visible
+consequences and won't be recoverable without explicitly deleting some data,
+uninstalling applications, wiping the data partitions or reflashing the entire
+device (or worse). This level is always logged. Issues that justify some logging
+at the ERROR level are typically good candidates to be reported to a
+statistics-gathering server.</li>
+<li><code>WARNING</code>:
+Use when something serious and unexpected happened, i.e. something that will
+have user-visible consequences but is likely to be recoverable without data loss
+by performing some explicit action, ranging from waiting or restarting an app
+all the way to re-downloading a new version of an application or rebooting the
+device. This level is always logged. Issues that justify some logging at the
+WARNING level might also be considered for reporting to a statistics-gathering
+server.</li>
+<li><code>INFORMATIVE:</code>
+Use to note that something interesting to most people happened, i.e. when a
+situation is detected that is likely to have widespread impact, though isn't
+necessarily an error. Such a condition should only be logged by a module that
+reasonably believes that it is the most authoritative in that domain (to avoid
+duplicate logging by non-authoritative components). This level is always logged.
+</li>
+<li><code>DEBUG</code>:
+Use to further note what is happening on the device that could be relevant to
+investigate and debug unexpected behaviors. You should log only what is needed
+to gather enough information about what is going on about your component. If
+your debug logs are dominating the log then you probably should be using verbose
+logging.
+<p>This level will be logged, even on release builds, and is required to be
+surrounded by an <code>if (LOCAL_LOG)</code> or <code>if (LOCAL_LOGD)</code>
+block, where <code>LOCAL_LOG[D]</code> is defined in your class or subcomponent,
+so that there can exist a possibility to disable all such logging. There must
+therefore be no active logic in an <code>if (LOCAL_LOG)</code> block. All the
+string building for the log also needs to be placed inside the <code>if
+(LOCAL_LOG)</code> block. The logging call should not be re-factored out into a
+method call if it is going to cause the string building to take place outside
+of the <code>if (LOCAL_LOG)</code> block.</p>
+<p>There is some code that still says <code>if (localLOGV)</code>. This is
+considered acceptable as well, although the name is nonstandard.</p>
+</li>
+<li><code>VERBOSE</code>:
+Use for everything else. This level will only be logged on debug builds and
+should be surrounded by an <code>if (LOCAL_LOGV)</code> block (or equivalent) so
+it can be compiled out by default. Any string building will be stripped out of
+release builds and needs to appear inside the <code>if (LOCAL_LOGV)</code> block.
+</li>
+</ul>
+<p><em>Notes:</em> </p>
+<ul>
+<li>Within a given module, other than at the VERBOSE level, an
+error should only be reported once if possible. Within a single chain of
+function calls within a module, only the innermost function should return the
+error, and callers in the same module should only add some logging if that
+significantly helps to isolate the issue.</li>
+<li>In a chain of modules, other than at the VERBOSE level, when a
+lower-level module detects invalid data coming from a higher-level module, the
+lower-level module should only log this situation to the DEBUG log, and only
+if logging provides information that is not otherwise available to the caller.
+Specifically, there is no need to log situations where an exception is thrown
+(the exception should contain all the relevant information), or where the only
+information being logged is contained in an error code. This is especially
+important in the interaction between the framework and applications, and
+conditions caused by third-party applications that are properly handled by the
+framework should not trigger logging higher than the DEBUG level. The only
+situations that should trigger logging at the INFORMATIVE level or higher is
+when a module or application detects an error at its own level or coming from
+a lower level.</li>
+<li>When a condition that would normally justify some logging is
+likely to occur many times, it can be a good idea to implement some
+rate-limiting mechanism to prevent overflowing the logs with many duplicate
+copies of the same (or very similar) information.</li>
+<li>Losses of network connectivity are considered common, fully expected, and
+should not be logged gratuitously. A loss of network connectivity
+that has consequences within an app should be logged at the DEBUG or VERBOSE
+level (depending on whether the consequences are serious enough and unexpected
+enough to be logged in a release build).</li>
+<li>Having a full filesystem on a filesystem that is accessible to or on
+behalf of third-party applications should not be logged at a level higher than
+INFORMATIVE.</li>
+<li>Invalid data coming from any untrusted source (including any
+file on shared storage, or data coming through just about any network
+connection) is considered expected and should not trigger any logging at a
+level higher than DEBUG when it's detected to be invalid (and even then
+logging should be as limited as possible).</li>
+<li>Keep in mind that the <code>+</code> operator, when used on Strings,
+implicitly creates a <code>StringBuilder</code> with the default buffer size (16
+characters) and potentially other temporary String objects, i.e.
+that explicitly creating StringBuilders isn't more expensive than relying on
+the default '+' operator (and can be a lot more efficient in fact). Keep
+in mind that code that calls <code>Log.v()</code> is compiled and executed on
+release builds, including building the strings, even if the logs aren't being
+read.</li>
+<li>Any logging that is meant to be read by other people and to be
+available in release builds should be terse without being cryptic, and should
+be reasonably understandable. This includes all logging up to the DEBUG
+level.</li>
+<li>When possible, logging should be kept on a single line if it
+makes sense. Line lengths up to 80 or 100 characters are perfectly acceptable,
+while lengths longer than about 130 or 160 characters (including the length of
+the tag) should be avoided if possible.</li>
+<li>Logging that reports successes should never be used at levels
+higher than VERBOSE.</li>
+<li>Temporary logging used to diagnose an issue that is hard to reproduce should
+be kept at the DEBUG or VERBOSE level and should be enclosed by if blocks that
+allow for disabling it entirely at compile time.</li>
+<li>Be careful about security leaks through the log. Private
+information should be avoided. Information about protected content must
+definitely be avoided. This is especially important when writing framework
+code as it's not easy to know in advance what will and will not be private
+information or protected content.</li>
+<li><code>System.out.println()</code> (or <code>printf()</code> for native code)
+should never be used. System.out and System.err get redirected to /dev/null, so
+your print statements will have no visible effects. However, all the string
+building that happens for these calls still gets executed.</li>
+<li><em>The golden rule of logging is that your logs may not
+unnecessarily push other logs out of the buffer, just as others may not push
+out yours.</em></li>
+</ul>
+
+<h3 id="be-consistent">Be Consistent</h3>
+<p>Our parting thought: BE CONSISTENT. If you're editing code, take a few
+minutes to look at the surrounding code and determine its style. If that code
+uses spaces around the if clauses, you should too. If the code comments have
+little boxes of stars around them, make your comments have little boxes of stars
+around them too.</p>
+<p>The point of having style guidelines is to have a common vocabulary of
+coding, so people can concentrate on what you're saying, rather than on how
+you're saying it. We present global style rules here so people know the
+vocabulary, but local style is also important. If the code you add to a file
+looks drastically different from the existing code around it, it throws
+readers out of their rhythm when they go to read it. Try to avoid this.</p>
+
+<h2 id="javatests-style-rules"><a href="https://source.android.com/setup/code-style#top_of_page" class="devsite-back-to-top-link material-icons" data-tooltip-align="b,c" data-tooltip="返回页首" aria-label="返回页首" data-title="返回页首"></a>Javatests Style Rules</h2>
+<p>Follow test method naming conventions and use an underscore to separate what
+is being tested from the specific case being tested. This style makes it easier
+to see exactly what cases are being tested. For example:</p>
+<pre><div class="devsite-code-button-wrapper"><div class="devsite-code-button gc-analytics-event material-icons devsite-dark-code-button" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-tooltip-align="b,c" data-tooltip="深色代码主题" aria-label="深色代码主题" data-title="深色代码主题"></div></div><code>testMethod_specificCase1 testMethod_specificCase2
+
+void testIsDistinguishable_protanopia() {
+    ColorMatcher colorMatcher = new ColorMatcher(PROTANOPIA)
+    assertFalse(colorMatcher.isDistinguishable(Color.RED, Color.BLACK))
+    assertTrue(colorMatcher.isDistinguishable(Color.X, Color.Y))
+}
+</code></pre>
+
+  
+  </div>
+  
+
+  
+        
+  
+
+
+
+
+
+
+
+        
+<div class="devsite-content-footer nocontent">
+  
+  
+    <p>Except as otherwise noted, the content of this page is licensed under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see our <a href="https://developers.google.com/terms/site-policies">Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+  
+
+  
+    
+    <p class="devsite-content-footer-date" itemprop="datePublished" content="2017-11-27T21:44:37.410600">
+      
+      上次更新日期：十一月 27, 2017
+    </p>
+  
+
+</div>
+
+        </article>
+      </article>
+  
+
+        </div>
+      
+
+<footer class="devsite-footer-linkboxes nocontent
+               devsite-footer-linkboxes-all-backup
+               "><nav class="devsite-full-site-width"><ul class="devsite-footer-linkboxes-list"><li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3 class="devsite-footer-linkbox-heading">构建</h3><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="https://android.googlesource.com/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Repository Link">
+                Android 代码库
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://source.android.com/source/requirements" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Requirements Link">
+                要求
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://source.android.com/source/downloading" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Downloading Link">
+                下载
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://developers.google.com/android/blobs-preview" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Preview Binaries Link">
+                预览二进制文件
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://developers.google.com/android/images" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Factory Images Link">
+                出厂映像
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://developers.google.com/android/drivers" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Driver Binaries Link">
+                驱动程序二进制文件
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://android.github.io/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer GitHub Link">
+                GitHub
+            </a></li></ul></li><li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3 class="devsite-footer-linkbox-heading">社交沟通</h3><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="https://twitter.com/Android" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Twitter Link">
+                在 Twitter 上 @Android
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://twitter.com/AndroidDev" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Dev Twitter Link">
+                在 Twitter 上 @AndroidDev
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://blog.google/products/android/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Blog Link">
+                Android 博客
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://security.googleblog.com/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Google Security Blog Link">
+                Google 安全博客
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://groups.google.com/forum/?fromgroups#!forum/android-platform" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Platform Group Link">
+                Google Groups 上的 Android 平台论坛
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://groups.google.com/forum/?fromgroups#!forum/android-building" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Building Group Link">
+                Google Groups 上的 Android 构建论坛
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://groups.google.com/forum/?fromgroups#!forum/android-porting" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Porting Group Link">
+                Google Groups 上的 Android 移植论坛
+            </a></li></ul></li><li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3 class="devsite-footer-linkbox-heading">获取帮助</h3><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="https://support.google.com/android/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Help Center Link">
+                Android 帮助中心
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://support.google.com/pixelphone" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Pixel Help Center Link">
+                Pixel 帮助中心
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://support.google.com/nexus/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Nexus Help Center Link">
+                Nexus 帮助中心
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://www.android.com/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Home Link">
+                www.android.com
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://www.android.com/gms/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer GMS Link">
+                Google Mobile Services
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://stackoverflow.com/questions/tagged/android-source" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Stack Overflow Link">
+                Stack Overflow
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://issuetracker.google.com/issues?q=status:open%20componentid:190923" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Issue Tracker Link">
+                问题跟踪器
+            </a></li></ul></li></ul></nav></footer><footer class="devsite-utility-footer"><nav class="devsite-utility-footer-nav devsite-nav devsite-full-site-width"><div class="devsite-utility-footer-nav-left"><form class="devsite-utility-footer-language" action="https://source.android.com/i18n/setlang/" method="post"><input type="hidden" name="xsrf_token" value="FhihT5OYy_xwsDWykymGYMFJKv20r9MkgHmdBa6ODMg6MTUxMjMwODg1NTkyMjk1MA"><input type="hidden" name="next" value="/setup/code-style"><select class="devsite-utility-footer-language-select kd-select" name="language" track-type="languageSelector" track-name="click" style="display: none;"><option value="en" track-type="languageSelector" track-name="changed" track-metadata-original-language="zh-cn" track-metadata-selected-language="en">
+            English
+          </option><option value="zh-cn" selected="selected" track-type="languageSelector" track-name="changed" track-metadata-original-language="zh-cn" track-metadata-selected-language="zh-cn">
+            简体中文
+          </option></select><span class="kd-button kd-menubutton kd-select" track-type="languageSelector" track-name="click"><div class="label">
+            简体中文
+          </div><div class="kd-disclosureindicator"></div></span></form><span class="devsite-utility-footer-links"><a class="devsite-utility-footer-link gc-analytics-event" href="https://source.android.com/source/" data-category="Site-Wide Custom Events" data-label="Footer about_android link" data-footer-link-id="about_android">关于 Android
+         </a><a class="devsite-utility-footer-link gc-analytics-event" href="https://source.android.com/source/community" data-category="Site-Wide Custom Events" data-label="Footer community link" data-footer-link-id="community">社区
+         </a><a class="devsite-utility-footer-link gc-analytics-event" href="https://source.android.com/legal" data-category="Site-Wide Custom Events" data-label="Footer legal link" data-footer-link-id="legal">法律条款
+         </a><a class="devsite-utility-footer-link gc-analytics-event" href="https://source.android.com/license" data-category="Site-Wide Custom Events" data-label="Footer license link" data-footer-link-id="license">许可
+         </a><a class="devsite-utility-footer-link gc-analytics-event" href="https://www.google.com/policies/privacy/" data-category="Site-Wide Custom Events" data-label="Footer privacy link" data-footer-link-id="privacy">隐私权
+         </a><a class="devsite-utility-footer-link gc-analytics-event" href="https://issuetracker.google.com/issues/new?component=191476" data-category="Site-Wide Custom Events" data-label="Footer site_feedback link" data-footer-link-id="site_feedback">网站反馈
+         </a></span></div></nav></footer></div><script async="" defer="" src="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/api.js"></script><script src="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/saved_resource"></script><script src="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/script_foot_closure__zh_cn.js"></script><script src="./AOSP Java Code Style for Contributors  _  Android Open Source Project_files/script_foot.js"></script><script>
+        (function($) {
+          
+          devsite.devsite.Init($, {'FULL_SITE_SEARCH_ENABLED': 1, 'ENABLE_BLOCKED_VIDEO_PLACEHOLDER': 0, 'VERSION_HASH': '4d0ad1dc9e', 'SITE_NAME': 'androidsource', 'HISTORY_ENABLED': 0, 'ENABLE_BLOCKED_LINK_TOOLTIP': 0, 'ALLOWED_HOSTS': ['.android.com', '.anvato.com', '.api.ai', '.apigee.com', '.appspot.com', '.dialogflow.com', '.gonglchuangl.net', '.google.cn', '.google.com', '.googleplex.com', '.nest.com', '.openthread.io', '.openweave.io', '.orbitera.com', '.tensorflow.org'], 'BLOCK_RSS_FEEDS': 0, 'SCRIPTSAFE_DOMAIN': 'androidsource-dot-google-developers.appspot.com'},
+                               '[]','zh-cn',
+                               true, '',
+                               {"f62218c009ec029abef196bba5aa34cf": true, "098dafe57affddc137df300142652cfd": false, "8e03e230de0bd8a6fe173fdf172e8b3f": true, "cb025a64a50094835616312f4774a53d": true, "51470233c56fc1fde50f00b73c52b216": false, "d169d485cf24243a263783dbe42029b1": true, "039e5d84b87fd75807ffb37b7f1bbf2c": true, "752953480de00a336d911a46966cc16d": false, "700def1a83e356c06c0925afb05de4b0": false, "6749dcb526ce9bde6993550c7d928d24": true}, '/',
+                               'https://source.android.com/');
+        })(jQuery);
+
+        
+        devsite.localInit = function() {
+          
+        };
+
+      </script><script>
+      $('.devsite-utility-footer-language-select').each(function() {
+        $(this).change(function(){$('.devsite-utility-footer-language').submit();});
+      });
+      </script></div><span id="devsite-request-elapsed" data-request-elapsed="264.010190964"></span>
+<ul class="kd-menulist devsite-hidden"><li class="kd-menulistitem" value="en" track-type="languageSelector" track-name="changed" track-metadata-original-language="zh-cn" track-metadata-selected-language="en">
+            English
+          </li><li class="kd-menulistitem devsite-selected-option" value="zh-cn" track-type="languageSelector" track-name="changed" track-metadata-original-language="zh-cn" track-metadata-selected-language="zh-cn">
+            简体中文
+          </li></ul></body></html>
