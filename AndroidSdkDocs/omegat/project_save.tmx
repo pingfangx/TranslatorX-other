@@ -4029,6 +4029,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; The &lt;c1&gt;&lt;a2&gt;Intent.setClipData()&lt;/a2&gt;&lt;/c1&gt; method is only available in platform version 16 (Android 4.1) and later.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;s0&gt;注意：&lt;/s0&gt; &lt;c1&gt;&lt;a2&gt;Intent.setClipData()&lt;/a2&gt;&lt;/c1&gt; 方法仅在平台版本16（Android 4.1）及更高版本中可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; These rules are intended for the Android platform and are not required of Android app developers.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4309,6 +4317,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A FileProvider can only generate a content URI for files in directories that you specify beforehand.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>FileProvider 只能为预先指定的目录中的文件生成 content URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Guideline can be either horizontal or vertical:</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4373,6 +4389,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A URI path segment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>一个 URI 路径段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A View occupies a rectangular area on the screen and is responsible for drawing and event handling.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -4433,6 +4457,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>正则表达式的编译表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A content URI allows you to grant read and write access using temporary access permissions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>content URI 允许你使用临时访问权限授予读写访问权限。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5399,6 +5431,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a result of the previous snippet, &lt;c0&gt;&lt;a1&gt;getUriForFile()&lt;/a1&gt;&lt;/c0&gt; returns the content URI &lt;c2&gt;content://com.mydomain.fileprovider/my_images/default_image.jpg&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>由于前面的片段， &lt;c0&gt;&lt;a1&gt;getUriForFile()&lt;/a1&gt;&lt;/c0&gt; 返回 content URI &lt;c2&gt;content://com.mydomain.fileprovider/my_images/default_image.jpg&lt;/c2&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As a result, the view will not receive touches whenever a toast, dialog or other window appears above the view's window.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -5795,6 +5835,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>调用 &lt;c2&gt;&lt;a3&gt;isInTouchMode()&lt;/a3&gt;&lt;/c2&gt; 查看设备当前是否在touch mode。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Call the method &lt;c0&gt;&lt;a1&gt;Context.grantUriPermission(package, Uri, mode_flags)&lt;/a1&gt;&lt;/c0&gt; for the &lt;c2&gt;content://&lt;/c2&gt; &lt;c3&gt;&lt;a4&gt;Uri&lt;/a4&gt;&lt;/c3&gt;, using the desired mode flags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>为 &lt;c2&gt;content://&lt;/c2&gt; &lt;c3&gt;&lt;a4&gt;Uri&lt;/a4&gt;&lt;/c3&gt; 调用 &lt;c0&gt;&lt;a1&gt;Context.grantUriPermission(package, Uri, mode_flags)&lt;/a1&gt;&lt;/c0&gt; 方法，使用所需的模式标志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6812,6 +6860,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>定义一个未设置的id。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defining a FileProvider</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>定义一个 FileProvider</seg>
       </tuv>
     </tu>
     <tu>
@@ -8016,10 +8072,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>FileProvider is a special subclass of &lt;c0&gt;&lt;a1&gt;ContentProvider&lt;/a1&gt;&lt;/c0&gt; that facilitates secure sharing of files associated with an app by creating a &lt;c2&gt;content://&lt;/c2&gt; &lt;c3&gt;&lt;a4&gt;Uri&lt;/a4&gt;&lt;/c3&gt; for a file instead of a &lt;c5&gt;file:///&lt;/c5&gt; &lt;c6&gt;&lt;a7&gt;Uri&lt;/a7&gt;&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>FileProvider 是一个特殊 &lt;c0&gt;&lt;a1&gt;ContentProvider&lt;/a1&gt;&lt;/c0&gt; 子类，它为一个文件创建 &lt;c2&gt;content://&lt;/c2&gt; &lt;c3&gt;&lt;a4&gt;Uri&lt;/a4&gt;&lt;/c3&gt; 代替了 &lt;c5&gt;file:///&lt;/c5&gt; &lt;c6&gt;&lt;a7&gt;Uri&lt;/a7&gt;&lt;/c6&gt; ，从而有助于安全地与另一个 app 共享文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Finalizers are a way to have a chunk of code executed when an object is garbage collected.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>终结器可以在对象被垃圾回收器回收时执行一段代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finally, send the &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; to another app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>最后，将 &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; 发送给另一个应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8132,6 +8204,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>对于有触摸能力的的设备，一旦用户触摸了屏幕，设备将进入解摸模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For an &lt;c6&gt;&lt;a7&gt;Intent&lt;/a7&gt;&lt;/c6&gt; going to a &lt;c8&gt;&lt;a9&gt;Service&lt;/a9&gt;&lt;/c8&gt;, the permissions are available as long as the &lt;c10&gt;&lt;a11&gt;Service&lt;/a11&gt;&lt;/c10&gt; is running.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>对于转到 &lt;c8&gt;&lt;a9&gt;Service&lt;/a9&gt;&lt;/c8&gt; 的 &lt;c6&gt;&lt;a7&gt;Intent&lt;/a7&gt;&lt;/c6&gt; ，只要 &lt;c10&gt;&lt;a11&gt;Service&lt;/a11&gt;&lt;/c10&gt; 正在运行，权限就是可用的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8320,6 +8400,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, suppose your app is offering files to other apps with a FileProvider that has the authority &lt;c0&gt;com.mydomain.fileprovider&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>例如，假设您的应用程序使用具有 &lt;c0&gt;com.mydomain.fileprovider&lt;/c0&gt; 权限的 FileProvider 将文件提供给其他应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, the SDK includes a &lt;a0&gt;NotePad application&lt;/a0&gt; in the samples.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8336,10 +8424,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, the following &lt;c1&gt;paths&lt;/c1&gt; element tells FileProvider that you intend to request content URIs for the &lt;c2&gt;images/&lt;/c2&gt; subdirectory of your private file area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>例如，下面的 &lt;c1&gt;paths&lt;/c1&gt; 元素告诉 FileProvider 你打算为私有文件区域的 &lt;c2&gt;images/&lt;/c2&gt; 子目录请求 content URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, the parent may measure each child once with unspecified dimensions to find out how big they want to be, then call measure() on them again with actual numbers if the sum of all the children's unconstrained sizes is too big or too small.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>比如，父view可能先用未指明的尺寸来测量一遍所有的子view，以查明子view们想要多大。然后如果子view的不受约束的尺寸和太大或太小，则父类再以实际数字调用一次measure()方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, these XML elements specify two directories:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>例如，这些 XML 元素指定了两个目录：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8356,6 +8460,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>正确示例如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, you can add them to a new file called &lt;c1&gt;res/xml/file_paths.xml&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>例如，您可以将它们添加到名为 &lt;c1&gt;res/xml/file_paths.xml&lt;/c1&gt; 的新文件中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8576,6 +8688,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generating the Content URI for a File</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>生成文件的 content URI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Get Users</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -8628,6 +8748,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>Google Services</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Granting Temporary Permissions to a URI</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>授予 URI 临时权限</seg>
       </tuv>
     </tu>
     <tu>
@@ -9408,6 +9536,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to maintain compatibility with previous versions, you should send one content URI at a time in the &lt;c3&gt;&lt;a4&gt;Intent&lt;/a4&gt;&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果您想保持与以前版本的兼容性，您应该一次在 &lt;c3&gt;&lt;a4&gt;Intent&lt;/a4&gt;&lt;/c3&gt; 中发送一个 content URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to override any of the default behavior of FileProvider methods, extend the FileProvider class and use the fully-qualified class name in the &lt;c0&gt;android:name&lt;/c0&gt; attribute of the &lt;c1&gt;&lt;provider&gt;&lt;/c1&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>如果要覆盖 FileProvider 方法的任何默认行为，请继承 FileProvider 类并在&lt;c1&gt;&lt;provider&gt;&lt;/c1&gt; 的 &lt;c0&gt;android:name&lt;/c0&gt; 属性中使用完全限定的类名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to use 3D graphics, you must extend &lt;c1&gt;&lt;a2&gt;SurfaceView&lt;/a2&gt;&lt;/c1&gt; instead of View, and draw from a separate thread.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -9632,10 +9776,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In both cases, your app returns the content URI in an &lt;c6&gt;&lt;a7&gt;Intent&lt;/a7&gt;&lt;/c6&gt; sent via &lt;c8&gt;&lt;a9&gt;setResult()&lt;/a9&gt;&lt;/c8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在这两种情况下，您的应用程序都会返回通过 &lt;c8&gt;&lt;a9&gt;setResult()&lt;/a9&gt;&lt;/c8&gt; 发送的 &lt;c6&gt;&lt;a7&gt;Intent&lt;/a7&gt;&lt;/c6&gt; 中的 content URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In case a LayoutManager specifies both constructors, the non-default constructor will take precedence.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>若LayoutManager这两种构造方法都申明了，无参的默认构造方法将会调用。 （这一段应该是指在布局文件中申明的LayoutManager。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In comparison, to control access to a &lt;c0&gt;file:///&lt;/c0&gt; &lt;c1&gt;&lt;a2&gt;Uri&lt;/a2&gt;&lt;/c1&gt; you have to modify the file system permissions of the underlying file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>相比之下，要控制对 &lt;c0&gt;file:///&lt;/c0&gt; &lt;c1&gt;&lt;a2&gt;Uri&lt;/a2&gt;&lt;/c1&gt; 的访问，您必须修改底层文件的文件系统权限。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9740,6 +9900,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在极少数情况下，默认的算法可能不匹配开发者的意图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In response, your app can immediately return a content URI to the client app or present a user interface that allows the user to pick a file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>作为响应，您的应用程序可以立即将 content URI 返回给客户端应用程序，或者呈现允许用户选择文件的用户界面。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9860,6 +10028,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>在下面的例子中，两个view都将使用Material dark color 主题创建，然而，因为所使用的覆盖主题只定义了属性的一个子集，在加载的context主题（如Activity主题）中定义的&lt;c0&gt;&lt;a1&gt;android:colorAccent&lt;/a1&gt;&lt;/c0&gt;将被保留。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the latter case, once the user picks the file your app can return its content URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在后一种情况下，一旦用户选择文件，您的应用程序可以返回其内容的 URI。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9988,6 +10164,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>而是使用"match constraints" (&lt;c3&gt;0dp&lt;/c3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, you can include a FileProvider in your app by specifying it entirely in XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>相反，您可以在应用程序中包含 FileProvider，方法是将其完全指定为 XML。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10624,10 +10808,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>More Information</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>更多信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More information about a successful match can be obtained by querying the state of the matcher.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>通过查询匹配器的状态可以获取关于成功匹配的更多信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most often, you do this by calling &lt;c2&gt;&lt;a3&gt;setResult()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>通常，通过调用 &lt;c2&gt;&lt;a3&gt;setResult()&lt;/a3&gt;&lt;/c2&gt; 来完成此操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10668,6 +10868,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>嵌套类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next, call the method &lt;c0&gt;&lt;a1&gt;Intent.setFlags()&lt;/a1&gt;&lt;/c0&gt; with either &lt;c2&gt;&lt;a3&gt;FLAG_GRANT_READ_URI_PERMISSION&lt;/a3&gt;&lt;/c2&gt; or &lt;c4&gt;&lt;a5&gt;FLAG_GRANT_WRITE_URI_PERMISSION&lt;/a5&gt;&lt;/c4&gt; or both.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>接下来，调用方法 &lt;c0&gt;&lt;a1&gt;Intent.setFlags()&lt;/a1&gt;&lt;/c0&gt; ，使用 &lt;c2&gt;&lt;a3&gt;FLAG_GRANT_READ_URI_PERMISSION&lt;/a3&gt;&lt;/c2&gt; 或 &lt;c4&gt;&lt;a5&gt;FLAG_GRANT_WRITE_URI_PERMISSION&lt;/a5&gt;&lt;/c4&gt; 或两者。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10864,6 +11072,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notice that the value refers to a &lt;b2&gt;subdirectory&lt;/b2&gt;, not an individual file or files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>请注意，该值是指&lt;b2&gt;子目录&lt;/b2&gt;，而不是单个文件或文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now the entire size is dictated by the height of the view (which can be defined in any way) as shown in figure 11.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -10948,6 +11164,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>一旦你创建了一个view树，代表一些通用的操作你可能希望完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One common way is for the client app to start your app by calling &lt;c0&gt;&lt;a1&gt;startActivityResult()&lt;/a1&gt;&lt;/c0&gt;, which sends an &lt;c2&gt;&lt;a3&gt;Intent&lt;/a3&gt;&lt;/c2&gt; to your app to start an &lt;c4&gt;&lt;a5&gt;Activity&lt;/a5&gt;&lt;/c4&gt; in your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>一种常见的方式是客户端应用程序通过调用 &lt;c0&gt;&lt;a1&gt;startActivityResult()&lt;/a1&gt;&lt;/c0&gt; 来启动您的应用程序，该程序发送 &lt;c2&gt;&lt;a3&gt;Intent&lt;/a3&gt;&lt;/c2&gt; 到您的应用程序，在您的应用程序中启动 &lt;c4&gt;&lt;a5&gt;Activity&lt;/a5&gt;&lt;/c4&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11168,6 +11392,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Permissions granted in an &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; remain in effect while the stack of the receiving &lt;c2&gt;&lt;a3&gt;Activity&lt;/a3&gt;&lt;/c2&gt; is active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在 &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; 中授予的权限在接收 &lt;c2&gt;&lt;a3&gt;Activity&lt;/a3&gt;&lt;/c2&gt; 的堆栈处于活动状态时保持有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Permissions granted to one &lt;c4&gt;&lt;a5&gt;Activity&lt;/a5&gt;&lt;/c4&gt; in a client app are automatically extended to other components of that app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在客户端应用程序中授予一个 &lt;c4&gt;&lt;a5&gt;Activity&lt;/a5&gt;&lt;/c4&gt; 的权限会自动扩展到该应用程序的其他组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PluralsRes</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -11284,6 +11524,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>公开静态 final 字段（常量）为全部大写并用下划线连接 (ALL_CAPS_WITH_UNDERSCORES)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Put the &lt;c0&gt;&lt;paths&gt;&lt;/c0&gt; element and its children in an XML file in your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>将 &lt;c0&gt;&lt;paths&gt;&lt;/c0&gt; 元素及其子元素放在项目中的 XML 文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Put the content URI in an &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; by calling &lt;c2&gt;&lt;a3&gt;setData()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>通过调用 &lt;c2&gt;&lt;a3&gt;setData()&lt;/a3&gt;&lt;/c2&gt; 将 content URI 放入 &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; 中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11616,6 +11872,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Represents files in the &lt;c0&gt;files/&lt;/c0&gt; subdirectory of your app's internal storage area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>代表应用程序内部存储区的 &lt;c0&gt;files/&lt;/c0&gt; 子目录中的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Represents files in the cache subdirectory of your app's internal storage area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>代表应用程序内部存储区的缓存子目录中的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Represents the root of the external storage.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>表示外部存储的根目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>RequiresApi</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -11764,6 +12044,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>获取之前设置的adapter，如果没有设置adapter则返回null。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieving the Content URI for a File</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>为文件获取 content URI</seg>
       </tuv>
     </tu>
     <tu>
@@ -12648,6 +12936,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Serving a Content URI to Another App</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>将 content URI 提供给另一个应用程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set X location of the pivot point around which the view will rotate and scale.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -12728,10 +13024,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the &lt;a9&gt;android:grantUriPermissions&lt;/a9&gt; attribute to &lt;c10&gt;true&lt;/c10&gt;, to allow you to grant temporary access to files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>将 &lt;a9&gt;android:grantUriPermissions&lt;/a9&gt; 属性设置为 &lt;c10&gt;true&lt;/c10&gt; ，以允许您授予文件临时访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the &lt;c0&gt;&lt;a1&gt;RecyclerView.LayoutManager&lt;/a1&gt;&lt;/c0&gt; that this RecyclerView will use.</seg>
       </tuv>
       <tuv lang="ZH-CN">
         <seg>设置该RecyclerView 将要使用的&lt;c0&gt;&lt;a1&gt;RecyclerView.LayoutManager&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the &lt;c2&gt;android:name&lt;/c2&gt; attribute to &lt;c3&gt;android.support.v4.content.FileProvider&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>将 &lt;c2&gt;android:name&lt;/c2&gt; 属性设置给 &lt;c3&gt;android.support.v4.content.FileProvider&lt;/c3&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the &lt;c4&gt;&lt;meta-data&gt;&lt;/c4&gt; element's "android:name" attribute to &lt;c5&gt;android.support.FILE_PROVIDER_PATHS&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>将 &lt;c4&gt;&lt;meta-data&gt;&lt;/c4&gt; 元素的 "android:name" 属性设置为 &lt;c5&gt;android.support.FILE_PROVIDER_PATHS&lt;/c5&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the &lt;c4&gt;android:authorities&lt;/c4&gt; attribute to a URI authority based on a domain you control; for example, if you control the domain &lt;c5&gt;mydomain.com&lt;/c5&gt; you should use the authority &lt;c6&gt;com.mydomain.fileprovider&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>将 &lt;c4&gt;android:authorities&lt;/c4&gt; 属性设置为基于您控制的域的 URI 权限;例如，如果您控制域 &lt;c5&gt;mydomain.com&lt;/c5&gt; ，则应使用权限 &lt;c6&gt;com.mydomain.fileprovider&lt;/c6&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the &lt;c7&gt;android:exported&lt;/c7&gt; attribute to &lt;c8&gt;false&lt;/c8&gt;; the FileProvider does not need to be public.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>将 &lt;c7&gt;android:exported&lt;/c7&gt; 属性设置为 &lt;c8&gt;false&lt;/c8&gt; ; FileProvider 不需要公开。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the action to &lt;c5&gt;&lt;a6&gt;ACTION_SEND&lt;/a6&gt;&lt;/c5&gt; and put the URI in data by calling &lt;c7&gt;&lt;a8&gt;setData()&lt;/a8&gt;&lt;/c7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>将动作设置为 &lt;c5&gt;&lt;a6&gt;ACTION_SEND&lt;/a6&gt;&lt;/c5&gt; ，并通过调用 &lt;c7&gt;&lt;a8&gt;setData()&lt;/a8&gt;&lt;/c7&gt; 将数据放入数据中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the element's "android:resource" attribute to &lt;c6&gt;@xml/file_paths&lt;/c6&gt; (notice that you don't specify the &lt;c7&gt;.xml&lt;/c7&gt; extension).</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>将元素的 "android:resource" 属性设置为 &lt;c6&gt;@xml/file_paths&lt;/c6&gt; (请注意，不要指定 &lt;c7&gt;.xml&lt;/c7&gt; 扩展名)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12960,6 +13312,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since the default functionality of FileProvider includes content URI generation for files, you don't need to define a subclass in code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>由于 FileProvider 的默认功能包括为文件生成 content URI ，因此您无需在代码中定义子类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Size</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -13140,6 +13500,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>指定部件的最小宽度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifying Available Files</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>指定可用的文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -13504,6 +13872,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;&lt;paths&gt;&lt;/c0&gt; element must contain one or more of the following child elements:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>&lt;c0&gt;&lt;paths&gt;&lt;/c0&gt; 元素必须包含以下一个或多个子元素：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;String&lt;/c0&gt; class represents character strings.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -13764,6 +14140,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>如果尺寸行为是 MATCH_CONSTRAINT，我们使用的child的权重可以分配链中可用的垂直空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The client app that receives the content URI can open the file and access its contents by calling &lt;c10&gt;&lt;a11&gt;ContentResolver.openFileDescriptor&lt;/a11&gt;&lt;/c10&gt; to get a &lt;c12&gt;&lt;a13&gt;ParcelFileDescriptor&lt;/a13&gt;&lt;/c12&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>接收到 content URI 的客户端应用程序可以通过调用 &lt;c10&gt;&lt;a11&gt;ContentResolver.openFileDescriptor&lt;/a11&gt;&lt;/c10&gt; 来获取一个 &lt;c12&gt;&lt;a13&gt;ParcelFileDescriptor&lt;/a13&gt; &lt;/c12&gt; 以打开文件和访问内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14080,6 +14464,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The increased level of file access security offered by a content URI makes FileProvider a key part of Android's security infrastructure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>由 content URI 提供的文件访问安全级别的提高使得 FileProvider 成为 Android 安全基础设施的关键部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The index of the first character captured by the group, or &lt;t0&gt;-1&lt;/t0&gt; if the match was successful but the group itself did not match anything</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14312,6 +14704,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The permission remains in effect until you revoke it by calling &lt;c10&gt;&lt;a11&gt;revokeUriPermission()&lt;/a11&gt;&lt;/c10&gt; or until the device reboots.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>直到您通过调用 &lt;c10&gt;&lt;a11&gt;revokeUriPermission()&lt;/a11&gt;&lt;/c10&gt; 来取消，或直到设备重新启动为止，权限都会生效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The permissions you provide become available to &lt;e3&gt;any&lt;/e3&gt; app, and remain in effect until you change them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>您提供的权限可用于&lt;e3&gt;任何&lt;/e3&gt;应用程序，并保持有效，直到您更改它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The pink rectangle in the bottom image identifies the region in which the contents of the View are allowed.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14432,6 +14840,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The root path of this subdirectory is the same as the value returned by &lt;c0&gt;&lt;a1&gt;getCacheDir()&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>此子目录的根路径与 &lt;c0&gt;&lt;a1&gt;getCacheDir()&lt;/a1&gt;&lt;/c0&gt; 返回的值相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The root path of this subdirectory is the same that &lt;c0&gt;&lt;a1&gt;Environment.getExternalStorageDirectory()&lt;/a1&gt;&lt;/c0&gt; returns.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>此子目录的根路径与 &lt;c0&gt;&lt;a1&gt;Environment.getExternalStorageDirectory()&lt;/a1&gt;&lt;/c0&gt; 返回的路径相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The second form should parse and apply any attributes defined in the layout file.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14476,6 +14900,22 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>当目标gone时使用的start margin。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The subdirectory name for this value is contained in the &lt;c0&gt;path&lt;/c0&gt; attribute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>该值的子目录名称包含在 &lt;c0&gt;path&lt;/c0&gt; 属性中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The subdirectory you're sharing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>你正在分享的子目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14640,6 +15080,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are a variety of ways to serve the content URI for a file to a client app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>有多种方法可以将文件的 content URI 提供给客户端应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are conventions for using Android's Java libraries and tools.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14760,6 +15208,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These child elements all use the same attributes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这些子元素都使用相同的属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These dimensions define how big a view wants to be within its parent (see &lt;a2&gt;Layout&lt;/a2&gt; for more details.) The measured dimensions can be obtained by calling &lt;c3&gt;&lt;a4&gt;getMeasuredWidth()&lt;/a4&gt;&lt;/c3&gt; and &lt;c5&gt;&lt;a6&gt;getMeasuredHeight()&lt;/a6&gt;&lt;/c5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -14796,6 +15252,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>这些方法返回呈现view的矩形的右边缘和底边缘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These permissions are available to the client app for as long as the stack for a receiving &lt;c4&gt;&lt;a5&gt;Activity&lt;/a5&gt;&lt;/c4&gt; is active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>只要接收 &lt;c4&gt;&lt;a5&gt;Activity&lt;/a5&gt;&lt;/c4&gt; 的堆栈处于活动状态，客户端应用程序就可以使用这些权限。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15009,6 +15473,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This grants temporary access permission for the content URI to the specified package, according to the value of the the &lt;c5&gt;mode_flags&lt;/c5&gt; parameter, which you can set to &lt;c6&gt;&lt;a7&gt;FLAG_GRANT_READ_URI_PERMISSION&lt;/a7&gt;&lt;/c6&gt;, &lt;c8&gt;&lt;a9&gt;FLAG_GRANT_WRITE_URI_PERMISSION&lt;/a9&gt;&lt;/c8&gt; or both.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这将根据 &lt;c5&gt;mode_flags&lt;/c5&gt; 参数的值将 content URI 的临时访问权限授予指定的包，您可以将其设置为 &lt;c6&gt;&lt;a7&gt;FLAG_GRANT_READ_URI_PERMISSION&lt;/a7&gt;&lt;/c6&gt; ， &lt;c8&gt;&lt;a9&gt;FLAG_GRANT_WRITE_URI_PERMISSION&lt;/a9&gt;&lt;/c8&gt; 或两者同时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This guarantees that at the end of the measure pass, all parents accept all of their children's measurements.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -15217,6 +15689,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This level of access is fundamentally insecure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>这种访问级别基本上是不安全的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This level will be logged, even on release builds, and is required to be surrounded by an &lt;c0&gt;if (LOCAL_LOG)&lt;/c0&gt; or &lt;c1&gt;if (LOCAL_LOGD)&lt;/c1&gt; block, where &lt;c2&gt;LOCAL_LOG[D]&lt;/c2&gt; is defined in your class or subcomponent, so that there can exist a possibility to disable all such logging.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -15313,6 +15793,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This overview of FileProvider includes the following topics:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>FileProvider 的这个概述包括以下主题：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This saves LayoutManager from tracking adapter changes to calculate animations.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -15341,6 +15829,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>这种样式是按以下原则选取的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This subdirectory is the same as the value returned by &lt;c1&gt;&lt;a2&gt;Context.getFilesDir()&lt;/a2&gt;&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>该子目录与 &lt;c1&gt;&lt;a2&gt;Context.getFilesDir()&lt;/a2&gt;&lt;/c1&gt; 返回的值相同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15521,6 +16017,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To do this, call &lt;c4&gt;&lt;a5&gt;Intent.setClipData()&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>要这样做，请调用 &lt;c4&gt;&lt;a5&gt;Intent.setClipData()&lt;/a5&gt;&lt;/c4&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To enable the ratio, click &lt;b1&gt;Toggle Aspect Ratio Constraint&lt;/b1&gt; (callout &lt;s2&gt;1&lt;/s2&gt; in figure 10), and then enter the &lt;v3&gt;width&lt;/v3&gt;:&lt;v4&gt;height&lt;/v4&gt; ratio in the input that appears.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -15533,6 +16037,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>要启用触摸过滤，调用&lt;c0&gt;&lt;a1&gt;setFilterTouchesWhenObscured(boolean)&lt;/a1&gt;&lt;/c0&gt; 方法，或者设置android:filterTouchesWhenObscured 布局属性为true。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To enforce security, this value hides the name of the subdirectory you're sharing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>为了加强安全性，该值将隐藏您要共享的子目录的名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15561,6 +16073,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To generate the content URI, create a new &lt;c0&gt;&lt;a1&gt;File&lt;/a1&gt;&lt;/c0&gt; for the file, then pass the &lt;c2&gt;&lt;a3&gt;File&lt;/a3&gt;&lt;/c2&gt; to &lt;c4&gt;&lt;a5&gt;getUriForFile()&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>要生成 content URI，请为该文件创建一个新 &lt;c0&gt;&lt;a1&gt;File&lt;/a1&gt;&lt;/c0&gt; ，然后将 &lt;c2&gt;&lt;a3&gt;File&lt;/a3&gt;&lt;/c2&gt; 传递给 &lt;c4&gt;&lt;a5&gt;getUriForFile()&lt;/a5&gt;&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To get a content URI for the file &lt;c1&gt;default_image.jpg&lt;/c1&gt; in the &lt;c2&gt;images/&lt;/c2&gt; subdirectory of your internal storage add the following code:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>要在内部存储器的 &lt;c2&gt;images/&lt;/c2&gt; 子目录中获取文件 &lt;c1&gt;default_image.jpg&lt;/c1&gt; 的 content URI，请添加以下代码：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To get a particular view to take focus, call &lt;c0&gt;&lt;a1&gt;requestFocus()&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -15573,6 +16101,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>给控制你自定义VIew的一些意见，这里是一些你可做的例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To grant an access permission to a content URI returned from &lt;c0&gt;&lt;a1&gt;getUriForFile()&lt;/a1&gt;&lt;/c0&gt;, do one of the following:</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>要为从 &lt;c0&gt;&lt;a1&gt;getUriForFile()&lt;/a1&gt;&lt;/c0&gt; 返回的 content URI 授予访问权限，请执行以下操作之一：</seg>
       </tuv>
     </tu>
     <tu>
@@ -15601,6 +16137,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To learn more about FileProvider, see the Android training class &lt;a0&gt;Sharing Files Securely with URIs&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>要了解有关 FileProvider 的更多信息，请参阅 Android 培训课程 &lt;a0&gt;Sharing Files Securely with URIs&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To link this file to the FileProvider, add a &lt;a2&gt;&lt;meta-data&gt;&lt;/a2&gt; element as a child of the &lt;c3&gt;&lt;provider&gt;&lt;/c3&gt; element that defines the FileProvider.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>要将此文件链接到 FileProvider，请将 &lt;a2&gt;&lt;meta-data&gt;&lt;/a2&gt; 元素添加为定义 FileProvider 的 &lt;c3&gt;&lt;provider&gt;&lt;/c3&gt; 元素的子元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To measure its dimensions, a view takes into account its padding.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -15621,6 +16173,30 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>要查看使用ConstraintLayout创建的各种布局，请查看GitHub上的&lt;c0&gt;ConstraintLayout&lt;/c0&gt;项目： &lt;a1&gt;Constraint Layout Examples project on GitHub&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To share a file with another app using a content URI, your app has to generate the content URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>要使用 content URI 与另一个应用程序共享文件，您的应用程序必须生成 content URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To specify a directory, specify the its storage area and path in XML, using child elements of the &lt;c0&gt;&lt;paths&gt;&lt;/c0&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>要指定目录，指定其存储区域和 XML 路径，请使用 &lt;c0&gt;&lt;paths&gt;&lt;/c0&gt; 元素的子元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To specify the FileProvider component itself, add a &lt;c0&gt;&lt;a1&gt;&lt;provider&gt;&lt;/a1&gt;&lt;/c0&gt; element to your app manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>要指定 FileProvider 组件本身，请在您的应用清单中添加一个 &lt;c0&gt;&lt;a1&gt;&lt;provider&gt;&lt;/a1&gt;&lt;/c0&gt; 元素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16433,6 +17009,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the stack finishes, the permissions are automatically removed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>堆栈完成后，权限将自动删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When turned on, it automatically creates two or more constraints for each view as you add them to the layout, but only when appropriate to constrain the view to the parent layout.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -16489,6 +17073,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you call &lt;c10&gt;&lt;a11&gt;Intent.setFlags()&lt;/a11&gt;&lt;/c10&gt; on the &lt;c12&gt;&lt;a13&gt;Intent&lt;/a13&gt;&lt;/c12&gt; to set temporary access permissions, the same permissions are applied to all of the content URIs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>在 &lt;c12&gt;&lt;a13&gt;Intent&lt;/a13&gt;&lt;/c12&gt; 上调用 &lt;c10&gt;&lt;a11&gt;Intent.setFlags()&lt;/a11&gt;&lt;/c10&gt; 来设置临时访问权限时，将应用相同的权限到所有的 content URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you create an &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; containing a content URI, in order to send the content URI to a client app, you can also call &lt;c2&gt;&lt;a3&gt;Intent.setFlags()&lt;/a3&gt;&lt;/c2&gt; to add permissions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>当您创建包含 content URI 的 &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; 时，为了将 content URI 发送到客户端应用程序，还可以调用 &lt;c2&gt;&lt;a3&gt;Intent.setFlags()&lt;/a3&gt;&lt;/c2&gt; 添加权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you drop a view into the Layout Editor, it stays where you leave it even if it has no constraints.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -16501,6 +17101,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>当你松开时，约束就会创建，两个view间用&lt;a0&gt;默认的margin&lt;/a0&gt; 隔开。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you use this approach, you can add multiple &lt;c6&gt;&lt;a7&gt;ClipData&lt;/a7&gt;&lt;/c6&gt; objects to the &lt;c8&gt;&lt;a9&gt;Intent&lt;/a9&gt;&lt;/c8&gt;, each with its own content URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>当你使用这种方法时，你可以添加多个 &lt;c6&gt;&lt;a7&gt;ClipData&lt;/a7&gt;&lt;/c6&gt; 对象到 &lt;c8&gt;&lt;a9&gt;Intent&lt;/a9&gt;&lt;/c8&gt; ，每个都有其自己的 content URI 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16533,6 +17141,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>虽然关于此规则存在很多争论，但最终决定仍是以 100 个字符为上限，&lt;e0&gt;不过存在以下例外情况&lt;/e0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While the &lt;c0&gt;name&lt;/c0&gt; attribute is a URI path segment, the &lt;c1&gt;path&lt;/c1&gt; value is an actual subdirectory name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>虽然 &lt;c0&gt;name&lt;/c0&gt; 属性是一个 URI 路径段，但 &lt;c1&gt;path&lt;/c1&gt; 值是一个实际的子目录名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16673,6 +17289,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also put the content URI in a &lt;c0&gt;&lt;a1&gt;ClipData&lt;/a1&gt;&lt;/c0&gt; object and then add the object to an &lt;c2&gt;&lt;a3&gt;Intent&lt;/a3&gt;&lt;/c2&gt; you send to a client app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>您也可以将 content URI 放在 &lt;c0&gt;&lt;a1&gt;ClipData&lt;/a1&gt;&lt;/c0&gt; 对象中，然后将该对象添加到发送给客户端应用的 &lt;c2&gt;&lt;a3&gt;Intent&lt;/a3&gt;&lt;/c2&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also select all the views you want to align, and then click &lt;b0&gt;Align&lt;/b0&gt; &lt;i1&gt; in the toolbar to select the alignment type.</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -16801,6 +17425,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can send the content URI returned by &lt;c6&gt;&lt;a7&gt;getUriForFile()&lt;/a7&gt;&lt;/c6&gt; to another app in an &lt;c8&gt;&lt;a9&gt;Intent&lt;/a9&gt;&lt;/c8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>您可以将由 &lt;c6&gt;&lt;a7&gt;getUriForFile()&lt;/a7&gt;&lt;/c6&gt; 返回的 content URI 放到 &lt;c8&gt;&lt;a9&gt;Intent&lt;/a9&gt;&lt;/c8&gt; 中发送给其他应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can set the view size to a ratio such as 16:9 if at least one of the view dimensions is set to "match constraints" (&lt;c0&gt;0dp&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN">
@@ -16845,6 +17477,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>你可以使用拐角手柄来调整view大小，但这样会硬编码大小，因此view不会调整为不同的内容或屏幕尺寸大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can't share a single file by its file name, nor can you specify a subset of files using wildcards.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>您不能按文件名共享单个文件，也不能使用通配符指定文件的子集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16949,6 +17589,14 @@
       </tuv>
       <tuv lang="ZH-CN">
         <seg>您必须有原则地处理代码中的每个异常；具体处理方式因情况而异。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You must specify a child element of &lt;c0&gt;&lt;paths&gt;&lt;/c0&gt; for each directory that contains files for which you want content URIs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN">
+        <seg>您必须为每个包含您需要 content URI 的文件的目录指定 &lt;c0&gt;&lt;paths&gt;&lt;/c0&gt; 的子元素。</seg>
       </tuv>
     </tu>
     <tu>
