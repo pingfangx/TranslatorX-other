@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from git-scm.com/docs/git-cvsexportcommit by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:49:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+
+  <title>Git - git-cvsexportcommit Documentation</title>
+
+  <link href='https://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+  <link rel="alternate" href="https://git-scm.com/blog.rss" type="application/rss+xml" title="Git - Blog">
+
+  <link rel="stylesheet" media="screen" href="../assets/git-scm-e7baad50e93810401dcff271ffd82512.css" />
+  <script src="../assets/modernizr-0a2ce4076d64283b11c658f7ef3100c6.js"></script>
+<script src="../assets/modernizr-tests-73fae1efb92f6d477f2f589e95775709.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/javascripts/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <script src="../../use.typekit.com/jsq2fql.js" type="text/javascript"></script>
+  <script>
+    //<![CDATA[
+      try{Typekit.load();}catch(e){}
+    //]]>
+  </script>
+
+</head>
+
+<body id="documentation">
+
+  <div class="inner">
+    <header>
+
+  <a href="https://git-scm.com/"><img src="../images/logo%402x.png" width="110" height="46" alt="Git" /></a>
+  <span id="tagline"></span>
+  <script type="text/javascript">
+    var taglines = ["fast-version-control","everything-is-local","distributed-even-if-your-workflow-isnt","local-branching-on-the-cheap","distributed-is-the-new-centralized"];
+    var tagline = taglines[Math.floor(Math.random() * taglines.length)];
+    document.getElementById('tagline').innerHTML = '--' + tagline;
+  </script>
+  <form id="search" action="https://git-scm.com/search/results">
+    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
+  </form>
+  <div id="search-results"></div>
+
+</header>
+
+  </div> <!-- .inner -->
+
+    <div class="inner">
+      <div id="content-wrapper">
+        <aside class="sidebar">
+  <nav>
+    <ul>
+      <li>
+        <a href="https://git-scm.com/about">About</a>
+      </li>
+      <li>
+        <a class="active" href="https://git-scm.com/doc">Documentation</a>
+        <ul class="expanded">
+          <li>
+            <a href="https://git-scm.com/docs">Reference</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/book">Book</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/videos">Videos</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/doc/ext">External Links</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/blog">Blog</a>
+      </li>
+      <li>
+        <a href="https://git-scm.com/downloads">Downloads</a>
+        <ul class="">
+          <li>
+            <a href="https://git-scm.com/downloads/guis">GUI Clients</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/downloads/logos">Logos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/community">Community</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+        <div id="content">
+          
+
+  <div id='reference-version'>
+    <a class="dropdown-trigger" id="reference-topics-trigger" data-panel-id="topics-dropdown" href="#">Topics ▾</a>
+<div class='dropdown-panel right' id='topics-dropdown'>
+  <div class='three-column'>
+    <div class='column-left'>
+      <h3 class='setup'>Setup and Config</h3>
+<ul class='unstyled'>
+  <li><a href="git.html">git</a></li>
+  <li><a href="git-config.html">config</a></li>
+  <li><a href="git-help.html">help</a></li>
+</ul>
+
+      <h3 class='projects'>Getting and Creating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="git-init.html">init</a></li>
+  <li><a href="git-clone.html">clone</a></li>
+</ul>
+
+      <h3 class='snapshotting'>Basic Snapshotting</h3>
+<ul class='unstyled'>
+  <li><a href="git-add.html">add</a></li>
+  <li><a href="git-status.html">status</a></li>
+  <li><a href="git-diff.html">diff</a></li>
+  <li><a href="git-commit.html">commit</a></li>
+  <li><a href="git-reset.html">reset</a></li>
+  <li><a href="git-rm.html">rm</a></li>
+  <li><a href="git-mv.html">mv</a></li>
+</ul>
+
+      <h3 class='branching'>Branching and Merging</h3>
+<ul class='unstyled'>
+  <li><a href="git-branch.html">branch</a></li>
+  <li><a href="git-checkout.html">checkout</a></li>
+  <li><a href="git-merge.html">merge</a></li>
+  <li><a href="git-mergetool.html">mergetool</a></li>
+  <li><a href="git-log.html">log</a></li>
+  <li><a href="git-stash.html">stash</a></li>
+  <li><a href="git-tag.html">tag</a></li>
+</ul>
+
+      <h3 class='sharing'>Sharing and Updating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="git-fetch.html">fetch</a></li>
+  <li><a href="git-pull.html">pull</a></li>
+  <li><a href="git-push.html">push</a></li>
+  <li><a href="git-remote.html">remote</a></li>
+  <li><a href="git-submodule.html">submodule</a></li>
+</ul>
+
+    </div>
+    <div class='column-middle'>
+      <h3 class='inspection'>Inspection and Comparison</h3>
+<ul class='unstyled'>
+  <li><a href="git-show.html">show</a></li>
+  <li><a href="git-log.html">log</a></li>
+  <li><a href="git-diff.html">diff</a></li>
+  <li><a href="git-shortlog.html">shortlog</a></li>
+  <li><a href="git-describe.html">describe</a></li>
+</ul>
+
+      <h3 class='patching'>Patching</h3>
+<ul class='unstyled'>
+  <li><a href="git-apply.html">apply</a></li>
+  <li><a href="git-cherry-pick.html">cherry-pick</a></li>
+  <li><a href="git-diff.html">diff</a></li>
+  <li><a href="git-rebase.html">rebase</a></li>
+  <li><a href="git-revert.html">revert</a></li>
+</ul>
+
+      <h3 class='debugging'>Debugging</h3>
+<ul class='unstyled'>
+  <li><a href="git-bisect.html">bisect</a></li>
+  <li><a href="git-blame.html">blame</a></li>
+  <li><a href="git-grep.html">grep</a></li>
+</ul>
+
+      <h3 class='email'>Email</h3>
+<ul class='unstyled'>
+  <li><a href="git-am.html">am</a></li>
+  <li><a href="git-apply.html">apply</a></li>
+  <li><a href="git-format-patch.html">format-patch</a></li>
+  <li><a href="git-send-email.html">send-email</a></li>
+  <li><a href="git-request-pull.html">request-pull</a></li>
+</ul>
+
+      <h3 class='external'>External Systems</h3>
+<ul class='unstyled'>
+  <li><a href="git-svn.html">svn</a></li>
+  <li><a href="git-fast-import.html">fast-import</a></li>
+</ul>
+
+      <h3 class='server-admin'>Server Admin</h3>
+<ul class='unstyled'>
+  <li><a href="git-daemon.html">daemon</a></li>
+  <li><a href="git-update-server-info.html">update-server-info</a></li>
+</ul>
+
+    </div>
+    <div class='column-right'>
+      <h3 class='guides'>Guides</h3>
+<ul class='unstyled'>
+  <li><a href="gitattributes.html">gitattributes</a></li>
+  <li><a href="giteveryday.html">Everyday Git</a></li>
+  <li><a href="gitglossary.html">Glossary</a></li>
+  <li><a href="gitignore.html">gitignore</a></li>
+  <li><a href="gitmodules.html">gitmodules</a></li>
+  <li><a href="gitrevisions.html">Revisions</a></li>
+  <li><a href="gittutorial.html">Tutorial</a></li>
+  <li><a href="gitworkflows.html">Workflows</a></li>
+</ul>
+
+      <h3 class='admin'>Administration</h3>
+<ul class='unstyled'>
+  <li><a href="git-clean.html">clean</a></li>
+  <li><a href="git-gc.html">gc</a></li>
+  <li><a href="git-fsck.html">fsck</a></li>
+  <li><a href="git-reflog.html">reflog</a></li>
+  <li><a href="git-filter-branch.html">filter-branch</a></li>
+  <li><a href="git-instaweb.html">instaweb</a></li>
+  <li><a href="git-archive.html">archive</a></li>
+  <li><a href="git-bundle.html">bundle</a></li>
+</ul>
+
+      <h3 class='plumbing'>Plumbing Commands</h3>
+<ul class='unstyled'>
+  <li><a href="git-cat-file.html">cat-file</a></li>
+  <li><a href="git-check-ignore.html">check-ignore</a></li>
+  <li><a href="git-commit-tree.html">commit-tree</a></li>
+  <li><a href="git-count-objects.html">count-objects</a></li>
+  <li><a href="git-diff-index.html">diff-index</a></li>
+  <li><a href="git-for-each-ref.html">for-each-ref</a></li>
+  <li><a href="git-hash-object.html">hash-object</a></li>
+  <li><a href="git-ls-files.html">ls-files</a></li>
+  <li><a href="git-merge-base.html">merge-base</a></li>
+  <li><a href="git-read-tree.html">read-tree</a></li>
+  <li><a href="git-rev-list.html">rev-list</a></li>
+  <li><a href="git-rev-parse.html">rev-parse</a></li>
+  <li><a href="git-show-ref.html">show-ref</a></li>
+  <li><a href="git-symbolic-ref.html">symbolic-ref</a></li>
+  <li><a href="git-update-index.html">update-index</a></li>
+  <li><a href="git-update-ref.html">update-ref</a></li>
+  <li><a href="git-verify-pack.html">verify-pack</a></li>
+  <li><a href="git-write-tree.html">write-tree</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+    <a class="dropdown-trigger" id="reference-versions-trigger" data-panel-id="previous-versions-dropdown" href="#">Version 2.14.2 ▾</a>
+<span class="light">git-cvsexportcommit last updated in 2.14.2</span>
+<div class='dropdown-panel left' id='previous-versions-dropdown'>
+  <header>Changes in the <strong>git-cvsexportcommit</strong> manual</header>
+  <ol class='reference-previous-versions'>
+    <li>&nbsp;</li>
+    <!-- <li><a class="more" href="#">See more previous releases →</a></li> -->
+  </ol>
+  <footer>
+    <span class="light">Check your version of git by running<br></span>
+    <strong>$</strong>
+    <input type="text" class="copyable" value="git --version" />
+  </footer>
+</div>
+
+  </div>
+
+  <div id='main'>
+    <div class="sect1">
+<h2 id="_name"><a class="anchor" href="#_name"></a>NAME</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>git-cvsexportcommit - Export a single commit to a CVS checkout</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_synopsis"><a class="anchor" href="#_synopsis"></a>SYNOPSIS</h2>
+<div class="sectionbody">
+<div class="verseblock">
+<pre class="content"><em>git cvsexportcommit</em> [-h] [-u] [-v] [-c] [-P] [-p] [-a] [-d cvsroot]
+	[-w cvsworkdir] [-W] [-f] [-m msgprefix] [PARENTCOMMIT] COMMITID</pre>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_description"><a class="anchor" href="#_description"></a>DESCRIPTION</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Exports a commit from Git to a CVS checkout, making it easier
+to merge patches from a Git repository into a CVS repository.</p>
+</div>
+<div class="paragraph">
+<p>Specify the name of a CVS checkout using the -w switch or execute it
+from the root of the CVS working copy. In the latter case GIT_DIR must
+be defined. See examples below.</p>
+</div>
+<div class="paragraph">
+<p>It does its best to do the safe thing, it will check that the files are
+unchanged and up to date in the CVS checkout, and it will not autocommit
+by default.</p>
+</div>
+<div class="paragraph">
+<p>Supports file additions, removals, and commits that affect binary files.</p>
+</div>
+<div class="paragraph">
+<p>If the commit is a merge commit, you must tell <em>git cvsexportcommit</em> what
+parent the changeset should be done against.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_options"><a class="anchor" href="#_options"></a>OPTIONS</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1" id="git-cvsexportcommit--c"> <a class="anchor" href="#git-cvsexportcommit--c"></a>-c </dt>
+<dd>
+<p>Commit automatically if the patch applied cleanly. It will not
+commit if any hunks fail to apply or there were other problems.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--p"> <a class="anchor" href="#git-cvsexportcommit--p"></a>-p </dt>
+<dd>
+<p>Be pedantic (paranoid) when applying patches. Invokes patch with
+--fuzz=0</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--a"> <a class="anchor" href="#git-cvsexportcommit--a"></a>-a </dt>
+<dd>
+<p>Add authorship information. Adds Author line, and Committer (if
+different from Author) to the message.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--d"> <a class="anchor" href="#git-cvsexportcommit--d"></a>-d </dt>
+<dd>
+<p>Set an alternative CVSROOT to use.  This corresponds to the CVS
+-d parameter.  Usually users will not want to set this, except
+if using CVS in an asymmetric fashion.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--f"> <a class="anchor" href="#git-cvsexportcommit--f"></a>-f </dt>
+<dd>
+<p>Force the merge even if the files are not up to date.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--P"> <a class="anchor" href="#git-cvsexportcommit--P"></a>-P </dt>
+<dd>
+<p>Force the parent commit, even if it is not a direct parent.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--m"> <a class="anchor" href="#git-cvsexportcommit--m"></a>-m </dt>
+<dd>
+<p>Prepend the commit message with the provided prefix.
+Useful for patch series and the like.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--u"> <a class="anchor" href="#git-cvsexportcommit--u"></a>-u </dt>
+<dd>
+<p>Update affected files from CVS repository before attempting export.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--k"> <a class="anchor" href="#git-cvsexportcommit--k"></a>-k </dt>
+<dd>
+<p>Reverse CVS keyword expansion (e.g. $Revision: 1.2.3.4$
+becomes $Revision$) in working CVS checkout before applying patch.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--w"> <a class="anchor" href="#git-cvsexportcommit--w"></a>-w </dt>
+<dd>
+<p>Specify the location of the CVS checkout to use for the export. This
+option does not require GIT_DIR to be set before execution if the
+current directory is within a Git repository.  The default is the
+value of <em>cvsexportcommit.cvsdir</em>.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--W"> <a class="anchor" href="#git-cvsexportcommit--W"></a>-W </dt>
+<dd>
+<p>Tell cvsexportcommit that the current working directory is not only
+a Git checkout, but also the CVS checkout.  Therefore, Git will
+reset the working directory to the parent commit before proceeding.</p>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit--v"> <a class="anchor" href="#git-cvsexportcommit--v"></a>-v </dt>
+<dd>
+<p>Verbose.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_configuration"><a class="anchor" href="#_configuration"></a>CONFIGURATION</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1" id="git-cvsexportcommit-cvsexportcommitcvsdir"> <a class="anchor" href="#git-cvsexportcommit-cvsexportcommitcvsdir"></a>cvsexportcommit.cvsdir </dt>
+<dd>
+<p>The default location of the CVS checkout to use for the export.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_examples"><a class="anchor" href="#_examples"></a>EXAMPLES</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1" id="git-cvsexportcommit-MergeonepatchintoCVS"> <a class="anchor" href="#git-cvsexportcommit-MergeonepatchintoCVS"></a>Merge one patch into CVS </dt>
+<dd>
+<div class="listingblock">
+<div class="content">
+<pre>$ export GIT_DIR=~/project/.git
+$ cd ~/project_cvs_checkout
+$ git cvsexportcommit -v &lt;commit-sha1&gt;
+$ cvs commit -F .msg &lt;files&gt;</pre>
+</div>
+</div>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit-MergeonepatchintoCVS-cand-woptionsTheworkingdirectoryiswithintheGitRepo"> <a class="anchor" href="#git-cvsexportcommit-MergeonepatchintoCVS-cand-woptionsTheworkingdirectoryiswithintheGitRepo"></a>Merge one patch into CVS (-c and -w options). The working directory is within the Git Repo </dt>
+<dd>
+<div class="listingblock">
+<div class="content">
+<pre>	$ git cvsexportcommit -v -c -w ~/project_cvs_checkout &lt;commit-sha1&gt;</pre>
+</div>
+</div>
+</dd>
+<dt class="hdlist1" id="git-cvsexportcommit-MergependingpatchesintoCVSautomatically820182128201onlyifyoureallyknowwhatyouaredoing"> <a class="anchor" href="#git-cvsexportcommit-MergependingpatchesintoCVSautomatically820182128201onlyifyoureallyknowwhatyouaredoing"></a>Merge pending patches into CVS automatically&#8201;&#8212;&#8201;only if you really know what you are doing </dt>
+<dd>
+<div class="listingblock">
+<div class="content">
+<pre>$ export GIT_DIR=~/project/.git
+$ cd ~/project_cvs_checkout
+$ git cherry cvshead myhead | sed -n 's/^+ //p' | xargs -l1 git cvsexportcommit -c -p -v</pre>
+</div>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_git"><a class="anchor" href="#_git"></a>GIT</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Part of the <a href='git.html'>git[1]</a> suite</p>
+</div>
+</div>
+</div>
+  </div>
+
+        </div>
+      </div>
+      <footer>
+  <div class="site-source">
+    This <a href="https://github.com/git/git-scm.com/blob/master/README.md#license">open sourced</a> site is <a href="https://github.com/git/git-scm.com">hosted on GitHub.</a><br>
+    Patches, suggestions and comments are welcome.
+  </div>
+  <div class="sfc-member">
+    Git is a member of <a href="https://git-scm.com/sfc">Software Freedom Conservancy</a>
+  </div>
+</footer>
+
+<script src="../assets/jquery-1.7.1.min-1e7a63d6feb237e04147914d7b3f8b05.js"></script>
+<script src="../assets/jquery-ui-1.8.18.custom.min-01c113ee6bd3a021d2aceb47c8807458.js"></script>
+<script src="../assets/jquery.defaultvalue-a3344e839433713d41ec7304ecdd6138.js"></script>
+<script src="../assets/session.min-bf0ddfe17e69417e50f0eb3b9c3e1214.js"></script>
+<script src="../assets/site-19b3bff50bab526421befb3d0b04eb62.js"></script>
+
+    </div>
+
+</body>
+
+<!-- Mirrored from git-scm.com/docs/git-cvsexportcommit by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:49:27 GMT -->
+</html>

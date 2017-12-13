@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from git-scm.com/docs/git-bisect by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:45:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+
+  <title>Git - git-bisect Documentation</title>
+
+  <link href='https://git-scm.com/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+  <link rel="alternate" href="https://git-scm.com/blog.rss" type="application/rss+xml" title="Git - Blog">
+
+  <link rel="stylesheet" media="screen" href="../assets/git-scm-e7baad50e93810401dcff271ffd82512.css" />
+  <script src="../assets/modernizr-0a2ce4076d64283b11c658f7ef3100c6.js"></script>
+<script src="../assets/modernizr-tests-73fae1efb92f6d477f2f589e95775709.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/javascripts/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <script src="../../use.typekit.com/jsq2fql.js" type="text/javascript"></script>
+  <script>
+    //<![CDATA[
+      try{Typekit.load();}catch(e){}
+    //]]>
+  </script>
+
+</head>
+
+<body id="documentation">
+
+  <div class="inner">
+    <header>
+
+  <a href="https://git-scm.com/"><img src="../images/logo%402x.png" width="110" height="46" alt="Git" /></a>
+  <span id="tagline"></span>
+  <script type="text/javascript">
+    var taglines = ["fast-version-control","everything-is-local","distributed-even-if-your-workflow-isnt","local-branching-on-the-cheap","distributed-is-the-new-centralized"];
+    var tagline = taglines[Math.floor(Math.random() * taglines.length)];
+    document.getElementById('tagline').innerHTML = '--' + tagline;
+  </script>
+  <form id="search" action="https://git-scm.com/search/results">
+    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
+  </form>
+  <div id="search-results"></div>
+
+</header>
+
+  </div> <!-- .inner -->
+
+    <div class="inner">
+      <div id="content-wrapper">
+        <aside class="sidebar">
+  <nav>
+    <ul>
+      <li>
+        <a href="https://git-scm.com/about">About</a>
+      </li>
+      <li>
+        <a class="active" href="https://git-scm.com/doc">Documentation</a>
+        <ul class="expanded">
+          <li>
+            <a href="https://git-scm.com/docs">Reference</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/book">Book</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/videos">Videos</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/doc/ext">External Links</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/blog">Blog</a>
+      </li>
+      <li>
+        <a href="https://git-scm.com/downloads">Downloads</a>
+        <ul class="">
+          <li>
+            <a href="https://git-scm.com/downloads/guis">GUI Clients</a>
+          </li>
+          <li>
+            <a href="https://git-scm.com/downloads/logos">Logos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://git-scm.com/community">Community</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+        <div id="content">
+          
+
+  <div id='reference-version'>
+    <a class="dropdown-trigger" id="reference-topics-trigger" data-panel-id="topics-dropdown" href="#">Topics ▾</a>
+<div class='dropdown-panel right' id='topics-dropdown'>
+  <div class='three-column'>
+    <div class='column-left'>
+      <h3 class='setup'>Setup and Config</h3>
+<ul class='unstyled'>
+  <li><a href="git.html">git</a></li>
+  <li><a href="git-config.html">config</a></li>
+  <li><a href="git-help.html">help</a></li>
+</ul>
+
+      <h3 class='projects'>Getting and Creating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="git-init.html">init</a></li>
+  <li><a href="git-clone.html">clone</a></li>
+</ul>
+
+      <h3 class='snapshotting'>Basic Snapshotting</h3>
+<ul class='unstyled'>
+  <li><a href="git-add.html">add</a></li>
+  <li><a href="git-status.html">status</a></li>
+  <li><a href="git-diff.html">diff</a></li>
+  <li><a href="git-commit.html">commit</a></li>
+  <li><a href="git-reset.html">reset</a></li>
+  <li><a href="git-rm.html">rm</a></li>
+  <li><a href="git-mv.html">mv</a></li>
+</ul>
+
+      <h3 class='branching'>Branching and Merging</h3>
+<ul class='unstyled'>
+  <li><a href="git-branch.html">branch</a></li>
+  <li><a href="git-checkout.html">checkout</a></li>
+  <li><a href="git-merge.html">merge</a></li>
+  <li><a href="git-mergetool.html">mergetool</a></li>
+  <li><a href="git-log.html">log</a></li>
+  <li><a href="git-stash.html">stash</a></li>
+  <li><a href="git-tag.html">tag</a></li>
+</ul>
+
+      <h3 class='sharing'>Sharing and Updating Projects</h3>
+<ul class='unstyled'>
+  <li><a href="git-fetch.html">fetch</a></li>
+  <li><a href="git-pull.html">pull</a></li>
+  <li><a href="git-push.html">push</a></li>
+  <li><a href="git-remote.html">remote</a></li>
+  <li><a href="git-submodule.html">submodule</a></li>
+</ul>
+
+    </div>
+    <div class='column-middle'>
+      <h3 class='inspection'>Inspection and Comparison</h3>
+<ul class='unstyled'>
+  <li><a href="git-show.html">show</a></li>
+  <li><a href="git-log.html">log</a></li>
+  <li><a href="git-diff.html">diff</a></li>
+  <li><a href="git-shortlog.html">shortlog</a></li>
+  <li><a href="git-describe.html">describe</a></li>
+</ul>
+
+      <h3 class='patching'>Patching</h3>
+<ul class='unstyled'>
+  <li><a href="git-apply.html">apply</a></li>
+  <li><a href="git-cherry-pick.html">cherry-pick</a></li>
+  <li><a href="git-diff.html">diff</a></li>
+  <li><a href="git-rebase.html">rebase</a></li>
+  <li><a href="git-revert.html">revert</a></li>
+</ul>
+
+      <h3 class='debugging'>Debugging</h3>
+<ul class='unstyled'>
+  <li><a href="git-bisect.html">bisect</a></li>
+  <li><a href="git-blame.html">blame</a></li>
+  <li><a href="git-grep.html">grep</a></li>
+</ul>
+
+      <h3 class='email'>Email</h3>
+<ul class='unstyled'>
+  <li><a href="git-am.html">am</a></li>
+  <li><a href="git-apply.html">apply</a></li>
+  <li><a href="git-format-patch.html">format-patch</a></li>
+  <li><a href="git-send-email.html">send-email</a></li>
+  <li><a href="git-request-pull.html">request-pull</a></li>
+</ul>
+
+      <h3 class='external'>External Systems</h3>
+<ul class='unstyled'>
+  <li><a href="git-svn.html">svn</a></li>
+  <li><a href="git-fast-import.html">fast-import</a></li>
+</ul>
+
+      <h3 class='server-admin'>Server Admin</h3>
+<ul class='unstyled'>
+  <li><a href="git-daemon.html">daemon</a></li>
+  <li><a href="git-update-server-info.html">update-server-info</a></li>
+</ul>
+
+    </div>
+    <div class='column-right'>
+      <h3 class='guides'>Guides</h3>
+<ul class='unstyled'>
+  <li><a href="gitattributes.html">gitattributes</a></li>
+  <li><a href="giteveryday.html">Everyday Git</a></li>
+  <li><a href="gitglossary.html">Glossary</a></li>
+  <li><a href="gitignore.html">gitignore</a></li>
+  <li><a href="gitmodules.html">gitmodules</a></li>
+  <li><a href="gitrevisions.html">Revisions</a></li>
+  <li><a href="gittutorial.html">Tutorial</a></li>
+  <li><a href="gitworkflows.html">Workflows</a></li>
+</ul>
+
+      <h3 class='admin'>Administration</h3>
+<ul class='unstyled'>
+  <li><a href="git-clean.html">clean</a></li>
+  <li><a href="git-gc.html">gc</a></li>
+  <li><a href="git-fsck.html">fsck</a></li>
+  <li><a href="git-reflog.html">reflog</a></li>
+  <li><a href="git-filter-branch.html">filter-branch</a></li>
+  <li><a href="git-instaweb.html">instaweb</a></li>
+  <li><a href="git-archive.html">archive</a></li>
+  <li><a href="git-bundle.html">bundle</a></li>
+</ul>
+
+      <h3 class='plumbing'>Plumbing Commands</h3>
+<ul class='unstyled'>
+  <li><a href="git-cat-file.html">cat-file</a></li>
+  <li><a href="git-check-ignore.html">check-ignore</a></li>
+  <li><a href="git-commit-tree.html">commit-tree</a></li>
+  <li><a href="git-count-objects.html">count-objects</a></li>
+  <li><a href="git-diff-index.html">diff-index</a></li>
+  <li><a href="git-for-each-ref.html">for-each-ref</a></li>
+  <li><a href="git-hash-object.html">hash-object</a></li>
+  <li><a href="git-ls-files.html">ls-files</a></li>
+  <li><a href="git-merge-base.html">merge-base</a></li>
+  <li><a href="git-read-tree.html">read-tree</a></li>
+  <li><a href="git-rev-list.html">rev-list</a></li>
+  <li><a href="git-rev-parse.html">rev-parse</a></li>
+  <li><a href="git-show-ref.html">show-ref</a></li>
+  <li><a href="git-symbolic-ref.html">symbolic-ref</a></li>
+  <li><a href="git-update-index.html">update-index</a></li>
+  <li><a href="git-update-ref.html">update-ref</a></li>
+  <li><a href="git-verify-pack.html">verify-pack</a></li>
+  <li><a href="git-write-tree.html">write-tree</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+    <a class="dropdown-trigger" id="reference-versions-trigger" data-panel-id="previous-versions-dropdown" href="#">Version 2.14.2 ▾</a>
+<span class="light">git-bisect last updated in 2.14.2</span>
+<div class='dropdown-panel left' id='previous-versions-dropdown'>
+  <header>Changes in the <strong>git-bisect</strong> manual</header>
+  <ol class='reference-previous-versions'>
+        <li class="no-change"><span>2.13.1 &rarr; 2.14.2 no changes</span></li>
+        <li>
+        <a href="git-bisect/2.13.html"><span class="version">2.13.0</span>
+          <span class="diff">
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">05/09/17</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.11.2 &rarr; 2.12.5 no changes</span></li>
+        <li>
+        <a href="git-bisect/2.11.html"><span class="version">2.11.1</span>
+          <span class="diff">
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">02/02/17</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.9.4 &rarr; 2.11.0 no changes</span></li>
+        <li>
+        <a href="git-bisect/2.9.html"><span class="version">2.9.3</span>
+          <span class="diff">
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">08/12/16</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.9.2 no changes</span></li>
+        <li>
+        <a href="git-bisect/2.9-2.html"><span class="version">2.9.1</span>
+          <span class="diff">
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">07/11/16</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.7.1 &rarr; 2.9.0 no changes</span></li>
+        <li>
+        <a href="git-bisect/2.7.html"><span class="version">2.7.0</span>
+          <span class="diff">
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+          </span>
+          <em class="date">01/04/16</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.6.4 &rarr; 2.6.7 no changes</span></li>
+        <li>
+        <a href="git-bisect/2.6.html"><span class="version">2.6.3</span>
+          <span class="diff">
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">11/05/15</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.6.1 &rarr; 2.6.2 no changes</span></li>
+        <li>
+        <a href="git-bisect/2.6-2.html"><span class="version">2.6.0</span>
+          <span class="diff">
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">09/28/15</em>
+        </a>
+        </li>
+        <li class="no-change"><span>2.1.1 &rarr; 2.5.6 no changes</span></li>
+        <li>
+        <a href="git-bisect/2.1.html"><span class="version">2.1.0</span>
+          <span class="diff">
+              <img src="../images/icons/green-dot.png" />
+              <img src="../images/icons/red-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+              <img src="../images/icons/grey-dot.png" />
+          </span>
+          <em class="date">08/15/14</em>
+        </a>
+        </li>
+    <li>&nbsp;</li>
+    <!-- <li><a class="more" href="#">See more previous releases →</a></li> -->
+  </ol>
+  <footer>
+    <span class="light">Check your version of git by running<br></span>
+    <strong>$</strong>
+    <input type="text" class="copyable" value="git --version" />
+  </footer>
+</div>
+
+  </div>
+
+  <div id='main'>
+    <div class="sect1">
+<h2 id="_name"><a class="anchor" href="#_name"></a>NAME</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>git-bisect - Use binary search to find the commit that introduced a bug</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_synopsis"><a class="anchor" href="#_synopsis"></a>SYNOPSIS</h2>
+<div class="sectionbody">
+<div class="verseblock">
+<pre class="content"><em>git bisect</em> &lt;subcommand&gt; &lt;options&gt;</pre>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_description"><a class="anchor" href="#_description"></a>DESCRIPTION</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The command takes various subcommands, and different options depending
+on the subcommand:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>git bisect start [--term-{old,good}=&lt;term&gt; --term-{new,bad}=&lt;term&gt;]
+	  [--no-checkout] [&lt;bad&gt; [&lt;good&gt;...]] [--] [&lt;paths&gt;...]
+git bisect (bad|new|&lt;term-new&gt;) [&lt;rev&gt;]
+git bisect (good|old|&lt;term-old&gt;) [&lt;rev&gt;...]
+git bisect terms [--term-good | --term-bad]
+git bisect skip [(&lt;rev&gt;|&lt;range&gt;)...]
+git bisect reset [&lt;commit&gt;]
+git bisect visualize
+git bisect replay &lt;logfile&gt;
+git bisect log
+git bisect run &lt;cmd&gt;...
+git bisect help</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This command uses a binary search algorithm to find which commit in
+your project&#8217;s history introduced a bug. You use it by first telling
+it a "bad" commit that is known to contain the bug, and a "good"
+commit that is known to be before the bug was introduced. Then <code>git
+bisect</code> picks a commit between those two endpoints and asks you
+whether the selected commit is "good" or "bad". It continues narrowing
+down the range until it finds the exact commit that introduced the
+change.</p>
+</div>
+<div class="paragraph">
+<p>In fact, <code>git bisect</code> can be used to find the commit that changed
+<strong>any</strong> property of your project; e.g., the commit that fixed a bug, or
+the commit that caused a benchmark&#8217;s performance to improve. To
+support this more general usage, the terms "old" and "new" can be used
+in place of "good" and "bad", or you can choose your own terms. See
+section "Alternate terms" below for more information.</p>
+</div>
+<div class="sect2">
+<h3 id="_basic_bisect_commands_start_bad_good"><a class="anchor" href="#_basic_bisect_commands_start_bad_good"></a>Basic bisect commands: start, bad, good</h3>
+<div class="paragraph">
+<p>As an example, suppose you are trying to find the commit that broke a
+feature that was known to work in version <code>v2.6.13-rc2</code> of your
+project. You start a bisect session as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect start
+$ git bisect bad                 # Current version is bad
+$ git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Once you have specified at least one bad and one good commit, <code>git
+bisect</code> selects a commit in the middle of that range of history,
+checks it out, and outputs something similar to the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Bisecting: 675 revisions left to test after this (roughly 10 steps)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You should now compile the checked-out version and test it. If that
+version works correctly, type</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect good</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If that version is broken, type</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect bad</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then <code>git bisect</code> will respond with something like</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Bisecting: 337 revisions left to test after this (roughly 9 steps)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Keep repeating the process: compile the tree, test it, and depending
+on whether it is good or bad run <code>git bisect good</code> or <code>git bisect bad</code>
+to ask for the next commit that needs testing.</p>
+</div>
+<div class="paragraph">
+<p>Eventually there will be no more revisions left to inspect, and the
+command will print out a description of the first bad commit. The
+reference <code>refs/bisect/bad</code> will be left pointing at that commit.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bisect_reset"><a class="anchor" href="#_bisect_reset"></a>Bisect reset</h3>
+<div class="paragraph">
+<p>After a bisect session, to clean up the bisection state and return to
+the original HEAD, issue the following command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect reset</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>By default, this will return your tree to the commit that was checked
+out before <code>git bisect start</code>.  (A new <code>git bisect start</code> will also do
+that, as it cleans up the old bisection state.)</p>
+</div>
+<div class="paragraph">
+<p>With an optional argument, you can return to a different commit
+instead:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect reset &lt;commit&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For example, <code>git bisect reset bisect/bad</code> will check out the first
+bad revision, while <code>git bisect reset HEAD</code> will leave you on the
+current bisection commit and avoid switching commits at all.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_alternate_terms"><a class="anchor" href="#_alternate_terms"></a>Alternate terms</h3>
+<div class="paragraph">
+<p>Sometimes you are not looking for the commit that introduced a
+breakage, but rather for a commit that caused a change between some
+other "old" state and "new" state. For example, you might be looking
+for the commit that introduced a particular fix. Or you might be
+looking for the first commit in which the source-code filenames were
+finally all converted to your company&#8217;s naming standard. Or whatever.</p>
+</div>
+<div class="paragraph">
+<p>In such cases it can be very confusing to use the terms "good" and
+"bad" to refer to "the state before the change" and "the state after
+the change". So instead, you can use the terms "old" and "new",
+respectively, in place of "good" and "bad". (But note that you cannot
+mix "good" and "bad" with "old" and "new" in a single session.)</p>
+</div>
+<div class="paragraph">
+<p>In this more general usage, you provide <code>git bisect</code> with a "new"
+commit that has some property and an "old" commit that doesn&#8217;t have that
+property. Each time <code>git bisect</code> checks out a commit, you test if that
+commit has the property. If it does, mark the commit as "new";
+otherwise, mark it as "old". When the bisection is done, <code>git bisect</code>
+will report which commit introduced the property.</p>
+</div>
+<div class="paragraph">
+<p>To use "old" and "new" instead of "good" and bad, you must run <code>git
+bisect start</code> without commits as argument and then run the following
+commands to add the commits:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>git bisect old [&lt;rev&gt;]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>to indicate that a commit was before the sought change, or</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>git bisect new [&lt;rev&gt;...]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>to indicate that it was after.</p>
+</div>
+<div class="paragraph">
+<p>To get a reminder of the currently used terms, use</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>git bisect terms</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You can get just the old (respectively new) term with <code>git bisect term
+--term-old</code> or <code>git bisect term --term-good</code>.</p>
+</div>
+<div class="paragraph">
+<p>If you would like to use your own terms instead of "bad"/"good" or
+"new"/"old", you can choose any names you like (except existing bisect
+subcommands like <code>reset</code>, <code>start</code>, &#8230;&#8203;) by starting the
+bisection using</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>git bisect start --term-old &lt;term-old&gt; --term-new &lt;term-new&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For example, if you are looking for a commit that introduced a
+performance regression, you might use</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>git bisect start --term-old fast --term-new slow</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Or if you are looking for the commit that fixed a bug, you might use</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>git bisect start --term-new fixed --term-old broken</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then, use <code>git bisect &lt;term-old&gt;</code> and <code>git bisect &lt;term-new&gt;</code> instead
+of <code>git bisect good</code> and <code>git bisect bad</code> to mark commits.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bisect_visualize"><a class="anchor" href="#_bisect_visualize"></a>Bisect visualize</h3>
+<div class="paragraph">
+<p>To see the currently remaining suspects in <em>gitk</em>, issue the following
+command during the bisection process:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect visualize</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>view</code> may also be used as a synonym for <code>visualize</code>.</p>
+</div>
+<div class="paragraph">
+<p>If the <code>DISPLAY</code> environment variable is not set, <em>git log</em> is used
+instead.  You can also give command-line options such as <code>-p</code> and
+<code>--stat</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect view --stat</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bisect_log_and_bisect_replay"><a class="anchor" href="#_bisect_log_and_bisect_replay"></a>Bisect log and bisect replay</h3>
+<div class="paragraph">
+<p>After having marked revisions as good or bad, issue the following
+command to show what has been done so far:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect log</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you discover that you made a mistake in specifying the status of a
+revision, you can save the output of this command to a file, edit it to
+remove the incorrect entries, and then issue the following commands to
+return to a corrected state:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect reset
+$ git bisect replay that-file</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_avoiding_testing_a_commit"><a class="anchor" href="#_avoiding_testing_a_commit"></a>Avoiding testing a commit</h3>
+<div class="paragraph">
+<p>If, in the middle of a bisect session, you know that the suggested
+revision is not a good one to test (e.g. it fails to build and you
+know that the failure does not have anything to do with the bug you
+are chasing), you can manually select a nearby commit and test that
+one instead.</p>
+</div>
+<div class="paragraph">
+<p>For example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect good/bad			# previous round was good or bad.
+Bisecting: 337 revisions left to test after this (roughly 9 steps)
+$ git bisect visualize			# oops, that is uninteresting.
+$ git reset --hard HEAD~3		# try 3 revisions before what
+					# was suggested</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then compile and test the chosen revision, and afterwards mark
+the revision as good or bad in the usual manner.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bisect_skip"><a class="anchor" href="#_bisect_skip"></a>Bisect skip</h3>
+<div class="paragraph">
+<p>Instead of choosing a nearby commit by yourself, you can ask Git to do
+it for you by issuing the command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect skip                 # Current version cannot be tested</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>However, if you skip a commit adjacent to the one you are looking for,
+Git will be unable to tell exactly which of those commits was the
+first bad one.</p>
+</div>
+<div class="paragraph">
+<p>You can also skip a range of commits, instead of just one commit,
+using range notation. For example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect skip v2.5..v2.6</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This tells the bisect process that no commit after <code>v2.5</code>, up to and
+including <code>v2.6</code>, should be tested.</p>
+</div>
+<div class="paragraph">
+<p>Note that if you also want to skip the first commit of the range you
+would issue the command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect skip v2.5 v2.5..v2.6</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This tells the bisect process that the commits between <code>v2.5</code> and
+<code>v2.6</code> (inclusive) should be skipped.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_cutting_down_bisection_by_giving_more_parameters_to_bisect_start"><a class="anchor" href="#_cutting_down_bisection_by_giving_more_parameters_to_bisect_start"></a>Cutting down bisection by giving more parameters to bisect start</h3>
+<div class="paragraph">
+<p>You can further cut down the number of trials, if you know what part of
+the tree is involved in the problem you are tracking down, by specifying
+path parameters when issuing the <code>bisect start</code> command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect start -- arch/i386 include/asm-i386</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you know beforehand more than one good commit, you can narrow the
+bisect space down by specifying all of the good commits immediately after
+the bad commit when issuing the <code>bisect start</code> command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect start v2.6.20-rc6 v2.6.20-rc4 v2.6.20-rc1 --
+                   # v2.6.20-rc6 is bad
+                   # v2.6.20-rc4 and v2.6.20-rc1 are good</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bisect_run"><a class="anchor" href="#_bisect_run"></a>Bisect run</h3>
+<div class="paragraph">
+<p>If you have a script that can tell if the current source code is good
+or bad, you can bisect by issuing the command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect run my_script arguments</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Note that the script (<code>my_script</code> in the above example) should exit
+with code 0 if the current source code is good/old, and exit with a
+code between 1 and 127 (inclusive), except 125, if the current source
+code is bad/new.</p>
+</div>
+<div class="paragraph">
+<p>Any other exit code will abort the bisect process. It should be noted
+that a program that terminates via <code>exit(-1)</code> leaves $? = 255, (see the
+exit(3) manual page), as the value is chopped with <code>&amp; 0377</code>.</p>
+</div>
+<div class="paragraph">
+<p>The special exit code 125 should be used when the current source code
+cannot be tested. If the script exits with this code, the current
+revision will be skipped (see <code>git bisect skip</code> above). 125 was chosen
+as the highest sensible value to use for this purpose, because 126 and 127
+are used by POSIX shells to signal specific error status (127 is for
+command not found, 126 is for command found but not executable&#8212;&#8203;these
+details do not matter, as they are normal errors in the script, as far as
+<code>bisect run</code> is concerned).</p>
+</div>
+<div class="paragraph">
+<p>You may often find that during a bisect session you want to have
+temporary modifications (e.g. s/#define DEBUG 0/#define DEBUG 1/ in a
+header file, or "revision that does not have this commit needs this
+patch applied to work around another problem this bisection is not
+interested in") applied to the revision being tested.</p>
+</div>
+<div class="paragraph">
+<p>To cope with such a situation, after the inner <em>git bisect</em> finds the
+next revision to test, the script can apply the patch
+before compiling, run the real test, and afterwards decide if the
+revision (possibly with the needed patch) passed the test and then
+rewind the tree to the pristine state.  Finally the script should exit
+with the status of the real test to let the <code>git bisect run</code> command loop
+determine the eventual outcome of the bisect session.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_options"><a class="anchor" href="#_options"></a>OPTIONS</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1" id="git-bisect---no-checkout"> <a class="anchor" href="#git-bisect---no-checkout"></a>--no-checkout </dt>
+<dd>
+<div class="paragraph">
+<p>Do not checkout the new working tree at each iteration of the bisection
+process. Instead just update a special reference named <code>BISECT_HEAD</code> to make
+it point to the commit that should be tested.</p>
+</div>
+<div class="paragraph">
+<p>This option may be useful when the test you would perform in each step
+does not require a checked out tree.</p>
+</div>
+<div class="paragraph">
+<p>If the repository is bare, <code>--no-checkout</code> is assumed.</p>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_examples"><a class="anchor" href="#_examples"></a>EXAMPLES</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Automatically bisect a broken build between v1.2 and HEAD:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect start HEAD v1.2 --      # HEAD is bad, v1.2 is good
+$ git bisect run make                # "make" builds the app
+$ git bisect reset                   # quit the bisect session</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Automatically bisect a test failure between origin and HEAD:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect start HEAD origin --    # HEAD is bad, origin is good
+$ git bisect run make test           # "make test" builds and tests
+$ git bisect reset                   # quit the bisect session</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Automatically bisect a broken test case:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ cat ~/test.sh
+#!/bin/sh
+make || exit 125                     # this skips broken builds
+~/check_test_case.sh                 # does the test case pass?
+$ git bisect start HEAD HEAD~10 --   # culprit is among the last 10
+$ git bisect run ~/test.sh
+$ git bisect reset                   # quit the bisect session</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Here we use a <code>test.sh</code> custom script. In this script, if <code>make</code>
+fails, we skip the current commit.
+<code>check_test_case.sh</code> should <code>exit 0</code> if the test case passes,
+and <code>exit 1</code> otherwise.</p>
+</div>
+<div class="paragraph">
+<p>It is safer if both <code>test.sh</code> and <code>check_test_case.sh</code> are
+outside the repository to prevent interactions between the bisect,
+make and test processes and the scripts.</p>
+</div>
+</li>
+<li>
+<p>Automatically bisect with temporary modifications (hot-fix):</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ cat ~/test.sh
+#!/bin/sh
+
+# tweak the working tree by merging the hot-fix branch
+# and then attempt a build
+if	git merge --no-commit hot-fix &amp;&amp;
+	make
+then
+	# run project specific test and report its status
+	~/check_test_case.sh
+	status=$?
+else
+	# tell the caller this is untestable
+	status=125
+fi
+
+# undo the tweak to allow clean flipping to the next commit
+git reset --hard
+
+# return control
+exit $status</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This applies modifications from a hot-fix branch before each test run,
+e.g. in case your build or test environment changed so that older
+revisions may need a fix which newer ones have already. (Make sure the
+hot-fix branch is based off a commit which is contained in all revisions
+which you are bisecting, so that the merge does not pull in too much, or
+use <code>git cherry-pick</code> instead of <code>git merge</code>.)</p>
+</div>
+</li>
+<li>
+<p>Automatically bisect a broken test case:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect start HEAD HEAD~10 --   # culprit is among the last 10
+$ git bisect run sh -c "make || exit 125; ~/check_test_case.sh"
+$ git bisect reset                   # quit the bisect session</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This shows that you can do without a run script if you write the test
+on a single line.</p>
+</div>
+</li>
+<li>
+<p>Locate a good region of the object graph in a damaged repository</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect start HEAD &lt;known-good-commit&gt; [ &lt;boundary-commit&gt; ... ] --no-checkout
+$ git bisect run sh -c '
+	GOOD=$(git for-each-ref "--format=%(objectname)" refs/bisect/good-*) &amp;&amp;
+	git rev-list --objects BISECT_HEAD --not $GOOD &gt;tmp.$$ &amp;&amp;
+	git pack-objects --stdout &gt;/dev/null &lt;tmp.$$
+	rc=$?
+	rm -f tmp.$$
+	test $rc = 0'
+
+$ git bisect reset                   # quit the bisect session</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In this case, when <em>git bisect run</em> finishes, bisect/bad will refer to a commit that
+has at least one parent whose reachable graph is fully traversable in the sense
+required by <em>git pack objects</em>.</p>
+</div>
+</li>
+<li>
+<p>Look for a fix instead of a regression in the code</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect start
+$ git bisect new HEAD    # current commit is marked as new
+$ git bisect old HEAD~10 # the tenth commit from now is marked as old</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>or:</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git bisect start --term-old broken --term-new fixed
+$ git bisect fixed
+$ git bisect broken HEAD~10</pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_getting_help"><a class="anchor" href="#_getting_help"></a>Getting help</h3>
+<div class="paragraph">
+<p>Use <code>git bisect</code> to get a short usage description, and <code>git bisect
+help</code> or <code>git bisect -h</code> to get a long usage description.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_also"><a class="anchor" href="#_see_also"></a>SEE ALSO</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="git-bisect-lk2009.html">Fighting regressions with git bisect</a>,
+<a href='git-blame.html'>git-blame[1]</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_git"><a class="anchor" href="#_git"></a>GIT</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Part of the <a href='git.html'>git[1]</a> suite</p>
+</div>
+</div>
+</div>
+  </div>
+
+        </div>
+      </div>
+      <footer>
+  <div class="site-source">
+    This <a href="https://github.com/git/git-scm.com/blob/master/README.md#license">open sourced</a> site is <a href="https://github.com/git/git-scm.com">hosted on GitHub.</a><br>
+    Patches, suggestions and comments are welcome.
+  </div>
+  <div class="sfc-member">
+    Git is a member of <a href="https://git-scm.com/sfc">Software Freedom Conservancy</a>
+  </div>
+</footer>
+
+<script src="../assets/jquery-1.7.1.min-1e7a63d6feb237e04147914d7b3f8b05.js"></script>
+<script src="../assets/jquery-ui-1.8.18.custom.min-01c113ee6bd3a021d2aceb47c8807458.js"></script>
+<script src="../assets/jquery.defaultvalue-a3344e839433713d41ec7304ecdd6138.js"></script>
+<script src="../assets/session.min-bf0ddfe17e69417e50f0eb3b9c3e1214.js"></script>
+<script src="../assets/site-19b3bff50bab526421befb3d0b04eb62.js"></script>
+
+    </div>
+
+</body>
+
+<!-- Mirrored from git-scm.com/docs/git-bisect by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 09:45:28 GMT -->
+</html>

@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.git-scm.com	TRUE	/	FALSE	1999999999	__cfduid	d91e5c09ac69bd37fcfa992a9ff7fd5851508406767
+
