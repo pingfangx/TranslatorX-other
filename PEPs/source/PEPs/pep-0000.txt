@@ -1,0 +1,4869 @@
+PEP: 0
+Title: Index of Python Enhancement Proposals (PEPs)
+Version: N/A
+Last-Modified: 2018-01-11
+Author: David Goodger <goodger@python.org>,
+        Barry Warsaw <barry@python.org>
+Status: Active
+Type: Informational
+Created: 13-Jul-2000
+
+
+Introduction
+
+    This PEP contains the index of all Python Enhancement Proposals,
+    known as PEPs.  PEP numbers are assigned by the PEP editors, and
+    once assigned are never changed[1].  The Mercurial history[2] of
+    the PEP texts represent their historical record.
+
+
+Index by Category
+
+     num  
+xx
+title
+xx
+ owner
+     ---  
+xx
+-----
+xx
+ -----
+
+ Meta-PEPs (PEPs about PEPs or Processes)
+
+ P  0001  
+xx
+PEP Purpose and Guidelines
+xx
+ Warsaw, Hylton, Goodger, Coghlan
+ P  0004  
+xx
+Deprecation of Standard Modules
+xx
+ Cannon, von Löwis
+ P  0005  
+xx
+Guidelines for Language Evolution
+xx
+ Prescod
+ P  0006  
+xx
+Bug Fix Releases
+xx
+ Aahz, Baxter
+ P  0007  
+xx
+Style Guide for C Code
+xx
+ GvR, Warsaw
+ P  0008  
+xx
+Style Guide for Python Code
+xx
+ GvR, Warsaw, Coghlan
+ P  0010  
+xx
+Voting Guidelines
+xx
+ Warsaw
+ P  0011  
+xx
+Removing support for little used platforms
+xx
+ von Löwis, Cannon
+ P  0012  
+xx
+Sample reStructuredText PEP Template
+xx
+ Goodger, Warsaw
+
+ Other Informational PEPs
+
+ I  0020  
+xx
+The Zen of Python
+xx
+ Peters
+ I  0101  
+xx
+Doing Python Releases 101
+xx
+ Warsaw, GvR
+ IF 0247  
+xx
+API for Cryptographic Hash Functions
+xx
+ Kuchling
+ IF 0248  
+xx
+Python Database API Specification v1.0
+xx
+ Lemburg
+ IF 0249  
+xx
+Python Database API Specification v2.0
+xx
+ Lemburg
+ I  0257  
+xx
+Docstring Conventions
+xx
+ Goodger, GvR
+ IF 0272  
+xx
+API for Block Encryption Algorithms v1.0
+xx
+ Kuchling
+ I  0287  
+xx
+reStructuredText Docstring Format
+xx
+ Goodger
+ I  0290  
+xx
+Code Migration and Modernization
+xx
+ Hettinger
+ IF 0291  
+xx
+Backward Compatibility for the Python 2 Standard Library
+xx
+ Norwitz
+ IF 0333  
+xx
+Python Web Server Gateway Interface v1.0
+xx
+ Eby
+ I  0373  
+xx
+Python 2.7 Release Schedule
+xx
+ Peterson
+ I  0394  
+xx
+The "python" Command on Unix-Like Systems
+xx
+ Staley, Coghlan, Warsaw
+ IF 0399  
+xx
+Pure Python/C Accelerator Module Compatibility Requirements
+xx
+ Cannon
+ IF 0404  
+xx
+Python 2.8 Un-release Schedule
+xx
+ Warsaw
+ IA 0411  
+xx
+Provisional packages in the Python standard library
+xx
+ Coghlan, Bendersky
+ I  0429  
+xx
+Python 3.4 Release Schedule
+xx
+ Hastings
+ IF 0430  
+xx
+Migrating to Python 3 as the default online documentation
+xx
+ Coghlan
+ I  0434  
+xx
+IDLE Enhancement Exception for All Branches
+xx
+ Rovito, Reedy
+ IA 0440  
+xx
+Version Identification and Dependency Specification
+xx
+ Coghlan, Stufft
+ I  0478  
+xx
+Python 3.5 Release Schedule
+xx
+ Hastings
+ I  0494  
+xx
+Python 3.6 Release Schedule
+xx
+ Deily
+ IA 0503  
+xx
+Simple Repository API
+xx
+ Stufft
+ I  0508  
+xx
+Dependency specification for Python Software Packages
+xx
+ Collins
+ I  0513  
+xx
+A Platform Tag for Portable Linux Built Distributions
+xx
+ McGibbon, Smith
+ I  0514  
+xx
+Python registration in the Windows registry
+xx
+ Dower
+ IA 0518  
+xx
+Specifying Minimum Build System Requirements for Python Projects
+xx
+ Cannon, Smith, Stufft
+ I  0537  
+xx
+Python 3.7 Release Schedule
+xx
+ Deily
+ IF 3333  
+xx
+Python Web Server Gateway Interface v1.0.1
+xx
+ Eby
+
+ Accepted PEPs (accepted; may not be implemented yet)
+
+ SA 0345  
+xx
+Metadata for Python Software Packages 1.2
+xx
+ Jones
+ SA 0376  
+xx
+Database of Installed Python Distributions
+xx
+ Ziadé
+ SA 0425  
+xx
+Compatibility Tags for Built Distributions
+xx
+ Holth
+ SA 0427  
+xx
+The Wheel Binary Package Format 1.0
+xx
+ Holth
+ SA 0484  
+xx
+Type Hints
+xx
+ GvR, Lehtosalo, Langa
+ SA 0506  
+xx
+Adding A Secrets Module To The Standard Library
+xx
+ D'Aprano
+ SA 0517  
+xx
+A build-system independent format for source trees
+xx
+ Smith, Kluyver
+ SA 0539  
+xx
+A New C-API for Thread-Local Storage in CPython
+xx
+ Bray, Yamamoto
+ SA 0540  
+xx
+Add a new UTF-8 Mode
+xx
+ Stinner
+ SA 0546  
+xx
+Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7
+xx
+ Stinner, Benfield
+ SA 0557  
+xx
+Data Classes
+xx
+ Smith
+ SA 0560  
+xx
+Core support for typing module and generic types
+xx
+ Levkivskyi
+ SA 0562  
+xx
+Module __getattr__ and __dir__
+xx
+ Levkivskyi
+ SA 0563  
+xx
+Postponed Evaluation of Annotations
+xx
+ Langa
+ SA 3121  
+xx
+Extension Module Initialization and Finalization
+xx
+ von Löwis
+
+ Open PEPs (under consideration)
+
+ S  0381  
+xx
+Mirroring infrastructure for PyPI
+xx
+ Ziadé, v. Löwis
+ P  0387  
+xx
+Backwards Compatibility Policy
+xx
+ Peterson
+ S  0432  
+xx
+Restructuring the CPython startup sequence
+xx
+ Coghlan
+ S  0436  
+xx
+The Argument Clinic DSL
+xx
+ Hastings
+ S  0447  
+xx
+Add __getdescriptor__ method to metaclass
+xx
+ Oussoren
+ I  0452  
+xx
+API for Cryptographic Hash Functions v2.0
+xx
+ Kuchling, Heimes
+ I  0457  
+xx
+Syntax For Positional-Only Parameters
+xx
+ Hastings
+ S  0458  
+xx
+Surviving a Compromise of PyPI
+xx
+ Kuppusamy, Diaz, Stufft, Cappos
+ S  0467  
+xx
+Minor API improvements for binary sequences
+xx
+ Coghlan
+ S  0472  
+xx
+Support for indexing with keyword arguments
+xx
+ Borini, Martinot-Lagarde
+ S  0473  
+xx
+Adding structured data to built-in exceptions
+xx
+ Kreft
+ S  0480  
+xx
+Surviving a Compromise of PyPI: The Maximum Security Model
+xx
+ Kuppusamy, Diaz, Stufft, Cappos
+ I  0482  
+xx
+Literature Overview for Type Hints
+xx
+ Langa
+ I  0483  
+xx
+The Theory of Type Hints
+xx
+ GvR, Levkivskyi
+ S  0491  
+xx
+The Wheel Binary Package Format 1.9
+xx
+ Holth
+ P  0497  
+xx
+A standard mechanism for backward compatibility
+xx
+ Schofield
+ S  0499  
+xx
+``python -m foo`` should bind ``sys.modules['foo']`` in addition to ``sys.modules['__main__']``
+xx
+ Simpson
+ I  0502  
+xx
+String Interpolation - Extended Discussion
+xx
+ Miller
+ S  0533  
+xx
+Deterministic cleanup for iterators
+xx
+ Smith
+ S  0534  
+xx
+Distributing a Subset of the Standard Library
+xx
+ Orsava, Viktorin, Coghlan
+ S  0536  
+xx
+Final Grammar for Literal String Interpolation
+xx
+ Angerer
+ P  0541  
+xx
+Package Index Name Retention
+xx
+ Langa
+ S  0542  
+xx
+Dot Notation Assignment In Function Header
+xx
+ Meskanen
+ S  0543  
+xx
+A Unified TLS API for Python
+xx
+ Benfield, Heimes
+ S  0544  
+xx
+Protocols: Structural subtyping (static duck typing)
+xx
+ Levkivskyi, Lehtosalo, Langa
+ S  0547  
+xx
+Running extension modules using the -m option
+xx
+ Plch, Viktorin
+ S  0550  
+xx
+Execution Context
+xx
+ Selivanov, Pranskevichus
+ S  0551  
+xx
+Security transparency in the Python runtime
+xx
+ Dower
+ S  0554  
+xx
+Multiple Interpreters in the Stdlib
+xx
+ Snow
+ S  0556  
+xx
+Threaded garbage collection
+xx
+ Pitrou
+ S  0558  
+xx
+Defined semantics for locals()
+xx
+ Coghlan
+ S  0561  
+xx
+Distributing and Packaging Type Information
+xx
+ Smith
+ S  0566  
+xx
+Metadata for Python Software Packages 1.3
+xx
+ Ingram
+ S  0567  
+xx
+Context Variables
+xx
+ Selivanov
+
+ Finished PEPs (done, implemented in code repository)
+
+ SF 0100  
+xx
+Python Unicode Integration
+xx
+ Lemburg
+ SF 0201  
+xx
+Lockstep Iteration
+xx
+ Warsaw
+ SF 0202  
+xx
+List Comprehensions
+xx
+ Warsaw
+ SF 0203  
+xx
+Augmented Assignments
+xx
+ Wouters
+ SF 0205  
+xx
+Weak References
+xx
+ Drake
+ SF 0207  
+xx
+Rich Comparisons
+xx
+ GvR, Ascher
+ SF 0208  
+xx
+Reworking the Coercion Model
+xx
+ Schemenauer, Lemburg
+ SF 0214  
+xx
+Extended Print Statement
+xx
+ Warsaw
+ SF 0217  
+xx
+Display Hook for Interactive Use
+xx
+ Zadka
+ SF 0218  
+xx
+Adding a Built-In Set Object Type
+xx
+ Wilson, Hettinger
+ SF 0221  
+xx
+Import As
+xx
+ Wouters
+ SF 0223  
+xx
+Change the Meaning of ``\x`` Escapes
+xx
+ Peters
+ SF 0227  
+xx
+Statically Nested Scopes
+xx
+ Hylton
+ SF 0229  
+xx
+Using Distutils to Build Python
+xx
+ Kuchling
+ SF 0230  
+xx
+Warning Framework
+xx
+ GvR
+ SF 0232  
+xx
+Function Attributes
+xx
+ Warsaw
+ SF 0234  
+xx
+Iterators
+xx
+ Yee, GvR
+ SF 0235  
+xx
+Import on Case-Insensitive Platforms
+xx
+ Peters
+ SF 0236  
+xx
+Back to the __future__
+xx
+ Peters
+ SF 0237  
+xx
+Unifying Long Integers and Integers
+xx
+ Zadka, GvR
+ SF 0238  
+xx
+Changing the Division Operator
+xx
+ Zadka, GvR
+ SF 0241  
+xx
+Metadata for Python Software Packages
+xx
+ Kuchling
+ SF 0250  
+xx
+Using site-packages on Windows
+xx
+ Moore
+ SF 0252  
+xx
+Making Types Look More Like Classes
+xx
+ GvR
+ SF 0253  
+xx
+Subtyping Built-in Types
+xx
+ GvR
+ SF 0255  
+xx
+Simple Generators
+xx
+ Schemenauer, Peters, Hetland
+ SF 0260  
+xx
+Simplify xrange()
+xx
+ GvR
+ SF 0261  
+xx
+Support for "wide" Unicode characters
+xx
+ Prescod
+ SF 0263  
+xx
+Defining Python Source Code Encodings
+xx
+ Lemburg, von Löwis
+ SF 0264  
+xx
+Future statements in simulated shells
+xx
+ Hudson
+ SF 0273  
+xx
+Import Modules from Zip Archives
+xx
+ Ahlstrom
+ SF 0274  
+xx
+Dict Comprehensions
+xx
+ Warsaw
+ SF 0277  
+xx
+Unicode file name support for Windows NT
+xx
+ Hodgson
+ SF 0278  
+xx
+Universal Newline Support
+xx
+ Jansen
+ SF 0279  
+xx
+The enumerate() built-in function
+xx
+ Hettinger
+ SF 0282  
+xx
+A Logging System
+xx
+ Sajip, Mick
+ SF 0285  
+xx
+Adding a bool type
+xx
+ GvR
+ SF 0289  
+xx
+Generator Expressions
+xx
+ Hettinger
+ SF 0292  
+xx
+Simpler String Substitutions
+xx
+ Warsaw
+ SF 0293  
+xx
+Codec Error Handling Callbacks
+xx
+ Dörwald
+ SF 0301  
+xx
+Package Index and Metadata for Distutils
+xx
+ Jones
+ SF 0302  
+xx
+New Import Hooks
+xx
+ JvR, Moore
+ SF 0305  
+xx
+CSV File API
+xx
+ Altis, Cole, McNamara, Montanaro, Wells
+ SF 0307  
+xx
+Extensions to the pickle protocol
+xx
+ GvR, Peters
+ SF 0308  
+xx
+Conditional Expressions
+xx
+ GvR, Hettinger
+ SF 0309  
+xx
+Partial Function Application
+xx
+ Harris
+ SF 0311  
+xx
+Simplified Global Interpreter Lock Acquisition for Extensions
+xx
+ Hammond
+ SF 0314  
+xx
+Metadata for Python Software Packages v1.1
+xx
+ Kuchling, Jones
+ SF 0318  
+xx
+Decorators for Functions and Methods
+xx
+ Smith
+ SF 0322  
+xx
+Reverse Iteration
+xx
+ Hettinger
+ SF 0324  
+xx
+subprocess - New process module
+xx
+ Astrand
+ SF 0327  
+xx
+Decimal Data Type
+xx
+ Batista
+ SF 0328  
+xx
+Imports: Multi-Line and Absolute/Relative
+xx
+ Aahz
+ SF 0331  
+xx
+Locale-Independent Float/String Conversions
+xx
+ Reis
+ SF 0338  
+xx
+Executing modules as scripts
+xx
+ Coghlan
+ SF 0341  
+xx
+Unifying try-except and try-finally
+xx
+ Brandl
+ SF 0342  
+xx
+Coroutines via Enhanced Generators
+xx
+ GvR, Eby
+ SF 0343  
+xx
+The "with" Statement
+xx
+ GvR, Coghlan
+ SF 0352  
+xx
+Required Superclass for Exceptions
+xx
+ Cannon, GvR
+ SF 0353  
+xx
+Using ssize_t as the index type
+xx
+ von Löwis
+ SF 0357  
+xx
+Allowing Any Object to be Used for Slicing
+xx
+ Oliphant
+ SF 0358  
+xx
+The "bytes" Object
+xx
+ Schemenauer, GvR
+ SF 0362  
+xx
+Function Signature Object
+xx
+ Cannon, Seo, Selivanov, Hastings
+ SF 0366  
+xx
+Main module explicit relative imports
+xx
+ Coghlan
+ SF 0370  
+xx
+Per user site-packages directory
+xx
+ Heimes
+ SF 0371  
+xx
+Addition of the multiprocessing package to the standard library
+xx
+ Noller, Oudkerk
+ SF 0372  
+xx
+Adding an ordered dictionary to collections
+xx
+ Ronacher, Hettinger
+ SF 0378  
+xx
+Format Specifier for Thousands Separator
+xx
+ Hettinger
+ SF 0380  
+xx
+Syntax for Delegating to a Subgenerator
+xx
+ Ewing
+ SF 0383  
+xx
+Non-decodable Bytes in System Character Interfaces
+xx
+ v. Löwis
+ SF 0384  
+xx
+Defining a Stable ABI
+xx
+ v. Löwis
+ SF 0389  
+xx
+argparse - New Command Line Parsing Module
+xx
+ Bethard
+ SF 0391  
+xx
+Dictionary-Based Configuration For Logging
+xx
+ Sajip
+ SF 0393  
+xx
+Flexible String Representation
+xx
+ v. Löwis
+ SF 0397  
+xx
+Python launcher for Windows
+xx
+ Hammond, v. Löwis
+ SF 0405  
+xx
+Python Virtual Environments
+xx
+ Meyer
+ SF 0409  
+xx
+Suppressing exception context
+xx
+ Furman
+ SF 0412  
+xx
+Key-Sharing Dictionary
+xx
+ Shannon
+ SF 0414  
+xx
+Explicit Unicode Literal for Python 3.3
+xx
+ Ronacher, Coghlan
+ SF 0415  
+xx
+Implement context suppression with exception attributes
+xx
+ Peterson
+ SF 0417  
+xx
+Including mock in the Standard Library
+xx
+ Foord
+ SF 0418  
+xx
+Add monotonic time, performance counter, and process time functions
+xx
+ Simpson, Jewett, Turnbull, Stinner
+ SF 0420  
+xx
+Implicit Namespace Packages
+xx
+ Smith
+ SF 0421  
+xx
+Adding sys.implementation
+xx
+ Snow
+ SF 0424  
+xx
+A method for exposing a length hint
+xx
+ Gaynor
+ SF 0428  
+xx
+The pathlib module -- object-oriented filesystem paths
+xx
+ Pitrou
+ SF 0435  
+xx
+Adding an Enum type to the Python standard library
+xx
+ Warsaw, Bendersky, Furman
+ SF 0441  
+xx
+Improving Python ZIP Application Support
+xx
+ Holth, Moore
+ SF 0442  
+xx
+Safe object finalization
+xx
+ Pitrou
+ SF 0443  
+xx
+Single-dispatch generic functions
+xx
+ Langa
+ SF 0445  
+xx
+Add new APIs to customize Python memory allocators
+xx
+ Stinner
+ SF 0446  
+xx
+Make newly created file descriptors non-inheritable
+xx
+ Stinner
+ SF 0448  
+xx
+Additional Unpacking Generalizations
+xx
+ Landau
+ SF 0450  
+xx
+Adding A Statistics Module To The Standard Library
+xx
+ D'Aprano
+ SF 0451  
+xx
+A ModuleSpec Type for the Import System
+xx
+ Snow
+ SF 0453  
+xx
+Explicit bootstrapping of pip in Python installations
+xx
+ Stufft, Coghlan
+ SF 0454  
+xx
+Add a new tracemalloc module to trace Python memory allocations
+xx
+ Stinner
+ SF 0456  
+xx
+Secure and interchangeable hash algorithm
+xx
+ Heimes
+ SF 0461  
+xx
+Adding % formatting to bytes and bytearray
+xx
+ Furman
+ SF 0465  
+xx
+A dedicated infix operator for matrix multiplication
+xx
+ Smith
+ SF 0466  
+xx
+Network Security Enhancements for Python 2.7.x
+xx
+ Coghlan
+ SF 0468  
+xx
+Preserving the order of \*\*kwargs in a function.
+xx
+ Snow
+ SF 0471  
+xx
+os.scandir() function -- a better and faster directory iterator
+xx
+ Hoyt
+ SF 0475  
+xx
+Retry system calls failing with EINTR
+xx
+ Natali, Stinner
+ SF 0476  
+xx
+Enabling certificate verification by default for stdlib http clients
+xx
+ Gaynor
+ SF 0477  
+xx
+Backport ensurepip (PEP 453) to Python 2.7
+xx
+ Stufft, Coghlan
+ SF 0479  
+xx
+Change StopIteration handling inside generators
+xx
+ Angelico, GvR
+ SF 0485  
+xx
+A Function for testing approximate equality
+xx
+ Barker
+ SF 0486  
+xx
+Make the Python Launcher aware of virtual environments
+xx
+ Moore
+ SF 0487  
+xx
+Simpler customisation of class creation
+xx
+ Teichmann
+ SF 0488  
+xx
+Elimination of PYO files
+xx
+ Cannon
+ SF 0489  
+xx
+Multi-phase extension module initialization
+xx
+ Viktorin, Behnel, Coghlan
+ SF 0492  
+xx
+Coroutines with async and await syntax
+xx
+ Selivanov
+ SF 0493  
+xx
+HTTPS verification migration tools for Python 2.7
+xx
+ Coghlan, Kuska, Lemburg
+ SF 0495  
+xx
+Local Time Disambiguation
+xx
+ Belopolsky, Peters
+ SF 0498  
+xx
+Literal String Interpolation
+xx
+ Smith
+ SF 0509  
+xx
+Add a private version to dict
+xx
+ Stinner
+ SF 0515  
+xx
+Underscores in Numeric Literals
+xx
+ Brandl, Storchaka
+ SF 0519  
+xx
+Adding a file system path protocol
+xx
+ Cannon, Zevenhoven
+ SF 0520  
+xx
+Preserving Class Attribute Definition Order
+xx
+ Snow
+ SF 0523  
+xx
+Adding a frame evaluation API to CPython
+xx
+ Cannon, Viehland
+ SF 0524  
+xx
+Make os.urandom() blocking on Linux
+xx
+ Stinner
+ SF 0525  
+xx
+Asynchronous Generators
+xx
+ Selivanov
+ SF 0526  
+xx
+Syntax for Variable Annotations
+xx
+ Gonzalez, House, Levkivskyi, Roach, GvR
+ SF 0528  
+xx
+Change Windows console encoding to UTF-8
+xx
+ Dower
+ SF 0529  
+xx
+Change Windows filesystem encoding to UTF-8
+xx
+ Dower
+ SF 0530  
+xx
+Asynchronous Comprehensions
+xx
+ Selivanov
+ SF 0538  
+xx
+Coercing the legacy C locale to a UTF-8 based locale
+xx
+ Coghlan
+ SF 0552  
+xx
+Deterministic pycs
+xx
+ Peterson
+ SF 0553  
+xx
+Built-in breakpoint()
+xx
+ Warsaw
+ SF 0564  
+xx
+Add new time functions with nanosecond resolution
+xx
+ Stinner
+ SF 0565  
+xx
+Show DeprecationWarning in __main__
+xx
+ Coghlan
+ SF 0628  
+xx
+Add ``math.tau``
+xx
+ Coghlan
+ SF 3101  
+xx
+Advanced String Formatting
+xx
+ Talin
+ SF 3102  
+xx
+Keyword-Only Arguments
+xx
+ Talin
+ SF 3104  
+xx
+Access to Names in Outer Scopes
+xx
+ Yee
+ SF 3105  
+xx
+Make print a function
+xx
+ Brandl
+ SF 3106  
+xx
+Revamping dict.keys(), .values() and .items()
+xx
+ GvR
+ SF 3107  
+xx
+Function Annotations
+xx
+ Winter, Lownds
+ SF 3108  
+xx
+Standard Library Reorganization
+xx
+ Cannon
+ SF 3109  
+xx
+Raising Exceptions in Python 3000
+xx
+ Winter
+ SF 3110  
+xx
+Catching Exceptions in Python 3000
+xx
+ Winter
+ SF 3111  
+xx
+Simple input built-in in Python 3000
+xx
+ Roberge
+ SF 3112  
+xx
+Bytes literals in Python 3000
+xx
+ Orendorff
+ SF 3113  
+xx
+Removal of Tuple Parameter Unpacking
+xx
+ Cannon
+ SF 3114  
+xx
+Renaming iterator.next() to iterator.__next__()
+xx
+ Yee
+ SF 3115  
+xx
+Metaclasses in Python 3000
+xx
+ Talin
+ SF 3116  
+xx
+New I/O
+xx
+ Stutzbach, GvR, Verdone
+ SF 3118  
+xx
+Revising the buffer protocol
+xx
+ Oliphant, Banks
+ SF 3119  
+xx
+Introducing Abstract Base Classes
+xx
+ GvR, Talin
+ SF 3120  
+xx
+Using UTF-8 as the default source encoding
+xx
+ von Löwis
+ SF 3123  
+xx
+Making PyObject_HEAD conform to standard C
+xx
+ von Löwis
+ SF 3127  
+xx
+Integer Literal Support and Syntax
+xx
+ Maupin
+ SF 3129  
+xx
+Class Decorators
+xx
+ Winter
+ SF 3131  
+xx
+Supporting Non-ASCII Identifiers
+xx
+ von Löwis
+ SF 3132  
+xx
+Extended Iterable Unpacking
+xx
+ Brandl
+ SF 3134  
+xx
+Exception Chaining and Embedded Tracebacks
+xx
+ Yee
+ SF 3135  
+xx
+New Super
+xx
+ Spealman, Delaney, Ryan
+ SF 3137  
+xx
+Immutable Bytes and Mutable Buffer
+xx
+ GvR
+ SF 3138  
+xx
+String representation in Python 3000
+xx
+ Ishimoto
+ SF 3141  
+xx
+A Type Hierarchy for Numbers
+xx
+ Yasskin
+ SF 3144  
+xx
+IP Address Manipulation Library for the Python Standard Library
+xx
+ Moody
+ SF 3147  
+xx
+PYC Repository Directories
+xx
+ Warsaw
+ SF 3148  
+xx
+futures - execute computations asynchronously
+xx
+ Quinlan
+ SF 3149  
+xx
+ABI version tagged .so files
+xx
+ Warsaw
+ SF 3151  
+xx
+Reworking the OS and IO exception hierarchy
+xx
+ Pitrou
+ SF 3154  
+xx
+Pickle protocol version 4
+xx
+ Pitrou
+ SF 3155  
+xx
+Qualified name for classes and functions
+xx
+ Pitrou
+ SF 3156  
+xx
+Asynchronous IO Support Rebooted: the "asyncio" Module
+xx
+ GvR
+
+ Historical Meta-PEPs and Informational PEPs
+
+ PF 0002  
+xx
+Procedure for Adding New Modules
+xx
+ Faassen
+ IF 0160  
+xx
+Python 1.6 Release Schedule
+xx
+ Drake
+ IF 0200  
+xx
+Python 2.0 Release Schedule
+xx
+ Hylton
+ IF 0226  
+xx
+Python 2.1 Release Schedule
+xx
+ Hylton
+ IF 0251  
+xx
+Python 2.2 Release Schedule
+xx
+ Warsaw, GvR
+ IF 0283  
+xx
+Python 2.3 Release Schedule
+xx
+ GvR
+ IF 0320  
+xx
+Python 2.4 Release Schedule
+xx
+ Warsaw, Hettinger, Baxter
+ PF 0347  
+xx
+Migrating the Python CVS to Subversion
+xx
+ von Löwis
+ IF 0356  
+xx
+Python 2.5 Release Schedule
+xx
+ Norwitz, GvR, Baxter
+ PF 0360  
+xx
+Externally Maintained Packages
+xx
+ Cannon
+ IF 0361  
+xx
+Python 2.6 and 3.0 Release Schedule
+xx
+ Norwitz, Warsaw
+ PF 0374  
+xx
+Choosing a distributed VCS for the Python project
+xx
+ Cannon, Turnbull, Vassalotti, Warsaw, Ochtman
+ IF 0375  
+xx
+Python 3.1 Release Schedule
+xx
+ Peterson
+ PF 0385  
+xx
+Migrating from Subversion to Mercurial
+xx
+ Ochtman, Pitrou, Brandl
+ IF 0392  
+xx
+Python 3.2 Release Schedule
+xx
+ Brandl
+ IF 0398  
+xx
+Python 3.3 Release Schedule
+xx
+ Brandl
+ PS 0438  
+xx
+Transitioning to release-file hosting on PyPI
+xx
+ Krekel, Meyer
+ PA 0449  
+xx
+Removal of the PyPI Mirror Auto Discovery and Naming Scheme
+xx
+ Stufft
+ PA 0464  
+xx
+Removal of the PyPI Mirror Authenticity API
+xx
+ Stufft
+ PA 0470  
+xx
+Removing External Hosting Support on PyPI
+xx
+ Stufft
+ PF 0512  
+xx
+Migrating from hg.python.org to GitHub
+xx
+ Cannon
+ PA 0527  
+xx
+Removing Un(der)used file types/extensions on PyPI
+xx
+ Stufft
+ PF 0545  
+xx
+Python Documentation Translations
+xx
+ Palard, Naoki, Stinner
+ PF 3000  
+xx
+Python 3000
+xx
+ GvR
+ PF 3002  
+xx
+Procedure for Backwards-Incompatible Changes
+xx
+ Bethard
+ PF 3003  
+xx
+Python Language Moratorium
+xx
+ Cannon, Noller, GvR
+ PF 3099  
+xx
+Things that will Not Change in Python 3000
+xx
+ Brandl
+ PF 3100  
+xx
+Miscellaneous Python 3.0 Plans
+xx
+ Cannon
+
+ Deferred PEPs
+
+ SD 0213  
+xx
+Attribute Access Handlers
+xx
+ Prescod
+ SD 0219  
+xx
+Stackless Python
+xx
+ McMillan
+ SD 0222  
+xx
+Web Library Enhancements
+xx
+ Kuchling
+ SD 0233  
+xx
+Python Online Help
+xx
+ Prescod
+ SD 0262  
+xx
+A Database of Installed Python Packages
+xx
+ Kuchling
+ SD 0267  
+xx
+Optimized Access to Module Namespaces
+xx
+ Hylton
+ SD 0269  
+xx
+Pgen Module for Python
+xx
+ Riehl
+ SD 0280  
+xx
+Optimizing access to globals
+xx
+ GvR
+ SD 0286  
+xx
+Enhanced Argument Tuples
+xx
+ von Löwis
+ SD 0312  
+xx
+Simple Implicit Lambda
+xx
+ Suzi, Martelli
+ SD 0316  
+xx
+Programming by Contract for Python
+xx
+ Way
+ SD 0323  
+xx
+Copyable Iterators
+xx
+ Martelli
+ SD 0337  
+xx
+Logging Usage in the Standard Library
+xx
+ Dubner
+ SD 0349  
+xx
+Allow str() to return unicode strings
+xx
+ Schemenauer
+ SD 0368  
+xx
+Standard image protocol and class
+xx
+ Mastrodomenico
+ ID 0396  
+xx
+Module Version Numbers
+xx
+ Warsaw
+ SD 0400  
+xx
+Deprecate codecs.StreamReader and codecs.StreamWriter
+xx
+ Stinner
+ SD 0403  
+xx
+General purpose decorator clause (aka "@in" clause)
+xx
+ Coghlan
+ PD 0407  
+xx
+New release cycle and introducing long-term support versions
+xx
+ Pitrou, Brandl, Warsaw
+ SD 0419  
+xx
+Protecting cleanup statements from interruptions
+xx
+ Colomiets
+ ID 0423  
+xx
+Naming conventions and recipes related to packaging
+xx
+ Bryon
+ ID 0426  
+xx
+Metadata for Python Software Packages 2.0
+xx
+ Coghlan, Holth, Stufft
+ ID 0444  
+xx
+Python Web3 Interface
+xx
+ McDonough, Ronacher
+ SD 0459  
+xx
+Standard Metadata Extensions for Python Software Packages
+xx
+ Coghlan
+ SD 0501  
+xx
+General purpose string interpolation
+xx
+ Coghlan
+ SD 0505  
+xx
+None-aware operators
+xx
+ Haase
+ SD 0521  
+xx
+Managing global context via 'with' blocks in generators and coroutines
+xx
+ Smith
+ SD 0532  
+xx
+A circuit breaking protocol and binary operators
+xx
+ Coghlan, Haase
+ SD 0535  
+xx
+Rich comparison chaining
+xx
+ Coghlan
+ SD 0568  
+xx
+Generator-sensitivity for Context Variables
+xx
+ Smith
+ SD 3124  
+xx
+Overloading, Generic Functions, Interfaces, and Adaptation
+xx
+ Eby
+ SD 3143  
+xx
+Standard daemon process library
+xx
+ Finney
+ SD 3150  
+xx
+Statement local namespaces (aka "given" clause)
+xx
+ Coghlan
+
+ Abandoned, Withdrawn, and Rejected PEPs
+
+ PW 0003  
+xx
+Guidelines for Handling Bug Reports
+xx
+ Hylton
+ PW 0009  
+xx
+Sample Plaintext PEP Template
+xx
+ Warsaw
+ PR 0042  
+xx
+Feature Requests
+xx
+ Hylton
+ IS 0102  
+xx
+Doing Python Micro Releases
+xx
+ Baxter, Warsaw, GvR
+ IW 0103  
+xx
+Collecting information about git
+xx
+ Broytman
+ SR 0204  
+xx
+Range Literals
+xx
+ Wouters
+ IW 0206  
+xx
+Python Advanced Library
+xx
+ Kuchling
+ SW 0209  
+xx
+Multi-dimensional Arrays
+xx
+ Barrett, Oliphant
+ SR 0210  
+xx
+Decoupling the Interpreter Loop
+xx
+ Ascher
+ SR 0211  
+xx
+Adding A New Outer Product Operator
+xx
+ Wilson
+ SR 0212  
+xx
+Loop Counter Iteration
+xx
+ Schneider-Kamp
+ SS 0215  
+xx
+String Interpolation
+xx
+ Yee
+ IR 0216  
+xx
+Docstring Format
+xx
+ Zadka
+ IR 0220  
+xx
+Coroutines, Generators, Continuations
+xx
+ McMillan
+ SR 0224  
+xx
+Attribute Docstrings
+xx
+ Lemburg
+ SR 0225  
+xx
+Elementwise/Objectwise Operators
+xx
+ Zhu, Lielens
+ SW 0228  
+xx
+Reworking Python's Numeric Model
+xx
+ Zadka, GvR
+ SR 0231  
+xx
+__findattr__()
+xx
+ Warsaw
+ SR 0239  
+xx
+Adding a Rational Type to Python
+xx
+ Craig, Zadka
+ SR 0240  
+xx
+Adding a Rational Literal to Python
+xx
+ Craig, Zadka
+ SR 0242  
+xx
+Numeric Kinds
+xx
+ Dubois
+ SW 0243  
+xx
+Module Repository Upload Mechanism
+xx
+ Reifschneider
+ SR 0244  
+xx
+The ``directive`` statement
+xx
+ von Löwis
+ SR 0245  
+xx
+Python Interface Syntax
+xx
+ Pelletier
+ SR 0246  
+xx
+Object Adaptation
+xx
+ Martelli, Evans
+ SR 0254  
+xx
+Making Classes Look More Like Types
+xx
+ GvR
+ SR 0256  
+xx
+Docstring Processing System Framework
+xx
+ Goodger
+ SR 0258  
+xx
+Docutils Design Specification
+xx
+ Goodger
+ SR 0259  
+xx
+Omit printing newline after newline
+xx
+ GvR
+ SR 0265  
+xx
+Sorting Dictionaries by Value
+xx
+ Griffin
+ SW 0266  
+xx
+Optimizing Global Variable/Attribute Access
+xx
+ Montanaro
+ SR 0268  
+xx
+Extended HTTP functionality and WebDAV
+xx
+ Stein
+ SR 0270  
+xx
+uniq method for list objects
+xx
+ Petrone
+ SR 0271  
+xx
+Prefixing sys.path by command line option
+xx
+ Giacometti
+ SR 0275  
+xx
+Switching on Multiple Values
+xx
+ Lemburg
+ SR 0276  
+xx
+Simple Iterator for ints
+xx
+ Althoff
+ SR 0281  
+xx
+Loop Counter Iteration with range and xrange
+xx
+ Hetland
+ SR 0284  
+xx
+Integer for-loops
+xx
+ Eppstein, Ewing
+ SW 0288  
+xx
+Generators Attributes and Exceptions
+xx
+ Hettinger
+ SR 0294  
+xx
+Type Names in the types Module
+xx
+ Tirosh
+ SR 0295  
+xx
+Interpretation of multiline string constants
+xx
+ Koltsov
+ SW 0296  
+xx
+Adding a bytes Object Type
+xx
+ Gilbert
+ SR 0297  
+xx
+Support for System Upgrades
+xx
+ Lemburg
+ SW 0298  
+xx
+The Locked Buffer Interface
+xx
+ Heller
+ SR 0299  
+xx
+Special __main__() function in modules
+xx
+ Epler
+ SR 0303  
+xx
+Extend divmod() for Multiple Divisors
+xx
+ Bellman
+ SW 0304  
+xx
+Controlling Generation of Bytecode Files
+xx
+ Montanaro
+ IW 0306  
+xx
+How to Change Python's Grammar
+xx
+ Hudson, Diederich, Coghlan, Peterson
+ SR 0310  
+xx
+Reliable Acquisition/Release Pairs
+xx
+ Hudson, Moore
+ SR 0313  
+xx
+Adding Roman Numeral Literals to Python
+xx
+ Meyer
+ SR 0315  
+xx
+Enhanced While Loop
+xx
+ Hettinger, Carroll
+ SR 0317  
+xx
+Eliminate Implicit Exception Instantiation
+xx
+ Taschuk
+ SR 0319  
+xx
+Python Synchronize/Asynchronize Block
+xx
+ Pelletier
+ SW 0321  
+xx
+Date/Time Parsing and Formatting
+xx
+ Kuchling
+ SR 0325  
+xx
+Resource-Release Support for Generators
+xx
+ Pedroni
+ SR 0326  
+xx
+A Case for Top and Bottom Values
+xx
+ Carlson, Reedy
+ SR 0329  
+xx
+Treating Builtins as Constants in the Standard Library
+xx
+ Hettinger
+ SR 0330  
+xx
+Python Bytecode Verification
+xx
+ Pelletier
+ SR 0332  
+xx
+Byte vectors and String/Unicode Unification
+xx
+ Montanaro
+ SW 0334  
+xx
+Simple Coroutines via SuspendIteration
+xx
+ Evans
+ SR 0335  
+xx
+Overloadable Boolean Operators
+xx
+ Ewing
+ SR 0336  
+xx
+Make None Callable
+xx
+ McClelland
+ IW 0339  
+xx
+Design of the CPython Compiler
+xx
+ Cannon
+ SR 0340  
+xx
+Anonymous Block Statements
+xx
+ GvR
+ SS 0344  
+xx
+Exception Chaining and Embedded Tracebacks
+xx
+ Yee
+ SW 0346  
+xx
+User Defined ("``with``") Statements
+xx
+ Coghlan
+ SR 0348  
+xx
+Exception Reorganization for Python 3.0
+xx
+ Cannon
+ IR 0350  
+xx
+Codetags
+xx
+ Elliott
+ SR 0351  
+xx
+The freeze protocol
+xx
+ Warsaw
+ SS 0354  
+xx
+Enumerations in Python
+xx
+ Finney
+ SR 0355  
+xx
+Path - Object oriented filesystem paths
+xx
+ Lindqvist
+ SW 0359  
+xx
+The "make" Statement
+xx
+ Bethard
+ SR 0363  
+xx
+Syntax For Dynamic Attribute Access
+xx
+ North
+ SW 0364  
+xx
+Transitioning to the Py3K Standard Library
+xx
+ Warsaw
+ SR 0365  
+xx
+Adding the pkg_resources module
+xx
+ Eby
+ SS 0367  
+xx
+New Super
+xx
+ Spealman, Delaney
+ SW 0369  
+xx
+Post import hooks
+xx
+ Heimes
+ SR 0377  
+xx
+Allow __enter__() methods to skip the statement body
+xx
+ Coghlan
+ SW 0379  
+xx
+Adding an Assignment Expression
+xx
+ Whitley
+ SR 0382  
+xx
+Namespace Packages
+xx
+ v. Löwis
+ SS 0386  
+xx
+Changing the version comparison module in Distutils
+xx
+ Ziadé
+ SR 0390  
+xx
+Static metadata for Distutils
+xx
+ Ziadé
+ SW 0395  
+xx
+Qualified Names for Modules
+xx
+ Coghlan
+ PR 0401  
+xx
+BDFL Retirement
+xx
+ Warsaw, Cannon
+ SR 0402  
+xx
+Simplified Package Layout and Partitioning
+xx
+ Eby
+ SW 0406  
+xx
+Improved Encapsulation of Import State
+xx
+ Coghlan, Slodkowicz
+ SR 0408  
+xx
+Standard library __preview__ package
+xx
+ Coghlan, Bendersky
+ SR 0410  
+xx
+Use decimal.Decimal type for timestamps
+xx
+ Stinner
+ PW 0413  
+xx
+Faster evolution of the Python Standard Library
+xx
+ Coghlan
+ SR 0416  
+xx
+Add a frozendict builtin type
+xx
+ Stinner
+ SW 0422  
+xx
+Simpler customisation of class creation
+xx
+ Coghlan, Urban
+ SW 0431  
+xx
+Time zone support improvements
+xx
+ Regebro
+ SS 0433  
+xx
+Easier suppression of file descriptor inheritance
+xx
+ Stinner
+ SR 0437  
+xx
+A DSL for specifying signatures, annotations and argument converters
+xx
+ Krah
+ SR 0439  
+xx
+Inclusion of implicit pip bootstrap in Python installation
+xx
+ Jones
+ SR 0455  
+xx
+Adding a key-transforming dictionary to collections
+xx
+ Pitrou
+ SW 0460  
+xx
+Add binary interpolation and formatting
+xx
+ Pitrou
+ PW 0462  
+xx
+Core development workflow automation for CPython
+xx
+ Coghlan
+ SR 0463  
+xx
+Exception-catching expressions
+xx
+ Angelico
+ SW 0469  
+xx
+Migration of dict iteration code to Python 3
+xx
+ Coghlan
+ PW 0474  
+xx
+Creating forge.python.org
+xx
+ Coghlan
+ PW 0481  
+xx
+Migrate CPython to Git, Github, and Phabricator
+xx
+ Stufft
+ SR 0490  
+xx
+Chain exceptions at C level
+xx
+ Stinner
+ IR 0496  
+xx
+Environment Markers
+xx
+ Polley
+ SR 0500  
+xx
+A protocol for delegating datetime methods to their
+       tzinfo implementations
+xx
+ Belopolsky, Peters
+ SW 0504  
+xx
+Using the System RNG by default
+xx
+ Coghlan
+ PR 0507  
+xx
+Migrate CPython to Git and GitLab
+xx
+ Warsaw
+ SR 0510  
+xx
+Specialize functions with guards
+xx
+ Stinner
+ SR 0511  
+xx
+API for code transformers
+xx
+ Stinner
+ SR 0516  
+xx
+Build system abstraction for pip/conda etc
+xx
+ Collins, Smith
+ SR 0522  
+xx
+Allow BlockingIOError in security sensitive APIs
+xx
+ Coghlan, Smith
+ SW 0531  
+xx
+Existence checking operators
+xx
+ Coghlan
+ SR 0548  
+xx
+More Flexible Loop Control
+xx
+ Murray
+ SR 0549  
+xx
+Instance Descriptors
+xx
+ Hastings
+ SW 0555  
+xx
+Context-local variables (contextvars)
+xx
+ Zevenhoven
+ SR 0559  
+xx
+Built-in noop()
+xx
+ Warsaw
+ SR 0666  
+xx
+Reject Foolish Indentation
+xx
+ Creighton
+ SR 0754  
+xx
+IEEE 754 Floating Point Special Values
+xx
+ Warnes
+ PW 3001  
+xx
+Procedure for reviewing and improving standard library modules
+xx
+ Brandl
+ SR 3103  
+xx
+A Switch/Case Statement
+xx
+ GvR
+ SR 3117  
+xx
+Postfix type declarations
+xx
+ Brandl
+ SR 3122  
+xx
+Delineation of the main module
+xx
+ Cannon
+ SR 3125  
+xx
+Remove Backslash Continuation
+xx
+ Jewett
+ SR 3126  
+xx
+Remove Implicit String Concatenation
+xx
+ Jewett, Hettinger
+ SR 3128  
+xx
+BList: A Faster List-like Type
+xx
+ Stutzbach
+ SR 3130  
+xx
+Access to Current Module/Class/Function
+xx
+ Jewett
+ SR 3133  
+xx
+Introducing Roles
+xx
+ Winter
+ SR 3136  
+xx
+Labeled break and continue
+xx
+ Chisholm
+ SR 3139  
+xx
+Cleaning out sys and the "interpreter" module
+xx
+ Peterson
+ SR 3140  
+xx
+str(container) should call str(item), not repr(item)
+xx
+ Broytman, Jewett
+ SR 3142  
+xx
+Add a "while" clause to generator expressions
+xx
+ Britton
+ SW 3145  
+xx
+Asynchronous I/O For subprocess.Popen
+xx
+ Pruitt, McCreary, Carlson
+ SW 3146  
+xx
+Merging Unladen Swallow into CPython
+xx
+ Winter, Yasskin, Kleckner
+ SR 3152  
+xx
+Cofunctions
+xx
+ Ewing
+ SS 3153  
+xx
+Asynchronous IO support
+xx
+ Houtven
+
+
+Numerical Index
+
+     num  
+xx
+title
+xx
+ owner
+     ---  
+xx
+-----
+xx
+ -----
+ P  0001  
+xx
+PEP Purpose and Guidelines
+xx
+ Warsaw, Hylton, Goodger, Coghlan
+ PF 0002  
+xx
+Procedure for Adding New Modules
+xx
+ Faassen
+ PW 0003  
+xx
+Guidelines for Handling Bug Reports
+xx
+ Hylton
+ P  0004  
+xx
+Deprecation of Standard Modules
+xx
+ Cannon, von Löwis
+ P  0005  
+xx
+Guidelines for Language Evolution
+xx
+ Prescod
+ P  0006  
+xx
+Bug Fix Releases
+xx
+ Aahz, Baxter
+ P  0007  
+xx
+Style Guide for C Code
+xx
+ GvR, Warsaw
+ P  0008  
+xx
+Style Guide for Python Code
+xx
+ GvR, Warsaw, Coghlan
+ PW 0009  
+xx
+Sample Plaintext PEP Template
+xx
+ Warsaw
+ P  0010  
+xx
+Voting Guidelines
+xx
+ Warsaw
+ P  0011  
+xx
+Removing support for little used platforms
+xx
+ von Löwis, Cannon
+ P  0012  
+xx
+Sample reStructuredText PEP Template
+xx
+ Goodger, Warsaw
+
+ I  0020  
+xx
+The Zen of Python
+xx
+ Peters
+
+ PR 0042  
+xx
+Feature Requests
+xx
+ Hylton
+
+ SF 0100  
+xx
+Python Unicode Integration
+xx
+ Lemburg
+ I  0101  
+xx
+Doing Python Releases 101
+xx
+ Warsaw, GvR
+ IS 0102  
+xx
+Doing Python Micro Releases
+xx
+ Baxter, Warsaw, GvR
+ IW 0103  
+xx
+Collecting information about git
+xx
+ Broytman
+
+ IF 0160  
+xx
+Python 1.6 Release Schedule
+xx
+ Drake
+
+ IF 0200  
+xx
+Python 2.0 Release Schedule
+xx
+ Hylton
+ SF 0201  
+xx
+Lockstep Iteration
+xx
+ Warsaw
+ SF 0202  
+xx
+List Comprehensions
+xx
+ Warsaw
+ SF 0203  
+xx
+Augmented Assignments
+xx
+ Wouters
+ SR 0204  
+xx
+Range Literals
+xx
+ Wouters
+ SF 0205  
+xx
+Weak References
+xx
+ Drake
+ IW 0206  
+xx
+Python Advanced Library
+xx
+ Kuchling
+ SF 0207  
+xx
+Rich Comparisons
+xx
+ GvR, Ascher
+ SF 0208  
+xx
+Reworking the Coercion Model
+xx
+ Schemenauer, Lemburg
+ SW 0209  
+xx
+Multi-dimensional Arrays
+xx
+ Barrett, Oliphant
+ SR 0210  
+xx
+Decoupling the Interpreter Loop
+xx
+ Ascher
+ SR 0211  
+xx
+Adding A New Outer Product Operator
+xx
+ Wilson
+ SR 0212  
+xx
+Loop Counter Iteration
+xx
+ Schneider-Kamp
+ SD 0213  
+xx
+Attribute Access Handlers
+xx
+ Prescod
+ SF 0214  
+xx
+Extended Print Statement
+xx
+ Warsaw
+ SS 0215  
+xx
+String Interpolation
+xx
+ Yee
+ IR 0216  
+xx
+Docstring Format
+xx
+ Zadka
+ SF 0217  
+xx
+Display Hook for Interactive Use
+xx
+ Zadka
+ SF 0218  
+xx
+Adding a Built-In Set Object Type
+xx
+ Wilson, Hettinger
+ SD 0219  
+xx
+Stackless Python
+xx
+ McMillan
+ IR 0220  
+xx
+Coroutines, Generators, Continuations
+xx
+ McMillan
+ SF 0221  
+xx
+Import As
+xx
+ Wouters
+ SD 0222  
+xx
+Web Library Enhancements
+xx
+ Kuchling
+ SF 0223  
+xx
+Change the Meaning of ``\x`` Escapes
+xx
+ Peters
+ SR 0224  
+xx
+Attribute Docstrings
+xx
+ Lemburg
+ SR 0225  
+xx
+Elementwise/Objectwise Operators
+xx
+ Zhu, Lielens
+ IF 0226  
+xx
+Python 2.1 Release Schedule
+xx
+ Hylton
+ SF 0227  
+xx
+Statically Nested Scopes
+xx
+ Hylton
+ SW 0228  
+xx
+Reworking Python's Numeric Model
+xx
+ Zadka, GvR
+ SF 0229  
+xx
+Using Distutils to Build Python
+xx
+ Kuchling
+ SF 0230  
+xx
+Warning Framework
+xx
+ GvR
+ SR 0231  
+xx
+__findattr__()
+xx
+ Warsaw
+ SF 0232  
+xx
+Function Attributes
+xx
+ Warsaw
+ SD 0233  
+xx
+Python Online Help
+xx
+ Prescod
+ SF 0234  
+xx
+Iterators
+xx
+ Yee, GvR
+ SF 0235  
+xx
+Import on Case-Insensitive Platforms
+xx
+ Peters
+ SF 0236  
+xx
+Back to the __future__
+xx
+ Peters
+ SF 0237  
+xx
+Unifying Long Integers and Integers
+xx
+ Zadka, GvR
+ SF 0238  
+xx
+Changing the Division Operator
+xx
+ Zadka, GvR
+ SR 0239  
+xx
+Adding a Rational Type to Python
+xx
+ Craig, Zadka
+ SR 0240  
+xx
+Adding a Rational Literal to Python
+xx
+ Craig, Zadka
+ SF 0241  
+xx
+Metadata for Python Software Packages
+xx
+ Kuchling
+ SR 0242  
+xx
+Numeric Kinds
+xx
+ Dubois
+ SW 0243  
+xx
+Module Repository Upload Mechanism
+xx
+ Reifschneider
+ SR 0244  
+xx
+The ``directive`` statement
+xx
+ von Löwis
+ SR 0245  
+xx
+Python Interface Syntax
+xx
+ Pelletier
+ SR 0246  
+xx
+Object Adaptation
+xx
+ Martelli, Evans
+ IF 0247  
+xx
+API for Cryptographic Hash Functions
+xx
+ Kuchling
+ IF 0248  
+xx
+Python Database API Specification v1.0
+xx
+ Lemburg
+ IF 0249  
+xx
+Python Database API Specification v2.0
+xx
+ Lemburg
+ SF 0250  
+xx
+Using site-packages on Windows
+xx
+ Moore
+ IF 0251  
+xx
+Python 2.2 Release Schedule
+xx
+ Warsaw, GvR
+ SF 0252  
+xx
+Making Types Look More Like Classes
+xx
+ GvR
+ SF 0253  
+xx
+Subtyping Built-in Types
+xx
+ GvR
+ SR 0254  
+xx
+Making Classes Look More Like Types
+xx
+ GvR
+ SF 0255  
+xx
+Simple Generators
+xx
+ Schemenauer, Peters, Hetland
+ SR 0256  
+xx
+Docstring Processing System Framework
+xx
+ Goodger
+ I  0257  
+xx
+Docstring Conventions
+xx
+ Goodger, GvR
+ SR 0258  
+xx
+Docutils Design Specification
+xx
+ Goodger
+ SR 0259  
+xx
+Omit printing newline after newline
+xx
+ GvR
+ SF 0260  
+xx
+Simplify xrange()
+xx
+ GvR
+ SF 0261  
+xx
+Support for "wide" Unicode characters
+xx
+ Prescod
+ SD 0262  
+xx
+A Database of Installed Python Packages
+xx
+ Kuchling
+ SF 0263  
+xx
+Defining Python Source Code Encodings
+xx
+ Lemburg, von Löwis
+ SF 0264  
+xx
+Future statements in simulated shells
+xx
+ Hudson
+ SR 0265  
+xx
+Sorting Dictionaries by Value
+xx
+ Griffin
+ SW 0266  
+xx
+Optimizing Global Variable/Attribute Access
+xx
+ Montanaro
+ SD 0267  
+xx
+Optimized Access to Module Namespaces
+xx
+ Hylton
+ SR 0268  
+xx
+Extended HTTP functionality and WebDAV
+xx
+ Stein
+ SD 0269  
+xx
+Pgen Module for Python
+xx
+ Riehl
+ SR 0270  
+xx
+uniq method for list objects
+xx
+ Petrone
+ SR 0271  
+xx
+Prefixing sys.path by command line option
+xx
+ Giacometti
+ IF 0272  
+xx
+API for Block Encryption Algorithms v1.0
+xx
+ Kuchling
+ SF 0273  
+xx
+Import Modules from Zip Archives
+xx
+ Ahlstrom
+ SF 0274  
+xx
+Dict Comprehensions
+xx
+ Warsaw
+ SR 0275  
+xx
+Switching on Multiple Values
+xx
+ Lemburg
+ SR 0276  
+xx
+Simple Iterator for ints
+xx
+ Althoff
+ SF 0277  
+xx
+Unicode file name support for Windows NT
+xx
+ Hodgson
+ SF 0278  
+xx
+Universal Newline Support
+xx
+ Jansen
+ SF 0279  
+xx
+The enumerate() built-in function
+xx
+ Hettinger
+ SD 0280  
+xx
+Optimizing access to globals
+xx
+ GvR
+ SR 0281  
+xx
+Loop Counter Iteration with range and xrange
+xx
+ Hetland
+ SF 0282  
+xx
+A Logging System
+xx
+ Sajip, Mick
+ IF 0283  
+xx
+Python 2.3 Release Schedule
+xx
+ GvR
+ SR 0284  
+xx
+Integer for-loops
+xx
+ Eppstein, Ewing
+ SF 0285  
+xx
+Adding a bool type
+xx
+ GvR
+ SD 0286  
+xx
+Enhanced Argument Tuples
+xx
+ von Löwis
+ I  0287  
+xx
+reStructuredText Docstring Format
+xx
+ Goodger
+ SW 0288  
+xx
+Generators Attributes and Exceptions
+xx
+ Hettinger
+ SF 0289  
+xx
+Generator Expressions
+xx
+ Hettinger
+ I  0290  
+xx
+Code Migration and Modernization
+xx
+ Hettinger
+ IF 0291  
+xx
+Backward Compatibility for the Python 2 Standard Library
+xx
+ Norwitz
+ SF 0292  
+xx
+Simpler String Substitutions
+xx
+ Warsaw
+ SF 0293  
+xx
+Codec Error Handling Callbacks
+xx
+ Dörwald
+ SR 0294  
+xx
+Type Names in the types Module
+xx
+ Tirosh
+ SR 0295  
+xx
+Interpretation of multiline string constants
+xx
+ Koltsov
+ SW 0296  
+xx
+Adding a bytes Object Type
+xx
+ Gilbert
+ SR 0297  
+xx
+Support for System Upgrades
+xx
+ Lemburg
+ SW 0298  
+xx
+The Locked Buffer Interface
+xx
+ Heller
+ SR 0299  
+xx
+Special __main__() function in modules
+xx
+ Epler
+
+ SF 0301  
+xx
+Package Index and Metadata for Distutils
+xx
+ Jones
+ SF 0302  
+xx
+New Import Hooks
+xx
+ JvR, Moore
+ SR 0303  
+xx
+Extend divmod() for Multiple Divisors
+xx
+ Bellman
+ SW 0304  
+xx
+Controlling Generation of Bytecode Files
+xx
+ Montanaro
+ SF 0305  
+xx
+CSV File API
+xx
+ Altis, Cole, McNamara, Montanaro, Wells
+ IW 0306  
+xx
+How to Change Python's Grammar
+xx
+ Hudson, Diederich, Coghlan, Peterson
+ SF 0307  
+xx
+Extensions to the pickle protocol
+xx
+ GvR, Peters
+ SF 0308  
+xx
+Conditional Expressions
+xx
+ GvR, Hettinger
+ SF 0309  
+xx
+Partial Function Application
+xx
+ Harris
+ SR 0310  
+xx
+Reliable Acquisition/Release Pairs
+xx
+ Hudson, Moore
+ SF 0311  
+xx
+Simplified Global Interpreter Lock Acquisition for Extensions
+xx
+ Hammond
+ SD 0312  
+xx
+Simple Implicit Lambda
+xx
+ Suzi, Martelli
+ SR 0313  
+xx
+Adding Roman Numeral Literals to Python
+xx
+ Meyer
+ SF 0314  
+xx
+Metadata for Python Software Packages v1.1
+xx
+ Kuchling, Jones
+ SR 0315  
+xx
+Enhanced While Loop
+xx
+ Hettinger, Carroll
+ SD 0316  
+xx
+Programming by Contract for Python
+xx
+ Way
+ SR 0317  
+xx
+Eliminate Implicit Exception Instantiation
+xx
+ Taschuk
+ SF 0318  
+xx
+Decorators for Functions and Methods
+xx
+ Smith
+ SR 0319  
+xx
+Python Synchronize/Asynchronize Block
+xx
+ Pelletier
+ IF 0320  
+xx
+Python 2.4 Release Schedule
+xx
+ Warsaw, Hettinger, Baxter
+ SW 0321  
+xx
+Date/Time Parsing and Formatting
+xx
+ Kuchling
+ SF 0322  
+xx
+Reverse Iteration
+xx
+ Hettinger
+ SD 0323  
+xx
+Copyable Iterators
+xx
+ Martelli
+ SF 0324  
+xx
+subprocess - New process module
+xx
+ Astrand
+ SR 0325  
+xx
+Resource-Release Support for Generators
+xx
+ Pedroni
+ SR 0326  
+xx
+A Case for Top and Bottom Values
+xx
+ Carlson, Reedy
+ SF 0327  
+xx
+Decimal Data Type
+xx
+ Batista
+ SF 0328  
+xx
+Imports: Multi-Line and Absolute/Relative
+xx
+ Aahz
+ SR 0329  
+xx
+Treating Builtins as Constants in the Standard Library
+xx
+ Hettinger
+ SR 0330  
+xx
+Python Bytecode Verification
+xx
+ Pelletier
+ SF 0331  
+xx
+Locale-Independent Float/String Conversions
+xx
+ Reis
+ SR 0332  
+xx
+Byte vectors and String/Unicode Unification
+xx
+ Montanaro
+ IF 0333  
+xx
+Python Web Server Gateway Interface v1.0
+xx
+ Eby
+ SW 0334  
+xx
+Simple Coroutines via SuspendIteration
+xx
+ Evans
+ SR 0335  
+xx
+Overloadable Boolean Operators
+xx
+ Ewing
+ SR 0336  
+xx
+Make None Callable
+xx
+ McClelland
+ SD 0337  
+xx
+Logging Usage in the Standard Library
+xx
+ Dubner
+ SF 0338  
+xx
+Executing modules as scripts
+xx
+ Coghlan
+ IW 0339  
+xx
+Design of the CPython Compiler
+xx
+ Cannon
+ SR 0340  
+xx
+Anonymous Block Statements
+xx
+ GvR
+ SF 0341  
+xx
+Unifying try-except and try-finally
+xx
+ Brandl
+ SF 0342  
+xx
+Coroutines via Enhanced Generators
+xx
+ GvR, Eby
+ SF 0343  
+xx
+The "with" Statement
+xx
+ GvR, Coghlan
+ SS 0344  
+xx
+Exception Chaining and Embedded Tracebacks
+xx
+ Yee
+ SA 0345  
+xx
+Metadata for Python Software Packages 1.2
+xx
+ Jones
+ SW 0346  
+xx
+User Defined ("``with``") Statements
+xx
+ Coghlan
+ PF 0347  
+xx
+Migrating the Python CVS to Subversion
+xx
+ von Löwis
+ SR 0348  
+xx
+Exception Reorganization for Python 3.0
+xx
+ Cannon
+ SD 0349  
+xx
+Allow str() to return unicode strings
+xx
+ Schemenauer
+ IR 0350  
+xx
+Codetags
+xx
+ Elliott
+ SR 0351  
+xx
+The freeze protocol
+xx
+ Warsaw
+ SF 0352  
+xx
+Required Superclass for Exceptions
+xx
+ Cannon, GvR
+ SF 0353  
+xx
+Using ssize_t as the index type
+xx
+ von Löwis
+ SS 0354  
+xx
+Enumerations in Python
+xx
+ Finney
+ SR 0355  
+xx
+Path - Object oriented filesystem paths
+xx
+ Lindqvist
+ IF 0356  
+xx
+Python 2.5 Release Schedule
+xx
+ Norwitz, GvR, Baxter
+ SF 0357  
+xx
+Allowing Any Object to be Used for Slicing
+xx
+ Oliphant
+ SF 0358  
+xx
+The "bytes" Object
+xx
+ Schemenauer, GvR
+ SW 0359  
+xx
+The "make" Statement
+xx
+ Bethard
+ PF 0360  
+xx
+Externally Maintained Packages
+xx
+ Cannon
+ IF 0361  
+xx
+Python 2.6 and 3.0 Release Schedule
+xx
+ Norwitz, Warsaw
+ SF 0362  
+xx
+Function Signature Object
+xx
+ Cannon, Seo, Selivanov, Hastings
+ SR 0363  
+xx
+Syntax For Dynamic Attribute Access
+xx
+ North
+ SW 0364  
+xx
+Transitioning to the Py3K Standard Library
+xx
+ Warsaw
+ SR 0365  
+xx
+Adding the pkg_resources module
+xx
+ Eby
+ SF 0366  
+xx
+Main module explicit relative imports
+xx
+ Coghlan
+ SS 0367  
+xx
+New Super
+xx
+ Spealman, Delaney
+ SD 0368  
+xx
+Standard image protocol and class
+xx
+ Mastrodomenico
+ SW 0369  
+xx
+Post import hooks
+xx
+ Heimes
+ SF 0370  
+xx
+Per user site-packages directory
+xx
+ Heimes
+ SF 0371  
+xx
+Addition of the multiprocessing package to the standard library
+xx
+ Noller, Oudkerk
+ SF 0372  
+xx
+Adding an ordered dictionary to collections
+xx
+ Ronacher, Hettinger
+ I  0373  
+xx
+Python 2.7 Release Schedule
+xx
+ Peterson
+ PF 0374  
+xx
+Choosing a distributed VCS for the Python project
+xx
+ Cannon, Turnbull, Vassalotti, Warsaw, Ochtman
+ IF 0375  
+xx
+Python 3.1 Release Schedule
+xx
+ Peterson
+ SA 0376  
+xx
+Database of Installed Python Distributions
+xx
+ Ziadé
+ SR 0377  
+xx
+Allow __enter__() methods to skip the statement body
+xx
+ Coghlan
+ SF 0378  
+xx
+Format Specifier for Thousands Separator
+xx
+ Hettinger
+ SW 0379  
+xx
+Adding an Assignment Expression
+xx
+ Whitley
+ SF 0380  
+xx
+Syntax for Delegating to a Subgenerator
+xx
+ Ewing
+ S  0381  
+xx
+Mirroring infrastructure for PyPI
+xx
+ Ziadé, v. Löwis
+ SR 0382  
+xx
+Namespace Packages
+xx
+ v. Löwis
+ SF 0383  
+xx
+Non-decodable Bytes in System Character Interfaces
+xx
+ v. Löwis
+ SF 0384  
+xx
+Defining a Stable ABI
+xx
+ v. Löwis
+ PF 0385  
+xx
+Migrating from Subversion to Mercurial
+xx
+ Ochtman, Pitrou, Brandl
+ SS 0386  
+xx
+Changing the version comparison module in Distutils
+xx
+ Ziadé
+ P  0387  
+xx
+Backwards Compatibility Policy
+xx
+ Peterson
+
+ SF 0389  
+xx
+argparse - New Command Line Parsing Module
+xx
+ Bethard
+ SR 0390  
+xx
+Static metadata for Distutils
+xx
+ Ziadé
+ SF 0391  
+xx
+Dictionary-Based Configuration For Logging
+xx
+ Sajip
+ IF 0392  
+xx
+Python 3.2 Release Schedule
+xx
+ Brandl
+ SF 0393  
+xx
+Flexible String Representation
+xx
+ v. Löwis
+ I  0394  
+xx
+The "python" Command on Unix-Like Systems
+xx
+ Staley, Coghlan, Warsaw
+ SW 0395  
+xx
+Qualified Names for Modules
+xx
+ Coghlan
+ ID 0396  
+xx
+Module Version Numbers
+xx
+ Warsaw
+ SF 0397  
+xx
+Python launcher for Windows
+xx
+ Hammond, v. Löwis
+ IF 0398  
+xx
+Python 3.3 Release Schedule
+xx
+ Brandl
+ IF 0399  
+xx
+Pure Python/C Accelerator Module Compatibility Requirements
+xx
+ Cannon
+ SD 0400  
+xx
+Deprecate codecs.StreamReader and codecs.StreamWriter
+xx
+ Stinner
+ PR 0401  
+xx
+BDFL Retirement
+xx
+ Warsaw, Cannon
+ SR 0402  
+xx
+Simplified Package Layout and Partitioning
+xx
+ Eby
+ SD 0403  
+xx
+General purpose decorator clause (aka "@in" clause)
+xx
+ Coghlan
+ IF 0404  
+xx
+Python 2.8 Un-release Schedule
+xx
+ Warsaw
+ SF 0405  
+xx
+Python Virtual Environments
+xx
+ Meyer
+ SW 0406  
+xx
+Improved Encapsulation of Import State
+xx
+ Coghlan, Slodkowicz
+ PD 0407  
+xx
+New release cycle and introducing long-term support versions
+xx
+ Pitrou, Brandl, Warsaw
+ SR 0408  
+xx
+Standard library __preview__ package
+xx
+ Coghlan, Bendersky
+ SF 0409  
+xx
+Suppressing exception context
+xx
+ Furman
+ SR 0410  
+xx
+Use decimal.Decimal type for timestamps
+xx
+ Stinner
+ IA 0411  
+xx
+Provisional packages in the Python standard library
+xx
+ Coghlan, Bendersky
+ SF 0412  
+xx
+Key-Sharing Dictionary
+xx
+ Shannon
+ PW 0413  
+xx
+Faster evolution of the Python Standard Library
+xx
+ Coghlan
+ SF 0414  
+xx
+Explicit Unicode Literal for Python 3.3
+xx
+ Ronacher, Coghlan
+ SF 0415  
+xx
+Implement context suppression with exception attributes
+xx
+ Peterson
+ SR 0416  
+xx
+Add a frozendict builtin type
+xx
+ Stinner
+ SF 0417  
+xx
+Including mock in the Standard Library
+xx
+ Foord
+ SF 0418  
+xx
+Add monotonic time, performance counter, and process time functions
+xx
+ Simpson, Jewett, Turnbull, Stinner
+ SD 0419  
+xx
+Protecting cleanup statements from interruptions
+xx
+ Colomiets
+ SF 0420  
+xx
+Implicit Namespace Packages
+xx
+ Smith
+ SF 0421  
+xx
+Adding sys.implementation
+xx
+ Snow
+ SW 0422  
+xx
+Simpler customisation of class creation
+xx
+ Coghlan, Urban
+ ID 0423  
+xx
+Naming conventions and recipes related to packaging
+xx
+ Bryon
+ SF 0424  
+xx
+A method for exposing a length hint
+xx
+ Gaynor
+ SA 0425  
+xx
+Compatibility Tags for Built Distributions
+xx
+ Holth
+ ID 0426  
+xx
+Metadata for Python Software Packages 2.0
+xx
+ Coghlan, Holth, Stufft
+ SA 0427  
+xx
+The Wheel Binary Package Format 1.0
+xx
+ Holth
+ SF 0428  
+xx
+The pathlib module -- object-oriented filesystem paths
+xx
+ Pitrou
+ I  0429  
+xx
+Python 3.4 Release Schedule
+xx
+ Hastings
+ IF 0430  
+xx
+Migrating to Python 3 as the default online documentation
+xx
+ Coghlan
+ SW 0431  
+xx
+Time zone support improvements
+xx
+ Regebro
+ S  0432  
+xx
+Restructuring the CPython startup sequence
+xx
+ Coghlan
+ SS 0433  
+xx
+Easier suppression of file descriptor inheritance
+xx
+ Stinner
+ I  0434  
+xx
+IDLE Enhancement Exception for All Branches
+xx
+ Rovito, Reedy
+ SF 0435  
+xx
+Adding an Enum type to the Python standard library
+xx
+ Warsaw, Bendersky, Furman
+ S  0436  
+xx
+The Argument Clinic DSL
+xx
+ Hastings
+ SR 0437  
+xx
+A DSL for specifying signatures, annotations and argument converters
+xx
+ Krah
+ PS 0438  
+xx
+Transitioning to release-file hosting on PyPI
+xx
+ Krekel, Meyer
+ SR 0439  
+xx
+Inclusion of implicit pip bootstrap in Python installation
+xx
+ Jones
+ IA 0440  
+xx
+Version Identification and Dependency Specification
+xx
+ Coghlan, Stufft
+ SF 0441  
+xx
+Improving Python ZIP Application Support
+xx
+ Holth, Moore
+ SF 0442  
+xx
+Safe object finalization
+xx
+ Pitrou
+ SF 0443  
+xx
+Single-dispatch generic functions
+xx
+ Langa
+ ID 0444  
+xx
+Python Web3 Interface
+xx
+ McDonough, Ronacher
+ SF 0445  
+xx
+Add new APIs to customize Python memory allocators
+xx
+ Stinner
+ SF 0446  
+xx
+Make newly created file descriptors non-inheritable
+xx
+ Stinner
+ S  0447  
+xx
+Add __getdescriptor__ method to metaclass
+xx
+ Oussoren
+ SF 0448  
+xx
+Additional Unpacking Generalizations
+xx
+ Landau
+ PA 0449  
+xx
+Removal of the PyPI Mirror Auto Discovery and Naming Scheme
+xx
+ Stufft
+ SF 0450  
+xx
+Adding A Statistics Module To The Standard Library
+xx
+ D'Aprano
+ SF 0451  
+xx
+A ModuleSpec Type for the Import System
+xx
+ Snow
+ I  0452  
+xx
+API for Cryptographic Hash Functions v2.0
+xx
+ Kuchling, Heimes
+ SF 0453  
+xx
+Explicit bootstrapping of pip in Python installations
+xx
+ Stufft, Coghlan
+ SF 0454  
+xx
+Add a new tracemalloc module to trace Python memory allocations
+xx
+ Stinner
+ SR 0455  
+xx
+Adding a key-transforming dictionary to collections
+xx
+ Pitrou
+ SF 0456  
+xx
+Secure and interchangeable hash algorithm
+xx
+ Heimes
+ I  0457  
+xx
+Syntax For Positional-Only Parameters
+xx
+ Hastings
+ S  0458  
+xx
+Surviving a Compromise of PyPI
+xx
+ Kuppusamy, Diaz, Stufft, Cappos
+ SD 0459  
+xx
+Standard Metadata Extensions for Python Software Packages
+xx
+ Coghlan
+ SW 0460  
+xx
+Add binary interpolation and formatting
+xx
+ Pitrou
+ SF 0461  
+xx
+Adding % formatting to bytes and bytearray
+xx
+ Furman
+ PW 0462  
+xx
+Core development workflow automation for CPython
+xx
+ Coghlan
+ SR 0463  
+xx
+Exception-catching expressions
+xx
+ Angelico
+ PA 0464  
+xx
+Removal of the PyPI Mirror Authenticity API
+xx
+ Stufft
+ SF 0465  
+xx
+A dedicated infix operator for matrix multiplication
+xx
+ Smith
+ SF 0466  
+xx
+Network Security Enhancements for Python 2.7.x
+xx
+ Coghlan
+ S  0467  
+xx
+Minor API improvements for binary sequences
+xx
+ Coghlan
+ SF 0468  
+xx
+Preserving the order of \*\*kwargs in a function.
+xx
+ Snow
+ SW 0469  
+xx
+Migration of dict iteration code to Python 3
+xx
+ Coghlan
+ PA 0470  
+xx
+Removing External Hosting Support on PyPI
+xx
+ Stufft
+ SF 0471  
+xx
+os.scandir() function -- a better and faster directory iterator
+xx
+ Hoyt
+ S  0472  
+xx
+Support for indexing with keyword arguments
+xx
+ Borini, Martinot-Lagarde
+ S  0473  
+xx
+Adding structured data to built-in exceptions
+xx
+ Kreft
+ PW 0474  
+xx
+Creating forge.python.org
+xx
+ Coghlan
+ SF 0475  
+xx
+Retry system calls failing with EINTR
+xx
+ Natali, Stinner
+ SF 0476  
+xx
+Enabling certificate verification by default for stdlib http clients
+xx
+ Gaynor
+ SF 0477  
+xx
+Backport ensurepip (PEP 453) to Python 2.7
+xx
+ Stufft, Coghlan
+ I  0478  
+xx
+Python 3.5 Release Schedule
+xx
+ Hastings
+ SF 0479  
+xx
+Change StopIteration handling inside generators
+xx
+ Angelico, GvR
+ S  0480  
+xx
+Surviving a Compromise of PyPI: The Maximum Security Model
+xx
+ Kuppusamy, Diaz, Stufft, Cappos
+ PW 0481  
+xx
+Migrate CPython to Git, Github, and Phabricator
+xx
+ Stufft
+ I  0482  
+xx
+Literature Overview for Type Hints
+xx
+ Langa
+ I  0483  
+xx
+The Theory of Type Hints
+xx
+ GvR, Levkivskyi
+ SA 0484  
+xx
+Type Hints
+xx
+ GvR, Lehtosalo, Langa
+ SF 0485  
+xx
+A Function for testing approximate equality
+xx
+ Barker
+ SF 0486  
+xx
+Make the Python Launcher aware of virtual environments
+xx
+ Moore
+ SF 0487  
+xx
+Simpler customisation of class creation
+xx
+ Teichmann
+ SF 0488  
+xx
+Elimination of PYO files
+xx
+ Cannon
+ SF 0489  
+xx
+Multi-phase extension module initialization
+xx
+ Viktorin, Behnel, Coghlan
+ SR 0490  
+xx
+Chain exceptions at C level
+xx
+ Stinner
+ S  0491  
+xx
+The Wheel Binary Package Format 1.9
+xx
+ Holth
+ SF 0492  
+xx
+Coroutines with async and await syntax
+xx
+ Selivanov
+ SF 0493  
+xx
+HTTPS verification migration tools for Python 2.7
+xx
+ Coghlan, Kuska, Lemburg
+ I  0494  
+xx
+Python 3.6 Release Schedule
+xx
+ Deily
+ SF 0495  
+xx
+Local Time Disambiguation
+xx
+ Belopolsky, Peters
+ IR 0496  
+xx
+Environment Markers
+xx
+ Polley
+ P  0497  
+xx
+A standard mechanism for backward compatibility
+xx
+ Schofield
+ SF 0498  
+xx
+Literal String Interpolation
+xx
+ Smith
+ S  0499  
+xx
+``python -m foo`` should bind ``sys.modules['foo']`` in addition to ``sys.modules['__main__']``
+xx
+ Simpson
+ SR 0500  
+xx
+A protocol for delegating datetime methods to their
+       tzinfo implementations
+xx
+ Belopolsky, Peters
+ SD 0501  
+xx
+General purpose string interpolation
+xx
+ Coghlan
+ I  0502  
+xx
+String Interpolation - Extended Discussion
+xx
+ Miller
+ IA 0503  
+xx
+Simple Repository API
+xx
+ Stufft
+ SW 0504  
+xx
+Using the System RNG by default
+xx
+ Coghlan
+ SD 0505  
+xx
+None-aware operators
+xx
+ Haase
+ SA 0506  
+xx
+Adding A Secrets Module To The Standard Library
+xx
+ D'Aprano
+ PR 0507  
+xx
+Migrate CPython to Git and GitLab
+xx
+ Warsaw
+ I  0508  
+xx
+Dependency specification for Python Software Packages
+xx
+ Collins
+ SF 0509  
+xx
+Add a private version to dict
+xx
+ Stinner
+ SR 0510  
+xx
+Specialize functions with guards
+xx
+ Stinner
+ SR 0511  
+xx
+API for code transformers
+xx
+ Stinner
+ PF 0512  
+xx
+Migrating from hg.python.org to GitHub
+xx
+ Cannon
+ I  0513  
+xx
+A Platform Tag for Portable Linux Built Distributions
+xx
+ McGibbon, Smith
+ I  0514  
+xx
+Python registration in the Windows registry
+xx
+ Dower
+ SF 0515  
+xx
+Underscores in Numeric Literals
+xx
+ Brandl, Storchaka
+ SR 0516  
+xx
+Build system abstraction for pip/conda etc
+xx
+ Collins, Smith
+ SA 0517  
+xx
+A build-system independent format for source trees
+xx
+ Smith, Kluyver
+ IA 0518  
+xx
+Specifying Minimum Build System Requirements for Python Projects
+xx
+ Cannon, Smith, Stufft
+ SF 0519  
+xx
+Adding a file system path protocol
+xx
+ Cannon, Zevenhoven
+ SF 0520  
+xx
+Preserving Class Attribute Definition Order
+xx
+ Snow
+ SD 0521  
+xx
+Managing global context via 'with' blocks in generators and coroutines
+xx
+ Smith
+ SR 0522  
+xx
+Allow BlockingIOError in security sensitive APIs
+xx
+ Coghlan, Smith
+ SF 0523  
+xx
+Adding a frame evaluation API to CPython
+xx
+ Cannon, Viehland
+ SF 0524  
+xx
+Make os.urandom() blocking on Linux
+xx
+ Stinner
+ SF 0525  
+xx
+Asynchronous Generators
+xx
+ Selivanov
+ SF 0526  
+xx
+Syntax for Variable Annotations
+xx
+ Gonzalez, House, Levkivskyi, Roach, GvR
+ PA 0527  
+xx
+Removing Un(der)used file types/extensions on PyPI
+xx
+ Stufft
+ SF 0528  
+xx
+Change Windows console encoding to UTF-8
+xx
+ Dower
+ SF 0529  
+xx
+Change Windows filesystem encoding to UTF-8
+xx
+ Dower
+ SF 0530  
+xx
+Asynchronous Comprehensions
+xx
+ Selivanov
+ SW 0531  
+xx
+Existence checking operators
+xx
+ Coghlan
+ SD 0532  
+xx
+A circuit breaking protocol and binary operators
+xx
+ Coghlan, Haase
+ S  0533  
+xx
+Deterministic cleanup for iterators
+xx
+ Smith
+ S  0534  
+xx
+Distributing a Subset of the Standard Library
+xx
+ Orsava, Viktorin, Coghlan
+ SD 0535  
+xx
+Rich comparison chaining
+xx
+ Coghlan
+ S  0536  
+xx
+Final Grammar for Literal String Interpolation
+xx
+ Angerer
+ I  0537  
+xx
+Python 3.7 Release Schedule
+xx
+ Deily
+ SF 0538  
+xx
+Coercing the legacy C locale to a UTF-8 based locale
+xx
+ Coghlan
+ SA 0539  
+xx
+A New C-API for Thread-Local Storage in CPython
+xx
+ Bray, Yamamoto
+ SA 0540  
+xx
+Add a new UTF-8 Mode
+xx
+ Stinner
+ P  0541  
+xx
+Package Index Name Retention
+xx
+ Langa
+ S  0542  
+xx
+Dot Notation Assignment In Function Header
+xx
+ Meskanen
+ S  0543  
+xx
+A Unified TLS API for Python
+xx
+ Benfield, Heimes
+ S  0544  
+xx
+Protocols: Structural subtyping (static duck typing)
+xx
+ Levkivskyi, Lehtosalo, Langa
+ PF 0545  
+xx
+Python Documentation Translations
+xx
+ Palard, Naoki, Stinner
+ SA 0546  
+xx
+Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7
+xx
+ Stinner, Benfield
+ S  0547  
+xx
+Running extension modules using the -m option
+xx
+ Plch, Viktorin
+ SR 0548  
+xx
+More Flexible Loop Control
+xx
+ Murray
+ SR 0549  
+xx
+Instance Descriptors
+xx
+ Hastings
+ S  0550  
+xx
+Execution Context
+xx
+ Selivanov, Pranskevichus
+ S  0551  
+xx
+Security transparency in the Python runtime
+xx
+ Dower
+ SF 0552  
+xx
+Deterministic pycs
+xx
+ Peterson
+ SF 0553  
+xx
+Built-in breakpoint()
+xx
+ Warsaw
+ S  0554  
+xx
+Multiple Interpreters in the Stdlib
+xx
+ Snow
+ SW 0555  
+xx
+Context-local variables (contextvars)
+xx
+ Zevenhoven
+ S  0556  
+xx
+Threaded garbage collection
+xx
+ Pitrou
+ SA 0557  
+xx
+Data Classes
+xx
+ Smith
+ S  0558  
+xx
+Defined semantics for locals()
+xx
+ Coghlan
+ SR 0559  
+xx
+Built-in noop()
+xx
+ Warsaw
+ SA 0560  
+xx
+Core support for typing module and generic types
+xx
+ Levkivskyi
+ S  0561  
+xx
+Distributing and Packaging Type Information
+xx
+ Smith
+ SA 0562  
+xx
+Module __getattr__ and __dir__
+xx
+ Levkivskyi
+ SA 0563  
+xx
+Postponed Evaluation of Annotations
+xx
+ Langa
+ SF 0564  
+xx
+Add new time functions with nanosecond resolution
+xx
+ Stinner
+ SF 0565  
+xx
+Show DeprecationWarning in __main__
+xx
+ Coghlan
+ S  0566  
+xx
+Metadata for Python Software Packages 1.3
+xx
+ Ingram
+ S  0567  
+xx
+Context Variables
+xx
+ Selivanov
+ SD 0568  
+xx
+Generator-sensitivity for Context Variables
+xx
+ Smith
+
+ SF 0628  
+xx
+Add ``math.tau``
+xx
+ Coghlan
+
+ SR 0666  
+xx
+Reject Foolish Indentation
+xx
+ Creighton
+
+ SR 0754  
+xx
+IEEE 754 Floating Point Special Values
+xx
+ Warnes
+
+ PF 3000  
+xx
+Python 3000
+xx
+ GvR
+ PW 3001  
+xx
+Procedure for reviewing and improving standard library modules
+xx
+ Brandl
+ PF 3002  
+xx
+Procedure for Backwards-Incompatible Changes
+xx
+ Bethard
+ PF 3003  
+xx
+Python Language Moratorium
+xx
+ Cannon, Noller, GvR
+
+ PF 3099  
+xx
+Things that will Not Change in Python 3000
+xx
+ Brandl
+ PF 3100  
+xx
+Miscellaneous Python 3.0 Plans
+xx
+ Cannon
+ SF 3101  
+xx
+Advanced String Formatting
+xx
+ Talin
+ SF 3102  
+xx
+Keyword-Only Arguments
+xx
+ Talin
+ SR 3103  
+xx
+A Switch/Case Statement
+xx
+ GvR
+ SF 3104  
+xx
+Access to Names in Outer Scopes
+xx
+ Yee
+ SF 3105  
+xx
+Make print a function
+xx
+ Brandl
+ SF 3106  
+xx
+Revamping dict.keys(), .values() and .items()
+xx
+ GvR
+ SF 3107  
+xx
+Function Annotations
+xx
+ Winter, Lownds
+ SF 3108  
+xx
+Standard Library Reorganization
+xx
+ Cannon
+ SF 3109  
+xx
+Raising Exceptions in Python 3000
+xx
+ Winter
+ SF 3110  
+xx
+Catching Exceptions in Python 3000
+xx
+ Winter
+ SF 3111  
+xx
+Simple input built-in in Python 3000
+xx
+ Roberge
+ SF 3112  
+xx
+Bytes literals in Python 3000
+xx
+ Orendorff
+ SF 3113  
+xx
+Removal of Tuple Parameter Unpacking
+xx
+ Cannon
+ SF 3114  
+xx
+Renaming iterator.next() to iterator.__next__()
+xx
+ Yee
+ SF 3115  
+xx
+Metaclasses in Python 3000
+xx
+ Talin
+ SF 3116  
+xx
+New I/O
+xx
+ Stutzbach, GvR, Verdone
+ SR 3117  
+xx
+Postfix type declarations
+xx
+ Brandl
+ SF 3118  
+xx
+Revising the buffer protocol
+xx
+ Oliphant, Banks
+ SF 3119  
+xx
+Introducing Abstract Base Classes
+xx
+ GvR, Talin
+ SF 3120  
+xx
+Using UTF-8 as the default source encoding
+xx
+ von Löwis
+ SA 3121  
+xx
+Extension Module Initialization and Finalization
+xx
+ von Löwis
+ SR 3122  
+xx
+Delineation of the main module
+xx
+ Cannon
+ SF 3123  
+xx
+Making PyObject_HEAD conform to standard C
+xx
+ von Löwis
+ SD 3124  
+xx
+Overloading, Generic Functions, Interfaces, and Adaptation
+xx
+ Eby
+ SR 3125  
+xx
+Remove Backslash Continuation
+xx
+ Jewett
+ SR 3126  
+xx
+Remove Implicit String Concatenation
+xx
+ Jewett, Hettinger
+ SF 3127  
+xx
+Integer Literal Support and Syntax
+xx
+ Maupin
+ SR 3128  
+xx
+BList: A Faster List-like Type
+xx
+ Stutzbach
+ SF 3129  
+xx
+Class Decorators
+xx
+ Winter
+ SR 3130  
+xx
+Access to Current Module/Class/Function
+xx
+ Jewett
+ SF 3131  
+xx
+Supporting Non-ASCII Identifiers
+xx
+ von Löwis
+ SF 3132  
+xx
+Extended Iterable Unpacking
+xx
+ Brandl
+ SR 3133  
+xx
+Introducing Roles
+xx
+ Winter
+ SF 3134  
+xx
+Exception Chaining and Embedded Tracebacks
+xx
+ Yee
+ SF 3135  
+xx
+New Super
+xx
+ Spealman, Delaney, Ryan
+ SR 3136  
+xx
+Labeled break and continue
+xx
+ Chisholm
+ SF 3137  
+xx
+Immutable Bytes and Mutable Buffer
+xx
+ GvR
+ SF 3138  
+xx
+String representation in Python 3000
+xx
+ Ishimoto
+ SR 3139  
+xx
+Cleaning out sys and the "interpreter" module
+xx
+ Peterson
+ SR 3140  
+xx
+str(container) should call str(item), not repr(item)
+xx
+ Broytman, Jewett
+ SF 3141  
+xx
+A Type Hierarchy for Numbers
+xx
+ Yasskin
+ SR 3142  
+xx
+Add a "while" clause to generator expressions
+xx
+ Britton
+ SD 3143  
+xx
+Standard daemon process library
+xx
+ Finney
+ SF 3144  
+xx
+IP Address Manipulation Library for the Python Standard Library
+xx
+ Moody
+ SW 3145  
+xx
+Asynchronous I/O For subprocess.Popen
+xx
+ Pruitt, McCreary, Carlson
+ SW 3146  
+xx
+Merging Unladen Swallow into CPython
+xx
+ Winter, Yasskin, Kleckner
+ SF 3147  
+xx
+PYC Repository Directories
+xx
+ Warsaw
+ SF 3148  
+xx
+futures - execute computations asynchronously
+xx
+ Quinlan
+ SF 3149  
+xx
+ABI version tagged .so files
+xx
+ Warsaw
+ SD 3150  
+xx
+Statement local namespaces (aka "given" clause)
+xx
+ Coghlan
+ SF 3151  
+xx
+Reworking the OS and IO exception hierarchy
+xx
+ Pitrou
+ SR 3152  
+xx
+Cofunctions
+xx
+ Ewing
+ SS 3153  
+xx
+Asynchronous IO support
+xx
+ Houtven
+ SF 3154  
+xx
+Pickle protocol version 4
+xx
+ Pitrou
+ SF 3155  
+xx
+Qualified name for classes and functions
+xx
+ Pitrou
+ SF 3156  
+xx
+Asynchronous IO Support Rebooted: the "asyncio" Module
+xx
+ GvR
+
+ IF 3333  
+xx
+Python Web Server Gateway Interface v1.0.1
+xx
+ Eby
+
+
+Reserved PEP Numbers
+
+     num  
+xx
+title
+xx
+ owner
+     ---  
+xx
+-----
+xx
+ -----
+     801  
+xx
+RESERVED
+xx
+ Warsaw
+
+
+Key
+
+    S - Standards Track PEP
+    I - Informational PEP
+    P - Process PEP
+
+    A - Accepted proposal
+    R - Rejected proposal
+    W - Withdrawn proposal
+    D - Deferred proposal
+    F - Final proposal
+    A - Active proposal
+    D - Draft proposal
+    S - Superseded proposal
+
+
+Owners
+
+    name                         email address
+    ----                         -------------
+    Aahz                         aahz@pythoncraft.com
+    Ahlstrom, James C.           jim@interet.com
+    Althoff, Jim                 james_althoff@i2.com
+    Altis, Kevin                 altis@semi-retired.com
+    Angelico, Chris              rosuav@gmail.com
+    Angerer, Philipp             phil.angerer@gmail.com
+    Ascher, David                davida@activestate.com
+    Astrand, Peter               astrand@lysator.liu.se
+    Banks, Carl                  pythondev@aerojockey.com
+    Barker, Christopher          chris.barker@noaa.gov
+    Barrett, Paul                barrett@stsci.edu
+    Batista, Facundo             facundo@taniquetil.com.ar
+    Baxter, Anthony              anthony@interlink.com.au
+    Behnel, Stefan               stefan_ml@behnel.de
+    Bellman, Thomas              bellman+pep-divmod@lysator.liu.se
+    Belopolsky, Alexander        alexander.belopolsky@gmail.com
+    Bendersky, Eli               eliben@gmail.com
+    Benfield, Cory               cory@lukasa.co.uk
+    Bethard, Steven              steven.bethard@gmail.com
+    Borini, Stefano              
+    Brandl, Georg                georg@python.org
+    Bray, Erik M.                
+    Britton, Gerald              gerald.britton@gmail.com
+    Broytman, Oleg               phd@phdru.name
+    Bryon, Benoit                benoit@marmelune.net
+    Cannon, Brett                brett@python.org
+    Cappos, Justin               jcappos@nyu.edu
+    Carlson, Josiah              jcarlson@uci.edu
+    Carroll, W Isaac             icarroll@pobox.com
+    Chisholm, Matt               matt-python@theory.org
+    Coghlan, Nick                ncoghlan@gmail.com
+    Cole, Dave                   djc@object-craft.com.au
+    Collins, Robert              rbtcollins@hp.com
+    Colomiets, Paul              paul@colomiets.name
+    Craig, Christopher A.        python-pep@ccraig.org
+    Creighton, Laura             lac@strakt.com
+    D'Aprano, Steven             steve@pearwood.info
+    Deily, Ned                   nad@python.org
+    Delaney, Tim                 timothy.c.delaney@gmail.com
+    Diaz, Vladimir               vladimir.diaz@nyu.edu
+    Diederich, Jack              jackdied@gmail.com
+    Dörwald, Walter              walter@livinglogic.de
+    Dower, Steve                 steve.dower@python.org
+    Drake, Fred L., Jr.          fdrake@acm.org
+    Dubner, Michael P.           dubnerm@mindless.com
+    Dubois, Paul F.              paul@pfdubois.com
+    Eby, Phillip J.              pje@telecommunity.com
+    Eby, P.J.                    pje@telecommunity.com
+    Elliott, Micah               mde at tracos.org
+    Epler, Jeff                  jepler@unpythonic.net
+    Eppstein, David              eppstein@ics.uci.edu
+    Evans, Clark C.              cce@clarkevans.com
+    Ewing, Greg                  greg.ewing@canterbury.ac.nz
+    Ewing, Gregory               greg.ewing@canterbury.ac.nz
+    Faassen, Martijn             faassen@infrae.com
+    Finney, Ben                  ben+python@benfinney.id.au
+    Foord, Michael               michael@python.org
+    Furman, Ethan                ethan@stoneleaf.us
+    Gaynor, Alex                 alex.gaynor@gmail.com
+    Giacometti, Frédéric B.      fred@arakne.com
+    Gilbert, Scott               xscottg at yahoo.com
+    Gonzalez, Ryan               rymg19@gmail.com
+    Goodger, David               goodger@python.org
+    Griffin, Grant               g2@iowegian.com
+    Haase, Mark E.               mehaase@gmail.com
+    Hammond, Mark                mhammond@skippinet.com.au
+    Harris, Peter                scav@blueyonder.co.uk
+    Hastings, Larry              larry@hastings.org
+    Heimes, Christian            christian@python.org
+    Heller, Thomas               theller@python.net
+    Hetland, Magnus Lie          magnus@hetland.org
+    Hettinger, Raymond           python@rcn.com
+    Hodgson, Neil                neilh@scintilla.org
+    Holth, Daniel                dholth@gmail.com
+    House, Philip                phouse512@gmail.com
+    Houtven, Laurens Van         _@lvh.cc
+    Hoyt, Ben                    benhoyt@gmail.com
+    Hudson, Michael              mwh@python.net
+    Hylton, Jeremy               jeremy@alum.mit.edu
+    Ingram, Dustin               di@di.codes
+    Ishimoto, Atsuo              ishimoto--at--gembook.org
+    Jansen, Jack                 jack@cwi.nl
+    Jewett, Jim                  jimjjewett@gmail.com
+    Jewett, Jim J.               jimjjewett@gmail.com
+    Jones, Richard               richard@python.org
+    Kleckner, Reid               rnk@mit.edu
+    Kluyver, Thomas              thomas@kluyver.me.uk
+    Koltsov, Stepan              yozh@mx1.ru
+    Krah, Stefan                 skrah@bytereef.org
+    Kreft, Sebastian             skreft@deezer.com
+    Krekel, Holger               holger@merlinux.eu
+    Kuchling, A.M.               amk@amk.ca
+    Kuppusamy, Trishank Karthik  trishank@nyu.edu
+    Kuska, Robert                rkuska@redhat.com
+    Landau, Joshua               joshua@landau.ws
+    Langa, Łukasz                lukasz@langa.pl
+    Lehtosalo, Jukka             jukka.lehtosalo@iki.fi
+    Lemburg, Marc-André          mal@lemburg.com
+    Levkivskyi, Ivan             levkivskyi@gmail.com
+    Lielens, Gregory             gregory.lielens@fft.be
+    Lindqvist, Björn             bjourne@gmail.com
+    von Löwis, Martin            martin@v.loewis.de
+    v. Löwis, Martin             martin@v.loewis.de
+    Lownds, Tony                 tony@lownds.com
+    Martelli, Alex               aleaxit@gmail.com
+    Martinot-Lagarde, Joseph     
+    Mastrodomenico, Lino         l.mastrodomenico@gmail.com
+    Maupin, Patrick              pmaupin@gmail.com
+    McClelland, Andrew           eternalsquire@comcast.net
+    McCreary, Charles R.         
+    McDonough, Chris             chrism@plope.com
+    McGibbon, Robert T.          rmcgibbo@gmail.com
+    McMillan, Gordon             gmcm@hypernet.com
+    McNamara, Andrew             andrewm@object-craft.com.au
+    Meskanen, Markus             markusmeskanen@gmail.com
+    Meyer, Mike                  mwm@mired.org
+    Meyer, Carl                  carl@oddbird.net
+    Mick, Trent                  trentm@activestate.com
+    Miller, Mike G.              
+    Montanaro, Skip              skip@pobox.com
+    Moody, Peter                 pmoody@google.com
+    Moore, Paul                  p.f.moore@gmail.com
+    Murray, R David              
+    Naoki,         Inada         songofacandy@gmail.com
+    Natali, Charles-François     cf.natali@gmail.com
+    Noller, Jesse                jnoller@gmail.com
+    North, Ben                   ben@redfrontdoor.org
+    Norwitz, Neal                nnorwitz@gmail.com
+    Ochtman, Dirkjan             dirkjan@ochtman.nl
+    Oliphant, Travis             oliphant@ee.byu.edu
+    Orendorff, Jason             jason.orendorff@gmail.com
+    Orsava, Tomáš                tomas.n@orsava.cz
+    Oudkerk, Richard             r.m.oudkerk@googlemail.com
+    Oussoren, Ronald             ronaldoussoren@mac.com
+    Palard, Julien               julien@palard.fr
+    Pedroni, Samuele             pedronis@python.org
+    Pelletier, Michel            michel@users.sourceforge.net
+    Peters, Tim                  tim.peters@gmail.com
+    Peterson, Benjamin           benjamin@python.org
+    Petrone, Jason               jp@demonseed.net
+    Pitrou, Antoine              solipsis@pitrou.net
+    Plch, Marcel                 gmarcel.plch@gmail.com
+    Polley, James                jp@jamezpolley.com
+    Pranskevichus, Elvis         elvis@magic.io
+    Prescod, Paul                paul@prescod.net
+    Pruitt, (James) Eric         
+    Quinlan, Brian               brian@sweetapp.com
+    Reedy, Terry                 tjreedy@udel.edu
+    Regebro, Lennart             regebro@gmail.com
+    Reifschneider, Sean          jafo-pep@tummy.com
+    Reis, Christian R.           kiko at async.com.br
+    Riehl, Jonathan              jriehl@spaceship.com
+    Roach, Lisa                  lisaroach14@gmail.com
+    Roberge, Andre               andre.roberge at gmail.com 
+    Ronacher, Armin              armin.ronacher@active-4.com
+    van Rossum, Guido (GvR)      guido@python.org
+    van Rossum, Just (JvR)       just@letterror.com
+    Rovito, Todd                 rovitotv@gmail.com
+    Ryan, Lie                    lie.1296@gmail.com
+    Sajip, Vinay                 vinay_sajip at red-dove.com
+    Schemenauer, Neil            nas@arctrix.com
+    Schneider-Kamp, Peter        nowonder@nowonder.de
+    Schofield, Ed                ed at pythoncharmers.com
+    Selivanov, Yury              yury@magic.io
+    Seo, Jiwon                   seojiwon@gmail.com
+    Shannon, Mark                mark@hotpy.org
+    Simpson, Cameron             cs@zip.com.au
+    Slodkowicz, Greg             jergosh@gmail.com
+    Smith, Kevin D.              kevin.smith@themorgue.org
+    Smith, Eric V.               eric@trueblade.com
+    Smith, Nathaniel J.          njs@pobox.com
+    Smith, Nathaniel             njs@pobox.com
+    Smith, Ethan                 ethan@ethanhs.me
+    Snow, Eric                   ericsnowcurrently@gmail.com
+    Spealman, Calvin             ironfroggy@gmail.com
+    Staley, Kerrick              mail@kerrickstaley.com
+    Stein, Greg                  gstein@lyra.org
+    Stinner, Victor              victor.stinner@gmail.com
+    Storchaka, Serhiy            
+    Stufft, Donald               donald@stufft.io
+    Stutzbach, Daniel            daniel@stutzbachenterprises.com
+    Suzi, Roman                  rnd@onego.ru
+    Talin                        viridia@gmail.com
+    Taschuk, Steven              staschuk@telusplanet.net
+    Teichmann, Martin            lkb.teichmann@gmail.com
+    Tirosh, Oren                 oren at hishome.net
+    Turnbull, Stephen J.         stephen@xemacs.org
+    Urban, Daniel                urban.dani+py@gmail.com
+    Vassalotti, Alexandre        alexandre@peadrop.com
+    Verdone, Mike                mike.verdone@gmail.com
+    Viehland, Dino               dinov@microsoft.com
+    Viktorin, Petr               encukou@gmail.com
+    Warnes, Gregory R.           gregory_r_warnes@groton.pfizer.com
+    Warsaw, Barry                barry@python.org
+    Way, Terence                 terry@wayforward.net
+    Wells, Cliff                 logiplexsoftware@earthlink.net
+    Whitley, Jervis              jervisau@gmail.com
+    Wilson, Greg                 gvwilson@ddj.com
+    Winter, Collin               collinwinter@google.com
+    Wouters, Thomas              thomas@python.org
+    Yamamoto, Masayuki           
+    Yasskin, Jeffrey             jyasskin@google.com
+    Yee, Ka-Ping                 ping@zesty.ca
+    Zadka, Moshe                 moshez@zadka.site.co.il
+    Zevenhoven, Koos             k7hoven@gmail.com
+    Zhu, Huaiyu                  hzhu@users.sourceforge.net
+    Ziadé, Tarek                 tarek@ziade.org
+
+
+References
+
+
+    [1] PEP 1: PEP Purpose and Guidelines
+    [2] View PEP history online
+        https://hg.python.org/peps/
+
+
+Local Variables:
+mode: indented-text
+indent-tabs-mode: nil
+sentence-end-double-space: t
+fill-column: 70
+coding: utf-8
+End:
