@@ -1,0 +1,3281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.2" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A DSL for specifying signatures, annotations and argument converters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125503Z" creationid="pingfangx" creationdate="20180110T125503Z">
+        <seg>用于指定签名，注释和参数转换器的 DSL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Database of Installed Python Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094822Z" creationid="pingfangx" creationdate="20180110T094822Z">
+        <seg>已安装 Python 包的数据库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Function for testing approximate equality</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092642Z" creationid="pingfangx" creationdate="20180110T092642Z">
+        <seg>用于测试近似相等的函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Logging System</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090430Z" creationid="pingfangx" creationdate="20180110T090430Z">
+        <seg>记录系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A ModuleSpec Type for the Import System</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092005Z" creationid="pingfangx" creationdate="20180110T092005Z">
+        <seg>导入系统的 ModuleSpec 类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A New C-API for Thread-Local Storage in CPython</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T081550Z" creationid="pingfangx" creationdate="20180110T081550Z">
+        <seg>CPython 中线程本地存储的新 C-API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Platform Tag for Portable Linux Built Distributions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083406Z" creationid="pingfangx" creationdate="20180109T083406Z">
+        <seg>便携式 Linux 构建发行版的平台标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Switch/Case Statement</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125836Z" creationid="pingfangx" creationdate="20180110T125836Z">
+        <seg>Switch/Case 语句</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Type Hierarchy for Numbers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093926Z" creationid="pingfangx" creationdate="20180110T093926Z">
+        <seg>数字的类型层次结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Unified TLS API for Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085403Z" creationid="pingfangx" creationdate="20180110T085403Z">
+        <seg>Python 的统一 TLS API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A build-system independent format for source trees</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T081532Z" creationid="pingfangx" creationdate="20180110T081532Z">
+        <seg>源树的构建系统独立格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A circuit breaking protocol and binary operators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123735Z" creationid="pingfangx" creationdate="20180110T123735Z">
+        <seg>一个断路协议和二元运算符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dedicated infix operator for matrix multiplication</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092051Z" creationid="pingfangx" creationdate="20180110T092051Z">
+        <seg>用于矩阵乘法的专用中缀运算符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A method for exposing a length hint</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091850Z" creationid="pingfangx" creationdate="20180110T091850Z">
+        <seg>暴露长度提示的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A protocol for delegating datetime methods to their</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125630Z" creationid="pingfangx" creationdate="20180110T125630Z">
+        <seg>将日期时间方法委托给他们的协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A standard mechanism for backward compatibility</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085229Z" creationid="pingfangx" creationdate="20180110T085229Z">
+        <seg>一个标准的向后兼容机制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ABI version tagged .so files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093948Z" creationid="pingfangx" creationdate="20180110T093948Z">
+        <seg>ABI 版本标记 .so 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>API for Block Encryption Algorithms v1.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T082052Z" creationid="pingfangx" creationdate="20180109T082052Z">
+        <seg>块加密算法的 API v1.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>API for Cryptographic Hash Functions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085021Z" creationid="pingfangx" creationdate="20180109T081934Z">
+        <seg>加密哈希函数的 API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>API for Cryptographic Hash Functions v2.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085009Z" creationid="pingfangx" creationdate="20180110T085009Z">
+        <seg>加密哈希函数的 API v2.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>API for code transformers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125701Z" creationid="pingfangx" creationdate="20180110T125701Z">
+        <seg>代码转换器的 API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Abandoned, Withdrawn, and Rejected PEPs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123901Z" creationid="pingfangx" creationdate="20180110T123901Z">
+        <seg>放弃，撤回和拒绝的 PEPs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Accepted PEPs (accepted; may not be implemented yet)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T080518Z" creationid="pingfangx" creationdate="20180110T080518Z">
+        <seg>已接受的 PEPs （已接受;可能尚未实施）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Access to Current Module/Class/Function</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125914Z" creationid="pingfangx" creationdate="20180110T125914Z">
+        <seg>访问当前模块/类/功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Access to Names in Outer Scopes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093446Z" creationid="pingfangx" creationdate="20180110T093446Z">
+        <seg>在外部范围访问名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add __getdescriptor__ method to metaclass</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084935Z" creationid="pingfangx" creationdate="20180110T084935Z">
+        <seg>添加 __getdescriptor__ 方法到元类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add ``math.tau``</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093327Z" creationid="pingfangx" creationdate="20180110T093327Z">
+        <seg>添加 ``math.tau``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a "while" clause to generator expressions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T130009Z" creationid="pingfangx" creationdate="20180110T130009Z">
+        <seg>为生成器表达式添加一个 "while" 子句</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a frozendict builtin type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125407Z" creationid="pingfangx" creationdate="20180110T125407Z">
+        <seg>添加一个 frozendict 内建类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a new UTF-8 Mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T081615Z" creationid="pingfangx" creationdate="20180110T081615Z">
+        <seg>添加一个新的 UTF-8 模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a new tracemalloc module to trace Python memory allocations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092017Z" creationid="pingfangx" creationdate="20180110T092017Z">
+        <seg>添加一个新的 tracemalloc 模块来跟踪 Python 内存分配</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add binary interpolation and formatting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125535Z" creationid="pingfangx" creationdate="20180110T125535Z">
+        <seg>添加二进制插值和格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add new APIs to customize Python memory allocators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091935Z" creationid="pingfangx" creationdate="20180110T091935Z">
+        <seg>添加新的 API 来自定义 Python 内存分配器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add new time functions with nanosecond resolution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093252Z" creationid="pingfangx" creationdate="20180110T093252Z">
+        <seg>添加新的以纳秒为单位的时间函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding % formatting to bytes and bytearray</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092041Z" creationid="pingfangx" creationdate="20180110T092026Z">
+        <seg>将 % 格式添加到字节和字节数组中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding A Secrets Module To The Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T081430Z" creationid="pingfangx" creationdate="20180110T081430Z">
+        <seg>添加一个秘密模块到标准库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding A Statistics Module To The Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091953Z" creationid="pingfangx" creationdate="20180110T091953Z">
+        <seg>将统计模块添加到标准库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding Roman Numeral Literals to Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124848Z" creationid="pingfangx" creationdate="20180110T124848Z">
+        <seg>将罗马数字文字添加到 Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding a Rational Literal to Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124327Z" creationid="pingfangx" creationdate="20180110T124327Z">
+        <seg>添加一个 Rational Literal 到 Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding a Rational Type to Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124322Z" creationid="pingfangx" creationdate="20180110T124322Z">
+        <seg>添加一个 Rational 类型到 Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding a bool type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090435Z" creationid="pingfangx" creationdate="20180110T090435Z">
+        <seg>添加一个布尔类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding a bytes Object Type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124636Z" creationid="pingfangx" creationdate="20180110T124636Z">
+        <seg>添加一个字节对象类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding a file system path protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092822Z" creationid="pingfangx" creationdate="20180110T092822Z">
+        <seg>添加文件系统路径协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding a frame evaluation API to CPython</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092843Z" creationid="pingfangx" creationdate="20180110T092843Z">
+        <seg>将框架评估 API 添加到 CPython</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding a key-transforming dictionary to collections</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125529Z" creationid="pingfangx" creationdate="20180110T125529Z">
+        <seg>将 key 转换字典添加到集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding an Assignment Expression</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125227Z" creationid="pingfangx" creationdate="20180110T125227Z">
+        <seg>添加一个赋值表达式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding an Enum type to the Python standard library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091912Z" creationid="pingfangx" creationdate="20180110T091912Z">
+        <seg>将一个 Enum 类型添加到 Python 标准库中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding an ordered dictionary to collections</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091609Z" creationid="pingfangx" creationdate="20180110T091609Z">
+        <seg>将一个有序的字典添加到集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding structured data to built-in exceptions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085124Z" creationid="pingfangx" creationdate="20180110T085124Z">
+        <seg>将结构化数据添加到内置异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding sys.implementation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091829Z" creationid="pingfangx" creationdate="20180110T091829Z">
+        <seg>添加 sys.implementation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Addition of the multiprocessing package to the standard library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091603Z" creationid="pingfangx" creationdate="20180110T091603Z">
+        <seg>将多处理包添加到标准库中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Additional Unpacking Generalizations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091947Z" creationid="pingfangx" creationdate="20180110T091947Z">
+        <seg>附加解包概括</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Advanced String Formatting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093342Z" creationid="pingfangx" creationdate="20180110T093342Z">
+        <seg>高级字符串格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allow BlockingIOError in security sensitive APIs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125729Z" creationid="pingfangx" creationdate="20180110T125729Z">
+        <seg>在安全敏感的 API 中允许 BlockingIOError</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allow str() to return unicode strings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123419Z" creationid="pingfangx" creationdate="20180110T123419Z">
+        <seg>允许 str() 返回 unicode 字符串</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allowing Any Object to be Used for Slicing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091524Z" creationid="pingfangx" creationdate="20180110T091524Z">
+        <seg>允许任何对象用于切片</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Anonymous Block Statements</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125027Z" creationid="pingfangx" creationdate="20180110T125027Z">
+        <seg>匿名块声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asynchronous Comprehensions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T072742Z" creationid="pingfangx" creationdate="20180110T093139Z">
+        <seg>异步解析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asynchronous Generators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093053Z" creationid="pingfangx" creationdate="20180110T093053Z">
+        <seg>异步生成器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asynchronous I/O For subprocess.Popen</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T130034Z" creationid="pingfangx" creationdate="20180110T130034Z">
+        <seg>subprocess.Popen 的 异步 I/O</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asynchronous IO support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T130051Z" creationid="pingfangx" creationdate="20180110T130051Z">
+        <seg>异步 IO 支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attribute Access Handlers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094813Z" creationid="pingfangx" creationdate="20180110T094813Z">
+        <seg>属性访问处理程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attribute Docstrings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124302Z" creationid="pingfangx" creationdate="20180110T124302Z">
+        <seg>属性 Docstrings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Augmented Assignments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085817Z" creationid="pingfangx" creationdate="20180110T085817Z">
+        <seg>增强分配</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BList: A Faster List-like Type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125908Z" creationid="pingfangx" creationdate="20180110T125908Z">
+        <seg>BList：更快的列表类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Back to the __future__</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090030Z" creationid="pingfangx" creationdate="20180110T090030Z">
+        <seg>回到 __future__</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Backport ensurepip (PEP 453) to Python 2.7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092625Z" creationid="pingfangx" creationdate="20180110T092625Z">
+        <seg>向 Python 2.7 反向保证（PEP 453）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T083554Z" creationid="pingfangx" creationdate="20180110T083554Z">
+        <seg>将 ssl.MemoryBIO 和 ssl.SSLObject 反向移植到 Python 2.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Backward Compatibility for the Python 2 Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T082714Z" creationid="pingfangx" creationdate="20180109T082714Z">
+        <seg>Python 2 标准库的向后兼容性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Backwards Compatibility Policy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084905Z" creationid="pingfangx" creationdate="20180110T084905Z">
+        <seg>向后兼容性策略</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bug Fix Releases</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081327Z" creationid="pingfangx" creationdate="20180109T081327Z">
+        <seg>Bug 修复版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Build system abstraction for pip/conda etc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125724Z" creationid="pingfangx" creationdate="20180110T125724Z">
+        <seg>为 pip/conda 等构建系统抽象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Built-in noop()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125752Z" creationid="pingfangx" creationdate="20180110T125752Z">
+        <seg>内置 noop()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bytes literals in Python 3000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093639Z" creationid="pingfangx" creationdate="20180110T093639Z">
+        <seg>Python 3000 中的字节文字</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CSV File API</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090540Z" creationid="pingfangx" creationdate="20180110T090540Z">
+        <seg>CSV 文件 API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Catching Exceptions in Python 3000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093612Z" creationid="pingfangx" creationdate="20180110T093612Z">
+        <seg>在 Python 3000 中捕捉异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chain exceptions at C level</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125620Z" creationid="pingfangx" creationdate="20180110T125620Z">
+        <seg>C 级别的连锁异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Change StopIteration handling inside generators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092634Z" creationid="pingfangx" creationdate="20180110T092634Z">
+        <seg>更改生成器内的 StopIteration 处理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Change Windows console encoding to UTF-8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093115Z" creationid="pingfangx" creationdate="20180110T093115Z">
+        <seg>将 Windows 控制台编码更改为 UTF-8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Change Windows filesystem encoding to UTF-8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093119Z" creationid="pingfangx" creationdate="20180110T093119Z">
+        <seg>将 Windows 文件系统编码更改为 UTF-8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Change the Meaning of ``\x`` Escapes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085938Z" creationid="pingfangx" creationdate="20180110T085938Z">
+        <seg>更改 ``\x`` 转义的含义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changing the Division Operator</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090050Z" creationid="pingfangx" creationdate="20180110T090050Z">
+        <seg>更改除法运算符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changing the version comparison module in Distutils</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125234Z" creationid="pingfangx" creationdate="20180110T125234Z">
+        <seg>更改 Distutils 中的版本比较模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choosing a distributed VCS for the Python project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094611Z" creationid="pingfangx" creationdate="20180110T094611Z">
+        <seg>为 Python 项目选择分布式 VCS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cleaning out sys and the "interpreter" module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125935Z" creationid="pingfangx" creationdate="20180110T125935Z">
+        <seg>清除 sys 和 "interpreter" 模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Code Migration and Modernization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T082227Z" creationid="pingfangx" creationdate="20180109T082227Z">
+        <seg>代码迁移和现代化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Codec Error Handling Callbacks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090523Z" creationid="pingfangx" creationdate="20180110T090523Z">
+        <seg>编解码器错误处理回调</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Coercing the legacy C locale to a UTF-8 based locale</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093147Z" creationid="pingfangx" creationdate="20180110T093147Z">
+        <seg>将传统的 C 语言环境强制转换为基于 UTF-8 的语言环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Collecting information about git</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123922Z" creationid="pingfangx" creationdate="20180110T123922Z">
+        <seg>收集有关 git 的信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compatibility Tags for Built Distributions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T081206Z" creationid="pingfangx" creationdate="20180110T081206Z">
+        <seg>构建分布的兼容性标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conditional Expressions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090553Z" creationid="pingfangx" creationdate="20180110T090553Z">
+        <seg>条件表达式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Context Variables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085645Z" creationid="pingfangx" creationdate="20180110T085645Z">
+        <seg>上下文变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Context-local variables (contextvars)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125748Z" creationid="pingfangx" creationdate="20180110T125748Z">
+        <seg>上下文局部变量(contextvars)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyable Iterators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094847Z" creationid="pingfangx" creationdate="20180110T094847Z">
+        <seg>可复制的迭代器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Core development workflow automation for CPython</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125543Z" creationid="pingfangx" creationdate="20180110T125543Z">
+        <seg>CPython 的核心开发工作流程自动化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Core support for typing module and generic types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084713Z" creationid="pingfangx" creationdate="20180110T084713Z">
+        <seg>核心支持打字模块和泛型类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Coroutines via Enhanced Generators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091220Z" creationid="pingfangx" creationdate="20180110T091220Z">
+        <seg>通过增强型生成器的协程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Coroutines with async and await syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092718Z" creationid="pingfangx" creationdate="20180110T092718Z">
+        <seg>具有异步和等待语法的协程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating forge.python.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125607Z" creationid="pingfangx" creationdate="20180110T125607Z">
+        <seg>创建 forge.python.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Classes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T083612Z" creationid="pingfangx" creationdate="20180110T083612Z">
+        <seg>数据类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Database of Installed Python Distributions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T081131Z" creationid="pingfangx" creationdate="20180110T081131Z">
+        <seg>安装的 Python 发行版数据库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Date/Time Parsing and Formatting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124937Z" creationid="pingfangx" creationdate="20180110T124937Z">
+        <seg>日期/时间解析和格式化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Decimal Data Type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090945Z" creationid="pingfangx" creationdate="20180110T090945Z">
+        <seg>十进制数据类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Decorators for Functions and Methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090902Z" creationid="pingfangx" creationdate="20180110T090902Z">
+        <seg>函数和方法的装饰器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deferred PEPs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094807Z" creationid="pingfangx" creationdate="20180110T094807Z">
+        <seg>推迟的 PEP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defined semantics for locals()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085523Z" creationid="pingfangx" creationdate="20180110T085523Z">
+        <seg>为 locals() 定义的语义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defining Python Source Code Encodings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090311Z" creationid="pingfangx" creationdate="20180110T090311Z">
+        <seg>定义 Python 源代码编码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defining a Stable ABI</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091640Z" creationid="pingfangx" creationdate="20180110T091640Z">
+        <seg>定义一个稳定的 ABI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delineation of the main module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125844Z" creationid="pingfangx" creationdate="20180110T125844Z">
+        <seg>主模块的描述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dependency specification for Python Software Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083356Z" creationid="pingfangx" creationdate="20180109T083356Z">
+        <seg>Python 软件包的依赖规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deprecate codecs.StreamReader and codecs.StreamWriter</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123433Z" creationid="pingfangx" creationdate="20180110T123433Z">
+        <seg>弃用 codecs.StreamReader 和 codecs.StreamWriter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deprecation of Standard Modules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081230Z" creationid="pingfangx" creationdate="20180109T081230Z">
+        <seg>标准模块的弃用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Design of the CPython Compiler</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125020Z" creationid="pingfangx" creationdate="20180110T125020Z">
+        <seg>CPython 编译器的设计</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deterministic cleanup for iterators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085312Z" creationid="pingfangx" creationdate="20180110T085312Z">
+        <seg>迭代器的确定性清理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deterministic pycs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093150Z" creationid="pingfangx" creationdate="20180110T093150Z">
+        <seg>确定性的 pycs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dict Comprehensions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T061429Z" creationid="pingfangx" creationdate="20180110T090402Z">
+        <seg>字典解析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dictionary-Based Configuration For Logging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091706Z" creationid="pingfangx" creationdate="20180110T091706Z">
+        <seg>用于记录的基于字典的配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display Hook for Interactive Use</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085851Z" creationid="pingfangx" creationdate="20180110T085851Z">
+        <seg>显示挂钩交互使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Distributing a Subset of the Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085319Z" creationid="pingfangx" creationdate="20180110T085319Z">
+        <seg>分发标准库的一个子集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Distributing and Packaging Type Information</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085535Z" creationid="pingfangx" creationdate="20180110T085535Z">
+        <seg>分发和包装类型信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Docstring Conventions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T082043Z" creationid="pingfangx" creationdate="20180109T082043Z">
+        <seg>文档字符串约定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Docstring Format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124243Z" creationid="pingfangx" creationdate="20180110T124243Z">
+        <seg>文档字符串格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Docstring Processing System Framework</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124356Z" creationid="pingfangx" creationdate="20180110T124356Z">
+        <seg>文档字符串处理系统框架</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Docutils Design Specification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124404Z" creationid="pingfangx" creationdate="20180110T124404Z">
+        <seg>Docutils 设计规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Doing Python Micro Releases</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123918Z" creationid="pingfangx" creationdate="20180110T123918Z">
+        <seg>做 Python 微型版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Doing Python Releases 101</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T042837Z" creationid="pingfangx" creationdate="20180111T042837Z">
+        <seg>制做 Python Releases 101</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dot Notation Assignment In Function Header</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085356Z" creationid="pingfangx" creationdate="20180110T085356Z">
+        <seg>函数标题中的点符号分配</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Easier suppression of file descriptor inheritance</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125450Z" creationid="pingfangx" creationdate="20180110T125450Z">
+        <seg>更容易抑制文件描述符的继承</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Elimination of PYO files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092706Z" creationid="pingfangx" creationdate="20180110T092706Z">
+        <seg>消除 PYO 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enabling certificate verification by default for stdlib http clients</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092602Z" creationid="pingfangx" creationdate="20180110T092602Z">
+        <seg>默认为 stdlib http 客户端启用证书验证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enhanced Argument Tuples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094833Z" creationid="pingfangx" creationdate="20180110T094833Z">
+        <seg>增强的参数元组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enhanced While Loop</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124909Z" creationid="pingfangx" creationdate="20180110T124909Z">
+        <seg>增强 While 循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enumerations in Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T070759Z" creationid="pingfangx" creationdate="20180110T125105Z">
+        <seg>Python 中的枚举</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Environment Markers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125622Z" creationid="pingfangx" creationdate="20180110T125622Z">
+        <seg>环境标记</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exception Chaining and Embedded Tracebacks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093828Z" creationid="pingfangx" creationdate="20180110T093828Z">
+        <seg>异常链接和嵌入式回溯</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exception Reorganization for Python 3.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125043Z" creationid="pingfangx" creationdate="20180110T125043Z">
+        <seg>Python 3.0 的异常重组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exception-catching expressions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125546Z" creationid="pingfangx" creationdate="20180110T125546Z">
+        <seg>捕获异常的表达式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Executing modules as scripts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091200Z" creationid="pingfangx" creationdate="20180110T091200Z">
+        <seg>执行模块作为脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Execution Context</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085425Z" creationid="pingfangx" creationdate="20180110T085425Z">
+        <seg>执行上下文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Existence checking operators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125735Z" creationid="pingfangx" creationdate="20180110T125735Z">
+        <seg>存在检查操作符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Explicit Unicode Literal for Python 3.3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091747Z" creationid="pingfangx" creationdate="20180110T091747Z">
+        <seg>Python 3.3 的显式 Unicode 文本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Explicit bootstrapping of pip in Python installations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092012Z" creationid="pingfangx" creationdate="20180110T092012Z">
+        <seg>在 Python 安装中显式引导 pip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extended HTTP functionality and WebDAV</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124501Z" creationid="pingfangx" creationdate="20180110T124501Z">
+        <seg>扩展的 HTTP 功能和 WebDAV</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extended Iterable Unpacking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093824Z" creationid="pingfangx" creationdate="20180110T093824Z">
+        <seg>扩展的 Iterable 解包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extended Print Statement</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085847Z" creationid="pingfangx" creationdate="20180110T085847Z">
+        <seg>扩展打印语句</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extension Module Initialization and Finalization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084756Z" creationid="pingfangx" creationdate="20180110T084756Z">
+        <seg>扩展模块初始化和定稿</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extensions to the pickle protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090551Z" creationid="pingfangx" creationdate="20180110T090551Z">
+        <seg>对 pickle 协议的扩展</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Externally Maintained Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094418Z" creationid="pingfangx" creationdate="20180110T094418Z">
+        <seg>外部维护包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Faster evolution of the Python Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125404Z" creationid="pingfangx" creationdate="20180110T125404Z">
+        <seg>Python 标准库的更快发展</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Feature Requests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123913Z" creationid="pingfangx" creationdate="20180110T123913Z">
+        <seg>功能请求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Final Grammar for Literal String Interpolation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085345Z" creationid="pingfangx" creationdate="20180110T085345Z">
+        <seg>文字串插值的最终语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finished PEPs (done, implemented in code repository)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085715Z" creationid="pingfangx" creationdate="20180110T085715Z">
+        <seg>完成的 PEPs （完成，在代码库中实现）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flexible String Representation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091709Z" creationid="pingfangx" creationdate="20180110T091709Z">
+        <seg>灵活的字符串表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Format Specifier for Thousands Separator</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091629Z" creationid="pingfangx" creationdate="20180110T091629Z">
+        <seg>千位分隔符的格式说明符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Function Annotations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093552Z" creationid="pingfangx" creationdate="20180110T093552Z">
+        <seg>函数注释</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Function Attributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090003Z" creationid="pingfangx" creationdate="20180110T090003Z">
+        <seg>函数属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Function Signature Object</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091542Z" creationid="pingfangx" creationdate="20180110T091542Z">
+        <seg>函数签名对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>General purpose string interpolation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123714Z" creationid="pingfangx" creationdate="20180110T123714Z">
+        <seg>通用字符串插值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generator Expressions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090445Z" creationid="pingfangx" creationdate="20180110T090445Z">
+        <seg>生成器表达式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generator-sensitivity for Context Variables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123743Z" creationid="pingfangx" creationdate="20180110T123743Z">
+        <seg>上下文变量的发生器灵敏度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generators Attributes and Exceptions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124608Z" creationid="pingfangx" creationdate="20180110T124608Z">
+        <seg>生成器属性和异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Guidelines for Handling Bug Reports</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123906Z" creationid="pingfangx" creationdate="20180110T123906Z">
+        <seg>处理 Bug 报告指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Guidelines for Language Evolution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081315Z" creationid="pingfangx" creationdate="20180109T081315Z">
+        <seg>语言进化指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTTPS verification migration tools for Python 2.7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092731Z" creationid="pingfangx" creationdate="20180110T092731Z">
+        <seg>用于 Python 2.7 的 HTTPS 验证迁移工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Historical Meta-PEPs and Informational PEPs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094037Z" creationid="pingfangx" creationdate="20180110T094037Z">
+        <seg>历史 Meta-PEPs 和信息 PEPs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to Change Python's Grammar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124839Z" creationid="pingfangx" creationdate="20180110T124839Z">
+        <seg>如何更改 Python 的语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IDLE Enhancement Exception for All Branches</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083153Z" creationid="pingfangx" creationdate="20180109T083153Z">
+        <seg>所有分支的 IDLE 增强异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IEEE 754 Floating Point Special Values</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125819Z" creationid="pingfangx" creationdate="20180110T125819Z">
+        <seg>IEEE 754 浮点特殊值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IP Address Manipulation Library for the Python Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093933Z" creationid="pingfangx" creationdate="20180110T093933Z">
+        <seg>Python 标准库的 IP 地址操作库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Immutable Bytes and Mutable Buffer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093908Z" creationid="pingfangx" creationdate="20180110T093908Z">
+        <seg>不可变字节和可变缓冲区</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implement context suppression with exception attributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091754Z" creationid="pingfangx" creationdate="20180110T091754Z">
+        <seg>使用异常属性实现上下文抑制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implicit Namespace Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091825Z" creationid="pingfangx" creationdate="20180110T091825Z">
+        <seg>隐式命名空间包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Import Modules from Zip Archives</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090332Z" creationid="pingfangx" creationdate="20180110T090332Z">
+        <seg>从 Zip 档案导入模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Import on Case-Insensitive Platforms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090009Z" creationid="pingfangx" creationdate="20180110T090009Z">
+        <seg>在不区分大小写的平台上导入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Imports: Multi-Line and Absolute/Relative</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091019Z" creationid="pingfangx" creationdate="20180110T091019Z">
+        <seg>Imports: 多行和 绝对/相对</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Improved Encapsulation of Import State</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125346Z" creationid="pingfangx" creationdate="20180110T125346Z">
+        <seg>改进了 import 状态的封装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Improving Python ZIP Application Support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091917Z" creationid="pingfangx" creationdate="20180110T091917Z">
+        <seg>改进 Python ZIP 应用程序支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Including mock in the Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091803Z" creationid="pingfangx" creationdate="20180110T091803Z">
+        <seg>包括模拟标准库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inclusion of implicit pip bootstrap in Python installation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125509Z" creationid="pingfangx" creationdate="20180110T125509Z">
+        <seg>在 Python 安装中包含隐式 pip 引导</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instance Descriptors</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125740Z" creationid="pingfangx" creationdate="20180110T125740Z">
+        <seg>实例描述符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Integer Literal Support and Syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093757Z" creationid="pingfangx" creationdate="20180110T093757Z">
+        <seg>整数文字支持和语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Integer for-loops</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124557Z" creationid="pingfangx" creationdate="20180110T124557Z">
+        <seg>整数 for 循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Interpretation of multiline string constants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124632Z" creationid="pingfangx" creationdate="20180110T124632Z">
+        <seg>多行字符串常量的解释</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Introducing Abstract Base Classes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093732Z" creationid="pingfangx" creationdate="20180110T093732Z">
+        <seg>引入抽象基类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Introducing Roles</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125922Z" creationid="pingfangx" creationdate="20180110T125922Z">
+        <seg>引入 Roles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Iterators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090004Z" creationid="pingfangx" creationdate="20180110T090004Z">
+        <seg>迭代器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Key-Sharing Dictionary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091732Z" creationid="pingfangx" creationdate="20180110T091732Z">
+        <seg>密钥分享字典</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keyword-Only Arguments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093359Z" creationid="pingfangx" creationdate="20180110T093359Z">
+        <seg>仅关键字参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Labeled break and continue</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125929Z" creationid="pingfangx" creationdate="20180110T125929Z">
+        <seg>标记中断和继续</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>List Comprehensions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T055551Z" creationid="pingfangx" creationdate="20180110T085755Z">
+        <seg>列表解析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Literal String Interpolation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T072530Z" creationid="pingfangx" creationdate="20180110T092752Z">
+        <seg>字符串插值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Literature Overview for Type Hints</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085203Z" creationid="pingfangx" creationdate="20180110T085203Z">
+        <seg>类型提示的文献概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Local Time Disambiguation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092737Z" creationid="pingfangx" creationdate="20180110T092737Z">
+        <seg>当地时间消除歧义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Locale-Independent Float/String Conversions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091050Z" creationid="pingfangx" creationdate="20180110T091050Z">
+        <seg>与区域无关的浮点数/字符串转换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lockstep Iteration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085749Z" creationid="pingfangx" creationdate="20180110T085749Z">
+        <seg>锁步迭代</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Logging Usage in the Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T043402Z" creationid="pingfangx" creationdate="20180111T043402Z">
+        <seg>标准库中的日志使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loop Counter Iteration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123952Z" creationid="pingfangx" creationdate="20180110T123952Z">
+        <seg>循环计数器迭代</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loop Counter Iteration with range and xrange</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124553Z" creationid="pingfangx" creationdate="20180110T124553Z">
+        <seg>range 和 xrange 循环计数器迭代</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Main module explicit relative imports</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091549Z" creationid="pingfangx" creationdate="20180110T091549Z">
+        <seg>主模块显式相对导入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make newly created file descriptors non-inheritable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091943Z" creationid="pingfangx" creationdate="20180110T091943Z">
+        <seg>使新创建的文件描述符不可继承</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make os.urandom() blocking on Linux</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092922Z" creationid="pingfangx" creationdate="20180110T092922Z">
+        <seg>在 Linux 上设置 os.urandom() 阻塞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make the Python Launcher aware of virtual environments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092648Z" creationid="pingfangx" creationdate="20180110T092648Z">
+        <seg>让 Python 启动器知道虚拟环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Making Classes Look More Like Types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124344Z" creationid="pingfangx" creationdate="20180110T124344Z">
+        <seg>让类更像类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Making PyObject_HEAD conform to standard C</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093748Z" creationid="pingfangx" creationdate="20180110T093748Z">
+        <seg>使 PyObject_HEAD 符合标准 C</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Making Types Look More Like Classes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090126Z" creationid="pingfangx" creationdate="20180110T090126Z">
+        <seg>让类型更像类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Merging Unladen Swallow into CPython</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T130039Z" creationid="pingfangx" creationdate="20180110T130039Z">
+        <seg>将 Unladen Swallow 合并到 CPython 中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Meta-PEPs (PEPs about PEPs or Processes)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081210Z" creationid="pingfangx" creationdate="20180109T081210Z">
+        <seg>Meta-PEPs (关于 PEPs 或过程的 PEPs)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Metaclasses in Python 3000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093713Z" creationid="pingfangx" creationdate="20180110T093713Z">
+        <seg>Python 3000 中的元类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Metadata for Python Software Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090055Z" creationid="pingfangx" creationdate="20180110T090055Z">
+        <seg>Python 软件包的元数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Metadata for Python Software Packages 1.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085639Z" creationid="pingfangx" creationdate="20180110T081114Z">
+        <seg>Python 软件包的元数据 1.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Metadata for Python Software Packages 1.3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085642Z" creationid="pingfangx" creationdate="20180110T085642Z">
+        <seg>Python 软件包的元数据 1.3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Metadata for Python Software Packages 2.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123642Z" creationid="pingfangx" creationdate="20180110T123642Z">
+        <seg>Python 软件包的元数据 2.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Metadata for Python Software Packages v1.1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090613Z" creationid="pingfangx" creationdate="20180110T090613Z">
+        <seg>Python 软件包的元数据 1.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrate CPython to Git and GitLab</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125645Z" creationid="pingfangx" creationdate="20180110T125645Z">
+        <seg>将 CPython 迁移到 Git 和 GitLab</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrate CPython to Git, Github, and Phabricator</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125615Z" creationid="pingfangx" creationdate="20180110T125615Z">
+        <seg>将 CPython 迁移到 Git，Github 和 Phabricator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrating from Subversion to Mercurial</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094616Z" creationid="pingfangx" creationdate="20180110T094616Z">
+        <seg>从 Subversion 迁移到 Mercurial</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrating from hg.python.org to GitHub</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094639Z" creationid="pingfangx" creationdate="20180110T094639Z">
+        <seg>从 hg.python.org 迁移到 GitHub</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrating the Python CVS to Subversion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094229Z" creationid="pingfangx" creationdate="20180110T094229Z">
+        <seg>将 Python CVS 迁移到 Subversion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrating to Python 3 as the default online documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083133Z" creationid="pingfangx" creationdate="20180109T083133Z">
+        <seg>迁移到 Python 3 作为默认在线文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migration of dict iteration code to Python 3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125551Z" creationid="pingfangx" creationdate="20180110T125551Z">
+        <seg>字典迭代代码迁移到 Python 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Minor API improvements for binary sequences</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085054Z" creationid="pingfangx" creationdate="20180110T085054Z">
+        <seg>二进制序列的小 API 改进</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mirroring infrastructure for PyPI</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084825Z" creationid="pingfangx" creationdate="20180110T084825Z">
+        <seg>镜像 PyPI 的基础结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Miscellaneous Python 3.0 Plans</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094800Z" creationid="pingfangx" creationdate="20180110T094800Z">
+        <seg>杂项 Python 3.0 计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Module Repository Upload Mechanism</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124332Z" creationid="pingfangx" creationdate="20180110T124332Z">
+        <seg>模块库上传机制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Module Version Numbers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123425Z" creationid="pingfangx" creationdate="20180110T123425Z">
+        <seg>模块版本号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Module __getattr__ and __dir__</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084734Z" creationid="pingfangx" creationdate="20180110T084734Z">
+        <seg>模块 __getattr__ 和 __dir__</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More Flexible Loop Control</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125738Z" creationid="pingfangx" creationdate="20180110T125738Z">
+        <seg>更灵活的循环控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-dimensional Arrays</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123929Z" creationid="pingfangx" creationdate="20180110T123929Z">
+        <seg>多维数组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-phase extension module initialization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092711Z" creationid="pingfangx" creationdate="20180110T092711Z">
+        <seg>多相扩展模块初始化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multiple Interpreters in the Stdlib</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085432Z" creationid="pingfangx" creationdate="20180110T085432Z">
+        <seg>Stdlib 中的多个解释器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Namespace Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125229Z" creationid="pingfangx" creationdate="20180110T125229Z">
+        <seg>命名空间包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Naming conventions and recipes related to packaging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T071524Z" creationid="pingfangx" creationdate="20180110T123627Z">
+        <seg>与包相关的命名约定和配方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Network Security Enhancements for Python 2.7.x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092056Z" creationid="pingfangx" creationdate="20180110T092056Z">
+        <seg>针对 Python 2.7.x 的网络安全增强功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New I/O</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093718Z" creationid="pingfangx" creationdate="20180110T093718Z">
+        <seg>新的 I/O</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New Import Hooks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090537Z" creationid="pingfangx" creationdate="20180110T090537Z">
+        <seg>新的 import 挂钩</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New Super</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093838Z" creationid="pingfangx" creationdate="20180110T093838Z">
+        <seg>新的 super</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New release cycle and introducing long-term support versions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123526Z" creationid="pingfangx" creationdate="20180110T123526Z">
+        <seg>新的发布周期和引入长期支持版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Non-decodable Bytes in System Character Interfaces</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091637Z" creationid="pingfangx" creationdate="20180110T091637Z">
+        <seg>系统字符界面中的不可解码字节</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Numeric Kinds</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124329Z" creationid="pingfangx" creationdate="20180110T124329Z">
+        <seg>数字种类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Numerical Index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T130059Z" creationid="pingfangx" creationdate="20180110T130059Z">
+        <seg>数字索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Object Adaptation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124339Z" creationid="pingfangx" creationdate="20180110T124339Z">
+        <seg>对象适应</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Omit printing newline after newline</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124423Z" creationid="pingfangx" creationdate="20180110T124423Z">
+        <seg>换行之后省略打印换行符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open PEPs (under consideration)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084820Z" creationid="pingfangx" creationdate="20180110T084820Z">
+        <seg>打开的 PEPs (考虑中)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optimized Access to Module Namespaces</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094825Z" creationid="pingfangx" creationdate="20180110T094825Z">
+        <seg>优化对模块命名空间的访问</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optimizing Global Variable/Attribute Access</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124449Z" creationid="pingfangx" creationdate="20180110T124449Z">
+        <seg>优化全局变量/属性访问</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optimizing access to globals</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094830Z" creationid="pingfangx" creationdate="20180110T094830Z">
+        <seg>优化对全局的访问</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other Informational PEPs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081736Z" creationid="pingfangx" creationdate="20180109T081736Z">
+        <seg>其他信息的 PEPs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Overloadable Boolean Operators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125011Z" creationid="pingfangx" creationdate="20180110T125011Z">
+        <seg>可重载布尔运算符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Overloading, Generic Functions, Interfaces, and Adaptation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123827Z" creationid="pingfangx" creationdate="20180110T123827Z">
+        <seg>重载，泛型函数，接口和适配器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP Purpose and Guidelines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081218Z" creationid="pingfangx" creationdate="20180109T081218Z">
+        <seg>PEP 目的和指导方针</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PYC Repository Directories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093938Z" creationid="pingfangx" creationdate="20180110T093938Z">
+        <seg>PYC 存储库目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Package Index Name Retention</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T071521Z" creationid="pingfangx" creationdate="20180110T085349Z">
+        <seg>包索引名称保留</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Package Index and Metadata for Distutils</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090529Z" creationid="pingfangx" creationdate="20180110T090529Z">
+        <seg>打包索引和 Distutils 的元数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Partial Function Application</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090600Z" creationid="pingfangx" creationdate="20180110T090600Z">
+        <seg>部分功能应用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Path - Object oriented filesystem paths</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125113Z" creationid="pingfangx" creationdate="20180110T125113Z">
+        <seg>路径 - 面向对象的文件系统路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Per user site-packages directory</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091555Z" creationid="pingfangx" creationdate="20180110T091555Z">
+        <seg>每个用户 site-packages 目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pgen Module for Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094828Z" creationid="pingfangx" creationdate="20180110T094828Z">
+        <seg>Python 的 Pgen 模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pickle protocol version 4</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094001Z" creationid="pingfangx" creationdate="20180110T094001Z">
+        <seg>Pickle 协议版本 4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Postfix type declarations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125840Z" creationid="pingfangx" creationdate="20180110T125840Z">
+        <seg>后缀类型声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Postponed Evaluation of Annotations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084749Z" creationid="pingfangx" creationdate="20180110T084749Z">
+        <seg>推迟评估注释</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Prefixing sys.path by command line option</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124523Z" creationid="pingfangx" creationdate="20180110T124523Z">
+        <seg>通过命令行选项添加 sys.path 前缀</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Preserving Class Attribute Definition Order</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092834Z" creationid="pingfangx" creationdate="20180110T092834Z">
+        <seg>保留类的属性定义顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Preserving the order of \*\*kwargs in a function.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092522Z" creationid="pingfangx" creationdate="20180110T092522Z">
+        <seg>在函数中保存 \*\*kwargs 的顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Procedure for Adding New Modules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094156Z" creationid="pingfangx" creationdate="20180110T094156Z">
+        <seg>添加新模块的步骤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Procedure for Backwards-Incompatible Changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094718Z" creationid="pingfangx" creationdate="20180110T094718Z">
+        <seg>向后不兼容的更改过程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Procedure for reviewing and improving standard library modules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125825Z" creationid="pingfangx" creationdate="20180110T125825Z">
+        <seg>审查和改进标准库模块的程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Programming by Contract for Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094845Z" creationid="pingfangx" creationdate="20180110T094845Z">
+        <seg>Python 合同编程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Protecting cleanup statements from interruptions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123531Z" creationid="pingfangx" creationdate="20180110T123531Z">
+        <seg>保护清理语句不受干扰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Provisional packages in the Python standard library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083112Z" creationid="pingfangx" creationdate="20180109T083112Z">
+        <seg>Python 标准库中的临时包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pure Python/C Accelerator Module Compatibility Requirements</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T082801Z" creationid="pingfangx" creationdate="20180109T082801Z">
+        <seg>原生 Python/C 加速器模块兼容性要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 1.6 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094205Z" creationid="pingfangx" creationdate="20180110T094205Z">
+        <seg>Python 1.6 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 2.0 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094208Z" creationid="pingfangx" creationdate="20180110T094208Z">
+        <seg>Python 2.0 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 2.1 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094211Z" creationid="pingfangx" creationdate="20180110T094211Z">
+        <seg>Python 2.1 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 2.2 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094219Z" creationid="pingfangx" creationdate="20180110T094219Z">
+        <seg>Python 2.2 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 2.3 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094222Z" creationid="pingfangx" creationdate="20180110T094222Z">
+        <seg>Python 2.3 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 2.4 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094225Z" creationid="pingfangx" creationdate="20180110T094225Z">
+        <seg>Python 2.4 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 2.5 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094234Z" creationid="pingfangx" creationdate="20180110T094234Z">
+        <seg>Python 2.5 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 2.6 and 3.0 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094607Z" creationid="pingfangx" creationdate="20180110T094607Z">
+        <seg>Python 2.6 和 3.0 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 2.7 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T082725Z" creationid="pingfangx" creationdate="20180109T082725Z">
+        <seg>Python 2.7 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 2.8 Un-release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083104Z" creationid="pingfangx" creationdate="20180109T083104Z">
+        <seg>Python 2.8 非发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 3.1 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094613Z" creationid="pingfangx" creationdate="20180110T094613Z">
+        <seg>Python 3.1 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 3.2 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094618Z" creationid="pingfangx" creationdate="20180110T094618Z">
+        <seg>Python 3.2 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 3.3 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094620Z" creationid="pingfangx" creationdate="20180110T094620Z">
+        <seg>Python 3.3 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 3.4 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083121Z" creationid="pingfangx" creationdate="20180109T083121Z">
+        <seg>Python 3.4 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 3.5 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083208Z" creationid="pingfangx" creationdate="20180109T083208Z">
+        <seg>Python 3.5 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 3.6 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083212Z" creationid="pingfangx" creationdate="20180109T083212Z">
+        <seg>Python 3.6 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python 3.7 Release Schedule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T080400Z" creationid="pingfangx" creationdate="20180110T080400Z">
+        <seg>Python 3.7 发布计划</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Advanced Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123927Z" creationid="pingfangx" creationdate="20180110T123927Z">
+        <seg>Python 高级库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Bytecode Verification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124954Z" creationid="pingfangx" creationdate="20180110T124954Z">
+        <seg>Python 的字节码验证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Database API Specification v1.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081948Z" creationid="pingfangx" creationdate="20180109T081948Z">
+        <seg>Python 数据库 API 规范 v1.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Database API Specification v2.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081956Z" creationid="pingfangx" creationdate="20180109T081956Z">
+        <seg>Python 数据库 API 规范 v2.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Documentation Translations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094703Z" creationid="pingfangx" creationdate="20180110T094703Z">
+        <seg>Python 文档翻译</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Interface Syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124337Z" creationid="pingfangx" creationdate="20180110T124337Z">
+        <seg>Python 接口语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Online Help</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094820Z" creationid="pingfangx" creationdate="20180110T094820Z">
+        <seg>Python 在线帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Synchronize/Asynchronize Block</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124919Z" creationid="pingfangx" creationdate="20180110T124919Z">
+        <seg>Python 同步/异步块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Unicode Integration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085733Z" creationid="pingfangx" creationdate="20180110T085733Z">
+        <seg>Python Unicode 集成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Virtual Environments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091725Z" creationid="pingfangx" creationdate="20180110T091725Z">
+        <seg>Python 虚拟环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Web Server Gateway Interface v1.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T082721Z" creationid="pingfangx" creationdate="20180109T082721Z">
+        <seg>Python Web 服务器网关接口 v1.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Web Server Gateway Interface v1.0.1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T080447Z" creationid="pingfangx" creationdate="20180110T080447Z">
+        <seg>Python Web 服务器的网关接口 v1.0.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Web3 Interface</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123647Z" creationid="pingfangx" creationdate="20180110T123647Z">
+        <seg>Python Web3 接口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python launcher for Windows</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091723Z" creationid="pingfangx" creationdate="20180110T091723Z">
+        <seg>Windows 的 Python 启动器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python registration in the Windows registry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T080339Z" creationid="pingfangx" creationdate="20180110T080339Z">
+        <seg>在 Windows 注册表中注册 Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Qualified Names for Modules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T071228Z" creationid="pingfangx" creationdate="20180110T125311Z">
+        <seg>模块的限定名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Qualified name for classes and functions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T071237Z" creationid="pingfangx" creationdate="20180110T094012Z">
+        <seg>类和函数的限定名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Raising Exceptions in Python 3000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093607Z" creationid="pingfangx" creationdate="20180110T093607Z">
+        <seg>在 Python 3000 中引发异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Range Literals</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123925Z" creationid="pingfangx" creationdate="20180110T123925Z">
+        <seg>范围文字</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reject Foolish Indentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125814Z" creationid="pingfangx" creationdate="20180110T125814Z">
+        <seg>拒绝愚蠢的缩进</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removal of Tuple Parameter Unpacking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093645Z" creationid="pingfangx" creationdate="20180110T093645Z">
+        <seg>去除元组参数拆包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removal of the PyPI Mirror Authenticity API</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094630Z" creationid="pingfangx" creationdate="20180110T094630Z">
+        <seg>删除 PyPI 镜像真实性 API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removal of the PyPI Mirror Auto Discovery and Naming Scheme</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094627Z" creationid="pingfangx" creationdate="20180110T094627Z">
+        <seg>删除 PyPI 镜像自动发现和命名方案</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove Backslash Continuation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125858Z" creationid="pingfangx" creationdate="20180110T125858Z">
+        <seg>删除反斜杠继续</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove Implicit String Concatenation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125904Z" creationid="pingfangx" creationdate="20180110T125904Z">
+        <seg>删除隐式字符串连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removing External Hosting Support on PyPI</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094633Z" creationid="pingfangx" creationdate="20180110T094633Z">
+        <seg>删除 PyPI 上的外部托管支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removing support for little used platforms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081412Z" creationid="pingfangx" creationdate="20180109T081412Z">
+        <seg>删除对很少使用的平台的支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Renaming iterator.next() to iterator.__next__()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093703Z" creationid="pingfangx" creationdate="20180110T093703Z">
+        <seg>重命名 iterator.next() 为 iterator.__next__()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Required Superclass for Exceptions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091254Z" creationid="pingfangx" creationdate="20180110T091254Z">
+        <seg>异常的必需超类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Restructuring the CPython startup sequence</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084910Z" creationid="pingfangx" creationdate="20180110T084910Z">
+        <seg>重新构建 CPython 启动顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retry system calls failing with EINTR</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092551Z" creationid="pingfangx" creationdate="20180110T092551Z">
+        <seg>重试系统调用与 EINTR 失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Revamping dict.keys(), .values() and .items()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093541Z" creationid="pingfangx" creationdate="20180110T093541Z">
+        <seg>修改 dict.keys(), .values() 和 .items()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reverse Iteration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090905Z" creationid="pingfangx" creationdate="20180110T090905Z">
+        <seg>反向迭代</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Revising the buffer protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093721Z" creationid="pingfangx" creationdate="20180110T093721Z">
+        <seg>修改缓冲区协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reworking Python's Numeric Model</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124315Z" creationid="pingfangx" creationdate="20180110T124315Z">
+        <seg>重新编写 Python 的数字模型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reworking the Coercion Model</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085830Z" creationid="pingfangx" creationdate="20180110T085830Z">
+        <seg>改造强制模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reworking the OS and IO exception hierarchy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093953Z" creationid="pingfangx" creationdate="20180110T093953Z">
+        <seg>修改操作系统和 IO 异常层次结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rich Comparisons</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085825Z" creationid="pingfangx" creationdate="20180110T085825Z">
+        <seg>丰富的比较</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rich comparison chaining</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123738Z" creationid="pingfangx" creationdate="20180110T123738Z">
+        <seg>丰富的比较链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running extension modules using the -m option</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085421Z" creationid="pingfangx" creationdate="20180110T085421Z">
+        <seg>使用 -m 选项运行扩展模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Safe object finalization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T043313Z" creationid="pingfangx" creationdate="20180111T043313Z">
+        <seg>安全的对象 finalization</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sample Plaintext PEP Template</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123912Z" creationid="pingfangx" creationdate="20180110T123912Z">
+        <seg>示例纯文本 PEP 模板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sample reStructuredText PEP Template</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081717Z" creationid="pingfangx" creationdate="20180109T081717Z">
+        <seg>reStructuredText PEP 模板示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Secure and interchangeable hash algorithm</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092020Z" creationid="pingfangx" creationdate="20180110T092020Z">
+        <seg>安全可互换的散列算法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Security transparency in the Python runtime</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085429Z" creationid="pingfangx" creationdate="20180110T085429Z">
+        <seg>Python 运行时的安全透明度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show DeprecationWarning in __main__</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093318Z" creationid="pingfangx" creationdate="20180110T093318Z">
+        <seg>在 __main__ 中显示 DeprecationWarning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simple Coroutines via SuspendIteration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125005Z" creationid="pingfangx" creationdate="20180110T125005Z">
+        <seg>简单的协程通过 SuspendIteration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simple Generators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090230Z" creationid="pingfangx" creationdate="20180110T090222Z">
+        <seg>简化生成器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simple Implicit Lambda</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094836Z" creationid="pingfangx" creationdate="20180110T094836Z">
+        <seg>简单的隐式 Lambda</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simple Iterator for ints</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124533Z" creationid="pingfangx" creationdate="20180110T124533Z">
+        <seg>整数的简单迭代器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simple Repository API</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083309Z" creationid="pingfangx" creationdate="20180109T083309Z">
+        <seg>简单的仓库 API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simple input built-in in Python 3000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093620Z" creationid="pingfangx" creationdate="20180110T093620Z">
+        <seg>简单的输入内置在 Python 3000 中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simpler String Substitutions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090513Z" creationid="pingfangx" creationdate="20180110T090513Z">
+        <seg>简化字符串替换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simpler customisation of class creation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092702Z" creationid="pingfangx" creationdate="20180110T092702Z">
+        <seg>更简单的类创建定制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simplified Package Layout and Partitioning</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125326Z" creationid="pingfangx" creationdate="20180110T125326Z">
+        <seg>简化的包布局和分区</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simplify xrange()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090236Z" creationid="pingfangx" creationdate="20180110T090236Z">
+        <seg>简化 xrange()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sorting Dictionaries by Value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124437Z" creationid="pingfangx" creationdate="20180110T124437Z">
+        <seg>按值排序词典</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Special __main__() function in modules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124826Z" creationid="pingfangx" creationdate="20180110T124826Z">
+        <seg>模块中特殊的 __main __() 函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifying Minimum Build System Requirements for Python Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T080350Z" creationid="pingfangx" creationdate="20180110T080350Z">
+        <seg>指定 Python 项目的最低构建系统要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Stackless Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094816Z" creationid="pingfangx" creationdate="20180110T094816Z">
+        <seg>无堆栈的 Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Standard Library Reorganization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093600Z" creationid="pingfangx" creationdate="20180110T093600Z">
+        <seg>标准库的重组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Standard Metadata Extensions for Python Software Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123651Z" creationid="pingfangx" creationdate="20180110T123651Z">
+        <seg>Python 软件包的标准元数据扩展</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Standard daemon process library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123833Z" creationid="pingfangx" creationdate="20180110T123833Z">
+        <seg>标准守护进程库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Standard image protocol and class</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123422Z" creationid="pingfangx" creationdate="20180110T123422Z">
+        <seg>标准的图像协议和类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Standard library __preview__ package</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125352Z" creationid="pingfangx" creationdate="20180110T125352Z">
+        <seg>标准库 __preview__ 包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Static metadata for Distutils</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125251Z" creationid="pingfangx" creationdate="20180110T125251Z">
+        <seg>Distutils 的静态元数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Statically Nested Scopes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085952Z" creationid="pingfangx" creationdate="20180110T085952Z">
+        <seg>静态嵌套作用域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>String Interpolation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T123954Z" creationid="pingfangx" creationdate="20180110T123954Z">
+        <seg>字符串插值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>String Interpolation - Extended Discussion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085250Z" creationid="pingfangx" creationdate="20180110T085250Z">
+        <seg>字符串插值 - 扩展讨论</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>String representation in Python 3000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093912Z" creationid="pingfangx" creationdate="20180110T093912Z">
+        <seg>Python 3000 中的字符串表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Style Guide for C Code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081333Z" creationid="pingfangx" creationdate="20180109T081333Z">
+        <seg>C 代码样式指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Style Guide for Python Code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081341Z" creationid="pingfangx" creationdate="20180109T081341Z">
+        <seg>Python 代码样式指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Subtyping Built-in Types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090130Z" creationid="pingfangx" creationdate="20180110T090130Z">
+        <seg>子类型内置类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Support for "wide" Unicode characters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090254Z" creationid="pingfangx" creationdate="20180110T090254Z">
+        <seg>支持 "宽" Unicode 字符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Support for System Upgrades</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124747Z" creationid="pingfangx" creationdate="20180110T124747Z">
+        <seg>支持系统升级</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Support for indexing with keyword arguments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085103Z" creationid="pingfangx" creationdate="20180110T085103Z">
+        <seg>支持使用关键字参数进行索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Supporting Non-ASCII Identifiers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093819Z" creationid="pingfangx" creationdate="20180110T093819Z">
+        <seg>支持非 ASCII 标识符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Suppressing exception context</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091729Z" creationid="pingfangx" creationdate="20180110T091729Z">
+        <seg>抑制异常上下文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax For Positional-Only Parameters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085030Z" creationid="pingfangx" creationdate="20180110T085030Z">
+        <seg>仅位置参数的语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax for Delegating to a Subgenerator</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091633Z" creationid="pingfangx" creationdate="20180110T091633Z">
+        <seg>委派给子生成器的语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax for Variable Annotations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093111Z" creationid="pingfangx" creationdate="20180110T093111Z">
+        <seg>变量注释的语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "bytes" Object</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091531Z" creationid="pingfangx" creationdate="20180110T091531Z">
+        <seg>"bytes" 对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "python" Command on Unix-Like Systems</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T082745Z" creationid="pingfangx" creationdate="20180109T082745Z">
+        <seg>类 Unix 系统上的 "python" 命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "with" Statement</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091235Z" creationid="pingfangx" creationdate="20180110T091235Z">
+        <seg>"with" 语句</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Argument Clinic DSL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084916Z" creationid="pingfangx" creationdate="20180110T084916Z">
+        <seg>参数诊所 DSL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Locked Buffer Interface</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124751Z" creationid="pingfangx" creationdate="20180110T124751Z">
+        <seg>锁定的缓冲区接口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Theory of Type Hints</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085217Z" creationid="pingfangx" creationdate="20180110T085217Z">
+        <seg>类型提示理论</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Wheel Binary Package Format 1.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T081225Z" creationid="pingfangx" creationdate="20180110T081225Z">
+        <seg>轮子二进制包格式 1.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Wheel Binary Package Format 1.9</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085225Z" creationid="pingfangx" creationdate="20180110T085225Z">
+        <seg>轮子二进制包格式 1.9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Zen of Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081911Z" creationid="pingfangx" creationdate="20180109T081911Z">
+        <seg>Python 之禅</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The enumerate() built-in function</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090425Z" creationid="pingfangx" creationdate="20180110T090425Z">
+        <seg>enumerate() 内置函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The pathlib module -- object-oriented filesystem paths</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091909Z" creationid="pingfangx" creationdate="20180110T091909Z">
+        <seg>pathlib 模块 - 面向对象的文件系统路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Things that will Not Change in Python 3000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094732Z" creationid="pingfangx" creationdate="20180110T094732Z">
+        <seg>Python 3000 中不会改变的东西</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Time zone support improvements</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125411Z" creationid="pingfangx" creationdate="20180110T125411Z">
+        <seg>时区支持改进</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Transitioning to release-file hosting on PyPI</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094624Z" creationid="pingfangx" creationdate="20180110T094624Z">
+        <seg>在 PyPI 上过渡到发布文件托管</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Transitioning to the Py3K Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125127Z" creationid="pingfangx" creationdate="20180110T125127Z">
+        <seg>转换到 Py3K 标准库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Treating Builtins as Constants in the Standard Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124952Z" creationid="pingfangx" creationdate="20180110T124952Z">
+        <seg>在标准库中处理 Builtin 作为常量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type Hints</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T081335Z" creationid="pingfangx" creationdate="20180110T081335Z">
+        <seg>类型提示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type Names in the types Module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124615Z" creationid="pingfangx" creationdate="20180110T124615Z">
+        <seg>在类型模块中输入名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Underscores in Numeric Literals</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092817Z" creationid="pingfangx" creationdate="20180110T092817Z">
+        <seg>数字文字中的下划线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unicode file name support for Windows NT</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090406Z" creationid="pingfangx" creationdate="20180110T090406Z">
+        <seg>Unicode 文件名支持 Windows NT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unifying Long Integers and Integers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090037Z" creationid="pingfangx" creationdate="20180110T090037Z">
+        <seg>统一长整数和整数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unifying try-except and try-finally</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091207Z" creationid="pingfangx" creationdate="20180110T091207Z">
+        <seg>统一 try-except 和 try-finally</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Universal Newline Support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090409Z" creationid="pingfangx" creationdate="20180110T090409Z">
+        <seg>通用换行支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use decimal.Decimal type for timestamps</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125357Z" creationid="pingfangx" creationdate="20180110T125357Z">
+        <seg>对时间戳使用 decimal.Decimal 类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using Distutils to Build Python</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085957Z" creationid="pingfangx" creationdate="20180110T085957Z">
+        <seg>使用 Distutils 来构建 Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using UTF-8 as the default source encoding</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093740Z" creationid="pingfangx" creationdate="20180110T093740Z">
+        <seg>使用 UTF-8 作为默认的源码编码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using site-packages on Windows</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090102Z" creationid="pingfangx" creationdate="20180110T090102Z">
+        <seg>在 Windows 上使用网站包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using ssize_t as the index type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091437Z" creationid="pingfangx" creationdate="20180110T091437Z">
+        <seg>使用 ssize_t 作为索引类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using the System RNG by default</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125641Z" creationid="pingfangx" creationdate="20180110T125641Z">
+        <seg>默认使用系统 RNG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Version Identification and Dependency Specification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T083203Z" creationid="pingfangx" creationdate="20180109T083203Z">
+        <seg>版本识别和依赖规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Voting Guidelines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T081347Z" creationid="pingfangx" creationdate="20180109T081347Z">
+        <seg>投票指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Warning Framework</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085959Z" creationid="pingfangx" creationdate="20180110T085959Z">
+        <seg>警告框架</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Weak References</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085820Z" creationid="pingfangx" creationdate="20180110T085820Z">
+        <seg>弱引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Web Library Enhancements</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094818Z" creationid="pingfangx" creationdate="20180110T094818Z">
+        <seg>Web 库增强功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>argparse - New Command Line Parsing Module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091700Z" creationid="pingfangx" creationdate="20180110T091700Z">
+        <seg>argparse - 新的命令行解析模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>os.scandir() function -- a better and faster directory iterator</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092542Z" creationid="pingfangx" creationdate="20180110T092542Z">
+        <seg>os.scandir() function -- 一个更好更快的目录迭代器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>reStructuredText Docstring Format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180109T082212Z" creationid="pingfangx" creationdate="20180109T082212Z">
+        <seg>reStructuredText 文档字符串格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>str(container) should call str(item), not repr(item)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125956Z" creationid="pingfangx" creationdate="20180110T125956Z">
+        <seg>str(container) 应该调用 str(item)，而不是 repr(item)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>subprocess - New process module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T043307Z" creationid="pingfangx" creationdate="20180111T043307Z">
+        <seg>subprocess - 新的进程模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tzinfo implementations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125636Z" creationid="pingfangx" creationdate="20180110T125636Z">
+        <seg>tzinfo 实现</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uniq method for list objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124505Z" creationid="pingfangx" creationdate="20180110T124505Z">
+        <seg>列表对象的 uniq 方法</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
