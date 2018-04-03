@@ -8,7 +8,6 @@
 # 输出
 /target/*
 !/target/.gitkeep
-!/target/readme.txt
 # 各记忆文件，只需要omegat/project_save.tmx即可
 /*-level1.tmx
 /*-level2.tmx
