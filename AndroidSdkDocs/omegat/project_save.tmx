@@ -2936,6 +2936,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>0 meaning compress for small size, 100 meaning compress for max quality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094624Z" creationid="pingfangx" creationdate="20180408T094624Z">
+        <seg>0 表示小尺寸压缩，100 表示​​最大质量压缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1 is one full page position to the right, and -1 is one page position to the left.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3565,6 +3573,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Bitmap.CompressFormat&lt;/c0&gt;: The format of the compressed image</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094539Z" creationid="pingfangx" creationdate="20180408T094539Z">
+        <seg>&lt;c0&gt;Bitmap.CompressFormat&lt;/c0&gt;：压缩图像的格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;BitmapFactory.Options&lt;/c0&gt;: null-ok; Options that control downsampling and whether the image should be completely decoded, or just is size returned.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095715Z" creationid="pingfangx" creationdate="20180408T095715Z">
+        <seg>&lt;c0&gt;BitmapFactory.Options&lt;/c0&gt;：可以为 null ；相关选项，用来控制 downsampling 以及图像是否应该完全解码，或者只是返回大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;CHAIN_PACKED&lt;/c0&gt; -- the elements of the chain will be packed together.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3637,6 +3661,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;OutputStream&lt;/c0&gt;: The outputstream to write the compressed data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095221Z" creationid="pingfangx" creationdate="20180408T095221Z">
+        <seg>&lt;c0&gt;OutputStream&lt;/c0&gt;：写入压缩数据的输出流。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;Rect&lt;/c0&gt;: Rect to receive the output.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3673,6 +3705,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;RecyclerView&lt;/c0&gt;: 该 ItemDecoration 要绘制进的 RecyclerView</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;String&lt;/c0&gt;: complete path name for the file to be decoded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095609Z" creationid="pingfangx" creationdate="20180408T095609Z">
+        <seg>&lt;c0&gt;String&lt;/c0&gt;：要解码的文件的完整路径名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3745,6 +3785,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;float&lt;/c0&gt;: 相对于当前页面的中心点位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: Hint to the compressor, 0-100.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094609Z" creationid="pingfangx" creationdate="20180408T094609Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;：给压缩器的提示， 0-100。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3829,6 +3877,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt; This field was deprecated in API level 13.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100501Z" creationid="pingfangx" creationdate="20180408T100501Z">
+        <seg>&lt;e0&gt;此字段在 API 级别 13 中已被弃用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;Adapter:&lt;/e0&gt; A subclass of &lt;c1&gt;&lt;a2&gt;RecyclerView.Adapter&lt;/a2&gt;&lt;/c1&gt; responsible for providing views that represent items in a data set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3897,6 +3953,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;e0&gt;Scrap (view):&lt;/e0&gt; 指在布局过程中，一个进入暂时分离状态的子 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt; This field was deprecated in API level 13.&lt;/s0&gt;&lt;br1/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100807Z" creationid="pingfangx" creationdate="20180408T100807Z">
+        <seg>&lt;s0&gt;此字段在 API 级别 13 中已被弃用。&lt;/s0&gt; &lt;br1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4049,6 +4113,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; 这不适用于 3D 图形。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; This flag is ignored when used with &lt;c1&gt;&lt;a2&gt;decodeResource(Resources, int, android.graphics.BitmapFactory.Options)&lt;/a2&gt;&lt;/c1&gt; or &lt;c3&gt;&lt;a4&gt;decodeFile(String, android.graphics.BitmapFactory.Options)&lt;/a4&gt;&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102311Z" creationid="pingfangx" creationdate="20180408T102311Z">
+        <seg>&lt;s0&gt;注意：&lt;/s0&gt;与 &lt;c1&gt;&lt;a2&gt;decodeResource(Resources, int, android.graphics.BitmapFactory.Options)&lt;/a2&gt;&lt;/c1&gt; 或 &lt;c3&gt;&lt;a4&gt;decodeFile(String, android.graphics.BitmapFactory.Options)&lt;/a4&gt;&lt;/c3&gt;一起使用时，该标志将被忽略。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4409,6 +4481,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>ViewHolder 描述了在 RecyclerView 中的一个 item view 以及它所在位置的元数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A bitmap configuration describes how pixels are stored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100351Z" creationid="pingfangx" creationdate="20180408T100351Z">
+        <seg>描述像素如何存储的位图配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5311,6 +5391,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any value &lt;= 1 is treated the same as 1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103226Z" creationid="pingfangx" creationdate="20180408T103226Z">
+        <seg>任何值 &lt;= 1 的处理都与 1 相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>AnyRes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5459,6 +5547,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>由于 JDK 和 Android 代码库在首字母缩写词上非常不一致，几乎也不可能与周围的代码保持一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As of &lt;c0&gt;&lt;a1&gt;LOLLIPOP&lt;/a1&gt;&lt;/c0&gt;, this is ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101748Z" creationid="pingfangx" creationdate="20180408T101748Z">
+        <seg>从 &lt;c0&gt;&lt;a1&gt;LOLLIPOP&lt;/a1&gt;&lt;/c0&gt;，这被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As of &lt;c0&gt;&lt;a1&gt;N&lt;/a1&gt;&lt;/c0&gt;, see comments on &lt;c2&gt;&lt;a3&gt;requestCancelDecode()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102439Z" creationid="pingfangx" creationdate="20180408T102439Z">
+        <seg>从 &lt;c0&gt;&lt;a1&gt;N&lt;/a1&gt;&lt;/c0&gt; 中，请参阅 &lt;c2&gt;&lt;a3&gt;requestCancelDecode()&lt;/a3&gt;&lt;/c2&gt; 上的注释。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As of &lt;c0&gt;&lt;a1&gt;N&lt;/a1&gt;&lt;/c0&gt;, this is ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101752Z" creationid="pingfangx" creationdate="20180408T101708Z">
+        <seg>从 &lt;c0&gt;&lt;a1&gt;N&lt;/a1&gt;&lt;/c0&gt;，这被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As of &lt;c0&gt;&lt;a1&gt;N&lt;/a1&gt;&lt;/c0&gt;, this will not affect the decode, though it will still set mCancel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102632Z" creationid="pingfangx" creationdate="20180408T102632Z">
+        <seg>从 &lt;c0&gt;&lt;a1&gt;N&lt;/a1&gt;&lt;/c0&gt;，这不会影响解码，尽管它仍然会设置 mCancel。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5643,6 +5763,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>请务必谨慎，避免在日志中泄露安全方面的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because of the poor quality of this configuration, it is advised to use &lt;c1&gt;&lt;a2&gt;ARGB_8888&lt;/a2&gt;&lt;/c1&gt; instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100513Z" creationid="pingfangx" creationdate="20180408T100513Z">
+        <seg>由于此配置的质量较差，建议使用 &lt;c1&gt;&lt;a2&gt;ARGB_8888&lt;/a2&gt;&lt;/c1&gt; 来代替。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because of the poor quality of this configuration, it is advised to use &lt;c2&gt;&lt;a3&gt;ARGB_8888&lt;/a3&gt;&lt;/c2&gt; instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100811Z" creationid="pingfangx" creationdate="20180408T100811Z">
+        <seg>由于此配置的质量较差，建议使用 &lt;c2&gt;&lt;a3&gt;ARGB_8888&lt;/a3&gt;&lt;/c2&gt; 来代替。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6079,6 +6215,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calling this will notify the decoder that it should cancel its operation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102647Z" creationid="pingfangx" creationdate="20180408T102647Z">
+        <seg>调用它将通知解码器它应该取消它的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Catch each exception separately as separate catch blocks after a single try.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6251,6 +6395,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>CheckResult - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checking whether the return value matches the value of the inBitmap set in the Options structure will indicate if the bitmap was reused, but in all cases you should use the Bitmap returned by the decoding function to ensure that you are using the bitmap that was used as the decode destination.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102947Z" creationid="pingfangx" creationdate="20180408T102947Z">
+        <seg>检查返回值是否与 Options 结构中设置的 inBitmap 的值相匹配，将指示位图是否被重用，但是在所有情况下，应使用解码函数返回的位图来确保您使用的位图用作解码目的地。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6735,6 +6887,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a default Options object, which if left unchanged will give the same result from the decoder as if null were passed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102918Z" creationid="pingfangx" creationdate="20180408T102918Z">
+        <seg>创建一个默认的 Options 对象，如果保持不变，将会给解码器提供相同的结果，就像 null 传递一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a new layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6751,10 +6911,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creates Bitmap objects from various sources, including files, streams, and byte-arrays.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095424Z" creationid="pingfangx" creationdate="20180408T095424Z">
+        <seg>从各种来源创建位图对象，包括文件，流和字节数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creates a ConstraintLayout virtual object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>创建一个 ConstraintLayout 虚拟对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creates a new bitmap, scaled from an existing bitmap, when possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094445Z" creationid="pingfangx" creationdate="20180408T094445Z">
+        <seg>创建一个新的位图，如果可能，从现有的位图缩放。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6783,6 +6959,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Currently the field only affects JPEG decode, in the case of which a more accurate, but slightly slower, IDCT method will be used instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101917Z" creationid="pingfangx" creationdate="20180408T101917Z">
+        <seg>目前该字段只影响 JPEG 解码，在这种情况下，将使用更精确但速度稍慢的 IDCT 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Currently, the &lt;c1&gt;Guideline&lt;/c1&gt; object allows you to create Horizontal and Vertical guidelines which are positioned relative to the &lt;c2&gt;ConstraintLayout&lt;/c2&gt; container.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6803,6 +6987,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>DP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Decode a file path into a bitmap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095433Z" creationid="pingfangx" creationdate="20180408T095433Z">
+        <seg>将文件解码为位图。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7663,6 +7855,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each channel (RGB and alpha for translucency) is stored with 8 bits of precision (256 possible values.) This configuration is very flexible and offers the best quality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100912Z" creationid="pingfangx" creationdate="20180408T100912Z">
+        <seg>每个通道(用于半透明的 RGB 和 alpha)都以 8 位精度(256 个可能值)进行存储。此配置非常灵活，可提供最佳质量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each constraint defines the view's position along either the vertical or horizontal axis; so each view must have a minimum of one constraint for each axis, but often more are necessary.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7707,6 +7907,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>每个方法都返回一个表示成功或失败的布尔值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each pixel is stored as a single translucency (alpha) channel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100450Z" creationid="pingfangx" creationdate="20180408T100450Z">
+        <seg>每个像素都存储为单个半透明(alpha)通道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each pixel is stored on 2 bytes and only the RGB channels are encoded: red is stored with 5 bits of precision (32 possible values), green is stored with 6 bits of precision (64 possible values) and blue is stored with 5 bits of precision.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100547Z" creationid="pingfangx" creationdate="20180408T100547Z">
+        <seg>每个像素存储在 2 个字节上，并且只有 RGB 通道被编码：红色以 5 位精度(32 个可能值)存储，绿色以 6 位精度(64 个可能值)存储，蓝色以 5 位精度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each pixel is stored on 2 bytes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100816Z" creationid="pingfangx" creationdate="20180408T100816Z">
+        <seg>每个像素都存储在 2 个字节中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each pixel is stored on 4 bytes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100518Z" creationid="pingfangx" creationdate="20180408T100518Z">
+        <seg>每个像素存储在 4 个字节中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7799,6 +8031,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enum values</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100408Z" creationid="pingfangx" creationdate="20180408T100408Z">
+        <seg>枚举值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Español</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7811,6 +8051,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Essentials</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even if sharing is allowed, the implementation may still decide to make a deep copy of the input data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102133Z" creationid="pingfangx" creationdate="20180408T102133Z">
+        <seg>即使允许共享，实现仍可能决定对输入数据进行深层复制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8111,6 +8359,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flag to indicate that cancel has been called on this object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102446Z" creationid="pingfangx" creationdate="20180408T102446Z">
+        <seg>标记以指示已在该对象上调用取消。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flags a view so that it will not be scrapped or recycled.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8391,6 +8647,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, inSampleSize == 4 returns an image that is 1/4 the width/height of the original, and 1/16 the number of pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103220Z" creationid="pingfangx" creationdate="20180408T103220Z">
+        <seg>例如，inSampleSize == 4 返回的图像是原始宽度/高度的 1/4，以及像素数量的 1/16。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, it is not generally permissible for one thread to modify a Collection while another thread is iterating over it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8527,6 +8791,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For instance, without dithering, the result might show a greenish tint.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100943Z" creationid="pingfangx" creationdate="20180408T100943Z">
+        <seg>例如，没有 dithering，结果可能会显示淡绿色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For larger sets of pages, consider &lt;c0&gt;&lt;a1&gt;FragmentStatePagerAdapter&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8555,6 +8827,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>对于 NotePad 示例，重写 &lt;c0&gt;onDraw()&lt;/c0&gt; 方法允许我们在 &lt;c1&gt;EditText&lt;/c1&gt; 的画布上绘制蓝线（画布是通过 &lt;c2&gt;onDraw()&lt;/c2&gt; 方法传递的）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the re-decode to happen, the bitmap must have access to the encoded data, either by sharing a reference to the input or by making a copy of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102056Z" creationid="pingfangx" creationdate="20180408T102056Z">
+        <seg>为了进行重新解码，位图必须能够访问编码数据，或者通过共享对输入的引用或复制它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9031,6 +9311,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;c0&gt;&lt;a1&gt;inJustDecodeBounds&lt;/a1&gt;&lt;/c0&gt; is set to false, this will be height of the output bitmap after any scaling is applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103430Z" creationid="pingfangx" creationdate="20180408T103430Z">
+        <seg>如果 &lt;c0&gt;&lt;a1&gt;inJustDecodeBounds&lt;/a1&gt;&lt;/c0&gt; 设置为 false，则在应用任何缩放后，这将是输出位图的高度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If &lt;c0&gt;&lt;a1&gt;inJustDecodeBounds&lt;/a1&gt;&lt;/c0&gt; is set to false, this will be width of the output bitmap after any scaling is applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103511Z" creationid="pingfangx" creationdate="20180408T103511Z">
+        <seg>如果 &lt;c0&gt;&lt;a1&gt;inJustDecodeBounds&lt;/a1&gt;&lt;/c0&gt; 设置为 false，那么在应用任何缩放后，这将是输出位图的宽度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a View object sets the NinePatch as its background and then specifies the View's text, it will stretch itself so that all the text fits inside only the area designated by the right and bottom lines (if included).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9111,10 +9407,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If inPurgeable is false, then this field is ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101802Z" creationid="pingfangx" creationdate="20180408T101802Z">
+        <seg>如果 inPurgeable 为 false，则该字段将被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If inPurgeable is true, then this field determines whether the bitmap can share a reference to the input data (inputstream, array, etc.) or if it must make a deep copy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101809Z" creationid="pingfangx" creationdate="20180408T101809Z">
+        <seg>如果 inPurgeable 为 true，那么此字段确定位图是否可以共享对输入数据(输入流，数组等)的引用，或者是否必须进行深度复制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If it's not obvious what the property "Foo" means, you should document it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果属性 "Foo" 的意思不明确，您也应该添加备注。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If known, this string is set to the mimetype of the decoded image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102529Z" creationid="pingfangx" creationdate="20180408T102529Z">
+        <seg>如果已知，则将该字符串设置为解码图像的 mimetype。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9143,10 +9463,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If not know, or there is an error, it is set to null.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103452Z" creationid="pingfangx" creationdate="20180408T103452Z">
+        <seg>如果不知道，或者有错误，则将其设置为空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If one or more elements are using &lt;c0&gt;MATCH_CONSTRAINT&lt;/c0&gt;, they will use the available empty space (equally divided among themselves).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果一个或多个元素使用 &lt;c0&gt;MATCH_CONSTRAINT&lt;/c0&gt;，它们将使用可用的空白空间(在它们之前平分)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set to a value &gt; 1, requests the decoder to subsample the original image, returning a smaller image to save memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102329Z" creationid="pingfangx" creationdate="20180408T102329Z">
+        <seg>如果设置为大于 1 的值，则请求解码器对原始图像进行二次采样，返回较小的图像以节省存储空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set to true, the decoder will return null (no bitmap), but the out...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101834Z" creationid="pingfangx" creationdate="20180408T101825Z">
+        <seg>如果设置为 true，解码器将返回 null (无位图)，但...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, decode methods that take the Options object will attempt to reuse this bitmap when loading content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101621Z" creationid="pingfangx" creationdate="20180408T101621Z">
+        <seg>如果设置，则在加载内容时，采用 Options 对象的解码方法将尝试重新使用此位图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, decode methods will always return a mutable Bitmap instead of an immutable one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101842Z" creationid="pingfangx" creationdate="20180408T101842Z">
+        <seg>如果设置，解码方法将始终返回一个可变的位图而不是不可变的位图。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9263,6 +9623,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the decode operation cannot use this bitmap, the decode method will return &lt;c0&gt;null&lt;/c0&gt; and will throw an IllegalArgumentException.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102924Z" creationid="pingfangx" creationdate="20180408T102924Z">
+        <seg>如果解码操作无法使用此位图，则解码方法将返回 &lt;c0&gt;null&lt;/c0&gt;，并将引发 IllegalArgumentException。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the device has touch capabilities, however, and the user begins interacting with the interface by touching it, it is no longer necessary to always highlight, or give focus to, a particular view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9307,6 +9675,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果已知特定的类型，使用一个更具体的注解代替，如 &lt;c0&gt;&lt;a1&gt;StringRes&lt;/a1&gt;&lt;/c0&gt; 或 &lt;c2&gt;&lt;a3&gt;DrawableRes&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the specified file name is null, or cannot be decoded into a bitmap, the function returns null.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095602Z" creationid="pingfangx" creationdate="20180408T095602Z">
+        <seg>如果指定的文件名为空，或者无法解码为位图，则函数返回 null。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9375,10 +9751,74 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If this is 0, &lt;c0&gt;&lt;a1&gt;decodeResource(Resources, int)&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;decodeResource(Resources, int, android.graphics.BitmapFactory.Options)&lt;/a3&gt;&lt;/c2&gt;, and &lt;c4&gt;&lt;a5&gt;decodeResourceStream(Resources, TypedValue, InputStream, Rect, BitmapFactory.Options)&lt;/a5&gt;&lt;/c4&gt; will fill in the density associated with the resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103103Z" creationid="pingfangx" creationdate="20180408T103103Z">
+        <seg>如果这是 0，那么 decodeResource(Resources，int)&lt;/a1&gt; &lt;/c0&gt;，&lt;c2&gt;&lt;a3&gt;decodeResource(Resources, int, android.graphics.BitmapFactory.Options)&lt;/a3&gt;&lt;/c2&gt; 和 &lt;c4&gt;&lt;a5&gt;decodeResourceStream(Resources, TypedValue, InputStream, Rect, BitmapFactory.Options)&lt;/a5&gt;&lt;/c4&gt; 将填充与资源相关联的密度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this is false, then the bitmap will explicitly make a copy of the input data, and keep that.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102127Z" creationid="pingfangx" creationdate="20180408T102127Z">
+        <seg>如果这是 false，那么位图将显式地复制输入数据，并保留它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this is non-null, the decoder will try to decode into this internal configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101933Z" creationid="pingfangx" creationdate="20180408T101933Z">
+        <seg>如果这是非空的，则解码器将尝试解码为该内部配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this is true, then the bitmap may keep a shallow reference to the input.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102120Z" creationid="pingfangx" creationdate="20180408T102120Z">
+        <seg>如果这是 true，那么位图可以保持对输入的浅参考。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If this method is overridden, it is the subclass's responsibility to make sure the measured height and width are at least the view's minimum height and width (&lt;c0&gt;&lt;a1&gt;getSuggestedMinimumHeight()&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;getSuggestedMinimumWidth()&lt;/a3&gt;&lt;/c2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果重写了这个方法，子类要确保测量出的宽高，最小要为 view 的最小宽高(&lt;c0&gt;&lt;a1&gt;getSuggestedMinimumHeight()&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;getSuggestedMinimumWidth()&lt;/a3&gt;&lt;/c2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this returns true, the bitmap can be reconstructed by passing a corresponding inputstream to BitmapFactory.decodeStream().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094458Z" creationid="pingfangx" creationdate="20180408T094458Z">
+        <seg>如果这返回 true，则可以通过将相应的输入流传递给 BitmapFactory.decodeStream() 来重建位图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If true (which is the default), the resulting bitmap will have its color channels pre-multipled by the alpha channel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101955Z" creationid="pingfangx" creationdate="20180408T101955Z">
+        <seg>如果为 true(这是默认值)，则生成的位图的颜色通道将由 Alpha 通道预先倍增。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If true, it will be the height of the input image without any accounting for scaling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103438Z" creationid="pingfangx" creationdate="20180408T103438Z">
+        <seg>如果为 true，那么将是输入图像的高度，而不考虑缩放比例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If true, it will be the width of the input image without any accounting for scaling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103539Z" creationid="pingfangx" creationdate="20180408T103539Z">
+        <seg>如果为 true，那将是输入图像的宽度，而不考虑缩放比例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9703,6 +10143,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In &lt;c2&gt;&lt;a3&gt;KITKAT&lt;/a3&gt;&lt;/c2&gt; and below, if this is set to true, then the resulting bitmap will allocate its pixels such that they can be purged if the system needs to reclaim memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102029Z" creationid="pingfangx" creationdate="20180408T102029Z">
+        <seg>在 &lt;c2&gt;&lt;a3&gt;KITKAT&lt;/a3&gt;&lt;/c2&gt; 及以下版本中，如果将其设置为 true，则生成的位图将分配其像素，以便在系统需要回收内存时清除它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In &lt;c2&gt;&lt;a3&gt;KITKAT&lt;/a3&gt;&lt;/c2&gt; and below, this field works in conjuction with inPurgeable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101758Z" creationid="pingfangx" creationdate="20180408T101758Z">
+        <seg>在 &lt;c2&gt;&lt;a3&gt;KITKAT&lt;/a3&gt;&lt;/c2&gt; 及以下版本中，此字段与 inPurgeable 一起使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In &lt;c2&gt;&lt;a3&gt;M&lt;/a3&gt;&lt;/c2&gt; and below, if dither is true, the decoder will attempt to dither the decoded image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101731Z" creationid="pingfangx" creationdate="20180408T101731Z">
+        <seg>在 &lt;c2&gt;&lt;a3&gt;M&lt;/a3&gt;&lt;/c2&gt; 及以下，如果 dither 为 true，解码器将尝试 dither 解码图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In &lt;c2&gt;&lt;a3&gt;M&lt;/a3&gt;&lt;/c2&gt; and below, if inPreferQualityOverSpeed is set to true, the decoder will try to decode the reconstructed image to a higher quality even at the expense of the decoding speed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101859Z" creationid="pingfangx" creationdate="20180408T101859Z">
+        <seg>在 &lt;c2&gt;&lt;a3&gt;M&lt;/a3&gt;&lt;/c2&gt; 及以下，如果 inPreferQualityOverSpeed 设置为 true，则解码器将尝试将重构图像解码为更高质量，即使牺牲解码速度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In &lt;c2&gt;&lt;a3&gt;M&lt;/a3&gt;&lt;/c2&gt; and below, if this can be called from another thread while this options object is inside a decode... call.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102644Z" creationid="pingfangx" creationdate="20180408T102644Z">
+        <seg>在 &lt;c2&gt;&lt;a3&gt;M&lt;/a3&gt;&lt;/c2&gt; 及其以下，如果可以从另一个线程调用此选项对象在 decode ...调用中时调用此选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Android, there are actually two other Views readily available to do this: &lt;c0&gt;&lt;a1&gt;Spinner&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;AutoCompleteTextView&lt;/a3&gt;&lt;/c2&gt;, but regardless, the concept of a Combo Box makes an easy-to-understand example.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9747,6 +10227,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>除了上面详细介绍的内在功能之外，你也可以在 &lt;c0&gt;ConstraintLayout&lt;/c0&gt; 中使用特殊的帮助对象来帮助你完成布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition, if &lt;c2&gt;&lt;a3&gt;inScaled&lt;/a3&gt;&lt;/c2&gt; is set (which it is by default} and this density does not match &lt;c4&gt;&lt;a5&gt;inTargetDensity&lt;/a5&gt;&lt;/c4&gt;, then the bitmap will be scaled to the target density before being returned.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103052Z" creationid="pingfangx" creationdate="20180408T103052Z">
+        <seg>另外，如果设置 &lt;c2&gt;&lt;a3&gt;inScaled&lt;/a3&gt;&lt;/c2&gt;（默认情况下）并且此密度与 &lt;c4&gt;&lt;a5&gt;inTargetDensity&lt;/a5&gt;&lt;/c4&gt; 不匹配，那么位图将在返回之前缩放到目标密度。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9939,6 +10427,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在某些情况下，该 margin 可能不是你想要的 margin(比如 A 距容器边有 100dp 的 margin，B 对 A 只有 16dp 的 margin，当 A 标记为 GONE 时，B 对容器有 16dp 的 margin)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In that case the intermediary can check, inbetween the bounds decode and the image decode, to see if the operation is canceled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102458Z" creationid="pingfangx" creationdate="20180408T102458Z">
+        <seg>在这种情况下，中介可以在边界解码和图像解码之间检查操作是否被取消。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In that instance, when the pixels need to be accessed again (e.g. the bitmap is drawn, getPixels() is called), they will be automatically re-decoded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102048Z" creationid="pingfangx" creationdate="20180408T102048Z">
+        <seg>在这种情况下，当像素需要再次访问时（例如绘制位图，调用 getPixels()），它们将被自动重新解码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10375,6 +10879,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is recommended to use &lt;c0&gt;&lt;a1&gt;ARGB_8888&lt;/a1&gt;&lt;/c0&gt; instead of this configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100847Z" creationid="pingfangx" creationdate="20180408T100847Z">
+        <seg>建议使用 &lt;c0&gt;&lt;a1&gt;ARGB_8888&lt;/a1&gt;&lt;/c0&gt; 来代替此配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is very dangerous because it means that Exceptions you never expected (including RuntimeExceptions like ClassCastException) get caught in application-level error handling.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10411,6 +10923,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>它掩盖了代码的故障处理属性，也就是说，如果有人在您所调用的代码中添加了一种新类型的异常，编译器不会帮助您意识到您需要采取不同的方式来处理该错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It should be used whenever possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100914Z" creationid="pingfangx" creationdate="20180408T100914Z">
+        <seg>应尽可能使用它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10879,6 +11399,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No color information is stored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100737Z" creationid="pingfangx" creationdate="20180408T100737Z">
+        <seg>没有存储颜色信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No longer supported.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11035,6 +11563,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>注：安卓框架负责测量、布局和绘制 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: as of &lt;c2&gt;&lt;a3&gt;KITKAT&lt;/a3&gt;&lt;/c2&gt;, any bitmap created with this configuration will be created using &lt;c4&gt;&lt;a5&gt;ARGB_8888&lt;/a5&gt;&lt;/c4&gt; instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100902Z" creationid="pingfangx" creationdate="20180408T100902Z">
+        <seg>注意：从 &lt;c2&gt;&lt;a3&gt;KITKAT&lt;/a3&gt;&lt;/c2&gt; 中，使用此配置创建的任何位图都将使用 &lt;c4&gt;&lt;a5&gt;ARGB_8888&lt;/a5&gt;&lt;/c4&gt; 创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: not all Formats support all bitmap configs directly, so it is possible that the returned bitmap from BitmapFactory could be in a different bitdepth, and/or may have lost per-pixel alpha (e.g. JPEG only supports opaque pixels).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094530Z" creationid="pingfangx" creationdate="20180408T094530Z">
+        <seg>注意：并非所有格式都直接支持所有位图配置，因此 BitmapFactory 返回的位图可能处于不同的位深度，并且/或者可能每像素阿尔法值丢失(例如 JPEG 仅支持不透明像素)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: the decoder uses a final value based on powers of 2, any other value will be rounded down to the nearest power of 2.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103242Z" creationid="pingfangx" creationdate="20180408T103242Z">
+        <seg>注意：解码器使用基于 2 的幂的最终值，任何其他值将向下舍入到最接近的 2 的幂。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11443,6 +11995,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>RecyclerView 中的位置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Possible bitmap configurations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T093934Z" creationid="pingfangx" creationdate="20180408T093934Z">
+        <seg>可能的位图配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13383,6 +13943,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some formats, like PNG which is lossless, will ignore the quality setting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094650Z" creationid="pingfangx" creationdate="20180408T094650Z">
+        <seg>某些格式（如无损 PNG）会忽略质量设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some general properties that a LayoutManager may want to use.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13467,6 +14035,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>指示给定的权限是写操作所需的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies the known formats a bitmap can be compressed into</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T093923Z" creationid="pingfangx" creationdate="20180408T093923Z">
+        <seg>指定位图可以压缩到的已知格式</seg>
       </tuv>
     </tu>
     <tu>
@@ -13779,6 +14355,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Tags 可以在 XML 文件中申明为一个字符串值，用一个单一的标签 &lt;c0&gt;&lt;a1&gt;android:tag&lt;/a1&gt;&lt;/c0&gt;，或者用 &lt;c2&gt;&lt;tag&gt;&lt;/c2&gt; 子标签申明多个 tag。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Temp storage to use for decoding.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102427Z" creationid="pingfangx" creationdate="20180408T102427Z">
+        <seg>用于解码的临时存储。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14167,6 +14751,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The current implementation necessitates that the reused bitmap be mutable, and the resulting reused bitmap will continue to remain mutable even when decoding a resource which would normally result in an immutable bitmap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102930Z" creationid="pingfangx" creationdate="20180408T102930Z">
+        <seg>当前的实现需要重用的位图是可变的，并且即使解码通常会导致不可变的位图的资源，所得到的重用位图也将继续保持可变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The custom View is defined in the &lt;a1&gt;LabelView&lt;/a1&gt; class.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14179,6 +14771,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>该自定义组件在 XML 中被视为一个通用的 view 创建，并且这个类要使用完整的包名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The decoded bitmap, or null if the image data could not be decoded, or, if opts is non-null, if opts requested only the size be returned (in opts.outWidth and opts.outHeight)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095756Z" creationid="pingfangx" creationdate="20180408T095756Z">
+        <seg>已解码的位图，返回 null 如果图像数据无法解码，或者，如果 opts 非空，如果 opts 只请求返回大小(在 opts.outWidth 和 opts.outHeight 中)</seg>
       </tuv>
     </tu>
     <tu>
@@ -14679,10 +15279,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The other functions will leave it as-is and no density will be applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103125Z" creationid="pingfangx" creationdate="20180408T103125Z">
+        <seg>其他功能将保持原样并且不会应用密度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The other set of position related methods are in the form of &lt;c0&gt;*AdapterPosition*&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>另一个与位置相关的方法是 &lt;c0&gt;*AdapterPosition*&lt;/c0&gt; 的形式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The output will always be high quality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101850Z" creationid="pingfangx" creationdate="20180408T101850Z">
+        <seg>输出将始终是高质量的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14723,6 +15339,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>下方的图中紫色矩形标明了 View 的内容允许的区域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The pixel density of the actual screen that is being used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102354Z" creationid="pingfangx" creationdate="20180408T102354Z">
+        <seg>正在使用的实际屏幕的像素密度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The pixel density of the destination this bitmap will be drawn to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102415Z" creationid="pingfangx" creationdate="20180408T102415Z">
+        <seg>该位图将被绘制到的目标的像素密度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The pixel density to use for the bitmap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101632Z" creationid="pingfangx" creationdate="20180408T101632Z">
+        <seg>用于位图的像素密度。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14815,6 +15455,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The resulting height of the bitmap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102521Z" creationid="pingfangx" creationdate="20180408T102521Z">
+        <seg>位图的结果高度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The resulting width of the bitmap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102538Z" creationid="pingfangx" creationdate="20180408T102538Z">
+        <seg>位图的结果宽度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The right margin to use when the target is gone</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14851,6 +15507,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>此子目录的根路径与 &lt;c0&gt;&lt;a1&gt;Environment.getExternalStorageDirectory()&lt;/a1&gt;&lt;/c0&gt; 返回的路径相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The sample size is the number of pixels in either dimension that correspond to a single pixel in the decoded bitmap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103200Z" creationid="pingfangx" creationdate="20180408T103200Z">
+        <seg>样本大小是任一维度中与解码位图中的单个像素对应的像素数量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14939,6 +15603,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>父类要重写的方法以 '&lt;c0&gt;on&lt;/c0&gt;' 开头，比如 &lt;c1&gt;&lt;a2&gt;onDraw()&lt;/a2&gt;&lt;/c1&gt;、&lt;c3&gt;&lt;a4&gt;onMeasure()&lt;/a4&gt;&lt;/c3&gt;、&lt;c5&gt;&lt;a6&gt;onKeyDown()&lt;/a6&gt;&lt;/c5&gt; 等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The three RGB color channels and the alpha channel (translucency) are stored with a 4 bits precision (16 possible values.) This configuration is mostly useful if the application needs to store translucency information but also needs to save memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100841Z" creationid="pingfangx" creationdate="20180408T100841Z">
+        <seg>三个 RGB 颜色通道和 alpha 通道(半透明)以 4 位精度(16 个可能值)存储。如果应用程序需要存储半透明信息，但也需要节省内存，此配置最为有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15175,6 +15847,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Therefore, most apps should avoid using inPurgeable to allow for a fast and fluid UI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102149Z" creationid="pingfangx" creationdate="20180408T102149Z">
+        <seg>因此，大多数应用程序应该避免使用 inPurgeable 来支持快速流畅的用户界面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These &lt;c2&gt;&lt;a3&gt;Animator&lt;/a3&gt;&lt;/c2&gt;-based classes change actual properties of the View object, such as &lt;c4&gt;&lt;a5&gt;alpha&lt;/a5&gt;&lt;/c4&gt; and &lt;c6&gt;&lt;a7&gt;translationX&lt;/a7&gt;&lt;/c6&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15335,6 +16015,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This affects the quality (color depth) as well as the ability to display transparent/translucent colors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100403Z" creationid="pingfangx" creationdate="20180408T100403Z">
+        <seg>这影响质量(颜色深度)以及显示透明/半透明颜色的能力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This allows the pager to hold on to much less memory associated with each visited page as compared to &lt;c0&gt;&lt;a1&gt;FragmentPagerAdapter&lt;/a1&gt;&lt;/c0&gt; at the cost of potentially more overhead when switching between pages.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15439,6 +16127,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This configuration can produce slight visual artifacts depending on the configuration of the source.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100924Z" creationid="pingfangx" creationdate="20180408T100924Z">
+        <seg>根据源的配置，此配置可能会产生轻微的视觉瑕疵。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This configuration may be useful when using opaque bitmaps that do not require high color fidelity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101004Z" creationid="pingfangx" creationdate="20180408T101004Z">
+        <seg>使用不需要高色彩保真度的不透明位图时，此配置可能很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This constant is deprecated.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15451,6 +16155,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这个示例演示了很多使用 Android 平台的方面，范例中继承了 EditText 来创建一个 lined notepad。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This distinction is controlled by inInputShareable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102102Z" creationid="pingfangx" creationdate="20180408T102102Z">
+        <seg>这个区别由 inInputShareable 控制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15468,6 +16180,22 @@
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>（译注：参考：http://www.oschina.net/uploads/doc/javase-6-doc-api-zh_CN/index.html?java/util/ConcurrentModificationException.html）
 当方法检测到对象的并发修改，但不允许这种修改时，抛出此异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field was deprecated in API level 21.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101737Z" creationid="pingfangx" creationdate="20180408T101737Z">
+        <seg>此字段在 API 级别 21 中已被弃用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field was deprecated in API level 24.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101640Z" creationid="pingfangx" creationdate="20180408T101640Z">
+        <seg>此字段在 API 级别 24 中已被弃用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15616,6 +16344,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is not guaranteed to cancel the decode, but if it does, the decoder... operation will return null, or if inJustDecodeBounds is true, will set outWidth/outHeight to -1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102711Z" creationid="pingfangx" creationdate="20180408T102711Z">
+        <seg>这不能保证取消解码，但如果解码完成，则解码器...操作将返回空值，或者如果 inJustDecodeBounds 为 true，则会将 Width / outHeight 设置为-1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is similar in purpose to the older &lt;c0&gt;@TargetApi&lt;/c0&gt; annotation, but more clearly expresses that this is a requirement on the caller, rather than being used to "suppress" warnings within the method that exceed the &lt;c1&gt;minSdkVersion&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15672,10 +16408,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is useful if there's an intermediary that wants to first decode the bounds and then decode the image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102451Z" creationid="pingfangx" creationdate="20180408T102451Z">
+        <seg>如果有一个中介希望先解码边界然后对图像进行解码，那么这非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is usually used for methods that have no side effect, so calling it without actually looking at the result usually means the developer has misunderstood what the method does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这通常用于没有副作用的方法，所以在没有实际查看结果的情况下调用它通常意味着开发人员误解了该方法的作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is very useful to efficiently store masks for instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100731Z" creationid="pingfangx" creationdate="20180408T100731Z">
+        <seg>这对于有效存储 masks （遮罩）非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15748,6 +16500,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>该方法典型的调用，是当一个 view 相信自己不再适合当前的边界时，对自己调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This method was deprecated in API level 24.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102628Z" creationid="pingfangx" creationdate="20180408T102628Z">
+        <seg>此方法在 API 级别 24 中已弃用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15892,6 +16652,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这样相当不方便。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will always result in the returned bitmap having a density set for it (see &lt;c0&gt;&lt;a1&gt;Bitmap.setDensity(int)&lt;/a1&gt;&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103037Z" creationid="pingfangx" creationdate="20180408T103037Z">
+        <seg>这将始终导致返回的位图具有为其设置的密度（请参见 &lt;c0&gt;&lt;a1&gt;Bitmap.setDensity(int)&lt;/a1&gt;&lt;/c0&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16096,6 +16864,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To get better results dithering should be applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100950Z" creationid="pingfangx" creationdate="20180408T100950Z">
+        <seg>为了得到更好的结果，应该应用 dithering。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To give an idea of the control you get with custom views, here are some examples of what you could do with them:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16156,6 +16932,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>为了计算尺寸，view 考虑了它的 padding。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To minimize Dalvik heap allocations use the &lt;c0&gt;&lt;a1&gt;inBitmap&lt;/a1&gt;&lt;/c0&gt; flag instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102153Z" creationid="pingfangx" creationdate="20180408T102153Z">
+        <seg>为了尽量减少 Dalvik 堆分配，请改用 &lt;c0&gt;&lt;a1&gt;inBitmap&lt;/a1&gt;&lt;/c0&gt; 标志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16388,6 +17172,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>不像 IDs，tags 不用来标识 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Usage with BitmapFactory</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103021Z" creationid="pingfangx" creationdate="20180408T103021Z">
+        <seg>与 BitmapFactory 一起使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Usage with BitmapRegionDecoder</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103027Z" creationid="pingfangx" creationdate="20180408T103027Z">
+        <seg>与 BitmapRegionDecoder 一起使用</seg>
       </tuv>
     </tu>
     <tu>
@@ -17016,6 +17816,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When this flag is set, if &lt;c0&gt;&lt;a1&gt;inDensity&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;inTargetDensity&lt;/a3&gt;&lt;/c2&gt; are not 0, the bitmap will be scaled to match &lt;c4&gt;&lt;a5&gt;inTargetDensity&lt;/a5&gt;&lt;/c4&gt; when loaded, rather than relying on the graphics system scaling it each time it is drawn to a Canvas.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102347Z" creationid="pingfangx" creationdate="20180408T102347Z">
+        <seg>设置此标志时，如果 &lt;c0&gt;&lt;a1&gt;inDensity&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;inTargetDensity&lt;/a3&gt;&lt;/c2&gt; 不为 0，则会缩放位图以匹配 &lt;c4&gt;&lt;a5&gt;inTargetDensity&lt;/a5&gt;&lt;/c4&gt; 加载时，而不是依赖图形系统每次将其绘制到 Canvas 时缩放它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When turned on, it automatically creates two or more constraints for each view as you add them to the layout, but only when appropriate to constrain the view to the parent layout.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17128,6 +17936,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While inPurgeable can help avoid big Dalvik heap allocations (from API level 11 onward), it sacrifices performance predictability since any image that the view system tries to draw may incur a decode delay which can lead to dropped frames.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102142Z" creationid="pingfangx" creationdate="20180408T102142Z">
+        <seg>虽然 inPurgeable 可以帮助避免大 Dalvik 堆分配(从 API 级别 11 开始)，但它牺牲了性能可预测性，因为视图系统尝试绘制的任何图像都可能导致解码延迟，从而导致丢帧。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While logging is necessary, it has a significantly negative impact on performance and quickly loses its usefulness if not kept reasonably terse.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17192,6 +18008,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With this configuration, each pixel requires 1 byte of memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100742Z" creationid="pingfangx" creationdate="20180408T100742Z">
+        <seg>采用这种配置，每个像素需要 1 个字节的内存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Within a given module, other than at the VERBOSE level, an error should only be reported once if possible.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17228,6 +18052,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>编写简短方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Write a compressed version of the bitmap to the specified outputstream.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094316Z" creationid="pingfangx" creationdate="20180408T094316Z">
+        <seg>将位图的压缩版本写入指定的输出流。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17612,6 +18444,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你不应在 view 中调用方法来执行这些操作，除非你实际上继承了一个 &lt;c0&gt;&lt;a1&gt;ViewGroup&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should still always use the returned Bitmap of the decode method and not assume that reusing the bitmap worked, due to the constraints outlined above and failure situations that can occur.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102937Z" creationid="pingfangx" creationdate="20180408T102937Z">
+        <seg>由于上述限制和可能发生的故障情况，您仍应始终使用解码方法的返回位图，并且不要假定重用位图。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20396,6 +21236,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>org.xmlpull.v1.sax2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>outHeight will be set to -1 if there is an error trying to decode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103447Z" creationid="pingfangx" creationdate="20180408T103447Z">
+        <seg>如果尝试解码时出错，outHeight 将被设置为-1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>outWidth will be set to -1 if there is an error trying to decode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103545Z" creationid="pingfangx" creationdate="20180408T103545Z">
+        <seg>如果尝试解码时出错，outWidth 将被设置为-1。</seg>
       </tuv>
     </tu>
     <tu>
