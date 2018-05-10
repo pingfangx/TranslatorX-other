@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>"Compositing Digital Images" was published in &lt;e0&gt;Computer Graphics&lt;/e0&gt; Volume 18, Number 3 dated July 1984.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T042249Z" creationid="pingfangx" creationdate="20180510T042249Z">
+        <seg>"合成数字图像" 发表于 1984 年 7 月的 &lt;e0&gt;Computer Graphics&lt;/e0&gt; 第 18 卷第 3 期。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3581,6 +3589,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Bitmap&lt;/c0&gt;: The bitmap to use inside the shader</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095031Z" creationid="pingfangx" creationdate="20180427T095031Z">
+        <seg>&lt;c0&gt;Bitmap&lt;/c0&gt;: 在着色器内使用的位图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;BitmapFactory.Options&lt;/c0&gt;: null-ok; Options that control downsampling and whether the image should be completely decoded, or just is size returned.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095715Z" creationid="pingfangx" creationdate="20180408T095715Z">
@@ -3661,10 +3677,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Matrix&lt;/c0&gt;: If not null, it is set to the shader's local matrix.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094307Z" creationid="pingfangx" creationdate="20180427T094307Z">
+        <seg>&lt;c0&gt;Matrix&lt;/c0&gt;: 如果不为空，则将其设置为 shader 的局部矩阵。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Matrix&lt;/c0&gt;: The shader's new local matrix, or null to specify identity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094232Z" creationid="pingfangx" creationdate="20180427T094141Z">
+        <seg>&lt;c0&gt;Matrix&lt;/c0&gt;: shader 的新本地矩阵，或者 null 来指定同一性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;OutputStream&lt;/c0&gt;: The outputstream to write the compressed data.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095221Z" creationid="pingfangx" creationdate="20180408T095221Z">
         <seg>&lt;c0&gt;OutputStream&lt;/c0&gt;：写入压缩数据的输出流。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;PorterDuff.Mode&lt;/c0&gt;: The PorterDuff mode that combines the colors from the two shaders.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100217Z" creationid="pingfangx" creationdate="20180427T100217Z">
+        <seg>&lt;c0&gt;PorterDuff.Mode&lt;/c0&gt;: 组合来自两个着色器的颜色的 PorterDuff 模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;PorterDuff.Mode&lt;/c0&gt;: The porter-duff mode that is applied</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180502T102202Z" creationid="pingfangx" creationdate="20180502T102202Z">
+        <seg>&lt;c0&gt;PorterDuff.Mode&lt;/c0&gt;: 应用的 porter-duff 模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -3705,6 +3753,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;RecyclerView&lt;/c0&gt;: 该 ItemDecoration 要绘制进的 RecyclerView</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Shader.TileMode&lt;/c0&gt;: The Shader tiling mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100642Z" creationid="pingfangx" creationdate="20180427T100642Z">
+        <seg>&lt;c0&gt;Shader.TileMode&lt;/c0&gt;: 着色器平铺模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Shader.TileMode&lt;/c0&gt;: The tiling mode for x to draw the bitmap in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095056Z" creationid="pingfangx" creationdate="20180427T095056Z">
+        <seg>&lt;c0&gt;Shader.TileMode&lt;/c0&gt;: x 方向绘制位图的平铺模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Shader.TileMode&lt;/c0&gt;: The tiling mode for y to draw the bitmap in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095104Z" creationid="pingfangx" creationdate="20180427T095104Z">
+        <seg>&lt;c0&gt;Shader.TileMode&lt;/c0&gt;: y 方向绘制位图的平铺模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Shader&lt;/c0&gt;: The colors from this shader are seen as the "dst" by the mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100144Z" creationid="pingfangx" creationdate="20180427T100144Z">
+        <seg>&lt;c0&gt;Shader&lt;/c0&gt;: 来自该着色器的颜色被模式视为 "dst"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Shader&lt;/c0&gt;: The colors from this shader are seen as the "src" by the mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100150Z" creationid="pingfangx" creationdate="20180427T100150Z">
+        <seg>&lt;c0&gt;Shader&lt;/c0&gt;: 来自该着色器的颜色被模式视为 "src"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3757,6 +3845,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Xfermode&lt;/c0&gt;: The mode that combines the colors from the two shaders.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100200Z" creationid="pingfangx" creationdate="20180427T100200Z">
+        <seg>&lt;c0&gt;Xfermode&lt;/c0&gt;: 组合来自两个着色器的颜色的模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;android:minHeight&lt;/c0&gt; set the minimum height for the layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3781,10 +3877,106 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: May be &lt;c1&gt;null&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100944Z" creationid="pingfangx" creationdate="20180427T100944Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;：可能是 &lt;c1&gt;null&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: May be NULL.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101151Z" creationid="pingfangx" creationdate="20180427T101151Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;：可能为 NULL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: May be null.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100553Z" creationid="pingfangx" creationdate="20180427T100553Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: 可能为 null.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: Must be positive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100930Z" creationid="pingfangx" creationdate="20180427T100930Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;：必须为正值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;float&lt;/c0&gt;: Position of page relative to the current front-and-center position of the pager.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;float&lt;/c0&gt;: 相对于当前页面的中心点位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: The x-coordinate for the end of the gradient line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100520Z" creationid="pingfangx" creationdate="20180427T100439Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: 渐变线终点的 x 坐标: </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: The x-coordinate for the start of the gradient line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100529Z" creationid="pingfangx" creationdate="20180427T100424Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: 渐变线起点的 x 坐标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: The x-coordinate of the center</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101136Z" creationid="pingfangx" creationdate="20180427T101136Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;：中心的 x 坐标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: The x-coordinate of the center of the radius</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100926Z" creationid="pingfangx" creationdate="20180427T100918Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;：半径中心的 x 坐标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: The y-coordinate for the end of the gradient line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100502Z" creationid="pingfangx" creationdate="20180427T100502Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;：渐变线终点的 y 坐标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: The y-coordinate for the start of the gradient line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100525Z" creationid="pingfangx" creationdate="20180427T100431Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: 渐变线起点的 y 坐标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: The y-coordinate of the center</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101138Z" creationid="pingfangx" creationdate="20180427T101138Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;：中心的 y 坐标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;: The y-coordinate of the center of the radius</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100923Z" creationid="pingfangx" creationdate="20180427T100923Z">
+        <seg>&lt;c0&gt;float&lt;/c0&gt;：半径中心的 y 坐标</seg>
       </tuv>
     </tu>
     <tu>
@@ -3801,6 +3993,78 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;int&lt;/c0&gt;：item 的 adapter position。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: The color at the center of the circle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101028Z" creationid="pingfangx" creationdate="20180427T101028Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;：圆形中心的颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: The color at the edge of the circle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101032Z" creationid="pingfangx" creationdate="20180427T101032Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;：圆形边缘的颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: The color at the end of the gradient line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100704Z" creationid="pingfangx" creationdate="20180427T100704Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: 渐变线终点的颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: The color at the start of the gradient line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100655Z" creationid="pingfangx" creationdate="20180427T100655Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: 渐变线起点的颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: The color to use at the end of the sweep</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101310Z" creationid="pingfangx" creationdate="20180427T101226Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;：在扫区结束时使用的颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: The color to use at the start of the sweep</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101305Z" creationid="pingfangx" creationdate="20180427T101221Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;：在扫区开始时使用的颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: The colors to be distributed along the gradient line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100540Z" creationid="pingfangx" creationdate="20180427T100540Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: 要沿渐变线分布的颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: The colors to be distributed between around the center.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101144Z" creationid="pingfangx" creationdate="20180427T101144Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;：要在中心之间分配的颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;: The colors to be distributed between the center and edge of the circle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100941Z" creationid="pingfangx" creationdate="20180427T100941Z">
+        <seg>&lt;c0&gt;int&lt;/c0&gt;：要分布在圆的中心和边缘之间的颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -4639,6 +4903,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A subclass of Shader is installed in a Paint calling paint.setShader(shader).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T092723Z" creationid="pingfangx" creationdate="20180427T092522Z">
+        <seg>Shader 的子类在调用 paint.setShader(shader) 时被安装到 Paint 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A subclass of Shader that draws a sweep gradient around a center point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101250Z" creationid="pingfangx" creationdate="20180427T101121Z">
+        <seg>Shader 的一个子类，它围绕中心点绘制一个渐变扫区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A subclass of shader that returns the composition of two other shaders, combined by an &lt;c0&gt;&lt;a1&gt;Xfermode&lt;/a1&gt;&lt;/c0&gt; subclass.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095514Z" creationid="pingfangx" creationdate="20180427T095514Z">
+        <seg>组合着色器，着色器的一个子类，它返回两个其他着色器的组合，由 &lt;c0&gt;&lt;a1&gt;Xfermode&lt;/a1&gt;&lt;/c0&gt; 的子类组合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A subclass overrides the &lt;c0&gt;finalize&lt;/c0&gt; method to dispose of system resources or to perform other cleanup.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T103834Z" creationid="pingfangx" creationdate="20180427T103834Z">
+        <seg>子类会覆盖 &lt;c0&gt;finalize&lt;/c0&gt; 方法来处理系统资源或执行其他清理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A useful aspect of &lt;c0&gt;ConstraintLayout&lt;/c0&gt; is in how it deals with "impossible" constrains.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -4775,6 +5071,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Added in &lt;a0&gt;API level 1&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095145Z" creationid="pingfangx" creationdate="20180427T095128Z">
+        <seg>添加于 &lt;a0&gt;API level 1&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, we have not yet determined how to make all IDEs use the same ordering.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -4803,6 +5107,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>将该 view（调用该方法的 view）的所有可获取焦点的子 view（可能包含自己，如果自己也是可获取焦点的。）添加到 views（指第一个参数）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds the source and destination pixels, then subtracts the source pixels multiplied by the destination.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062315Z" creationid="pingfangx" creationdate="20180510T062315Z">
+        <seg>添加源像素和目标像素，然后减去源像素乘以目标像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds the source pixels to the destination pixels and saturates the result.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T061541Z" creationid="pingfangx" creationdate="20180510T061541Z">
+        <seg>将源像素添加到目标像素并使结果饱和。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4943,6 +5263,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After that any object (other than a bitmap) that is drawn with that paint will get its color(s) from the shader.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T092656Z" creationid="pingfangx" creationdate="20180427T092656Z">
+        <seg>之后，用该 paint 绘制的任何对象（除 bitmap 之外）都将从 shader 中获取它的颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After the &lt;c0&gt;finalize&lt;/c0&gt; method has been invoked for an object, no further action is taken until the Java virtual machine has again determined that there is no longer any means by which this object can be accessed by any thread that has not yet died, including possible actions by other objects or classes which are ready to be finalized, at which point the object may be discarded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T105003Z" creationid="pingfangx" creationdate="20180427T105003Z">
+        <seg>在为对象调用 &lt;c0&gt;finalize&lt;/c0&gt; 方法后，不会采取进一步的操作，直到 Java 虚拟机再次确定这个对象不再被任何尚未死亡的线程访问，除非是由于某个其他准备 finalize 的对象或类的准备而产生的动作的结果，此时物体可能会被丢弃。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After this, the drawing commands of the entire tree are issued to screen, clipped to the newly damaged area.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5007,6 +5343,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All the example diagrams presented below use the same source and destination images:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060255Z" creationid="pingfangx" creationdate="20180510T060255Z">
+        <seg>下面介绍的所有示例图都使用相同的源图像和目标图像：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All the power of &lt;c0&gt;ConstraintLayout&lt;/c0&gt; is available directly from the Layout Editor's visual tools, because the layout API and the Layout Editor were specially built for each other.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5019,6 +5363,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>为日志编译的所有字符串也需要放在 &lt;c4&gt;if (LOCAL_LOG)&lt;/c4&gt; 块中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alpha compositing modes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060449Z" creationid="pingfangx" creationdate="20180510T060449Z">
+        <seg>Alpha 合成模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -5355,6 +5707,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>该方法绘制的任何内容将在 item views 绘制之前被绘制，因此将显示在 views 的下层。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any exception thrown by the &lt;c0&gt;finalize&lt;/c0&gt; method causes the finalization of this object to be halted, but is otherwise ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T105022Z" creationid="pingfangx" creationdate="20180427T105022Z">
+        <seg>由 &lt;c0&gt;finalize&lt;/c0&gt; 方法抛出的任何异常都会导致此对象的终止被暂停，但会被忽略。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5783,6 +6143,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because the work of Porter and Duff focuses solely on the effects of the alpha channel of the source and destination, the 12 operators described in the original paper are called alpha compositing modes here.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T042404Z" creationid="pingfangx" creationdate="20180510T042404Z">
+        <seg>由于 Porter 和 Duff 的工作仅关注源和目标的 alpha 通道的影响，原始文章中描述的 12 个操作符在这里被称为 alpha 合成模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Begin a nestable scroll operation along the given axes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5843,6 +6211,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>BinderThread - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Blending modes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060656Z" creationid="pingfangx" creationdate="20180510T060656Z">
+        <seg>混合模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -5983,6 +6359,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Call this to create a new shader that will draw with a bitmap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095002Z" creationid="pingfangx" creationdate="20180427T095002Z">
+        <seg>调用它来创建一个新的着色器，该着色器将使用位图进行绘制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Call this when something has changed which has invalidated the layout of this view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6011,6 +6395,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在一 View 及其所有子 view 从 XML 加载完成后被调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called by the garbage collector on an object when garbage collection determines that there are no more references to the object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095707Z" creationid="pingfangx" creationdate="20180427T095707Z">
+        <seg>当垃圾收集确定没有更多对该对象的引用时，由对象上的垃圾回收器调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6243,6 +6635,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>分类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Causes the current thread to wait until another thread invokes the &lt;c0&gt;&lt;a1&gt;notify()&lt;/a1&gt;&lt;/c0&gt; method or the &lt;c2&gt;&lt;a3&gt;notifyAll()&lt;/a3&gt;&lt;/c2&gt; method for this object, or some other thread interrupts the current thread, or a certain amount of real time has elapsed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095927Z" creationid="pingfangx" creationdate="20180427T095859Z">
+        <seg>使当前线程等待，直到另一个线程对此对象调用 &lt;c0&gt;&lt;a1&gt;notify()&lt;/a1&gt;&lt;/c0&gt; 方法或 &lt;c2&gt;&lt;a3&gt;notifyAll()&lt;/a3&gt;&lt;/c2&gt; 方法或其他线程中断当前线程，或者经过一定的实时时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Causes the current thread to wait until another thread invokes the &lt;c0&gt;&lt;a1&gt;notify()&lt;/a1&gt;&lt;/c0&gt; method or the &lt;c2&gt;&lt;a3&gt;notifyAll()&lt;/a3&gt;&lt;/c2&gt; method for this object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100053Z" creationid="pingfangx" creationdate="20180427T100053Z">
+        <seg>使当前线程等待，直到另一个线程对此对象调用 &lt;c0&gt;&lt;a1&gt;notify()&lt;/a1&gt;&lt;/c0&gt; 方法或 &lt;c2&gt;&lt;a3&gt;notifyAll()&lt;/a3&gt;&lt;/c2&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Causes the current thread to wait until either another thread invokes the &lt;c0&gt;&lt;a1&gt;notify()&lt;/a1&gt;&lt;/c0&gt; method or the &lt;c2&gt;&lt;a3&gt;notifyAll()&lt;/a3&gt;&lt;/c2&gt; method for this object, or a specified amount of time has elapsed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095940Z" creationid="pingfangx" creationdate="20180427T095922Z">
+        <seg>使当前线程等待，直到另一个线程对此对象调用 &lt;c0&gt;&lt;a1&gt;notify()&lt;/a1&gt;&lt;/c0&gt; 方法或 &lt;c2&gt;&lt;a3&gt;notifyAll()&lt;/a3&gt;&lt;/c2&gt; 方法，或已经过了指定的时间量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6523,6 +6939,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Company / developer name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compositing equations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060700Z" creationid="pingfangx" creationdate="20180510T060700Z">
+        <seg>合成方程</seg>
       </tuv>
     </tu>
     <tu>
@@ -6895,10 +7319,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a new compose shader, given shaders A, B, and a combining PorterDuff mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095538Z" creationid="pingfangx" creationdate="20180427T095538Z">
+        <seg>创建一个新的组合着色器，给定着色器 A，B 和组合 PorterDuff 模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a new compose shader, given shaders A, B, and a combining mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095524Z" creationid="pingfangx" creationdate="20180427T095524Z">
+        <seg>创建一个新的组合着色器，给定着色器 A，B 和一个组合模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a new layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>创建新的布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a shader that draws a linear gradient along a line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100350Z" creationid="pingfangx" creationdate="20180427T100350Z">
+        <seg>创建一个绘制线性渐变的着色器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a shader that draws a radial gradient given the center and radius.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100811Z" creationid="pingfangx" creationdate="20180427T100811Z">
+        <seg>创建一个着色器，以给定中心和半径绘制径向渐变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create an xfermode that uses the specified porter-duff mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180502T102150Z" creationid="pingfangx" creationdate="20180502T102150Z">
+        <seg>创建一个使用指定的 porter-duff 模式的 xfermode。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6931,6 +7395,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094445Z" creationid="pingfangx" creationdate="20180408T094445Z">
         <seg>创建一个新的位图，如果可能，从现有的位图缩放。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creates and returns a copy of this object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095714Z" creationid="pingfangx" creationdate="20180427T095714Z">
+        <seg>创建并返回此对象的副本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7543,6 +8015,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Destination image</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060314Z" creationid="pingfangx" creationdate="20180510T060314Z">
+        <seg>目标图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Destination pixels covered by the source are cleared to 0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T061606Z" creationid="pingfangx" creationdate="20180510T061606Z">
+        <seg>由源像素覆盖的目标像素被清除为 0。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Detach a child view and add it to a &lt;c0&gt;&lt;a1&gt;Recycler's&lt;/a1&gt;&lt;/c0&gt; scrap heap.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7595,6 +8083,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Diagrams</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060240Z" creationid="pingfangx" creationdate="20180510T060240Z">
+        <seg>图</seg>
       </tuv>
     </tu>
     <tu>
@@ -7683,6 +8179,62 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>尺寸约束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discards all destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T063115Z" creationid="pingfangx" creationdate="20180510T063115Z">
+        <seg>丢弃所有目标像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discards all source pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062851Z" creationid="pingfangx" creationdate="20180510T062851Z">
+        <seg>丢弃所有源像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discards destination pixels that are covered by source pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062847Z" creationid="pingfangx" creationdate="20180510T062847Z">
+        <seg>丢弃源像素覆盖的目标像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discards source pixels that cover destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T063102Z" creationid="pingfangx" creationdate="20180510T063102Z">
+        <seg>丢弃覆盖目标像素的源像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discards the destination pixels that are not covered by source pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T061807Z" creationid="pingfangx" creationdate="20180510T061807Z">
+        <seg>丢弃未被源像素覆盖的目标像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discards the source and destination pixels where source pixels cover destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062555Z" creationid="pingfangx" creationdate="20180510T062555Z">
+        <seg>放弃源像素覆盖目标像素（区域）的源像素和目标像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discards the source pixels that do not cover destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062412Z" creationid="pingfangx" creationdate="20180510T062412Z">
+        <seg>丢弃未覆盖目标像素的源像素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7835,6 +8387,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>绘制操作，先遍厉一遍 view 树，记录需要更新的 view 的绘制命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Draws remaining destination pixels over source pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T063331Z" creationid="pingfangx" creationdate="20180510T062817Z">
+        <seg>剩余的目标像素绘制在源像素上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Draws remaining source pixels over destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T063044Z" creationid="pingfangx" creationdate="20180510T063044Z">
+        <seg>剩余的源像素绘制在目标像素上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Draws remaining source pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T063121Z" creationid="pingfangx" creationdate="20180510T063121Z">
+        <seg>绘制剩余的源像素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8471,6 +9047,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For convenience, this class also provides several blending modes, which similarly define the result of compositing a source and a destination but without being constrained to the alpha channel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T042448Z" creationid="pingfangx" creationdate="20180510T042448Z">
+        <seg>为了方便起见，这个类还提供了几种混合模式，它们类似地定义了合成源与目标的结果，但不限制于 alpha 通道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For detailed reference information, see the &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; class.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8683,6 +9267,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>例如，代码可能如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the finalize method for an object that represents an input/output connection might perform explicit I/O transactions to break the connection before the object is permanently discarded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104718Z" creationid="pingfangx" creationdate="20180427T104718Z">
+        <seg>例如，表示输入/输出连接的对象的 finalize 方法可能会执行显式 I/O 事务，以在永久丢弃该对象之前中断连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9327,6 +9919,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;c4&gt;null&lt;/c4&gt;, colors are distributed evenly between the center and edge of the circle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101022Z" creationid="pingfangx" creationdate="20180427T101022Z">
+        <seg>如果为 &lt;c4&gt;null&lt;/c4&gt;，颜色均匀分布在圆的中心和边缘之间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a View object sets the NinePatch as its background and then specifies the View's text, it will stretch itself so that all the text fits inside only the area designated by the right and bottom lines (if included).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9371,6 +9971,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果某个警告通过了 "无法消除" 测试，则必须使用 @SuppressWarnings 注释，以确保所有警告都会反映出代码中的实际问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an uncaught exception is thrown by the finalize method, the exception is ignored and finalization of that object terminates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104811Z" creationid="pingfangx" creationdate="20180427T104811Z">
+        <seg>如果 finalize 方法引发未捕获的异常，则忽略该异常，并终止该对象的终止。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9447,6 +10055,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If mode is null, then SRC_OVER is assumed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100210Z" creationid="pingfangx" creationdate="20180427T100210Z">
+        <seg>如果模式为空，则假定为 SRC_OVER。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no match has yet been attempted, or if the previous match operation failed</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9475,6 +10091,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果一个或多个元素使用 &lt;c0&gt;MATCH_CONSTRAINT&lt;/c0&gt;，它们将使用可用的空白空间(在它们之前平分)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If positions is NULL, then the colors are automatically spaced evenly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101212Z" creationid="pingfangx" creationdate="20180427T101212Z">
+        <seg>如果位置为 NULL，则颜色自动均匀分布。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9695,6 +10319,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the values are not monotonic, the drawing may produce unexpected results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101203Z" creationid="pingfangx" creationdate="20180427T101203Z">
+        <seg>如果这些值不是单调的，则绘图可能会产生意想不到的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If there are multiple annotations, or parameterized annotations, they should each be listed one-per-line in alphabetical order.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9771,6 +10403,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101933Z" creationid="pingfangx" creationdate="20180408T101933Z">
         <seg>如果这是非空的，则解码器将尝试解码为该内部配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this is null, the the colors are distributed evenly along the gradient line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100632Z" creationid="pingfangx" creationdate="20180427T100632Z">
+        <seg>如果它为空，则颜色沿梯度线均匀分布。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10607,6 +11247,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this paper, the authors describe 12 compositing operators that govern how to compute the color resulting of the composition of a source (the graphics object to render) with a destination (the content of the render target).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T042218Z" creationid="pingfangx" creationdate="20180510T042218Z">
+        <seg>在本文中，作者描述了 12 个合成操作符，这些操作符管理如何计算源(要渲染的图形对象)与目标(渲染目标的内容)的组合颜色结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indicates whether some other object is "equal to" this one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095736Z" creationid="pingfangx" creationdate="20180427T095736Z">
+        <seg>指示其他某个对象是否 "等于" 这一个。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Infer Constraints scans the layout to determine the most effective set of constraints for all views.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10863,6 +11519,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is guaranteed, however, that the thread that invokes finalize will not be holding any user-visible synchronization locks when finalize is invoked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104759Z" creationid="pingfangx" creationdate="20180427T104759Z">
+        <seg>但是，保证调用 finalize 的线程在调用 finalize 时不会保留任何用户可见的同步锁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is not included in this count.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11043,6 +11707,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>尽可能缩小局部变量的作用域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keeps the destination pixels that are not covered by source pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062034Z" creationid="pingfangx" creationdate="20180510T062034Z">
+        <seg>保留未被源像素覆盖的目标像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keeps the destination pixels that cover source pixels, discards the remaining source and destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062020Z" creationid="pingfangx" creationdate="20180510T061841Z">
+        <seg>保留被源像素覆盖的目标像素，丢弃剩余的源像素和目标像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keeps the source pixels that cover the destination pixels, discards the remaining source and destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062435Z" creationid="pingfangx" creationdate="20180510T062435Z">
+        <seg>保留覆盖目标像素的源像素，丢弃剩余的源像素和目标像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keeps the source pixels that do not cover destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062453Z" creationid="pingfangx" creationdate="20180510T062453Z">
+        <seg>保留未覆盖目标像素的源像素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11371,6 +12067,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>移动该 view 的滚动位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multiplies or screens the source and destination depending on the destination color.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062220Z" creationid="pingfangx" creationdate="20180510T062220Z">
+        <seg>取决于目标颜色，将源与目标相乘或屏蔽。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multiplies the source and destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062115Z" creationid="pingfangx" creationdate="20180510T062115Z">
+        <seg>将源像素和目标像素相乘。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11927,6 +12639,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Passing null will reset the shader's matrix to identity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094224Z" creationid="pingfangx" creationdate="20180427T094224Z">
+        <seg>传递 null 将重置 shader 的矩阵为同一的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Perhaps a graphical VU meter that looks like an old analog gauge, or a sing-a-long text view where a bouncing ball moves along the words so you can sing along with a karaoke machine.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12049,15 +12769,15 @@
       <tuv lang="EN-US">
         <seg>Protected methods</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>受保护的方法。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T093548Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>受保护的方法</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Public constructors</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T093533Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>公共构造方法</seg>
       </tuv>
     </tu>
@@ -12065,7 +12785,7 @@
       <tuv lang="EN-US">
         <seg>Public methods</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T093538Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>公共方法</seg>
       </tuv>
     </tu>
@@ -12567,6 +13287,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Retains the largest component of the source and destination pixel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062100Z" creationid="pingfangx" creationdate="20180510T062100Z">
+        <seg>保留源像素和目标像素的最大分量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retains the smallest component of the source and destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T061621Z" creationid="pingfangx" creationdate="20180510T061621Z">
+        <seg>保留源像素和目标像素的最小分量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rethrow the exception.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12807,10 +13543,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return true if the shader has a non-identity local matrix.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094010Z" creationid="pingfangx" creationdate="20180427T094010Z">
+        <seg>如果 shader 具有非同一的局部矩阵，则返回 true。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a hash code value for the object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095746Z" creationid="pingfangx" creationdate="20180427T095746Z">
+        <seg>返回对象的哈希码值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12851,6 +13603,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回默认的布局参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a string representation of the object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095815Z" creationid="pingfangx" creationdate="20180427T095815Z">
+        <seg>返回对象的字符串表示形式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13147,6 +13907,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回给定子 view 的右边，偏移自应用的 &lt;c0&gt;&lt;a1&gt;ItemDecorations&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the runtime class of this &lt;c0&gt;Object&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095742Z" creationid="pingfangx" creationdate="20180427T095742Z">
+        <seg>返回此 &lt;c0&gt;Object&lt;/c0&gt; 的运行时类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13703,6 +14471,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the shader's local matrix.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094050Z" creationid="pingfangx" creationdate="20180427T094050Z">
+        <seg>设置 shader 的局部矩阵。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set whether the RecyclerView should try to keep the same Item focused after a layout calculation or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13827,6 +14603,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>提供一些自带的 layout managers 用于一般使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shader is the based class for objects that return horizontal spans of colors during drawing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T092710Z" creationid="pingfangx" creationdate="20180427T092441Z">
+        <seg>Shader （着色器）是绘制过程中返回水平跨度颜色的对象的基类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shader used to draw a bitmap as a texture.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094912Z" creationid="pingfangx" creationdate="20180427T094912Z">
+        <seg>用于绘制位图作为纹理的着色器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13995,6 +14787,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>有时很基本的一点是，提醒用户他要执行的动作需完全知晓并同意，比如同意权限请求，进行购买或点击一个广告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Source and Destination</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060307Z" creationid="pingfangx" creationdate="20180510T060307Z">
+        <seg>源与目标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Source image</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060310Z" creationid="pingfangx" creationdate="20180510T060310Z">
+        <seg>源图像</seg>
       </tuv>
     </tu>
     <tu>
@@ -14239,6 +15047,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Subclasses of &lt;c2&gt;Object&lt;/c2&gt; may override this definition.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104737Z" creationid="pingfangx" creationdate="20180427T104737Z">
+        <seg>&lt;c2&gt;Object&lt;/c2&gt; 的子类可以覆盖此定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Subclasses only need to implement &lt;c0&gt;&lt;a1&gt;getItem(int)&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;getCount()&lt;/a3&gt;&lt;/c2&gt; to have a working adapter.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14471,6 +15287,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;finalize&lt;/c0&gt; method is never invoked more than once by a Java virtual machine for any given object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T105012Z" creationid="pingfangx" creationdate="20180427T105012Z">
+        <seg>对于任何给定的对象，Java 虚拟机从不会多次调用 &lt;c0&gt;finalize&lt;/c0&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;finalize&lt;/c0&gt; method of class &lt;c1&gt;Object&lt;/c1&gt; performs no special action; it simply returns normally.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104734Z" creationid="pingfangx" creationdate="20180427T104734Z">
+        <seg>类 &lt;c1&gt;Object&lt;/c1&gt; 的 &lt;c0&gt;finalize&lt;/c0&gt; 方法不执行特殊操作;它只是正常返回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;onDraw()&lt;/c0&gt; and &lt;c1&gt;onMeasure()&lt;/c1&gt; methods (plus most of the other &lt;c2&gt;on...&lt;/c2&gt; methods) will likely have suitable behavior so you don't have to override them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14491,6 +15323,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>子类 &lt;c1&gt;&lt;a2&gt;ViewGroup&lt;/a2&gt;&lt;/c1&gt; 是 &lt;e3&gt;layouts&lt;/e3&gt; 的基类，它是不可见的容器，持有其他 view(或其他 ViewGroup)并确定他们的布局特性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c3&gt;finalize&lt;/c3&gt; method may take any action, including making this object available again to other threads; the usual purpose of &lt;c4&gt;finalize&lt;/c4&gt;, however, is to perform cleanup actions before the object is irrevocably discarded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104655Z" creationid="pingfangx" creationdate="20180427T104655Z">
+        <seg>&lt;c3&gt;finalize&lt;/c3&gt; 方法可以采取任何操作，包括使该对象再次可用于其他线程;然而，&lt;c4&gt;finalize&lt;/c4&gt; 的通常目的是在对象被不可撤销地丢弃之前执行清理操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14523,6 +15363,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当 EditText 从 XML 布局文件加载时，它用这些参数来创建。因此，我们的构造方法需要获取参数并传递给父类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java programming language does not guarantee which thread will invoke the &lt;c0&gt;finalize&lt;/c0&gt; method for any given object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104747Z" creationid="pingfangx" creationdate="20180427T104747Z">
+        <seg>Java 编程语言不能保证哪个线程将调用任何给定对象的 &lt;c0&gt;finalize&lt;/c0&gt; 方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14643,6 +15491,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>view 的基本周期尊循以下方面：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The bitmap can be repeated or mirrored by setting the tiling mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094947Z" creationid="pingfangx" creationdate="20180427T094947Z">
+        <seg>位图可以通过设置 tiling mode （平铺模式）来重复或镜像。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14855,6 +15711,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The documentation of each individual alpha compositing or blending mode below provides the exact equation used to compute alpha and color value of the result of the composition of a source and destination.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060940Z" creationid="pingfangx" creationdate="20180510T060940Z">
+        <seg>以下每个单独的 alpha 合成或混合模式的文档提供了用于计算源和目标的合成结果的 alpha 值和颜色值的确切公式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The effect is most visible when the view size is set to "fixed" or "wrap content," in which case the view is centered between the constraints.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14963,6 +15827,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一般概念是将一个小部件的给定侧限制在任何其他小部件的另一侧。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The general contract of &lt;c0&gt;finalize&lt;/c0&gt; is that it is invoked if and when the Java&lt;f1&gt;&lt;s2&gt;TM&lt;/s2&gt;&lt;/f1&gt; virtual machine has determined that there is no longer any means by which this object can be accessed by any thread that has not yet died, except as a result of an action taken by the finalization of some other object or class which is ready to be finalized.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104616Z" creationid="pingfangx" creationdate="20180427T104616Z">
+        <seg>&lt;c0&gt;finalize&lt;/c0&gt; 的通用协议是它的执行时机为，如果 Java &lt;f1&gt;&lt;s2&gt;TM&lt;/s2&gt;&lt;/f1&gt; 虚拟机确定这个对象不再被任何尚未死亡的线程访问，除非是由于某个其他准备 finalize 的对象或类的准备而产生的动作的结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15207,6 +16079,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the parent class is an homage to the work of Thomas Porter and Tom Duff, presented in their seminal 1984 paper titled "Compositing Digital Images".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T041850Z" creationid="pingfangx" creationdate="20180510T041850Z">
+        <seg>父类的名字是对 Thomas Porter 和 Tom Duff 的工作的致敬，他们在 1984 年发表的题为 "合成数字图像" 的开创性论文中作了介绍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The number of capturing groups in this matcher's pattern</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15251,6 +16131,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>应该触发 INFORMATIVE 级别或更高级别日志记录的唯一情况是，模块或应用在其自身级别或更低级别检测到错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The order of drawing operations used to generate each diagram is shown in the following code snippet:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060446Z" creationid="pingfangx" creationdate="20180510T060446Z">
+        <seg>下面的代码片段显示了用于生成每个图的绘图操作顺序：</seg>
       </tuv>
     </tu>
     <tu>
@@ -15391,6 +16279,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The radius of the circle for this gradient</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101025Z" creationid="pingfangx" creationdate="20180427T101025Z">
+        <seg>此渐变的圆的半径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The radius of the circle for this gradient.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100934Z" creationid="pingfangx" creationdate="20180427T100934Z">
+        <seg>此渐变的圆的半径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The rare exception to this rule is test code and top-level code where you want to catch all kinds of errors (to prevent them from showing up in a UI, or to keep a batch job running).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15443,6 +16347,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>可通过 &lt;c1&gt;&lt;a2&gt;region&lt;/a2&gt;&lt;/c1&gt; 方法修改区域，通过 &lt;c3&gt;&lt;a4&gt;regionStart&lt;/a4&gt;&lt;/c3&gt; 和 &lt;c5&gt;&lt;a6&gt;regionEnd&lt;/a6&gt;&lt;/c5&gt; 方法查询区域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The relative position of each corresponding color in the colors array, beginning with 0 and ending with 1.0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101158Z" creationid="pingfangx" creationdate="20180427T101158Z">
+        <seg>颜色数组中每个对应颜色的相对位置，从 0 开始到 1.0 结束。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The relative position of each corresponding color in the colors array.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100956Z" creationid="pingfangx" creationdate="20180427T100956Z">
+        <seg>颜色数组中每个对应颜色的相对位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The relative positions [0..1] of each corresponding color in the colors array.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100625Z" creationid="pingfangx" creationdate="20180427T100625Z">
+        <seg>颜色数组中每个对应颜色的相对位置[0..1]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The result (or output) alpha value is noted &lt;s0&gt;&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;&lt;g3&gt;&lt;u4&gt;&lt;/u4&gt;&lt;g5&gt;&lt;u6&gt;&lt;/u6&gt;&lt;u7&gt;&lt;/u7&gt;&lt;u8&gt;&lt;/u8&gt;&lt;/g5&gt;&lt;/g3&gt;&lt;/s2&gt;&lt;s9&gt;&lt;m10&gt;&lt;m11&gt;&lt;m12&gt;α&lt;/m12&gt;&lt;m13&gt;&lt;m14&gt;o&lt;/m14&gt;&lt;m15&gt;u&lt;/m15&gt;&lt;m16&gt;t&lt;/m16&gt;&lt;/m13&gt;&lt;/m11&gt;&lt;/m10&gt;&lt;/s9&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T061111Z" creationid="pingfangx" creationdate="20180510T061111Z">
+        <seg>结果（或输出）的 alpha 值标记为 &lt;s0&gt;&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;&lt;g3&gt;&lt;u4&gt;&lt;/u4&gt;&lt;g5&gt;&lt;u6&gt;&lt;/u6&gt;&lt;u7&gt;&lt;/u7&gt;&lt;u8&gt;&lt;/u8&gt;&lt;/g5&gt;&lt;/g3&gt;&lt;/s2&gt;&lt;s9&gt;&lt;m10&gt;&lt;m11&gt;&lt;m12&gt;α&lt;/m12&gt;&lt;m13&gt;&lt;m14&gt;o&lt;/m14&gt;&lt;m15&gt;u&lt;/m15&gt;&lt;m16&gt;t&lt;/m16&gt;&lt;/m13&gt;&lt;/m11&gt;&lt;/m10&gt;&lt;/s9&gt;&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The result (or output) color value is noted &lt;s0&gt;&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;&lt;g3&gt;&lt;u4&gt;&lt;/u4&gt;&lt;g5&gt;&lt;u6&gt;&lt;/u6&gt;&lt;u7&gt;&lt;/u7&gt;&lt;u8&gt;&lt;/u8&gt;&lt;/g5&gt;&lt;/g3&gt;&lt;/s2&gt;&lt;s9&gt;&lt;m10&gt;&lt;m11&gt;&lt;m12&gt;C&lt;/m12&gt;&lt;m13&gt;&lt;m14&gt;o&lt;/m14&gt;&lt;m15&gt;u&lt;/m15&gt;&lt;m16&gt;t&lt;/m16&gt;&lt;/m13&gt;&lt;/m11&gt;&lt;/m10&gt;&lt;/s9&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T061116Z" creationid="pingfangx" creationdate="20180510T061042Z">
+        <seg>结果（或输出）的颜色值标记为 &lt;s0&gt;&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;&lt;g3&gt;&lt;u4&gt;&lt;/u4&gt;&lt;g5&gt;&lt;u6&gt;&lt;/u6&gt;&lt;u7&gt;&lt;/u7&gt;&lt;u8&gt;&lt;/u8&gt;&lt;/g5&gt;&lt;/g3&gt;&lt;/s2&gt;&lt;s9&gt;&lt;m10&gt;&lt;m11&gt;&lt;m12&gt;C&lt;/m12&gt;&lt;m13&gt;&lt;m14&gt;o&lt;/m14&gt;&lt;m15&gt;u&lt;/m15&gt;&lt;m16&gt;t&lt;/m16&gt;&lt;/m13&gt;&lt;/m11&gt;&lt;/m10&gt;&lt;/s9&gt;&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15559,10 +16503,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The source pixels are discarded, leaving the destination intact.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T061751Z" creationid="pingfangx" creationdate="20180510T061751Z">
+        <seg>源像素被丢弃，保持目标像素不变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The source pixels are drawn behind the destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062048Z" creationid="pingfangx" creationdate="20180510T062048Z">
+        <seg>源像素绘制在目标像素后面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The source pixels are drawn over the destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062506Z" creationid="pingfangx" creationdate="20180510T062506Z">
+        <seg>源像素绘制在目标像素上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The source pixels replace the destination pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T062327Z" creationid="pingfangx" creationdate="20180510T062327Z">
+        <seg>源像素替换目标像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The start margin to use when the target is gone.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当目标 gone 时使用的 start margin。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The static function Create(Modes) can be called to return an instance of any of the predefined subclasses as specified in the Modes enum.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T103804Z" creationid="pingfangx" creationdate="20180427T103804Z">
+        <seg>可以调用静态函数 Create(Modes) 来返回 Modes 枚举中指定的任何预定义子类的实例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15823,6 +16807,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There must be at least 2 colors in the array.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101147Z" creationid="pingfangx" creationdate="20180427T101147Z">
+        <seg>阵列中必须至少有 2 种颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There must therefore be no active logic in an &lt;c3&gt;if (LOCAL_LOG)&lt;/c3&gt; block.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15883,6 +16875,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这是所有的 API 包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These blending modes are not defined by Porter and Duff but have been included in this class for convenience purposes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T042521Z" creationid="pingfangx" creationdate="20180510T042521Z">
+        <seg>这些混合模式并未由 Porter 和 Duff 定义，但为方便起见，也包含在本类中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17384,6 +18384,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Valid values are between &lt;c2&gt;0.0f&lt;/c2&gt; and &lt;c3&gt;1.0f&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100952Z" creationid="pingfangx" creationdate="20180427T100952Z">
+        <seg>有效值介于 &lt;c2&gt;0.0f&lt;/c2&gt; 和 &lt;c3&gt;1.0f&lt;/c3&gt; 之间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Vertical Axis: top, bottom sides and text baseline</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17492,6 +18500,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>WRAP_CONTENT，意味着 view 只想要足够大以容纳它的内容(加上 padding)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wakes up a single thread that is waiting on this object's monitor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095758Z" creationid="pingfangx" creationdate="20180427T095758Z">
+        <seg>唤醒正在等待该对象监视器的单个线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wakes up all threads that are waiting on this object's monitor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095804Z" creationid="pingfangx" creationdate="20180427T095804Z">
+        <seg>唤醒在该对象监视器上等待的所有线程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17628,6 +18652,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当一个 view 的 measure() 方法返回，它的 &lt;c0&gt;&lt;a1&gt;getMeasuredWidth()&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;getMeasuredHeight()&lt;/a3&gt;&lt;/c2&gt; 值必须要设置，其所有子 view 的值也要设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When an Xfermode is assigned to an Paint, then objects drawn with that paint have the xfermode applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T103824Z" creationid="pingfangx" creationdate="20180427T103824Z">
+        <seg>将 Xfermode 分配给 Paint 时，使用该 Paint 绘制的对象将应用 xfermode。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17804,6 +18836,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当编译器抱怨您没有捕获异常时，别闷闷不乐！。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the mode is applied, it will be given the result from shader A as its "dst", and the result from shader B as its "src".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100130Z" creationid="pingfangx" creationdate="20180427T100130Z">
+        <seg>在应用模式时，将会将着色器 A 的结果作为其 "dst"，并将着色器 B 的结果作为其 "src"。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18060,6 +19100,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094316Z" creationid="pingfangx" creationdate="20180408T094316Z">
         <seg>将位图的压缩版本写入指定的输出流。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Xfermode is the base class for objects that are called to implement custom "transfer-modes" in the drawing pipeline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T103744Z" creationid="pingfangx" creationdate="20180427T103744Z">
+        <seg>Xfermode 是被调用来在绘图管道中实现自定义 "传输模式" 的对象的基类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21480,6 +22528,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>repeat the shader's image horizontally and vertically</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094610Z" creationid="pingfangx" creationdate="20180427T094610Z">
+        <seg>水平和垂直地重复着色器的图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>repeat the shader's image horizontally and vertically, alternating mirror images so that adjacent images always seam</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094553Z" creationid="pingfangx" creationdate="20180427T094553Z">
+        <seg>水平和垂直地重复着色器的图像，交替镜像，使相邻的图像总是接缝</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>replicate the edge color if the shader draws outside of its original bounds</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094448Z" creationid="pingfangx" creationdate="20180427T094448Z">
+        <seg>如果着色器在其原始边界之外绘制，则复制边缘颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>return with the constraint set will apply elevation for the specified view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21700,6 +22772,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>预期是一个像素尺寸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>true if the shader has a non-identity local matrix</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094313Z" creationid="pingfangx" creationdate="20180427T094313Z">
+        <seg>如果 shader 具有非同一的局部矩阵，则返回 true。</seg>
       </tuv>
     </tu>
     <tu>
