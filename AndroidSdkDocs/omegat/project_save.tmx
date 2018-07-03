@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.2" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.4" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -3133,6 +3133,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; Because no markup is recognized within a &lt;c1&gt;CDATASection&lt;/c1&gt;, character numeric references cannot be used as an escape mechanism when serializing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141852Z" creationid="pingfangx" creationdate="20180703T141852Z">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; 由于 &lt;c1&gt;CDATASection&lt;/c1&gt; 中未识别出标记，因此在序列化时，字符数字引用不能用作转义机制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; One potential solution in the serialization process is to end the CDATA section before the character, output the character using a character reference or entity reference, and open a new CDATA section for any further characters in the text node.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141944Z" creationid="pingfangx" creationdate="20180703T141944Z">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; 序列化过程中的一个可能的解决方案是在字符前结束 CDATA 部分，使用字符引用或实体引用输出字符，并为文本中的任何其他字符打开新的 CDATA 部分节点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b0&gt;Packed:&lt;/b0&gt; The views are packed together (after margins are accounted for).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5127,6 +5143,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adjacent &lt;c3&gt;CDATASection&lt;/c3&gt; nodes are not merged by use of the &lt;c4&gt;normalize&lt;/c4&gt; method of the &lt;c5&gt;Node&lt;/c5&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141722Z" creationid="pingfangx" creationdate="20180703T141722Z">
+        <seg>通过使用 &lt;c5&gt;Node&lt;/c5&gt; 接口的 &lt;c4&gt;normalize&lt;/c4&gt; 方法，不会合并相邻的 &lt;c3&gt;CDATASection&lt;/c3&gt; 节点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adjust the alpha of a view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6307,6 +6331,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这样做有助于提高代码的可读性和可维护性，并降低出错的可能性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CDATA sections are used to escape blocks of text containing characters that would otherwise be regarded as markup.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141343Z" creationid="pingfangx" creationdate="20180703T141343Z">
+        <seg>CDATA 部分用于转义包含字符的文本块，否则这些字符将被视为标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CDATA sections cannot be nested.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141508Z" creationid="pingfangx" creationdate="20180703T141508Z">
+        <seg>CDATA 部分不能嵌套。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8835,6 +8875,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果不这么做，将会触发一个 &lt;c4&gt;IllegalStateException&lt;/c4&gt; 异溃，由 &lt;c5&gt;&lt;a6&gt;measure(int, int)&lt;/a6&gt;&lt;/c5&gt; 抛出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Failure to do so would not produce well-formed XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141915Z" creationid="pingfangx" creationdate="20180703T141915Z">
+        <seg>如果不这样做，将无法生成格式良好的 XML。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12119,6 +12167,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No lexical check is done on the content of a CDATA section and it is therefore possible to have the character sequence &lt;c0&gt;"]]&gt;"&lt;/c0&gt; in the content, which is illegal in a CDATA section per section 2.7 of [&lt;a1&gt;XML 1.0&lt;/a1&gt;].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141750Z" creationid="pingfangx" creationdate="20180703T141750Z">
+        <seg>没有对 CDATA 部分的内容进行词汇检查，因此内容中可能包含字符序列 &lt;c0&gt;"]]&gt;"&lt;/c0&gt;，这在 CDATA 部分的每个部分 2.7 中是非法的[ &lt;a1&gt;XML 1.0&lt;/a1&gt;]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No longer supported.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12239,6 +12295,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that this &lt;e1&gt;may&lt;/e1&gt; contain characters that need to be escaped outside of CDATA sections and that, depending on the character encoding ("charset") chosen for serialization, it may be impossible to write out some characters as part of a CDATA section.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141659Z" creationid="pingfangx" creationdate="20180703T141659Z">
+        <seg>请注意，&lt;e1&gt;可能&lt;/e1&gt; 包含需要在 CDATA 部分之外转义的字符，并且根据为序列化选择的字符编码("charset")，可能无法将某些字符写为 CDATA 部分的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that this exception does not always indicate that an object has been concurrently modified by a &lt;i0&gt;different&lt;/i0&gt; thread.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12267,6 +12331,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>请注意，您不能在约束中具有循环依赖关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note, however, that some code conversion libraries at the time of writing do not return an error or exception when a character is missing from the encoding, making the task of ensuring that data is not corrupted on serialization more difficult.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T142011Z" creationid="pingfangx" creationdate="20180703T142011Z">
+        <seg>但请注意，编写时某些代码转换库在编码中缺少某个字符时不会返回错误或异常，因此确保数据在序列化时不会损坏的任务更加困难。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15279,6 +15351,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;CDATASection&lt;/c0&gt; interface inherits from the &lt;c1&gt;CharacterData&lt;/c1&gt; interface through the &lt;c2&gt;Text&lt;/c2&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141707Z" creationid="pingfangx" creationdate="20180703T141707Z">
+        <seg>&lt;c0&gt;CDATASection&lt;/c0&gt; 接口通过 &lt;c2&gt;Text&lt;/c2&gt; 接口从 &lt;c1&gt;CharacterData&lt;/c1&gt; 接口继承。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;CharacterData.data&lt;/c0&gt; attribute holds the text that is contained by the CDATA section.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141547Z" creationid="pingfangx" creationdate="20180703T141547Z">
+        <seg>&lt;c0&gt;CharacterData.data&lt;/c0&gt; 属性保存 CDATA 部分包含的文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;String&lt;/c0&gt; class represents character strings.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16119,6 +16207,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The only delimiter that is recognized in a CDATA section is the "]]&gt;" string that ends the CDATA section.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141500Z" creationid="pingfangx" creationdate="20180703T141500Z">
+        <seg>在 CDATA 部分中识别的唯一分隔符是 CDATA 部分结束处的 "]]&gt;" 字符串。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The only limit is your imagination and what you need the component to do.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16267,6 +16363,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>可能的值有：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The presence of this character sequence must generate a fatal error during serialization or the cdata section must be splitted before the serialization (see also the parameter &lt;c2&gt;"split-cdata-sections"&lt;/c2&gt; in the &lt;c3&gt;DOMConfiguration&lt;/c3&gt; interface).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141815Z" creationid="pingfangx" creationdate="20180703T141815Z">
+        <seg>在序列化期间，此字符序列的存在必须生成致命错误，或者必须在序列化之前拆分 cdata 部分(另请参阅 &lt;c3&gt;DOMConfiguration&lt;/c3&gt; 接口)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16703,6 +16807,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Their primary purpose is for including material such as XML fragments, without needing to escape all the delimiters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141534Z" creationid="pingfangx" creationdate="20180703T141534Z">
+        <seg>它们的主要目的是包含诸如 XML 片段之类的材料，而无需转义所有分隔符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Themes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16819,6 +16931,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>因此， &lt;c3&gt;if (LOCAL_LOG)&lt;/c3&gt; 块中不得包含有效逻辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore, action needs to be taken when serializing a &lt;c2&gt;CDATASection&lt;/c2&gt; with a character encoding where some of the contained characters cannot be represented.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141909Z" creationid="pingfangx" creationdate="20180703T141909Z">
+        <seg>因此，在使用字符编码序列化 &lt;c2&gt;CDATASection&lt;/c2&gt; 时，需要采取措施，其中某些包含的字符无法表示。</seg>
       </tuv>
     </tu>
     <tu>
