@@ -2960,6 +2960,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>360) hsv[1] is Saturation [0...1] hsv[2] is Value [0...1]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065932Z" creationid="pingfangx" creationdate="20180903T065932Z">
+        <seg>360) ，hsv[1] 是 Saturation（饱合度） [0...1] ，hsv[2] 是 Value（明度） [0...1] 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>360) hsv[1] is Saturation [0...1] hsv[2] is Value [0...1] If hsv values are out of range, they are pinned.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065813Z" creationid="pingfangx" creationdate="20180903T065738Z">
+        <seg>360) ，hsv[1] 是 Saturation（饱合度） [0...1] ，hsv[2] 是 Value（明度） [0...1] 。如果 hsv 值超出范围，则它们被固定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/s0&gt;A horizontal constraint to the parent</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5399,6 +5415,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alpha set to 0xFF.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064955Z" creationid="pingfangx" creationdate="20180903T064955Z">
+        <seg>Alpha 设置为 0xFF。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alphabetical within each grouping, with capital letters before lower case letters (e.g. Z before a).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5975,6 +5999,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assumes sRGB encoding.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065251Z" creationid="pingfangx" creationdate="20180903T065251Z">
+        <seg>假设 sRGB 编码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At a high level, implementing &lt;c0&gt;onMeasure()&lt;/c0&gt; looks something like this:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6123,6 +6155,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>平滑滚动的基类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Based on the formula for relative luminance defined in WCAG 2.0, W3C Recommendation 11 December 2008.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065302Z" creationid="pingfangx" creationdate="20180903T065302Z">
+        <seg>基于 WCAG 2.0 中定义的相对亮度公式，W3C 2008 年 12 月 11 日建议书。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6975,6 +7015,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Colors are represented as packed ints, made up of 4 bytes: alpha, red, green, blue.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064559Z" creationid="pingfangx" creationdate="20180903T064559Z">
+        <seg>颜色表示为打包的 int，由 4 个字节组成：alpha，red，green，blue。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Company / developer name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7295,10 +7343,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Convert HSV components to an ARGB color.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064841Z" creationid="pingfangx" creationdate="20180903T064841Z">
+        <seg>将 HSV 组件转换为 ARGB 颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Convert RGB components to HSV.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064845Z" creationid="pingfangx" creationdate="20180903T064845Z">
+        <seg>将 RGB 组件转换为 HSV。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Convert a layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>转换布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Convert the argb color to its HSV components.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064908Z" creationid="pingfangx" creationdate="20180903T064908Z">
+        <seg>将 argb 颜色转换为其 HSV 组件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8475,6 +8547,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100912Z" creationid="pingfangx" creationdate="20180408T100912Z">
         <seg>每个通道(用于半透明的 RGB 和 alpha)都以 8 位精度(256 个可能值)进行存储。此配置非常灵活，可提供最佳质量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each component ranges between 0..255 with 0 meaning no contribution for that component, and 255 meaning 100% contribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064723Z" creationid="pingfangx" creationdate="20180903T064723Z">
+        <seg>每个组件的范围在 0..255 之间，0 表示对该组件没有贡献，255 表示 100％贡献。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10355,6 +10435,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095602Z" creationid="pingfangx" creationdate="20180408T095602Z">
         <seg>如果指定的文件名为空，或者无法解码为位图，则函数返回 null。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the string cannot be parsed, throws an IllegalArgumentException exception.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065319Z" creationid="pingfangx" creationdate="20180903T065319Z">
+        <seg>如果无法解析字符串，则抛出 IllegalArgumentException 异常。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12703,6 +12791,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Parse the color string, and return the corresponding color-int.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064923Z" creationid="pingfangx" creationdate="20180903T064923Z">
+        <seg>解析颜色字符串，并返回相应的 color-int。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Parse the xml attributes to get the most common properties used by layout managers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13423,6 +13519,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return a color-int from alpha, red, green, blue components.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064859Z" creationid="pingfangx" creationdate="20180903T064859Z">
+        <seg>从 alpha，red，green，blue 组件返回 color-int。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return a color-int from red, green, blue components.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064930Z" creationid="pingfangx" creationdate="20180903T064930Z">
+        <seg>从红色，绿色，蓝色组件返回 color-int。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return a private FragmentManager for placing and managing Fragments inside of this Fragment.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13495,6 +13607,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the alpha component of a color int.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064852Z" creationid="pingfangx" creationdate="20180903T064852Z">
+        <seg>返回颜色 int 的 alpha 分量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the blue component of a color int.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064903Z" creationid="pingfangx" creationdate="20180903T064903Z">
+        <seg>返回颜色 int 的蓝色分量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the bottom padding of the parent RecyclerView</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13535,6 +13663,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the green component of a color int.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064910Z" creationid="pingfangx" creationdate="20180903T064910Z">
+        <seg>返回颜色 int 的绿色组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the height measurement spec mode of the RecyclerView.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13563,6 +13699,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回 RecyclerView 的文字基线，从它的顶部边界。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the red component of a color int.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064926Z" creationid="pingfangx" creationdate="20180903T064926Z">
+        <seg>返回颜色 int 的红色分量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13963,6 +14107,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回由此匹配器解释的模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the relative luminance of a color.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064917Z" creationid="pingfangx" creationdate="20180903T064917Z">
+        <seg>返回颜色的相对亮度。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15191,6 +15343,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Supported formats are: #RRGGBB #AARRGGBB or one of the following names: 'red', 'blue', 'green', 'black', 'white', 'gray', 'cyan', 'magenta', 'yellow', 'lightgray', 'darkgray', 'grey', 'lightgrey', 'darkgrey', 'aqua', 'fuchsia', 'lime', 'maroon', 'navy', 'olive', 'purple', 'silver', 'teal'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065357Z" creationid="pingfangx" creationdate="20180903T065357Z">
+        <seg>支持的格式为：#RRGGBB #AARRGGBB 或以下名称之一：'red', 'blue', 'green', 'black', 'white', 'gray', 'cyan', 'magenta', 'yellow', 'lightgray', 'darkgray', 'grey', 'lightgrey', 'darkgrey', 'aqua', 'fuchsia', 'lime', 'maroon', 'navy', 'olive', 'purple', 'silver', 'teal'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Swaps the current adapter with the provided one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15431,6 +15591,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Color class defines methods for creating and converting color ints.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064546Z" creationid="pingfangx" creationdate="20180903T064546Z">
+        <seg>Color 类定义了创建和转换颜色 int 的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The CustomView sample in the &lt;a0&gt;API Demos&lt;/a0&gt; provides an example of a customized View.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15523,6 +15691,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>适配器负责从其容器中删除视图，尽管它只必须确保在从 &lt;c0&gt;&lt;a1&gt;finishUpdate(ViewGroup)&lt;/a1&gt;&lt;/c0&gt; 返回的时间完成此操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The alpha component is passed through unchanged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065827Z" creationid="pingfangx" creationdate="20180903T065827Z">
+        <seg>alpha 分量不变地传递。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15683,6 +15859,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>下面的代码样式是为 Android 开源项目(AOSP)贡献 Java 代码的严格规则。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The components are stored as follows (alpha &lt;&lt; 24) | (red &lt;&lt; 16) | (green &lt;&lt; 8) | blue.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064712Z" creationid="pingfangx" creationdate="20180903T064712Z">
+        <seg>组件存储如下 (alpha &lt;&lt; 24) | (red &lt;&lt; 16) | (green &lt;&lt; 8) | blue 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16759,6 +16943,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The values are unpremultiplied, meaning any transparency is stored solely in the alpha component, and not in the color components.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064646Z" creationid="pingfangx" creationdate="20180903T064646Z">
+        <seg>这些值没有预乘，这意味着任何透明度都仅存储在 alpha 组件中，而不是存储在颜色组件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The vertical bias attribute of the child will then affect the positioning of the packed elements</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17011,6 +17203,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这些子元素都使用相同的属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These component values should be [0..255], but there is no range check performed, so if they are out of range, the returned color is undefined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065147Z" creationid="pingfangx" creationdate="20180903T065147Z">
+        <seg>这些组件值应为[0..255]，但未执行范围检查，因此如果它们超出范围，则返回的颜色未定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17512,6 +17712,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the same as saying (color &gt;&gt; 16) &amp; 0xFF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065414Z" creationid="pingfangx" creationdate="20180903T065414Z">
+        <seg>这与 (color &gt;&gt; 16) &amp; 0xFF 相同</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is the same as saying (color &gt;&gt; 8) &amp; 0xFF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065248Z" creationid="pingfangx" creationdate="20180903T065248Z">
+        <seg>这与 (color &gt;&gt; 8) &amp; 0xFF 相同</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is the same as saying color &amp; 0xFF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065206Z" creationid="pingfangx" creationdate="20180903T065206Z">
+        <seg>这与 color &amp; 0xFF 相同</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is the same as saying color &gt;&gt;&gt; 24</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065120Z" creationid="pingfangx" creationdate="20180903T065120Z">
+        <seg>这与 color &gt;&gt;&gt; 24相同</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is typically used on methods and classes that are accessed only via reflection so a compiler may think that the code is unused.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17828,6 +18060,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>抛出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus opaque-black would be 0xFF000000 (100% opaque but no contributions from red, green, or blue), and opaque-white would be 0xFFFFFFFF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064813Z" creationid="pingfangx" creationdate="20180903T064813Z">
+        <seg>因此，不透明的黑色将是 0xFF000000(100％不透明但没有红色，绿色或蓝色的贡献)，而不透明的白色将是 0xFFFFFFFF</seg>
       </tuv>
     </tu>
     <tu>
@@ -21628,6 +21868,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>handleError();                      // 使用一个通用的处理器！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hsv[0] is Hue [0 ..</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065637Z" creationid="pingfangx" creationdate="20180903T065637Z">
+        <seg>hsv[0] 是 Hue（色相） [0 ..</seg>
       </tuv>
     </tu>
     <tu>
