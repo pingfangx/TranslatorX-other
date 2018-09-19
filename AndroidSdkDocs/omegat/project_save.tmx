@@ -6015,6 +6015,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At least one axis (X or Y) will fit exactly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070533Z" creationid="pingfangx" creationdate="20180919T070533Z">
+        <seg>至少一个轴(X 或 Y)将精确匹配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At the end of the measure pass, every view has stored its measurements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6743,6 +6751,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Center the image in the view, but perform no scaling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T065950Z" creationid="pingfangx" creationdate="20180919T065950Z">
+        <seg>使图像在 view 中居中，但不执行缩放。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Center widget between the other two widgets.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7043,6 +7059,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>复合控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compute a scale that will maintain the original src aspect ratio, but will also ensure that src fits entirely inside dst.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070529Z" creationid="pingfangx" creationdate="20180919T070529Z">
+        <seg>计算将保持原始 src 宽高比的比例，但也将确保 src 完全适合 dst。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8535,6 +8559,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>END aligns the result to the right and bottom edges of dst.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070658Z" creationid="pingfangx" creationdate="20180919T070614Z">
+        <seg>END 将结果与 dst 的右边和底边对齐。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>EXACTLY: This is used by the parent to impose an exact size on the child.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9611,6 +9643,70 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Fragments 开始果不是隐藏的，当 fragment 的状态从那状态开始改变时，该方法将被调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From XML, use this syntax: &lt;c0&gt;android:scaleType="center"&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070237Z" creationid="pingfangx" creationdate="20180919T070237Z">
+        <seg>在 XML 中，使用以下语法：&lt;c0&gt;android:scaleType="center"&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From XML, use this syntax: &lt;c0&gt;android:scaleType="centerCrop"&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070254Z" creationid="pingfangx" creationdate="20180919T070254Z">
+        <seg>在 XML 中，使用以下语法：&lt;c0&gt;android:scaleType="centerCrop"&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From XML, use this syntax: &lt;c0&gt;android:scaleType="centerInside"&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070303Z" creationid="pingfangx" creationdate="20180919T070303Z">
+        <seg>在 XML 中，使用以下语法：&lt;c0&gt;android:scaleType="centerInside"&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From XML, use this syntax: &lt;c2&gt;android:scaleType="fitCenter"&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070312Z" creationid="pingfangx" creationdate="20180919T070312Z">
+        <seg>在 XML 中，使用以下语法：&lt;c2&gt;android:scaleType="fitCenter"&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From XML, use this syntax: &lt;c2&gt;android:scaleType="fitEnd"&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070320Z" creationid="pingfangx" creationdate="20180919T070320Z">
+        <seg>在 XML 中， use this syntax: &lt;c2&gt;android:scaleType="fitEnd"&lt;/c2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From XML, use this syntax: &lt;c2&gt;android:scaleType="fitStart"&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070327Z" creationid="pingfangx" creationdate="20180919T070327Z">
+        <seg>在 XML 中，使用以下语法：&lt;c2&gt;android:scaleType="fitStart"&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From XML, use this syntax: &lt;c2&gt;android:scaleType="fitXY"&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070339Z" creationid="pingfangx" creationdate="20180919T070339Z">
+        <seg>在 XML 中，使用以下语法：&lt;c2&gt;android:scaleType="fitXY"&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From XML, use this syntax: &lt;c2&gt;android:scaleType="matrix"&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070348Z" creationid="pingfangx" creationdate="20180919T070348Z">
+        <seg>在 XML 中，使用以下语法：&lt;c2&gt;android:scaleType="matrix"&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12623,6 +12719,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Options for scaling the bounds of an image to the bounds of this view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T065746Z" creationid="pingfangx" creationdate="20180919T065746Z">
+        <seg>用于将图像边界缩放到 view 边界的选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Order Import Statements</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14359,10 +14463,82 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>START aligns the result to the left and top edges of dst.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070648Z" creationid="pingfangx" creationdate="20180919T070648Z">
+        <seg>START 将结果与 dst 的左边和上边对齐。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Save any instance state associated with this adapter and its pages that should be restored if the current UI state needs to be reconstructed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>保存与该适配器及其页面相关联的任何实例状态，如果需要重建当前 UI 状态，则应恢复其中的页面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scale in X and Y independently, so that src matches dst exactly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070621Z" creationid="pingfangx" creationdate="20180919T070621Z">
+        <seg>独立地在 X 和 Y 中缩放，以便 src 完全匹配 dst。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scale the image uniformly (maintain the image's aspect ratio) so that both dimensions (width and height) of the image will be equal to or larger than the corresponding dimension of the view (minus padding).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070042Z" creationid="pingfangx" creationdate="20180919T070042Z">
+        <seg>均匀缩放图像(保持图像的纵横比)，使图像的尺寸(宽度和高度)等于或大于 view 的相应尺寸(减去 padding)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scale the image uniformly (maintain the image's aspect ratio) so that both dimensions (width and height) of the image will be equal to or less than the corresponding dimension of the view (minus padding).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070115Z" creationid="pingfangx" creationdate="20180919T070115Z">
+        <seg>均匀缩放图像(保持图像的纵横比)，使图像的尺寸(宽度和高度)等于或小于 view 的相应尺寸(减去 padding)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scale the image using &lt;c0&gt;&lt;a1&gt;CENTER&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070129Z" creationid="pingfangx" creationdate="20180919T070129Z">
+        <seg>使用 &lt;c0&gt;&lt;a1&gt;CENTER&lt;/a1&gt;&lt;/c0&gt; 缩放图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scale the image using &lt;c0&gt;&lt;a1&gt;END&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070134Z" creationid="pingfangx" creationdate="20180919T070134Z">
+        <seg>使用 &lt;c0&gt;&lt;a1&gt;END&lt;/a1&gt;&lt;/c0&gt; 缩放图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scale the image using &lt;c0&gt;&lt;a1&gt;FILL&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070144Z" creationid="pingfangx" creationdate="20180919T070144Z">
+        <seg>使用 &lt;c0&gt;&lt;a1&gt;FILL&lt;/a1&gt;&lt;/c0&gt; 缩放图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scale the image using &lt;c0&gt;&lt;a1&gt;START&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070138Z" creationid="pingfangx" creationdate="20180919T070138Z">
+        <seg>使用 &lt;c0&gt;&lt;a1&gt;START&lt;/a1&gt;&lt;/c0&gt; 缩放图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scale using the image matrix when drawing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070151Z" creationid="pingfangx" creationdate="20180919T070151Z">
+        <seg>绘图时使用图像矩阵缩放。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16183,6 +16359,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The image is then centered in the view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070244Z" creationid="pingfangx" creationdate="20180919T070244Z">
+        <seg>然后图像在 view 中居中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The image matrix can be set using &lt;c0&gt;&lt;a1&gt;setImageMatrix(Matrix)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070353Z" creationid="pingfangx" creationdate="20180919T070353Z">
+        <seg>可以使用 &lt;c0&gt;&lt;a1&gt;setImageMatrix(Matrix)&lt;/a1&gt;&lt;/c0&gt; 设置图像矩阵。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The implicit state of a matcher includes the input character sequence as well as the &lt;i0&gt;append position&lt;/i0&gt;, which is initially zero and is updated by the &lt;c1&gt;&lt;a2&gt;appendReplacement&lt;/a2&gt;&lt;/c1&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16675,6 +16867,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T061116Z" creationid="pingfangx" creationdate="20180510T061042Z">
         <seg>结果（或输出）的颜色值标记为 &lt;s0&gt;&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;&lt;g3&gt;&lt;u4&gt;&lt;/u4&gt;&lt;g5&gt;&lt;u6&gt;&lt;/u6&gt;&lt;u7&gt;&lt;/u7&gt;&lt;u8&gt;&lt;/u8&gt;&lt;/g5&gt;&lt;/g3&gt;&lt;/s2&gt;&lt;s9&gt;&lt;m10&gt;&lt;m11&gt;&lt;m12&gt;C&lt;/m12&gt;&lt;m13&gt;&lt;m14&gt;o&lt;/m14&gt;&lt;m15&gt;u&lt;/m15&gt;&lt;m16&gt;t&lt;/m16&gt;&lt;/m13&gt;&lt;/m11&gt;&lt;/m10&gt;&lt;/s9&gt;&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The result is centered inside dst.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070604Z" creationid="pingfangx" creationdate="20180919T070604Z">
+        <seg>结果在 dst 内的中间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17820,6 +18020,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>系统可以使用这一点来优先处理诸如片段生命周期更新或加载器排序行为的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This may change the aspect ratio of the src.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070627Z" creationid="pingfangx" creationdate="20180919T070627Z">
+        <seg>这可能会改变 src 的宽高比。</seg>
       </tuv>
     </tu>
     <tu>
