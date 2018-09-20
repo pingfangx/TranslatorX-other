@@ -3637,6 +3637,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;BitmapFactory.Options&lt;/c0&gt;: null-ok; Options that control downsampling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093728Z" creationid="pingfangx" creationdate="20180920T093728Z">
+        <seg>&lt;c0&gt;BitmapFactory.Options&lt;/c0&gt;：可为 null ；控制采样的选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;CHAIN_PACKED&lt;/c0&gt; -- the elements of the chain will be packed together.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3753,6 +3761,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;Rect&lt;/c0&gt;:接收输出的 Rect 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Rect&lt;/c0&gt;: The rectangle that specified the region to be decode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093645Z" creationid="pingfangx" creationdate="20180920T093645Z">
+        <seg>&lt;c0&gt;Rect&lt;/c0&gt;：指定要解码的区域的矩形。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5103,6 +5119,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Added in &lt;a0&gt;API level 10&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093633Z" creationid="pingfangx" creationdate="20180920T093633Z">
+        <seg>添加于 &lt;a0&gt;API level 10&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Added in &lt;a0&gt;API level 1&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095145Z" creationid="pingfangx" creationdate="20180427T095128Z">
@@ -6287,6 +6311,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>BitmapRegionDecoder can be used to decode a rectangle region from an image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092719Z" creationid="pingfangx" creationdate="20180920T092719Z">
+        <seg>BitmapRegionDecoder 可用于解码图像中的一个矩形区域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BitmapRegionDecoder is particularly useful when an original image is large and you only need parts of the image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092730Z" creationid="pingfangx" creationdate="20180920T092730Z">
+        <seg>当原始图像很大并且您只需要部分图像时，BitmapRegionDecoder 特别有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Blending modes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060656Z" creationid="pingfangx" creationdate="20180510T060656Z">
@@ -7415,6 +7455,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a BitmapRegionDecoder from a file path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093116Z" creationid="pingfangx" creationdate="20180920T093116Z">
+        <seg>从文件路径创建 BitmapRegionDecoder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a BitmapRegionDecoder from an input stream.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093024Z" creationid="pingfangx" creationdate="20180920T093000Z">
+        <seg>从输入流创建 BitmapRegionDecoder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a BitmapRegionDecoder from the file descriptor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093018Z" creationid="pingfangx" creationdate="20180920T093018Z">
+        <seg>从文件描述符创建 BitmapRegionDecoder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a BitmapRegionDecoder from the specified byte array.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093030Z" creationid="pingfangx" creationdate="20180920T093030Z">
+        <seg>从指定的字节数组创建一个 BitmapRegionDecoder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a LayoutParams object suitable for this LayoutManager from an inflated layout resource.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7567,6 +7639,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Currently only the JPEG and PNG formats are supported.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093435Z" creationid="pingfangx" creationdate="20180920T093435Z">
+        <seg>目前仅支持 JPEG 和 PNG 格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Currently the field only affects JPEG decode, in the case of which a more accurate, but slightly slower, IDCT method will be used instead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101917Z" creationid="pingfangx" creationdate="20180408T101917Z">
@@ -7603,6 +7683,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095433Z" creationid="pingfangx" creationdate="20180408T095433Z">
         <seg>将文件解码为位图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Decodes a rectangle region in the image specified by rect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092811Z" creationid="pingfangx" creationdate="20180920T092811Z">
+        <seg>解码由 rect 指定的图像中的矩形区域。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9647,6 +9735,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Frees up the memory associated with this region decoder, and mark the region decoder as "dead", meaning it will throw an exception if decodeRegion(), getWidth() or getHeight() is called.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093059Z" creationid="pingfangx" creationdate="20180920T093059Z">
+        <seg>释放与该区域解码器相关联的存储器，并将区域解码器标记为 "dead"，这意味着如果调用 decodeRegion()，getWidth() 或 getHeight()，它将抛出异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>From XML, use this syntax: &lt;c0&gt;android:scaleType="center"&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070237Z" creationid="pingfangx" creationdate="20180919T070237Z">
@@ -9811,6 +9907,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>获取当前 RecyclerView 的 ItemAnimator。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Given a BitmapRegionDecoder, users can call decodeRegion() repeatedly to get a decoded Bitmap of the specified region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092756Z" creationid="pingfangx" creationdate="20180920T092756Z">
+        <seg>给定 BitmapRegionDecoder，用户可以重复调用 decodeRegion() 以获得指定区域的解码位图。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10363,6 +10467,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果设置了边界的 margins，它们将被应用于相应的约束(如果存在)(图 3)，将边距作为目标和源端之间的空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If so, then it is an error to try use its method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093418Z" creationid="pingfangx" creationdate="20180920T093418Z">
+        <seg>如果是这样，那么尝试使用它的方法会出错。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14207,6 +14319,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the original image's height</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092941Z" creationid="pingfangx" creationdate="20180920T092941Z">
+        <seg>返回原始图像的高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the original image's width</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092944Z" creationid="pingfangx" creationdate="20180920T092944Z">
+        <seg>返回原始图像的宽度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the pattern that is interpreted by this matcher.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14395,6 +14523,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果指定的对象表示一个逻辑上等效于此的注解，则返回 true 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns true if this region decoder has been recycled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092952Z" creationid="pingfangx" creationdate="20180920T092952Z">
+        <seg>如果此区域解码器已被回收，则返回 true。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16087,6 +16223,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The decoded bitmap, or null if the image data could not be decoded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093744Z" creationid="pingfangx" creationdate="20180920T093744Z">
+        <seg>解码的位图，如果无法解码图像数据，则为 null。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default behavior of a chain is to spread the elements equally in the available space.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17035,6 +17179,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T103804Z" creationid="pingfangx" creationdate="20180427T103804Z">
         <seg>可以调用静态函数 Create(Modes) 来返回 Modes 枚举中指定的任何预定义子类的实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The stream's position will be where ever it was after the encoded data was read.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093427Z" creationid="pingfangx" creationdate="20180920T093427Z">
+        <seg>流的位置将是读取编码数据后的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18316,6 +18468,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>要将现有布局转换为约束布局，请按照下列步骤操作：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To create a BitmapRegionDecoder, call newInstance(...).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092737Z" creationid="pingfangx" creationdate="20180920T092737Z">
+        <seg>要创建 BitmapRegionDecoder，请调用 newInstance(...)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22236,6 +22396,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>inPurgeable is not supported.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093733Z" creationid="pingfangx" creationdate="20180920T093733Z">
+        <seg>不支持 inPurgeable。</seg>
       </tuv>
     </tu>
     <tu>
