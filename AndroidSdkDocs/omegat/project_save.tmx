@@ -3053,6 +3053,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Cold&lt;/a0&gt; startup takes 5 seconds or longer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075245Z" creationid="pingfangx" creationdate="20180925T075226Z">
+        <seg>&lt;a0&gt;Cold&lt;/a0&gt; 启动需要 5 秒或更长时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Hot&lt;/a0&gt; startup takes 1.5 seconds or longer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075253Z" creationid="pingfangx" creationdate="20180925T075253Z">
+        <seg>&lt;a0&gt;Hot&lt;/a0&gt; 启动需要 1.5 秒或更长时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Warm&lt;/a0&gt; startup takes 2 seconds or longer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075237Z" creationid="pingfangx" creationdate="20180925T075237Z">
+        <seg>&lt;a0&gt;Warm&lt;/a0&gt; 启动需要 2 秒或更长时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;annotationType&lt;/a0&gt;()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -4405,6 +4429,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Figure 1.&lt;/s0&gt; A visual representation of the important parts of a cold application launch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072649Z" creationid="pingfangx" creationdate="20180925T072649Z">
+        <seg>&lt;s0&gt;Figure 1.&lt;/s0&gt; 冷应用程序启动的重要部分的直观表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Figure 1.&lt;/s0&gt; The editor shows view C below A, but it has no vertical constraint</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -4441,6 +4473,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;s0&gt;Figure 14.&lt;/s0&gt; 每个链样式的例子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Figure 2.&lt;/s0&gt; Disabling filters, and finding the &lt;c1&gt;Displayed&lt;/c1&gt; value in logcat.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080708Z" creationid="pingfangx" creationdate="20180925T080708Z">
+        <seg>&lt;s0&gt;Figure 2.&lt;/s0&gt; 禁用过滤器，并在 logcat 中查找 &lt;c1&gt;Displayed&lt;/c1&gt; 值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4813,6 +4853,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A &lt;e0&gt;daily session&lt;/e0&gt; refers to a day in which your app was used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075311Z" creationid="pingfangx" creationdate="20180925T075311Z">
+        <seg>&lt;e0&gt;daily session&lt;/e0&gt; 是指您的应用使用的日期。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Custom View Example</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -4965,10 +5013,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A cold start refers to an app’s starting from scratch: the system’s process has not, until this start, created the app’s process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072023Z" creationid="pingfangx" creationdate="20180925T072023Z">
+        <seg>冷启动是指应用程序从头开始：系统的进程在此开始之前没有创建应用程序的进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A common pattern is to:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一个常见的模式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A common way to implement a themed launch screen is to use the &lt;c0&gt;&lt;a1&gt;windowDisablePreview&lt;/a1&gt;&lt;/c0&gt; theme attribute to turn off the initial blank screen that the system process draws when launching the app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083915Z" creationid="pingfangx" creationdate="20180925T083915Z">
+        <seg>实现主题启动屏幕的常用方法是使用 &lt;c0&gt;&lt;a1&gt;windowDisablePreview&lt;/a1&gt;&lt;/c0&gt; 主题属性来关闭启动应用程序时系统进程绘制的初始空白屏幕。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5015,10 +5079,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A good way to look for bottlenecks is to use the Android Studio CPU Profiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081445Z" creationid="pingfangx" creationdate="20180925T081445Z">
+        <seg>寻找瓶颈的好方法是使用 Android Studio CPU Profiler。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A helper class to provide the number of spans each item occupies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一个助手类，它可以提供每个 item 占据的 span 数量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A hot start displays the same on-screen behavior as a cold start scenario: The system process displays a blank screen until the app has finished rendering the activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074533Z" creationid="pingfangx" creationdate="20180925T074533Z">
+        <seg>热启动与冷启动方案有相同的屏幕显示行为：系统进程显示空白屏幕，直到应用程序完成渲染 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A hot start of your application is much simpler and lower-overhead than a cold start.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074113Z" creationid="pingfangx" creationdate="20180925T074113Z">
+        <seg>应用程序的热启动比冷启动更简单，开销更低。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5151,6 +5239,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A warm start encompasses some subset of the operations that take place during a cold start; at the same time, it represents less overhead than a hot start.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074739Z" creationid="pingfangx" creationdate="20180925T074739Z">
+        <seg>温启动包括冷启动期间发生的一些操作子集;同时，它表示比热启动更少的开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>API Guides</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5187,6 +5283,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T083429Z" creationid="pingfangx" creationdate="20180921T083429Z">
         <seg>接受以下 URI 方案：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Activity creation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T073215Z" creationid="pingfangx" creationdate="20180925T073215Z">
+        <seg>Activity 创建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Activity creation often entails a lot of high-overhead work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083033Z" creationid="pingfangx" creationdate="20180925T083033Z">
+        <seg>创建 activity 通常需要大量高额开销。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5479,10 +5591,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After the app process creates your activity, the activity performs the following operations:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T073229Z" creationid="pingfangx" creationdate="20180925T073229Z">
+        <seg>应用程序进程创建 activity 后，activity 将执行以下操作：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After this, the drawing commands of the entire tree are issued to screen, clipped to the newly damaged area.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>然后，整个 view 树的绘制命令向屏幕发出，裁去被破坏的区域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Afterwards, the app spawns the main thread, also known as the UI thread, and tasks it with creating your main activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T073007Z" creationid="pingfangx" creationdate="20180925T073007Z">
+        <seg>之后，应用程序会生成主线程（也称为 UI 线程），并通过创建主 activity 来执行任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5567,6 +5695,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Allow the app to load and display your views, and then later update visual properties that are dependent on bitmaps and other resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083805Z" creationid="pingfangx" creationdate="20180925T083805Z">
+        <seg>允许应用加载并显示您的视图，然后更新依赖于位图和其他资源的可视属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alpha compositing modes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060449Z" creationid="pingfangx" creationdate="20180510T060449Z">
@@ -5595,6 +5731,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>另请参阅 &lt;c0&gt;&lt;a1&gt;ConstraintLayout.LayoutParams&lt;/a1&gt;&lt;/c0&gt; 的布局属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also, consider using a dependency injection framework like &lt;a0&gt;Dagger&lt;/a0&gt; that creates objects and dependencies are when they are injected for the first time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083004Z" creationid="pingfangx" creationdate="20180925T083004Z">
+        <seg>另外，考虑使用像 &lt;a0&gt;Dagger&lt;/a0&gt; 这样的依赖注入框架，它们在第一次注入时创建对象和依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also, it forces the user to wait with no feedback while the activity launches, making them wonder if the app is functioning properly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084013Z" creationid="pingfangx" creationdate="20180925T084013Z">
+        <seg>此外，它强迫用户在 activity 启动时没有反馈地等待，使他们怀疑应用程序是否正常工作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5699,6 +5851,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一个应用可能会设置它为 false 以指明 Fragment 的 UI 滚出了可见或者对用户不是直接可见的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An app with a slow start time doesn’t meet this expectation, and can be disappointing to users.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071422Z" creationid="pingfangx" creationdate="20180925T071422Z">
+        <seg>启动时间较慢的应用程序无法满足此预期，并且可能会令用户失望。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5855,10 +6015,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Android provides several means of letting you know that your app has a problem, and to help you diagnose it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074958Z" creationid="pingfangx" creationdate="20180925T074958Z">
+        <seg>Android 提供了多种方法让您知道您的应用存在问题，并帮助您进行诊断。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android standard practices for the three predefined annotations in Java are:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Java 中 3 个预定义注释的 Android 标准做法如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android vitals can alert you that the problem is occurring, and diagnostic tools can help you diagnose the problem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075013Z" creationid="pingfangx" creationdate="20180925T075013Z">
+        <seg>Android vitals 可以提醒您问题正在发生，诊断工具可以帮助您诊断问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android vitals can help improve your app's performance by alerting you, via the &lt;a0&gt;Play Console&lt;/a0&gt;, when your app's startup times are excessive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075113Z" creationid="pingfangx" creationdate="20180925T075113Z">
+        <seg>当你的应用程序的启动时间过长时，Android vitals 可以通过 &lt;a0&gt;Play Console&lt;/a0&gt; 提醒您，从而帮助提高应用程序的性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android vitals considers your app's startup times excessive when the app's:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075208Z" creationid="pingfangx" creationdate="20180925T075208Z">
+        <seg>Android vitals 认为你的应用程序的启动时间过长，当应用程序在以下情况时：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android vitals doesn't report data for &lt;a0&gt;hot&lt;/a0&gt; startups.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075328Z" creationid="pingfangx" creationdate="20180925T075328Z">
+        <seg>Android vitals 不报告 &lt;a0&gt;hot&lt;/a0&gt; 启动的数据。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5951,10 +6151,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any disk I/O, deserialization, or tight loops that might be occurring during the bottleneck.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082327Z" creationid="pingfangx" creationdate="20180925T082327Z">
+        <seg>在瓶颈期间可能发生的任何磁盘 I/O，反序列化或紧密循环。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any exception thrown by the &lt;c0&gt;finalize&lt;/c0&gt; method causes the finalization of this object to be halted, but is otherwise ignored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T105022Z" creationid="pingfangx" creationdate="20180427T105022Z">
         <seg>由 &lt;c0&gt;finalize&lt;/c0&gt; 方法抛出的任何异常都会导致此对象的终止被暂停，但会被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any global singleton objects it initializes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083524Z" creationid="pingfangx" creationdate="20180925T083524Z">
+        <seg>它初始化的任何全局单例对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any global singleton objects your app initializes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082316Z" creationid="pingfangx" creationdate="20180925T082316Z">
+        <seg>您的应用初始化的任何全局单例对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6043,6 +6267,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>应用程序开发人员可以遵守自己的选择标准，如 &lt;a1&gt;Google Java Style Guide&lt;/a1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>App launch can take place in one of three states, each affecting how long it takes for your app to become visible to the user: cold start, warm start, or hot start.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071851Z" creationid="pingfangx" creationdate="20180925T071851Z">
+        <seg>应用程序启动可以在三种状态之一中进行，每种状态都会影响应用程序对用户可见所需的时间：冷启动（cold start），温启动（warm start）或热启动（hot start）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Application creation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072726Z" creationid="pingfangx" creationdate="20180925T072726Z">
+        <seg>Application 创建</seg>
       </tuv>
     </tu>
     <tu>
@@ -6199,6 +6439,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As soon as the system creates the app process, the app process is responsible for the next stages:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072350Z" creationid="pingfangx" creationdate="20180925T072350Z">
+        <seg>一旦系统创建了应用程序进程，应用程序进程就会负责以下阶段：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assumes sRGB encoding.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065251Z" creationid="pingfangx" creationdate="20180903T065251Z">
@@ -6223,6 +6471,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At that point, the system process swaps out the starting window for your app, allowing the user to start interacting with the app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072926Z" creationid="pingfangx" creationdate="20180925T072926Z">
+        <seg>此时，系统进程会交换应用程序的启动窗口，允许用户开始与应用程序进行交互。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the beginning of a cold start, the system has three tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072241Z" creationid="pingfangx" creationdate="20180925T072241Z">
+        <seg>在冷启动开始时，系统有三个任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At the end of the measure pass, every view has stored its measurements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6235,6 +6499,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>此时，您必须确保所有页面实际上已经从容器中添加或删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At this point, the user can start using the app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072628Z" creationid="pingfangx" creationdate="20180925T072628Z">
+        <seg>此时，用户可以开始使用该应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6407,6 +6679,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Be aware of common issues</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081658Z" creationid="pingfangx" creationdate="20180925T081658Z">
+        <seg>注意常见问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Be careful about security leaks through the log.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6539,6 +6819,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060656Z" creationid="pingfangx" creationdate="20180510T060656Z">
         <seg>混合模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Blocking screen drawing on disk, or network I/O.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083427Z" creationid="pingfangx" creationdate="20180925T083427Z">
+        <seg>因磁盘或网络 I/O 阻塞屏幕绘制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7007,6 +7295,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calls constructors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T073605Z" creationid="pingfangx" creationdate="20180925T073605Z">
+        <seg>调用构造函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calls the callback method, such as &lt;c0&gt;&lt;a1&gt;Activity.onCreate()&lt;/a1&gt;&lt;/c0&gt;, appropriate to the current lifecycle state of the activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T073707Z" creationid="pingfangx" creationdate="20180925T073707Z">
+        <seg>调用适合于 activity 当前生命周期状态的回调方法，例如 &lt;c0&gt;&lt;a1&gt;Activity.onCreate()&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Catch each exception separately as separate catch blocks after a single try.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7315,6 +7619,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074239Z" creationid="pingfangx" creationdate="20180921T074239Z">
         <seg>关闭此资源，放弃任何底层资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cold start</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072000Z" creationid="pingfangx" creationdate="20180925T072000Z">
+        <seg>冷启动（Cold start）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cold starts happen in cases such as your app’s being launched for the first time since the device booted, or since the system killed the app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072205Z" creationid="pingfangx" creationdate="20180925T072205Z">
+        <seg>冷启动发生的情况，比如自设备启动以来或自系统终止应用程序以来，首次启动应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7919,6 +8239,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create and initialize the activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075822Z" creationid="pingfangx" creationdate="20180925T075822Z">
+        <seg>创建并初始化 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create the page for the given position.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7963,6 +8291,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>创建链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating the app &lt;a0&gt; process.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072316Z" creationid="pingfangx" creationdate="20180925T072316Z">
+        <seg>创建应用 &lt;a0&gt; process（进程）.&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating the app object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072356Z" creationid="pingfangx" creationdate="20180925T072356Z">
+        <seg>创建应用程序对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating the main activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072422Z" creationid="pingfangx" creationdate="20180925T072422Z">
+        <seg>创建主 activity。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8623,6 +8975,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Detect and diagnose problems</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074945Z" creationid="pingfangx" creationdate="20180925T074945Z">
+        <seg>检测并诊断问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Determines the validity of the supplied LayoutParams object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8667,6 +9027,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Diagnosing slow startup times</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075341Z" creationid="pingfangx" creationdate="20180925T075341Z">
+        <seg>诊断启动时间较慢</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Diagnosing the problem</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082210Z" creationid="pingfangx" creationdate="20180925T082210Z">
+        <seg>诊断问题</seg>
       </tuv>
     </tu>
     <tu>
@@ -8767,6 +9143,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Disabling the filters is necessary because the system server, not the app itself, serves this log.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080034Z" creationid="pingfangx" creationdate="20180925T080034Z">
+        <seg>禁用过滤器是必要的，因为系统服务器而不是应用程序本身服务于此日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Discards all destination pixels.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T063115Z" creationid="pingfangx" creationdate="20180510T063115Z">
@@ -8855,6 +9239,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Displaying a blank starting window for the app immediately after launch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072305Z" creationid="pingfangx" creationdate="20180925T072305Z">
+        <seg>启动后立即显示应用程序的空白启动窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Distribute</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8875,6 +9267,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>不做任何操作来隐藏间隙。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Doing so can hide a slow activity launch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083848Z" creationid="pingfangx" creationdate="20180925T083848Z">
+        <seg>这样做可以隐藏缓慢的activity启动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Doing so can improve the performance of warm and hot starts, as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071936Z" creationid="pingfangx" creationdate="20180925T071936Z">
+        <seg>这样做也可以改善温启动和热启动的性能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8939,6 +9347,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>绘制该 View Group 的一个子 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Draw your application for the first time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075955Z" creationid="pingfangx" creationdate="20180925T075955Z">
+        <seg>首次绘制您的应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9511,6 +9927,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Figure 1 shows how the system and app processes hand off work between each other.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072641Z" creationid="pingfangx" creationdate="20180925T072641Z">
+        <seg>图 1 显示了系统和应用程序如何处理彼此之间的工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Figure 2 shows how to disable filters, and, in the second line of output from the bottom, an example of logcat output of the &lt;c0&gt;Displayed&lt;/c0&gt; time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080702Z" creationid="pingfangx" creationdate="20180925T080702Z">
+        <seg>图 2 显示了如何禁用过滤器，在底部的第二行输出中，显示了 &lt;c0&gt;Displayed&lt;/c0&gt; 时间的 logcat 输出示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>FileProvider is a special subclass of &lt;c0&gt;&lt;a1&gt;ContentProvider&lt;/a1&gt;&lt;/c0&gt; that facilitates secure sharing of files associated with an app by creating a &lt;c2&gt;content://&lt;/c2&gt; &lt;c3&gt;&lt;a4&gt;Uri&lt;/a4&gt;&lt;/c3&gt; for a file instead of a &lt;c5&gt;file:///&lt;/c5&gt; &lt;c6&gt;&lt;a7&gt;Uri&lt;/a7&gt;&lt;/c6&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9563,6 +9995,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>标记一个 view，它将不会被弃用或复用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flattening your view hierarchy by reducing redundant or nested layouts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083616Z" creationid="pingfangx" creationdate="20180925T083616Z">
+        <seg>通过减少冗余或嵌套布局来展平视图层次结构。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9895,6 +10335,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, rather than creating global static objects, instead, move to a singleton pattern, where the app initalizes objects only the first time it accesses them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082427Z" creationid="pingfangx" creationdate="20180925T082427Z">
+        <seg>例如，不是创建全局静态对象，而是移动到单例模式，其中应用程序仅在第一次访问对象时初始化对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, suppose your app is offering files to other apps with a FileProvider that has the authority &lt;c0&gt;com.mydomain.fileprovider&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10007,6 +10455,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, you might create a new drawable file and reference it from the layout XML and app manifest file as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084107Z" creationid="pingfangx" creationdate="20180925T084107Z">
+        <seg>例如，您可以创建一个新的可绘制文件，并从布局 XML 和应用程序清单文件中引用它，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10027,6 +10483,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>有关使用该类开发应用程序的用户界面，请阅读 &lt;a0&gt;User Interface&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For information on how Google Play collects Android vitals data, see the &lt;a1&gt; Play Console&lt;/a1&gt; documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075337Z" creationid="pingfangx" creationdate="20180925T075337Z">
+        <seg>有关 Google Play 如何收集 Android 重要数据的信息，请参阅 &lt;a1&gt; Play Console&lt;/a1&gt; 文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For information, see &lt;a0&gt;Inspect CPU activity with CPU Profiler&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081457Z" creationid="pingfangx" creationdate="20180925T081457Z">
+        <seg>有关信息，请参见 &lt;a0&gt;Inspect CPU activity with CPU Profiler&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10059,6 +10531,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100943Z" creationid="pingfangx" creationdate="20180408T100943Z">
         <seg>例如，没有 dithering，结果可能会显示淡绿色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074751Z" creationid="pingfangx" creationdate="20180925T074751Z">
+        <seg>例如：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10255,6 +10735,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>From this point, system- and app-level processes proceed in accordance with the &lt;a0&gt; app lifecycle stages&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T073208Z" creationid="pingfangx" creationdate="20180925T073208Z">
+        <seg>从这一点开始，系统级和应用级进程按照 &lt;a0&gt;应用程序生命周期（app lifecycle stages）&lt;/a0&gt; 执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Full name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10299,6 +10787,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Games</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Garbage collection is especially a consideration with the Dalvik runtime; the Art runtime performs garbage collection concurrently, minimizing that operation's impact.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082207Z" creationid="pingfangx" creationdate="20180925T082207Z">
+        <seg>垃圾收集尤其是 Dalvik 运行时的考虑因素; Art 运行时同时执行垃圾收集，最大限度地减少操作的影响。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10447,6 +10943,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Having all of your resource initialization on the main thread can also slow down startup.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083739Z" creationid="pingfangx" creationdate="20180925T083739Z">
+        <seg>在主线程上进行所有资源初始化也会降低启动速度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Heavy activity initialization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083016Z" creationid="pingfangx" creationdate="20180925T083016Z">
+        <seg>繁重的 activity 初始化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Heavy app initialization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081753Z" creationid="pingfangx" creationdate="20180925T081753Z">
+        <seg>繁重的应用初始化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Helper objects are not displayed on device (they are marked as &lt;c2&gt;View.GONE&lt;/c2&gt;) and are only used for layout purposes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10495,6 +11015,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here's an example of the logcat output:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081403Z" creationid="pingfangx" creationdate="20180925T081403Z">
+        <seg>这是 logcat 输出的一个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here's an example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081138Z" creationid="pingfangx" creationdate="20180925T081138Z">
+        <seg>这是一个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here's some sample layout XML that demonstrates how to add a NinePatch image to a couple of buttons.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10531,6 +11067,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>垂直的 Guidelines 高度为 0，宽度为其父 &lt;c0&gt;&lt;a1&gt;ConstraintLayout&lt;/a1&gt;&lt;/c0&gt; 的宽度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hot start</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074104Z" creationid="pingfangx" creationdate="20180925T074104Z">
+        <seg>热启动（Hot start）</seg>
       </tuv>
     </tu>
     <tu>
@@ -10575,10 +11119,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, if some memory has been purged in response to memory trimming events, such as &lt;c0&gt;&lt;a1&gt;onTrimMemory()&lt;/a1&gt;&lt;/c0&gt;, then those objects will need to be recreated in response to the hot start event.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074356Z" creationid="pingfangx" creationdate="20180925T074356Z">
+        <seg>但是，如果为响应内存修整事件（如 &lt;c0&gt;&lt;a1&gt;onTrimMemory()&lt;/a1&gt;&lt;/c0&gt;）而清除了某些内存，则需要重新创建这些对象以响应热启动事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, if the given dimension has only one constraint, then the view expands to fit its contents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>但是，如果给定尺寸只有一个约束，则 view 将扩展以适合其内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, this approach can result in a longer startup time than apps that don’t suppress the preview window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083930Z" creationid="pingfangx" creationdate="20180925T083930Z">
+        <seg>但是，与不抑制预览窗口的应用程序相比，此方法可以导致更长的启动时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10651,6 +11211,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>IdRes - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Identifying bottlenecks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081437Z" creationid="pingfangx" creationdate="20180925T081437Z">
+        <seg>识别瓶颈</seg>
       </tuv>
     </tu>
     <tu>
@@ -10739,6 +11307,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果某个警告通过了 "无法消除" 测试，则必须使用 @SuppressWarnings 注释，以确保所有警告都会反映出代码中的实际问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If all of your application’s activities are still resident in memory, then the app can avoid having to repeat object initialization, layout inflation, and rendering.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074308Z" creationid="pingfangx" creationdate="20180925T074308Z">
+        <seg>如果所有应用程序的 activity 仍然驻留在内存中，那么应用程序可以避免重复对象初始化，布局加载和渲染。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11191,6 +11767,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the tool shows that these methods are taking a long time to finish executing, you should explore further to see what work is occurring there.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082252Z" creationid="pingfangx" creationdate="20180925T082252Z">
+        <seg>如果该工具显示这些方法需要很长时间才能完成执行，那么您应该进一步探索以查看正在进行的工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the value must be used outside of the try block, then it must be declared before the try block, where it cannot yet be sensibly initialized:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11447,6 +12031,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you learn that your display times are slower than you’d like, you can go on to try to identify the bottlenecks in the startup process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081432Z" creationid="pingfangx" creationdate="20180925T081432Z">
+        <seg>如果您了解到显示时间比您想要的慢，您可以继续尝试识别启动过程中的瓶颈。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you need to access Adapter for additional data, you can call &lt;c0&gt;&lt;a1&gt;getChildAdapterPosition(View)&lt;/a1&gt;&lt;/c0&gt; to get the adapter position of the View.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11583,6 +12175,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you’re tracking logcat output from the command line, or in a terminal, finding the elapsed time is straightforward.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080015Z" creationid="pingfangx" creationdate="20180925T080015Z">
+        <seg>如果您正在从命令行或终端中跟踪 logcat 输出，则查找已用时间非常简单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’ve overloaded &lt;c0&gt;&lt;a1&gt;Application.onCreate()&lt;/a1&gt;&lt;/c0&gt; in your own app, the system invokes the &lt;c2&gt;onCreate()&lt;/c2&gt; method on your app object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072938Z" creationid="pingfangx" creationdate="20180925T072938Z">
+        <seg>如果您在自己的应用程序中重载了 &lt;c0&gt;&lt;a1&gt;Application.onCreate()&lt;/a1&gt;&lt;/c0&gt;，系统会在您的应用程序对象上调用 &lt;c2&gt;onCreate()&lt;/c2&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If, due to lazy loading, an app’s initial display does not include all resources, you might consider the completed loading and display of all resources and views as a separate metric: For example, your UI might be fully loaded, with some text drawn, but not yet display images that the app must fetch from the network.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081339Z" creationid="pingfangx" creationdate="20180925T081339Z">
+        <seg>如果由于延迟加载，应用程序的初始显示不包含所有资源，您可能会将所有资源和视图的完成加载和显示视为单独的度量标准：例如，您的 UI 可能已完全加载，并绘制了一些文本，但尚未显示应用必须从网络中获取的图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Implement this method to handle generic motion events.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11711,6 +12327,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Android 4.4 (API level 19) and higher, logcat includes an output line containing a value called &lt;c0&gt;Displayed&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075646Z" creationid="pingfangx" creationdate="20180925T075646Z">
+        <seg>在 Android 4.4(API 级别 19)及更高版本中，logcat 包含一个包含名为 &lt;c0&gt;Displayed&lt;/c0&gt; 的值的输出行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Android, there are actually two other Views readily available to do this: &lt;c0&gt;&lt;a1&gt;Spinner&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;AutoCompleteTextView&lt;/a3&gt;&lt;/c2&gt;, but regardless, the concept of a Combo Box makes an easy-to-understand example.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11731,6 +12355,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在一个模块链中，除了 VERBOSE 级别之外，当较低级别的模块检测到来自较高级别模块的无效数据时，低级模块应该只在 DEBUG 日志中记录该情况，并且仅当该日志提供的信息对调用者来说无法获取时进行记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In a cold start, your app starts from scratch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071857Z" creationid="pingfangx" creationdate="20180925T071857Z">
+        <seg>在冷启动时，您的应用程序从头开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In a hot start, all the system does is bring your activity to the foreground.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074235Z" creationid="pingfangx" creationdate="20180925T074235Z">
+        <seg>在热启动中，系统所做的就是把你的 activity 带到前台。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11879,6 +12519,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In lazy loading, an app does not block the initial drawing of the window, but instead asynchronously loads resources and updates the view hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081312Z" creationid="pingfangx" creationdate="20180925T081312Z">
+        <seg>在延迟加载中，应用程序不会阻止窗口的初始绘制，而是异步加载资源并更新视图层次结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In most cases you shouldn't be handling different types of exception the same way.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11915,6 +12563,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T073758Z" creationid="pingfangx" creationdate="20180921T073758Z">
         <seg>为了显示部分图像，必须将 &lt;c6&gt;&lt;a7&gt;OnPartialImageListener&lt;/a7&gt;&lt;/c6&gt; 传递给 &lt;c8&gt;&lt;a9&gt;setOnPartialImageListener&lt;/a9&gt;&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In order to properly diagnose start time performance, you can track metrics that show how long it takes your application to start.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075620Z" creationid="pingfangx" creationdate="20180925T075620Z">
+        <seg>为了正确诊断开始时间性能，您可以跟踪指示应用程序启动所需时间的指标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11995,6 +12651,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在某些情况下，该 margin 可能不是你想要的 margin(比如 A 距容器边有 100dp 的 margin，B 对 A 只有 16dp 的 margin，当 A 标记为 GONE 时，B 对容器有 16dp 的 margin)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In such a case, the screen may seem to be frozen, or to have stopped responding to input.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084031Z" creationid="pingfangx" creationdate="20180925T084031Z">
+        <seg>在这种情况下，屏幕似乎被冻结，或者已经停止响应输入。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12111,6 +12775,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the other states, the system needs to bring the running app from the background to the foreground.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071922Z" creationid="pingfangx" creationdate="20180925T071922Z">
+        <seg>在其他状态下，系统需要将正在运行的应用程序从后台带到前台。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the toolbar or sync notification, click &lt;s0&gt;Sync Project with Gradle Files&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12159,6 +12831,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case, as well, both method tracing and inline tracing can prove useful.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083453Z" creationid="pingfangx" creationdate="20180925T083453Z">
+        <seg>在这种情况下，方法跟踪和内联跟踪都可以证明是有用的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case, the first time measurement is only for the activity that was first drawn.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080907Z" creationid="pingfangx" creationdate="20180925T080907Z">
+        <seg>在这种情况下，第一个时间量仅适用于首次绘制的 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this document</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12195,6 +12883,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Infer Constraints 扫描布局以确定所有 view 的最有效的约束集合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inflate the layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075951Z" creationid="pingfangx" creationdate="20180925T075951Z">
+        <seg>填充布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inflating large or complex layouts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083338Z" creationid="pingfangx" creationdate="20180925T083338Z">
+        <seg>加载大型或复杂的布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inflating views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072436Z" creationid="pingfangx" creationdate="20180925T072436Z">
+        <seg>加载 views.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12239,6 +12951,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Initialization of other subsystems of the activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083442Z" creationid="pingfangx" creationdate="20180925T083442Z">
+        <seg>初始化 activity 的其他子系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Initialize the objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075818Z" creationid="pingfangx" creationdate="20180925T075818Z">
+        <seg>初始化对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Initializes values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T073602Z" creationid="pingfangx" creationdate="20180925T073602Z">
+        <seg>初始化值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inline tracing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082253Z" creationid="pingfangx" creationdate="20180925T082253Z">
+        <seg>内联跟踪</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Input is provided to matchers via the &lt;c2&gt;&lt;a3&gt;CharSequence&lt;/a3&gt;&lt;/c2&gt; interface in order to support matching against characters from a wide variety of input sources.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12267,6 +13011,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>而是使用 "match constraints" (&lt;c3&gt;0dp&lt;/c3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, use use a &lt;c0&gt;&lt;a1&gt;ViewStub&lt;/a1&gt;&lt;/c0&gt; object as a placeholder for sub-hierarchies that the app can inflate at a more appropriate time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083732Z" creationid="pingfangx" creationdate="20180925T083732Z">
+        <seg>相反，使用 &lt;c0&gt;&lt;a1&gt;ViewStub&lt;/a1&gt;&lt;/c0&gt; 对象作为子层次结构的占位符，应用程序可以在更合适的时间加载。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12423,6 +13175,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It begins by explaining the internals of the launch process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071509Z" creationid="pingfangx" creationdate="20180925T071509Z">
+        <seg>它首先解释了启动过程的内部结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It can also be tempting to be lazy when catching exceptions and do something like this:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12443,6 +13203,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果您为可伸缩区域定义的区域有可能由于像素复制而产生绘图伪影的风险，那么它甚至会引发警告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It excludes these resources because loading them is an inline process, and does not block the app’s initial display.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080803Z" creationid="pingfangx" creationdate="20180925T080803Z">
+        <seg>它排除了这些资源，因为加载它们是一个内联过程，并不会阻止应用程序的初始显示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12735,6 +13503,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Last, it describes some common start-time issues, and gives some hints on how to address them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071522Z" creationid="pingfangx" creationdate="20180925T071522Z">
+        <seg>最后，它描述了一些常见的启动时间问题，并提供了一些如何解决它们的提示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Launch performance can suffer when your code overrides the &lt;c0&gt;Application&lt;/c0&gt; object, and executes heavy work or complex logic when initializing that object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081837Z" creationid="pingfangx" creationdate="20180925T081837Z">
+        <seg>当代码覆盖 &lt;c0&gt;Application&lt;/c0&gt; 对象并在初始化该对象时执行繁重的工作或复杂的逻辑时，启动性能会受到影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Launch the process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075816Z" creationid="pingfangx" creationdate="20180925T075816Z">
+        <seg>启动进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Launching the main thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072414Z" creationid="pingfangx" creationdate="20180925T072414Z">
+        <seg>启动主线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Laying out the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072440Z" creationid="pingfangx" creationdate="20180925T072440Z">
+        <seg>布局屏幕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12811,6 +13619,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>从 constraintSet.xml 文件中加载一个约束集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loading and decoding bitmaps.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083431Z" creationid="pingfangx" creationdate="20180925T083431Z">
+        <seg>加载和解码位图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loading and launching the app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072246Z" creationid="pingfangx" creationdate="20180925T072246Z">
+        <seg>加载并启动应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12967,6 +13791,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Method tracing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082225Z" creationid="pingfangx" creationdate="20180925T082225Z">
+        <seg>方法跟踪</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Methods</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13043,6 +13875,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Most visited</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move all resource initialization so that the app can perform it lazily on a different thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083751Z" creationid="pingfangx" creationdate="20180925T083751Z">
+        <seg>移动所有资源初始化，以便应用程序可以在另一个线程上懒惰地执行它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13127,6 +13967,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next, it discusses how to profile startup performance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071514Z" creationid="pingfangx" creationdate="20180925T071514Z">
+        <seg>接下来，它将讨论如何分析启动性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No color information is stored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100737Z" creationid="pingfangx" creationdate="20180408T100737Z">
@@ -13171,6 +14019,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>NonNull - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Not inflating parts of the UI that do not need to be visible during launch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083718Z" creationid="pingfangx" creationdate="20180925T083718Z">
+        <seg>不加载在启动期间不需要显示的 UI 部分内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13455,6 +14311,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Often, there are opportunities to optimize this work to achieve performance improvements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083305Z" creationid="pingfangx" creationdate="20180925T083305Z">
+        <seg>通常，有机会优化这项工作以实现性能改进。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once completed, your new extension class can be used in place of the view upon which it was based.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13471,6 +14335,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once the app process has completed the first draw, the system process swaps out the currently displayed background window, replacing it with the main activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072623Z" creationid="pingfangx" creationdate="20180925T072623Z">
+        <seg>应用程序进程完成第一次绘制后，系统进程会交换当前显示的背景窗口，将其替换为主 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once the width and height are calculated, the &lt;c0&gt;setMeasuredDimension(int width, int height)&lt;/c0&gt; method must be called with the calculated measurements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13483,6 +14355,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一旦你创建了一个 view 树，代表一些通用的操作你可能希望完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once you’ve made the appropriate settings, you can easily search for the correct term to see the time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080102Z" creationid="pingfangx" creationdate="20180925T080102Z">
+        <seg>完成适当的设置后，您可以轻松搜索正确的术语以查看时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13587,6 +14467,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果需要，其他的 &lt;c0&gt;on...&lt;/c0&gt; 方法也可能需要重写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other challenges during app initialization include garbage-collection events that are impactful or numerous, or disk I/O happening concurrently with initialization, further blocking the initialization process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082142Z" creationid="pingfangx" creationdate="20180925T082142Z">
+        <seg>应用程序初始化期间的其他挑战包括有影响或数量众多的垃圾收集事件，或者与初始化同时发生的磁盘 I/O，进一步阻止了初始化过程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13763,6 +14651,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094224Z" creationid="pingfangx" creationdate="20180427T094224Z">
         <seg>传递 null 将重置 shader 的矩阵为同一的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Performance issues can arise during creation of the app and creation of the activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072710Z" creationid="pingfangx" creationdate="20180925T072710Z">
+        <seg>在创建应用程序和创建 activity 期间可能会出现性能问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Performing the initial draw.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072446Z" creationid="pingfangx" creationdate="20180925T072446Z">
+        <seg>执行初始绘制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13987,6 +14891,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>查询当前是否支持竖直滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rasterizing &lt;c0&gt;&lt;a1&gt;VectorDrawable&lt;/a1&gt;&lt;/c0&gt; objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083435Z" creationid="pingfangx" creationdate="20180925T083435Z">
+        <seg>栅格化 &lt;c0&gt;&lt;a1&gt;VectorDrawable&lt;/a1&gt;&lt;/c0&gt; 对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15431,6 +16343,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Running the CPU Profiler reveals that the &lt;c0&gt;&lt;a1&gt;callApplicationOnCreate()&lt;/a1&gt;&lt;/c0&gt; method eventually calls your &lt;c2&gt;com.example.customApplication.onCreate&lt;/c2&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082240Z" creationid="pingfangx" creationdate="20180925T082240Z">
+        <seg>运行 CPU Profiler 会显示 &lt;c0&gt;&lt;a1&gt;callApplicationOnCreate()&lt;/a1&gt;&lt;/c0&gt; 方法最终会调用 &lt;c2&gt;com.example.customApplication.onCreate&lt;/c2&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>SP</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16143,6 +17063,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Solutions to the problem</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082330Z" creationid="pingfangx" creationdate="20180925T082330Z">
+        <seg>解决问题的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some Iterator implementations (including those of all the general purpose collection implementations provided by the JRE) may choose to throw this exception if this behavior is detected.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16163,6 +17091,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一些 LayoutManager 可能要使用的常规的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some initializations may be completely unnecessary: for example, initializing state information for the main activity, when the app has actually started up in response to an intent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082106Z" creationid="pingfangx" creationdate="20180925T081958Z">
+        <seg>某些初始化可能完全没有必要：例如，当应用程序实际启动以响应 intent 时，为主 activity 初始化状态信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16203,6 +17139,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>有时很基本的一点是，提醒用户他要执行的动作需完全知晓并同意，比如同意权限请求，进行购买或点击一个广告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes the &lt;c0&gt;Displayed&lt;/c0&gt; line in the logcat output contains an additional field for total time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080813Z" creationid="pingfangx" creationdate="20180925T080813Z">
+        <seg>有时，logcat 输出中的 &lt;c0&gt;Displayed&lt;/c0&gt; 行包含总时间的附加字段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16559,6 +17503,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Such common issues include:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083308Z" creationid="pingfangx" creationdate="20180925T083308Z">
+        <seg>这些常见问题包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16719,6 +17671,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;-c&lt;/c0&gt; and &lt;c1&gt;-a&lt;/c1&gt; arguments are optional and let you specify &lt;a2&gt;&lt;c3&gt;&lt;category&gt;&lt;/c3&gt;&lt;/a2&gt; and &lt;a4&gt;&lt;c5&gt;&lt;action&gt;&lt;/c5&gt;&lt;/a4&gt; for the intent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081216Z" creationid="pingfangx" creationdate="20180925T081216Z">
+        <seg>&lt;c0&gt;-c&lt;/c0&gt; 和 &lt;c1&gt;-a&lt;/c1&gt; 参数是可选的，您可以指定 &lt;a2&gt;&lt;c3&gt;&lt;category&gt;&lt;/c3&gt;&lt;/a2&gt; 和 &lt;a4&gt;&lt;c5&gt;&lt;action&gt;&lt;/c5&gt;&lt;/a4&gt; 用于 intent。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;&lt;a1&gt;ImageInfo&lt;/a1&gt;&lt;/c0&gt; contains information about the encoded image, like its width and height, and the &lt;c2&gt;&lt;a3&gt;Source&lt;/a3&gt;&lt;/c2&gt; can be used to match to a particular &lt;c4&gt;&lt;a5&gt;Source&lt;/a5&gt;&lt;/c4&gt; if a single &lt;c6&gt;&lt;a7&gt;OnHeaderDecodedListener&lt;/a7&gt;&lt;/c6&gt; is used with multiple &lt;c8&gt;&lt;a9&gt;Source&lt;/a9&gt;&lt;/c8&gt; objects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T071927Z" creationid="pingfangx" creationdate="20180921T071900Z">
@@ -16799,6 +17759,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;Displayed&lt;/c0&gt; metric appears in the logcat output as before.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081154Z" creationid="pingfangx" creationdate="20180925T081154Z">
+        <seg>&lt;c0&gt;Displayed&lt;/c0&gt; 指标与之前一样出现在 logcat 输出中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;Displayed&lt;/c0&gt; metric in the logcat output does not necessarily capture the amount of time until all resources are loaded and displayed: it leaves out resources that are not referenced in the layout file or that the app creates as part of object initialization.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080745Z" creationid="pingfangx" creationdate="20180925T080745Z">
+        <seg>logcat 输出中的 &lt;c0&gt;Displayed&lt;/c0&gt; 指标不一定捕获加载和显示所有资源之前的时间量：它会遗漏布局文件中未引用的资源或应用程序创建的资源作为对象初始化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;String&lt;/c0&gt; class represents character strings.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16847,6 +17823,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;total&lt;/c0&gt; time measurement begins at the app process start, and could include another activity that was started first but did not display anything to the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080951Z" creationid="pingfangx" creationdate="20180925T080951Z">
+        <seg>&lt;c0&gt;total&lt;/c0&gt; 时间量始于应用程序进程开始，可能包括另一个先启动但未向屏幕显示任何内容的 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c1&gt;&lt;a2&gt;ViewGroup&lt;/a2&gt;&lt;/c1&gt; subclass is the base class for &lt;e3&gt;layouts&lt;/e3&gt;, which are invisible containers that hold other Views (or other ViewGroups) and define their layout properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16859,6 +17843,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T091209Z" creationid="pingfangx" creationdate="20180921T091130Z">
         <seg>&lt;c1&gt;finalize&lt;/c1&gt; 方法可以采取任何操作，包括使该对象再次可用于其他线程;然而，&lt;c2&gt;finalize&lt;/c2&gt; 的通常目的是在对象被不可撤销地丢弃之前执行清理操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c1&gt;total&lt;/c1&gt; time measurement is only shown when there is a difference between the single activity and total startup times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081030Z" creationid="pingfangx" creationdate="20180925T081030Z">
+        <seg>仅当单个 activity 与总启动时间之间存在差异时，才会显示 &lt;c1&gt;total&lt;/c1&gt; 时间量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17287,10 +18279,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The easiest way to transition back to your normal theme is to call &lt;c0&gt;&lt;a1&gt;setTheme(R.style.AppTheme)&lt;/a1&gt;&lt;/c0&gt; before calling &lt;c2&gt;super.onCreate()&lt;/c2&gt; and &lt;c3&gt;setContentView()&lt;/c3&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084157Z" creationid="pingfangx" creationdate="20180925T084157Z">
+        <seg>转换回正常主题的最简单方法是在调用 &lt;c2&gt;super.onCreate()&lt;/c2&gt; 和 &lt;c3&gt;setContentView()&lt;/c3&gt; 之前调用 &lt;c0&gt;&lt;a1&gt;setTheme(R.style.AppTheme)&lt;/a1&gt;&lt;/c0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The effect is most visible when the view size is set to "fixed" or "wrap content," in which case the view is centered between the constraints.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当 view 大小设置为 "Fixed" 或 "Wrap Content" 时，效果最明显，在这种情况下 view 在约束之间居中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The elapsed time encompasses the following sequence of events:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075744Z" creationid="pingfangx" creationdate="20180925T075744Z">
+        <seg>经过的时间包括以下事件序列：</seg>
       </tuv>
     </tu>
     <tu>
@@ -17591,6 +18599,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The larger your view hierarchy, the more time the app takes to inflate it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083600Z" creationid="pingfangx" creationdate="20180925T083600Z">
+        <seg>视图层次结构越大，应用程序对其进行加载的时间就越长。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The last element of the array represents the bottom of the stack, which is the least recent method invocation in the sequence.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17627,6 +18643,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>view 的左边。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The logcat output sometimes includes a &lt;c0&gt;total&lt;/c0&gt; time, as discussed in &lt;a1&gt;Time to initial display&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081413Z" creationid="pingfangx" creationdate="20180925T081413Z">
+        <seg>logcat 输出有时包括 &lt;c0&gt;total&lt;/c0&gt; 时间，如 &lt;a1&gt;Time to initial display&lt;/a1&gt; 中所述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17927,6 +18951,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The process and the activity need to be restarted, but the task can benefit somewhat from the saved instance state bundle passed into &lt;c0&gt;&lt;a1&gt;onCreate()&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074939Z" creationid="pingfangx" creationdate="20180925T074939Z">
+        <seg>需要重新启动进程和 activity，但是任务可以从传递到 &lt;c0&gt;&lt;a1&gt;onCreate()&lt;/a1&gt;&lt;/c0&gt; 的已保存实例状态包中获益。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The process may have continued to run, but the app must recreate the activity from scratch via a call to &lt;c0&gt;&lt;a1&gt;onCreate()&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074835Z" creationid="pingfangx" creationdate="20180925T074835Z">
+        <seg>该过程可能已继续运行，但应用程序必须通过调用 &lt;c0&gt;&lt;a1&gt;onCreate()&lt;/a1&gt;&lt;/c0&gt; 从头开始重新创建 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The properties and methods can also be used in conjunction with &lt;c12&gt;&lt;a13&gt;Animator&lt;/a13&gt;&lt;/c12&gt;-based animations, described more in the &lt;a14&gt;Animation&lt;/a14&gt; section.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18035,6 +19075,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100625Z" creationid="pingfangx" creationdate="20180427T100625Z">
         <seg>颜色数组中每个对应颜色的相对位置[0..1]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The reported log line looks similar to the following example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080006Z" creationid="pingfangx" creationdate="20180925T080006Z">
+        <seg>报告的日志行类似于以下示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18279,6 +19327,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The system evicts your app from memory, and then the user re-launches it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074911Z" creationid="pingfangx" creationdate="20180925T074911Z">
+        <seg>系统将您的应用程序从内存中逐出，然后用户重新启动它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The three RGB color channels and the alpha channel (translucency) are stored with a 4 bits precision (16 possible values.) This configuration is mostly useful if the application needs to store translucency information but also needs to save memory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100841Z" creationid="pingfangx" creationdate="20180408T100841Z">
@@ -18331,6 +19387,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>静态导入的使用和位置一直都存在争议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The user backs out of your app, but then re-launches it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074806Z" creationid="pingfangx" creationdate="20180925T074806Z">
+        <seg>用户退出您的应用，但随后重新启动它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18407,6 +19471,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Themed launch screens</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083827Z" creationid="pingfangx" creationdate="20180925T083827Z">
+        <seg>启动屏幕主题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Themes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18467,6 +19539,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当然，在某些时候，空的 catch 语句确实没什么问题，但至少你得想一想。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are many potential bottlenecks, but two common problems and remedies are as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083535Z" creationid="pingfangx" creationdate="20180925T083535Z">
+        <seg>存在许多潜在的瓶颈，但两个常见问题和补救措施如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are many potential states that could be considered warm starts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074749Z" creationid="pingfangx" creationdate="20180925T074749Z">
+        <seg>有很多潜在的状态可以被认为是温启动。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18639,6 +19727,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These issues chiefly concern initializing app and activity objects, as well as the loading of screens.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081718Z" creationid="pingfangx" creationdate="20180925T081718Z">
+        <seg>这些问题主要涉及初始化应用程序和 activity 对象，以及加载屏幕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These methods both return the location of the view relative to its parent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18683,6 +19779,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这些属性可以用来设置的与渲染属性相关的固有状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These tasks are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072243Z" creationid="pingfangx" creationdate="20180925T072243Z">
+        <seg>这些任务是：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18807,6 +19911,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be valuable in cases where an app performs lazy loading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081300Z" creationid="pingfangx" creationdate="20180925T081300Z">
+        <seg>在 app 执行延迟加载的情况下，这可能很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can drastically improve performance by skipping initial layout inflation or construction.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18907,6 +20019,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102102Z" creationid="pingfangx" creationdate="20180408T102102Z">
         <seg>这个区别由 inInputShareable 控制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document provides information to help you optimize your app’s launch time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071457Z" creationid="pingfangx" creationdate="20180925T071457Z">
+        <seg>本文档提供的信息可帮助您优化应用的发布时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19440,10 +20560,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This section discusses several issues that often affect apps’ startup performance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081706Z" creationid="pingfangx" creationdate="20180925T081706Z">
+        <seg>本节讨论通常会影响应用程序启动性能的几个问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This sentence should start with a third person descriptive verb.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>句式应以第三人称描述性动词开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This sort of poor experience may cause a user to rate your app poorly on the Play store, or even abandon your app altogether.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071451Z" creationid="pingfangx" creationdate="20180925T071451Z">
+        <seg>这种糟糕的体验可能会导致用户在 Play 商店中对您的应用评分不佳，甚至完全放弃您的应用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19488,6 +20624,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This type of start presents the greatest challenge in terms of minimizing startup time, because the system and app have more work to do than in the other launch states.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072235Z" creationid="pingfangx" creationdate="20180925T072235Z">
+        <seg>这种类型的启动在最小化启动时间方面提出了最大的挑战，因为系统和应用程序比其他启动状态有更多的工作要做。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This value may be &lt;c0&gt;null&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084043Z" creationid="pingfangx" creationdate="20180921T084043Z">
@@ -19500,6 +20644,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T075325Z" creationid="pingfangx" creationdate="20180921T075325Z">
         <seg>该值绝不能为 &lt;c0&gt;null&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This value represents the amount of time elapsed between launching the process and finishing drawing the corresponding activity on the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075812Z" creationid="pingfangx" creationdate="20180925T075719Z">
+        <seg>此值表示启动进程和完成在屏幕上绘制相应 activity 之间所经过的时间量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19656,6 +20808,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Time to full display</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081233Z" creationid="pingfangx" creationdate="20180925T081233Z">
+        <seg>完全显示时间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Time to initial display</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075623Z" creationid="pingfangx" creationdate="20180925T075623Z">
+        <seg>初始显示的时间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To address this concern, you can manually call &lt;c0&gt;&lt;a1&gt;reportFullyDrawn()&lt;/a1&gt;&lt;/c0&gt; to let the system know that your activity is finished with its lazy loading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081346Z" creationid="pingfangx" creationdate="20180925T081346Z">
+        <seg>要解决此问题，您可以手动调用 &lt;c0&gt;&lt;a1&gt;reportFullyDrawn()&lt;/a1&gt;&lt;/c0&gt;，让系统知道您的activity已完成延迟加载。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To avoid these gaps, StaggeredGridLayoutManager can offset spans independently or move items between spans.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19784,6 +20960,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To find elapsed time in Android Studio, you must disable filters in your logcat view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080021Z" creationid="pingfangx" creationdate="20180925T080021Z">
+        <seg>要在 Android Studio 中查找已用时间，必须在 logcat 视图中禁用过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To force a view to draw, call &lt;c0&gt;&lt;a1&gt;invalidate()&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19872,6 +21056,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To learn about inline tracing, see the documentation for the &lt;c1&gt;&lt;a2&gt;Trace&lt;/a2&gt;&lt;/c1&gt; functions, and for the &lt;a3&gt;Systrace&lt;/a3&gt; tool.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081655Z" creationid="pingfangx" creationdate="20180925T081655Z">
+        <seg>要了解内联跟踪，请参阅 &lt;c1&gt;&lt;a2&gt;Trace&lt;/a2&gt;&lt;/c1&gt; 函数和 &lt;a3&gt;Systrace&lt;/a3&gt; 工具的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To learn more about FileProvider, see the Android training class &lt;a0&gt;Sharing Files Securely with URIs&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19900,6 +21092,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102153Z" creationid="pingfangx" creationdate="20180408T102153Z">
         <seg>为了尽量减少 Dalvik 堆分配，请改用 &lt;c0&gt;&lt;a1&gt;inBitmap&lt;/a1&gt;&lt;/c0&gt; 标志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To optimize your app for fast startup, it’s useful to understand what’s happening at the system and app levels, and how they interact, in each of these states.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071950Z" creationid="pingfangx" creationdate="20180925T071950Z">
+        <seg>为了优化您的应用程序以实现快速启动，了解系统和应用程序级别发生的情况以及它们在每种状态下的交互方式非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20080,6 +21280,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Two steps you can take to address this issue are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083607Z" creationid="pingfangx" creationdate="20180925T083607Z">
+        <seg>您可以采取以下两个步骤来解决此问题：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Typically used on optional parameters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20092,6 +21300,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>通常用于数组或集合类型的参数或返回值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typically, the &lt;c0&gt;&lt;a1&gt;onCreate()&lt;/a1&gt;&lt;/c0&gt; method has the greatest impact on load time, because it performs the work with the highest overhead: loading and inflating views, and initializing the objects needed for the activity to run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074055Z" creationid="pingfangx" creationdate="20180925T074055Z">
+        <seg>通常，&lt;c0&gt;&lt;a1&gt;onCreate()&lt;/a1&gt;&lt;/c0&gt; 方法对加载时间的影响最大，因为它以最高的开销执行工作：加载和填充视图，以及为要运行的 activity 初始化所需的对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20124,6 +21340,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>抛出未检查的异常，表示正则表达式中的语法错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Understand app-start internals</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071706Z" creationid="pingfangx" creationdate="20180925T071706Z">
+        <seg>了解 app 启动时的内部过程</seg>
       </tuv>
     </tu>
     <tu>
@@ -20256,6 +21480,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use inline tracing to investigate likely culprits including:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082258Z" creationid="pingfangx" creationdate="20180925T082258Z">
+        <seg>使用内联跟踪来调查可能的罪魁祸首，包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use shared memory for the pixel memory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074129Z" creationid="pingfangx" creationdate="20180921T073949Z">
@@ -20372,6 +21604,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T075028Z" creationid="pingfangx" creationdate="20180921T075028Z">
         <seg>对于跨进程共享很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users expect apps to be responsive and fast to load.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071236Z" creationid="pingfangx" creationdate="20180925T071236Z">
+        <seg>用户希望应用程序能够快速响应并快速加载。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20568,6 +21808,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Warm start</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074542Z" creationid="pingfangx" creationdate="20180925T074542Z">
+        <seg>温启动（Warm start）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We expect that as IDE users work on the code, imports in all packages will match this pattern without extra engineering effort.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20604,6 +21852,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>我们知道，并非所有的现有代码都遵守了这些规则，但我们希望所有新代码都能遵守这些规则。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We recommend that you always optimize based on an assumption of a cold start.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071927Z" creationid="pingfangx" creationdate="20180925T071927Z">
+        <seg>我们建议您始终根据冷启动的假设进行优化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We recommend that, rather than disabling the preview window, you follow the common &lt;a0&gt; Material Design&lt;/a0&gt; patterns.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084040Z" creationid="pingfangx" creationdate="20180925T084040Z">
+        <seg>我们建议您不要禁用预览窗口，而是遵循常见的 &lt;a0&gt; Material Design&lt;/a0&gt; 模式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20936,6 +22200,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When using the CPU Profiler, pay attention to your app’s &lt;c0&gt;&lt;a1&gt;Application&lt;/a1&gt;&lt;/c0&gt; subclass constructors and &lt;c2&gt;com.example.customApplication.onCreate()&lt;/c2&gt; methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083510Z" creationid="pingfangx" creationdate="20180925T083510Z">
+        <seg>使用 CPU Profiler 时，请注意应用程序的 &lt;c0&gt;&lt;a1&gt;Application&lt;/a1&gt;&lt;/c0&gt; 子类构造函数和 &lt;c2&gt;com.example.customApplication.onCreate()&lt;/c2&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When we are finished, the new class will be able to substitute for a normal &lt;c1&gt;EditText&lt;/c1&gt; view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21016,6 +22288,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you use this method, the value that logcat displays is the time elapsed from the creation of the application object to the moment &lt;c2&gt;&lt;a3&gt;reportFullyDrawn()&lt;/a3&gt;&lt;/c2&gt; is called.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081358Z" creationid="pingfangx" creationdate="20180925T081358Z">
+        <seg>使用此方法时，logcat 显示的值是从创建应用程序对象到调用 &lt;c2&gt;&lt;a3&gt;reportFullyDrawn()&lt;/a3&gt;&lt;/c2&gt; 的时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you want to use class Bar from package foo,there are two possible ways to import it:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21024,10 +22304,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When your application launches, the blank starting window remains on the screen until the system finishes drawing the app for the first time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072741Z" creationid="pingfangx" creationdate="20180925T072741Z">
+        <seg>当您的应用程序启动时，空白的启动窗口将保留在屏幕上，直到系统首次完成绘制应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether the image is animated.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T092352Z" creationid="pingfangx" creationdate="20180921T092352Z">
         <seg>图像是否动画。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether the problem lies with unnecessary initializations or disk I/O, the solution calls for lazy-initializing objects: initializing only those objects that are immediately needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082402Z" creationid="pingfangx" creationdate="20180925T082402Z">
+        <seg>无论问题在于不必要的初始化还是磁盘 I/O，解决方案都会调用延迟初始化对象：仅初始化那些立即需要的对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21124,6 +22420,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074940Z" creationid="pingfangx" creationdate="20180921T074940Z">
         <seg>通常会产生 &lt;c0&gt;&lt;a1&gt;Bitmap.Config.HARDWARE&lt;/a1&gt;&lt;/c0&gt; 分配，但如果是小图像则为软件分配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With an intent, the app uses only a subset of the previously initialized state data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082014Z" creationid="pingfangx" creationdate="20180925T082014Z">
+        <seg>根据 intent，应用程序仅使用先前初始化的状态数据的子集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21232,6 +22536,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can address this issue as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083741Z" creationid="pingfangx" creationdate="20180925T083741Z">
+        <seg>您可以按如下方式解决此问题：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also create listeners for events that your contained views might generate, for example, a listener method for the List Item Click Listener to update the contents of the EditText if a list selection is made.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21252,6 +22564,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你还可以把一个小部件的一个尺寸定义为相对于另一个的比例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also gain insight into potential bottlenecks through inline tracing inside of your apps’ and activities’ &lt;c0&gt;onCreate()&lt;/c0&gt; methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081637Z" creationid="pingfangx" creationdate="20180925T081637Z">
+        <seg>您还可以通过内嵌跟踪应用程序和 activity 的 &lt;c0&gt;onCreate()&lt;/c0&gt; 方法来深入了解潜在的瓶颈。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also measure the time to initial display by running your app with the &lt;a0&gt;ADB Shell Activity Manager&lt;/a0&gt; command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081046Z" creationid="pingfangx" creationdate="20180925T081046Z">
+        <seg>您还可以使用 &lt;a0&gt;ADB Shell Activity Manager&lt;/a0&gt; 命令运行应用程序来测量初始显示的时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21360,6 +22688,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can often diagnose this problem by observing a slow response when a user launches your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084020Z" creationid="pingfangx" creationdate="20180925T084020Z">
+        <seg>您通常可以在用户启动应用时观察响应缓慢来诊断此问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can position the guideline within the layout based on either dp units or percent, relative to the layout's edge.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21440,6 +22776,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use method tracing or inline tracing to try to diagnose the problem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082218Z" creationid="pingfangx" creationdate="20180925T082218Z">
+        <seg>您可以使用方法跟踪或内联跟踪来尝试诊断问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use the &lt;c0&gt;&lt;a1&gt;reportFullyDrawn()&lt;/a1&gt;&lt;/c0&gt; method to measure the elapsed time between application launch and complete display of all resources and view hierarchies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081252Z" creationid="pingfangx" creationdate="20180925T081252Z">
+        <seg>您可以使用 &lt;c0&gt;&lt;a1&gt;reportFullyDrawn()&lt;/a1&gt;&lt;/c0&gt; 方法来度量应用程序启动和完全显示所有资源和视图层次结构之间所用的时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use the activity's &lt;c1&gt;windowBackground&lt;/c1&gt; theme attribute to provide a simple custom drawable for the starting activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084057Z" creationid="pingfangx" creationdate="20180925T084057Z">
+        <seg>您可以使用 activity 的 &lt;c1&gt;windowBackground&lt;/c1&gt; 主题属性为起始 activity 提供简单的自定义 drawable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the corner handles to resize a view, but this hard codes the size so the view will not resize for different content or screen sizes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21508,6 +22868,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你可以通过在左边框或上边框，画一段或多段 1 像素宽的黑线，来指明可伸缩的部分。（其他的边框像素应该完全透明或是白色）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may wish to theme your app’s loading experience, so that the app’s launch screen is thematically consistent with the rest of the app, instead of with the system theming.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083844Z" creationid="pingfangx" creationdate="20180925T083844Z">
+        <seg>您可能希望主题化应用程序的加载体验，以便应用程序的启动屏幕与应用程序的其余部分主题一致，而不是系统主题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21616,10 +22984,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Your app may waste time during startup if your Application subclasses perform initializations that don’t need to be done yet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081847Z" creationid="pingfangx" creationdate="20180925T081847Z">
+        <seg>如果您的应用程序子类执行不需要执行的初始化，则您的应用程序可能会在启动期间浪费时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your app’s initial &lt;c0&gt;&lt;a1&gt;onCreate()&lt;/a1&gt;&lt;/c0&gt; function.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082310Z" creationid="pingfangx" creationdate="20180925T082310Z">
+        <seg>您的应用的初始 &lt;c0&gt;&lt;a1&gt;onCreate()&lt;/a1&gt;&lt;/c0&gt; 函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Your component's &lt;c0&gt;onMeasure()&lt;/c0&gt; method should calculate a measurement width and height which will be required to render the component.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你的组件的 &lt;c0&gt;onMeasure()&lt;/c0&gt; 方法将计算出一个测量的宽度和高度，以用来呈现该组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your terminal window should also display the following:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081159Z" creationid="pingfangx" creationdate="20180925T081159Z">
+        <seg>您的终端窗口还应显示以下内容：</seg>
       </tuv>
     </tu>
     <tu>
