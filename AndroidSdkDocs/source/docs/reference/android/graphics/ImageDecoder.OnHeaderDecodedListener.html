@@ -1,0 +1,1348 @@
+
+
+
+
+
+
+<!DOCTYPE html><html lang="en"
+      class=""><head><script>var a=window.devsite||{};window.devsite=a;a.readyCallbacks=[];window.devsite.readyCallbacks=a.readyCallbacks;a.ready=function(b){a.readyCallbacks.push(b)};window.devsite.ready=a.ready;
+</script><meta charset=utf-8"utf-8"><meta name="xsrf_token" content="1FwMeZh6uScNBYrwgnRv1_7aEu17w6lN5ZBcvfkn1fk6MTUzNzUyMzY2OTYwMTM4MQ" /><link rel="canonical" href="https://developer.android.com/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener"><link rel="alternate" href="https://developer.android.com/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener" hreflang="en"><link rel="alternate" href="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener" hreflang="en-cn"><link rel="alternate" href="https://developer.android.com/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener" hreflang="x-default"><link rel="shortcut icon" href="https://developer.android.google.cn/_static/c7daf5a92f/images/android/favicon.png"><link rel="apple-touch-icon" href="https://developer.android.google.cn/_static/c7daf5a92f/images/android/touchicon-180.png"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet"
+      
+      href="../../../../fonts.googleapis.com/css-family=Roboto-300,400,400italic,500,500italic,700,700italic-Roboto+Mono-400,500,700-Material+Icons" tppabs="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"
+      ><link rel="stylesheet"
+        href="../../../_static/c7daf5a92f/css/devsite-android-light-grey.css" tppabs="https://developer.android.google.cn/_static/c7daf5a92f/css/devsite-android-light-grey.css"><script src="../../../_static/c7daf5a92f/js/jquery-bundle.js" tppabs="https://developer.android.google.cn/_static/c7daf5a92f/js/jquery-bundle.js"></script><meta property="og:site_name" content="Android Developers"><meta property="og:type" content="website"><meta property="og:url" content="https://developer.android.com/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener"><meta property="og:locale" content="en"><script>
+    var ___gcfg = ___gcfg || {};
+    ___gcfg.lang = 'en';
+  </script><title>ImageDecoder.OnHeaderDecodedListener &nbsp;|&nbsp; Android Developers</title><meta property="og:title" content="ImageDecoder.OnHeaderDecodedListener &nbsp;|&nbsp; Android Developers"><link rel="stylesheet" href="../../../static/css/reference-docs.css" tppabs="https://developer.android.google.cn/static/css/reference-docs.css"></head><body class="
+               devsite-doc-page
+               
+               
+               
+               
+               "
+        
+        
+        id="top_of_page"><div class="devsite-wrapper"><div class="devsite-top-section-wrapper
+            "><header class="devsite-top-section nocontent"><div class="devsite-top-logo-row-wrapper-wrapper"><div class="devsite-top-logo-row-wrapper"><div class="devsite-top-logo-row devsite-full-site-width"><button type="button" class="devsite-expand-section-nav devsite-header-icon-button
+                                       button-flat material-icons gc-analytics-event"
+                  data-category="Site-Wide Custom Events" data-label="Hamburger menu"></button><div class="devsite-product-name-wrapper"><a href="../../../index.htm" tppabs="https://developer.android.google.cn/"
+   class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events"
+   data-label="Site logo"
+   track-type = "globalNav"
+   track-name = "androiddevelopers"
+   track-metadata-eventDetail = "nav"
+   track-metadata-position = "nav"><img src="../../../_static/c7daf5a92f/images/android/lockup.svg" tppabs="https://developer.android.google.cn/_static/c7daf5a92f/images/android/lockup.svg"
+       class="devsite-site-logo" alt="Android Developers"><span class="devsite-site-name devsite-product-name">Android Developers</span></a></div><div class="devsite-header-upper-tabs"><nav class="devsite-doc-set-nav devsite-nav devsite-overflow-tabs-scroll-wrapper"><ul class="devsite-doc-set-nav-tab-list devsite-overflow-tabs-scroll"><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../about/index.htm" tppabs="https://developer.android.google.cn/about/"
+           class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Platform"
+         >
+          Platform
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../studio/index.htm" tppabs="https://developer.android.google.cn/studio/"
+           class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Android Studio"
+         >
+          Android Studio
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../distribute/index.htm" tppabs="https://developer.android.google.cn/distribute/"
+           class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Google Play"
+         >
+          Google Play
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../jetpack/index.htm" tppabs="https://developer.android.google.cn/jetpack/"
+           class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Android Jetpack"
+         >
+          Android Jetpack
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../docs/index.htm" tppabs="https://developer.android.google.cn/docs/"
+           class="devsite-doc-set-nav-active devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           aria-label="Docs, selected"
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Docs"
+         >
+          Docs
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../news/index.htm" tppabs="https://developer.android.google.cn/news/"
+           class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: News"
+         >
+          News
+        </a></li></ul></nav></div><form class="devsite-search-form"
+                action="https://developer.android.google.cn/s/results/"
+                method="GET"
+                id="top-search"
+                search-placeholder='Search'><div id="searchbox" class="devsite-searchbox"><input placeholder='Search'
+         
+         type="text"
+         class="devsite-search-field devsite-search-query"
+         name="q"
+         value=""
+         autocomplete="off"
+         
+         aria-label="Search box"><div class="devsite-search-image material-icons"></div></div><input type="hidden"
+       name="p"
+       id="search_project"
+       value="/"
+       data-project-name="Android Developers"
+       data-project-path="/"
+       data-query-match=""><input type="hidden" class="suggest-project" value="Android Developers" /><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Android Developers" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Android Open Source Project" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Apigee Docs" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Google Cloud" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Dialogflow" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Firebase" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Android Developers" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Link.app" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Nest Developers" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="OpenThread" ></div><div class="suggest-project-metadata" data-home_url="https://www.orbitera.com/" data-path="/" data-name="Orbitera" ></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="TensorFlow" ></div></form><a class="devsite-header-link devsite-top-button button gc-analytics-event"
+               
+               href="../../../../play.google.com/apps/publish/index.htm" tppabs="https://play.google.com/apps/publish/"
+               
+               data-category="Site-Wide Custom Events"
+               data-label="Site header link"
+               track-type="globalNav"
+               track-name="play_console"
+               track-metadata-position="nav"
+               track-metadata-eventDetail='nav'><div class="devsite-header-link-icon material-icons">
+                  play_arrow
+                </div><div class="devsite-header-link-label">play_console</div></a><button type="button" class="devsite-search-button devsite-header-icon-button button-flat
+                                       material-icons"></button></div></div></div><div class="devsite-collapsible-section"><div class="devsite-header-background devsite-full-site-width"><div class="devsite-product-id-row devsite-full-site-width"><div class="devsite-product-description-row"><ul class="devsite-breadcrumb-list"><li class="devsite-breadcrumb-item">
+    
+    
+    
+      Documentation
+    
+    
+  </li></ul></div></div><div class="devsite-doc-set-nav-row devsite-full-site-width"><nav class="devsite-doc-set-nav devsite-nav devsite-overflow-tabs-scroll-wrapper"><ul class="devsite-doc-set-nav-tab-list devsite-overflow-tabs-scroll"><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../docs/index.htm" tppabs="https://developer.android.google.cn/docs/"
+           class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Overview"
+         >
+          Overview
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../guide/index.htm" tppabs="https://developer.android.google.cn/guide/"
+           class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Guides"
+         >
+          Guides
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../index.htm" tppabs="https://developer.android.google.cn/reference/"
+           class="devsite-doc-set-nav-active devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           aria-label="Reference, selected"
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Reference"
+         >
+          Reference
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../samples/index.htm" tppabs="https://developer.android.google.cn/samples/"
+           class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Samples"
+         >
+          Samples
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="../../../design/index.htm" tppabs="https://developer.android.google.cn/design/"
+           class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+           
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Design &amp; Quality"
+         >
+          Design &amp; Quality
+        </a></li></ul></nav></div></div></div></header><script>
+    if (window.jQuery) {
+      $(document).ready(function() {
+        if (window.devsite && window.devsite.search) {
+          
+          window.devsite.search.init('en')
+        }
+      });
+    }
+  </script></div><div id="gc-wrapper"itemscope itemtype="http://schema.org/APIReference"><input class="google-analytics-id-json" type="hidden" value="{&quot;dimensions&quot;: {&quot;dimension6&quot;: &quot;en&quot;, &quot;dimension4&quot;: &quot;Android Developers&quot;, &quot;dimension5&quot;: &quot;en&quot;, &quot;dimension3&quot;: false, &quot;dimension1&quot;: &quot;Signed out&quot;, &quot;dimension8&quot;: null}, &quot;gaid&quot;: &quot;UA-5831155-3&quot;}"><input class="google-tag-manager-id" type="hidden" value="GTM-KMSWPCJ"><script>
+      var dataLayer = [{"freeTrialEligibleUser": "False", "userCountry": "CN", "language": {"requested": "en", "served": "en"}, "projectName": "Android Developers", "scriptsafe": null, "signedIn": "False", "internalUser": "False"}];
+    </script>
+
+      
+        <div class="devsite-site-mask"></div>
+        
+  
+
+
+<nav class="devsite-nav-responsive devsite-nav nocontent" tabindex="0">
+  
+  <div class="devsite-nav-responsive-tabs-panel">
+    
+      
+        
+
+
+
+<nav class="devsite-nav-responsive-tabs devsite-nav">
+  <ul class="devsite-nav-list">
+  
+
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../about/-nav=true" tppabs="https://developer.android.google.cn/about/?nav=true"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  "
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: Platform">
+          Platform
+        </a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../studio/-nav=true" tppabs="https://developer.android.google.cn/studio/?nav=true"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  "
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: Android Studio">
+          Android Studio
+        </a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../distribute/-nav=true" tppabs="https://developer.android.google.cn/distribute/?nav=true"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  "
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: Google Play">
+          Google Play
+        </a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../jetpack/-nav=true" tppabs="https://developer.android.google.cn/jetpack/?nav=true"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  "
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: Android Jetpack">
+          Android Jetpack
+        </a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../docs/-nav=true" tppabs="https://developer.android.google.cn/docs/?nav=true"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  devsite-nav-active"
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: Docs">
+          Docs
+        </a>
+      
+
+      
+
+      
+
+      
+        
+
+
+
+<nav class="devsite-nav-responsive-tabs devsite-nav">
+  <ul class="devsite-nav-list">
+  
+
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../docs/index.htm" tppabs="https://developer.android.google.cn/docs/"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  "
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: Overview">
+          Overview
+        </a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../guide/-nav=true" tppabs="https://developer.android.google.cn/guide/?nav=true"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  "
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: Guides">
+          Guides
+        </a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <span class="devsite-nav-responsive-forward devsite-nav-responsive-tab devsite-nav-title
+                     devsite-nav-active gc-analytics-event"
+              data-category="Site-Wide Custom Events" data-label="Responsive Tab: Reference"
+              tabindex="0">
+          Reference
+        </span>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../samples/index.htm" tppabs="https://developer.android.google.cn/samples/"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  "
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: Samples">
+          Samples
+        </a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../design/-nav=true" tppabs="https://developer.android.google.cn/design/?nav=true"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  "
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: Design &amp; Quality">
+          Design &amp; Quality
+        </a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      <a href="../../../../play.google.com/apps/publish/index.htm" tppabs="https://play.google.com/apps/publish/"
+         class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event"
+         data-category="Site-Wide Custom Events"
+         data-label="Responsive Tab: play_console">
+        play_console
+      </a>
+    </li>
+  
+  </ul>
+</nav>
+
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a 
+             href="../../../news/index.htm" tppabs="https://developer.android.google.cn/news/"
+           
+           class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  "
+           data-category="Site-Wide Custom Events" data-label="Responsive Tab: News">
+          News
+        </a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      <a href="../../../../play.google.com/apps/publish/index.htm" tppabs="https://play.google.com/apps/publish/"
+         class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event"
+         data-category="Site-Wide Custom Events"
+         data-label="Responsive Tab: play_console">
+        play_console
+      </a>
+    </li>
+  
+  </ul>
+</nav>
+
+
+      
+    
+  </div>
+  
+  
+  <div class="devsite-nav-responsive-sidebar-panel">
+    
+    <div class="devsite-nav-responsive-back" tabindex="0"></div>
+    
+    <nav class="devsite-nav-responsive-sidebar">
+      
+      
+    </nav>
+  </div>
+  
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+</nav>
+
+
+        <div class="devsite-main-content clearfix">
+
+        
+        
+          <div class="devsite-banner devsite-banner-announcement
+                    
+                      devsite-background devsite-background-grey
+                    ">
+            <div class="devsite-banner-inner">
+            Save the date! <a href="../../../dev-summit" tppabs="https://developer.android.google.cn/dev-summit">Android Dev Summit</a> is coming to Mountain View, CA on November 7-8, 2018.
+
+            </div>
+          </div>
+        
+
+        
+  
+  
+    
+    
+      
+  <nav class="devsite-section-nav devsite-nav nocontent">
+    <ul class="devsite-nav-list devsite-nav-list-mini"><li class="devsite-nav-item"><a href="../../index.htm" tppabs="https://developer.android.google.cn/reference/" class="devsite-nav-title">Overview</a></li><li class="devsite-nav-item"><span class="devsite-nav-title devsite-nav-title-no-path">Android Platform</span></li><li class="devsite-nav-item"><a href="../support/packages" tppabs="https://developer.android.google.cn/reference/android/support/packages" class="devsite-nav-title">Android Support Library</a></li><li class="devsite-nav-item"><a href="../../androidx/packages" tppabs="https://developer.android.google.cn/reference/androidx/packages" class="devsite-nav-title">AndroidX</a></li><li class="devsite-nav-item"><a href="../arch/packages" tppabs="https://developer.android.google.cn/reference/android/arch/packages" class="devsite-nav-title">Architecture Components</a></li><li class="devsite-nav-item"><a href="../car/packages" tppabs="https://developer.android.google.cn/reference/android/car/packages" class="devsite-nav-title">Android Automotive Library</a></li><li class="devsite-nav-item"><a href="../databinding/packages" tppabs="https://developer.android.google.cn/reference/android/databinding/packages" class="devsite-nav-title">Databinding Library</a></li><li class="devsite-nav-item"><a href="../support/constraint/packages" tppabs="https://developer.android.google.cn/reference/android/support/constraint/packages" class="devsite-nav-title">Constraint Layout Library</a></li><li class="devsite-nav-item"><a href="../../com/google/android/material/packages" tppabs="https://developer.android.google.cn/reference/com/google/android/material/packages" class="devsite-nav-title">Material Components</a></li><li class="devsite-nav-item"><a href="../support/test/packages" tppabs="https://developer.android.google.cn/reference/android/support/test/packages" class="devsite-nav-title">Test Support Library</a></li><li class="devsite-nav-item"><a href="../support/wearable/packages" tppabs="https://developer.android.google.cn/reference/android/support/wearable/packages" class="devsite-nav-title">Wearable Library</a></li><li class="devsite-nav-item"><a href="../../com/android/billingclient/packages" tppabs="https://developer.android.google.cn/reference/com/android/billingclient/packages" class="devsite-nav-title">Play Billing Library</a></li><li class="devsite-nav-item"><a href="../../com/google/android/play/core/packages" tppabs="https://developer.android.google.cn/reference/com/google/android/play/core/packages" class="devsite-nav-title">Play Core Library</a></li><li class="devsite-nav-item"><a href="../../com/android/installreferrer/packages" tppabs="https://developer.android.google.cn/reference/com/android/installreferrer/packages" class="devsite-nav-title">Play Install Referrer Library</a></li><li class="devsite-nav-item"><a href="../../com/google/android/things/packages" tppabs="https://developer.android.google.cn/reference/com/google/android/things/packages" class="devsite-nav-title">Android Things</a></li><li class="devsite-nav-item"><span class="devsite-nav-title devsite-nav-title-no-path">Kotlin API Reference (Preview)</span></li><li class="devsite-nav-item"><a href="../../kotlin/packages" tppabs="https://developer.android.google.cn/reference/kotlin/packages" class="devsite-nav-title">Android Platform</a></li><li class="devsite-nav-item"><a href="../../kotlin/androidx/packages" tppabs="https://developer.android.google.cn/reference/kotlin/androidx/packages" class="devsite-nav-title">AndroidX</a></li></ul>
+  </nav>
+
+    
+
+    
+  <nav class="devsite-page-nav devsite-nav"></nav>
+
+
+      <article class="devsite-article">
+        <article class="devsite-article-inner">
+  
+          
+  
+
+
+<div class="devsite-rating-container
+            "><div class="devsite-rating-stars"><div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+         data-rating-val="1" data-category="Site-Wide Custom Events" data-label="Star Rating 1"
+         track-metadata-score="1" track-type="feedback" track-name="rating"
+         track-metadata-position="header"
+         role="button"
+         
+         aria-label="Site content star ratings, rating 1 out of 5"></div><div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+         data-rating-val="2" data-category="Site-Wide Custom Events" data-label="Star Rating 2"
+         track-metadata-score="2" track-type="feedback" track-name="rating"
+         track-metadata-position="header"
+         role="button"
+         
+         aria-label="Site content star ratings, rating 2 out of 5"></div><div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+         data-rating-val="3" data-category="Site-Wide Custom Events" data-label="Star Rating 3"
+         track-metadata-score="3" track-type="feedback" track-name="rating"
+         track-metadata-position="header"
+         role="button"
+         
+         aria-label="Site content star ratings, rating 3 out of 5"></div><div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+         data-rating-val="4" data-category="Site-Wide Custom Events" data-label="Star Rating 4"
+         track-metadata-score="4" track-type="feedback" track-name="rating"
+         track-metadata-position="header"
+         role="button"
+         
+         aria-label="Site content star ratings, rating 4 out of 5"></div><div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+         data-rating-val="5" data-category="Site-Wide Custom Events" data-label="Star Rating 5"
+         track-metadata-score="5" track-type="feedback" track-name="rating"
+         track-metadata-position="header"
+         role="button"
+         
+         aria-label="Site content star ratings, rating 5 out of 5"></div></div><div class="devsite-rating-description"></div><div class="devsite-rating-internal"><span class="devsite-rating-stats"></span></div></div><script>
+  $(document).ready(function() {
+    devsite.ratings.init(
+      document.querySelectorAll('#devsite-feedback-project'), false
+      
+    );
+  });
+</script>
+
+
+  
+  <nav class="devsite-breadcrumb-nav devsite-nav">
+    
+
+
+
+
+<ul class="devsite-breadcrumb-list">
+  
+  <li class="devsite-breadcrumb-item">
+    
+    
+    <a href="../../../index.htm" tppabs="https://developer.android.google.cn/" class="devsite-breadcrumb-link gc-analytics-event"
+       data-category="Site-Wide Custom Events" data-label="Breadcrumbs"
+       data-value="1">
+    
+    
+      Android Developers
+    
+    
+    </a>
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item">
+    
+    
+    <div class="devsite-breadcrumb-guillemet material-icons"></div>
+    
+    
+    <a href="../../../docs/index.htm" tppabs="https://developer.android.google.cn/docs/" class="devsite-breadcrumb-link gc-analytics-event"
+       data-category="Site-Wide Custom Events" data-label="Breadcrumbs"
+       data-value="2">
+    
+    
+      Docs
+    
+    
+    </a>
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item">
+    
+    
+    <div class="devsite-breadcrumb-guillemet material-icons"></div>
+    
+    
+    <a href="../../index.htm" tppabs="https://developer.android.google.cn/reference/" class="devsite-breadcrumb-link gc-analytics-event"
+       data-category="Site-Wide Custom Events" data-label="Breadcrumbs"
+       data-value="3">
+    
+    
+      Reference
+    
+    
+    </a>
+    
+  </li>
+  
+</ul>
+
+  </nav>
+  
+  
+  
+  <nav class="devsite-page-nav-embedded devsite-nav"></nav>
+  
+  <div class="devsite-article-body clearfix
+            
+              devsite-no-page-title
+            "
+       itemprop="articleBody">
+    
+
+<div itemscope itemtype="http://developers.google.com/ReferenceObject">
+<!-- This DIV closes at the end of the BODY -->
+  <meta itemprop="name" content="android.graphics.ImageDecoder.OnHeaderDecodedListener" />
+  <meta itemprop="path" content="API level 28" />
+
+
+
+<div id="naMessage"></div>
+
+<div id="api-info-block">
+<div class="api-level">
+  
+    added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels" tppabs="https://developer.android.google.cn/guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 28</a>
+  
+  
+  
+  
+
+</div>
+
+
+
+
+<div class="sum-details-links">
+
+</div><!-- end sum-details-links -->
+</div><!-- end api-info-block -->
+
+<div id="jd-content" data-version-added="28" >
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<h1 class="api-title">ImageDecoder.OnHeaderDecodedListener</h1>
+<p>
+<code class="api-signature">
+  public
+  static
+  
+  
+  interface
+  ImageDecoder.OnHeaderDecodedListener
+</code>
+<br>
+
+
+<code class="api-signature">
+  
+  
+  
+</code>
+
+</p><table class="jd-inheritance-table">
+
+
+  <tr>
+    
+    <td colspan="1" class="jd-inheritance-class-cell">android.graphics.ImageDecoder.OnHeaderDecodedListener
+    </td>
+  </tr>
+  
+
+</table>
+  
+
+    
+
+<br><hr>
+
+
+  <p>Interface for changing the default settings of a decode.
+
+  <p>Supply an instance to
+  <code><a href="ImageDecoder#decodeDrawable(android.graphics.ImageDecoder.Source,%20android.graphics.ImageDecoder.OnHeaderDecodedListener)" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.html#decodeDrawable(android.graphics.ImageDecoder.Source,%20android.graphics.ImageDecoder.OnHeaderDecodedListener)">decodeDrawable</a></code>
+  or <code><a href="ImageDecoder#decodeBitmap(android.graphics.ImageDecoder.Source,%20android.graphics.ImageDecoder.OnHeaderDecodedListener)" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.html#decodeBitmap(android.graphics.ImageDecoder.Source,%20android.graphics.ImageDecoder.OnHeaderDecodedListener)">decodeBitmap</a></code>,
+  which will call <code><a href="ImageDecoder.OnHeaderDecodedListener#onHeaderDecoded(android.graphics.ImageDecoder,%20android.graphics.ImageDecoder.ImageInfo,%20android.graphics.ImageDecoder.Source)" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener.html#onHeaderDecoded(android.graphics.ImageDecoder,%20android.graphics.ImageDecoder.ImageInfo,%20android.graphics.ImageDecoder.Source)">onHeaderDecoded</a></code>
+  (in the same thread) once the size is known. The implementation of
+  <code><a href="ImageDecoder.OnHeaderDecodedListener#onHeaderDecoded(android.graphics.ImageDecoder,%20android.graphics.ImageDecoder.ImageInfo,%20android.graphics.ImageDecoder.Source)" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener.html#onHeaderDecoded(android.graphics.ImageDecoder,%20android.graphics.ImageDecoder.ImageInfo,%20android.graphics.ImageDecoder.Source)">onHeaderDecoded</a></code> can then
+  change the decode settings as desired.
+</p>
+
+
+
+
+
+
+
+
+
+<h2 class="api-section">Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="responsive methods">
+<tr><th colspan="2"><h3>Public methods</h3></th></tr>
+
+
+
+  <tr data-version-added="28" >
+  
+  
+    <td><code>
+        abstract
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="ImageDecoder.OnHeaderDecodedListener#onHeaderDecoded(android.graphics.ImageDecoder,%20android.graphics.ImageDecoder.ImageInfo,%20android.graphics.ImageDecoder.Source)" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener.html#onHeaderDecoded(android.graphics.ImageDecoder,%20android.graphics.ImageDecoder.ImageInfo,%20android.graphics.ImageDecoder.Source)">onHeaderDecoded</a>(<a href="ImageDecoder" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.html">ImageDecoder</a> decoder, <a href="ImageDecoder.ImageInfo" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.ImageInfo.html">ImageDecoder.ImageInfo</a> info, <a href="ImageDecoder.Source" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.Source.html">ImageDecoder.Source</a> source)
+      </code>
+      
+        <p>Called by <code><a href="ImageDecoder" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.html">ImageDecoder</a></code> when the header has been decoded and
+  the image size is known.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+
+</table>
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2 class="api-section">Public methods</h2>
+
+
+<div data-version-added="28">
+    <h3 class="api-name" id="onHeaderDecoded(android.graphics.ImageDecoder,%20android.graphics.ImageDecoder.ImageInfo,%20android.graphics.ImageDecoder.Source)">onHeaderDecoded</h3>
+    <div class="api-level">
+      <div>
+    added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels" tppabs="https://developer.android.google.cn/guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 28</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+public abstract void onHeaderDecoded (<a href="ImageDecoder" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.html">ImageDecoder</a> decoder, 
+                <a href="ImageDecoder.ImageInfo" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.ImageInfo.html">ImageDecoder.ImageInfo</a> info, 
+                <a href="ImageDecoder.Source" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.Source.html">ImageDecoder.Source</a> source)</pre>
+    
+    
+
+    
+  <p>Called by <code><a href="ImageDecoder" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.html">ImageDecoder</a></code> when the header has been decoded and
+  the image size is known.</p></p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>decoder</code></td>
+        <td width="100%">
+          <code>ImageDecoder</code>: the object performing the decode, for changing
+      its default settings.<p>This value must never be <code>null</code>.</p></td>
+      </tr>
+      <tr>
+        <td><code>info</code></td>
+        <td width="100%">
+          <code>ImageDecoder.ImageInfo</code>: information about the encoded image.<p>This value must never be <code>null</code>.</p></td>
+      </tr>
+      <tr>
+        <td><code>source</code></td>
+        <td width="100%">
+          <code>ImageDecoder.Source</code>: object that created <code>decoder</code>.
+<p>This value must never be <code>null</code>.</p></td>
+      </tr>
+    </table>
+
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+
+</div><!-- end jd-content -->
+
+
+
+<div class="data-reference-resources-wrapper">
+  
+  <ul data-reference-resources>
+    
+    
+    <li><h2 class="hide-from-toc">Interfaces</h2>
+      <ul>
+          <li class="selected"><a href="ImageDecoder.OnHeaderDecodedListener" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener.html">ImageDecoder.OnHeaderDecodedListener</a></li>
+          <li><a href="ImageDecoder.OnPartialImageListener" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.OnPartialImageListener.html">ImageDecoder.OnPartialImageListener</a></li>
+          <li><a href="PostProcessor" tppabs="https://developer.android.google.cn/reference/android/graphics/PostProcessor.html">PostProcessor</a></li>
+          <li><a href="SurfaceTexture.OnFrameAvailableListener" tppabs="https://developer.android.google.cn/reference/android/graphics/SurfaceTexture.OnFrameAvailableListener.html">SurfaceTexture.OnFrameAvailableListener</a></li>
+      </ul>
+    </li>
+    
+    <li><h2 class="hide-from-toc">Classes</h2>
+      <ul>
+          <li><a href="Bitmap" tppabs="https://developer.android.google.cn/reference/android/graphics/Bitmap.html">Bitmap</a></li>
+          <li><a href="BitmapFactory" tppabs="https://developer.android.google.cn/reference/android/graphics/BitmapFactory.html">BitmapFactory</a></li>
+          <li><a href="BitmapFactory.Options" tppabs="https://developer.android.google.cn/reference/android/graphics/BitmapFactory.Options.html">BitmapFactory.Options</a></li>
+          <li><a href="BitmapRegionDecoder" tppabs="https://developer.android.google.cn/reference/android/graphics/BitmapRegionDecoder.html">BitmapRegionDecoder</a></li>
+          <li><a href="BitmapShader" tppabs="https://developer.android.google.cn/reference/android/graphics/BitmapShader.html">BitmapShader</a></li>
+          <li><a href="BlurMaskFilter" tppabs="https://developer.android.google.cn/reference/android/graphics/BlurMaskFilter.html">BlurMaskFilter</a></li>
+          <li><a href="Camera" tppabs="https://developer.android.google.cn/reference/android/graphics/Camera.html">Camera</a></li>
+          <li><a href="Canvas" tppabs="https://developer.android.google.cn/reference/android/graphics/Canvas.html">Canvas</a></li>
+          <li><a href="Color" tppabs="https://developer.android.google.cn/reference/android/graphics/Color.html">Color</a></li>
+          <li><a href="ColorFilter" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorFilter.html">ColorFilter</a></li>
+          <li><a href="ColorMatrix" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorMatrix.html">ColorMatrix</a></li>
+          <li><a href="ColorMatrixColorFilter" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorMatrixColorFilter.html">ColorMatrixColorFilter</a></li>
+          <li><a href="ColorSpace" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorSpace.html">ColorSpace</a></li>
+          <li><a href="ColorSpace.Connector" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorSpace.Connector.html">ColorSpace.Connector</a></li>
+          <li><a href="ColorSpace.Rgb" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorSpace.Rgb.html">ColorSpace.Rgb</a></li>
+          <li><a href="ColorSpace.Rgb.TransferParameters" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorSpace.Rgb.TransferParameters.html">ColorSpace.Rgb.TransferParameters</a></li>
+          <li><a href="ComposePathEffect" tppabs="https://developer.android.google.cn/reference/android/graphics/ComposePathEffect.html">ComposePathEffect</a></li>
+          <li><a href="ComposeShader" tppabs="https://developer.android.google.cn/reference/android/graphics/ComposeShader.html">ComposeShader</a></li>
+          <li><a href="CornerPathEffect" tppabs="https://developer.android.google.cn/reference/android/graphics/CornerPathEffect.html">CornerPathEffect</a></li>
+          <li><a href="DashPathEffect" tppabs="https://developer.android.google.cn/reference/android/graphics/DashPathEffect.html">DashPathEffect</a></li>
+          <li><a href="DiscretePathEffect" tppabs="https://developer.android.google.cn/reference/android/graphics/DiscretePathEffect.html">DiscretePathEffect</a></li>
+          <li><a href="DrawFilter" tppabs="https://developer.android.google.cn/reference/android/graphics/DrawFilter.html">DrawFilter</a></li>
+          <li><a href="EmbossMaskFilter" tppabs="https://developer.android.google.cn/reference/android/graphics/EmbossMaskFilter.html">EmbossMaskFilter</a></li>
+          <li><a href="ImageDecoder" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.html">ImageDecoder</a></li>
+          <li><a href="ImageDecoder.ImageInfo" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.ImageInfo.html">ImageDecoder.ImageInfo</a></li>
+          <li><a href="ImageDecoder.Source" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.Source.html">ImageDecoder.Source</a></li>
+          <li><a href="ImageFormat" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageFormat.html">ImageFormat</a></li>
+          <li><a href="Interpolator" tppabs="https://developer.android.google.cn/reference/android/graphics/Interpolator.html">Interpolator</a></li>
+          <li><a href="LightingColorFilter" tppabs="https://developer.android.google.cn/reference/android/graphics/LightingColorFilter.html">LightingColorFilter</a></li>
+          <li><a href="LinearGradient" tppabs="https://developer.android.google.cn/reference/android/graphics/LinearGradient.html">LinearGradient</a></li>
+          <li><a href="MaskFilter" tppabs="https://developer.android.google.cn/reference/android/graphics/MaskFilter.html">MaskFilter</a></li>
+          <li><a href="Matrix" tppabs="https://developer.android.google.cn/reference/android/graphics/Matrix.html">Matrix</a></li>
+          <li><a href="Movie" tppabs="https://developer.android.google.cn/reference/android/graphics/Movie.html">Movie</a></li>
+          <li><a href="NinePatch" tppabs="https://developer.android.google.cn/reference/android/graphics/NinePatch.html">NinePatch</a></li>
+          <li><a href="Outline" tppabs="https://developer.android.google.cn/reference/android/graphics/Outline.html">Outline</a></li>
+          <li><a href="Paint" tppabs="https://developer.android.google.cn/reference/android/graphics/Paint.html">Paint</a></li>
+          <li><a href="Paint.FontMetrics" tppabs="https://developer.android.google.cn/reference/android/graphics/Paint.FontMetrics.html">Paint.FontMetrics</a></li>
+          <li><a href="Paint.FontMetricsInt" tppabs="https://developer.android.google.cn/reference/android/graphics/Paint.FontMetricsInt.html">Paint.FontMetricsInt</a></li>
+          <li><a href="PaintFlagsDrawFilter" tppabs="https://developer.android.google.cn/reference/android/graphics/PaintFlagsDrawFilter.html">PaintFlagsDrawFilter</a></li>
+          <li><a href="Path" tppabs="https://developer.android.google.cn/reference/android/graphics/Path.html">Path</a></li>
+          <li><a href="PathDashPathEffect" tppabs="https://developer.android.google.cn/reference/android/graphics/PathDashPathEffect.html">PathDashPathEffect</a></li>
+          <li><a href="PathEffect" tppabs="https://developer.android.google.cn/reference/android/graphics/PathEffect.html">PathEffect</a></li>
+          <li><a href="PathMeasure" tppabs="https://developer.android.google.cn/reference/android/graphics/PathMeasure.html">PathMeasure</a></li>
+          <li><a href="Picture" tppabs="https://developer.android.google.cn/reference/android/graphics/Picture.html">Picture</a></li>
+          <li><a href="PixelFormat" tppabs="https://developer.android.google.cn/reference/android/graphics/PixelFormat.html">PixelFormat</a></li>
+          <li><a href="Point" tppabs="https://developer.android.google.cn/reference/android/graphics/Point.html">Point</a></li>
+          <li><a href="PointF" tppabs="https://developer.android.google.cn/reference/android/graphics/PointF.html">PointF</a></li>
+          <li><a href="PorterDuff" tppabs="https://developer.android.google.cn/reference/android/graphics/PorterDuff.html">PorterDuff</a></li>
+          <li><a href="PorterDuffColorFilter" tppabs="https://developer.android.google.cn/reference/android/graphics/PorterDuffColorFilter.html">PorterDuffColorFilter</a></li>
+          <li><a href="PorterDuffXfermode" tppabs="https://developer.android.google.cn/reference/android/graphics/PorterDuffXfermode.html">PorterDuffXfermode</a></li>
+          <li><a href="RadialGradient" tppabs="https://developer.android.google.cn/reference/android/graphics/RadialGradient.html">RadialGradient</a></li>
+          <li><a href="Rect" tppabs="https://developer.android.google.cn/reference/android/graphics/Rect.html">Rect</a></li>
+          <li><a href="RectF" tppabs="https://developer.android.google.cn/reference/android/graphics/RectF.html">RectF</a></li>
+          <li><a href="Region" tppabs="https://developer.android.google.cn/reference/android/graphics/Region.html">Region</a></li>
+          <li><a href="RegionIterator" tppabs="https://developer.android.google.cn/reference/android/graphics/RegionIterator.html">RegionIterator</a></li>
+          <li><a href="Shader" tppabs="https://developer.android.google.cn/reference/android/graphics/Shader.html">Shader</a></li>
+          <li><a href="SumPathEffect" tppabs="https://developer.android.google.cn/reference/android/graphics/SumPathEffect.html">SumPathEffect</a></li>
+          <li><a href="SurfaceTexture" tppabs="https://developer.android.google.cn/reference/android/graphics/SurfaceTexture.html">SurfaceTexture</a></li>
+          <li><a href="SweepGradient" tppabs="https://developer.android.google.cn/reference/android/graphics/SweepGradient.html">SweepGradient</a></li>
+          <li><a href="Typeface" tppabs="https://developer.android.google.cn/reference/android/graphics/Typeface.html">Typeface</a></li>
+          <li><a href="Typeface.Builder" tppabs="https://developer.android.google.cn/reference/android/graphics/Typeface.Builder.html">Typeface.Builder</a></li>
+          <li><a href="Xfermode" tppabs="https://developer.android.google.cn/reference/android/graphics/Xfermode.html">Xfermode</a></li>
+          <li><a href="YuvImage" tppabs="https://developer.android.google.cn/reference/android/graphics/YuvImage.html">YuvImage</a></li>
+      </ul>
+    </li>
+    
+    <li><h2 class="hide-from-toc">Enums</h2>
+      <ul>
+          <li><a href="Bitmap.CompressFormat" tppabs="https://developer.android.google.cn/reference/android/graphics/Bitmap.CompressFormat.html">Bitmap.CompressFormat</a></li>
+          <li><a href="Bitmap.Config" tppabs="https://developer.android.google.cn/reference/android/graphics/Bitmap.Config.html">Bitmap.Config</a></li>
+          <li><a href="BlurMaskFilter.Blur" tppabs="https://developer.android.google.cn/reference/android/graphics/BlurMaskFilter.Blur.html">BlurMaskFilter.Blur</a></li>
+          <li><a href="Canvas.EdgeType" tppabs="https://developer.android.google.cn/reference/android/graphics/Canvas.EdgeType.html">Canvas.EdgeType</a></li>
+          <li><a href="Canvas.VertexMode" tppabs="https://developer.android.google.cn/reference/android/graphics/Canvas.VertexMode.html">Canvas.VertexMode</a></li>
+          <li><a href="ColorSpace.Adaptation" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorSpace.Adaptation.html">ColorSpace.Adaptation</a></li>
+          <li><a href="ColorSpace.Model" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorSpace.Model.html">ColorSpace.Model</a></li>
+          <li><a href="ColorSpace.Named" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorSpace.Named.html">ColorSpace.Named</a></li>
+          <li><a href="ColorSpace.RenderIntent" tppabs="https://developer.android.google.cn/reference/android/graphics/ColorSpace.RenderIntent.html">ColorSpace.RenderIntent</a></li>
+          <li><a href="Interpolator.Result" tppabs="https://developer.android.google.cn/reference/android/graphics/Interpolator.Result.html">Interpolator.Result</a></li>
+          <li><a href="Matrix.ScaleToFit" tppabs="https://developer.android.google.cn/reference/android/graphics/Matrix.ScaleToFit.html">Matrix.ScaleToFit</a></li>
+          <li><a href="Paint.Align" tppabs="https://developer.android.google.cn/reference/android/graphics/Paint.Align.html">Paint.Align</a></li>
+          <li><a href="Paint.Cap" tppabs="https://developer.android.google.cn/reference/android/graphics/Paint.Cap.html">Paint.Cap</a></li>
+          <li><a href="Paint.Join" tppabs="https://developer.android.google.cn/reference/android/graphics/Paint.Join.html">Paint.Join</a></li>
+          <li><a href="Paint.Style" tppabs="https://developer.android.google.cn/reference/android/graphics/Paint.Style.html">Paint.Style</a></li>
+          <li><a href="Path.Direction" tppabs="https://developer.android.google.cn/reference/android/graphics/Path.Direction.html">Path.Direction</a></li>
+          <li><a href="Path.FillType" tppabs="https://developer.android.google.cn/reference/android/graphics/Path.FillType.html">Path.FillType</a></li>
+          <li><a href="Path.Op" tppabs="https://developer.android.google.cn/reference/android/graphics/Path.Op.html">Path.Op</a></li>
+          <li><a href="PathDashPathEffect.Style" tppabs="https://developer.android.google.cn/reference/android/graphics/PathDashPathEffect.Style.html">PathDashPathEffect.Style</a></li>
+          <li><a href="PorterDuff.Mode" tppabs="https://developer.android.google.cn/reference/android/graphics/PorterDuff.Mode.html">PorterDuff.Mode</a></li>
+          <li><a href="Region.Op" tppabs="https://developer.android.google.cn/reference/android/graphics/Region.Op.html">Region.Op</a></li>
+          <li><a href="Shader.TileMode" tppabs="https://developer.android.google.cn/reference/android/graphics/Shader.TileMode.html">Shader.TileMode</a></li>
+      </ul>
+    </li>
+    
+    <li><h2 class="hide-from-toc">Exceptions</h2>
+      <ul>
+          <li><a href="ImageDecoder.DecodeException" tppabs="https://developer.android.google.cn/reference/android/graphics/ImageDecoder.DecodeException.html">ImageDecoder.DecodeException</a></li>
+          <li><a href="SurfaceTexture.OutOfResourcesException" tppabs="https://developer.android.google.cn/reference/android/graphics/SurfaceTexture.OutOfResourcesException.html">SurfaceTexture.OutOfResourcesException</a></li>
+      </ul>
+    </li>
+    
+  </ul>
+  
+</div>
+
+
+
+</div><!-- end devsite ReferenceObject -->
+
+  </div>
+  
+
+  
+        
+  
+
+
+
+
+
+
+
+        
+<div class="devsite-content-footer nocontent">
+  
+  
+    <p>Content and code samples on this page are subject to the licenses described in the <a href="../../../license" tppabs="https://developer.android.google.cn/license">Content License</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+  
+
+  
+    
+    <p class="devsite-content-footer-date" itemprop="datePublished"
+       content="2018-06-06T16:09:55.565390">
+      
+      Last updated June 6, 2018.
+    </p>
+  
+
+</div>
+
+        </article>
+      </article>
+  
+
+        </div>
+      
+
+<footer class="devsite-footer-promos nocontent"><nav class="devsite-full-site-width"><ul class="devsite-footer-promos-list"><li class="devsite-footer-promo"><a href="../../../../developers.google.cn/china/index.htm#follow-google-developers-on-wechat" tppabs="https://developers.google.cn/china/#follow-google-developers-on-wechat"
+           class="devsite-footer-promo-title gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer WeChat Promo"
+           
+           data-modal-toggle="wechat"
+           ><img class="devsite-footer-promo-icon" src="../../../static/images/footer/logo-wechat.png" tppabs="https://developer.android.google.cn/static/images/footer/logo-wechat.png">
+          
+          
+            WeChat
+          
+        </a><div class="devsite-footer-promo-description">Follow Google Developers on WeChat</div></li><li class="devsite-footer-promo"><a href="../../../../twitter.com/AndroidDev" tppabs="https://twitter.com/AndroidDev"
+           class="devsite-footer-promo-title gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Twitter Promo"
+           ><img class="devsite-footer-promo-icon" src="../../../static/images/footer/logo-twitter.svg" tppabs="https://developer.android.google.cn/static/images/footer/logo-twitter.svg">
+          
+          
+            Twitter
+          
+        </a><div class="devsite-footer-promo-description">Follow @AndroidDev on Twitter</div></li><li class="devsite-footer-promo"><a href="../../../../plus.google.com/+AndroidDevelopers" tppabs="https://plus.google.com/+AndroidDevelopers"
+           class="devsite-footer-promo-title gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Google+ Promo"
+           ><img class="devsite-footer-promo-icon" src="../../../../www.gstatic.cn/images/branding/product/2x/google_plus_48dp.png" tppabs="https://www.gstatic.cn/images/branding/product/2x/google_plus_48dp.png">
+          
+          
+            Google+
+          
+        </a><div class="devsite-footer-promo-description">Follow Android Developers on Google+</div></li><li class="devsite-footer-promo"><a href="../../../../www.youtube.com/user/androiddevelopers" tppabs="https://www.youtube.com/user/androiddevelopers"
+           class="devsite-footer-promo-title gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer YouTube Promo"
+           ><img class="devsite-footer-promo-icon" src="../../../../www.gstatic.cn/images/icons/material/product/2x/youtube_48dp.png" tppabs="https://www.gstatic.cn/images/icons/material/product/2x/youtube_48dp.png">
+          
+          
+            YouTube
+          
+        </a><div class="devsite-footer-promo-description">Check out Android Developers on YouTube</div></li></ul></nav></footer><footer class="devsite-footer-linkboxes nocontent
+               devsite-footer-linkboxes-all-backup
+               devsite-footer-linkboxes-with-sites"><nav class="devsite-full-site-width"><ul class="devsite-footer-linkboxes-list"><li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3 class="devsite-footer-linkbox-heading">More Android</h3><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="../../../../www.android.com/index.htm" tppabs="https://www.android.com/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Link"
+               >
+                Android
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../www.android.com/enterprise/index.htm" tppabs="https://www.android.com/enterprise/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Enterprise Link"
+               >
+                Enterprise
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../www.android.com/security-center/index.htm" tppabs="https://www.android.com/security-center/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Security Link"
+               >
+                Security
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../source.android.google.cn/index.htm" tppabs="https://source.android.google.cn/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Open Source Link"
+               >
+                Source
+            </a></li></ul></li><li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3 class="devsite-footer-linkbox-heading">Support</h3><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="../../../../issuetracker.google.com/issues/new-component=190923&template=841312" tppabs="https://issuetracker.google.com/issues/new?component=190923&template=841312"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Report Android Bug Link"
+               >
+                Report platform bug
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../issuetracker.google.com/issues/new-component=192697" tppabs="https://issuetracker.google.com/issues/new?component=192697"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Report Android Doc Bug Link"
+               >
+                Report documentation bug
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../support.google.com/googleplay/android-developer" tppabs="https://support.google.com/googleplay/android-developer"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Google Play Support Link"
+               >
+                Google Play support
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../docs.google.com/forms/d/e/1FAIpQLSf27XIxoFmNpTjTYdk-m1uKWGqEnd7_4C_E1AD5fdCfyTBWNA/fi000001.com" tppabs="https://docs.google.com/forms/d/e/1FAIpQLSf27XIxoFmNpTjTYdk-m1uKWGqEnd7_4C_E1AD5fdCfyTBWNA/viewform?usp=pp_url&entry.1909689089&entry.208743710&entry.408796755&entry.1341430893&entry.594931249&entry.1640656812&entry.1759804042&entry.1441312344=developer.android.com"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer User Studies Link"
+               >
+                Join user studies
+            </a></li></ul></li><li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3 class="devsite-footer-linkbox-heading">Documentation</h3><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="../../../guide/index.htm" tppabs="https://developer.android.google.cn/guide/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Dev Guides Link"
+               >
+                Developer guides
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../design/index.htm" tppabs="https://developer.android.google.cn/design/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Dev Design Guides"
+               >
+                Design guides
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../index.htm" tppabs="https://developer.android.google.cn/reference/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Dev API Ref Link"
+               >
+                API reference
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../samples/index.htm" tppabs="https://developer.android.google.cn/samples/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Dev Samples Link"
+               >
+                Samples
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../studio/intro/index.htm" tppabs="https://developer.android.google.cn/studio/intro/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Studio Link"
+               >
+                Android Studio
+            </a></li></ul></li><li class="devsite-footer-linkbox devsite-footer-linkbox-sites"><a href="../../../../developers.google.cn/index.htm" tppabs="https://developers.google.cn/"
+           class="gc-analytics-event devsite-footer-linkbox-logo-link"
+           data-category="Site-Wide Custom Events" data-label="Footer Google Developers Link"><img class="devsite-footer-linkbox-logo"
+               src="../../../_static/c7daf5a92f/images/redesign-14/lockup-color-knockout.png" tppabs="https://developer.android.google.cn/_static/c7daf5a92f/images/redesign-14/lockup-color-knockout.png"
+               alt="Google Developers"></a><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="../../../index.html" tppabs="https://developer.android.google.cn/index.html"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Android Link"
+               >
+                Android
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../developer.chrome.com/home" tppabs="https://developer.chrome.com/home"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Chrome Link"
+               >
+                Chrome
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../firebase.google.cn/index.htm" tppabs="https://firebase.google.cn/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Firebase Link"
+               >
+                Firebase
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../cloud.google.com/index.htm" tppabs="https://cloud.google.com/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Cloud Link"
+               >
+                Google Cloud Platform
+            </a></li><li class="devsite-footer-linkbox-item"><a href="../../../../developers.google.cn/products/index.htm" tppabs="https://developers.google.cn/products/"
+               class="gc-analytics-event"
+               data-category="Site-Wide Custom Events"
+               data-label="Footer Products Link"
+               >
+                All Products
+            </a></li></ul></li></ul></nav></footer><footer class="devsite-utility-footer"><nav class="devsite-utility-footer-nav devsite-nav devsite-full-site-width"><div class="devsite-utility-footer-nav-left"><form class="devsite-utility-footer-language" action="https://developer.android.google.cn/i18n/setlang/"
+            method="post"><input type="hidden" name="xsrf_token" value="1FwMeZh6uScNBYrwgnRv1_7aEu17w6lN5ZBcvfkn1fk6MTUzNzUyMzY2OTYwMTM4MQ" /><input type="hidden" name="next" value="/reference/android/graphics/ImageDecoder.OnHeaderDecodedListener"><select class="devsite-utility-footer-language-select kd-select" name="language"
+                track-type="languageSelector" track-name="click"><option value="id"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="id">
+            Bahasa Indonesia
+          </option><option value="de"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="de">
+            Deutsch
+          </option><option value="en"
+                 selected="selected" 
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="en">
+            English
+          </option><option value="es"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="es">
+            español
+          </option><option value="es-419"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="es-419">
+            Español (América Latina)
+          </option><option value="fr"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="fr">
+            français
+          </option><option value="pt-br"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="pt-br">
+            Português Brasileiro
+          </option><option value="vi"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="vi">
+            Tiếng Việt
+          </option><option value="tr"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="tr">
+            Türkçe
+          </option><option value="ru"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="ru">
+            Русский
+          </option><option value="th"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="th">
+            ภาษาไทย
+          </option><option value="ja"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="ja">
+            日本語
+          </option><option value="zh-cn"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="zh-cn">
+            简体中文
+          </option><option value="zh-tw"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="zh-tw">
+            繁體中文
+          </option><option value="ko"
+                
+                track-type="languageSelector" track-name="changed"
+                track-metadata-original-language="en"
+                track-metadata-selected-language="ko">
+            한국어
+          </option></select></form><span class="devsite-utility-footer-links"><a class="devsite-utility-footer-link gc-analytics-event"
+           href="../../../../policies.google.cn/privacy" tppabs="https://policies.google.cn/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer privacy link"
+           data-footer-link-id="privacy"
+           
+           data-cookie-policy="//policies.google.cn/technologies/cookies"
+           >Privacy
+         </a><a class="devsite-utility-footer-link gc-analytics-event"
+           href="../../../license" tppabs="https://developer.android.google.cn/license"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer license link"
+           data-footer-link-id="license"
+           >License
+         </a><a class="devsite-utility-footer-link gc-analytics-event"
+           href="../../../distribute/marketing-tools/brand-guidelines" tppabs="https://developer.android.google.cn/distribute/marketing-tools/brand-guidelines"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer brand_guidelines link"
+           data-footer-link-id="brand_guidelines"
+           >Brand Guidelines
+         </a></span></div></nav></footer></div><script async defer src="../../../../www.gstatic.com/feedback/api.js" tppabs="https://www.gstatic.com/feedback/api.js"></script><script src="../../../_static2/c7daf5a92f/jsi18n/index.htm" tppabs="https://developer.android.google.cn/_static2/c7daf5a92f/jsi18n/"></script><script src="../../../_static/c7daf5a92f/js/script_foot_closure.js" tppabs="https://developer.android.google.cn/_static/c7daf5a92f/js/script_foot_closure.js"></script><script src="../../../_static/c7daf5a92f/js/script_foot.js" tppabs="https://developer.android.google.cn/_static/c7daf5a92f/js/script_foot.js"></script><script>var METADATA = {};</script><script src="../../../irina_metadata_en.js-v=2018092109" tppabs="https://developer.android.google.cn/irina_metadata_en.js?v=2018092109"></script><script src="../../../replace_youtube_metadata.js-v=2018092109" tppabs="https://developer.android.google.cn/replace_youtube_metadata.js?v=2018092109"></script><script src="../../../_static/c7daf5a92f/js/managed/dynamic-content-widget.js" tppabs="https://developer.android.google.cn/_static/c7daf5a92f/js/managed/dynamic-content-widget.js"></script><script>
+        (function($) {
+          
+          devsite.devsite.Init($, {'ENABLE_BLOCKED_VIDEO_PLACEHOLDER': 1, 'SITE_NAME': 'irina_china', 'FULL_SITE_SEARCH_ENABLED': 0, 'ENABLE_CLOUDTRACK': 0, 'VTAGS_ENABLED': 0, 'HISTORY_ENABLED': 0, 'SIDEBAR_MINI_ENABLED': 1, 'VERSION_HASH': 'c7daf5a92f', 'SCRIPTSAFE_DOMAIN': '../../../reference-placeholder'/*tpa=https://developer.android.google.cn/reference/android/graphics/android-dot-google-developers.gonglchuangl.net*/, 'ENABLE_BLOCKED_LINK_TOOLTIP': 1, 'ALLOWED_HOSTS': ['../../../reference-placeholder'/*tpa=https://developer.android.google.cn/reference/android/graphics/.android.com*/, '../../../reference-placeholder'/*tpa=https://developer.android.google.cn/reference/android/graphics/.appspot.com*/, '../../../reference-placeholder'/*tpa=https://developer.android.google.cn/reference/android/graphics/.gonglchuangl.net*/, '../../../reference-placeholder'/*tpa=https://developer.android.google.cn/reference/android/graphics/.google.cn*/, '../../../reference-placeholder'/*tpa=https://developer.android.google.cn/reference/android/graphics/.google.com*/, '../../../reference-placeholder'/*tpa=https://developer.android.google.cn/reference/android/graphics/.googleplex.com*/, '../../../reference-placeholder'/*tpa=https://developer.android.google.cn/reference/android/graphics/.tensorflow.org*/, '../../../reference-placeholder'/*tpa=https://developer.android.google.cn/reference/android/graphics/.devsitetest.how*/], 'BLOCK_RSS_FEEDS': 1},
+                               '[]','en',
+                               true, '',
+                               {"f62218c009ec029abef196bba5aa34cf": true, "8de7a048f21618359bd37f5ce44be073": false, "098dafe57affddc137df300142652cfd": false, "8e03e230de0bd8a6fe173fdf172e8b3f": true, "cb025a64a50094835616312f4774a53d": true, "51470233c56fc1fde50f00b73c52b216": false, "d169d485cf24243a263783dbe42029b1": true, "039e5d84b87fd75807ffb37b7f1bbf2c": true, "700def1a83e356c06c0925afb05de4b0": false, "6749dcb526ce9bde6993550c7d928d24": true}, '/',
+                               'https://developer.android.google.cn/');
+        })(jQuery);
+
+        
+        devsite.localInit = function() {
+          
+        };
+
+      </script><script>
+      $('.devsite-utility-footer-language-select').each(function() {
+        $(this).change(function(){$('.devsite-utility-footer-language').submit();});
+      });
+      </script></div><span id="devsite-request-elapsed" data-request-elapsed="771.729946136"></span></body></html>
