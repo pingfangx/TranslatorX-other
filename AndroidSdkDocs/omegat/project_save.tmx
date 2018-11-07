@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(When you specify an ID to an XML resource using the plus sign—in the format &lt;c2&gt;android:id="@+id/name"&lt;/c2&gt;—it means that the "name" ID does not exist and should be created.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071007Z" creationid="pingfangx" creationdate="20181107T071007Z">
+        <seg>(当您使用加号为 XML 资源指定 ID 时，格式为 &lt;c2&gt;android:id="@+id/name"&lt;/c2&gt;  - 这意味着 "name" ID 不存在且应该被创造。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(e.g. &lt;c1&gt;&lt;a2&gt;getAdapterPosition()&lt;/a2&gt;&lt;/c1&gt;, &lt;c3&gt;&lt;a4&gt;findViewHolderForAdapterPosition(int)&lt;/a4&gt;&lt;/c3&gt;) You should use these methods when you need to work with up-to-date adapter positions even if they may not have been reflected to layout yet.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -4549,6 +4557,62 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; A bool is a simple resource that is referenced using the value provided in the &lt;c1&gt;name&lt;/c1&gt; attribute (not the name of the XML file).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061752Z" creationid="pingfangx" creationdate="20181107T061752Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; bool 是一个简单的资源，使用 &lt;c1&gt;name&lt;/c1&gt; 属性中提供的值(不是 XML 文件的名称)引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; A color is a simple resource that is referenced using the value provided in the &lt;c1&gt;name&lt;/c1&gt; attribute (not the name of the XML file).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063339Z" creationid="pingfangx" creationdate="20181107T063339Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; 颜色是使用 &lt;c1&gt;name&lt;/c1&gt; 属性(不是 XML 文件的名称)中提供的值引用的简单资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; A dimension is a simple resource that is referenced using the value provided in the &lt;c1&gt;name&lt;/c1&gt; attribute (not the name of the XML file).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070358Z" creationid="pingfangx" creationdate="20181107T070358Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; 尺寸是使用 &lt;c1&gt;name&lt;/c1&gt; 属性(不是 XML 文件的名称)中提供的值引用的简单资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; A typed array is a simple resource that is referenced using the value provided in the &lt;c1&gt;name&lt;/c1&gt; attribute (not the name of the XML file).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071341Z" creationid="pingfangx" creationdate="20181107T071341Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; 类型化数组是使用 &lt;c1&gt;name&lt;/c1&gt; 属性(而不是 XML 文件的名称)中提供的值引用的简单资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; An ID is a simple resource that is referenced using the value provided in the &lt;c1&gt;name&lt;/c1&gt; attribute (not the name of the XML file).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070818Z" creationid="pingfangx" creationdate="20181107T070818Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; ID 是使用 &lt;c1&gt;name&lt;/c1&gt; 属性中提供的值(不是 XML 文件的名称)引用的简单资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; An integer array is a simple resource that is referenced using the value provided in the &lt;c1&gt;name&lt;/c1&gt; attribute (not the name of the XML file).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071115Z" creationid="pingfangx" creationdate="20181107T071115Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; 整数数组是使用 &lt;c1&gt;name&lt;/c1&gt; 属性(不是 XML 文件的名称)中提供的值引用的简单资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; An integer is a simple resource that is referenced using the value provided in the &lt;c1&gt;name&lt;/c1&gt; attribute (not the name of the XML file).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071054Z" creationid="pingfangx" creationdate="20181107T071054Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; 整数是使用 &lt;c1&gt;name&lt;/c1&gt; 属性(不是 XML 文件的名称)中提供的值引用的简单资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; The &lt;c1&gt;&lt;a2&gt;Intent.setClipData()&lt;/a2&gt;&lt;/c1&gt; method is only available in platform version 16 (Android 4.1) and later.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -4585,6 +4649,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;s0&gt;Note&lt;/s0&gt; 原始异常会传递到 RuntimeException 的构造函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Required.&lt;/s0&gt; This must be the root node.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070427Z" creationid="pingfangx" creationdate="20181107T070427Z">
+        <seg>&lt;s0&gt;Required.&lt;/s0&gt; 这必须是根节点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4973,6 +5045,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A boolean value defined in XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061636Z" creationid="pingfangx" creationdate="20181107T061636Z">
+        <seg>以 XML 定义的布尔值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A callback interface that can be used to alter the drawing order of RecyclerView children.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5021,6 +5101,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A color value defined in XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063150Z" creationid="pingfangx" creationdate="20181107T063150Z">
+        <seg>在 XML 中定义的颜色值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A common pattern is to:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5049,6 +5137,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>content URI 允许你使用临时访问权限授予读写访问权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dimension is specified with a number followed by a unit of measure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T064005Z" creationid="pingfangx" creationdate="20181107T063926Z">
+        <seg>尺寸由数字后跟度量单位来指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dimension value defined in XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063740Z" creationid="pingfangx" creationdate="20181107T063740Z">
+        <seg>XML 中定义的尺寸值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dimension, represented by a float, followed by a unit of measurement (dp, sp, pt, px, mm, in), as described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070458Z" creationid="pingfangx" creationdate="20181107T070458Z">
+        <seg>如上所述，由浮点表示的尺寸，接着是测量单位(dp，sp，pt，px，mm，in)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5151,6 +5263,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A name for the dimension.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070551Z" creationid="pingfangx" creationdate="20181107T070551Z">
+        <seg>尺寸的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A parent view may call measure() more than once on its children.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5195,6 +5315,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T103834Z" creationid="pingfangx" creationdate="20180427T103834Z">
         <seg>子类会覆盖 &lt;c0&gt;finalize&lt;/c0&gt; 方法来处理系统资源或执行其他清理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A unique resource ID defined in XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070712Z" creationid="pingfangx" creationdate="20181107T070712Z">
+        <seg>XML 中定义的唯一资源 ID。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5751,6 +5879,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Also, remember that an ID resources does not reference an actual resource item; it is simply a unique ID that you can attach to other resources or use as a unique integer in your application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070836Z" creationid="pingfangx" creationdate="20181107T070836Z">
+        <seg>另外，请记住 ID 资源不引用实际资源项;它只是一个唯一的 ID，您可以将其附加到其他资源或作为应用程序中的唯一整数使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, you can use the pre-3.0 animation classes to animate how Views are rendered.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5863,6 +5999,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An array of integers defined in XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071110Z" creationid="pingfangx" creationdate="20181107T071110Z">
+        <seg>XML 中定义的整数数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An engine that performs match operations on a &lt;c0&gt;&lt;a1&gt;&lt;/c0&gt;character sequence&lt;c2&gt;&lt;/a1&gt;&lt;/c2&gt; by interpreting a &lt;c3&gt;&lt;a4&gt;Pattern&lt;/a4&gt;&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5915,6 +6059,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;&lt;a1&gt;Pattern&lt;/a1&gt;&lt;/c0&gt; 类的实例采用类似于 Perl 的语法来表示以字符串形式指定的正则表达式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An integer defined in XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071048Z" creationid="pingfangx" creationdate="20181107T071048Z">
+        <seg>XML 中定义的整数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6391,6 +6543,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As another example, the following code snippet uses the "dialog_exit" ID as a unique identifier for a dialog:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071028Z" creationid="pingfangx" creationdate="20181107T071028Z">
+        <seg>作为另一个示例，以下代码段使用 "dialog_exit" ID 作为对话框的唯一标识符：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As both the JDK and the Android code bases are very inconsistent around acronyms, it is virtually impossible to be consistent with the surrounding code.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6443,6 +6603,62 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072350Z" creationid="pingfangx" creationdate="20180925T072350Z">
         <seg>一旦系统创建了应用程序进程，应用程序进程就会负责以下阶段：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, you can combine ID resources with other simple resources in the one XML file, under one &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070821Z" creationid="pingfangx" creationdate="20181107T070821Z">
+        <seg>因此，您可以在一个 &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; 元素下将 ID 资源与一个 XML 文件中的其他简单资源相结合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, you can combine bool resources with other simple resources in the one XML file, under one &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061758Z" creationid="pingfangx" creationdate="20181107T061758Z">
+        <seg>因此，您可以将 bool 资源与一个 XML 文件中的其他简单资源组合在一个 &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; 元素下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, you can combine color resources with other simple resources in the one XML file, under one &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063352Z" creationid="pingfangx" creationdate="20181107T063352Z">
+        <seg>因此，您可以在一个 &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; 元素下将颜色资源与一个 XML 文件中的其他简单资源相结合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, you can combine dimension resources with other simple resources in the one XML file, under one &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070412Z" creationid="pingfangx" creationdate="20181107T070412Z">
+        <seg>因此，您可以在一个 &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; 元素下将尺寸资源与一个 XML 文件中的其他简单资源相结合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, you can combine integer array resources with other simple resources in the one XML file, under one &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071123Z" creationid="pingfangx" creationdate="20181107T071123Z">
+        <seg>因此，您可以将整数数组资源与一个 XML 文件中的其他简单资源组合在一个 &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; 元素下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, you can combine integer resources with other simple resources in the one XML file, under one &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071107Z" creationid="pingfangx" creationdate="20181107T071107Z">
+        <seg>因此，您可以将整数资源与一个 XML 文件中的其他简单资源组合在一个 &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; 元素下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, you can combine typed array resources with other simple resources in the one XML file, under one &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071344Z" creationid="pingfangx" creationdate="20181107T071344Z">
+        <seg>因此，您可以在一个 &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; 元素下将类型化数组资源与一个 XML 文件中的其他简单资源相结合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8923,6 +9139,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>指示类，方法或字段的可见性放宽，它比必要的可见性更广以使代码更可测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Density-independent Pixels - An abstract unit that is based on the physical density of the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T064453Z" creationid="pingfangx" creationdate="20181107T064107Z">
+        <seg>Density-independent Pixels（密度无关像素） -  一个基于屏幕物理密度的抽象单位</seg>
       </tuv>
     </tu>
     <tu>
@@ -12233,8 +12457,8 @@
       <tuv lang="EN-US">
         <seg>Implementation of &lt;c0&gt;&lt;a1&gt;PagerAdapter&lt;/a1&gt;&lt;/c0&gt; that represents each page as a &lt;c2&gt;&lt;a3&gt;Fragment&lt;/a3&gt;&lt;/c2&gt; that is persistently kept in the fragment manager as long as the user can return to the page.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>FragmentPagerAdapter 是 &lt;c0&gt;&lt;a1&gt;PagerAdapter&lt;/a1&gt;&lt;/c0&gt; 的实现，它将每个页面表现为 &lt;c2&gt;&lt;a3&gt;Fragment&lt;/a3&gt;&lt;/c2&gt;。只要用户可以返回到页面上，Fragment 就会被持久在 fragment manager 中。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181108T030817Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>FragmentPagerAdapter 是 &lt;c0&gt;&lt;a1&gt;PagerAdapter&lt;/a1&gt;&lt;/c0&gt; 的实现，它将每个页面表现为 &lt;c2&gt;&lt;a3&gt;Fragment&lt;/a3&gt;&lt;/c2&gt;。只要用户可以返回到页面上，Fragment 就会被持久保存在 fragment manager 中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12575,6 +12799,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In other words, it provides consistency for the real-world sizes of your UI elements across different devices.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065450Z" creationid="pingfangx" creationdate="20181107T065450Z">
+        <seg>换句话说，它为不同设备的 UI 元素的实际大小提供了一致性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In particular look at the definition of &lt;c0&gt;MyEditText&lt;/c0&gt; in the &lt;a1&gt;NoteEditor.java&lt;/a1&gt; file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12783,6 +13015,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the same application, the "dialog_exit" ID is compared when creating a dialog:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071036Z" creationid="pingfangx" creationdate="20181107T071036Z">
+        <seg>在同一个应用程序中，创建对话框时会比较 "dialog_exit" ID：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the toolbar or sync notification, click &lt;s0&gt;Sync Project with Gradle Files&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12867,6 +13107,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T042218Z" creationid="pingfangx" creationdate="20180510T042218Z">
         <seg>在本文中，作者描述了 12 个合成操作符，这些操作符管理如何计算源(要渲染的图形对象)与目标(渲染目标的内容)的组合颜色结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inches - Based on the physical size of the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070244Z" creationid="pingfangx" creationdate="20181107T070244Z">
+        <seg>Inches（英寸） - 基于屏幕的物理尺寸。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13271,6 +13519,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is recommend you use this unit when specifying font sizes, so they will be adjusted for both the screen density and the user's preference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065831Z" creationid="pingfangx" creationdate="20181107T065831Z">
+        <seg>建议您在指定字体大小时使用此单位，以便根据屏幕密度和用户偏好调整它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is recommended to use &lt;c0&gt;&lt;a1&gt;ARGB_8888&lt;/a1&gt;&lt;/c0&gt; instead of this configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100847Z" creationid="pingfangx" creationdate="20180408T100847Z">
@@ -13591,6 +13847,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Likewise, when on a lower density screen, the number of pixels used for 1dp is scaled down.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T064759Z" creationid="pingfangx" creationdate="20181107T064759Z">
+        <seg>同样，当在较低密度屏幕上时，用于 1dp 的像素数按比例缩小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Limit Line Length</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13815,6 +14079,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Millimeters - Based on the physical size of the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070225Z" creationid="pingfangx" creationdate="20181107T070225Z">
+        <seg>Millimeters（毫米） - 基于屏幕的物理尺寸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Minimum dimensions on ConstraintLayout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13843,6 +14115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>更多信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More Resource Types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061456Z" creationid="pingfangx" creationdate="20181107T061456Z">
+        <seg>更多资源类型</seg>
       </tuv>
     </tu>
     <tu>
@@ -13971,6 +14251,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071514Z" creationid="pingfangx" creationdate="20180925T071514Z">
         <seg>接下来，它将讨论如何分析启动性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No attributes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070436Z" creationid="pingfangx" creationdate="20181107T070436Z">
+        <seg>没有属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14111,6 +14399,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that the array is not required to be homogeneous, so you can create an array of mixed resource types, but you must be aware of what and where the data types are in the array so that you can properly obtain each item with the &lt;c2&gt;&lt;a3&gt;TypedArray&lt;/a3&gt;&lt;/c2&gt;'s &lt;c4&gt;get...()&lt;/c4&gt; methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071334Z" creationid="pingfangx" creationdate="20181107T071334Z">
+        <seg>请注意，数组不需要是同类的，因此您可以创建混合资源类型的数组，但是您必须知道数组中数据类型的位置和位置，以便您可以使用 &lt;c2&gt;&lt;a3&gt;TypedArray&lt;/a3&gt;&lt;/c2&gt; 的 &lt;c4&gt;get...()&lt;/c4&gt; 方法正确获取每个项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that the output color space is not guaranteed to be the color space the bitmap is encoded with.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T092433Z" creationid="pingfangx" creationdate="20180921T092433Z">
@@ -14243,6 +14539,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>注意此时的 &lt;c0&gt;MyEditText&lt;/c0&gt; 类是一个独立的类文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notice that the &lt;c0&gt;android:id&lt;/c0&gt; value does not include the plus sign in the ID reference, because the ID already exists, as defined in the &lt;c1&gt;ids.xml&lt;/c1&gt; example above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070918Z" creationid="pingfangx" creationdate="20181107T070918Z">
+        <seg>请注意，&lt;c0&gt;android:id&lt;/c0&gt; 值不包含 ID 引用中的加号，因为 ID 已存在，如上面的 &lt;c1&gt;ids.xml&lt;/c1&gt; 示例中所定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14703,6 +15007,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Pixels - Corresponds to actual pixels on the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065920Z" creationid="pingfangx" creationdate="20181107T065920Z">
+        <seg>Pixels（像素） - 对应屏幕上的实际像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PluralsRes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14715,6 +15027,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>PluralsRes - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Points - 1/72 of an inch based on the physical size of the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065857Z" creationid="pingfangx" creationdate="20181107T065857Z">
+        <seg>Points（点） - 基于屏幕物理尺寸的 1/72 英寸。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16447,6 +16767,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Scale-independent Pixels - This is like the dp unit, but it is also scaled by the user's font size preference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065608Z" creationid="pingfangx" creationdate="20181107T065608Z">
+        <seg>Scale-independent Pixels（缩放无关像素）- 这与 dp 单位类似，但它也可以根据用户的字体大小首选项进行缩放。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Scrap views may be reused without becoming fully detached from the parent RecyclerView, either unmodified if no rebinding is required or modified by the adapter if the view was considered &lt;e1&gt;dirty&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17855,6 +18183,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c2&gt;&lt;color&gt;&lt;/c2&gt; element's &lt;c3&gt;name&lt;/c3&gt; will be used as the resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063411Z" creationid="pingfangx" creationdate="20181107T063411Z">
+        <seg>&lt;c2&gt;&lt;color&gt;&lt;/c2&gt; 元素的 &lt;c3&gt;name&lt;/c3&gt; 将用作资源 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c3&gt;&lt;bool&gt;&lt;/c3&gt; element's &lt;c4&gt;name&lt;/c4&gt; will be used as the resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061812Z" creationid="pingfangx" creationdate="20181107T061812Z">
+        <seg>&lt;c3&gt;&lt;bool&gt;&lt;/c3&gt; 元素的 &lt;c4&gt;name&lt;/c4&gt; 将用作资源 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c3&gt;finalize&lt;/c3&gt; method may take any action, including making this object available again to other threads; the usual purpose of &lt;c4&gt;finalize&lt;/c4&gt;, however, is to perform cleanup actions before the object is irrevocably discarded.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104655Z" creationid="pingfangx" creationdate="20180427T104655Z">
@@ -18143,6 +18487,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The color is specified with an RGB value and alpha channel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063155Z" creationid="pingfangx" creationdate="20181107T063155Z">
+        <seg>颜色由 RGB 值和 alpha 通道指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The components are stored as follows (alpha &lt;&lt; 24) | (red &lt;&lt; 16) | (green &lt;&lt; 8) | blue.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064712Z" creationid="pingfangx" creationdate="20180903T064712Z">
@@ -18359,6 +18711,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The filename is arbitrary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061807Z" creationid="pingfangx" creationdate="20181107T061807Z">
+        <seg>文件名是任意的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The final span position of the item.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18379,6 +18739,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>前两个的效果与其他布局类似。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following units of measure are supported by Android:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T064012Z" creationid="pingfangx" creationdate="20181107T064012Z">
+        <seg>Android 支持以下度量单位：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19031,6 +19399,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The ratio of dp-to-pixel will change with the screen density, but not necessarily in direct proportion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065211Z" creationid="pingfangx" creationdate="20181107T065211Z">
+        <seg>dp 与像素的比率将随着屏幕密度而变化，但不一定是成正比的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The ratio of the distance to the parent's sides</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19403,6 +19779,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>通常需要从某种类型的的 Layout 开始，所以创建一个继承 Layout 的类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The value always begins with a pound (#) character and then followed by the Alpha-Red-Green-Blue information in one of the following formats:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063324Z" creationid="pingfangx" creationdate="20181107T063324Z">
+        <seg>值始终以井号(#)开头，然后是以下列格式之一的 Alpha-Red-Green-Blue 信息：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19795,6 +20179,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这两个位置基本是一样的，除了在分发 &lt;c0&gt;adapter.notify* &lt;/c0&gt; 事件和计算更新的布局时不一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These units are relative to a 160 dpi (dots per inch) screen, on which 1dp is roughly equal to 1px.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065416Z" creationid="pingfangx" creationdate="20181107T064531Z">
+        <seg>这些单位相对于 160 dpi(dots per inch 每英寸点数)的屏幕，该种屏幕 1dp 大致等于 1px。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20544,6 +20936,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This page defines more types of resources you can externalize, including:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061525Z" creationid="pingfangx" creationdate="20181107T061525Z">
+        <seg>此页面定义了可以外部化的更多类型的资源，包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This returns whether &lt;c0&gt;&lt;a1&gt;setDecodeAsAlphaMaskEnabled(boolean)&lt;/a1&gt;&lt;/c0&gt; was set to &lt;c2&gt;true&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084110Z" creationid="pingfangx" creationdate="20180921T084110Z">
@@ -20628,6 +21028,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072235Z" creationid="pingfangx" creationdate="20180925T072235Z">
         <seg>这种类型的启动在最小化启动时间方面提出了最大的挑战，因为系统和应用程序比其他启动状态有更多的工作要做。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This unit of measure is not recommended because the actual representation can vary across devices; each devices may have a different number of pixels per inch and may have more or fewer total pixels available on the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070157Z" creationid="pingfangx" creationdate="20181107T070157Z">
+        <seg>建议不要使用此计量单位，因为实际展示可能因设备而不同；每个设备每英寸可以有不同数量的像素，并且在屏幕上可以有更多或更少的总像素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20740,6 +21148,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084017Z" creationid="pingfangx" creationdate="20180921T084017Z">
         <seg>在该方法返回之前，将在与 &lt;c4&gt;decodeDrawable&lt;/c4&gt; 相同的线程上调用此方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will be used as the resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070648Z" creationid="pingfangx" creationdate="20181107T070648Z">
+        <seg>这将用作资源 ID。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21656,6 +22072,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using dp units (instead of px units) is a simple solution to making the view dimensions in your layout resize properly for different screen densities.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065401Z" creationid="pingfangx" creationdate="20181107T065401Z">
+        <seg>使用 dp 单位(而不是 px 单位)是一种简单的解决方案，可以使布局中的视图尺寸适当调整以适应不同的屏幕密度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using the name you provide in the &lt;c0&gt;&lt;item&gt;&lt;/c0&gt; element, the Android developer tools create a unique integer in your project's &lt;c1&gt;R.java&lt;/c1&gt; class, which you can use as an identifier for an application resources (for example, a &lt;c2&gt;&lt;a3&gt;View&lt;/a3&gt;&lt;/c2&gt; in your UI layout) or a unique integer for use in your application code (for example, as an ID for a dialog or a result code).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070815Z" creationid="pingfangx" creationdate="20181107T070815Z">
+        <seg>使用您在 &lt;c0&gt;&lt;item&gt;&lt;/c0&gt; 元素中提供的名称，Android 开发人员工具在项目的 &lt;c1&gt;R.java&lt;/c1&gt; 类中创建一个唯一的整数，您可以将其用作标识符应用程序资源(例如，UI 布局中的 &lt;c2&gt;&lt;a3&gt;View&lt;/a3&gt;&lt;/c2&gt;)或用于应用程序代码的唯一整数(例如，作为对话框的 ID 或结果代码)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Utility class representing a Guideline helper object for &lt;c0&gt;&lt;a1&gt;ConstraintLayout&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -22074,8 +22506,8 @@
       <tuv lang="EN-US">
         <seg>When pages are not visible to the user, their entire fragment may be destroyed, only keeping the saved state of that fragment.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>当页面对用户不可见时，它们的整个 fragment 可能被破坏，只保留该 fragment 的保存状态。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181108T030937Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>当页面对用户不可见时，它们的整个 fragment 可能被 destroy，只保留该 fragment 的保存状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22092,6 +22524,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当运行在 Android 3.0 及以上时，该实现仍然可用，它不会试图切换到框架的实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When running on a higher density screen, the number of pixels used to draw 1dp is scaled up by a factor appropriate for the screen's dpi.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T064744Z" creationid="pingfangx" creationdate="20181107T064744Z">
+        <seg>在更高密度的屏幕上运行时，用于绘制 1dp 的像素数按照适合屏幕 dpi 的系数放大。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22496,6 +22936,62 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>XML resource that carries a boolean value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061530Z" creationid="pingfangx" creationdate="20181107T061530Z">
+        <seg>带有布尔值的 XML 资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>XML resource that carries a color value (a hexadecimal color).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061536Z" creationid="pingfangx" creationdate="20181107T061536Z">
+        <seg>带有颜色值(十六进制颜色)的 XML 资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>XML resource that carries a dimension value (with a unit of measure).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061558Z" creationid="pingfangx" creationdate="20181107T061558Z">
+        <seg>带有尺寸值(带有度量单位)的 XML 资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>XML resource that carries an integer value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061618Z" creationid="pingfangx" creationdate="20181107T061618Z">
+        <seg>包含整数值的 XML 资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>XML resource that provides a &lt;c0&gt;&lt;a1&gt;TypedArray&lt;/a1&gt;&lt;/c0&gt; (which you can use for an array of drawables).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061632Z" creationid="pingfangx" creationdate="20181107T061632Z">
+        <seg>提供 &lt;c0&gt;&lt;a1&gt;TypedArray&lt;/a1&gt;&lt;/c0&gt; 的 XML 资源(可用于可绘制数组)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>XML resource that provides a unique identifier for application resources and components.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061615Z" creationid="pingfangx" creationdate="20181107T061615Z">
+        <seg>为应用程序资源和组件提供唯一标识符的 XML 资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>XML resource that provides an array of integers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061622Z" creationid="pingfangx" creationdate="20181107T061622Z">
+        <seg>提供整数数组的 XML 资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Xfermode is the base class for objects that are called to implement custom "transfer-modes" in the drawing pipeline.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T103744Z" creationid="pingfangx" creationdate="20180427T103744Z">
@@ -22596,6 +23092,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你还可以选择所有要对齐的 view，然后单击工具栏中的 &lt;b0&gt;Align&lt;/b0&gt; &lt;i1&gt;来选择对齐方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also use a color resource when a drawable resource is expected in XML (for example, &lt;c0&gt;android:drawable="@color/green"&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063259Z" creationid="pingfangx" creationdate="20181107T063259Z">
+        <seg>当 XML 中需要可绘制资源时，您也可以使用颜色资源(例如，&lt;c0&gt;android:drawable="@color/green"&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22768,6 +23272,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use a color resource any place that accepts a hexadecimal color value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063202Z" creationid="pingfangx" creationdate="20181107T063202Z">
+        <seg>您可以在任何接受十六进制颜色值的地方使用颜色资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use constraints to achieve different types of layout behavior, as described in the following sections.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -22804,6 +23316,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你可以使用拐角手柄来调整 view 大小，但这样会硬编码大小，因此 view 不会调整为不同的内容或屏幕尺寸大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use this to create an array of other resources, such as drawables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071222Z" creationid="pingfangx" creationdate="20181107T071222Z">
+        <seg>您可以使用它来创建其他资源的数组，例如 drawable。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24880,6 +25400,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>attributes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070500Z" creationid="pingfangx" creationdate="20181107T070500Z">
+        <seg>属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>but this is not acceptable:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24960,6 +25488,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>elements:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061859Z" creationid="pingfangx" creationdate="20181107T061859Z">
+        <seg>元素：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>en</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24972,6 +25508,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>es</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063140Z" creationid="pingfangx" creationdate="20181107T061923Z">
+        <seg>示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file location:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061804Z" creationid="pingfangx" creationdate="20181107T061804Z">
+        <seg>文件位置：</seg>
       </tuv>
     </tu>
     <tu>
@@ -26072,6 +26624,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>resource reference:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061823Z" creationid="pingfangx" creationdate="20181107T061823Z">
+        <seg>资源引用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>return with the constraint set will apply elevation for the specified view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26172,6 +26732,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>startActivity(intent);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>syntax:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061833Z" creationid="pingfangx" creationdate="20181107T061833Z">
+        <seg>语法：</seg>
       </tuv>
     </tu>
     <tu>
