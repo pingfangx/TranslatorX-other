@@ -3621,6 +3621,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;&lt;a1&gt;onMeasure()&lt;/a1&gt;&lt;/c0&gt; has no return value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070541Z" creationid="pingfangx" creationdate="20181205T070541Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;onMeasure()&lt;/a1&gt;&lt;/c0&gt; 没有返回值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;&lt;a1&gt;onSizeChanged()&lt;/a1&gt;&lt;/c0&gt; is called when your view is first assigned a size, and again if the size of your view changes for any reason.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T065620Z" creationid="pingfangx" creationdate="20181205T065620Z">
+        <seg>首次为 view 指定大小时，将调用 &lt;c0&gt;&lt;a1&gt;onSizeChanged()&lt;/a1&gt;&lt;/c0&gt;，如果 view 大小因任何原因发生更改，则会再次调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;@Deprecated&lt;/c0&gt;: The @Deprecated annotation must be used whenever the use of the annotated element is discouraged.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3793,6 +3809,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T035459Z" creationid="pingfangx" creationdate="20180925T035459Z">
         <seg>&lt;c0&gt;ImageDecoder&lt;/c0&gt;：执行解码的对象，用于更改其默认设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;LinedEditText&lt;/c0&gt; is defined as an inner class within the &lt;c1&gt;NoteEditor&lt;/c1&gt; activity, but it is public so that it could be accessed as &lt;c2&gt;NoteEditor.LinedEditText&lt;/c2&gt; from outside of the &lt;c3&gt;NoteEditor&lt;/c3&gt; class if desired.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041446Z" creationid="pingfangx" creationdate="20181205T041446Z">
+        <seg>&lt;c0&gt;LinedEditText&lt;/c0&gt; 被定义为 &lt;c1&gt;NoteEditor&lt;/c1&gt; activity 中的内部类，但它是公共的，因此如果需要，可以使用 &lt;c3&gt;NoteEditor&lt;/c3&gt; 类从外部访问 &lt;c2&gt;NoteEditor.LinedEditText&lt;/c2&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4301,6 +4325,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c2&gt;&lt;a3&gt;ValueAnimator&lt;/a3&gt;&lt;/c2&gt; changes the rotation over a period of several hundred milliseconds, rather than immediately setting the new rotation value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075351Z" creationid="pingfangx" creationdate="20181205T075351Z">
+        <seg>&lt;c2&gt;&lt;a3&gt;ValueAnimator&lt;/a3&gt;&lt;/c2&gt; 会在几百毫秒的时间内更改旋转，而不是立即设置新的旋转值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c2&gt;onMeasure()&lt;/c2&gt; should be overridden to efficiently and accurately report the measurements of its contained parts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -4309,10 +4341,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c4&gt;&lt;a5&gt;Canvas&lt;/a5&gt;&lt;/c4&gt; has a method to draw a rectangle, while &lt;c6&gt;&lt;a7&gt;Paint&lt;/a7&gt;&lt;/c6&gt; defines whether to fill that rectangle with a color or leave it empty.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064414Z" creationid="pingfangx" creationdate="20181205T064414Z">
+        <seg>&lt;c4&gt;&lt;a5&gt;Canvas&lt;/a5&gt;&lt;/c4&gt; 有一种绘制矩形的方法，而 &lt;c6&gt;&lt;a7&gt;Paint&lt;/a7&gt;&lt;/c6&gt; 定义是否用颜色填充该矩形或将它留空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c5&gt;false&lt;/c5&gt; (which is the default) to abort the decode and throw &lt;c6&gt;e&lt;/c6&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T035738Z" creationid="pingfangx" creationdate="20180925T035738Z">
         <seg>&lt;c5&gt;false&lt;/c5&gt;(这是默认值)中止解码并抛出 &lt;c6&gt;e&lt;/c6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c6&gt;&lt;a7&gt;computeScrollOffset()&lt;/a7&gt;&lt;/c6&gt; updates the &lt;c8&gt;&lt;a9&gt;Scroller&lt;/a9&gt;&lt;/c8&gt; object's internal state by reading the current time and using the physics model to calculate the x and y position at that time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073323Z" creationid="pingfangx" creationdate="20181205T073323Z">
+        <seg>&lt;c6&gt;&lt;a7&gt;computeScrollOffset()&lt;/a7&gt;&lt;/c6&gt; 通过读取当前时间并使用物理模型来计算 &lt;c8&gt;&lt;a9&gt;Scroller&lt;/a9&gt;&lt;/c8&gt; 对象的内部状态那时的 x 和 y 位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4401,6 +4449,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;e0&gt;Scrap (view):&lt;/e0&gt; 指在布局过程中，一个进入暂时分离状态的子 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;i0&gt;How&lt;/i0&gt; to draw, handled by &lt;c1&gt;&lt;a2&gt;Paint&lt;/a2&gt;&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064340Z" creationid="pingfangx" creationdate="20181205T064340Z">
+        <seg>&lt;i0&gt;如何&lt;/i0&gt; 绘制，由 &lt;c1&gt;&lt;a2&gt;Paint&lt;/a2&gt;&lt;/c1&gt; 处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;i0&gt;What&lt;/i0&gt; to draw, handled by &lt;c1&gt;&lt;a2&gt;Canvas&lt;/a2&gt;&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064328Z" creationid="pingfangx" creationdate="20181205T064328Z">
+        <seg>绘制&lt;i0&gt;什么&lt;/i0&gt;，由 &lt;c1&gt;&lt;a2&gt;Canvas&lt;/a2&gt;&lt;/c1&gt; 处理</seg>
       </tuv>
     </tu>
     <tu>
@@ -4589,6 +4653,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; Although the velocity calculated by &lt;c1&gt;&lt;a2&gt;GestureDetector&lt;/a2&gt;&lt;/c1&gt; is physically accurate, many developers feel that using this value makes the fling animation too fast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073240Z" creationid="pingfangx" creationdate="20181205T073240Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; 虽然 &lt;c1&gt;&lt;a2&gt;GestureDetector&lt;/a2&gt;&lt;/c1&gt; 计算的速度在物理上是准确的，但许多开发人员认为使用此值会使投掷动画过快。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; An ID is a simple resource that is referenced using the value provided in the &lt;c1&gt;name&lt;/c1&gt; attribute (not the name of the XML file).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070818Z" creationid="pingfangx" creationdate="20181107T070818Z">
@@ -4641,6 +4713,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102311Z" creationid="pingfangx" creationdate="20180408T102311Z">
         <seg>&lt;s0&gt;注意：&lt;/s0&gt;与 &lt;c1&gt;&lt;a2&gt;decodeResource(Resources, int, android.graphics.BitmapFactory.Options)&lt;/a2&gt;&lt;/c1&gt; 或 &lt;c3&gt;&lt;a4&gt;decodeFile(String, android.graphics.BitmapFactory.Options)&lt;/a4&gt;&lt;/c3&gt;一起使用时，该标志将被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; You can use &lt;c1&gt;&lt;a2&gt;ValueAnimator&lt;/a2&gt;&lt;/c1&gt; in applications that target lower API levels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073941Z" creationid="pingfangx" creationdate="20181205T073941Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; 您可以在目标较低 API 级别的应用程序中使用 &lt;c1&gt;&lt;a2&gt;ValueAnimator&lt;/a2&gt;&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5191,6 +5271,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A good example of this is the &lt;e0&gt;fling&lt;/e0&gt; gesture, where the user quickly moves a finger across the screen and then lifts it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073107Z" creationid="pingfangx" creationdate="20181205T073107Z">
+        <seg>一个很好的例子是 &lt;e0&gt;fling&lt;/e0&gt; 手势，用户可以快速地在屏幕上移动手指，然后将其抬起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A good rule to follow is to always expose any property that affects the visible appearance or behavior of your custom view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063458Z" creationid="pingfangx" creationdate="20181205T063458Z">
+        <seg>要遵循的一个好规则是始终公开任何影响自定义 view 的可见外观或行为的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A good way to look for bottlenecks is to use the Android Studio CPU Profiler.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081445Z" creationid="pingfangx" creationdate="20180925T081445Z">
@@ -5227,6 +5323,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果失去网络连接后导致在应用内出现某种后果，则应该记录为 DEBUG 或 VERBOSE 级别(具体取决于后果是否足够严重以及足够意外，足以记录在发布版本中)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A lot of physics and math are required to get a flywheel model working correctly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073138Z" creationid="pingfangx" creationdate="20181205T073138Z">
+        <seg>需要大量的物理和数学才能使飞轮模型正常工作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5375,6 +5479,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A well-designed custom view is much like any other well-designed class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034232Z" creationid="pingfangx" creationdate="20181205T034232Z">
+        <seg>精心设计的自定义 view 与任何其他精心设计的类非常相似。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>API Guides</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5443,6 +5555,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>添加 ConstraintLayout 到我们的项目中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add Properties and Events</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061727Z" creationid="pingfangx" creationdate="20181205T061727Z">
+        <seg>添加属性和事件</seg>
       </tuv>
     </tu>
     <tu>
@@ -5743,6 +5863,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Afterwards, you need to update the &lt;c2&gt;&lt;a3&gt;Scroller&lt;/a3&gt;&lt;/c2&gt; by calling &lt;c4&gt;&lt;a5&gt;Scroller.computeScrollOffset()&lt;/a5&gt;&lt;/c4&gt; at regular intervals.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073306Z" creationid="pingfangx" creationdate="20181205T073306Z">
+        <seg>之后，您需要定期调用 &lt;c4&gt;&lt;a5&gt;Scroller.computeScrollOffset()&lt;/a5&gt;&lt;/c4&gt; 来更新 &lt;c2&gt;&lt;a3&gt;Scroller&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Align the edge of a view to the same edge of another view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5783,6 +5911,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All of the view classes defined in the Android framework extend &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041848Z" creationid="pingfangx" creationdate="20181205T041848Z">
+        <seg>Android 框架中定义的所有 view 类都继承了 &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All of the views in a window are arranged in a single tree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5819,6 +5955,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>为日志编译的所有字符串也需要放在 &lt;c4&gt;if (LOCAL_LOG)&lt;/c4&gt; 块中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allocate objects during initialization, or between animations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080238Z" creationid="pingfangx" creationdate="20181205T080238Z">
+        <seg>在初始化期间或动画之间分配对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5903,10 +6047,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Although &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; has many methods for handling measurement, most of them do not need to be overridden.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T065115Z" creationid="pingfangx" creationdate="20181205T065115Z">
+        <seg>虽然 &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; 有许多处理测量的方法，但大多数方法都不需要重写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Although a missing constraint won't cause a compilation error, the Layout Editor indicates missing constraints as an error in the toolbar.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>尽管缺少了约束也不会造成编译错误，布局编辑器将会在工具栏上显示有一个缺少约束的错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although it's not strictly necessary to follow this convention, many popular code editors depend on this naming convention to provide statement completion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042636Z" creationid="pingfangx" creationdate="20181205T042636Z">
+        <seg>尽管遵循此约定并非绝对必要，但许多流行的代码编辑器依赖于此命名约定来提供语句补全。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although it's possible to read values from the &lt;c2&gt;&lt;a3&gt;AttributeSet&lt;/a3&gt;&lt;/c2&gt; directly, doing so has some disadvantages:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061511Z" creationid="pingfangx" creationdate="20181205T061511Z">
+        <seg>虽然可以直接从 &lt;c2&gt;&lt;a3&gt;AttributeSet&lt;/a3&gt;&lt;/c2&gt; 中读取值，但这样做有一些缺点：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5931,6 +6099,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>可用的布局包括 &lt;c0&gt;&lt;a1&gt;LinearLayout&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;FrameLayout&lt;/a3&gt;&lt;/c2&gt;, &lt;c4&gt;&lt;a5&gt;RelativeLayout&lt;/a5&gt;&lt;/c4&gt; 及其他。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Among them is extending an EditText View to make a lined notepad.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041207Z" creationid="pingfangx" creationdate="20181205T041207Z">
+        <seg>其中包括继承 EditText 视图以制作一个 lined notepad。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6279,6 +6455,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Another very expensive operation is traversing layouts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080413Z" creationid="pingfangx" creationdate="20181205T080413Z">
+        <seg>另一个非常昂贵的操作是遍历布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any change you make to the default margin applies only to the views you add from then on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6367,6 +6551,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any time a view calls &lt;c0&gt;&lt;a1&gt;requestLayout()&lt;/a1&gt;&lt;/c0&gt;, the Android UI system needs to traverse the entire view hierarchy to find out how big each view needs to be.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080424Z" creationid="pingfangx" creationdate="20181205T080424Z">
+        <seg>每当 view 调用 &lt;c0&gt;&lt;a1&gt;requestLayout()&lt;/a1&gt;&lt;/c0&gt; 时，Android UI 系统都需要遍历整个 view 层次结构，以找出每个 view 需要的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any undecoded lines in the image will be blank.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T035741Z" creationid="pingfangx" creationdate="20180925T035741Z">
@@ -6439,6 +6631,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Apply Custom Attributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061439Z" creationid="pingfangx" creationdate="20181205T061439Z">
+        <seg>应用自定义属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Apply a property transformation to the given page.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6451,6 +6651,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>将约束应用于 ConstraintLayout。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apply the retrieved attribute values to your view</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042445Z" creationid="pingfangx" creationdate="20181205T042445Z">
+        <seg>将获取到的属性值应用于 view</seg>
       </tuv>
     </tu>
     <tu>
@@ -6543,6 +6751,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As an example, the &lt;a0&gt; NotePad application&lt;/a0&gt; demonstrates many aspects of using the Android platform.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041117Z" creationid="pingfangx" creationdate="20181205T041117Z">
+        <seg>例如，&lt;a0&gt; NotePad application&lt;/a0&gt; 演示了使用 Android 平台的许多方面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As an optimization, these values are stored as packed integers, and you use the static methods of &lt;c4&gt;&lt;a5&gt;View.MeasureSpec&lt;/a5&gt;&lt;/c4&gt; to unpack the information stored in each integer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070223Z" creationid="pingfangx" creationdate="20181205T070223Z">
+        <seg>作为优化，这些值存储为压缩整数，并使用 &lt;c4&gt;&lt;a5&gt;View.MeasureSpec&lt;/a5&gt;&lt;/c4&gt; 的静态方法来解压缩存储在每个整数中的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As another example, the following code snippet uses the "dialog_exit" ID as a unique identifier for a dialog:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071028Z" creationid="pingfangx" creationdate="20181107T071028Z">
@@ -6555,6 +6779,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>由于 JDK 和 Android 代码库在首字母缩写词上非常不一致，几乎也不可能与周围的代码保持一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As mentioned earlier, this is the view's responsibility.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070317Z" creationid="pingfangx" creationdate="20181205T070317Z">
+        <seg>如前所述，这是 view 的责任。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6791,6 +7023,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attributes are a powerful way of controlling the behavior and appearance of views, but they can only be read when the view is initialized.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061801Z" creationid="pingfangx" creationdate="20181205T061801Z">
+        <seg>属性是控制 view 行为和外观的强大方法，但只能在初始化 view 时读取它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Auto</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6911,6 +7151,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Be compatible with multiple Android platforms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034608Z" creationid="pingfangx" creationdate="20181205T034608Z">
+        <seg>与多个 Android 平台兼容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because of the poor quality of this configuration, it is advised to use &lt;c1&gt;&lt;a2&gt;ARGB_8888&lt;/a2&gt;&lt;/c1&gt; instead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100513Z" creationid="pingfangx" creationdate="20180408T100513Z">
@@ -6931,6 +7179,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T042404Z" creationid="pingfangx" creationdate="20180510T042404Z">
         <seg>由于 Porter 和 Duff 的工作仅关注源和目标的 alpha 通道的影响，原始文章中描述的 12 个操作符在这里被称为 alpha 合成模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before you can call any drawing methods, though, it's necessary to create a &lt;c0&gt;&lt;a1&gt;Paint&lt;/a1&gt;&lt;/c0&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064139Z" creationid="pingfangx" creationdate="20181205T064139Z">
+        <seg>但是，在调用任何绘制方法之前，必须创建 &lt;c0&gt;&lt;a1&gt;Paint&lt;/a1&gt;&lt;/c0&gt; 对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6971,6 +7227,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>注意这些方法可能无法计算 adapter 的位置，当调用了 &lt;c7&gt;&lt;a8&gt;notifyDataSetChanged()&lt;/a8&gt;&lt;/c7&gt; 且新的布局还没有被计算时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beyond this lesson, you can find additional related information at &lt;a0&gt;Canvas and Drawables&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064021Z" creationid="pingfangx" creationdate="20181205T064021Z">
+        <seg>除本课程外，您还可以在 &lt;a0&gt;Canvas and Drawables&lt;/a0&gt; 中找到其他相关信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beyond this lesson, you can find additional related information at &lt;a0&gt;Input Events&lt;/a0&gt; and &lt;a1&gt;Property Animation&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071338Z" creationid="pingfangx" creationdate="20181205T071338Z">
+        <seg>除本课程外，您还可以在 &lt;a0&gt;Input Events&lt;/a0&gt; 和 &lt;a1&gt;Property Animation&lt;/a1&gt; 中找到其他相关信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beyond this lesson, you can find additional, related information in &lt;a0&gt;Custom Components&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041800Z" creationid="pingfangx" creationdate="20181205T041800Z">
+        <seg>除本课程外，您还可以在 &lt;a0&gt;Custom Components&lt;/a0&gt; 中找到其他相关信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7191,6 +7471,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calculate positions, dimensions, and any other values related to your view's size in &lt;c2&gt;&lt;a3&gt;onSizeChanged()&lt;/a3&gt;&lt;/c2&gt;, instead of recalculating them every time you draw.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T065642Z" creationid="pingfangx" creationdate="20181205T065642Z">
+        <seg>在 &lt;c2&gt;&lt;a3&gt;onSizeChanged()&lt;/a3&gt;&lt;/c2&gt; 中计算与 view 大小相关的位置，尺寸和任何其他值，而不是每次绘制时重新计算它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Calculate the size of a view in 0 dp by reducing the constrains gaps as much as possible</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7215,10 +7503,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Call &lt;c0&gt;&lt;a1&gt;postInvalidate()&lt;/a1&gt;&lt;/c0&gt; after calling &lt;c2&gt;&lt;a3&gt;fling()&lt;/a3&gt;&lt;/c2&gt;, in order to force a redraw.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073418Z" creationid="pingfangx" creationdate="20181205T073418Z">
+        <seg>在调用 &lt;c2&gt;&lt;a3&gt;fling()&lt;/a3&gt;&lt;/c2&gt; 之后调用 &lt;c0&gt;&lt;a1&gt;postInvalidate()&lt;/a1&gt;&lt;/c0&gt;，以强制重绘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Call &lt;c10&gt;&lt;a11&gt;getCurrX()&lt;/a11&gt;&lt;/c10&gt; and &lt;c12&gt;&lt;a13&gt;getCurrY()&lt;/a13&gt;&lt;/c12&gt; to retrieve these values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073329Z" creationid="pingfangx" creationdate="20181205T073329Z">
+        <seg>调用 &lt;c10&gt;&lt;a11&gt;getCurrX()&lt;/a11&gt;&lt;/c10&gt; 和 &lt;c12&gt;&lt;a13&gt;getCurrY()&lt;/a13&gt;&lt;/c12&gt; 来获取这些值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Call &lt;c2&gt;&lt;a3&gt;isInTouchMode()&lt;/a3&gt;&lt;/c2&gt; to see whether the device is currently in touch mode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>调用 &lt;c2&gt;&lt;a3&gt;isInTouchMode()&lt;/a3&gt;&lt;/c2&gt; 查看设备当前是否在 touch mode。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Call &lt;c2&gt;&lt;a3&gt;setShader()&lt;/a3&gt;&lt;/c2&gt; to use your &lt;c4&gt;&lt;a5&gt;LinearGradient&lt;/a5&gt;&lt;/c4&gt; on filled shapes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071010Z" creationid="pingfangx" creationdate="20181205T071010Z">
+        <seg>调用 &lt;c2&gt;&lt;a3&gt;setShader()&lt;/a3&gt;&lt;/c2&gt; 在填充的形状上使用 &lt;c4&gt;&lt;a5&gt;LinearGradient&lt;/a5&gt;&lt;/c4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7495,6 +7807,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calling this method is mandatory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070552Z" creationid="pingfangx" creationdate="20181205T070552Z">
+        <seg>调用此方法是必需的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Calling this method with a value of &lt;c6&gt;true&lt;/c6&gt; will result in &lt;c7&gt;&lt;a8&gt;decodeBitmap(ImageDecoder.Source)&lt;/a8&gt;&lt;/c7&gt; returning a &lt;c9&gt;&lt;a10&gt;Bitmap&lt;/a10&gt;&lt;/c9&gt; with unpremultiplied pixels.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090935Z" creationid="pingfangx" creationdate="20180921T090935Z">
@@ -7711,6 +8031,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Change whether the shapes are filled, outlined, or both by calling &lt;c6&gt;&lt;a7&gt;setStyle()&lt;/a7&gt;&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070952Z" creationid="pingfangx" creationdate="20181205T070747Z">
+        <seg>通过调用 &lt;c6&gt;&lt;a7&gt;setStyle()&lt;/a7&gt;&lt;/c6&gt; 来更改形状是否填充，轮廓或两者都有。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Check if the RecyclerView is configured to clip child views to its padding.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7903,6 +8231,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Complex custom views often need to perform multiple layout calculations depending on the size and shape of their area on screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T065017Z" creationid="pingfangx" creationdate="20181205T065017Z">
+        <seg>复杂的自定义 view 通常需要根据屏幕上区域的大小和形状执行多次布局计算。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compositing equations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060700Z" creationid="pingfangx" creationdate="20180510T060700Z">
@@ -7979,6 +8315,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>为特定用例配置滚动触摸斜率。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conform to Android standards</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034523Z" creationid="pingfangx" creationdate="20181205T034523Z">
+        <seg>符合 Android 标准</seg>
       </tuv>
     </tu>
     <tu>
@@ -8167,6 +8511,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Construct a &lt;c0&gt;&lt;a1&gt;GestureDetector&lt;/a1&gt;&lt;/c0&gt; by passing in an instance of a class that implements &lt;c2&gt;&lt;a3&gt;GestureDetector.OnGestureListener&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072137Z" creationid="pingfangx" creationdate="20181205T072137Z">
+        <seg>通过传入实现 &lt;c2&gt;&lt;a3&gt;GestureDetector.OnGestureListener&lt;/a3&gt;&lt;/c2&gt; 的类的实例来构造 &lt;c0&gt;&lt;a1&gt;GestureDetector&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Constructing a &lt;c8&gt;Source&lt;/c8&gt; (with one of the overloads of &lt;c9&gt;createSource&lt;/c9&gt;) can be done on any thread because the construction simply captures values.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T092700Z" creationid="pingfangx" creationdate="20180921T092700Z">
@@ -8275,6 +8627,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>复制 ConstraintLayout 的布局参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create Drawing Objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064202Z" creationid="pingfangx" creationdate="20181205T064202Z">
+        <seg>创建绘制对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create Physically Plausible Motion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072942Z" creationid="pingfangx" creationdate="20181205T072942Z">
+        <seg>创建物理上合理的运动</seg>
       </tuv>
     </tu>
     <tu>
@@ -8511,6 +8879,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creating drawing objects within your &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt; method significantly reduces performance and can make your UI appear sluggish.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064816Z" creationid="pingfangx" creationdate="20181205T064816Z">
+        <seg>在 &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt; 方法中创建绘图对象会显着降低性能并使 UI 显得缓慢。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating objects ahead of time is an important optimization.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064629Z" creationid="pingfangx" creationdate="20181205T064629Z">
+        <seg>提前创建对象是一项重要的优化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creating the app &lt;a0&gt; process.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072316Z" creationid="pingfangx" creationdate="20180925T072316Z">
@@ -8591,6 +8975,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Custom Drawing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063938Z" creationid="pingfangx" creationdate="20181205T063938Z">
+        <seg>自定义绘制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Custom drawing can be easy or complex according to your application's needs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064007Z" creationid="pingfangx" creationdate="20181205T064007Z">
+        <seg>根据您的应用需求，可以轻松或复杂地自定义绘制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Custom views should also support event listeners to communicate important events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T062152Z" creationid="pingfangx" creationdate="20181205T062152Z">
+        <seg>自定义 view 还应支持事件侦听器来传递重要事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DP</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8623,6 +9031,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Define Custom Attributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042227Z" creationid="pingfangx" creationdate="20181205T042227Z">
+        <seg>定义自定义属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Define Fields in Standard Places</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8639,10 +9055,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Define a shape by adding lines and curves to a &lt;c2&gt;&lt;a3&gt;Path&lt;/a3&gt;&lt;/c2&gt; object, then draw the shape using &lt;c4&gt;&lt;a5&gt;drawPath()&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070806Z" creationid="pingfangx" creationdate="20181205T070806Z">
+        <seg>通过将线和曲线添加到 &lt;c2&gt;&lt;a3&gt;Path&lt;/a3&gt;&lt;/c2&gt; 对象来定义形状，然后使用 &lt;c4&gt;&lt;a5&gt;drawPath()&lt;/a5&gt;&lt;/c4&gt; 绘制形状。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Define custom attributes for your view in a &lt;c0&gt;&lt;declare-styleable&gt; &lt;/c0&gt; resource element</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042417Z" creationid="pingfangx" creationdate="20181205T042417Z">
+        <seg>在 &lt;c0&gt;&lt;declare-styleable&gt; &lt;/c0&gt; 资源元素中为 view 定义自定义属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Define fields either at the top of the file or immediately before the methods that use them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在文件的顶部或者在使用它们的方法之前定义字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Define gradient fills by creating &lt;c0&gt;&lt;a1&gt;LinearGradient&lt;/a1&gt;&lt;/c0&gt; objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071004Z" creationid="pingfangx" creationdate="20181205T071004Z">
+        <seg>通过创建 &lt;c0&gt;&lt;a1&gt;LinearGradient&lt;/a1&gt;&lt;/c0&gt; 对象来定义渐变填充。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9175,6 +9615,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Design For Accessibility</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063501Z" creationid="pingfangx" creationdate="20181205T063501Z">
+        <seg>设计辅助功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Destination image</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060314Z" creationid="pingfangx" creationdate="20180510T060314Z">
@@ -9567,10 +10015,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Draw bitmaps using &lt;c0&gt;&lt;a1&gt;drawBitmap()&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071013Z" creationid="pingfangx" creationdate="20181205T071013Z">
+        <seg>使用 &lt;c0&gt;&lt;a1&gt;drawBitmap()&lt;/a1&gt;&lt;/c0&gt; 绘制位图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Draw more complex shapes using the &lt;c0&gt;&lt;a1&gt;Path&lt;/a1&gt;&lt;/c0&gt; class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070753Z" creationid="pingfangx" creationdate="20181205T070753Z">
+        <seg>使用 &lt;c0&gt;&lt;a1&gt;Path&lt;/a1&gt;&lt;/c0&gt; 类绘制更复杂的形状。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Draw one child of this View Group.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>绘制该 View Group 的一个子 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Draw primitive shapes using &lt;c0&gt;&lt;a1&gt;drawRect()&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;drawOval()&lt;/a3&gt;&lt;/c2&gt;, and &lt;c4&gt;&lt;a5&gt;drawArc()&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070701Z" creationid="pingfangx" creationdate="20181205T070701Z">
+        <seg>使用 &lt;c0&gt;&lt;a1&gt;drawRect()&lt;/a1&gt;&lt;/c0&gt;，&lt;c2&gt;&lt;a3&gt;drawOval()&lt;/a3&gt;&lt;/c2&gt; 和 &lt;c4&gt;&lt;a5&gt;drawArc()&lt;/a5&gt;&lt;/c4&gt; 绘制基本形状。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Draw text using &lt;c0&gt;&lt;a1&gt;drawText()&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070637Z" creationid="pingfangx" creationdate="20181205T070637Z">
+        <seg>使用 &lt;c0&gt;&lt;a1&gt;drawText()&lt;/a1&gt;&lt;/c0&gt; 绘制文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9611,6 +10091,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>绘制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Drawing a UI is only one part of creating a custom view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071126Z" creationid="pingfangx" creationdate="20181205T071126Z">
+        <seg>绘制 UI 只是创建自定义 view 的一部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9879,6 +10367,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Even if only one app uses your view, that app needs to handle different screen sizes, multiple screen densities, and various aspect ratios in both portrait and landscape mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T065104Z" creationid="pingfangx" creationdate="20181205T065104Z">
+        <seg>即使只有一个应用程序使用您的 view，该应用程序也需要在纵向和横向模式下处理不同的屏幕尺寸，多个屏幕密度和各种宽高比。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Even if sharing is allowed, the implementation may still decide to make a deep copy of the input data.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102133Z" creationid="pingfangx" creationdate="20180408T102133Z">
@@ -9931,6 +10427,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>您所编写的每一种方法（无论是公开方法还是其他方法）都将受益于 Javadoc。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every view implements &lt;c2&gt;&lt;a3&gt;onDraw()&lt;/a3&gt;&lt;/c2&gt; differently, but there are some common operations that most views share:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070632Z" creationid="pingfangx" creationdate="20181205T070632Z">
+        <seg>每个 view 以不同方式实现 &lt;c2&gt;&lt;a3&gt;onDraw()&lt;/a3&gt;&lt;/c2&gt;，但大多数 view 共享一些常见操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10375,6 +10879,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For each &lt;c2&gt;&lt;declare-styleable&gt;&lt;/c2&gt; resource in the res directory, the generated R.java defines both an array of attribute ids and a set of constants that define the index for each attribute in the array.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061657Z" creationid="pingfangx" creationdate="20181205T061657Z">
+        <seg>对于 res 目录中的每个 &lt;c2&gt;&lt;declare-styleable&gt;&lt;/c2&gt; 资源，生成的 R.java 定义属性 id 数组和一组常量，这些常量定义数组中每个属性的索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For each dimension, it can specify one of:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10479,6 +10991,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, here's how to use the attributes defined for &lt;c2&gt;PieChart&lt;/c2&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T043603Z" creationid="pingfangx" creationdate="20181205T043603Z">
+        <seg>例如，以下是如何使用为 &lt;c2&gt;PieChart&lt;/c2&gt; 定义的属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, here's the code that draws &lt;c0&gt;PieChart&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071017Z" creationid="pingfangx" creationdate="20181205T071017Z">
+        <seg>例如，这是绘制 &lt;c0&gt;PieChart&lt;/c0&gt; 的代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if a thread modifies a collection directly while it is iterating over the collection with a fail-fast iterator, the iterator will throw this exception.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10531,6 +11059,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>比如，当你点击了 ViewHolder，你想获取 adapter 中的 item，你应该使用 &lt;c5&gt;&lt;a6&gt;getAdapterPosition()&lt;/a6&gt;&lt;/c5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, images should not immediately pop out of existence and reappear somewhere else, because objects in the real world don't do that.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071205Z" creationid="pingfangx" creationdate="20181205T071205Z">
+        <seg>例如，图像不应该立即弹出并重新出现在其他地方，因为现实世界中的对象不会这样做。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10663,6 +11199,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, when users fling a UI object, they should sense friction at the beginning that delays the motion, and then at the end sense momentum that carries the motion beyond the fling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071316Z" creationid="pingfangx" creationdate="20181205T071316Z">
+        <seg>例如，当用户投掷 UI 对象时，他们应该在开始时感知延迟运动的摩擦，然后在结束时感知带动运动超出投掷的动量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, you can add them to a new file called &lt;c1&gt;res/xml/file_paths.xml&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10727,6 +11271,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For instance, &lt;c0&gt;&lt;a1&gt;Canvas&lt;/a1&gt;&lt;/c0&gt; provides a method to draw a line, while &lt;c2&gt;&lt;a3&gt;Paint&lt;/a3&gt;&lt;/c2&gt; provides methods to define that line's color.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064351Z" creationid="pingfangx" creationdate="20181205T064351Z">
+        <seg>例如，&lt;c0&gt;&lt;a1&gt;Canvas&lt;/a1&gt;&lt;/c0&gt; 提供了绘制线条的方法，而 &lt;c2&gt;&lt;a3&gt;Paint&lt;/a3&gt;&lt;/c2&gt; 提供了定义该线条颜色的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, &lt;c0&gt;PieChart&lt;/c0&gt; exposes a custom event called &lt;c1&gt;OnCurrentItemChanged&lt;/c1&gt; to notify listeners that the user has rotated the pie chart to focus on a new pie slice.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063421Z" creationid="pingfangx" creationdate="20181205T063421Z">
+        <seg>例如，&lt;c0&gt;PieChart&lt;/c0&gt; 公开一个名为 &lt;c1&gt;OnCurrentItemChanged&lt;/c1&gt; 的自定义事件，以通知监听器用户已旋转饼图聚焦到新的饼图切片。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For instance, a left padding of 2 will push the view's content by 2 pixels to the right of the left edge.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10739,6 +11299,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>比如调用 &lt;c4&gt;&lt;a5&gt;getRight()&lt;/a5&gt;&lt;/c4&gt; 和下面的计算相似：&lt;c6&gt;getLeft() + getWidth()&lt;/c6&gt; (有关 width 的更多知识见 &lt;a7&gt;Size&lt;/a7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, the &lt;c0&gt;PieChart&lt;/c0&gt; class has an inner class called &lt;c1&gt;PieView&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061425Z" creationid="pingfangx" creationdate="20181205T061425Z">
+        <seg>例如，&lt;c0&gt;PieChart&lt;/c0&gt; 类有一个名为 &lt;c1&gt;PieView&lt;/c1&gt; 的内部类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, this code creates a class that extends &lt;c8&gt;&lt;a9&gt;GestureDetector.SimpleOnGestureListener&lt;/a9&gt;&lt;/c8&gt; and overrides &lt;c10&gt;&lt;a11&gt;onDown(MotionEvent)&lt;/a11&gt;&lt;/c10&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072259Z" creationid="pingfangx" creationdate="20181205T072259Z">
+        <seg>例如，此代码创建一个继承 &lt;c8&gt;&lt;a9&gt;GestureDetector.SimpleOnGestureListener&lt;/a9&gt;&lt;/c8&gt; 的类，并重写 &lt;c10&gt;&lt;a11&gt;onDown(MotionEvent)&lt;/a11&gt;&lt;/c10&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10791,6 +11367,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more information on creating accessible views, see &lt;a0&gt; Making Applications Accessible&lt;/a0&gt; in the Android Developers Guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063801Z" creationid="pingfangx" creationdate="20181205T063801Z">
+        <seg>有关创建无障碍 view 的更多信息，请参阅 Android 开发者指南中的 &lt;a0&gt; Making Applications Accessible&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the NotePad sample, overriding the &lt;c0&gt;onDraw()&lt;/c0&gt; method allows us to paint the blue lines on the &lt;c1&gt;EditText&lt;/c1&gt; view canvas (the canvas is passed into the overridden &lt;c2&gt;onDraw()&lt;/c2&gt; method).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10803,6 +11387,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102056Z" creationid="pingfangx" creationdate="20180408T102056Z">
         <seg>为了进行重新解码，位图必须能够访问编码数据，或者通过共享对输入的引用或复制它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the velocity value, you can use the value computed for you by &lt;c2&gt;&lt;a3&gt;GestureDetector&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073217Z" creationid="pingfangx" creationdate="20181205T073217Z">
+        <seg>对于速度值，您可以使用 &lt;c2&gt;&lt;a3&gt;GestureDetector&lt;/a3&gt;&lt;/c2&gt; 为您计算的值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10827,6 +11419,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>为此原因，你要小心处理这些方法返回的 &lt;c9&gt;&lt;a10&gt;NO_POSITION&lt;/a10&gt;&lt;/c9&gt; 或 &lt;c11&gt;null&lt;/c11&gt; 的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this sample, overriding the &lt;c0&gt;onDraw()&lt;/c0&gt; method allows us to paint the blue lines on the &lt;c1&gt;EditText&lt;/c1&gt; view canvas (the canvas is passed into the overridden &lt;c2&gt;onDraw()&lt;/c2&gt; method).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041515Z" creationid="pingfangx" creationdate="20181205T041515Z">
+        <seg>对于此示例，重写 &lt;c0&gt;onDraw()&lt;/c0&gt; 方法允许我们在 &lt;c1&gt;EditText&lt;/c1&gt; 视图画布上绘制蓝线（画布将传递到重写的 &lt;c2&gt;onDraw()&lt;/c2&gt; 方法）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Forgetting these method calls can cause hard-to-find bugs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T062133Z" creationid="pingfangx" creationdate="20181205T062133Z">
+        <seg>忘记这些方法调用可能会导致难以发现的错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fortunately, Android provides helper classes to simulate this and other behaviors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073147Z" creationid="pingfangx" creationdate="20181205T073147Z">
+        <seg>幸运的是，Android 提供了帮助类来模拟这个和其他行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11031,6 +11647,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gestures are a powerful way to control touchscreen devices, but they can be counterintuitive and difficult to remember unless they produce physically plausible results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073058Z" creationid="pingfangx" creationdate="20181205T073058Z">
+        <seg>手势是控制触摸屏设备的有效方式，但它们可能违反直觉并且难以记住，除非它们产生物理上可信的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Get Users</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11151,6 +11775,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Handle Input Gestures</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071340Z" creationid="pingfangx" creationdate="20181205T071340Z">
+        <seg>处理输入手势</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Handle Layout Events</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064818Z" creationid="pingfangx" creationdate="20181205T064818Z">
+        <seg>处理布局事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Handle the error gracefully and substitute an appropriate value in the catch {} block.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11199,6 +11839,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are some things to note in this file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041249Z" creationid="pingfangx" creationdate="20181205T041249Z">
+        <seg>以下是此文件中需要注意的事项：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is a high level overview of what you need to know to get started in creating your own View components:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11231,10 +11879,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here's a snippet from &lt;c0&gt;PieChart.onSizeChanged()&lt;/c0&gt; that shows how to do this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070103Z" creationid="pingfangx" creationdate="20181205T070103Z">
+        <seg>以下是来自 &lt;c0&gt;PieChart.onSizeChanged()&lt;/c0&gt; 的片段，其中显示了如何执行此操作：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here's a summary of some of the other standard methods that the framework calls on views:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这里有一些框架在 view 中调用的标准的方法的摘要：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here's an example implementation of &lt;c0&gt;&lt;a1&gt;onMeasure()&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070227Z" creationid="pingfangx" creationdate="20181205T070227Z">
+        <seg>这是 &lt;c0&gt;&lt;a1&gt;onMeasure()&lt;/a1&gt;&lt;/c0&gt; 的示例实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here's an example of an &lt;c2&gt;attrs.xml&lt;/c2&gt; file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042517Z" creationid="pingfangx" creationdate="20181205T042517Z">
+        <seg>以下是 &lt;c2&gt;attrs.xml&lt;/c2&gt; 文件的示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11251,6 +11923,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081138Z" creationid="pingfangx" creationdate="20180925T081138Z">
         <seg>这是一个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here's how the &lt;c5&gt;PieChart&lt;/c5&gt; class reads its attributes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061715Z" creationid="pingfangx" creationdate="20181205T061715Z">
+        <seg>以下是 &lt;c5&gt;PieChart&lt;/c5&gt; 类如何读取其属性：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11355,6 +12035,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>但是，如果给定尺寸只有一个约束，则 view 将扩展以适合其内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, simulating the feel of a flywheel isn't trivial.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073131Z" creationid="pingfangx" creationdate="20181205T073131Z">
+        <seg>然而，模拟飞轮的感觉并非无足轻重。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11619,6 +12307,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101809Z" creationid="pingfangx" creationdate="20180408T101809Z">
         <seg>如果 inPurgeable 为 true，那么此字段确定位图是否可以共享对输入数据(输入流，数组等)的引用，或者是否必须进行深度复制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If it finds conflicting measurements, it may need to traverse the hierarchy multiple times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080434Z" creationid="pingfangx" creationdate="20181205T080434Z">
+        <seg>如果发现有冲突的测量，则可能需要多次遍历层次结构。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12007,6 +12703,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the value you want to change is one of the base &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; properties, doing the animation is even easier, because Views have a built-in &lt;c2&gt;&lt;a3&gt;ViewPropertyAnimator&lt;/a3&gt;&lt;/c2&gt; that is optimized for simultaneous animation of multiple properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075613Z" creationid="pingfangx" creationdate="20181205T075613Z">
+        <seg>如果要更改的值是基本 &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; 属性之一，则执行动画会更加容易，因为 view 具有内置的 &lt;c2&gt;&lt;a3&gt;ViewPropertyAnimator&lt;/a3&gt;&lt;/c2&gt;，针对多个属性的同步动画进行了优化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the values are not monotonic, the drawing may produce unexpected results.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101203Z" creationid="pingfangx" creationdate="20180427T101203Z">
@@ -12223,6 +12927,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have a complex UI, consider writing a custom &lt;c0&gt;&lt;a1&gt;ViewGroup&lt;/a1&gt;&lt;/c0&gt; to perform its layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080502Z" creationid="pingfangx" creationdate="20181205T080502Z">
+        <seg>如果您有复杂的 UI，请考虑编写自定义 &lt;c0&gt;&lt;a1&gt;ViewGroup&lt;/a1&gt;&lt;/c0&gt; 来执行其布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have a faster way to calculate span index for your items, you should override this method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12263,6 +12975,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you need finer control over your view's layout parameters, implement &lt;c0&gt;&lt;a1&gt;onMeasure()&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070116Z" creationid="pingfangx" creationdate="20181205T070116Z">
+        <seg>如果需要更好地控制 view 的布局参数，请实现 &lt;c0&gt;&lt;a1&gt;onMeasure()&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you need to access Adapter for additional data, you can call &lt;c0&gt;&lt;a1&gt;getChildAdapterPosition(View)&lt;/a1&gt;&lt;/c0&gt; to get the adapter position of the View.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12271,10 +12991,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you omit this call, the &lt;c4&gt;&lt;a5&gt;View&lt;/a5&gt;&lt;/c4&gt; class throws a runtime exception.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070604Z" creationid="pingfangx" creationdate="20181205T070604Z">
+        <seg>如果省略此调用，&lt;c4&gt;&lt;a5&gt;View&lt;/a5&gt;&lt;/c4&gt; 类将引发运行时异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you only need to make small adjustments to an existing widget or layout, you can simply subclass the widget or layout and override its methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果你只需要对现有的 widget 或 layout 作小的调整，你可以简单地创建它们的子类并重写相关方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you only want to process a few gestures, you can extend &lt;c4&gt;&lt;a5&gt;GestureDetector.SimpleOnGestureListener&lt;/a5&gt;&lt;/c4&gt; instead of implementing the &lt;c6&gt;&lt;a7&gt;GestureDetector.OnGestureListener&lt;/a7&gt;&lt;/c6&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072245Z" creationid="pingfangx" creationdate="20181205T072245Z">
+        <seg>如果您只想处理几个手势，可以继承 &lt;c4&gt;&lt;a5&gt;GestureDetector.SimpleOnGestureListener&lt;/a5&gt;&lt;/c4&gt;，而不是实现 &lt;c6&gt;&lt;a7&gt;GestureDetector.OnGestureListener&lt;/a7&gt;&lt;/c6&gt; 界面。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12291,6 +13027,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果你按下按钮并从列表中选择了某项，它会填充 EditText，但是如果用户想要，也可以直接在 EditText 中输入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you return &lt;c7&gt;false&lt;/c7&gt; from &lt;c8&gt;&lt;a9&gt;onDown()&lt;/a9&gt;&lt;/c8&gt;, as &lt;c10&gt;&lt;a11&gt;GestureDetector.SimpleOnGestureListener&lt;/a11&gt;&lt;/c10&gt; does, the system assumes that you want to ignore the rest of the gesture, and the other methods of &lt;c12&gt;&lt;a13&gt;GestureDetector.OnGestureListener&lt;/a13&gt;&lt;/c12&gt; never get called.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072455Z" creationid="pingfangx" creationdate="20181205T072455Z">
+        <seg>如果从 &lt;c8&gt;&lt;a9&gt;onDown()&lt;/a9&gt;&lt;/c8&gt; 返回 &lt;c7&gt;false&lt;/c7&gt;，像 &lt;c10&gt;&lt;a11&gt;GestureDetector.SimpleOnGestureListener&lt;/a11&gt;&lt;/c10&gt; 一样，则系统假定您要忽略手势的其余部分，并且永远不会调用 &lt;c12&gt;&lt;a13&gt;GestureDetector.OnGestureListener&lt;/a13&gt;&lt;/c12&gt; 的其他方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12395,6 +13139,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果您的调试日志是主要日志，那么您可能应采用 VERBOSE 级别的日志记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your view class is an inner class, you must further qualify it with the name of the view's outer class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061358Z" creationid="pingfangx" creationdate="20181205T061358Z">
+        <seg>如果您的 view 类是内部类，则必须使用 view 人外部类的名称进一步限定它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your view doesn't need special control over its size, you only need to override one method: &lt;c2&gt;&lt;a3&gt;onSizeChanged()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T065540Z" creationid="pingfangx" creationdate="20181205T065540Z">
+        <seg>如果您的 view 不需要对其大小进行特殊控制，则只需重写一个方法：&lt;c2&gt;&lt;a3&gt;onSizeChanged()&lt;/a3&gt;&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12607,6 +13367,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition to being a well-designed class, though, a custom view should:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034442Z" creationid="pingfangx" creationdate="20181205T034442Z">
+        <seg>除了是一个精心设计的类之外，自定义视图应该：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to being a well-designed class, though…</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034454Z" creationid="pingfangx" creationdate="20181205T034332Z">
+        <seg>除了是一个精心设计的类之外，自定义视图应该：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to making &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt; leaner, also make sure it's called as infrequently as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080322Z" creationid="pingfangx" creationdate="20181205T080322Z">
+        <seg>除了使 &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt; 更精简之外，还要确保尽可能不频繁地调用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In addition to the View Framework's measurement cache, RecyclerView uses its own additional measurement cache for its children to avoid re-measuring them when not necessary.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12767,6 +13551,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In order to avoid having to repeat the long namespace URI, the sample uses an &lt;c0&gt;xmlns&lt;/c0&gt; directive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061302Z" creationid="pingfangx" creationdate="20181205T061302Z">
+        <seg>为了避免必须重复长命名空间 URI，该示例使用 &lt;c0&gt;xmlns&lt;/c0&gt; 指令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In order to change any settings, call &lt;c2&gt;&lt;a3&gt;decodeBitmap(Source, OnHeaderDecodedListener)&lt;/a3&gt;&lt;/c2&gt; instead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T083800Z" creationid="pingfangx" creationdate="20180921T083800Z">
@@ -12799,6 +13591,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In order to properly draw your custom view, you need to know what size it is.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064846Z" creationid="pingfangx" creationdate="20181205T064846Z">
+        <seg>为了正确绘制自定义 view，您需要知道它的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In other words, it provides consistency for the real-world sizes of your UI elements across different devices.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065450Z" creationid="pingfangx" creationdate="20181107T065450Z">
@@ -12811,6 +13611,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>特别看一下在 &lt;a1&gt;NoteEditor.java&lt;/a1&gt; 文件中的 &lt;c0&gt;MyEditText&lt;/c0&gt; 的定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular you should eliminate allocations in &lt;c2&gt;&lt;a3&gt;onDraw()&lt;/a3&gt;&lt;/c2&gt;, because allocations may lead to a garbage collection that would cause a stutter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080231Z" creationid="pingfangx" creationdate="20181205T080157Z">
+        <seg>特别是你应该消除 &lt;c2&gt;&lt;a3&gt;onDraw()&lt;/a3&gt;&lt;/c2&gt; 中的分配，因为分配可能会导致垃圾收集，从而导致不流畅。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, note the definition of &lt;c0&gt;LinedEditText&lt;/c0&gt; in the &lt;a1&gt; NoteEditor.java&lt;/a1&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041237Z" creationid="pingfangx" creationdate="20181205T041237Z">
+        <seg>特别要注意 &lt;a1&gt; NoteEditor.java&lt;/a1&gt; 文件中 &lt;c0&gt;LinedEditText&lt;/c0&gt; 的定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12911,6 +13727,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the &lt;c4&gt;PieChart&lt;/c4&gt; example, &lt;c5&gt;&lt;a6&gt;onSizeChanged()&lt;/a6&gt;&lt;/c5&gt; is where the &lt;c7&gt;PieChart&lt;/c7&gt; view calculates the bounding rectangle of the pie chart and the relative position of the text label and other visual elements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070022Z" creationid="pingfangx" creationdate="20181205T070022Z">
+        <seg>在 &lt;c4&gt;PieChart&lt;/c4&gt; 示例中，&lt;c5&gt;&lt;a6&gt;onSizeChanged()&lt;/a6&gt;&lt;/c5&gt; 是 &lt;c7&gt;PieChart&lt;/c7&gt; view 计算饼图的边界矩形的位置，文本标签和其他视觉元素的相对位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the &lt;s0&gt;Component Tree&lt;/s0&gt; window, right-click the layout and click &lt;s1&gt;Convert &lt;e2&gt;layout&lt;/e2&gt; to ConstraintLayout&lt;/s1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12939,6 +13763,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在 Javadoc 备注中说明类或接口的作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the NotePad example, the custom component is used directly from the declarative layout, so take a look at &lt;c0&gt;note_editor.xml&lt;/c0&gt; in the &lt;a1&gt; res/layout&lt;/a1&gt; folder.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041540Z" creationid="pingfangx" creationdate="20181205T041540Z">
+        <seg>在 NotePad 示例中，自定义组件直接从声明性布局中使用，因此请查看 &lt;a1&gt; res/layout&lt;/a1&gt; 文件夹中的 &lt;c0&gt;note_editor.xml&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12995,6 +13827,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在下面的例子中，两个 view 都将使用 Material dark color 主题创建，然而，因为所使用的覆盖主题只定义了属性的一个子集，在加载的 context 主题(如 Activity 主题)中定义的 &lt;c0&gt;&lt;a1&gt;android:colorAccent&lt;/a1&gt;&lt;/c0&gt; 将被保留。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the following example, modifying the currently selected pie slice in PieChart causes the entire chart to rotate so that the selection pointer is centered in the selected slice.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075335Z" creationid="pingfangx" creationdate="20181205T075335Z">
+        <seg>在以下示例中，修改 PieChart 中当前选定的饼图切片会导致整个图表旋转，以使选择指针在所选切片中居中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13099,6 +13939,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在例子中，只需要重写一个方法：&lt;c0&gt;onDraw()&lt;/c0&gt;——但当你创建自己的自定义组件时，你也可以很轻松地重写其他需要的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this implementation, &lt;c2&gt;PieChart&lt;/c2&gt; attempts to make its area big enough to make the pie as big as its label:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070257Z" creationid="pingfangx" creationdate="20181205T070257Z">
+        <seg>在此实现中，&lt;c2&gt;PieChart&lt;/c2&gt; 尝试使其区域足够大，使得饼与其标签一样大：</seg>
       </tuv>
     </tu>
     <tu>
@@ -13255,10 +14103,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead of belonging to the &lt;c0&gt;http://schemas.android.com/apk/res/android&lt;/c0&gt; namespace, they belong to &lt;c1&gt;http://schemas.android.com/apk/res/[your package name]&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T043448Z" creationid="pingfangx" creationdate="20181205T043448Z">
+        <seg>它们不属于 &lt;c0&gt;http://schemas.android.com/apk/res/android&lt;/c0&gt; 命名空间，而属于 &lt;c1&gt;http://schemas.android.com/apk/res/[your package name]&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead use "match constraints" (&lt;c3&gt;0dp&lt;/c3&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>而是使用 "match constraints" (&lt;c3&gt;0dp&lt;/c3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, images should move from one place to another.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071208Z" creationid="pingfangx" creationdate="20181205T071208Z">
+        <seg>相反，图像应该从一个地方移动到另一个地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, it sets their sizes directly according to its own custom layout algorithm.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080534Z" creationid="pingfangx" creationdate="20181205T080534Z">
+        <seg>相反，它根据自己的自定义布局算法直接设置它们的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, pass the &lt;c0&gt;&lt;a1&gt;AttributeSet&lt;/a1&gt;&lt;/c0&gt; to &lt;c2&gt;&lt;a3&gt;obtainStyledAttributes()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061557Z" creationid="pingfangx" creationdate="20181205T061557Z">
+        <seg>取而代之的是，将 &lt;c0&gt;&lt;a1&gt;AttributeSet&lt;/a1&gt;&lt;/c0&gt; 传递给 &lt;c2&gt;&lt;a3&gt;obtainStyledAttributes()&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, the method communicates its results by calling &lt;c2&gt;&lt;a3&gt;setMeasuredDimension()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070550Z" creationid="pingfangx" creationdate="20181205T070550Z">
+        <seg>相反，该方法通过调用 &lt;c2&gt;&lt;a3&gt;setMeasuredDimension()&lt;/a3&gt;&lt;/c2&gt; 来传达其结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, use &lt;c0&gt;&lt;a1&gt;ValueAnimator&lt;/a1&gt;&lt;/c0&gt; to make the change.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075316Z" creationid="pingfangx" creationdate="20181205T075316Z">
+        <seg>而是使用 &lt;c0&gt;&lt;a1&gt;ValueAnimator&lt;/a1&gt;&lt;/c0&gt; 进行更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13447,6 +14343,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It encapsulates a specific set of functionality with an easy to use interface, it uses CPU and memory efficiently, and so forth.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034254Z" creationid="pingfangx" creationdate="20181205T034254Z">
+        <seg>它通过易于使用的接口封装了一组特定的函数，它有效地使用 CPU 和内存，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It even raises warnings if the region you've defined for the stretchable area is at risk of producing drawing artifacts as a result of the pixel replication.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13535,6 +14439,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is the fully qualified name of the custom view class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061339Z" creationid="pingfangx" creationdate="20181205T061339Z">
+        <seg>它是自定义 view 类的完全限定名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is very dangerous because it means that Exceptions you never expected (including RuntimeExceptions like ClassCastException) get caught in application-level error handling.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13607,6 +14519,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It uses a mix of text, lines, and shapes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071030Z" creationid="pingfangx" creationdate="20181205T071030Z">
+        <seg>它使用文本，线条和形状的混合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It will only apply if the size of the widget is set to MATCH_CONSTRAINT.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13615,10 +14535,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's common to divide the x and y velocity by a factor of 4 to 8.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073249Z" creationid="pingfangx" creationdate="20181205T073249Z">
+        <seg>将 x 和 y 速度除以 4 到 8 倍是很常见的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's customary to put these resources into a &lt;c1&gt;res/values/attrs.xml&lt;/c1&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042509Z" creationid="pingfangx" creationdate="20181205T042509Z">
+        <seg>习惯上将这些资源放入 &lt;c1&gt;res/values/attrs.xml&lt;/c1&gt; 文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's easy to forget to expose properties and events, especially when you're the only user of the custom view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063430Z" creationid="pingfangx" creationdate="20181205T063430Z">
+        <seg>很容易忘记公开属性和事件，尤其是当您是自定义view的唯一用户时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's similar to &lt;a2&gt;&lt;c3&gt;RelativeLayout&lt;/c3&gt;&lt;/a2&gt; in that all views are laid out according to relationships between sibling views and the parent layout, but it's more flexible than &lt;c4&gt;RelativeLayout&lt;/c4&gt; and easier to use with Android Studio's Layout Editor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg> 它类似于 &lt;a2&gt;&lt;c3&gt;RelativeLayout&lt;/c3&gt;&lt;/a2&gt; 因为所有视图都是根据兄弟视图和父布局之间的关系来布局的，但它比 &lt;c4&gt;RelativeLayout&lt;/c4&gt; 更灵活，并且更易于与 Android Studio 的布局编辑器一起使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's your responsibility to make sure you get and apply new coordinates often enough to make the scrolling animation look smooth.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073409Z" creationid="pingfangx" creationdate="20181205T073409Z">
+        <seg>您有责任确保经常获得并应用新坐标，以使滚动动画看起来流畅。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13659,6 +14611,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Javatests 样式规则</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Just as with primitive shapes, paths can be outlined, filled, or both, depending on the &lt;c6&gt;&lt;a7&gt;setStyle()&lt;/a7&gt;&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070940Z" creationid="pingfangx" creationdate="20181205T070940Z">
+        <seg>与基本形状一样，路径可以是轮廓，填充或两者，具体取决于 &lt;c6&gt;&lt;a7&gt;setStyle()&lt;/a7&gt;&lt;/c6&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13759,6 +14719,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Label your input fields using the &lt;c0&gt;android:contentDescription&lt;/c0&gt; attribute</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063717Z" creationid="pingfangx" creationdate="20181205T063717Z">
+        <seg>使用 &lt;c0&gt;android:contentDescription&lt;/c0&gt; 属性标记输入字段</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Last, it describes some common start-time issues, and gives some hints on how to address them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071522Z" creationid="pingfangx" creationdate="20180925T071522Z">
@@ -13847,10 +14815,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Like many other UI frameworks, Android supports an input event model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071347Z" creationid="pingfangx" creationdate="20181205T071347Z">
+        <seg>与许多其他 UI 框架一样，Android 支持输入事件模型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Likewise, when on a lower density screen, the number of pixels used for 1dp is scaled down.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T064759Z" creationid="pingfangx" creationdate="20181107T064759Z">
         <seg>同样，当在较低密度屏幕上时，用于 1dp 的像素数按比例缩小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Likewise, you need to request a new layout if a property changes that might affect the size or shape of the view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T062108Z" creationid="pingfangx" creationdate="20181205T062108Z">
+        <seg>同样，如果属性更改可能会影响 view 的大小或形状，则需要请求新布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13975,10 +14959,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Make Your Transitions Smooth</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075107Z" creationid="pingfangx" creationdate="20181205T075107Z">
+        <seg>让你的过渡平滑</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make your view hierarchies as shallow as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080455Z" creationid="pingfangx" creationdate="20181205T080455Z">
+        <seg>使您的 view 层次结构尽可能浅。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Makes it obvious what classes are actually used and the code is more readable for maintainers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>明确指出实际使用了哪些类，而且代码对于维护者来说更易读。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Making the View Interactive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071119Z" creationid="pingfangx" creationdate="20181205T071119Z">
+        <seg>使 view 交互</seg>
       </tuv>
     </tu>
     <tu>
@@ -14095,6 +15103,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Modern touch UIs define interactions in terms of gestures such as tapping, pulling, pushing, flinging, and zooming.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071437Z" creationid="pingfangx" creationdate="20181205T071437Z">
+        <seg>现代触摸 UI 定义了手势方面的交互，例如点击，拉动，推动，投掷和缩放。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Modify the image after decoding and scaling.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074628Z" creationid="pingfangx" creationdate="20180921T074628Z">
@@ -14135,6 +15151,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most calls to &lt;c2&gt;&lt;a3&gt;onDraw()&lt;/a3&gt;&lt;/c2&gt; are the result of a call to &lt;c4&gt;&lt;a5&gt;invalidate()&lt;/a5&gt;&lt;/c4&gt;, so eliminate unnecessary calls to &lt;c6&gt;&lt;a7&gt;invalidate()&lt;/a7&gt;&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080408Z" creationid="pingfangx" creationdate="20181205T080408Z">
+        <seg>大多数对 &lt;c2&gt;&lt;a3&gt;onDraw()&lt;/a3&gt;&lt;/c2&gt; 的调用是对 &lt;c4&gt;&lt;a5&gt;invalidate()&lt;/a5&gt;&lt;/c4&gt; 的调用的结果，因此应消除对 &lt;c6&gt;&lt;a7&gt;invalidate()&lt;/a7&gt;&lt;/c6&gt; 的不必要调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most often, you do this by calling &lt;c2&gt;&lt;a3&gt;setResult()&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14151,10 +15175,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most views pass the &lt;c0&gt;&lt;a1&gt;Scroller&lt;/a1&gt;&lt;/c0&gt; object's x and y position directly to &lt;c2&gt;&lt;a3&gt;scrollTo()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073339Z" creationid="pingfangx" creationdate="20181205T073339Z">
+        <seg>大多数 view 将 &lt;c0&gt;&lt;a1&gt;Scroller&lt;/a1&gt;&lt;/c0&gt; 对象的 x 和 y 位置直接传递给 &lt;c2&gt;&lt;a3&gt;scrollTo()&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most visited</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Most visited</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Motions begin and end smoothly instead of starting and stopping abruptly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075202Z" creationid="pingfangx" creationdate="20181205T075202Z">
+        <seg>动作开始和结束平滑地而不是突然开始和停止。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14239,6 +15279,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Never make an allocation while an animation is running.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080311Z" creationid="pingfangx" creationdate="20181205T080246Z">
+        <seg>永远不要在动画运行时进行分配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Next, call the method &lt;c0&gt;&lt;a1&gt;Intent.setFlags()&lt;/a1&gt;&lt;/c0&gt; with either &lt;c2&gt;&lt;a3&gt;FLAG_GRANT_READ_URI_PERMISSION&lt;/a3&gt;&lt;/c2&gt; or &lt;c4&gt;&lt;a5&gt;FLAG_GRANT_WRITE_URI_PERMISSION&lt;/a5&gt;&lt;/c4&gt; or both.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14319,6 +15367,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note also that the inner class we defined is referenced using the &lt;c0&gt;NoteEditor$LinedEditText&lt;/c0&gt; notation which is a standard way to refer to inner classes in the Java programming language.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041611Z" creationid="pingfangx" creationdate="20181205T041611Z">
+        <seg>另请注意，我们定义的内部类是使用 &lt;c0&gt;NoteEditor$LinedEditText&lt;/c0&gt; 表示法引用的，这是一种在 Java 编程语言中引用内部类的标准方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note also that the inner class we defined is referenced using the &lt;c0&gt;NoteEditor$MyEditText&lt;/c0&gt; notation which is a standard way to refer to inner classes in the Java programming language.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14331,6 +15387,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>注意 "-1" 意味着 "unset" 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that &lt;c0&gt;&lt;a1&gt;TypedArray&lt;/a1&gt;&lt;/c0&gt; objects are a shared resource and must be recycled after use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061724Z" creationid="pingfangx" creationdate="20181205T061724Z">
+        <seg>请注意，&lt;c0&gt;&lt;a1&gt;TypedArray&lt;/a1&gt;&lt;/c0&gt; 对象是共享资源，必须在使用后回收。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14535,6 +15599,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notice that &lt;c0&gt;setShowText&lt;/c0&gt; calls &lt;c1&gt;&lt;a2&gt;invalidate()&lt;/a2&gt;&lt;/c1&gt; and &lt;c3&gt;&lt;a4&gt;requestLayout()&lt;/a4&gt;&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061945Z" creationid="pingfangx" creationdate="20181205T061945Z">
+        <seg>请注意，&lt;c0&gt;setShowText&lt;/c0&gt; 调用 &lt;c1&gt;&lt;a2&gt;invalidate()&lt;/a2&gt;&lt;/c1&gt; 和 &lt;c3&gt;&lt;a4&gt;requestLayout()&lt;/a4&gt;&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notice that the &lt;c0&gt;MyEditText&lt;/c0&gt; class is now a separate class file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14555,6 +15627,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>请注意，该值是指 &lt;b2&gt;subdirectory&lt;/b2&gt;，而不是单个文件或文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notice the name of the XML tag that adds the custom view to the layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061331Z" creationid="pingfangx" creationdate="20181205T061331Z">
+        <seg>请注意将自定义 view 添加到布局的 XML 标记的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now that you have a well-designed view that responds to gestures and transitions between states, ensure that the view runs fast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075841Z" creationid="pingfangx" creationdate="20181205T075841Z">
+        <seg>既然您有一个精心设计的 view 来响应手势和状态之间的转换，请确保 view 快速运行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14587,6 +15675,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Nullable - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objects should always act in the same way that real objects do.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071145Z" creationid="pingfangx" creationdate="20181205T071145Z">
+        <seg>对象应始终以与真实对象相同的方式起作用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14655,10 +15751,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once you define the custom attributes, you can use them in layout XML files just like built-in attributes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T043410Z" creationid="pingfangx" creationdate="20181205T043410Z">
+        <seg>定义自定义属性后，可以像布局属性一样在布局 XML 文件中使用它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once you have created a tree of views, there are typically a few types of common operations you may wish to perform:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一旦你创建了一个 view 树，代表一些通用的操作你可能希望完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once you have your object creation and measuring code defined, you can implement &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070620Z" creationid="pingfangx" creationdate="20181205T070620Z">
+        <seg>一旦定义了对象创建和测量代码，就可以实现 &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once you've implemented &lt;c17&gt;&lt;a18&gt;GestureDetector.OnGestureListener&lt;/a18&gt;&lt;/c17&gt; and created an instance of &lt;c19&gt;&lt;a20&gt;GestureDetector&lt;/a20&gt;&lt;/c19&gt;, you can use your &lt;c21&gt;&lt;a22&gt;GestureDetector&lt;/a22&gt;&lt;/c21&gt; to interpret the touch events you receive in &lt;c23&gt;&lt;a24&gt;onTouchEvent()&lt;/a24&gt;&lt;/c23&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072608Z" creationid="pingfangx" creationdate="20181205T072608Z">
+        <seg>一旦实现了 &lt;c17&gt;&lt;a18&gt;GestureDetector.OnGestureListener&lt;/a18&gt;&lt;/c17&gt; 并创建了 &lt;c19&gt;&lt;a20&gt;GestureDetector&lt;/a20&gt;&lt;/c19&gt; 的实例，就可以使用 &lt;c21&gt;&lt;a22&gt;GestureDetector&lt;/a22&gt;&lt;/c21&gt; 解释您在 &lt;c23&gt;&lt;a24&gt;onTouchEvent()&lt;/a24&gt;&lt;/c23&gt; 中收到的触摸事件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14863,6 +15983,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Override this method to handle the event:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071413Z" creationid="pingfangx" creationdate="20181205T071413Z">
+        <seg>重写此方法以处理事件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Override to prevent freezing of any views created by the adapter.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15007,6 +16135,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PieChart has child views, but it never measures them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080527Z" creationid="pingfangx" creationdate="20181205T080527Z">
+        <seg>PieChart 有子 view，但它从不测量它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pixels - Corresponds to actual pixels on the screen.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065920Z" creationid="pingfangx" creationdate="20181107T065920Z">
@@ -15115,6 +16251,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T093548Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>受保护的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Provide custom styleable attributes that work with Android XML layouts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034557Z" creationid="pingfangx" creationdate="20181205T034557Z">
+        <seg>提供适用于 Android XML 布局的自定义 styleable 属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -15647,6 +16791,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Resource references within attribute values are not resolved</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061541Z" creationid="pingfangx" creationdate="20181205T061522Z">
+        <seg>未解析属性值中的资源引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Restore any instance state associated with this adapter and its pages that was previously saved by &lt;c0&gt;&lt;a1&gt;saveState()&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15691,6 +16843,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>获取指定 item 的偏移。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieve attribute values at runtime</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042438Z" creationid="pingfangx" creationdate="20181205T042438Z">
+        <seg>在运行时获取属性值</seg>
       </tuv>
     </tu>
     <tu>
@@ -16887,6 +18047,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Send accessibility events</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034603Z" creationid="pingfangx" creationdate="20181205T034603Z">
+        <seg>发送辅助功能事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Send accessibility events by calling &lt;c0&gt;&lt;a1&gt;sendAccessibilityEvent()&lt;/a1&gt;&lt;/c0&gt; when appropriate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063723Z" creationid="pingfangx" creationdate="20181205T063723Z">
+        <seg>适当时通过调用 &lt;c0&gt;&lt;a1&gt;sendAccessibilityEvent()&lt;/a1&gt;&lt;/c0&gt; 发送辅助功能事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Separated by a blank line between each major grouping (&lt;c0&gt;android&lt;/c0&gt;, &lt;c1&gt;com&lt;/c1&gt;, &lt;c2&gt;junit&lt;/c2&gt;, &lt;c3&gt;net&lt;/c3&gt;, &lt;c4&gt;org&lt;/c4&gt;, &lt;c5&gt;java&lt;/c5&gt;, &lt;c6&gt;javax&lt;/c6&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17127,6 +18303,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set up a &lt;c0&gt;&lt;a1&gt;ValueAnimator&lt;/a1&gt;&lt;/c0&gt; to animate for the duration of the fling, and add a listener to process animation updates by calling &lt;c2&gt;&lt;a3&gt;addUpdateListener()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073454Z" creationid="pingfangx" creationdate="20181205T073454Z">
+        <seg>设置 &lt;c0&gt;&lt;a1&gt;ValueAnimator&lt;/a1&gt;&lt;/c0&gt; 以在 fling 持续时间内设置动画，并通过调用 &lt;c2&gt;&lt;a3&gt;addUpdateListener()&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set whether the RecyclerView should try to keep the same Item focused after a layout calculation or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17295,6 +18479,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Simply put, &lt;c8&gt;&lt;a9&gt;Canvas&lt;/a9&gt;&lt;/c8&gt; defines shapes that you can draw on the screen, while &lt;c10&gt;&lt;a11&gt;Paint&lt;/a11&gt;&lt;/c10&gt; defines the color, style, font, and so forth of each shape you draw.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064457Z" creationid="pingfangx" creationdate="20181205T064457Z">
+        <seg>简单地说，&lt;c8&gt;&lt;a9&gt;Canvas&lt;/a9&gt;&lt;/c8&gt; 定义可以在屏幕上绘制的形状，而 &lt;c10&gt;&lt;a11&gt;Paint&lt;/a11&gt;&lt;/c10&gt; 定义您绘制的每个形状的颜色，样式，字体等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since RecyclerView is a collection ViewGroup that includes virtual children (items that are in the Adapter but not visible in the UI), it employs a more involved focus search strategy that differs from other ViewGroups.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17387,6 +18579,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>因此你可以完全通过拖拽的方式去构建一个使用 &lt;c1&gt;ConstraintLayout&lt;/c1&gt;，而不用直接在 XML 中编辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So, before you draw anything, you need to create one or more &lt;c0&gt;&lt;a1&gt;Paint&lt;/a1&gt;&lt;/c0&gt; objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064505Z" creationid="pingfangx" creationdate="20181205T064505Z">
+        <seg>因此，在绘制任何内容之前，需要创建一个或多个 &lt;c0&gt;&lt;a1&gt;Paint&lt;/a1&gt;&lt;/c0&gt; 对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17607,6 +18807,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specify the typeface by calling &lt;c2&gt;&lt;a3&gt;setTypeface()&lt;/a3&gt;&lt;/c2&gt;, and the text color by calling &lt;c4&gt;&lt;a5&gt;setColor()&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070644Z" creationid="pingfangx" creationdate="20181205T070644Z">
+        <seg>通过调用 &lt;c2&gt;&lt;a3&gt;setTypeface()&lt;/a3&gt;&lt;/c2&gt; 指定字体，通过调用 &lt;c4&gt;&lt;a5&gt;setColor()&lt;/a5&gt;&lt;/c4&gt; 指定文本颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specify values for the attributes in your XML layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042434Z" creationid="pingfangx" creationdate="20181205T042434Z">
+        <seg>在 XML 布局中指定属性的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specify whether the &lt;c0&gt;&lt;a1&gt;Bitmap&lt;/a1&gt;&lt;/c0&gt; should be mutable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074604Z" creationid="pingfangx" creationdate="20180921T074604Z">
@@ -17667,6 +18883,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>把 view 从 &lt;b0&gt;Palette&lt;/b0&gt; 窗口拖到编辑器中开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Start by working on &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt;, which will give you the biggest payback.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075956Z" creationid="pingfangx" creationdate="20181205T075956Z">
+        <seg>首先处理 &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt;，这将为您带来最大的回报。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17791,6 +19015,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Styles are not applied</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061538Z" creationid="pingfangx" creationdate="20181205T061538Z">
+        <seg>样式未运用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Subclass a View</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041825Z" creationid="pingfangx" creationdate="20181205T041825Z">
+        <seg>实现 View 的子类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Subclasses of &lt;c2&gt;Object&lt;/c2&gt; may override this definition.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104737Z" creationid="pingfangx" creationdate="20180427T104737Z">
@@ -17879,6 +19119,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Support alternate controllers, such as D-pad and trackball</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063729Z" creationid="pingfangx" creationdate="20181205T063729Z">
+        <seg>支持备用控制器，如 D-pad 和轨迹球</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Supported formats are: #RRGGBB #AARRGGBB or one of the following names: 'red', 'blue', 'green', 'black', 'white', 'gray', 'cyan', 'magenta', 'yellow', 'lightgray', 'darkgray', 'grey', 'lightgrey', 'darkgrey', 'aqua', 'fuchsia', 'lime', 'maroon', 'navy', 'olive', 'purple', 'silver', 'teal'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065357Z" creationid="pingfangx" creationdate="20180903T065357Z">
@@ -17939,6 +19187,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Tags 可以在 XML 文件中申明为一个字符串值，用一个单一的标签 &lt;c0&gt;&lt;a1&gt;android:tag&lt;/a1&gt;&lt;/c0&gt;，或者用 &lt;c2&gt;&lt;tag&gt;&lt;/c2&gt; 子标签申明多个 tag。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Taking some time to carefully define your view's interface reduces future maintenance costs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063441Z" creationid="pingfangx" creationdate="20181205T063441Z">
+        <seg>花些时间仔细定义 view 接口可以降低未来的维护成本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18023,10 +19279,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;&lt;a1&gt;Scroller&lt;/a1&gt;&lt;/c0&gt; class computes scroll positions for you, but it does not automatically apply those positions to your view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073359Z" creationid="pingfangx" creationdate="20181205T073359Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;Scroller&lt;/a1&gt;&lt;/c0&gt; 类为您计算滚动位置，但它不会自动将这些位置应用于您的view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;&lt;a1&gt;Scroller&lt;/a1&gt;&lt;/c0&gt; class is the basis for handling flywheel-style &lt;e2&gt;fling&lt;/e2&gt; gestures.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073154Z" creationid="pingfangx" creationdate="20181205T073154Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;Scroller&lt;/a1&gt;&lt;/c0&gt; 类是处理飞轮式 &lt;e2&gt;fling&lt;/e2&gt; 手势的基础。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;&lt;a1&gt;View.MeasureSpec&lt;/a1&gt;&lt;/c0&gt; class is used by views to tell their parents how they want to be measured and positioned.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>view 使用 &lt;c0&gt;&lt;a1&gt;View.MeasureSpec&lt;/a1&gt;&lt;/c0&gt; 类来告诉它们的父 view，它们想要怎样被测量和定位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;&lt;a1&gt;android.graphics&lt;/a1&gt;&lt;/c0&gt; framework divides drawing into two areas:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064310Z" creationid="pingfangx" creationdate="20181205T064310Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;android.graphics&lt;/a1&gt;&lt;/c0&gt; 框架将绘制划分为两个区域：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18191,6 +19471,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c2&gt;PieChart&lt;/c2&gt; example does this in a method called &lt;c3&gt;init&lt;/c3&gt;, which is called from the constructor from Java, but we can initialise inline in Kotlin:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064521Z" creationid="pingfangx" creationdate="20181205T064521Z">
+        <seg>&lt;c2&gt;PieChart&lt;/c2&gt; 示例在名为 &lt;c3&gt;init&lt;/c3&gt; 的方法中执行此操作，该方法是从 Java 的构造函数中调用的，但我们可以在 Kotlin 中初始化内联：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c3&gt;&lt;bool&gt;&lt;/c3&gt; element's &lt;c4&gt;name&lt;/c4&gt; will be used as the resource ID.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061812Z" creationid="pingfangx" creationdate="20181107T061812Z">
@@ -18203,6 +19491,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104655Z" creationid="pingfangx" creationdate="20180427T104655Z">
         <seg>&lt;c3&gt;finalize&lt;/c3&gt; 方法可以采取任何操作，包括使该对象再次可用于其他线程;然而，&lt;c4&gt;finalize&lt;/c4&gt; 的通常目的是在对象被不可撤销地丢弃之前执行清理操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c6&gt;&lt;a7&gt;Canvas&lt;/a7&gt;&lt;/c6&gt; class defines methods for drawing text, lines, bitmaps, and many other graphics primitives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064102Z" creationid="pingfangx" creationdate="20181205T064102Z">
+        <seg>&lt;c6&gt;&lt;a7&gt;Canvas&lt;/a7&gt;&lt;/c6&gt; 类定义了绘制文本，线条，位图和许多其他图形基元的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Android &lt;a0&gt;property animation framework&lt;/a0&gt;, introduced in Android 3.0, makes smooth transitions easy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075248Z" creationid="pingfangx" creationdate="20181205T075248Z">
+        <seg>Android 3.0 中引入的 &lt;a0&gt;property animation framework&lt;/a0&gt; 使平滑过渡变得容易。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Android framework provides a set of base classes and XML tags to help you create a view that meets all of these requirements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034620Z" creationid="pingfangx" creationdate="20181205T034620Z">
+        <seg>Android 框架提供了一组基类和 XML 标记，可帮助您创建满足所有这些要求的视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Android resource compiler does a lot of work for you to make calling &lt;c0&gt;&lt;a1&gt;obtainStyledAttributes()&lt;/a1&gt;&lt;/c0&gt; easier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061640Z" creationid="pingfangx" creationdate="20181205T061640Z">
+        <seg>Android 资源编译器为您做了很多工作，使您更容易调用 &lt;c0&gt;&lt;a1&gt;obtainStyledAttributes()&lt;/a1&gt;&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18259,6 +19579,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>该 LabelView 示例展示了几个自定义组件不同的方面：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The PieChart example is a little different: it uses the current scroll y position to set the rotational angle of the chart.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073350Z" creationid="pingfangx" creationdate="20181205T073350Z">
+        <seg>饼图示例略有不同：它使用当前滚动 y 位置来设置图表的旋转角度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The PieChart example shows how to extend &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt; as part of a custom view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080523Z" creationid="pingfangx" creationdate="20181205T080523Z">
+        <seg>PieChart 示例显示如何将 &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt; 继承为自定义 view 的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The PieChart example uses the second approach.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073501Z" creationid="pingfangx" creationdate="20181205T073501Z">
+        <seg>PieChart 示例使用第二种方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18423,6 +19767,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The calculations take into account the view's padding.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070311Z" creationid="pingfangx" creationdate="20181205T070311Z">
+        <seg>计算考虑了 view 的 padding。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The call to &lt;c0&gt;&lt;a1&gt;fling()&lt;/a1&gt;&lt;/c0&gt; sets up the physics model for the fling gesture.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073257Z" creationid="pingfangx" creationdate="20181205T073257Z">
+        <seg>对 &lt;c0&gt;&lt;a1&gt;fling()&lt;/a1&gt;&lt;/c0&gt; 的调用设置了投掷手势的物理模型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The chain's "head" view (the left-most view in a horizontal chain and the top-most view in a vertical chain) defines the chain's style in XML.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18467,6 +19827,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果尺寸行为是 MATCH_CONSTRAINT，我们使用的 child 的权重可以分配链中可用的垂直空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The class is defined with the following line:&lt;br0/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041252Z" creationid="pingfangx" creationdate="20181205T041252Z">
+        <seg>该类使用以下行定义：&lt;br0/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18631,6 +19999,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The drawback is that &lt;c0&gt;&lt;a1&gt;ValueAnimator&lt;/a1&gt;&lt;/c0&gt; is not available prior to API level 11, so this technique cannot be used on devices running Android versions lower than 3.0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073543Z" creationid="pingfangx" creationdate="20181205T073543Z">
+        <seg>缺点是在 API 级别 11 之前 &lt;c0&gt;&lt;a1&gt;ValueAnimator&lt;/a1&gt;&lt;/c0&gt; 不可用，因此该技术不能用于运行低于 3.0 的 Android 版本的设备。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The easiest way to transition back to your normal theme is to call &lt;c0&gt;&lt;a1&gt;setTheme(R.style.AppTheme)&lt;/a1&gt;&lt;/c0&gt; before calling &lt;c2&gt;super.onCreate()&lt;/c2&gt; and &lt;c3&gt;setContentView()&lt;/c3&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084157Z" creationid="pingfangx" creationdate="20180925T084157Z">
@@ -18743,6 +20119,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following snippet shows how &lt;c0&gt;PieChart&lt;/c0&gt; exposes a property called &lt;c1&gt;showText&lt;/c1&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061932Z" creationid="pingfangx" creationdate="20181205T061932Z">
+        <seg>以下代码段显示 &lt;c0&gt;PieChart&lt;/c0&gt; 如何公开名为 &lt;c1&gt;showText&lt;/c1&gt; 的属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following units of measure are supported by Android:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T064012Z" creationid="pingfangx" creationdate="20181107T064012Z">
@@ -18851,6 +20235,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>链头是水平链式最左边的部件，对于垂直链式是最顶部的部件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The helper method &lt;c0&gt;&lt;a1&gt;resolveSizeAndState()&lt;/a1&gt;&lt;/c0&gt; is used to create the final width and height values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070443Z" creationid="pingfangx" creationdate="20181205T070443Z">
+        <seg>辅助方法 &lt;c0&gt;&lt;a1&gt;resolveSizeAndState()&lt;/a1&gt;&lt;/c0&gt; 用于创建最终的宽度和高度值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19095,6 +20487,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The most common input event in the Android system is &lt;e0&gt;touch&lt;/e0&gt;, which triggers &lt;c1&gt;&lt;a2&gt;onTouchEvent(android.view.MotionEvent)&lt;/a2&gt;&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071407Z" creationid="pingfangx" creationdate="20181205T071407Z">
+        <seg>Android 系统中最常见的输入事件是 &lt;e0&gt;touch&lt;/e0&gt;，它触发 &lt;c1&gt;&lt;a2&gt;onTouchEvent(android.view.MotionEvent)&lt;/a2&gt;&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The most generic view you can extend is, unsurprisingly, &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt;, so you will usually start by extending this to create your new super component.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19103,10 +20503,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The most important part of a custom view is its appearance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063943Z" creationid="pingfangx" creationdate="20181205T063943Z">
+        <seg>自定义 view 最重要的部分是它的外观。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The most important step in drawing a custom view is to override the &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064043Z" creationid="pingfangx" creationdate="20181205T064043Z">
+        <seg>绘制自定义 view 最重要的步骤是覆盖 &lt;c0&gt;&lt;a1&gt;onDraw()&lt;/a1&gt;&lt;/c0&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of the parent class is an homage to the work of Thomas Porter and Tom Duff, presented in their seminal 1984 paper titled "Compositing Digital Images".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T041850Z" creationid="pingfangx" creationdate="20180510T041850Z">
         <seg>父类的名字是对 Thomas Porter 和 Tom Duff 的工作的致敬，他们在 1984 年发表的题为 "合成数字图像" 的开创性论文中作了介绍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the styleable entity is, by convention, the same name as the name of the class that defines the custom view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042614Z" creationid="pingfangx" creationdate="20181205T042614Z">
+        <seg>按照惯例，styleable 实体的名称与定义自定义 view 的类的名称相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The next section deals with retrieving and applying the values at runtime.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042458Z" creationid="pingfangx" creationdate="20181205T042458Z">
+        <seg>下一节将介绍如何在运行时获取和应用值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The next section discusses &lt;c2&gt;&lt;a3&gt;Paint&lt;/a3&gt;&lt;/c2&gt; in more detail.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064147Z" creationid="pingfangx" creationdate="20181205T064147Z">
+        <seg>下一节将更详细地讨论 &lt;c2&gt;&lt;a3&gt;Paint&lt;/a3&gt;&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19151,6 +20591,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The only difference is that your custom attributes belong to a different namespace.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T043416Z" creationid="pingfangx" creationdate="20181205T043416Z">
+        <seg>唯一的区别是您的自定义属性属于不同的命名空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The only limit is your imagination and what you need the component to do.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19163,6 +20611,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>应该触发 INFORMATIVE 级别或更高级别日志记录的唯一情况是，模块或应用在其自身级别或更低级别检测到错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The only time you should return &lt;c14&gt;false&lt;/c14&gt; from &lt;c15&gt;&lt;a16&gt;onDown()&lt;/a16&gt;&lt;/c15&gt; is if you truly want to ignore an entire gesture.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072517Z" creationid="pingfangx" creationdate="20181205T072517Z">
+        <seg>您应该从 &lt;c15&gt;&lt;a16&gt;onDown()&lt;/a16&gt;&lt;/c15&gt; 返回 &lt;c14&gt;false&lt;/c14&gt; 的唯一时间是如果您真的想要忽略整个手势。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19235,6 +20691,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>padding 以像素为位表示了 view 的 left, top, right and bottom 四部分的 padding。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The parameter to &lt;c2&gt;&lt;a3&gt;onDraw()&lt;/a3&gt;&lt;/c2&gt; is a &lt;c4&gt;&lt;a5&gt;Canvas&lt;/a5&gt;&lt;/c4&gt; object that the view can use to draw itself.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064051Z" creationid="pingfangx" creationdate="20181205T064051Z">
+        <seg>&lt;c2&gt;&lt;a3&gt;onDraw()&lt;/a3&gt;&lt;/c2&gt; 的参数是一个 &lt;c4&gt;&lt;a5&gt;Canvas&lt;/a5&gt;&lt;/c4&gt; 对象，view 可用于绘制自身。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19687,6 +21151,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The superclass method should be invoked, and in this case, we do it at the end after we have painted the lines we want to include.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041523Z" creationid="pingfangx" creationdate="20181205T041523Z">
+        <seg>应该调用超类方法，在这种情况下，我们在绘制了要包含的行之后最后执行它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The superclass method should be invoked, but in this case, we do it at the end after we have painted the lines we want to include.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19959,6 +21431,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are three important things to note in this code:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070302Z" creationid="pingfangx" creationdate="20181205T070302Z">
+        <seg>此代码中有三个重要事项需要注意：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are two ways to do this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073411Z" creationid="pingfangx" creationdate="20181205T073411Z">
+        <seg>有两种方法可以做到这一点：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is a form of the constructor that are called when the view is created from code and a form that is called when the view is inflated from a layout file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20071,6 +21559,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These calls are crucial to ensure that the view behaves reliably.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061958Z" creationid="pingfangx" creationdate="20181205T061958Z">
+        <seg>这些调用对于确保 view 可靠地运行至关重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These child elements all use the same attributes:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20083,6 +21579,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065147Z" creationid="pingfangx" creationdate="20180903T065147Z">
         <seg>这些组件值应为[0..255]，但未执行范围检查，因此如果它们超出范围，则返回的颜色未定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These deep view hierarchies cause performance problems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080452Z" creationid="pingfangx" creationdate="20181205T080452Z">
+        <seg>这些深层 view 层次结构会导致性能问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20375,6 +21879,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This code declares two custom attributes, &lt;c0&gt;showText&lt;/c0&gt; and &lt;c1&gt;labelPosition&lt;/c1&gt;, that belong to a styleable entity named &lt;c2&gt;PieChart&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042547Z" creationid="pingfangx" creationdate="20181205T042547Z">
+        <seg>此代码声明了两个自定义属性 &lt;c0&gt;showText&lt;/c0&gt; 和 &lt;c1&gt;labelPosition&lt;/c1&gt;，它们属于名为 &lt;c2&gt;PieChart&lt;/c2&gt; 的 styleable 实体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This configuration can produce slight visual artifacts depending on the configuration of the source.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100924Z" creationid="pingfangx" creationdate="20180408T100924Z">
@@ -20399,10 +21911,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This constructor allows the layout editor to create and edit an instance of your view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042150Z" creationid="pingfangx" creationdate="20181205T042150Z">
+        <seg>此构造函数允许布局编辑器创建和编辑 view 的实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This demonstrates many aspects of using the Android platform, among them is extending an EditText View to make a lined notepad.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这个示例演示了很多使用 Android 平台的方面，范例中继承了 EditText 来创建一个 lined notepad。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This directive assigns the alias &lt;c1&gt;custom&lt;/c1&gt; to the namespace &lt;c2&gt;http://schemas.android.com/apk/res/com.example.customviews&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061316Z" creationid="pingfangx" creationdate="20181205T061316Z">
+        <seg>此伪指令将别名 &lt;c1&gt;custom&lt;/c1&gt; 分配给命名空间 &lt;c2&gt;http://schemas.android.com/apk/res/com.example.customviews&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20427,6 +21955,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这不需要是一个 View，但可以是页面的其他容器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This example overrides only one method, &lt;c0&gt;onDraw()&lt;/c0&gt;, but you might need to override others as you create your own custom components.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041505Z" creationid="pingfangx" creationdate="20181205T041505Z">
+        <seg>此示例仅覆盖一个方法 &lt;c0&gt;onDraw()&lt;/c0&gt;，但您可能需要在创建自己的自定义组件时覆盖其他方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20456,6 +21992,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This gesture makes sense if the UI responds by moving quickly in the direction of the fling, then slowing down, as if the user had pushed on a flywheel and set it spinning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073124Z" creationid="pingfangx" creationdate="20181205T073124Z">
+        <seg>如果 UI 通过快速朝向投掷方向移动来响应，然后减速，则该手势是有意义的，就好像用户已经按下飞轮并将其旋转一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This grants temporary access permission for the content URI to the specified package, according to the value of the the &lt;c5&gt;mode_flags&lt;/c5&gt; parameter, which you can set to &lt;c6&gt;&lt;a7&gt;FLAG_GRANT_READ_URI_PERMISSION&lt;/a7&gt;&lt;/c6&gt;, &lt;c8&gt;&lt;a9&gt;FLAG_GRANT_WRITE_URI_PERMISSION&lt;/a9&gt;&lt;/c8&gt; or both.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20476,6 +22020,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090533Z" creationid="pingfangx" creationdate="20180921T090533Z">
         <seg>这与使用基于 &lt;c2&gt;sampleSize&lt;/c2&gt; 的维度调用 &lt;c0&gt;&lt;a1&gt;setTargetSize(int, int)&lt;/a1&gt;&lt;/c0&gt; 的效果相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This helper returns an appropriate &lt;c2&gt;&lt;a3&gt;View.MeasureSpec&lt;/a3&gt;&lt;/c2&gt; value by comparing the view's desired size to the spec passed into &lt;c4&gt;&lt;a5&gt;onMeasure()&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070526Z" creationid="pingfangx" creationdate="20181205T070526Z">
+        <seg>此助手通过将 view 的所需大小与传递到&lt;c4&gt; &lt;a5&gt; onMeasure()&lt;/a5&gt; &lt;/c4&gt; 的 spec 进行比较，返回适当的 &lt;c2&gt;&lt;a3&gt;View.MeasureSpec&lt;/a3&gt;&lt;/c2&gt; 值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20508,6 +22060,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这些支持包括保持跟踪 X、Y 的滚动偏移量及绘制滚动条的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This includes users with disabilities that prevent them from seeing or using a touchscreen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063707Z" creationid="pingfangx" creationdate="20181205T063707Z">
+        <seg>这包括看到或使用触摸屏有困难的残障用户。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20636,6 +22196,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这不是一个完美的例子，相对于早期版本来说，很多 API 可能已经改变了，但它仍然演示了一些原则。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is not a perfect example, and the APIs for doing this might change, but it does demonstrate the principles.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041229Z" creationid="pingfangx" creationdate="20181205T041229Z">
+        <seg>这不是一个完美的例子，用于这样做的 API 可能会更改，但它确实证明了这些原则。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20776,6 +22344,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This lesson covers some of the most common operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064011Z" creationid="pingfangx" creationdate="20181205T064011Z">
+        <seg>本课程介绍了一些最常见的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This lesson demonstrates how to use features of the Android framework to add these real-world behaviors to your custom view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071327Z" creationid="pingfangx" creationdate="20181205T071327Z">
+        <seg>本课程演示如何使用 Android 框架的功能将这些真实行为添加到自定义view中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This lesson discusses how to use the Android framework to create the core functionality of a view class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034814Z" creationid="pingfangx" creationdate="20181205T034814Z">
+        <seg>本类讨论如何使用 Android 框架创建视图类的核心函数式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This level is always logged.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20880,6 +22472,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This method passes back a &lt;c4&gt;&lt;a5&gt;TypedArray&lt;/a5&gt;&lt;/c4&gt; array of values that have already been dereferenced and styled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061613Z" creationid="pingfangx" creationdate="20181205T061613Z">
+        <seg>此方法传回已取消引用和样式化的 &lt;c4&gt;&lt;a5&gt;TypedArray&lt;/a5&gt;&lt;/c4&gt; 值数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This method was deprecated in API level 24.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102628Z" creationid="pingfangx" creationdate="20180408T102628Z">
@@ -20908,6 +22508,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当模式成功匹配输入中的空字符串时，此方法将返回空字符串。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This method's parameters are &lt;c2&gt;&lt;a3&gt;View.MeasureSpec&lt;/a3&gt;&lt;/c2&gt; values that tell you how big your view's parent wants your view to be, and whether that size is a hard maximum or just a suggestion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070201Z" creationid="pingfangx" creationdate="20181205T070201Z">
+        <seg>此方法的参数是 &lt;c2&gt;&lt;a3&gt;View.MeasureSpec&lt;/a3&gt;&lt;/c2&gt; 值，用于告诉您 view 的父级想要 view 的大小，以及该大小是最大值还是仅仅是建议。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20960,6 +22568,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This section discusses how to define custom attributes and specify their values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042452Z" creationid="pingfangx" creationdate="20181205T042452Z">
+        <seg>本节讨论如何定义自定义属性并指定其值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This section discusses several issues that often affect apps’ startup performance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081706Z" creationid="pingfangx" creationdate="20180925T081706Z">
@@ -20980,6 +22596,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071451Z" creationid="pingfangx" creationdate="20180925T071451Z">
         <seg>这种糟糕的体验可能会导致用户在 Play 商店中对您的应用评分不佳，甚至完全放弃您的应用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This step is necessary because all gestures begin with an &lt;c5&gt;&lt;a6&gt;onDown()&lt;/a6&gt;&lt;/c5&gt; message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072407Z" creationid="pingfangx" creationdate="20181205T072407Z">
+        <seg>此步骤是必要的，因为所有手势都以 &lt;c5&gt;&lt;a6&gt;onDown()&lt;/a6&gt;&lt;/c5&gt; 消息开头。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21012,6 +22636,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084447Z" creationid="pingfangx" creationdate="20180921T084447Z">
         <seg>这支持所有格式，但只是裁剪输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This technique is slightly more complex to set up, but it works more closely with the animation system and doesn't require potentially unnecessary view invalidation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073532Z" creationid="pingfangx" creationdate="20181205T073532Z">
+        <seg>这种技术设置稍微复杂一些，但它与动画系统的关系更为密切，并且不需要潜在的不必要的 view 失效调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This technique requires that you compute scroll offsets in &lt;c4&gt;&lt;a5&gt;onDraw()&lt;/a5&gt;&lt;/c4&gt; and call &lt;c6&gt;&lt;a7&gt;postInvalidate()&lt;/a7&gt;&lt;/c6&gt; every time the scroll offset changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073445Z" creationid="pingfangx" creationdate="20181205T073445Z">
+        <seg>此技术要求您在 &lt;c4&gt;&lt;a5&gt;onDraw()&lt;/a5&gt;&lt;/c4&gt; 中计算滚动偏移，并在每次滚动偏移时调用 &lt;c6&gt;&lt;a7&gt;postInvalidate()&lt;/a7&gt;&lt;/c6&gt; 变化。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21240,10 +22880,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To add a built-in &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; to your user interface, you specify it in an XML element and control its appearance and behavior with element attributes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042351Z" creationid="pingfangx" creationdate="20181205T042326Z">
+        <seg>要将内置的 &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; 添加到用户界面，可以在 XML 元素中指定它并使用元素属性控制其外观和行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To address this concern, you can manually call &lt;c0&gt;&lt;a1&gt;reportFullyDrawn()&lt;/a1&gt;&lt;/c0&gt; to let the system know that your activity is finished with its lazy loading.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081346Z" creationid="pingfangx" creationdate="20180925T081346Z">
         <seg>要解决此问题，您可以手动调用 &lt;c0&gt;&lt;a1&gt;reportFullyDrawn()&lt;/a1&gt;&lt;/c0&gt;，让系统知道您的activity已完成延迟加载。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To allow Android Studio to interact with your view, at a minimum you must provide a constructor that takes a &lt;c0&gt;&lt;a1&gt;Context&lt;/a1&gt;&lt;/c0&gt; and an &lt;c2&gt;&lt;a3&gt;AttributeSet&lt;/a3&gt;&lt;/c2&gt; object as parameters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042130Z" creationid="pingfangx" creationdate="20181205T042130Z">
+        <seg>要允许 Android Studio 与您的 view 进行交互，您必须至少提供一个构造函数，该构造函数接受 &lt;c0&gt;&lt;a1&gt;Context&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;AttributeSet&lt;/a3&gt;&lt;/c2&gt; 对象作为参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To avoid a UI that feels sluggish or stutters during playback, ensure that animations consistently run at 60 frames per second.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080226Z" creationid="pingfangx" creationdate="20181205T075909Z">
+        <seg>为避免在播放过程中感觉迟缓或不流畅的 UI，请确保动画始终以每秒 60 帧的速度运行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21296,6 +22960,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To convert raw touch events into gestures, Android provides &lt;c0&gt;&lt;a1&gt;GestureDetector&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071447Z" creationid="pingfangx" creationdate="20181205T071447Z">
+        <seg>要将原始触摸事件转换为手势，Android 提供 &lt;c0&gt;&lt;a1&gt;GestureDetector&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a BitmapRegionDecoder, call newInstance(...).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092737Z" creationid="pingfangx" creationdate="20180920T092737Z">
@@ -21336,6 +23008,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To define custom attributes, add &lt;c0&gt;&lt;declare-styleable&gt; &lt;/c0&gt; resources to your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042502Z" creationid="pingfangx" creationdate="20181205T042502Z">
+        <seg>要定义自定义属性，请将 &lt;c0&gt;&lt;declare-styleable&gt; &lt;/c0&gt; 资源添加到项目中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To do this, call &lt;c4&gt;&lt;a5&gt;Intent.setClipData()&lt;/a5&gt;&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21348,6 +23028,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>要启用比率，点击 &lt;b1&gt;Toggle Aspect Ratio Constraint&lt;/b1&gt; (如图 10 中的编号 &lt;s2&gt;1&lt;/s2&gt;)，然后在出现的输入框中输入 &lt;v3&gt;width&lt;/v3&gt;:&lt;v4&gt;height&lt;/v4&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To enable this behavior in your custom view, you must:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042411Z" creationid="pingfangx" creationdate="20181205T042411Z">
+        <seg>要在自定义 view 中启用此行为，您必须：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21520,6 +23208,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To provide dynamic behavior, expose a property getter and setter pair for each custom attribute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061921Z" creationid="pingfangx" creationdate="20181205T061921Z">
+        <seg>要提供动态行为，请为每个自定义属性公开属性 getter 和 setter 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To remove a constraint, select the view and then click the constraint handle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21560,6 +23256,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To speed up your view, eliminate unnecessary code from routines that are called frequently.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075949Z" creationid="pingfangx" creationdate="20181205T075949Z">
+        <seg>要加快 view 速度，请从频繁调用的例程中删除不必要的代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To start a fling, call &lt;c0&gt;&lt;a1&gt;fling()&lt;/a1&gt;&lt;/c0&gt; with the starting velocity and the minimum and maximum x and y values of the fling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073205Z" creationid="pingfangx" creationdate="20181205T073205Z">
+        <seg>要开始投掷，请使用起始速度以及投掷的最小和最大 x 和 y 值调用 &lt;c0&gt;&lt;a1&gt;fling()&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To start a new constraint layout file, follow these steps:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21592,6 +23304,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To support users with disabilities, you should:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063712Z" creationid="pingfangx" creationdate="20181205T063712Z">
+        <seg>为了支持残障用户，您应该：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use &lt;c0&gt;ConstraintLayout&lt;/c0&gt; in your project, proceed as follows:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21608,10 +23328,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use the animation system, whenever a property changes that will affect your view's appearance, do not change the property directly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075319Z" creationid="pingfangx" creationdate="20181205T075312Z">
+        <seg>要使用动画系统，只要属性发生更改会影响 view 的外观，请不要直接更改属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the custom attributes from this class, you would use the tag &lt;c2&gt;com.example.customviews.charting.PieChart$PieView&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061435Z" creationid="pingfangx" creationdate="20181205T061435Z">
+        <seg>要使用此类中的自定义属性，可以使用标记 &lt;c2&gt;com.example.customviews.charting.PieChart$PieView&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tools</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Tools</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Touch events by themselves are not particularly useful.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071418Z" creationid="pingfangx" creationdate="20181205T071418Z">
+        <seg>触摸事件本身并不是特别有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21728,6 +23472,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>UI designers sometimes create deep hierarchies of nested &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt; objects in order to get the UI to behave properly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080448Z" creationid="pingfangx" creationdate="20181205T080448Z">
+        <seg>UI 设计人员有时会创建嵌套的 &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt; 对象的深层次结构，以使 UI 正常运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>UI elements fade in and out instead of appearing and disappearing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075144Z" creationid="pingfangx" creationdate="20181205T075144Z">
+        <seg>UI 元素淡入淡出而不是出现和消失。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>UNSPECIFIED: This is used by a parent to determine the desired dimension of a child view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21804,6 +23564,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090611Z" creationid="pingfangx" creationdate="20180921T090611Z">
         <seg>与手动将 &lt;c3&gt;sampleSize&lt;/c3&gt; 除以原始宽度和高度不同，调用此方法允许 &lt;c4&gt;ImageDecoder&lt;/c4&gt; 在最有效的方向上进行舍入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unlike the built-in views, your custom view can make application-specific assumptions about the size and shape of its children, and thus avoid traversing its children to calculate measurements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080517Z" creationid="pingfangx" creationdate="20181205T080517Z">
+        <seg>与内置 view 不同，您的自定义 view 可以针对其子项的大小和形状进行特定于应用程序的假设，从而避免遍历其子项以计算度量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22024,6 +23792,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>User actions are turned into events that trigger callbacks, and you can override the callbacks to customize how your application responds to the user.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071400Z" creationid="pingfangx" creationdate="20181205T071400Z">
+        <seg>用户操作将转换为触发回调的事件，您可以重写回调以自定义应用程序响应用户的方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users also sense subtle behavior or feel in an interface, and react best to subtleties that mimic the real world.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071255Z" creationid="pingfangx" creationdate="20181205T071255Z">
+        <seg>用户还可以在界面中感受微妙的行为或感觉，并对模仿现实世界的细微之处做出最佳反应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users expect a modern UI to transition smoothly between states.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075129Z" creationid="pingfangx" creationdate="20181205T075129Z">
+        <seg>用户期望现代 UI 在各状态之间平滑过渡。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Users expect apps to be responsive and fast to load.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071236Z" creationid="pingfangx" creationdate="20180925T071236Z">
@@ -22148,6 +23940,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>ViewCacheExtension 是一个助手类，提供一个可被开发者控制的 view 缓存的额外一层。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Views are redrawn very frequently, and many drawing objects require expensive initialization.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064655Z" creationid="pingfangx" creationdate="20181205T064646Z">
+        <seg>view 重新绘制非常频繁，许多绘制对象需要昂贵的初始化。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22352,6 +24152,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Well-written custom views can also be added and styled via XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042403Z" creationid="pingfangx" creationdate="20181205T042334Z">
+        <seg>编写良好的自定义 view 也可以通过 XML 添加和设置样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What happens in this case is that the constraints act like opposite forces pulling the widget apart equally (Fig. 4); such that the widget will end up being centered in the parent container.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -22388,6 +24196,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当一个用户使用方向型按键，如 D-pad，操作用户界面时，很必要给可控的项目焦点，如按钮，这样用户才能看到哪一个将获取输入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a view is created from an XML layout, all of the attributes in the XML tag are read from the resource bundle and passed into the view's constructor as an &lt;c0&gt;&lt;a1&gt;AttributeSet&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061500Z" creationid="pingfangx" creationdate="20181205T061500Z">
+        <seg>从 XML 布局创建 view 时，XML 标记中的所有属性都从资源包中读取，并作为 &lt;c0&gt;&lt;a1&gt;AttributeSet&lt;/a1&gt;&lt;/c0&gt; 传递到 view 的构造函数中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22712,6 +24528,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you pass &lt;c0&gt;&lt;a1&gt;onTouchEvent()&lt;/a1&gt;&lt;/c0&gt; a touch event that it doesn't recognize as part of a gesture, it returns &lt;c2&gt;false&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072629Z" creationid="pingfangx" creationdate="20181205T072629Z">
+        <seg>当您传递 &lt;c0&gt;&lt;a1&gt;onTouchEvent()&lt;/a1&gt;&lt;/c0&gt; 触摸事件时，它无法识别为手势的一部分，它将返回 &lt;c2&gt;false&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you release, the constraint is made, with &lt;a0&gt;a default margin&lt;/a0&gt; separating the two views.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -22748,6 +24572,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072741Z" creationid="pingfangx" creationdate="20180925T072741Z">
         <seg>当您的应用程序启动时，空白的启动窗口将保留在屏幕上，直到系统首次完成绘制应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When your view is assigned a size, the layout manager assumes that the size includes all of the view's padding.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070040Z" creationid="pingfangx" creationdate="20181205T070040Z">
+        <seg>为 view 指定大小时，布局管理器会假定该大小包含所有 view 的 padding。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether or not you use &lt;c0&gt;&lt;a1&gt;GestureDetector.SimpleOnGestureListener&lt;/a1&gt;&lt;/c0&gt;, you must always implement an &lt;c2&gt;&lt;a3&gt;onDown()&lt;/a3&gt;&lt;/c2&gt; method that returns &lt;c4&gt;true&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072357Z" creationid="pingfangx" creationdate="20181205T072357Z">
+        <seg>无论您是否使用 &lt;c0&gt;&lt;a1&gt;GestureDetector.SimpleOnGestureListener&lt;/a1&gt;&lt;/c0&gt;，您必须始终实现返回 &lt;c4&gt;true&lt;/c4&gt; 的 &lt;c2&gt;&lt;a3&gt;onDown()&lt;/a3&gt;&lt;/c2&gt; 方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23016,6 +24856,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You also need to make your view respond to user input in a way that closely resembles the real-world action you're mimicking.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071140Z" creationid="pingfangx" creationdate="20181205T071140Z">
+        <seg>您还需要使 view 以与您模仿的真实动作非常相似的方式响应用户输入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add a vertical or horizontal guideline to which you can constrain views, and the guideline will be invisible to app users.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23132,6 +24980,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你可以通过单击图 10 中标注 &lt;s0&gt;3&lt;/s0&gt; 所示的符号来更改计算高度和宽度的方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can choose any alias you want for your namespace.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061321Z" creationid="pingfangx" creationdate="20181205T061321Z">
+        <seg>您可以为命名空间选择所需的任何别名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23272,6 +25128,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can then run your own custom gesture-detection code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072634Z" creationid="pingfangx" creationdate="20181205T072634Z">
+        <seg>然后，您可以运行自己的自定义手势检测代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use a color resource any place that accepts a hexadecimal color value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063202Z" creationid="pingfangx" creationdate="20181107T063202Z">
@@ -23320,6 +25184,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use these methods in &lt;c8&gt;&lt;a9&gt;onDraw()&lt;/a9&gt;&lt;/c8&gt; to create your custom user interface (UI).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064118Z" creationid="pingfangx" creationdate="20181205T064118Z">
+        <seg>您可以在 &lt;c8&gt;&lt;a9&gt;onDraw()&lt;/a9&gt;&lt;/c8&gt; 中使用这些方法来创建自定义用户界面(UI)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use this to create an array of other resources, such as drawables.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071222Z" creationid="pingfangx" creationdate="20181107T071222Z">
@@ -23352,10 +25224,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You could combine a group of View components into a new single component, perhaps to make something like a ComboBox (a combination of popup list and free entry text field), a dual-pane selector control (a left and right pane with a list in each where you can reassign which item is in which list), and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T040916Z" creationid="pingfangx" creationdate="20181205T040916Z">
+        <seg>你可以用一组 View 组件组成一个新的单一组件，比如类似于一个 ComboBox（弹出窗口列表和一个自由输入的文本框的组合）、一个双窗口的选择控制器（左右窗口各有一个列表，你可以重新分配哪些 item 是在所选列表中）等等。（译注：第二个比如日类似日期、时间选择的那种）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You could create a completely custom-rendered View type, for example a "volume control" knob rendered using 2D graphics, and which resembles an analog electronic control.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你可以创建完全自己渲染的 View 类，比如一个用 2D 图呈现的 "音量控制" 旋扭。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You could override the way that an EditText component is rendered on the screen (the &lt;a0&gt; Notepad Tutorial&lt;/a0&gt; uses this to good effect to create a lined notepad page).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041003Z" creationid="pingfangx" creationdate="20181205T041003Z">
+        <seg>你可以重写 EditText 在屏幕上呈现的方式(&lt;a0&gt;Notepad Tutorial&lt;/a0&gt; 使用这点创建一个按行排的记事本，效果良好)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23384,10 +25272,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You have to invalidate the view after any change to its properties that might change its appearance, so that the system knows that it needs to be redrawn.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T062050Z" creationid="pingfangx" creationdate="20181205T062050Z">
+        <seg>在对可能更改其外观的属性进行任何更改后，必须使 view 无效，以便系统知道需要重新绘制该 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You indicate a stretchable section by drawing one (or more) 1-pixel-wide black line(s) in the left and top part of the border (the other border pixels should be fully transparent or white).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你可以通过在左边框或上边框，画一段或多段 1 像素宽的黑线，来指明可伸缩的部分。（其他的边框像素应该完全透明或是白色）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You just need to make sure to check the current API level at runtime, and omit the calls to the view animation system if the current level is less than 11.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075026Z" creationid="pingfangx" creationdate="20181205T075026Z">
+        <seg>您只需确保在运行时检查当前 API 级别，如果当前级别小于 11，则忽略对 view 动画系统的调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23448,6 +25352,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You must handle the padding values when you calculate your view's size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070052Z" creationid="pingfangx" creationdate="20181205T070052Z">
+        <seg>在计算 view 大小时，必须处理 padding 值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You must specify a child element of &lt;c0&gt;&lt;paths&gt;&lt;/c0&gt; for each directory that contains files for which you want content URIs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23464,6 +25376,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You should never make assumptions about the size of your view on the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T065025Z" creationid="pingfangx" creationdate="20181205T065025Z">
+        <seg>您永远不应该在屏幕上对 view 的大小做出假设。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You should not call methods that perform these actions on views yourself unless you are actually implementing a &lt;c0&gt;&lt;a1&gt;ViewGroup&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23476,6 +25396,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102937Z" creationid="pingfangx" creationdate="20180408T102937Z">
         <seg>由于上述限制和可能发生的故障情况，您仍应始终使用解码方法的返回位图，并且不要假定重用位图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You use the predefined constants to read the attributes from the &lt;c3&gt;&lt;a4&gt;TypedArray&lt;/a4&gt;&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061703Z" creationid="pingfangx" creationdate="20181205T061703Z">
+        <seg>您可以使用预定义常量从 &lt;c3&gt;&lt;a4&gt;TypedArray&lt;/a4&gt;&lt;/c3&gt; 中读取属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23524,6 +25452,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你的组件的 &lt;c0&gt;onMeasure()&lt;/c0&gt; 方法将计算出一个测量的宽度和高度，以用来呈现该组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your custom view can also extend &lt;c2&gt;&lt;a3&gt;View&lt;/a3&gt;&lt;/c2&gt; directly, or you can save time by extending one of the existing view subclasses, such as &lt;c4&gt;&lt;a5&gt;Button&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042053Z" creationid="pingfangx" creationdate="20181205T042053Z">
+        <seg>您的自定义 view 也可以直接继承 &lt;c2&gt;&lt;a3&gt;View&lt;/a3&gt;&lt;/c2&gt;，或者您可以通过继承其中一个现有 view 子类来节省时间，例如 &lt;c4&gt;&lt;a5&gt;Button&lt;/a5&gt;&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your custom view should support the widest range of users.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063624Z" creationid="pingfangx" creationdate="20181205T063624Z">
+        <seg>您的自定义 view 应该支持最广泛的用户。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25548,6 +27492,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>来自 R.layout.* 对象&lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>further.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061419Z" creationid="pingfangx" creationdate="20181205T061419Z">
+        <seg>进一步。</seg>
       </tuv>
     </tu>
     <tu>
