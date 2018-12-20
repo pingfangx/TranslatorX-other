@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(If you did not choose to view a preview, Android Studio skips this step, and converts your images immediately.) During the preview step, you can adjust the quality setting for each image individually, as described below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073544Z" creationid="pingfangx" creationdate="20181220T073544Z">
+        <seg>(如果您未选择查看预览，Android Studio 会跳过此步骤，并立即转换图像。)在预览步骤中，您可以单独调整每个图像的质量设置，如下所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Note that in LabelView, the real work is done by a private &lt;c1&gt;measureWidth()&lt;/c1&gt; method.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3085,6 +3093,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;WebP&lt;/a0&gt; is an image file format from Google that provides lossy compression (like JPEG) as well as transparency (like PNG) but can provide better compression than either JPEG or PNG.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073040Z" creationid="pingfangx" creationdate="20181220T073040Z">
+        <seg>&lt;a0&gt;WebP&lt;/a0&gt; 是来自 Google 的图像文件格式，提供有损压缩(如 JPEG)以及透明度(如 PNG)，但可提供比 JPEG 或 PNG 更好的压缩效果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;annotationType&lt;/a0&gt;()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3165,10 +3181,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Figure 1.&lt;/b0&gt; The Converting Images to WebP dialog</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073226Z" creationid="pingfangx" creationdate="20181220T073226Z">
+        <seg>&lt;b0&gt;Figure 1.&lt;/b0&gt; 将图像转换为 WebP 对话框</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Figure 2.&lt;/b0&gt; Converting a JPG to WebP format at 75% quality</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073547Z" creationid="pingfangx" creationdate="20181220T073547Z">
+        <seg>&lt;b0&gt;Figure 2.&lt;/b0&gt; 以 75%的质量将 JPG 转换为 WebP 格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Figure 3.&lt;/b0&gt; Converting a JPG to WebP format at 0% quality</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073622Z" creationid="pingfangx" creationdate="20181220T073622Z">
+        <seg>&lt;b0&gt;Figure 3.&lt;/b0&gt; 将 JPG 转换为 0％质量的 WebP 格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b0&gt;Figure 3.&lt;/b0&gt; The menu to convert a layout to &lt;c1&gt;ConstraintLayout&lt;/c1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;b0&gt;Figure 3.&lt;/b0&gt; 将一个布局转换为 &lt;c1&gt;ConstraintLayout&lt;/c1&gt; 的菜单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; 9-patch files cannot be converted to WebP images.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073446Z" creationid="pingfangx" creationdate="20181220T073446Z">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; 9-patch 文件无法转换为 WebP 图像。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3185,6 +3233,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180703T141852Z" creationid="pingfangx" creationdate="20180703T141852Z">
         <seg>&lt;b0&gt;Note:&lt;/b0&gt; 由于 &lt;c1&gt;CDATASection&lt;/c1&gt; 中未识别出标记，因此在序列化时，字符数字引用不能用作转义机制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; Because support for lossless and transparent WebP images is only available in Android 4.3 and higher, your project must declare a &lt;c1&gt;minSdkVersion&lt;/c1&gt; of 18 or higher to create lossless or transparent WebP images using Android Studio.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073137Z" creationid="pingfangx" creationdate="20181220T073137Z">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; 由于对无损和透明 WebP 图像的支持仅适用于 Android 4.3 及更高版本，因此您的项目必须声明 18 或更高的 &lt;c1&gt;minSdkVersion&lt;/c1&gt; 才能创建无损或透明的 WebP 图像使用 Android Studio。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; If you set the quality to 100% and the &lt;c1&gt;minSdkVersion&lt;/c1&gt; is set to 18 or higher, Android Studio automatically switches to lossless encoding instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073630Z" creationid="pingfangx" creationdate="20181220T073630Z">
+        <seg>&lt;b0&gt;Note:&lt;/b0&gt; 如果将质量设置为 100％并且 &lt;c1&gt;minSdkVersion&lt;/c1&gt; 设置为 18 或更高，则 Android Studio 会自动切换到无损编码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5309,6 +5373,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A dialog appears, asking if you would like to convert the image to PNG, deleting the original WebP file, or keep the original WebP file as well as the new PNG file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073659Z" creationid="pingfangx" creationdate="20181220T073659Z">
+        <seg>将出现一个对话框，询问您是要将图像转换为 PNG，删除原始 WebP 文件，还是保留原始 WebP 文件以及新的 PNG 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A dimension is specified with a number followed by a unit of measure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T064005Z" creationid="pingfangx" creationdate="20181107T063926Z">
@@ -6479,6 +6551,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Android Studio can convert PNG, JPG, BMP, or static GIF images to WebP format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073154Z" creationid="pingfangx" creationdate="20181220T073154Z">
+        <seg>Android Studio 可以将 PNG，JPG，BMP 或静态 GIF 图像转换为 WebP 格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android does not currently enforce a specific style for writing Javadoc comments, but you should follow the instructions &lt;a0&gt;How to Write Doc Comments for the Javadoc Tool&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7371,6 +7451,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034608Z" creationid="pingfangx" creationdate="20181205T034608Z">
         <seg>与多个 Android 平台兼容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because Android Studio only allows you to create transparent WebP images if your &lt;c0&gt;minSdkVersion&lt;/c0&gt; is set to 18 or higher, the &lt;b1&gt;Skip images with transparency/alpha channel&lt;/b1&gt; checkbox is automatically selected if your &lt;c2&gt;minSdkVersion&lt;/c2&gt; is lower than 18.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073433Z" creationid="pingfangx" creationdate="20181220T073433Z">
+        <seg>因为只有 &lt;c0&gt;minSdkVersion&lt;/c0&gt; 设置为 18 或更高，Android Studio 才允许您创建透明 WebP 图像，所以如果您的 &lt;c2&gt;minSdkVersion&lt;/c2&gt; 低于 18 &lt;b1&gt;Skip images with transparency/alpha channel&lt;/b1&gt; 复选框会自动选中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8383,10 +8471,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Click &lt;b0&gt;Finish&lt;/b0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073639Z" creationid="pingfangx" creationdate="20181220T073639Z">
+        <seg>单击 &lt;b0&gt;Finish&lt;/b0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Click &lt;b0&gt;OK&lt;/b0&gt; to begin the conversion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073502Z" creationid="pingfangx" creationdate="20181220T073502Z">
+        <seg>单击 &lt;b0&gt;OK&lt;/b0&gt; 开始转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Click &lt;s0&gt;Finish&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>点击 &lt;s0&gt;Finish&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Click &lt;s0&gt;Yes&lt;/s0&gt; to delete the original WebP file, or &lt;s1&gt;No&lt;/s1&gt; to retain the WebP file in addition to the PNG file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073703Z" creationid="pingfangx" creationdate="20181220T073703Z">
+        <seg>单击 &lt;s0&gt;Yes&lt;/s0&gt; 删除原始 WebP 文件，或者 &lt;s1&gt;No&lt;/s1&gt; 除了 PNG 文件之外还保留 WebP 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8855,10 +8967,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Convert WebP images to PNG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073641Z" creationid="pingfangx" creationdate="20181220T073641Z">
+        <seg>将 WebP 图像转换为 PNG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Convert a layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>转换布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Convert images to WebP</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073149Z" creationid="pingfangx" creationdate="20181220T073149Z">
+        <seg>将图像转换为 WebP</seg>
       </tuv>
     </tu>
     <tu>
@@ -8899,6 +9027,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072942Z" creationid="pingfangx" creationdate="20181205T072942Z">
         <seg>创建物理上合理的运动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create WebP images</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073020Z" creationid="pingfangx" creationdate="20181220T073020Z">
+        <seg>创建 WebP 图像</seg>
       </tuv>
     </tu>
     <tu>
@@ -10967,6 +11103,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Figure 2 shows the original JPG image on the left and the lossy encoded WebP image on the right.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073551Z" creationid="pingfangx" creationdate="20181220T073551Z">
+        <seg>图 2 显示了左侧的原始 JPG 图像和右侧的有损编码 WebP 图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Figure 3 shows the same image encoded with the quality set to 0%.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073618Z" creationid="pingfangx" creationdate="20181220T073618Z">
+        <seg>图 3 显示了质量设置为 0％的相同图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>FileProvider is a special subclass of &lt;c0&gt;&lt;a1&gt;ContentProvider&lt;/a1&gt;&lt;/c0&gt; that facilitates secure sharing of files associated with an app by creating a &lt;c2&gt;content://&lt;/c2&gt; &lt;c3&gt;&lt;a4&gt;Uri&lt;/a4&gt;&lt;/c3&gt; for a file instead of a &lt;c5&gt;file:///&lt;/c5&gt; &lt;c6&gt;&lt;a7&gt;Uri&lt;/a7&gt;&lt;/c6&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11715,6 +11867,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061514Z" creationid="pingfangx" creationdate="20181220T061514Z">
         <seg>有关 ProGuard 以及 Android Studio 帮助您减少 APK 大小的其他方式的更多信息，请参阅 &lt;a0&gt;Shrink Your Code and Resources&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information about selecting the correct image format to improve download speed, see &lt;a1&gt;Reduce image download sizes&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073148Z" creationid="pingfangx" creationdate="20181220T073148Z">
+        <seg>有关选择正确的图像格式以提高下载速度的详细信息，请参阅 &lt;a1&gt;Reduce image download sizes&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information about the WebP image format, see the &lt;a0&gt;WebP site&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073140Z" creationid="pingfangx" creationdate="20181220T073140Z">
+        <seg>有关 WebP 图像格式的详细信息，请参阅 &lt;a0&gt;WebP site&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13327,6 +13495,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are converting more than one image, click &lt;b0&gt;Next&lt;/b0&gt; to advance to the next image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073636Z" creationid="pingfangx" creationdate="20181220T073636Z">
+        <seg>如果要转换多个图像，请单击 &lt;b0&gt;Next&lt;/b0&gt; 以前进到下一图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are converting more than one image, the conversion is a single step, and can be undone to revert all the images you converted at once.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073518Z" creationid="pingfangx" creationdate="20181220T073518Z">
+        <seg>如果要转换多个图像，转换只需一步，即可撤消以立即还原所有转换的图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are not overriding &lt;c2&gt;&lt;a3&gt;getSpanIndex(int, int)&lt;/a3&gt;&lt;/c2&gt;, you should set this to true for better performance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13495,6 +13679,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you select lossy encoding, set the encoding quality, and choose whether or not to view a preview of each converted image before saving.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073246Z" creationid="pingfangx" creationdate="20181220T073246Z">
+        <seg>如果选择有损编码，请设置编码质量，并选择是否在保存之前查看每个转换图像的预览。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you selected lossless conversion above, the conversion happens immediately.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073522Z" creationid="pingfangx" creationdate="20181220T073522Z">
+        <seg>如果您选择了上面的无损转换，则会立即进行转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you selected lossy conversion, and you chose to view a preview of each converted image before saving, Android Studio shows you each image during the conversion so you can inspect the conversion result.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073536Z" creationid="pingfangx" creationdate="20181220T073536Z">
+        <seg>如果您选择了有损转换，并且选择在保存之前查看每个转换图像的预览，Android Studio 会在转换过程中显示每个图像，以便您可以检查转换结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you selected lossy conversion, continue on to the next step.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073529Z" creationid="pingfangx" creationdate="20181220T073529Z">
+        <seg>如果您选择了有损转换，请继续执行下一步。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you set a background drawable for a View, then the View will draw it before calling back to its &lt;c0&gt;onDraw()&lt;/c0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13531,6 +13747,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果你想要使用 3D 图形，你必须继承 &lt;c1&gt;&lt;a2&gt;SurfaceView&lt;/a2&gt;&lt;/c1&gt; 而不是 View，并从一个独立的线程画图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to use a WebP image from your project for another purpose (for example, in a web page that needs to correctly display images in a browser without WebP support), you can use Android Studio to convert WebP images to PNG format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073649Z" creationid="pingfangx" creationdate="20181220T073649Z">
+        <seg>如果要将项目中的 WebP 图像用于其他目的(例如，在需要在没有 WebP 支持的浏览器中正确显示图像的网页中)，可以使用 Android Studio 将 WebP 图像转换为 PNG 格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13979,6 +14203,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在图 1，在布局编辑器上看起来不错，但是在 view C 上没有垂直约束。当这个布局在设备上绘制的时候，view C 与 view A 的左边缘和右边缘水平对齐，但它会出现在屏幕的顶部，因为它没有垂直约束。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In figure 2, with the quality set to 75%, there's almost no difference between the two images.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073613Z" creationid="pingfangx" creationdate="20181220T073613Z">
+        <seg>在图 2 中，质量设置为 75％，两个图像之间几乎没有差异。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15483,6 +15715,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>失去网络连接属于完全在预期之内的常见情况，没必要记录下来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lossless encoding is only available if your &lt;c0&gt;minSdkVersion&lt;/c0&gt; is set to 18 or higher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073233Z" creationid="pingfangx" creationdate="20181220T073233Z">
+        <seg>无损编码仅在 &lt;c0&gt;minSdkVersion&lt;/c0&gt; 设置为 18 或更高时可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lossy WebP images are supported in Android 4.0 (API level 14) and higher, and lossless and transparent WebP images are supported in Android 4.3 (API level 18) and higher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073105Z" creationid="pingfangx" creationdate="20181220T073105Z">
+        <seg>Android 4.0(API 级别 14)及更高级别支持有损 WebP 图像，Android 4.3(API 级别 18)及更高版本支持无损且透明的 WebP 图像。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18503,6 +18751,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Right click on a WebP image in the Android Studio, then click &lt;s0&gt;Convert to PNG&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073654Z" creationid="pingfangx" creationdate="20181220T073654Z">
+        <seg>右键单击 Android Studio 中的 WebP 图像，然后单击 &lt;s0&gt;Convert to PNG&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Right click on an image file or a folder containing a number of images files, and then click &lt;b0&gt;Convert to WebP&lt;/b0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073207Z" creationid="pingfangx" creationdate="20181220T073207Z">
+        <seg>右键单击图像文件或包含许多图像文件的文件夹，然后单击 &lt;b0&gt;Convert to WebP&lt;/b0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Running the CPU Profiler reveals that the &lt;c0&gt;&lt;a1&gt;callApplicationOnCreate()&lt;/a1&gt;&lt;/c0&gt; method eventually calls your &lt;c2&gt;com.example.customApplication.onCreate&lt;/c2&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082240Z" creationid="pingfangx" creationdate="20180925T082240Z">
@@ -18715,6 +18979,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>参阅 &lt;c0&gt;&lt;a1&gt;ConstraintLayout.LayoutParams&lt;/a1&gt;&lt;/c0&gt; 的属性列表来在 XML 中设置一个 Guideline，或者在 &lt;c8&gt;&lt;a9&gt;ConstraintSet&lt;/a9&gt;&lt;/c8&gt; 中调用相应的方法 &lt;c2&gt;&lt;a3&gt;setGuidelineBegin(int, int)&lt;/a3&gt;&lt;/c2&gt;， &lt;c4&gt;&lt;a5&gt;setGuidelineEnd(int, int)&lt;/a5&gt;&lt;/c4&gt; 和 &lt;c6&gt;&lt;a7&gt;setGuidelinePercent(int, float)&lt;/a7&gt;&lt;/c6&gt; 等方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select a quality setting for each image you review.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073632Z" creationid="pingfangx" creationdate="20181220T073632Z">
+        <seg>为您查看的每个图像选择一个质量设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select either lossy or lossless encoding.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073229Z" creationid="pingfangx" creationdate="20181220T073229Z">
+        <seg>选择有损或无损编码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19959,6 +20239,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;b0&gt;Converting Images to WebP&lt;/b0&gt; dialog opens.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073215Z" creationid="pingfangx" creationdate="20181220T073215Z">
+        <seg>打开 &lt;b0&gt;Converting Images to WebP&lt;/b0&gt; 对话框。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;-c&lt;/c0&gt; and &lt;c1&gt;-a&lt;/c1&gt; arguments are optional and let you specify &lt;a2&gt;&lt;c3&gt;&lt;category&gt;&lt;/c3&gt;&lt;/a2&gt; and &lt;a4&gt;&lt;c5&gt;&lt;action&gt;&lt;/c5&gt;&lt;/a4&gt; for the intent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081216Z" creationid="pingfangx" creationdate="20180925T081216Z">
@@ -20623,6 +20911,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The converter tool always automatically skips 9-patch images.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073500Z" creationid="pingfangx" creationdate="20181220T073500Z">
+        <seg>转换器工具始终会自动跳过 9-patch 图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The corresponding classes in the sample code are &lt;c0&gt;List4.java&lt;/c0&gt; and &lt;c1&gt;List6.java&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20695,6 +20991,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default settings depend on the &lt;c1&gt;minSdkVersion&lt;/c1&gt; setting for the current module.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073223Z" creationid="pingfangx" creationdate="20181220T073223Z">
+        <seg>默认设置取决于当前模块的 &lt;c1&gt;minSdkVersion&lt;/c1&gt; 设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default when encountering such opposite constraints is to center the widget; but you can tweak the positioning to favor one side over another using the bias attributes:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20715,6 +21019,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>child 的右边的设计时的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dialog shows the file size for the original and the converted image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073555Z" creationid="pingfangx" creationdate="20181220T073555Z">
+        <seg>该对话框显示原始图像和转换图像的文件大小。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21235,6 +21547,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>测量过程在 &lt;c0&gt;&lt;a1&gt;measure(int, int)&lt;/a1&gt;&lt;/c0&gt; 实现，它是一个至顶向下的递归过程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The middle area shows the pixels that differ between the original and the encoded image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073606Z" creationid="pingfangx" creationdate="20181220T073606Z">
+        <seg>中间区域显示原始图像和编码图像之间不同的像素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23432,6 +23752,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This page shows how to convert images to WebP format and how to convert WebP images to PNG format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073115Z" creationid="pingfangx" creationdate="20181220T073115Z">
+        <seg>此页面显示如何将图像转换为 WebP 格式以及如何将 WebP 图像转换为 PNG 格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This returns whether &lt;c0&gt;&lt;a1&gt;setDecodeAsAlphaMaskEnabled(boolean)&lt;/a1&gt;&lt;/c0&gt; was set to &lt;c2&gt;true&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084110Z" creationid="pingfangx" creationdate="20180921T084110Z">
@@ -23864,10 +24192,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To convert a WebP image to PNG, proceed as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073651Z" creationid="pingfangx" creationdate="20181220T073651Z">
+        <seg>要将 WebP 图像转换为 PNG，请执行以下操作：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To convert an existing layout to a constraint layout, follow these steps:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>要将现有布局转换为约束布局，请按照下列步骤操作：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To convert an image or folder of images, proceed as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073201Z" creationid="pingfangx" creationdate="20181220T073201Z">
+        <seg>要转换图像或图像文件夹，请按以下步骤操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25976,6 +26320,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also choose to skip converting any files where the encoded version would be larger than the original, or any files with transparency or an alpha channel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073309Z" creationid="pingfangx" creationdate="20181220T073309Z">
+        <seg>您还可以选择跳过转换编码版本大于原始文件的任何文件，或任何具有透明度或 Alpha 通道的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also create listeners for events that your contained views might generate, for example, a listener method for the List Item Click Listener to update the contents of the EditText if a list selection is made.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26128,6 +26480,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can convert individual images or folders of images.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073157Z" creationid="pingfangx" creationdate="20181220T073157Z">
+        <seg>您可以转换图像的单个图像或文件夹。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can create constraints only between a constraint handle and an anchor point that share the same plane.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26148,6 +26508,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一个完全自定义的可以做的，继承一个更特定的 view 也可以做，而且你还能免费获得更多的行为，也许正是你想要的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can drag the slider left or right to change the quality setting and immediately see the effect on the encoded image and the file size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073602Z" creationid="pingfangx" creationdate="20181220T073602Z">
+        <seg>您可以向左或向右拖动滑块以更改质量设置，并立即看到对编码图像和文件大小的影响。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26620,6 +26988,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063624Z" creationid="pingfangx" creationdate="20181205T063624Z">
         <seg>您的自定义 view 应该支持最广泛的用户。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your image is converted immediately.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073706Z" creationid="pingfangx" creationdate="20181220T073706Z">
+        <seg>您的图像会立即转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your images are converted in place in their original location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073526Z" creationid="pingfangx" creationdate="20181220T073526Z">
+        <seg>您的图像会在原始位置转换。</seg>
       </tuv>
     </tu>
     <tu>
