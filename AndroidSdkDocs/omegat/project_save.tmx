@@ -3613,6 +3613,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;&lt;a1&gt;Drawable&lt;/a1&gt;&lt;/c0&gt; objects (&lt;c2&gt;&lt;shape&gt;&lt;/c2&gt; in XML) can take up a tiny amount of space in your APK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062348Z" creationid="pingfangx" creationdate="20181220T062348Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;Drawable&lt;/a1&gt;&lt;/c0&gt; 对象(XML 中的 &lt;c2&gt;&lt;shape&gt;&lt;/c2&gt;)可占用 APK 中的少量空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;&lt;a1&gt;LayoutParams&lt;/a1&gt;&lt;/c0&gt; subclass for children of &lt;c2&gt;&lt;a3&gt;RecyclerView&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3657,6 +3665,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;@SuppressWarnings&lt;/c0&gt;：@SuppressWarnings 注释应该仅在无法消除警告的情况下使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;AndroidManifest.xml&lt;/c0&gt;: Contains the core Android manifest file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060331Z" creationid="pingfangx" creationdate="20181220T060331Z">
+        <seg>&lt;c0&gt;AndroidManifest.xml&lt;/c0&gt;：包含核心 Android 清单文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3817,6 +3833,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041446Z" creationid="pingfangx" creationdate="20181205T041446Z">
         <seg>&lt;c0&gt;LinedEditText&lt;/c0&gt; 被定义为 &lt;c1&gt;NoteEditor&lt;/c1&gt; activity 中的内部类，但它是公共的，因此如果需要，可以使用 &lt;c3&gt;NoteEditor&lt;/c3&gt; 类从外部访问 &lt;c2&gt;NoteEditor.LinedEditText&lt;/c2&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;META-INF/&lt;/c0&gt;: Contains the &lt;c1&gt;CERT.SF&lt;/c1&gt; and &lt;c2&gt;CERT.RSA&lt;/c2&gt; signature files, as well as the &lt;c3&gt;MANIFEST.MF&lt;/c3&gt; manifest file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060025Z" creationid="pingfangx" creationdate="20181220T060025Z">
+        <seg>&lt;c0&gt;META-INF/&lt;/c0&gt;：包含 &lt;c1&gt;CERT.SF&lt;/c1&gt; 和 &lt;c2&gt;CERT.RSA&lt;/c2&gt; 签名文件，以及 &lt;c3&gt;MANIFEST.MF&lt;/c3&gt; 清单文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4021,10 +4045,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;assets/&lt;/c0&gt;: Contains the app's assets, which the app can retrieve using an &lt;c1&gt;&lt;a2&gt;AssetManager&lt;/a2&gt;&lt;/c1&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060059Z" creationid="pingfangx" creationdate="20181220T060059Z">
+        <seg>&lt;c0&gt;assets/&lt;/c0&gt;：包含应用程序的资源，应用程序可以使用 &lt;c1&gt;&lt;a2&gt;AssetManager&lt;/a2&gt;&lt;/c1&gt; 对象获取该资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;boolean&lt;/c0&gt;: Whether results of getSpanIndex should be cached or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;boolean&lt;/c0&gt;: getSpanIndex 的结果是否应该缓存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;classes.dex&lt;/c0&gt;: Contains the classes compiled in the DEX file format understood by the Dalvik/ART virtual machine.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060327Z" creationid="pingfangx" creationdate="20181220T060327Z">
+        <seg>&lt;c0&gt;classes.dex&lt;/c0&gt;：包含以 Dalvik / ART 虚拟机理解的 DEX 文件格式编译的类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4285,10 +4325,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;lib/&lt;/c0&gt;: Contains the compiled code that is specific to the software layer of a processor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060155Z" creationid="pingfangx" creationdate="20181220T060155Z">
+        <seg>&lt;c0&gt;lib/&lt;/c0&gt;：包含特定于处理器软件层的已编译代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;onMeasure()&lt;/c0&gt; is a little more involved.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;onMeasure()&lt;/c0&gt; 相关的东西更多一些。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;res/&lt;/c0&gt;: Contains resources that aren't compiled into &lt;c1&gt;resources.arsc&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060106Z" creationid="pingfangx" creationdate="20181220T060106Z">
+        <seg>&lt;c0&gt;res/&lt;/c0&gt;：包含未编译到 &lt;c1&gt;resources.arsc&lt;/c1&gt; 中的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;resources.arsc&lt;/c0&gt;: Contains compiled resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060217Z" creationid="pingfangx" creationdate="20181220T060217Z">
+        <seg>&lt;c0&gt;resources.arsc&lt;/c0&gt;：包含已编译的资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4621,6 +4685,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; &lt;a1&gt;ProGuard&lt;/a1&gt; can clean up some unnecessary code imported with a library, but it can't remove a library's large internal dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062002Z" creationid="pingfangx" creationdate="20181220T062002Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; &lt;a1&gt;ProGuard&lt;/a1&gt; 可以清除一些用库导入的不必要的代码，但它无法移除库的大型内部依赖项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; A bool is a simple resource that is referenced using the value provided in the &lt;c1&gt;name&lt;/c1&gt; attribute (not the name of the XML file).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061752Z" creationid="pingfangx" creationdate="20181107T061752Z">
@@ -4685,10 +4757,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; Google Play accepts APKs only if the &lt;a1&gt;launcher icons&lt;/a1&gt; use the PNG format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063205Z" creationid="pingfangx" creationdate="20181220T063205Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; 仅当 &lt;a1&gt;launcher icons&lt;/a1&gt; 使用 PNG 格式时，Google Play 才会接受 APK。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; The &lt;c1&gt;&lt;a2&gt;Intent.setClipData()&lt;/a2&gt;&lt;/c1&gt; method is only available in platform version 16 (Android 4.1) and later.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; &lt;c1&gt;&lt;a2&gt;Intent.setClipData()&lt;/a2&gt;&lt;/c1&gt; 方法仅在平台版本 16（Android 4.1）及更高版本中可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; The &lt;c1&gt;lint&lt;/c1&gt; tool doesn't scan the &lt;c2&gt;assets/&lt;/c2&gt; folder, assets that are referenced via reflection, or library files that you've linked to your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060914Z" creationid="pingfangx" creationdate="20181220T060914Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; &lt;c1&gt;lint&lt;/c1&gt; 工具不会扫描 &lt;c2&gt;assets/&lt;/c2&gt; 文件夹，通过反射引用的资源，或您链接到你的应用程序的库文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5391,6 +5479,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A single enum can add about 1.0 to 1.4 KB of size to your app's &lt;c0&gt;classes.dex&lt;/c0&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064042Z" creationid="pingfangx" creationdate="20181220T064042Z">
+        <seg>单个枚举可以为应用程序的 &lt;c0&gt;classes.dex&lt;/c0&gt; 文件添加大约 1.0 到 1.4 KB 的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A subclass of Shader is installed in a Paint calling paint.setShader(shader).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T092723Z" creationid="pingfangx" creationdate="20180427T092522Z">
@@ -5631,6 +5727,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additionally, the &lt;c4&gt;&lt;a5&gt;configuration&lt;/a5&gt;&lt;/c4&gt; of the reused bitmap will override the setting of &lt;c6&gt;&lt;a7&gt;inPreferredConfig&lt;/a7&gt;&lt;/c6&gt;, if set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T092947Z" creationid="pingfangx" creationdate="20181206T092914Z">
+        <seg>此外，重用位图的 &lt;c4&gt;&lt;a5&gt;configuration&lt;/a5&gt;&lt;/c4&gt; 将重写 &lt;c6&gt;&lt;a7&gt;inPreferredConfig&lt;/a7&gt;&lt;/c6&gt; 的设置（如果已设置）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, we have not yet determined how to make all IDEs use the same ordering.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5831,6 +5935,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After that, you can compile your release build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065156Z" creationid="pingfangx" creationdate="20181220T065156Z">
+        <seg>之后，您可以编译发布版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After the &lt;c0&gt;finalize&lt;/c0&gt; method has been invoked for an object, no further action is taken until the Java virtual machine has again determined that there is no longer any means by which this object can be accessed by any thread that has not yet died, including possible actions by other objects or classes which are ready to be finalized, at which point the object may be discarded.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T105003Z" creationid="pingfangx" creationdate="20180427T105003Z">
@@ -5903,6 +6015,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All formats supported by BitmapRegionDecoder support Bitmap reuse via &lt;c4&gt;&lt;a5&gt;inBitmap&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T093246Z" creationid="pingfangx" creationdate="20181206T093246Z">
+        <seg>BitmapRegionDecoder 支持的所有格式都支持通过 &lt;c4&gt;&lt;a5&gt;inBitmap&lt;/a5&gt;&lt;/c4&gt; 重用位图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All margins offered by the tool are factors of 8dp to help your views align to Material Design's &lt;a0&gt;8dp square grid recommendations&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5923,6 +6043,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>窗体中所有的 view 被排在一个树结构上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of these tools can reduce PNG file size while preserving the perceptive image quality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062938Z" creationid="pingfangx" creationdate="20181220T062938Z">
+        <seg>所有这些工具都可以减少 PNG 文件的大小，同时保持感知的图像质量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6015,6 +6143,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Also, it doesn't remove resources; it only alerts you to their presence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060931Z" creationid="pingfangx" creationdate="20181220T060931Z">
+        <seg>并且，它不会移除资源;它只会提醒你他们的存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Also, it forces the user to wait with no feedback while the activity launches, making them wonder if the app is functioning properly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084013Z" creationid="pingfangx" creationdate="20180925T084013Z">
@@ -6051,6 +6187,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T065115Z" creationid="pingfangx" creationdate="20181205T065115Z">
         <seg>虽然 &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; 有许多处理测量的方法，但大多数方法都不需要重写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although Android supports all these densities, you don't need to export your rasterized assets to each density.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062159Z" creationid="pingfangx" creationdate="20181220T062159Z">
+        <seg>虽然 Android 支持所有这些密度，但您无需将 rasterized 资源导出到每个密度。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6111,6 +6255,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Among them, only &lt;c0&gt;AndroidManifest.xml&lt;/c0&gt; is mandatory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060214Z" creationid="pingfangx" creationdate="20181220T060214Z">
+        <seg>其中，只有 &lt;c0&gt;AndroidManifest.xml&lt;/c0&gt; 是必需的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An &lt;c2&gt;IllegalArgumentException&lt;/c2&gt; will be thrown by &lt;c3&gt;&lt;a4&gt;decodeDrawable&lt;/a4&gt;&lt;/c3&gt;/ &lt;c5&gt;&lt;a6&gt;decodeBitmap&lt;/a6&gt;&lt;/c5&gt; when setting a non-RGB color space such as &lt;c7&gt;&lt;a8&gt;Lab&lt;/a8&gt;&lt;/c7&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090221Z" creationid="pingfangx" creationdate="20180921T090221Z">
@@ -6123,6 +6275,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090252Z" creationid="pingfangx" creationdate="20180921T090252Z">
         <seg>如果在指定的颜色空间上调用 &lt;c3&gt;&lt;a4&gt;ColorSpace.Rgb.getTransferParameters()&lt;/a4&gt;&lt;/c3&gt;，则解码方法将抛出 &lt;c2&gt;IllegalArgumentException&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An APK also contains the following files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060207Z" creationid="pingfangx" creationdate="20181220T060207Z">
+        <seg>APK 还包含以下文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An APK contains the following directories:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060000Z" creationid="pingfangx" creationdate="20181220T060000Z">
+        <seg>APK 包含以下目录：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An APK file consists of a ZIP archive that contains all the files that comprise your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T055949Z" creationid="pingfangx" creationdate="20181220T055949Z">
+        <seg>APK 文件由 ZIP 存档组成，其中包含构成应用程序的所有文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6351,10 +6527,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Android provides several utilities to change the color of an asset, either using the &lt;c0&gt;android:tint&lt;/c0&gt; and &lt;c1&gt;tintMode&lt;/c1&gt; attributes on Android 5.0 (API level 21) and higher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062541Z" creationid="pingfangx" creationdate="20181220T062541Z">
+        <seg>Android 提供了几个实用程序来更改资源的颜色，使用 Android 5.0(API 级别 21)及更高版本上的 &lt;c0&gt;android:tint&lt;/c0&gt; 和 &lt;c1&gt;tintMode&lt;/c1&gt; 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android standard practices for the three predefined annotations in Java are:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Java 中 3 个预定义注释的 Android 标准做法如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android supports a very large set of devices, encompassing a variety of screen densities.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062044Z" creationid="pingfangx" creationdate="20181220T062044Z">
+        <seg>Android 支持大量设备，包括各种屏幕密度。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6791,6 +6983,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As of &lt;c0&gt;&lt;a1&gt;KITKAT&lt;/a1&gt;&lt;/c0&gt;, any mutable bitmap can be reused by &lt;c2&gt;&lt;a3&gt;BitmapFactory&lt;/a3&gt;&lt;/c2&gt; to decode any other bitmaps as long as the resulting &lt;c4&gt;&lt;a5&gt;byte count&lt;/a5&gt;&lt;/c4&gt; of the decoded bitmap is less than or equal to the &lt;c6&gt;&lt;a7&gt;allocated byte count&lt;/a7&gt;&lt;/c6&gt; of the reused bitmap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T092757Z" creationid="pingfangx" creationdate="20181206T092757Z">
+        <seg>从 &lt;c0&gt;&lt;a1&gt;KITKAT&lt;/a1&gt;&lt;/c0&gt; 开始，任何可变位图都可以被 &lt;c2&gt;&lt;a3&gt;BitmapFactory&lt;/a3&gt;&lt;/c2&gt; 重用，以解码任何其他位图，只要解码位图的 &lt;c4&gt;&lt;a5&gt;byte count&lt;/a5&gt;&lt;/c4&gt; 小于或等于重用位图的 &lt;c6&gt;&lt;a7&gt;allocated byte count&lt;/a7&gt;&lt;/c6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As of &lt;c0&gt;&lt;a1&gt;LOLLIPOP&lt;/a1&gt;&lt;/c0&gt;, this is ignored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101748Z" creationid="pingfangx" creationdate="20180408T101748Z">
@@ -7071,6 +7271,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Avoid enumerations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064035Z" creationid="pingfangx" creationdate="20181220T064035Z">
+        <seg>避免使用枚举</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Avoid extracting native libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065206Z" creationid="pingfangx" creationdate="20181220T065206Z">
+        <seg>避免提取 native 库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Back</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7179,6 +7395,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T042404Z" creationid="pingfangx" creationdate="20180510T042404Z">
         <seg>由于 Porter 和 Duff 的工作仅关注源和目标的 alpha 通道的影响，原始文章中描述的 12 个操作符在这里被称为 alpha 合成模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before discussing how to reduce the size of your app, it's helpful to understand the structure of an app's APK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T055938Z" creationid="pingfangx" creationdate="20181220T055938Z">
+        <seg>在讨论如何减小应用程序的大小之前，了解应用程序 APK 的结构会很有帮助。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7299,6 +7523,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092730Z" creationid="pingfangx" creationdate="20180920T092730Z">
         <seg>当原始图像很大并且您只需要部分图像时，BitmapRegionDecoder 特别有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BitmapRegionDecoder support for &lt;c0&gt;&lt;a1&gt;inBitmap&lt;/a1&gt;&lt;/c0&gt; was introduced in &lt;c2&gt;&lt;a3&gt;JELLY_BEAN&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T093057Z" creationid="pingfangx" creationdate="20181206T093057Z">
+        <seg>在 &lt;c2&gt;&lt;a3&gt;JELLY_BEAN&lt;/a3&gt;&lt;/c2&gt; 中引入了对 &lt;c0&gt;&lt;a1&gt;inBitmap&lt;/a1&gt;&lt;/c0&gt; 的 BitmapRegionDecoder 支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BitmapRegionDecoder will draw its requested content into the Bitmap provided, clipping if the output content size (post scaling) is larger than the provided Bitmap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T093023Z" creationid="pingfangx" creationdate="20181206T093023Z">
+        <seg>BitmapRegionDecoder 将其请求的内容绘制到提供的位图中，如果输出内容大小(后缩放)大于提供的位图，则剪切。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8255,6 +8495,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compress PNG and JPEG files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062916Z" creationid="pingfangx" creationdate="20181220T062916Z">
+        <seg>压缩 PNG 和 JPEG 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compute a scale that will maintain the original src aspect ratio, but will also ensure that src fits entirely inside dst.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070529Z" creationid="pingfangx" creationdate="20180919T070529Z">
@@ -8547,6 +8795,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Content License&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Content and code samples on this page are subject to the licenses described in the &lt;a0&gt;Content License&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065700Z" creationid="pingfangx" creationdate="20181220T065700Z">
+        <seg>此页面上的内容和代码示例受 &lt;a0&gt;Content License&lt;/a0&gt; 中描述的许可证的约束。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8939,6 +9195,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074533Z" creationid="pingfangx" creationdate="20180921T074533Z">
         <seg>将输出裁剪为(可能)缩放图像的 &lt;c0&gt;subset&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Crunch PNG files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062708Z" creationid="pingfangx" creationdate="20181220T062708Z">
+        <seg>紧缩 PNG 文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -9823,6 +10087,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Disabling this flag prevents &lt;c4&gt;&lt;a5&gt;PackageManager&lt;/a5&gt;&lt;/c4&gt; from copying &lt;c6&gt;.so&lt;/c6&gt; files from the APK to the filesystem during installation and has the added benefit of making updates of your app smaller.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065453Z" creationid="pingfangx" creationdate="20181220T065453Z">
+        <seg>禁用此标志可防止 &lt;c4&gt;&lt;a5&gt;PackageManager&lt;/a5&gt;&lt;/c4&gt; 在安装过程中将 &lt;c6&gt;.so&lt;/c6&gt; 文件从 APK 复制到文件系统，并具有额外好处使更新应用程序更小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Discards all destination pixels.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T063115Z" creationid="pingfangx" creationdate="20180510T063115Z">
@@ -9935,6 +10207,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do not use &lt;c0&gt;&lt;a1&gt;AnimationDrawable&lt;/a1&gt;&lt;/c0&gt; to create frame-by-frame animations because doing so requires that you include a separate bitmap file for each frame of the animation, which drastically increase the size of your APK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063827Z" creationid="pingfangx" creationdate="20181220T063827Z">
+        <seg>不要使用 &lt;c0&gt;&lt;a1&gt;AnimationDrawable&lt;/a1&gt;&lt;/c0&gt; 来创建逐帧动画，因为这样做需要为动画的每个帧包含一个单独的位图文件，这会大大增加动画的大小你的 APK。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Does not do anything to hide gaps.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9955,6 +10235,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071936Z" creationid="pingfangx" creationdate="20180925T071936Z">
         <seg>这样做也可以改善温启动和热启动的性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Doing so results in an image of equal quality but a smaller memory footprint.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062741Z" creationid="pingfangx" creationdate="20181220T062741Z">
+        <seg>这样做会产生质量相同但内存占用更少的图像。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10131,6 +10419,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T063121Z" creationid="pingfangx" creationdate="20180510T063121Z">
         <seg>绘制剩余的源像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>During the build process, first &lt;a1&gt;ProGuard&lt;/a1&gt; removes unused code but leaves unused resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061155Z" creationid="pingfangx" creationdate="20181220T061155Z">
+        <seg>在构建过程中，首先 &lt;a1&gt;ProGuard&lt;/a1&gt; 移除未使用的代码但保留未使用的资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10679,6 +10975,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fills the bitmap's pixels with the specified &lt;c0&gt;&lt;a1&gt;Color&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T102944Z" creationid="pingfangx" creationdate="20181206T102944Z">
+        <seg>使用指定的 &lt;c0&gt;&lt;a1&gt;Color&lt;/a1&gt;&lt;/c0&gt; 填充位图的像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Finalizers are a way to have a chunk of code executed when an object is garbage collected.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11015,6 +11319,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if a user has a &lt;c0&gt;hdpi&lt;/c0&gt; device, they don’t need &lt;c1&gt;xxxhdpi&lt;/c1&gt; resources that you might include for devices with higher density displays.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065637Z" creationid="pingfangx" creationdate="20181220T065637Z">
+        <seg>例如，如果用户具有 &lt;c0&gt;hdpi&lt;/c0&gt; 设备，则他们不需要 &lt;c1&gt;xxxhdpi&lt;/c1&gt; 资源，这些资源可能包含在具有更高密度显示的设备中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if grid has 3 columns and each item occupies 1 span, span group index for item 1 will be 0, item 5 will be 1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11095,6 +11407,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, many protocol buffer tools generate an excessive number of methods and classes, which can double or triple the size of your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064031Z" creationid="pingfangx" creationdate="20181220T064031Z">
+        <seg>例如，许多协议缓冲工具会生成过多的方法和类，这可能会使应用程序的大小增加一倍或三倍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, rather than creating global static objects, instead, move to a singleton pattern, where the app initalizes objects only the first time it accesses them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082427Z" creationid="pingfangx" creationdate="20180925T082427Z">
@@ -11107,6 +11427,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>例如，假设您的应用程序使用具有 &lt;c0&gt;com.mydomain.fileprovider&lt;/c0&gt; 权限的 FileProvider 将文件提供给其他应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the &lt;c2&gt;aapt&lt;/c2&gt; tool can convert a true-color PNG that does not require more than 256 colors to an 8-bit PNG with a color palette.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062734Z" creationid="pingfangx" creationdate="20181220T062734Z">
+        <seg>例如，&lt;c2&gt;aapt&lt;/c2&gt; 工具可以将不需要超过 256 种颜色的真彩色 PNG 转换为带有调色板的 8 位 PNG。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11231,6 +11559,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, you might reference the &lt;a0&gt;Android Support Library&lt;/a0&gt; to improve the user experience on older devices, or you could use &lt;a1&gt;Google Play Services&lt;/a1&gt; to retrieve automatic translations for text within your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061747Z" creationid="pingfangx" creationdate="20181220T061747Z">
+        <seg>例如，您可以引用 &lt;a0&gt;Android Support Library&lt;/a0&gt; 来改善旧设备上的用户体验，或者您可以使用 &lt;a1&gt;Google Play Services&lt;/a1&gt; 来获取应用中文本的自动翻译。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11351,6 +11687,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For lower versions of the platform, use the &lt;c2&gt;&lt;a3&gt;ColorFilter&lt;/a3&gt;&lt;/c2&gt; class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062546Z" creationid="pingfangx" creationdate="20181220T062546Z">
+        <seg>对于平台的较低版本，请使用 &lt;c2&gt;&lt;a3&gt;ColorFilter&lt;/a3&gt;&lt;/c2&gt; 类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more examples, see &lt;a6&gt;Common Layout Objects&lt;/a6&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11367,10 +11711,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more information about ProGuard and other ways Android Studio helps you reduce APK size, see &lt;a0&gt;Shrink Your Code and Resources&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061514Z" creationid="pingfangx" creationdate="20181220T061514Z">
+        <seg>有关 ProGuard 以及 Android Studio 帮助您减少 APK 大小的其他方式的更多信息，请参阅 &lt;a0&gt;Shrink Your Code and Resources&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information about this feature, see &lt;a3&gt;Remove unused alternative resources&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061623Z" creationid="pingfangx" creationdate="20181220T061623Z">
+        <seg>有关此功能的详细信息，请参阅 &lt;a3&gt;Remove unused alternative resources&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more information on creating accessible views, see &lt;a0&gt; Making Applications Accessible&lt;/a0&gt; in the Android Developers Guide.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063801Z" creationid="pingfangx" creationdate="20181205T063801Z">
         <seg>有关创建无障碍 view 的更多信息，请参阅 Android 开发者指南中的 &lt;a0&gt; Making Applications Accessible&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information on working with &lt;c0&gt;&lt;a1&gt;VectorDrawable&lt;/a1&gt;&lt;/c0&gt; objects, see &lt;a2&gt;Working with Drawables&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063739Z" creationid="pingfangx" creationdate="20181220T063739Z">
+        <seg>有关使用 &lt;c0&gt;&lt;a1&gt;VectorDrawable&lt;/a1&gt;&lt;/c0&gt; 对象的更多信息，请参阅 &lt;a2&gt;Working with Drawables&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information screen densities, see &lt;a0&gt;Screen Sizes and Densities&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062307Z" creationid="pingfangx" creationdate="20181220T062307Z">
+        <seg>有关屏幕密度的更多信息，请参阅 &lt;a0&gt;Screen Sizes and Densities&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information, see &lt;a0&gt;Configure APK Splits&lt;/a0&gt; and &lt;a1&gt;Maintaining Multiple APKs&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065643Z" creationid="pingfangx" creationdate="20181220T065643Z">
+        <seg>有关详细信息，请参阅 &lt;a0&gt;Configure APK Splits&lt;/a0&gt; 和 &lt;a1&gt;Maintaining Multiple APKs&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information, see &lt;a0&gt;Create WebP Images Using Android Studio&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063154Z" creationid="pingfangx" creationdate="20181220T063154Z">
+        <seg>有关更多信息，请参阅 &lt;a0&gt;Create WebP Images Using Android Studio&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11719,6 +12111,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle can automatically remove resources on your behalf if you enable &lt;a0&gt;&lt;c1&gt;shrinkResources&lt;/c1&gt;&lt;/a0&gt; in your app's &lt;c2&gt;build.gradle&lt;/c2&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061008Z" creationid="pingfangx" creationdate="20181220T061008Z">
+        <seg>如果在应用程序的 &lt;c2&gt;build.gradle&lt;/c2&gt; 文件中启用 &lt;a0&gt;&lt;c1&gt;shrinkResources&lt;/c1&gt;&lt;/a0&gt;，Gradle 可以为您自动移除资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle passes this information to the build system using the &lt;c0&gt;resConfig&lt;/c0&gt; and &lt;c1&gt;resConfigs&lt;/c1&gt; flavors and the &lt;c2&gt;defaultConfig&lt;/c2&gt; option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061557Z" creationid="pingfangx" creationdate="20181220T061557Z">
+        <seg>Gradle 使用 &lt;c0&gt;resConfig&lt;/c0&gt; 和 &lt;c1&gt;resConfigs&lt;/c1&gt; flavor 以及 &lt;c2&gt;defaultConfig&lt;/c2&gt; 选项将此信息传递给构建系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Granting Temporary Permissions to a URI</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12039,6 +12447,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, it takes a significant amount of time for the system to render each &lt;c0&gt;&lt;a1&gt;VectorDrawable&lt;/a1&gt;&lt;/c0&gt; object, and larger images take even longer to appear on the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063632Z" creationid="pingfangx" creationdate="20181220T063632Z">
+        <seg>但是，系统需要花费大量时间来渲染每个 &lt;c0&gt;&lt;a1&gt;VectorDrawable&lt;/a1&gt;&lt;/c0&gt; 对象，并且较大的图像需要更长的时间才能显示在屏幕上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, simulating the feel of a flywheel isn't trivial.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073131Z" creationid="pingfangx" creationdate="20181205T073131Z">
@@ -12187,6 +12603,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果备注行包含长度超过 100 个字符的示例命令或文字网址，那么为了便于剪切和粘贴，该行可以超过 100 个字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a library was designed for a server or desktop, it can include many objects and methods that your app doesn’t need.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061809Z" creationid="pingfangx" creationdate="20181220T061809Z">
+        <seg>如果库是为服务器或桌面设计的，则它可以包含您的应用程序不需要的许多对象和方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12419,6 +12843,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T101212Z" creationid="pingfangx" creationdate="20180427T101212Z">
         <seg>如果位置为 NULL，则颜色自动均匀分布。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If possible, consider using the &lt;c1&gt;@IntDef&lt;/c1&gt; annotation and &lt;a2&gt;ProGuard&lt;/a2&gt; to strip enumerations out and convert them to integers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064104Z" creationid="pingfangx" creationdate="20181220T064104Z">
+        <seg>如果可能，请考虑使用 &lt;c1&gt;@IntDef&lt;/c1&gt; 注释和 &lt;a2&gt;ProGuard&lt;/a2&gt; 来删除枚举并将其转换为整数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12903,6 +13335,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you don't include resources for a specific screen density, Android automatically scales existing resources originally designed for other screen densities.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062226Z" creationid="pingfangx" creationdate="20181220T062226Z">
+        <seg>如果您不包含特定屏幕密度的资源，Android 会自动扩展最初为其他屏幕密度设计的现有资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you don't want to create a completely customized component, but instead are looking to put together a reusable component that consists of a group of existing controls, then creating a Compound Component (or Compound Control) might fit the bill.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12963,6 +13403,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果你想拉伸 view 的尺寸以满足约束， &lt;a0&gt;switch the size to "match constraints"&lt;/a0&gt;；或者如果你想保留当前的大小，但想移动 view 使其不居中，&lt;a1&gt;adjust the constraint bias&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you know that only a small percentage of your users have devices with specific densities, consider whether you need to bundle those densities into your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062213Z" creationid="pingfangx" creationdate="20181220T062213Z">
+        <seg>如果您知道只有一小部分用户拥有具有特定密度的设备，请考虑是否需要将这些密度捆绑到您的应用中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13119,6 +13567,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If your app needs only scaled images, you can save even more space by having a single variant of an image in &lt;c0&gt;drawable-nodpi/&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062242Z" creationid="pingfangx" creationdate="20181220T062242Z">
+        <seg>如果您的应用只需要缩放图像，则可以通过在 &lt;c0&gt;drawable-nodpi/&lt;/c0&gt; 中使用单个图像变体来节省更多空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your app uses native code and the Android NDK, you can also reduce the size of the release version of your app by optimizing your code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065030Z" creationid="pingfangx" creationdate="20181220T065030Z">
+        <seg>如果您的应用使用 native 代码和 Android NDK，您还可以通过优化代码来缩小应用发布版本的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If your code must compile under Java 1.3, you must omit the exception that is the cause.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13179,6 +13643,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081339Z" creationid="pingfangx" creationdate="20180925T081339Z">
         <seg>如果由于延迟加载，应用程序的初始显示不包含所有资源，您可能会将所有资源和视图的完成加载和显示视为单独的度量标准：例如，您的 UI 可能已完全加载，并绘制了一些文本，但尚未显示应用必须从网络中获取的图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Image files need to use 256 or fewer colors for the &lt;c0&gt;aapt&lt;/c0&gt; tool to optimize them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062818Z" creationid="pingfangx" creationdate="20181220T062818Z">
+        <seg>图像文件需要使用 256 或更少的颜色才能由 &lt;c0&gt;aapt&lt;/c0&gt; 工具进行优化。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13319,6 +13791,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Android 4.4 (API level 19) and higher, the framework supports various densities: &lt;c0&gt;ldpi&lt;/c0&gt;, &lt;c1&gt;mdpi&lt;/c1&gt;, &lt;c2&gt;tvdpi&lt;/c2&gt;, &lt;c3&gt;hdpi,&lt;/c3&gt; &lt;c4&gt;xhdpi&lt;/c4&gt;, &lt;c5&gt;xxhdpi&lt;/c5&gt; and &lt;c6&gt;xxxhdpi&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062054Z" creationid="pingfangx" creationdate="20181220T062054Z">
+        <seg>在 Android 4.4(API 级别 19)及更高版本中，框架支持各种密度：&lt;c0&gt;ldpi&lt;/c0&gt;，&lt;c1&gt;mdpi&lt;/c1&gt;，&lt;c2&gt;tvdpi&lt;/c2&gt;，&lt;c3&gt;hdpi,&lt;/c3&gt; &lt;c4&gt;xhdpi&lt;/c4&gt;，&lt;c5&gt;xxhdpi&lt;/c5&gt; 和 &lt;c6&gt;xxxhdpi&lt;/c6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Android Gradle Plugin 0.7 and higher, you can declare the configurations that your app supports.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061543Z" creationid="pingfangx" creationdate="20181220T061543Z">
+        <seg>在 Android Gradle Plugin 0.7 及更高版本中，您可以声明应用支持的配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Android, there are actually two other Views readily available to do this: &lt;c0&gt;&lt;a1&gt;Spinner&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;AutoCompleteTextView&lt;/a3&gt;&lt;/c2&gt;, but regardless, the concept of a Combo Box makes an easy-to-understand example.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13403,6 +13891,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>除了上面详细介绍的内在功能之外，你也可以在 &lt;c0&gt;ConstraintLayout&lt;/c0&gt; 中使用特殊的帮助对象来帮助你完成布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition, XML &lt;c3&gt;&lt;a4&gt;Drawable&lt;/a4&gt;&lt;/c3&gt; objects produce monochromatic images compliant with material design guidelines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062401Z" creationid="pingfangx" creationdate="20181220T062401Z">
+        <seg>此外，XML &lt;c3&gt;&lt;a4&gt;Drawable&lt;/a4&gt;&lt;/c3&gt; 对象产生符合材料设计准则的单色图像。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13635,6 +14131,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>特别是 &lt;c10&gt;&lt;a11&gt;ViewPropertyAnimator&lt;/a11&gt;&lt;/c10&gt; 类使 View 的属性动画特别简单有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, you can remove resources that your app no longer uses, and you can use scalable &lt;c0&gt;&lt;a1&gt;Drawable&lt;/a1&gt;&lt;/c0&gt; objects in place of image files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060604Z" creationid="pingfangx" creationdate="20181220T060604Z">
+        <seg>特别是，您可以移除应用程序不再使用的资源，并且可以使用可伸缩的 &lt;c0&gt;&lt;a1&gt;Drawable&lt;/a1&gt;&lt;/c0&gt; 对象代替图像文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14111,6 +14615,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead of using PNG or JPEG files, you can also use the &lt;a0&gt;WebP&lt;/a0&gt; file format for your images, when targeting Android 3.2 (API level 13) and higher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063052Z" creationid="pingfangx" creationdate="20181220T063052Z">
+        <seg>在针对 Android 3.2(API 级别 13)及更高版本时，您还可以使用 &lt;a0&gt;WebP&lt;/a0&gt; 文件格式代替使用 PNG 或 JPEG 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead use "match constraints" (&lt;c3&gt;0dp&lt;/c3&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14171,6 +14683,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>相反，您可以在应用程序中包含 FileProvider，方法是将其完全指定为 XML。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, you should use &lt;a0&gt; &lt;c1&gt;AnimatedVectorDrawableCompat&lt;/c1&gt;&lt;/a0&gt; to create &lt;a2&gt;animated vector drawables&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063839Z" creationid="pingfangx" creationdate="20181220T063839Z">
+        <seg>相反，您应该使用 &lt;a0&gt; &lt;c1&gt;AnimatedVectorDrawableCompat&lt;/c1&gt;&lt;/a0&gt; 来创建 &lt;a2&gt;animated vector drawables&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14519,6 +15039,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It then chooses the configuration that yields the smallest compressed output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063014Z" creationid="pingfangx" creationdate="20181220T063014Z">
+        <seg>然后，它选择产生最小压缩输出的配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It uses a mix of text, lines, and shapes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071030Z" creationid="pingfangx" creationdate="20181205T071030Z">
@@ -14607,6 +15135,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Java is a registered trademark of Oracle and/or its affiliates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065710Z" creationid="pingfangx" creationdate="20181220T065710Z">
+        <seg>Java 是 Oracle 和/或其附属公司的注册商标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Javatests Style Rules</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14651,6 +15187,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>请注意，在对 String 使用 &lt;c0&gt;+&lt;/c0&gt; 运算符时，它会隐式创建一个具有默认缓冲区(大小为 16 个字符)的 &lt;c1&gt;StringBuilder&lt;/c1&gt; ，还可能会创建其他临时 String 对象。例如，显式创建 StringBuilder 并不比依赖默认的 '+' 运算符成本更高(实际上可能更高效)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keep in mind that the &lt;c0&gt;aapt&lt;/c0&gt; has the following limitations:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062745Z" creationid="pingfangx" creationdate="20181220T062745Z">
+        <seg>请记住，&lt;c0&gt;aapt&lt;/c0&gt; 具有以下限制：</seg>
       </tuv>
     </tu>
     <tu>
@@ -14807,6 +15351,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Libraries that you add to your code may include unused resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060944Z" creationid="pingfangx" creationdate="20181220T060944Z">
+        <seg>添加到代码中的库可能包含未使用的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like all setters on ImageDecoder, this must be called inside &lt;c0&gt;&lt;a1&gt;onHeaderDecoded&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084340Z" creationid="pingfangx" creationdate="20180921T084340Z">
@@ -14959,10 +15511,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Maintain multiple lean APKs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065505Z" creationid="pingfangx" creationdate="20181220T065505Z">
+        <seg>保持多个精简 APK</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Make Your Transitions Smooth</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075107Z" creationid="pingfangx" creationdate="20181205T075107Z">
         <seg>让你的过渡平滑</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make sure to understand the footprint of any code which is automatically generated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064020Z" creationid="pingfangx" creationdate="20181220T064020Z">
+        <seg>确保了解自动生成的任何代码的占用空间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15091,6 +15659,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070225Z" creationid="pingfangx" creationdate="20181107T070225Z">
         <seg>Millimeters（毫米） - 基于屏幕的物理尺寸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Minimize resource use from libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061709Z" creationid="pingfangx" creationdate="20181220T061709Z">
+        <seg>最大限度地减少库中的资源使用</seg>
       </tuv>
     </tu>
     <tu>
@@ -15807,6 +16383,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One of the simple ways to make your APK smaller is to reduce the number and size of the resources it contains.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060544Z" creationid="pingfangx" creationdate="20181220T060544Z">
+        <seg>使 APK 更小的一种简单方法是减少其包含的资源的数量和大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One of your Play Store app URLs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15819,6 +16403,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090133Z" creationid="pingfangx" creationdate="20180921T090133Z">
         <seg>目前仅支持 &lt;c0&gt;&lt;a1&gt;ColorSpace.Model.RGB&lt;/a1&gt;&lt;/c0&gt; 颜色空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only equal sized bitmaps are supported, with &lt;c2&gt;&lt;a3&gt;inSampleSize&lt;/a3&gt;&lt;/c2&gt; set to 1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T092903Z" creationid="pingfangx" creationdate="20181206T092903Z">
+        <seg>仅支持相同大小的位图，&lt;c2&gt;&lt;a3&gt;inSampleSize&lt;/a3&gt;&lt;/c2&gt; 设置为 1。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16223,10 +16815,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Prior to &lt;c0&gt;&lt;a1&gt;KITKAT&lt;/a1&gt;&lt;/c0&gt; additional constraints apply: The image being decoded (whether as a resource or as a stream) must be in jpeg or png format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T092842Z" creationid="pingfangx" creationdate="20181206T092842Z">
+        <seg>在 &lt;c0&gt;&lt;a1&gt;KITKAT&lt;/a1&gt;&lt;/c0&gt; 之前应用其他约束：正在解码的图像(无论是资源还是流)必须采用 jpeg 或 png 格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Private information should be avoided.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>应避免提供个人信息，。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Procedural rendering frees up space because you no longer store an image file in your APK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062705Z" creationid="pingfangx" creationdate="20181220T062705Z">
+        <seg>程序渲染可以释放空间，因为您不再在 APK 中存储图像文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16439,6 +17047,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Reduce native and Java code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063940Z" creationid="pingfangx" creationdate="20181220T063940Z">
+        <seg>减少 native 和 Java 代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reduce resource count and size</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060352Z" creationid="pingfangx" creationdate="20181220T060352Z">
+        <seg>减少资源数量和大小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reduce the APK size</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T055531Z" creationid="pingfangx" creationdate="20181220T055531Z">
+        <seg>减少 APK 大小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reduce the size of native binaries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064959Z" creationid="pingfangx" creationdate="20181220T064959Z">
+        <seg>减少 native 二进制文件的大小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Refactor your code to have more fine-grained error handling, with multiple try blocks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16591,6 +17231,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove debug symbols</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065129Z" creationid="pingfangx" creationdate="20181220T065129Z">
+        <seg>移除调试符号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove unnecessary generated code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063957Z" creationid="pingfangx" creationdate="20181220T063957Z">
+        <seg>移除不必要的生成代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove unused resources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060637Z" creationid="pingfangx" creationdate="20181220T060637Z">
+        <seg>移除未使用的资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Removes a view from a horizontal chain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16619,6 +17283,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>移除提供的 listener 从子 view 附加的状态监听器列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Render from code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062650Z" creationid="pingfangx" creationdate="20181220T062650Z">
+        <seg>从代码渲染</seg>
       </tuv>
     </tu>
     <tu>
@@ -17823,6 +18495,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Reuse resources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062406Z" creationid="pingfangx" creationdate="20181220T062406Z">
+        <seg>重用资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Running the CPU Profiler reveals that the &lt;c0&gt;&lt;a1&gt;callApplicationOnCreate()&lt;/a1&gt;&lt;/c0&gt; method eventually calls your &lt;c2&gt;com.example.customApplication.onCreate&lt;/c2&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082240Z" creationid="pingfangx" creationdate="20180925T082240Z">
@@ -18623,6 +19303,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some images don't require a static image resource; the framework can dynamically draw the image at runtime instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062334Z" creationid="pingfangx" creationdate="20181220T062334Z">
+        <seg>某些图像不需要静态图像资源;框架可以在运行时动态绘制图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some initializations may be completely unnecessary: for example, initializing state information for the main activity, when the app has actually started up in response to an intent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082106Z" creationid="pingfangx" creationdate="20180925T081958Z">
@@ -19127,6 +19815,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Support only specific densities</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062036Z" creationid="pingfangx" creationdate="20181220T062036Z">
+        <seg>仅支持特定的密度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Supported formats are: #RRGGBB #AARRGGBB or one of the following names: 'red', 'blue', 'green', 'black', 'white', 'gray', 'cyan', 'magenta', 'yellow', 'lightgray', 'darkgray', 'grey', 'lightgrey', 'darkgrey', 'aqua', 'fuchsia', 'lime', 'maroon', 'navy', 'olive', 'purple', 'silver', 'teal'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T065357Z" creationid="pingfangx" creationdate="20180903T065357Z">
@@ -19243,6 +19939,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>以前匹配所匹配的字符串形式的子序列(可能为空)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;a0&gt;&lt;c1&gt;lint&lt;/c1&gt;&lt;/a0&gt; tool, a static code analyzer included in Android Studio, detects resources in your &lt;c2&gt;res/&lt;/c2&gt; folder that your code doesn't reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060704Z" creationid="pingfangx" creationdate="20181220T060704Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;lint&lt;/c1&gt;&lt;/a0&gt; 工具是 Android Studio 中包含的静态代码分析器，用于检测 &lt;c2&gt;res/&lt;/c2&gt; 文件夹中代码未引用的资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19391,6 +20095,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;aapt&lt;/c0&gt; tool can optimize the image resources placed in &lt;c1&gt;res/drawable/&lt;/c1&gt; with lossless compression during the build process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062719Z" creationid="pingfangx" creationdate="20181220T062719Z">
+        <seg>&lt;c0&gt;aapt&lt;/c0&gt; 工具可以在构建过程中使用无损压缩优化放置在 &lt;c1&gt;res/drawable/&lt;/c1&gt; 中的图像资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;aapt&lt;/c0&gt; tool does not shrink PNG files contained in the &lt;c1&gt;asset/&lt;/c1&gt; folder.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062752Z" creationid="pingfangx" creationdate="20181220T062752Z">
+        <seg>&lt;c0&gt;aapt&lt;/c0&gt; 工具不会缩小 &lt;c1&gt;asset/&lt;/c1&gt; 文件夹中包含的 PNG 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;aapt&lt;/c0&gt; tool may inflate PNG files that have already been compressed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062831Z" creationid="pingfangx" creationdate="20181220T062831Z">
+        <seg>&lt;c0&gt;aapt&lt;/c0&gt; 工具可能会放大已经压缩的 PNG 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;finalize&lt;/c0&gt; method is never invoked more than once by a Java virtual machine for any given object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T105012Z" creationid="pingfangx" creationdate="20180427T105012Z">
@@ -19419,6 +20147,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;onDraw()&lt;/c0&gt; 方法给你提供一个 &lt;c1&gt;&lt;a2&gt;Canvas&lt;/a2&gt;&lt;/c1&gt;，在其中你可以实现任何你想要的东西。2D 图形，其他标准或自定义的组件，带风格的文字，以及任何你想要的别的东西。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;pngcrush&lt;/c0&gt; tool is particularly effective: This tool iterates over PNG filters and zlib (Deflate) parameters, using each combination of filters and parameters to compress the image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062959Z" creationid="pingfangx" creationdate="20181220T062959Z">
+        <seg>&lt;c0&gt;pngcrush&lt;/c0&gt; 工具特别有效：此工具使用过滤器和参数的每个组合来迭代 PNG 过滤器和 zlib(Deflate)参数以压缩图像。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19639,6 +20375,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The WebP format provides lossy compression (like JPEG) as well as transparency (like PNG) but can provide better compression than either JPEG or PNG.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063107Z" creationid="pingfangx" creationdate="20181220T063107Z">
+        <seg>WebP 格式提供有损压缩(如 JPEG)以及透明度(如 PNG)，但可以提供比 JPEG 或 PNG 更好的压缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The actual permissions required will depend on the particular intent passed in.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19763,6 +20507,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>view 的底边。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The build system then prevents resources from other, unsupported configurations from appearing in the APK, reducing the APK's size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061613Z" creationid="pingfangx" creationdate="20181220T061613Z">
+        <seg>然后，构建系统会阻止来自其他不受支持的配置的资源出现在 APK 中，从而减少 APK 的大小。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20087,6 +20839,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The file uses Android's binary XML format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060344Z" creationid="pingfangx" creationdate="20181220T060344Z">
+        <seg>该文件使用 Android 的二进制 XML 格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The filename is arbitrary.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061807Z" creationid="pingfangx" creationdate="20181107T061807Z">
@@ -20115,6 +20875,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>前两个的效果与其他布局类似。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following code snippet provides an example of turning a "thumb up" into a "thumb down" by pivoting at the middle of the image and rotating it 180 degrees:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062636Z" creationid="pingfangx" creationdate="20181220T062636Z">
+        <seg>以下代码片段提供了一个示例，通过在图像中间旋转并将其旋转 180 度，将 "拇指向上" 变为 "拇指向下"：</seg>
       </tuv>
     </tu>
     <tu>
@@ -20687,6 +21455,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The packaging tool extracts this XML content, compiles it to binary form, and archives the content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060254Z" creationid="pingfangx" creationdate="20181220T060254Z">
+        <seg>打包工具提取此 XML 内容，将其编译为二进制形式，并归档内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The padding is expressed in pixels for the left, top, right and bottom parts of the view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20803,6 +21579,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这些属性和方法也可以与基于 &lt;c12&gt;&lt;a13&gt;Animator&lt;/a13&gt;&lt;/c12&gt; 的动画结合使用，详见 &lt;a14&gt;Animation&lt;/a14&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The provided Bitmap's width, height, and &lt;c0&gt;&lt;a1&gt;Bitmap.Config&lt;/a1&gt;&lt;/c0&gt; will not be changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T093032Z" creationid="pingfangx" creationdate="20181206T093032Z">
+        <seg>提供的位图的宽度，高度和 &lt;c0&gt;&lt;a1&gt;Bitmap.Config&lt;/a1&gt;&lt;/c0&gt; 将不会更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21059,6 +21843,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>view 的尺寸表示为宽度和高度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The size of your APK has an impact on how fast your app loads, how much memory it uses, and how much power it consumes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060534Z" creationid="pingfangx" creationdate="20181220T060534Z">
+        <seg>APK 的大小会影响您的应用加载速度，使用的内存量以及消耗的功率。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21343,6 +22135,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then Gradle removes the unused resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061159Z" creationid="pingfangx" creationdate="20181220T061159Z">
+        <seg>然后 Gradle 移除未使用的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then click the text baseline and drag the line to another baseline.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21419,6 +22219,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>有很多专门的 view 的子类，作为控件或能显示文字、图片或其他内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several methods you can use to reduce the size of the Java and native codebase in your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063954Z" creationid="pingfangx" creationdate="20181220T063954Z">
+        <seg>您可以使用多种方法来减少应用程序中 Java 和 native 代码库的大小。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21503,6 +22311,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Therefore, consider using these vector graphics only when displaying small images.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063639Z" creationid="pingfangx" creationdate="20181220T063639Z">
+        <seg>因此，请考虑仅在显示小图像时使用这些矢量图形。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Therefore, it would be wrong to write a program that depended on this exception for its correctness: &lt;i1&gt;&lt;c2&gt;ConcurrentModificationException&lt;/c2&gt; should be used only to detect bugs.&lt;/i1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21531,6 +22347,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c3&gt;app:&lt;/c3&gt; 参数是 LabelView 可以识别和工作的参数，它们定义在 R 类中的 styleable 内部类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These additions can quickly accumulate for complex systems or shared libraries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064051Z" creationid="pingfangx" creationdate="20181220T064051Z">
+        <seg>这些添加可以快速累积到复杂的系统或共享库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21603,6 +22427,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这对尺寸定义了 view 在发屏幕上的真实大小，在 layout 之后在绘制时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These files include Java class files, resource files, and a file containing compiled resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T055958Z" creationid="pingfangx" creationdate="20181220T055958Z">
+        <seg>这些文件包括 Java 类文件，资源文件和包含已编译资源的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21759,6 +22591,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This article describes how to reduce your app's APK size, which enables more users to download your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T055929Z" creationid="pingfangx" creationdate="20181220T055929Z">
+        <seg>本文介绍如何减少应用的 APK 大小，以便更多用户下载您的应用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This attribute may not be applied if the widget is part of a chain in that dimension.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21779,6 +22619,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这样做可能显得比较笨拙，但仍比捕获所有异常更可取。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be because the intrinsic size is smaller, or its size post scaling (for density / sample size) is smaller.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T092814Z" creationid="pingfangx" creationdate="20181206T092814Z">
+        <seg>这可能是因为固有尺寸较小，或者其缩放后的尺寸(对于密度/样品尺寸)较小。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21919,6 +22767,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This content includes language strings and styles, as well as paths to content that is not included directly in the &lt;c2&gt;resources.arsc&lt;/c2&gt; file, such as layout files and images.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060316Z" creationid="pingfangx" creationdate="20181220T060316Z">
+        <seg>此内容包括语言字符串和样式，以及未直接包含在 &lt;c2&gt;resources.arsc&lt;/c2&gt; 文件中的内容路径，例如布局文件和图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This demonstrates many aspects of using the Android platform, among them is extending an EditText View to make a lined notepad.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21931,6 +22787,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061316Z" creationid="pingfangx" creationdate="20181205T061316Z">
         <seg>此伪指令将别名 &lt;c1&gt;custom&lt;/c1&gt; 分配给命名空间 &lt;c2&gt;http://schemas.android.com/apk/res/com.example.customviews&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This directory contains a subdirectory for each platform type, like &lt;c1&gt;armeabi&lt;/c1&gt;, &lt;c2&gt;armeabi-v7a&lt;/c2&gt;, &lt;c3&gt;arm64-v8a&lt;/c3&gt;, &lt;c4&gt;x86&lt;/c4&gt;, &lt;c5&gt;x86_64&lt;/c5&gt;, and &lt;c6&gt;mips&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060204Z" creationid="pingfangx" creationdate="20181220T060204Z">
+        <seg>这个目录包含每个平台类型的子目录，如 &lt;c1&gt;armeabi&lt;/c1&gt;、&lt;c2&gt;armeabi-v7a&lt;/c2&gt;、&lt;c3&gt;arm64-v8a&lt;/c3&gt;、&lt;c4&gt;x86&lt;/c4&gt;、&lt;c5&gt;x86_64&lt;/c5&gt;、&lt;c6&gt;mips&lt;/c6&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21988,6 +22852,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101640Z" creationid="pingfangx" creationdate="20180408T101640Z">
         <seg>此字段在 API 级别 24 中已被弃用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This file contains the XML content from all configurations of the &lt;c1&gt;res/values/&lt;/c1&gt; folder.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060237Z" creationid="pingfangx" creationdate="20181220T060237Z">
+        <seg>此文件包含 &lt;c1&gt;res/values/&lt;/c1&gt; 文件夹的所有配置的 XML 内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This file lists the name, version, access rights, and referenced library files of the app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060339Z" creationid="pingfangx" creationdate="20181220T060339Z">
+        <seg>此文件列出了应用程序的名称，版本，访问权限和引用的库文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22584,6 +23464,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This section discusses these methods as well as several other ways that you can reduce the resources in your app to decrease the overall size of your APK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060623Z" creationid="pingfangx" creationdate="20181220T060623Z">
+        <seg>本节讨论这些方法以及其他几种可以减少应用中资源以减少 APK 总体大小的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This sentence should start with a third person descriptive verb.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -22660,6 +23548,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这告诉系统，我们希望按钮 B 的左侧被限制在按钮 A 的右侧。这样的位置约束意味着系统将尝试使双方共享相同的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This type conversion preserves all of the type safety benefits of enums.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064946Z" creationid="pingfangx" creationdate="20181220T064946Z">
+        <seg>此类型转换保留了枚举的所有类型安全优势。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22756,6 +23652,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这样相当不方便。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This way, devices don't receive assets for features that the devices don't have.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065623Z" creationid="pingfangx" creationdate="20181220T065623Z">
+        <seg>这样，设备不会接收设备所没有的功能的资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22952,6 +23856,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To compress JPEG files, you can use tools like &lt;a0&gt;packJPG&lt;/a0&gt; and &lt;a1&gt;guetzli&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063020Z" creationid="pingfangx" creationdate="20181220T063020Z">
+        <seg>要压缩 JPEG 文件，您可以使用 &lt;a0&gt;packJPG&lt;/a0&gt; 和 &lt;a1&gt;guetzli&lt;/a1&gt; 等工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To convert an existing layout to a constraint layout, follow these steps:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -22996,6 +23908,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>要创建一个完全自定义的组件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To create a minimal download for your users, you can segment your app into several APKs, differentiated by factors such as screen size or GPU texture support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065553Z" creationid="pingfangx" creationdate="20181220T065553Z">
+        <seg>要为用户创建最小的下载，您可以将应用划分为多个 APK，区别在于屏幕尺寸或 GPU 纹理支持等因素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23152,6 +24072,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To include only the parts of the library that your app needs, you can edit the library's files if the license allows you to modify the library.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061832Z" creationid="pingfangx" creationdate="20181220T061832Z">
+        <seg>要仅包含应用程序所需库的部分，如果许可证允许您修改库，则你可以编辑库的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To initiate a layout, call &lt;c0&gt;&lt;a1&gt;requestLayout()&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23204,6 +24132,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071950Z" creationid="pingfangx" creationdate="20180925T071950Z">
         <seg>为了优化您的应用程序以实现快速启动，了解系统和应用程序级别发生的情况以及它们在每种状态下的交互方式非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To prevent this, you can use the &lt;c1&gt;cruncherEnabled&lt;/c1&gt; flag in Gradle to disable this process for PNG files:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062852Z" creationid="pingfangx" creationdate="20181220T062852Z">
+        <seg>为防止这种情况，您可以使用 Gradle 中的 &lt;c1&gt;cruncherEnabled&lt;/c1&gt; 标志为 PNG 文件禁用此过程：</seg>
       </tuv>
     </tu>
     <tu>
@@ -23316,6 +24252,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>要在项目中使用 &lt;c0&gt;ConstraintLayout&lt;/c0&gt;，按下列步骤进行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use &lt;c0&gt;shrinkResources&lt;/c0&gt;, you must enable code shrinking.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061146Z" creationid="pingfangx" creationdate="20181220T061146Z">
+        <seg>要使用 &lt;c0&gt;shrinkResources&lt;/c0&gt;，必须启用代码缩减（shrinking）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23448,6 +24392,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Two useful techniques are removing debug symbols and not extracting native libraries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065126Z" creationid="pingfangx" creationdate="20181220T065126Z">
+        <seg>两种有用的技术是移除调试符号和避免提取 native 库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Typically used on optional parameters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23524,6 +24476,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071706Z" creationid="pingfangx" creationdate="20180925T071706Z">
         <seg>了解 app 启动时的内部过程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Understand the APK structure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T055932Z" creationid="pingfangx" creationdate="20181220T055932Z">
+        <seg>了解 APK 结构</seg>
       </tuv>
     </tu>
     <tu>
@@ -23656,10 +24616,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use WebP file format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063025Z" creationid="pingfangx" creationdate="20181220T063025Z">
+        <seg>使用 WebP 文件格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use a software allocation for the pixel memory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074137Z" creationid="pingfangx" creationdate="20180921T074002Z">
         <seg>为像素内存使用软件分配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use drawable objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062322Z" creationid="pingfangx" creationdate="20181220T062322Z">
+        <seg>使用 drawable 对象</seg>
       </tuv>
     </tu>
     <tu>
@@ -23676,6 +24652,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074129Z" creationid="pingfangx" creationdate="20180921T073949Z">
         <seg>为像素内存使用共享内存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the &lt;c0&gt;arm-eabi-strip&lt;/c0&gt; tool, provided in the Android NDK, to remove unnecessary debug symbols from native libraries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065153Z" creationid="pingfangx" creationdate="20181220T065153Z">
+        <seg>使用 Android NDK 中提供的 &lt;c0&gt;arm-eabi-strip&lt;/c0&gt; 工具从 native 库中移除不必要的调试符号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23708,6 +24692,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>用于设置 matchConstraintDefaultWidth 和 matchConstraintDefaultHeight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use vector graphics</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063209Z" creationid="pingfangx" creationdate="20181220T063209Z">
+        <seg>使用矢量图形</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use vector graphics for animated images</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063742Z" creationid="pingfangx" creationdate="20181220T063742Z">
+        <seg>将矢量图形用于动画图像</seg>
       </tuv>
     </tu>
     <tu>
@@ -23824,6 +24824,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Users often avoid downloading apps that seem too large, particularly in emerging markets where devices connect to often-spotty 2G and 3G networks or work on pay-by-the-byte plans.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T055813Z" creationid="pingfangx" creationdate="20181220T055813Z">
+        <seg>用户经常避免下载看起来太大的应用程序，特别是在新兴市场中，设备连接到不稳定的的 2G 和 3G 网络或者使用按字节付费的套餐。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using &lt;c0&gt;0dp&lt;/c0&gt;, which is the equivalent of "&lt;c1&gt;MATCH_CONSTRAINT&lt;/c1&gt;"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23864,6 +24872,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using debug symbols makes sense if your application is in development and still requires debugging.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065136Z" creationid="pingfangx" creationdate="20181220T065136Z">
+        <seg>如果您的应用程序正在开发中并且仍需要调试，则使用调试符号很有意义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using dp units (instead of px units) is a simple solution to making the view dimensions in your layout resize properly for different screen densities.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065401Z" creationid="pingfangx" creationdate="20181107T065401Z">
@@ -23876,6 +24892,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070815Z" creationid="pingfangx" creationdate="20181107T070815Z">
         <seg>使用您在 &lt;c0&gt;&lt;item&gt;&lt;/c0&gt; 元素中提供的名称，Android 开发人员工具在项目的 &lt;c1&gt;R.java&lt;/c1&gt; 类中创建一个唯一的整数，您可以将其用作标识符应用程序资源(例如，UI 布局中的 &lt;c2&gt;&lt;a3&gt;View&lt;/a3&gt;&lt;/c2&gt;)或用于应用程序代码的唯一整数(例如，作为对话框的 ID 或结果代码)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using these graphics can greatly reduce your APK footprint.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063557Z" creationid="pingfangx" creationdate="20181220T063557Z">
+        <seg>使用这些图形可以大大减少您的 APK 占用空间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23900,6 +24924,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090714Z" creationid="pingfangx" creationdate="20180921T090714Z">
         <seg>值为 1 或更大。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Vector images are represented in Android as &lt;c0&gt;&lt;a1&gt;VectorDrawable&lt;/a1&gt;&lt;/c0&gt; objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063607Z" creationid="pingfangx" creationdate="20181220T063607Z">
+        <seg>矢量图像在 Android 中表示为 &lt;c0&gt;&lt;a1&gt;VectorDrawable&lt;/a1&gt;&lt;/c0&gt; 对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24088,6 +25120,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We recommend that every app include at least an &lt;c1&gt;xxhdpi&lt;/c1&gt; image variant.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062302Z" creationid="pingfangx" creationdate="20181220T062302Z">
+        <seg>我们建议每个应用至少包含一个 &lt;c1&gt;xxhdpi&lt;/c1&gt; 图像变体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We recommend that you always optimize based on an assumption of a cold start.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071927Z" creationid="pingfangx" creationdate="20180925T071927Z">
@@ -24100,6 +25140,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T084040Z" creationid="pingfangx" creationdate="20180925T084040Z">
         <seg>我们建议您不要禁用预览窗口，而是遵循常见的 &lt;a0&gt; Material Design&lt;/a0&gt; 模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We recommend, however, that you reuse the same set of resources, customizing them as needed at runtime.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062459Z" creationid="pingfangx" creationdate="20181220T062459Z">
+        <seg>但是，我们建议您重用同一组资源，并在运行时根据需要自定义它们。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24192,6 +25240,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a user downloads your app, their device receives the correct APK based on the device's features and settings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065602Z" creationid="pingfangx" creationdate="20181220T065602Z">
+        <seg>当用户下载您的应用时，他们的设备会根据设备的功能和设置收到正确的 APK。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When a user is navigating a user interface via directional keys such as a D-pad, it is necessary to give focus to actionable items such as buttons so the user can see what will take input.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24228,6 +25284,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当开始一个动画时，框架负责绘制合适的 view 直到动画完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When building the release version of your app, package uncompressed &lt;c0&gt;.so&lt;/c0&gt; files in the APK by setting &lt;c1&gt;android:extractNativeLibs="false"&lt;/c1&gt; in the &lt;a2&gt;&lt;c3&gt;&lt;application&gt;&lt;/c3&gt;&lt;/a2&gt; element of your app's manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065338Z" creationid="pingfangx" creationdate="20181220T065338Z">
+        <seg>在构建应用程序的发布版本时，通过在 app 的 manifest 的 &lt;a2&gt;&lt;c3&gt;&lt;application&gt;&lt;/c3&gt;&lt;/a2&gt; 元素中设置  &lt;c1&gt;android:extractNativeLibs="false"&lt;/c1&gt;  来打包未压缩的 &lt;c0&gt;.so&lt;/c0&gt; 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24276,6 +25340,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在修饰一个方法时，指示该方法可以合理地返回 null 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When developing an Android app, you usually use external libraries to improve your app's usability and versatility.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061722Z" creationid="pingfangx" creationdate="20181220T061722Z">
+        <seg>在开发 Android 应用程序时，通常使用外部库来提高应用程序的可用性和多功能性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24388,6 +25460,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当在 XML 文件中使用 &lt;c0&gt;&lt;a1&gt;android:theme&lt;/a1&gt;&lt;/c0&gt; 属性时，所指明的主题应用于加载的 context 的主题之上(见 &lt;c2&gt;&lt;a3&gt;LayoutInflater&lt;/a3&gt;&lt;/c2&gt;)，并且用于 view 自身及其所有子元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the &lt;c3&gt;lint&lt;/c3&gt; tool discovers a potentially unused resource in your project, it prints a message like the following example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060741Z" creationid="pingfangx" creationdate="20181220T060741Z">
+        <seg>当 &lt;c3&gt;lint&lt;/c3&gt; 工具发现项目中可能未使用的资源时，它会输出类似以下示例的消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24704,6 +25784,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With a &lt;c2&gt;&lt;a3&gt;VectorDrawable&lt;/a3&gt;&lt;/c2&gt; object, a 100-byte file can generate a sharp image the size of the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063618Z" creationid="pingfangx" creationdate="20181220T063618Z">
+        <seg>使用 &lt;c2&gt;&lt;a3&gt;VectorDrawable&lt;/a3&gt;&lt;/c2&gt; 对象，100 字节的文件可以生成与屏幕大小相同的清晰图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With an intent, the app uses only a subset of the previously initialized state data.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082014Z" creationid="pingfangx" creationdate="20180925T082014Z">
@@ -24928,10 +26016,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also omit resources that are only a rotated equivalent of another resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062615Z" creationid="pingfangx" creationdate="20181220T062615Z">
+        <seg>您还可以省略仅与另一个资源的旋转等价的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also put the content URI in a &lt;c0&gt;&lt;a1&gt;ClipData&lt;/a1&gt;&lt;/c0&gt; object and then add the object to an &lt;c2&gt;&lt;a3&gt;Intent&lt;/a3&gt;&lt;/c2&gt; you send to a client app.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>您也可以将 content URI 放在 &lt;c0&gt;&lt;a1&gt;ClipData&lt;/a1&gt;&lt;/c0&gt; 对象中，然后将该对象添加到发送给客户端应用的 &lt;c2&gt;&lt;a3&gt;Intent&lt;/a3&gt;&lt;/c2&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also reduce your APK size by procedurally rendering your images.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062656Z" creationid="pingfangx" creationdate="20181220T062656Z">
+        <seg>您还可以通过程序化渲染图片来缩小 APK 尺寸。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24948,6 +26052,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063259Z" creationid="pingfangx" creationdate="20181107T063259Z">
         <seg>当 XML 中需要可绘制资源时，您也可以使用颜色资源(例如，&lt;c0&gt;android:drawable="@color/green"&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also use an alternative, mobile-friendly library to add specific functionality to your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T061932Z" creationid="pingfangx" creationdate="20181220T061932Z">
+        <seg>您还可以使用其他适合移动设备的库来为您的应用添加特定功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25008,6 +26120,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can convert existing BMP, JPG, PNG or static GIF images to WebP format using Android Studio.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063113Z" creationid="pingfangx" creationdate="20181220T063113Z">
+        <seg>您可以使用 Android Studio 将现有的 BMP，JPG，PNG 或静态 GIF 图像转换为 WebP 格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can create constraints only between a constraint handle and an anchor point that share the same plane.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25040,6 +26160,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can include a separate resource for variations of an image, such as tinted, shaded, or rotated versions of the same image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062452Z" creationid="pingfangx" creationdate="20181220T062452Z">
+        <seg>您可以为图像的变体添加单独的资源，例如同一图像的着色，着色或旋转版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can offset the alignment by dragging the view inward from the constraint.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25060,6 +26188,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你可以根据相对于布局边缘的 dp 单位或者百分百在布局中定位参考线。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can reduce PNG file sizes without losing image quality using tools like &lt;a0&gt;pngcrush&lt;/a0&gt;, &lt;a1&gt;pngquant&lt;/a1&gt;, or &lt;a2&gt;zopflipng&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062925Z" creationid="pingfangx" creationdate="20181220T062925Z">
+        <seg>您可以使用 &lt;a0&gt;pngcrush&lt;/a0&gt;，&lt;a1&gt;pngquant&lt;/a1&gt; 或 &lt;a2&gt;zopflipng&lt;/a2&gt; 等工具减少 PNG 文件大小而不会丢失图像质量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25196,6 +26332,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071222Z" creationid="pingfangx" creationdate="20181107T071222Z">
         <seg>您可以使用它来创建其他资源的数组，例如 drawable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use vector graphics to create resolution-independent icons and other scalable media.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063521Z" creationid="pingfangx" creationdate="20181220T063521Z">
+        <seg>您可以使用矢量图形来创建与分辨率无关的图标和其他可伸缩媒体。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25394,8 +26538,8 @@
       <tuv lang="EN-US">
         <seg>You should still always use the returned Bitmap of the decode method and not assume that reusing the bitmap worked, due to the constraints outlined above and failure situations that can occur.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102937Z" creationid="pingfangx" creationdate="20180408T102937Z">
-        <seg>由于上述限制和可能发生的故障情况，您仍应始终使用解码方法的返回位图，并且不要假定重用位图。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181206T092504Z" creationid="pingfangx" creationdate="20180408T102937Z">
+        <seg>由于上述限制和可能发生的故障情况，您仍应始终使用解码方法返回的位图，并且不要假定重用位图有效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25420,6 +26564,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你也可以在你的组件类中创建自己的事件监听器，属性的获取、设置方法，也可能更复杂的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your APK can contain content that users download but never use, like regional or language information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065531Z" creationid="pingfangx" creationdate="20181220T065531Z">
+        <seg>您的 APK 可以包含用户下载但从不使用的内容，例如区域或语言信息。</seg>
       </tuv>
     </tu>
     <tu>
