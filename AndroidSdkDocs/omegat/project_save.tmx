@@ -5735,6 +5735,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add a closed circle contour to the path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T063822Z" creationid="pingfangx" creationdate="20181221T063822Z">
+        <seg>在路径中添加闭合圆形轮廓</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a closed oval contour to the path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T063830Z" creationid="pingfangx" creationdate="20181221T063830Z">
+        <seg>在路径中添加封闭的椭圆形轮廓</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a closed rectangle contour to the path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T063851Z" creationid="pingfangx" creationdate="20181221T063851Z">
+        <seg>在路径中添加闭合的矩形轮廓</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a closed round-rectangle contour to the path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T064929Z" creationid="pingfangx" creationdate="20181221T064929Z">
+        <seg>在路径中添加一个封闭的圆角矩形轮廓</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a closed round-rectangle contour to the path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T064941Z" creationid="pingfangx" creationdate="20181221T064941Z">
+        <seg>在路径中添加一个封闭的圆角矩形轮廓。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add a constraint</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5743,10 +5783,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add a copy of src to the path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T063841Z" creationid="pingfangx" creationdate="20181221T063841Z">
+        <seg>将 src 的副本添加到路径中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a copy of src to the path, offset by (dx,dy)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T063846Z" creationid="pingfangx" creationdate="20181221T063846Z">
+        <seg>将 src 的副本添加到路径中，偏移(dx，dy)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a copy of src to the path, transformed by matrix</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T063837Z" creationid="pingfangx" creationdate="20181221T063837Z">
+        <seg>将 src 的副本添加到路径中，由矩阵转换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a cubic bezier from the last point, approaching control points (x1,y1) and (x2,y2), and ending at (x3,y3).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065024Z" creationid="pingfangx" creationdate="20181221T065024Z">
+        <seg>从最后一点添加一个三次贝塞尔曲线，接近控制点(x1，y1)和(x2，y2)，并以(x3，y3)结束。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a line from the last point to the specified point (x,y).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065614Z" creationid="pingfangx" creationdate="20181221T065614Z">
+        <seg>从最后一个点到指定点(x，y)添加一条线。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add a listener that will be notified of any changes in scroll state or position.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>添加一个监听器, 作用是当滚动状态 或者 位置发生变化时得到相应的通知。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a quadratic bezier from the last point, approaching control point (x1,y1), and ending at (x2,y2).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065155Z" creationid="pingfangx" creationdate="20181221T065155Z">
+        <seg>从最后一个点添加二次贝塞尔曲线，接近控制点(x1，y1)，并以(x2，y2)结束。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5779,6 +5867,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Add me to the mailing list for the monthly newsletter and occasional emails about development and Google Play opportunities.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add the specified arc to the path as a new contour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T063808Z" creationid="pingfangx" creationdate="20181221T063808Z">
+        <seg>将指定的弧添加到路径中作为新轮廓。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6891,6 +6987,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071851Z" creationid="pingfangx" creationdate="20180925T071851Z">
         <seg>应用程序启动可以在三种状态之一中进行，每种状态都会影响应用程序对用户可见所需的时间：冷启动（cold start），温启动（warm start）或热启动（hot start）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Append the specified arc to the path as a new contour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T064948Z" creationid="pingfangx" creationdate="20181221T064948Z">
+        <seg>将指定的弧作为新轮廓附加到路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8463,6 +8567,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Clear any lines and curves from the path, making it empty.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065215Z" creationid="pingfangx" creationdate="20181221T065215Z">
+        <seg>清除路径中的所有线条和曲线，使其变空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clears the span index cache.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8507,6 +8619,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>点击 view 选择它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Close the current contour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065513Z" creationid="pingfangx" creationdate="20181221T065513Z">
+        <seg>闭合当前轮廓。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8619,6 +8739,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070529Z" creationid="pingfangx" creationdate="20180919T070529Z">
         <seg>计算将保持原始 src 宽高比的比例，但也将确保 src 完全适合 dst。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compute the bounds of the control points of the path, and write the answer into bounds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065001Z" creationid="pingfangx" creationdate="20181221T065001Z">
+        <seg>计算路径控制点的边界，并将答案写入边界。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9191,6 +9319,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a new path, copying the contents from the src path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T033921Z" creationid="pingfangx" creationdate="20181221T033921Z">
+        <seg>创建一个新路径，从 src 路径复制内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a shader that draws a linear gradient along a line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100350Z" creationid="pingfangx" creationdate="20180427T100350Z">
@@ -9203,6 +9339,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T100811Z" creationid="pingfangx" creationdate="20180427T100811Z">
         <seg>创建一个着色器，以给定中心和半径绘制径向渐变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create an empty path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T033848Z" creationid="pingfangx" creationdate="20181221T033848Z">
+        <seg>创建一个空路径</seg>
       </tuv>
     </tu>
     <tu>
@@ -10775,6 +10919,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enum for the ways a path may be filled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T033837Z" creationid="pingfangx" creationdate="20181221T033837Z">
+        <seg>填充路径的方式的枚举。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enum values</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100408Z" creationid="pingfangx" creationdate="20180408T100408Z">
@@ -10979,6 +11131,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exclusive-or the two paths.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T073450Z" creationid="pingfangx" creationdate="20181221T073341Z">
+        <seg>异或，exclusive-or 两条路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12519,6 +12679,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hint to the path to prepare for adding more points.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065035Z" creationid="pingfangx" creationdate="20181221T065035Z">
+        <seg>提示准备添加更多点的路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Home</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13179,6 +13347,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果内容不适应该区域，图片将会被拉伸以便适应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the current point is not equal to the first point of the contour, a line segment is automatically added.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065701Z" creationid="pingfangx" creationdate="20181221T065701Z">
+        <seg>如果当前点不等于轮廓的第一个点，则自动添加线段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15023,6 +15199,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intersect the two paths.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T073423Z" creationid="pingfangx" creationdate="20181221T073046Z">
+        <seg>交集，两条路径相交。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Invalid data coming from any untrusted source (including any file on shared storage, or data coming through just about any network connection) is considered expected and should not trigger any logging at a level higher than DEBUG when it's detected to be invalid (and even then logging should be as limited as possible).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15083,6 +15267,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在捕获异常时，开发者可能会为了偷懒而倾向于采用以下处理方式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can be drawn with canvas.drawPath(path, paint), either filled or stroked (based on the paint's Style), or it can be used for clipping or to draw text on a path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T033617Z" creationid="pingfangx" creationdate="20181221T033617Z">
+        <seg>它可以使用 canvas.drawPath(path, paint) 绘制，填充或描边(基于 paint 的样式)，或者它可以用于裁剪或在路径上绘制文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16535,6 +16727,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Offset the path by (dx,dy)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065121Z" creationid="pingfangx" creationdate="20181221T065121Z">
+        <seg>将路径偏移(dx,dy)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Often, there are opportunities to optimize this work to achieve performance improvements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083305Z" creationid="pingfangx" creationdate="20180925T083305Z">
@@ -17543,6 +17743,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Replace the contents of this with the contents of src.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065225Z" creationid="pingfangx" creationdate="20181221T065225Z">
+        <seg>用 src 的内容替换它的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Replaces every subsequence of the input sequence that matches the pattern with the given replacement string.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18047,6 +18255,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the path's fill type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065028Z" creationid="pingfangx" creationdate="20181221T065028Z">
+        <seg>返回路径的填充类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the red component of a color int.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064926Z" creationid="pingfangx" creationdate="20180903T064926Z">
@@ -18487,6 +18703,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the path's convexity, as defined by the content of the path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065042Z" creationid="pingfangx" creationdate="20181221T065042Z">
+        <seg>返回路径内容定义的路径凸度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the pattern that is interpreted by this matcher.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18671,6 +18895,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns true if the filltype is one of the INVERSE variants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065055Z" creationid="pingfangx" creationdate="20181221T065055Z">
+        <seg>如果 filltype 是 INVERSE 变体之一，则返回 true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns true if the path is empty (contains no lines or curves)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065048Z" creationid="pingfangx" creationdate="20181221T065048Z">
+        <seg>如果路径为空(不包含行或曲线)，则返回 true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns true if the path specifies a rectangle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065058Z" creationid="pingfangx" creationdate="20181221T065058Z">
+        <seg>如果路径指定矩形，则返回 true。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns true if the specified object represents an annotation that is logically equivalent to this one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18751,6 +18999,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rewinds the path: clears any lines and curves from the path but keeps the internal data structure for faster reuse.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065221Z" creationid="pingfangx" creationdate="20181221T065221Z">
+        <seg>回退路径：清除路径中的所有行和曲线，但保留内部数据结构以便更快地重用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Right click on a WebP image in the Android Studio, then click &lt;s0&gt;Convert to PNG&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073654Z" creationid="pingfangx" creationdate="20181220T073654Z">
@@ -18787,6 +19043,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070648Z" creationid="pingfangx" creationdate="20180919T070648Z">
         <seg>START 将结果与 dst 的左边和上边对齐。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Same as &lt;c0&gt;&lt;a1&gt;EVEN_ODD&lt;/a1&gt;&lt;/c0&gt;, but draws outside of the path, rather than inside.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T070332Z" creationid="pingfangx" creationdate="20181221T070332Z">
+        <seg>与 &lt;c0&gt;&lt;a1&gt;EVEN_ODD&lt;/a1&gt;&lt;/c0&gt; 相同，但是在路径之外而不是在内部。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Same as &lt;c0&gt;&lt;a1&gt;WINDING&lt;/a1&gt;&lt;/c0&gt;, but draws outside of the path, rather than inside.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T070338Z" creationid="pingfangx" creationdate="20181221T070338Z">
+        <seg>与 &lt;c0&gt;&lt;a1&gt;WINDING&lt;/a1&gt;&lt;/c0&gt; 相同，但是在路径之外而不是在内部。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Same as cubicTo, but the coordinates are considered relative to the current point on this contour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065201Z" creationid="pingfangx" creationdate="20181221T065201Z">
+        <seg>与 cubicTo 相同，但坐标被认为是相对于此轮廓上的当前点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Same as lineTo, but the coordinates are considered relative to the last point on this contour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065205Z" creationid="pingfangx" creationdate="20181221T065205Z">
+        <seg>与 lineTo 相同，但坐标被认为是相对于此轮廓上的最后一个点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Same as quadTo, but the coordinates are considered relative to the last point on this contour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065212Z" creationid="pingfangx" creationdate="20181221T065212Z">
+        <seg>与 quadTo 相同，但坐标被认为是相对于此轮廓上的最后一个点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19183,6 +19479,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the beginning of the next contour relative to the last point on the previous contour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065208Z" creationid="pingfangx" creationdate="20181221T065208Z">
+        <seg>设置下一个轮廓相对于上一个轮廓上最后一个点的开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the beginning of the next contour to the point (x,y).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065106Z" creationid="pingfangx" creationdate="20181221T065106Z">
+        <seg>将下一个轮廓的开头设置为点(x，y)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the element's "android:resource" attribute to &lt;c6&gt;@xml/file_paths&lt;/c6&gt; (notice that you don't specify the &lt;c7&gt;.xml&lt;/c7&gt; extension).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19239,6 +19551,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the path's fill type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065228Z" creationid="pingfangx" creationdate="20181221T065228Z">
+        <seg>设置路径的填充类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the scrolled position of your view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19259,6 +19579,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074724Z" creationid="pingfangx" creationdate="20180921T074724Z">
         <seg>使用 sampleSize 设置目标大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set this path to the result of applying the Op to the two specified paths.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065136Z" creationid="pingfangx" creationdate="20181221T065136Z">
+        <seg>将此路径设置为将 Op 应用于两个指定路径的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set this path to the result of applying the Op to this path and the specified path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065148Z" creationid="pingfangx" creationdate="20181221T065148Z">
+        <seg>将此路径设置为将 Op 应用于此路径和指定路径的结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19339,6 +19675,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>设置 view 的高度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the last point of the path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065232Z" creationid="pingfangx" creationdate="20181221T065232Z">
+        <seg>设置路径的最后一个点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19695,6 +20039,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifies how closed shapes (e.g.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T033818Z" creationid="pingfangx" creationdate="20181221T033818Z">
+        <seg>指定闭合形状的方式（例如。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies how closed shapes (e.g. rects, ovals) are oriented when they are added to a path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T070041Z" creationid="pingfangx" creationdate="20181221T070041Z">
+        <seg>指定将闭合形状(例如，rects，ovals)添加到路径时的方向。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies that "inside" is computed by a non-zero sum of signed edge crossings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T071704Z" creationid="pingfangx" creationdate="20181221T070355Z">
+        <seg>指定 "inside" 由带符号的边交叉的非零和计算（非零环绕数规则(Nonzero-rule)）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies that "inside" is computed by an odd number of edge crossings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T071656Z" creationid="pingfangx" creationdate="20181221T070319Z">
+        <seg>指定 "内部" 由交叉边的奇数计算（奇偶规则(Even–odd rule)）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specifies that the given permission is required for read operations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20027,6 +20403,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果项目的位置可以更改，子类应该覆盖此方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Subtract the first path from the second path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T073426Z" creationid="pingfangx" creationdate="20181221T073057Z">
+        <seg>差集，从第二条路径中减去第一条路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Subtract the second path from the first path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T073418Z" creationid="pingfangx" creationdate="20181221T073043Z">
+        <seg>差集，从第一个路径中减去第二个路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20603,6 +20995,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>该 LabelView 示例展示了几个自定义组件不同的方面：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Path class encapsulates compound (multiple contour) geometric paths consisting of straight line segments, quadratic curves, and cubic curves.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T032303Z" creationid="pingfangx" creationdate="20181221T032303Z">
+        <seg>Path 类封装了由直线段，二次曲线和三次曲线组成的复合(多个轮廓)几何路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21507,6 +21907,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>日志记录工具提供以下 5 种不同级别的日志记录：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The logical operations that can be performed when combining two paths.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T033845Z" creationid="pingfangx" creationdate="20181221T033845Z">
+        <seg>组合两个路径时​​可以执行的逻辑操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24632,6 +25040,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Toggles the INVERSE state of the filltype</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065426Z" creationid="pingfangx" creationdate="20181221T065426Z">
+        <seg>切换 filltype 的 INVERSE 状态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tools</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24652,6 +25068,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Training</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Transform the points in this path by matrix, and write the answer into dst.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065238Z" creationid="pingfangx" creationdate="20181221T065238Z">
+        <seg>通过矩阵转换此路径中的点，并将答案写入 dst。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Transform the points in this path by matrix.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065430Z" creationid="pingfangx" creationdate="20181221T065430Z">
+        <seg>通过矩阵转换此路径中的点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24836,6 +25268,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>不幸的是，一些恶意的应用会尝试隐藏 view 的意图，让用户未察觉地哄骗用户执行这些操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Union (inclusive-or) the two paths.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T073441Z" creationid="pingfangx" creationdate="20181221T073119Z">
+        <seg>并集，合并 (inclusive-or) 两条路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28896,6 +29336,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>clockwise</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T070049Z" creationid="pingfangx" creationdate="20181221T070049Z">
+        <seg>顺时针</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>com.android.internal.backup</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -28940,6 +29388,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>com.android.test.runner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>counter-clockwise</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T070045Z" creationid="pingfangx" creationdate="20181221T070045Z">
+        <seg>逆时针</seg>
       </tuv>
     </tu>
     <tu>
