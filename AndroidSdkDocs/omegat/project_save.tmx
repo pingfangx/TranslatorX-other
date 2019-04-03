@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.4" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.5" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -66,6 +66,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>(注意在 LabelView 中，真正起作用的是私有的 &lt;c1&gt;measureWidth()&lt;/c1&gt; 方法。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(Note that you should avoid using &lt;c16&gt;&lt;a17&gt;SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION&lt;/a17&gt;&lt;/c16&gt; by itself.) If you have set the window flag &lt;c18&gt;&lt;a19&gt;FLAG_FULLSCREEN&lt;/a19&gt;&lt;/c18&gt; to hide the status bar (instead of using &lt;c20&gt;&lt;a21&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a21&gt;&lt;/c20&gt;), then a hidden status bar will be considered a "stable" state for purposes here.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101301Z" creationid="pingfangx" creationdate="20190215T101301Z">
+        <seg>(请注意，您应该避免单独使用 &lt;c16&gt;&lt;a17&gt;SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION&lt;/a17&gt;&lt;/c16&gt;。)如果您已将窗口标志 &lt;c18&gt;&lt;a19&gt;FLAG_FULLSCREEN&lt;/a19&gt;&lt;/c18&gt; 设置为隐藏状态栏(而不是使用 &lt;c20&gt;&lt;a21&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a21&gt;&lt;/c20&gt;)，然后隐藏状态栏将被视为 "稳定" 状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3925,6 +3933,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;MotionEvent&lt;/c0&gt;: The motion event being dispatched down the hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T095544Z" creationid="pingfangx" creationdate="20190404T095544Z">
+        <seg>&lt;c0&gt;MotionEvent&lt;/c0&gt;：在层次结构中分发的动作事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;MotionEvent&lt;/c0&gt;: The motion event.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090731Z" creationid="pingfangx" creationdate="20190404T090731Z">
+        <seg>&lt;c0&gt;MotionEvent&lt;/c0&gt;：动作事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;OutputStream&lt;/c0&gt;: The outputstream to write the compressed data.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T095221Z" creationid="pingfangx" creationdate="20180408T095221Z">
@@ -4113,6 +4137,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060059Z" creationid="pingfangx" creationdate="20181220T060059Z">
         <seg>&lt;c0&gt;assets/&lt;/c0&gt;：包含应用程序的资源，应用程序可以使用 &lt;c1&gt;&lt;a2&gt;AssetManager&lt;/a2&gt;&lt;/c1&gt; 对象获取该资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;boolean&lt;/c0&gt;: If true, then the default implementation of &lt;c1&gt;&lt;a2&gt;fitSystemWindows(Rect)&lt;/a2&gt;&lt;/c1&gt; will be executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190217T043936Z" creationid="pingfangx" creationdate="20190217T043936Z">
+        <seg>&lt;c0&gt;boolean&lt;/c0&gt;：如果为 true，则执行 &lt;c1&gt;&lt;a2&gt;fitSystemWindows(Rect)&lt;/a2&gt;&lt;/c1&gt; 的默认实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5341,6 +5373,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A common example would be in an e-book reader, where tapping on the screen brings back whatever screen and UI decorations that had been hidden while the user was immersed in reading the book.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T091726Z" creationid="pingfangx" creationdate="20190216T091726Z">
+        <seg>一个常见的例子是在电子书阅读器中，点击屏幕会带回用户沉浸在阅读书籍时隐藏的任​​何屏幕和 UI 装饰。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A common pattern is to:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5887,10 +5927,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Added in &lt;a0&gt;API level 16&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101549Z" creationid="pingfangx" creationdate="20190215T101549Z">
+        <seg>添加于 &lt;a0&gt;API level 16&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Added in &lt;a0&gt;API level 1&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095145Z" creationid="pingfangx" creationdate="20180427T095128Z">
         <seg>添加于 &lt;a0&gt;API level 1&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Added in &lt;a0&gt;API level 23&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101711Z" creationid="pingfangx" creationdate="20190215T101711Z">
+        <seg>添加于 &lt;a0&gt;API level 23&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6299,6 +6355,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>另请参阅 &lt;c0&gt;&lt;a1&gt;ConstraintLayout.LayoutParams&lt;/a1&gt;&lt;/c0&gt; 的布局属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also, by returning true from onTouchEvent(), you will not receive any following events in onInterceptTouchEvent() and all touch processing must happen in onTouchEvent() like normal.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T095236Z" creationid="pingfangx" creationdate="20190404T095236Z">
+        <seg>此外，通过从 onTouchEvent() 返回 true，您将不会在 onInterceptTouchEvent() 中收到任何后续事件，并且所有触摸必须像正常一样在 onTouchEvent() 中处理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9071,6 +9135,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Convenience function to set the flag bits as specified in flags, as per &lt;c0&gt;&lt;a1&gt;setFlags(int, int)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T085441Z" creationid="pingfangx" creationdate="20190216T085441Z">
+        <seg>根据 &lt;c0&gt;&lt;a1&gt;setFlags(int, int)&lt;/a1&gt;&lt;/c0&gt; 设置 flags 中指定的标志位的便捷函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Convenience method to scroll to a certain position.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10991,6 +11063,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Events will be received in the following order:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T092416Z" creationid="pingfangx" creationdate="20190404T092416Z">
+        <seg>事件将按以下顺序接收：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every class and nontrivial public method you write &lt;e0&gt;must&lt;/e0&gt; contain a Javadoc comment with at least one sentence describing what the class or method does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11327,6 +11407,78 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flag for &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt;: Requests the status bar to draw in a mode that is compatible with light status bar backgrounds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101636Z" creationid="pingfangx" creationdate="20190215T101636Z">
+        <seg>用于 &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt; 的标志：请求状态栏以与亮色状态栏背景兼容的模式进行绘制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flag for &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt;: View has requested that the system navigation be temporarily hidden.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103251Z" creationid="pingfangx" creationdate="20190219T103251Z">
+        <seg>用于 &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt; 的标志：View 已请求暂时隐藏系统导航。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flag for &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt;: View has requested to go into the normal fullscreen mode so that its content can take over the screen while still allowing the user to interact with the application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T091149Z" creationid="pingfangx" creationdate="20190216T091149Z">
+        <seg>用于 &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt; 的标志：View 已请求进入正常的全屏模式，以便其内容可以接管屏幕，同时仍允许用户与应用程序进行交互。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flag for &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt;: View would like its window to be laid out as if it has requested &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a3&gt;&lt;/c2&gt;, even if it currently hasn't.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T104117Z" creationid="pingfangx" creationdate="20190219T104117Z">
+        <seg>用于 &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt; 的标志：view 要将其窗口布局，就好像它已请求 &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a3&gt;&lt;/c2&gt; ，即使它目前还没有。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flag for &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt;: View would like its window to be laid out as if it has requested &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a3&gt;&lt;/c2&gt;, even if it currently hasn't.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T104335Z" creationid="pingfangx" creationdate="20190216T092416Z">
+        <seg>用于 &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt; 的标志：view 会将其窗口布局为就好像它已请求 &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a3&gt;&lt;/c2&gt; 一样，即使它目前还没有。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flag for &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt;: View would like to remain interactive when hiding the navigation bar with &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103729Z" creationid="pingfangx" creationdate="20190219T103729Z">
+        <seg>用于 &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt; 的标志：使用 &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a3&gt;&lt;/c2&gt; 隐藏导航栏时，view 希望保持交互状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flag for &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt;: View would like to remain interactive when hiding the status bar with &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a3&gt;&lt;/c2&gt; and/or hiding the navigation bar with &lt;c4&gt;&lt;a5&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103846Z" creationid="pingfangx" creationdate="20190219T103846Z">
+        <seg>用于 &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt; 的标志：使用 &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a3&gt;&lt;/c2&gt; 隐藏状态栏时，view 希望保持交互状态和/或使用 &lt;c4&gt;&lt;a5&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a5&gt;&lt;/c4&gt; 隐藏导航栏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flag for &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt;: When using other layout flags, we would like a stable view of the content insets given to &lt;c2&gt;&lt;a3&gt;fitSystemWindows(Rect)&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T100735Z" creationid="pingfangx" creationdate="20190215T100735Z">
+        <seg>用于 &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt; 的标志：当使用其他布局标志时，我们希望一个稳定的 view，其内容 insets 由 &lt;c2&gt;&lt;a3&gt;fitSystemWindows(Rect)&lt;/a3&gt;&lt;/c2&gt; 给定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flag indicating that this Window is responsible for drawing the background for the system bars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T094937Z" creationid="pingfangx" creationdate="20190215T094937Z">
+        <seg>指示此窗口负责绘制系统栏背景的标志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flag to indicate that cancel has been called on this object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102446Z" creationid="pingfangx" creationdate="20180408T102446Z">
@@ -11459,6 +11611,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T085057Z" creationid="pingfangx" creationdate="20180921T085057Z">
         <seg>对于动画图像，将立即记录在 &lt;c0&gt;&lt;a1&gt;Canvas&lt;/a1&gt;&lt;/c0&gt; 上绘制的绘图命令，然后应用于每个帧。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For as long as you return false from this function, each following event (up to and including the final up) will be delivered first here and then to the target's onTouchEvent().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T095350Z" creationid="pingfangx" creationdate="20190404T095350Z">
+        <seg>只要您从这个函数返回 false，每个后续事件(直到并包括最后一个 up)将首先在这里传递，然后传递到目标的 onTouchEvent()。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12095,6 +12255,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For situations where the application would like to simply stay full screen the entire time (such as a game that wants to take over the screen), the &lt;c0&gt;&lt;a1&gt;window flag&lt;/a1&gt;&lt;/c0&gt; is usually a better approach.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T091426Z" creationid="pingfangx" creationdate="20190216T091426Z">
+        <seg>对于应用程序希望在整个时间内完全保持全屏的情况(例如想要接管屏幕的游戏)，&lt;c0&gt;&lt;a1&gt;window flag&lt;/a1&gt;&lt;/c0&gt; 通常是更好做法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the NotePad sample, overriding the &lt;c0&gt;onDraw()&lt;/c0&gt; method allows us to paint the blue lines on the &lt;c1&gt;EditText&lt;/c1&gt; view canvas (the canvas is passed into the overridden &lt;c2&gt;onDraw()&lt;/c2&gt; method).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -12147,6 +12315,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041515Z" creationid="pingfangx" creationdate="20181205T041515Z">
         <seg>对于此示例，重写 &lt;c0&gt;onDraw()&lt;/c0&gt; 方法允许我们在 &lt;c1&gt;EditText&lt;/c1&gt; 视图画布上绘制蓝线（画布将传递到重写的 &lt;c2&gt;onDraw()&lt;/c2&gt; 方法）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this to take effect, the window must be drawing the system bar backgrounds with &lt;c1&gt;&lt;a2&gt;WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS&lt;/a2&gt;&lt;/c1&gt; and &lt;c3&gt;&lt;a4&gt;WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS&lt;/a4&gt;&lt;/c3&gt; must not be set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190214T063927Z" creationid="pingfangx" creationdate="20190214T063927Z">
+        <seg>要使此操作生效，窗口必须使用 &lt;c1&gt;&lt;a2&gt;WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS&lt;/a2&gt;&lt;/c1&gt; 来绘制系统栏背景，并且不得设置 &lt;c3&gt;&lt;a4&gt;WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS&lt;/a4&gt;&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this to take effect, the window must request &lt;c0&gt;&lt;a1&gt;FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS&lt;/a1&gt;&lt;/c0&gt; but not &lt;c2&gt;&lt;a3&gt;FLAG_TRANSLUCENT_STATUS&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101645Z" creationid="pingfangx" creationdate="20190215T101645Z">
+        <seg>要使此操作生效，窗口必须请求 &lt;c0&gt;&lt;a1&gt;FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS&lt;/a1&gt;&lt;/c0&gt;，但不能请求 &lt;c2&gt;&lt;a3&gt;FLAG_TRANSLUCENT_STATUS&lt;/a3&gt;&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12919,6 +13103,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;c5&gt;color&lt;/c5&gt; is not opaque, consider setting &lt;c6&gt;&lt;a7&gt;View.SYSTEM_UI_FLAG_LAYOUT_STABLE&lt;/a7&gt;&lt;/c6&gt; and &lt;c8&gt;&lt;a9&gt;View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN&lt;/a9&gt;&lt;/c8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190214T063941Z" creationid="pingfangx" creationdate="20190214T063941Z">
+        <seg>如果 &lt;c5&gt;color&lt;/c5&gt; 不透明，请考虑设置 &lt;c6&gt;&lt;a7&gt;View.SYSTEM_UI_FLAG_LAYOUT_STABLE&lt;/a7&gt;&lt;/c6&gt; 和 &lt;c8&gt;&lt;a9&gt;View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN&lt;/a9&gt;&lt;/c8&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;c6&gt;&lt;a7&gt;onPartialImage&lt;/a7&gt;&lt;/c6&gt; returns &lt;c8&gt;true&lt;/c8&gt;, a partial image will be created.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T035620Z" creationid="pingfangx" creationdate="20180925T035620Z">
@@ -13227,6 +13419,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101842Z" creationid="pingfangx" creationdate="20180408T101842Z">
         <seg>如果设置，解码方法将始终返回一个可变的位图而不是不可变的位图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, the system bars are drawn with a transparent background and the corresponding areas in this window are filled with the colors specified in &lt;c0&gt;&lt;a1&gt;Window.getStatusBarColor()&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;Window.getNavigationBarColor()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T095110Z" creationid="pingfangx" creationdate="20190215T095110Z">
+        <seg>如果设置，系统条将以透明背景绘制，并且此窗口中的相应区域将填充 &lt;c0&gt;&lt;a1&gt;Window.getStatusBarColor()&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;Window.getNavigationBarColor()&lt;/a3&gt;&lt;/c2&gt; 指定的颜色。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13551,6 +13751,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If this flag is not set, &lt;c4&gt;&lt;a5&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a5&gt;&lt;/c4&gt; will be force cleared by the system on any user interaction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103743Z" creationid="pingfangx" creationdate="20190219T103743Z">
+        <seg>如果未设置此标志，系统将在任何用户交互时强制清除 &lt;c4&gt;&lt;a5&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a5&gt;&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this flag is not set, &lt;c6&gt;&lt;a7&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a7&gt;&lt;/c6&gt; will be force cleared by the system on any user interaction, and &lt;c8&gt;&lt;a9&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a9&gt;&lt;/c8&gt; will be force-cleared by the system if the user swipes from the top of the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103922Z" creationid="pingfangx" creationdate="20190219T103922Z">
+        <seg>如果未设置此标志，系统将在任何用户交互时强制清除 &lt;c6&gt;&lt;a7&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a7&gt;&lt;/c6&gt;，并且如果用户从屏幕顶部滑动，系统将强制清除 &lt;c8&gt;&lt;a9&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a9&gt;&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If this is 0, &lt;c0&gt;&lt;a1&gt;decodeResource(Resources, int)&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;decodeResource(Resources, int, android.graphics.BitmapFactory.Options)&lt;/a3&gt;&lt;/c2&gt;, and &lt;c4&gt;&lt;a5&gt;decodeResourceStream(Resources, TypedValue, InputStream, Rect, BitmapFactory.Options)&lt;/a5&gt;&lt;/c4&gt; will fill in the density associated with the resource.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103103Z" creationid="pingfangx" creationdate="20180408T103103Z">
@@ -13603,6 +13819,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果重写了这个方法，子类要确保测量出的宽高，最小要为 view 的最小宽高(&lt;c0&gt;&lt;a1&gt;getSuggestedMinimumHeight()&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;getSuggestedMinimumWidth()&lt;/a3&gt;&lt;/c2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this method is used to detect click actions, it is recommended that the actions be performed by implementing and calling &lt;c0&gt;&lt;a1&gt;performClick()&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090506Z" creationid="pingfangx" creationdate="20190404T090506Z">
+        <seg>如果使用此方法检测点击操作，建议通过实现并调用 &lt;c0&gt;&lt;a1&gt;performClick()&lt;/a1&gt;&lt;/c0&gt; 来执行操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13691,6 +13915,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果你正重写 &lt;c2&gt;&lt;a3&gt;getSpanIndex(int, int)&lt;/a3&gt;&lt;/c2&gt;，你应该设置该值为 true 以获得更好的性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are using ActionBar in overlay mode with &lt;c0&gt;&lt;a1&gt;Window.FEATURE_ACTION_BAR_OVERLAY&lt;/a1&gt;&lt;/c0&gt;, this flag will also impact the insets it adds to those given to the application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101510Z" creationid="pingfangx" creationdate="20190215T101510Z">
+        <seg>如果在 overlay 模式下使用 ActionBar 并使用 &lt;c0&gt;&lt;a1&gt;Window.FEATURE_ACTION_BAR_OVERLAY&lt;/a1&gt;&lt;/c0&gt;，则此标志还会影响它添加到给定应用程序的中的 insets。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13843,6 +14075,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T072455Z" creationid="pingfangx" creationdate="20181205T072455Z">
         <seg>如果从 &lt;c8&gt;&lt;a9&gt;onDown()&lt;/a9&gt;&lt;/c8&gt; 返回 &lt;c7&gt;false&lt;/c7&gt;，像 &lt;c10&gt;&lt;a11&gt;GestureDetector.SimpleOnGestureListener&lt;/a11&gt;&lt;/c10&gt; 一样，则系统假定您要忽略手势的其余部分，并且永远不会调用 &lt;c12&gt;&lt;a13&gt;GestureDetector.OnGestureListener&lt;/a13&gt;&lt;/c12&gt; 的其他方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you return true from here, you will not receive any following events: the target view will receive the same event but with the action &lt;c0&gt;&lt;a1&gt;MotionEvent#ACTION_CANCEL&lt;/a1&gt;&lt;/c0&gt;, and all further events will be delivered to your onTouchEvent() method and no longer appear here.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T095518Z" creationid="pingfangx" creationdate="20190404T095518Z">
+        <seg>如果从此处返回 true，则不会收到任何后续事件：目标 view 将接收相同的事件，但操作是 &lt;c0&gt;&lt;a1&gt;MotionEvent#ACTION_CANCEL&lt;/a1&gt;&lt;/c0&gt;，所有其他事件将被传递到您的 onTouchEvent() 方法，不再出现在这里。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14073,8 +14313,8 @@
       <tuv lang="EN-US">
         <seg>Implement this method to intercept all touch screen motion events.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>实现该方法以拦截白发有的触屏事件。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T092110Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>实现此方法以拦截所有触屏动作事件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14771,6 +15011,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071036Z" creationid="pingfangx" creationdate="20181107T071036Z">
         <seg>在同一个应用程序中，创建对话框时会比较 "dialog_exit" ID：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the stock Android UI this is the space for the system bar, nav bar, and status bar, but not more transient elements such as an input method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101013Z" creationid="pingfangx" creationdate="20190215T101013Z">
+        <seg>在 Android UI 中，这是系统栏，导航栏和状态栏的空间，但不是更多的瞬态元素，如输入法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16423,10 +16671,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that changing the window fullscreen flag will never provide a stable layout for a clean transition.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101332Z" creationid="pingfangx" creationdate="20190215T101332Z">
+        <seg>请注意，更改窗口全屏标志永远不会为清洁过渡提供稳定的布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that fail-fast behavior cannot be guaranteed as it is, generally speaking, impossible to make any hard guarantees in the presence of unsynchronized concurrent modification.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>注意，迭代器的快速失败行为无法得到保证，因为一般来说，不可能对是否出现不同步并发修改做出任何硬性保证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that if you are providing your own implementation of &lt;c0&gt;&lt;a1&gt;fitSystemWindows(Rect)&lt;/a1&gt;&lt;/c0&gt;, then there is no need to set this flag to true -- your implementation will be overriding the default implementation that checks this flag.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190217T043827Z" creationid="pingfangx" creationdate="20190217T043827Z">
+        <seg>请注意，如果您提供自己的 &lt;c0&gt;&lt;a1&gt;fitSystemWindows(Rect)&lt;/a1&gt;&lt;/c0&gt; 的实现，则无需将此标志设置为 true  - 您的实现将重写检查这个标志的默认实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16451,6 +16715,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>注意在构建时可知的属性可以设置到 XML 文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that some flags must be set before the window decoration is created (by the first call to &lt;c0&gt;&lt;a1&gt;setContentView(View, android.view.ViewGroup.LayoutParams)&lt;/a1&gt;&lt;/c0&gt; or &lt;c2&gt;&lt;a3&gt;getDecorView()&lt;/a3&gt;&lt;/c2&gt;: &lt;c4&gt;&lt;a5&gt;WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN&lt;/a5&gt;&lt;/c4&gt; and &lt;c6&gt;&lt;a7&gt;WindowManager.LayoutParams.FLAG_LAYOUT_INSET_DECOR&lt;/a7&gt;&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T085956Z" creationid="pingfangx" creationdate="20190216T085956Z">
+        <seg>请注意，一些标志必须在创建窗口修饰之前设置（创建窗口可通过第一次调用 &lt;c0&gt;&lt;a1&gt;setContentView(View, android.view.ViewGroup.LayoutParams)&lt;/a1&gt;&lt;/c0&gt; 或 &lt;c2&gt;&lt;a3&gt;getDecorView()&lt;/a3&gt;&lt;/c2&gt;：&lt;c4&gt;&lt;a5&gt;WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN&lt;/a5&gt;&lt;/c4&gt; 和 &lt;c6&gt;&lt;a7&gt;WindowManager.LayoutParams.FLAG_LAYOUT_INSET_DECOR&lt;/a7&gt;&lt;/c6&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17591,6 +17863,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Related XML Attributes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190217T043918Z" creationid="pingfangx" creationdate="20190217T043918Z">
+        <seg>相关的 XML 属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Relative positioning</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18323,6 +18603,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094010Z" creationid="pingfangx" creationdate="20180427T094010Z">
         <seg>如果 shader 具有非同一的局部矩阵，则返回 true。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return true to steal motion events from the children and have them dispatched to this ViewGroup through onTouchEvent().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T095631Z" creationid="pingfangx" creationdate="20190404T095631Z">
+        <seg>返回 true 以从子节点窃取动作事件，并通过 onTouchEvent() 将它们分派到此 ViewGroup。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19255,6 +19543,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See that method for more details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190217T043749Z" creationid="pingfangx" creationdate="20190217T043749Z">
+        <seg>有关详细信息，请参阅该方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See the GLSurfaceViewActivity sample for details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19503,6 +19799,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the flags of the window, as per the &lt;c0&gt;&lt;a1&gt;WindowManager.LayoutParams&lt;/a1&gt;&lt;/c0&gt; flags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T085854Z" creationid="pingfangx" creationdate="20190216T085854Z">
+        <seg>根据 &lt;c0&gt;&lt;a1&gt;WindowManager.LayoutParams&lt;/a1&gt;&lt;/c0&gt; 标志，设置窗口的标志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the guideline's distance form the top or left edge.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19663,6 +19967,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sets the color of the status bar to &lt;c0&gt;color&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190214T063759Z" creationid="pingfangx" creationdate="20190214T063759Z">
+        <seg>将状态栏的颜色设置为 &lt;c0&gt;color&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sets the gone margin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19723,6 +20035,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>设置 view 的宽度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets whether or not this view should account for system screen decorations such as the status bar and inset its content; that is, controlling whether the default implementation of &lt;c0&gt;&lt;a1&gt;fitSystemWindows(Rect)&lt;/a1&gt;&lt;/c0&gt; will be executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190217T043746Z" creationid="pingfangx" creationdate="20190217T043746Z">
+        <seg>设置此 view 是否应考虑系统屏幕装饰，例如状态栏和其内容的 inset ;也就是说，控制是否执行 &lt;c0&gt;&lt;a1&gt;fitSystemWindows(Rect)&lt;/a1&gt;&lt;/c0&gt; 的默认实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19819,6 +20139,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T083750Z" creationid="pingfangx" creationdate="20180921T083750Z">
         <seg>由于没有 &lt;c0&gt;&lt;a1&gt;OnHeaderDecodedListener&lt;/a1&gt;&lt;/c0&gt;，因此将使用默认设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since this flag is a modifier for &lt;c0&gt;&lt;a1&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a3&gt;&lt;/c2&gt;, it only has an effect when used in combination with one or both of those flags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T104016Z" creationid="pingfangx" creationdate="20190219T104016Z">
+        <seg>由于此标志是 &lt;c0&gt;&lt;a1&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a3&gt;&lt;/c2&gt; 的修饰符，因此仅当与一个或两个标志组合使用时才有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since this flag is a modifier for &lt;c0&gt;&lt;a1&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a1&gt;&lt;/c0&gt;, it only has an effect when used in combination with that flag.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103812Z" creationid="pingfangx" creationdate="20190219T103812Z">
+        <seg>由于此标志是 &lt;c0&gt;&lt;a1&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a1&gt;&lt;/c0&gt; 的修饰符，因此仅在与该标志组合使用时才有效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20027,6 +20363,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在 topId 和 bottomId 的 view 间垂直放置一组部件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Special constant for &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt;: View has requested the system UI (status bar) to be visible (the default).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T090602Z" creationid="pingfangx" creationdate="20190216T090602Z">
+        <seg>用于 &lt;c0&gt;&lt;a1&gt;setSystemUiVisibility(int)&lt;/a1&gt;&lt;/c0&gt; 的特殊常量值： View 请求系统 UI(状态栏)可见(默认值)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20595,6 +20939,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>用于诊断难以重现的问题的临时日志记录应采用 DEBUG 或 VERBOSE 级别，并且应当包裹在 if 块中，以便在编译期间将其完全停用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That is, if you specify &lt;c4&gt;&lt;a5&gt;SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN&lt;/a5&gt;&lt;/c4&gt; then you will get a stable layout for changes of the &lt;c6&gt;&lt;a7&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a7&gt;&lt;/c6&gt; mode; if you specify &lt;c8&gt;&lt;a9&gt;SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN&lt;/a9&gt;&lt;/c8&gt; and &lt;c10&gt;&lt;a11&gt;SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION&lt;/a11&gt;&lt;/c10&gt;, then you can transition to &lt;c12&gt;&lt;a13&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a13&gt;&lt;/c12&gt; and &lt;c14&gt;&lt;a15&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a15&gt;&lt;/c14&gt; with a stable layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101232Z" creationid="pingfangx" creationdate="20190215T101232Z">
+        <seg>也就是说，如果您指定 &lt;c4&gt;&lt;a5&gt;SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN&lt;/a5&gt;&lt;/c4&gt;，那么您将获得更改 &lt;c6&gt;&lt;a7&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a7&gt;&lt;/c6&gt; 模式的稳定布局;如果指定 &lt;c8&gt;&lt;a9&gt;SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN&lt;/a9&gt;&lt;/c8&gt; 和 &lt;c10&gt;&lt;a11&gt;SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION&lt;/a11&gt;&lt;/c10&gt;，则可以转换为 &lt;c12&gt;&lt;a13&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a13&gt;&lt;/c12&gt; 和 &lt;c14&gt;&lt;a15&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/a15&gt;&lt;/c14&gt; 的稳定布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21335,6 +21687,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The current target will receive an ACTION_CANCEL event, and no further messages will be delivered here.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T095647Z" creationid="pingfangx" creationdate="20190404T095647Z">
+        <seg>当前目标将收到 ACTION_CANCEL 事件，此处不会再传递任何消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The custom View is defined in the &lt;a1&gt;LabelView&lt;/a1&gt; class.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21459,6 +21819,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060940Z" creationid="pingfangx" creationdate="20180510T060940Z">
         <seg>以下每个单独的 alpha 合成或混合模式的文档提供了用于计算源和目标的合成结果的 alpha 值和颜色值的确切公式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The down event will be handled either by a child of this view group, or given to your own onTouchEvent() method to handle; this means you should implement onTouchEvent() to return true, so you will continue to see the rest of the gesture (instead of looking for a parent view to handle it).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T095015Z" creationid="pingfangx" creationdate="20190404T095015Z">
+        <seg>down 事件将由此 view group 的一个 child 处理，或者由您自己的 onTouchEvent() 方法处理；这意味着您应该实现 onTouchEvent() 以返回 true，这样您将继续看到手势的其余部分(而不是寻找 parent view 来处理它)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22623,10 +22991,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The stable layout your UI sees is based on the system UI modes you can switch to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101100Z" creationid="pingfangx" creationdate="20190215T101100Z">
+        <seg>UI 看到的稳定布局基于您可以切换到的系统 UI 模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The start margin to use when the target is gone.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当目标 gone 时使用的 start margin。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The state set here will be removed by the system in various situations (such as the user moving to another application) like the other system UI states.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T091640Z" creationid="pingfangx" creationdate="20190216T091640Z">
+        <seg>系统将在各种情况下(例如用户移动到另一个应用程序)移除此处设置的状态，就像其他系统 UI 状态一样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22731,6 +23115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>触摸状态是跨 &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt; 的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The transitionName for the view background will be "android:status:background".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190214T064036Z" creationid="pingfangx" creationdate="20190214T064036Z">
+        <seg>view 背景的 transitionName 将是 "android:status:background"。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22991,6 +23383,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is a limitation: because navigation controls are so important, the least user interaction will cause them to reappear immediately.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T104744Z" creationid="pingfangx" creationdate="20190219T103554Z">
+        <seg>有一个限制：因为导航控件如此重要，最少的用户交互也将导致它们立即重新出现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is an even easier option for creating a custom View which is useful in certain circumstances.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23239,6 +23639,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These transient system bars will overlay app’s content, may have some degree of transparency, and will automatically hide after a short timeout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103954Z" creationid="pingfangx" creationdate="20190219T103954Z">
+        <seg>这些瞬态系统栏将覆盖应用程序的内容，可能具有一定程度的透明度，并会在短暂超时后自动隐藏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These two positions are the same except the time between dispatching &lt;c0&gt;adapter.notify* &lt;/c0&gt; events and calculating the updated layout.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23259,6 +23667,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这对值可能，但不必须，与测量出的宽高相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These will be set for you based on the &lt;c8&gt;&lt;a9&gt;R.attr.windowIsFloating&lt;/a9&gt;&lt;/c8&gt; attribute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T090007Z" creationid="pingfangx" creationdate="20190216T090007Z">
+        <seg>这些将根据 &lt;c8&gt;&lt;a9&gt;R.attr.windowIsFloating&lt;/a9&gt;&lt;/c8&gt; 属性为您设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23311,10 +23727,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This allows it to avoid artifacts when switching in and out of that mode, at the expense that some of its user interface may be covered by screen decorations when they are shown.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T092550Z" creationid="pingfangx" creationdate="20190216T092550Z">
+        <seg>这允许它在切入和退出该模式时避免伪像，代价是它们的一些用户界面在屏幕装饰显示时会被屏幕装饰覆盖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This allows the pager to hold on to much less memory associated with each visited page as compared to &lt;c0&gt;&lt;a1&gt;FragmentPagerAdapter&lt;/a1&gt;&lt;/c0&gt; at the cost of potentially more overhead when switching between pages.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>与 &lt;c0&gt;&lt;a1&gt;FragmentPagerAdapter&lt;/a1&gt;&lt;/c0&gt; 相比，这样就可以使 pager 与每个访问页面相关联的内存占用更少，但在页面之间切换时可能会有更多的开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This allows you to watch events as they are dispatched to your children, and take ownership of the current gesture at any point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T092207Z" creationid="pingfangx" creationdate="20190404T092207Z">
+        <seg>这允许您在将事件发送给 children 时观察事件，并在任何时候获取当前手势的所有权。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This allows your UI to continually hide the status bar, while still using the system UI flags to hide the action bar while still retaining a stable layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101320Z" creationid="pingfangx" creationdate="20190215T101320Z">
+        <seg>这允许您的 UI 不断隐藏状态栏，同时仍然使用系统 UI 标志隐藏操作栏，同时仍保留稳定的布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This approach to going fullscreen is best used over the window flag when it is a transient state -- that is, the application does this at certain points in its user interaction where it wants to allow the user to focus on content, but not as a continuous state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T091624Z" creationid="pingfangx" creationdate="20190216T091352Z">
+        <seg>使腾辉这种全屏显示方法比 window flag 更好，在窗口标记处于瞬态状态时 - 也就是说，应用程序在其用户交互中的某些点处执行此操作，以便允许用户关注内容，但不是连续状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23600,6 +24048,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This flag can be controlled in your theme through the &lt;c0&gt;&lt;a1&gt;R.attr.windowTranslucentStatus&lt;/a1&gt;&lt;/c0&gt; attribute; this attribute is automatically set for you in the standard translucent decor themes such as &lt;c2&gt;&lt;a3&gt;R.style.Theme_Holo_NoActionBar_TranslucentDecor&lt;/a3&gt;&lt;/c2&gt;, &lt;c4&gt;&lt;a5&gt;R.style.Theme_Holo_Light_NoActionBar_TranslucentDecor&lt;/a5&gt;&lt;/c4&gt;, &lt;c6&gt;&lt;a7&gt;R.style.Theme_DeviceDefault_NoActionBar_TranslucentDecor&lt;/a7&gt;&lt;/c6&gt;, and &lt;c8&gt;&lt;a9&gt;R.style.Theme_DeviceDefault_Light_NoActionBar_TranslucentDecor&lt;/a9&gt;&lt;/c8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T095446Z" creationid="pingfangx" creationdate="20190215T095446Z">
+        <seg>可以通过 &lt;c0&gt;&lt;a1&gt;R.attr.windowTranslucentStatus&lt;/a1&gt;&lt;/c0&gt; 属性在主题中控制此标志;此属性将在标准半透明装饰主题中自动设置，例如 &lt;c2&gt;&lt;a3&gt;R.style.Theme_Holo_NoActionBar_TranslucentDecor&lt;/a3&gt;&lt;/c2&gt;，&lt;c4&gt;&lt;a5&gt;R.style.Theme_Holo_Light_NoActionBar_TranslucentDecor&lt;/a5&gt;&lt;/c4&gt;，&lt;c6&gt;&lt;a7&gt;R.style.Theme_DeviceDefault_NoActionBar_TranslucentDecor&lt;/a7&gt;&lt;/c6&gt; 和 &lt;c8&gt;&lt;a9&gt;R.style.Theme_DeviceDefault_Light_NoActionBar_TranslucentDecor&lt;/a9&gt;&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This gesture makes sense if the UI responds by moving quickly in the direction of the fling, then slowing down, as if the user had pushed on a flywheel and set it spinning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073124Z" creationid="pingfangx" creationdate="20181205T073124Z">
@@ -23628,6 +24084,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090533Z" creationid="pingfangx" creationdate="20180921T090533Z">
         <seg>这与使用基于 &lt;c2&gt;sampleSize&lt;/c2&gt; 的维度调用 &lt;c0&gt;&lt;a1&gt;setTargetSize(int, int)&lt;/a1&gt;&lt;/c0&gt; 的效果相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This has the same visual effect as &lt;c0&gt;&lt;a1&gt;WindowManager.LayoutParams.FLAG_FULLSCREEN&lt;/a1&gt;&lt;/c0&gt;, meaning that non-critical screen decorations (such as the status bar) will be hidden while the user is in the View's window, focusing the experience on that content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T091251Z" creationid="pingfangx" creationdate="20190216T091251Z">
+        <seg>这与 &lt;c0&gt;&lt;a1&gt;WindowManager.LayoutParams.FLAG_FULLSCREEN&lt;/a1&gt;&lt;/c0&gt; 具有相同的视觉效果，这意味着当用户进入 View 的窗口时，将隐藏非关键屏幕装饰(例如状态栏)，重点关注该内容的体验。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23708,6 +24172,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这是一个实用的类，可用来给 RecyclerView 添加滑动关闭和拖拽的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is an even less obtrusive state than that called for by &lt;c0&gt;&lt;a1&gt;SYSTEM_UI_FLAG_LOW_PROFILE&lt;/a1&gt;&lt;/c0&gt;; on devices that draw essential navigation controls (Home, Back, and the like) on screen, &lt;c2&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/c2&gt; will cause those to disappear.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T104608Z" creationid="pingfangx" creationdate="20190219T103357Z">
+        <seg>这是一个比 &lt;c0&gt;&lt;a1&gt;SYSTEM_UI_FLAG_LOW_PROFILE&lt;/a1&gt;&lt;/c0&gt; 所要求的更不突兀的状态；在屏幕上绘制基本导航控件(Home，Back 等)的设备上，&lt;c2&gt;SYSTEM_UI_FLAG_HIDE_NAVIGATION&lt;/c2&gt; 将导致这些控件消失。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23920,6 +24392,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is useful (in conjunction with the &lt;c3&gt;&lt;a4&gt;FLAG_FULLSCREEN&lt;/a4&gt;&lt;/c3&gt; and &lt;c5&gt;&lt;a6&gt;FLAG_LAYOUT_IN_SCREEN&lt;/a6&gt;&lt;/c5&gt; window flags) for displaying content using every last pixel on the display.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103532Z" creationid="pingfangx" creationdate="20190219T103532Z">
+        <seg>这很有用(与 &lt;c3&gt;&lt;a4&gt;FLAG_FULLSCREEN&lt;/a4&gt;&lt;/c3&gt; 和 &lt;c5&gt;&lt;a6&gt;FLAG_LAYOUT_IN_SCREEN&lt;/a6&gt;&lt;/c5&gt; 窗口标志一起使用)，用于使每一个像素都用来显示内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is useful because it controls access to them but isn't necessary (perhaps you want to create a new public View for wider use in your application).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24020,6 +24500,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070627Z" creationid="pingfangx" creationdate="20180919T070627Z">
         <seg>这可能会改变 src 的宽高比。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that the insets seen there will always represent the worst case that the application can expect as a continuous state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T100944Z" creationid="pingfangx" creationdate="20190215T100944Z">
+        <seg>这意味着在那里看到的 insets 总是代表应用程序可以期望作为连续状态的最坏情况。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24436,6 +24924,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070648Z" creationid="pingfangx" creationdate="20181107T070648Z">
         <seg>这将用作资源 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will ensure consistent system behavior, including:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090517Z" creationid="pingfangx" creationdate="20190404T090517Z">
+        <seg>这将确保一致的系统行为，包括：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25144,6 +25640,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>True if the event was handled, false otherwise.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090740Z" creationid="pingfangx" creationdate="20190404T090740Z">
+        <seg>如果事件被处理则为 True，否则为 false。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Try to avoid this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25320,6 +25824,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unlike the window flag, if you are using ActionBar in overlay mode with &lt;c2&gt;&lt;a3&gt;Window.FEATURE_ACTION_BAR_OVERLAY&lt;/a3&gt;&lt;/c2&gt;, then enabling this flag will also hide the action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T091315Z" creationid="pingfangx" creationdate="20190216T091315Z">
+        <seg>与窗口标志不同，如果在 overlay 模式下使用 ActionBar 并使用 &lt;c2&gt;&lt;a3&gt;Window.FEATURE_ACTION_BAR_OVERLAY&lt;/a3&gt;&lt;/c2&gt;，则启用此标志也会隐藏操作栏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Usage with BitmapFactory</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103021Z" creationid="pingfangx" creationdate="20180408T103021Z">
@@ -25468,6 +25980,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074144Z" creationid="pingfangx" creationdate="20180921T074144Z">
         <seg>使用最自然的 &lt;c0&gt;&lt;a1&gt;Bitmap.Config&lt;/a1&gt;&lt;/c0&gt; 作为内部 &lt;c2&gt;&lt;a3&gt;Bitmap&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use this flag to create an immersive experience while also hiding the system bars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103853Z" creationid="pingfangx" creationdate="20190219T103853Z">
+        <seg>使用此标志可以创建身临其境的体验，同时还可以隐藏系统栏。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25684,6 +26204,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T063557Z" creationid="pingfangx" creationdate="20181220T063557Z">
         <seg>使用这些图形可以大大减少您的 APK 占用空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using this function takes some care, as it has a fairly complicated interaction with &lt;c0&gt;&lt;a1&gt;View#onTouchEvent(MotionEvent)&lt;/a1&gt;&lt;/c0&gt;, and using it requires implementing that method as well as this one in the correct way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T092536Z" creationid="pingfangx" creationdate="20190404T092346Z">
+        <seg>使用此函数需要特别小心，因为它与 &lt;c0&gt;&lt;a1&gt;View#onTouchEvent(MotionEvent)&lt;/a1&gt;&lt;/c0&gt; 进行了相当复杂的交互，并且使用它需要正确实现这两个方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26240,6 +26768,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When system bars are hidden in immersive mode, they can be revealed temporarily with system gestures, such as swiping from the top of the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103940Z" creationid="pingfangx" creationdate="20190219T103940Z">
+        <seg>当系统条隐藏在沉浸式模式中时，可以使用系统手势暂时显示它们，例如从屏幕顶部滑动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the &lt;c0&gt;&lt;a1&gt;android:theme&lt;/a1&gt;&lt;/c0&gt; attribute is used in XML, the specified theme is applied on top of the inflation context's theme (see &lt;c2&gt;&lt;a3&gt;LayoutInflater&lt;/a3&gt;&lt;/c2&gt;) and used for the view itself as well as any child elements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26288,10 +26824,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When this flag is enabled for a window, it automatically sets the system UI visibility flags &lt;c0&gt;&lt;a1&gt;View.SYSTEM_UI_FLAG_LAYOUT_STABLE&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T095516Z" creationid="pingfangx" creationdate="20190215T095516Z">
+        <seg>为窗口启用此标志后，它会自动设置系统 UI 可见性标志 &lt;c0&gt;&lt;a1&gt;View.SYSTEM_UI_FLAG_LAYOUT_STABLE&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When this flag is set, if &lt;c0&gt;&lt;a1&gt;inDensity&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;inTargetDensity&lt;/a3&gt;&lt;/c2&gt; are not 0, the bitmap will be scaled to match &lt;c4&gt;&lt;a5&gt;inTargetDensity&lt;/a5&gt;&lt;/c4&gt; when loaded, rather than relying on the graphics system scaling it each time it is drawn to a Canvas.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102347Z" creationid="pingfangx" creationdate="20180408T102347Z">
         <seg>设置此标志时，如果 &lt;c0&gt;&lt;a1&gt;inDensity&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;inTargetDensity&lt;/a3&gt;&lt;/c2&gt; 不为 0，则会缩放位图以匹配 &lt;c4&gt;&lt;a5&gt;inTargetDensity&lt;/a5&gt;&lt;/c4&gt; 加载时，而不是依赖图形系统每次将其绘制到 Canvas 时缩放它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When this happens, both this flag and &lt;c0&gt;&lt;a1&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a1&gt;&lt;/c0&gt; will be cleared automatically, so that both elements reappear at the same time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103609Z" creationid="pingfangx" creationdate="20190219T103609Z">
+        <seg>发生这种情况时，此标志和 &lt;c0&gt;&lt;a1&gt;SYSTEM_UI_FLAG_FULLSCREEN&lt;/a1&gt;&lt;/c0&gt; 将自动清除，以便两个元素同时重新出现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26324,6 +26876,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083510Z" creationid="pingfangx" creationdate="20180925T083510Z">
         <seg>使用 CPU Profiler 时，请注意应用程序的 &lt;c0&gt;&lt;a1&gt;Application&lt;/a1&gt;&lt;/c0&gt; 子类构造函数和 &lt;c2&gt;com.example.customApplication.onCreate()&lt;/c2&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using this flag, the application should provide some easy facility for the user to go out of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T091647Z" creationid="pingfangx" creationdate="20190216T091647Z">
+        <seg>使用此标志时，应用程序应为用户提供一些简单的便利设施。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26564,6 +27124,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074940Z" creationid="pingfangx" creationdate="20180921T074940Z">
         <seg>通常会产生 &lt;c0&gt;&lt;a1&gt;Bitmap.Config.HARDWARE&lt;/a1&gt;&lt;/c0&gt; 分配，但如果是小图像则为软件分配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Window flag: request a translucent status bar with minimal system-provided background protection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T095346Z" creationid="pingfangx" creationdate="20190215T095346Z">
+        <seg>窗口标志：请求半透明状态栏，系统提供的背景保护最小。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26992,6 +27560,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can perform layout of your inner UI elements to account for non-fullscreen system UI through the &lt;c4&gt;&lt;a5&gt;fitSystemWindows(Rect)&lt;/a5&gt;&lt;/c4&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T104128Z" creationid="pingfangx" creationdate="20190219T104128Z">
+        <seg>您可以通过 &lt;c4&gt;&lt;a5&gt;fitSystemWindows(Rect)&lt;/a5&gt;&lt;/c4&gt; 方法执行内部 UI 元素的布局以考虑非全屏系统 UI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can perform layout of your inner UI elements to account for the navigation system UI through the &lt;c4&gt;&lt;a5&gt;fitSystemWindows(Rect)&lt;/a5&gt;&lt;/c4&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T092612Z" creationid="pingfangx" creationdate="20190216T092612Z">
+        <seg>您可以通过 &lt;c4&gt;&lt;a5&gt;fitSystemWindows(Rect)&lt;/a5&gt;&lt;/c4&gt; 方法执行内部 UI 元素的布局以考虑导航系统 UI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can position the guideline within the layout based on either dp units or percent, relative to the layout's edge.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -27376,6 +27960,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You will receive the down event here.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T092428Z" creationid="pingfangx" creationdate="20190404T092428Z">
+        <seg>您将在这里收到 down 事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Your APK can contain content that users download but never use, like regional or language information.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065531Z" creationid="pingfangx" creationdate="20181220T065531Z">
@@ -27524,6 +28116,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T024316Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>adapter position（适配器位置）: item 在 adapter 中的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>added in &lt;a0&gt;API level 19&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T095221Z" creationid="pingfangx" creationdate="20190215T095221Z">
+        <seg>添加于 &lt;a0&gt;API level 19&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -29328,6 +29928,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>boolean</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090733Z" creationid="pingfangx" creationdate="20190404T090733Z">
+        <seg>boolean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>but this is not acceptable:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -29424,6 +30032,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dispatching OnClickListener calls</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090701Z" creationid="pingfangx" creationdate="20190404T090701Z">
+        <seg>分发 OnClickListener 调用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>elements:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061859Z" creationid="pingfangx" creationdate="20181107T061859Z">
@@ -29434,8 +30050,8 @@
       <tuv lang="EN-US">
         <seg>en</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>en</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T085317Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>Convenience function to set the flagen</seg>
       </tuv>
     </tu>
     <tu>
@@ -29444,6 +30060,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>es</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ev</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T095519Z" creationid="pingfangx" creationdate="20190404T095519Z">
+        <seg>ev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>event</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090711Z" creationid="pingfangx" creationdate="20190404T090711Z">
+        <seg>event</seg>
       </tuv>
     </tu>
     <tu>
@@ -29500,6 +30132,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>handleError();                      // 使用一个通用的处理器！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>handling &lt;c0&gt;&lt;a1&gt;AccessibilityNodeInfo#ACTION_CLICK&lt;/a1&gt;&lt;/c0&gt; when accessibility features are enabled</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090709Z" creationid="pingfangx" creationdate="20190404T090709Z">
+        <seg>启用辅助功能时处理 &lt;c0&gt;&lt;a1&gt;AccessibilityNodeInfo#ACTION_CLICK&lt;/a1&gt;&lt;/c0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -30196,6 +30836,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T024306Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>layout position（布局位置）: item 在最近的一次计算中的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>obeying click sound preferences</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090625Z" creationid="pingfangx" creationdate="20190404T090625Z">
+        <seg>服从点击声音偏好设置</seg>
       </tuv>
     </tu>
     <tu>
