@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#78c257</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T014519Z" creationid="pingfangx" creationdate="20190412T014519Z">
+        <seg>#78c257</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#Animation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3016,6 +3024,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt; Android Dev Summit&lt;/a0&gt; is coming to Sunnyvale, CA on Oct 23-24, 2019.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T014524Z" creationid="pingfangx" creationdate="20190412T014524Z">
+        <seg>&lt;a0&gt; Android Dev Summit&lt;/a0&gt; is coming to Sunnyvale, CA on Oct 23-24, 2019.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;&lt;c1&gt;ConstraintLayout&lt;/c1&gt;&lt;/a0&gt; allows you to create large and complex layouts with a flat view hierarchy (no nested view groups).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3125,6 +3141,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;getNestedScrollAxes&lt;/a0&gt;()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090200Z" creationid="pingfangx" creationdate="20190412T090200Z">
+        <seg>&lt;a0&gt;getNestedScrollAxes&lt;/a0&gt;()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;hashCode&lt;/a0&gt;()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -3137,6 +3161,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;a0&gt;layoutDecorated&lt;/a0&gt;(&lt;a1&gt;View&lt;/a1&gt; child, int left, int top, int right, int bottom)、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;onNestedFling&lt;/a0&gt;(&lt;a1&gt;View&lt;/a1&gt; target, float velocityX, float velocityY, boolean consumed)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090206Z" creationid="pingfangx" creationdate="20190412T090206Z">
+        <seg>&lt;a0&gt;onNestedFling&lt;/a0&gt;(&lt;a1&gt;View&lt;/a1&gt; target, float velocityX, float velocityY, boolean consumed)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;onNestedPreFling&lt;/a0&gt;(&lt;a1&gt;View&lt;/a1&gt; target, float velocityX, float velocityY)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090214Z" creationid="pingfangx" creationdate="20190412T090214Z">
+        <seg>&lt;a0&gt;onNestedPreFling&lt;/a0&gt;(&lt;a1&gt;View&lt;/a1&gt; target, float velocityX, float velocityY)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;onNestedPreScroll&lt;/a0&gt;(&lt;a1&gt;View&lt;/a1&gt; target, int dx, int dy, int[] consumed)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090227Z" creationid="pingfangx" creationdate="20190412T090227Z">
+        <seg>&lt;a0&gt;onNestedPreScroll&lt;/a0&gt;(&lt;a1&gt;View&lt;/a1&gt; target, int dx, int dy, int[] consumed)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6711,6 +6759,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Android Developers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T014518Z" creationid="pingfangx" creationdate="20190412T014518Z">
+        <seg>Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android Studio can convert PNG, JPG, BMP, or static GIF images to WebP format.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T073154Z" creationid="pingfangx" creationdate="20181220T073154Z">
@@ -6899,6 +6955,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>你对默认边距所做的任何更改仅适用于你之后添加的 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any child views which are set to dodge the same inset edges by &lt;c2&gt;&lt;a3&gt;dodgeInsetEdges&lt;/a3&gt;&lt;/c2&gt; will be moved appropriately so that the views do not overlap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102935Z" creationid="pingfangx" creationdate="20190412T102935Z">
+        <seg>通过 &lt;c2&gt;&lt;a3&gt;dodgeInsetEdges&lt;/a3&gt;&lt;/c2&gt; 设置为躲避相同插入边缘的任何子 view 都将被适当移动，以使 view 不重叠。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7143,6 +7207,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a container for a specific interaction with one or more child views</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102227Z" creationid="pingfangx" creationdate="20190412T102227Z">
+        <seg>作为与一个或多个子 view 进行特定交互的容器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As a convenience, methods are also provided for returning these captured subsequences in string form.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7179,6 +7251,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这样，当 toast，dialog 或其他 window 在 view 的 window 之上时，view 将不会收到触摸事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As a top-level application decor or chrome layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102220Z" creationid="pingfangx" creationdate="20190412T102220Z">
+        <seg>作为顶级应用程序装饰或 chrome 布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -7673,8 +7753,8 @@
       <tuv lang="EN-US">
         <seg>Begin a nestable scroll operation along the given axes.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>沿着给定的轴开始可嵌套的滚动操作。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090009Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>沿给定轴开始嵌套滚动操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7683,6 +7763,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>开始一个标准的 fling，包含各坐标轴的初始速度，单位是像素每秒。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102657Z" creationid="pingfangx" creationdate="20190412T102657Z">
+        <seg>行为可用于实现各种交互和附加布局修改，比如实现滑动抽屉和面板，swipe-dismissable 元素，当其他元素移动和动画时粘附的按钮。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7939,6 +8027,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这样做有助于提高代码的可读性和可维护性，并降低出错的可能性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By specifying &lt;c0&gt;&lt;a1&gt;Behaviors&lt;/a1&gt;&lt;/c0&gt; for child views of a CoordinatorLayout you can provide many different interactions within a single parent and those views can also interact with one another.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102248Z" creationid="pingfangx" creationdate="20190412T102248Z">
+        <seg>通过为 CoordinatorLayout 的子 view 指定 &lt;c0&gt;&lt;a1&gt;Behaviors&lt;/a1&gt;&lt;/c0&gt;，您可以在单个父级中提供许多不同的交互，并且这些 view 也可以相互交互。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8583,6 +8679,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Children can specify &lt;c0&gt;&lt;a1&gt;insetEdge&lt;/a1&gt;&lt;/c0&gt; to describe how the view insets the CoordinatorLayout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102825Z" creationid="pingfangx" creationdate="20190412T102825Z">
+        <seg>Children 可以指定 &lt;c0&gt;&lt;a1&gt;insetEdge&lt;/a1&gt;&lt;/c0&gt; 来描述 view 如何将 CoordinatorLayout 内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Children of a CoordinatorLayout may have an &lt;c0&gt;&lt;a1&gt;anchor&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102701Z" creationid="pingfangx" creationdate="20190412T102701Z">
+        <seg>CoordinatorLayout 的子节点可能具有 &lt;c0&gt;&lt;a1&gt;anchor&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Choose the backing for the pixel memory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074711Z" creationid="pingfangx" creationdate="20180921T074711Z">
@@ -8627,6 +8739,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>（参考：http://www.oschina.net/uploads/doc/javase-6-doc-api-zh_CN/index.html?java/util/regex/package-summary.html）用正则表达式指定模式匹配字符序列的类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Classes implementing this interface should create a final instance of a &lt;c0&gt;&lt;a1&gt;NestedScrollingChildHelper&lt;/a1&gt;&lt;/c0&gt; as a field and delegate any View methods to the &lt;c2&gt;NestedScrollingChildHelper&lt;/c2&gt; methods of the same signature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T084733Z" creationid="pingfangx" creationdate="20190412T084733Z">
+        <seg>实现此接口的类应该创建一个 &lt;c0&gt;&lt;a1&gt;NestedScrollingChildHelper&lt;/a1&gt;&lt;/c0&gt; 的 final 实例作为字段，并将任何 View 方法委托给相同签名的 &lt;c2&gt;NestedScrollingChildHelper&lt;/c2&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Classes implementing this interface should create a final instance of a &lt;c0&gt;&lt;a1&gt;NestedScrollingParentHelper&lt;/a1&gt;&lt;/c0&gt; as a field and delegate any View or ViewGroup methods to the &lt;c2&gt;NestedScrollingParentHelper&lt;/c2&gt; methods of the same signature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090157Z" creationid="pingfangx" creationdate="20190412T090157Z">
+        <seg>实现此接口的类应该创建一个 &lt;c0&gt;&lt;a1&gt;NestedScrollingParentHelper&lt;/a1&gt;&lt;/c0&gt; 的 final 实例作为字段，并将任何 View 或 ViewGroup 方法委托给 &lt;c2&gt;NestedScrollingParentHelper&lt;/c2&gt; 方法签名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9195,6 +9323,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064908Z" creationid="pingfangx" creationdate="20180903T064908Z">
         <seg>将 argb 颜色转换为其 HSV 组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CoordinatorLayout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T101039Z" creationid="pingfangx" creationdate="20190412T101039Z">
+        <seg>CoordinatorLayout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CoordinatorLayout is a super-powered &lt;c0&gt;&lt;a1&gt;FrameLayout&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102204Z" creationid="pingfangx" creationdate="20190412T102204Z">
+        <seg>CoordinatorLayout 是一个 super-powered &lt;c0&gt;&lt;a1&gt;FrameLayout&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CoordinatorLayout is intended for two primary use cases:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102209Z" creationid="pingfangx" creationdate="20190412T102209Z">
+        <seg>CoordinatorLayout 用于两个主要用例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CoordinatorLayout  |  Android Developers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T101038Z" creationid="pingfangx" creationdate="20190412T101038Z">
+        <seg>CoordinatorLayout  |  Android Developers</seg>
       </tuv>
     </tu>
     <tu>
@@ -13039,6 +13199,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>IE=Edge</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T014519Z" creationid="pingfangx" creationdate="20190412T014519Z">
+        <seg>IE=Edge</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IE=edge</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16543,6 +16711,78 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Nested scrolling is enabled by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190411T023253Z" creationid="pingfangx" creationdate="20190411T023253Z">
+        <seg>默认情况下启用嵌套滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NestedScrollView</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T101008Z" creationid="pingfangx" creationdate="20190412T101008Z">
+        <seg>NestedScrollView</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NestedScrollView is just like &lt;c0&gt;&lt;a1&gt;ScrollView&lt;/a1&gt;&lt;/c0&gt;, but it supports acting as both a nested scrolling parent and child on both new and old versions of Android.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190411T023327Z" creationid="pingfangx" creationdate="20190411T023250Z">
+        <seg>NestedScrollView 就像 &lt;c0&gt;&lt;a1&gt;ScrollView&lt;/a1&gt;&lt;/c0&gt;，但它支持在新旧版本的 Android 上充当嵌套滚动 parent 和 child。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NestedScrollingChild</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T084230Z" creationid="pingfangx" creationdate="20190412T084230Z">
+        <seg>NestedScrollingChild</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NestedScrollingChild  |  Android Developers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T084229Z" creationid="pingfangx" creationdate="20190412T084229Z">
+        <seg>NestedScrollingChild  |  Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NestedScrollingChildHelper</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T084223Z" creationid="pingfangx" creationdate="20190412T084223Z">
+        <seg>NestedScrollingChildHelper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NestedScrollingChildHelper  |  Android Developers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T084222Z" creationid="pingfangx" creationdate="20190412T084222Z">
+        <seg>NestedScrollingChildHelper  |  Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NestedScrollingParent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090100Z" creationid="pingfangx" creationdate="20190412T090100Z">
+        <seg>NestedScrollingParent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NestedScrollingParent  |  Android Developers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090059Z" creationid="pingfangx" creationdate="20190412T090059Z">
+        <seg>NestedScrollingParent  |  Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Never make an allocation while an animation is running.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080311Z" creationid="pingfangx" creationdate="20181205T080246Z">
@@ -17719,6 +17959,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>React to a descendant view initiating a nestable scroll operation, claiming the nested scroll operation if appropriate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090320Z" creationid="pingfangx" creationdate="20190412T090320Z">
+        <seg>对启动可嵌套滚动操作的后代 view 作出反应，声明嵌套滚动操作(如果适用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>React to a nested fling before the target view consumes it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090224Z" creationid="pingfangx" creationdate="20190412T090224Z">
+        <seg>在目标 view 消耗它之前对嵌套的 fling 做出反应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>React to a nested scroll in progress before the target view consumes a portion of the scroll.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090249Z" creationid="pingfangx" creationdate="20190412T090249Z">
+        <seg>在目标 view 消耗滚动的一部分之前，对正在进行的嵌套滚动作出反应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>React to a nested scroll in progress.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090255Z" creationid="pingfangx" creationdate="20190412T090255Z">
+        <seg>对正在进行的嵌套滚动做出反应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>React to a nested scroll operation ending.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090329Z" creationid="pingfangx" creationdate="20190412T090329Z">
+        <seg>对嵌套滚动操作结束的反应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>React to the successful claiming of a nested scroll operation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090304Z" creationid="pingfangx" creationdate="20190412T090304Z">
+        <seg>对成功声明嵌套滚动操作做出反应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reattach a previously &lt;c0&gt;&lt;a1&gt;detached&lt;/a1&gt;&lt;/c0&gt; view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18083,6 +18371,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>表示外部存储的根目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Request a fling from a nested scroll.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090213Z" creationid="pingfangx" creationdate="20190412T090213Z">
+        <seg>从嵌套滚动请求 fling。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18467,6 +18763,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074341Z" creationid="pingfangx" creationdate="20180921T074341Z">
         <seg>如果设置，则返回裁剪矩形。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the current axes of nested scrolling for this NestedScrollingParent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090206Z" creationid="pingfangx" creationdate="20190412T090206Z">
+        <seg>返回此 NestedScrollingParent 的嵌套滚动的当前轴。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19387,6 +19691,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074200Z" creationid="pingfangx" creationdate="20180921T074200Z">
         <seg>如果可能，使用更密集的 &lt;c0&gt;&lt;a1&gt;Bitmap.Config&lt;/a1&gt;&lt;/c0&gt; 以牺牲某些图像质量来节省内存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Save the date!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T014521Z" creationid="pingfangx" creationdate="20190412T014521Z">
+        <seg>Save the date!</seg>
       </tuv>
     </tu>
     <tu>
@@ -23823,6 +24135,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be used to place floating views relative to other arbitrary content panes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102737Z" creationid="pingfangx" creationdate="20190412T102737Z">
+        <seg>这可用于相对于其他任意内容窗格放置浮动 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can be useful for drawing dividers between items, highlights, visual grouping boundaries and more.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23999,6 +24319,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This ensures interoperability with nested scrolling views on Android 5.0 Lollipop and newer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T084849Z" creationid="pingfangx" creationdate="20190412T084849Z">
+        <seg>这确保了与 Android 5.0 Lollipop 和更新版本上的嵌套滚动 view 的互操作性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This example overrides only one method, &lt;c0&gt;onDraw()&lt;/c0&gt;, but you might need to override others as you create your own custom components.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041505Z" creationid="pingfangx" creationdate="20181205T041505Z">
@@ -24148,6 +24476,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>此接口包含用于确定与正则表达式匹配结果的查询方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This interface should be implemented by &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; subclasses that wish to support dispatching nested scrolling operations to a cooperating parent &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190411T081817Z" creationid="pingfangx" creationdate="20190411T081817Z">
+        <seg>如果 &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; 子类希望支持将嵌套滚动操作分派给协作父 &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt; ，则应实现此接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This interface should be implemented by &lt;c0&gt;&lt;a1&gt;ViewGroup&lt;/a1&gt;&lt;/c0&gt; subclasses that wish to support scrolling operations delegated by a nested child view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090130Z" creationid="pingfangx" creationdate="20190412T090130Z">
+        <seg>此接口应由 &lt;c0&gt;&lt;a1&gt;ViewGroup&lt;/a1&gt;&lt;/c0&gt; 子类实现，这些子类希望支持由嵌套子 view 委派的滚动操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24844,6 +25188,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当有大量页面时，这个版本的 pager 更有用，它工作更像 list view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102727Z" creationid="pingfangx" creationdate="20190412T102727Z">
+        <seg>此 view 的 id 必须对应于 CoordinatorLayout 的任意后代，但它可能不是锚定子项本身或锚定子项的后代。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26272,6 +26624,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>View classes can specify a default behavior when used as a child of a CoordinatorLayout using the &lt;c2&gt;&lt;a3&gt;CoordinatorLayout.DefaultBehavior&lt;/a3&gt;&lt;/c2&gt; annotation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102319Z" creationid="pingfangx" creationdate="20190412T102319Z">
+        <seg>使用 &lt;c2&gt;&lt;a3&gt;CoordinatorLayout.DefaultBehavior&lt;/a3&gt;&lt;/c2&gt; 注释时，View 类可以在用作 CoordinatorLayout 的子项时指定默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>View is the base class for &lt;e0&gt;widgets&lt;/e0&gt;, which are used to create interactive UI components (buttons, text fields, etc.).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26300,6 +26660,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>view 通过 &lt;c0&gt;&lt;a1&gt;isFocusable()&lt;/a1&gt;&lt;/c0&gt; 方法指明它们是否想要获取焦点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Views invoking nested scrolling functionality should always do so from the relevant &lt;c0&gt;&lt;a1&gt;ViewCompat&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;ViewGroupCompat&lt;/a3&gt;&lt;/c2&gt; or &lt;c4&gt;&lt;a5&gt;ViewParentCompat&lt;/a5&gt;&lt;/c4&gt; compatibility shim static methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T084829Z" creationid="pingfangx" creationdate="20190412T084829Z">
+        <seg>调用嵌套滚动功能的 view 应始终从相关的 &lt;c0&gt;&lt;a1&gt;ViewCompat&lt;/a1&gt;&lt;/c0&gt;，&lt;c2&gt;&lt;a3&gt;ViewGroupCompat&lt;/a3&gt;&lt;/c2&gt; 或 &lt;c4&gt;&lt;a5&gt;ViewParentCompat&lt;/a5&gt;&lt;/c4&gt; 兼容性静态方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28108,6 +28476,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>abstract int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>abstract void</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090224Z" creationid="pingfangx" creationdate="20190412T090224Z">
+        <seg>abstract void</seg>
       </tuv>
     </tu>
     <tu>
@@ -30050,8 +30426,8 @@
       <tuv lang="EN-US">
         <seg>en</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190216T085317Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>Convenience function to set the flagen</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190411T091914Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>en</seg>
       </tuv>
     </tu>
     <tu>
@@ -31492,6 +31868,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>它比必要的可见性更广以使代码更可测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>website</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T014518Z" creationid="pingfangx" creationdate="20190412T014518Z">
+        <seg>website</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>width=device-width, initial-scale=1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T014520Z" creationid="pingfangx" creationdate="20190412T014520Z">
+        <seg>width=device-width, initial-scale=1</seg>
       </tuv>
     </tu>
     <tu>
