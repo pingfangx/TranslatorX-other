@@ -4125,6 +4125,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;MaterialToolbar&lt;/c0&gt; is a &lt;c1&gt;&lt;a2&gt;Toolbar&lt;/a2&gt;&lt;/c1&gt; that implements certain Material features, such as elevation overlays for Dark Themes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034156Z" creationid="pingfangx" creationdate="20190513T034156Z">
+        <seg>&lt;c0&gt;MaterialToolbar&lt;/c0&gt; 是 &lt;c1&gt;&lt;a2&gt;Toolbar&lt;/a2&gt;&lt;/c1&gt;，它实现了某些材质功能，例如黑暗主题的高程叠加。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;Matrix&lt;/c0&gt;: If not null, it is set to the shader's local matrix.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094307Z" creationid="pingfangx" creationdate="20180427T094307Z">
@@ -4373,10 +4381,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;boolean&lt;/c0&gt;: Whether to animate to the new state</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T032249Z" creationid="pingfangx" creationdate="20190513T032249Z">
+        <seg>&lt;c0&gt;boolean&lt;/c0&gt;：是否动画到新状态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;boolean&lt;/c0&gt;: true if the child consumed the fling, false otherwise</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190415T022349Z" creationid="pingfangx" creationdate="20190415T022349Z">
         <seg>&lt;c0&gt;boolean&lt;/c0&gt;：如果 child 消耗了 fling，则返回 true，否则返回 false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;boolean&lt;/c0&gt;: true if the layout should be fully expanded, false if it should be fully collapsed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T032222Z" creationid="pingfangx" creationdate="20190513T032208Z">
+        <seg>&lt;c0&gt;boolean&lt;/c0&gt;：如果布局应该完全展开，则为 true;如果布局应完全折叠，则为 false</seg>
       </tuv>
     </tu>
     <tu>
@@ -5005,6 +5029,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Do not manually add views to the Toolbar at run time&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034102Z" creationid="pingfangx" creationdate="20190513T034032Z">
+        <seg>&lt;s0&gt;运行时不要手动将 view 添加到工具栏&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Figure 1.&lt;/s0&gt; A visual representation of the important parts of a cold application launch.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072649Z" creationid="pingfangx" creationdate="20180925T072649Z">
@@ -5485,6 +5517,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A &lt;c0&gt;&lt;a1&gt;Gravity&lt;/a1&gt;&lt;/c0&gt; value describing how this child view dodges any inset child views in the CoordinatorLayout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023447Z" creationid="pingfangx" creationdate="20190513T022923Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;Gravity&lt;/a1&gt;&lt;/c0&gt; 值，用于描述此子 view 如何在 CoordinatorLayout 中躲过任何内插子 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;c0&gt;&lt;a1&gt;Gravity&lt;/a1&gt;&lt;/c0&gt; value describing how this child view insets the CoordinatorLayout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022938Z" creationid="pingfangx" creationdate="20190513T022938Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;Gravity&lt;/a1&gt;&lt;/c0&gt; 值，用于描述此子 view 如何对 CoordinatorLayout 进行插入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;c0&gt;&lt;a1&gt;Gravity&lt;/a1&gt;&lt;/c0&gt; value describing how this child view should lay out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022930Z" creationid="pingfangx" creationdate="20190513T022930Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;Gravity&lt;/a1&gt;&lt;/c0&gt; 值，用于描述此子 view 的布局方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;c0&gt;&lt;a1&gt;Gravity&lt;/a1&gt;&lt;/c0&gt; value describing which edge of a child view's &lt;c2&gt;&lt;a3&gt;anchor&lt;/a3&gt;&lt;/c2&gt; view the child should position itself relative to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022906Z" creationid="pingfangx" creationdate="20190513T022906Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;Gravity&lt;/a1&gt;&lt;/c0&gt; 值描述子 view 应该相对于它的 &lt;c2&gt;&lt;a3&gt;anchor&lt;/a3&gt;&lt;/c2&gt; 的哪一边进行定位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A &lt;c0&gt;&lt;a1&gt;NinePatchDrawable&lt;/a1&gt;&lt;/c0&gt; graphic is a stretchable bitmap image, which Android will automatically resize to accommodate the contents of the View in which you have placed it as the background.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5497,6 +5561,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一个 &lt;c0&gt;&lt;a1&gt;RecyclerView.LayoutManager&lt;/a1&gt;&lt;/c0&gt; 的实现，它布局 item 在一个表格中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;c0&gt;&lt;a1&gt;ViewGroup.LayoutParams&lt;/a1&gt;&lt;/c0&gt; implementation for &lt;c2&gt;&lt;a3&gt;AppBarLayout&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031426Z" creationid="pingfangx" creationdate="20190513T031426Z">
+        <seg>&lt;c2&gt;&lt;a3&gt;AppBarLayout&lt;/a3&gt;&lt;/c2&gt; 的 &lt;c0&gt;&lt;a1&gt;ViewGroup.LayoutParams&lt;/a1&gt;&lt;/c0&gt; 实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5537,6 +5609,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075311Z" creationid="pingfangx" creationdate="20180925T075311Z">
         <seg>&lt;e0&gt;daily session&lt;/e0&gt; 是指您的应用使用的日期。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Behavior implements one or more interactions that a user can take on a child view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023948Z" creationid="pingfangx" creationdate="20190513T023948Z">
+        <seg>行为实现用户可以对子 view 进行的一个或多个交互。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5823,6 +5903,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A full-bleed scrim which is show or hidden when the scroll position has hit a certain threshold.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T084221Z" creationid="pingfangx" creationdate="20190513T033901Z">
+        <seg>当滚动位置达到某个阈值时显示或隐藏的 full-bleed scrim。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A good example of this is the &lt;e0&gt;fling&lt;/e0&gt; gesture, where the user quickly moves a finger across the screen and then lifts it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073107Z" creationid="pingfangx" creationdate="20181205T073107Z">
@@ -5943,10 +6031,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A scrim may be used to indicate that the other elements beneath it are not currently interactive or actionable, drawing user focus and attention to the views above the scrim.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024336Z" creationid="pingfangx" creationdate="20190513T024336Z">
+        <seg>可以使用稀松布来指示其下面的其他元素当前不是交互式的或可操作的，从而将用户焦点和注意力吸引到稀松布上方的 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A scrim which is shown or hidden behind the status bar when the scroll position has hit a certain threshold.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T084258Z" creationid="pingfangx" creationdate="20190513T033928Z">
+        <seg>当滚动位置达到某个阈值时，在状态栏后面显示或隐藏的 scrim。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A single enum can add about 1.0 to 1.4 KB of size to your app's &lt;c0&gt;classes.dex&lt;/c0&gt; file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064042Z" creationid="pingfangx" creationdate="20181220T064042Z">
         <seg>单个枚举可以为应用程序的 &lt;c0&gt;classes.dex&lt;/c0&gt; 文件添加大约 1.0 到 1.4 KB 的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A string resource containing the full class name is available.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031046Z" creationid="pingfangx" creationdate="20190513T031046Z">
+        <seg>可以使用包含完整类名的字符串资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5983,6 +6095,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A title which is larger when the layout is fully visible but collapses and becomes smaller as the layout is scrolled off screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T083717Z" creationid="pingfangx" creationdate="20190513T033817Z">
+        <seg>标题在布局完全可见时较大，但随着布局在屏幕上滚动会折叠并变小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A unique resource ID defined in XML.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070712Z" creationid="pingfangx" creationdate="20181107T070712Z">
@@ -5995,6 +6115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;c0&gt;ConstraintLayout&lt;/c0&gt; 一个有用的方面是如何处理 "不可能" 的约束。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A value of &lt;c2&gt;0.0&lt;/c2&gt; indicates no movement at all, &lt;c3&gt;1.0f&lt;/c3&gt; indicates normal scroll movement.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035444Z" creationid="pingfangx" creationdate="20190513T035444Z">
+        <seg>值 &lt;c2&gt;0.0&lt;/c2&gt; 表示根本没有移动，&lt;c3&gt;1.0f&lt;/c3&gt; 表示正常滚动的移动。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6219,6 +6347,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065614Z" creationid="pingfangx" creationdate="20181221T065614Z">
         <seg>从最后一个点到指定点(x，y)添加一条线。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a listener that will be called when the offset of this &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031600Z" creationid="pingfangx" creationdate="20190513T031600Z">
+        <seg>添加将在此 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 的偏移更改时调用的侦听器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6687,6 +6823,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Allows the caller to manually dispatch &lt;c0&gt;&lt;a1&gt;onDependentViewChanged(CoordinatorLayout, View, View)&lt;/a1&gt;&lt;/c0&gt; to the associated &lt;c2&gt;&lt;a3&gt;CoordinatorLayout.Behavior&lt;/a3&gt;&lt;/c2&gt; instances of views which depend on the provided &lt;c4&gt;&lt;a5&gt;View&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022154Z" creationid="pingfangx" creationdate="20190513T022154Z">
+        <seg>允许调用者手动将 &lt;c0&gt;&lt;a1&gt;onDependentViewChanged(CoordinatorLayout, View, View)&lt;/a1&gt;&lt;/c0&gt; 分发给关联的 &lt;c2&gt;&lt;a3&gt;CoordinatorLayout.Behavior&lt;/a3&gt;&lt;/c2&gt; 实例 view 取决于提供的 &lt;c4&gt;&lt;a5&gt;View&lt;/a5&gt;&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alpha compositing modes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060449Z" creationid="pingfangx" creationdate="20180510T060449Z">
@@ -6923,6 +7067,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>OnScrollListener 可以添加给 RecyclerView 以在该 RecyclerView 发生滚动事件时接收消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An additional flag for 'enterAlways' which modifies the returning view to only initially scroll back to it's collapsed height.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035905Z" creationid="pingfangx" creationdate="20190513T035905Z">
+        <seg>用于 'enterAlways' 的一个额外标志，它修改返回的 view，使其最初时只是回滚到它的折叠高度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An additional flag to be used with 'snap'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040057Z" creationid="pingfangx" creationdate="20190513T040057Z">
+        <seg>与 'snap' 一起使用的附加标志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7399,6 +7559,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any views which are inset on the same edge as this view is set to dodge will result in this view being moved so that the views do not overlap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023415Z" creationid="pingfangx" creationdate="20190513T023415Z">
+        <seg>在此 view 设置为闪避的同一边缘上插入的任何 view 将导致移动此 view，以使 view 不重叠。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>AnyRes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7443,6 +7611,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071851Z" creationid="pingfangx" creationdate="20180925T071851Z">
         <seg>应用程序启动可以在三种状态之一中进行，每种状态都会影响应用程序对用户可见所需的时间：冷启动（cold start），温启动（warm start）或热启动（hot start）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AppBarLayout also requires a separate scrolling sibling in order to know when to scroll.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031011Z" creationid="pingfangx" creationdate="20190513T031011Z">
+        <seg>AppBarLayout 还需要一个单独的滚动同级 view，以便知道何时滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AppBarLayout is a vertical &lt;c0&gt;&lt;a1&gt;LinearLayout&lt;/a1&gt;&lt;/c0&gt; which implements many of the features of material designs app bar concept, namely scrolling gestures.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T030802Z" creationid="pingfangx" creationdate="20190513T030802Z">
+        <seg>AppBarLayout 是一个垂直 &lt;c0&gt;&lt;a1&gt;LinearLayout&lt;/a1&gt;&lt;/c0&gt;，它实现了材料设计 app bar 概念的许多功能，即滚动手势。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7747,6 +7931,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T071344Z" creationid="pingfangx" creationdate="20181107T071344Z">
         <seg>因此，您可以在一个 &lt;c2&gt;&lt;resources&gt;&lt;/c2&gt; 元素下将类型化数组资源与一个 XML 文件中的其他简单资源相结合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As with &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt;'s scrolling, this method relies on this layout being a direct child of a &lt;c2&gt;&lt;a3&gt;CoordinatorLayout&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T032133Z" creationid="pingfangx" creationdate="20190513T032133Z">
+        <seg>与 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 的滚动一样，此方法依赖于此布局是 &lt;c2&gt;&lt;a3&gt;CoordinatorLayout&lt;/a3&gt;&lt;/c2&gt; 的直接子代。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Associate a Behavior-specific tag object with the given child view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024918Z" creationid="pingfangx" creationdate="20190513T024918Z">
+        <seg>将特定于行为的标记对象与给定的子 view 相关联。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8095,10 +8295,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Behavior which should be used by &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt;s which can scroll vertically and support nested scrolling to automatically scroll any &lt;c2&gt;&lt;a3&gt;AppBarLayout&lt;/a3&gt;&lt;/c2&gt; siblings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031504Z" creationid="pingfangx" creationdate="20190513T031504Z">
+        <seg>应该由 &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; 使用的行为，它可以垂直滚动并支持嵌套滚动以自动滚动任何同级的 &lt;c2&gt;&lt;a3&gt;AppBarLayout&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102657Z" creationid="pingfangx" creationdate="20190412T102657Z">
-        <seg>行为可用于实现各种交互和附加布局修改，比如实现滑动抽屉和面板，swipe-dismissable 元素，当其他元素移动和动画时粘附的按钮。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T015725Z" creationid="pingfangx" creationdate="20190412T102657Z">
+        <seg>行为(behavior)可用于实现各种交互和附加布局修改，比如实现滑动抽屉和滑动消失元素的面板，以及当其他元素移动和动画时粘附的按钮。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8583,6 +8791,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Called to lay out each individual child view unless a &lt;c0&gt;&lt;a1&gt;Behavior&lt;/a1&gt;&lt;/c0&gt; is present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022337Z" creationid="pingfangx" creationdate="20190513T022337Z">
+        <seg>除非存在 &lt;c0&gt;&lt;a1&gt;Behavior&lt;/a1&gt;&lt;/c0&gt;，否则调用此布局每个子 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called to measure each individual child view unless a &lt;c0&gt;&lt;a1&gt;Behavior&lt;/a1&gt;&lt;/c0&gt; is present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022351Z" creationid="pingfangx" creationdate="20190513T022351Z">
+        <seg>除非存在 &lt;c0&gt;&lt;a1&gt;Behavior&lt;/a1&gt;&lt;/c0&gt;，否则调用以测量每个子 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Called when a change in the shown pages is going to start being made.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8595,6 +8819,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当一个子 view 不想它的 parent 及祖先 view 通过 &lt;c0&gt;&lt;a1&gt;onInterceptTouchEvent(MotionEvent)&lt;/a1&gt;&lt;/c0&gt; 拦截事件时调用该方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a child of the view associated with this behavior wants a particular rectangle to be positioned onto the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024841Z" creationid="pingfangx" creationdate="20190513T024841Z">
+        <seg>当与此行为关联的 view 的子项想要将特定矩形定位到屏幕上时调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8615,10 +8847,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Called when a descendant of the CoordinatorLayout attempts to initiate a nested scroll.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024904Z" creationid="pingfangx" creationdate="20190513T024904Z">
+        <seg>当 CoordinatorLayout 的后代尝试启动嵌套滚动时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Called when a key up event occurs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当按键弹起时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a nested scroll has been accepted by the CoordinatorLayout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024832Z" creationid="pingfangx" creationdate="20190513T024832Z">
+        <seg>当 CoordinatorLayout 接受嵌套滚动时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a nested scroll has ended.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024908Z" creationid="pingfangx" creationdate="20190513T024908Z">
+        <seg>嵌套滚动结束时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a nested scroll in progress has updated and the target has scrolled or attempted to scroll.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024816Z" creationid="pingfangx" creationdate="20190513T024816Z">
+        <seg>当正在进行的嵌套滚动已更新且目标已滚动或尝试滚动时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a nested scroll in progress is about to update, before the target has consumed any of the scrolled distance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024802Z" creationid="pingfangx" creationdate="20190513T024802Z">
+        <seg>在目标消耗任何滚动距离之前，当正在进行的嵌套滚动即将更新时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a nested scrolling child is about to start a fling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024732Z" creationid="pingfangx" creationdate="20190513T024732Z">
+        <seg>当嵌套的滚动子项即将开始抛掷时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a nested scrolling child is starting a fling or an action that would be a fling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024720Z" creationid="pingfangx" creationdate="20190513T024720Z">
+        <seg>当嵌套的滚动子项开始投掷或动作将是投掷时会调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8647,6 +8935,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Called when a view is set to dodge view insets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024303Z" creationid="pingfangx" creationdate="20190513T024303Z">
+        <seg>当 view 设置为闪避 view 插入时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Called when an item view is attached to this RecyclerView.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8663,6 +8959,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Called when the Behavior has been attached to a LayoutParams instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024413Z" creationid="pingfangx" creationdate="20190513T024413Z">
+        <seg>将行为附加到 LayoutParams 实例时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when the Behavior has been detached from its holding LayoutParams instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024556Z" creationid="pingfangx" creationdate="20190513T024556Z">
+        <seg>当行为已从其持有的 LayoutParams 实例中分离时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Called when the a change in the shown pages has been completed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8675,6 +8987,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当 Fragment 的隐藏状态(和 &lt;c0&gt;&lt;a1&gt;isHidden()&lt;/a1&gt;&lt;/c0&gt; 返回的一致)改变时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when the parent CoordinatorLayout is about the lay out the given child view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024639Z" creationid="pingfangx" creationdate="20190513T024639Z">
+        <seg>在父级 CoordinatorLayout 将要布局给定子 view 时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when the parent CoordinatorLayout is about to measure the given child view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024647Z" creationid="pingfangx" creationdate="20190513T024647Z">
+        <seg>当父 CoordinatorLayout 即将测量给定的子 view 时调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8739,6 +9067,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当容纳该 view 的窗体获得或失去焦点时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when the window insets have changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024406Z" creationid="pingfangx" creationdate="20190513T024406Z">
+        <seg>窗口插入更改时调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8991,10 +9327,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Check if a given point in the CoordinatorLayout's coordinates are within the view bounds of the given direct child view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022302Z" creationid="pingfangx" creationdate="20190513T022302Z">
+        <seg>检查 CoordinatorLayout 坐标中的给定点是否在给定直接子 view 的 view 范围内。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Check if the RecyclerView is configured to clip child views to its padding.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>检查 RecyclerView 是否配置为将子 view 剪切到它的 padding。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Check whether two views overlap each other.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022201Z" creationid="pingfangx" creationdate="20190513T022201Z">
+        <seg>检查两个 view 是否相互重叠。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9039,6 +9391,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Child views can opt to be pinned in space globally.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034014Z" creationid="pingfangx" creationdate="20190513T034014Z">
+        <seg>子 view 可以选择在全局空间中固定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Child views can opt to be scrolled within this layout in a parallax fashion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033950Z" creationid="pingfangx" creationdate="20190513T033950Z">
+        <seg>子 view 可以选择在 view 布局内以视差方式滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Children can specify &lt;c0&gt;&lt;a1&gt;insetEdge&lt;/a1&gt;&lt;/c0&gt; to describe how the view insets the CoordinatorLayout.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102825Z" creationid="pingfangx" creationdate="20190412T102825Z">
@@ -9051,6 +9419,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102701Z" creationid="pingfangx" creationdate="20190412T102701Z">
         <seg>CoordinatorLayout 的子节点可能具有 &lt;c0&gt;&lt;a1&gt;anchor&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Children should provide their desired scrolling behavior through &lt;c0&gt;&lt;a1&gt;setScrollFlags(int)&lt;/a1&gt;&lt;/c0&gt; and the associated layout xml attribute: &lt;c2&gt;app:layout_scrollFlags&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T030857Z" creationid="pingfangx" creationdate="20190513T030857Z">
+        <seg>children 应该通过 &lt;c0&gt;&lt;a1&gt;setScrollFlags(int)&lt;/a1&gt;&lt;/c0&gt; 和相关的布局 xml 属性：&lt;c2&gt;app:layout_scrollFlags&lt;/c2&gt; 来提供他们想要的滚动行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9203,6 +9579,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072205Z" creationid="pingfangx" creationdate="20180925T072205Z">
         <seg>冷启动发生的情况，比如自设备启动以来或自系统终止应用程序以来，首次启动应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Collapsing title</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033757Z" creationid="pingfangx" creationdate="20190513T033757Z">
+        <seg>折叠标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CollapsingToolbarLayout contains the following features:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033754Z" creationid="pingfangx" creationdate="20190513T033754Z">
+        <seg>CollapsingToolbarLayout 包含以下功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CollapsingToolbarLayout is a wrapper for &lt;c0&gt;&lt;a1&gt;Toolbar&lt;/a1&gt;&lt;/c0&gt; which implements a collapsing app bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T083614Z" creationid="pingfangx" creationdate="20190513T033746Z">
+        <seg>CollapsingToolbarLayout 是 &lt;c0&gt;&lt;a1&gt;Toolbar&lt;/a1&gt;&lt;/c0&gt; 的包装，它实现了折叠应用栏(collapsing app bar)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9599,6 +9999,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Content scrim</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T084216Z" creationid="pingfangx" creationdate="20190513T033835Z">
+        <seg>内容 scrim</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Contrast with &lt;e3&gt;Position.&lt;/e3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T024256Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9635,6 +10043,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>便捷方法以滚动一定的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conversely, if its bottom 75% is visible then it will be scrolled fully into view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040819Z" creationid="pingfangx" creationdate="20190513T040819Z">
+        <seg>相反，如果它的底部 75％是可见的，那么它将完全滚动到 view 中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9697,8 +10113,8 @@
       <tuv lang="EN-US">
         <seg>CoordinatorLayout is a super-powered &lt;c0&gt;&lt;a1&gt;FrameLayout&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102204Z" creationid="pingfangx" creationdate="20190412T102204Z">
-        <seg>CoordinatorLayout 是一个 super-powered &lt;c0&gt;&lt;a1&gt;FrameLayout&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T015458Z" creationid="pingfangx" creationdate="20190412T102204Z">
+        <seg>CoordinatorLayout 是一个超级强力的(super-powered) &lt;c0&gt;&lt;a1&gt;FrameLayout&lt;/a1&gt;&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10167,6 +10583,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Default constructor for inflating Behaviors from layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024058Z" creationid="pingfangx" creationdate="20190513T024058Z">
+        <seg>用于从布局中扩展行为的默认构造函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default constructor for instantiating Behaviors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024052Z" creationid="pingfangx" creationdate="20190513T024052Z">
+        <seg>用于实例化行为的默认构造函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Define Custom Attributes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042227Z" creationid="pingfangx" creationdate="20181205T042227Z">
@@ -10251,6 +10683,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>定义一个未设置的 id。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defines the default attached &lt;c0&gt;&lt;a1&gt;CoordinatorLayout.Behavior&lt;/a1&gt;&lt;/c0&gt; of a &lt;c2&gt;&lt;a3&gt;View&lt;/a3&gt;&lt;/c2&gt; class</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022537Z" creationid="pingfangx" creationdate="20190513T022537Z">
+        <seg>定义 &lt;c2&gt;&lt;a3&gt;View&lt;/a3&gt;&lt;/c2&gt; 类的默认附加 &lt;c0&gt;&lt;a1&gt;CoordinatorLayout.Behavior&lt;/a1&gt;&lt;/c0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10791,6 +11231,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Determine the current opacity of the scrim behind a given child view</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024321Z" creationid="pingfangx" creationdate="20190513T024321Z">
+        <seg>确定给定子 view 后面的稀松布的当前不透明度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Determine whether interaction with views behind the given child in the child order should be blocked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024248Z" creationid="pingfangx" creationdate="20190513T024248Z">
+        <seg>确定是否应阻止 child 顺序中给定 child 后面的 view 的交互。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Determine whether the supplied child view has another specific sibling view as a layout dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024356Z" creationid="pingfangx" creationdate="20190513T024356Z">
+        <seg>确定提供的子 view 是否具有另一个特定的兄弟 view 作为布局依赖性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Determines the validity of the supplied LayoutParams object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10947,6 +11411,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>尺寸约束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Disable scrolling on the view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035955Z" creationid="pingfangx" creationdate="20190513T035955Z">
+        <seg>禁用 view 上的滚动。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12351,6 +12823,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if the view only has its bottom 25% displayed, it will be scrolled off screen completely.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040809Z" creationid="pingfangx" creationdate="20190513T040809Z">
+        <seg>例如，如果 view 仅显示其底部 25％，则它将完全滚出屏幕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if we have something like:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13135,10 +13615,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Get the behavior governing the layout and interaction of the child view within a parent CoordinatorLayout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023148Z" creationid="pingfangx" creationdate="20190513T023148Z">
+        <seg>获取管理父 viewCoordinatorLayout 中子 view 的布局和交互的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Get the behavior-specific tag object with the given child view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024344Z" creationid="pingfangx" creationdate="20190513T024344Z">
+        <seg>使用给定的子 view 获取特定于行为的标记对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Get the id of this view's anchor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023201Z" creationid="pingfangx" creationdate="20190513T023139Z">
+        <seg>获取此 view 的锚点 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gets the current ItemAnimator for this RecyclerView.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>获取当前 RecyclerView 的 ItemAnimator。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the drawable used to draw in the insets area for the status bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022247Z" creationid="pingfangx" creationdate="20190513T022247Z">
+        <seg>获取用于在状态栏的 insets 区域中绘制的 drawable。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13443,6 +13955,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Home</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hook allowing a behavior to re-apply a representation of its internal state that had previously been generated by &lt;c0&gt;&lt;a1&gt;onSaveInstanceState(CoordinatorLayout, V)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024856Z" creationid="pingfangx" creationdate="20190513T024856Z">
+        <seg>钩子允许行为重新应用之前由 &lt;c0&gt;&lt;a1&gt;onSaveInstanceState(CoordinatorLayout, V)&lt;/a1&gt;&lt;/c0&gt; 生成的内部状态的表示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13775,6 +14295,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If an &lt;c0&gt;&lt;a1&gt;anchor&lt;/a1&gt;&lt;/c0&gt; is present the keyline will be ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023653Z" creationid="pingfangx" creationdate="20190513T023653Z">
+        <seg>如果存在 &lt;c0&gt;&lt;a1&gt;anchor&lt;/a1&gt;&lt;/c0&gt;，则将忽略 keyline。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an &lt;c6&gt;&lt;a7&gt;anchor&lt;/a7&gt;&lt;/c6&gt; is also specified, the gravity describes how this child view should be positioned relative to its anchored position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023613Z" creationid="pingfangx" creationdate="20190513T023613Z">
+        <seg>如果还指定了 &lt;c6&gt;&lt;a7&gt;anchor&lt;/a7&gt;&lt;/c6&gt;，则 gravity 描述了此子 view 相对于其锚定位置的定位方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If an instance is passed to &lt;c0&gt;&lt;a1&gt;setOnPartialImageListener&lt;/a1&gt;&lt;/c0&gt;, a &lt;c2&gt;&lt;a3&gt;DecodeException&lt;/a3&gt;&lt;/c2&gt; that would otherwise have been thrown can be inspected inside &lt;c4&gt;&lt;a5&gt;onPartialImage&lt;/a5&gt;&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T035611Z" creationid="pingfangx" creationdate="20180925T035611Z">
@@ -13787,6 +14323,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104811Z" creationid="pingfangx" creationdate="20180427T104811Z">
         <seg>如果 finalize 方法引发未捕获的异常，则忽略该异常，并终止该对象的终止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If any sibling views before this one do not have this flag, then this value has no effect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040758Z" creationid="pingfangx" creationdate="20190513T040758Z">
+        <seg>如果在此之前的任何兄弟 view 没有此标志，则此值无效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13827,6 +14371,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果 &lt;c0&gt;&lt;a1&gt;requestLayout()&lt;/a1&gt;&lt;/c0&gt; 或者 &lt;c2&gt;&lt;a3&gt;invalidate()&lt;/a3&gt;&lt;/c2&gt; 被调用，框架将负责计算、布局及绘制适当的 view 树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If either or both of the axes are not specified, they are treated by CoordinatorLayout as &lt;c2&gt;&lt;a3&gt;TOP&lt;/a3&gt;&lt;/c2&gt; or &lt;c4&gt;&lt;a5&gt;START&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023557Z" creationid="pingfangx" creationdate="20190513T023557Z">
+        <seg>如果未指定其中一个或两个轴，则 CoordinatorLayout 将它们视为 &lt;c2&gt;&lt;a3&gt;TOP&lt;/a3&gt;&lt;/c2&gt; 或 &lt;c4&gt;&lt;a5&gt;START&lt;/a5&gt;&lt;/c4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14007,6 +14559,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If set to true, the &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; will animate to the lifted, or elevated, state when content is scrolled beneath it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T032618Z" creationid="pingfangx" creationdate="20190513T032618Z">
+        <seg>如果设置为 true，则 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 将动画到 lifted 或 elevated 状态，当其下方内容滚动时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If set to true, the decoder will return null (no bitmap), but the out...</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101834Z" creationid="pingfangx" creationdate="20180408T101825Z">
@@ -14035,6 +14595,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T095110Z" creationid="pingfangx" creationdate="20190215T095110Z">
         <seg>如果设置，系统条将以透明背景绘制，并且此窗口中的相应区域将填充 &lt;c0&gt;&lt;a1&gt;Window.getStatusBarColor()&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;Window.getNavigationBarColor()&lt;/a3&gt;&lt;/c2&gt; 指定的颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, the view will be snapped to its top and bottom margins, as opposed to the edges of the view itself.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040844Z" creationid="pingfangx" creationdate="20190513T040844Z">
+        <seg>如果设置，view 将捕捉到其顶部和底部边距，而不是 view 的边缘。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14739,6 +15307,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果你为 view 设置了一个背景 drawable，view 将在回调 &lt;c0&gt;onDraw()&lt;/c0&gt; 之前绘制背景。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you use AppBarLayout within a different &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt;, most of its functionality will not work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T030945Z" creationid="pingfangx" creationdate="20190513T030945Z">
+        <seg>如果您在不同的 &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt; 中使用 AppBarLayout，则其大部分功能将无效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16039,6 +16615,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Interaction behavior plugin for child views of &lt;c0&gt;&lt;a1&gt;CoordinatorLayout&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023941Z" creationid="pingfangx" creationdate="20190513T023941Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;CoordinatorLayout&lt;/a1&gt;&lt;/c0&gt; 子 view 的交互行为插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Interface definition for a callback to be invoked when an &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt;'s vertical offset changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031418Z" creationid="pingfangx" creationdate="20190513T031418Z">
+        <seg>当 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 的垂直偏移发生变化时要调用的回调的接口定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Interface for changing the default settings of a decode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T073915Z" creationid="pingfangx" creationdate="20180921T073915Z">
@@ -16223,6 +16815,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is designed to be used as a direct child of a &lt;c2&gt;&lt;a3&gt;AppBarLayout&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033752Z" creationid="pingfangx" creationdate="20190513T033752Z">
+        <seg>它被设计为用作 &lt;c2&gt;&lt;a3&gt;AppBarLayout&lt;/a3&gt;&lt;/c2&gt; 的直接子项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is guaranteed, however, that the thread that invokes finalize will not be holding any user-visible synchronization locks when finalize is invoked.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104759Z" creationid="pingfangx" creationdate="20180427T104759Z">
@@ -16291,6 +16891,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>它尽最大努力将 view 限制在当前位置，同时允许灵活性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It may not be the child view with this LayoutParams or a descendant of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023749Z" creationid="pingfangx" creationdate="20190513T023749Z">
+        <seg>它可能不是具有此 LayoutParams 或其后代的子 view。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17151,6 +17759,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Must be non-null.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022615Z" creationid="pingfangx" creationdate="20190513T022615Z">
+        <seg>必须为非 null。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Mutable Bitmaps are also incompatible with &lt;c0&gt;&lt;a1&gt;decodeDrawable&lt;/a1&gt;&lt;/c0&gt;, which would require retrieving the Bitmap from the returned Drawable in order to modify.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084757Z" creationid="pingfangx" creationdate="20180921T084757Z">
@@ -17687,6 +18303,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Null indicates 'normal' 1-to-1 scrolling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040933Z" creationid="pingfangx" creationdate="20190513T040933Z">
+        <seg>Null 表示“正常”的 1 对 1 滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Nullable</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17771,6 +18395,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072623Z" creationid="pingfangx" creationdate="20180925T072623Z">
         <seg>应用程序进程完成第一次绘制后，系统进程会交换当前显示的背景窗口，将其替换为主 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once the scrolling view has reached the end of it's scroll range, the remainder of this view will be scrolled into view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040709Z" creationid="pingfangx" creationdate="20190513T040612Z">
+        <seg>当滚动 view 到达滚动范围的末尾后，此 view 的其余部分将滚动到 view 中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17951,6 +18583,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other child views which are set to dodge the same inset edges will be moved appropriately so that the views do not overlap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023625Z" creationid="pingfangx" creationdate="20190513T023625Z">
+        <seg>设置为躲避相同插入边缘的其他子 view 将被适当移动，以使 view 不重叠。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other fields start with a lower case letter.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18087,6 +18727,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Parallax scrolling children</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T084315Z" creationid="pingfangx" creationdate="20190513T033944Z">
+        <seg>视差滚动 children</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Parameterized constructor that takes the view inflation parameters (parameters defined in the XML).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18099,6 +18747,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parameters describing the desired layout for a child of a &lt;c0&gt;&lt;a1&gt;CoordinatorLayout&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022657Z" creationid="pingfangx" creationdate="20190513T022657Z">
+        <seg>描述 &lt;c0&gt;&lt;a1&gt;CoordinatorLayout&lt;/a1&gt;&lt;/c0&gt; 的子项的所需布局的参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18195,6 +18851,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T080527Z" creationid="pingfangx" creationdate="20181205T080527Z">
         <seg>PieChart 有子 view，但它从不测量它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pinned position children</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T084340Z" creationid="pingfangx" creationdate="20190513T034004Z">
+        <seg>固定 children 位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -18347,6 +19011,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034557Z" creationid="pingfangx" creationdate="20181205T034557Z">
         <seg>提供适用于 Android XML 布局的自定义 styleable 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Providing null will disable the scrim functionality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033618Z" creationid="pingfangx" creationdate="20190513T033618Z">
+        <seg>提供 null 将禁用稀松布功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18655,6 +19327,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Regarding the Dark Theme elevation overlays, it's important to note that the Material &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; component also provides elevation overlay support, and operates under the assumption that the child &lt;c2&gt;Toolbar&lt;/c2&gt; does not have a background.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034213Z" creationid="pingfangx" creationdate="20190513T034213Z">
+        <seg>关于 Dark Theme 高程叠加，重要的是要注意 Material &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 组件还提供高程覆盖支持，并在假设子 &lt;c2&gt;Toolbar&lt;/c2&gt; 没有背景。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Register a listener that will be notified whenever a child view is attached to or detached from RecyclerView.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -18779,6 +19459,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065129Z" creationid="pingfangx" creationdate="20181220T065129Z">
         <seg>移除调试符号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove the previously added &lt;c0&gt;&lt;a1&gt;AppBarLayout.OnOffsetChangedListener&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031651Z" creationid="pingfangx" creationdate="20190513T031651Z">
+        <seg>移除以前添加的 &lt;c0&gt;&lt;a1&gt;AppBarLayout.OnOffsetChangedListener&lt;/a1&gt;&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18927,6 +19615,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Requires `app:layout_behavior="@string/appbar_scrolling_view_behavior` to be set on the scrolling sibling (e.g., `NestedScrollView`, `RecyclerView`, etc.).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033537Z" creationid="pingfangx" creationdate="20190513T033537Z">
+        <seg>需要在滚动的同级上(例如，`NestedScrollView`，`RecyclerView` 等)设置 `app:layout_behavior="@string/appbar_scrolling_view_behavior`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>RequiresApi</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19027,6 +19723,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061541Z" creationid="pingfangx" creationdate="20181205T061522Z">
         <seg>未解析属性值中的资源引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Respond to CoordinatorLayout touch events after this Behavior has started &lt;c0&gt;&lt;a1&gt;intercepting&lt;/a1&gt;&lt;/c0&gt; them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024915Z" creationid="pingfangx" creationdate="20190513T024915Z">
+        <seg>在此行为开始 &lt;c0&gt;&lt;a1&gt;intercepting&lt;/a1&gt;&lt;/c0&gt; 后，响应 CoordinatorLayout 触摸事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Respond to CoordinatorLayout touch events before they are dispatched to child views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024606Z" creationid="pingfangx" creationdate="20190513T024606Z">
+        <seg>在调度到子 view 之前响应 CoordinatorLayout 触摸事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Respond to a change in a child's dependent view</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024456Z" creationid="pingfangx" creationdate="20190513T024427Z">
+        <seg>响应 child 依赖 view 的变化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Respond to a child's dependent view being removed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024531Z" creationid="pingfangx" creationdate="20190513T024453Z">
+        <seg>响应 child 依赖 view 的移除。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19575,6 +20303,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the &lt;c0&gt;&lt;a1&gt;Interpolator&lt;/a1&gt;&lt;/c0&gt; being used for scrolling the view associated with this &lt;c2&gt;&lt;a3&gt;AppBarLayout.LayoutParams&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040409Z" creationid="pingfangx" creationdate="20190513T040409Z">
+        <seg>返回 &lt;c0&gt;&lt;a1&gt;Interpolator&lt;/a1&gt;&lt;/c0&gt;，用于滚动与此 &lt;c2&gt;&lt;a3&gt;AppBarLayout.LayoutParams&lt;/a3&gt;&lt;/c2&gt; 相关联的 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the View type defined by the adapter.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19647,6 +20383,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the behavior associated with the matching &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022604Z" creationid="pingfangx" creationdate="20190513T022604Z">
+        <seg>返回与匹配的 &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; 类关联的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the bottom edge of the given child view within its parent, offset by any applied &lt;c0&gt;&lt;a1&gt;ItemDecorations&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19695,6 +20439,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the drawable which is used for the status bar foreground.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031631Z" creationid="pingfangx" creationdate="20190513T031631Z">
+        <seg>返回用于状态栏前景的 drawable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the final span index of the provided position.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19707,6 +20459,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回该注解的哈希码，定义如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the id of the view that the &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; should use to determine whether it should be lifted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031616Z" creationid="pingfangx" creationdate="20190513T031616Z">
+        <seg>返回 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 应该用于确定是否应该提升的 view 的 id。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19755,6 +20515,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回给定的子 view 的左边，偏移自任何应用的 &lt;c0&gt;&lt;a1&gt;ItemDecorations&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the list of views which depend on the provided view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022226Z" creationid="pingfangx" creationdate="20190513T022226Z">
+        <seg>返回依赖于提供的 view 的 view 列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the list of views which the provided view depends on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022214Z" creationid="pingfangx" creationdate="20190513T022214Z">
+        <seg>返回提供的 view 所依赖的 view 列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19863,6 +20639,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the parallax scroll multiplier used in conjunction with &lt;c0&gt;&lt;a1&gt;COLLAPSE_MODE_PARALLAX&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035321Z" creationid="pingfangx" creationdate="20190513T035321Z">
+        <seg>返回与 &lt;c0&gt;&lt;a1&gt;COLLAPSE_MODE_PARALLAX&lt;/a1&gt;&lt;/c0&gt; 一起使用的视差滚动乘数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the path's convexity, as defined by the content of the path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065042Z" creationid="pingfangx" creationdate="20181221T065042Z">
@@ -19887,6 +20671,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the requested collapse mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035312Z" creationid="pingfangx" creationdate="20190513T035312Z">
+        <seg>返回请求的折叠模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the resolved layout direction for this RecyclerView.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19907,6 +20699,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095742Z" creationid="pingfangx" creationdate="20180427T095742Z">
         <seg>返回此 &lt;c0&gt;Object&lt;/c0&gt; 的运行时类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the scroll range of all children.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031635Z" creationid="pingfangx" creationdate="20190513T031635Z">
+        <seg>返回所有子项的滚动范围。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the scrolling flags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040354Z" creationid="pingfangx" creationdate="20190513T040354Z">
+        <seg>返回滚动标志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20155,6 +20963,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回 &lt;c0&gt;&lt;a1&gt;getSpanIndex(int, int)&lt;/a1&gt;&lt;/c0&gt; 方法的返回结果是否是缓存的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns whether the &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; lifts on scroll or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031644Z" creationid="pingfangx" creationdate="20190513T031644Z">
+        <seg>返回 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 是否在滚动时抬起。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20431,10 +21247,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;c0&gt;&lt;a1&gt;COLLAPSE_MODE_PARALLAX&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;setParallaxMultiplier(float)&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033955Z" creationid="pingfangx" creationdate="20190513T033955Z">
+        <seg>参见 &lt;c0&gt;&lt;a1&gt;COLLAPSE_MODE_PARALLAX&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;setParallaxMultiplier(float)&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;c0&gt;&lt;a1&gt;scrollBy(int, int)&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;scrollTo(int, int)&lt;/a3&gt;&lt;/c2&gt;, and &lt;c4&gt;&lt;a5&gt;awakenScrollBars()&lt;/a5&gt;&lt;/c4&gt; for more details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>查看更多细节，见 &lt;c0&gt;&lt;a1&gt;scrollBy(int, int)&lt;/a1&gt;&lt;/c0&gt;、 &lt;c2&gt;&lt;a3&gt;scrollTo(int, int)&lt;/a3&gt;&lt;/c2&gt; 及 &lt;c4&gt;&lt;a5&gt;awakenScrollBars()&lt;/a5&gt;&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;c0&gt;&lt;a1&gt;setParallaxMultiplier(float)&lt;/a1&gt;&lt;/c0&gt; to change the multiplier used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035348Z" creationid="pingfangx" creationdate="20190513T035348Z">
+        <seg>参见 &lt;c0&gt;&lt;a1&gt;setParallaxMultiplier(float)&lt;/a1&gt;&lt;/c0&gt; 以更改使用的乘数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;c2&gt;&lt;a3&gt;COLLAPSE_MODE_PIN&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034027Z" creationid="pingfangx" creationdate="20190513T034027Z">
+        <seg>参见 &lt;c2&gt;&lt;a3&gt;COLLAPSE_MODE_PIN&lt;/a3&gt;&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20607,6 +21447,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set a drawable to draw in the insets area for the status bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022357Z" creationid="pingfangx" creationdate="20190513T022357Z">
+        <seg>设置 drawable 以在状态栏的 insets 区域中绘制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set a guideline's distance to end.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20727,6 +21575,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the behavior governing the layout and interaction of the child view within a parent CoordinatorLayout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023213Z" creationid="pingfangx" creationdate="20190513T023213Z">
+        <seg>在父 CoordinatorLayout 中设置管理子 view 的布局和交互的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the collapse mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035324Z" creationid="pingfangx" creationdate="20190513T035324Z">
+        <seg>设置折叠模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the color to use for the status bar foreground.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031811Z" creationid="pingfangx" creationdate="20190513T031811Z">
+        <seg>设置用于状态栏前景的颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the drawable to use for the status bar foreground drawable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031807Z" creationid="pingfangx" creationdate="20190513T031807Z">
+        <seg>将 drawable 设置为用于状态栏前景 drawable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the drawable to use for the status bar foreground from resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031820Z" creationid="pingfangx" creationdate="20190513T031820Z">
+        <seg>将 drawable 设置为用于资源的状态栏前景。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the element's "android:resource" attribute to &lt;c6&gt;@xml/file_paths&lt;/c6&gt; (notice that you don't specify the &lt;c7&gt;.xml&lt;/c7&gt; extension).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20747,6 +21635,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>设置 guideline 距顶边或左边的距离。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the id of this view's anchor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023155Z" creationid="pingfangx" creationdate="20190513T023155Z">
+        <seg>设置此 view 的锚点的 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the interpolator to when scrolling the view associated with this &lt;c0&gt;&lt;a1&gt;AppBarLayout.LayoutParams&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040459Z" creationid="pingfangx" creationdate="20190513T040459Z">
+        <seg>设置滚动与此 &lt;c0&gt;&lt;a1&gt;AppBarLayout.LayoutParams&lt;/a1&gt;&lt;/c0&gt; 关联的 view 时使用的插值器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20791,6 +21695,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the parallax scroll multiplier used in conjunction with &lt;c0&gt;&lt;a1&gt;COLLAPSE_MODE_PARALLAX&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035344Z" creationid="pingfangx" creationdate="20190513T035344Z">
+        <seg>设置与 &lt;c0&gt;&lt;a1&gt;COLLAPSE_MODE_PARALLAX&lt;/a1&gt;&lt;/c0&gt; 一起使用的视差滚动乘数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the path's fill type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065228Z" creationid="pingfangx" creationdate="20181221T065228Z">
@@ -20803,6 +21715,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>设置该 view 的滚动位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the scrolling flags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040412Z" creationid="pingfangx" creationdate="20190513T040412Z">
+        <seg>设置滚动标志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20943,6 +21863,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sets the id of the view that the &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; should use to determine whether it should be lifted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031752Z" creationid="pingfangx" creationdate="20190513T031752Z">
+        <seg>设置 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 应该用于确定是否应该提升的 view 的 id。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sets the last point of the path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065232Z" creationid="pingfangx" creationdate="20181221T065232Z">
@@ -20999,10 +21927,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sets whether the &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; is in a lifted state or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031804Z" creationid="pingfangx" creationdate="20190513T031804Z">
+        <seg>设置 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 是否处于提升状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets whether the &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; is liftable or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031756Z" creationid="pingfangx" creationdate="20190513T031756Z">
+        <seg>设置 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 是否可升降。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets whether the &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; lifts on scroll or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031745Z" creationid="pingfangx" creationdate="20190513T031745Z">
+        <seg>设置 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; 是否在滚动时提升。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sets whether the results of &lt;c0&gt;&lt;a1&gt;getSpanIndex(int, int)&lt;/a1&gt;&lt;/c0&gt; method should be cached or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>设置 &lt;c0&gt;&lt;a1&gt;getSpanIndex(int, int)&lt;/a1&gt;&lt;/c0&gt; 方法的结果是否是缓存的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets whether this &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; is expanded or not, animating if it has already been laid out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031739Z" creationid="pingfangx" creationdate="20190513T031739Z">
+        <seg>设置是否展开此 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt;，如果已经布局，则会进行动画。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets whether this &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt; is expanded or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T032215Z" creationid="pingfangx" creationdate="20190513T031656Z">
+        <seg>设置是否展开 &lt;c0&gt;&lt;a1&gt;AppBarLayout&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting a new behavior will remove any currently associated &lt;c0&gt;&lt;a1&gt;Behavior tag&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023757Z" creationid="pingfangx" creationdate="20190513T023757Z">
+        <seg>设置新行为将移除任何当前关联的 &lt;c0&gt;&lt;a1&gt;Behavior tag&lt;/a1&gt;&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21591,6 +22567,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Status bar scrim</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T084243Z" creationid="pingfangx" creationdate="20190513T033917Z">
+        <seg>状态栏稀 scrim</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Stop a nested scroll in progress.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21795,6 +22779,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Summary: &lt;a0&gt;Nested Classes&lt;/a0&gt; | &lt;a1&gt;Inherited Methods&lt;/a1&gt; | &lt;a2&gt;[Expand All]&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Supply a scrim color that will be painted behind the associated child view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024313Z" creationid="pingfangx" creationdate="20190513T024313Z">
+        <seg>提供将在相关子 view 后面绘制的稀松布颜色。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22503,6 +23495,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The behavior associated with the matching &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022612Z" creationid="pingfangx" creationdate="20190513T022612Z">
+        <seg>与匹配 &lt;c0&gt;&lt;a1&gt;View&lt;/a1&gt;&lt;/c0&gt; 类关联的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The binding is done through the &lt;c0&gt;&lt;a1&gt;AppBarLayout.ScrollingViewBehavior&lt;/a1&gt;&lt;/c0&gt; behavior class, meaning that you should set your scrolling view's behavior to be an instance of &lt;c2&gt;&lt;a3&gt;AppBarLayout.ScrollingViewBehavior&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031030Z" creationid="pingfangx" creationdate="20190513T031030Z">
+        <seg>绑定是通过 &lt;c0&gt;&lt;a1&gt;AppBarLayout.ScrollingViewBehavior&lt;/a1&gt;&lt;/c0&gt; 行为类完成的，这意味着您应该将滚动 view 的行为设置为 &lt;c2&gt;&lt;a3&gt;AppBarLayout.ScrollingViewBehavior&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The bitmap can be repeated or mirrored by setting the tiling mode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094947Z" creationid="pingfangx" creationdate="20180427T094947Z">
@@ -22639,6 +23647,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The collapsed height is defined by the view's minimum height.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040621Z" creationid="pingfangx" creationdate="20190513T040621Z">
+        <seg>折叠高度由 view 的最小高度定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The color is specified with an RGB value and alpha channel.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T063155Z" creationid="pingfangx" creationdate="20181107T063155Z">
@@ -22667,6 +23683,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>示例中对应的源码是 &lt;c0&gt;List4.java&lt;/c0&gt; 和 &lt;c1&gt;List6.java&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The current behavior or null if no behavior is specified</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023657Z" creationid="pingfangx" creationdate="20190513T023657Z">
+        <seg>当前行为，如果未指定行为，则为 null</seg>
       </tuv>
     </tu>
     <tu>
@@ -22715,6 +23739,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093744Z" creationid="pingfangx" creationdate="20180920T093744Z">
         <seg>解码的位图，如果无法解码图像数据，则为 null。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default &lt;c0&gt;&lt;a1&gt;AppBarLayout.Behavior&lt;/a1&gt;&lt;/c0&gt; for &lt;c2&gt;&lt;a3&gt;AppBarLayout&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031356Z" creationid="pingfangx" creationdate="20190513T031356Z">
+        <seg>&lt;c2&gt;&lt;a3&gt;AppBarLayout&lt;/a3&gt;&lt;/c2&gt; 的默认 &lt;c0&gt;&lt;a1&gt;AppBarLayout.Behavior&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default behavior can be overridden using &lt;c2&gt;&lt;a3&gt;setBehavior(CoordinatorLayout.Behavior)&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022559Z" creationid="pingfangx" creationdate="20190513T022559Z">
+        <seg>可以使用 &lt;c2&gt;&lt;a3&gt;setBehavior(CoordinatorLayout.Behavior)&lt;/a3&gt;&lt;/c2&gt; 覆盖默认行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23195,6 +24235,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回匹配的初始索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The index of the horizontal keyline specified to the parent CoordinatorLayout that this child should align relative to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022951Z" creationid="pingfangx" creationdate="20190513T022951Z">
+        <seg>指向此子项应相对的父 CoordinatorLayout 的水平 keyline 的索引。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24119,6 +25167,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The title appearance can be tweaked via the &lt;c2&gt;collapsedTextAppearance&lt;/c2&gt; and &lt;c3&gt;expandedTextAppearance&lt;/c3&gt; attributes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T083904Z" creationid="pingfangx" creationdate="20190513T033828Z">
+        <seg>可以通过 &lt;c2&gt;collapsedTextAppearance&lt;/c2&gt; 和 &lt;c3&gt;expandedTextAppearance&lt;/c3&gt; 属性来调整标题外观。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The top margin to use when the target is gone.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24251,6 +25307,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>视图检查器通过用实线链接相应的边来指示设置为比率。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The view will act as normal with no collapsing behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035233Z" creationid="pingfangx" creationdate="20190513T035233Z">
+        <seg>view 将正常工作，没有折叠行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The view will be scroll in direct relation to scroll events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040024Z" creationid="pingfangx" creationdate="20190513T040024Z">
+        <seg>view 将与滚动事件直接相关地滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The view will pin in place until it reaches the bottom of the &lt;c0&gt;&lt;a1&gt;CollapsingToolbarLayout&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035259Z" creationid="pingfangx" creationdate="20190513T035259Z">
+        <seg>view 将固定位置，直到它到达 &lt;c0&gt;&lt;a1&gt;CollapsingToolbarLayout&lt;/a1&gt;&lt;/c0&gt; 的底部。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The view will scroll in a parallax fashion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035242Z" creationid="pingfangx" creationdate="20190513T035242Z">
+        <seg>view 将以视差方式滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The view with this id must be a descendant of the CoordinatorLayout containing the child view this LayoutParams belongs to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023732Z" creationid="pingfangx" creationdate="20190513T023732Z">
+        <seg>具有此 id 的 view 必须是包含此 LayoutParams 所属的子 view 的 CoordinatorLayout 的后代。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24615,6 +25711,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These interactions may include drags, swipes, flings, or any other gestures.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024048Z" creationid="pingfangx" creationdate="20190513T024048Z">
+        <seg>这些交互可能包括拖动(drag)，滑动(swipe)，抛掷(fling)或任何其他手势。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These issues chiefly concern initializing app and activity objects, as well as the loading of screens.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081718Z" creationid="pingfangx" creationdate="20180925T081718Z">
@@ -24895,6 +25999,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can interfere with any views which you add.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034048Z" creationid="pingfangx" creationdate="20190513T034048Z">
+        <seg>这可能会干扰您添加的任何 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can result in using a significant amount of memory since fragment instances can hold on to an arbitrary amount of state.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25136,6 +26248,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This flag needs to be set for any of the other flags to take effect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040732Z" creationid="pingfangx" creationdate="20190513T040732Z">
+        <seg>需要设置此标志才能使任何其他标志生效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This flag should not be combined with any of the other scroll flags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040716Z" creationid="pingfangx" creationdate="20190513T040716Z">
+        <seg>此标志不应与任何其他滚动标志组合使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This gesture makes sense if the UI responds by moving quickly in the direction of the fling, then slowing down, as if the user had pushed on a flywheel and set it spinning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073124Z" creationid="pingfangx" creationdate="20181205T073124Z">
@@ -25300,6 +26428,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当 view 从窗口移队时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is commonly referred to as the 'quick return' pattern.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040533Z" creationid="pingfangx" creationdate="20190513T040533Z">
+        <seg>这通常被称为“快速返回”模式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25512,6 +26648,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is useful when implementing a collapsing as it allows the &lt;c0&gt;&lt;a1&gt;Toolbar&lt;/a1&gt;&lt;/c0&gt; to be fixed in place even though this layout is moving.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034024Z" creationid="pingfangx" creationdate="20190513T034024Z">
+        <seg>这在实现折叠时非常有用，因为它允许将 &lt;c0&gt;&lt;a1&gt;Toolbar&lt;/a1&gt;&lt;/c0&gt; 固定到位，即使此布局正在移动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is usually used for methods that have no side effect, so calling it without actually looking at the result usually means the developer has misunderstood what the method does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25604,6 +26748,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T100944Z" creationid="pingfangx" creationdate="20190215T100944Z">
         <seg>这意味着在那里看到的 insets 总是代表应用程序可以期望作为连续状态的最坏情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This method is called whenever a dependent view changes in size or position outside of the standard layout flow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024438Z" creationid="pingfangx" creationdate="20190513T024438Z">
+        <seg>只要从属 view 的大小或位置在标准布局流程之外发生变化，就会调用此方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25704,6 +26856,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This method was deprecated in API level 26.1.0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024739Z" creationid="pingfangx" creationdate="20190513T024739Z">
+        <seg>此方法在 API 级别 26.1.0 中已弃用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This method will be called after &lt;c0&gt;&lt;a1&gt;onStartNestedScroll&lt;/a1&gt;&lt;/c0&gt; returns true.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190415T034716Z" creationid="pingfangx" creationdate="20190415T034716Z">
@@ -25760,6 +26920,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This method will still continue to be called if the type is &lt;c2&gt;&lt;a3&gt;TYPE_TOUCH&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024749Z" creationid="pingfangx" creationdate="20190513T024749Z">
+        <seg>如果类型为 &lt;c2&gt;&lt;a3&gt;TYPE_TOUCH&lt;/a3&gt;&lt;/c2&gt;，则仍将继续调用此方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This method's parameters are &lt;c2&gt;&lt;a3&gt;View.MeasureSpec&lt;/a3&gt;&lt;/c2&gt; values that tell you how big your view's parent wants your view to be, and whether that size is a hard maximum or just a suggestion.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070201Z" creationid="pingfangx" creationdate="20181205T070201Z">
@@ -25780,6 +26948,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这为应用程序提供了机会，可以使用动画属性来自定义转换效果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This only works on &lt;c2&gt;&lt;a3&gt;LOLLIPOP&lt;/a3&gt;&lt;/c2&gt; devices when we set to fit system windows.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033939Z" creationid="pingfangx" creationdate="20190513T033939Z">
+        <seg>当我们设置为适合系统窗口时，这仅适用于 &lt;c2&gt;&lt;a3&gt;LOLLIPOP&lt;/a3&gt;&lt;/c2&gt; 设备。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25828,6 +27004,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这样做可以节省 LayoutManager 在追踪 adapter 的改变以计算动画时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This scrim is only shown when we have been given a top system inset.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033642Z" creationid="pingfangx" creationdate="20190513T033642Z">
+        <seg>这个稀松布只在我们获得顶级系统内插时显示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26004,6 +27188,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当有大量页面时，这个版本的 pager 更有用，它工作更像 list view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This view depends heavily on being used as a direct child within a &lt;c0&gt;&lt;a1&gt;CoordinatorLayout&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T030921Z" creationid="pingfangx" creationdate="20190513T030921Z">
+        <seg>此 view 在很大程度上取决于在 &lt;c0&gt;&lt;a1&gt;CoordinatorLayout&lt;/a1&gt;&lt;/c0&gt; 中用作直接子项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26460,6 +27652,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100950Z" creationid="pingfangx" creationdate="20180408T100950Z">
         <seg>为了得到更好的结果，应该应用 dithering。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To get started with the &lt;c0&gt;MaterialToolbar&lt;/c0&gt; component, use &lt;c1&gt;com.google.android.material.appbar.MaterialToolbar&lt;/c1&gt; in your layout XML instead of &lt;c2&gt;androidx.appcompat.widget.Toolbar&lt;/c2&gt; or &lt;c3&gt;Toolbar&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034233Z" creationid="pingfangx" creationdate="20190513T034233Z">
+        <seg>要开始使用 &lt;c0&gt;MaterialToolbar&lt;/c0&gt; 组件，请在布局 XML 中使用 &lt;c1&gt;com.google.android.material.appbar.MaterialToolbar&lt;/c1&gt; 而不是 &lt;c2&gt;androidx.appcompat.widget.Toolbar&lt;/c2&gt; 或 &lt;c3&gt;Toolbar&lt;/c3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27024,6 +28224,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Upon a scroll ending, if the view is only partially visible then it will be snapped and scrolled to its closest edge.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040048Z" creationid="pingfangx" creationdate="20190513T040048Z">
+        <seg>在滚动结束时，如果 view 仅部分可见，则它将被捕捉并滚动到其最近的边缘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Usage with BitmapFactory</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103021Z" creationid="pingfangx" creationdate="20180408T103021Z">
@@ -27466,8 +28674,8 @@
       <tuv lang="EN-US">
         <seg>View classes can specify a default behavior when used as a child of a CoordinatorLayout using the &lt;c2&gt;&lt;a3&gt;CoordinatorLayout.DefaultBehavior&lt;/a3&gt;&lt;/c2&gt; annotation.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T102319Z" creationid="pingfangx" creationdate="20190412T102319Z">
-        <seg>使用 &lt;c2&gt;&lt;a3&gt;CoordinatorLayout.DefaultBehavior&lt;/a3&gt;&lt;/c2&gt; 注释时，View 类可以在用作 CoordinatorLayout 的子项时指定默认行为。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T015603Z" creationid="pingfangx" creationdate="20190412T102319Z">
+        <seg>使用 &lt;c2&gt;&lt;a3&gt;CoordinatorLayout.DefaultBehavior&lt;/a3&gt;&lt;/c2&gt; 注解时，View 类可以在用作 CoordinatorLayout 的子项时指定默认 behavior。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27704,6 +28912,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We will add a 'dummy view' to the Toolbar which allows us to work out the available space for the title.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034044Z" creationid="pingfangx" creationdate="20190513T034044Z">
+        <seg>我们将在工具栏中添加一个“虚拟 view”，以便我们计算出标题的可用空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Wear</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -27884,6 +29100,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当启用时，框架将丢弃收到的触摸事件，不管 view 的窗口是否被其他可见的窗口掩盖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When entering (scrolling on screen) the view will scroll on any downwards scroll event, regardless of whether the scrolling view is also scrolling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035936Z" creationid="pingfangx" creationdate="20190513T035813Z">
+        <seg>当进入(滚入屏幕)时，无论滚动 view 是否也在滚动，view 都将基于任何向下的滚动事件而滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When exiting (scrolling off screen) the view will be scrolled until it is 'collapsed'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035951Z" creationid="pingfangx" creationdate="20190513T035951Z">
+        <seg>退出(滚出屏幕)时，view 将滚动直到“折叠”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28144,6 +29376,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When writing a custom view, implement this interface to return the default behavior when used as a direct child of an &lt;c0&gt;&lt;a1&gt;CoordinatorLayout&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022551Z" creationid="pingfangx" creationdate="20190513T022551Z">
+        <seg>编写自定义 view 时，实现此接口以在用作 &lt;c0&gt;&lt;a1&gt;CoordinatorLayout&lt;/a1&gt;&lt;/c0&gt; 的直接子项时返回默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you add a constraint to both sides of a view (and the view size for the same dimension is either "fixed" or "wrap content"), the view becomes centered between the two constraints with a bias of 50% by default.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -28260,6 +29500,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082402Z" creationid="pingfangx" creationdate="20180925T082402Z">
         <seg>无论问题在于不必要的初始化还是磁盘 I/O，解决方案都会调用延迟初始化对象：仅初始化那些立即需要的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While a &lt;c3&gt;MaterialToolbar&lt;/c3&gt; with a transparent background can be used within an &lt;c4&gt;&lt;a5&gt;AppBarLayout&lt;/a5&gt;&lt;/c4&gt;, in terms of elevation overlays its main value comes into play with the standalone &lt;c6&gt;Toolbar&lt;/c6&gt; case, when using the &lt;c7&gt;Widget.MaterialComponents.Toolbar.Surface&lt;/c7&gt; style with elevation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T034223Z" creationid="pingfangx" creationdate="20190513T034223Z">
+        <seg>虽然具有透明背景的 &lt;c3&gt;MaterialToolbar&lt;/c3&gt; 可以在 &lt;c4&gt;&lt;a5&gt;AppBarLayout&lt;/a5&gt;&lt;/c4&gt; 中使用，但就高程覆盖而言，其主要值与独立 &lt;c6&gt;Toolbar&lt;/c6&gt; 案例，当使用带有高程的 &lt;c7&gt;Widget.MaterialComponents.Toolbar.Surface&lt;/c7&gt; 样式时。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28688,6 +29936,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can change this via &lt;c0&gt;&lt;a1&gt;setContentScrim(Drawable)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033904Z" creationid="pingfangx" creationdate="20190513T033904Z">
+        <seg>您可以通过 &lt;c0&gt;&lt;a1&gt;setContentScrim(Drawable)&lt;/a1&gt;&lt;/c0&gt; 更改此设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can change this via &lt;c0&gt;&lt;a1&gt;setStatusBarScrim(Drawable)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033932Z" creationid="pingfangx" creationdate="20190513T033932Z">
+        <seg>您可以通过 &lt;c0&gt;&lt;a1&gt;setStatusBarScrim(Drawable)&lt;/a1&gt;&lt;/c0&gt; 更改此设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can choose any alias you want for your namespace.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061321Z" creationid="pingfangx" creationdate="20181205T061321Z">
@@ -28852,6 +30116,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>您可以将由 &lt;c6&gt;&lt;a7&gt;getUriForFile()&lt;/a7&gt;&lt;/c6&gt; 返回的 content URI 放到 &lt;c8&gt;&lt;a9&gt;Intent&lt;/a9&gt;&lt;/c8&gt; 中发送给其他应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can set the title to display via &lt;c0&gt;&lt;a1&gt;setTitle(CharSequence)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033821Z" creationid="pingfangx" creationdate="20190513T033821Z">
+        <seg>您可以通过 &lt;c0&gt;&lt;a1&gt;setTitle(CharSequence)&lt;/a1&gt;&lt;/c0&gt; 设置要显示的标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32712,6 +33984,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>true if the lifted state changed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033551Z" creationid="pingfangx" creationdate="20190513T033551Z">
+        <seg>如果提升状态更改，则为 true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>true if the shader has a non-identity local matrix</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094313Z" creationid="pingfangx" creationdate="20180427T094313Z">
@@ -32772,6 +34052,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>它比必要的可见性更广以使代码更可测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>void</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024733Z" creationid="pingfangx" creationdate="20190513T024733Z">
+        <seg>void</seg>
       </tuv>
     </tu>
     <tu>
