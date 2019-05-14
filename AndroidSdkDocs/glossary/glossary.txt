@@ -56,3 +56,5 @@ view	view	视图|
 dimension	尺寸	维度|
 drawing	绘制	绘图|
 override	重写	覆盖|
+inset	内缩	插入|
+listener	监听器	侦听器|

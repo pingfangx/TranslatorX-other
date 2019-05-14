@@ -4909,10 +4909,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt; This interface is deprecated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071133Z" creationid="pingfangx" creationdate="20190514T071133Z">
+        <seg>&lt;e0&gt; 不推荐使用此接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;A branded logo image.&lt;/e0&gt; This may extend to the height of the bar and can be arbitrarily wide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T091853Z" creationid="pingfangx" creationdate="20190514T091317Z">
+        <seg>&lt;e0&gt;一个品牌 logo。&lt;/e0&gt; 这可以延伸到栏的高度，并且可以任意宽。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;A navigation button.&lt;/e0&gt; This may be an Up arrow, navigation menu toggle, close, collapse, done or another glyph of the app's choosing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T091850Z" creationid="pingfangx" creationdate="20190514T090908Z">
+        <seg>&lt;e0&gt;一个导航按钮。&lt;/e0&gt; 这可能是应用程序选择的向上箭头，导航菜单切换，关闭，折叠，完成或其他字形。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;A title and subtitle.&lt;/e0&gt; The title should be a signpost for the Toolbar's current position in the navigation hierarchy and the content contained there.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T091856Z" creationid="pingfangx" creationdate="20190514T091342Z">
+        <seg>&lt;e0&gt;一个标题和子标题。&lt;/e0&gt; 标题应该是工具栏在导航层次结构中当前位置的路标以及其中包含的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;Adapter:&lt;/e0&gt; A subclass of &lt;c1&gt;&lt;a2&gt;RecyclerView.Adapter&lt;/a2&gt;&lt;/c1&gt; responsible for providing views that represent items in a data set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;e0&gt;Adapter:&lt;/e0&gt; &lt;c1&gt;&lt;a2&gt;RecyclerView.Adapter&lt;/a2&gt;&lt;/c1&gt; 的子类，负责提供展示数据集中某条数据的 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;An &lt;c1&gt;&lt;a2&gt;action menu&lt;/a2&gt;&lt;/c1&gt;.&lt;/e0&gt; The menu of actions will pin to the end of the Toolbar offering a few &lt;a3&gt; frequent, important or typical&lt;/a3&gt; actions along with an optional overflow menu for additional actions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092601Z" creationid="pingfangx" creationdate="20190514T092601Z">
+        <seg>&lt;e0&gt;一个 &lt;c1&gt;&lt;a2&gt;操作菜单&lt;/a2&gt;&lt;/c1&gt;。&lt;/e0&gt; 操作菜单将固定到工具栏的末尾，提供一些 &lt;a3&gt; 常用，重要或典型的&lt;/a3&gt; 操作，以及一个可选的溢出菜单，提供其他操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4953,6 +4993,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>&lt;e0&gt;注意：整个 view 树是一个单一的线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;One or more custom views.&lt;/e0&gt; The application may add arbitrary child views to the Toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092028Z" creationid="pingfangx" creationdate="20190514T091817Z">
+        <seg>&lt;e0&gt;一个或多个自定义 view。&lt;/e0&gt; 应用程序可以向工具栏添加任意子 view。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5709,6 +5757,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Toolbar is a generalization of &lt;c0&gt;&lt;a1&gt;action bars&lt;/a1&gt;&lt;/c0&gt; for use within application layouts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T090437Z" creationid="pingfangx" creationdate="20190514T090437Z">
+        <seg>工具栏是 &lt;c0&gt;&lt;a1&gt;action bars&lt;/a1&gt;&lt;/c0&gt; 的泛化，可在应用程序布局中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A URI path segment.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6031,6 +6087,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A primary toolbar within the activity that may display the activity title, application-level navigation affordances, and other interactive items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T065350Z" creationid="pingfangx" creationdate="20190514T065350Z">
+        <seg>activity 中的主工具栏，可显示 activity 标题，应用程序级导航功能和其他交互项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A scrim may be used to indicate that the other elements beneath it are not currently interactive or actionable, drawing user focus and attention to the views above the scrim.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024336Z" creationid="pingfangx" creationdate="20190513T024336Z">
@@ -6051,6 +6115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064042Z" creationid="pingfangx" creationdate="20181220T064042Z">
         <seg>单个枚举可以为应用程序的 &lt;c0&gt;classes.dex&lt;/c0&gt; 文件添加大约 1.0 到 1.4 KB 的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A standard toolbar for use within application content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T090311Z" creationid="pingfangx" creationdate="20190514T090311Z">
+        <seg>用于应用程序内容的标准工具栏。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6223,6 +6295,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Action bar navigation modes are deprecated and not supported by inline toolbar action bars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071153Z" creationid="pingfangx" creationdate="20190514T071153Z">
+        <seg>不建议使用操作栏导航模式，内联工具栏操作栏不支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Action buttons are vertically aligned within the Toolbar's minimum height, if set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092608Z" creationid="pingfangx" creationdate="20190514T092608Z">
+        <seg>如果设置，操作按钮在工具栏的最小高度内垂直对齐。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Activities that use this feature should use one of the supplied &lt;c0&gt;.NoActionBar&lt;/c0&gt; themes, set the &lt;c1&gt;&lt;a2&gt;windowActionBar&lt;/a2&gt;&lt;/c1&gt; attribute to &lt;c3&gt;false&lt;/c3&gt; or otherwise not request the window feature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T070128Z" creationid="pingfangx" creationdate="20190514T070128Z">
+        <seg>使用此功能的 activity 应使用提供的 &lt;c0&gt;.NoActionBar&lt;/c0&gt; 主题之一，将 &lt;c1&gt;&lt;a2&gt;windowActionBar&lt;/a2&gt;&lt;/c1&gt; 属性设置为 &lt;c3&gt;false&lt;/c3&gt; 或不请求窗口功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Activity creation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T073215Z" creationid="pingfangx" creationdate="20180925T073215Z">
@@ -6363,6 +6459,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>添加一个监听器, 作用是当滚动状态 或者 位置发生变化时得到相应的通知。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add a listener that will respond to menu visibility change events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T083040Z" creationid="pingfangx" creationdate="20190514T083040Z">
+        <seg>添加将响应菜单可见性更改事件的监听器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6959,6 +7063,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Although the UI may occupy the same space, the &lt;c2&gt;&lt;a3&gt;ActionMode&lt;/a3&gt;&lt;/c2&gt; APIs are distinct and independent from those for &lt;c4&gt;&lt;a5&gt;ActionBar&lt;/a5&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071016Z" creationid="pingfangx" creationdate="20190514T071016Z">
+        <seg>虽然 UI 可能占用相同的空间，但 &lt;c2&gt;&lt;a3&gt;ActionMode&lt;/a3&gt;&lt;/c2&gt; API 与 &lt;c4&gt;&lt;a5&gt;ActionBar&lt;/a5&gt;&lt;/c4&gt; 的 API 不同且独立。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Although the orientation of a chain is either vertical or horizontal, using one does not align the views in that direction.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7071,6 +7183,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An action view may be expanded either directly from the &lt;c0&gt;&lt;a1&gt;MenuItem&lt;/a1&gt;&lt;/c0&gt; it belongs to or by user action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103509Z" creationid="pingfangx" creationdate="20190514T103509Z">
+        <seg>可以直接从它所属的 &lt;c0&gt;&lt;a1&gt;MenuItem&lt;/a1&gt;&lt;/c0&gt; 或通过用户操作扩展操作 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An additional flag for 'enterAlways' which modifies the returning view to only initially scroll back to it's collapsed height.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035905Z" creationid="pingfangx" creationdate="20190513T035905Z">
@@ -7099,6 +7219,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071422Z" creationid="pingfangx" creationdate="20180925T071422Z">
         <seg>启动时间较慢的应用程序无法满足此预期，并且可能会令用户失望。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An application may choose to designate a Toolbar as the action bar for an Activity using the &lt;c4&gt;&lt;a5&gt;setSupportActionBar()&lt;/a5&gt;&lt;/c4&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T090728Z" creationid="pingfangx" creationdate="20190514T090728Z">
+        <seg>应用程序可以选择使用 &lt;c4&gt;&lt;a5&gt;setSupportActionBar()&lt;/a5&gt;&lt;/c4&gt; 方法将工具栏指定为 activity 的操作栏。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7155,6 +7283,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>不过导入 java 标准库（&lt;c1&gt;java.util.*&lt;/c1&gt;、 &lt;c2&gt;java.io.*&lt;/c2&gt; 等）和单元测试代码 (&lt;c3&gt;junit.framework.*&lt;/c3&gt;）时可以例外。（译注：这里和官方汉化不一致，官方汉化为“在 Java 标准库（java.util.*、java.io.* 等）和单元测试代码 (junit.framework.*) 中创建显式异常。”）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An icon must be set for the navigation button to appear.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T102906Z" creationid="pingfangx" creationdate="20190514T102906Z">
+        <seg>必须设置一个图标才能显示导航按钮。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7647,6 +7783,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Applications that wish to populate the toolbar's menu can do so from here.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103933Z" creationid="pingfangx" creationdate="20190514T103933Z">
+        <seg>希望填充工具栏菜单的应用程序可以从此处执行此操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Apply Custom Attributes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061439Z" creationid="pingfangx" creationdate="20181205T061439Z">
@@ -7699,6 +7843,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Apps and Games</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps using a logo should also supply a description using &lt;c0&gt;&lt;a1&gt;setLogoDescription(int)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104440Z" creationid="pingfangx" creationdate="20190514T104440Z">
+        <seg>使用 logo 的应用也应使用 &lt;c0&gt;&lt;a1&gt;setLogoDescription(int)&lt;/a1&gt;&lt;/c0&gt; 提供说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps wishing to express a stronger branding should use their brand colors heavily in the action bar and other application chrome or use a &lt;c0&gt;&lt;a1&gt;logo&lt;/a1&gt;&lt;/c0&gt; in place of their standard title text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T070606Z" creationid="pingfangx" creationdate="20190514T070606Z">
+        <seg>希望表达更强品牌的应用应在操作栏和其他应用程序 chrome 中大量使用其品牌颜色，或使用 &lt;c0&gt;&lt;a1&gt;logo&lt;/a1&gt;&lt;/c0&gt; 代替其标准标题文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9343,6 +9503,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Check whether the overflow menu is currently showing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094753Z" creationid="pingfangx" creationdate="20190514T094753Z">
+        <seg>检查溢出菜单当前是否显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Check whether this Toolbar is currently hosting an expanded action view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094540Z" creationid="pingfangx" creationdate="20190514T094540Z">
+        <seg>检查此工具栏当前是否包含展开的操作 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Check whether two views overlap each other.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022201Z" creationid="pingfangx" creationdate="20190513T022201Z">
@@ -9583,6 +9759,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Collapse a currently expanded action view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092911Z" creationid="pingfangx" creationdate="20190514T092911Z">
+        <seg>折叠当前展开的操作 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Collapsing title</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033757Z" creationid="pingfangx" creationdate="20190513T033757Z">
@@ -9763,6 +9947,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034523Z" creationid="pingfangx" creationdate="20181205T034523Z">
         <seg>符合 Android 标准</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Consider using other &lt;a0&gt;common navigation patterns&lt;/a0&gt; instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071456Z" creationid="pingfangx" creationdate="20190514T071456Z">
+        <seg>请考虑使用其他 &lt;a0&gt;common navigation patterns&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Consider using other &lt;a1&gt;common navigation patterns&lt;/a1&gt; instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071201Z" creationid="pingfangx" creationdate="20190514T071201Z">
+        <seg>请考虑使用其他 &lt;a1&gt;common navigation patterns&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11327,6 +11527,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Different content insets are often called for when additional buttons are present in the toolbar, as well as at different toolbar sizes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103808Z" creationid="pingfangx" creationdate="20190514T103808Z">
+        <seg>当工具栏中存在其他按钮时，以及不同的工具栏大小时，通常会调用不同的内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DimenRes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11495,6 +11703,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dismiss all currently showing popup menus, including overflow or submenus.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093208Z" creationid="pingfangx" creationdate="20190514T093208Z">
+        <seg>关闭所有当前显示的弹出菜单，包括溢出或子菜单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dispatch a fling to a nested scrolling parent before it is processed by this view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11523,6 +11739,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>分发嵌套滚动过程中的一步滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the 'home' element such that it appears as an 'up' affordance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085800Z" creationid="pingfangx" creationdate="20190514T071322Z">
+        <seg>显示 'home' 元素，使其显示为 'up' 功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11943,6 +12167,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enable hiding the action bar on content scroll.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085850Z" creationid="pingfangx" creationdate="20190514T085850Z">
+        <seg>启用隐藏内容滚动上的操作栏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enable or disable layout and scroll.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -11955,6 +12187,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>启用或禁用该 view 的嵌套滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enable or disable the "home" button in the corner of the action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085919Z" creationid="pingfangx" creationdate="20190514T085919Z">
+        <seg>启用或禁用操作栏一角的“主页”按钮。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12219,6 +12459,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T073450Z" creationid="pingfangx" creationdate="20181221T073341Z">
         <seg>异或，exclusive-or 两条路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Existing items in the menu will not be modified or removed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104117Z" creationid="pingfangx" creationdate="20190514T104117Z">
+        <seg>菜单中的现有项目不会被修改或移除。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13023,6 +13271,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, when the user selects one or more items in your activity, you can enable an action mode that offers actions specific to the selected items, with a UI that temporarily replaces the action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T070915Z" creationid="pingfangx" creationdate="20190514T070915Z">
+        <seg>例如，当用户选择 activity 中的一个或多个项目时，您可以启用一种操作模式，该模式提供特定于所选项目的操作，并使用临时替换操作栏的 UI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, when users fling a UI object, they should sense friction at the beginning that delays the motion, and then at the end sense momentum that carries the motion beyond the fling.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071316Z" creationid="pingfangx" creationdate="20181205T071316Z">
@@ -13075,6 +13331,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>例如，在一个链中包含 2 个元素使用 &lt;c4&gt;MATCH_CONSTRAINT&lt;/c4&gt;，第一个元素使用权重为 2，第二个元素使用权重为 1，则第一个元素占据的空间将是第二个元素占据空间的 2 倍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For information about how to use the action bar, including how to add action items, navigation modes and more, read the &lt;a0&gt;Action Bar&lt;/a0&gt; developer guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071039Z" creationid="pingfangx" creationdate="20190514T071039Z">
+        <seg>有关如何使用操作栏的信息，包括如何添加操作项，导航模式等，请阅读 &lt;a0&gt;Action Bar&lt;/a0&gt; 开发人员指南。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13495,6 +13759,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>From start to end, a toolbar may contain a combination of the following optional elements:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T090745Z" creationid="pingfangx" creationdate="20190514T090745Z">
+        <seg>从开始到结束，工具栏可能包含以下可选元素的组合：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>From the onCreate method of an Activity, find the Button</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13515,6 +13787,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T073208Z" creationid="pingfangx" creationdate="20180925T073208Z">
         <seg>从这一点开始，系统级和应用级进程按照 &lt;a0&gt;应用程序生命周期（app lifecycle stages）&lt;/a0&gt; 执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From your activity, you can retrieve an instance of &lt;c0&gt;&lt;a1&gt;ActionBar&lt;/a1&gt;&lt;/c0&gt; by calling &lt;c2&gt;&lt;a3&gt;AppCompatActivity.getSupportActionBar()&lt;/a3&gt;&lt;/c2&gt; getSupportActionBar()}.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T070707Z" creationid="pingfangx" creationdate="20190514T070707Z">
+        <seg>从您的 activity 中，您可以通过调用 &lt;c2&gt;&lt;a3&gt;AppCompatActivity.getSupportActionBar()&lt;/a3&gt;&lt;/c2&gt; 来获取 &lt;c0&gt;&lt;a1&gt;ActionBar&lt;/a1&gt;&lt;/c0&gt; 的实例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13615,6 +13895,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Get the Z-axis elevation of the action bar in pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T083048Z" creationid="pingfangx" creationdate="20190514T083048Z">
+        <seg>获取操作栏的 Z 轴高程(以像素为单位)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Get the behavior governing the layout and interaction of the child view within a parent CoordinatorLayout.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023148Z" creationid="pingfangx" creationdate="20190513T023148Z">
@@ -13639,6 +13927,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gets the content inset that will be used on the ending side of the bar in the current toolbar configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093703Z" creationid="pingfangx" creationdate="20190514T093703Z">
+        <seg>获取在当前工具栏配置中，栏的结尾侧使用的内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the content inset that will be used on the left side of the bar in the current toolbar configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093744Z" creationid="pingfangx" creationdate="20190514T093744Z">
+        <seg>获取在当前工具栏配置中，栏的左侧使用的内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the content inset that will be used on the right side of the bar in the current toolbar configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093758Z" creationid="pingfangx" creationdate="20190514T093758Z">
+        <seg>获取在当前工具栏配置中，栏右侧使用的内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the content inset that will be used on the starting side of the bar in the current toolbar configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093820Z" creationid="pingfangx" creationdate="20190514T093820Z">
+        <seg>获取在当前工具栏配置中，栏的起始侧使用的内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gets the current ItemAnimator for this RecyclerView.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13651,6 +13971,54 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022247Z" creationid="pingfangx" creationdate="20190513T022247Z">
         <seg>获取用于在状态栏的 insets 区域中绘制的 drawable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the end content inset to use when action buttons are present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093722Z" creationid="pingfangx" creationdate="20190514T093347Z">
+        <seg>获取操作按钮存在时使用的结束侧内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the ending content inset for this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093716Z" creationid="pingfangx" creationdate="20190514T093324Z">
+        <seg>获取此工具栏的结束侧内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the left content inset for this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093408Z" creationid="pingfangx" creationdate="20190514T093408Z">
+        <seg>获取此工具栏的左侧内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the right content inset for this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093421Z" creationid="pingfangx" creationdate="20190514T093421Z">
+        <seg>获取此工具栏的右侧内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the start content inset to use when a navigation button is present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093726Z" creationid="pingfangx" creationdate="20190514T093556Z">
+        <seg>获取导航按钮存在时要使用的起始侧内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the starting content inset for this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093733Z" creationid="pingfangx" creationdate="20190514T093530Z">
+        <seg>获取此工具栏的起始侧内容内缩。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13943,6 +14311,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hide the ActionBar if it is currently showing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085634Z" creationid="pingfangx" creationdate="20190514T085634Z">
+        <seg>隐藏当前显示的操作栏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hide the overflow items from the associated menu.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094734Z" creationid="pingfangx" creationdate="20190514T094734Z">
+        <seg>隐藏关联菜单中的溢出项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hint to the path to prepare for adding more points.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065035Z" creationid="pingfangx" creationdate="20181221T065035Z">
@@ -14223,6 +14607,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a child view's &lt;c1&gt;&lt;a2&gt;Toolbar.LayoutParams&lt;/a2&gt;&lt;/c1&gt; indicates a &lt;c3&gt;&lt;a4&gt;Gravity&lt;/a4&gt;&lt;/c3&gt; value of &lt;c5&gt;&lt;a6&gt;CENTER_HORIZONTAL&lt;/a6&gt;&lt;/c5&gt; the view will attempt to center within the available space remaining in the Toolbar after all other elements have been measured.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092153Z" creationid="pingfangx" creationdate="20190514T092153Z">
+        <seg>如果子 view 的 &lt;c1&gt;&lt;a2&gt;Toolbar.LayoutParams&lt;/a2&gt;&lt;/c1&gt; 指定了值为 &lt;c5&gt;&lt;a6&gt;CENTER_HORIZONTAL&lt;/a6&gt;&lt;/c5&gt; 的 &lt;c3&gt;&lt;a4&gt;Gravity&lt;/a4&gt;&lt;/c3&gt;，在测量完所有其他元素后，view 将尝试以工具栏中剩余的可用空间为中心。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a comment line contains an example command or a literal URL longer than 100 characters, that line may be longer than 100 characters for ease of cut and paste.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14307,6 +14699,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023613Z" creationid="pingfangx" creationdate="20190513T023613Z">
         <seg>如果还指定了 &lt;c6&gt;&lt;a7&gt;anchor&lt;/a7&gt;&lt;/c6&gt;，则 gravity 描述了此子 view 相对于其锚定位置的定位方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an app uses a logo image it should strongly consider omitting a title and subtitle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T091643Z" creationid="pingfangx" creationdate="20190514T091643Z">
+        <seg>如果应用使用 logo 图片，则应强烈考虑省略标题和副标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14647,6 +15047,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the Toolbar has an expanded action view it can be collapsed using the &lt;c2&gt;&lt;a3&gt;collapseActionView()&lt;/a3&gt;&lt;/c2&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104009Z" creationid="pingfangx" creationdate="20190514T104009Z">
+        <seg>如果工具栏具有展开的操作 view，则可以使用 &lt;c2&gt;&lt;a3&gt;collapseActionView()&lt;/a3&gt;&lt;/c2&gt; 方法折叠它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the animation is attached to a view that has children, the animation will affect the entire subtree rooted by that node.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -14923,6 +15331,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果该 ItemDecoration 不影响 item views 的位置，在返回前应该把 &lt;c0&gt;outRect&lt;/c0&gt; 的四个字段都设为 0(left, top, right, bottom)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this Toolbar does not have an expanded action view this method has no effect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103438Z" creationid="pingfangx" creationdate="20190514T103438Z">
+        <seg>如果此工具栏没有展开的操作 view，则此方法无效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15319,6 +15735,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you use a navigation icon you should also set a description for its action using &lt;c0&gt;&lt;a1&gt;setNavigationContentDescription(int)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T102405Z" creationid="pingfangx" creationdate="20190514T102405Z">
+        <seg>如果使用导航图标，则还应使用 &lt;c0&gt;&lt;a1&gt;setNavigationContentDescription(int)&lt;/a1&gt;&lt;/c0&gt; 为其操作设置描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you use the @Deprecated annotation, you must also have a @deprecated Javadoc tag and it should name an alternate implementation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15387,6 +15811,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果您的 TODO 采用 "在未来的某个日期做某事" 的形式，请确保在其中包含一个非常具体的日期("在 2005 年 11 月前修复 ")或者一个非常具体的事件(" 在所有生产环境合成器都可处理 V7 协议后移除此代码")。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your activity has an options menu, you can make select items accessible directly from the action bar as "action items".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T070200Z" creationid="pingfangx" creationdate="20190514T070200Z">
+        <seg>如果您的 activity 有一个选项菜单，您可以直接从操作栏中选择可以访问的选项作为“操作项”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15871,6 +16303,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In modern Android UIs developers should lean more on a visually distinct color scheme for toolbars than on their application icon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092624Z" creationid="pingfangx" creationdate="20190514T092624Z">
+        <seg>在现代 Android UI 中，开发人员应该更多地依赖于工具栏的视觉上不同的颜色方案而不是应用程序图标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In most cases you shouldn't be handling different types of exception the same way.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -16027,6 +16467,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T073750Z" creationid="pingfangx" creationdate="20180921T073750Z">
         <seg>在某些情况下，&lt;c4&gt;&lt;a5&gt;ImageDecoder&lt;/a5&gt;&lt;/c4&gt; 可能已经解码了部分图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In some cases, the action bar may be overlayed by another bar that enables contextual actions, using an &lt;c0&gt;&lt;a1&gt;ActionMode&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T070822Z" creationid="pingfangx" creationdate="20190514T070822Z">
+        <seg>在某些情况下，操作栏可能会被另一个使用 &lt;c0&gt;&lt;a1&gt;ActionMode&lt;/a1&gt;&lt;/c0&gt; 启用上下文操作的栏覆盖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16343,6 +16791,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Inflate a menu resource into this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094743Z" creationid="pingfangx" creationdate="20190514T094743Z">
+        <seg>将菜单资源加载到此工具栏中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inflate an XML menu resource into this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104110Z" creationid="pingfangx" creationdate="20190514T104110Z">
+        <seg>将 XML 菜单资源加载到此工具栏中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Inflate the layout.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T075951Z" creationid="pingfangx" creationdate="20180925T075951Z">
@@ -16451,6 +16915,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>通过 &lt;c2&gt;&lt;a3&gt;CharSequence&lt;/a3&gt;&lt;/c2&gt; 接口将输入提供给匹配器，以支持从多种输入源到字符的匹配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Insets define the minimum margin for these components and can be used to effectively align Toolbar content along well-known gridlines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103623Z" creationid="pingfangx" creationdate="20190514T103623Z">
+        <seg>内缩定义了这些组件的最小边距，可用于有效地将工具栏内容与众所周知的网格线对齐。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16643,6 +17115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T073927Z" creationid="pingfangx" creationdate="20180921T073927Z">
         <seg>用于检查 &lt;c0&gt;&lt;a1&gt;DecodeException&lt;/a1&gt;&lt;/c0&gt; 并可能阻止其被抛出的接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Interface responsible for receiving menu item click events if the items themselves do not have individual item click listeners.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092906Z" creationid="pingfangx" creationdate="20190514T092906Z">
+        <seg>如果项目本身没有单独的项目单击侦听器，则负责接收菜单项单击事件的接口。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17247,6 +17727,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Layout information for child views of Toolbars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092737Z" creationid="pingfangx" creationdate="20190514T092737Z">
+        <seg>工具栏子 view 的布局信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Layout is a two pass process: a measure pass and a layout pass.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17339,6 +17827,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>一行长度在 80 到 100 个字符内是完全可以接受的，应当尽可能避免长度超过 130 或 160 个字符(包括标记的长度)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Listener for receiving events when action bar menus are shown or hidden.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071124Z" creationid="pingfangx" creationdate="20190514T071124Z">
+        <seg>监听器，用于在显示或隐藏操作栏菜单时接收事件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18791,6 +19287,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Per-child layout information associated with action bar custom views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071109Z" creationid="pingfangx" creationdate="20190514T071109Z">
+        <seg>与操作栏自定义 view 关联的每子布局信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Perform cleanup after a nested scrolling operation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190415T034858Z" creationid="pingfangx" creationdate="20190415T034858Z">
@@ -19415,6 +19919,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove a menu visibility listener.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085657Z" creationid="pingfangx" creationdate="20190514T085657Z">
+        <seg>移除菜单可见性监听器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove a page for the given position.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19831,6 +20343,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Retrieve the current height of the ActionBar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T083052Z" creationid="pingfangx" creationdate="20190514T083052Z">
+        <seg>获取 ActionBar 的当前高度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieve the currently configured content description for the collapse button view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093221Z" creationid="pingfangx" creationdate="20190514T093221Z">
+        <seg>获取折叠按钮 view 的当前配置的内容描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieve the currently configured content description for the navigation button view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094406Z" creationid="pingfangx" creationdate="20190514T094406Z">
+        <seg>获取导航按钮 view 的当前配置的内容描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Retrieve the memory policy for the decoded &lt;c0&gt;&lt;a1&gt;Bitmap&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074449Z" creationid="pingfangx" creationdate="20180921T074449Z">
@@ -19943,6 +20479,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the Menu shown in the toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094323Z" creationid="pingfangx" creationdate="20190514T094323Z">
+        <seg>返回工具栏中显示的菜单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the ViewHolder for the item in the given position of the data set as of the latest layout pass.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20031,6 +20575,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the current drawable used as the collapse icon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093239Z" creationid="pingfangx" creationdate="20190514T093239Z">
+        <seg>返回当前用作折叠图标的 drawable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the current drawable used as the navigation icon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094411Z" creationid="pingfangx" creationdate="20190514T094411Z">
+        <seg>返回用作导航图标的当前 drawable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the current drawable used as the overflow icon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094515Z" creationid="pingfangx" creationdate="20190514T094515Z">
+        <seg>返回当前用作溢出图标的 drawable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the current logo drawable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094304Z" creationid="pingfangx" creationdate="20190514T094304Z">
+        <seg>返回当前 logo 的 drawable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the current number of child views attached to the parent RecyclerView.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20043,6 +20619,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回 RecyclerView 的当前滚动状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the current vertical offset of the action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T083102Z" creationid="pingfangx" creationdate="20190514T083102Z">
+        <seg>返回操作栏的当前垂直偏移量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the description of the toolbar's logo.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094317Z" creationid="pingfangx" creationdate="20190514T094317Z">
+        <seg>返回工具栏 logo 的说明。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20135,6 +20727,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the subtitle of this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094519Z" creationid="pingfangx" creationdate="20190514T094519Z">
+        <seg>返回此工具栏的副标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the top padding of the parent RecyclerView</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20183,6 +20783,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return whether the action bar is configured to scroll out of sight along with a &lt;c0&gt;&lt;a1&gt;nested scrolling child&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085647Z" creationid="pingfangx" creationdate="20190514T085647Z">
+        <seg>返回操作栏是否配置为与 &lt;c0&gt;&lt;a1&gt;nested scrolling child&lt;/a1&gt;&lt;/c0&gt; 一起滚动出视线。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return whether the decoded &lt;c0&gt;&lt;a1&gt;Bitmap&lt;/a1&gt;&lt;/c0&gt; will be mutable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074509Z" creationid="pingfangx" creationdate="20180921T074509Z">
@@ -20203,6 +20811,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a &lt;c0&gt;&lt;a1&gt;Context&lt;/a1&gt;&lt;/c0&gt; with an appropriate theme for creating views that will appear in the action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085610Z" creationid="pingfangx" creationdate="20190514T085610Z">
+        <seg>返回带有适当主题的 &lt;c0&gt;&lt;a1&gt;Context&lt;/a1&gt;&lt;/c0&gt;，用于创建将显示在操作栏中的 view。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20403,6 +21019,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回 view 的边界，包含它的装饰及 margins。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the current ActionBar subtitle in standard mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085426Z" creationid="pingfangx" creationdate="20190514T085426Z">
+        <seg>以标准模式返回当前的操作栏副标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the current ActionBar title in standard mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085625Z" creationid="pingfangx" creationdate="20190514T085625Z">
+        <seg>以标准模式返回当前的 ActionBar 标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20771,6 +21403,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190415T094843Z" creationid="pingfangx" creationdate="20190415T094843Z">
         <seg>返回自滚动开始以来经过的时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the title of this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094528Z" creationid="pingfangx" creationdate="20190514T094528Z">
+        <seg>返回此工具栏的标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21263,6 +21903,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;c0&gt;&lt;a1&gt;setHomeButtonEnabled(boolean)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T082930Z" creationid="pingfangx" creationdate="20190514T082930Z">
+        <seg>参见 &lt;c0&gt;&lt;a1&gt;setHomeButtonEnabled(boolean)&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;c0&gt;&lt;a1&gt;setParallaxMultiplier(float)&lt;/a1&gt;&lt;/c0&gt; to change the multiplier used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T035348Z" creationid="pingfangx" creationdate="20190513T035348Z">
@@ -21447,6 +22095,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set a content description for the collapse button if one is present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094842Z" creationid="pingfangx" creationdate="20190514T094842Z">
+        <seg>设置折叠按钮的内容说明(如果存在)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set a content description for the navigation button if one is present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T095013Z" creationid="pingfangx" creationdate="20190514T095013Z">
+        <seg>设置导航按钮的内容描述(如果存在)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set a description of the toolbar's logo.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T095006Z" creationid="pingfangx" creationdate="20190514T095006Z">
+        <seg>设置工具栏 logo 的说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set a drawable to draw in the insets area for the status bar.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022357Z" creationid="pingfangx" creationdate="20190513T022357Z">
@@ -21471,10 +22143,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set a listener to respond to menu item click events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T095035Z" creationid="pingfangx" creationdate="20190514T095035Z">
+        <seg>设置监听器以响应菜单项单击事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set a listener to respond to navigation events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T095028Z" creationid="pingfangx" creationdate="20190514T095028Z">
+        <seg>设置监听器以响应导航事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set a logo drawable from a resource id.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104354Z" creationid="pingfangx" creationdate="20190514T094947Z">
+        <seg>从资源 ID 设置 logo。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set a logo drawable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094953Z" creationid="pingfangx" creationdate="20190514T094953Z">
+        <seg>Set a logo drawable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set a new adapter to provide child views on demand.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>设置一个新的适配器以根据需要提供子视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set an alternate description for the Home/Up action, when enabled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085904Z" creationid="pingfangx" creationdate="20190514T085904Z">
+        <seg>启用后，为 Home/Up 操作设置备用说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set an alternate drawable to display next to the icon/logo/title when &lt;c0&gt;&lt;a1&gt;DISPLAY_HOME_AS_UP&lt;/a1&gt;&lt;/c0&gt; is enabled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085914Z" creationid="pingfangx" creationdate="20190514T085914Z">
+        <seg>当启用 &lt;c0&gt;&lt;a1&gt;DISPLAY_HOME_AS_UP&lt;/a1&gt;&lt;/c0&gt; 时，设置备用 drawable 以显示在图标/徽标/标题旁边。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set display options.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085806Z" creationid="pingfangx" creationdate="20190514T085806Z">
+        <seg>设置显示选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21491,6 +22219,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>设置 matchConstraintDefault* 在其限制范围内尽可能地展开。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set selected display options.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085803Z" creationid="pingfangx" creationdate="20190514T085803Z">
+        <seg>设置选定的显示选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21551,6 +22287,62 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the ActionBar's background.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085703Z" creationid="pingfangx" creationdate="20190514T085703Z">
+        <seg>设置 ActionBar 的背景。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the ActionBar's split background.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085938Z" creationid="pingfangx" creationdate="20190514T085938Z">
+        <seg>设置 ActionBar 的分割背景。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the ActionBar's stacked background.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085941Z" creationid="pingfangx" creationdate="20190514T085941Z">
+        <seg>设置 ActionBar 的堆叠背景。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the Z-axis elevation of the action bar in pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085842Z" creationid="pingfangx" creationdate="20190514T085842Z">
+        <seg>设置操作栏的 Z 轴高程(以像素为单位)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the action bar into custom navigation mode, supplying a view for custom navigation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085711Z" creationid="pingfangx" creationdate="20190514T085711Z">
+        <seg>将操作栏设置为自定义导航模式，为自定义导航提供 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the action bar's subtitle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085944Z" creationid="pingfangx" creationdate="20190514T085944Z">
+        <seg>设置操作栏的副标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the action bar's title.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085948Z" creationid="pingfangx" creationdate="20190514T085948Z">
+        <seg>设置操作栏标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the action to &lt;c5&gt;&lt;a6&gt;ACTION_SEND&lt;/a6&gt;&lt;/c5&gt; and put the URI in data by calling &lt;c7&gt;&lt;a8&gt;setData()&lt;/a8&gt;&lt;/c7&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21599,6 +22391,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the current hide offset of the action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085845Z" creationid="pingfangx" creationdate="20190514T085845Z">
+        <seg>设置操作栏的当前隐藏偏移量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the drawable to use for the status bar foreground drawable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031807Z" creationid="pingfangx" creationdate="20190513T031807Z">
@@ -21639,6 +22439,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the icon to display in the 'home' section of the action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085923Z" creationid="pingfangx" creationdate="20190514T085923Z">
+        <seg>将图标设置为显示在操作栏的“主页”部分中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the icon to use for the overflow button.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T095040Z" creationid="pingfangx" creationdate="20190514T095040Z">
+        <seg>设置用于溢出按钮的图标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the icon to use for the toolbar's collapse button.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094850Z" creationid="pingfangx" creationdate="20190514T094850Z">
+        <seg>设置用于工具栏折叠按钮的图标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the icon to use for the toolbar's navigation button.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T095017Z" creationid="pingfangx" creationdate="20190514T095017Z">
+        <seg>设置用于工具栏导航按钮的图标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the id of this view's anchor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023155Z" creationid="pingfangx" creationdate="20190513T023155Z">
@@ -21651,6 +22483,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040459Z" creationid="pingfangx" creationdate="20190513T040459Z">
         <seg>设置滚动与此 &lt;c0&gt;&lt;a1&gt;AppBarLayout.LayoutParams&lt;/a1&gt;&lt;/c0&gt; 关联的 view 时使用的插值器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the logo to display in the 'home' section of the action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085932Z" creationid="pingfangx" creationdate="20190514T085932Z">
+        <seg>设置徽标以显示在操作栏的“主页”部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21735,10 +22575,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the subtitle of this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T095059Z" creationid="pingfangx" creationdate="20190514T095059Z">
+        <seg>设置此工具栏的副标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the target size with a sampleSize.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T074724Z" creationid="pingfangx" creationdate="20180921T074724Z">
         <seg>使用 sampleSize 设置目标大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the title of this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101858Z" creationid="pingfangx" creationdate="20190514T101858Z">
+        <seg>设置此工具栏的标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set this flag if selecting the 'home' button in the action bar to return up by a single level in your UI rather than back to the top level or front page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T082923Z" creationid="pingfangx" creationdate="20190514T082222Z">
+        <seg>如果选择操作栏中的“主页”按钮时，只在 UI 中按单个级别返回，而不是返回到顶级或首页，则设置此标记</seg>
       </tuv>
     </tu>
     <tu>
@@ -21767,10 +22631,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set whether a custom view should be displayed, if set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085809Z" creationid="pingfangx" creationdate="20190514T085809Z">
+        <seg>设置是否应显示自定义 view(如果已设置)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set whether an activity title/subtitle should be displayed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085832Z" creationid="pingfangx" creationdate="20190514T085832Z">
+        <seg>设置是否应显示 activity 标题/副标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set whether home should be displayed as an "up" affordance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085745Z" creationid="pingfangx" creationdate="20190514T085745Z">
+        <seg>设置是否应将主页显示为“向上”功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set whether the RecyclerView should try to keep the same Item focused after a layout calculation or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>设置是否 RecyclerView 应该努力保留相同 item 的焦点当一次布局计算以后。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set whether to display the activity logo rather than the activity icon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085838Z" creationid="pingfangx" creationdate="20190514T085838Z">
+        <seg>设置是否显示 activity 徽标而不是 activity 图标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set whether to include the application home affordance in the action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085824Z" creationid="pingfangx" creationdate="20190514T085824Z">
+        <seg>设置是否在操作栏中包含应用程序主目录功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21823,10 +22727,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sets the bottom title margin in pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101910Z" creationid="pingfangx" creationdate="20190514T101910Z">
+        <seg>以像素为单位设置底部标题边距。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sets the color of the status bar to &lt;c0&gt;color&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190214T063759Z" creationid="pingfangx" creationdate="20190214T063759Z">
         <seg>将状态栏的颜色设置为 &lt;c0&gt;color&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the content insets for this toolbar relative to layout direction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094934Z" creationid="pingfangx" creationdate="20190514T094934Z">
+        <seg>设置此工具栏相对于布局方向的内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the content insets for this toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094928Z" creationid="pingfangx" creationdate="20190514T094928Z">
+        <seg>设置此工具栏的内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the ending title margin in pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101922Z" creationid="pingfangx" creationdate="20190514T101922Z">
+        <seg>以像素为单位设置结束侧标题边距。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21911,6 +22847,70 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sets the start content inset to use when a navigation button is present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094917Z" creationid="pingfangx" creationdate="20190514T094917Z">
+        <seg>设置导航按钮存在时要使用的起始侧内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the start content inset to use when action buttons are present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094901Z" creationid="pingfangx" creationdate="20190514T094901Z">
+        <seg>设置操作按钮存在时要使用的开始侧内容内缩。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the starting title margin in pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101928Z" creationid="pingfangx" creationdate="20190514T101928Z">
+        <seg>以像素为单位设置起始侧标题边距。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the text color of the subtitle, if present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101849Z" creationid="pingfangx" creationdate="20190514T101849Z">
+        <seg>设置副标题的文本颜色(如果有)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the text color of the title, if present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101937Z" creationid="pingfangx" creationdate="20190514T101937Z">
+        <seg>设置标题的文本颜色(如果存在)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the text color, size, style, hint color, and highlight color from the specified TextAppearance resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101833Z" creationid="pingfangx" creationdate="20190514T101833Z">
+        <seg>从指定 TextAppearance 的资源设置文本颜色，大小，样式，提示颜色和高亮颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the title margin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101904Z" creationid="pingfangx" creationdate="20190514T101904Z">
+        <seg>设置标题边距。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the top title margin in pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101931Z" creationid="pingfangx" creationdate="20190514T101931Z">
+        <seg>以像素为单位设置顶部标题边距。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sets the width of the view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21983,6 +22983,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting an icon will make the navigation button visible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T102356Z" creationid="pingfangx" creationdate="20190514T102356Z">
+        <seg>设置图标将使导航按钮可见。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting this option will implicitly enable interaction with the home/up button.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T082236Z" creationid="pingfangx" creationdate="20190514T082236Z">
+        <seg>设置此选项将隐式启用与 home/up 按钮的交互。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Several stock layout managers are provided for general use.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -22011,6 +23027,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>应该在[0,&lt;c0&gt;spanCount&lt;/c0&gt;)间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show 'home' elements in this action bar, leaving more space for other navigation elements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071416Z" creationid="pingfangx" creationdate="20190514T071416Z">
+        <seg>在此操作栏中显示“主页”元素，为其他导航元素留出更多空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show the ActionBar if it is not currently showing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T085955Z" creationid="pingfangx" creationdate="20190514T085955Z">
+        <seg>如果操作栏当前未显示，则显示它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show the activity title and subtitle, if present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071419Z" creationid="pingfangx" creationdate="20190514T071419Z">
+        <seg>显示 activity 标题和副标题(如果存在)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show the custom view if one has been set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071405Z" creationid="pingfangx" creationdate="20190514T071405Z">
+        <seg>显示自定义 view(如果已设置)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show the overflow items from the associated menu.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101945Z" creationid="pingfangx" creationdate="20190514T101945Z">
+        <seg>显示相关菜单中的溢出项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22363,6 +23419,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T093923Z" creationid="pingfangx" creationdate="20180408T093923Z">
         <seg>指定位图可以压缩到的已知格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies the theme to use when inflating popup menus.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T095055Z" creationid="pingfangx" creationdate="20190514T095055Z">
+        <seg>指定在弹出弹出菜单时使用的主题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23399,6 +24463,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The action bar appears at the top of an activity's window when the activity uses the AppCompat's &lt;c0&gt;&lt;a1&gt;AppCompat&lt;/a1&gt;&lt;/c0&gt; theme (or one of its descendant themes).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T065511Z" creationid="pingfangx" creationdate="20190514T065511Z">
+        <seg>当 activity 使用 AppCompat 的 &lt;c0&gt;&lt;a1&gt;AppCompat&lt;/a1&gt;&lt;/c0&gt; 主题(或其后代主题之一)时，操作栏将显示在 activity 窗口的顶部。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The action bar may be represented by any Toolbar widget within the application layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T065904Z" creationid="pingfangx" creationdate="20190514T065904Z">
+        <seg>操作栏可以由应用程序布局中的任何工具栏部件(Toolbar widget)表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The actual permissions required will depend on the particular intent passed in.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23443,6 +24523,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>动画可以随时间改变 scale（译注：缩放），rotation（译注：旋转），translation（译注：平移）和 alpha（译注：透明度）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The application may signal to the Activity which Toolbar should be treated as the Activity's action bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T065937Z" creationid="pingfangx" creationdate="20190514T065937Z">
+        <seg>应用程序可能会向 Activity 发信号通知哪个工具栏应被视为 activity 的操作栏。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23647,6 +24735,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The collapse button appears at the start of the toolbar when an action view is present .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104241Z" creationid="pingfangx" creationdate="20190514T104241Z">
+        <seg>当存在操作 view 时，折叠按钮将显示在工具栏的开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The collapsed height is defined by the view's minimum height.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040621Z" creationid="pingfangx" creationdate="20190513T040621Z">
@@ -23667,6 +24763,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064712Z" creationid="pingfangx" creationdate="20180903T064712Z">
         <seg>组件存储如下 (alpha &lt;&lt; 24) | (red &lt;&lt; 16) | (green &lt;&lt; 8) | blue 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The content description will be read via screen readers or other accessibility systems to explain the action of the collapse button.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104231Z" creationid="pingfangx" creationdate="20190514T104231Z">
+        <seg>将通过屏幕阅读器或其他辅助功能系统读取内容描述，以解释折叠按钮的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The content description will be read via screen readers or other accessibility systems to explain the action of the navigation button.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104225Z" creationid="pingfangx" creationdate="20190514T104225Z">
+        <seg>将通过屏幕阅读器或其他辅助功能系统读取内容描述，以解释导航按钮的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The content inset affects the valid area for Toolbar content other than the navigation button and menu.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103557Z" creationid="pingfangx" creationdate="20190514T103557Z">
+        <seg>内容内缩会影响除导航按钮和菜单之外的工具栏内容的有效区域。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24255,6 +25375,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The larger value of &lt;c0&gt;&lt;a1&gt;getContentInsetEnd()&lt;/a1&gt;&lt;/c0&gt; and this value will be used during layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103906Z" creationid="pingfangx" creationdate="20190514T103848Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;getContentInsetEnd()&lt;/a1&gt;&lt;/c0&gt; 的值较大，在布局期间将使用此值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The larger value of &lt;c0&gt;&lt;a1&gt;getContentInsetStart()&lt;/a1&gt;&lt;/c0&gt; and this value will be used during layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103900Z" creationid="pingfangx" creationdate="20190514T103900Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;getContentInsetStart()&lt;/a1&gt;&lt;/c0&gt; 的值较大，布局过程中将使用此值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The larger your view hierarchy, the more time the app takes to inflate it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083600Z" creationid="pingfangx" creationdate="20180925T083600Z">
@@ -24331,6 +25467,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T033845Z" creationid="pingfangx" creationdate="20181221T033845Z">
         <seg>组合两个路径时​​可以执行的逻辑操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The logo cannot be clicked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104424Z" creationid="pingfangx" creationdate="20190514T104424Z">
+        <seg>无法点击 logo。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24451,6 +25595,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042614Z" creationid="pingfangx" creationdate="20181205T042614Z">
         <seg>按照惯例，styleable 实体的名称与定义自定义 view 的类的名称相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The navigation button (formerly "Home") takes over the space previously occupied by the application icon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T070408Z" creationid="pingfangx" creationdate="20190514T070408Z">
+        <seg>导航按钮(以前称为“Home”)接管应用程序图标先前占用的空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The navigation button appears at the start of the toolbar if present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T102352Z" creationid="pingfangx" creationdate="20190514T102352Z">
+        <seg>导航按钮出现在工具栏的开头(如果存在)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The navigation button is vertically aligned within the Toolbar's minimum height, if set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T091225Z" creationid="pingfangx" creationdate="20190514T091225Z">
+        <seg>如果设置，导航按钮在工具栏的最小高度内垂直对齐。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25119,6 +26287,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The subtitle, if present should indicate any extended information about the current content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T091407Z" creationid="pingfangx" creationdate="20190514T091407Z">
+        <seg>副标题(如果存在)应指示有关当前内容的任何扩展信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The super.onDraw() method is called before the method ends.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25235,6 +26411,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>静态导入的使用和位置一直都存在争议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The use of application icon plus title as a standard layout is discouraged on API 21 devices and newer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092709Z" creationid="pingfangx" creationdate="20190514T092709Z">
+        <seg>API 21 和更新的设备不鼓励使用应用程序图标加标题作为标准布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25839,6 +27023,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They will appear at this position within the layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T091828Z" creationid="pingfangx" creationdate="20190514T091828Z">
+        <seg>它们将出现在布局中的这个位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Think very carefully before doing this, though, and put in comments explaining why it is safe in this place.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25931,6 +27123,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这个行为与安卓 3.0 之前的基于 &lt;c8&gt;&lt;a9&gt;Animation&lt;/a9&gt;&lt;/c8&gt; 的类形成对比，之前的动画只能按制 view 在显示时的绘制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This button should always be used to access other navigational destinations within the container of the Toolbar and its signified content or otherwise leave the current context signified by the Toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T091026Z" creationid="pingfangx" creationdate="20190514T091026Z">
+        <seg>此按钮应始终用于访问工具栏容器内的其他导航目标及其指示的内容，或以其他方式保留工具栏指示的当前上下文。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26143,6 +27343,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This description will be used for accessibility or other similar descriptions of the UI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104445Z" creationid="pingfangx" creationdate="20190514T104445Z">
+        <seg>该描述将用于 UI 的可访问性或其他类似描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This directive assigns the alias &lt;c1&gt;custom&lt;/c1&gt; to the namespace &lt;c2&gt;http://schemas.android.com/apk/res/com.example.customviews&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061316Z" creationid="pingfangx" creationdate="20181205T061316Z">
@@ -26179,6 +27387,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这不需要是一个 View，但可以是页面的其他容器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This drawable should generally take the place of title text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104416Z" creationid="pingfangx" creationdate="20190514T104416Z">
+        <seg>该 drawable 通常应取代标题文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26264,6 +27480,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This flag will cause appropriate navigation modes to use a wider logo in place of the standard icon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T090036Z" creationid="pingfangx" creationdate="20190514T090036Z">
+        <seg>此标志将使适当的导航模式使用更宽的徽标代替标准图标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This gesture makes sense if the UI responds by moving quickly in the direction of the fling, then slowing down, as if the user had pushed on a flywheel and set it spinning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073124Z" creationid="pingfangx" creationdate="20181205T073124Z">
@@ -26340,6 +27564,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这些支持包括保持跟踪 X、Y 的滚动偏移量及绘制滚动条的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This includes logo and icon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T090023Z" creationid="pingfangx" creationdate="20190514T090023Z">
+        <seg>这包括徽标和图标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26624,6 +27856,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is used for accessibility and tooltips.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T102413Z" creationid="pingfangx" creationdate="20190514T102413Z">
+        <seg>这用于辅助功能和工具提示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is useful (in conjunction with the &lt;c3&gt;&lt;a4&gt;FLAG_FULLSCREEN&lt;/a4&gt;&lt;/c3&gt; and &lt;c5&gt;&lt;a6&gt;FLAG_LAYOUT_IN_SCREEN&lt;/a6&gt;&lt;/c5&gt; window flags) for displaying content using every last pixel on the display.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190219T103532Z" creationid="pingfangx" creationdate="20190219T103532Z">
@@ -26728,6 +27968,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This listener will be called whenever the user clicks the navigation button at the start of the toolbar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T102900Z" creationid="pingfangx" creationdate="20190514T102900Z">
+        <seg>只要用户单击工具栏开头的导航按钮，就会调用此监听器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This listener will be invoked whenever a user selects a menu item from the action buttons presented at the end of the toolbar or the associated overflow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T102943Z" creationid="pingfangx" creationdate="20190514T102943Z">
+        <seg>只要用户从工具栏末尾显示的操作按钮或相关溢出中选择菜单项，就会调用此监听器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This may be used by the system to prioritize operations such as fragment lifecycle updates or loader ordering behavior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26740,6 +27996,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180919T070627Z" creationid="pingfangx" creationdate="20180919T070627Z">
         <seg>这可能会改变 src 的宽高比。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This may not reflect a pending show operation in progress.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104214Z" creationid="pingfangx" creationdate="20190514T104214Z">
+        <seg>这可能不反映正在进行的挂起的显示操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27284,6 +28548,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070648Z" creationid="pingfangx" creationdate="20181107T070648Z">
         <seg>这将用作资源 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will be used to describe the collapse action to users through mechanisms such as screen readers or tooltips.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103534Z" creationid="pingfangx" creationdate="20190514T103534Z">
+        <seg>这将用于通过屏幕阅读器或工具提示等机制向用户描述折叠操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will be used to describe the navigation action to users through mechanisms such as screen readers or tooltips.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103959Z" creationid="pingfangx" creationdate="20190514T103959Z">
+        <seg>这将用于通过屏幕阅读器或工具提示等机制向用户描述导航操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27904,6 +29184,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use an XML menu resource, use &lt;c0&gt;&lt;a1&gt;inflateMenu(int)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103940Z" creationid="pingfangx" creationdate="20190514T103940Z">
+        <seg>要使用 XML 菜单资源，请使用 &lt;c0&gt;&lt;a1&gt;inflateMenu(int)&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use it, first create a &lt;c0&gt;&lt;a1&gt;Source&lt;/a1&gt;&lt;/c0&gt; using one of the &lt;c2&gt;createSource&lt;/c2&gt; overloads.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T071443Z" creationid="pingfangx" creationdate="20180921T071443Z">
@@ -27932,6 +29220,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065426Z" creationid="pingfangx" creationdate="20181221T065426Z">
         <seg>切换 filltype 的 INVERSE 状态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Toolbar supports a more focused feature set than ActionBar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T090735Z" creationid="pingfangx" creationdate="20190514T090735Z">
+        <seg>工具栏支持比 ActionBar 更集中的功能集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28340,6 +29636,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T082258Z" creationid="pingfangx" creationdate="20180925T082258Z">
         <seg>使用内联跟踪来调查可能的罪魁祸首，包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use logo instead of icon if available.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071442Z" creationid="pingfangx" creationdate="20190514T071442Z">
+        <seg>如果可用，使用 logo 而不是图标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29512,6 +30816,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While an action bar is traditionally part of an &lt;c2&gt;&lt;a3&gt;Activity's&lt;/a3&gt;&lt;/c2&gt; opaque window decor controlled by the framework, a Toolbar may be placed at any arbitrary level of nesting within a view hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T090706Z" creationid="pingfangx" creationdate="20190514T090706Z">
+        <seg>虽然操作栏传统上是框架控制的 &lt;c2&gt;&lt;a3&gt;Activity's&lt;/a3&gt;&lt;/c2&gt; 不透明窗口装饰的一部分，但工具栏可以放置在 view 层次结构中的任意嵌套层级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While both have default behavior, the default &lt;c2&gt;onDraw()&lt;/c2&gt; will do nothing, and the default &lt;c3&gt;onMeasure()&lt;/c3&gt; will always set a size of 100x100 — which is probably not what you want.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -29852,6 +31164,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T081046Z" creationid="pingfangx" creationdate="20180925T081046Z">
         <seg>您还可以使用 &lt;a0&gt;ADB Shell Activity Manager&lt;/a0&gt; 命令运行应用程序来测量初始显示的时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also modify various characteristics of the action bar or remove it completely.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T070210Z" creationid="pingfangx" creationdate="20190514T070210Z">
+        <seg>您还可以修改操作栏的各种特征或完全移除它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30348,6 +31668,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075026Z" creationid="pingfangx" creationdate="20181205T075026Z">
         <seg>您只需确保在运行时检查当前 API 级别，如果当前级别小于 11，则忽略对 view 动画系统的调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may otherwise add the action bar by calling &lt;c2&gt;&lt;a3&gt;requestFeature(FEATURE_SUPPORT_ACTION_BAR)&lt;/a3&gt;&lt;/c2&gt; or by declaring it in a custom theme with the &lt;c4&gt;&lt;a5&gt;windowActionBar&lt;/a5&gt;&lt;/c4&gt; property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T065825Z" creationid="pingfangx" creationdate="20190514T065744Z">
+        <seg>您可以添加操作栏，通过调用 &lt;c2&gt;&lt;a3&gt;requestFeature(FEATURE_SUPPORT_ACTION_BAR)&lt;/a3&gt;&lt;/c2&gt; 或在自定义主题中使用 &lt;c4&gt;&lt;a5&gt;windowActionBar&lt;/a5&gt;&lt;/c4&gt; 属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32564,6 +33892,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090701Z" creationid="pingfangx" creationdate="20190404T090701Z">
         <seg>分发 OnClickListener 调用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>e.g. show an arrow to the left indicating the action that will be taken.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T071537Z" creationid="pingfangx" creationdate="20190514T071537Z">
+        <seg>例如在左侧显示一个箭头，指示将采取的操作。</seg>
       </tuv>
     </tu>
     <tu>
