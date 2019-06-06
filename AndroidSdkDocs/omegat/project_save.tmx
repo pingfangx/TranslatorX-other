@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.5" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.0.0_0_8c33b8efc" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -4021,6 +4021,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;Configuration&lt;/c0&gt;: A &lt;c1&gt;&lt;a2&gt;Configuration&lt;/a2&gt;&lt;/c1&gt; specifying what values to modify in the base Configuration of the original Context's resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T102009Z" creationid="pingfangx" creationdate="20190603T102009Z">
+        <seg>&lt;c0&gt;Configuration&lt;/c0&gt;：&lt;c1&gt;&lt;a2&gt;Configuration&lt;/a2&gt;&lt;/c1&gt; 指定在原始上下文资源的基本配置中要修改的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;ConstraintLayout&lt;/c0&gt; has a specific handling of widgets being marked as &lt;c1&gt;View.GONE&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8023,6 +8031,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As part of the build process, the SDK tools generate symbols for each resource, which you can use in your application code to access the resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095814Z" creationid="pingfangx" creationdate="20190603T095814Z">
+        <seg>作为构建过程的一部分，SDK 工具为每个资源生成符号，您可以在应用程序代码中使用这些符号来访问资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As property animation is only supported as of Android 3.0 and forward, setting a PageTransformer on a ViewPager on earlier platform versions will be ignored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8855,6 +8871,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Call this to remove all cached loaded layout resources from the Resources object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100311Z" creationid="pingfangx" creationdate="20190603T100311Z">
+        <seg>调用此方法可从 Resources 对象中移除所有缓存的已加载布局资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Call this when something has changed which has invalidated the layout of this view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -8923,6 +8947,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095707Z" creationid="pingfangx" creationdate="20180427T095707Z">
         <seg>当垃圾收集确定没有更多对该对象的引用时，由对象上的垃圾回收器调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called by zygote when it is done preloading resources, to change back to normal Resources operation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100109Z" creationid="pingfangx" creationdate="20190603T100109Z">
+        <seg>当它完成预加载资源时，由 zygote 调用，以更改回正常的资源操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9627,6 +9659,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>类初始化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class for accessing an application's resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095324Z" creationid="pingfangx" creationdate="20190603T095324Z">
+        <seg>用于访问应用程序资源的类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12023,6 +12063,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each call to this method returns a new instance of a Context object; Context objects are not shared, however common state (ClassLoader, other Resources for the same configuration) may be so the Context itself can be fairly lightweight.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101958Z" creationid="pingfangx" creationdate="20190603T101958Z">
+        <seg>每次调用此方法都会返回 Context 对象的新实例；上下文对象不是共享的，但是常见的状态(ClassLoader，相同配置的其他资源)可能因此 Context 本身可以相当轻量级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each channel (RGB and alpha for translucency) is stored with 8 bits of precision (256 possible values.) This configuration is very flexible and offers the best quality.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100912Z" creationid="pingfangx" creationdate="20180408T100912Z">
@@ -13503,6 +13551,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more information about using resources, see the documentation about &lt;a0&gt;Application Resources&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095926Z" creationid="pingfangx" creationdate="20190603T095926Z">
+        <seg>有关使用资源的更多信息，请参阅有关 &lt;a0&gt;Application Resources&lt;/a0&gt; 的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more information on creating accessible views, see &lt;a0&gt; Making Applications Accessible&lt;/a0&gt; in the Android Developers Guide.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T063801Z" creationid="pingfangx" creationdate="20181205T063801Z">
@@ -13635,6 +13691,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T062133Z" creationid="pingfangx" creationdate="20181205T062133Z">
         <seg>忘记这些方法调用可能会导致难以发现的错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formats the string necessary for grammatically correct pluralization of the given resource ID for the given quantity, using the given arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100946Z" creationid="pingfangx" creationdate="20190603T100946Z">
+        <seg>使用给定参数，为给定数量的给定资源 ID 的语法正确复数设置所需的字符串格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13863,6 +13927,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generate a new Theme object for this set of Resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101318Z" creationid="pingfangx" creationdate="20190603T101318Z">
+        <seg>为这组资源生成一个新的 Theme 对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generating the Content URI for a File</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -13923,6 +13995,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T023201Z" creationid="pingfangx" creationdate="20190513T023139Z">
         <seg>获取此 view 的锚点 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Get the raw value associated with a resource with associated density.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101303Z" creationid="pingfangx" creationdate="20190603T101303Z">
+        <seg>获取与具有关联密度的资源关联的原始值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14511,6 +14591,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ID_NULL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095954Z" creationid="pingfangx" creationdate="20190603T095954Z">
+        <seg>ID_NULL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IE=Edge</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T014519Z" creationid="pingfangx" creationdate="20190412T014519Z">
@@ -15091,6 +15179,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果注解的元素是一个类，则类中的所有方法都应该只在主线程被调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the base configuration changes (such as due to an orientation change), the resources of this context will also change except for those that have been explicitly overridden with a value here.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T102035Z" creationid="pingfangx" creationdate="20190603T102035Z">
+        <seg>如果基本配置发生更改(例如由于方向更改)，则此上下文的资源也将更改，除非已在此处显式覆盖了值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17455,6 +17551,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It will be stripped of any styled text information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101056Z" creationid="pingfangx" creationdate="20190603T101056Z">
+        <seg>它将被删除任何样式的文本信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It will only apply if the size of the widget is set to MATCH_CONSTRAINT.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19015,6 +19119,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open a data stream for reading a raw resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101358Z" creationid="pingfangx" creationdate="20190603T101358Z">
+        <seg>打开数据流以读取原始资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open a file descriptor for reading a raw resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101405Z" creationid="pingfangx" creationdate="20190603T101405Z">
+        <seg>打开文件描述符以读取原始资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open navigation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19259,6 +19379,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>父布局位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parse a name/value pair out of an XML tag holding that data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101409Z" creationid="pingfangx" creationdate="20190603T101409Z">
+        <seg>从包含该数据的 XML 标记中解析名称/值对。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parse a series of &lt;c0&gt;&lt;a1&gt;&lt;extra&gt;&lt;/a1&gt;&lt;/c0&gt; tags from an XML file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101415Z" creationid="pingfangx" creationdate="20190603T101415Z">
+        <seg>从 XML 文件中解析一系列 &lt;c0&gt;&lt;a1&gt;&lt;extra&gt;&lt;/a1&gt;&lt;/c0&gt; 标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20239,6 +20375,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Resources.NotFoundException</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095938Z" creationid="pingfangx" creationdate="20190603T095938Z">
+        <seg>Resources.NotFoundException</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resources.Theme</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095946Z" creationid="pingfangx" creationdate="20190603T095946Z">
+        <seg>Resources.Theme</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Respond to CoordinatorLayout touch events after this Behavior has started &lt;c0&gt;&lt;a1&gt;intercepting&lt;/a1&gt;&lt;/c0&gt; them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024915Z" creationid="pingfangx" creationdate="20190513T024915Z">
@@ -20307,6 +20459,54 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>重新抛出异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieve a dimensional for a particular resource ID for use as a size in raw pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100539Z" creationid="pingfangx" creationdate="20190603T100528Z">
+        <seg>获取特定资源 ID 的尺寸，以用作原始像素的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieve a dimensional for a particular resource ID for use as an offset in raw pixels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100535Z" creationid="pingfangx" creationdate="20190603T100513Z">
+        <seg>获取特定资源 ID 的尺寸，以用作原始像素中的偏移量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieve a dimensional for a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100448Z" creationid="pingfangx" creationdate="20190603T100448Z">
+        <seg>获取特定资源 ID 的尺寸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieve a floating-point value for a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100705Z" creationid="pingfangx" creationdate="20190603T100705Z">
+        <seg>获取特定资源 ID 的浮点值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieve a fractional unit for a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100724Z" creationid="pingfangx" creationdate="20190603T100724Z">
+        <seg>获取特定资源 ID 的小数单位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieve a set of basic attribute values from an AttributeSet, not performing styling of them using a theme and/or style resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101333Z" creationid="pingfangx" creationdate="20190603T101333Z">
+        <seg>从 AttributeSet 获取一组基本属性值，而不是使用主题和/或样式资源执行它们的样式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20391,6 +20591,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Retrieve underlying AssetManager storage for these resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100333Z" creationid="pingfangx" creationdate="20190603T100333Z">
+        <seg>获取这些资源的基础 AssetManager 存储。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Retrieves the previously set adapter or null if no adapter is set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20403,6 +20611,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>为文件获取 content URI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return a boolean associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100355Z" creationid="pingfangx" creationdate="20190603T100355Z">
+        <seg>返回与特定资源 ID 关联的布尔值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20423,6 +20639,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return a drawable object associated with a particular resource ID and styled for the specified theme.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100607Z" creationid="pingfangx" creationdate="20190603T100607Z">
+        <seg>返回与特定资源 ID 关联的可绘制对象，并为指定的主题设置样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return a drawable object associated with a particular resource ID for the given screen density in DPI and styled for the specified theme.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100701Z" creationid="pingfangx" creationdate="20190603T100701Z">
+        <seg>返回与特定资源 ID 关联的可绘制对象，用于 DPI 中给定屏幕密度，并为指定的主题设置样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return a global shared Resources object that provides access to only system resources (no application resources), is not configured for the current screen (can not use dimension units, does not change based on orientation, etc), and is not affected by Runtime Resource Overlay.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101149Z" creationid="pingfangx" creationdate="20190603T101149Z">
+        <seg>返回一个全局共享资源对象，该对象仅提供对系统资源的访问(无应用程序资源)，未为当前屏幕配置(不能使用尺寸单位，不会根据方向更改等)，并且不受运行时资源的影响覆盖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return a new Context object for the current Context but whose resources are adjusted to match the given Configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101704Z" creationid="pingfangx" creationdate="20190603T101704Z">
+        <seg>为当前 Context 返回一个新的 Context 对象，但调整其资源以匹配给定的 Configuration。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return a private FragmentManager for placing and managing Fragments inside of this Fragment.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20431,10 +20679,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return a resource identifier for the given resource name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100730Z" creationid="pingfangx" creationdate="20190603T100730Z">
+        <seg>返回给定资源名称的资源标识符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return a unique identifier for the item at the given position.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回给定位置的 item 的唯一标识符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return an XmlResourceParser through which you can read a generic XML resource for the given resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101313Z" creationid="pingfangx" creationdate="20190603T101313Z">
+        <seg>返回一个 XmlResourceParser，通过该 XmlResourceParser 可以读取给定资源 ID 的泛型 XML 资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return an XmlResourceParser through which you can read a view layout description for the given resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100811Z" creationid="pingfangx" creationdate="20190603T100811Z">
+        <seg>返回一个 XmlResourceParser，通过它可以读取给定资源 ID 的 view 布局描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return an XmlResourceParser through which you can read an animation description for the given resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100322Z" creationid="pingfangx" creationdate="20190603T100322Z">
+        <seg>返回一个 XmlResourceParser，您可以通过它读取给定资源 ID 的动画描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return an array of heterogeneous values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101351Z" creationid="pingfangx" creationdate="20190603T101351Z">
+        <seg>返回一个异类值数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return an integer associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100740Z" creationid="pingfangx" creationdate="20190603T100740Z">
+        <seg>返回与特定资源 ID 关联的整数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20483,6 +20779,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094323Z" creationid="pingfangx" creationdate="20190514T094323Z">
         <seg>返回工具栏中显示的菜单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the Typeface value associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100714Z" creationid="pingfangx" creationdate="20190603T100714Z">
+        <seg>返回与特定资源 ID 关联的字体值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20575,6 +20879,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the current configuration that is in effect for this resource object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100436Z" creationid="pingfangx" creationdate="20190603T100436Z">
+        <seg>返回对此资源对象有效的当前配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the current display metrics that are in effect for this resource object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100554Z" creationid="pingfangx" creationdate="20190603T100554Z">
+        <seg>返回对此资源对象有效的当前显示度量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the current drawable used as the collapse icon.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093239Z" creationid="pingfangx" creationdate="20190514T093239Z">
@@ -20647,6 +20967,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the entry name for a given resource identifier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101000Z" creationid="pingfangx" creationdate="20190603T101000Z">
+        <seg>返回给定资源标识符的条目名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the full name for a given resource identifier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101011Z" creationid="pingfangx" creationdate="20190603T101011Z">
+        <seg>返回给定资源标识符的全名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the green component of a color int.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180903T064910Z" creationid="pingfangx" creationdate="20180903T064910Z">
@@ -20671,6 +21007,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the int array associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100734Z" creationid="pingfangx" creationdate="20190603T100734Z">
+        <seg>返回与特定资源 ID 关联的 int 数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the left padding of the parent RecyclerView</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20687,10 +21031,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the package name for a given resource identifier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101014Z" creationid="pingfangx" creationdate="20190603T101014Z">
+        <seg>返回给定资源标识符的包名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the path's fill type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181221T065028Z" creationid="pingfangx" creationdate="20181221T065028Z">
         <seg>返回路径的填充类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the raw data associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101250Z" creationid="pingfangx" creationdate="20190603T101250Z">
+        <seg>返回与特定资源 ID 关联的原始数据。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20727,6 +21087,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the string array associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101126Z" creationid="pingfangx" creationdate="20190603T101126Z">
+        <seg>返回与特定资源 ID 关联的字符串数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the string value associated with a particular resource ID, substituting the format arguments as defined in &lt;c0&gt;&lt;a1&gt;Formatter&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;String.format(String, Object...)&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101035Z" creationid="pingfangx" creationdate="20190603T101035Z">
+        <seg>返回与特定资源 ID 关联的字符串值，替换 &lt;c0&gt;&lt;a1&gt;Formatter&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;String.format(String, Object...)&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the string value associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101123Z" creationid="pingfangx" creationdate="20190603T101123Z">
+        <seg>返回与特定资源 ID 关联的字符串值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the styled text array associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101219Z" creationid="pingfangx" creationdate="20190603T101219Z">
+        <seg>返回与特定资源 ID 关联的样式化文本数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the subtitle of this toolbar.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T094519Z" creationid="pingfangx" creationdate="20190514T094519Z">
@@ -20739,6 +21131,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回父 RecyclerView 的顶部 padding。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the type name for a given resource identifier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101018Z" creationid="pingfangx" creationdate="20190603T101018Z">
+        <seg>返回给定资源标识符的类型名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20887,6 +21287,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns a themed color integer associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100413Z" creationid="pingfangx" creationdate="20190603T100413Z">
+        <seg>返回与特定资源 ID 关联的主题颜色整数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a themed color state list associated with a particular resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100421Z" creationid="pingfangx" creationdate="20190603T100421Z">
+        <seg>返回与特定资源 ID 关联的主题颜色状态列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns an Object representing the new page.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21019,6 +21435,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回 view 的边界，包含它的装饰及 margins。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the character sequence necessary for grammatically correct pluralization of the given resource ID for the given quantity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100956Z" creationid="pingfangx" creationdate="20190603T100956Z">
+        <seg>返回给定数量的给定资源 ID 的语法正确复数化所需的字符序列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21319,6 +21743,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the resource ID of the resource that was used to create this AttributeSet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100349Z" creationid="pingfangx" creationdate="20190603T100349Z">
+        <seg>返回用于创建此 AttributeSet 的资源的资源 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the right edge of the given child view within its parent, offset by any applied &lt;c0&gt;&lt;a1&gt;ItemDecorations&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21395,6 +21827,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回在匹配期间由给定组捕获的子序列的初始索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the string necessary for grammatically correct pluralization of the given resource ID for the given quantity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100917Z" creationid="pingfangx" creationdate="20190603T100917Z">
+        <seg>返回给定数量的给定资源 ID 的语法正确复数形式所需的字符串。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23671,6 +24111,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>String</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101000Z" creationid="pingfangx" creationdate="20190603T101000Z">
+        <seg>String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>StringDef</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24207,6 +24655,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;null&lt;/c0&gt; resource ID.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095957Z" creationid="pingfangx" creationdate="20190603T095957Z">
+        <seg>&lt;c0&gt;null&lt;/c0&gt; 资源 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;onDraw()&lt;/c0&gt; and &lt;c1&gt;onMeasure()&lt;/c1&gt; methods (plus most of the other &lt;c2&gt;on...&lt;/c2&gt; methods) will likely have suitable behavior so you don't have to override them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24319,6 +24775,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Android SDK tools compile your application's resources into the application binary at build time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095517Z" creationid="pingfangx" creationdate="20190603T095517Z">
+        <seg>Android SDK 工具在构建时将应用程序的资源编译为应用程序二进制文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Android framework provides a set of base classes and XML tags to help you create a view that meets all of these requirements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034620Z" creationid="pingfangx" creationdate="20181205T034620Z">
@@ -24331,6 +24795,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T061640Z" creationid="pingfangx" creationdate="20181205T061640Z">
         <seg>Android 资源编译器为您做了很多工作，使您更容易调用 &lt;c0&gt;&lt;a1&gt;obtainStyledAttributes()&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Android resource system keeps track of all non-code assets associated with an application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095408Z" creationid="pingfangx" creationdate="20190603T095408Z">
+        <seg>Android 资源系统跟踪与应用程序关联的所有非代码资产。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26087,6 +26559,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The returned object will be a String if this is a plain string; it will be some other type of CharSequence if it is styled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101210Z" creationid="pingfangx" creationdate="20190603T101210Z">
+        <seg>如果这是一个普通的字符串，返回的对象将是一个 String;如果它有样式，它将是一些其他类型的 CharSequence。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The right margin to use when the target is gone</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -27271,6 +27751,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This class holds the current attribute values for a particular theme.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095952Z" creationid="pingfangx" creationdate="20190603T095952Z">
+        <seg>此类包含特定主题的当前属性值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This class is a drop-in replacement for &lt;c0&gt;&lt;a1&gt;Scroller&lt;/a1&gt;&lt;/c0&gt; in most cases.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190415T094952Z" creationid="pingfangx" creationdate="20190415T094952Z">
@@ -27411,6 +27899,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041505Z" creationid="pingfangx" creationdate="20181205T041505Z">
         <seg>此示例仅覆盖一个方法 &lt;c0&gt;onDraw()&lt;/c0&gt;，但您可能需要在创建自己的自定义组件时覆盖其他方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This exception is thrown by the resource APIs when a requested resource can not be found.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095945Z" creationid="pingfangx" creationdate="20190603T095945Z">
+        <seg>无法找到请求的资源时，资源 API 会抛出此异常。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27644,6 +28140,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T075255Z" creationid="pingfangx" creationdate="20180921T075255Z">
         <seg>这是 &lt;c0&gt;&lt;a1&gt;ImageDecoder&lt;/a1&gt;&lt;/c0&gt; 的实现细节，绝不应手动调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is an important aspect of developing Android applications that are compatible on different types of devices.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095918Z" creationid="pingfangx" creationdate="20190603T095918Z">
+        <seg>这是开发兼容不同类型设备的 Android 应用程序的一个重要方面。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28112,6 +28616,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This method was deprecated in API level 23.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100429Z" creationid="pingfangx" creationdate="20190603T100425Z">
+        <seg>此方法在 API 级别 23 中已弃用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This method was deprecated in API level 24.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102628Z" creationid="pingfangx" creationdate="20180408T102628Z">
@@ -28312,6 +28824,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This sits on top of the asset manager of the application (accessible through &lt;c0&gt;&lt;a1&gt;getAssets()&lt;/a1&gt;&lt;/c0&gt;) and provides a high-level API for getting typed data from the assets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095459Z" creationid="pingfangx" creationdate="20190603T095356Z">
+        <seg>它位于应用程序的 asset (后文可能译为资产) 管理器之上(可通过 &lt;c0&gt;&lt;a1&gt;getAssets()&lt;/a1&gt;&lt;/c0&gt; 访问)，并提供用于从资产中获取类型化数据的高级 API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This sort of poor experience may cause a user to rate your app poorly on the Play store, or even abandon your app altogether.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T071451Z" creationid="pingfangx" creationdate="20180925T071451Z">
@@ -28420,6 +28940,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T075325Z" creationid="pingfangx" creationdate="20180921T075325Z">
         <seg>该值绝不能为 &lt;c0&gt;null&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This value must never be &lt;c3&gt;null&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T102244Z" creationid="pingfangx" creationdate="20190603T102108Z">
+        <seg>这个值必须永远不为 &lt;c3&gt;null&lt;/c3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29184,6 +29712,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use a resource, you must install it correctly in the source tree (inside your project's &lt;c0&gt;res/&lt;/c0&gt; directory) and build your application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095545Z" creationid="pingfangx" creationdate="20190603T095545Z">
+        <seg>要使用资源，必须在源代码树中(在项目的 &lt;c0&gt;res/&lt;/c0&gt; 目录中)正确安装它并构建应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use an XML menu resource, use &lt;c0&gt;&lt;a1&gt;inflateMenu(int)&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T103940Z" creationid="pingfangx" creationdate="20190514T103940Z">
@@ -29868,6 +30404,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>使用具体的尺寸(一个字面值如 &lt;c0&gt;123dp&lt;/c0&gt; 或者一个 &lt;c1&gt;Dimension&lt;/c1&gt; 引用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using application resources makes it easy to update various characteristics of your application without modifying code, and—by providing sets of alternative resources—enables you to optimize your application for a variety of device configurations (such as for different languages and screen sizes).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095910Z" creationid="pingfangx" creationdate="20190603T095910Z">
+        <seg>使用应用程序资源可以轻松更新应用程序的各种特性而无需修改代码，并且通过提供备用资源集 - 使您能够针对各种设备配置(例如针对不同语言和屏幕大小)优化应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31344,6 +31888,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can generally acquire the &lt;c0&gt;&lt;a1&gt;Resources&lt;/a1&gt;&lt;/c0&gt; instance associated with your application with &lt;c2&gt;&lt;a3&gt;getResources()&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095511Z" creationid="pingfangx" creationdate="20190603T095511Z">
+        <seg>您通常可以使用 &lt;c2&gt;&lt;a3&gt;getResources()&lt;/a3&gt;&lt;/c2&gt; 获取与您的应用程序关联的 &lt;c0&gt;&lt;a1&gt;Resources&lt;/a1&gt;&lt;/c0&gt; 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can have as many stretchable sections as you want: their relative size stays the same, so the largest sections always remain the largest.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -31548,6 +32100,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T064118Z" creationid="pingfangx" creationdate="20181205T064118Z">
         <seg>您可以在 &lt;c8&gt;&lt;a9&gt;onDraw()&lt;/a9&gt;&lt;/c8&gt; 中使用这些方法来创建自定义用户界面(UI)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use this class to access your application's resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095504Z" creationid="pingfangx" creationdate="20190603T095504Z">
+        <seg>您可以使用此类访问应用程序的资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33796,6 +34356,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>但不接受以下样式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095936Z" creationid="pingfangx" creationdate="20190603T095936Z">
+        <seg>class</seg>
       </tuv>
     </tu>
     <tu>
