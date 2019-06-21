@@ -1,0 +1,18 @@
+#英文	中文	[不使用的翻译|]备注
+functional	函数	功能|
+dropped	删除	丢弃|
+
+# rx 统一
+reactive	响应	反应|
+observable	可观察对象
+observer	观察者	观察器|
+subscribe	订阅
+subscriber	订阅者
+emit	发射	发出|发也也是可以的，不过统一一下
+emission	发射	发出,排放|
+item	项目,数据项	物品,物|
+scheduler	调度器	调度程序|
+operator	操作符	操作员,运算符,运营商|
+producer	生产者	生产商|
+consumer	消费者
+backpressure	背压	反压力?|虽然不太准确，还是统一使用背压
