@@ -454,6 +454,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Although never is often better than *right* now.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031514Z" creationid="pingfangx" creationdate="20190816T031402Z">
+        <seg>但是现在就做还是要好过一直不做。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although practicality beats purity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031024Z" creationid="pingfangx" creationdate="20190816T031012Z">
+        <seg>尽管实用性胜过于纯粹性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although that way may not be obvious at first unless you're Dutch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031755Z" creationid="pingfangx" creationdate="20190816T031312Z">
+        <seg>虽然这种方式起初可能并不太直观，除非你是荷兰人。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Anonymous Block Statements</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125027Z" creationid="pingfangx" creationdate="20180110T125027Z">
@@ -562,6 +586,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T084905Z" creationid="pingfangx" creationdate="20180110T084905Z">
         <seg>向后兼容性策略</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beautiful is better than ugly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T030636Z" creationid="pingfangx" creationdate="20190816T030636Z">
+        <seg>优美优于丑陋。</seg>
       </tuv>
     </tu>
     <tu>
@@ -722,6 +754,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T081206Z" creationid="pingfangx" creationdate="20180110T081206Z">
         <seg>构建分布的兼容性标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Complex is better than complicated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T030757Z" creationid="pingfangx" creationdate="20190816T030757Z">
+        <seg>复杂优于凌乱。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1030,6 +1070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Easter Egg</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031723Z" creationid="pingfangx" creationdate="20190816T031723Z">
+        <seg>复活节彩蛋</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Elimination of PYO files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092706Z" creationid="pingfangx" creationdate="20180110T092706Z">
@@ -1074,6 +1122,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125622Z" creationid="pingfangx" creationdate="20180110T125622Z">
         <seg>环境标记</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Errors should never pass silently.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031106Z" creationid="pingfangx" creationdate="20190816T031106Z">
+        <seg>错误绝不能悄悄忽略。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1138,6 +1194,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T092012Z" creationid="pingfangx" creationdate="20180110T092012Z">
         <seg>在 Python 安装中显式引导 pip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Explicit is better than implicit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T030731Z" creationid="pingfangx" creationdate="20190816T030731Z">
+        <seg>明了优于隐晦。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1218,6 +1282,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T085715Z" creationid="pingfangx" creationdate="20180110T085715Z">
         <seg>完成的 PEPs （完成，在代码库中实现）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flat is better than nested.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T030811Z" creationid="pingfangx" creationdate="20190816T030811Z">
+        <seg>扁平优于嵌套。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1358,6 +1430,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the implementation is easy to explain, it may be a good idea.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031559Z" creationid="pingfangx" creationdate="20190816T031526Z">
+        <seg>如果实现容易解释，那可能是个好主意。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the implementation is hard to explain, it's a bad idea.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031610Z" creationid="pingfangx" creationdate="20190816T031522Z">
+        <seg>如果实现难以解释，这一定是个坏主意。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Immutable Bytes and Mutable Buffer</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T093908Z" creationid="pingfangx" creationdate="20180110T093908Z">
@@ -1418,6 +1506,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091917Z" creationid="pingfangx" creationdate="20180110T091917Z">
         <seg>改进 Python ZIP 应用程序支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the face of ambiguity, refuse the temptation to guess.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031149Z" creationid="pingfangx" creationdate="20190816T031149Z">
+        <seg>面对模棱两可，拒绝随意猜测。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1570,6 +1666,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T043402Z" creationid="pingfangx" creationdate="20180111T043402Z">
         <seg>标准库中的日志使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Long time Pythoneer Tim Peters succinctly channels the BDFL's guiding principles for Python's design into 20 aphorisms, only 19 of which have been written down.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031913Z" creationid="pingfangx" creationdate="20190816T031913Z">
+        <seg>长期以来，Pythoneer Tim Peters 简洁地将 BDFL 的设计指导原则引入 20 个格言中，其中只有 19 个被写下来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1854,6 +1958,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Namespaces are one honking great idea -- let's do more of those!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031719Z" creationid="pingfangx" creationdate="20190816T031633Z">
+        <seg>命名空间是一个很棒的主意，让我们做更多的事情吧！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Naming conventions and recipes related to packaging</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180111T071524Z" creationid="pingfangx" creationdate="20180110T123627Z">
@@ -1906,6 +2018,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T091637Z" creationid="pingfangx" creationdate="20180110T091637Z">
         <seg>系统字符界面中的不可解码字节</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now is better than never.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031508Z" creationid="pingfangx" creationdate="20190816T031337Z">
+        <seg>虽然一直不做经常要好过匆忙去做，</seg>
       </tuv>
     </tu>
     <tu>
@@ -2454,6 +2574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Readability counts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T030838Z" creationid="pingfangx" creationdate="20190816T030838Z">
+        <seg>可读性很重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reject Foolish Indentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T125814Z" creationid="pingfangx" creationdate="20180110T125814Z">
@@ -2718,6 +2846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Simple is better than complex.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T030741Z" creationid="pingfangx" creationdate="20190816T030741Z">
+        <seg>简单优于复杂。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Simpler String Substitutions</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090513Z" creationid="pingfangx" creationdate="20180110T090513Z">
@@ -2758,10 +2894,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sparse is better than dense.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T030833Z" creationid="pingfangx" creationdate="20190816T030833Z">
+        <seg>稀疏优于密集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Special __main__() function in modules</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T124826Z" creationid="pingfangx" creationdate="20180110T124826Z">
         <seg>模块中特殊的 __main __() 函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Special cases aren't special enough to break the rules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T030850Z" creationid="pingfangx" creationdate="20190816T030850Z">
+        <seg>特殊情况不足以打破规则。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3038,6 +3190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There should be one-- and preferably only one --obvious way to do it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031715Z" creationid="pingfangx" creationdate="20190816T031207Z">
+        <seg>应该有一种，且最好只有一种，显而易见的解决方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Things that will Not Change in Python 3000</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T094732Z" creationid="pingfangx" creationdate="20180110T094732Z">
@@ -3130,6 +3290,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180110T090409Z" creationid="pingfangx" creationdate="20180110T090409Z">
         <seg>通用换行支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unless explicitly silenced.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190816T031130Z" creationid="pingfangx" creationdate="20190816T031130Z">
+        <seg>除非它明确需要忽略。</seg>
       </tuv>
     </tu>
     <tu>
