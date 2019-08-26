@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.0.0_0_8c33b8efc" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.0.0_0_dev" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -6995,6 +6995,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T084258Z" creationid="pingfangx" creationdate="20190513T033928Z">
         <seg>当滚动位置达到某个阈值时，在状态栏后面显示或隐藏的 scrim。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A short distance may cause much more perspective distortion upon rotation, and can also result in some drawing artifacts if the rotated view ends up partially behind the camera (which is why the recommendation is to use a distance at least as far as the size of the view, if the view is to be rotated.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T043206Z" creationid="pingfangx" creationdate="20190810T043206Z">
+        <seg>短距离可能会在旋转时造成更多的透视畸变，并且如果旋转的 view 最终有一部分地在相机后面，也可能导致一些绘制瑕疵（这就是为什么在旋转 view 时，建议使用至少为 view 的尺寸作为相机距离。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -16767,6 +16775,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, a large distance will result in a large viewing angle, and there will not be much perspective distortion of the view as it rotates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T042838Z" creationid="pingfangx" creationdate="20190810T042838Z">
+        <seg>例如，较大的距离将导致较大的视角，并且在旋转时 view 将不会有太多的透视畸变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, a left barrier will align to the left of all the referenced views.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T092306Z" creationid="pingfangx" creationdate="20190611T085022Z">
@@ -17283,6 +17299,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T090645Z" creationid="pingfangx" creationdate="20190611T090645Z">
         <seg>例如，如果使用 TextureView 显示相机预览，则不能同时使用 &lt;c0&gt;&lt;a1&gt;lockCanvas()&lt;/a1&gt;&lt;/c0&gt; 绘制到 TextureView 上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, on a medium density display, the default distance is 1280.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T043232Z" creationid="pingfangx" creationdate="20190810T043232Z">
+        <seg>例如，在中密度显示器上，默认距离为 1280。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19887,6 +19911,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the rotationX or rotationY properties are changed and this view is large (more than half the size of the screen), it is recommended to always use a camera distance that's greater than the height (X axis rotation) or the width (Y axis rotation) of this view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T042634Z" creationid="pingfangx" creationdate="20190810T042634Z">
+        <seg>如果更改了 rotationX 或 rotationY 属性并且此 view 很大（超过屏幕大小的一半），建议始终使用大于 view 高度（X 轴旋转​​）或宽度（Y 轴旋转）的相机距离。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the specific type is known, use one of the more specific annotations instead, such as &lt;c0&gt;&lt;a1&gt;StringRes&lt;/a1&gt;&lt;/c0&gt; or &lt;c2&gt;&lt;a3&gt;DrawableRes&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -20563,6 +20595,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果要覆盖 FileProvider 方法的任何默认行为，请继承 FileProvider 类并在 &lt;c1&gt;&lt;provider&gt;&lt;/c1&gt; 的 &lt;c0&gt;android:name&lt;/c0&gt; 属性中使用完全限定的类名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to specify a distance that leads to visually consistent results across various densities, use the following formula:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T043323Z" creationid="pingfangx" creationdate="20190810T043323Z">
+        <seg>如果要指定一个在不同密度下产生视觉一致结果的距离，请使用以下公式：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21731,6 +21771,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T070244Z" creationid="pingfangx" creationdate="20181107T070244Z">
         <seg>Inches（英寸） - 基于屏幕的物理尺寸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Increasing values result in clockwise rotation from the viewpoint of looking down the x axis.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T034653Z" creationid="pingfangx" creationdate="20190810T034253Z">
+        <seg>增加值会导致顺时针旋转（从俯视 x 轴的视角来看）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Increasing values result in clockwise rotation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T033850Z" creationid="pingfangx" creationdate="20190810T033850Z">
+        <seg>增加值会导致顺时针旋转。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Increasing values result in counter-clockwise rotation from the viewpoint of looking down the y axis.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T040612Z" creationid="pingfangx" creationdate="20190810T040543Z">
+        <seg>增加值会导致逆时针旋转（从俯视 y 轴的视角来看）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25071,6 +25135,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a high density display, the default distance is 1920.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T043244Z" creationid="pingfangx" creationdate="20190810T043244Z">
+        <seg>在高密度显示器上，默认距离为 1920。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once completed, your new extension class can be used in place of the view upon which it was based.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26387,6 +26459,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>参见 &lt;c0&gt;&lt;a1&gt;ViewGroup&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;ViewGroup.MarginLayoutParams&lt;/a3&gt;&lt;/c2&gt; 了解更多信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Refer to &lt;c0&gt;&lt;a1&gt;setCameraDistance(float)&lt;/a1&gt;&lt;/c0&gt; for more information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T034325Z" creationid="pingfangx" creationdate="20190810T034325Z">
+        <seg>有关更多信息，请参阅 &lt;c0&gt;&lt;a1&gt;setCameraDistance(float)&lt;/a1&gt;&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30151,6 +30231,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sets the degrees that the view is rotated around the horizontal axis through the pivot point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T033555Z" creationid="pingfangx" creationdate="20190810T033555Z">
+        <seg>设置 view 围绕水平轴旋转通过轴心点的度数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the degrees that the view is rotated around the pivot point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T033540Z" creationid="pingfangx" creationdate="20190810T033540Z">
+        <seg>设置 view 围绕轴心点旋转的度数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the degrees that the view is rotated around the vertical axis through the pivot point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T033609Z" creationid="pingfangx" creationdate="20190810T033609Z">
+        <seg>设置 view 围绕垂直轴旋转的度数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the distance along the Z axis (orthogonal to the X/Y plane on which views are drawn) from the camera to this view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190826T143228Z" creationid="pingfangx" creationdate="20190810T042340Z">
+        <seg>设置从相机到该 view 沿 Z 轴(与绘制 view 的 X/Y 平面正交)的距离。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sets the ending title margin in pixels.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T101922Z" creationid="pingfangx" creationdate="20190514T101922Z">
@@ -33247,6 +33359,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The camera's distance affects 3D transformations, for instance rotations around the X and Y axis.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T042353Z" creationid="pingfangx" creationdate="20190810T042353Z">
+        <seg>相机的距离会影响 3D 变换，例如围绕 X 轴和 Y 轴的旋转。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The chain's "head" view (the left-most view in a horizontal chain and the top-most view in a vertical chain) defines the chain's style in XML.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -33687,6 +33807,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The density scale factor of a high density display is 1.5, and 1920 = 1280 * 1.5.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T043334Z" creationid="pingfangx" creationdate="20190810T043334Z">
+        <seg>高密度显示器的密度比例因子是 1.5，并且 1920 = 1280 * 1.5。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The design time location of the left side of the child.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -33735,10 +33863,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The distance is expressed in "depth pixels." The default distance depends on the screen density.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T043223Z" creationid="pingfangx" creationdate="20190810T043223Z">
+        <seg>距离以“深度像素”表示。默认距离取决于屏幕密度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The distance of child (guideline) to the top or left edge of its parent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>child(guideline)到它的 parent 的顶边或左边的距离。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The distance of the camera from the view plane can have an affect on the perspective distortion of the view when it is rotated around the x or y axis.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T042909Z" creationid="pingfangx" creationdate="20190810T042741Z">
+        <seg>当相机围绕 x 轴或 y 轴旋转时，相机与 view 平面的距离会影响 view 的透视畸变。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42004,6 +42148,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T090253Z" creationid="pingfangx" creationdate="20190611T090253Z">
         <seg>在软件中渲染时，TextureView 不会绘制任何内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When rotating large views, it is recommended to adjust the camera distance accordingly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190810T034315Z" creationid="pingfangx" creationdate="20190810T034315Z">
+        <seg>当旋转大 view 时，建议相应地调整相机距离。</seg>
       </tuv>
     </tu>
     <tu>
