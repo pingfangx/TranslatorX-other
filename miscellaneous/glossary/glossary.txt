@@ -16,3 +16,8 @@ operator	操作符	操作员,运算符,运营商|
 producer	生产者	生产商|
 consumer	消费者
 backpressure	背压	反压力?|虽然不太准确，还是统一使用背压
+
+#rfc
+header	首部	标头,标题,头部|
+#segment	报文段	(?<!报文)段|
+#field	字段	字报文段|为了解决前面的报文段的错误替换

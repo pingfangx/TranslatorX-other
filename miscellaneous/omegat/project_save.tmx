@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.0.0_0_8c33b8efc" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.0.0_0_dev" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -523,6 +523,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T062556Z" creationid="pingfangx" creationdate="20190618T062556Z">
         <seg>(我们从来没有在 1.x 中使用它，原来的 `Subject&lt;T, R&gt;` 来自 .NET，其中有一个 `Subject&lt;T&gt;` 重载，因为 .NET 允许相同的类名具有不同数量的类型参数。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(b)  Determining that all sequence numbers occupied by a segment have been acknowledged (e.g., to remove the segment from a retransmission queue).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021729Z" creationid="pingfangx" creationdate="20190828T021729Z">
+        <seg>(b) 确定已经确认了报文段所占用的所有序列号(例如，从重发队列中删除该报文段)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(c)  Determining that an incoming segment contains sequence numbers which are expected (i.e., that the segment "overlaps" the receive window).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021745Z" creationid="pingfangx" creationdate="20190828T021745Z">
+        <seg>(c) 确定传入报文段包含预期的序列号(即，报文段“重叠”接收窗口)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1095,6 +1111,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-- "how does the TCP identify duplicate segments from previous incarnations of the connection?"  This problem becomes apparent if the connection is being opened and closed in quick succession, or if the connection breaks with loss of memory and is then reestablished.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023223Z" creationid="pingfangx" creationdate="20190828T023223Z">
+        <seg> - “TCP 如何识别以前连接的复制报文段？”如果快速连续打开和关闭连接，或者连接因内存丢失而中断然后重新建立，则此问题变得明显。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>// If Java 8 lambdas are supported</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T090817Z" creationid="pingfangx" creationdate="20190618T090817Z">
@@ -1111,10 +1135,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1 - old sequence numbers which have been acknowledged</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111911Z" creationid="pingfangx" creationdate="20190827T111911Z">
+        <seg>1 - 已确认的序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2 - sequence numbers allowed for new reception</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111916Z" creationid="pingfangx" creationdate="20190827T111916Z">
+        <seg>2 - 允许新接收的序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2-9 argument version dropped, use `startWithArray` instead</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190619T053722Z" creationid="pingfangx" creationdate="20190619T053722Z">
         <seg>2-9 参数版本删除，使用 `startWithArray` 代替</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>3 - future sequence numbers which are not yet allowed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111921Z" creationid="pingfangx" creationdate="20190827T111921Z">
+        <seg>3 - 未来允许的序列号</seg>
       </tuv>
     </tu>
     <tu>
@@ -1231,10 +1279,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A --&gt; B  ACK your sequence number is Y</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023933Z" creationid="pingfangx" creationdate="20190828T023933Z">
+        <seg>A --&gt; B  ACK 你的序列号是 Y</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A --&gt; B  SYN my sequence number is X</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023843Z" creationid="pingfangx" creationdate="20190828T023843Z">
+        <seg>A --&gt; B  SYN 我的序列号是 X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;-- B  ACK your sequence number is X</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023901Z" creationid="pingfangx" creationdate="20190828T023901Z">
+        <seg>A &lt;-- B  ACK 你的序列号是 X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;-- B  SYN my sequence number is Y</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023909Z" creationid="pingfangx" creationdate="20190828T023909Z">
+        <seg>A &lt;-- B  SYN 我的序列号是 Y</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Decision Tree of Observable Operators</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T094409Z" creationid="pingfangx" creationdate="20190620T094409Z">
         <seg>Observable 操作符的决策树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A SYN-ACK is returned (line 3) and causes TCP A to generate a RST (the ACK in line 3 is not acceptable).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060402Z" creationid="pingfangx" creationdate="20190828T060402Z">
+        <seg>返回 SYN-ACK(第 3 行)并使 TCP A 生成 RST(第 3 行中的 ACK 不可接受)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1263,6 +1351,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A TCP connection progresses from one state to another in response to events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112939Z" creationid="pingfangx" creationdate="20190827T112939Z">
+        <seg>TCP 连接从一个状态进展到另一个状态以响应事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A TCP header follows the internet header, supplying information specific to the TCP protocol.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T104706Z" creationid="pingfangx" creationdate="20190827T104706Z">
+        <seg>TCP 首部跟随 IP 首部，提供特定于 TCP 协议的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A TCP must implement all options.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110949Z" creationid="pingfangx" creationdate="20190827T110949Z">
+        <seg>TCP 必须实现所有选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A TCP will reliably deliver all buffers SENT before the connection was CLOSED so a user who expects no data in return need only wait to hear the connection was CLOSED successfully to know that all his data was received at the destination TCP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063448Z" creationid="pingfangx" creationdate="20190828T063048Z">
+        <seg>TCP 将在连接被 CLOSED 之前可靠地 SENT 传递所有缓冲区，因此期望没有数据返回的用户只需等待成功地听到连接已成功 CLOSED，以便知道他的所有数据都在目标 TCP 上接收。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A chain of Observable operators do not operate independently on the original Observable that originates the chain, but they operate &lt;e0&gt;in turn&lt;/e0&gt;, each one operating on the Observable generated by the operator immediately previous in the chain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T093948Z" creationid="pingfangx" creationdate="20190620T073225Z">
@@ -1275,6 +1395,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T093956Z" creationid="pingfangx" creationdate="20190620T093858Z">
         <seg>链式 Observable 操作符不能在原始的 Observable 上独立运行，它们是依次 &lt;e1&gt;操作&lt;/e1&gt;，每个操作符操作的 Observable 由链中的前一个操作符生成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A connection is defined by a pair of sockets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023136Z" creationid="pingfangx" creationdate="20190828T023136Z">
+        <seg>连接由一对套接字定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A connection progresses through a series of states during its lifetime.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112040Z" creationid="pingfangx" creationdate="20190827T112040Z">
+        <seg>连接在其生命周期中通过一系列状态进行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A fundamental notion in the design is that every octet of data sent over a TCP connection has a sequence number.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T020934Z" creationid="pingfangx" creationdate="20190828T020934Z">
+        <seg>设计中的一个基本概念是通过 TCP 连接发送的每个八位字节数据都有一个序列号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1295,6 +1439,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A new acknowledgment (called an "acceptable ack"), is one for which the inequality below holds:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022101Z" creationid="pingfangx" creationdate="20190828T022101Z">
+        <seg>新的确认(称为“可接受的确认”)是下面的不等式所持有的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A reset is valid if its sequence number is in the window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061734Z" creationid="pingfangx" creationdate="20190828T061734Z">
+        <seg>如果序列号在窗口中，则重置有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A reset must not be sent if it is not clear that this is the case.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060541Z" creationid="pingfangx" creationdate="20190828T060533Z">
+        <seg>如果不清楚情况是否如此，则不得发送重置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A segment is judged to occupy a portion of valid receive sequence space if</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022317Z" creationid="pingfangx" creationdate="20190828T022317Z">
+        <seg>判断报文段占用有效接收序列空间的一部分，如果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A segment on the retransmission queue is fully acknowledged if the sum of its sequence number and length is less or equal than the acknowledgment value in the incoming segment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022114Z" creationid="pingfangx" creationdate="20190828T022114Z">
+        <seg>如果重传队列的序列号和长度之和小于或等于传入报文段中的确认值，则完全确认该报文段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A simultaneous CLOSE by users at both ends of a connection causes FIN segments to be exchanged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063912Z" creationid="pingfangx" creationdate="20190828T063912Z">
+        <seg>连接两端的用户同时发生 CLOSE 会导致 FIN 报文段被交换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A small regret about introducing backpressure in RxJava 0.x is that instead of having a separate base reactive class, the `Observable` itself was retrofitted.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T053113Z" creationid="pingfangx" creationdate="20190618T053113Z">
@@ -1303,10 +1495,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A three way handshake is necessary because sequence numbers are not tied to a global clock in the network, and TCPs may have different mechanisms for picking the ISN's.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024227Z" creationid="pingfangx" creationdate="20190828T024227Z">
+        <seg>三次握手是必要的，因为序列号不依赖于网络中的全局时钟，并且 TCP 可能具有用于挑选 ISN 的不同机制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A toolbox of useful Operators for working with Observables</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T101906Z" creationid="pingfangx" creationdate="20190620T101906Z">
         <seg>用于处理 Observable 的有用操作符的工具箱</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A variety of other cases are possible, all of which are accounted for by the following rules for RST generation and processing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060454Z" creationid="pingfangx" creationdate="20190828T060454Z">
+        <seg>可能存在各种其他情况，所有这些情况都由以下 RST 生成和处理规则来解释。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1331,6 +1539,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T065453Z" creationid="pingfangx" creationdate="20190620T065453Z">
         <seg>“热” Observable 可能在创建后立即开始发射项目，因此任何后来订阅该 Observable 的观察者可能会在序列中间某处开始观察。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ACK:  Acknowledgment field significant</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105408Z" creationid="pingfangx" creationdate="20190827T105408Z">
+        <seg>ACK：指明确认字段</seg>
       </tuv>
     </tu>
     <tu>
@@ -1367,10 +1583,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Active Side Causes Half-Open Connection Discovery</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060319Z" creationid="pingfangx" creationdate="20190828T060319Z">
+        <seg>活动侧导致半开连接发现</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Actually, it is a little more complicated than this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022404Z" creationid="pingfangx" creationdate="20190828T022404Z">
+        <seg>实际上，它比这复杂一点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After TCP A crashes, the user attempts to re-open the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055839Z" creationid="pingfangx" creationdate="20190828T055839Z">
+        <seg>TCP A 崩溃后，用户尝试重新打开连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All code inside the `io.reactivex.internal.*` packages is considered private API and should not be relied upon at all.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T105411Z" creationid="pingfangx" creationdate="20190617T105411Z">
         <seg>`io.reactivex.internal.*` 包中的所有代码都被视为私有 API，根本不应该依赖它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All options are included in the checksum.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110811Z" creationid="pingfangx" creationdate="20190827T110811Z">
+        <seg>所有选项都包含在校验和中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All segments preceding and including FIN will be retransmitted until acknowledged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T070131Z" creationid="pingfangx" creationdate="20190828T063559Z">
+        <seg>FIN 之前（包含 FIN ）的所有报文段都将被重传，直到被确认为止。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1419,6 +1675,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T093543Z" creationid="pingfangx" creationdate="20190620T093543Z">
         <seg>虽然实现之间存在很多重叠，但也有一些操作符仅在某些实现中实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although these examples do not show connection synchronization using data-carrying segments, this is perfectly legitimate, so long as the receiving TCP doesn't deliver the data to the user until it is clear the data is valid (i.e., the data must be buffered at the receiver until the connection reaches the ESTABLISHED state).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T031823Z" creationid="pingfangx" creationdate="20190828T031823Z">
+        <seg>虽然这些示例没有显示使用数据承载报文段的连接同步，但这是完全合法的，只要接收 TCP 不向用户传递数据，直到数据有效（即数据必须在接收器处被缓冲，直到连接达到 ESTABLISHED 状态）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Among the variables stored in the TCB are the local and remote socket numbers, the security and precedence of the connection, pointers to the user's send and receive buffers, pointers to the retransmit queue and to the current segment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111529Z" creationid="pingfangx" creationdate="20190827T111529Z">
+        <seg>存储在 TCB 中的变量包括本地和远程套接字号，连接的安全性和优先级，指向用户的发送和接收缓冲区的指针，指向重新传输队列和当前报文段的指针。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An "XXX" indicates a segment which is lost or rejected.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T034539Z" creationid="pingfangx" creationdate="20190828T034539Z">
+        <seg>“XXX”表示丢失或拒绝的报文段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1495,6 +1775,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An established connection is said to be  "half-open" if one of the TCPs has closed or aborted the connection at its end without the knowledge of the other, or if the two ends of the connection have become desynchronized owing to a crash that resulted in loss of memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043526Z" creationid="pingfangx" creationdate="20190828T043432Z">
+        <seg>如果其中一个 TCP 在其不知道另一个的情况下关闭或中止了连接，或者如果连接的两端由于崩溃而变得不同步导致失去记忆，则建立的连接被称为“半开”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An example of an enhancement that would classify as this is adding reactive pull backpressure support to an operator that previously did not support it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T105030Z" creationid="pingfangx" creationdate="20190617T105030Z">
@@ -1507,6 +1795,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T062234Z" creationid="pingfangx" creationdate="20190618T062234Z">
         <seg>关于 `Subject` (以及扩展名 `FlowableProcessor`)的一个重要变化是它们不再支持类似 `T -&gt; R` 的转换(即输入类型为 `T` 且输出类型为 `R` )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An interesting alternative case occurs when TCP A crashes and TCP B tries to send data on what it thinks is a synchronized connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060206Z" creationid="pingfangx" creationdate="20190828T060206Z">
+        <seg>当 TCP A 崩溃并且 TCP B 尝试发送它认为是同步连接的数据时，会出现一个有趣的替代情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An old duplicate arriving at TCP B (line 2) stirs B into action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060353Z" creationid="pingfangx" creationdate="20190828T060353Z">
+        <seg>到达 TCP B(第 2 行)的旧副本激起 B 采取行动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An option may begin on any octet boundary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110814Z" creationid="pingfangx" creationdate="20190827T110814Z">
+        <seg>选项可以从任何八位字节边界开始。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1539,6 +1851,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T095158Z" creationid="pingfangx" creationdate="20190618T095158Z">
         <seg>除了订阅基本类型用他们各自的消费者（`Subscriber`，`Observer`，`SingleObserver`，`MaybeObserver` 和 `CompletableObserver`）和基于函数接口的消费者（例如 `subscribe(Consumer&lt;T&gt;, Consumer&lt;Throwable&gt;, Action`），以前单独的 1.x `BlockingObservable`（以及其他类似的类）已经与主要的响应类型集成在一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As a general rule, reset (RST) must be sent whenever a segment arrives which apparently is not intended for the current connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060524Z" creationid="pingfangx" creationdate="20190828T060524Z">
+        <seg>作为一般规则，每当显然不是用于当前连接的报文段到达时必须发送重置(RST)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As a result, A will probably try to OPEN the connection again or try to SEND on the connection it believes open.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055812Z" creationid="pingfangx" creationdate="20190828T055812Z">
+        <seg>因此，A 可能会尝试再次打开连接或尝试在它认为打开的连接上发送。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As a shorthand, segments carrying the SYN bit are also called "SYNs".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023717Z" creationid="pingfangx" creationdate="20190828T023717Z">
+        <seg>作为简写，携带 SYN 位的报文段也称为“SYNs”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As a simple example of recovery from old duplicates, consider figure 9.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042858Z" creationid="pingfangx" creationdate="20190828T042858Z">
+        <seg>作为从旧重复项恢复的简单示例，请考虑图 9。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1591,10 +1935,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assume that two user processes A and B are communicating with one another when a crash occurs causing loss of memory to A's TCP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055708Z" creationid="pingfangx" creationdate="20190828T055708Z">
+        <seg>假设发生崩溃时两个用户进程 A 和 B 正在彼此通信，从而导致 A 的 TCP 内存丢失。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At 100 megabits/sec, the cycle time is 5.4 minutes which may be a little short, but still within reason.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025441Z" creationid="pingfangx" creationdate="20190828T025441Z">
+        <seg>在 100 兆比特/秒时，循环时间为 5.4 分钟，这可能有点短，但仍然在合理范围内。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At 2 megabits/sec.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025341Z" creationid="pingfangx" creationdate="20190828T025341Z">
+        <seg>以 2 兆比特/秒。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At each invocation, it has to call `onNext` at most once optionally followed by either `onError` or `onComplete`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T021246Z" creationid="pingfangx" creationdate="20190624T021246Z">
         <seg>在每次调用时，它必须最多调用 `onNext` 一次，可选地后跟 `onError` 或 `onComplete`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At line 3, an old duplicate SYN arrives at TCP B.  TCP B cannot tell that this is an old duplicate, so it responds normally (line 4).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042922Z" creationid="pingfangx" creationdate="20190828T042922Z">
+        <seg>在第 3 行，旧的重复的 SYN 到达 TCP B.TCP B 无法判断这是一个旧副本，因此它正常响应(第 4 行)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At line 4, TCP A responds with an empty segment containing an ACK for TCP B's SYN; and in line 5, TCP A sends some data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T041742Z" creationid="pingfangx" creationdate="20190828T041742Z">
+        <seg>在第 4 行，TCP A 响应一个包含确认 TCP B 的 SYN 的 ACK 空报文段；在第 5 行中，TCP A 发送一些数据。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1627,6 +2011,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T072112Z" creationid="pingfangx" creationdate="20190620T072112Z">
         <seg>背压操作符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basic 3-Way Handshake for Connection Synchronization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T040732Z" creationid="pingfangx" creationdate="20190828T040732Z">
+        <seg>连接同步的基本三次握手</seg>
       </tuv>
     </tu>
     <tu>
@@ -1671,6 +2063,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because steps 2 and 3 can be combined in a single message this is called the three way (or three message) handshake.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024008Z" creationid="pingfangx" creationdate="20190828T024008Z">
+        <seg>因为步骤 2 和 3 可以组合在单个消息中，所以这称为三向(或三个消息)握手。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because there could be at most 1 element emitted, the `Maybe` type has no notion of backpressure (because there is no buffer bloat possible as with unknown length `Flowable`s or `Observable`s.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T060825Z" creationid="pingfangx" creationdate="20190618T060825Z">
@@ -1683,6 +2083,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T073825Z" creationid="pingfangx" creationdate="20190618T073825Z">
         <seg>在 2.0.7 之前，必须应用运算符 `strict()` 才能达到相同的合规水平。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before we can discuss very much about the operation of the TCP we need to introduce some detailed terminology.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111246Z" creationid="pingfangx" creationdate="20190827T111246Z">
+        <seg>在我们详细讨论 TCP 的操作之前，我们需要介绍一些详细的术语。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1715,6 +2123,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T102531Z" creationid="pingfangx" creationdate="20190617T102531Z">
         <seg>`Publisher` 和 `SingleSource` 都显示为函数接口(具有一个抽象方法的类型)，并且可能鼓励用户尝试提供 lambda 表达式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both users CLOSE simultaneously</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063213Z" creationid="pingfangx" creationdate="20190828T063213Z">
+        <seg>两个用户同时关闭</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both will, upon receiving these ACKs, delete the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063927Z" creationid="pingfangx" creationdate="20190828T063927Z">
+        <seg>收到这些 ACK 后，两者都将删除该连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Briefly the meanings of the states are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112508Z" creationid="pingfangx" creationdate="20190827T112508Z">
+        <seg>简而言之，各状态的意义是：</seg>
       </tuv>
     </tu>
     <tu>
@@ -1791,6 +2223,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CLOSE is an operation meaning "I have no more data to send."  The notion of closing a full-duplex connection is subject to ambiguous interpretation, of course, since it may not be obvious how to treat the receiving side of the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T062603Z" creationid="pingfangx" creationdate="20190828T062603Z">
+        <seg>CLOSE 是一项操作，意思是“我没有更多数据要发送”。当然，关闭全双工连接的概念会受到模糊解释，因为如何处理连接的接收方可能并不明显。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CLOSE-WAIT - represents waiting for a connection termination request from the local user.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112754Z" creationid="pingfangx" creationdate="20190827T112754Z">
+        <seg>CLOSE-WAIT - 表示等待本地用户的连接终止请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CLOSED - represents no connection state at all.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112930Z" creationid="pingfangx" creationdate="20190827T112930Z">
+        <seg>CLOSED - 表示根本没有连接状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CLOSED is fictional because it represents the state when there is no TCB, and therefore, no connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112458Z" creationid="pingfangx" creationdate="20190827T112458Z">
+        <seg>CLOSED 是虚构的，因为它表示没有 TCB 时的状态，因此没有连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CLOSING - represents waiting for a connection termination request acknowledgment from the remote TCP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112817Z" creationid="pingfangx" creationdate="20190827T112817Z">
+        <seg>CLOSING - 表示等待来自远程 TCP 的连接终止请求确认。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Call a method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T053007Z" creationid="pingfangx" creationdate="20190620T053007Z">
@@ -1811,6 +2283,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T041019Z" creationid="pingfangx" creationdate="20190620T041019Z">
         <seg>回调通过不允许任何阻塞来解决 &lt;c0&gt;Future.get()&lt;/c0&gt; 上的过早阻塞问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Case 1:  A single octet of option-kind.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110829Z" creationid="pingfangx" creationdate="20190827T110829Z">
+        <seg>情况 1：选项类型的单个八位字节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Case 1:  Local user initiates the close</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063230Z" creationid="pingfangx" creationdate="20190828T063230Z">
+        <seg>情况 1：本地用户启动关闭</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Case 2:  An octet of option-kind, an octet of option-length, and the actual option-data octets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110845Z" creationid="pingfangx" creationdate="20190827T110845Z">
+        <seg>情况 2：选项类型的八位字节，选项长度的八位字节和实际的选项 - 数据八位字节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Case 2:  TCP receives a FIN from the network</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063644Z" creationid="pingfangx" creationdate="20190828T063644Z">
+        <seg>情况 2：TCP 从网络接收 FIN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Case 3:  both users close simultaneously</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063756Z" creationid="pingfangx" creationdate="20190828T063756Z">
+        <seg>案例 3：两个用户同时关闭</seg>
       </tuv>
     </tu>
     <tu>
@@ -1839,10 +2351,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Closing a Connection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061836Z" creationid="pingfangx" creationdate="20190828T061836Z">
+        <seg>关闭连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Combining Observables</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T071920Z" creationid="pingfangx" creationdate="20190620T071920Z">
         <seg>结合 Observable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Comments appear in parentheses.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T034558Z" creationid="pingfangx" creationdate="20190828T034558Z">
+        <seg>注释显示在括号中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1887,6 +2415,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Consequently, we must adopt rules for implicitly assigning sequence numbers to control.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T035208Z" creationid="pingfangx" creationdate="20190828T022556Z">
+        <seg>因此，我们必须为控制位采用隐式分配序列号的规则。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Control information is not physically carried in the segment data space.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022547Z" creationid="pingfangx" creationdate="20190828T022547Z">
+        <seg>控制信息不是在报文段数据空间中物理携带的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Converting Observables</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T072026Z" creationid="pingfangx" creationdate="20190620T072026Z">
@@ -1915,6 +2459,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T015503Z" creationid="pingfangx" creationdate="20190624T015503Z">
         <seg>在处理背压时，创建背压数据源是相对容易的任务，因为库已经在 `Flowable` 上提供了静态方法，可以让开发人员处理背压。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Current Segment Variables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111956Z" creationid="pingfangx" creationdate="20190827T111956Z">
+        <seg>当前报文段变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Currently defined options include (kind indicated in octal):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111000Z" creationid="pingfangx" creationdate="20190827T111000Z">
+        <seg>目前定义的选项包括(以八进制表示的种类)：</seg>
       </tuv>
     </tu>
     <tu>
@@ -1959,6 +2519,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Depending on the operating system supporting A's TCP, it is likely that some error recovery mechanism exists.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055717Z" creationid="pingfangx" creationdate="20190828T055717Z">
+        <seg>根据支持 A 的 TCP 的操作系统，可能存在一些错误恢复机制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Due to the Reactive-Streams specification, `Publisher.subscribe` returns void and the pattern by itself no longer works in 2.0.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T070624Z" creationid="pingfangx" creationdate="20190618T070624Z">
@@ -1975,6 +2543,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Due to zero windows and zero length segments, we have four cases for the acceptability of an incoming segment:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022410Z" creationid="pingfangx" creationdate="20190828T022410Z">
+        <seg>由于零窗口和零长度报文段，我们有四种情况可以接受传入的报文段：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ESTABLISHED - represents an open connection, data received can be delivered to the user.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112708Z" creationid="pingfangx" creationdate="20190827T112708Z">
+        <seg>ESTABLISHED - 表示开放连接，接收的数据可以传递给用户。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each TCP cycles from CLOSED to SYN-SENT to SYN-RECEIVED to ESTABLISHED.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T041927Z" creationid="pingfangx" creationdate="20190828T041927Z">
+        <seg>每个 TCP 从 CLOSED 到 SYN-SENT 循环到 SYN-RECEIVED 到 ESTABLISHED。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each language-specific implementation of ReactiveX has its own naming quirks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T064528Z" creationid="pingfangx" creationdate="20190620T064528Z">
@@ -1987,6 +2579,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T093532Z" creationid="pingfangx" creationdate="20190620T093532Z">
         <seg>ReactiveX 的每个特定于语言的实现都实现了一组操作符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each line is numbered for reference purposes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T033933Z" creationid="pingfangx" creationdate="20190828T033933Z">
+        <seg>每行都有编号以供参考。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2019,6 +2619,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T020312Z" creationid="pingfangx" creationdate="20190624T020312Z">
         <seg>每个请求的元素触发状态转换并返回值的计算。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each side must also receive the other side's initial sequence number and send a confirming acknowledgment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023820Z" creationid="pingfangx" creationdate="20190828T023820Z">
+        <seg>每一方还必须接收另一方的初始序列号并发送确认确认。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ellipsis (...) indicates a segment which is still in the network (delayed).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T034527Z" creationid="pingfangx" creationdate="20190828T034527Z">
+        <seg>省略号(...)表示仍在网络中的报文段(延迟)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2183,6 +2799,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Establishing a connection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T030228Z" creationid="pingfangx" creationdate="20190828T030228Z">
+        <seg>建立连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even hosts which can remember the time of day and used it to select initial sequence number values are not immune from this problem (i.e., even if time of day is used to select an initial sequence number for each new connection incarnation).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025621Z" creationid="pingfangx" creationdate="20190828T025621Z">
+        <seg>即使能够记住一天中的时间并且用它来选择初始序列号值的主机也不能免于这个问题(即，即使使用时间来为每个新的连接化身选择初始序列号)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Even though certain operators have no problems from type erasure, their signature may turn up being ambiguous, especially if one uses Java 8 and lambdas.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T102233Z" creationid="pingfangx" creationdate="20190617T102233Z">
@@ -2211,6 +2843,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T083119Z" creationid="pingfangx" creationdate="20190621T083119Z">
         <seg>在最终消费者中很少需要表达背压(因为它们与上游是同步的，背压自然是由于调用堆栈阻塞而发生)，但是可能更容易理解它的工作原理：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FIN-WAIT-1 - represents waiting for a connection termination request from the remote TCP, or an acknowledgment of the connection termination request previously sent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112735Z" creationid="pingfangx" creationdate="20190827T112735Z">
+        <seg>FIN-WAIT-1 - 表示等待来自远程 TCP 的连接终止请求，或者对先前发送的连接终止请求的确认。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FIN-WAIT-2 - represents waiting for a connection termination request from the remote TCP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112741Z" creationid="pingfangx" creationdate="20190827T112741Z">
+        <seg>FIN-WAIT-2 - 表示等待来自远程 TCP 的连接终止请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FIN:  No more data from sender</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105435Z" creationid="pingfangx" creationdate="20190827T105435Z">
+        <seg>FIN：没有来自发送者的更多数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FUNCTIONAL SPECIFICATION</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T100456Z" creationid="pingfangx" creationdate="20190827T100456Z">
+        <seg>功能说明书</seg>
       </tuv>
     </tu>
     <tu>
@@ -2247,6 +2911,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a connection to be established or initialized, the two TCPs must synchronize on each other's initial sequence numbers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023509Z" creationid="pingfangx" creationdate="20190828T023509Z">
+        <seg>对于要建立或初始化的连接，两个 TCP 必须在彼此的初始序列号上同步。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For bugs, questions and discussions please use the [Github Issues](https://github.com/ReactiveX/RxJava/issues).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T105641Z" creationid="pingfangx" creationdate="20190617T105641Z">
@@ -2259,6 +2931,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T020236Z" creationid="pingfangx" creationdate="20190624T020236Z">
         <seg>为了方便(并避免关于泛型数组创建的警告)，内部委托给 `from` 的 `just` 有 2 到 10 个参数重载。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each connection there is a send sequence number and a receive sequence number.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023425Z" creationid="pingfangx" creationdate="20190828T023425Z">
+        <seg>对于每个连接，存在发送序列号和接收序列号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2291,6 +2971,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T014924Z" creationid="pingfangx" creationdate="20190624T014924Z">
         <seg>例如，如果想要执行一些定期后台任务但每次迭代可能持续的时间超过后台任务周期，则可以安全地删除多余的间隔通知，因为稍后会有更多：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if the TCP were to start all connections with sequence number 0, then upon crashing and restarting, a TCP might re-form an earlier connection (possibly after half-open connection resolution) and emit packets with sequence numbers identical to or overlapping with packets still in the network which were emitted on an earlier incarnation of the same connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025536Z" creationid="pingfangx" creationdate="20190828T025536Z">
+        <seg>例如，如果 TCP 要启动序列号为 0 的所有连接，则在崩溃并重新启动时，TCP 可能会重新形成先前的连接(可能在半开连接解析之后)并发射序列号相同或重叠的数据包数据包仍在网络中，这些数据包是在同一连接的早期版本中发射的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2343,6 +3031,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For sequence number purposes, the SYN is considered to occur before the first actual data octet of the segment in which it occurs, while the FIN is considered to occur after the last actual data octet in a segment in which it occurs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022748Z" creationid="pingfangx" creationdate="20190828T022748Z">
+        <seg>出于序列号的目的，SYN 被认为发生在它发生的报文段的第一个实际数据八位位组之前，而 FIN 被认为发生在它发生的报文段中的最后一个实际数据八位位组之后。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For technical details on how to write operators for 2.x, please visit the [Writing Operators](https://github.com/ReactiveX/RxJava/wiki/Writing-operators-for-2.0) wiki page.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T051956Z" creationid="pingfangx" creationdate="20190618T051932Z">
@@ -2383,6 +3079,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For this specification the MSL is taken to be 2 minutes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024416Z" creationid="pingfangx" creationdate="20190828T024416Z">
+        <seg>对于此规范，MSL 为 2 分钟。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>From a user's perspective, if one was using the the `subscribe` methods other than `Flowable.subscribe(Subscriber&lt;? super T&gt;)`, there is no need to do anything regarding this change and there is no extra penalty for it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T085030Z" creationid="pingfangx" creationdate="20190618T085030Z">
@@ -2395,6 +3099,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T040634Z" creationid="pingfangx" creationdate="20190620T040634Z">
         <seg>从观察者的角度来看，这并不重要！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Functional Specification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T041850Z" creationid="pingfangx" creationdate="20190828T041850Z">
+        <seg>Functional Specification</seg>
       </tuv>
     </tu>
     <tu>
@@ -2455,6 +3167,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Half-Open Connection Discovery</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055922Z" creationid="pingfangx" creationdate="20190828T055922Z">
+        <seg>半开连接发现</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Half-Open Connections and Other Anomalies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043351Z" creationid="pingfangx" creationdate="20190828T043351Z">
+        <seg>半开连接和其他异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Header Format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T100654Z" creationid="pingfangx" creationdate="20190827T100654Z">
+        <seg>首部格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hence, the solution requires a suitable mechanism for picking an initial sequence number and a slightly involved handshake to exchange the ISN's.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023742Z" creationid="pingfangx" creationdate="20190828T023742Z">
+        <seg>因此，该解决方案需要合适的机制来挑选初始序列号和稍微涉及的握手以交换 ISN。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here the `computeValue` is executed only when a subscriber subscribes and for each of them, printing the expected 1 and 2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T015926Z" creationid="pingfangx" creationdate="20190624T015926Z">
@@ -2495,6 +3239,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hosts which prefer to avoid waiting are willing to risk possible confusion of old and new packets at a given destination may choose not to wait for the "quite time".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025847Z" creationid="pingfangx" creationdate="20190828T025847Z">
+        <seg>希望避免等待的主机愿意冒险在给定目的地处可能混淆新旧分组可能选择不等待“相当时间”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How is this Observable implemented?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T040459Z" creationid="pingfangx" creationdate="20190620T040459Z">
@@ -2523,6 +3275,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T080321Z" creationid="pingfangx" creationdate="20190621T080321Z">
         <seg>然而，背压在常规冷序列中更微妙地存在(它不会也不应该产生 `MissingBackpressureException`)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, even when the receive window is zero, a TCP must process the RST and URG fields of all incoming segments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022507Z" creationid="pingfangx" creationdate="20190828T022507Z">
+        <seg>但是，即使接收窗口为零，TCP 也必须处理所有传入报文段的 RST 和 URG 字报文段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, half-open connections are expected to be unusual, and the recovery procedure is mildly involved.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043551Z" creationid="pingfangx" creationdate="20190828T043551Z">
+        <seg>但是，预计半开连接是不寻常的，并且恢复过程涉及到温和。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2743,6 +3511,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>IRS     - initial receive sequence number</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111817Z" creationid="pingfangx" creationdate="20190827T111817Z">
+        <seg>IRS     - 初始接收序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ISS     - initial send sequence number</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111745Z" creationid="pingfangx" creationdate="20190827T111745Z">
+        <seg>ISS     - 初始发送序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Identifying the source and reason for these exceptions can be tiresome, especially if they originate from a source and get routed to `RxJavaPlugins.onError` somewhere lower the chain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T091000Z" creationid="pingfangx" creationdate="20190618T091000Z">
@@ -2751,10 +3535,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If SYN is present the sequence number is the initial sequence number (ISN) and the first data octet is ISN+1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105030Z" creationid="pingfangx" creationdate="20190827T105030Z">
+        <seg>如果存在 SYN，则序列号是初始序列号(ISN)，第一个数据八位字节是 ISN + 1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a custom class implementing `Subscriber` was employed before, subscribing it to a `Flowable` adds an internal wrapper that ensures observing the Flowable is 100% compliant with the specification at the cost of some per-item overhead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T085333Z" creationid="pingfangx" creationdate="20190618T085333Z">
         <seg>如果之前使用了实现 `Subscriber` 的自定义类，则将它订阅到 `Flowable` 会添加一个内部包装器，以确保观察 Flowable 100% 符合规范，代价是每个项目的开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a segment contains an odd number of header and text octets to be checksummed, the last octet is padded on the right with zeros to form a 16 bit word for checksum purposes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105958Z" creationid="pingfangx" creationdate="20190827T105958Z">
+        <seg>如果一个报文段包含的求校验和的首部和文本八位字节是奇数，则最后一个八位字节在右边用零填充，形成一个 16 位字用于求校验和。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an ACK is not forthcoming, after the user timeout the connection is aborted and the user is told.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063752Z" creationid="pingfangx" creationdate="20190828T063752Z">
+        <seg>如果没有即将发出 ACK，则在用户超时后，中止连接并告知用户。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an incoming segment has a security level, or compartment, or precedence which does not exactly match the level, and compartment, and precedence requested for the connection,a reset is sent and connection goes to the CLOSED state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061654Z" creationid="pingfangx" creationdate="20190828T061654Z">
+        <seg>如果传入的报文段具有与连接请求的级别，compartment 和优先级不完全匹配的安全级别，compartment 或优先级，则会发送重置并且连接将进入 CLOSED 状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2771,6 +3587,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T091305Z" creationid="pingfangx" creationdate="20190618T091305Z">
         <seg>如果一个无法传递的异常是 `NullPointerException` 的实例/后代，`IllegalStateException`(`UndeliverableException` 和 `ProtocolViolationException` 扩展了它)，`IllegalArgumentException`，`CompositeException`，`MissingBackpressureException` 或 `OnErrorNotImplementedException`，那么 `UndeliverableException` 包装不会发生。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an unsolicited FIN arrives from the network, the receiving TCP can ACK it and tell the user that the connection is closing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063719Z" creationid="pingfangx" creationdate="20190828T063719Z">
+        <seg>如果未经请求的 FIN 从网络到达，则接收 TCP 可以确认它并告诉用户连接正在关闭。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If at site A the connection no longer exists, then an attempt by the user at site B to send any data on it will result in the site B TCP receiving a reset control message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043711Z" creationid="pingfangx" creationdate="20190828T043711Z">
+        <seg>如果在站点 A 处连接不再存在，则站点 B 处的用户尝试在其上发送任何数据将导致站点 B TCP 接收重置控制消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2815,10 +3647,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If our SYN has been acknowledged (perhaps in this incoming segment) the precedence level of the incoming segment must match the local precedence level exactly, if it does not a reset must be sent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061024Z" creationid="pingfangx" creationdate="20190828T061024Z">
+        <seg>如果我们的 SYN 已被确认(可能在此传入报文段中)，则传入报文段的优先级必须与本地优先级完全匹配，如果不是，则必须发送重置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If our SYN has not been acknowledged and the precedence level of the incoming segment is higher than the precedence level requested then either raise the local precedence level (if allowed by the user and the system) or send a reset; or if the precedence level of the incoming segment is lower than the precedence level requested then continue as if the precedence matched exactly (if the remote TCP cannot raise the precedence level to match ours this will be detected in the next segment it sends, and the connection will be terminated then).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061003Z" creationid="pingfangx" creationdate="20190828T061003Z">
+        <seg>如果我们的 SYN 未被确认且传入报文段的优先级高于请求的优先级，则提高本地优先级(如果用户和系统允许)或发送重置；或者如果传入报文段的优先级低于请求的优先级，则继续，就好像优先级完全匹配一样(如果远程 TCP 不能提高优先级以匹配我们的优先级将在它发送的下一个报文段中检测到，并且连接将被终止)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If some of the values can be safely ignored, one can use the sampling (with time or another `Flowable`) and throttling operators (`throttleFirst`, `throttleLast`, `throttleWithTimeout`).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T091633Z" creationid="pingfangx" creationdate="20190621T091633Z">
         <seg>如果可以安全地忽略某些值，可以使用采样(使用时间或其他 `Flowable`)和限制操作符(`throttleFirst`，`throttleLast`，`throttleWithTimeout`)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the ACK control bit is set this field contains the value of the next sequence number the sender of the segment is expecting to receive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105220Z" creationid="pingfangx" creationdate="20190827T105220Z">
+        <seg>如果设置了 ACK 控制位，则该字段包含该报文段的发送者期望接收的下一个序列号的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the SYN at line 6 had arrived before the RST, a more complex exchange might have occurred with RST's sent in both directions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043340Z" creationid="pingfangx" creationdate="20190828T043340Z">
+        <seg>如果第 6 行的 SYN 在 RST 之前到达，则可能在两个方向上发送 RST 时发生更复杂的交换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the TCP is in one of the synchronized states (ESTABLISHED, FIN-WAIT-1, FIN-WAIT-2, CLOSE-WAIT, CLOSING, LAST-ACK, TIME-WAIT), it aborts the connection and informs its user.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042627Z" creationid="pingfangx" creationdate="20190828T042627Z">
+        <seg>如果 TCP 处于同步状态之一(ESTABLISHED，FIN-WAIT-1，FIN-WAIT-2，CLOSE-WAIT，CLOSING，LAST-ACK，TIME-WAIT)，它将中止连接并通知其用户。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2847,6 +3719,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the connection does not exist (CLOSED) then a reset is sent in response to any incoming segment except another reset.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060605Z" creationid="pingfangx" creationdate="20190828T060605Z">
+        <seg>如果连接不存在(CLOSED)，则发送复位以响应除另一个复位之外的任何传入报文段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the connection is in a synchronized state (ESTABLISHED, FIN-WAIT-1, FIN-WAIT-2, CLOSE-WAIT, CLOSING, LAST-ACK, TIME-WAIT), any unacceptable segment (out of window sequence number or unacceptible acknowledgment number) must elicit only an empty acknowledgment segment containing the current send-sequence number and an acknowledgment indicating the next sequence number expected to be received, and the connection remains in the same state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061158Z" creationid="pingfangx" creationdate="20190828T061158Z">
+        <seg>如果连接处于同步状态（ESTABLISHED，FIN-WAIT-1，FIN-WAIT-2，CLOSE-WAIT，CLOSING，LAST-ACK，TIME-WAIT），则任何不可接受的报文段（序列号不在窗口内或不可接授的确认）必须仅引出包含当前发送序列号的空确认报文段和指示预期接收的下一个序列号的确认，并且连接保持相同状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the connection is in any non-synchronized state (LISTEN, SYN-SENT, SYN-RECEIVED), and the incoming segment acknowledges something not yet sent (the segment carries an unacceptable ACK), or if an incoming segment has a security level or compartment which does not exactly match the level and compartment requested for the connection, a reset is sent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060851Z" creationid="pingfangx" creationdate="20190828T060851Z">
+        <seg>如果连接处于任何非同步状态(LISTEN，SYN-SENT，SYN-RECEIVED)，并且传入报文段确认尚未发送的内容(该报文段带有不可接受的 ACK)，或者传入的报文段具有的安全级别或 compartment 与连接请求的级别和 compartment 不完全匹配，则发送重置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the data is already available as an array of objects, a list of objects or any `Iterable` source, the respective `from` overloads will handle the backpressure and emission of such sources:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T020156Z" creationid="pingfangx" creationdate="20190624T020156Z">
@@ -2871,10 +3767,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the incoming segment has an ACK field, the reset takes its sequence number from the ACK field of the segment, otherwise the reset has sequence number zero and the ACK field is set to the sum of the sequence number and segment length of the incoming segment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060658Z" creationid="pingfangx" creationdate="20190828T060658Z">
+        <seg>如果传入报文段具有 ACK 字段，则复位从报文段的 ACK 字段获取其序列号，否则复位具有序列号零，并且 ACK 字段被设置为传入报文段的序列号和报文段长度的总和。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the library/code already did this, the undeliverable `InterruptedException`s should stop now.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T092847Z" creationid="pingfangx" creationdate="20190618T092847Z">
         <seg>如果库/代码已经这样做了，那么无法传递的 `InterruptedException` 应该立即停止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the receiver was in SYN-RECEIVED state and had previously been in the LISTEN state, then the receiver returns to the LISTEN state, otherwise the receiver aborts the connection and goes to the CLOSED state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061815Z" creationid="pingfangx" creationdate="20190828T061815Z">
+        <seg>如果接收器处于 SYN-RECEIVED 状态并且之前一直处于 LISTEN 状态，则接收器返回 LISTEN 状态，否则接收器中止连接并进入 CLOSED 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the receiver was in any other state, it aborts the connection and advises the user and goes to the CLOSED state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061833Z" creationid="pingfangx" creationdate="20190828T061833Z">
+        <seg>如果接收器处于任何其他状态，它将中止连接并通知用户并进入 CLOSED 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the receiver was in the LISTEN state, it ignores it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061759Z" creationid="pingfangx" creationdate="20190828T061759Z">
+        <seg>如果接收器处于 LISTEN 状态，则忽略它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the receiving TCP is in a  non-synchronized state (i.e., SYN-SENT, SYN-RECEIVED), it returns to LISTEN on receiving an acceptable reset.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042612Z" creationid="pingfangx" creationdate="20190828T042612Z">
+        <seg>如果接收 TCP 处于非同步状态(即，SYN-SENT，SYN-RECEIVED)，则在接收到可接受的重置时它返回到 LISTEN。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the recovery occurs quickly enough, any old duplicates in the net bearing sequence numbers in the neighborhood of S1 may arrive and be treated as new packets by the receiver of the new incarnation of the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025757Z" creationid="pingfangx" creationdate="20190828T025757Z">
+        <seg>如果恢复足够快地发生，则 S1 附近的净承载序列号中的任何旧重复可以到达并且被连接的新化身的接收器视为新分组。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2991,6 +3935,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implementors may provide TCP users with the ability to select on a connection by connection basis whether to wait after a crash, or may informally implement the "quite time" for all connections.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025856Z" creationid="pingfangx" creationdate="20190828T025856Z">
+        <seg>实现者可以为 TCP 用户提供在连接基础上选择是否在崩溃之后等待的能力，或者可以非正式地实现所有连接的“相当时间”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In 1.x, the `doOnUnsubscribe` was always executed on a terminal event because 1.x' `SafeSubscriber` called `unsubscribe` on itself.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T114822Z" creationid="pingfangx" creationdate="20190618T114822Z">
@@ -3079,10 +4031,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a later section, more detail is offered with respect to the reaction of the TCP to events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T113237Z" creationid="pingfangx" creationdate="20190827T113237Z">
+        <seg>在后面的部分中，提供了有关 TCP 对事件的反应的更多细节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a naive implementation of `range`, such call would recursively call `onNext`, leading to `StackOverflowError` which is of course undesirable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T082214Z" creationid="pingfangx" creationdate="20190621T082214Z">
         <seg>在 `range` 的简单实现中，这样的调用将递归调用 `onNext`，导致 `StackOverflowError`，这当然是不可取的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition several variables relating to the send and receive sequence numbers are stored in the TCB.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111545Z" creationid="pingfangx" creationdate="20190827T111545Z">
+        <seg>另外，与发送和接收序列号有关的几个变量存储在 TCB 中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3135,6 +4103,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In all states except SYN-SENT, all reset (RST) segments are validated by checking their SEQ-fields.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061721Z" creationid="pingfangx" creationdate="20190828T061721Z">
+        <seg>在除 SYN-SENT 之外的所有状态中，通过检查其 SEQ-字段来验证所有复位(RST)报文段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In an attempt to establish the connection, A's TCP will send a segment containing SYN.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055831Z" creationid="pingfangx" creationdate="20190828T055831Z">
+        <seg>在尝试建立连接时，A 的 TCP 将发送包含 SYN 的报文段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In an ordinary method call — that is, &lt;e0&gt;not&lt;/e0&gt; the sort of asynchronous, parallel calls typical in ReactiveX — the flow is something like this:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T052930Z" creationid="pingfangx" creationdate="20190620T052930Z">
@@ -3163,6 +4147,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T102558Z" creationid="pingfangx" creationdate="20190617T102558Z">
         <seg>事实上，从版本 2.1.10 开始，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In figure 12, we find the two TCPs A and B with passive connections waiting for SYN.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060341Z" creationid="pingfangx" creationdate="20190828T060341Z">
+        <seg>在图 12 中，我们发现两个 TCP A 和 B 具有等待 SYN 的被动连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In line 2 of figure 7, TCP A begins by sending a SYN segment indicating that it will use sequence numbers starting with sequence number 100.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T041309Z" creationid="pingfangx" creationdate="20190828T041309Z">
+        <seg>在图 7 的第 2 行中，TCP A 通过发送 SYN 报文段开始，该 SYN 报文段指示它将使用以序列号 100 开始的序列号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In line 3, TCP B sends a SYN and acknowledges the SYN it received from TCP A.  Note that the acknowledgment field indicates TCP B is now expecting to hear sequence 101, acknowledging the SYN which occupied sequence 100.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T041635Z" creationid="pingfangx" creationdate="20190828T041635Z">
+        <seg>在第 3 行中，TCP B 发送 SYN 并确认它从 TCP A 收到的 SYN。注意，确认字段指示 TCP B 现在期望收到序列 101，并确认了占用序列号 100 的 SYN 报文段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3203,6 +4211,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T083915Z" creationid="pingfangx" creationdate="20190617T083915Z">
         <seg>在其他场景中，第一个源/数据流的结果是无关紧要的，并且人们希望继续使用准独立的另一个源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, SYNs addressed to a non-existent connection are rejected by this means.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060619Z" creationid="pingfangx" creationdate="20190828T060619Z">
+        <seg>特别是，通过这种方式拒绝寻址到不存在的连接的 SYN。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In response to sending data the TCP will receive acknowledgments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021759Z" creationid="pingfangx" creationdate="20190828T021759Z">
+        <seg>为响应发送数据，TCP 将收到确认。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3255,6 +4279,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the SYN-SENT state (a RST received in response to an initial SYN), the RST is acceptable if the ACK field acknowledges the SYN.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061750Z" creationid="pingfangx" creationdate="20190828T061750Z">
+        <seg>在 SYN-SENT 状态(响应初始 SYN 而接收的 RST)中，如果 ACK 字段确认 SYN，则 RST 是可接受的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the absence of knowledge about the sequence numbers used on a particular connection, the TCP specification recommends that the source delay for MSL seconds before emitting segments on the connection, to allow time for segments from the earlier connection incarnation to drain from the system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025600Z" creationid="pingfangx" creationdate="20190828T025600Z">
+        <seg>在没有关于特定连接上使用的序列号的知识的情况下，TCP 规范建议在连接上发送报文段之前 MSL 秒的源延迟，以允许来自早期连接化身的报文段的时间从系统中消耗。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the asynchronous model the flow goes more like this:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T053052Z" creationid="pingfangx" creationdate="20190620T053052Z">
@@ -3279,6 +4319,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the latter case, it receives the error message "connection not open" from the local (A's) TCP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055822Z" creationid="pingfangx" creationdate="20190828T055822Z">
+        <seg>在后一种情况下，它从本地(A)的 TCP 接收错误消息“connection not open”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the original Rx.NET, the operator that emits a single item and then completes is called `Return(T)`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T101615Z" creationid="pingfangx" creationdate="20190617T101615Z">
@@ -3287,10 +4335,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the paragraphs below, an explanation for this specification is given.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024658Z" creationid="pingfangx" creationdate="20190828T024658Z">
+        <seg>在下面的段落中，给出了对该说明书的解释。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case, a FIN segment can be constructed and placed on the outgoing segment queue.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063356Z" creationid="pingfangx" creationdate="20190828T063356Z">
+        <seg>在这种情况下，可以构造 FIN 报文段并将其放置在传出报文段队列上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this case, one can use one of the following operators.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T091117Z" creationid="pingfangx" creationdate="20190621T091117Z">
         <seg>在这种情况下，可以使用以下操作符之一。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case, the data arriving at TCP A from TCP B (line 2) is unacceptable because no such connection exists, so TCP A sends a RST.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060249Z" creationid="pingfangx" creationdate="20190828T060249Z">
+        <seg>在这种情况下，从 TCP B(第 2 行)到达 TCP A 的数据是不可接受的，因为不存在这样的连接，因此 TCP A 发送 RST。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3331,6 +4403,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T083450Z" creationid="pingfangx" creationdate="20190621T083450Z">
         <seg>在这种同步的情况下，在执行 `onStart` 时会立即抛出 `NullPointerException`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Initial Sequence Number Selection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023120Z" creationid="pingfangx" creationdate="20190828T023120Z">
+        <seg>初始序列号选择</seg>
       </tuv>
     </tu>
     <tu>
@@ -3423,6 +4503,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is essential to remember that the actual sequence number space is finite, though very large.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021243Z" creationid="pingfangx" creationdate="20190828T021243Z">
+        <seg>必须记住，实际的序列号空间是有限的，尽管非常大。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is implemented as a single JAR that is focused on just the Observable abstraction and related higher-order functions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T113521Z" creationid="pingfangx" creationdate="20190617T113521Z">
@@ -3467,6 +4555,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T033739Z" creationid="pingfangx" creationdate="20190620T033739Z">
         <seg>它有时被称为“函数响应式编程”，但这是用词不当。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is the implementation of a trade-off between memory and messages to provide information for this checking.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T033644Z" creationid="pingfangx" creationdate="20190828T033644Z">
+        <seg>它是在为此检查提供信息的内存和消息之间进行权衡的实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3571,6 +4667,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T100903Z" creationid="pingfangx" creationdate="20190617T100903Z">
         <seg>由于擦除，Java 不认为 `operator(Function &lt;T，Single &lt;R &gt;&gt;)` 和 `operator(Function &lt;T，Maybe &lt;R &gt;&gt;)` 的签名是不同的(与 C# 不同)，这两个 ` operator` 最终会成为具有相同签名的重复方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Knowing When to Keep Quiet</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024330Z" creationid="pingfangx" creationdate="20190828T024330Z">
+        <seg>知道什么时候保持安静</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LAST-ACK - represents waiting for an acknowledgment of the connection termination request previously sent to the remote TCP (which includes an acknowledgment of its connection termination request).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112839Z" creationid="pingfangx" creationdate="20190827T112839Z">
+        <seg>LAST-ACK - 表示等待先前发送到远程 TCP 的连接终止请求的确认(其包括对其连接终止请求的确认)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LISTEN - represents waiting for a connection request from any remote TCP and port.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112612Z" creationid="pingfangx" creationdate="20190827T112612Z">
+        <seg>LISTEN - 表示等待来自任何远程 TCP 和端口的连接请求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3695,6 +4815,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Must be zero.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105328Z" creationid="pingfangx" creationdate="20190827T105328Z">
+        <seg>必须为零。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NOTE BENE:  this diagram is only a summary and must not be taken as the total specification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T113245Z" creationid="pingfangx" creationdate="20190827T113245Z">
+        <seg>注：此图只是一个概要，不能作为总规范。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Naming in programming is one of the hardest things as names are expected to be not long, expressive, capturing and easily memorable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T101332Z" creationid="pingfangx" creationdate="20190617T101332Z">
@@ -3719,6 +4855,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>New instances of a connection will be referred to as incarnations of the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023152Z" creationid="pingfangx" creationdate="20190828T023152Z">
+        <seg>连接的新实例将被称为连接的化身。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>New return type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190619T061022Z" creationid="pingfangx" creationdate="20190619T061022Z">
@@ -3735,6 +4879,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No further SENDs from the user will be accepted by the TCP, and it enters the FIN-WAIT-1 state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063418Z" creationid="pingfangx" creationdate="20190828T063418Z">
+        <seg>TCP 不接受用户的进一步 SEND，并进入 FIN-WAIT-1 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No further development, support, maintenance, PRs and updates will happen.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T065638Z" creationid="pingfangx" creationdate="20190617T065638Z">
@@ -3747,6 +4899,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190619T053805Z" creationid="pingfangx" creationdate="20190619T053805Z">
         <seg>不再用安全包装器包装所有消费者类型(即 `Observer`)(就像 1.x 中的 `unsafeSubscribe` 不再可用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Normal Close Sequence</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063956Z" creationid="pingfangx" creationdate="20190828T063956Z">
+        <seg>正常关闭序列</seg>
       </tuv>
     </tu>
     <tu>
@@ -3815,10 +4975,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that a TCP receiving a FIN will ACK but not send its own FIN until its user has CLOSED the connection also.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063636Z" creationid="pingfangx" creationdate="20190828T063636Z">
+        <seg>请注意，接收 FIN 的 TCP 将确认但不发送自己的 FIN，直到其用户也已 CLOSED 连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that due to how request management works, calling `request(n)` from `Subscriber.onSubscribe` or `ResourceSubscriber.onStart` may trigger calls to `onNext` immediately before the `request()` call itself returns to the `onSubscribe`/`onStart` method of yours:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T072258Z" creationid="pingfangx" creationdate="20190618T071233Z">
         <seg>请注意，由于请求管理的工作方式，从 `Subscriber.onSubscribe` 或 `ResourceSubscriber.onStart` 调用 `request(n)` 可能会立即触发对 `onNext` 的调用，该调用在 `request()` 调用本身返回 `onSubscribe`/`onStart` 方法之前：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that if a TCP is reinitialized in some sense, yet retains its memory of sequence numbers in use, then it need not wait at all; it must only be sure to use sequence numbers larger than those recently used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024451Z" creationid="pingfangx" creationdate="20190828T024451Z">
+        <seg>请注意，如果 TCP 在某种意义上重新初始化，但仍然保留其使用的序列号的内存，那么它根本不需要等待；它必须只能确保使用大于最近使用的序列号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3831,10 +5007,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that one tick mark represents one bit position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T104850Z" creationid="pingfangx" creationdate="20190827T104850Z">
+        <seg>请注意，一个刻度标记表示一位位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that the last two strategies cause discontinuity in the stream as they drop out elements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T014649Z" creationid="pingfangx" creationdate="20190624T014649Z">
         <seg>请注意，最后两个策略会导致流不连续，因为它们会删除元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that the list of options may be shorter than the data offset field might imply.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110921Z" creationid="pingfangx" creationdate="20190827T110921Z">
+        <seg>请注意，选项列表可能比数据偏移字段可能暗示的要短。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that the sequence number of the segment in line 5 is the same as in line 4 because the ACK does not occupy sequence number space (if it did, we would wind up ACKing ACK's!).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T041825Z" creationid="pingfangx" creationdate="20190828T041825Z">
+        <seg>请注意，第 5 行中的报文段的序列号与第 4 行中的相同，因为 ACK 不占用序列号空间(如果确实如此，我们将结束 ACK 确认！)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that when the receive window is zero no segments should be acceptable except ACK segments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022420Z" creationid="pingfangx" creationdate="20190828T022420Z">
+        <seg>请注意，当接收窗口为零时，除了 ACK 报文段之外，不应接受任何报文段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3855,10 +5063,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now suppose, at this instant, the host crashes, recovers, and establishes a new incarnation of the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025655Z" creationid="pingfangx" creationdate="20190828T025655Z">
+        <seg>现在假设，在这一瞬间，主机崩溃，恢复并建立连接的新化身。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now you can directly block for some results by invoking a `blockingX` operation directly:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T095232Z" creationid="pingfangx" creationdate="20190618T095232Z">
         <seg>现在，您可以通过直接调用 `blockingX` 操作直接阻塞某些结果：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Numbering of octets within a segment is that the first data octet immediately following the header is the lowest numbered, and the following octets are numbered consecutively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021236Z" creationid="pingfangx" creationdate="20190828T021122Z">
+        <seg>报文段内八位字节的编号是紧跟在首部之后的第一个数据八位字节，其编号最小的，并且后面的八位字节是连续编号的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3927,10 +5151,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Obviously, even where a user selects to "wait," this is not necessary after the host has been "up" for at least MSL seconds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025902Z" creationid="pingfangx" creationdate="20190828T025902Z">
+        <seg>显然，即使用户选择“等待”，在主机已经“启动”至少 MSL 秒之后也不需要这样做。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Of course, suffixes of various kinds may appear together:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T103554Z" creationid="pingfangx" creationdate="20190617T103554Z">
         <seg>当然，各种后缀可能会一起出现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of course, the arrival of an old duplicate "SYN" segment can potentially make it appear, to the recipient, that a simultaneous connection initiation is in progress.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T031550Z" creationid="pingfangx" creationdate="20190828T031550Z">
+        <seg>当然，旧的重复“SYN”报文段的到来可能使得向接收者显示同时连接启动正在进行中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3951,6 +5191,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Old Duplicate SYN Initiates a Reset on two Passive Sockets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060417Z" creationid="pingfangx" creationdate="20190828T060417Z">
+        <seg>旧的重复 SYN 在两个无源套接字上启动重置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Old return type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190619T061019Z" creationid="pingfangx" creationdate="20190619T061019Z">
@@ -3963,6 +5211,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T090323Z" creationid="pingfangx" creationdate="20190618T090323Z">
         <seg>在桌面 Java 上，后一个处理程序对 `ExecutorService` 支持的 `Scheduler` 什么都不做，应用程序可以继续运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once a connection is established this is always sent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105237Z" creationid="pingfangx" creationdate="20190827T105237Z">
+        <seg>建立连接后，始终会发送此字段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4071,6 +5327,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One way to deal with this problem is to deliberately delay emitting segments for one MSL after recovery from a crash- this is the "quite time" specification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025829Z" creationid="pingfangx" creationdate="20190828T025829Z">
+        <seg>解决这个问题的一种方法是在从崩溃恢复后故意延迟一个 MSL 的发射报文段 - 这是“quite time”的规范。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One would be inclined to write such continuations as follows:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T092156Z" creationid="pingfangx" creationdate="20190617T092156Z">
@@ -4167,10 +5431,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Options may occupy space at the end of the TCP header and are a multiple of 8 bits in length.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110808Z" creationid="pingfangx" creationdate="20190827T110808Z">
+        <seg>选项可能占用 TCP 首部末尾的空间，并且长度为 8 位的倍数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Or, something like this:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T053036Z" creationid="pingfangx" creationdate="20190620T053036Z">
         <seg>或者，像这样：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other fields such as window, addresses, lengths, and text have been left out in the interest of clarity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T034713Z" creationid="pingfangx" creationdate="20190828T034713Z">
+        <seg>为了清楚起见，省略了诸如窗口，地址，长度和文本之类的其他字段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4187,6 +5467,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T091415Z" creationid="pingfangx" creationdate="20190620T091415Z">
         <seg>其他人不在任何特定的调度器上运行，或在特定的默认调度器上运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PSH:  Push Function</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105413Z" creationid="pingfangx" creationdate="20190827T105413Z">
+        <seg>PSH：推送功能</seg>
       </tuv>
     </tu>
     <tu>
@@ -4231,10 +5519,74 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Proper use of "reset" segments can disambiguate these cases.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T031556Z" creationid="pingfangx" creationdate="20190828T031556Z">
+        <seg>正确使用“重置”报文段可以消除这些情况的歧义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>RC3</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190619T061550Z" creationid="pingfangx" creationdate="20190619T061550Z">
         <seg>RC3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RCV.NXT - receive next</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111754Z" creationid="pingfangx" creationdate="20190827T111754Z">
+        <seg>RCV.NXT - 接收下一个</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RCV.NXT = next sequence number expected on an incoming segments, and is the left or lower edge of the receive window</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022217Z" creationid="pingfangx" creationdate="20190828T022217Z">
+        <seg>RCV.NXT =传入报文段上预期的下一个序列号，是接收窗口的左下边缘</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RCV.NXT+RCV.WND-1 = last sequence number expected on an incoming segment, and is the right or upper edge of the receive window</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022231Z" creationid="pingfangx" creationdate="20190828T022231Z">
+        <seg>RCV.NXT+RCV.WND-1 =传入报文段上预期的最后序列号，是接收窗口的右边缘或上边缘</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RCV.UP  - receive urgent pointer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111805Z" creationid="pingfangx" creationdate="20190827T111805Z">
+        <seg>RCV.UP  - 接收紧急指针</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RCV.WND - receive window</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111800Z" creationid="pingfangx" creationdate="20190827T111800Z">
+        <seg>RCV.WND - 接收窗口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RECEIVEs are allowed in this state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063508Z" creationid="pingfangx" creationdate="20190828T063508Z">
+        <seg>在这种状态下允许 RECEIVE。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RST:  Reset the connection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105420Z" creationid="pingfangx" creationdate="20190827T105420Z">
+        <seg>RST：重置连接</seg>
       </tuv>
     </tu>
     <tu>
@@ -4311,6 +5663,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Receive Sequence Space</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111923Z" creationid="pingfangx" creationdate="20190827T111923Z">
+        <seg>接收序列空间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Receive Sequence Variables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111748Z" creationid="pingfangx" creationdate="20190827T111748Z">
+        <seg>接收序列变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recovery from Old Duplicate SYN</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042815Z" creationid="pingfangx" creationdate="20190828T042815Z">
+        <seg>从旧的重复 SYN 恢复</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Recursive Schedulers</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T092103Z" creationid="pingfangx" creationdate="20190620T092103Z">
@@ -4327,6 +5703,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remember that each segment is bound to as many consecutive sequence numbers as there are octets of data in the segment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025239Z" creationid="pingfangx" creationdate="20190828T025239Z">
+        <seg>请记住，每个报文段都绑定了与报文段中数据的八位字节一样多的连续序列号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Removed as the Reactive Streams specification mandates the `onXXX` methods don't crash and therefore the default is to not have a safety net in `subscribe`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190619T054131Z" creationid="pingfangx" creationdate="20190619T054131Z">
@@ -4339,6 +5723,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190619T061536Z" creationid="pingfangx" creationdate="20190619T061536Z">
         <seg>在版本移除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reserved for future use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105325Z" creationid="pingfangx" creationdate="20190827T105325Z">
+        <seg>保留供将来使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reset Generation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060500Z" creationid="pingfangx" creationdate="20190828T060500Z">
+        <seg>重置生成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reset Processing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061707Z" creationid="pingfangx" creationdate="20190828T061707Z">
+        <seg>重置处理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Right arrows (--&gt;) indicate departure of a TCP segment from TCP A to TCP B, or arrival of a segment at B from A.  Left arrows (&lt;--), indicate the reverse.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T034516Z" creationid="pingfangx" creationdate="20190828T034516Z">
+        <seg>右箭头(--&gt;)表示 TCP 报文段从 TCP A 到 TCP B 的离开，或者从 A 到达 B 的报文段的到达。左箭头(&lt;--)表示相反。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4455,6 +5871,198 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>S1 = ISN(t) -- last used sequence number on old incarnation of connection!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025715Z" creationid="pingfangx" creationdate="20190828T025715Z">
+        <seg>S1 = ISN(t) - 旧的连接化身上最后使用的序列号！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.ACK - segment acknowledgment number</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112007Z" creationid="pingfangx" creationdate="20190827T112007Z">
+        <seg>SEG.ACK - 报文段确认号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.ACK = acknowledgment from the receiving TCP (next sequence number expected by the receiving TCP)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022012Z" creationid="pingfangx" creationdate="20190828T022012Z">
+        <seg>SEG.ACK =来自接收 TCP 的确认号(接收 TCP 预期的下一个序列号)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.LEN - segment length</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112012Z" creationid="pingfangx" creationdate="20190827T112012Z">
+        <seg>SEG.LEN - 报文段长度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.LEN = the number of octets occupied by the data in the segment (counting SYN and FIN)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022025Z" creationid="pingfangx" creationdate="20190828T022025Z">
+        <seg>SEG.LEN =报文段中数据占用的八位字节数(计算 SYN 和 FIN)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.PRC - segment precedence value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112028Z" creationid="pingfangx" creationdate="20190827T112028Z">
+        <seg>SEG.PRC - 报文段优先值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.SEQ - segment sequence number</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112002Z" creationid="pingfangx" creationdate="20190827T112002Z">
+        <seg>SEG.SEQ - 报文段序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.SEQ = first sequence number occupied by the incoming segment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022235Z" creationid="pingfangx" creationdate="20190828T022235Z">
+        <seg>SEG.SEQ =传入报文段占用的第一个序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.SEQ = first sequence number of a segment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022017Z" creationid="pingfangx" creationdate="20190828T022017Z">
+        <seg>SEG.SEQ =报文段的第一个序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.SEQ+SEG.LEN-1 = last sequence number occupied by the incoming segment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022245Z" creationid="pingfangx" creationdate="20190828T022245Z">
+        <seg>SEG.SEQ+SEG.LEN-1 =传入报文段占用的最后一个序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.SEQ+SEG.LEN-1 = last sequence number of a segment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022047Z" creationid="pingfangx" creationdate="20190828T022047Z">
+        <seg>SEG.SEQ+SEG.LEN-1 = 报文段的最后序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.UP  - segment urgent pointer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112023Z" creationid="pingfangx" creationdate="20190827T112023Z">
+        <seg>SEG.UP  - 报文段紧急指针</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEG.WND - segment window</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112019Z" creationid="pingfangx" creationdate="20190827T112019Z">
+        <seg>SEG.AND - 报文段窗口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SND.NXT - send next</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111654Z" creationid="pingfangx" creationdate="20190827T111654Z">
+        <seg>SND.NXT - 发送下一个</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SND.NXT = next sequence number to be sent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021952Z" creationid="pingfangx" creationdate="20190828T021952Z">
+        <seg>SND.NXT =要发送的下一个序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SND.UNA - send unacknowledged</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111647Z" creationid="pingfangx" creationdate="20190827T111647Z">
+        <seg>SND.UNA  - 发送未确认的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SND.UNA = oldest unacknowledged sequence number</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021949Z" creationid="pingfangx" creationdate="20190828T021949Z">
+        <seg>SND.UNA =最早的未确认序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SND.UP  - send urgent pointer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111710Z" creationid="pingfangx" creationdate="20190827T111710Z">
+        <seg>SND.UP  - 发送紧急指针</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SND.WL1 - segment sequence number used for last window update</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111726Z" creationid="pingfangx" creationdate="20190827T111726Z">
+        <seg>SND.WL1 - 用于最后一次窗口更新的报文段序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SND.WL2 - segment acknowledgment number used for last window update</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111734Z" creationid="pingfangx" creationdate="20190827T111734Z">
+        <seg>SND.WL2 - 用于最后一次窗口更新的报文段确认号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SND.WND - send window</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111659Z" creationid="pingfangx" creationdate="20190827T111659Z">
+        <seg>SND.WND - 发送窗口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SYN-RECEIVED - represents waiting for a confirming connection request acknowledgment after having both received and sent a connection request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112646Z" creationid="pingfangx" creationdate="20190827T112646Z">
+        <seg>SYN-RECEIVED - 表示在收到并发送连接请求后等待确认连接请求确认。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SYN-SENT - represents waiting for a matching connection request after having sent a connection request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112624Z" creationid="pingfangx" creationdate="20190827T112624Z">
+        <seg>SYN-SENT - 表示在发送连接请求后等待匹配的连接请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SYN:  Synchronize sequence numbers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105424Z" creationid="pingfangx" creationdate="20190827T105424Z">
+        <seg>SYN：同步序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See Also</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T044335Z" creationid="pingfangx" creationdate="20190620T044335Z">
@@ -4467,6 +6075,54 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T065542Z" creationid="pingfangx" creationdate="20190617T065542Z">
         <seg>请参阅 wiki 文章中的版本 1.x 和 2.x 之间的差异 [What's different in 2.0](https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Segment contents are shown in abbreviated form, with sequence number, control flags, and ACK field.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T034700Z" creationid="pingfangx" creationdate="20190828T034700Z">
+        <seg>报文段内容以缩写形式显示，具有序列号，控制标志和 ACK 字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Send Sequence Space</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111904Z" creationid="pingfangx" creationdate="20190827T111904Z">
+        <seg>发送序列空间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Send Sequence Variables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111553Z" creationid="pingfangx" creationdate="20190827T111553Z">
+        <seg>发送序列变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>September 1981</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T041848Z" creationid="pingfangx" creationdate="20190828T041848Z">
+        <seg>September 1981</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sequence Numbers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T020911Z" creationid="pingfangx" creationdate="20190828T020911Z">
+        <seg>序号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Several examples of connection initiation follow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T031601Z" creationid="pingfangx" creationdate="20190828T031601Z">
+        <seg>下面是几个连接启动的例子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4487,6 +6143,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Simultaneous Close Sequence</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063958Z" creationid="pingfangx" creationdate="20190828T063958Z">
+        <seg>同时关闭序列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simultaneous Connection Synchronization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042446Z" creationid="pingfangx" creationdate="20190828T042446Z">
+        <seg>同时连接同步</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simultaneous initiation is only slightly more complex, as is shown in figure 8.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T041917Z" creationid="pingfangx" creationdate="20190828T041917Z">
+        <seg>同时启动只是稍微复杂一些，如图 8 所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since 1.x `Observable.subscribe(Subscriber)` returned `Subscription`, users often added the `Subscription` to a `CompositeSubscription` for example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T070549Z" creationid="pingfangx" creationdate="20190618T070549Z">
@@ -4499,6 +6179,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T094650Z" creationid="pingfangx" creationdate="20190618T094650Z">
         <seg>由于 2.x 是一个新的开始，我们不会再犯这个错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since every octet is sequenced, each of them can be acknowledged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T020941Z" creationid="pingfangx" creationdate="20190828T020941Z">
+        <seg>由于每个八位字节都是有序的，因此每个八位字节都可以被确认。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4523,6 +6211,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T101634Z" creationid="pingfangx" creationdate="20190617T101634Z">
         <seg>由于 Java 约定是以小写字母开始一个方法名称，这将是 `return(T)`，它是 Java 中的关键字，因此不可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since the maximum segment lifetime in the net is not likely to exceed a few tens of seconds, this is deemed ample protection for foreseeable nets, even if data rates escalate to l0's of megabits/sec.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025430Z" creationid="pingfangx" creationdate="20190828T025430Z">
+        <seg>由于网络中的最大报文段寿命不可能超过几十秒，因此即使数据速率上升到 10 兆字节/秒，也可以认为这对可预见的网络提供了充足的保护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since the space is finite, all arithmetic dealing with sequence numbers must be performed modulo 2**32.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021312Z" creationid="pingfangx" creationdate="20190828T021312Z">
+        <seg>由于空间是有限的，所有处理序列号的算术必须以 2 ** 32 为模进行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since we assume that segments will stay in the network no more than the Maximum Segment Lifetime (MSL) and that the MSL is less than 4.55 hours we can reasonably assume that ISN's will be unique.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023417Z" creationid="pingfangx" creationdate="20190828T023417Z">
+        <seg>由于我们假设网报文段将在网络中停留不超过最大网报文段生命周期(MSL)并且 MSL 小于 4.55 小时，我们可以合理地假设 ISN 将是唯一的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4711,10 +6423,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Such a message indicates to the site B TCP that something is wrong, and it is expected to abort the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055639Z" creationid="pingfangx" creationdate="20190828T055639Z">
+        <seg>这样的消息向站点 B TCP 指示出现了问题，并且预计会中止连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Such an Observable does not begin emitting items until its &lt;a0&gt;&lt;s1&gt;Connect&lt;/s1&gt;&lt;/a0&gt; method is called, whether or not any observers have subscribed to it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T070147Z" creationid="pingfangx" creationdate="20190620T070147Z">
         <seg>这样的 Observable 在调用 &lt;a0&gt;&lt;s1&gt;Connect&lt;/s1&gt;&lt;/a0&gt; 方法之前不会开始发射项目，无论是否有任何观察者订阅了它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such connections will automatically become reset if an attempt is made to send data in either direction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043538Z" creationid="pingfangx" creationdate="20190828T043538Z">
+        <seg>如果尝试向任一方向发送数据，则此类连接将自动重置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4735,6 +6463,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Suppose, for example, that a connection is opened starting with sequence number S.  Suppose that this connection is not used much and that eventually the initial sequence number function (ISN(t)) takes on a value equal to the sequence number, say S1, of the last segment sent by this TCP on a particular connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025646Z" creationid="pingfangx" creationdate="20190828T025646Z">
+        <seg>例如，假设从序列号 S 开始打开连接。假设此连接使用不多，并且最终初始序列号函数(ISN(t))采用等于序列号的值，例如 S1，此 TCP 在特定连接上发送的最后一个报文段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Surprising to some, this prints 1 twice instead of printing 1 and 2 respectively.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T015800Z" creationid="pingfangx" creationdate="20190624T015800Z">
@@ -4743,10 +6479,133 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TCP A detects that the ACK field is incorrect and returns a RST (reset) with its SEQ field selected to make the segment believable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043058Z" creationid="pingfangx" creationdate="20190828T043058Z">
+        <seg>TCP A 检测到 ACK 字报文段不正确并返回 RST(重置)，并选择其 SEQ 字段以使该报文段可信。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP A sees that this segment does not acknowledge anything it sent and, being unsynchronized, sends a reset (RST) because it has detected a half-open connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060135Z" creationid="pingfangx" creationdate="20190828T060135Z">
+        <seg>TCP A 看到此报文段未确认它发送的任何内容，因此不同步，所以会发送重置(RST)因为它已检测到半开连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP A will continue to try to establish the connection; the problem is now reduced to the basic 3-way handshake of figure 7.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060158Z" creationid="pingfangx" creationdate="20190828T060158Z">
+        <seg>TCP A 将继续尝试建立连接；问题现在减少到图 7 的基本三次握手。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP B aborts at line 5.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060145Z" creationid="pingfangx" creationdate="20190828T060145Z">
+        <seg>TCP B 在第 5 行中止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP B accepts the reset and returns to its passive LISTEN state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060408Z" creationid="pingfangx" creationdate="20190828T060408Z">
+        <seg>TCP B 接受重置并返回其被动 LISTEN 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP B, in the meantime, thinks the connection is open.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055851Z" creationid="pingfangx" creationdate="20190828T055844Z">
+        <seg>在此期间，TCP B 认为连接是打开的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP B, on receiving the RST, returns to the LISTEN state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043257Z" creationid="pingfangx" creationdate="20190828T043257Z">
+        <seg>接收到 RST 后，TCP B 返回到 LISTEN 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP Header Format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T104755Z" creationid="pingfangx" creationdate="20190827T104755Z">
+        <seg>TCP 首部格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP implementors may violate the "quiet time" restriction, but only at the risk of causing some old data to be accepted as new or new data rejected as old duplicated by some receivers in the internet system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024916Z" creationid="pingfangx" creationdate="20190828T024916Z">
+        <seg>TCP 实现者可能违反“安静时间”限制，但仅有可能导致某些旧数据被接受为新的或新的数据被拒绝，因为互联网系统中的某些接收器复制旧数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP segments are sent as internet datagrams.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T100659Z" creationid="pingfangx" creationdate="20190827T100659Z">
+        <seg>TCP 报文段作为 Internet 数据报发送。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCP states represent the state AFTER the departure or arrival of the segment (whose contents are shown in the center of each line).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T034622Z" creationid="pingfangx" creationdate="20190828T034622Z">
+        <seg>TCP 状态表示报文段的离开或到达之后的状态(其内容显示在每条线的中心)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TCPs consume sequence number space each time a segment is formed and entered into the network output queue at a source host.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025014Z" creationid="pingfangx" creationdate="20190828T025014Z">
+        <seg>每次形成一个报文段并将其输入到源主机的网络输出队列中时，TCP 会消耗序列号空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TIME-WAIT - represents waiting for enough time to pass to be sure the remote TCP received the acknowledgment of its connection termination request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112924Z" creationid="pingfangx" creationdate="20190827T112924Z">
+        <seg>TIME-WAIT - 表示等待足够的时间以确保远程 TCP 收到其连接终止请求的确认。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TRANSMISSION CONTROL PROTOCOL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025942Z" creationid="pingfangx" creationdate="20190828T024814Z">
+        <seg>TRANSMISSION CONTROL PROTOCOL
+输输控制协议
+没有完全翻译，并且有部分内容不太理解，可能只是单纯的机器翻译，没加修饰。
+应该需要多读几遍才行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Techniques like &lt;a0&gt;Java Futures&lt;/a0&gt; are straightforward to use for &lt;a1&gt;a single level of asynchronous execution&lt;/a1&gt; but they start to add &lt;a2&gt;non-trivial complexity&lt;/a2&gt; when they’re nested.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T034736Z" creationid="pingfangx" creationdate="20190620T034736Z">
         <seg>诸如 &lt;a0&gt;Java Futures&lt;/a0&gt; 之类的技术可以直接用于 &lt;a1&gt;单层的异步操作&lt;/a1&gt;，但是当它们嵌套时，它们开始变得 &lt;a2&gt;异常的复杂&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Terminology</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111055Z" creationid="pingfangx" creationdate="20190827T111055Z">
+        <seg>术语</seg>
       </tuv>
     </tu>
     <tu>
@@ -4771,6 +6630,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T085756Z" creationid="pingfangx" creationdate="20190618T085756Z">
         <seg>想要覆盖调度器和基本响应类型生命周期的测试可以通过回调函数逐个进行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "three-way handshake" is the procedure used to establish a connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T030650Z" creationid="pingfangx" creationdate="20190828T030650Z">
+        <seg>“三次握手”是用于建立连接的过程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4839,6 +6706,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Internet Protocol header carries several information fields, including the source and destination host addresses [2].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T103155Z" creationid="pingfangx" creationdate="20190827T103155Z">
+        <seg>Internet 协议首部包含多个信息字段，包括源地址和目标主机地址 [2]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Observable type adds two missing semantics to &lt;a0&gt;the Gang of Four’s Observer pattern&lt;/a0&gt;, to match those that are available in the Iterable type:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T042308Z" creationid="pingfangx" creationdate="20190620T042308Z">
@@ -4851,6 +6726,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T094002Z" creationid="pingfangx" creationdate="20190620T094002Z">
         <seg>ReactiveX 的操作符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The RST is acceptable so TCP B processes it and aborts the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060254Z" creationid="pingfangx" creationdate="20190828T060254Z">
+        <seg>RST 是可接受的，因此 TCP B 处理它并中止连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4883,6 +6766,54 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T034410Z" creationid="pingfangx" creationdate="20190620T034410Z">
         <seg>ReactiveX Observable 模型允许您使用简单，可组合的操作来处理异步事件流，就像用于数据项集合(如数组)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The SYN and FIN are the only controls requiring this protection, and these controls are used only at connection opening and closing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022716Z" creationid="pingfangx" creationdate="20190828T022716Z">
+        <seg>SYN 和 FIN 是唯一需要此保护的控制位，这些控制位仅用于连接打开和关闭。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The TCP Length is the TCP header length plus the data length in octets (this is not an explicitly transmitted quantity, but is computed), and it does not count the 12 octets of the pseudo header.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110544Z" creationid="pingfangx" creationdate="20190827T110544Z">
+        <seg>TCP 长度是 TCP 报头长度加上八位字节的数据长度(这不是显式发送的数量，而是计算的)，并且它不计算伪首部的 12 个八位字节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The TCP Quiet Time Concept</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024503Z" creationid="pingfangx" creationdate="20190828T024503Z">
+        <seg>TCP 安静的时间概念</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The TCP header (even one including options) is an integral number of 32 bits long.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105322Z" creationid="pingfangx" creationdate="20190827T105322Z">
+        <seg>TCP 首部(甚至包括选项)是 32 位长的整数倍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The TCP header padding is used to ensure that the TCP header ends and data begins on a 32 bit boundary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111049Z" creationid="pingfangx" creationdate="20190827T111049Z">
+        <seg>TCP 首部填充用于确保 TCP 首部结束和数据开始在 32 位边界上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The TCP then waits until its own FIN is acknowledged whereupon it deletes the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063742Z" creationid="pingfangx" creationdate="20190828T063742Z">
+        <seg>然后 TCP 等待，直到它自己的 FIN 被确认，然后删除连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5039,6 +6970,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The acknowledgment mechanism employed is cumulative so that an acknowledgment of sequence number X indicates that all octets up to but not including X have been received.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021046Z" creationid="pingfangx" creationdate="20190828T021046Z">
+        <seg>所采用的确认机制是累积的，因此序列号 X 的确认表明已经接收到所有八位字节但不包括 X。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The actual cause is usually the non-backpressured use of `PublishProcessor`, `timer()` or `interval()` or custom operators created via `create()`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T090210Z" creationid="pingfangx" creationdate="20190621T090210Z">
@@ -5063,6 +7002,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The basic duplicate detection and sequencing algorithm in TCP can be defeated, however, if a source TCP does not have any memory of the sequence numbers it last used on a given connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025512Z" creationid="pingfangx" creationdate="20190828T025512Z">
+        <seg>但是，如果源 TCP 没有最后在给定连接上使用的序列号的任何内存，则可以取消 TCP 中的基本重复检测和排序算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The checksum also covers a 96 bit pseudo header conceptually</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110032Z" creationid="pingfangx" creationdate="20190827T110032Z">
+        <seg>校验和还在 TCP 首部之前，概念性地涵盖了 96 位伪首部</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The checksum field is the 16 bit one's complement of the one's complement sum of all 16 bit words in the header and text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105814Z" creationid="pingfangx" creationdate="20190827T105814Z">
+        <seg>校验和字段是首部和文本中所有 16 位字的反码求和的 16 位反码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The class-based `RxJavaObservableHook` and friends are now gone and `RxJavaHooks` functionality is incorporated into `RxJavaPlugins`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T085830Z" creationid="pingfangx" creationdate="20190618T085830Z">
@@ -5079,10 +7042,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The connection remains in the CLOSED state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060702Z" creationid="pingfangx" creationdate="20190828T060702Z">
+        <seg>连接仍处于 CLOSED 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The connection remains in the same state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061030Z" creationid="pingfangx" creationdate="20190828T061030Z">
+        <seg>连接保持相同状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The content of the header beyond the End-of-Option option must be header padding (i.e., zero).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110945Z" creationid="pingfangx" creationdate="20190827T110945Z">
+        <seg>超出选项结束选项的首部的内容必须是首部填充(即，零)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The dataflows in RxJava consist of a source, zero or more intermediate steps followed by a data consumer or combinator step (where the step is responsible to consume the dataflow by some means):</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T070925Z" creationid="pingfangx" creationdate="20190617T070735Z">
         <seg>RxJava 中的数据流由源，零个或多个中间步骤，后跟数据消费者或组合器步骤(其中步骤负责通过某种方式消费数据流)组成：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The destination port number.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T104937Z" creationid="pingfangx" creationdate="20190827T104937Z">
+        <seg>目的端口号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5095,10 +7090,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The duplicate detection and sequencing algorithm in the TCP protocol relies on the unique binding of segment data to sequence space to the extent that sequence numbers will not cycle through all 2**32 values before the segment data bound to those sequence numbers has been delivered and acknowledged by the receiver and all duplicate copies of the segments have "drained" from the internet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025040Z" creationid="pingfangx" creationdate="20190828T025040Z">
+        <seg>TCP 协议中的重复检测和排序算法依赖于报文段数据与序列空间的唯一绑定，以使序列号在绑定到那些序列号的报文段数据之前不会循环通过所有 2 ** 32 值并且接收方承认并且所有报文段的重复副本已从互联网“耗尽”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The exception is still there but this time, the operator that can't signal more `onNext` will signal this exception instead (allowing better identification of who is not properly backpressured).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T073650Z" creationid="pingfangx" creationdate="20190618T073650Z">
         <seg>例外情况仍然存在，但这一次，无法发出更多 `onNext` 信号的操作符将发出异常信号(允许更好地识别谁没有正确背压)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The figures should be interpreted in the following way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T033919Z" creationid="pingfangx" creationdate="20190828T033900Z">
+        <seg>该图应按以下方式解释。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5127,6 +7138,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first part of this test checks to see if the beginning of the segment falls in the window, the second part of the test checks to see if the end of the segment falls in the window; if the segment passes either part of the test it contains data in the window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022401Z" creationid="pingfangx" creationdate="20190828T022401Z">
+        <seg>该测试的第一部分检查该报文段的开头是否落入窗口，测试的第二部分检查该报文段的末端是否落入窗口；如果报文段通过测试的任何一部分，则它包含窗口中的数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The first step is to include RxJava 2 into your project, for example, as a Gradle compile dependency:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T065845Z" creationid="pingfangx" creationdate="20190617T065845Z">
@@ -5139,6 +7158,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T022214Z" creationid="pingfangx" creationdate="20190624T022214Z">
         <seg>当人们想要与基于推的源（例如 GUI 事件）交互时使用的第一个典型案例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following comparisons are needed to process the acknowledgments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021803Z" creationid="pingfangx" creationdate="20190828T021803Z">
+        <seg>处理确认需要进行以下比较。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following diagrams may help to relate some of these variables to the sequence space.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111858Z" creationid="pingfangx" creationdate="20190827T111858Z">
+        <seg>以下图表可能有助于将这些变量中的一些与序列空间相关联。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5215,10 +7250,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The generator is bound to a (possibly fictitious) 32 bit clock whose low order bit is incremented roughly every 4 microseconds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023337Z" creationid="pingfangx" creationdate="20190828T023337Z">
+        <seg>生成器绑定到(可能是虚构的)32 位时钟，其低位比特大约每 4 微秒递增一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The good news is that operator names remain (mostly) the same.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T053420Z" creationid="pingfangx" creationdate="20190618T053420Z">
         <seg>好消息是操作符名称(大多数)保持不变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The initial send sequence number (ISS) is chosen by the data sending TCP, and the initial receive sequence number (IRS) is learned during the connection establishing procedure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023455Z" creationid="pingfangx" creationdate="20190828T023455Z">
+        <seg>初始发送序列号(ISS)由数据发送 TCP 选择，并且在连接建立过程期间学习初始接收序列号(IRS)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The initial sequence number chosen is</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025710Z" creationid="pingfangx" creationdate="20190828T025710Z">
+        <seg>选择的初始序列号是</seg>
       </tuv>
     </tu>
     <tu>
@@ -5235,6 +7294,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T093953Z" creationid="pingfangx" creationdate="20190618T093953Z">
         <seg>主要目的是避免通常一次性任务的 `Worker` 的跟踪开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The maintenance of a TCP connection requires the remembering of several variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111259Z" creationid="pingfangx" creationdate="20190827T111259Z">
+        <seg>维护 TCP 连接需要记住几个变量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5295,6 +7362,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The normal state for the data transfer phase of the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112713Z" creationid="pingfangx" creationdate="20190827T112713Z">
+        <seg>连接的数据传输阶段的正常状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The number of 32 bit words in the TCP Header.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105241Z" creationid="pingfangx" creationdate="20190827T105241Z">
+        <seg>TCP 首部中 32 位字的数量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The number of data octets beginning with the one indicated in the acknowledgment field which the sender of this segment is willing to accept.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105729Z" creationid="pingfangx" creationdate="20190827T105729Z">
+        <seg>该报文段的发送方愿意接受的数据八位字节数，从确认字段中指示的数据八位字节数开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The official Javadoc pages for 2.x is hosted at http://reactivex.io/RxJava/2.x/javadoc/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T052658Z" creationid="pingfangx" creationdate="20190618T052658Z">
@@ -5331,6 +7422,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T081157Z" creationid="pingfangx" creationdate="20190621T081157Z">
         <seg>操作符 `range` 以 `org.reactivestreams.Subscription` 接口的实现形式，通过调用其(内部 `Subscriber` 的) `onSubscribe` 向 `observeOn` 发送一个回调。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The option-length counts the two octets of option-kind and option-length as well as the option-data octets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110913Z" creationid="pingfangx" creationdate="20190827T110913Z">
+        <seg>option-length 计算 option-kind 和 option-length 的两个八位字节以及 option-data 八位字节。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5383,10 +7482,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The pad is not transmitted as part of the segment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110012Z" creationid="pingfangx" creationdate="20190827T110012Z">
+        <seg>填充不作为报文段的传输部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The padding is composed of zeros.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111053Z" creationid="pingfangx" creationdate="20190827T111053Z">
+        <seg>填充由零组成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The preparation of dataflows by applying various intermediate operators happens in the so-called **assembly time**:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T071711Z" creationid="pingfangx" creationdate="20190617T071711Z">
         <seg>通过应用各种中间运算符来准备数据流发生在所谓的 **assembly time** 中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The principle reason for the three-way handshake is to prevent old duplicate connection initiations from causing confusion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042455Z" creationid="pingfangx" creationdate="20190828T042455Z">
+        <seg>三次握手的主要原因是防止旧的重复连接启动引起混淆。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5399,10 +7522,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The problem is that the recovering host may not know for how long it crashed nor does it know whether there are still old duplicates in the system from earlier connection incarnations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025808Z" creationid="pingfangx" creationdate="20190828T025808Z">
+        <seg>问题是恢复的主机可能不知道它崩溃了多长时间，也不知道系统中是否还存在来自早期连接化身的旧重复。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The problem starts when there are, for example, 1 billion elements or the same 1 million sequence appears 1000 times in a program, leading to `OutOfMemoryError` and generally slowdowns due to excessive GC overhead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T072930Z" creationid="pingfangx" creationdate="20190621T072930Z">
         <seg>例如，当一个程序中有 10 亿个元素或相同的 100 万个序列出现 1000 次时会出现这个问题，导致 `OutOfMemoryError`，并且通常由于过多的 GC 开销而导致变慢。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The problem that arises from this is</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023158Z" creationid="pingfangx" creationdate="20190828T023158Z">
+        <seg>由此产生的问题是</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The procedure also works if two TCP simultaneously initiate the procedure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T030812Z" creationid="pingfangx" creationdate="20190828T030812Z">
+        <seg>如果两个 TCP 同时启动该过程，则该过程也有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The protocol places no restriction on a particular connection being used over and over again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023132Z" creationid="pingfangx" creationdate="20190828T023132Z">
+        <seg>该协议对一次又一次使用的特定连接没有限制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5439,6 +7594,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The receive window is the portion of the sequence space labeled 2 in figure 5.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111933Z" creationid="pingfangx" creationdate="20190827T111933Z">
+        <seg>接收窗口是图 5 中标记为 2 的序列空间的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The receiver of a RST first validates it, then changes state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061754Z" creationid="pingfangx" creationdate="20190828T061754Z">
+        <seg>RST 的接收者首先验证它，然后改变状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The receiver of the first SYN has no way of knowing whether the segment was an old delayed one or not, unless it remembers the last sequence number used on the connection (which is not always possible), and so it must ask the sender to verify this SYN.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024312Z" creationid="pingfangx" creationdate="20190828T024312Z">
+        <seg>第一个 SYN 的接收者无法知道该报文段是否是旧的延迟报文段，除非它记住连接上使用的最后一个序列号(这并不总是可能)，因此它必须要求发送方验证这个 SYN。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The relevance of this operator is decreasing as more and more operators now allow setting their buffer sizes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T093239Z" creationid="pingfangx" creationdate="20190621T093239Z">
@@ -5459,6 +7638,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T064541Z" creationid="pingfangx" creationdate="20190618T064541Z">
         <seg>其余的操作接口根据 Java 8 函数类型命名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The remote TCP initiates by sending a FIN control signal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063204Z" creationid="pingfangx" creationdate="20190828T063204Z">
+        <seg>远程 TCP 通过发送 FIN 控制信号启动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The reset takes its sequence number from the ACK field of the incoming segment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061702Z" creationid="pingfangx" creationdate="20190828T061702Z">
+        <seg>重置从传入报文段的 ACK 字段获取其序列号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5519,6 +7714,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The segment length (SEG.LEN) includes both data and sequence space occupying controls.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022829Z" creationid="pingfangx" creationdate="20190828T022829Z">
+        <seg>报文段长度(SEG.LEN)包括数据和控制位占用的序列空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The sequence number of the first data octet in this segment (except when SYN is present).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105012Z" creationid="pingfangx" creationdate="20190827T105012Z">
+        <seg>此报文段中第一个数据八位字节的序列号(存在 SYN 时除外)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The simplest three-way handshake is shown in figure 7 below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T033648Z" creationid="pingfangx" creationdate="20190828T033648Z">
+        <seg>最简单的三次握手如下图 7 所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The source port number.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T104852Z" creationid="pingfangx" creationdate="20190827T104852Z">
+        <seg>源端口号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The specification itself has evolved out of RxJava 1.x and provides a common baseline for reactive systems and libraries.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T051835Z" creationid="pingfangx" creationdate="20190618T051835Z">
@@ -5527,10 +7754,74 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The state diagram in figure 6 illustrates only state changes, together with the causing events and resulting actions, but addresses neither error conditions nor actions which are not connected with state changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T113155Z" creationid="pingfangx" creationdate="20190827T113155Z">
+        <seg>图 6 中的状态图仅说明状态变化以及导致事件和结果动作，但既不解决错误条件也不解决与状态变化无关的动作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The states are:  LISTEN, SYN-SENT, SYN-RECEIVED, ESTABLISHED, FIN-WAIT-1, FIN-WAIT-2, CLOSE-WAIT, CLOSING, LAST-ACK, TIME-WAIT, and the fictional state CLOSED.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112450Z" creationid="pingfangx" creationdate="20190827T112450Z">
+        <seg>状态是：LISTEN, SYN-SENT, SYN-RECEIVED, ESTABLISHED, FIN-WAIT-1, FIN-WAIT-2, CLOSE-WAIT, CLOSING, LAST-ACK, TIME-WAIT, 和虚构状态 CLOSED.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The symbol "=&lt;" means "less than or equal" (modulo 2**32).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021556Z" creationid="pingfangx" creationdate="20190828T021556Z">
+        <seg>符号 "=&lt;" 表示“小于或等于”(模 2**32)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The synchronization requires each side to send it's own initial sequence number and to receive a confirmation of it in acknowledgment from the other side.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023812Z" creationid="pingfangx" creationdate="20190828T023812Z">
+        <seg>同步要求每一方发送它自己的初始序列号，并从另一方接收确认信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The third convenience is that you can now fluently test your sources without the need to create or introduce `TestSubscriber`/`TestObserver` instance in your code:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T100013Z" creationid="pingfangx" creationdate="20190618T100013Z">
         <seg>第三个方便是您现在可以流畅地测试您的源，而无需在代码中创建或引入 `TestSubscriber`/`TestObserver` 实例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The three way handshake and the advantages of a clock-driven scheme are discussed in [3].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024325Z" creationid="pingfangx" creationdate="20190828T024325Z">
+        <seg>在 [3] 中讨论了三次握手和时钟驱动方案的优点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The three-way handshake reduces the possibility of false connections.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T032510Z" creationid="pingfangx" creationdate="20190828T032510Z">
+        <seg>三次握手减少了错误连接的可能性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The typical kinds of sequence number comparisons which the TCP must perform include:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021605Z" creationid="pingfangx" creationdate="20190828T021605Z">
+        <seg>TCP 必须执行的典型序列号比较包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The urgent pointer points to the sequence number of the octet following the urgent data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110719Z" creationid="pingfangx" creationdate="20190827T110719Z">
+        <seg>紧急指针指向紧急数据之后的八位字节的序列号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5551,6 +7842,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The user initiates by telling the TCP to CLOSE the connection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063155Z" creationid="pingfangx" creationdate="20190828T063155Z">
+        <seg>用户通过告知 TCP 关闭连接来启动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The user who CLOSEs may continue to RECEIVE until he is told that the other side has CLOSED also.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T065845Z" creationid="pingfangx" creationdate="20190828T062634Z">
+        <seg>CLOSE 的用户会继续 RECEIVE，直到他被告知另一方也已 CLOSED。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The user will respond with a CLOSE, upon which the TCP can send a FIN to the other TCP after sending any remaining data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063732Z" creationid="pingfangx" creationdate="20190828T063732Z">
+        <seg>用户将以 CLOSE 响应，TCP 可以在发送任何剩余数据后将 FIN 发送到另一个 TCP。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then that observer reacts to whatever item or sequence of items the Observable &lt;d3&gt;emits&lt;/d3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T043345Z" creationid="pingfangx" creationdate="20190620T043345Z">
@@ -5567,6 +7882,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are also some variables used frequently in the discussion that take their values from the fields of the current segment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111945Z" creationid="pingfangx" creationdate="20190827T111945Z">
+        <seg>在讨论中还经常使用一些变量，这些变量从当前报文段的字报文段中获取它们的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are also versions of &lt;c0&gt;ReplaySubject&lt;/c0&gt; that will throw away old items once the replay buffer threatens to grow beyond a certain size, or when a specified timespan has passed since the items were originally emitted.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T085024Z" creationid="pingfangx" creationdate="20190620T085024Z">
@@ -5579,6 +7902,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T083144Z" creationid="pingfangx" creationdate="20190617T083144Z">
         <seg>还有其他可选运算符：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are essentially three cases:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063148Z" creationid="pingfangx" creationdate="20190828T063148Z">
+        <seg>基本上有三种情况：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5619,6 +7950,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T090224Z" creationid="pingfangx" creationdate="20190621T090224Z">
         <seg>有几种方法可以处理这种情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are some subtleties to computer modulo arithmetic, so great care should be taken in programming the comparison of such values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021509Z" creationid="pingfangx" creationdate="20190828T021509Z">
+        <seg>计算机模运算有一些细微之处，因此在对这些值的比较进行编程时应该非常小心。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are three groups of states:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060544Z" creationid="pingfangx" creationdate="20190828T060544Z">
+        <seg>有三组状态：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are two cases for the format of an option:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110817Z" creationid="pingfangx" creationdate="20190827T110817Z">
+        <seg>选项格式有两种情况：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5887,6 +8242,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This alone does not guarantee that old duplicate data is drained from the net, so the sequence space has been made very large to reduce the probability that a wandering duplicate will cause trouble upon arrival.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025324Z" creationid="pingfangx" creationdate="20190828T025324Z">
+        <seg>仅这一点并不能保证从网络中排出旧的重复数据，因此序列空间已经非常大，以减少流浪复制品在到达时会造成麻烦的可能性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This approach is more flexible, because values can arrive synchronously or asynchronously.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T042157Z" creationid="pingfangx" creationdate="20190620T042157Z">
@@ -5967,6 +8330,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This division allows for the existence of host level protocols other than TCP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T104752Z" creationid="pingfangx" creationdate="20190827T104752Z">
+        <seg>这种划分允许存在除 TCP 之外的主机级协议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document will use the following terms: An &lt;d0&gt;observer&lt;/d0&gt; &lt;d1&gt;subscribes&lt;/d1&gt; to an &lt;d2&gt;Observable&lt;/d2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T045732Z" creationid="pingfangx" creationdate="20190620T045732Z">
@@ -5999,6 +8370,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This field communicates the current value of the urgent pointer as a positive offset from the sequence number in this segment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110702Z" creationid="pingfangx" creationdate="20190827T110702Z">
+        <seg>该字段将紧急指针的当前值传递为该报文段中序列号的正偏移量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field is only be interpreted in segments with the URG control bit set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110733Z" creationid="pingfangx" creationdate="20190827T110733Z">
+        <seg>该字段仅在设置了 URG 控制位的报文段中进行解释。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This gives the TCP protection against misrouted segments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110215Z" creationid="pingfangx" creationdate="20190827T110215Z">
+        <seg>这为 TCP 提供了针对错误路由的报文段的保护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This handler can be overridden with the method `RxJavaPlugins.setErrorHandler(Consumer&lt;Throwable&gt;)`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T090229Z" creationid="pingfangx" creationdate="20190618T090229Z">
@@ -6011,6 +8406,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T093127Z" creationid="pingfangx" creationdate="20190621T093030Z">
         <seg>这样的结果是，即使是一个支持背压的源，如 `range` ，也将完全 realized。（译注：不知道怎么译）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This indicates where the data begins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105250Z" creationid="pingfangx" creationdate="20190827T105250Z">
+        <seg>这表示数据的起始位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This information is carried in the Internet Protocol and is transferred across the TCP/Network interface in the arguments or results of calls by the TCP on the IP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110405Z" creationid="pingfangx" creationdate="20190827T110405Z">
+        <seg>此信息在 IP 协议中承载，并通过 TCP / 网络接口在 IP 上的 TCP 调用的参数或结果中传输。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6043,6 +8454,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T072138Z" creationid="pingfangx" creationdate="20190617T071850Z">
         <seg>当在内部建立处理步骤链的流上调用 `subscribe()` 时，这是一个临时状态：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is achieved by implicitly including some control flags in the sequence space so they can be retransmitted and acknowledged without confusion (i.e., one and only one copy of the control will be acted upon).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T035131Z" creationid="pingfangx" creationdate="20190828T022537Z">
+        <seg>这是通过在序列空间中隐含地包括一些控制标志来实现的，这样它们可以被重传和确认而不会混淆(即，控制位的一个且仅一个副本将被作用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is an engineering choice, and may be changed if experience indicates it is desirable to do so.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024425Z" creationid="pingfangx" creationdate="20190828T024425Z">
+        <seg>这是一种工程选择，如果经验表明需要这样做，可能会改变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is done in an exchange of connection establishing segments carrying a control bit called "SYN" (for synchronize) and the initial sequence numbers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023657Z" creationid="pingfangx" creationdate="20190828T023657Z">
+        <seg>这是在交换连接建立报文段间完成的，该报文段带有称为“SYN”(表示 synchronize)的控制位和初始序列号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is illustrated in figure 11.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060215Z" creationid="pingfangx" creationdate="20190828T060215Z">
+        <seg>这在图 11 中说明。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6123,6 +8566,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T060840Z" creationid="pingfangx" creationdate="20190618T060840Z">
         <seg>这意味着 `onSubscribe(Disposable)` 的调用可能跟随其他 `onXXX` 方法之一。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This mechanism allows for straight-forward duplicate detection in the presence of retransmission.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021057Z" creationid="pingfangx" creationdate="20190828T021057Z">
+        <seg>该机制允许在存在重传的情况下进行直接重复检测。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6215,10 +8666,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This procedure normally is initiated by one TCP and responded to by another TCP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T030758Z" creationid="pingfangx" creationdate="20190828T030758Z">
+        <seg>此过程通常由一个 TCP 启动，并由另一个 TCP 响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This pseudo header contains the Source Address, the Destination Address, the Protocol, and TCP length.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110137Z" creationid="pingfangx" creationdate="20190827T110137Z">
+        <seg>此伪首部包含源地址，目标地址，协议和 TCP 长度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This scenario leads to the example shown in figure 10.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055834Z" creationid="pingfangx" creationdate="20190828T055834Z">
+        <seg>该场景导致图 10 中所示的示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This should be backwards compatible but does behave differently.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T105035Z" creationid="pingfangx" creationdate="20190617T105035Z">
         <seg>这应该是向后兼容的，但表现不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This space ranges from 0 to 2**32 - 1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021253Z" creationid="pingfangx" creationdate="20190828T021253Z">
+        <seg>此空间范围为 0 到 2**32 - 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This specification provides that hosts which "crash" without retaining any knowledge of the last sequence numbers transmitted on each active (i.e., not closed) connection shall delay emitting any TCP segments for at least the agreed Maximum Segment Lifetime (MSL) in the internet system of which the host is a part.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024647Z" creationid="pingfangx" creationdate="20190828T024642Z">
+        <seg>该规范规定，在不保留每个活动(即非关闭)连接上发送的最后序列号的任何知识的情况下“崩溃”的主机应至少延迟发送任何 TCP 报文段，以便至少在主机是其中的一部分的互联网系统中达成协议的最大报文段寿命(MSL)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6235,6 +8726,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T103812Z" creationid="pingfangx" creationdate="20190620T103812Z">
         <seg>此树可以帮助你找到你正在寻找的 ReactiveX Observable 操作符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This unsigned arithmetic preserves the relationship of sequence numbers as they cycle from 2**32 - 1 to 0 again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021450Z" creationid="pingfangx" creationdate="20190828T021450Z">
+        <seg>这个无符号算术保留了序列号的关系，因为它们再次从 2**32 - 1 循环到 0。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6319,6 +8818,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thus, a program could initiate several SENDs followed by a CLOSE, and then continue to RECEIVE until signaled that a RECEIVE failed because the other side has CLOSED.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T062737Z" creationid="pingfangx" creationdate="20190828T062737Z">
+        <seg>因此，一个程序可以启动几个 SEND，然后是 CLOSE，然后继续 RECEIVE，直到发出 RECEIVE 失败，因为另一方已经 CLOSED。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus, it is be possible for a TCP to maintain a zero receive window while transmitting data and receiving ACKs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022457Z" creationid="pingfangx" creationdate="20190828T022457Z">
+        <seg>因此，TCP 可以在发送数据和接收 ACK 时保持零接收窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus, the ISN cycles approximately every 4.55 hours.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023344Z" creationid="pingfangx" creationdate="20190828T023344Z">
+        <seg>因此，ISN 大约每 4.55 小时循环一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Timeout will cause a Single to abort with an error notification if it does not emit an item in a specified period of time after it is subscribed to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T075639Z" creationid="pingfangx" creationdate="20190620T075639Z">
@@ -6331,6 +8854,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T052632Z" creationid="pingfangx" creationdate="20190618T052632Z">
         <seg>为了允许 RxJava 1.x 和 RxJava 2.x 共存，RxJava 2.x 位于 maven 坐标 `io.reactivex.rxjava2:rxjava:2.x.y` 下，类可以在 `io.reactivex 下面访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To avoid confusion we must prevent segments from one incarnation of a connection from being used while the same sequence numbers may still be present in the network from an earlier incarnation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023244Z" creationid="pingfangx" creationdate="20190828T023244Z">
+        <seg>为了避免混淆，我们必须防止使用来自连接的一个化身的报文段，而相同的序列号可能仍然存在于早期化身的网络中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6359,6 +8890,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To be sure that a TCP does not create a segment that carries a sequence number which may be duplicated by an old segment remaining in the network, the TCP must keep quiet for a maximum segment lifetime (MSL) before assigning any sequence numbers upon starting up or recovering from a crash in which memory of sequence numbers in use was lost.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024412Z" creationid="pingfangx" creationdate="20190828T024412Z">
+        <seg>为了确保 TCP 不会创建一个带有序列号的报文段，该报文段可能被网络中剩余的旧报文段复制，TCP 必须在启动时分配任何序列号之前保持安静，以获得最大报文段寿命(MSL)。或从崩溃中恢复，其中使用的序列号的内存丢失。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To bridge the gap we defined abstract classes `DefaultSubscriber`, `ResourceSubscriber` and `DisposableSubscriber` (plus their `XObserver` variants) for `Flowable` (and `Observable`) respectively that offers resource tracking support (of `Disposable`s) just like `rx.Subscriber` and can be cancelled/disposed externally via `dispose()`:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T070302Z" creationid="pingfangx" creationdate="20190618T070302Z">
@@ -6371,6 +8910,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T105603Z" creationid="pingfangx" creationdate="20190617T105603Z">
         <seg>要构建：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To deal with this, a special control message, reset, has been devised.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042505Z" creationid="pingfangx" creationdate="20190828T042505Z">
+        <seg>为了解决这个问题，我们设计了一个特殊的控制消息 reset。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6439,6 +8986,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To summarize: every segment emitted occupies one or more sequence numbers in the sequence space, the numbers occupied by a segment are "busy" or "in use" until MSL seconds have passed, upon crashing a block of space-time is occupied by the octets of the last emitted segment, if a new connection is started too soon and uses any of the sequence numbers in the space-time footprint of the last segment of the previous connection incarnation, there is a potential sequence number overlap area which could cause confusion at the receiver.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T030223Z" creationid="pingfangx" creationdate="20190828T030223Z">
+        <seg>总结一下：发射的每个报文段都占用了序列空间中的一个或多个序列号，报文段中占用的数字是“忙”或“正在使用”，直到 MSL 秒已经过去，一旦最后一个发射报文段的八位字节位所占用空间的块崩溃了，如果新连接过早启动并使用前一个连接化身的最后一个报文段的空时足迹中的任何序列号，则存在潜在的序列号重叠区域，这可能导致在接收器端的混淆。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To support our internal testing, all base reactive types now feature `test()` methods (which is a huge convenience for us) returning `TestSubscriber` or `TestObserver`:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T095836Z" creationid="pingfangx" creationdate="20190618T095836Z">
@@ -6463,10 +9018,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Transmission Control Protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T041849Z" creationid="pingfangx" creationdate="20190828T041849Z">
+        <seg>Transmission Control Protocol</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Typically, you can move computations or blocking IO to some other thread via `subscribeOn`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T072819Z" creationid="pingfangx" creationdate="20190617T072819Z">
         <seg>通常，您可以通过 `subscribeOn` 将计算或阻塞 IO 移动到其他线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>URG:  Urgent Pointer field significant</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105358Z" creationid="pingfangx" creationdate="20190827T105358Z">
+        <seg>URG：指明紧急指针字段</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Under normal conditions, TCPs keep track of the next sequence number to emit and the oldest awaiting acknowledgment so as to avoid mistakenly using a sequence number over before its first use has been acknowledged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025301Z" creationid="pingfangx" creationdate="20190828T025301Z">
+        <seg>在正常情况下，TCP 会跟踪要发射的下一个序列号和最旧的等待确认，以避免在第一次使用确认之前错误地使用序列号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6591,6 +9170,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Users must keep reading connections they close for sending until the TCP says no more data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063142Z" creationid="pingfangx" creationdate="20190828T063142Z">
+        <seg>用户必须继续读取他们关闭发送的连接，直到 TCP 说不再有数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Users switching from 1.x to 2.x have to re-organize their imports, but carefully.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T052645Z" creationid="pingfangx" creationdate="20190618T052645Z">
@@ -6663,6 +9250,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We assume that the TCP will signal a user, even if no RECEIVEs are outstanding, that the other side has closed, so the user can terminate his side gracefully.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T062904Z" creationid="pingfangx" creationdate="20190828T062904Z">
+        <seg>我们假设 TCP 将向用户发出信号，即使没有 RECEIVE 是未完成的，另一方已关闭，因此用户可以优雅地终止他的一方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We can distinguish two kinds of factory methods: cold "generators" that either return and generate elements based on downstream demand and hot "pushers" that usually bridge non-reactive and/or non-backpressurable data sources and layer some backpressure handling on top of them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T015614Z" creationid="pingfangx" creationdate="20190624T015614Z">
@@ -6671,10 +9266,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We conceive of these variables being stored in a connection record called a Transmission Control Block or TCB.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111441Z" creationid="pingfangx" creationdate="20190827T111441Z">
+        <seg>我们设想这些变量存储在称为传输控制块或 TCB 的连接记录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We discuss this latter case under "half-open" connections below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042639Z" creationid="pingfangx" creationdate="20190828T042639Z">
+        <seg>我们在下面的“半开”连接下讨论后一种情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We followed the naming convention of Java 8 by defining `io.reactivex.functions.Function` and `io.reactivex.functions.BiFunction`, plus renaming `Func3` - `Func9` into `Function3` - `Function9` respectively.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T065000Z" creationid="pingfangx" creationdate="20190618T065000Z">
         <seg>我们遵循 Java 8 的命名约定，定义了 `io.reactivex.functions.Function` 和 `io.reactivex.functions.BiFunction`，并分别将 `Func3`  - `Func9` 重命名为 `Function3`  - `Function9`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have chosen to treat CLOSE in a simplex fashion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T062609Z" creationid="pingfangx" creationdate="20190828T062609Z">
+        <seg>我们选择以单一的方式对待 CLOSE。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have taken advantage of the numbering scheme to protect certain control information as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022517Z" creationid="pingfangx" creationdate="20190828T022517Z">
+        <seg>我们也利用编号方案来保护某些控制信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6695,10 +9322,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We want to assure this, even if a TCP crashes and loses all knowledge of the sequence numbers it has been using.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023256Z" creationid="pingfangx" creationdate="20190828T023256Z">
+        <seg>我们想要确保这一点，即使 TCP 崩溃并且失去了它一直使用的序列号的所有知识。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What people actually need is the method `fromCallable`:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T015858Z" creationid="pingfangx" creationdate="20190624T015858Z">
         <seg>人们真正需要的是 `fromCallable` 方法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a SYN is present then SEG.SEQ is the sequence number of the SYN.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022848Z" creationid="pingfangx" creationdate="20190828T022848Z">
+        <seg>当存在 SYN 时，SEG.SEQ 是 SYN 的序列号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When all segments preceding the FINs have been processed and acknowledged, each TCP can ACK the FIN it has received.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063921Z" creationid="pingfangx" creationdate="20190828T063921Z">
+        <seg>当 FIN 之前的所有报文段都已被处理和确认时，每个 TCP 都可以确认它收到的 FIN。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6719,6 +9370,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When data is received the following comparisons are needed:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022122Z" creationid="pingfangx" creationdate="20190828T022122Z">
+        <seg>收到数据时，需要进行以下比较：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When does an Observable begin emitting its sequence of items?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T064950Z" creationid="pingfangx" creationdate="20190620T064950Z">
@@ -6727,10 +9386,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When new connections are created, an initial sequence number (ISN) generator is employed which selects a new 32 bit ISN.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023313Z" creationid="pingfangx" creationdate="20190828T023313Z">
+        <seg>当创建新连接时，使用初始序列号(ISN)生成器，其选择新的 32 位 ISN。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When simultaneous attempt occurs, each TCP receives a "SYN" segment which carries no acknowledgment after it has sent a "SYN".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T031523Z" creationid="pingfangx" creationdate="20190828T031523Z">
+        <seg>当同时尝试发生时，每个 TCP 都会收到一个“SYN”报文段，在发送“SYN”后，该报文段不包含确认信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the SYN arrives at line 3, TCP B, being in a synchronized state, and the incoming segment outside the window, responds with an acknowledgment indicating what sequence it next expects to hear (ACK 100).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060037Z" creationid="pingfangx" creationdate="20190828T060037Z">
+        <seg>当 SYN 到达第 3 行时，处于同步状态的 TCP B 和窗口外的传入报文段响应确认，指示接下来希望听到的序列(ACK 100)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the TCP is up again, A is likely to start again from the beginning or from a recovery point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055743Z" creationid="pingfangx" creationdate="20190828T055743Z">
+        <seg>当 TCP 再次启动时，A 很可能从开始或从恢复点再次启动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the dataflow runs through asynchronous steps, each step may perform different things with different speed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T071154Z" creationid="pingfangx" creationdate="20190617T071154Z">
         <seg>当数据流通过异步步骤时，每个步骤可以以不同的速度执行不同的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the original SYN (pun intended) finally arrives at line 6, the synchronization proceeds normally.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043327Z" creationid="pingfangx" creationdate="20190828T043327Z">
+        <seg>当原始 SYN(双关语)最终到达第 6 行时，同步正常进行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the other TCP has both acknowledged the FIN and sent a FIN of its own, the first TCP can ACK this FIN.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063614Z" creationid="pingfangx" creationdate="20190828T063614Z">
+        <seg>当另一个 TCP 同时确认了 FIN 并发送了自己的 FIN 时，第一个 TCP 可以确认此 FIN。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6747,6 +9454,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T055915Z" creationid="pingfangx" creationdate="20190620T055915Z">
         <seg>看起来像这样：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While computing the checksum, the checksum field itself is replaced with zeros.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110021Z" creationid="pingfangx" creationdate="20190827T110021Z">
+        <seg>在计算校验和时，校验和字段本身将替换为零。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6779,6 +9494,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T090305Z" creationid="pingfangx" creationdate="20190618T090305Z">
         <seg>如果没有特定的处理程序，RxJava 默认将 `Throwable` 的堆栈跟踪打印到控制台并调用当前线程的未捕获异常处理程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Without such an assumption, two distinct TCP segments could conceivably be assigned the same or overlapping sequence numbers, causing confusion at the receiver as to which data is new and which is old.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025219Z" creationid="pingfangx" creationdate="20190828T025219Z">
+        <seg>如果没有这样的假设，可以想象两个不同的 TCP 报文段被分配相同或重叠的序列号，从而导致接收器对哪些数据是新的以及哪些是旧的混淆。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8375,6 +11098,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>it takes 4.5 hours to use up 2**32 octets of sequence space.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025410Z" creationid="pingfangx" creationdate="20190828T025410Z">
+        <seg>用光 2 ** 32 个八位字节的序列空间需要 4.5 小时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>make a Connectable Observable behave like an ordinary Observable</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T103654Z" creationid="pingfangx" creationdate="20190620T103654Z">
@@ -8539,6 +11270,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T100030Z" creationid="pingfangx" creationdate="20190620T100030Z">
         <seg>定期将 Observable 中的项目细分为 Observable 窗口并发射这些窗口，而不是一次发射一个项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>prefixed to the TCP header.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110052Z" creationid="pingfangx" creationdate="20190827T110052Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
