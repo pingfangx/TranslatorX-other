@@ -24,4 +24,6 @@ header	首部	标头,标题,头部,头|
 response	响应	回复|
 token	标记	令牌|
 transfer	传输	转移|
+message	消息	邮件|
 recipient	接收者	收件人|
+sender	发送者	发件人|
