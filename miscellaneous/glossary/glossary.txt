@@ -1,5 +1,5 @@
 #英文	中文	[不使用的翻译|]备注
-functional	函数	功能|
+#functional	函数	功能|
 dropped	删除	丢弃|
 
 # rx 统一
@@ -27,3 +27,4 @@ transfer	传输	转移|
 message	消息	邮件|
 recipient	接收者	收件人|
 sender	发送者	发件人|
+cache	缓存	高速缓存|

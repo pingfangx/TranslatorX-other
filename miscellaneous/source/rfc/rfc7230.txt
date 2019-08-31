@@ -1283,9 +1283,9 @@ RFC 7230           HTTP/1.1 Message Syntax and Routing         June 2014
 
      origin-form    = absolute-path [ "?" query ]
 
-   When making a request directly to an origin server, other than a CONNECT or server-wide OPTIONS request (as detailed below), a client MUST send only the absolute path and query components of the target URI as the request-target.  If the target URI's path component is empty, the client MUST send "/" as the path within the origin-form of request-target.  A Host header field is also sent, as defined in
+   When making a request directly to an origin server, other than a CONNECT or server-wide OPTIONS request (as detailed below), a client MUST send only the absolute path and query components of the target URI as the request-target.  If the target URI's path component is empty, the client MUST send "/" as the path within the origin-form of request-target.  A Host header field is also sent, as defined in Section 5.4.
 
-   Section 5.4.
+
 
    For example, a client wishing to retrieve a representation of the resource identified as
 
@@ -1300,9 +1300,7 @@ RFC 7230           HTTP/1.1 Message Syntax and Routing         June 2014
 
 5.3.2.  absolute-form
 
-   When making a request to a proxy, other than a CONNECT or server-wide OPTIONS request (as detailed below), a client MUST send the target
-
-   URI in absolute-form as the request-target.
+   When making a request to a proxy, other than a CONNECT or server-wide OPTIONS request (as detailed below), a client MUST send the target URI in absolute-form as the request-target.
 
      absolute-form  = absolute-URI
 
@@ -1408,8 +1406,7 @@ RFC 7230           HTTP/1.1 Message Syntax and Routing         June 2014
    If the request-target is in absolute-form, the effective request URI is the same as the request-target.  Otherwise, the effective request URI is constructed as follows:
 
 
-      If the server's configuration (or outbound gateway) provides a fixed URI scheme, that scheme is used for the effective request
-      URI.  Otherwise, if the request is received over a TLS-secured TCP connection, the effective request URI's scheme is "https"; if not, the scheme is "http".
+      If the server's configuration (or outbound gateway) provides a fixed URI scheme, that scheme is used for the effective request URI.  Otherwise, if the request is received over a TLS-secured TCP connection, the effective request URI's scheme is "https"; if not, the scheme is "http".
 
       If the server's configuration (or outbound gateway) provides a fixed URI authority component, that authority is used for the effective request URI.  If not, then if the request-target is in authority-form, the effective request URI's authority component is the same as the request-target.  If not, then if a Host header field is supplied with a non-empty field-value, the authority component is the same as the Host field-value.  Otherwise, the authority component is assigned the default name configured for the server and, if the connection's incoming TCP port number differs from the default port for the effective request URI's scheme, then a colon (":") and the incoming port number (in decimal form) are appended to the authority component.
 

@@ -1831,6 +1831,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A HEAD response might also have an effect on previously cached responses to GET; see Section 4.3.5 of [RFC7234].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T140340Z" creationid="pingfangx" creationdate="20190831T140340Z">
+        <seg>HEAD 响应也可能对以前缓存的 GET 响应产生影响；请参见 [RFC7234] 的第 4.3.5 节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Host header field is also sent, as defined in Section 5.4.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124028Z" creationid="pingfangx" creationdate="20190831T124028Z">
+        <seg>还会发送主机首部字段，如第 5.4 节中所定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A SYN-ACK is returned (line 3) and causes TCP A to generate a RST (the ACK in line 3 is not acceptable).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060402Z" creationid="pingfangx" creationdate="20190828T060402Z">
@@ -1903,6 +1919,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A URI reference (Section 2.7) is typically used as an identifier for the "target resource", which a user agent would resolve to its absolute form in order to obtain the "target URI".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123407Z" creationid="pingfangx" creationdate="20190831T123407Z">
+        <seg>URI 引用(第 2.7 节)通常用作“target resource”的标识符，用户代理将其解析为其绝对形式以获得“target URI”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A cache behaves in a "semantically transparent" manner, with respect to a particular response, when its use affects neither the requesting client nor the origin server, except to improve performance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T144722Z" creationid="pingfangx" creationdate="20190828T082158Z">
@@ -1943,6 +1967,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A client MAY send a Max-Forwards header field in an OPTIONS request to target a specific recipient in the request chain (see Section 5.1.2).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143721Z" creationid="pingfangx" creationdate="20190831T143721Z">
+        <seg>客户端可以在 OPTIONS 请求中发送 Max-Forwards 首部字段，以定位请求链中的特定接收者(请参阅第 5.1.2 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A client MAY send a list of protocols in the Upgrade header field of a request to invite the server to switch to one or more of those protocols, in order of descending preference, before sending the final response.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T113034Z" creationid="pingfangx" creationdate="20190831T113034Z">
@@ -1967,10 +1999,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A client MUST NOT generate header fields in a TRACE request containing sensitive data that might be disclosed by the response.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144020Z" creationid="pingfangx" creationdate="20190831T144020Z">
+        <seg>客户端不得在包含可能由响应公开的敏感数据的 TRACE 请求中生成首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A client MUST NOT process, cache, or forward such extra data as a separate response, since such behavior would be vulnerable to cache poisoning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T102524Z" creationid="pingfangx" creationdate="20190831T102524Z">
         <seg>客户端不得将此类额外数据作为单独的响应进行处理，缓存或转发，因为此类行为容易受到缓存中毒的影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A client MUST NOT send a message body in a TRACE request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144142Z" creationid="pingfangx" creationdate="20190831T144142Z">
+        <seg>客户端不得在 TRACE 请求中发送消息正文。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1991,10 +2039,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A client MUST ignore any Content-Length or Transfer-Encoding header fields received in a successful response to CONNECT.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143358Z" creationid="pingfangx" creationdate="20190831T143358Z">
+        <seg>客户端必须忽略在成功响应 CONNECT 时收到的任何 Content-Length 或 Transfer-Encoding 首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A client MUST ignore any Content-Length or Transfer-Encoding header fields received in such a message.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T101504Z" creationid="pingfangx" creationdate="20190831T101504Z">
         <seg>客户端必须忽略在这样的消息中接收的任何 Content-Length 或 Transfer-Encoding 首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A client MUST send a Host header field in all HTTP/1.1 request messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125403Z" creationid="pingfangx" creationdate="20190831T125403Z">
+        <seg>客户端必须在所有 HTTP/1.1 请求消息中发送 Host 首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A client MUST send a Host header field in an HTTP/1.1 request even if the request-target is in the absolute-form, since this allows the Host information to be forwarded through ancient HTTP/1.0 proxies that might not have implemented Host.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125929Z" creationid="pingfangx" creationdate="20190831T125929Z">
+        <seg>客户端必须在 HTTP/1.1 请求中发送 Host 首部字段，即使请求目标是绝对形式，因为这允许主机信息通过可能没有实现主机的古老 HTTP/1.0 代理转发。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2023,10 +2095,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A client can alter the semantics of GET to be a "range request", requesting transfer of only some part(s) of the selected representation, by sending a Range header field in the request ([RFC7233]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135618Z" creationid="pingfangx" creationdate="20190831T135618Z">
+        <seg>客户端可以通过在请求中发送 Range 首部字段来将 GET 的语义改变为“范围请求”，请求仅传输所选表示的一些部分（[RFC7233]）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A client cannot begin using an upgraded protocol on the connection until it has completely sent the request message (i.e., the client can't change the protocol it is sending in the middle of a message).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T113758Z" creationid="pingfangx" creationdate="20190831T113758Z">
         <seg>在完全发送请求消息之前，客户端不能开始在连接上使用升级的协议(即，客户端不能在消息中间改变它正在发送的协议)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A client constructs request messages to communicate specific intentions, examines received responses to see if the intentions were carried out, and determines how to interpret the results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T121633Z" creationid="pingfangx" creationdate="20190831T121633Z">
+        <seg>客户构建请求消息以传达特定意图，检查收到的响应以查看意图是否已执行，并确定如何解释结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2043,6 +2131,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112114Z" creationid="pingfangx" creationdate="20190831T112114Z">
         <seg>客户端应该限制它维护到给定服务器的同时打开的连接数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A client sending a CONNECT request MUST send the authority form of request-target (Section 5.3 of [RFC7230]); i.e., the request-target consists of only the host name and port number of the tunnel destination, separated by a colon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143107Z" creationid="pingfangx" creationdate="20190831T143107Z">
+        <seg>发送 CONNECT 请求的客户端必须发送请求目标的权限形式([RFC7230] 的第 5.3 节);即，请求目标仅包含隧道目的地的主机名和端口号，用冒号分隔。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2071,10 +2167,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A client sends request header fields to provide more information about the request context, make the request conditional based on the target resource state, suggest preferred formats for the response, supply authentication credentials, or modify the expected request processing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144223Z" creationid="pingfangx" creationdate="20190831T144223Z">
+        <seg>客户端发送请求首部字段以提供有关请求上下文的更多信息，根据目标资源状态使请求成为条件的，建议响应的首选格式，提供身份验证凭据或修改预期的请求处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A client that does not support persistent connections MUST send the "close" connection option in every request message.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T110902Z" creationid="pingfangx" creationdate="20190831T110902Z">
         <seg>不支持持久连接的客户端必须在每个请求消息中发送“关闭”连接选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A client that generates an OPTIONS request containing a payload body MUST send a valid Content-Type header field describing the representation media type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143814Z" creationid="pingfangx" creationdate="20190831T143814Z">
+        <seg>生成包含有效负载主体的 OPTIONS 请求的客户端必须发送描述表示媒体类型的有效 Content-Type 首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A client that has more than one outstanding request on a connection MUST maintain a list of outstanding requests in the order sent and MUST associate each received response message on that connection to the highest ordered request that has not yet received a final (non-1xx) response.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132249Z" creationid="pingfangx" creationdate="20190831T132249Z">
+        <seg>在连接上有多个未完成请求的客户端必须在发送的顺序中维护未完成请求的列表，并且必须将该连接上的每个接收到的响应消息与尚未收到最终请求的最高有序请求相关联(非 1xx)响应。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2303,6 +2423,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A payload within a CONNECT request message has no defined semantics; sending a payload body on a CONNECT request might cause some existing implementations to reject the request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143409Z" creationid="pingfangx" creationdate="20190831T143409Z">
+        <seg>CONNECT 请求消息中的有效负载没有定义的语义；在 CONNECT 请求上发送有效负载主体可能会导致某些现有实现拒绝该请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A payload within a GET request message has no defined semantics; sending a payload body on a GET request might cause some existing implementations to reject the request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T140225Z" creationid="pingfangx" creationdate="20190831T135703Z">
+        <seg>GET 请求消息中的有效负载没有定义的语义；在 GET 请求上发送有效负载主体可能会导致某些现有实现拒绝该请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A payload within a HEAD request message has no defined semantics; sending a payload body on a HEAD request might cause some existing implementations to reject the request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T140221Z" creationid="pingfangx" creationdate="20190831T140221Z">
+        <seg>HEAD 请求消息中的有效载荷没有定义的语义；在 HEAD 请求上发送有效负载主体可能会导致某些现有实现拒绝该请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A program that establishes connections for the purpose of sending requests.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T081259Z" creationid="pingfangx" creationdate="20190828T081259Z">
@@ -2331,6 +2475,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T111425Z" creationid="pingfangx" creationdate="20190831T111425Z">
         <seg>代理不得自动重试非幂等请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A proxy MUST NOT generate a Max-Forwards header field while forwarding a request unless that request was received with a Max-Forwards field.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143805Z" creationid="pingfangx" creationdate="20190831T143805Z">
+        <seg>除非收到的请求包含 Max-Forwards 字段，否则代理不得在转发请求时生成 Max-Forwards 首部字段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2403,6 +2555,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T111321Z" creationid="pingfangx" creationdate="20190831T111321Z">
         <seg>代理服务器不得与 HTTP/1.0 客户端保持持久连接(有关许多 HTTP/1.0 客户端实现的 Keep-Alive 首部字段问题的信息和讨论，请参见 [RFC2068] 的第 19.7.1 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A proxy that forwards such a request MUST generate a new Host field-value based on the received request-target rather than forward the received Host field-value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130112Z" creationid="pingfangx" creationdate="20190831T130112Z">
+        <seg>转发此类请求的代理必须根据接收到的请求目标生成新的主机字段值，而不是转发接收到的主机字段值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2515,6 +2675,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T093534Z" creationid="pingfangx" creationdate="20190829T093534Z">
         <seg>从客户端到服务器的请求消息在该消息的第一行内包括要应用于资源的方法，资源的标识符和正在使用的协议版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A request method is considered "idempotent" if the intended effect on the server of multiple identical requests with that method is the same as the effect for a single such request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134403Z" creationid="pingfangx" creationdate="20190831T134403Z">
+        <seg>如果使用该方法对服务器的多个相同请求的预期效果与单个此类请求的效果相同，则请求方法被视为“幂等”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2887,6 +3055,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A server MUST NOT send any Transfer-Encoding or Content-Length header fields in a 2xx (Successful) response to CONNECT.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143351Z" creationid="pingfangx" creationdate="20190831T143351Z">
+        <seg>服务器不得在对 CONNECT 的 2xx(成功)响应中发送任何 Transfer-Encoding 或 Content-Length 首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A server MUST NOT send transfer-codings to an HTTP/1.0 client.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T143529Z" creationid="pingfangx" creationdate="20190828T143529Z">
@@ -2911,6 +3087,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A server MUST generate a Content-Length field with a value of "0" if no payload body is to be sent in the response.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143647Z" creationid="pingfangx" creationdate="20190831T143647Z">
+        <seg>如果在响应中没有要发送有效载荷主体，则服务器必须生成值为“0”的 Content-Length 字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A server MUST ignore an Upgrade header field that is received in an HTTP/1.0 request.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T113747Z" creationid="pingfangx" creationdate="20190831T113747Z">
@@ -2931,6 +3115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T083512Z" creationid="pingfangx" creationdate="20190831T083512Z">
         <seg>服务器必须拒绝任何收到的包含首部字段名和冒号之间的空格的请求消息，以响应代码为 400(错误请求)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A server MUST respond with a 400 (Bad Request) status code to any HTTP/1.1 request message that lacks a Host header field and to any request message that contains more than one Host header field or a Host header field with an invalid field-value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130350Z" creationid="pingfangx" creationdate="20190831T130350Z">
+        <seg>服务器必须使用 400(错误请求)状态代码响应任何缺少主机首部字段的 HTTP/1.1 请求消息，以及包含多个主机首部字段的任何请求消息或具有无效字段值的主机首部字段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2979,6 +3171,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T103853Z" creationid="pingfangx" creationdate="20190830T103853Z">
         <seg>如果服务器因任何原因希望拒绝服务客户端的主要协议版本，则可以发送 505(HTTP 版本不支持)响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A server generating a successful response to OPTIONS SHOULD send any header fields that might indicate optional features implemented by the server and applicable to the target resource (e.g., Allow), including potential extensions not defined by this specification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143611Z" creationid="pingfangx" creationdate="20190831T143611Z">
+        <seg>生成对 OPTIONS 的成功响应的服务器应该发送任何可能指示由服务器实现并且适用于目标资源(例如，Allow)的可选特征的首部字段，包括未由该规范定义的潜在扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A server listens on a connection for a request, parses each message received, interprets the message semantics in relation to the identified request target, and responds to that request with one or more response messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T121456Z" creationid="pingfangx" creationdate="20190831T121456Z">
+        <seg>服务器监听请求的连接，解析收到的每个消息，解释与标识的请求目标相关的消息语义，并使用一个或多个响应消息响应该请求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3151,6 +3359,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A standard format for such a representation is not defined by this specification, but might be defined by future extensions to HTTP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143630Z" creationid="pingfangx" creationdate="20190831T143630Z">
+        <seg>此规范未定义此类表示的标准格式，但可能由 HTTP 的未来扩展定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A string of text is parsed as a single value if it is quoted using double-quote marks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T085725Z" creationid="pingfangx" creationdate="20190831T085725Z">
@@ -3167,10 +3383,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A successful PUT of a given representation would suggest that a subsequent GET on that same target resource will result in an equivalent representation being sent in a 200 (OK) response.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142501Z" creationid="pingfangx" creationdate="20190831T142501Z">
+        <seg>成功地 PUT 一个给定的表示将意味着随后对同一目标资源的获取将导致在 200(OK)响应中发送一个等价的表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A successful response SHOULD be 200 (OK) if the response includes an entity describing the status, 202 (Accepted) if the action has not yet been enacted, or 204 (No Content) if the action has been enacted but the response does not include an entity.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T073900Z" creationid="pingfangx" creationdate="20190830T073900Z">
         <seg>如果响应包括描述状态的实体，则成功响应应为 200(OK)，如果操作尚未执行，则应为 202(已接受);如果操作已执行但响应不包括一个实体，则应为 204(无内容)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A successful response only implies that the user agent's intent was achieved at the time of its processing by the origin server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142711Z" creationid="pingfangx" creationdate="20190831T142711Z">
+        <seg>成功的响应仅意味着用户代理的意图是在原始服务器处理时实现的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3223,6 +3455,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A tunnel is closed when a tunnel intermediary detects that either side has closed its connection: the intermediary MUST attempt to send any outstanding data that came from the closed side to the other side, close both connections, and then discard any remaining data left undelivered.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143239Z" creationid="pingfangx" creationdate="20190831T143239Z">
+        <seg>当隧道中介检测到任何一方已关闭其连接时，隧道将关闭：中间设备必须尝试将来自关闭侧的任何未完成数据发送到另一侧，关闭两个连接，然后丢弃任何未传递的剩余数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A user agent MUST NOT automatically retry a request with a non-idempotent method unless it has some means to know that the request semantics are actually idempotent, regardless of the method, or some means to detect that the original request was never applied.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T111445Z" creationid="pingfangx" creationdate="20190831T111445Z">
@@ -3243,6 +3483,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T094842Z" creationid="pingfangx" creationdate="20190831T094842Z">
         <seg>当请求消息不包含有效负载主体且方法语义不预期这样的主体时，用户代理应该不发送 Content-Length 首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A user agent SHOULD distinguish between safe and unsafe methods when presenting potential actions to a user, such that the user can be made aware of an unsafe action before it is requested.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134228Z" creationid="pingfangx" creationdate="20190831T134228Z">
+        <seg>在向用户呈现潜在操作时，用户代理应该区分安全和不安全方法，以便在请求用户之前可以使用户知道不安全的操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3439,6 +3687,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additional methods, outside the scope of this specification, have been standardized for use in HTTP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133902Z" creationid="pingfangx" creationdate="20190831T133902Z">
+        <seg>在本说明书范围之外的其他方法已被标准化以用于 HTTP。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additional tokens ought to be registered with IANA using the registration procedure defined in Section 8.6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T113848Z" creationid="pingfangx" creationdate="20190831T113848Z">
@@ -3559,6 +3815,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All general-purpose servers MUST support the methods GET and HEAD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133831Z" creationid="pingfangx" creationdate="20190831T133831Z">
+        <seg>所有通用服务器必须支持 GET 和 HEAD 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All linear white space, including folding, has the same semantics as SP.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T095836Z" creationid="pingfangx" creationdate="20190828T095836Z">
@@ -3599,6 +3863,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All other methods are OPTIONAL.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133834Z" creationid="pingfangx" creationdate="20190831T133834Z">
+        <seg>所有其他方法都是可选的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All other methods are OPTIONAL; however, if the above methods are implemented, they MUST be implemented with the same semantics as those specified in section 9.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T094607Z" creationid="pingfangx" creationdate="20190829T094607Z">
@@ -3635,6 +3907,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T070131Z" creationid="pingfangx" creationdate="20190828T063559Z">
         <seg>FIN 之前（包含 FIN ）的所有报文段都将被重传，直到被确认为止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All such methods ought to be registered within the "Hypertext Transfer Protocol (HTTP) Method Registry" maintained by IANA, as defined in Section 8.1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133917Z" creationid="pingfangx" creationdate="20190831T133917Z">
+        <seg>所有这些方法都应该在 IANA 维护的“超文本传输​​协议(HTTP)方法注册表”中注册，如第 8.1 节中所定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3735,6 +4015,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Although each response header field has a defined meaning, in general, the precise semantics might be further refined by the semantics of the request method and/or response status code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144837Z" creationid="pingfangx" creationdate="20190831T144837Z">
+        <seg>尽管每个响应首部字段具有定义的含义，但是通常，精确的语义可以通过请求方法和/或响应状态代码的语义进一步细化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Although the `Flowable` infrastructure guarantees it will be called at most once on each `Subscriber`, the call to `request(1)` may trigger the emission of an element right away.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T083229Z" creationid="pingfangx" creationdate="20190621T083229Z">
@@ -3811,6 +4099,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T041737Z" creationid="pingfangx" creationdate="20190830T041737Z">
         <seg>尽管此规范未定义此类主体的任何用途，但 HTTP 的未来扩展可能使用 OPTIONS 主体在服务器上进行更详细的查询。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although this specification does not define any use for such a payload, future extensions to HTTP might use the OPTIONS body to make more detailed queries about the target resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143820Z" creationid="pingfangx" creationdate="20190831T143820Z">
+        <seg>尽管此规范未定义此类有效负载的任何用途，但 HTTP 的未来扩展可能会使用 OPTIONS 主体对目标资源进行更详细的查询。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3939,6 +4235,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T103248Z" creationid="pingfangx" creationdate="20190831T103248Z">
         <seg>HTTP/1.1 用户代理不能在请求前面或后面附加一个 CRLF。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An OPTIONS request with an asterisk ("*") as the request-target (Section 5.3 of [RFC7230]) applies to the server in general rather than to a specific resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143458Z" creationid="pingfangx" creationdate="20190831T143458Z">
+        <seg>带有星号(“*”)作为请求目标的 OPTIONS 请求([RFC7230] 的第 5.3 节)通常适用于服务器而不是特定资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4103,6 +4407,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An example absolute-form of request-line would be:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124614Z" creationid="pingfangx" creationdate="20190831T124614Z">
+        <seg>请求行的绝对形式示例如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An example is</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T094602Z" creationid="pingfangx" creationdate="20190831T094602Z">
@@ -4175,10 +4487,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An interception proxy is particularly vulnerable if it relies on the Host field-value for redirecting requests to internal servers, or for use as a cache key in a shared cache, without first verifying that the intercepted connection is targeting a valid IP address for that host.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130334Z" creationid="pingfangx" creationdate="20190831T130334Z">
+        <seg>如果拦截代理依赖 Host 字段值将请求重定向到内部服务器，或者用作共享缓存中的缓存密钥，而不首先验证截获的连接是否针对该主机的有效 IP 地址，则拦截代理特别容易受到攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An interesting alternative case occurs when TCP A crashes and TCP B tries to send data on what it thinks is a synchronized connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060206Z" creationid="pingfangx" creationdate="20190828T060206Z">
         <seg>当 TCP A 崩溃并且 TCP B 尝试发送它认为是同步连接的数据时，会出现一个有趣的替代情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An intermediary MUST NOT forward a message to itself unless it is protected from an infinite request loop.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132428Z" creationid="pingfangx" creationdate="20190831T132428Z">
+        <seg>中介绝不能将消息转发给自己，除非它受到无限请求循环的保护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An intermediary not acting as a tunnel MUST implement the Connection header field, as specified in Section 6.1, and exclude fields from being forwarded that are only intended for the incoming connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132420Z" creationid="pingfangx" creationdate="20190831T132420Z">
+        <seg>不充当隧道的中介必须实现 Connection 首部字段，如第 6.1 节所述，并排除转发中仅用于传入连接的字段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4231,6 +4567,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An origin server indicates response semantics by choosing an appropriate status code depending on the result of processing the POST request; almost all of the status codes defined by this specification might be received in a response to POST (the exceptions being 206 (Partial Content), 304 (Not Modified), and 416 (Range Not Satisfiable)).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T141619Z" creationid="pingfangx" creationdate="20190831T141619Z">
+        <seg>源服务器通过根据处理 POST 请求的结果选择适当的状态代码来指示响应语义；几乎所有由本规范定义的状态代码都可能在对 POST 的响应中被接收(异常为 206(部分内容)，304(未修改)和 416(范围不可满足))。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An origin server might be provided with, or be capable of generating, multiple representations that are each intended to reflect the current state of a target resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133007Z" creationid="pingfangx" creationdate="20190831T133007Z">
+        <seg>源服务器可以被提供或能够生成多个表示，每个表示旨在反映目标资源的当前状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An origin server that does differentiate resources based on the host requested (sometimes referred to as virtual hosts or vanity host names) MUST use the following rules for determining the requested resource on an HTTP/1.1 request:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T101958Z" creationid="pingfangx" creationdate="20190829T101958Z">
@@ -4243,6 +4595,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T101902Z" creationid="pingfangx" creationdate="20190829T101652Z">
         <seg>在确定由 HTTP/1.1 请求标识的资源时，不允许与所请求主机的资源不同的源服务器可以忽略 Host 首部字段值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An origin server that receives a CONNECT request for itself MAY respond with a 2xx (Successful) status code to indicate that a connection is established.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143041Z" creationid="pingfangx" creationdate="20190831T143041Z">
+        <seg>接收自身 CONNECT 请求的源服务器可以使用 2xx(成功)状态代码进行响应，以指示建立了连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4283,6 +4643,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T075544Z" creationid="pingfangx" creationdate="20190620T075544Z">
         <seg>另一个版本需要两个或更多 Singles 并将它们合并到一个 Observable 中，该 Observable 发射源 Singles 发射的项目(以任意顺序)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any 2xx (Successful) response indicates that the sender (and all inbound proxies) will switch to tunnel mode immediately after the blank line that concludes the successful response's header section; data received after that blank line is from the server identified by the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143149Z" creationid="pingfangx" creationdate="20190831T143149Z">
+        <seg>任何 2xx(成功)响应都表示发送方(以及所有入站代理)将在结束成功响应的首部部分的空行后立即切换到隧道模式；该空行之后收到的数据来自请求目标标识的服务器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4359,6 +4727,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any response other than a successful response indicates that the tunnel has not yet been formed and that the connection remains governed by HTTP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143205Z" creationid="pingfangx" creationdate="20190831T143205Z">
+        <seg>除响应成功之外的任何响应都表示尚未形成隧道，并且连接仍由 HTTP 管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any response to a HEAD request and any response with a 1xx (Informational), 204 (No Content), or 304 (Not Modified) status code is always terminated by the first empty line after the header fields, regardless of the header fields present in the message, and thus cannot contain a message body.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T101247Z" creationid="pingfangx" creationdate="20190831T101247Z">
@@ -4411,6 +4787,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091412Z" creationid="pingfangx" creationdate="20190830T091412Z">
         <seg>附录 B.收集的 ABNF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Appendix C describes rules imported from other documents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122011Z" creationid="pingfangx" creationdate="20190831T122011Z">
+        <seg>附录 C 描述了从其他文档导入的规则。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Appendix D shows the collected grammar with all list operators expanded to standard ABNF notation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122019Z" creationid="pingfangx" creationdate="20190831T122019Z">
+        <seg>附录 D 显示了收集的语法，所有列表操作符都扩展为标准 ABNF 表示法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4499,6 +4891,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T073717Z" creationid="pingfangx" creationdate="20190618T073717Z">
         <seg>作为替代方案，2.x `Observable` 根本不做背压，可作为切换的选择。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As described in Section 2.3, intermediaries can serve a variety of roles in the processing of HTTP requests and responses.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132313Z" creationid="pingfangx" creationdate="20190831T132313Z">
+        <seg>如 2.3 节所述，中介可以在处理 HTTP 请求和响应时担任各种角色。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4663,6 +5063,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attacks Based on Command, Code, or Query Injection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T120058Z" creationid="pingfangx" creationdate="20190831T120058Z">
+        <seg>基于命令，代码或查询注入的攻击</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attacks Based on File and Path Names</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T120037Z" creationid="pingfangx" creationdate="20190831T120037Z">
+        <seg>基于文件和路径名的攻击</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attacks via Protocol Element Length</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091156Z" creationid="pingfangx" creationdate="20190830T091156Z">
@@ -4671,10 +5087,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Audience Language</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115707Z" creationid="pingfangx" creationdate="20190831T115707Z">
+        <seg>受众语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Augmented BNF</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T072028Z" creationid="pingfangx" creationdate="20190828T072028Z">
         <seg>增强的 BNF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authentication Challenges</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115915Z" creationid="pingfangx" creationdate="20190831T115915Z">
+        <seg>身份验证挑战</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authentication Credentials</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115824Z" creationid="pingfangx" creationdate="20190831T115824Z">
+        <seg>身份验证凭据</seg>
       </tuv>
     </tu>
     <tu>
@@ -4887,6 +5327,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Browser Fingerprinting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T120114Z" creationid="pingfangx" creationdate="20190831T120114Z">
+        <seg>浏览器指纹识别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But as with Futures, while callbacks are easy to use with a single level of asynchronous execution, &lt;a0&gt;with nested composition they become unwieldy&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T041126Z" creationid="pingfangx" creationdate="20190620T041126Z">
@@ -4923,6 +5371,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T060707Z" creationid="pingfangx" creationdate="20190620T060707Z">
         <seg>按照惯例，在本文档中，对 &lt;c4&gt;onNext&lt;/c4&gt; 的调用通常称为项目的“发射 (emissions)”，而对 &lt;c5&gt;onCompleted&lt;/c5&gt; 或 &lt;c6&gt;onError&lt;/c6&gt; 的调用称为“通知 (notifications)”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By convention, standardized methods are defined in all-uppercase US-ASCII letters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133705Z" creationid="pingfangx" creationdate="20190831T133705Z">
+        <seg>按照惯例，标准化方法以全大写的 US-ASCII 字母定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5023,6 +5479,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CONNECT is intended only for use in requests to a proxy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143018Z" creationid="pingfangx" creationdate="20190831T143018Z">
+        <seg>CONNECT 仅用于对代理的请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CR             = &lt;US-ASCII CR, carriage return (13)&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T095321Z" creationid="pingfangx" creationdate="20190828T095321Z">
@@ -5067,6 +5531,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T073241Z" creationid="pingfangx" creationdate="20190828T073241Z">
         <seg>缓存控制机制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cacheable Methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115800Z" creationid="pingfangx" creationdate="20190831T115800Z">
+        <seg>可缓存方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -5463,6 +5935,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Common Method Properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115753Z" creationid="pingfangx" creationdate="20190831T115753Z">
+        <seg>常用方法属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compatibility with HTTP/1.0 Persistent Connections</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074643Z" creationid="pingfangx" creationdate="20190828T074643Z">
@@ -5547,6 +6027,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T090642Z" creationid="pingfangx" creationdate="20190830T090642Z">
         <seg>一致性和错误处理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conformance criteria and considerations regarding error handling are defined in Section 2.5 of [RFC7230].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T121801Z" creationid="pingfangx" creationdate="20190831T121801Z">
+        <seg>有关错误处理的一致性标准和注意事项在 [RFC7230] 的第 2.5 节中定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5647,6 +6135,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Considering that a resource could be anything, and that the uniform interface provided by HTTP is similar to a window through which one can observe and act upon such a thing only through the communication of messages to some independent actor on the other side, an abstraction is needed to represent ("take the place of") the current or desired state of that thing in our communications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132815Z" creationid="pingfangx" creationdate="20190831T132815Z">
+        <seg>考虑到一个资源可以是任何东西，并且 HTTP 提供的统一接口类似于一个窗口，通过这个窗口，只有通过将消息传递给另一方的某个独立的参与者，才能观察和处理这样的东西，因此需要一个抽象来表示(代替)我们通讯中该事物的当前或期望状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Constructing Responses From Caches</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T073953Z" creationid="pingfangx" creationdate="20190828T073953Z">
@@ -5658,6 +6154,14 @@
         <seg>Content Coding Registration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091114Z" creationid="pingfangx" creationdate="20190830T091114Z">
+        <seg>内容编码注册</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Content Coding Registry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115952Z" creationid="pingfangx" creationdate="20190831T115952Z">
         <seg>内容编码注册</seg>
       </tuv>
     </tu>
@@ -5731,6 +6235,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T121254Z" creationid="pingfangx" creationdate="20190829T121254Z">
         <seg>Content-Type 指定基础数据的媒体类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Control Data</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115909Z" creationid="pingfangx" creationdate="20190831T115909Z">
+        <seg>控制数据</seg>
       </tuv>
     </tu>
     <tu>
@@ -5959,6 +6471,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Disclosure of Fragment after Redirects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T120108Z" creationid="pingfangx" creationdate="20190831T120108Z">
+        <seg>重定向后的片段披露</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Disclosure of Personal Information</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T120101Z" creationid="pingfangx" creationdate="20190831T120101Z">
+        <seg>个人信息的披露</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Disclosure of Product Information</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T120113Z" creationid="pingfangx" creationdate="20190831T120113Z">
+        <seg>产品信息披露</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Disclosure of Sensitive Information in URIs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T120105Z" creationid="pingfangx" creationdate="20190831T120105Z">
+        <seg>在 URI 中披露敏感信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Distribution of this memo is unlimited.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T070919Z" creationid="pingfangx" creationdate="20190828T070919Z">
@@ -6003,6 +6547,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112708Z" creationid="pingfangx" creationdate="20190827T112708Z">
         <seg>ESTABLISHED - 表示开放连接，接收的数据可以传递给用户。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each Hypertext Transfer Protocol (HTTP) message is either a request or a response.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T120734Z" creationid="pingfangx" creationdate="20190831T120734Z">
+        <seg>每个超文本传输​​协议(HTTP)消息都是请求或响应。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6115,6 +6667,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T020312Z" creationid="pingfangx" creationdate="20190624T020312Z">
         <seg>每个请求的元素触发状态转换并返回值的计算。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each resource is identified by a Uniform Resource Identifier (URI), as described in Section 2.7 of [RFC7230].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122750Z" creationid="pingfangx" creationdate="20190831T122750Z">
+        <seg>每个资源由统一资源标识符(URI)标识，如 [RFC7230] 第 2.7 节中所述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6319,6 +6879,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Encoding for Compression or Integrity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115703Z" creationid="pingfangx" creationdate="20190831T115703Z">
+        <seg>压缩或完整性编码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>End-to-end and Hop-by-hop Headers</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074005Z" creationid="pingfangx" creationdate="20190828T074005Z">
@@ -6479,6 +7047,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Even when the URI mapping mechanism is tied to a file system, an origin server might be configured to execute the files with the request as input and send the output as the representation rather than transfer the files directly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135457Z" creationid="pingfangx" creationdate="20190831T135457Z">
+        <seg>即使 URI 映射机制绑定到文件系统，源服务器也可能配置为以请求作为输入执行文件，并将输出作为表示发送，而不是直接传输文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Event Processing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T071305Z" creationid="pingfangx" creationdate="20190828T071305Z">
@@ -6491,6 +7067,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T092144Z" creationid="pingfangx" creationdate="20190830T092144Z">
         <seg>明确了“close”连接选项的发送时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 1: the following message received over an insecure TCP connection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131915Z" creationid="pingfangx" creationdate="20190831T131915Z">
+        <seg>示例 1：通过不安全的 TCP 连接收到以下消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 2: the following message received over a TLS-secured TCP connection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131930Z" creationid="pingfangx" creationdate="20190831T131930Z">
+        <seg>示例 2：通过 TLS 安全的 TCP 连接接收的以下消息</seg>
       </tuv>
     </tu>
     <tu>
@@ -6615,6 +7207,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Failure to do so will result in unfortunate side effects when automated processes perform a GET on every URI reference for the sake of link maintenance, pre-fetching, building a search index, etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134349Z" creationid="pingfangx" creationdate="20190831T134349Z">
+        <seg>如果为了链接维护，预取，构建搜索索引等，自动化进程对每个 URI 引用执行 GET 时，如果不这样做将导致不幸的副作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Failures and Timeouts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091022Z" creationid="pingfangx" creationdate="20190830T091022Z">
@@ -6727,10 +7327,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a user agent, the effective request URI is the target URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130617Z" creationid="pingfangx" creationdate="20190831T130617Z">
+        <seg>对于用户代理，有效请求 URI 是目标 URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For bugs, questions and discussions please use the [Github Issues](https://github.com/ReactiveX/RxJava/issues).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T105641Z" creationid="pingfangx" creationdate="20190617T105641Z">
         <seg>有关错误，问题和讨论，请使用 [Github Issues](https://github.com/ReactiveX/RxJava/issues)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For cases where an origin server wishes the client to be able to cache the result of a POST in a way that can be reused by a later GET, the origin server MAY send a 200 (OK) response containing the result and a Content-Location header field that has the same value as the POST's effective request URI (Section 3.1.4.2).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142031Z" creationid="pingfangx" creationdate="20190831T142031Z">
+        <seg>对于原始服务器希望客户端能够以稍后 GET 可以重用的方式缓存 POST 结果的情况，源服务器可以发送包含结果和Content-Location 首部字段的 200(OK)响应。其首部字段值与 POST 的有效请求 URI 相同(第 3.1.4.2 节)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6815,10 +7431,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, POST is used for the following functions (among others):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T141417Z" creationid="pingfangx" creationdate="20190831T141417Z">
+        <seg>例如，POST 用于以下功能(以及其他功能)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, a CONNECT to a request-target of "example.com:25" would suggest that the proxy connect to the reserved port for SMTP traffic; if allowed, that could trick the proxy into relaying spam email.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143330Z" creationid="pingfangx" creationdate="20190831T143330Z">
+        <seg>例如，对“example.com:25”的请求目标的 CONNECT 将建议代理连接到 SMTP 流量的保留端口；如果允许，可能会欺骗代理转发垃圾邮件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, a Content-Length header field is normally sent in a POST request even when the value is 0 (indicating an empty payload body).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T094820Z" creationid="pingfangx" creationdate="20190831T094820Z">
         <seg>例如，Content-Length 首部字段通常在 POST 请求中发送，即使该值为 0(表示空的有效负载主体)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, a GET request to the origin server for &lt;http://www.example.org/pub/WWW/&gt; would begin with:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125624Z" creationid="pingfangx" creationdate="20190831T125624Z">
+        <seg>例如，对 &lt;http://www.example.org/pub/WWW/&gt; 的源服务器的 GET 请求将以以下开头：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6831,10 +7471,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, a client can send conditional request header fields (Section 5.2) to make the requested action conditional on the current state of the target resource ([RFC7232]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133345Z" creationid="pingfangx" creationdate="20190831T133345Z">
+        <seg>例如，客户端可以发送条件请求首部字段(第 5.2 节)，以使请求的操作以目标资源的当前状态为条件([RFC7232])。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, a client might have started to send a new request at the same time that the server has decided to close the "idle" connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T152231Z" creationid="pingfangx" creationdate="20190829T152231Z">
         <seg>例如，在服务器决定关闭“空闲”连接的同时，客户机可能已经开始发送新的请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, a client wishing to retrieve a representation of the resource identified as</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124142Z" creationid="pingfangx" creationdate="20190831T124142Z">
+        <seg>例如，如果一个客户端希望获取的资源的表示，资源标识为</seg>
       </tuv>
     </tu>
     <tu>
@@ -6903,10 +7559,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if a client sends a PUT request and the underlying connection is closed before any response is received, then the client can establish a new connection and retry the idempotent request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134451Z" creationid="pingfangx" creationdate="20190831T134451Z">
+        <seg>例如，如果客户端发送 PUT 请求并且在收到任何响应之前关闭了底层连接，则客户端可以建立新连接并重试幂等请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if an unrecognized status code of 431 is received by the client, it can safely assume that there was something wrong with its request and treat the response as if it had received a 400 status code.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T110110Z" creationid="pingfangx" creationdate="20190829T110110Z">
         <seg>例如，如果客户端收到无法识别的状态代码 431，则可以安全地假设其请求有问题并将响应视为已收到 400 状态代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if an unrecognized status code of 471 is received by a client, the client can assume that there was something wrong with its request and treat the response as if it had received a 400 (Bad Request) status code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144422Z" creationid="pingfangx" creationdate="20190831T144422Z">
+        <seg>例如，如果客户端收到无法识别的状态代码 471，则客户端可以认为其请求有问题，并将响应视为已收到 400(错误请求)状态代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6959,6 +7631,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, it is common for Web-based content editing software to use actions within query parameters, such as "page?do=delete".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134305Z" creationid="pingfangx" creationdate="20190831T134245Z">
+        <seg>例如，基于 Web 的内容编辑软件通常在查询参数中使用动作，例如“page?do=delete”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, it would be foolish for a user agent to send stored user credentials [RFC7235] or cookies [RFC6265] in a TRACE request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144034Z" creationid="pingfangx" creationdate="20190831T144034Z">
+        <seg>例如，用户代理在 TRACE 请求中发送存储的用户凭证 [RFC7235] 或 cookie [RFC6265] 是愚蠢的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, most servers append request information to access log files at the completion of every response, regardless of the method, and that is considered safe even though the log storage might become full and crash the server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134136Z" creationid="pingfangx" creationdate="20190831T134136Z">
+        <seg>例如，大多数服务器在每个响应完成时附加请求信息以访问日志文件，而不管方法如何，即使日志存储可能已满并使服务器崩溃，也会认为这是安全的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, the "http" URI scheme (Section 2.7.1) indicates a default connection of TCP over IP, with a default TCP port of 80, but the client might be configured to use a proxy via some other connection, port, or protocol.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T110110Z" creationid="pingfangx" creationdate="20190831T110110Z">
@@ -6991,6 +7687,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, the request</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125224Z" creationid="pingfangx" creationdate="20190831T125224Z">
+        <seg>例如，请求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the request might have been misdirected, deliberately or accidentally, such that the information within a received request-target or Host header field differs from the host or port upon which the connection has been made.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132033Z" creationid="pingfangx" creationdate="20190831T132033Z">
+        <seg>例如，该请求可能是有意或无意地误导的，使得所接收的请求目标或主机首部字段内的信息不同于已建立连接的主机或端口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, there are several overloads of `concatWith` taking the various other reactive base types as arguments (for providing convenience and performance benefits in the underlying implementation):</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T102323Z" creationid="pingfangx" creationdate="20190617T102323Z">
@@ -7003,6 +7715,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T041933Z" creationid="pingfangx" creationdate="20190830T041933Z">
         <seg>例如，这可以用于测试 HTTP/1.1 代理的合规性(或缺乏)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, this can be used to test a proxy for HTTP/1.1 conformance (or lack thereof).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143546Z" creationid="pingfangx" creationdate="20190831T143546Z">
+        <seg>例如，这可以用于测试 HTTP/1.1 一致性(或缺少)的代理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7083,6 +7803,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T113914Z" creationid="pingfangx" creationdate="20190828T113914Z">
         <seg>出于 HTTP 的目的，GMT 完全等于 UTC(协调世界时)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the purposes of HTTP, a "representation" is information that is intended to reflect a past, current, or desired state of a given resource, in a format that can be readily communicated via the protocol, and that consists of a set of representation metadata and a potentially unbounded stream of representation data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132958Z" creationid="pingfangx" creationdate="20190831T132958Z">
+        <seg>出于 HTTP 的目的，“表示”是旨在以可以通过协议容易地传达的格式反映给定资源的过去，当前或期望状态的信息，并且由一组表示元数据和可能无限制的表示数据流组成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7255,6 +7983,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>GET is the primary mechanism of information retrieval and the focus of almost all performance optimizations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135234Z" creationid="pingfangx" creationdate="20190831T135234Z">
+        <seg>GET 是信息检索的主要机制，也是几乎所有性能优化的重点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>GLOSSARY</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T071309Z" creationid="pingfangx" creationdate="20190828T071309Z">
@@ -7407,6 +8143,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>HTTP clients are not required to understand the meaning of all registered status codes, though such understanding is obviously desirable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144347Z" creationid="pingfangx" creationdate="20190831T144347Z">
+        <seg>HTTP 客户端不需要理解所有已注册状态代码的含义，尽管这种理解显然是可取的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTTP communication is initiated by a user agent for some purpose.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123219Z" creationid="pingfangx" creationdate="20190831T123219Z">
+        <seg>出于某种目的，HTTP 通信由用户代理启动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>HTTP communication usually takes place over TCP/IP connections.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T092026Z" creationid="pingfangx" creationdate="20190828T092026Z">
@@ -7435,6 +8187,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T102811Z" creationid="pingfangx" creationdate="20190830T102811Z">
         <seg>HTTP 对其许多协议元素没有特定的长度限制，因为可能适当的长度会有很大差异，具体取决于部署上下文和实现的目的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTTP does not include a request identifier for associating a given request message with its corresponding one or more response messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132202Z" creationid="pingfangx" creationdate="20190831T132202Z">
+        <seg>HTTP 不包括用于将给定请求消息与其对应的一个或多个响应消息相关联的请求标识符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTTP does not limit the nature of a resource; it merely defines an interface that might be used to interact with resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122642Z" creationid="pingfangx" creationdate="20190831T122642Z">
+        <seg>HTTP 不限制资源的性质；它只定义了一个可能用于与资源交互的接口。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7543,6 +8311,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>HTTP is used in a wide variety of applications, ranging from general-purpose computers to home appliances.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123201Z" creationid="pingfangx" creationdate="20190831T123201Z">
+        <seg>HTTP 用于各种应用程序，从通用计算机到家用电器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>HTTP messages can be (and often are) buffered by implementations; despite it sometimes being available as a stream, HTTP is fundamentally a message-oriented protocol.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091741Z" creationid="pingfangx" creationdate="20190830T091741Z">
@@ -7583,6 +8359,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>HTTP provides a uniform interface for interacting with a resource (Section 2), regardless of its type, nature, or implementation, via the manipulation and transfer of representations (Section 3).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T121657Z" creationid="pingfangx" creationdate="20190831T121657Z">
+        <seg>HTTP 提供了一个统一的接口，用于与资源交互(第 2 节)，无论其类型，性质或实现，通过表示的操作和传输(第 3 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>HTTP proxies and gateways can provide access to alternative information services by translating their diverse protocols into a hypertext format that can be viewed and manipulated by clients in the same way as HTTP services.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T094301Z" creationid="pingfangx" creationdate="20190830T094301Z">
@@ -7607,6 +8391,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>HTTP request message routing is determined by each client based on the target resource, the client's proxy configuration, and establishment or reuse of an inbound connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123035Z" creationid="pingfangx" creationdate="20190831T123035Z">
+        <seg>HTTP 请求消息路由由每个客户端基于目标资源，客户端的代理配置以及入站连接的建立或重用来确定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>HTTP requirements for cache behavior and cacheable responses are defined in Section 2 of [RFC7234].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T102342Z" creationid="pingfangx" creationdate="20190830T102342Z">
@@ -7619,6 +8411,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T091155Z" creationid="pingfangx" creationdate="20190828T091155Z">
         <seg>缓存行为和可缓存响应的 HTTP 要求在第 13 节中定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTTP requirements regarding connection management are defined in Section 6.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123750Z" creationid="pingfangx" creationdate="20190831T123750Z">
+        <seg>有关连接管理的 HTTP 要求在第 6 节中定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTTP semantics include the intentions defined by each request method (Section 4), extensions to those semantics that might be described in request header fields (Section 5), the meaning of status codes to indicate a machine-readable response (Section 6), and the meaning of other control data and resource metadata that might be given in response header fields (Section 7).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T121732Z" creationid="pingfangx" creationdate="20190831T121732Z">
+        <seg>HTTP 语义包括每个请求方法定义的意图(第 4 节)，可能在请求首部字段(第 5 节)中描述的那些语义的扩展，用于指示机器可读响应的状态代码的含义(第 6 节)，以及可能在响应首部字段中给出的其他控制数据和资源元数据的含义(第 7 节)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7675,6 +8483,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T094941Z" creationid="pingfangx" creationdate="20190830T094941Z">
         <seg>HTTP 是为万维网(WWW)架构创建的，并且随着时间的推移不断发展以支持全球超文本系统的可扩展性需求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTTP was originally designed to be usable as an interface to distributed object systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133358Z" creationid="pingfangx" creationdate="20190831T133358Z">
+        <seg>HTTP 最初设计为可用作分布式对象系统的接口。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7879,6 +8695,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Header Field Registry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115944Z" creationid="pingfangx" creationdate="20190831T115944Z">
+        <seg>首部字段注册</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Header Fields</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T090722Z" creationid="pingfangx" creationdate="20190830T090722Z">
@@ -7951,6 +8775,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hence, it relies on the order of response arrival to correspond exactly to the order in which requests are made on the same connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132214Z" creationid="pingfangx" creationdate="20190831T132214Z">
+        <seg>因此，它依赖于响应到达的顺序，以完全对应于在同一连接上进行请求的顺序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hence, the Connection header field provides a declarative way of distinguishing header fields that are only intended for the immediate recipient ("hop-by-hop") from those fields that are intended for all recipients on the chain ("end-to-end"), enabling the message to be self-descriptive and allowing future connection-specific extensions to be deployed without fear that they will be blindly forwarded by older intermediaries.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T110325Z" creationid="pingfangx" creationdate="20190831T110325Z">
@@ -7963,6 +8795,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023742Z" creationid="pingfangx" creationdate="20190828T023742Z">
         <seg>因此，该解决方案需要合适的机制来挑选初始序列号和稍微涉及的握手以交换 ISN。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hence, when people speak of retrieving some identifiable information via HTTP, they are generally referring to making a GET request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135250Z" creationid="pingfangx" creationdate="20190831T135250Z">
+        <seg>因此，当人们谈到通过 HTTP 检索某些可识别信息时，他们通常指的是发出 GET 请求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8063,6 +8903,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How that is accomplished is dependent on the target URI scheme and defined by its associated specification, similar to how this specification defines origin server access for resolution of the "http" (Section 2.7.1) and "https" (Section 2.7.2) schemes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123745Z" creationid="pingfangx" creationdate="20190831T123745Z">
+        <seg>如何实现取决于目标 URI 方案并由其相关规范定义，类似于此规范如何定义原始服务器访问以解析“http”(第 2.7.1 节)和“https”(第 2.7.2 节)方案。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, Android is more strict and terminates the application in such uncaught exception cases.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T090336Z" creationid="pingfangx" creationdate="20190618T090336Z">
@@ -8079,10 +8927,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, POST caching is not widely implemented.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T141735Z" creationid="pingfangx" creationdate="20190831T141735Z">
+        <seg>但是，POST 缓存并未广泛实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, RxJava's reactive types are immutable; each of the method calls returns a new `Flowable` with added behavior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T072714Z" creationid="pingfangx" creationdate="20190617T072714Z">
         <seg>但是，RxJava 的反应类型是不可变的；每个方法调用都返回一个带有添加行为的新的 `Flowable`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, a client MUST understand the class of any status code, as indicated by the first digit, and treat an unrecognized status code as being equivalent to the x00 status code of that class, with the exception that a recipient MUST NOT cache a response with an unrecognized status code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144410Z" creationid="pingfangx" creationdate="20190831T144410Z">
+        <seg>但是，客户端必须理解任何状态代码的类，如第一个数字所示，并将无法识别的状态代码视为等同于该类的 x00 状态代码，但接收者不得缓存响应无法识别的状态代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8199,6 +9063,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, most HTTP clients rely on the same resource identification mechanism and configuration techniques as general-purpose Web browsers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123215Z" creationid="pingfangx" creationdate="20190831T123215Z">
+        <seg>但是，大多数 HTTP 客户端依赖于与通用 Web 浏览器相同的资源识别机制和配置技术。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, most origin servers do not implement CONNECT.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143044Z" creationid="pingfangx" creationdate="20190831T143044Z">
+        <seg>但是，大多数源服务器都不实现 CONNECT。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, new or experimental header fields MAY be given the semantics of request- header fields if all parties in the communication recognize them to be request-header fields.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T102344Z" creationid="pingfangx" creationdate="20190829T102344Z">
@@ -8299,6 +9179,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T073805Z" creationid="pingfangx" creationdate="20190830T073805Z">
         <seg>但是，服务器不应该指示成功，除非在给出响应时，它打算删除资源或将其移动到不可访问的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, the set of allowed methods can change dynamically.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133934Z" creationid="pingfangx" creationdate="20190831T133934Z">
+        <seg>但是，允许的方法集可以动态更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, there are no such limitations in practice.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135351Z" creationid="pingfangx" creationdate="20190831T135351Z">
+        <seg>但是，在实践中没有这样的限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, there is no guarantee that such a state change will be observable, since the target resource might be acted upon by other user agents in parallel, or might be subject to dynamic processing by the origin server, before any subsequent GET is received.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142702Z" creationid="pingfangx" creationdate="20190831T142702Z">
+        <seg>但是，不能保证这样的状态改变是可观察的，因为目标资源可能被其他用户代理并行地操作，或者在接收到任何后续 GET 之前可能受到源服务器的动态处理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8535,6 +9439,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134442Z" creationid="pingfangx" creationdate="20190831T134442Z">
+        <seg>幂等方法是有区别的，因为如果在客户端能够读取服务器响应之前发生通信故障，则可以自动重复请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Identification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115713Z" creationid="pingfangx" creationdate="20190831T115713Z">
+        <seg>鉴别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Identifying a Target Resource</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T090926Z" creationid="pingfangx" creationdate="20190830T090926Z">
@@ -8679,6 +9599,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a proxy is applicable, the client connects inbound by establishing (or reusing) a connection to that proxy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123659Z" creationid="pingfangx" creationdate="20190831T123659Z">
+        <seg>如果代理适用，则客户端通过建立(或重用)与该代理的连接来连接入站。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a proxy receives a fully qualified domain name, the proxy MUST NOT change the host name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T112725Z" creationid="pingfangx" creationdate="20190828T112725Z">
@@ -8691,6 +9619,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T112717Z" creationid="pingfangx" creationdate="20190828T112717Z">
         <seg>如果代理收到的主机名不是完全限定的域名，则可以将其域添加到收到的主机名中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a proxy receives an OPTIONS request with an absolute-form of request-target in which the URI has an empty path and no query component, then the last proxy on the request chain MUST send a request-target of "*" when it forwards the request to the indicated origin server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125221Z" creationid="pingfangx" creationdate="20190831T125221Z">
+        <seg>如果代理接收到具有绝对形式的 request-target 的 OPTIONS 请求，其中 URI 具有空路径且没有查询组件，那么请求链上的最后一个代理必须在转发时发送请求目标“*”对指定的源服务器的请求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8911,10 +9847,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no proxy is applicable, a typical client will invoke a handler routine, usually specific to the target URI's scheme, to connect directly to an authority for the target resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123728Z" creationid="pingfangx" creationdate="20190831T123728Z">
+        <seg>如果没有适用的代理，典型的客户端将调用通常特定于目标 URI 方案的处理程序例程，以直接连接到目标资源的权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no response body is included, the response MUST include a Content-Length field with a field-value of "0".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T042228Z" creationid="pingfangx" creationdate="20190830T042228Z">
         <seg>如果不包括响应主体，则响应必须包括具有字段值“0”的 Content-Length 字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If not, then if a Host header field is supplied with a non-empty field-value, the authority component is the same as the Host field-value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131014Z" creationid="pingfangx" creationdate="20190831T131014Z">
+        <seg>如果不是，则如果向 Host 首部字段提供非空字段值，则授权组件与 Host 字段值相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If not, then if the request-target is in authority-form, the effective request URI's authority component is the same as the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131002Z" creationid="pingfangx" creationdate="20190831T131002Z">
+        <seg>如果不是，那么如果请求目标是权限形式，则有效请求 URI 的权限组件与请求目标相同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8947,6 +9907,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T022124Z" creationid="pingfangx" creationdate="20190624T022124Z">
         <seg>如果需要那些定制，使用 `NONE` 作为背压模式并在生成的 `Flowable` 上应用相关的 `onBackpressureXXX` 是可行的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If one or more resources has been created on the origin server as a result of successfully processing a POST request, the origin server SHOULD send a 201 (Created) response containing a Location header field that provides an identifier for the primary resource created (Section 7.1.2) and a representation that describes the status of the request while referring to the new resource(s).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T141714Z" creationid="pingfangx" creationdate="20190831T141714Z">
+        <seg>如果由于成功处理 POST 请求而在源服务器上创建了一个或多个资源，则源服务器应该发送包含 Location 首部字段的 201（Created）响应，该字段提供所创建的主资源的标识符（第 7.1.2 节）以及在引用新资源时描述请求状态的表示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9111,6 +10079,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the authority component is missing or undefined for the target URI, then a client MUST send a Host header field with an empty field-value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125539Z" creationid="pingfangx" creationdate="20190831T125539Z">
+        <seg>如果目标 URI 缺少或未定义权限组件，则客户端必须发送具有空字段值的 Host 首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the body is being sent using a "chunked" encoding (section 3.6), a zero length chunk and empty trailer MAY be used to prematurely mark the end of the message.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T024325Z" creationid="pingfangx" creationdate="20190830T024325Z">
@@ -9139,6 +10115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T030327Z" creationid="pingfangx" creationdate="20190830T030327Z">
         <seg>如果客户端重试此请求，它可以使用以下“二进制指数退避”算法来确保获得可靠的响应：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the client has a cache [RFC7234] and the request can be satisfied by it, then the request is usually directed there first.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123548Z" creationid="pingfangx" creationdate="20190831T123548Z">
+        <seg>如果客户端具有缓存 [RFC7234] 并且请求可以被它满足，则通常首先将请求指向该请求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9179,6 +10163,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060605Z" creationid="pingfangx" creationdate="20190828T060605Z">
         <seg>如果连接不存在(CLOSED)，则发送复位以响应除另一个复位之外的任何传入报文段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the connection is from a trusted gateway, that inconsistency might be expected; otherwise, it might indicate an attempt to bypass security filters, trick the server into delivering non-public content, or poison a cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132139Z" creationid="pingfangx" creationdate="20190831T132139Z">
+        <seg>如果连接来自可信网关，则可能会出现这种不一致；否则，它可能表示试图绕过安全过滤器，欺骗服务器传递非公共内容或中毒缓存。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9319,6 +10311,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the purpose of such a resource is to perform an unsafe action, then the resource owner MUST disable or disallow that action when it is accessed using a safe request method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134322Z" creationid="pingfangx" creationdate="20190831T134322Z">
+        <seg>如果此类资源的目的是执行不安全的操作，那么资源所有者必须在使用安全请求方法访问该操作时禁用或禁止该操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the receiver was in SYN-RECEIVED state and had previously been in the LISTEN state, then the receiver returns to the LISTEN state, otherwise the receiver aborts the connection and goes to the CLOSED state.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061815Z" creationid="pingfangx" creationdate="20190828T061815Z">
@@ -9359,6 +10359,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the request is not satisfied by a cache, then a typical client will check its configuration to determine whether a proxy is to be used to satisfy the request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123600Z" creationid="pingfangx" creationdate="20190831T123600Z">
+        <seg>如果缓存不满足请求，则典型客户端将检查其配置以确定是否使用代理来满足请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the request is valid, the response SHOULD contain the entire request message in the entity-body, with a Content-Type of "message/http".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T074418Z" creationid="pingfangx" creationdate="20190830T074418Z">
@@ -9375,10 +10383,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the request-target is in absolute-form, the effective request URI is the same as the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130650Z" creationid="pingfangx" creationdate="20190831T130650Z">
+        <seg>如果请求目标是绝对格式，则有效请求 URI 与请求目标相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the request-target is in authority-form or asterisk-form, the effective request URI's combined path and query component is empty.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131826Z" creationid="pingfangx" creationdate="20190831T131229Z">
+        <seg>如果 request-target 是 authority-form 或 asterisk-from，则有效请求 URI 组合 path 和 query 组件为空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the request-target is not an asterisk, the OPTIONS request applies to the options that are available when communicating with the target resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143554Z" creationid="pingfangx" creationdate="20190831T143554Z">
+        <seg>如果请求目标不是星号，则 OPTIONS 请求将应用于与目标资源通信时可用的选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the resource could not be created or modified with the Request-URI, an appropriate error response SHOULD be given that reflects the nature of the problem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T064959Z" creationid="pingfangx" creationdate="20190830T064959Z">
         <seg>如果无法使用 Request-URI 创建或修改资源，则应该给出适当的错误响应，以反映问题的性质。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the result of processing a POST would be equivalent to a representation of an existing resource, an origin server MAY redirect the user agent to that resource by sending a 303 (See Other) response with the existing resource's identifier in the Location field.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142059Z" creationid="pingfangx" creationdate="20190831T142059Z">
+        <seg>如果处理 POST 的结果等同于现有资源的表示，则源服务器可以通过在位置字段中发送具有现有资源标识符的 303(请参阅其他)响应来将用户代理重定向到该资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9423,10 +10463,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the server's configuration (or outbound gateway) provides a fixed URI authority component, that authority is used for the effective request URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130953Z" creationid="pingfangx" creationdate="20190831T130953Z">
+        <seg>如果服务器的配置(或出站网关)提供固定的 URI 授权组件，则该授权用于有效的请求 URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the server's configuration (or outbound gateway) provides a fixed URI scheme, that scheme is used for the effective request URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130855Z" creationid="pingfangx" creationdate="20190831T130855Z">
+        <seg>如果服务器的配置(或出站网关)提供固定的 URI 方案，则该方案用于有效的请求 URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the source Observable terminates with an error, the &lt;c0&gt;PublishSubject&lt;/c0&gt; will not emit any items to subsequent observers, but will simply pass along the error notification from the source Observable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T084906Z" creationid="pingfangx" creationdate="20190620T084906Z">
         <seg>如果源 Observable 以错误终止，则 &lt;c0&gt;PublishSubject&lt;/c0&gt; 将不会向后续观察者发射任何项，但只会传递来自源 Observable 的错误通知。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the target URI includes an authority component, then a client MUST send a field-value for Host that is identical to that authority component, excluding any userinfo subcomponent and its "@" delimiter (Section 2.7.1).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125521Z" creationid="pingfangx" creationdate="20190831T125521Z">
+        <seg>如果目标 URI 包含授权组件，则客户端必须发送与该授权组件相同的 Host 的字段值，不包括任何 userinfo 子组件及其“@”分隔符(第 2.7.1 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the target URI's path component is empty, the client MUST send "/" as the path within the origin-form of request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123943Z" creationid="pingfangx" creationdate="20190831T123943Z">
+        <seg>如果目标 URI 的路径组件为空，则客户端必须发送“/”作为 request-target 的 origin-form 中的路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the target resource has one or more current representations, they might or might not be destroyed by the origin server, and the associated storage might or might not be reclaimed, depending entirely on the nature of the resource and its implementation by the origin server (which are beyond the scope of this specification).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142802Z" creationid="pingfangx" creationdate="20190831T142802Z">
+        <seg>如果目标资源具有一个或多个当前表示，它们可能会或可能不会被源服务器销毁，并且相关存储可能会或可能不会被回收，完全取决于资源的性质及其由源服务器的实现(这超出了本规范的范围)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there is a conflict between the method semantics and any semantic implied by the URI itself, as described in Section 4.2.1, the method semantics take precedence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123005Z" creationid="pingfangx" creationdate="20190831T123005Z">
+        <seg>如果方法语义与 URI 本身隐含的任何语义之间存在冲突，如第 4.2.1 节所述，则方法语义优先。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9815,6 +10903,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition, it allows a user agent to apply appropriate constraints on the automated use of unsafe methods when processing potentially untrusted content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134216Z" creationid="pingfangx" creationdate="20190831T134216Z">
+        <seg>此外，它允许用户代理在处理可能不受信任的内容时对自动使用不安全方法应用适当的约束。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In addition, operators requiring a predicate no longer use `Func1&lt;T, Boolean&gt;` but have a separate, primitive-returning type of `Predicate&lt;T&gt;` (allows better inlining due to no autoboxing).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T065124Z" creationid="pingfangx" creationdate="20190618T065124Z">
@@ -9935,10 +11031,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In effect, this method is similar to the rm command in UNIX: it expresses a deletion operation on the URI mapping of the origin server rather than an expectation that the previously associated information be deleted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142607Z" creationid="pingfangx" creationdate="20190831T142607Z">
+        <seg>实际上，此方法类似于 UNIX 中的 rm 命令：它表示对源服务器的 URI 映射执行删除操作，而不是期望删除先前关联的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In fact, since version 2.1.10, it doesn't</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T102558Z" creationid="pingfangx" creationdate="20190617T102558Z">
         <seg>事实上，从版本 2.1.10 开始，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In fact, that is how many resources are implemented (see Section 9.1 for related security considerations).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135347Z" creationid="pingfangx" creationdate="20190831T135347Z">
+        <seg>实际上，这就是很多资源的实现(有关相关的安全性考虑，请参见第 9.1 节)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9971,6 +11083,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T152748Z" creationid="pingfangx" creationdate="20190828T152748Z">
         <seg>通常，HTTP 用户代理应该遵循与 MIME 用户代理在收到多部分类型时相同或类似的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, an intermediary ought to recognize its own server names, including any aliases, local variations, or literal IP addresses, and respond to such requests directly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132449Z" creationid="pingfangx" creationdate="20190831T132449Z">
+        <seg>通常，中介应该识别其自己的服务器名称，包括任何别名，本地变体或文字 IP 地址，并直接响应此类请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, safe methods that do not depend on a current or authoritative response are defined as cacheable; this specification defines GET, HEAD, and POST as cacheable, although the overwhelming majority of cache implementations only support GET and HEAD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134538Z" creationid="pingfangx" creationdate="20190831T134538Z">
+        <seg>通常，不依赖于当前或权威响应的安全方法被定义为可缓存的；尽管绝大多数缓存实现仅支持 GET 和 HEAD，但此规范将 GET，HEAD 和 POST 定义为可缓存。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10167,6 +11295,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some cases, communication options are hard-coded in a client's configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123206Z" creationid="pingfangx" creationdate="20190831T123206Z">
+        <seg>在某些情况下，通信选项在客户端配置中是硬编码的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In some cases, it might either be inappropriate or highly inefficient for the client to send the body if the server will reject the message without looking at the body.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T024429Z" creationid="pingfangx" creationdate="20190830T024429Z">
@@ -10187,6 +11323,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T070030Z" creationid="pingfangx" creationdate="20190620T070030Z">
         <seg>在 ReactiveX 的一些实现中，还存在称为“Connectable” 的 Observable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In such cases, some algorithm is used by the origin server to select one of those representations as most applicable to a given request, usually based on content negotiation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133015Z" creationid="pingfangx" creationdate="20190831T133015Z">
+        <seg>在这种情况下，原始服务器使用某种算法来选择那些表示最适用于给定请求的表示之一，通常基于内容协商。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10467,6 +11611,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T090508Z" creationid="pingfangx" creationdate="20190830T090508Z">
         <seg>有关本文档的当前状态，任何勘误以及如何提供反馈的信息，请访问 http://www.rfc-editor.org/info/rfc7230。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Information about the current status of this document, any errata, and how to provide feedback on it may be obtained at http://www.rfc-editor.org/info/rfc7231.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115527Z" creationid="pingfangx" creationdate="20190831T115527Z">
+        <seg>有关本文档当前状态，任何勘误以及如何提供反馈的信息，请访问 http://www.rfc-editor.org/info/rfc7231。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10871,6 +12023,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is tempting to think of resource identifiers as remote file system pathnames and of representations as being a copy of the contents of such files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135318Z" creationid="pingfangx" creationdate="20190831T135318Z">
+        <seg>将资源标识符视为远程文件系统路径名并将表示视为此类文件内容的副本很有诱惑力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is the implementation of a trade-off between memory and messages to provide information for this checking.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T033644Z" creationid="pingfangx" creationdate="20190828T033644Z">
@@ -10899,6 +12059,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T113002Z" creationid="pingfangx" creationdate="20190831T113002Z">
         <seg>不知道重置问题是否是 TCP 独有的，或者也可能在其他传输连接协议中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It knows that repeating the request will have the same intended effect, even if the original request succeeded, though the response might differ.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134501Z" creationid="pingfangx" creationdate="20190831T134501Z">
+        <seg>它知道重复请求将具有相同的预期效果，即使原始请求成功，尽管响应可能不同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11087,10 +12255,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Like the definition of safe, the idempotent property only applies to what has been requested by the user; a server is free to log each request separately, retain a revision control history, or implement other non-idempotent side effects for each idempotent request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134429Z" creationid="pingfangx" creationdate="20190831T134429Z">
+        <seg>与安全的定义一样，幂等属性仅适用于用户请求的内容；服务器可以单独记录每个请求，保留修订控制历史记录，或为每个幂等请求实现其他非幂等副作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Likewise, a client MUST read the entire response message body if it intends to reuse the same connection for a subsequent request.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T111305Z" creationid="pingfangx" creationdate="20190831T111305Z">
         <seg>同样，如果客户端打算为后续请求重用相同的连接，则它必须读取整个响应消息体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Likewise, a safe request initiated by selecting an advertisement on the Web will often have the side effect of charging an advertising account.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134147Z" creationid="pingfangx" creationdate="20190831T134147Z">
+        <seg>同样，通过在 Web 上选择广告而发起的安全请求通常具有向广告账户收费的副作用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11123,6 +12307,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T101148Z" creationid="pingfangx" creationdate="20190830T101148Z">
         <seg>同样，以后的请求可能通过不同的连接路径发送，通常基于负载平衡的动态配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Likewise, reasonable use of a safe method is not expected to cause any harm, loss of property, or unusual burden on the origin server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134051Z" creationid="pingfangx" creationdate="20190831T134051Z">
+        <seg>同样，合理使用安全方法预计不会对原始服务器造成任何伤害，财产损失或异常负担。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11407,6 +12599,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Method Registry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115933Z" creationid="pingfangx" creationdate="20190831T115933Z">
+        <seg>方法注册</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Methods can also have the property of "idempotence" in that (aside from error or expiration issues) the side-effects of N &gt; 0 identical requests is the same as for a single request.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T032611Z" creationid="pingfangx" creationdate="20190830T032611Z">
@@ -11459,6 +12659,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T030026Z" creationid="pingfangx" creationdate="20190624T030026Z">
         <seg>更具体地说，它提供了一个 `Scheduler`，它在主线程或任何给定的 `Looper` 上进行调度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More than one response message per request only occurs when one or more informational responses (1xx, see Section 6.2 of [RFC7231]) precede a final response to the same request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132228Z" creationid="pingfangx" creationdate="20190831T132228Z">
+        <seg>当一个或多个信息响应(1xx，参见 [RFC7231] 的第 6.2 节)在对同一请求的最终响应之前时，每个请求只发生一条响应消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12007,6 +13215,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that this list is not exhaustive -- it does not include extension status codes defined in other specifications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144737Z" creationid="pingfangx" creationdate="20190831T144737Z">
+        <seg>请注意，此列表并非详尽无遗 - 它不包括其他规范中定义的扩展状态代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that unconditional conversion in the other direction is not required, in that not all characters may be available in a given character set and a character set may provide more than one sequence of octets to represent a particular character.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T114925Z" creationid="pingfangx" creationdate="20190828T114925Z">
@@ -12247,6 +13463,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Of the request methods defined by this specification, PUT, DELETE, and safe request methods are idempotent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134417Z" creationid="pingfangx" creationdate="20190831T134417Z">
+        <seg>在本规范定义的请求方法中，PUT，DELETE 和安全请求方法是幂等的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of the request methods defined by this specification, the GET, HEAD, OPTIONS, and TRACE methods are defined to be safe.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134153Z" creationid="pingfangx" creationdate="20190831T134153Z">
+        <seg>在本规范定义的请求方法中，GET，HEAD，OPTIONS 和 TRACE 方法被定义为安全的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Often though there is a way that is somewhat more expressive (and also lower overhead) by using `Completable` as the mediator and its operator `andThen` to resume with something else:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T091925Z" creationid="pingfangx" creationdate="20190617T091925Z">
@@ -12319,6 +13551,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once an inbound connection is obtained, the client sends an HTTP request message (Section 3) with a request-target derived from the target URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123811Z" creationid="pingfangx" creationdate="20190831T123811Z">
+        <seg>获得入站连接后，客户端将发送一条 HTTP 请求消息(第 3 节)，其中包含从目标 URI 派生的请求目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once defined, a standardized method ought to have the same semantics when applied to any resource, though each resource determines for itself whether those semantics are implemented or allowed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133650Z" creationid="pingfangx" creationdate="20190831T133650Z">
+        <seg>一旦定义，标准化方法在应用于任何资源时应该具有相同的语义，尽管每个资源自己确定是否实现或允许这些语义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once the `compute(int)` finishes, the another value is then requested from `range`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T082132Z" creationid="pingfangx" creationdate="20190621T082132Z">
@@ -12331,6 +13579,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T072853Z" creationid="pingfangx" creationdate="20190617T072853Z">
         <seg>数据准备好后，您可以确保通过 `observeOn` 在前台或 GUI 线程上处理它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once the effective request URI has been constructed, an origin server needs to decide whether or not to provide service for that URI via the connection in which the request was received.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132012Z" creationid="pingfangx" creationdate="20190831T132012Z">
+        <seg>一旦构建了有效请求 URI，源服务器就需要决定是否通过接收请求的连接为该 URI 提供服务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once the target URI is determined, a client needs to decide whether a network request is necessary to accomplish the desired semantics and, if so, where that request is to be directed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123535Z" creationid="pingfangx" creationdate="20190831T123535Z">
+        <seg>一旦确定了目标 URI，客户端就需要决定是否需要网络请求来完成所需的语义，如果需要，则需要确定该请求的定向位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12363,6 +13627,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T021000Z" creationid="pingfangx" creationdate="20190624T021000Z">
         <seg>当然，可以将其转换为 `Iterable`，但是当这些源与资源相关联时，如果下游在序列结束之前取消订阅序列，我们可能会泄漏这些资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One design goal of HTTP is to separate resource identification from request semantics, which is made possible by vesting the request semantics in the request method (Section 4) and a few request-modifying header fields (Section 5).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122921Z" creationid="pingfangx" creationdate="20190831T122921Z">
+        <seg>HTTP 的一个设计目标是将资源标识与请求语义分开，这可以通过将请求语义归入请求方法(第 4 节)和一些请求修改首部字段(第 5 节)来实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12599,6 +13871,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Others are used for access control or to filter content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132326Z" creationid="pingfangx" creationdate="20190831T132326Z">
+        <seg>其他用于访问控制或过滤内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Others do not operate on any particular Scheduler, or operate on a particular default Scheduler.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T091415Z" creationid="pingfangx" creationdate="20190620T091415Z">
@@ -12615,10 +13895,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise, if the request is received over a TLS-secured TCP connection, the effective request URI's scheme is "https"; if not, the scheme is "http".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131528Z" creationid="pingfangx" creationdate="20190831T130942Z">
+        <seg>否则，如果是通过 TLS 安全的 TCP 连接接收到请求，则有效请求 URI 的方案是“https”;如果没有，该方案是“http”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, the authority component is assigned the default name configured for the server and, if the connection's incoming TCP port number differs from the default port for the effective request URI's scheme, then a colon (":") and the incoming port number (in decimal form) are appended to the authority component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131109Z" creationid="pingfangx" creationdate="20190831T131109Z">
+        <seg>否则，为权限组件分配为服务器配置的默认名称，如果连接的传入 TCP 端口号与有效请求 URI 的方案的默认端口不同，则冒号(“:”)和传入端口号(在十进制格式)附加到权限组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise, the client might not reliably receive the response message.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T025557Z" creationid="pingfangx" creationdate="20190830T025557Z">
         <seg>否则，客户端可能无法可靠地接收响应消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, the combined path and query component is the same as the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131839Z" creationid="pingfangx" creationdate="20190831T131331Z">
+        <seg>否则，组合 path 和 query 组件与请求目标相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, the effective request URI is constructed as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130707Z" creationid="pingfangx" creationdate="20190831T130707Z">
+        <seg>否则，有效请求 URI 构造如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12643,6 +13955,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T072012Z" creationid="pingfangx" creationdate="20190828T072012Z">
         <seg>整体运作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115745Z" creationid="pingfangx" creationdate="20190831T115745Z">
+        <seg>概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Overview of Status Codes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115841Z" creationid="pingfangx" creationdate="20190831T115841Z">
+        <seg>状态代码概述</seg>
       </tuv>
     </tu>
     <tu>
@@ -12731,6 +14059,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T105139Z" creationid="pingfangx" creationdate="20190617T105139Z">
         <seg>补丁 2.x.y 增量(如 2.0.0-&gt;2.0.1、2.3.1-&gt;2.3.2 等)将出现在 bug 修复和琐碎功能(如添加方法重载)上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Payload Semantics</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115719Z" creationid="pingfangx" creationdate="20190831T115719Z">
+        <seg>有效载荷语义</seg>
       </tuv>
     </tu>
     <tu>
@@ -12887,6 +14223,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Proactive Negotiation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115730Z" creationid="pingfangx" creationdate="20190831T115730Z">
+        <seg>主动协商</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Processing Representation Data</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115700Z" creationid="pingfangx" creationdate="20190831T115700Z">
+        <seg>处理表示数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Processing the numbers 1 to 10 in parallel is a bit more involved:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T075758Z" creationid="pingfangx" creationdate="20190617T075758Z">
@@ -12959,6 +14311,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Proxies that support CONNECT SHOULD restrict its use to a limited set of known ports or a configurable whitelist of safe request targets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143343Z" creationid="pingfangx" creationdate="20190831T143343Z">
+        <seg>支持 CONNECT 的代理应该将其使用限制在一组有限的已知端口或安全请求目标的可配置白名单中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Proxy Servers</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T073000Z" creationid="pingfangx" creationdate="20190828T073000Z">
@@ -12971,6 +14331,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T104015Z" creationid="pingfangx" creationdate="20190828T104015Z">
         <seg>在转发与应用程序不同的协议版本的消息时，代理和网关应用程序需要小心。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proxy authentication might be used to establish the authority to create a tunnel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143246Z" creationid="pingfangx" creationdate="20190831T143246Z">
+        <seg>代理身份验证可用于建立创建隧道的权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proxy configuration is implementation-dependent, but is often based on URI prefix matching, selective authority matching, or both, and the proxy itself is usually identified by an "http" or "https" URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123645Z" creationid="pingfangx" creationdate="20190831T123645Z">
+        <seg>代理配置依赖于实现，但通常基于 URI 前缀匹配，选择性权限匹配或两者，并且代理本身通常由“http”或“https”URI 标识。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13087,6 +14463,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Reactive Negotiation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115739Z" creationid="pingfangx" creationdate="20190831T115739Z">
+        <seg>响应性协商</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reactive Programming</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T041620Z" creationid="pingfangx" creationdate="20190620T041620Z">
@@ -13183,6 +14567,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Recipients of an HTTP/1.0 request that lacks a Host header field might need to use heuristics (e.g., examination of the URI path for something unique to a particular host) in order to guess the effective request URI's authority component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132001Z" creationid="pingfangx" creationdate="20190831T132001Z">
+        <seg>缺少主机首部字段的 HTTP/1.0 请求的接收者可能需要使用启发式方法(例如，检查特定主机特有的 URI 路径)以便猜测有效请求 URI 的权限组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Recipients of an invalid request-line SHOULD respond with either a 400 (Bad Request) error or a 301 (Moved Permanently) redirect with the request-target properly encoded.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T070716Z" creationid="pingfangx" creationdate="20190831T070716Z">
@@ -13227,6 +14619,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074444Z" creationid="pingfangx" creationdate="20190828T074444Z">
         <seg>参考</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Regardless, only the origin server needs to know how each of its resource identifiers corresponds to an implementation and how each implementation manages to select and send a current representation of the target resource in a response to GET.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135553Z" creationid="pingfangx" creationdate="20190831T135553Z">
+        <seg>无论如何，只有源服务器需要知道其每个资源标识符如何对应于实现以及每个实现如何在对 GET 的响应中设置选择和发送目标资源的当前表示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13287,6 +14687,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Representation Data</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115716Z" creationid="pingfangx" creationdate="20190831T115716Z">
+        <seg>表示数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Representation Metadata</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115653Z" creationid="pingfangx" creationdate="20190831T115653Z">
+        <seg>表示元数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Representations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115657Z" creationid="pingfangx" creationdate="20190831T115657Z">
+        <seg>表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Request</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T072304Z" creationid="pingfangx" creationdate="20190828T072304Z">
@@ -13303,6 +14727,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Request Context</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115834Z" creationid="pingfangx" creationdate="20190831T115834Z">
+        <seg>请求上下文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Request Header Fields</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T072734Z" creationid="pingfangx" creationdate="20190828T072336Z">
@@ -13315,6 +14747,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T090713Z" creationid="pingfangx" creationdate="20190830T090713Z">
         <seg>请求行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Request Methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115742Z" creationid="pingfangx" creationdate="20190831T115742Z">
+        <seg>请求方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -13347,6 +14787,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T090219Z" creationid="pingfangx" creationdate="20190831T090219Z">
         <seg>请求消息成帧独立于方法语义，即使该方法没有为消息体定义任何用途。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Request methods are considered "safe" if their defined semantics are essentially read-only; i.e., the client does not request, and does not expect, any state change on the origin server as a result of applying a safe method to a target resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134035Z" creationid="pingfangx" creationdate="20190831T134035Z">
+        <seg>如果请求方法的定义语义基本上是只读的，则被认为是“安全的”;即，作为对目标资源应用安全方法的结果，客户端不请求并且不期望源服务器上的任何状态改变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Request methods can be defined as "cacheable" to indicate that responses to them are allowed to be stored for future reuse; for specific requirements see [RFC7234].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134516Z" creationid="pingfangx" creationdate="20190831T134516Z">
+        <seg>请求方法可以定义为“可缓存”，以指示允许存储对它们的响应以供将来重用；有关具体要求，请参阅 [RFC7234]。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13423,6 +14879,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Requirements on such "forwarding" of messages are defined in Section 5.7.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124601Z" creationid="pingfangx" creationdate="20190831T124601Z">
+        <seg>第 5.7 节中定义了对这种“转发”消息的要求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reserved for future use.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105325Z" creationid="pingfangx" creationdate="20190827T105325Z">
@@ -13443,6 +14907,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T061707Z" creationid="pingfangx" creationdate="20190828T061707Z">
         <seg>重置处理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115640Z" creationid="pingfangx" creationdate="20190831T115640Z">
+        <seg>资源</seg>
       </tuv>
     </tu>
     <tu>
@@ -13479,6 +14951,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Response Context</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115918Z" creationid="pingfangx" creationdate="20190831T115918Z">
+        <seg>响应背景</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Response Header Fields</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T072737Z" creationid="pingfangx" creationdate="20190828T072606Z">
@@ -13495,6 +14975,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Response Status Codes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115837Z" creationid="pingfangx" creationdate="20190831T115837Z">
+        <seg>响应状态代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Response-header field names can be extended reliably only in combination with a change in the protocol version.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T110917Z" creationid="pingfangx" creationdate="20190829T110917Z">
@@ -13503,10 +14991,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Responses to POST requests are only cacheable when they include explicit freshness information (see Section 4.2.1 of [RFC7234]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T141722Z" creationid="pingfangx" creationdate="20190831T141722Z">
+        <seg>POST 请求的响应只有在包含显式新鲜度信息时才可缓存(参见 [RFC7234] 的第 4.2.1 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Responses to the CONNECT method are not cacheable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143413Z" creationid="pingfangx" creationdate="20190831T143413Z">
+        <seg>对 CONNECT 方法的响应不可缓存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Responses to the HEAD request method (Section 4.3.2 of [RFC7231]) never include a message body because the associated response header fields (e.g., Transfer-Encoding, Content-Length, etc.), if present, indicate only what their values would have been if the request method had been GET (Section 4.3.1 of [RFC7231]).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T090408Z" creationid="pingfangx" creationdate="20190831T090408Z">
         <seg>对 HEAD 请求方法的响应（[RFC7231] 的第 4.3.2 节）从不包含消息体，因为相关的响应首部字段（例如，Transfer-Encoding, Content-Length等）（如果存在）仅在请求方法是 GET 时指示它们的值（[RFC7231] 的第 4.3.1 节）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Responses to the OPTIONS method are not cacheable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143826Z" creationid="pingfangx" creationdate="20190831T143826Z">
+        <seg>对 OPTIONS 方法的响应不可缓存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Responses to the TRACE method are not cacheable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144145Z" creationid="pingfangx" creationdate="20190831T144145Z">
+        <seg>对 TRACE 方法的响应不可缓存。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13531,6 +15051,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T041645Z" creationid="pingfangx" creationdate="20190830T041645Z">
         <seg>对此方法的响应不可缓存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Responses with status codes that are defined as cacheable by default (e.g., 200, 203, 204, 206, 300, 301, 404, 405, 410, 414, and 501 in this specification) can be reused by a cache with heuristic expiration unless otherwise indicated by the method definition or explicit cache controls [RFC7234]; all other status codes are not cacheable by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144720Z" creationid="pingfangx" creationdate="20190831T144720Z">
+        <seg>默认情况下定义为可缓存的状态代码的响应(例如，本规范中的 200,203,204,206,300,301,404,405,410,414 和 501)可以由具有启发式到期的缓存重用，除非否则由方法定义或显式缓存控制 [RFC7234] 指示；默认情况下，所有其他状态代码都不可缓存。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13967,6 +15495,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See Section 9 for security considerations regarding message routing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132142Z" creationid="pingfangx" creationdate="20190831T132142Z">
+        <seg>有关消息路由的安全注意事项，请参见第 9 节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See Section 9.1 for security considerations related to establishing authority.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T044424Z" creationid="pingfangx" creationdate="20190831T044424Z">
@@ -14231,6 +15767,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since an HTTP stream has characteristics similar to a pipe-and-filter architecture, there are no inherent limits to the extent an intermediary can enhance (or interfere) with either direction of the stream.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132355Z" creationid="pingfangx" creationdate="20190831T132355Z">
+        <seg>由于 HTTP 流具有与管道和过滤器架构类似的特性，因此中间件可以增强(或干扰)流的任一方向的程度没有固有的限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since every octet is sequenced, each of them can be acknowledged.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T020941Z" creationid="pingfangx" creationdate="20190828T020941Z">
@@ -14271,6 +15815,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since the Host field-value is critical information for handling a request, a user agent SHOULD generate Host as the first header field following the request-line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125603Z" creationid="pingfangx" creationdate="20190831T125603Z">
+        <seg>由于 Host 字段值是处理请求的关键信息，因此用户代理应该生成 Host 作为请求行之后的第一个首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since the Host header field acts as an application-level routing mechanism, it is a frequent target for malware seeking to poison a shared cache or redirect a request to an unintended server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130127Z" creationid="pingfangx" creationdate="20190831T130127Z">
+        <seg>由于 Host 首部字段充当应用程序级路由机制，因此它常常是恶意软件试图中毒共享缓存或将请求重定向到非预期服务器的目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since the Java convention is to have a lowercase letter start a method name, this would have been `return(T)` which is a keyword in Java and thus not available.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T101634Z" creationid="pingfangx" creationdate="20190617T101634Z">
@@ -14291,6 +15851,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T104059Z" creationid="pingfangx" creationdate="20190828T104059Z">
         <seg>由于协议版本指示发送方的协议能力，因此代理/网关不得发送带有的版本版本指示符大于其实际版本的消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since the request-target often contains only part of the user agent's target URI, a server reconstructs the intended target as an "effective request URI" to properly service the request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130556Z" creationid="pingfangx" creationdate="20190831T130556Z">
+        <seg>由于请求目标通常仅包含用户代理的目标 URI 的一部分，因此服务器将预期目标重建为“有效请求 URI”以正确地为请求提供服务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14419,6 +15987,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T055131Z" creationid="pingfangx" creationdate="20190831T055131Z">
         <seg>一些实现利用 userinfo 组件来进行认证信息的内部配置，例如在命令调用选项，配置文件或书签列表中，即使这样的使用可能暴露用户标识符或密码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some intermediaries are used to improve performance or availability.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132323Z" creationid="pingfangx" creationdate="20190831T132323Z">
+        <seg>一些中介用于提高性能或可用性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14603,6 +16179,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T073124Z" creationid="pingfangx" creationdate="20190828T073124Z">
         <seg>状态码定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Status Code Registry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115938Z" creationid="pingfangx" creationdate="20190831T115938Z">
+        <seg>状态代码注册</seg>
       </tuv>
     </tu>
     <tu>
@@ -14954,6 +16538,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That abstraction is called a representation [REST].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132834Z" creationid="pingfangx" creationdate="20190831T132834Z">
+        <seg>这种抽象称为表示 (representation) [REST]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That is not the case in practice.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T100531Z" creationid="pingfangx" creationdate="20190830T100531Z">
@@ -14990,6 +16582,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T110219Z" creationid="pingfangx" creationdate="20190831T110219Z">
         <seg>“Connection”首部字段允许发送方指示当前连接的所需控制选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "Host" header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125351Z" creationid="pingfangx" creationdate="20190831T125351Z">
+        <seg>请求中的“Host”首部字段提供来自目标 URI 的主机和端口信息，使原始服务器能够在为单个 IP 地址上的多个主机名的请求提供服务时区分资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15178,6 +16778,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The CONNECT method requests that the recipient establish a tunnel to the destination origin server identified by the request-target and, if successful, thereafter restrict its behavior to blind forwarding of packets, in both directions, until the tunnel is closed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142907Z" creationid="pingfangx" creationdate="20190831T142907Z">
+        <seg>CONNECT 方法请求接收方建立到由请求目标标识的目标源服务器的隧道，并且如果成功，则此后将其行为限制为在两个方向上盲转发分组，直到隧道关闭。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Connection header field (Section 6.1) provides a "close" connection option that a sender SHOULD send when it wishes to close the connection after the current request/response pair.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112608Z" creationid="pingfangx" creationdate="20190831T112608Z">
@@ -15210,6 +16818,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The DELETE method requests that the origin server remove the association between the target resource and its current functionality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142536Z" creationid="pingfangx" creationdate="20190831T142536Z">
+        <seg>DELETE 方法请求源服务器删除目标资源与其当前功能之间的关联。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The GET method means retrieve whatever information (in the form of an entity) is identified by the Request-URI.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T062101Z" creationid="pingfangx" creationdate="20190830T062101Z">
@@ -15218,10 +16834,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The GET method requests transfer of a current selected representation for the target resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135203Z" creationid="pingfangx" creationdate="20190831T135203Z">
+        <seg>GET 方法请求传输目标资源的当前所选表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The HEAD method is identical to GET except that the server MUST NOT return a message-body in the response.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T063258Z" creationid="pingfangx" creationdate="20190830T063258Z">
         <seg>HEAD 方法与 GET 相同，只是服务器不能在响应中返回消息体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The HEAD method is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header section).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T140001Z" creationid="pingfangx" creationdate="20190831T140001Z">
+        <seg>HEAD 方法与 GET 相同，除了服务器不得在响应中发送消息体(即响应终止于首部的末尾)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The HTTP interface for a resource is just as likely to be implemented as a tree of content objects, a programmatic view on various database records, or a gateway to other information systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135410Z" creationid="pingfangx" creationdate="20190831T135410Z">
+        <seg>资源的 HTTP 接口很可能实现为内容对象树，各种数据库记录的编程视图或其他信息系统的网关。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15378,6 +17018,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The OPTIONS method requests information about the communication options available for the target resource, at either the origin server or an intervening intermediary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143427Z" creationid="pingfangx" creationdate="20190831T143427Z">
+        <seg>OPTIONS 方法在源服务器或中间中介处请求有关目标资源可用的通信选项的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The OWS rule is used where zero or more linear whitespace octets might appear.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T082653Z" creationid="pingfangx" creationdate="20190831T082653Z">
@@ -15410,10 +17058,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The POST method requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T140533Z" creationid="pingfangx" creationdate="20190831T140533Z">
+        <seg>POST 方法请求目标资源根据资源自身的特定语义处理请求中包含的表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The PUT method requests that the enclosed entity be stored under the supplied Request-URI.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T064831Z" creationid="pingfangx" creationdate="20190830T064831Z">
         <seg>PUT 方法请求将所包含的实体存储在提供的 Request-URI 下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The PUT method requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142403Z" creationid="pingfangx" creationdate="20190831T142403Z">
+        <seg>PUT 方法请求创建或替换目标资源的状态，该状态由请求消息负载中包含的表示定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15574,6 +17238,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T073935Z" creationid="pingfangx" creationdate="20190830T073935Z">
         <seg>TRACE 方法用于调用请求消息的远程应用层环回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The TRACE method requests a remote, application-level loop-back of the request message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143840Z" creationid="pingfangx" creationdate="20190831T143840Z">
+        <seg>TRACE 方法请求请求消息的远程应用程序级环回。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15850,6 +17522,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The asterisk-form of request-target is only used for a server-wide OPTIONS request (Section 4.3.7 of [RFC7231]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125038Z" creationid="pingfangx" creationdate="20190831T125038Z">
+        <seg>请求目标的星号形式仅用于服务器范围的 OPTIONS 请求([RFC7231] 的第 4.3.7 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The asterisk-form of the request-target is only allowed with the OPTIONS method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T092117Z" creationid="pingfangx" creationdate="20190830T092117Z">
@@ -15870,6 +17550,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T100917Z" creationid="pingfangx" creationdate="20190829T100908Z">
         <seg>authority 形式仅由 CONNECT 方法使用(第 9.9 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The authority-form of request-target is only used for CONNECT requests (Section 4.3.6 of [RFC7231]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124903Z" creationid="pingfangx" creationdate="20190831T124903Z">
+        <seg>请求目标的权限形式仅用于 CONNECT 请求([RFC7231] 的第 4.3.6 节)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16034,10 +17722,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The complete list of status codes is maintained by IANA.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144741Z" creationid="pingfangx" creationdate="20190831T144741Z">
+        <seg>完整的状态代码列表由 IANA 维护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The complete set of tokens is defined by the IANA Character Set registry [19].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T115130Z" creationid="pingfangx" creationdate="20190828T115130Z">
         <seg>完整的标记集由 IANA 字符集注册表 [19] 定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The components of the effective request URI, once determined as above, can be combined into absolute-URI form by concatenating the scheme, "://", authority, and combined path and query component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131857Z" creationid="pingfangx" creationdate="20190831T131409Z">
+        <seg>一旦如上确定，有效请求 URI 的组件可以通过连接方案“://”，权限以及组合 path 和 query 组件而组合成绝对 URI 形式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16086,6 +17790,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T083301Z" creationid="pingfangx" creationdate="20190831T083301Z">
         <seg>直到消息解释的后期阶段(通常在处理消息的整个首部部分之后)，才解析给定字段值内的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The corresponding response routing follows the same connection chain back to the client.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123048Z" creationid="pingfangx" creationdate="20190831T123048Z">
+        <seg>相应的响应路由遵循相同的连接链返回客户端。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16322,10 +18034,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The final recipient is either the origin server or the first server to receive a Max-Forwards value of zero (0) in the request (Section 5.1.2).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144003Z" creationid="pingfangx" creationdate="20190831T144003Z">
+        <seg>最终接收者是源服务器或第一个在请求中接收 Max-Forwards 值为零(0)的服务器(第 5.1.2 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The final recipient of the request SHOULD exclude any request header fields that are likely to contain sensitive data when that recipient generates the response body.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144127Z" creationid="pingfangx" creationdate="20190831T144127Z">
+        <seg>请求的最终接收者应该排除在接收者生成响应正文时可能包含敏感数据的任何请求首部字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The final recipient of the request SHOULD reflect the message received back to the client as the entity-body of a 200 (OK) response.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T074042Z" creationid="pingfangx" creationdate="20190830T074042Z">
         <seg>请求的最终接收者应该将收到的消息反映回客户端作为 200(OK)响应的实体主体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The final recipient of the request SHOULD reflect the message received, excluding some fields described below, back to the client as the message body of a 200 (OK) response with a Content-Type of "message/http" (Section 8.3.1 of [RFC7230]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143946Z" creationid="pingfangx" creationdate="20190831T143946Z">
+        <seg>请求的最终接收者应将接收到的消息（不包括下面描述的某些字段）作为内容类型为“message/http”的 200（OK）响应的消息正文（见 [RFC7230] 第 8.3.1 节）反射回客户端。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16350,6 +18086,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T105613Z" creationid="pingfangx" creationdate="20190829T105613Z">
         <seg>Status-Code 的第一个数字定义了响应类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first digit of the status-code defines the class of response.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144444Z" creationid="pingfangx" creationdate="20190831T144444Z">
+        <seg>状态代码的第一个数字定义了响应类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16890,6 +18634,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The method token is case-sensitive because it might be used as a gateway to object-based systems with case-sensitive method names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133527Z" creationid="pingfangx" creationdate="20190831T133527Z">
+        <seg>方法标记区分大小写，因为它可能用作具有区分大小写方法名称的基于对象的系统的网关。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The methods GET and HEAD MUST be supported by all general-purpose servers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T094500Z" creationid="pingfangx" creationdate="20190829T094500Z">
@@ -16934,6 +18686,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T100929Z" creationid="pingfangx" creationdate="20190829T100929Z">
         <seg>Request-URI 的最常见形式是用于标识源服务器或网关上的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The most common form of request-target is the origin-form.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123845Z" creationid="pingfangx" creationdate="20190831T123845Z">
+        <seg>最常见的请求目标形式是原始形式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17338,6 +19098,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The proxy is requested to either service that request from a valid cache, if possible, or make the same request on the client's behalf to either the next inbound proxy server or directly to the origin server indicated by the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124556Z" creationid="pingfangx" creationdate="20190831T124556Z">
+        <seg>如果可能，请求代理从有效缓存服务该请求，或者代表客户端向下一个入站代理服务器或直接向请求目标指示的源服务器发出相同的请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The proxy is requested to forward the request or service it from a valid cache, and return the response.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T100637Z" creationid="pingfangx" creationdate="20190829T100637Z">
@@ -17358,6 +19126,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T104153Z" creationid="pingfangx" creationdate="20190828T104153Z">
         <seg>代理/网关对该请求的响应必须与请求处于相同的主要版本中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The purpose is a combination of request semantics, which are defined in [RFC7231], and a target resource upon which to apply those semantics.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123231Z" creationid="pingfangx" creationdate="20190831T123231Z">
+        <seg>目的是在 [RFC7231] 中定义的请求语义和应用这些语义的目标资源的组合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The purpose of distinguishing between safe and unsafe methods is to allow automated retrieval processes (spiders) and cache performance optimization (pre-fetching) to work without fear of causing harm.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134207Z" creationid="pingfangx" creationdate="20190831T134207Z">
+        <seg>区分安全和不安全方法的目的是允许自动检索过程(蜘蛛)和缓存性能优化(预取)工作而不用担心造成伤害。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17410,6 +19194,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The reason phrases listed here are only recommendations -- they can be replaced by local equivalents without affecting the protocol.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144649Z" creationid="pingfangx" creationdate="20190831T144649Z">
+        <seg>此处列出的原因仅是建议 - 它们可以由本地等效项替换，而不会影响协议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The reason these operators have a suffix instead of simply having the same name with different signature is type erasure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T100728Z" creationid="pingfangx" creationdate="20190617T100728Z">
@@ -17454,6 +19246,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T065030Z" creationid="pingfangx" creationdate="20190830T065030Z">
         <seg>实体的接收者绝不能忽略它不理解或未实现的任何 Content-*(例如 Content-Range)首部，并且在这种情况下必须返回 501(Not Implemented)响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The recipient proxy can establish a tunnel either by directly connecting to the request-target or, if configured to use another proxy, by forwarding the CONNECT request to the next inbound proxy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143121Z" creationid="pingfangx" creationdate="20190831T143121Z">
+        <seg>接收者代理可以通过直接连接到请求目标来建立隧道，或者，如果配置为使用另一个代理，则通过将 CONNECT 请求转发到下一个入站代理来建立隧道。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17514,6 +19314,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The request method token is the primary source of request semantics; it indicates the purpose for which the client has made this request and what is expected by the client as a successful result.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133233Z" creationid="pingfangx" creationdate="20190831T133233Z">
+        <seg>请求方法标记是请求语义的主要来源；它表示客户提出此请求的目的以及客户期望的成功结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The request method was envisioned as applying semantics to a target resource in much the same way as invoking a defined method on an identified object would apply semantics.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133512Z" creationid="pingfangx" creationdate="20190831T133512Z">
+        <seg>请求方法被设想为将语义应用于目标资源，其方式与在已识别的将应用语义的对象上调用已定义方法的方式非常相似。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The request method's semantics might be further specialized by the semantics of some header fields when present in a request (Section 5) if those additional semantics do not conflict with the method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133257Z" creationid="pingfangx" creationdate="20190831T133257Z">
+        <seg>如果某些首部字段存在于请求(第 5 节)中，如果这些附加语义不与该方法冲突，那么请求方法的语义可能会进一步专门化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The request methods defined by this specification can be found in Section 4 of [RFC7231], along with information regarding the HTTP method registry and considerations for defining new methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T070530Z" creationid="pingfangx" creationdate="20190831T070530Z">
@@ -17562,6 +19386,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The response header fields allow the server to pass additional information about the response beyond what is placed in the status-line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144824Z" creationid="pingfangx" creationdate="20190831T144824Z">
+        <seg>响应首部字段允许服务器传递有关响应的附加信息，这些信息超出了放置在状态行中的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The response message will usually contain a representation that explains the status.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144427Z" creationid="pingfangx" creationdate="20190831T144427Z">
+        <seg>响应消息通常包含解释状态的表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The response payload, if any, might also describe the communication options in a machine or human-readable representation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143621Z" creationid="pingfangx" creationdate="20190831T143621Z">
+        <seg>响应有效载荷(如果有的话)也可以描述机器中的通信选项或人类可读的表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The response to a GET request is cacheable if and only if it meets the requirements for HTTP caching described in section 13.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T062929Z" creationid="pingfangx" creationdate="20190830T062929Z">
@@ -17570,10 +19418,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The response to a GET request is cacheable; a cache MAY use it to satisfy subsequent GET and HEAD requests unless otherwise indicated by the Cache-Control header field (Section 5.2 of [RFC7234]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T135720Z" creationid="pingfangx" creationdate="20190831T135720Z">
+        <seg>对 GET 请求的响应是可缓存的；缓存可以使用它来满足后续的 GET 和 HEAD 请求，除非 Cache-Control 首部字段另有说明([RFC7234] 的第 5.2 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The response to a HEAD request MAY be cacheable in the sense that the information contained in the response MAY be used to update a previously cached entity from that resource.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T063717Z" creationid="pingfangx" creationdate="20190830T063717Z">
         <seg>对于 HEAD 请求的响应可以是可缓存的，因为响应中包含的信息可以用于从该资源更新先前缓存的实体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The response to a HEAD request is cacheable; a cache MAY use it to satisfy subsequent HEAD requests unless otherwise indicated by the Cache-Control header field (Section 5.2 of [RFC7234]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T140324Z" creationid="pingfangx" creationdate="20190831T140324Z">
+        <seg>对 HEAD 请求的响应是可缓存的；缓存可以使用它来满足后续的 HEAD 请求，除非 Cache-Control 首部字段另有说明([RFC7234] 的第 5.2 节)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17786,6 +19650,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The server SHOULD send the same header fields in response to a HEAD request as it would have sent if the request had been a GET, except that the payload header fields (Section 3.3) MAY be omitted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T140126Z" creationid="pingfangx" creationdate="20190831T140126Z">
+        <seg>服务器在响应 HEAD 请求时，应该发送当请求是 GET 时它将发送的相同的首部字段，除了可以省略有效负载首部字段(第 3.3 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The server on which a given resource resides or is to be created.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T081417Z" creationid="pingfangx" creationdate="20190828T081417Z">
@@ -17814,6 +19686,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T031649Z" creationid="pingfangx" creationdate="20190830T031649Z">
         <seg>HTTP/1.1 的常用方法集定义如下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The set of methods allowed by a target resource can be listed in an Allow header field (Section 7.4.1).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133930Z" creationid="pingfangx" creationdate="20190831T133930Z">
+        <seg>目标资源允许的方法集可以列在 Allow 首部字段中(第 7.4.1 节)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17858,10 +19738,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The status codes listed below are defined in this specification, Section 4 of [RFC7232], Section 4 of [RFC7233], and Section 3 of [RFC7235].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144641Z" creationid="pingfangx" creationdate="20190831T144641Z">
+        <seg>下面列出的状态代码在本规范，[RFC7232] 的第 4 节，[RFC7233] 的第 4 节和 [RFC7235] 的第 3 节中定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The status-code element is a 3-digit integer code describing the result of the server's attempt to understand and satisfy the client's corresponding request.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T081119Z" creationid="pingfangx" creationdate="20190831T081119Z">
         <seg>status-code 元素是一个 3 位整数代码，用于描述服务器尝试理解和满足客户端相应请求的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The status-code element is a three-digit integer code giving the result of the attempt to understand and satisfy the request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144338Z" creationid="pingfangx" creationdate="20190831T144338Z">
+        <seg>状态代码元素是一个三位整数代码，给出了试图理解和满足请求的结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17886,6 +19782,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T154650Z" creationid="pingfangx" creationdate="20190828T154650Z">
         <seg>HTTP 语言标记的语法和注册与 RFC 1766 [1] 定义的相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The target URI excludes the reference's fragment component, if any, since fragment identifiers are reserved for client-side processing ([RFC3986], Section 3.5).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123453Z" creationid="pingfangx" creationdate="20190831T123453Z">
+        <seg>目标 URI 排除了引用的片段组件（如果有），因为片段标识符是为客户端处理保留的（[RFC3986]，第 3.5 节）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The target of an HTTP request is called a "resource".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122248Z" creationid="pingfangx" creationdate="20190831T122248Z">
+        <seg>HTTP 请求的目标称为“资源”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18130,6 +20042,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The value of the Via header field (Section 5.7.1 of [RFC7230]) is of particular interest, since it acts as a trace of the request chain.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144136Z" creationid="pingfangx" creationdate="20190831T144136Z">
+        <seg>Via 首部字段的值([RFC7230] 的第 5.7.1 节)特别令人感兴趣，因为它充当请求链的跟踪。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The value of the Via header field (section 14.45) is of particular interest, since it acts as a trace of the request chain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T074340Z" creationid="pingfangx" creationdate="20190830T074340Z">
@@ -18242,6 +20162,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are four distinct formats for the request-target, depending on both the method being requested and whether the request is to a proxy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123833Z" creationid="pingfangx" creationdate="20190831T123833Z">
+        <seg>请求目标有四种不同的格式，具体取决于请求的方法和请求是否是代理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are four varieties of &lt;c0&gt;Subject&lt;/c0&gt; that are designed for particular use cases.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T083734Z" creationid="pingfangx" creationdate="20190620T083734Z">
@@ -18278,6 +20206,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T090224Z" creationid="pingfangx" creationdate="20190621T090224Z">
         <seg>有几种方法可以处理这种情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are significant risks in establishing a tunnel to arbitrary servers, particularly when the destination is a well-known or reserved TCP port that is not intended for Web traffic.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143315Z" creationid="pingfangx" creationdate="20190831T143315Z">
+        <seg>建立到任意服务器的隧道存在很大的风险，特别是当目标是一个众所周知的或保留的 TCP 端口而非用于 Web 流量时。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18530,6 +20466,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These fields act as request modifiers, similar to the parameters on a programming language method invocation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144230Z" creationid="pingfangx" creationdate="20190831T144230Z">
+        <seg>这些字段充当请求修饰符，类似于编程语言方法调用的参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These fields act as request modifiers, with semantics equivalent to the parameters on a programming language method invocation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T102255Z" creationid="pingfangx" creationdate="20190829T102255Z">
@@ -18558,6 +20502,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T110841Z" creationid="pingfangx" creationdate="20190829T110841Z">
         <seg>这些首部字段提供有关服务器的信息以及有关 Request-URI 标识的资源的进一步访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These header fields give information about the server, about further access to the target resource, or about related resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144830Z" creationid="pingfangx" creationdate="20190831T144830Z">
+        <seg>这些首部字段提供有关服务器，有关对目标资源的进一步访问或相关资源的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18710,6 +20662,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T065528Z" creationid="pingfangx" creationdate="20190617T065528Z">
         <seg>他们将拥有不同的组 ID (`io.reactivex.rxjava2` vs `io.reactivex`) 和名称空间 (`io.reactivex` vs `rx`)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This "selected representation" is used to provide the data and metadata for evaluating conditional requests [RFC7232] and constructing the payload for 200 (OK) and 304 (Not Modified) responses to GET (Section 4.3.1).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133042Z" creationid="pingfangx" creationdate="20190831T133042Z">
+        <seg>这个“选定表示”用于提供数据和元数据，用于评估条件请求 [RFC7232] 和构建 200(OK)和 304(未修改)对 GET 响应的有效载荷(第 4.3.1 节)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18890,6 +20850,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This definition of safe methods does not prevent an implementation from including behavior that is potentially harmful, that is not entirely read-only, or that causes side effects while invoking a safe method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134109Z" creationid="pingfangx" creationdate="20190831T134109Z">
+        <seg>安全方法的这种定义并不妨碍实现包含可能有害的行为，不完全是只读的行为，或者在调用安全方法时导致副作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This diagram explains how Singles are represented in marble diagrams:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T075156Z" creationid="pingfangx" creationdate="20190620T075156Z">
@@ -18918,6 +20886,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T104752Z" creationid="pingfangx" creationdate="20190827T104752Z">
         <seg>这种划分允许存在除 TCP 之外的主机级协议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document also defines representation metadata that describe how a payload is intended to be interpreted by a recipient, the request header fields that might influence content selection, and the various selection algorithms that are collectively referred to as "content negotiation" (Section 3.4).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T121755Z" creationid="pingfangx" creationdate="20190831T121755Z">
+        <seg>本文档还定义了表示元数据，描述了接收者如何解释有效载荷，可能影响内容选择的请求首部字段，以及统称为“内容协商”的各种选择算法(第 3.4 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document defines HTTP/1.1 request and response semantics in terms of the architecture defined in [RFC7230].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T121640Z" creationid="pingfangx" creationdate="20190831T121640Z">
+        <seg>本文档根据 [RFC7230] 中定义的体系结构定义 HTTP/1.1 请求和响应语义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document defines the semantics of HTTP/1.1 messages, as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115518Z" creationid="pingfangx" creationdate="20190831T115518Z">
+        <seg>本文档定义了 HTTP/1.1 消息的语义，如请求方法，请求首部字段，响应状态代码和响应首部字段，以及消息的有效负载(元数据和正文内容)以及内容协商机制所表示的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19062,6 +21054,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T090229Z" creationid="pingfangx" creationdate="20190618T090229Z">
         <seg>可以使用方法 `RxJavaPlugins.setErrorHandler(Consumer&lt;Throwable&gt;)` 覆盖此处理程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This has the benefits of providing the user agent a resource identifier and transferring the representation via a method more amenable to shared caching, though at the cost of an extra request if the user agent does not already have the representation cached.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142247Z" creationid="pingfangx" creationdate="20190831T142247Z">
+        <seg>这具有以下优点：向用户代理提供资源标识符并通过更适合于共享缓存的方法来传送表示，但是如果用户代理尚未具有缓存的表示，则以额外请求为代价。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19306,10 +21306,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This method allows a client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143440Z" creationid="pingfangx" creationdate="20190831T143440Z">
+        <seg>该方法允许客户端确定与资源相关联的选项和/或要求，或服务器的能力，而不暗示资源动作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating a resource retrieval.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T041638Z" creationid="pingfangx" creationdate="20190830T041638Z">
         <seg>该方法允许客户端确定与资源相关联的选项和/或要求，或服务器的能力，而不暗示资源动作或启动资源检索。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This method can be used for obtaining metadata about the selected representation without transferring the representation data and is often used for testing hypertext links for validity, accessibility, and recent modification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T140159Z" creationid="pingfangx" creationdate="20190831T140159Z">
+        <seg>该方法可用于获得关于所选表示的元数据而不传送表示数据，并且通常用于测试超文本链接的有效性，可访问性和最近修改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19442,6 +21458,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This reconstruction involves both the server's local configuration and information communicated in the request-target, Host header field, and connection context.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130613Z" creationid="pingfangx" creationdate="20190831T130613Z">
+        <seg>此重建涉及服务器的本地配置和在请求目标，主机首部字段和连接上下文中传递的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This requirement overrides the general rule for forwarding of 1xx responses (see section 10.1).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T025925Z" creationid="pingfangx" creationdate="20190830T025925Z">
@@ -19510,6 +21534,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T094131Z" creationid="pingfangx" creationdate="20190830T094131Z">
         <seg>此规范还更新了使用 CONNECT 建立隧道(先前在 RFC 2817 中定义)，并定义了 RFC 2818 中非正式描述的“https”URI 方案。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This specification defines a number of standardized methods that are commonly used in HTTP, as outlined by the following table.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133659Z" creationid="pingfangx" creationdate="20190831T133659Z">
+        <seg>此规范定义了 HTTP 中常用的许多标准化方法，如下表所示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19602,10 +21634,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This specification uses the Augmented Backus-Naur Form (ABNF) notation of [RFC5234] with a list extension, defined in Section 7 of [RFC7230], that allows for compact definition of comma-separated lists using a '#' operator (similar to how the '*' operator indicates repetition).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122007Z" creationid="pingfangx" creationdate="20190831T122007Z">
+        <seg>本规范使用 [RFC5234] 的 Augmented Backus-Naur Form(ABNF)符号和 [RFC7230] 第 7 节中定义的列表扩展，允许使用 '#' 操作符对逗号分隔列表进行紧凑定义(类似于 '*' 操作符如何表示重复)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This specification uses the Augmented Backus-Naur Form (ABNF) notation of [RFC5234] with a list extension, defined in Section 7, that allows for compact definition of comma-separated lists using a '#' operator (similar to how the '*' operator indicates repetition).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T094652Z" creationid="pingfangx" creationdate="20190830T094652Z">
         <seg>本规范使用 [RFC5234] 的 Augmented Backus-Naur Form(ABNF)符号和第 7 节中定义的列表扩展，允许使用 '#' 操作符紧凑定义逗号分隔列表(类似于 '*' 操作符表示重复)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This specification uses the terms "character", "character encoding scheme", "charset", and "protocol element" as they are defined in [RFC6365].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122102Z" creationid="pingfangx" creationdate="20190831T122102Z">
+        <seg>本规范使用术语“character”，“character encoding scheme”，“charset”和“protocol element”，因为它们在 [RFC6365] 中定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19790,6 +21838,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T100841Z" creationid="pingfangx" creationdate="20190829T100841Z">
         <seg>为了允许在未来版本的 HTTP 中转换为所有请求中的 absoluteURI，所有 HTTP/1.1 服务器必须在请求中接受 absoluteURI 形式，即使 HTTP/1.1 客户端只在请求代理时生成它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To allow for transition to the absolute-form for all requests in some future version of HTTP, a server MUST accept the absolute-form in requests, even though HTTP/1.1 clients will only send them in requests to proxies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124825Z" creationid="pingfangx" creationdate="20190831T124825Z">
+        <seg>为了允许在某些未来版本的 HTTP 中转换为绝对形式的所有请求，服务器必须接受请求中的绝对形式，即使 HTTP/1.1 客户端只会将请求发送给代理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20098,6 +22154,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tunnels are commonly used to create an end-to-end virtual connection, through one or more proxies, which can then be secured using TLS (Transport Layer Security, [RFC5246]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143000Z" creationid="pingfangx" creationdate="20190831T143000Z">
+        <seg>隧道通常用于通过一个或多个代理创建端到端虚拟连接，然后可以使用 TLS(传输层安全性，[RFC5246])来保护隧道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tunnels are used to extend a virtual connection through an intermediary, such as when Transport Layer Security (TLS, [RFC5246]) is used to establish confidential communication through a shared firewall proxy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T101712Z" creationid="pingfangx" creationdate="20190830T101712Z">
@@ -20362,6 +22426,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unlike distributed objects, the standardized request methods in HTTP are not resource-specific, since uniform interfaces provide for better visibility and reuse in network-based systems [REST].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133633Z" creationid="pingfangx" creationdate="20190831T133633Z">
+        <seg>与分布式对象不同，HTTP 中的标准化请求方法不是特定于资源的，因为统一接口在基于网络的系统中提供了更好的可见性和重用 [REST]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unlike in RFC 2046, the epilogue of any multipart message MUST be empty; HTTP applications MUST NOT transmit the epilogue (even if the original multipart contains an epilogue).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T152535Z" creationid="pingfangx" creationdate="20190828T152535Z">
@@ -20554,6 +22626,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Validator Header Fields</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115912Z" creationid="pingfangx" creationdate="20190831T115912Z">
+        <seg>验证器首部字段</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Varieties of Scheduler</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T090908Z" creationid="pingfangx" creationdate="20190620T090908Z">
@@ -20714,6 +22794,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What is important, however, is that the client did not request that additional behavior and cannot be held accountable for it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134119Z" creationid="pingfangx" creationdate="20190831T134119Z">
+        <seg>然而，重要的是客户没有要求其他行为，也不能对其负责。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What people actually need is the method `fromCallable`:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T015858Z" creationid="pingfangx" creationdate="20190624T015858Z">
@@ -20762,10 +22850,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a client constructs an HTTP/1.1 request message, it sends the target URI in one of various forms, as defined in (Section 5.3 of [RFC7230]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122834Z" creationid="pingfangx" creationdate="20190831T122834Z">
+        <seg>当客户端构造 HTTP/1.1 请求消息时，它以各种形式之一发送目标 URI，如 [RFC7230] 第 5.3 节中所定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When a client or server wishes to time-out it SHOULD issue a graceful close on the transport connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T152148Z" creationid="pingfangx" creationdate="20190829T152148Z">
         <seg>当客户端或服务器希望超时时，应该在传输连接上发出正常关闭。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a client wishes to request OPTIONS for the server as a whole, as opposed to a specific named resource of that server, the client MUST send only "*" (%x2A) as the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125058Z" creationid="pingfangx" creationdate="20190831T125058Z">
+        <seg>当客户端希望为整个服务器请求 OPTIONS 时，与该服务器的特定命名资源相反，客户端必须仅发送“*”(%x2A) 作为请求目标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20794,6 +22898,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a proxy receives a request with an absolute-form of request-target, the proxy MUST ignore the received Host header field (if any) and instead replace it with the host information of the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130105Z" creationid="pingfangx" creationdate="20190831T130105Z">
+        <seg>当代理接收到具有绝对形式的请求目标的请求时，代理必须忽略收到的主机首部字段(如果有的话)，而是将其替换为请求目标的主机信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When a proxy receives an OPTIONS request on an absoluteURI for which request forwarding is permitted, the proxy MUST check for a Max-Forwards field.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T042309Z" creationid="pingfangx" creationdate="20190830T042309Z">
@@ -20806,6 +22918,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T102700Z" creationid="pingfangx" creationdate="20190830T102700Z">
         <seg>当解析收到的协议元素时，接收者必须能够解析任何适用于接收者角色的合理长度的值，并且该值与相应的 ABN​​F 规则定义的语法相匹配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a request is received, the server reconstructs an effective request URI for the target resource (Section 5.5 of [RFC7230]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T122847Z" creationid="pingfangx" creationdate="20190831T122847Z">
+        <seg>收到请求后，服务器会重建目标资源的有效请求 URI([RFC7230] 的第 5.5 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a request method is received that is known by an origin server but not allowed for the target resource, the origin server SHOULD respond with the 405 (Method Not Allowed) status code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133949Z" creationid="pingfangx" creationdate="20190831T133949Z">
+        <seg>当接收到原始服务器已知但不允许目标资源的请求方法时，源服务器应该应该使用 405(Method Not Allowed)状态代码进行响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a request method is received that is unrecognized or not implemented by an origin server, the origin server SHOULD respond with the 501 (Not Implemented) status code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T133942Z" creationid="pingfangx" creationdate="20190831T133942Z">
+        <seg>当收到无法识别或未由源服务器实现的请求方法时，源服务器应该响应 501(未实现)状态代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a resource is constructed such that parameters within the effective request URI have the effect of selecting an action, it is the resource owner's responsibility to ensure that the action is consistent with the request method semantics.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T134238Z" creationid="pingfangx" creationdate="20190831T134238Z">
+        <seg>当构造资源使得有效请求 URI 中的参数具有选择动作的效果时，资源所有者有责任确保该动作与请求方法语义一致。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20926,6 +23070,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T151139Z" creationid="pingfangx" creationdate="20190828T151139Z">
         <seg>在规范形式中，“text”类型的媒体子类型使用 CRLF 作为文本换行符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When making a CONNECT request to establish a tunnel through one or more proxies, a client MUST send only the target URI's authority component (excluding any userinfo and its "@" delimiter) as the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125030Z" creationid="pingfangx" creationdate="20190831T125030Z">
+        <seg>当通过一个或多个代理建立隧道的 CONNECT 请求时，客户端必须只发送目标 URI 的权限组件(不包括任何 userinfo 及其“@”分隔符)作为请求目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When making a request directly to an origin server, other than a CONNECT or server-wide OPTIONS request (as detailed below), a client MUST send only the absolute path and query components of the target URI as the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T123911Z" creationid="pingfangx" creationdate="20190831T123911Z">
+        <seg>当直接向源服务器发出请求时，除了 CONNECT 或服务器范围的 OPTIONS 请求(如下所述)之外，客户端必须仅发送目标 URI 的绝对路径和查询组件作为请求目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When making a request to a proxy, other than a CONNECT or server-wide OPTIONS request (as detailed below), a client MUST send the target URI in absolute-form as the request-target.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124314Z" creationid="pingfangx" creationdate="20190831T124314Z">
+        <seg>当向代理发出请求时，除了 CONNECT 或服务器范围的 OPTIONS 请求(如下所述)之外，客户端必须以绝对形式发送目标 URI 作为请求目标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21634,6 +23802,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>after connecting to port 8001 of host "www.example.org".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125244Z" creationid="pingfangx" creationdate="20190831T125244Z">
+        <seg>在连接到主机“www.example.org”的端口 8001 之后。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>allow further customization of the backpressure behavior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T100500Z" creationid="pingfangx" creationdate="20190617T100500Z">
@@ -22298,6 +24474,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>directly from the origin server would open (or reuse) a TCP connection to port 80 of the host "www.example.org" and send the lines:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124204Z" creationid="pingfangx" creationdate="20190831T124204Z">
+        <seg>将直接从源服务器打开(或重用)TCP 连接到主机“www.example.org”的端口 80 并发送行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>disambiguated into `fromArray`, `fromIterable`, `fromFuture`</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T114255Z" creationid="pingfangx" creationdate="20190618T114255Z">
@@ -22650,6 +24834,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>followed by the remainder of the request message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124207Z" creationid="pingfangx" creationdate="20190831T124207Z">
+        <seg>然后是请求消息的其余部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>for each observer that subscribes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T104455Z" creationid="pingfangx" creationdate="20190620T104455Z">
@@ -22702,6 +24894,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T102731Z" creationid="pingfangx" creationdate="20190620T102731Z">
         <seg>给定两个或多个源 Observable，仅从第一个发射一个项目 Observable 中发射所有项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>has an effective request URI of</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131921Z" creationid="pingfangx" creationdate="20190831T131921Z">
+        <seg>有一个有效的请求 URI</seg>
       </tuv>
     </tu>
     <tu>
@@ -22882,6 +25082,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>o  Appending data to a resource's existing representation(s).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T141502Z" creationid="pingfangx" creationdate="20190831T141502Z">
+        <seg>o 将数据附加到资源的现有表示中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>o  Creating a new resource that has yet to be identified by the origin server; and</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T141457Z" creationid="pingfangx" creationdate="20190831T141457Z">
+        <seg>o 创建尚未由源服务器标识的新资源；以及</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>o  If the "close" connection option is present, the connection will not persist after the current response; else,</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T111029Z" creationid="pingfangx" creationdate="20190831T111029Z">
@@ -22902,6 +25118,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T111051Z" creationid="pingfangx" creationdate="20190831T111051Z">
         <seg>o 如果收到的协议是 HTTP/1.1(或更高版本)，则在当前响应之后连接将持久；否则，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>o  Posting a message to a bulletin board, newsgroup, mailing list, blog, or similar group of articles;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T141442Z" creationid="pingfangx" creationdate="20190831T141442Z">
+        <seg>o 在公告栏，新闻组，消息列表，博客或类似文章组中发布消息；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>o  Providing a block of data, such as the fields entered into an HTML form, to a data-handling process;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T141431Z" creationid="pingfangx" creationdate="20190831T141431Z">
+        <seg>o 向数据处理过程提供数据块，例如输入 HTML 表单的字段；</seg>
       </tuv>
     </tu>
     <tu>
@@ -23662,6 +25894,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T105110Z" creationid="pingfangx" creationdate="20190620T105110Z">
         <seg>我可以再解除包装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>would be forwarded by the final proxy as</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125237Z" creationid="pingfangx" creationdate="20190831T125237Z">
+        <seg>将被最终代理转发为</seg>
       </tuv>
     </tu>
     <tu>
