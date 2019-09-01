@@ -567,6 +567,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(For instance, a client may be connecting to a machine whose address and hostname are dynamic but the client knows the certificate that the server will present.) In such cases, it is important to narrow the scope of acceptable certificates as much as possible in order to prevent man in the middle attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103733Z" creationid="pingfangx" creationdate="20190901T103733Z">
+        <seg>(例如，客户端可能正在连接到一台机器，其地址和主机名是动态的，但客户端知道服务器将提供的证书。)在这种情况下，尽可能缩小可接受证书的范围非常重要，为了防止中间人攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(However, section 3.6 places restrictions on when certain transfer-codings may be used.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T084232Z" creationid="pingfangx" creationdate="20190829T084232Z">
@@ -1839,6 +1847,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A HTTP response with a valid Content-Length header closed before all data has been read.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T093651Z" creationid="pingfangx" creationdate="20190901T093651Z">
+        <seg>在读取所有数据之前关闭了具有有效 Content-Length 首部的 HTTP 响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A HTTP response without a Content-Length header.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T093243Z" creationid="pingfangx" creationdate="20190901T093243Z">
+        <seg>没有 Content-Length 首部的 HTTP 响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Host header field is also sent, as defined in Section 5.4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T124028Z" creationid="pingfangx" creationdate="20190831T124028Z">
@@ -1907,6 +1931,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063448Z" creationid="pingfangx" creationdate="20190828T063048Z">
         <seg>TCP 将在连接被 CLOSED 之前可靠地 SENT 传递所有缓冲区，因此期望没有数据返回的用户只需等待成功地听到连接已成功 CLOSED，以便知道他的所有数据都在目标 TCP 上接收。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A TLS implementation MAY, after sending a closure alert, close the connection without waiting for the peer to send its closure alert, generating an "incomplete close".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091842Z" creationid="pingfangx" creationdate="20190901T091842Z">
+        <seg>在发送关闭警报后，TLS 实现可以关闭连接，而无需等待对等方发送其关闭警报，从而生成“未完成关闭”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2119,6 +2151,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A client detecting an incomplete close SHOULD recover gracefully.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T094002Z" creationid="pingfangx" creationdate="20190901T094002Z">
+        <seg>检测到不完整关闭的客户端应该优雅地恢复。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A client or server that wishes to time out SHOULD issue a graceful close on the connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112410Z" creationid="pingfangx" creationdate="20190831T112410Z">
@@ -2251,6 +2291,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T152215Z" creationid="pingfangx" creationdate="20190829T152215Z">
         <seg>客户端，服务器或代理可以随时关闭传输连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A companion document describes a method for using HTTP/TLS over the same port as normal HTTP [RFC2817].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T085804Z" creationid="pingfangx" creationdate="20190901T085804Z">
+        <seg>配套文档 [RFC2817] 描述了在与普通 HTTP 相同的端口上使用 HTTP/TLS 的方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3751,6 +3799,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All HTTP data MUST be sent as TLS "application data".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091504Z" creationid="pingfangx" creationdate="20190901T091504Z">
+        <seg>所有 HTTP 数据必须作为 TLS“应用程序数据”发送。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All HTTP date/time stamps MUST be represented in Greenwich Mean Time (GMT), without exception.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T113858Z" creationid="pingfangx" creationdate="20190828T113858Z">
@@ -4059,6 +4115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T103632Z" creationid="pingfangx" creationdate="20190831T103632Z">
         <seg>虽然请求行和状态行语法规则要求每个组件元素由单个 SP 八位字节分隔，但是接收者可以改为解析以空格分隔的字边界，并且除了 CRLF 终止符之外，将任何形式的空格视为 SP 分隔符，同时忽略前面或后面的空格；这样的空白包括以下八位字节中的一个或多个：SP，HTAB，VT (%x0B)，FF (%x0C)或裸 CR。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although the use of the Common Name is existing practice, it is deprecated and Certification Authorities are encouraged to use the dNSName instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T104334Z" creationid="pingfangx" creationdate="20190901T104334Z">
+        <seg>尽管使用 Common Name 是现有做法，但不推荐使用它，并且鼓励证书颁发机构使用 dNSName。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4403,6 +4467,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T100710Z" creationid="pingfangx" creationdate="20190829T100710Z">
         <seg>Request-Line 示例如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An example URI specifying HTTP/TLS is:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103405Z" creationid="pingfangx" creationdate="20190901T103405Z">
+        <seg>指定 HTTP/TLS 的示例 URI 是：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4839,6 +4911,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a consequence, the hostname for the server is known to the client.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103518Z" creationid="pingfangx" creationdate="20190901T103518Z">
+        <seg>因此，客户端知道服务器的主机名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As a convention, ABNF rule names prefixed with "obs-" denote "obsolete" grammar rules that appear for historical reasons.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T094913Z" creationid="pingfangx" creationdate="20190830T094913Z">
@@ -4931,6 +5011,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T090322Z" creationid="pingfangx" creationdate="20190620T090322Z">
         <seg>如图所示，&lt;s0&gt;SubscribeOn&lt;/s0&gt; 操作符指定 Observable 将开始操作的线程，无论操作符链中的哪个操作符被调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As specified in [RFC2246], any implementation which receives a connection close without first receiving a valid closure alert (a "premature close") MUST NOT reuse that session.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T092256Z" creationid="pingfangx" creationdate="20190901T092256Z">
+        <seg>如 [RFC2246] 中所述，任何接收到连接关闭而没有首先接收有效闭包警报(“过早关闭”)的实现都不得重用该会话。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5127,10 +5215,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Author's Address</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090642Z" creationid="pingfangx" creationdate="20190901T090642Z">
+        <seg>作者地址</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Authors' Addresses</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074449Z" creationid="pingfangx" creationdate="20190828T074449Z">
         <seg>作者地址</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Automated clients MAY provide a configuration setting that disables this check, but MUST provide a setting which enables it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111604Z" creationid="pingfangx" creationdate="20190901T111604Z">
+        <seg>自动化客户端可以提供禁用此检查的配置设置，但必须提供启用它的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Automated clients MUST log the error to an appropriate audit log (if available) and SHOULD terminate the connection (with a bad certificate error).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111553Z" creationid="pingfangx" creationdate="20190901T111553Z">
+        <seg>自动客户端必须将错误记录到适当的审核日志(如果可用)，并且应该终止连接(证书错误)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5167,6 +5279,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because HTTP uses connection closure to signal end of server data, client implementations MUST treat any premature closes as errors and the data received as potentially truncated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T092651Z" creationid="pingfangx" creationdate="20190901T092651Z">
+        <seg>因为 HTTP 使用连接闭包来指示服务器数据的结束，所以客户端实现必须将任何过早关闭视为错误，并将接收到的数据视为可能被截断。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because Reactive-Streams base interface, `org.reactivestreams.Publisher` defines the `subscribe()` method as `void`, `Flowable.subscribe(Subscriber)` no longer returns any `Subscription` (or `Disposable`).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T072916Z" creationid="pingfangx" creationdate="20190618T072916Z">
@@ -5179,6 +5299,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T051847Z" creationid="pingfangx" creationdate="20190618T051847Z">
         <seg>由于 Reactive-Streams 具有不同的体系结构，因此它要求对一些众所周知的 RxJava 类型进行更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because TLS does not provide document oriented protection, it is impossible to determine whether the server has miscomputed the Content-Length or an attacker has truncated the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T093713Z" creationid="pingfangx" creationdate="20190901T093713Z">
+        <seg>由于 TLS 不提供面向文档的保护，因此无法确定服务器是否错误计算了 Content-Length，或者攻击者是否截断了连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because TLS is oblivious to HTTP request/response boundaries, it is necessary to examine the HTTP data itself (specifically the Content-Length header) to determine whether the truncation occurred inside a message or between messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T092405Z" creationid="pingfangx" creationdate="20190901T092405Z">
+        <seg>由于 TLS 无视 HTTP 请求/响应边界，因此有必要检查 HTTP 数据本身(特别是 Content-Length 首部)以确定截断是发生在消息内还是消息之间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5751,6 +5887,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Client Behavior</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090503Z" creationid="pingfangx" creationdate="20190901T090503Z">
+        <seg>客户端行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Client Behavior if Server Prematurely Closes Connection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T025931Z" creationid="pingfangx" creationdate="20190830T025931Z">
@@ -5763,6 +5907,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T073047Z" creationid="pingfangx" creationdate="20190828T073047Z">
         <seg>服务器过早关闭连接时的客户端行为 ..50</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Client Identity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090607Z" creationid="pingfangx" creationdate="20190901T090607Z">
+        <seg>客户标识</seg>
       </tuv>
     </tu>
     <tu>
@@ -5815,6 +5967,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Clients MUST send a closure alert before closing the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T094353Z" creationid="pingfangx" creationdate="20190901T094353Z">
+        <seg>客户端必须在关闭连接之前发送关闭警报。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clients SHOULD NOT pipeline requests using non-idempotent methods or non-idempotent sequences of methods (see section 9.1.2).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T151521Z" creationid="pingfangx" creationdate="20190829T151521Z">
@@ -5859,6 +6019,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T150140Z" creationid="pingfangx" creationdate="20190829T150140Z">
         <seg>使用未来版本的 HTTP 的客户端可能会乐观地尝试新功能，但如果与旧服务器通信，则在报告错误后重试旧语义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clients which are unprepared to receive any more data MAY choose not to wait for the server's closure alert and simply close the connection, thus generating an incomplete close on the server side.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T095842Z" creationid="pingfangx" creationdate="20190901T095842Z">
+        <seg>没有准备好接收任何数据的客户可以选择不等待服务器的关闭警报并简单地关闭连接，从而在服务器端生成不完整的关闭。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5991,6 +6159,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Conceptually, HTTP/TLS is very simple.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091213Z" creationid="pingfangx" creationdate="20190901T091213Z">
+        <seg>从概念上讲，HTTP/TLS 非常简单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Conceptually, it is a union of `Single` and `Completable` providing the means to capture an emission pattern where there could be 0 or 1 item or an error signalled by some reactive source.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T060448Z" creationid="pingfangx" creationdate="20190618T060448Z">
@@ -6079,10 +6255,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Connection Closure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090452Z" creationid="pingfangx" creationdate="20190901T090452Z">
+        <seg>连接关闭</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Connection Establishment and Clearing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T071237Z" creationid="pingfangx" creationdate="20190828T071237Z">
         <seg>连接建立和清除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Connection Initiation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090447Z" creationid="pingfangx" creationdate="20190901T090447Z">
+        <seg>连接启动</seg>
       </tuv>
     </tu>
     <tu>
@@ -6115,6 +6307,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T111343Z" creationid="pingfangx" creationdate="20190831T111343Z">
         <seg>无论是否有意，都可以随时关闭连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Consequently, common practice has been to run HTTP/TLS over a separate port in order to distinguish which protocol is being used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103251Z" creationid="pingfangx" creationdate="20190901T103251Z">
+        <seg>因此，通常的做法是在单独的端口上运行 HTTP/TLS，以区分正在使用的协议。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6307,6 +6507,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111956Z" creationid="pingfangx" creationdate="20190827T111956Z">
         <seg>当前报文段变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Current practice is to layer HTTP over SSL (the predecessor to TLS), distinguishing secured traffic from insecure traffic by the use of a different server port.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T085643Z" creationid="pingfangx" creationdate="20190901T085643Z">
+        <seg>当前的做法是通过 SSL(TLS 的前身)对 HTTP 进行分层，通过使用不同的服务器端口来区分安全流量和不安全流量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6539,6 +6747,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022410Z" creationid="pingfangx" creationdate="20190828T022410Z">
         <seg>由于零窗口和零长度报文段，我们有四种情况可以接受传入的报文段：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>E.g., *.a.com matches foo.a.com but not bar.foo.a.com.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111318Z" creationid="pingfangx" creationdate="20190901T111318Z">
+        <seg>例如，*.a.com 匹配 foo.a.com 但不匹配 bar.foo.a.com。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6891,6 +7107,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074005Z" creationid="pingfangx" creationdate="20190828T074005Z">
         <seg>端到端和逐跳首部</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Endpoint Identification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090539Z" creationid="pingfangx" creationdate="20190901T090539Z">
+        <seg>端点识别</seg>
       </tuv>
     </tu>
     <tu>
@@ -7607,6 +7831,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if the URI was obtained by clicking on an HTML page which was itself obtained without using HTTP/TLS, a man in the middle could have replaced the URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T112850Z" creationid="pingfangx" creationdate="20190901T112850Z">
+        <seg>例如，如果通过单击不使用 HTTP/TLS 获得的 HTML 页面获得 URI，则中间的人可以替换 URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if the Upgrade header field is received in a GET request and the server decides to switch protocols, it first responds with a 101 (Switching Protocols) message in HTTP/1.1 and then immediately follows that with the new protocol's equivalent of a response to a GET on the target resource.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T113418Z" creationid="pingfangx" creationdate="20190831T113418Z">
@@ -8099,6 +8331,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T072035Z" creationid="pingfangx" creationdate="20190828T072035Z">
         <seg>HTTP 版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTTP [RFC2616] was originally used in the clear on the Internet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090852Z" creationid="pingfangx" creationdate="20190901T090852Z">
+        <seg>HTTP [RFC2616] 最初没有危险的(in the clear)用于互联网上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8655,6 +8895,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>HTTP/TLS is differentiated from HTTP URIs by using the 'https' protocol identifier in place of the 'http' protocol identifier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103401Z" creationid="pingfangx" creationdate="20190901T103401Z">
+        <seg>通过使用“https”协议标识符代替“http”协议标识符，来区别 HTTP/TLS 与 HTTP URI 的不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Half-Open Connection Discovery</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055922Z" creationid="pingfangx" creationdate="20190828T055922Z">
@@ -9027,6 +9275,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T113325Z" creationid="pingfangx" creationdate="20190831T113325Z">
         <seg>但是，在发送 101(交换协议)响应之后，服务器应该立即继续响应原始请求，就好像它已经在新协议中接收到它的等价物一样(即，服务器仍然有一个未完成的请求在协议之后满足已被更改，并且预计会这样做而不要求重复请求)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, increased use of HTTP for sensitive applications has required security measures.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091048Z" creationid="pingfangx" creationdate="20190901T091048Z">
+        <seg>但是，敏感应用程序使用 HTTP 的增加需要采取安全措施。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9663,6 +9919,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a server has such knowledge (typically from some source external to HTTP or TLS) it SHOULD check the identity as described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T113151Z" creationid="pingfangx" creationdate="20190901T113151Z">
+        <seg>如果服务器具有这样的知识(通常来自 HTTP 或 TLS 外部的某些源)，它应该如上所述检查身份。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a server performs an immediate close of a TCP connection, there is a significant risk that the client will not be able to read the last HTTP response.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112817Z" creationid="pingfangx" creationdate="20190831T112817Z">
@@ -9675,6 +9939,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T113811Z" creationid="pingfangx" creationdate="20190831T113811Z">
         <seg>如果服务器同时收到具有“100-continue”期望的 Upgrade 和 Expect 首部字段([RFC7231] 的第 5.1.1 节)，则服务器必须在发送 101(交换协议)响应之前发送 100(继续)响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a subjectAltName extension of type dNSName is present, that MUST be used as the identity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103911Z" creationid="pingfangx" creationdate="20190901T103911Z">
+        <seg>如果存在类型为 dNSName 的 subjectAltName 扩展名，则必须将其用作标识。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9827,6 +10099,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T024938Z" creationid="pingfangx" creationdate="20190830T024938Z">
         <seg>如果它以最终状态代码响应，它可以关闭传输连接，或者它可以继续读取并丢弃请求的其余部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If more than one identity of a given type is present in the certificate (e.g., more than one dNSName name, a match in any one of the set is considered acceptable.) Names may contain the wildcard character * which is considered to match any single domain name component or component fragment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111305Z" creationid="pingfangx" creationdate="20190901T111305Z">
+        <seg>如果证书中存在多个给定类型的标识(例如，多个 dNSName 名称，则认为任何一个集合中的匹配都是可接受的。)名称可以包含通配符 *，该通配符被认为与任何单个匹配域名组件或组件片段匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10127,6 +10407,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the client has external information as to the expected identity of the server, the hostname check MAY be omitted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103648Z" creationid="pingfangx" creationdate="20190901T103648Z">
+        <seg>如果客户端具有关于服务器的预期标识的外部信息，则可以省略主机名检查。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the client sees a response that indicates the server does not wish to receive the message body and is closing the connection, the client SHOULD immediately cease transmitting the body and close its side of the connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112522Z" creationid="pingfangx" creationdate="20190831T112522Z">
@@ -10235,6 +10523,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T044226Z" creationid="pingfangx" creationdate="20190831T044226Z">
         <seg>如果主机标识符作为 IP 地址提供，则源服务器是该 IP 地址上指示的 TCP 端口上的监听器(如果有)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the hostname does not match the identity in the certificate, user oriented clients MUST either notify the user (clients MAY give the user the opportunity to continue with the connection in any case) or terminate the connection with a bad certificate error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111538Z" creationid="pingfangx" creationdate="20190901T111538Z">
+        <seg>如果主机名与证书中的标识不匹配，则面向用户的客户端必须通知用户(客户端可以在任何情况下为用户提供继续连接的机会)或终止具有错误证书错误的连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the hostname is available, the client MUST check it against the server's identity as presented in the server's Certificate message, in order to prevent man-in-the-middle attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103604Z" creationid="pingfangx" creationdate="20190901T103604Z">
+        <seg>如果主机名可用，客户端必须根据服务器的证书消息中显示的服务器身份进行检查，以防止中间人攻击。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10671,6 +10975,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implementation note: In HTTP implementations which do not use persistent connections, the server ordinarily expects to be able to signal end of data by closing the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103042Z" creationid="pingfangx" creationdate="20190901T103042Z">
+        <seg>实现说明：在不使用持久连接的 HTTP 实现中，服务器通常希望能够通过关闭连接来发送数据结束信号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Implementations SHOULD constantly monitor open connections for a received closure signal and respond to it as appropriate, since prompt closure of both sides of a connection enables allocated system resources to be reclaimed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112441Z" creationid="pingfangx" creationdate="20190831T112441Z">
@@ -11079,6 +11391,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In general, HTTP/TLS requests are generated by dereferencing a URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103511Z" creationid="pingfangx" creationdate="20190901T103511Z">
+        <seg>通常，通过解除引用 URI 来生成 HTTP/TLS 请求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In general, an HTTP user agent SHOULD follow the same or similar behavior as a MIME user agent would upon receipt of a multipart type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T152748Z" creationid="pingfangx" creationdate="20190828T152748Z">
@@ -11167,6 +11487,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In order to prevent this form of attack, users should carefully examine the certificate presented by the server to determine if it meets their expectations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T112933Z" creationid="pingfangx" creationdate="20190901T112933Z">
+        <seg>为了防止这种形式的攻击，用户应仔细检查服务器提供的证书，以确定它是否符合他们的期望。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In order to remain persistent, all messages on a connection need to have a self-defined message length (i.e., one not defined by closure of the connection), as described in Section 3.3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T111236Z" creationid="pingfangx" creationdate="20190831T111236Z">
@@ -11227,6 +11555,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060619Z" creationid="pingfangx" creationdate="20190828T060619Z">
         <seg>特别是，通过这种方式拒绝寻址到不存在的连接的 SYN。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, servers SHOULD be prepared to receive an incomplete close from the client, since the client can often determine when the end of server data is.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103019Z" creationid="pingfangx" creationdate="20190901T103019Z">
+        <seg>特别是，服务器应该准备好从客户端接收不完整的关闭，因为客户端通常可以确定服务器数据的结束时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11311,6 +11647,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some cases, the URI is specified as an IP address rather than a hostname.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111338Z" creationid="pingfangx" creationdate="20190901T111338Z">
+        <seg>在某些情况下，URI 被指定为 IP 地址而不是主机名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In some contexts such names would indicate methods by means of which event handlers are &lt;e5&gt;registered&lt;/e5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T064833Z" creationid="pingfangx" creationdate="20190620T064740Z">
@@ -11323,6 +11667,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T070030Z" creationid="pingfangx" creationdate="20190620T070030Z">
         <seg>在 ReactiveX 的一些实现中，还存在称为“Connectable” 的 Observable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In special cases, it may be appropriate for the client to simply ignore the server's identity, but it must be understood that this leaves the connection open to active attack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103814Z" creationid="pingfangx" creationdate="20190901T103814Z">
+        <seg>在特殊情况下，客户端可以简单地忽略服务器的身份，但必须理解的是，这会使连接受到主动攻击。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11539,6 +11891,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T022948Z" creationid="pingfangx" creationdate="20190624T022948Z">
         <seg>在这种情况下，委托以相同的方式工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case, the iPAddress subjectAltName must be present in the certificate and must exactly match the IP in the URI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111350Z" creationid="pingfangx" creationdate="20190901T111350Z">
+        <seg>在这种情况下，iPAddress subjectAltName 必须存在于证书中，并且必须与 URI 中的 IP 完全匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11807,6 +12167,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It MAY resume a TLS session closed in this fashion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T094012Z" creationid="pingfangx" creationdate="20190901T094012Z">
+        <seg>它可以以这种方式恢复关闭的 TLS 会话。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It MUST NOT perform the requested method if it returns a final status code.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T024949Z" creationid="pingfangx" creationdate="20190830T024949Z">
@@ -11851,6 +12219,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T064956Z" creationid="pingfangx" creationdate="20190620T064956Z">
         <seg>这取决于 Observable。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It does not specify an Internet standard of any kind.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T085525Z" creationid="pingfangx" creationdate="20190901T085525Z">
+        <seg>它没有指定任何类型的互联网标准。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12087,6 +12463,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It should initiate a connection to the server on the appropriate port and then send the TLS ClientHello to begin the TLS handshake.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091417Z" creationid="pingfangx" creationdate="20190901T091417Z">
+        <seg>它应该在适当的端口上启动与服务器的连接，然后发送 TLS ClientHello 以开始 TLS 握手。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It takes two parameters:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T021722Z" creationid="pingfangx" creationdate="20190624T021722Z">
@@ -12163,6 +12547,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T100903Z" creationid="pingfangx" creationdate="20190617T100903Z">
         <seg>由于擦除，Java 不认为 `operator(Function &lt;T，Single &lt;R &gt;&gt;)` 和 `operator(Function &lt;T，Maybe &lt;R &gt;&gt;)` 的签名是不同的(与 C# 不同)，这两个 ` operator` 最终会成为具有相同签名的重复方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keywords "MUST", "MUST NOT", "REQUIRED", "SHOULD", "SHOULD NOT" and "MAY" that appear in this document are to be interpreted as described in [RFC2119].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091207Z" creationid="pingfangx" creationdate="20190901T091207Z">
+        <seg>本文档中出现的关键词 "MUST", "MUST NOT", "REQUIRED", "SHOULD", "SHOULD NOT" 和 "MAY" 应按照 [RFC2119] 中的描述进行解释。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12427,6 +12819,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T020256Z" creationid="pingfangx" creationdate="20190624T020256Z">
         <seg>许多值生成可以以状态机的形式表达。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matching is performed using the matching rules specified by [RFC2459].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T104437Z" creationid="pingfangx" creationdate="20190901T104437Z">
+        <seg>使用 [RFC2459] 指定的匹配规则执行匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13015,6 +13415,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normal HTTP behavior, including retained connections should be followed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091523Z" creationid="pingfangx" creationdate="20190901T091523Z">
+        <seg>应遵循正常的 HTTP 行为，包括持久连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not all of these are available in all implementations, and some implementations use other naming conventions (for example, in RxScala, what is called a “PublishSubject” here is known simply as a “Subject”):</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T083851Z" creationid="pingfangx" creationdate="20190620T083851Z">
@@ -13103,10 +13511,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that a premature close does not call into question the security of the data already received, but simply indicates that subsequent data might have been truncated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T092316Z" creationid="pingfangx" creationdate="20190901T092316Z">
+        <seg>请注意，过早关闭不会对已收到的数据的安全性产生疑问，而只是表明后续数据可能已被截断。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that a server might reject traffic that it deems abusive or characteristic of a denial-of-service attack, such as an excessive number of open connections from a single client.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112246Z" creationid="pingfangx" creationdate="20190831T112246Z">
         <seg>请注意，服务器可能会拒绝其认为具有滥用或拒绝服务攻击特征的流量，例如来自单个客户端的过多打开连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that an implementation which does this MAY choose to reuse the session.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091851Z" creationid="pingfangx" creationdate="20190901T091851Z">
+        <seg>请注意，执行此操作的实现可以选择重用会话。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13123,6 +13547,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T024451Z" creationid="pingfangx" creationdate="20190828T024451Z">
         <seg>请注意，如果 TCP 在某种意义上重新初始化，但仍然保留其使用的序列号的内存，那么它根本不需要等待；它必须只能确保使用大于最近使用的序列号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that in many cases the URI itself comes from an untrusted source.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111612Z" creationid="pingfangx" creationdate="20190901T111612Z">
+        <seg>请注意，在许多情况下，URI 本身来自不受信任的来源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13903,6 +14335,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise, the (most specific) Common Name field in the Subject field of the certificate MUST be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103926Z" creationid="pingfangx" creationdate="20190901T103926Z">
+        <seg>否则，必须使用证书的 Subject 字段中的(最具体的)Common Name 字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise, the authority component is assigned the default name configured for the server and, if the connection's incoming TCP port number differs from the default port for the effective request URI's scheme, then a colon (":") and the incoming port number (in decimal form) are appended to the authority component.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T131109Z" creationid="pingfangx" creationdate="20190831T131109Z">
@@ -14139,6 +14579,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T070905Z" creationid="pingfangx" creationdate="20190828T070905Z">
         <seg>有关本协议的标准化状态和状态，请参阅当前版本的“互联网官方协议标准”(STD 1)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Port Number</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090521Z" creationid="pingfangx" creationdate="20190901T090521Z">
+        <seg>端口号</seg>
       </tuv>
     </tu>
     <tu>
@@ -14443,6 +14891,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T071311Z" creationid="pingfangx" creationdate="20190828T071311Z">
         <seg>参考文献</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RFC 2616 permits an HTTP client to close the connection at any time, and requires servers to recover gracefully.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T102546Z" creationid="pingfangx" creationdate="20190901T102546Z">
+        <seg>RFC 2616 允许 HTTP 客户端随时关闭连接，并要求服务器正常恢复。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14851,6 +15307,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T090603Z" creationid="pingfangx" creationdate="20190830T090603Z">
         <seg>需求符号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Requirements Terminology</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090440Z" creationid="pingfangx" creationdate="20190901T090440Z">
+        <seg>要求术语</seg>
       </tuv>
     </tu>
     <tu>
@@ -15399,6 +15863,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>SSL, and its successor TLS [RFC2246] were designed to provide channel-oriented security.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091107Z" creationid="pingfangx" creationdate="20190901T091107Z">
+        <seg>SSL 及其后继 TLS [RFC2246] 旨在提供面向通道的安全性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>SYN-RECEIVED - represents waiting for a confirming connection request acknowledgment after having both received and sent a connection request.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112646Z" creationid="pingfangx" creationdate="20190827T112646Z">
@@ -15607,6 +16079,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Server Behavior</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090513Z" creationid="pingfangx" creationdate="20190901T090513Z">
+        <seg>服务器行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Server Identity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090550Z" creationid="pingfangx" creationdate="20190901T090550Z">
+        <seg>服务器标识</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Server response:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T100448Z" creationid="pingfangx" creationdate="20190830T100448Z">
@@ -15627,6 +16115,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T150449Z" creationid="pingfangx" creationdate="20190828T073219Z">
         <seg>服务器驱动的协商</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Servers MAY close the connection after sending the closure alert, thus generating an incomplete close on the client side.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103113Z" creationid="pingfangx" creationdate="20190901T103113Z">
+        <seg>服务器可以在发送关闭警报后关闭连接，从而在客户端生成不完整的关闭。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Servers MUST attempt to initiate an exchange of closure alerts with the client before closing the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103102Z" creationid="pingfangx" creationdate="20190901T103102Z">
+        <seg>在关闭连接之前，服务器必须尝试与客户端交换关闭警报。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15719,6 +16223,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Simply use HTTP over TLS precisely as you would use HTTP over TCP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091223Z" creationid="pingfangx" creationdate="20190901T091223Z">
+        <seg>简单地使用 HTTP over TLS 就像使用 HTTP over TCP 一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Simultaneous Close Sequence</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063958Z" creationid="pingfangx" creationdate="20190828T063958Z">
@@ -15771,6 +16283,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T132355Z" creationid="pingfangx" creationdate="20190831T132355Z">
         <seg>由于 HTTP 流具有与管道和过滤器架构类似的特性，因此中间件可以增强(或干扰)流的任一方向的程度没有固有的限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since data length in this situation is signalled by connection close a premature close generated by the server cannot be distinguished from a spurious close generated by an attacker.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T093625Z" creationid="pingfangx" creationdate="20190901T093625Z">
+        <seg>由于在这种情况下的数据长度通过连接关闭发出信号，因此服务器生成的过早关闭不能与攻击者生成的虚假关闭区分开。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16459,6 +16979,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112924Z" creationid="pingfangx" creationdate="20190827T112924Z">
         <seg>TIME-WAIT - 表示等待足够的时间以确保远程 TCP 收到其连接终止请求的确认。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS implementations MUST initiate an exchange of closure alerts before closing a connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091802Z" creationid="pingfangx" creationdate="20190901T091802Z">
+        <seg>TLS 实现必须在关闭连接之前启动关闭警报的交换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS only presumes a reliable connection-oriented data stream.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103316Z" creationid="pingfangx" creationdate="20190901T103316Z">
+        <seg>TLS 仅假定可靠的面向连接的数据流。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS provides a facility for secure connection closure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091629Z" creationid="pingfangx" creationdate="20190901T091629Z">
+        <seg>TLS 提供安全连接关闭的工具。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17458,6 +18002,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The above-described check provides no protection against attacks where this source is compromised.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111635Z" creationid="pingfangx" creationdate="20190901T111635Z">
+        <seg>上述检查不提供针对源受损的攻击的保护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The absoluteURI form is REQUIRED when the request is being made to a proxy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T100144Z" creationid="pingfangx" creationdate="20190829T100144Z">
@@ -17502,6 +18054,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T082041Z" creationid="pingfangx" creationdate="20190828T081949Z">
         <seg>响应的年龄是自原始服务器发送或成功验证以来的时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The agent acting as the HTTP client should also act as the TLS client.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091308Z" creationid="pingfangx" creationdate="20190901T091308Z">
+        <seg>充当 HTTP 客户端的代理也应充当 TLS 客户端。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17702,6 +18262,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T105530Z" creationid="pingfangx" creationdate="20190829T105530Z">
         <seg>客户端不需要检查或显示 Reason-Phrase。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The client may then initiate the first HTTP request.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091456Z" creationid="pingfangx" creationdate="20190901T091456Z">
+        <seg>然后，客户端可以发起第一个 HTTP 请求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18070,6 +18638,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T021149Z" creationid="pingfangx" creationdate="20190624T021149Z">
         <seg>第一个回调允许创建一个每个订阅者独立的状态，例如示例中的 `FileInputStream`;该文件将为每个订阅者独立打开。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first data that a TLS server (and hence an HTTP/TLS server) expects to receive is the ClientHello.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103233Z" creationid="pingfangx" creationdate="20190901T103233Z">
+        <seg>TLS 服务器(以及 HTTP/TLS 服务器)期望接收的第一个数据是 ClientHello。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first data that an HTTP server expects to receive from the client is the Request-Line production.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103156Z" creationid="pingfangx" creationdate="20190901T103156Z">
+        <seg>HTTP 服务器期望从客户端接收的第一个数据是请求行产品。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20338,6 +20922,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is one exception to the above rule.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T093716Z" creationid="pingfangx" creationdate="20190901T093716Z">
+        <seg>上述规则有一个例外。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There may exist multiple representations associated with a particular response status.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T081148Z" creationid="pingfangx" creationdate="20190828T081148Z">
@@ -20690,6 +21282,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This SHOULD only be done when the application knows (typically through detecting HTTP message boundaries) that it has received all the message data that it cares about.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T092139Z" creationid="pingfangx" creationdate="20190901T092139Z">
+        <seg>只有当应用程序知道(通常通过检测 HTTP 消息边界)它已经接收到它关心的所有消息数据时，才应该这样做。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This Scheduler has three additional methods:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T091825Z" creationid="pingfangx" creationdate="20190620T091825Z">
@@ -20914,10 +21514,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This document describes how to use HTTP over TLS.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091124Z" creationid="pingfangx" creationdate="20190901T091124Z">
+        <seg>本文档介绍如何使用 HTTP over TLS。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document describes the architectural elements that are used or referred to in HTTP, defines the "http" and "https" URI schemes, describes overall network operation and connection management, and defines HTTP message framing and forwarding requirements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T094430Z" creationid="pingfangx" creationdate="20190830T094430Z">
         <seg>本文档描述了在 HTTP 中使用或引用的体系结构元素，定义了“http”和“https”URI 方案，描述了整体网络操作和连接管理，并定义了 HTTP 消息成帧和转发要求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document documents that practice using TLS.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T085651Z" creationid="pingfangx" creationdate="20190901T085651Z">
+        <seg>本文档记录了使用 TLS 的练习。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20982,6 +21598,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T092120Z" creationid="pingfangx" creationdate="20190828T092120Z">
         <seg>这并不妨碍 HTTP 在 Internet 上或其他网络上的任何其他协议之上实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This does not preclude HTTP/TLS from being run over another transport.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103306Z" creationid="pingfangx" creationdate="20190901T103306Z">
+        <seg>这并不妨碍 HTTP/TLS 在另一个传输上运行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21294,6 +21918,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T103714Z" creationid="pingfangx" creationdate="20190829T085808Z">
         <seg>除非知道收件人可以解析，否则不得使用此媒体类型;在具有来自 1.1 客户端的多个字节范围说明符的 Range 首部的请求中的存在意味着客户端可以解析 multipart/byteranges 响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This memo describes how to use TLS to secure HTTP connections over the Internet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T085617Z" creationid="pingfangx" creationdate="20190901T085617Z">
+        <seg>本备忘录描述了如何使用 TLS 来保护互联网上的 HTTP 连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This memo provides information for the Internet community.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T085518Z" creationid="pingfangx" creationdate="20190901T085518Z">
+        <seg>本备忘录为互联网社区提供信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22178,6 +22818,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Typically, the server has no external knowledge of what the client's identity ought to be and so checks (other than that the client has a certificate chain rooted in an appropriate CA) are not possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T113143Z" creationid="pingfangx" creationdate="20190901T113143Z">
+        <seg>通常，服务器不知道客户端的身份应该是什么，因此检查(除了客户端具有植根于适当 CA 的证书链之外)是不可能的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Typically, you can move computations or blocking IO to some other thread via `subscribeOn`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T072819Z" creationid="pingfangx" creationdate="20190617T072819Z">
@@ -22206,6 +22854,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T072057Z" creationid="pingfangx" creationdate="20190828T072057Z">
         <seg>URI 比较</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>URI Format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090527Z" creationid="pingfangx" creationdate="20190901T090527Z">
+        <seg>URI 格式</seg>
       </tuv>
     </tu>
     <tu>
@@ -22818,6 +23474,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When Content-Length is used, however, the client may have already sent the closure alert and dropped the connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103052Z" creationid="pingfangx" creationdate="20190901T103052Z">
+        <seg>但是，当使用 Content-Length 时，客户端可能已经发送了关闭警报并删除了连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When HTTP/TLS is being run over a TCP/IP connection, the default port is 443.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103259Z" creationid="pingfangx" creationdate="20190901T103259Z">
+        <seg>当通过 TCP/IP 连接运行 HTTP/TLS 时，默认端口为 443。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When Upgrade is sent, the sender MUST also send a Connection header field (Section 6.1) that contains an "upgrade" connection option, in order to prevent Upgrade from being accidentally forwarded by intermediaries that might not implement the listed protocols.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T113602Z" creationid="pingfangx" creationdate="20190831T113602Z">
@@ -22962,6 +23634,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a valid closure alert is received, an implementation can be assured that no further data will be received on that connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091705Z" creationid="pingfangx" creationdate="20190901T091705Z">
+        <seg>当收到有效的关闭警报时，实现可以确保不会在该连接上接收进一步的数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When all segments preceding the FINs have been processed and acknowledged, each TCP can ACK the FIN it has received.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T063921Z" creationid="pingfangx" creationdate="20190828T063921Z">
@@ -23062,6 +23742,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T064950Z" creationid="pingfangx" creationdate="20190620T064950Z">
         <seg>Observable 何时开始发射其数据项序列？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When encountering a premature close, a client SHOULD treat as completed all requests for which it has received as much data as specified in the Content-Length header.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T093937Z" creationid="pingfangx" creationdate="20190901T093937Z">
+        <seg>当遇到过早关闭时，客户端应该将已收到的所有请求视为已完成的 Content-Length 首部中指定的数据。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23170,6 +23858,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the TLS handshake has finished.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091424Z" creationid="pingfangx" creationdate="20190901T091424Z">
+        <seg>TLS 握手完成后。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the dataflow runs through asynchronous steps, each step may perform different things with different speed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T071154Z" creationid="pingfangx" creationdate="20190617T071154Z">
@@ -23230,6 +23926,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110021Z" creationid="pingfangx" creationdate="20190827T110021Z">
         <seg>在计算校验和时，校验和字段本身将替换为零。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While in some cases the HTTP protocol allows the client to find out whether truncation took place so that, if it received the complete reply, it may tolerate such errors following the principle to "[be] strict when sending and tolerant when receiving" [RFC1958], often truncation does not show in the HTTP protocol data; two cases in particular deserve special note:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T093239Z" creationid="pingfangx" creationdate="20190901T093239Z">
+        <seg>虽然在某些情况下 HTTP 协议允许客户端查明是否发生了截断，因此，如果收到完整的答复，它可以容忍这样的错误，遵循“发送时严格和接收时容忍”[RFC1958]，经常在 HTTP 协议数据中没有显示截断；特别值得注意的是两个案例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -24822,6 +25526,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T102620Z" creationid="pingfangx" creationdate="20190617T102620Z">
         <seg>它甚至不编译因为至少存在 4 个 `concatWith` 重载并且编译器发现上面的代码有歧义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>f*.com matches foo.com but not bar.com.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111331Z" creationid="pingfangx" creationdate="20190901T111331Z">
+        <seg>f*.com 匹配 foo.com 但不匹配 bar.com。</seg>
       </tuv>
     </tu>
     <tu>
