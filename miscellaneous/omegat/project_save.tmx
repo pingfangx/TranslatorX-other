@@ -823,6 +823,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-  Authentication: The server side of the channel is always authenticated; the client side is optionally authenticated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122453Z" creationid="pingfangx" creationdate="20190901T122453Z">
+        <seg> - 身份验证：通道的服务器端始终进行身份验证；客户端可选择进行身份验证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  Confidentiality: Data sent over the channel after establishment is only visible to the endpoints.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122851Z" creationid="pingfangx" creationdate="20190901T122851Z">
+        <seg>- 保密性：建立后通过信道发送的数据仅对端点可见。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  Integrity: Data sent over the channel after establishment cannot be modified by attackers without detection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T123339Z" creationid="pingfangx" creationdate="20190901T123339Z">
+        <seg>- 完整性：无须检测，攻击者无法修改建立后通过信道发送的数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- 1xx: Informational - Request received, continuing process</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T105635Z" creationid="pingfangx" creationdate="20190829T105635Z">
@@ -3783,6 +3807,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alert Protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122207Z" creationid="pingfangx" creationdate="20190901T122207Z">
+        <seg>警报协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All 1xx (Informational), 204 (No Content), and 304 (Not Modified) responses do not include a message body.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T090427Z" creationid="pingfangx" creationdate="20190831T090427Z">
@@ -5215,6 +5247,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Authentication can happen via asymmetric cryptography (e.g., RSA [RSA], the Elliptic Curve Digital Signature Algorithm (ECDSA) [ECDSA], or the Edwards-Curve Digital Signature Algorithm (EdDSA) [RFC8032]) or a symmetric pre-shared key (PSK).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122814Z" creationid="pingfangx" creationdate="20190901T122814Z">
+        <seg>身份验证可以通过非对称加密(例如，RSA [RSA]，椭圆曲线数字签名算法(ECDSA)[ECDSA] 或 Edwards 曲线数字签名算法(EdDSA)[RFC8032])或对称预共享密钥( PSK)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Author's Address</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090642Z" creationid="pingfangx" creationdate="20190901T090642Z">
@@ -5267,6 +5307,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T040732Z" creationid="pingfangx" creationdate="20190828T040732Z">
         <seg>连接同步的基本三次握手</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basic Block Size</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122027Z" creationid="pingfangx" creationdate="20190901T122027Z">
+        <seg>基本块大小</seg>
       </tuv>
     </tu>
     <tu>
@@ -6127,6 +6175,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compliance Requirements</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122229Z" creationid="pingfangx" creationdate="20190901T122229Z">
+        <seg>合规要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Composition via Observable Operators</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T070213Z" creationid="pingfangx" creationdate="20190620T070213Z">
@@ -6455,6 +6511,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Conventions and Terminology</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121633Z" creationid="pingfangx" creationdate="20190901T121633Z">
+        <seg>惯例和术语</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Conversion of Date Formats</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074608Z" creationid="pingfangx" creationdate="20190828T074608Z">
@@ -6499,6 +6563,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190624T015503Z" creationid="pingfangx" creationdate="20190624T015503Z">
         <seg>在处理背压时，创建背压数据源是相对容易的任务，因为库已经在 `Flowable` 上提供了静态方法，可以让开发人员处理背压。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cryptographic Computations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122218Z" creationid="pingfangx" creationdate="20190901T122218Z">
+        <seg>密码计算</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cryptographic Negotiation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122125Z" creationid="pingfangx" creationdate="20190901T122125Z">
+        <seg>加密协商</seg>
       </tuv>
     </tu>
     <tu>
@@ -8923,6 +9003,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T090803Z" creationid="pingfangx" creationdate="20190830T090803Z">
         <seg>处理不完整的消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Handshake Protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122108Z" creationid="pingfangx" creationdate="20190901T122108Z">
+        <seg>握手协议</seg>
       </tuv>
     </tu>
     <tu>
@@ -11959,6 +12047,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Incorrect DHE Share</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121656Z" creationid="pingfangx" creationdate="20190901T121656Z">
+        <seg>DHE 共享不正确</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Index</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074652Z" creationid="pingfangx" creationdate="20190828T074652Z">
@@ -12551,6 +12647,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Key Exchange Messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122111Z" creationid="pingfangx" creationdate="20190901T122111Z">
+        <seg>密钥交换消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Keywords "MUST", "MUST NOT", "REQUIRED", "SHOULD", "SHOULD NOT" and "MAY" that appear in this document are to be interpreted as described in [RFC2119].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091207Z" creationid="pingfangx" creationdate="20190901T091207Z">
@@ -12779,6 +12883,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T152007Z" creationid="pingfangx" creationdate="20190828T152007Z">
         <seg>MIME 提供了许多“multipart”类型 - 单个消息体内的一个或多个实体的封装。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Major Differences from TLS 1.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121636Z" creationid="pingfangx" creationdate="20190901T121636Z">
+        <seg>与 TLS 1.2 的主要区别</seg>
       </tuv>
     </tu>
     <tu>
@@ -13027,6 +13139,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T104949Z" creationid="pingfangx" creationdate="20190617T104949Z">
         <seg>当添加非平凡的新功能或重大增强或发生可能影响某些边缘情况的行为变化（例如，对错误导致的行为的依赖）的错误修复时，将发生次要 2.x 升级（例如 2.1,2.2 等）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Miscellaneous</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122032Z" creationid="pingfangx" creationdate="20190901T122032Z">
+        <seg>杂项</seg>
       </tuv>
     </tu>
     <tu>
@@ -14639,6 +14759,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Presentation Language</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121752Z" creationid="pingfangx" creationdate="20190901T121752Z">
+        <seg>表示语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Previous revisions of HTTP gave a specific number of connections as a ceiling, but this was found to be impractical for many applications.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112122Z" creationid="pingfangx" creationdate="20190831T112122Z">
@@ -14723,6 +14851,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T031556Z" creationid="pingfangx" creationdate="20190828T031556Z">
         <seg>正确使用“重置”报文段可以消除这些情况的歧义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Protocol Overview</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121649Z" creationid="pingfangx" creationdate="20190901T121649Z">
+        <seg>协议概述</seg>
       </tuv>
     </tu>
     <tu>
@@ -15051,6 +15187,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T070607Z" creationid="pingfangx" creationdate="20190831T070607Z">
         <seg>接收者通常通过拆分空格来将请求行解析为其组成部分(参见第 3.5 节)，因为这三个组件中不允许有空格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Record Layer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122145Z" creationid="pingfangx" creationdate="20190901T122145Z">
+        <seg>记录层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Record Payload Protection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122148Z" creationid="pingfangx" creationdate="20190901T122148Z">
+        <seg>记录有效负载保护</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Record Protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122142Z" creationid="pingfangx" creationdate="20190901T122142Z">
+        <seg>记录协议</seg>
       </tuv>
     </tu>
     <tu>
@@ -15527,6 +15687,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Resumption and Pre-Shared Key (PSK)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121748Z" creationid="pingfangx" creationdate="20190901T121748Z">
+        <seg>恢复和预共享密钥(PSK)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Retrying Requests</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091016Z" creationid="pingfangx" creationdate="20190830T091016Z">
@@ -15947,6 +16115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T111326Z" creationid="pingfangx" creationdate="20190831T111326Z">
         <seg>有关向后兼容 HTTP/1.0 客户端的更多信息，请参阅附录 A.1.2。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See Appendix E for a more complete statement of the relevant security properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T123739Z" creationid="pingfangx" creationdate="20190901T123739Z">
+        <seg>有关相关安全属性的更完整声明，请参阅附录 E。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16671,6 +16847,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifically, the secure channel should provide the following properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122431Z" creationid="pingfangx" creationdate="20190901T122431Z">
+        <seg>具体而言，安全通道应提供以下属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Spiders, for example, are typically given a start URI and configured to follow certain behavior while crawling the Web as a hypertext graph.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T100703Z" creationid="pingfangx" creationdate="20190830T100703Z">
@@ -16979,6 +17163,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T112924Z" creationid="pingfangx" creationdate="20190827T112924Z">
         <seg>TIME-WAIT - 表示等待足够的时间以确保远程 TCP 收到其连接终止请求的确认。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS allows client/server applications to communicate over the Internet in a way that is designed to prevent eavesdropping, tampering, and message forgery.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121356Z" creationid="pingfangx" creationdate="20190901T121356Z">
+        <seg>TLS 允许客户端/服务器应用程序在互联网上通过旨在防止窃听，篡改和消息伪造的方式进行通信。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS consists of two primary components:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T124313Z" creationid="pingfangx" creationdate="20190901T124313Z">
+        <seg>TLS 包含两个主要组件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS does not hide the length of the data it transmits, though endpoints are able to pad TLS records in order to obscure lengths and improve protection against traffic analysis techniques.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T123159Z" creationid="pingfangx" creationdate="20190901T123159Z">
+        <seg>TLS 不会隐藏它传输的数据的长度，尽管端点能够填充 TLS 记录以掩盖长度并改进对流量分析技术的保护。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19602,6 +19810,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The primary goal of TLS is to provide a secure channel between two communicating peers; the only requirement from the underlying transport is a reliable, in-order data stream.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122426Z" creationid="pingfangx" creationdate="20190901T122426Z">
+        <seg>TLS 的主要目标是在两个通信对等体之间提供安全通道；底层传输的唯一要求是可靠的有序数据流。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The principle reason for the three-way handshake is to prevent old duplicate connection initiations from causing confusion.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T042455Z" creationid="pingfangx" creationdate="20190828T042455Z">
@@ -21170,6 +21386,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These properties should be true even in the face of an attacker who has complete control of the network, as described in [RFC3552].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T123726Z" creationid="pingfangx" creationdate="20190901T123726Z">
+        <seg>即使面对完全控制网络的攻击者，这些属性也应该是正确的，如 [RFC3552] 中所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These requirements allow HTTP's functionality to be enhanced without requiring prior update of deployed intermediaries.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T082120Z" creationid="pingfangx" creationdate="20190831T082120Z">
@@ -21498,6 +21722,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This document also specifies new requirements for TLS 1.2 implementations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121407Z" creationid="pingfangx" creationdate="20190901T121407Z">
+        <seg>本文档还规定了 TLS 1.2 实现的新要求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document defines HTTP/1.1 request and response semantics in terms of the architecture defined in [RFC7230].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T121640Z" creationid="pingfangx" creationdate="20190831T121640Z">
@@ -21566,6 +21798,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T070847Z" creationid="pingfangx" creationdate="20190828T070847Z">
         <seg>本文档为互联网社区指定了互联网标准跟踪协议，并请求讨论和改进建议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document specifies version 1.3 of the Transport Layer Security (TLS) protocol.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121305Z" creationid="pingfangx" creationdate="20190901T121305Z">
+        <seg>本文档规定了传输层安全性(TLS)协议的 1.3 版。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document updates RFCs 5705 and 6066, and obsoletes RFCs 5077, 5246, and 6961.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121403Z" creationid="pingfangx" creationdate="20190901T121403Z">
+        <seg>本文档更新了 RFC 5705 和 6066，并废弃了 RFC 5077,5246 和 6961。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23118,6 +23366,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T061437Z" creationid="pingfangx" creationdate="20190620T061437Z">
         <seg>取消订阅</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Updates Affecting TLS 1.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121646Z" creationid="pingfangx" creationdate="20190901T121646Z">
+        <seg>影响 TLS 1.2 的更新</seg>
       </tuv>
     </tu>
     <tu>
