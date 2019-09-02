@@ -386,11 +386,11 @@ RFC 7231             HTTP/1.1 Semantics and Content            June 2014
 
 3.1.  Representation Metadata
 
-   Representation header fields provide metadata about the representation.  When a message includes a payload body, the representation header fields describe how to interpret the representation data enclosed in the payload body.  In a response to a
+   Representation header fields provide metadata about the representation.  When a message includes a payload body, the representation header fields describe how to interpret the representation data enclosed in the payload body.  In a response to a HEAD request, the representation header fields describe the representation data that would have been enclosed in the payload body if the same request had been a GET.
 
 
 
-   HEAD request, the representation header fields describe the representation data that would have been enclosed in the payload body if the same request had been a GET.
+   
 
 
 
@@ -917,11 +917,11 @@ RFC 7231             HTTP/1.1 Semantics and Content            June 2014
 
 3.3.  Payload Semantics
 
-   Some HTTP messages transfer a complete or partial representation as the message "payload".  In some cases, a payload might contain only the associated representation's header fields (e.g., responses to HEAD) or only some part(s) of the representation data (e.g., the 206
+   Some HTTP messages transfer a complete or partial representation as the message "payload".  In some cases, a payload might contain only the associated representation's header fields (e.g., responses to HEAD) or only some part(s) of the representation data (e.g., the 206 (Partial Content) status code).
 
 
 
-   (Partial Content) status code).
+   
 
    The purpose of a payload in a request is defined by the method semantics.  For example, a representation in the payload of a PUT request (Section 4.3.4) represents the desired state of the target resource if the request is successfully applied, whereas a representation in the payload of a POST request (Section 4.3.3) represents information to be processed by the target resource.
 
@@ -940,9 +940,9 @@ Fielding & Reschke           Standards Track                   [Page 17]
 RFC 7231             HTTP/1.1 Semantics and Content            June 2014
 
 
-   In a response, the payload's purpose is defined by both the request method and the response status code.  For example, the payload of a
+   In a response, the payload's purpose is defined by both the request method and the response status code.  For example, the payload of a 200 (OK) response to GET (Section 4.3.1) represents the current state of the target resource, as observed at the time of the message origination date (Section 7.1.1.2), whereas the payload of the same status code in a response to POST might represent either the processing result or the new state of the target resource after applying the processing.  Response messages with an error status code usually contain a payload that represents the error condition, such that it describes the error state and what next steps are suggested for resolving it.
 
-   200 (OK) response to GET (Section 4.3.1) represents the current state of the target resource, as observed at the time of the message origination date (Section 7.1.1.2), whereas the payload of the same status code in a response to POST might represent either the processing result or the new state of the target resource after applying the processing.  Response messages with an error status code usually contain a payload that represents the error condition, such that it describes the error state and what next steps are suggested for resolving it.
+   
 
 
 

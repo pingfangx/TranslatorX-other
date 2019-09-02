@@ -28,3 +28,4 @@ message	消息	邮件|
 recipient	接收者	收件人|
 sender	发送者	发件人|
 cache	缓存	高速缓存|
+payload	有交荷载	有效负载|
