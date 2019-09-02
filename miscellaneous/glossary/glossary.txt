@@ -29,3 +29,6 @@ recipient	接收者	收件人|
 sender	发送者	发件人|
 cache	缓存	高速缓存|
 payload	有交荷载	有效负载|
+peer	对等端	对等体,对等方|
+extension	扩展	扩展名|
+implement	实现	实施|
