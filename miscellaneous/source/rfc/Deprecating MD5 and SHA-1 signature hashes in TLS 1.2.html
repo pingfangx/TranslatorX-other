@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head profile="http://www.w3.org/2006/03/hcard http://dublincore.org/documents/2008/08/04/dc-html/">
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+
+  <title>Deprecating MD5 and SHA-1 signature hashes in TLS 1.2</title>
+
+  <style type="text/css" title="Xml2Rfc (sans serif)">
+  /*<![CDATA[*/
+	  a {
+	  text-decoration: none;
+	  }
+      /* info code from SantaKlauss at http://www.madaboutstyle.com/tooltip2.html */
+      a.info {
+          /* This is the key. */
+          position: relative;
+          z-index: 24;
+          text-decoration: none;
+      }
+      a.info:hover {
+          z-index: 25;
+          color: #FFF; background-color: #900;
+      }
+      a.info span { display: none; }
+      a.info:hover span.info {
+          /* The span will display just on :hover state. */
+          display: block;
+          position: absolute;
+          font-size: smaller;
+          top: 2em; left: -5em; width: 15em;
+          padding: 2px; border: 1px solid #333;
+          color: #900; background-color: #EEE;
+          text-align: left;
+      }
+	  a.smpl {
+	  color: black;
+	  }
+	  a:hover {
+	  text-decoration: underline;
+	  }
+	  a:active {
+	  text-decoration: underline;
+	  }
+	  address {
+	  margin-top: 1em;
+	  margin-left: 2em;
+	  font-style: normal;
+	  }
+	  body {
+	  color: black;
+	  font-family: verdana, helvetica, arial, sans-serif;
+	  font-size: 10pt;
+	  max-width: 55em;
+	  
+	  }
+	  cite {
+	  font-style: normal;
+	  }
+	  dd {
+	  margin-right: 2em;
+	  }
+	  dl {
+	  margin-left: 2em;
+	  }
+	
+	  ul.empty {
+	  list-style-type: none;
+	  }
+	  ul.empty li {
+	  margin-top: .5em;
+	  }
+	  dl p {
+	  margin-left: 0em;
+	  }
+	  dt {
+	  margin-top: .5em;
+	  }
+	  h1 {
+	  font-size: 14pt;
+	  line-height: 21pt;
+	  page-break-after: avoid;
+	  }
+	  h1.np {
+	  page-break-before: always;
+	  }
+	  h1 a {
+	  color: #333333;
+	  }
+	  h2 {
+	  font-size: 12pt;
+	  line-height: 15pt;
+	  page-break-after: avoid;
+	  }
+	  h3, h4, h5, h6 {
+	  font-size: 10pt;
+	  page-break-after: avoid;
+	  }
+	  h2 a, h3 a, h4 a, h5 a, h6 a {
+	  color: black;
+	  }
+	  img {
+	  margin-left: 3em;
+	  }
+	  li {
+	  margin-left: 2em;
+	  margin-right: 2em;
+	  }
+	  ol {
+	  margin-left: 2em;
+	  margin-right: 2em;
+	  }
+	  ol p {
+	  margin-left: 0em;
+	  }
+	  p {
+	  margin-left: 2em;
+	  margin-right: 2em;
+	  }
+	  pre {
+	  margin-left: 3em;
+	  background-color: lightyellow;
+	  padding: .25em;
+	  }
+	  pre.text2 {
+	  border-style: dotted;
+	  border-width: 1px;
+	  background-color: #f0f0f0;
+	  width: 69em;
+	  }
+	  pre.inline {
+	  background-color: white;
+	  padding: 0em;
+	  }
+	  pre.text {
+	  border-style: dotted;
+	  border-width: 1px;
+	  background-color: #f8f8f8;
+	  width: 69em;
+	  }
+	  pre.drawing {
+	  border-style: solid;
+	  border-width: 1px;
+	  background-color: #f8f8f8;
+	  padding: 2em;
+	  }
+	  table {
+	  margin-left: 2em;
+	  }
+	  table.tt {
+	  vertical-align: top;
+	  }
+	  table.full {
+	  border-style: outset;
+	  border-width: 1px;
+	  }
+	  table.headers {
+	  border-style: outset;
+	  border-width: 1px;
+	  }
+	  table.tt td {
+	  vertical-align: top;
+	  }
+	  table.full td {
+	  border-style: inset;
+	  border-width: 1px;
+	  }
+	  table.tt th {
+	  vertical-align: top;
+	  }
+	  table.full th {
+	  border-style: inset;
+	  border-width: 1px;
+	  }
+	  table.headers th {
+	  border-style: none none inset none;
+	  border-width: 1px;
+	  }
+	  table.left {
+	  margin-right: auto;
+	  }
+	  table.right {
+	  margin-left: auto;
+	  }
+	  table.center {
+	  margin-left: auto;
+	  margin-right: auto;
+	  }
+	  caption {
+	  caption-side: bottom;
+	  font-weight: bold;
+	  font-size: 9pt;
+	  margin-top: .5em;
+	  }
+	
+	  table.header {
+	  border-spacing: 1px;
+	  width: 95%;
+	  font-size: 10pt;
+	  color: white;
+	  }
+	  td.top {
+	  vertical-align: top;
+	  }
+	  td.topnowrap {
+	  vertical-align: top;
+	  white-space: nowrap; 
+	  }
+	  table.header td {
+	  background-color: gray;
+	  width: 50%;
+	  }
+	  table.header a {
+	  color: white;
+	  }
+	  td.reference {
+	  vertical-align: top;
+	  white-space: nowrap;
+	  padding-right: 1em;
+	  }
+	  thead {
+	  display:table-header-group;
+	  }
+	  ul.toc, ul.toc ul {
+	  list-style: none;
+	  margin-left: 1.5em;
+	  margin-right: 0em;
+	  padding-left: 0em;
+	  }
+	  ul.toc li {
+	  line-height: 150%;
+	  font-weight: bold;
+	  font-size: 10pt;
+	  margin-left: 0em;
+	  margin-right: 0em;
+	  }
+	  ul.toc li li {
+	  line-height: normal;
+	  font-weight: normal;
+	  font-size: 9pt;
+	  margin-left: 0em;
+	  margin-right: 0em;
+	  }
+	  li.excluded {
+	  font-size: 0pt;
+	  }
+	  ul p {
+	  margin-left: 0em;
+	  }
+	
+	  .comment {
+	  background-color: yellow;
+	  }
+	  .center {
+	  text-align: center;
+	  }
+	  .error {
+	  color: red;
+	  font-style: italic;
+	  font-weight: bold;
+	  }
+	  .figure {
+	  font-weight: bold;
+	  text-align: center;
+	  font-size: 9pt;
+	  }
+	  .filename {
+	  color: #333333;
+	  font-weight: bold;
+	  font-size: 12pt;
+	  line-height: 21pt;
+	  text-align: center;
+	  }
+	  .fn {
+	  font-weight: bold;
+	  }
+	  .hidden {
+	  display: none;
+	  }
+	  .left {
+	  text-align: left;
+	  }
+	  .right {
+	  text-align: right;
+	  }
+	  .title {
+	  color: #990000;
+	  font-size: 18pt;
+	  line-height: 18pt;
+	  font-weight: bold;
+	  text-align: center;
+	  margin-top: 36pt;
+	  }
+	  .vcardline {
+	  display: block;
+	  }
+	  .warning {
+	  font-size: 14pt;
+	  background-color: yellow;
+	  }
+	
+	
+	  @media print {
+	  .noprint {
+		display: none;
+	  }
+	
+	  a {
+		color: black;
+		text-decoration: none;
+	  }
+	
+	  table.header {
+		width: 90%;
+	  }
+	
+	  td.header {
+		width: 50%;
+		color: black;
+		background-color: white;
+		vertical-align: top;
+		font-size: 12pt;
+	  }
+	
+	  ul.toc a::after {
+		content: leader('.') target-counter(attr(href), page);
+	  }
+	
+	  ul.ind li li a {
+		content: target-counter(attr(href), page);
+	  }
+	
+	  .print2col {
+		column-count: 2;
+		-moz-column-count: 2;
+		column-fill: auto;
+	  }
+	  }
+	
+	  @page {
+	  @top-left {
+		   content: "Internet-Draft"; 
+	  } 
+	  @top-right {
+		   content: "December 2010"; 
+	  } 
+	  @top-center {
+		   content: "Abbreviated Title";
+	  } 
+	  @bottom-left {
+		   content: "Doe"; 
+	  } 
+	  @bottom-center {
+		   content: "Expires June 2011"; 
+	  } 
+	  @bottom-right {
+		   content: "[Page " counter(page) "]"; 
+	  } 
+	  }
+	
+	  @page:first { 
+		@top-left {
+		  content: normal;
+		}
+		@top-right {
+		  content: normal;
+		}
+		@top-center {
+		  content: normal;
+		}
+	  }
+  /*]]>*/
+  </style>
+
+  <link href="#rfc.toc" rel="Contents">
+<link href="#rfc.section.1" rel="Chapter" title="1 Introduction">
+<link href="#rfc.section.1.1" rel="Chapter" title="1.1 Requirements Language">
+<link href="#rfc.section.2" rel="Chapter" title="2 Signature Algorithms">
+<link href="#rfc.section.3" rel="Chapter" title="3 Certificate Request">
+<link href="#rfc.section.4" rel="Chapter" title="4 Server Key Exchange">
+<link href="#rfc.section.5" rel="Chapter" title="5 Certificate Verify">
+<link href="#rfc.section.6" rel="Chapter" title="6 Updates to RFC5246">
+<link href="#rfc.section.7" rel="Chapter" title="7 Updates to RFC7525">
+<link href="#rfc.section.8" rel="Chapter" title="8 Security Considerations">
+<link href="#rfc.section.9" rel="Chapter" title="9 Acknowledgement">
+<link href="#rfc.references" rel="Chapter" title="10 References">
+<link href="#rfc.references.1" rel="Chapter" title="10.1 Normative References">
+<link href="#rfc.references.2" rel="Chapter" title="10.2 Informative References">
+<link href="#rfc.authors" rel="Chapter">
+
+
+  <meta name="generator" content="xml2rfc version 2.22.3 - https://tools.ietf.org/tools/xml2rfc" />
+<meta name="viewport" content="width=600;" />
+<meta name="viewport" content="width=600;" />
+<meta name="viewport" content="width=600;" />
+<meta name="viewport" content="width=600;" />
+<meta name="viewport" content="width=600;" />
+<meta name="viewport" content="width=600;" />
+<meta name="viewport" content="width=600;" />
+<meta name="viewport" content="width=600;" />
+<meta name="viewport" content="width=600;" />
+<meta name="viewport" content="width=600;" />
+  <link rel="schema.dct" href="http://purl.org/dc/terms/" />
+
+  <meta name="dct.creator" content="Velvindron, L., Moriarty, K., and A. Ghedini" />
+  <meta name="dct.identifier" content="urn:ietf:id:draft-lvelvindron-tls-md5-sha1-deprecate-05" />
+  <meta name="dct.issued" scheme="ISO8601" content="2019-29" />
+  <meta name="dct.abstract" content="The MD5 and SHA-1 hashing algorithms are steadily weakening in strength and their deprecation process should begin for their use in TLS 1.2 digital signatures.  However, this document does not deprecate SHA-1 in HMAC for record protection.  " />
+  <meta name="description" content="The MD5 and SHA-1 hashing algorithms are steadily weakening in strength and their deprecation process should begin for their use in TLS 1.2 digital signatures.  However, this document does not deprecate SHA-1 in HMAC for record protection.  " />
+
+</head>
+
+<body>
+
+  <table class="header">
+    <tbody>
+    
+    	<tr>
+<td class="left">Internet Engineering Task Force</td>
+<td class="right">L. Velvindron</td>
+</tr>
+<tr>
+<td class="left">Internet-Draft</td>
+<td class="right">cyberstorm.mu</td>
+</tr>
+<tr>
+<td class="left">Updates: 5246 7525 (if approved)</td>
+<td class="right">K. Moriarty</td>
+</tr>
+<tr>
+<td class="left">Intended status: Standards Track</td>
+<td class="right">Dell EMC</td>
+</tr>
+<tr>
+<td class="left">Expires: November 30, 2019</td>
+<td class="right">A. Ghedini</td>
+</tr>
+<tr>
+<td class="left"></td>
+<td class="right">Cloudflare Inc.</td>
+</tr>
+<tr>
+<td class="left"></td>
+<td class="right">May 29, 2019</td>
+</tr>
+
+    	
+    </tbody>
+  </table>
+
+  <p class="title">Deprecating MD5 and SHA-1 signature hashes in TLS 1.2<br />
+  <span class="filename">draft-lvelvindron-tls-md5-sha1-deprecate-05</span></p>
+  
+  <h1 id="rfc.abstract"><a href="#rfc.abstract">Abstract</a></h1>
+<p>The MD5 and SHA-1 hashing algorithms are steadily weakening in strength and their deprecation process should begin for their use in TLS 1.2 digital signatures.  However, this document does not deprecate SHA-1 in HMAC for record protection.  </p>
+<h1 id="rfc.status"><a href="#rfc.status">Status of This Memo</a></h1>
+<p>This Internet-Draft is submitted in full conformance with the provisions of BCP 78 and BCP 79.</p>
+<p>Internet-Drafts are working documents of the Internet Engineering Task Force (IETF).  Note that other groups may also distribute working documents as Internet-Drafts.  The list of current Internet-Drafts is at https://datatracker.ietf.org/drafts/current/.</p>
+<p>Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.  It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."</p>
+<p>This Internet-Draft will expire on November 30, 2019.</p>
+<h1 id="rfc.copyrightnotice"><a href="#rfc.copyrightnotice">Copyright Notice</a></h1>
+<p>Copyright (c) 2019 IETF Trust and the persons identified as the document authors.  All rights reserved.</p>
+<p>This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (https://trustee.ietf.org/license-info) in effect on the date of publication of this document.  Please review these documents carefully, as they describe your rights and restrictions with respect to this document.  Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the Simplified BSD License.</p>
+
+  
+  <hr class="noprint" />
+  <h1 class="np" id="rfc.toc"><a href="#rfc.toc">Table of Contents</a></h1>
+  <ul class="toc">
+
+  	<li>1.   <a href="#rfc.section.1">Introduction</a>
+</li>
+<ul><li>1.1.   <a href="#rfc.section.1.1">Requirements Language</a>
+</li>
+</ul><li>2.   <a href="#rfc.section.2">Signature Algorithms</a>
+</li>
+<li>3.   <a href="#rfc.section.3">Certificate Request</a>
+</li>
+<li>4.   <a href="#rfc.section.4">Server Key Exchange</a>
+</li>
+<li>5.   <a href="#rfc.section.5">Certificate Verify</a>
+</li>
+<li>6.   <a href="#rfc.section.6">Updates to RFC5246</a>
+</li>
+<li>7.   <a href="#rfc.section.7">Updates to RFC7525</a>
+</li>
+<li>8.   <a href="#rfc.section.8">Security Considerations</a>
+</li>
+<li>9.   <a href="#rfc.section.9">Acknowledgement</a>
+</li>
+<li>10.   <a href="#rfc.references">References</a>
+</li>
+<ul><li>10.1.   <a href="#rfc.references.1">Normative References</a>
+</li>
+<li>10.2.   <a href="#rfc.references.2">Informative References</a>
+</li>
+</ul><li><a href="#rfc.authors">Authors' Addresses</a>
+</li>
+
+
+  </ul>
+
+  <h1 id="rfc.section.1">
+<a href="#rfc.section.1">1.</a> Introduction</h1>
+<p id="rfc.section.1.p.1">The usage of MD5 and SHA-1 for signature hashing in TLS 1.2 is specified in <a href="#RFC5246" class="xref">RFC&#160;5246</a>. MD5 and SHA-1 have been proven to be insecure, subject to collision attacks. <a href="#RFC6151" class="xref">RFC&#160;6151</a> details the security considerations, including collision attacks for MD5, published in 2011.  NIST formally deprecated use of SHA-1 in 2011 <a href="#NISTSP800-131A-R2" class="xref">[NISTSP800-131A-R2]</a> and disallowed its use for digital signatures at the end of 2013, based on both the Wang, et. al, attack and the potential for brute-force attack.  Further, in 2017, researchers from Google and CWI Amsterdam <a href="#SHA-1-Collision" class="xref">[SHA-1-Collision]</a> proved SHA-1 collision attacks were practical.  This document updates <a href="#RFC5246" class="xref">RFC&#160;5246</a> and <a href="#RFC7525" class="xref">RFC7525</a> in such as way that MD5 and SHA1 MUST NOT be used for digital signatures.  However, this document does not deprecate SHA-1 in HMAC for record protection.  </p>
+<h1 id="rfc.section.1.1">
+<a href="#rfc.section.1.1">1.1.</a> Requirements Language</h1>
+<p id="rfc.section.1.1.p.1">The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in <a href="#RFC2119" class="xref">RFC 2119</a>.</p>
+<h1 id="rfc.section.2">
+<a href="#rfc.section.2">2.</a> <a href="#Signature_algorithms" id="Signature_algorithms">Signature Algorithms</a>
+</h1>
+<p id="rfc.section.2.p.1">Clients SHOULD NOT include MD5 and SHA-1 in  signature_algorithms extension. If a client does not send a  signature_algorithms extension, then the server MUST abort the handshake and send a handshake_failure alert.  </p>
+<h1 id="rfc.section.3">
+<a href="#rfc.section.3">3.</a> <a href="#cert_requests" id="cert_requests">Certificate Request</a>
+</h1>
+<p id="rfc.section.3.p.1">Servers SHOULD NOT include MD5 and SHA-1 in CertificateRequest message.  </p>
+<h1 id="rfc.section.4">
+<a href="#rfc.section.4">4.</a> <a href="#serverkeyexchange" id="serverkeyexchange">Server Key Exchange</a>
+</h1>
+<p id="rfc.section.4.p.1">Servers MUST NOT include MD5 and SHA-1 in ServerKeyExchange message.  If client does receive a MD5 or SHA-1 signature in the ServerKeyExchange message it MUST abort the connection with handshake_failure or insufficient_security alert.  </p>
+<h1 id="rfc.section.5">
+<a href="#rfc.section.5">5.</a> <a href="#CertificateVerify" id="CertificateVerify">Certificate Verify</a>
+</h1>
+<p id="rfc.section.5.p.1">Clients MUST NOT include MD5 and SHA-1 in CertificateVerify message.  </p>
+<h1 id="rfc.section.6">
+<a href="#rfc.section.6">6.</a> <a href="#updates_to_rfc5246" id="updates_to_rfc5246">Updates to RFC5246</a>
+</h1>
+<p id="rfc.section.6.p.1">OLD: </p>
+<p id="rfc.section.6.p.2">In Section 7.4.1.4.1: the text should be revised from " Note: this is a change from TLS 1.1 where there are no explicit rules, but as a practical matter one can assume that the peer supports MD5 and SHA- 1." </p>
+<p id="rfc.section.6.p.3">NEW: </p>
+<p id="rfc.section.6.p.4">"Note: This is a change from TLS 1.1 where there are no explicit rules, but as a practical matter one can assume that the peer supports SHA-256." </p>
+<h1 id="rfc.section.7">
+<a href="#rfc.section.7">7.</a> <a href="#updates_to_rfc7525" id="updates_to_rfc7525">Updates to RFC7525</a>
+</h1>
+<p><a href="#RFC7525" class="xref">RFC7525</a>, Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) recommends use of SHA-256 as a minimum requirement.  This update moves the minimum recommendation to use stronger language deprecating use of both SHA-1 and MD5.  The prior text did not explicitly include MD5 and this text adds it to ensure it is understood as having been deprecated.  </p>
+<p id="rfc.section.7.p.2">Section 4.3:</p>
+<p id="rfc.section.7.p.3">OLD:</p>
+<p id="rfc.section.7.p.4">When using RSA, servers SHOULD authenticate using certificates with at least a 2048-bit modulus for the public key.  In addition, the use of the SHA-256 hash algorithm is RECOMMENDED (see <a href="#CAB-Baseline" class="xref">[CAB-Baseline]</a> for more details).  Clients SHOULD indicate to servers that they request SHA-256, by using the "Signature Algorithms" extension defined in TLS 1.2.</p>
+<p id="rfc.section.7.p.5">NEW:</p>
+<p id="rfc.section.7.p.6">servers SHOULD authenticate using certificates with at least a 2048-bit modulus for the public key.  </p>
+<p id="rfc.section.7.p.7">In addition, the use of the SHA-256 hash algorithm is RECOMMENDED, SHA-1 or MD5 MUST not be used (see <a href="#CAB-Baseline" class="xref">[CAB-Baseline]</a> for more details).  Clients MUST indicate to servers that they request SHA-256, by using the "Signature Algorithms" extension defined in TLS 1.2.  </p>
+<h1 id="rfc.section.8">
+<a href="#rfc.section.8">8.</a> <a href="#Security" id="Security">Security Considerations</a>
+</h1>
+<p id="rfc.section.8.p.1">Concerns with TLS 1.2 implementations falling back to SHA-1 is an issue.  This draft updates the TLS 1.2 specification to deprecate support for MD5 and SHA-1 for digital signatures. However, this document does not deprecate SHA-1 in HMAC for record protection.  </p>
+<h1 id="rfc.section.9">
+<a href="#rfc.section.9">9.</a> <a href="#Acknowledgement" id="Acknowledgement">Acknowledgement</a>
+</h1>
+<p id="rfc.section.9.p.1">The authors would like to thank Hubert Kario for his help in writing the initial draft. We are also grateful to Daniel Migault, Martin Thomson and David Cooper for their feedback.  </p>
+<h1 id="rfc.references">
+<a href="#rfc.references">10.</a> References</h1>
+<h1 id="rfc.references.1">
+<a href="#rfc.references.1">10.1.</a> Normative References</h1>
+<table><tbody>
+<tr>
+<td class="reference"><b id="RFC2119">[RFC2119]</b></td>
+<td class="top">
+<a>Bradner, S.</a>, "<a href="https://tools.ietf.org/html/rfc2119">Key words for use in RFCs to Indicate Requirement Levels</a>", BCP 14, RFC 2119, DOI 10.17487/RFC2119, March 1997.</td>
+</tr>
+<tr>
+<td class="reference"><b id="RFC7525">[RFC7525]</b></td>
+<td class="top">
+<a>Sheffer, Y.</a>, <a>Holz, R.</a> and <a>P. Saint-Andre</a>, "<a href="https://tools.ietf.org/html/rfc7525">Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)</a>", BCP 195, RFC 7525, DOI 10.17487/RFC7525, May 2015.</td>
+</tr>
+</tbody></table>
+<h1 id="rfc.references.2">
+<a href="#rfc.references.2">10.2.</a> Informative References</h1>
+<table><tbody>
+<tr>
+<td class="reference"><b id="CAB-Baseline">[CAB-Baseline]</b></td>
+<td class="top">
+<a>CA/Browser Forum</a>, "<a href="https://www.cabforum.org/documents.html">Baseline Requirements for the Issuance and Management of Publicly-Trusted Certificates Version 1.1.6</a>", 2013.</td>
+</tr>
+<tr>
+<td class="reference"><b id="NISTSP800-131A-R2">[NISTSP800-131A-R2]</b></td>
+<td class="top">
+<a>Barker, E.</a> and <a>A. Roginsky</a>, "<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf">Transitioning the Use of Cryptographic Algorithms and Key Lengths</a>", March 2019.</td>
+</tr>
+<tr>
+<td class="reference"><b id="RFC5246">[RFC5246]</b></td>
+<td class="top">
+<a>Dierks, T.</a> and <a>E. Rescorla</a>, "<a href="https://tools.ietf.org/html/rfc5246">The Transport Layer Security (TLS) Protocol Version 1.2</a>", RFC 5246, DOI 10.17487/RFC5246, August 2008.</td>
+</tr>
+<tr>
+<td class="reference"><b id="RFC6151">[RFC6151]</b></td>
+<td class="top">
+<a>Turner, S.</a> and <a>L. Chen</a>, "<a href="https://tools.ietf.org/html/rfc6151">Updated Security Considerations for the MD5 Message-Digest and the HMAC-MD5 Algorithms</a>", RFC 6151, DOI 10.17487/RFC6151, March 2011.</td>
+</tr>
+<tr>
+<td class="reference"><b id="SHA-1-Collision">[SHA-1-Collision]</b></td>
+<td class="top">
+<a>Stevens, M.</a>, <a>Bursztein, E.</a>, <a>Karpman, P.</a>, <a>Albertini, A.</a> and <a>Y. Markov</a>, "<a href="http://shattered.io/static/shattered.pdf">The first collision for full SHA-1</a>", March 2019.</td>
+</tr>
+</tbody></table>
+<h1 id="rfc.authors"><a href="#rfc.authors">Authors' Addresses</a></h1>
+<div class="avoidbreak">
+  <address class="vcard">
+	<span class="vcardline">
+	  <span class="fn">Loganaden Velvindron</span> 
+	  <span class="n hidden">
+		<span class="family-name">Velvindron</span>
+	  </span>
+	</span>
+	<span class="org vcardline">cyberstorm.mu</span>
+	<span class="adr">
+	  
+	  <span class="vcardline">
+		<span class="locality">Rose Hill</span>,  
+		<span class="region"></span>
+		<span class="code"></span>
+	  </span>
+	  <span class="country-name vcardline">MU</span>
+	</span>
+	<span class="vcardline">Phone: +230 59762817</span>
+
+<span class="vcardline">EMail: <a href="mailto:logan@cyberstorm.mu">logan@cyberstorm.mu</a></span>
+
+  </address>
+</div><div class="avoidbreak">
+  <address class="vcard">
+	<span class="vcardline">
+	  <span class="fn">Kathleen Moriarty</span> 
+	  <span class="n hidden">
+		<span class="family-name">Moriarty</span>
+	  </span>
+	</span>
+	<span class="org vcardline">Dell EMC</span>
+	<span class="adr">
+	  
+	  <span class="vcardline">
+		<span class="locality"></span> 
+		<span class="region"></span>
+		<span class="code"></span>
+	  </span>
+	  <span class="country-name vcardline"></span>
+	</span>
+	
+  </address>
+</div><div class="avoidbreak">
+  <address class="vcard">
+	<span class="vcardline">
+	  <span class="fn">Alessandro Ghedini</span> 
+	  <span class="n hidden">
+		<span class="family-name">Ghedini</span>
+	  </span>
+	</span>
+	<span class="org vcardline">Cloudflare Inc.</span>
+	<span class="adr">
+	  
+	  <span class="vcardline">
+		<span class="locality"></span> 
+		<span class="region"></span>
+		<span class="code"></span>
+	  </span>
+	  <span class="country-name vcardline"></span>
+	</span>
+	
+  </address>
+</div>
+
+</body>
+</html>

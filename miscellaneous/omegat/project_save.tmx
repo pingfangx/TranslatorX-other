@@ -2391,6 +2391,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a1&gt;RFC 6151&lt;/a1&gt; details the security considerations, including collision attacks for MD5, published in 2011.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T063930Z" creationid="pingfangx" creationdate="20190904T063930Z">
+        <seg>&lt;a1&gt;RFC 6151&lt;/a1&gt; 详细介绍了 2011 年发布的安全注意事项，包括 MD5 的碰撞攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;Observable&lt;/c0&gt; is a single abstraction that can be used for any of these use cases.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T035601Z" creationid="pingfangx" creationdate="20190620T035601Z">
@@ -4931,6 +4939,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T073210Z" creationid="pingfangx" creationdate="20190828T073210Z">
         <seg>访问验证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Acknowledgement</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T063003Z" creationid="pingfangx" creationdate="20190904T063003Z">
+        <seg>致谢</seg>
       </tuv>
     </tu>
     <tu>
@@ -7695,6 +7711,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Certificate Request</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T062948Z" creationid="pingfangx" creationdate="20190904T062935Z">
+        <seg>证书请求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Certificate Verify</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T062943Z" creationid="pingfangx" creationdate="20190904T062943Z">
+        <seg>证书验证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Certificate:  The certificate of the endpoint and any per-certificate extensions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T150724Z" creationid="pingfangx" creationdate="20190902T150441Z">
@@ -7951,6 +7983,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Clients MUST NOT include MD5 and SHA-1 in CertificateVerify message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T065100Z" creationid="pingfangx" creationdate="20190904T065100Z">
+        <seg>客户端不得在 CertificateVerify 消息中包含 MD5 和 SHA-1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clients MUST NOT offer any KeyShareEntry values for groups not listed in the client's "supported_groups" extension.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T082709Z" creationid="pingfangx" creationdate="20190903T082709Z">
@@ -8019,6 +8059,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T103240Z" creationid="pingfangx" creationdate="20190903T103240Z">
         <seg>每当通过证书进行身份验证时(即，当证书消息非空时)，客户端必须发送此消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clients SHOULD NOT include MD5 and SHA-1 in signature_algorithms extension.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T065009Z" creationid="pingfangx" creationdate="20190904T065009Z">
+        <seg>客户端不应该在 signature_algorithms 扩展中包含 MD5 和 SHA-1。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8275,6 +8323,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T060448Z" creationid="pingfangx" creationdate="20190618T060448Z">
         <seg>从概念上讲，它是 `Single` 和 `Completable` 的结合，提供捕获发射模式的方法，这些模式可能存在 0 或 1 个项或由某些响应源发出的错误信号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Concerns with TLS 1.2 implementations falling back to SHA-1 is an issue.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T065158Z" creationid="pingfangx" creationdate="20190904T065158Z">
+        <seg>关注 TLS 1.2 实现回归 SHA-1 是一个问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8595,6 +8651,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T070251Z" creationid="pingfangx" creationdate="20190903T070251Z">
         <seg>Cookie 主要用于两个目的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyright Notice</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061817Z" creationid="pingfangx" creationdate="20190904T061817Z">
+        <seg>版权声明</seg>
       </tuv>
     </tu>
     <tu>
@@ -11079,6 +11143,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Further, in 2017, researchers from Google and CWI Amsterdam &lt;a3&gt;[SHA-1-Collision]&lt;/a3&gt; proved SHA-1 collision attacks were practical.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T064048Z" creationid="pingfangx" creationdate="20190904T064048Z">
+        <seg>此外，2017 年，谷歌和 CWI Amsterdam &lt;a3&gt;[SHA-1-Collision]&lt;/a3&gt; 的研究人员证明了 SHA-1 碰撞攻击是切实可行的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Furthermore, it implies end-to-end security.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091723Z" creationid="pingfangx" creationdate="20190830T091723Z">
@@ -12607,6 +12679,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, this document does not deprecate SHA-1 in HMAC for record protection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061645Z" creationid="pingfangx" creationdate="20190904T061645Z">
+        <seg>但是，本文档不会弃用 HMAC 中用于进行记录保护的 SHA-1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, this is not true for `onStart`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190621T083151Z" creationid="pingfangx" creationdate="20190621T083151Z">
@@ -13015,6 +13095,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a client does not send a signature_algorithms extension, then the server MUST abort the handshake and send a handshake_failure alert.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T065017Z" creationid="pingfangx" creationdate="20190904T065017Z">
+        <seg>如果客户端没有发送 signature_algorithms 扩展，那么服务器必须中止握手并发送 handshake_failure 警报。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a client does such a retry, it MUST NOT pipeline before it knows the connection is persistent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T151440Z" creationid="pingfangx" creationdate="20190829T151440Z">
@@ -13395,6 +13483,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T043711Z" creationid="pingfangx" creationdate="20190828T043711Z">
         <seg>如果在站点 A 处连接不再存在，则站点 B 处的用户尝试在其上发送任何数据将导致站点 B TCP 接收重置控制消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If client does receive a MD5 or SHA-1 signature in the ServerKeyExchange message it MUST abort the connection with handshake_failure or insufficient_security alert.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T065054Z" creationid="pingfangx" creationdate="20190904T065054Z">
+        <seg>如果客户端确实在 ServerKeyExchange 消息中收到 MD5 或 SHA-1 签名，则它必须使用 handshake_failure 或 insufficient_security 警报中止连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16367,6 +16463,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Informative References</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T063148Z" creationid="pingfangx" creationdate="20190904T063148Z">
+        <seg>资料性参考文献</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Initial Handshake:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T151631Z" creationid="pingfangx" creationdate="20190902T151631Z">
@@ -16523,6 +16627,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T150552Z" creationid="pingfangx" creationdate="20190828T150552Z">
         <seg>互联网媒体类型以规范形式注册。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061753Z" creationid="pingfangx" creationdate="20190904T061753Z">
+        <seg>互联网草案是有效期最长为六个月的草案文件，可能随时被其他文件更新，替换或废弃。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Internet-Drafts are working documents of the Internet Engineering Task Force (IETF).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061719Z" creationid="pingfangx" creationdate="20190904T061719Z">
+        <seg>Internet-Drafts 是互联网工程任务组(IETF)的工作文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16883,6 +17003,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T113521Z" creationid="pingfangx" creationdate="20190617T113521Z">
         <seg>它作为单个 JAR 实现，仅关注 Observable 抽象和相关的高阶函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061809Z" creationid="pingfangx" creationdate="20190904T061809Z">
+        <seg>使用互联网草稿作为参考资料或引用它们而不是“正在进行的工作”是不恰当的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17415,6 +17543,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>MD5 and SHA-1 have been proven to be insecure, subject to collision attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T063902Z" creationid="pingfangx" creationdate="20190904T063902Z">
+        <seg>MD5 和 SHA-1 已被证明是不安全的，容易受到碰撞攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>MHTML and Line Length Limitations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074628Z" creationid="pingfangx" creationdate="20190828T074628Z">
@@ -17903,6 +18039,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>NIST formally deprecated use of SHA-1 in 2011 &lt;a2&gt;[NISTSP800-131A-R2]&lt;/a2&gt; and disallowed its use for digital signatures at the end of 2013, based on both the Wang, et.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T064407Z" creationid="pingfangx" creationdate="20190904T064335Z">
+        <seg>NIST 在 2011 年正式弃用 SHA-1 &lt;a2&gt;[NISTSP800-131A-R2]&lt;/a2&gt;，并且在 2013 年底不允许将其用于数字签名，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>NOTE BENE:  this diagram is only a summary and must not be taken as the total specification.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T113245Z" creationid="pingfangx" creationdate="20190827T113245Z">
@@ -18199,6 +18343,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normative References</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T063051Z" creationid="pingfangx" creationdate="20190904T063051Z">
+        <seg>规范性参考文献</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not all of these are available in all implementations, and some implementations use other naming conventions (for example, in RxScala, what is called a “PublishSubject” here is known simply as a “Subject”):</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T083851Z" creationid="pingfangx" creationdate="20190620T083851Z">
@@ -18459,6 +18611,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T075056Z" creationid="pingfangx" creationdate="20190902T075056Z">
         <seg>请注意，其他形式的点分表示法可能会在某些平台上解释，如第 7.4 节所述，但此语法只允许四个八位字节的点分十进制形式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that other groups may also distribute working documents as Internet-Drafts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061727Z" creationid="pingfangx" creationdate="20190904T061727Z">
+        <seg>请注意，其他组也可能将工作文档分发为 Internet-Drafts。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20799,6 +20959,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Requirements Language</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T062914Z" creationid="pingfangx" creationdate="20190904T062914Z">
+        <seg>要求语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Requirements Notation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T090603Z" creationid="pingfangx" creationdate="20190830T090603Z">
@@ -21719,6 +21887,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Server Key Exchange</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T062939Z" creationid="pingfangx" creationdate="20190904T062939Z">
+        <seg>服务器密钥交换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Server response:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T100448Z" creationid="pingfangx" creationdate="20190830T100448Z">
@@ -21771,6 +21947,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T105806Z" creationid="pingfangx" creationdate="20190903T105806Z">
         <seg>服务器可以在发送第一个航班后发送数据，但由于握手尚未完成，因此无法保证对等端的身份或其活跃性(即，ClientHello 可能已被重播)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Servers MUST NOT include MD5 and SHA-1 in ServerKeyExchange message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T065039Z" creationid="pingfangx" creationdate="20190904T065039Z">
+        <seg>服务器不得在 ServerKeyExchange 消息中包含 MD5 和 SHA-1。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21879,6 +22063,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Servers SHOULD NOT include MD5 and SHA-1 in CertificateRequest message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T065026Z" creationid="pingfangx" creationdate="20190904T065026Z">
+        <seg>服务器不应该在 CertificateRequest 消息中包含 MD5 和 SHA-1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Servers SHOULD NOT send NewSessionTicket with tickets that are not compatible with the advertised modes; however, if a server does so, the impact will just be that the client's attempts at resumption fail.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T083809Z" creationid="pingfangx" creationdate="20190903T083809Z">
@@ -21963,6 +22155,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074046Z" creationid="pingfangx" creationdate="20190828T074046Z">
         <seg>GET 和 HEAD 的副作用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Signature Algorithms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T062919Z" creationid="pingfangx" creationdate="20190904T062919Z">
+        <seg>签名算法</seg>
       </tuv>
     </tu>
     <tu>
@@ -23974,6 +24174,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T103155Z" creationid="pingfangx" creationdate="20190827T103155Z">
         <seg>Internet 协议首部包含多个信息字段，包括源地址和目标主机地址 [2]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The MD5 and SHA-1 hashing algorithms are steadily weakening in strength and their deprecation process should begin for their use in TLS 1.2 digital signatures.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061614Z" creationid="pingfangx" creationdate="20190904T061614Z">
+        <seg>MD5 和 SHA-1 哈希算法的强度正在逐步减弱，应该开始弃用它们在 TLS 1.2 数字签名中使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26186,6 +26394,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in &lt;a0&gt;RFC 2119&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T064551Z" creationid="pingfangx" creationdate="20190904T064551Z">
+        <seg>本文件中的关键词 "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", 和 "OPTIONAL" 按照 &lt;a0&gt;RFC 2119&lt;/a0&gt; 中的描述进行解释。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T094522Z" creationid="pingfangx" creationdate="20190830T094522Z">
@@ -26350,6 +26566,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T092200Z" creationid="pingfangx" creationdate="20190830T092200Z">
         <seg>已删除每个服务器的两个连接的限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The list of current Internet-Drafts is at https://datatracker.ietf.org/drafts/current/.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061736Z" creationid="pingfangx" creationdate="20190904T061736Z">
+        <seg>当前的互联网草案列表位于 https://datatracker.ietf.org/drafts/current/。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28474,6 +28698,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The usage of MD5 and SHA-1 for signature hashing in TLS 1.2 is specified in &lt;a0&gt;RFC 5246&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T063846Z" creationid="pingfangx" creationdate="20190904T063846Z">
+        <seg>在 TLS 1.2 中使用 MD5 和 SHA-1 进行签名散列在 &lt;a0&gt;RFC 5246&lt;/a0&gt; 中指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The use of IP addresses in URLs SHOULD be avoided whenever possible (see RFC 1900 [24]).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T112532Z" creationid="pingfangx" creationdate="20190828T112532Z">
@@ -29466,6 +29698,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This Internet-Draft is submitted in full conformance with the provisions of BCP 78 and BCP 79.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061704Z" creationid="pingfangx" creationdate="20190904T061704Z">
+        <seg>该互联网草案的提交完全符合 BCP 78 和 BCP 79 的规定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This Internet-Draft will expire on November 30, 2019.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T061812Z" creationid="pingfangx" creationdate="20190904T061812Z">
+        <seg>此互联网草案将于 2019 年 11 月 30 日到期。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This SHOULD only be done when the application knows (typically through detecting HTTP message boundaries) that it has received all the message data that it cares about.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T092139Z" creationid="pingfangx" creationdate="20190901T092139Z">
@@ -29906,6 +30154,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This document updates &lt;a4&gt;RFC 5246&lt;/a4&gt; and &lt;a5&gt;RFC7525&lt;/a5&gt; in such as way that MD5 and SHA1 MUST NOT be used for digital signatures.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T064502Z" creationid="pingfangx" creationdate="20190904T064502Z">
+        <seg>本文档更新了 &lt;a4&gt;RFC 5246&lt;/a4&gt; 和 &lt;a5&gt;RFC7525&lt;/a5&gt;，其方式是 MD5 和 SHA1 不得用于数字签名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document updates RFCs 5705 and 6066, and obsoletes RFCs 5077, 5246, and 6961.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121403Z" creationid="pingfangx" creationdate="20190901T121403Z">
@@ -29958,6 +30214,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103306Z" creationid="pingfangx" creationdate="20190901T103306Z">
         <seg>这并不妨碍 HTTP/TLS 在另一个传输上运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This draft updates the TLS 1.2 specification to deprecate support for MD5 and SHA-1 for digital signatures.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T065205Z" creationid="pingfangx" creationdate="20190904T065205Z">
+        <seg>该草案更新了 TLS 1.2 规范，以弃用对数字签名的 MD5 和 SHA-1 的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32154,6 +32418,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Updates to RFC5246</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T062952Z" creationid="pingfangx" creationdate="20190904T062952Z">
+        <seg>RFC5246 的更新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Updates to RFC7525</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T062954Z" creationid="pingfangx" creationdate="20190904T062954Z">
+        <seg>RFC7525 的更新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Updating Traffic Secrets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T022858Z" creationid="pingfangx" creationdate="20190904T022858Z">
@@ -33966,6 +34246,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125244Z" creationid="pingfangx" creationdate="20190831T125244Z">
         <seg>在连接到主机“www.example.org”的端口 8001 之后。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>al, attack and the potential for brute-force attack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T064446Z" creationid="pingfangx" creationdate="20190904T064446Z">
+        <seg>基于王小云等人研究的攻击以及潜在的暴力攻击</seg>
       </tuv>
     </tu>
     <tu>
