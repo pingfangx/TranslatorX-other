@@ -32,3 +32,5 @@ payload	有交荷载	有效负载|
 peer	对等端	对等体,对等方|
 extension	扩展	扩展名|
 implement	实现	实施|
+secret	机密,密钥	秘密|
+cipher	加密	密码|
