@@ -1,0 +1,91 @@
+﻿8.1.2        Identifier octets 
+8.1.2.1            The identifier octets shall encode the ASN.1 tag (class and number) of the type of the data value. 
+8.1.2.2            For tags with a number ranging from zero to 30 (inclusive), the identifier octets shall compri se a single octet encoded as follows: 
+             a)    bits 8 and 7 shall be encoded to represent the class of the tag as specified in Table 1; 
+             b)    bit 6 shall be a zero or a one according to the rules of 8.1.2.5; 
+             c)    bits 5 to 1 shall encode the number of the tag as a binary integer with bit 5 as the most significant bit. 
+                                                       Table 1 – Encoding of class of tag 
+                                                    Class                             Bit 8                  Bit 7 
+                                  Universal                                             0                      0 
+                                  Application                                           0                       1 
+                                  Context-specific                                       1                     0 
+                                  Private                                                1                      1 
+8.1.2.3            Figure 3 illustrates the form of an identifier octet for a type with a tag whose number is in the range zero to 30 (inclusive).                                                                          Identifier octet 
+
+                                   Bits          8        7        6        5        4        3        2         1 
+
+                                                   Class         P/C                    Tag number 
+
+                                                                       0 = Primitive 
+                                                                       1 = Constructed                          X.690_F3 
+                                                                                                                         
+                                                Figure 3 – Identifier octet (low tag number) 
+8.1.2.4            For tags with a number greater than or equal to 31, the identifier shall comprise a leading octet followed by one or more subsequent octets. 
+8.1.2.4.1          The leading octet shall be encoded as follows: 
+             a)    bits 8 and 7 shall be encoded to represent the class of the tag as listed in Table 1; 
+             b)    bit 6 shall be a zero or a one according to the rules of 8.1.2.5; 
+             c)    bits 5 to 1 shall be encoded as 111112. 
+8.1.2.4.2          The subsequent octets shall encode the number of the tag as follows: 
+             a)    bit 8 of each octet shall be set to one unless it is the last octet of the identifier octets; 
+4              Rec. ITU-T X.690 (08/2015) 
+----------------------- Page 13-----------------------
+
+                                                                                                                    ISO/IEC 8825-1:2015 (E) 
+            b)    bits 7 to 1 of the first subsequent octet, followed by bits 7 to 1 of the second  subsequent octet, followed                    in turn by bits 7 to 1 of each further octet, up to and including the last subsequent octet in the identifier                    octets shall be the encoding of an unsigned binary integer equal to the tag number, with bit 7 of the first                    subsequent octet as the most significant bit; 
+            c)    bits 7 to 1 of the first subsequent octet shall not all be zero. 
+8.1.2.4.3         Figure 4 illustrates the form of the identifier octets for a type with a tag whose number is greater than 30. 
+                                                                                          Subsequent octets 
+
+               Leading octet                          2nd octet                                                                    Last octet 
+
+    Class     P/C     1    1     1     1     1        1                   1                                     1                  0 
+
+                                                                        +                  +                  +                  + 
+
+                                                                                             = Number of tag                                X.690_F4 
+                                                                                                                                                     
+                                             Figure 4 – Identifier octets (high tag number) 
+8.1.2.5           Bit 6 shall be set to zero if the encoding is primitive, and shall be set to one if the encoding is constructed.     NOTE – Subsequent subclauses specify whether the encoding is primitive or constructed for each type. 
+8.1.2.6           Rec. ITU-T X.680 | ISO/IEC 8824-1 specifies that the tag of a type defined using the CHOICE keyword takes the value of the tag of the type from which the chosen data value is taken. 
+8.1.2.7           Rec. ITU-T X.681 | ISO/IEC 8824-2, 14.2 and 14.4, specifies that the tag of a type defined using "ObjectClassFieldType" is indeterminate if it is a type field, a variable-type value field, or a variable-type value set field. This type is subsequently defined to be an ASN.1 type, and the complete encoding is then identical to that of a value of the assigned type (including the identifier octets). 
+8.1.3       Length octets 
+8.1.3.1           Two forms of length octets are specified. These are: 
+            a)    the definite form (see 8.1.3.3); and 
+            b)    the indefinite form (see 8.1.3.6). 
+8.1.3.2           A sender shall: 
+            a)    use the definite form (see 8.1.3.3) if the encoding is primitive; 
+            b)    use  either  the  definite  form  (see  8.1.3.3)  or  the  indefinite  form  (see  8.1.3.6),  a  sender's  option,  if  the                    encoding is constructed and all immediately available; 
+            c)    use the indefinite form (see 8.1.3.6) if the encoding is constructed and is not all immediately available. 
+8.1.3.3           For the definite form, the length octets shall consist of one or more octets, and shall represent the number of octets in the contents octets using either the short form (see 8.1.3.4) or the long form (see 8.1.3.5) as a sender's option.     NOTE – The short form can only be used if the number of octets in the contents octets is less than or equal to 127. 
+8.1.3.4           In the short form, the length octets shall consist of a single octet in which bit 8 is zero and bits 7 to 1 encode the number of octets in the contents octets (which may be zero), as an unsigned binary integer with bit 7 as the most significant bit. 
+EXAMPLE 
+            L = 38 can be encoded as 00100110                                                           2 
+
+8.1.3.5           In the long form, the length octets shall consist of an initial octet and one or more subsequent octets. The initial octet shall be encoded as follows: 
+            a)    bit 8 shall be one; 
+            b)    bits  7  to  1  shall  encode  the  number  of  subsequent  octets  in  the  length  octets,  as  an  unsigned  binary                    integer with bit 7 as the most significant bit; 
+            c)    the value 11111111   shall not be used.                                            2 
+
+                                                                                                    Rec. ITU-T X.690 (08/2015)                       5 
+----------------------- Page 14-----------------------
+
+ISO/IEC 8825-1:2015 (E) 
+                     NOTE 1 – This restriction is introduced for possible future extension. 
+Bits 8 to 1 of the first subsequent octet, followed by bits 8 to 1 of the second subsequent octet, followed in turn by bits 8 to 1 of each further octet up to and including the last subsequent octet, shall be the encoding of an unsigned binary integer equal to the number of octets in the contents octets, with bit 8 of the first subsequent octet as the most significant bit. 
+EXAMPLE 
+           L = 201 can be encoded as: 
+                                                         10000001                                                                       2 
+
+                                                         11001001                                                                       2 
+
+    NOTE 2 – In the long form, it is a sender's option whether to use more length octets than the minimum necessary. 
+8.1.3.6          For the indefinite form, the length octets indicate that the contents octets are terminated by end-of contents octets (see 8.1.5), and shall consist of a single octet. 
+8.1.3.6.1        The single octet shall have bit 8 set to one, and bits 7 to 1 set to zero. 
+8.1.3.6.2        If this form of length is used, then end-of-contents octets (see 8.1.5) shall be present in the encoding following the contents octets. 
+8.1.4       Contents octets 
+The contents octets shall consist of zero, one or more octets, and shall encode the data value as specified in subsequent clauses.     NOTE – The contents octets depend on the type of the data value; subsequent clauses follow the same sequence as the definition     of types in ASN.1. 
+8.1.5      End-of-contents octets 
+The end-of-contents octets shall be present if the length is encoded as specified in 8. 1.3.6, otherwise they shall not be present. 
+The end-of-contents octets shall consist of two zero octets.     NOTE  –  The end-of-contents octets can be considered as the encoding of a value whose tag is universal class, whose form is     primitive, whose number of the tag is zero, and whose contents are absent, thus: 
+                                         End-of-contents                    Length             Contents 
+                                               00                            00                 Absent                                                  16                             16 

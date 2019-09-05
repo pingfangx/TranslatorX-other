@@ -4127,6 +4127,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A sender shall:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023422Z" creationid="pingfangx" creationdate="20190905T023422Z">
+        <seg>发送者应：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A sequence of one or more consecutive zero-valued 16-bit pieces within the address may be elided, omitting all their digits and leaving exactly two consecutive colons in their place to mark the elision.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T074758Z" creationid="pingfangx" creationdate="20190902T074758Z">
@@ -7327,6 +7335,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Bit 6 shall be set to zero if the encoding is primitive, and shall be set to one if the encoding is constructed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023050Z" creationid="pingfangx" creationdate="20190905T023050Z">
+        <seg>如果编码是原始的，则第 6 位应设置为零，如果编码是结构，则应设置为 1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bits 8 to 1 of the first subsequent octet, followed by bits 8 to 1 of the second subsequent octet, followed in turn by bits 8 to 1 of each further octet up to and including the last subsequent octet, shall be the encoding of an unsigned binary integer equal to the number of octets in the contents octets, with bit 8 of the first subsequent octet as the most significant bit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024331Z" creationid="pingfangx" creationdate="20190905T024331Z">
+        <seg>第一个后续八位字节的第 8 位到第 1 位，接着是第二个后续八位字节的第 8 位到第 1 位，接着是每个另外的八位字节的第 8 位到第 1 位，直到并包括最后一个后续八位字节，应该是无符号二进制整数的编码，等于内容八位字节中的八位字节数，第一个后续八位字节的第 8 位作为最高有效位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Bogus Content-Length header fields are now required to be handled as errors by recipients.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091922Z" creationid="pingfangx" creationdate="20190830T091922Z">
@@ -10055,6 +10079,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Figure 3 illustrates the form of an identifier octet for a type with a tag whose number is in the range zero to 30 (inclusive).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022406Z" creationid="pingfangx" creationdate="20190905T022406Z">
+        <seg>图 3 说明了具有标签的类型的标识符八位字节的形式，该标签的编号在 0 到 30(包括 0 和 30)的范围内。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Figure 3 shows a pair of handshakes in which the first handshake establishes a PSK and the second handshake uses it:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T151612Z" creationid="pingfangx" creationdate="20190902T151612Z">
@@ -10063,10 +10095,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Figure 3 – Identifier octet (low tag number)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022424Z" creationid="pingfangx" creationdate="20190905T022424Z">
+        <seg>图 3  - 标识符八位字节(低标签号)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Figure 3: Message Flow for Resumption and PSK</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T151645Z" creationid="pingfangx" creationdate="20190902T151645Z">
         <seg>图 3：恢复和 PSK 的消息流</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Figure 4 illustrates the form of the identifier octets for a type with a tag whose number is greater than 30.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022955Z" creationid="pingfangx" creationdate="20190905T022955Z">
+        <seg>图 4 说明了具有其编号大于 30 的标签的类型的标识符八位字节的形式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10935,6 +10983,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For tags with a number greater than or equal to 31, the identifier shall comprise a leading octet followed by one or more subsequent octets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022441Z" creationid="pingfangx" creationdate="20190905T022441Z">
+        <seg>对于数字大于或等于 31 的标签，标识符应包括前导八位字节，后跟一个或多个后续八位字节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For tags with a number ranging from zero to 30 (inclusive), the identifier octets shall compri se a single octet encoded as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022235Z" creationid="pingfangx" creationdate="20190905T022235Z">
+        <seg>对于编号范围从 0 到 30(含)的标签，标识符八位字节应包含如下编码的单个八位字节：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For technical details on how to write operators for 2.x, please visit the [Writing Operators](https://github.com/ReactiveX/RxJava/wiki/Writing-operators-for-2.0) wiki page.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190618T051956Z" creationid="pingfangx" creationdate="20190618T051932Z">
@@ -10955,6 +11019,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T083426Z" creationid="pingfangx" creationdate="20190903T083426Z">
         <seg>对于曲线 secp256r1，secp384r1 和 secp521r1，对等端必须通过确保该点是椭圆曲线上的有效点来验证彼此的公共值 Q。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the definite form, the length octets shall consist of one or more octets, and shall represent the number of octets in the contents octets using either the short form (see 8.1.3.4) or the long form (see 8.1.3.5) as a sender's option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023615Z" creationid="pingfangx" creationdate="20190905T023615Z">
+        <seg>对于确定形式，长度八位字节应由一个或多个八位字节组成，并应使用短格式(见 8.1.3.4)或长格式(见 8.1.3.5)表示内容八位字节中的八位字节数，根据发送者的选择。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the indefinite form, the length octets indicate that the contents octets are terminated by end-of contents octets (see 8.1.5), and shall consist of a single octet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024630Z" creationid="pingfangx" creationdate="20190905T024630Z">
+        <seg>对于不定形式，长度八位字节表示内容八位字节由结束内容八位字节终止(见 8.1.5)，并且应由一个八位字节组成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12927,6 +13007,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ITU-T X.680 | ISO/IEC 8824-1 specifies that the tag of a type defined using the CHOICE keyword takes the value of the tag of the type from which the chosen data value is taken.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023306Z" creationid="pingfangx" creationdate="20190905T023306Z">
+        <seg>ITU-T X.680 | ISO/IEC 8824-1 规定使用 CHOICE 关键字定义的类型的标记采用从中获取所选数据值的类型的标记的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ITU-T X.681 | ISO/IEC 8824-2, 14.2 and 14.4, specifies that the tag of a type defined using "ObjectClassFieldType" is indeterminate if it is a type field, a variable-type value field, or a variable-type value set field.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023321Z" creationid="pingfangx" creationdate="20190905T023321Z">
+        <seg>ITU-T X.681 | ISO/IEC 8824-2,14.2 和 14.4 规定，如果类型字段，变量类型值字段或变量类型值集字段，使用“ObjectClassFieldType”定义的类型的标记是不确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Idempotent Methods</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T073100Z" creationid="pingfangx" creationdate="20190828T073100Z">
@@ -12955,6 +13051,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T115713Z" creationid="pingfangx" creationdate="20190831T115713Z">
         <seg>鉴别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Identifier octets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022150Z" creationid="pingfangx" creationdate="20190905T022150Z">
+        <seg>标识符八位字节</seg>
       </tuv>
     </tu>
     <tu>
@@ -14703,6 +14807,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If this form of length is used, then end-of-contents octets (see 8.1.5) shall be present in the encoding following the contents octets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024642Z" creationid="pingfangx" creationdate="20190905T024642Z">
+        <seg>如果使用这种形式的长度，则在内容八位字节之后的编码中应存在内容结束八位字节(见 8.1.5)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If this is a request message and none of the above are true, then the message body length is zero (no message body is present).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T102243Z" creationid="pingfangx" creationdate="20190831T102243Z">
@@ -16199,6 +16311,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the long form, the length octets shall consist of an initial octet and one or more subsequent octets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023744Z" creationid="pingfangx" creationdate="20190905T023744Z">
+        <seg>在长形式中，长度八位字节应由初始八位字节和一个或多个后续八位字节组成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the original Rx.NET, the operator that emits a single item and then completes is called `Return(T)`.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T101615Z" creationid="pingfangx" creationdate="20190617T101615Z">
@@ -16219,6 +16339,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T083437Z" creationid="pingfangx" creationdate="20190831T083437Z">
         <seg>过去，处理此类空白的差异导致请求路由和响应处理中的安全漏洞。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the short form, the length octets shall consist of a single octet in which bit 8 is zero and bits 7 to 1 encode the number of octets in the contents octets (which may be zero), as an unsigned binary integer with bit 7 as the most significant bit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023710Z" creationid="pingfangx" creationdate="20190905T023710Z">
+        <seg>在短格式中，长度八位字节应由单个八位字节组成，其中位 8 为零，位 7 到 1 编码内容八位字节中的八位字节数(可以为零)，作为无符号二进制整数，位 7 为最高位。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17383,6 +17511,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Length octets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023344Z" creationid="pingfangx" creationdate="20190905T023344Z">
+        <seg>长度八位字节</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like Observables, Singles can be manipulated by means of a variety of operators.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T073856Z" creationid="pingfangx" creationdate="20190620T073856Z">
@@ -18047,10 +18183,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>NOTE 1 – This restriction is introduced for possible future extension.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024123Z" creationid="pingfangx" creationdate="20190905T024123Z">
+        <seg>注 1  - 引入此限制以便将来可能的扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NOTE 2 – In the long form, it is a sender's option whether to use more length octets than the minimum necessary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024401Z" creationid="pingfangx" creationdate="20190905T024401Z">
+        <seg>注 2  - 在长形式中，发送者可以选择是否使用比最小必要值更长的八位字节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>NOTE BENE:  this diagram is only a summary and must not be taken as the total specification.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T113245Z" creationid="pingfangx" creationdate="20190827T113245Z">
         <seg>注：此图只是一个概要，不能作为总规范。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NOTE – Subsequent subclauses specify whether the encoding is primitive or constructed for each type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023143Z" creationid="pingfangx" creationdate="20190905T023143Z">
+        <seg>注 - 后续子条款为每种类型指定编码是原始的还是为结构的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NOTE – The short form can only be used if the number of octets in the contents octets is less than or equal to 127.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023623Z" creationid="pingfangx" creationdate="20190905T023623Z">
+        <seg>注 - 只有当内容八位字节中的八位字节数小于或等于 127 时，才能使用短格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23442,6 +23610,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 1 – Encoding of class of tag</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022326Z" creationid="pingfangx" creationdate="20190905T022326Z">
+        <seg>表 1  - 标签类的编码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Table of Contents</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T144636Z" creationid="pingfangx" creationdate="20190830T144636Z">
@@ -26282,6 +26458,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The identifier octets shall encode the ASN.1 tag (class and number) of the type of the data value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022202Z" creationid="pingfangx" creationdate="20190905T022202Z">
+        <seg>标识符八位字节应编码数据值类型的 ASN.1 标记(类和编号)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The implementation diversity of HTTP means that not all user agents can make interactive suggestions to their user or provide adequate warning for security or privacy concerns.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T100719Z" creationid="pingfangx" creationdate="20190830T100719Z">
@@ -26318,6 +26502,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T105103Z" creationid="pingfangx" creationdate="20190903T105103Z">
         <seg>最初的 64 字节填充将清除该前缀以及服务器控制的 ServerHello.random。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The initial octet shall be encoded as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024005Z" creationid="pingfangx" creationdate="20190905T024005Z">
+        <seg>初始八位字节应编码如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -26478,6 +26670,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T024206Z" creationid="pingfangx" creationdate="20190830T024206Z">
         <seg>后一种技术可能会加剧网络拥塞。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The leading octet shall be encoded as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022444Z" creationid="pingfangx" creationdate="20190905T022444Z">
+        <seg>前导八位组的编码如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -28322,6 +28522,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The single octet shall have bit 8 set to one, and bits 7 to 1 set to zero.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024638Z" creationid="pingfangx" creationdate="20190905T024638Z">
+        <seg>单个八位字节应将第 8 位设置为 1，将第 7 位设置为 0。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The size of the vector may be specified at documentation time or left unspecified until runtime.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T021759Z" creationid="pingfangx" creationdate="20190903T021759Z">
@@ -28406,6 +28614,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144338Z" creationid="pingfangx" creationdate="20190831T144338Z">
         <seg>状态代码元素是一个三位整数代码，给出了试图理解和满足请求的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The subsequent octets shall encode the number of the tag as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022556Z" creationid="pingfangx" creationdate="20190905T022556Z">
+        <seg>随后的八位字节应编码标签的编号，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -29350,6 +29566,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190617T100713Z" creationid="pingfangx" creationdate="20190617T100713Z">
         <seg>这些通常以目标类型的后缀命名：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023349Z" creationid="pingfangx" creationdate="20190905T023349Z">
+        <seg>这些是：</seg>
       </tuv>
     </tu>
     <tu>
@@ -31330,6 +31554,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This type is subsequently defined to be an ASN.1 type, and the complete encoding is then identical to that of a value of the assigned type (including the identifier octets).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023342Z" creationid="pingfangx" creationdate="20190905T023342Z">
+        <seg>随后将此类型定义为 ASN.1 类型，然后完整编码与指定类型的值(包括标识符八位字节)相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This unsigned arithmetic preserves the relationship of sequence numbers as they cycle from 2**32 - 1 to 0 again.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T021450Z" creationid="pingfangx" creationdate="20190828T021450Z">
@@ -31910,6 +32142,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T101712Z" creationid="pingfangx" creationdate="20190830T101712Z">
         <seg>隧道用于通过中介扩展虚拟连接，例如当使用传输层安全性(TLS，[RFC5246])通过共享防火墙代理建立机密通信时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Two forms of length octets are specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023347Z" creationid="pingfangx" creationdate="20190905T023347Z">
+        <seg>指定了两种形式的长度八位字节。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33978,6 +34218,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>a)    bit 8 of each octet shall be set to one unless it is the last octet of the identifier octets;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022609Z" creationid="pingfangx" creationdate="20190905T022609Z">
+        <seg>a)每个八位字节的第 8 位应设置为 1，除非它是标识符八位字节的最后一个八位字节；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a)    bit 8 shall be one;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024009Z" creationid="pingfangx" creationdate="20190905T024009Z">
+        <seg>a)第 8 位应为 1；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a)    bits 8 and 7 shall be encoded to represent the class of the tag as listed in Table 1;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022458Z" creationid="pingfangx" creationdate="20190905T022458Z">
+        <seg>a)第 8 和第 7 位应编码以表示表 1 中列出的标签类；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a)    bits 8 and 7 shall be encoded to represent the class of the tag as specified in Table 1;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022254Z" creationid="pingfangx" creationdate="20190905T022249Z">
+        <seg>a)应对第 8 和第 7 位进行编码，以表示表 1 中规定的标签类；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a)    the definite form (see 8.1.3.3); and</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023418Z" creationid="pingfangx" creationdate="20190905T023353Z">
+        <seg>a)确定形式(见 8.1.3.3);和</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a)    use the definite form (see 8.1.3.3) if the encoding is primitive;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023429Z" creationid="pingfangx" creationdate="20190905T023429Z">
+        <seg>a)如果编码是原始的，则使用确定形式(见 8.1.3.3)；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>a)the request included a TE header field that indicates "trailers" is acceptable in the transfer-coding of the  response, as described in section 14.39; or,</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T144214Z" creationid="pingfangx" creationdate="20190828T144214Z">
@@ -34482,6 +34770,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>b)    bit 6 shall be a zero or a one according to the rules of 8.1.2.5;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022301Z" creationid="pingfangx" creationdate="20190905T022301Z">
+        <seg>b)根据 8.1.2.5 的规则，第 6 位应为零或一；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>b)    bits  7  to  1  shall  encode  the  number  of  subsequent  octets  in  the  length  octets,  as  an  unsigned  binary                    integer with bit 7 as the most significant bit;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024046Z" creationid="pingfangx" creationdate="20190905T024046Z">
+        <seg>b)第 7 到 1 应编码长度八位字节中后续八位字节的数目，作为无符号二进制整数，其中第 7 位为最高有效位；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>b)    bits 7 to 1 of the first subsequent octet, followed by bits 7 to 1 of the second  subsequent octet, followed                    in turn by bits 7 to 1 of each further octet, up to and including the last subsequent octet in the identifier                    octets shall be the encoding of an unsigned binary integer equal to the tag number, with bit 7 of the first                    subsequent octet as the most significant bit;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022925Z" creationid="pingfangx" creationdate="20190905T022925Z">
+        <seg>b)第一个后续八位字节的第 7 位到第 1 位，然后是第二个后续八位字节的第 7 位到第 1 位，接着是每个另外的八位字节的第 7 位到第 1 位，直到并包括标识符八位字节中的最后一个后续八位字节（的第 7 位到第 1 位），是无符号二进制整数的编码，等于标记号，第一个后续八位字节的第 7 位作为最高有效位；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>b)    the indefinite form (see 8.1.3.6).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023359Z" creationid="pingfangx" creationdate="20190905T023359Z">
+        <seg>b)不确定形式(见 8.1.3.6)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>b)    use  either  the  definite  form  (see  8.1.3.3)  or  the  indefinite  form  (see  8.1.3.6),  a  sender's  option,  if  the                    encoding is constructed and all immediately available;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023504Z" creationid="pingfangx" creationdate="20190905T023504Z">
+        <seg>b)使用确定的形式(见 8.1.3.3)或不确定形式(见 8.1.3.6)，根据发送者的选择，如果编码是结构的并且全部立即可用；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>b)the server is the origin server for the response, the trailer fields consist entirely of optional metadata, and the recipient could use the message (in a manner acceptable to the origin server) without receiving this metadata.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T144236Z" creationid="pingfangx" creationdate="20190828T144236Z">
@@ -34606,6 +34934,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190620T105059Z" creationid="pingfangx" creationdate="20190620T105059Z">
         <seg>将它们包装在 &lt;c0&gt;Notification&lt;/c0&gt; 对象中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>c)    bits 5 to 1 shall be encoded as 111112.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022532Z" creationid="pingfangx" creationdate="20190905T022532Z">
+        <seg>c) 5 到 1 位应编码为 11111（二进制）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>c)    bits 5 to 1 shall encode the number of the tag as a binary integer with bit 5 as the most significant bit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022324Z" creationid="pingfangx" creationdate="20190905T022324Z">
+        <seg>c) 5 到 1 位应将标签的编号编码为二进制整数，其中第 5 位为最高有效位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>c)    bits 7 to 1 of the first subsequent octet shall not all be zero.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022934Z" creationid="pingfangx" creationdate="20190905T022934Z">
+        <seg>c)第一个后续八位位组的第 7 位到第 1 位不应全为零。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>c)    use the indefinite form (see 8.1.3.6) if the encoding is constructed and is not all immediately available.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023516Z" creationid="pingfangx" creationdate="20190905T023516Z">
+        <seg>c)如果编码是构造的并且并非全部立即可用，则使用不确定形式(见 8.1.3.6)。</seg>
       </tuv>
     </tu>
     <tu>
