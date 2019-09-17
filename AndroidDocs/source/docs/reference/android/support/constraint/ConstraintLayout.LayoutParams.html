@@ -1,0 +1,5330 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Article">
+<head>
+
+  
+
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+
+
+
+
+<script>var a=window.devsite||{};window.devsite=a;a.readyCallbacks=[];window.devsite.readyCallbacks=a.readyCallbacks;a.ready=function(b){a.readyCallbacks.push(b)};window.devsite.ready=a.ready;
+</script>
+
+<meta charset=utf-8"utf-8">
+
+
+
+<meta name="xsrf_token" content="KvKPB7GTXA39N0zh2QuJhgUkT5RofmEi-5O0vd9TFJU6MTUxMjMwNzQzMTk2NjU5MA" />
+
+  
+    <link rel="canonical" href="https://developer.android.com/reference/android/support/constraint/ConstraintLayout.LayoutParams.html">
+  
+
+  
+    <link rel="alternate" href="https://developer.android.com/reference/android/support/constraint/ConstraintLayout.LayoutParams.html" hreflang="en">
+  
+    <link rel="alternate" href="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html" hreflang="en-cn">
+  
+
+  <link rel="alternate" href="https://developer.android.com/reference/android/support/constraint/ConstraintLayout.LayoutParams.html" hreflang="x-default">
+
+
+
+
+<link rel="shortcut icon" href="https://developer.android.google.cn/_static/versionhash/images/android/favicon.png">
+
+<link rel="apple-touch-icon" href="https://developer.android.google.cn/_static/versionhash/images/android/touchicon-180.png">
+
+
+<title>
+
+  ConstraintLayout.LayoutParams | Android Developers
+
+</title>
+
+
+
+  <meta itemprop="dateModified" content="2017-10-12T22:11:51.595810">
+
+
+<!-- STYLESHEETS -->
+<link rel="stylesheet" href="../../../../../fonts.googleapis.com/css-family=Roboto+Condensed.css" tppabs="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+<link rel="stylesheet"
+    href="../../../../../fonts.googleapis.com/css-family=Roboto-light,regular,medium,thin,italic,mediumitalic,bold.css" tppabs="https://fonts.googleapis.com/css?family=Roboto:light,regular,medium,thin,italic,mediumitalic,bold"
+    title="roboto">
+<link rel="stylesheet" href="../../../../_static/versionhash/css/dac-devsite.css" tppabs="https://developer.android.google.cn/_static/versionhash/css/dac-devsite.css">
+
+
+
+
+
+
+
+<link href="../../../../static/css/default.css-v=2017120301.css" tppabs="https://developer.android.google.cn/static/css/default.css?v=2017120301" rel="stylesheet" type="text/css">
+<!-- JAVASCRIPT -->
+<script src="../../../../_static/versionhash/js/android_3p-bundle.js" tppabs="https://developer.android.google.cn/_static/versionhash/js/android_3p-bundle.js" type="text/javascript"></script>
+<script src="../../../../_static/versionhash/js/script_foot_closure_android.js" tppabs="https://developer.android.google.cn/_static/versionhash/js/script_foot_closure_android.js"></script>
+<script src="../../../../_static/versionhash/js/script_foot_android.js" tppabs="https://developer.android.google.cn/_static/versionhash/js/script_foot_android.js"></script>
+
+<script type="text/javascript">
+  var toRoot = '/';
+  devsite.permissions.init({"f62218c009ec029abef196bba5aa34cf": true, "098dafe57affddc137df300142652cfd": false, "8e03e230de0bd8a6fe173fdf172e8b3f": true, "cb025a64a50094835616312f4774a53d": true, "51470233c56fc1fde50f00b73c52b216": false, "d169d485cf24243a263783dbe42029b1": true, "039e5d84b87fd75807ffb37b7f1bbf2c": true, "752953480de00a336d911a46966cc16d": false, "700def1a83e356c06c0925afb05de4b0": false, "6749dcb526ce9bde6993550c7d928d24": true});
+
+  var replaceBlog = true;
+  var replaceYouTube = true;
+  var siteDefaultLocale = 'zh-cn';
+
+  var ANDROID_LANGUAGES = [
+      'id','de','en','es','es-419','fr','pt-br','vi','tr','ru','th','ja','zh-cn','zh-tw','ko'
+  ];
+</script>
+<script src="../../../../static/js/docs.js-v=2017120301" tppabs="https://developer.android.google.cn/static/js/docs.js?v=2017120301" type="text/javascript"></script>
+
+
+</head>
+
+<body class="gc-documentation
+            api apilevel-
+            
+              develop
+              reference
+            
+            ">
+  
+
+
+  
+    <input class="google-analytics-id-json" type="hidden" value="{&quot;dimensions&quot;: {&quot;dimension6&quot;: &quot;en&quot;, &quot;dimension4&quot;: &quot;Reference&quot;, &quot;dimension5&quot;: &quot;en&quot;, &quot;dimension3&quot;: false, &quot;dimension1&quot;: &quot;Signed out&quot;, &quot;dimension8&quot;: null}, &quot;gaid&quot;: &quot;UA-5831155-3&quot;}">
+  
+
+
+
+  
+  
+    <script>
+      var dataLayer = [{"freeTrialEligibleUser": "False", "userCountry": "CN", "language": {"requested": "en", "served": "en"}, "projectName": "Reference", "scriptsafe": null, "signedIn": "False", "internalUser": "False"}];
+    </script>
+  
+
+
+
+  
+  <a href="#top" id="skip-to-main">Skip to content</a>
+  <header id="header-wrapper">
+    <div class="dac-header" id="header">
+      <div class="dac-header-inner">
+        
+        <a class="dac-nav-toggle" data-dac-toggle-nav href="" title="Open navigation">
+          <span class="dac-nav-hamburger">
+            <span class="dac-nav-hamburger-top"></span>
+            <span class="dac-nav-hamburger-mid"></span>
+            <span class="dac-nav-hamburger-bot"></span>
+          </span>
+        </a>
+        
+        <a class="dac-header-logo" href="javascript:if(confirm('https://developer.android.google.cn/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/index.html'" tppabs="https://developer.android.google.cn/index.html">
+          <img class="dac-header-logo-image" src="../../../../static/images/android_logo.png" tppabs="https://developer.android.google.cn/static/images/android_logo.png"
+              srcset="https://developer.android.google.cn/static/images/android_logo_2x.png 2x"
+              width="32" height="36" alt="Android"> Developers</a>
+        <ul class="dac-header-tabs">
+          <li>
+            <a class="dac-header-tab" href="javascript:if(confirm('https://developer.android.google.cn/design/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/design/index.html'" tppabs="https://developer.android.google.cn/design/index.html"
+               zh-tw-lang="瑷▓"
+               zh-cn-lang="璁捐"
+               ru-lang="袩褉芯械泻褌懈褉芯胁邪薪懈械"
+               ko-lang="霐旍瀽鞚?
+               ja-lang="瑷▓"
+               es-lang="Dise帽ar">
+              
+              Design</a>
+          </li>
+          <li>
+            <a class="dac-header-tab" href="javascript:if(confirm('https://developer.android.google.cn/develop/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/develop/index.html'" tppabs="https://developer.android.google.cn/develop/index.html"
+               zh-tw-lang="闁嬬櫦"
+               zh-cn-lang="寮�鍙?
+               ru-lang="袪邪蟹褉邪斜芯褌泻邪"
+               ko-lang="臧滊皽"
+               ja-lang="闁嬬櫤"
+               es-lang="Desarrollar">
+              
+              Develop</a>
+          </li>
+          <li>
+            <a class="dac-header-tab" href="javascript:if(confirm('https://developer.android.google.cn/distribute/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/distribute/index.html'" tppabs="https://developer.android.google.cn/distribute/index.html"
+               zh-tw-lang="鐧间綀"
+               zh-cn-lang="鍒嗗彂"
+               ru-lang="袪邪褋锌褉芯褋褌褉邪薪械薪懈械"
+               ko-lang="氚绊彫"
+               ja-lang="閰嶅竷"
+               es-lang="Distribuir">
+              
+              Distribute</a>
+          </li>
+        </ul>
+
+
+        
+
+        <a class="dac-header-console-btn gc-analytics-event" href="javascript:if(confirm('https://play.google.com/apps/publish/  \n\n该文件无法用 Tel"https://developer.android.google.cn/reference/android/support/constraint/eport" Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://play.google.com/apps/publish/'" tppabs="https://play.google.com/apps/publish/"
+           data-category="User" data-action="http:///Console" data-label="Clicked">
+          
+          <img src="../../../../static/images/developer-console-icon.svg" tppabs="https://developer.android.google.cn/static/images/developer-console-icon.svg" width="18" height="19" alt="">Play Console</a>
+        
+
+<form data-search="" class="dac-header-search">
+  <button class="dac-header-search-close" data-search-close="">
+    <i class="dac-sprite dac-back-arrow"></i>
+  </button>
+
+  <div class="dac-header-search-inner">
+    <i class="dac-sprite dac-search-white dac-header-search-icon"></i>
+    
+    <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q" class="dac-header-search-input" placeholder="Search">
+    <button class="dac-header-search-clear dac-hidden" data-search-clear="">
+      <i class="dac-sprite dac-close-black"></i>
+    </button>
+  </div>
+</form>
+
+        
+      </div><!--/.header-wrap.wrap-->
+    </div><!--/.header-->
+
+    
+
+<div id="search-results" class="dac-search-results">
+  <div id="dac-search-results-history" class="dac-search-results-history">
+    <div class="wrap dac-search-results-history-wrap">
+      <div class="cols">
+        <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+          
+          <h2>Most visited</h2>
+          <div class="resource-flow-layout" data-history-query="history:most/visited" data-maxresults="3" data-cardsizes="18x2"></div>
+        </div>
+
+        <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+          
+          <h2>Recently visited</h2>
+          <div class="resource-flow-layout cols" data-history-query="history:recent" data-allow-duplicates="true" data-maxresults="3" data-cardsizes="18x2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="dac-search-results-content" class="dac-search-results-content">
+    <div class="dac-search-results-metadata wrap">
+      <div class="dac-search-results-for">
+          <h2>
+          
+          Results for <span id="search-results-for"></span>
+          </h2>
+      </div>
+
+      <div id="dac-search-results-hero"></div>
+
+      <div class="dac-search-results-hero cols">
+        <div id="dac-search-results-reference" class="col-6of6 col-tablet-2of2 col-mobile-1of1">
+          <div class="suggest-card reference no-display">
+            <ul class="dac-search-results-reference">
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols dac-search-results-cse">
+        <script src="../../../../../cse.google.com/cse.js-cx=" tppabs="https://cse.google.com/cse.js?cx=" async></script>
+        <gcse:searchresults-only linkTarget="_self"></gcse:searchresults-only>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </header>
+
+  <a name="navigation" tabindex=0 class="nav-start-marker">navigation</a>
+  <nav class="dac-nav">
+    <div class="dac-nav-dimmer" data-dac-toggle-nav></div>
+    <div class="dac-nav-sidebar" data-swap data-dynamic="false" data-transition-speed="300" data-dac-nav>
+      <div data-swap-container>
+        
+        <a class="dac-nav-back-button dac-swap-section dac-up dac-no-anim" tabindex=0 data-swap-button>
+          
+          
+          <i class="dac-sprite dac-nav-back"></i> <span class="dac-nav-back-title">Back</span>
+        </a>
+
+        <div class="dac-nav-sub dac-swap-section dac-right dac-active" itemscope
+            itemtype="http://schema.org/SiteNavigationElement">
+          
+          
+            
+              
+              <button data-fullscreen="" class="dac-nav-fullscreen">
+                <i class="dac-sprite dac-fullscreen"></i>
+              </button>
+              <script>$('[data-fullscreen]').dacFullscreen();</script>
+              <div id="devdoc-nav">
+                <div id="api-nav-header">
+                  <div id="api-level-toggle">
+                    <label for="apiLevelCheckbox" class="disabled"
+                        
+                        title="Select your target API level to dim unavailable APIs">
+                        
+                        API:
+                    </label>
+                    <div class="select-wrapper">
+                      <select id="apiLevelSelector"></select>
+                    </div>
+                  </div><!-- end toggle -->
+                  <div id="api-nav-title">
+                    <select id="reference-selector">
+                      
+                      <option value="android">Android Platform</option>
+                      
+                      
+                      <option value="android/support">Android Support Library</option>
+                      
+                      
+                      <option value="android/arch">Architecture Components</option>
+                      
+                      <option value="android/support/constraint">Constraint Library</option>
+                      
+                      <option value="com/android/billingclient">Play Billing Library</option>
+                      
+                      <option value="android/support/test">Test Support Library</option>
+                      
+                      <option value="android/support/wearable">Wearable Library</option>
+                    </select>
+                  </div>
+                </div><!-- end nav header -->
+                <script>
+                  buildApiLevelSelector();
+                  initReferenceSelector();
+                </script>
+                <div class="dac-reference-nav" data-reference-tree="">
+                  <ul class="dac-reference-nav-list" data-reference-namespaces="">
+                    <li class="api no-toggle"><a href="classes.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/classes.html" >Class Index</a></li><li class="api no-toggle"><a href="packages.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/packages.html" >Package Index</a></li><li class="api apilevel-"><a href="package-summary.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/package-summary.html" >android.support.constraint</a></li>
+                  </ul>
+                </div>
+              </div>
+            
+          
+        </div>
+        
+        
+          
+
+
+
+<ul id="dac-main-navigation" class="dac-nav-list dac-swap-section dac-left dac-no-anim" tabindex=0>
+  <li class="dac-nav-item home">
+    
+    <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/index.html'" tppabs="https://developer.android.google.cn/index.html">Home</a>
+    <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider" tabindex=0></i>
+    <ul class="dac-nav-secondary about">
+      <li class="dac-nav-item versions">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/about/versions/o/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/about/versions/o/index.html'" tppabs="https://developer.android.google.cn/about/versions/o/index.html">Android</a>
+      </li>
+      <li class="dac-nav-item wear">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/wear/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/wear/index.html'" tppabs="https://developer.android.google.cn/wear/index.html">Wear</a>
+      </li>
+      <li class="dac-nav-item tv">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/tv/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/tv/index.html'" tppabs="https://developer.android.google.cn/tv/index.html">TV</a>
+      </li>
+      <li class="dac-nav-item auto">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/auto/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/auto/index.html'" tppabs="https://developer.android.google.cn/auto/index.html">Auto</a>
+      </li>
+      
+      <li class="dac-nav-item chrome-os">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/chrome-os/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/chrome-os/index.html'" tppabs="https://developer.android.google.cn/chrome-os/index.html">Chrome OS</a>
+      </li>
+      
+      <li class="dac-nav-item things">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/things/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/things/index.html'" tppabs="https://developer.android.google.cn/things/index.html">Things</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dac-nav-item design">
+    <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/design/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/design/index.html'" tppabs="https://developer.android.google.cn/design/index.html"
+       zh-tw-lang="瑷▓"
+       zh-cn-lang="璁捐"
+       ru-lang="袩褉芯械泻褌懈褉芯胁邪薪懈械"
+       ko-lang="霐旍瀽鞚?
+       ja-lang="瑷▓"
+       es-lang="Dise帽ar">
+      
+      Design</a>
+  </li>
+  <li class="dac-nav-item develop">
+    <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/develop/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/develop/index.html'" tppabs="https://developer.android.google.cn/develop/index.html"
+       zh-tw-lang="闁嬬櫦"
+       zh-cn-lang="寮�鍙?
+       ru-lang="袪邪蟹褉邪斜芯褌泻邪"
+       ko-lang="臧滊皽"
+       ja-lang="闁嬬櫤"
+       es-lang="Desarrollar">
+      
+      Develop</a>
+    <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider" tabindex=0></i>
+    <ul class="dac-nav-secondary develop">
+      <li class="dac-nav-item training">
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/training/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/training/index.html'" tppabs="https://developer.android.google.cn/training/index.html"
+           zh-tw-lang="瑷撶反瑾茬▼"
+           zh-cn-lang="鍩硅"
+           ru-lang="袣褍褉褋褘"
+           ko-lang="甑愳湣"
+           ja-lang="銉堛儸銉笺儖銉炽偘"
+           es-lang="Capacitaci贸n">
+            
+            Training</a>
+      </li>
+      <li class="dac-nav-item guide">
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/guide/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/guide/index.html'" tppabs="https://developer.android.google.cn/guide/index.html"
+           zh-tw-lang="API 鎸囧崡"
+           zh-cn-lang="API 鎸囧崡"
+           ru-lang="袪褍泻芯胁芯写褋褌胁邪 锌芯 API"
+           ko-lang="API 臧�鞚措摐"
+           ja-lang="API 銈偆銉?
+           es-lang="Gu铆as de la API">
+          
+          API Guides</a>
+      </li>
+      <li class="dac-nav-item reference">
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/reference/packages.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/reference/packages.html'" tppabs="https://developer.android.google.cn/reference/packages.html"
+           zh-tw-lang="鍙冭�冭硣婧?
+           zh-cn-lang="鍙傝�?
+           ru-lang="小锌褉邪胁芯褔薪懈泻"
+           ko-lang="彀胳“氍胳劀"
+           ja-lang="銉儠銈°儸銉炽偣"
+           es-lang="Referencia">
+          
+          Reference</a>
+      </li>
+      <li class="dac-nav-item samples">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/samples/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/samples/index.html'" tppabs="https://developer.android.google.cn/samples/index.html">Samples</a>
+      </li>
+      <li class="dac-nav-item libraries">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/topic/libraries/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/topic/libraries/index.html'" tppabs="https://developer.android.google.cn/topic/libraries/index.html">Libraries</a></li>
+      <li class="dac-nav-item studio">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/studio/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/studio/index.html'" tppabs="https://developer.android.google.cn/studio/index.html">Android Studio</a></li>
+      <li class="dac-nav-item ndk">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/ndk/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/ndk/index.html'" tppabs="https://developer.android.google.cn/ndk/index.html">Android NDK</a></li>
+      <li class="dac-nav-item google">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/google/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/google/index.html'" tppabs="https://developer.android.google.cn/google/index.html">Google Services</a>
+      </li>
+      <li class="dac-nav-item quality-guidelines">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/develop/quality-guidelines/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/develop/quality-guidelines/index.html'" tppabs="https://developer.android.google.cn/develop/quality-guidelines/index.html">Quality Guidelines</a>
+      </li>
+      <li class="dac-nav-item kotlin">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/kotlin/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/kotlin/index.html'" tppabs="https://developer.android.google.cn/kotlin/index.html">Kotlin</a>
+       </li>
+    </ul>
+  </li>
+  <li class="dac-nav-item distribute">
+    <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/distribute/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/distribute/index.html'" tppabs="https://developer.android.google.cn/distribute/index.html"
+       zh-tw-lang="鐧间綀"
+       zh-cn-lang="鍒嗗彂"
+       ru-lang="袪邪褋锌褉芯褋褌褉邪薪械薪懈械"
+       ko-lang="氚绊彫"
+       ja-lang="閰嶅竷"
+       de-lang="Vertrieb"
+       es-lang="Distribuir"
+       es-419-lang="Distribuye"
+       fr-lang="Distribuer"
+       id-lang="Distribusikan"
+       pt-br-lang="Distribui莽茫o"
+       th-lang="喔堗副喔斷笀喔赤斧喔權箞喔侧涪"
+       tr-lang="Da臒谋tma"
+       vi-lang="Ph芒n ph峄慽">
+      
+      Distribute</a>
+    <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider" tabindex=0></i>
+    <ul class="dac-nav-secondary distribute">
+      <li class="dac-nav-item google-play">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/distribute/google-play/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/distribute/google-play/index.html'" tppabs="https://developer.android.google.cn/distribute/google-play/index.html">Google Play</a>
+      </li>
+      <li class="dac-nav-item console">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/distribute/console/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/distribute/console/index.html'" tppabs="https://developer.android.google.cn/distribute/console/index.html">Play Console</a>
+      </li>
+      <li class="dac-nav-item best-practices">
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/distribute/best-practices/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/distribute/best-practices/index.html'" tppabs="https://developer.android.google.cn/distribute/best-practices/index.html"
+          es-419-lang="Recomendaciones"
+          fr-lang="Bonnes pratiques"
+          id-lang="Praktik terbaik"
+          ja-lang="銇娿仚銇欍倎銇柟娉?
+          ko-lang="甓岇灔靷暛"
+          pt-br-lang="Pr谩ticas recomendadas"
+          ru-lang="袪械泻芯屑械薪写邪褑懈懈"
+          th-lang="喔堗副喔斷笀喔赤斧喔權箞喔侧涪"
+          tr-lang="En iyi uygulamalar"
+          vi-lang="C谩c ph瓢啤ng ph谩p hay nh岷"
+          zh-cn-lang="鏈�浣冲仛娉?
+          zh-tw-lang="鏈�浣冲仛娉?>
+          
+          Best practices</a>
+      </li>
+      <li class="dac-nav-item marketing-tools">
+        <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/distribute/marketing-tools/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/distribute/marketing-tools/index.html'" tppabs="https://developer.android.google.cn/distribute/marketing-tools/index.html"
+          de-lang="Marketing-Tools"
+          es-419-lang="Herramientas de marketing"
+          fr-lang="Outils marketing"
+          id-lang="Fitur pemasaran"
+          ja-lang="銉炪兗銈便儐銈ｃ兂銈?銉勩兗銉?
+          ko-lang="毵堨紑韺?霃勱惮"
+          pt-br-lang="Ferramentas de marketing"
+          ru-lang="袦邪褉泻械褌懈薪谐芯胁褘械 懈薪褋褌褉褍屑械薪褌褘"
+          th-lang="喙�喔勦福喔粪箞喔竾喔∴阜喔竵喔侧福喔曕弗喔侧笖"
+          tr-lang="Pazarlama ara莽lar谋"
+          vi-lang="C么ng c峄?ti岷縫 th峄?
+          zh-cn-lang="钀ラ攢宸ュ叿"
+          zh-tw-lang="琛岄姺宸ュ叿">
+          
+          Marketing tools</a>
+      </li>
+      <li class="dac-nav-item policy-center">
+        
+        <a class="dac-nav-link" href="javascript:if(confirm('https://play.google.com/about/developer-content-policy/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://play.google.com/about/developer-content-policy/'" tppabs="https://play.google.com/about/developer-content-policy/" target="_blank">Policy center</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dac-nav-item stories">
+    
+    <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/stories/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/stories/index.html'" tppabs="https://developer.android.google.cn/stories/index.html">Stories</a>
+  </li>
+  
+  <li class="dac-nav-item preview">
+    
+    <a class="dac-nav-link" href="javascript:if(confirm('https://developer.android.google.cn/preview/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/preview/index.html'" tppabs="https://developer.android.google.cn/preview/index.html">Preview</a>
+  </li>
+  
+</ul>
+
+        
+      </div>
+    </div>
+  </nav>
+
+  <a name="top" tabindex="0"></a>
+  
+  <div class="wrap clearfix" id="body-content">
+  
+    
+      
+    
+    <div class="jd-descr " itemprop="articleBody">
+      <div id="doc-api-level" class="" style="display:none"></div>
+
+
+
+
+<div id="naMessage"></div>
+
+<div id="api-info-block">
+<div class="api-level">
+  
+  
+  
+  
+  
+
+</div>
+
+
+
+  
+   
+  
+  
+  
+   
+  
+  
+
+  
+   
+  
+  
+   
+  
+  
+   
+  
+  
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+Summary:
+
+
+
+
+
+  <a href="#constants">Constants</a>
+  
+
+
+  &#124; <a href="#inhconstants">Inherited Constants</a>
+  
+
+
+  &#124; <a href="#lfields">Fields</a>
+  
+
+
+  &#124; <a href="#inhfields">Inherited Fields</a>
+  
+
+
+  &#124; <a href="#pubctors">Ctors</a>
+  
+
+
+
+  &#124; <a href="#pubmethods">Methods</a>
+  
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+</div><!-- end api-info-block -->
+
+<div class="api apilevel-" id="jd-content">
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<h1 class="api-title">ConstraintLayout.LayoutParams</h1>
+<p>
+<code class="api-signature">
+  public
+  static
+  
+  
+  class
+  ConstraintLayout.LayoutParams
+</code>
+<br>
+
+
+<code class="api-signature">
+  
+  
+  
+</code>
+
+<code class="api-signature">
+  
+  
+  
+</code>
+
+<code class="api-signature">
+  
+    extends <a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/view/ViewGroup.MarginLayoutParams.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/view/ViewGroup.MarginLayoutParams.html'" tppabs="http://developer.android.google.cn/reference/android/view/ViewGroup.MarginLayoutParams.html">ViewGroup.MarginLayoutParams</a>
+  
+  
+  
+</code>
+
+<code class="api-signature">
+  
+  
+  
+</code>
+
+</p><table class="jd-inheritance-table">
+
+
+  <tr>
+    
+    <td colspan="4" class="jd-inheritance-class-cell"><a href="javascript:if(confirm('http://developer.android.google.cn/reference/java/lang/Object.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/java/lang/Object.html'" tppabs="http://developer.android.google.cn/reference/java/lang/Object.html">java.lang.Object</a>
+    </td>
+  </tr>
+  
+
+  <tr>
+    
+      <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+    
+    <td colspan="3" class="jd-inheritance-class-cell"><a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html'" tppabs="http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html">android.view.ViewGroup.LayoutParams</a>
+    </td>
+  </tr>
+  
+
+  <tr>
+    
+      <td class="jd-inheritance-space">&nbsp;</td>
+    
+      <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+    
+    <td colspan="2" class="jd-inheritance-class-cell"><a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/view/ViewGroup.MarginLayoutParams.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/view/ViewGroup.MarginLayoutParams.html'" tppabs="http://developer.android.google.cn/reference/android/view/ViewGroup.MarginLayoutParams.html">android.view.ViewGroup.MarginLayoutParams</a>
+    </td>
+  </tr>
+  
+
+  <tr>
+    
+      <td class="jd-inheritance-space">&nbsp;</td>
+    
+      <td class="jd-inheritance-space">&nbsp;</td>
+    
+      <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+    
+    <td colspan="1" class="jd-inheritance-class-cell">android.support.constraint.ConstraintLayout.LayoutParams
+    </td>
+  </tr>
+  
+
+</table>
+  
+
+    
+
+<br><hr>
+
+
+  <p>This class contains the different attributes specifying how a view want to be laid out inside
+  a <code><a href="ConstraintLayout.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.html">ConstraintLayout</a></code>. For building up constraints at run time, using <code><a href="ConstraintSet.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintSet.html">ConstraintSet</a></code> is recommended.
+</p>
+
+
+
+
+
+
+
+
+
+<h2 class="api-section">Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="constants" class="responsive constants">
+<tr><th colspan="2"><h3>Constants</h3></th></tr>
+
+
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#BASELINE" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#BASELINE">BASELINE</a></code>
+          <p>The baseline of the text in a view.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#BOTTOM" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#BOTTOM">BOTTOM</a></code>
+          <p>The bottom side of a view.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#END" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#END">END</a></code>
+          <p>The right side of a view in right to left languages.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#LEFT" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#LEFT">LEFT</a></code>
+          <p>The left side of a view.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#MATCH_CONSTRAINT" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#MATCH_CONSTRAINT">MATCH_CONSTRAINT</a></code>
+          <p>Dimension will be controlled by constraints.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#PARENT_ID" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#PARENT_ID">PARENT_ID</a></code>
+          <p>References the id of the parent.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#RIGHT" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#RIGHT">RIGHT</a></code>
+          <p>The right side of a view.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#START" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#START">START</a></code>
+          <p>The left side of a view in left to right languages.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#TOP" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#TOP">TOP</a></code>
+          <p>The top of a view.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code><a href="ConstraintLayout.LayoutParams.html#UNSET" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#UNSET">UNSET</a></code>
+          <p>Defines an id that is not set.
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+
+</table>
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="inhconstants" class="responsive constants inhtable">
+<tr><th><h3>Inherited constants</h3></th></tr>
+
+
+
+
+  <tr class="api apilevel-" >
+  <td>
+  <a href="#" id="inherited-constants-android.view.ViewGroup.LayoutParams" class="jd-expando-trigger closed"
+     onclick="return toggleInherited(this, null)" >
+    <img id="inherited-constants-android.view.ViewGroup.LayoutParams-trigger" class="jd-expando-trigger-img"
+         height="34"
+         src="../../../../assets/images/styles/disclosure_down.png" tppabs="https://developer.android.google.cn/assets/images/styles/disclosure_down.png" />
+  </a>From
+  class
+  <code>
+    android.view.ViewGroup.LayoutParams
+  </code>
+  <div id="inherited-constants-android.view.ViewGroup.LayoutParams">
+    <div id="inherited-constants-android.view.ViewGroup.LayoutParams-list"
+          class="jd-inheritedlinks">
+    </div>
+    <div id="inherited-constants-android.view.ViewGroup.LayoutParams-summary" style="display: none;">
+      <table class="jd-sumtable-expando responsive">
+      
+
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code>FILL_PARENT</code>
+          <p>
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code>MATCH_PARENT</code>
+          <p>
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+    <tr class="api apilevel-" >
+        <td><code>int</code></td>
+        <td width="100%">
+          <code>WRAP_CONTENT</code>
+          <p>
+          
+    
+</p>
+        </td>
+    </tr>
+    
+    
+</table>
+    </div>
+  </div>
+  </td></tr>
+
+
+
+
+</table>
+
+
+
+
+<!-- =========== FIELD SUMMARY =========== -->
+<table id="lfields" class="responsive properties">
+<tr><th colspan="2"><h3>Fields</h3></th></tr>
+
+
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    static
+    final
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#CHAIN_PACKED" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#CHAIN_PACKED">CHAIN_PACKED</a></code>
+      <p>Chain packed style
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    static
+    final
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#CHAIN_SPREAD" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#CHAIN_SPREAD">CHAIN_SPREAD</a></code>
+      <p>Chain spread style
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    static
+    final
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#CHAIN_SPREAD_INSIDE" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#CHAIN_SPREAD_INSIDE">CHAIN_SPREAD_INSIDE</a></code>
+      <p>Chain spread inside style
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    static
+    final
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#HORIZONTAL" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#HORIZONTAL">HORIZONTAL</a></code>
+      <p>The horizontal orientation.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    static
+    final
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#MATCH_CONSTRAINT_PERCENT" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#MATCH_CONSTRAINT_PERCENT">MATCH_CONSTRAINT_PERCENT</a></code>
+      <p>Set matchConstraintDefault* percent to be based on a percent of another dimension (by default, the parent)
+ Use to set the matchConstraintDefaultWidth and matchConstraintDefaultHeight
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    static
+    final
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#MATCH_CONSTRAINT_SPREAD" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#MATCH_CONSTRAINT_SPREAD">MATCH_CONSTRAINT_SPREAD</a></code>
+      <p>Set matchConstraintDefault* spread as much as possible within its constraints.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    static
+    final
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#MATCH_CONSTRAINT_WRAP" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#MATCH_CONSTRAINT_WRAP">MATCH_CONSTRAINT_WRAP</a></code>
+      <p>Set matchConstraintDefault* default to the wrap content size.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    static
+    final
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#VERTICAL" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#VERTICAL">VERTICAL</a></code>
+      <p>The vertical orientation.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#baselineToBaseline" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#baselineToBaseline">baselineToBaseline</a></code>
+      <p>Constrains the baseline of a child to the baseline of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#bottomToBottom" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#bottomToBottom">bottomToBottom</a></code>
+      <p>Constrains the bottom side of a child to the bottom side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#bottomToTop" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#bottomToTop">bottomToTop</a></code>
+      <p>Constrains the bottom side of a child to the top side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    float</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#circleAngle" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#circleAngle">circleAngle</a></code>
+      <p>The angle used for a circular constraint]
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#circleConstraint" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#circleConstraint">circleConstraint</a></code>
+      <p>Constrains the center of a child to the center of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#circleRadius" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#circleRadius">circleRadius</a></code>
+      <p>The radius used for a circular constraint
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    boolean</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#constrainedHeight" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#constrainedHeight">constrainedHeight</a></code>
+      <p>Specify if the vertical dimension is constrained in case both top & bottom constraints are set
+ and the widget dimension is not a fixed dimension.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    boolean</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#constrainedWidth" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#constrainedWidth">constrainedWidth</a></code>
+      <p>Specify if the horizontal dimension is constrained in case both left & right constraints are set
+ and the widget dimension is not a fixed dimension.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    <a href="javascript:if(confirm('http://developer.android.google.cn/reference/java/lang/String.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/java/lang/String.html'" tppabs="http://developer.android.google.cn/reference/java/lang/String.html">String</a></code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#dimensionRatio" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#dimensionRatio">dimensionRatio</a></code>
+      <p>The ratio information.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#editorAbsoluteX" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#editorAbsoluteX">editorAbsoluteX</a></code>
+      <p>The design time location of the left side of the child.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#editorAbsoluteY" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#editorAbsoluteY">editorAbsoluteY</a></code>
+      <p>The design time location of the right side of the child.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#endToEnd" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#endToEnd">endToEnd</a></code>
+      <p>Constrains the end side of a child to the end side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#endToStart" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#endToStart">endToStart</a></code>
+      <p>Constrains the end side of a child to the start side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#goneBottomMargin" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#goneBottomMargin">goneBottomMargin</a></code>
+      <p>The bottom margin to use when the target is gone.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#goneEndMargin" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#goneEndMargin">goneEndMargin</a></code>
+      <p>The end margin to use when the target is gone.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#goneLeftMargin" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#goneLeftMargin">goneLeftMargin</a></code>
+      <p>The left margin to use when the target is gone.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#goneRightMargin" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#goneRightMargin">goneRightMargin</a></code>
+      <p>The right margin to use when the target is gone
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#goneStartMargin" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#goneStartMargin">goneStartMargin</a></code>
+      <p>The start margin to use when the target is gone.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#goneTopMargin" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#goneTopMargin">goneTopMargin</a></code>
+      <p>The top margin to use when the target is gone.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#guideBegin" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#guideBegin">guideBegin</a></code>
+      <p>The distance of child (guideline) to the top or left edge of its parent.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#guideEnd" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#guideEnd">guideEnd</a></code>
+      <p>The distance of child (guideline) to the top or left edge of its parent.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    float</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#guidePercent" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#guidePercent">guidePercent</a></code>
+      <p>The ratio of the distance to the parent's sides
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    boolean</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#helped" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#helped">helped</a></code>
+      <p>
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    float</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#horizontalBias" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#horizontalBias">horizontalBias</a></code>
+      <p>The ratio between two connections when the left and right (or start and end) sides are constrained.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#horizontalChainStyle" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#horizontalChainStyle">horizontalChainStyle</a></code>
+      <p>If the child is the start of a horizontal chain, this attribute will drive how
+ the elements of the chain will be positioned.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    float</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#horizontalWeight" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#horizontalWeight">horizontalWeight</a></code>
+      <p>The child's weight that we can use to distribute the available horizontal space
+ in a chain, if the dimension behaviour is set to MATCH_CONSTRAINT
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#leftToLeft" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#leftToLeft">leftToLeft</a></code>
+      <p>Constrains the left side of a child to the left side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#leftToRight" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#leftToRight">leftToRight</a></code>
+      <p>Constrains the left side of a child to the right side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#matchConstraintDefaultHeight" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#matchConstraintDefaultHeight">matchConstraintDefaultHeight</a></code>
+      <p>Define how the widget vertical dimension is handled when set to MATCH_CONSTRAINT
+ <ul>
+     <li> -- the default.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#matchConstraintDefaultWidth" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#matchConstraintDefaultWidth">matchConstraintDefaultWidth</a></code>
+      <p>Define how the widget horizontal dimension is handled when set to MATCH_CONSTRAINT
+ <ul>
+     <li> -- the default.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#matchConstraintMaxHeight" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#matchConstraintMaxHeight">matchConstraintMaxHeight</a></code>
+      <p>Specify a maximum height size for the widget.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#matchConstraintMaxWidth" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#matchConstraintMaxWidth">matchConstraintMaxWidth</a></code>
+      <p>Specify a maximum width size for the widget.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#matchConstraintMinHeight" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#matchConstraintMinHeight">matchConstraintMinHeight</a></code>
+      <p>Specify a minimum height size for the widget.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#matchConstraintMinWidth" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#matchConstraintMinWidth">matchConstraintMinWidth</a></code>
+      <p>Specify a minimum width size for the widget.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    float</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#matchConstraintPercentHeight" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#matchConstraintPercentHeight">matchConstraintPercentHeight</a></code>
+      <p>Specify the percentage when using the match constraint percent mode.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    float</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#matchConstraintPercentWidth" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#matchConstraintPercentWidth">matchConstraintPercentWidth</a></code>
+      <p>Specify the percentage when using the match constraint percent mode.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#orientation" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#orientation">orientation</a></code>
+      <p>
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#rightToLeft" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#rightToLeft">rightToLeft</a></code>
+      <p>Constrains the right side of a child to the left side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#rightToRight" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#rightToRight">rightToRight</a></code>
+      <p>Constrains the right side of a child to the right side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#startToEnd" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#startToEnd">startToEnd</a></code>
+      <p>Constrains the start side of a child to the end side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#startToStart" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#startToStart">startToStart</a></code>
+      <p>Constrains the start side of a child to the start side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#topToBottom" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#topToBottom">topToBottom</a></code>
+      <p>Constrains the top side of a child to the bottom side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#topToTop" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#topToTop">topToTop</a></code>
+      <p>Constrains the top side of a child to the top side of a target child (contains the target child id).
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    float</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#verticalBias" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#verticalBias">verticalBias</a></code>
+      <p>The ratio between two connections when the top and bottom sides are constrained.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#verticalChainStyle" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#verticalChainStyle">verticalChainStyle</a></code>
+      <p>If the child is the start of a vertical chain, this attribute will drive how
+ the elements of the chain will be positioned.
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    float</code></td>
+    <td width="100%">
+      <code><a href="ConstraintLayout.LayoutParams.html#verticalWeight" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#verticalWeight">verticalWeight</a></code>
+      <p>The child's weight that we can use to distribute the available vertical space
+ in a chain, if the dimension behaviour is set to MATCH_CONSTRAINT
+
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+
+</table>
+
+
+
+
+
+<!-- =========== FIELD SUMMARY =========== -->
+<table id="inhfields" class="properties inhtable">
+<tr><th><h3>Inherited fields</h3></th></tr>
+
+
+  <tr class="api apilevel-" >
+  <td>
+  <a href="#" id="inherited-fields-android.view.ViewGroup.MarginLayoutParams" class="jd-expando-trigger closed"
+     onclick="return toggleInherited(this, null)" >
+    <img id="inherited-fields-android.view.ViewGroup.MarginLayoutParams-trigger" class="jd-expando-trigger-img"
+         height="34"
+         src="../../../../assets/images/styles/disclosure_down.png" tppabs="https://developer.android.google.cn/assets/images/styles/disclosure_down.png" />
+  </a>From
+  class
+  <code>
+    android.view.ViewGroup.MarginLayoutParams
+  </code>
+  <div id="inherited-fields-android.view.ViewGroup.MarginLayoutParams">
+    <div id="inherited-fields-android.view.ViewGroup.MarginLayoutParams-list"
+          class="jd-inheritedlinks">
+    </div>
+    <div id="inherited-fields-android.view.ViewGroup.MarginLayoutParams-summary" style="display: none;">
+      <table class="jd-sumtable-expando responsive">
+      
+
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code>bottomMargin</code>
+      <p>
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code>leftMargin</code>
+      <p>
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code>rightMargin</code>
+      <p>
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code>topMargin</code>
+      <p>
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+</table>
+    </div>
+  </div>
+  </td></tr>
+
+
+
+  <tr class="api apilevel-" >
+  <td>
+  <a href="#" id="inherited-fields-android.view.ViewGroup.LayoutParams" class="jd-expando-trigger closed"
+     onclick="return toggleInherited(this, null)" >
+    <img id="inherited-fields-android.view.ViewGroup.LayoutParams-trigger" class="jd-expando-trigger-img"
+         height="34"
+         src="../../../../assets/images/styles/disclosure_down.png" tppabs="https://developer.android.google.cn/assets/images/styles/disclosure_down.png" />
+  </a>From
+  class
+  <code>
+    android.view.ViewGroup.LayoutParams
+  </code>
+  <div id="inherited-fields-android.view.ViewGroup.LayoutParams">
+    <div id="inherited-fields-android.view.ViewGroup.LayoutParams-list"
+          class="jd-inheritedlinks">
+    </div>
+    <div id="inherited-fields-android.view.ViewGroup.LayoutParams-summary" style="display: none;">
+      <table class="jd-sumtable-expando responsive">
+      
+
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code>height</code>
+      <p>
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    <a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/view/animation/LayoutAnimationController.AnimationParameters.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/view/animation/LayoutAnimationController.AnimationParameters.html'" tppabs="http://developer.android.google.cn/reference/android/view/animation/LayoutAnimationController.AnimationParameters.html">LayoutAnimationController.AnimationParameters</a></code></td>
+    <td width="100%">
+      <code>layoutAnimationParameters</code>
+      <p>
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+  <tr class="api apilevel-" >
+    <td><code>
+    public
+    
+    
+    int</code></td>
+    <td width="100%">
+      <code>width</code>
+      <p>
+      
+    
+</p>
+    </td>
+  </tr>
+  
+
+</table>
+    </div>
+  </div>
+  </td></tr>
+
+
+
+
+</table>
+
+
+
+
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<table id="pubctors" class="responsive constructors">
+<tr><th colspan="2"><h3>Public constructors</h3></th></tr>
+
+
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td width="100%">
+      <code>
+      <a href="ConstraintLayout.LayoutParams.html#ConstraintLayout.LayoutParams(android.support.constraint.ConstraintLayout.LayoutParams)" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#ConstraintLayout.LayoutParams(android.support.constraint.ConstraintLayout.LayoutParams)">ConstraintLayout.LayoutParams</a>(<a href="ConstraintLayout.LayoutParams.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html">ConstraintLayout.LayoutParams</a> source)
+      </code>
+      
+        <p>Create a LayoutParams base on an existing layout Params
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td width="100%">
+      <code>
+      <a href="ConstraintLayout.LayoutParams.html#ConstraintLayout.LayoutParams(android.content.Context, android.util.AttributeSet)" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#ConstraintLayout.LayoutParams(android.content.Context, android.util.AttributeSet)">ConstraintLayout.LayoutParams</a>(<a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/content/Context.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/content/Context.html'" tppabs="http://developer.android.google.cn/reference/android/content/Context.html">Context</a> c, <a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/util/AttributeSet.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/util/AttributeSet.html'" tppabs="http://developer.android.google.cn/reference/android/util/AttributeSet.html">AttributeSet</a> attrs)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td width="100%">
+      <code>
+      <a href="ConstraintLayout.LayoutParams.html#ConstraintLayout.LayoutParams(int, int)" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#ConstraintLayout.LayoutParams(int, int)">ConstraintLayout.LayoutParams</a>(int width, int height)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td width="100%">
+      <code>
+      <a href="ConstraintLayout.LayoutParams.html#ConstraintLayout.LayoutParams(android.view.ViewGroup.LayoutParams)" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#ConstraintLayout.LayoutParams(android.view.ViewGroup.LayoutParams)">ConstraintLayout.LayoutParams</a>(<a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html'" tppabs="http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html">ViewGroup.LayoutParams</a> source)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+
+</table>
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="responsive methods">
+<tr><th colspan="2"><h3>Public methods</h3></th></tr>
+
+
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="ConstraintLayout.LayoutParams.html#reset()" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#reset()">reset</a>()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="ConstraintLayout.LayoutParams.html#resolveLayoutDirection(int)" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#resolveLayoutDirection(int)">resolveLayoutDirection</a>(int layoutDirection)
+      </code>
+      
+        <p>
+
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="ConstraintLayout.LayoutParams.html#validate()" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html#validate()">validate</a>()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="methods inhtable">
+<tr><th><h3>Inherited methods</h3></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="2">
+  <a href="#" id="inherited-methods-android.view.ViewGroup.MarginLayoutParams" class="jd-expando-trigger closed"
+     onclick="return toggleInherited(this, null)" >
+    <img id="inherited-methods-android.view.ViewGroup.MarginLayoutParams-trigger" class="jd-expando-trigger-img"
+         height="34"
+         src="../../../../assets/images/styles/disclosure_down.png" tppabs="https://developer.android.google.cn/assets/images/styles/disclosure_down.png" />
+  </a>From
+class
+<code>
+  
+    <a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/view/ViewGroup.MarginLayoutParams.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/view/ViewGroup.MarginLayoutParams.html'" tppabs="http://developer.android.google.cn/reference/android/view/ViewGroup.MarginLayoutParams.html">android.view.ViewGroup.MarginLayoutParams</a>
+  
+</code>
+<div id="inherited-methods-android.view.ViewGroup.MarginLayoutParams">
+  <div id="inherited-methods-android.view.ViewGroup.MarginLayoutParams-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-android.view.ViewGroup.MarginLayoutParams-summary" style="display: none;">
+    <table class="jd-sumtable-expando responsive">
+      
+
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        int</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      getLayoutDirection()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        int</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      getMarginEnd()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        int</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      getMarginStart()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        boolean</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      isMarginRelative()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      resolveLayoutDirection(int arg0)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      setLayoutDirection(int arg0)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      setMarginEnd(int arg0)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      setMarginStart(int arg0)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      setMargins(int arg0, int arg1, int arg2, int arg3)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+
+    </table>
+  </div>
+</div>
+</td></tr>
+
+
+
+<tr class="api apilevel-" >
+<td colspan="2">
+  <a href="#" id="inherited-methods-android.view.ViewGroup.LayoutParams" class="jd-expando-trigger closed"
+     onclick="return toggleInherited(this, null)" >
+    <img id="inherited-methods-android.view.ViewGroup.LayoutParams-trigger" class="jd-expando-trigger-img"
+         height="34"
+         src="../../../../assets/images/styles/disclosure_down.png" tppabs="https://developer.android.google.cn/assets/images/styles/disclosure_down.png" />
+  </a>From
+class
+<code>
+  
+    <a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html'" tppabs="http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html">android.view.ViewGroup.LayoutParams</a>
+  
+</code>
+<div id="inherited-methods-android.view.ViewGroup.LayoutParams">
+  <div id="inherited-methods-android.view.ViewGroup.LayoutParams-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-android.view.ViewGroup.LayoutParams-summary" style="display: none;">
+    <table class="jd-sumtable-expando responsive">
+      
+
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      resolveLayoutDirection(int arg0)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      setBaseAttributes(<a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/content/res/TypedArray.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/content/res/TypedArray.html'" tppabs="http://developer.android.google.cn/reference/android/content/res/TypedArray.html">TypedArray</a> arg0, int arg1, int arg2)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+
+    </table>
+  </div>
+</div>
+</td></tr>
+
+
+
+<tr class="api apilevel-" >
+<td colspan="2">
+  <a href="#" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+     onclick="return toggleInherited(this, null)" >
+    <img id="inherited-methods-java.lang.Object-trigger" class="jd-expando-trigger-img"
+         height="34"
+         src="../../../../assets/images/styles/disclosure_down.png" tppabs="https://developer.android.google.cn/assets/images/styles/disclosure_down.png" />
+  </a>From
+class
+<code>
+  
+    <a href="javascript:if(confirm('http://developer.android.google.cn/reference/java/lang/Object.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/java/lang/Object.html'" tppabs="http://developer.android.google.cn/reference/java/lang/Object.html">java.lang.Object</a>
+  
+</code>
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando responsive">
+      
+
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="javascript:if(confirm('http://developer.android.google.cn/reference/java/lang/Object.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/java/lang/Object.html'" tppabs="http://developer.android.google.cn/reference/java/lang/Object.html">Object</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      clone()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        boolean</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      equals(<a href="javascript:if(confirm('http://developer.android.google.cn/reference/java/lang/Object.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/java/lang/Object.html'" tppabs="http://developer.android.google.cn/reference/java/lang/Object.html">Object</a> arg0)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      finalize()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        <a href="javascript:if(confirm('http://developer.android.google.cn/reference/java/lang/Class.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/java/lang/Class.html'" tppabs="http://developer.android.google.cn/reference/java/lang/Class.html">Class</a>&lt;?&gt;</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      getClass()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        int</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      hashCode()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      notify()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      notifyAll()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="javascript:if(confirm('http://developer.android.google.cn/reference/java/lang/String.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/java/lang/String.html'" tppabs="http://developer.android.google.cn/reference/java/lang/String.html">String</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      toString()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      wait(long arg0, int arg1)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      wait(long arg0)
+      </code>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      wait()
+      </code>
+      
+    </td>
+  </tr>
+  
+
+
+    </table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2 class="api-section">Constants</h2>
+
+
+
+
+<A NAME="BASELINE"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">BASELINE</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int BASELINE</pre>
+    
+    
+
+    
+  <p>The baseline of the text in a view.
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          5
+          (0x00000005)
+      
+    
+</div>
+
+
+
+<A NAME="BOTTOM"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">BOTTOM</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int BOTTOM</pre>
+    
+    
+
+    
+  <p>The bottom side of a view.
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          4
+          (0x00000004)
+      
+    
+</div>
+
+
+
+<A NAME="END"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">END</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int END</pre>
+    
+    
+
+    
+  <p>The right side of a view in right to left languages.
+ In right to left languages it corresponds to the left side of the view
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          7
+          (0x00000007)
+      
+    
+</div>
+
+
+
+<A NAME="LEFT"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">LEFT</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int LEFT</pre>
+    
+    
+
+    
+  <p>The left side of a view.
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          1
+          (0x00000001)
+      
+    
+</div>
+
+
+
+<A NAME="MATCH_CONSTRAINT"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">MATCH_CONSTRAINT</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int MATCH_CONSTRAINT</pre>
+    
+    
+
+    
+  <p>Dimension will be controlled by constraints.
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          0
+          (0x00000000)
+      
+    
+</div>
+
+
+
+<A NAME="PARENT_ID"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">PARENT_ID</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int PARENT_ID</pre>
+    
+    
+
+    
+  <p>References the id of the parent.
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          0
+          (0x00000000)
+      
+    
+</div>
+
+
+
+<A NAME="RIGHT"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">RIGHT</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int RIGHT</pre>
+    
+    
+
+    
+  <p>The right side of a view.
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          2
+          (0x00000002)
+      
+    
+</div>
+
+
+
+<A NAME="START"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">START</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int START</pre>
+    
+    
+
+    
+  <p>The left side of a view in left to right languages.
+ In right to left languages it corresponds to the right side of the view
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          6
+          (0x00000006)
+      
+    
+</div>
+
+
+
+<A NAME="TOP"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">TOP</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int TOP</pre>
+    
+    
+
+    
+  <p>The top of a view.
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          3
+          (0x00000003)
+      
+    
+</div>
+
+
+
+<A NAME="UNSET"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">UNSET</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int UNSET</pre>
+    
+    
+
+    
+  <p>Defines an id that is not set.
+</p></p>
+
+    
+      <p>Constant Value:
+      
+          -1
+          (0xffffffff)
+      
+    
+</div>
+
+
+
+
+<!-- Fields -->
+
+
+<!-- ========= FIELD DETAIL ======== -->
+<h2 class="api-section">Fields</h2>
+
+
+
+
+<A NAME="CHAIN_PACKED"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">CHAIN_PACKED</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int CHAIN_PACKED</pre>
+    
+    
+
+    
+  <p>Chain packed style
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="CHAIN_SPREAD"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">CHAIN_SPREAD</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int CHAIN_SPREAD</pre>
+    
+    
+
+    
+  <p>Chain spread style
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="CHAIN_SPREAD_INSIDE"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">CHAIN_SPREAD_INSIDE</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int CHAIN_SPREAD_INSIDE</pre>
+    
+    
+
+    
+  <p>Chain spread inside style
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="HORIZONTAL"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">HORIZONTAL</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int HORIZONTAL</pre>
+    
+    
+
+    
+  <p>The horizontal orientation.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="MATCH_CONSTRAINT_PERCENT"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">MATCH_CONSTRAINT_PERCENT</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int MATCH_CONSTRAINT_PERCENT</pre>
+    
+    
+
+    
+  <p>Set matchConstraintDefault* percent to be based on a percent of another dimension (by default, the parent)
+ Use to set the matchConstraintDefaultWidth and matchConstraintDefaultHeight
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="MATCH_CONSTRAINT_SPREAD"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">MATCH_CONSTRAINT_SPREAD</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int MATCH_CONSTRAINT_SPREAD</pre>
+    
+    
+
+    
+  <p>Set matchConstraintDefault* spread as much as possible within its constraints.
+ Use to set the matchConstraintDefaultWidth and matchConstraintDefaultHeight
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="MATCH_CONSTRAINT_WRAP"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">MATCH_CONSTRAINT_WRAP</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int MATCH_CONSTRAINT_WRAP</pre>
+    
+    
+
+    
+  <p>Set matchConstraintDefault* default to the wrap content size.
+ Use to set the matchConstraintDefaultWidth and matchConstraintDefaultHeight
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="VERTICAL"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">VERTICAL</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int VERTICAL</pre>
+    
+    
+
+    
+  <p>The vertical orientation.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="baselineToBaseline"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">baselineToBaseline</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int baselineToBaseline</pre>
+    
+    
+
+    
+  <p>Constrains the baseline of a child to the baseline of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="bottomToBottom"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">bottomToBottom</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int bottomToBottom</pre>
+    
+    
+
+    
+  <p>Constrains the bottom side of a child to the bottom side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="bottomToTop"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">bottomToTop</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int bottomToTop</pre>
+    
+    
+
+    
+  <p>Constrains the bottom side of a child to the top side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="circleAngle"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">circleAngle</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+float circleAngle</pre>
+    
+    
+
+    
+  <p>The angle used for a circular constraint]
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="circleConstraint"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">circleConstraint</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int circleConstraint</pre>
+    
+    
+
+    
+  <p>Constrains the center of a child to the center of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="circleRadius"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">circleRadius</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int circleRadius</pre>
+    
+    
+
+    
+  <p>The radius used for a circular constraint
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="constrainedHeight"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">constrainedHeight</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+boolean constrainedHeight</pre>
+    
+    
+
+    
+  <p>Specify if the vertical dimension is constrained in case both top & bottom constraints are set
+ and the widget dimension is not a fixed dimension. By default, if a widget is set to WRAP_CONTENT,
+ we will treat that dimension as a fixed dimension, meaning the dimension will not change regardless
+ of constraints. Setting this attribute to true allows the dimension to change in order to respect
+ constraints.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="constrainedWidth"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">constrainedWidth</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+boolean constrainedWidth</pre>
+    
+    
+
+    
+  <p>Specify if the horizontal dimension is constrained in case both left & right constraints are set
+ and the widget dimension is not a fixed dimension. By default, if a widget is set to WRAP_CONTENT,
+ we will treat that dimension as a fixed dimension, meaning the dimension will not change regardless
+ of constraints. Setting this attribute to true allows the dimension to change in order to respect
+ constraints.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="dimensionRatio"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">dimensionRatio</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="javascript:if(confirm('http://developer.android.google.cn/reference/java/lang/String.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/java/lang/String.html'" tppabs="http://developer.android.google.cn/reference/java/lang/String.html">String</a> dimensionRatio</pre>
+    
+    
+
+    
+  <p>The ratio information.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="editorAbsoluteX"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">editorAbsoluteX</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int editorAbsoluteX</pre>
+    
+    
+
+    
+  <p>The design time location of the left side of the child.
+ Used at design time for a horizontally unconstrained child.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="editorAbsoluteY"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">editorAbsoluteY</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int editorAbsoluteY</pre>
+    
+    
+
+    
+  <p>The design time location of the right side of the child.
+  Used at design time for a vertically unconstrained child.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="endToEnd"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">endToEnd</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int endToEnd</pre>
+    
+    
+
+    
+  <p>Constrains the end side of a child to the end side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="endToStart"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">endToStart</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int endToStart</pre>
+    
+    
+
+    
+  <p>Constrains the end side of a child to the start side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="goneBottomMargin"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">goneBottomMargin</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int goneBottomMargin</pre>
+    
+    
+
+    
+  <p>The bottom margin to use when the target is gone.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="goneEndMargin"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">goneEndMargin</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int goneEndMargin</pre>
+    
+    
+
+    
+  <p>The end margin to use when the target is gone.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="goneLeftMargin"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">goneLeftMargin</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int goneLeftMargin</pre>
+    
+    
+
+    
+  <p>The left margin to use when the target is gone.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="goneRightMargin"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">goneRightMargin</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int goneRightMargin</pre>
+    
+    
+
+    
+  <p>The right margin to use when the target is gone
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="goneStartMargin"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">goneStartMargin</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int goneStartMargin</pre>
+    
+    
+
+    
+  <p>The start margin to use when the target is gone.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="goneTopMargin"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">goneTopMargin</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int goneTopMargin</pre>
+    
+    
+
+    
+  <p>The top margin to use when the target is gone.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="guideBegin"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">guideBegin</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int guideBegin</pre>
+    
+    
+
+    
+  <p>The distance of child (guideline) to the top or left edge of its parent.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="guideEnd"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">guideEnd</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int guideEnd</pre>
+    
+    
+
+    
+  <p>The distance of child (guideline) to the top or left edge of its parent.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="guidePercent"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">guidePercent</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+float guidePercent</pre>
+    
+    
+
+    
+  <p>The ratio of the distance to the parent's sides
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="helped"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">helped</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+boolean helped</pre>
+    
+    
+
+    
+  <p></p></p>
+
+    
+</div>
+
+
+
+<A NAME="horizontalBias"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">horizontalBias</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+float horizontalBias</pre>
+    
+    
+
+    
+  <p>The ratio between two connections when the left and right (or start and end) sides are constrained.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="horizontalChainStyle"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">horizontalChainStyle</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int horizontalChainStyle</pre>
+    
+    
+
+    
+  <p>If the child is the start of a horizontal chain, this attribute will drive how
+ the elements of the chain will be positioned. The possible values are:
+ <ul>
+     <li> -- the elements will be spread out</li>
+     <li> -- similar, but the endpoints of the chain will not be spread out</li>
+     <li> -- the elements of the chain will be packed together. The horizontal
+          bias attribute of the child will then affect the positioning of the packed elements</li>
+ </ul>
+</p></p>
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/CHAIN_SPREAD)</a></code></li><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/CHAIN_SPREAD_INSIDE)</a></code></li><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/CHAIN_PACKED)</a></code></li>
+      </ul>
+  </div>
+
+    
+</div>
+
+
+
+<A NAME="horizontalWeight"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">horizontalWeight</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+float horizontalWeight</pre>
+    
+    
+
+    
+  <p>The child's weight that we can use to distribute the available horizontal space
+ in a chain, if the dimension behaviour is set to MATCH_CONSTRAINT
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="leftToLeft"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">leftToLeft</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int leftToLeft</pre>
+    
+    
+
+    
+  <p>Constrains the left side of a child to the left side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="leftToRight"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">leftToRight</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int leftToRight</pre>
+    
+    
+
+    
+  <p>Constrains the left side of a child to the right side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="matchConstraintDefaultHeight"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">matchConstraintDefaultHeight</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int matchConstraintDefaultHeight</pre>
+    
+    
+
+    
+  <p>Define how the widget vertical dimension is handled when set to MATCH_CONSTRAINT
+ <ul>
+     <li> -- the default. The dimension will expand up to the constraints, minus margins</li>
+     <li> -- DEPRECATED -- use instead WRAP_CONTENT and constrainedHeight=true<br>
+         The dimension will be the same as WRAP_CONTENT, unless the size ends
+     up too large for the constraints; in that case the dimension will expand up to the constraints, minus margins</li>
+     This attribute may not be applied if the widget is part of a chain in that dimension.
+     <li> -- The dimension will be a percent of another widget (by default, the parent)</li>
+ </ul>
+</p></p>
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/MATCH_CONSTRAINT_SPREAD)</a></code></li><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/MATCH_CONSTRAINT_WRAP)</a></code></li><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/MATCH_CONSTRAINT_PERCENT)</a></code></li>
+      </ul>
+  </div>
+
+    
+</div>
+
+
+
+<A NAME="matchConstraintDefaultWidth"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">matchConstraintDefaultWidth</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int matchConstraintDefaultWidth</pre>
+    
+    
+
+    
+  <p>Define how the widget horizontal dimension is handled when set to MATCH_CONSTRAINT
+ <ul>
+     <li> -- the default. The dimension will expand up to the constraints, minus margins</li>
+     <li> -- DEPRECATED -- use instead WRAP_CONTENT and constrainedWidth=true<br>
+         The dimension will be the same as WRAP_CONTENT, unless the size ends
+     up too large for the constraints; in that case the dimension will expand up to the constraints, minus margins</li>
+     This attribute may not be applied if the widget is part of a chain in that dimension.
+     <li> -- The dimension will be a percent of another widget (by default, the parent)</li>
+ </ul>
+</p></p>
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/MATCH_CONSTRAINT_SPREAD)</a></code></li><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/MATCH_CONSTRAINT_WRAP)</a></code></li><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/MATCH_CONSTRAINT_PERCENT)</a></code></li>
+      </ul>
+  </div>
+
+    
+</div>
+
+
+
+<A NAME="matchConstraintMaxHeight"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">matchConstraintMaxHeight</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int matchConstraintMaxHeight</pre>
+    
+    
+
+    
+  <p>Specify a maximum height size for the widget. It will only apply if the size of the widget
+ is set to MATCH_CONSTRAINT. Don't apply if the widget is part of an vertical chain.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="matchConstraintMaxWidth"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">matchConstraintMaxWidth</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int matchConstraintMaxWidth</pre>
+    
+    
+
+    
+  <p>Specify a maximum width size for the widget. It will only apply if the size of the widget
+ is set to MATCH_CONSTRAINT. Don't apply if the widget is part of an horizontal chain.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="matchConstraintMinHeight"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">matchConstraintMinHeight</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int matchConstraintMinHeight</pre>
+    
+    
+
+    
+  <p>Specify a minimum height size for the widget. It will only apply if the size of the widget
+ is set to MATCH_CONSTRAINT. Don't apply if the widget is part of an vertical chain.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="matchConstraintMinWidth"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">matchConstraintMinWidth</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int matchConstraintMinWidth</pre>
+    
+    
+
+    
+  <p>Specify a minimum width size for the widget. It will only apply if the size of the widget
+ is set to MATCH_CONSTRAINT. Don't apply if the widget is part of an horizontal chain.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="matchConstraintPercentHeight"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">matchConstraintPercentHeight</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+float matchConstraintPercentHeight</pre>
+    
+    
+
+    
+  <p>Specify the percentage when using the match constraint percent mode. From 0 to 1.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="matchConstraintPercentWidth"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">matchConstraintPercentWidth</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+float matchConstraintPercentWidth</pre>
+    
+    
+
+    
+  <p>Specify the percentage when using the match constraint percent mode. From 0 to 1.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="orientation"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">orientation</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int orientation</pre>
+    
+    
+
+    
+  <p></p></p>
+
+    
+</div>
+
+
+
+<A NAME="rightToLeft"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">rightToLeft</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int rightToLeft</pre>
+    
+    
+
+    
+  <p>Constrains the right side of a child to the left side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="rightToRight"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">rightToRight</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int rightToRight</pre>
+    
+    
+
+    
+  <p>Constrains the right side of a child to the right side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="startToEnd"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">startToEnd</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int startToEnd</pre>
+    
+    
+
+    
+  <p>Constrains the start side of a child to the end side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="startToStart"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">startToStart</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int startToStart</pre>
+    
+    
+
+    
+  <p>Constrains the start side of a child to the start side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="topToBottom"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">topToBottom</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int topToBottom</pre>
+    
+    
+
+    
+  <p>Constrains the top side of a child to the bottom side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="topToTop"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">topToTop</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int topToTop</pre>
+    
+    
+
+    
+  <p>Constrains the top side of a child to the top side of a target child (contains the target child id).
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="verticalBias"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">verticalBias</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+float verticalBias</pre>
+    
+    
+
+    
+  <p>The ratio between two connections when the top and bottom sides are constrained.
+</p></p>
+
+    
+</div>
+
+
+
+<A NAME="verticalChainStyle"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">verticalChainStyle</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int verticalChainStyle</pre>
+    
+    
+
+    
+  <p>If the child is the start of a vertical chain, this attribute will drive how
+ the elements of the chain will be positioned. The possible values are:
+ <ul>
+     <li> -- the elements will be spread out</li>
+     <li> -- similar, but the endpoints of the chain will not be spread out</li>
+     <li> -- the elements of the chain will be packed together. The vertical
+          bias attribute of the child will then affect the positioning of the packed elements</li>
+ </ul>
+</p></p>
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/CHAIN_SPREAD)</a></code></li><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/CHAIN_SPREAD_INSIDE)</a></code></li><li><code><a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/">ERROR(/CHAIN_PACKED)</a></code></li>
+      </ul>
+  </div>
+
+    
+</div>
+
+
+
+<A NAME="verticalWeight"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">verticalWeight</h3>
+    <div class="api-level">
+      
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+float verticalWeight</pre>
+    
+    
+
+    
+  <p>The child's weight that we can use to distribute the available vertical space
+ in a chain, if the dimension behaviour is set to MATCH_CONSTRAINT
+</p></p>
+
+    
+</div>
+
+
+
+
+<!-- Public ctors -->
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<h2 class="api-section">Public constructors</h2>
+
+
+
+<A NAME="ConstraintLayout.LayoutParams(android.support.constraint.ConstraintLayout.LayoutParams)"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">ConstraintLayout.LayoutParams</h3>
+    <div class="api-level">
+      <div></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+ConstraintLayout.LayoutParams (<a href="ConstraintLayout.LayoutParams.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html">ConstraintLayout.LayoutParams</a> source)</pre>
+    
+    
+
+    
+  <p>Create a LayoutParams base on an existing layout Params</p></p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>source</code></td>
+        <td width="100%">
+          <code>ConstraintLayout.LayoutParams</code>: the Layout Params to be copied
+</p></td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="ConstraintLayout.LayoutParams(android.content.Context, android.util.AttributeSet)"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">ConstraintLayout.LayoutParams</h3>
+    <div class="api-level">
+      <div></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+ConstraintLayout.LayoutParams (<a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/content/Context.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/content/Context.html'" tppabs="http://developer.android.google.cn/reference/android/content/Context.html">Context</a> c, 
+                <a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/util/AttributeSet.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/util/AttributeSet.html'" tppabs="http://developer.android.google.cn/reference/android/util/AttributeSet.html">AttributeSet</a> attrs)</pre>
+    
+    
+
+    
+  <p></p></p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>c</code></td>
+        <td width="100%">
+          <code>Context</code> <!-- no parameter comment --></p></td>
+      </tr>
+      <tr>
+        <td><code>attrs</code></td>
+        <td width="100%">
+          <code>AttributeSet</code> <!-- no parameter comment --></p></td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="ConstraintLayout.LayoutParams(int, int)"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">ConstraintLayout.LayoutParams</h3>
+    <div class="api-level">
+      <div></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+ConstraintLayout.LayoutParams (int width, 
+                int height)</pre>
+    
+    
+
+    
+  <p></p></p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>width</code></td>
+        <td width="100%">
+          <code>int</code> <!-- no parameter comment --></p></td>
+      </tr>
+      <tr>
+        <td><code>height</code></td>
+        <td width="100%">
+          <code>int</code> <!-- no parameter comment --></p></td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="ConstraintLayout.LayoutParams(android.view.ViewGroup.LayoutParams)"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">ConstraintLayout.LayoutParams</h3>
+    <div class="api-level">
+      <div></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+ConstraintLayout.LayoutParams (<a href="javascript:if(confirm('http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html'" tppabs="http://developer.android.google.cn/reference/android/view/ViewGroup.LayoutParams.html">ViewGroup.LayoutParams</a> source)</pre>
+    
+    
+
+    
+  <p></p></p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>source</code></td>
+        <td width="100%">
+          <code>ViewGroup.LayoutParams</code> <!-- no parameter comment --></p></td>
+      </tr>
+    </table>
+
+</div>
+
+
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2 class="api-section">Public methods</h2>
+
+
+
+<A NAME="reset()"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">reset</h3>
+    <div class="api-level">
+      <div></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void reset ()</pre>
+    
+    
+
+    
+  <p></p></p>
+
+</div>
+
+
+<A NAME="resolveLayoutDirection(int)"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">resolveLayoutDirection</h3>
+    <div class="api-level">
+      <div></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void resolveLayoutDirection (int layoutDirection)</pre>
+    
+    
+
+    
+  <p>
+</p></p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>layoutDirection</code></td>
+        <td width="100%">
+          <code>int</code> <!-- no parameter comment --></p></td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="validate()"></A>
+
+<div class="api apilevel-">
+    <h3 class="api-name">validate</h3>
+    <div class="api-level">
+      <div></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void validate ()</pre>
+    
+    
+
+    
+  <p></p></p>
+
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+
+</div><!-- end jd-content -->
+
+
+
+<div class="data-reference-resources-wrapper">
+  
+  <ul data-reference-resources>
+    
+    
+    
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-"><a href="Barrier.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/Barrier.html">Barrier</a></li>
+          <li class="api apilevel-"><a href="ConstraintLayout.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.html">ConstraintLayout</a></li>
+          <li class="selected api apilevel-"><a href="ConstraintLayout.LayoutParams.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintLayout.LayoutParams.html">ConstraintLayout.LayoutParams</a></li>
+          <li class="api apilevel-"><a href="ConstraintSet.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/ConstraintSet.html">ConstraintSet</a></li>
+          <li class="api apilevel-"><a href="Group.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/Group.html">Group</a></li>
+          <li class="api apilevel-"><a href="Guideline.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/Guideline.html">Guideline</a></li>
+          <li class="api apilevel-"><a href="Placeholder.html" tppabs="https://developer.android.google.cn/reference/android/support/constraint/Placeholder.html">Placeholder</a></li>
+      </ul>
+    </li>
+    
+    
+    
+  </ul>
+  
+</div>
+
+
+
+
+    </div>
+
+    
+
+  
+    
+  
+    
+
+
+
+
+  
+
+
+<footer class="devsite-footer-promos nocontent">
+  <nav class="devsite-full-site-width">
+    <ul class="devsite-footer-promos-list">
+      
+      <li class="devsite-footer-promo">
+        <a href="javascript:if(confirm('https://developers.google.cn/china/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developers.google.cn/china/#follow-google-developers-on-wechat'" tppabs="https://developers.google.cn/china/#follow-google-developers-on-wechat"
+           class="devsite-footer-promo-title gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer WeChat Promo"
+           
+           data-modal-toggle="wechat"
+           >
+          
+          
+          <img class="devsite-footer-promo-icon" src="../../../../static/images/footer/logo-wechat.png" tppabs="https://developer.android.google.cn/static/images/footer/logo-wechat.png">
+          
+          
+            WeChat
+          
+        </a>
+        <div class="devsite-footer-promo-description">Follow Google Developers on WeChat</div>
+      </li>
+      
+      <li class="devsite-footer-promo">
+        <a href="javascript:if(confirm('https://twitter.com/AndroidDev  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://twitter.com/AndroidDev'" tppabs="https://twitter.com/AndroidDev"
+           class="devsite-footer-promo-title gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Twitter Promo"
+           >
+          
+          
+          <img class="devsite-footer-promo-icon" src="../../../../static/images/footer/logo-twitter.svg" tppabs="https://developer.android.google.cn/static/images/footer/logo-twitter.svg">
+          
+          
+            Twitter
+          
+        </a>
+        <div class="devsite-footer-promo-description">Follow @AndroidDev on Twitter</div>
+      </li>
+      
+      <li class="devsite-footer-promo">
+        <a href="javascript:if(confirm('https://plus.google.com/+AndroidDevelopers  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://plus.google.com/+AndroidDevelopers'" tppabs="https://plus.google.com/+AndroidDevelopers"
+           class="devsite-footer-promo-title gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Google+ Promo"
+           >
+          
+          
+          <img class="devsite-footer-promo-icon" src="../../../../../www.gstatic.cn/images/branding/product/2x/google_plus_48dp.png" tppabs="https://www.gstatic.cn/images/branding/product/2x/google_plus_48dp.png">
+          
+          
+            Google+
+          
+        </a>
+        <div class="devsite-footer-promo-description">Follow Android Developers on Google+</div>
+      </li>
+      
+      <li class="devsite-footer-promo">
+        <a href="javascript:if(confirm('https://www.youtube.com/user/androiddevelopers  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://www.youtube.com/user/androiddevelopers'" tppabs="https://www.youtube.com/user/androiddevelopers"
+           class="devsite-footer-promo-title gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer YouTube Promo"
+           >
+          
+          
+          <img class="devsite-footer-promo-icon" src="../../../../../www.gstatic.cn/images/icons/material/product/2x/youtube_48dp.png" tppabs="https://www.gstatic.cn/images/icons/material/product/2x/youtube_48dp.png">
+          
+          
+            YouTube
+          
+        </a>
+        <div class="devsite-footer-promo-description">Check out Android Developers on YouTube</div>
+      </li>
+      
+    </ul>
+  </nav>
+</footer>
+
+
+
+<div class="wrap dac-footer-container">
+  <footer class="dac-footer ">
+    <div class="cols dac-footer-main">
+      <div class="col-1of1">
+        <div class="dac-footer-contact">
+          
+          <a class="dac-footer-contact-link" href="javascript:if(confirm('https://developer.android.google.cn/newsletter/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/newsletter/index.html'" tppabs="https://developer.android.google.cn/newsletter/index.html" title="Newsletter">Newsletter</a>
+          
+          <a class="dac-footer-contact-link" href="javascript:if(confirm('https://android-developers.blogspot.com/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://android-developers.blogspot.com/'" tppabs="https://android-developers.blogspot.com/" title="Blog" target="_blank">Blog</a>
+          
+          <a class="dac-footer-contact-link" href="javascript:if(confirm('https://developer.android.google.cn/support.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/support.html'" tppabs="https://developer.android.google.cn/support.html" title="Support">Support</a>
+          
+          <a class="dac-footer-contact-link" href="javascript:if(confirm('https://docs.google.com/forms/d/e/1FAIpQLSf27XIxoFmNpTjTYdk-m1uKWGqEnd7_4C_E1AD5fdCfyTBWNA/viewform?usp=pp_url&entry.1909689089&entry.208743710&entry.408796755&entry.1341430893&entry.594931249&entry.1640656812&entry.1759804042&entry.1441312344=developer.android.com  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://docs.google.com/forms/d/e/1FAIpQLSf27XIxoFmNpTjTYdk-m1uKWGqEnd7_4C_E1AD5fdCfyTBWNA/viewform?usp=pp_url&entry.1909689089&entry.208743710&entry.408796755&entry.1341430893&entry.594931249&entry.1640656812&entry.1759804042&entry.1441312344=developer.android.com'" tppabs="https://docs.google.com/forms/d/e/1FAIpQLSf27XIxoFmNpTjTYdk-m1uKWGqEnd7_4C_E1AD5fdCfyTBWNA/viewform?usp=pp_url&entry.1909689089&entry.208743710&entry.408796755&entry.1341430893&entry.594931249&entry.1640656812&entry.1759804042&entry.1441312344=developer.android.com" title="Join user studies" target="_blank">Join user studies</a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+      
+      <p class="dac-footer-copyright">
+        
+        Except as noted, this content is licensed under <a href="javascript:if(confirm('http://creativecommons.org/licenses/by/2.5/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://creativecommons.org/licenses/by/2.5/'" tppabs="http://creativecommons.org/licenses/by/2.5/" target="_blank">Creative Commons Attribution 2.5</a>. For details and restrictions, see the <a href="javascript:if(confirm('https://developer.android.google.cn/license.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/license.html'" tppabs="https://developer.android.google.cn/license.html">Content License</a>.
+      </p>
+    
+
+    <p class="dac-footer-links">
+      
+      <a href="javascript:if(confirm('https://www.android.com/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://www.android.com/'" tppabs="https://www.android.com/" title="Android.com" target="_blank">Android.com</a>
+      
+      <a href="javascript:if(confirm('https://developer.android.google.cn/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/'" tppabs="https://developer.android.google.cn/" title="Android Developers">Android Developers</a>
+      
+      <a href="javascript:if(confirm('https://developer.android.google.cn/studio/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/studio/index.html'" tppabs="https://developer.android.google.cn/studio/index.html" title="Android Studio">Android Studio</a>
+      
+      <a href="javascript:if(confirm('https://developer.android.google.cn/distribute/console/index.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/distribute/console/index.html'" tppabs="https://developer.android.google.cn/distribute/console/index.html" title="Google Play Console">Google Play Console</a>
+      
+      <a href="javascript:if(confirm('https://developer.android.google.cn/legal.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/legal.html'" tppabs="https://developer.android.google.cn/legal.html" title="Legal Notice">Legal Notice</a>
+    </p>
+
+    
+    <form class="devsite-utility-footer-language" id="setlang" action="https://developer.android.google.cn/i18n/setlang/" method="post">
+      <input type="hidden" name="xsrf_token" value="KvKPB7GTXA39N0zh2QuJhgUkT5RofmEi-5O0vd9TFJU6MTUxMjMwNzQzMTk2NjU5MA" />
+      <input type="hidden" name="next" value="/reference/android/support/constraint/ConstraintLayout.LayoutParams.html">
+      <span id="language" class="locales">
+        <select class="devsite-utility-footer-language-select" name="language">
+          
+          <option value="id"
+            >
+            Bahasa Indonesia
+          </option>
+          
+          <option value="de"
+            >
+            Deutsch
+          </option>
+          
+          <option value="en"
+             selected="selected" >
+            English
+          </option>
+          
+          <option value="es"
+            >
+            espa帽ol
+          </option>
+          
+          <option value="es-419"
+            >
+            Espa帽ol (Am茅rica Latina)
+          </option>
+          
+          <option value="fr"
+            >
+            fran莽ais
+          </option>
+          
+          <option value="pt-br"
+            >
+            Portugu锚s Brasileiro
+          </option>
+          
+          <option value="vi"
+            >
+            Ti锚虂ng Vi锚蹋t
+          </option>
+          
+          <option value="tr"
+            >
+            T眉rk莽e
+          </option>
+          
+          <option value="ru"
+            >
+            袪褍褋褋泻懈泄
+          </option>
+          
+          <option value="th"
+            >
+            喔犩覆喔┼覆喙勦笚喔?
+          </option>
+          
+          <option value="ja"
+            >
+            鏃ユ湰瑾?
+          </option>
+          
+          <option value="zh-cn"
+            >
+            绠�浣撲腑鏂?
+          </option>
+          
+          <option value="zh-tw"
+            >
+            绻侀珨涓枃
+          </option>
+          
+          <option value="ko"
+            >
+            頃滉淡鞏?
+          </option>
+          
+        </select>
+      </span>
+    </form>
+  </footer>
+</div><!--/.wrap -->
+
+<div class="dac-toast-group">
+  <div class="dac-toast" data-toast>
+    <div class="dac-toast-wrap">
+      
+      This site uses cookies to store your preferences for site-specific language and display options.
+      <button class="dac-toast-close-btn">
+        
+        <span class="dac-button dac-raised dac-primary">OK</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div data-modal="newsletter" data-newsletter-fb data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title">Get the latest Android developer news and tips that will help you find success on Google Play.</h2>
+            
+            <p class="dac-modal-header-subtitle" data-t="newsletter.requiredHint">* Required Fields</p>
+          </section>
+          <section class="dac-swap-section dac-up">
+            
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.successTitle">Hooray!</h2>
+          </section>
+        </div>
+      </header>
+      <div class="dac-swap" data-swap-container>
+        <section class="dac-swap-section dac-active dac-left">
+          <form action="https://services.google.com/fb/submissions/android-developer-mailing-list/" class="dac-form" method="post">
+            <section class="dac-modal-content">
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <div class="dac-form-input-group">
+                      
+                      <label for="newsletter-full-name" class="dac-form-floatlabel" data-t="newsletter.name">Full name</label>
+                      <input type="text" class="dac-form-input" name="fullname" id="newsletter-full-name" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                    <div class="dac-form-input-group">
+                      
+                      <label for="newsletter-email" class="dac-form-floatlabel" data-t="newsletter.email">Email address</label>
+                      <input type="email" class="dac-form-input" name="emailaddress" id="newsletter-email" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol">
+                    <div class="dac-form-input-group">
+                      
+                      <label for="newsletter-company" class="dac-form-floatlabel" data-t="newsletter.company">Company / developer name</label>
+                      <input type="text" class="dac-form-input" name="companydevelopername" id="newsletter-company">
+                    </div>
+                    <div class="dac-form-input-group">
+                      
+                      <label for="newsletter-play-store" class="dac-form-floatlabel" data-t="newsletter.appUrl">One of your Play Store app URLs</label>
+                      <input type="url" class="dac-form-input" name="playstoreappurls" id="newsletter-play-store">
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  
+                  <div class="col-1of2 newsletter-leftCol newsletter-interested" data-validation-message="Please check at least one item.">
+                    
+                    <legend class="dac-form-legend">What are you interested in?<span class="dac-form-required">*</span></legend>
+                    <div class="dac-form-radio-group">
+                      <input type="checkbox" class="dac-form-checkbox" name="interested" id="interested-whats-new" value="whats-new">
+                      <label for="interested-whats-new" class="dac-form-checkbox-button"></label>
+                      
+                      <label for="interested-whats-new" class="dac-form-label">What's new</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="checkbox" class="dac-form-checkbox" name="interested" id="interested-games-updates" value="games-updates">
+                      <label for="interested-games-updates" class="dac-form-checkbox-button"></label>
+                      
+                      <label for="interested-games-updates" class="dac-form-label">Games updates</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="checkbox" class="dac-form-checkbox" name="interested" id="interested-android-development" value="android-development">
+                      <label for="interested-android-development" class="dac-form-checkbox-button"></label>
+                      
+                      <label for="interested-android-development" class="dac-form-label">Android development</label>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol newsletter-checkboxes">
+                    <div class="dac-form-input-group">
+                      
+                      <label for="newsletter-receive-in">Receive newsletter in</label>
+                      <select name="language" class="dac-form-select" id="newsletter-receive-in">
+                        <option value="en-US" selected>English</option>
+                        <option value="ar">Arabic</option>
+                        <option value="zh">Chinese (Simplified)</option>
+                        <option value="zh-TW">Chinese (Traditional)</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+                        <option value="id">Indonesian (Bahasa)</option>
+                        <option value="ja">Japanese</option>
+                        <option value="ko">Korean</option>
+                        <option value="pt-BR">Portuguese (Brazilian)</option>
+                        <option value="ru">Russian</option>
+                        <option value="es-419">Spanish (Latin American)</option>
+                        <option value="th">Thai</option>
+                        <option value="tr">Turkish</option>
+                        <option value="vi">Vietnamese</option>
+                      </select>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="marketingoptin" id="newsletter-add" required value="Add me to the mailing list.">
+                          <label for="newsletter-add" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-add" class="dac-form-label dac-form-aside">
+                            
+                            Add me to the mailing list.
+                            <span class="dac-form-required">*</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="privacystatement" id="newsletter-terms" required value="I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).">
+                          <label for="newsletter-terms" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-terms" class="dac-form-label dac-form-aside"><span data-t="newsletter.privacyPolicy" data-t-html>
+                            
+                            I acknowledge that the information provided in this form will be subject to <a href="javascript:if(confirm('https://www.google.com/policies/privacy/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://www.google.com/policies/privacy/'" tppabs="https://www.google.com/policies/privacy/">Google's privacy policy</a>.
+                          </span>
+                          <span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <script src="../../../../../www.google.com/recaptcha/api.js" tppabs="https://www.google.com/recaptcha/api.js"></script>
+                      <div class="g-recaptcha" data-sitekey="6Lfc9CkTAAAAAEdusoAjrREyhAgNE1ppGE1Fc5q0"></div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </section>
+            <input type="hidden" name="referrer" value="dac">
+            <footer class="dac-modal-footer">
+              <div class="cols">
+                <div class="col-2of5">
+                </div>
+              </div>
+              <button type="submit" value="Submit" class="dac-fab dac-primary dac-large dac-modal-action"><i class="dac-sprite dac-arrow-right"></i></button>
+            </footer>
+          </form>
+        </section>
+        <section class="dac-swap-section dac-right">
+          <div class="dac-modal-content">
+            <p class="newsletter-success-message" data-t="newsletter.successDetails">
+              
+              You have successfully signed up for the latest Android developer news and tips.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div><!--/.dac-modal.newsletter-->
+
+<div data-modal="wechat" class="dac-modal">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <section>
+          
+          <h2 class="norule dac-modal-header-title">Follow Google Developers on WeChat</h2>
+        </section>
+      </header>
+      <section class="dac-modal-content figure-center center-img">
+        <img src="../../../../static/images/qr-wechat.png" tppabs="https://developer.android.google.cn/static/images/qr-wechat.png">
+      </section>
+    </div>
+  </div>
+</div><!--/.dac-modal[dac-modal=wechat]-->
+
+
+<div data-modal="langform" class="dac-modal" id="langform">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <section class="dac-swap-section dac-active dac-down">
+          <h2 class="norule dac-modal-header-title">
+            
+            Browse this site in <span class="span-target-lang"></span>?
+          </h2>
+        </section>
+      </header>
+      <section class="dac-swap-section dac-active dac-left">
+          <section class="dac-modal-content">
+            <fieldset class="dac-form-fieldset">
+              <div class="cols">
+                <div class="col-2of2 langform-leftCol">
+                  <p id="resetLangText">
+                    
+                    You requested a page in <span class="span-target-lang"></span>, but your language preference for this site is <span class="span-current-lang"></span>.
+                  </p>
+                  <p id="resetLangCta">
+                    
+                    Would you like to change your language preference and browse this site in <span class="span-target-lang"></span>? If you want to change your language preference later, use the language menu at the bottom of each page.
+                  </p>
+                </div>
+              </div>
+            </fieldset>
+          </section>
+          <footer class="dac-modal-footer" id="langfooter">
+            <div class="cols">
+              <div class="col-2of5">
+              </div>
+            </div>
+            <a href="#" class="yes" onclick="return false;">
+              <button class="button dac-primary dac-modal-action lang yes" data-t="newsletter.resetLangButtonYes" data-modal-toggle>
+                
+                Change Language
+              </button>
+            </a>
+            <a href="#" class="" onclick="return false;">
+              <button class="button dac-primary dac-modal-action lang no" data-t="newsletter.resetLangButtonNo" data-modal-toggle>
+                
+                Not Now
+              </button>
+            </a>
+          </footer>
+        </form>
+      </section>
+    </div>
+  </div>
+</div><!--/.dac-modal-->
+
+
+<div data-modal="api-unavailable" class="dac-modal" id="api-unavailable">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <section class="dac-swap-section dac-active dac-down">
+          <h2 class="norule dac-modal-header-title">
+            
+            This class requires API level <span class="api-level"></span> or higher
+          </h2>
+        </section>
+      </header>
+      <section class="dac-swap-section dac-active dac-left">
+          <section class="dac-modal-content">
+            <p>
+              
+              This doc is hidden because your selected API level for the documentation is <span class="api-level"></span>. You can change the documentation API level with the selector above the left navigation.
+            </p>
+            
+            <p>For more information about specifying the API level your app requires, read <a href="javascript:if(confirm('https://developer.android.google.cn/training/basics/supporting-devices/platforms.html  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://developer.android.google.cn/training/basics/supporting-devices/platforms.html'" tppabs="https://developer.android.google.cn/training/basics/supporting-devices/platforms.html">Supporting Different Platform Versions</a>.</p>
+          </section>
+          <footer class="dac-modal-footer" id="langfooter">
+            <div class="cols">
+              <div class="col-2of5">
+              </div>
+            </div>
+            <a href="#" class="ok" onclick="return false;">
+              <button class="button dac-primary dac-modal-action ok"
+              data-modal-toggle>
+                
+                OK, make this page visible
+              </button>
+            </a>
+          </footer>
+        </form>
+      </section>
+    </div>
+  </div>
+</div><!--/.dac-modal#api-unavailable-->
+
+    
+  </div><!--/#body-content-->
+
+  <!-- Nav Setup -->
+  <script>$('[data-dac-nav]').dacNav();</script>
+  <script type="text/javascript">
+    $('.slideshow-container').dacSlideshow({
+        btnPrev: '.slideshow-prev',
+        btnNext: '.slideshow-next',
+        btnPause: '#pauseButton'
+    });
+
+    $(".feed").dacTabbedList({
+      nav_id: '.feed-nav',
+      frame_id: '.feed-frame'
+    });
+  </script>
+  
+  <script src="../../../../ytblogger_lists_unified.js-v=2017120301" tppabs="https://developer.android.google.cn/ytblogger_lists_unified.js?v=2017120301" defer></script>
+  <script src="../../../../android_metadata_en.js-v=2017120301" tppabs="https://developer.android.google.cn/android_metadata_en.js?v=2017120301" defer></script>
+  
+  <script src="../../../../replace_youtube_metadata.js-v=2017120301" tppabs="https://developer.android.google.cn/replace_youtube_metadata.js?v=2017120301" defer></script>
+  
+  <script src="../../../lists.js-v=2017120301" tppabs="https://developer.android.google.cn/reference/lists.js?v=2017120301" defer></script>
+  <script src="../../../gms_lists.js-v=2017120301" tppabs="https://developer.android.google.cn/reference/gms_lists.js?v=2017120301" defer></script>
+  <script src="../wearable/lists.js-v=2017120301" tppabs="https://developer.android.google.cn/reference/android/support/wearable/lists.js?v=2017120301" defer></script>
+  <script src="../test/lists.js-v=2017120301" tppabs="https://developer.android.google.cn/reference/android/support/test/lists.js?v=2017120301" defer></script>
+  <script src="lists.js-v=2017120301" tppabs="https://developer.android.google.cn/reference/android/support/constraint/lists.js?v=2017120301" defer></script>
+  <script src="../../arch/lists.js-v=2017120301" tppabs="https://developer.android.google.cn/reference/android/arch/lists.js?v=2017120301" defer></script>
+  <script src="../../../../_static2/versionhash/jsi18n/index.htm" tppabs="https://developer.android.google.cn/_static2/versionhash/jsi18n/"></script>
+  <script>
+    // Load localized metadata.
+    (function(lang) {
+      if (lang === 'en') { return; }
+      document.write('<script src="https://developer.android.google.cn/android_metadata_en.js?v=2017120301" defer></' + 'script>');
+    })(getLangPref())
+
+    // Add skip to content for accessibility.
+    $('#skip-to-main').click(function() {
+      $('a[name=top]').focus();
+    });
+
+    $('.devsite-utility-footer-language-select').each(function() {
+      $(this).change(function() {
+        changeLangPref(this.value, true)
+        $('.devsite-utility-footer-language').submit();
+      });
+    });
+  </script>
+
+  <script>
+    (function($) {
+      devsite.analytics.InitAnalytics();
+      devsite.navigatingRadio.init();
+      devsite.kennedy.InitializeTabbars();
+      // overflowMenu must be initialized after tabbar.
+      devsite.overflowMenu.init();
+    })(jQuery);
+  </script>
+
+  
+
+
+<div id="survey-box-wrapper">
+  <div class="material-dialog" style="width:270px">
+    <div class="material-dialog-title">
+      Take a short survey?
+    </div>
+    <div class="material-dialog-description">
+      Help us improve the Android developer experience.
+      <br>(Sep 2017 survey)
+    </div>
+    <div class="material-button-bar">
+      <a class="dac-button dac-primary dac-raised" target="_blank"
+          href="javascript:if(confirm('https://goo.gl/dNPzCR  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='https://goo.gl/dNPzCR'" tppabs="https://goo.gl/dNPzCR">Okay</a>
+      <a class="dac-button" href="#">No thanks</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
