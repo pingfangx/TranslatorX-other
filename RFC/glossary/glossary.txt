@@ -1,0 +1,17 @@
+#英文	中文	[不使用的翻译|]备注
+header	首部	标头,标题,头部,头|
+#segment	报文段	(?<!报文)段|
+#field	字段	字报文段|为了解决前面的报文段的错误替换
+response	响应	回复|
+token	标记	令牌|
+transfer	传输	转移|
+message	消息	邮件|
+recipient	接收者	收件人|
+sender	发送者	发件人|
+cache	缓存	高速缓存|
+payload	有交荷载	有效负载|
+peer	对等端	对等体,对等方|
+extension	扩展	扩展名|
+implement	实现	实施|
+secret	机密,密钥	秘密|
+cipher	加密	密码|
