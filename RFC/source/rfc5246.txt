@@ -4149,23 +4149,23 @@ RFC 5246                          TLS                        August 2008
 
 A.5.  The Cipher Suite
 
-   The following values define the cipher suite codes used in the
-   ClientHello and ServerHello messages.
+   The following values define the cipher suite codes used in the ClientHello and ServerHello messages.
 
-   A cipher suite defines a cipher specification supported in TLS
-   Version 1.2.
 
-   TLS_NULL_WITH_NULL_NULL is specified and is the initial state of a
-   TLS connection during the first handshake on that channel, but MUST
-   NOT be negotiated, as it provides no more protection than an
-   unsecured connection.
+   A cipher suite defines a cipher specification supported in TLS Version 1.2.
+
+
+   TLS_NULL_WITH_NULL_NULL is specified and is the initial state of a TLS connection during the first handshake on that channel, but MUST NOT be negotiated, as it provides no more protection than an unsecured connection.
+
+
+
 
       CipherSuite TLS_NULL_WITH_NULL_NULL               = { 0x00,0x00 };
 
-   The following CipherSuite definitions require that the server provide
-   an RSA certificate that can be used for key exchange.  The server may
-   request any signature-capable certificate in the certificate request
-   message.
+   The following CipherSuite definitions require that the server provide an RSA certificate that can be used for key exchange.  The server may request any signature-capable certificate in the certificate request message.
+
+
+
 
       CipherSuite TLS_RSA_WITH_NULL_MD5                 = { 0x00,0x01 };
       CipherSuite TLS_RSA_WITH_NULL_SHA                 = { 0x00,0x02 };
@@ -4178,19 +4178,19 @@ A.5.  The Cipher Suite
       CipherSuite TLS_RSA_WITH_AES_128_CBC_SHA256       = { 0x00,0x3C };
       CipherSuite TLS_RSA_WITH_AES_256_CBC_SHA256       = { 0x00,0x3D };
 
-   The following cipher suite definitions are used for server-
-   authenticated (and optionally client-authenticated) Diffie-Hellman.
-   DH denotes cipher suites in which the server's certificate contains
-   the Diffie-Hellman parameters signed by the certificate authority
-   (CA).  DHE denotes ephemeral Diffie-Hellman, where the Diffie-Hellman
-   parameters are signed by a signature-capable certificate, which has
-   been signed by the CA.  The signing algorithm used by the server is
-   specified after the DHE component of the CipherSuite name.  The
-   server can request any signature-capable certificate from the client
-   for client authentication, or it may request a Diffie-Hellman
-   certificate.  Any Diffie-Hellman certificate provided by the client
-   must use the parameters (group and generator) described by the
-   server.
+   The following cipher suite definitions are used for server-authenticated (and optionally client-authenticated) Diffie-Hellman.
+
+   DH denotes cipher suites in which the server's certificate contains the Diffie-Hellman parameters signed by the certificate authority (CA).  DHE denotes ephemeral Diffie-Hellman, where the Diffie-Hellman parameters are signed by a signature-capable certificate, which has been signed by the CA.  The signing algorithm used by the server is specified after the DHE component of the CipherSuite name.  The server can request any signature-capable certificate from the client for client authentication, or it may request a Diffie-Hellman certificate.  Any Diffie-Hellman certificate provided by the client must use the parameters (group and generator) described by the server.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4224,17 +4224,17 @@ RFC 5246                          TLS                        August 2008
       CipherSuite TLS_DHE_DSS_WITH_AES_256_CBC_SHA256   = { 0x00,0x6A };
       CipherSuite TLS_DHE_RSA_WITH_AES_256_CBC_SHA256   = { 0x00,0x6B };
 
-   The following cipher suites are used for completely anonymous
-   Diffie-Hellman communications in which neither party is
-   authenticated.  Note that this mode is vulnerable to man-in-the-
-   middle attacks.  Using this mode therefore is of limited use: These
-   cipher suites MUST NOT be used by TLS 1.2 implementations unless the
-   application layer has specifically requested to allow anonymous key
-   exchange.  (Anonymous key exchange may sometimes be acceptable, for
-   example, to support opportunistic encryption when no set-up for
-   authentication is in place, or when TLS is used as part of more
-   complex security protocols that have other means to ensure
-   authentication.)
+   The following cipher suites are used for completely anonymous Diffie-Hellman communications in which neither party is authenticated.  Note that this mode is vulnerable to man-in-the-middle attacks.  Using this mode therefore is of limited use: These cipher suites MUST NOT be used by TLS 1.2 implementations unless the application layer has specifically requested to allow anonymous key exchange.  (Anonymous key exchange may sometimes be acceptable, for example, to support opportunistic encryption when no set-up for authentication is in place, or when TLS is used as part of more complex security protocols that have other means to ensure authentication.)
+
+
+
+
+
+
+
+
+
+
 
       CipherSuite TLS_DH_anon_WITH_RC4_128_MD5          = { 0x00,0x18 };
       CipherSuite TLS_DH_anon_WITH_3DES_EDE_CBC_SHA     = { 0x00,0x1B };
@@ -4243,13 +4243,13 @@ RFC 5246                          TLS                        August 2008
       CipherSuite TLS_DH_anon_WITH_AES_128_CBC_SHA256   = { 0x00,0x6C };
       CipherSuite TLS_DH_anon_WITH_AES_256_CBC_SHA256   = { 0x00,0x6D };
 
-   Note that using non-anonymous key exchange without actually verifying
-   the key exchange is essentially equivalent to anonymous key exchange,
-   and the same precautions apply.  While non-anonymous key exchange
-   will generally involve a higher computational and communicational
-   cost than anonymous key exchange, it may be in the interest of
-   interoperability not to disable non-anonymous key exchange when the
-   application layer is allowing anonymous key exchange.
+   Note that using non-anonymous key exchange without actually verifying the key exchange is essentially equivalent to anonymous key exchange, and the same precautions apply.  While non-anonymous key exchange will generally involve a higher computational and communicational cost than anonymous key exchange, it may be in the interest of interoperability not to disable non-anonymous key exchange when the application layer is allowing anonymous key exchange.
+
+
+
+
+
+
 
 
 
@@ -4259,18 +4259,18 @@ Dierks & Rescorla           Standards Track                    [Page 76]
 RFC 5246                          TLS                        August 2008
 
 
-   New cipher suite values have been assigned by IANA as described in
-   Section 12.
+   New cipher suite values have been assigned by IANA as described in Section 12.
 
-   Note: The cipher suite values { 0x00, 0x1C } and { 0x00, 0x1D } are
-   reserved to avoid collision with Fortezza-based cipher suites in
-   SSL 3.
+
+   Note: The cipher suite values { 0x00, 0x1C } and { 0x00, 0x1D } are reserved to avoid collision with Fortezza-based cipher suites in SSL 3.
+
+
 
 A.6.  The Security Parameters
 
-   These security parameters are determined by the TLS Handshake
-   Protocol and provided as parameters to the TLS record layer in order
-   to initialize a connection state.  SecurityParameters includes:
+   These security parameters are determined by the TLS Handshake Protocol and provided as parameters to the TLS record layer in order to initialize a connection state.  SecurityParameters includes:
+
+
 
    enum { null(0), (255) } CompressionMethod;
 
@@ -4285,9 +4285,9 @@ A.6.  The Security Parameters
    enum { null, hmac_md5, hmac_sha1, hmac_sha256, hmac_sha384,
      hmac_sha512} MACAlgorithm;
 
-   /* Other values may be added to the algorithms specified in
-   CompressionMethod, PRFAlgorithm, BulkCipherAlgorithm, and
-   MACAlgorithm. */
+   /* Other values may be added to the algorithms specified in CompressionMethod, PRFAlgorithm, BulkCipherAlgorithm, and MACAlgorithm. */
+
+
 
    struct {
        ConnectionEnd          entity;
@@ -4317,51 +4317,51 @@ RFC 5246                          TLS                        August 2008
 
 A.7.  Changes to RFC 4492
 
-   RFC 4492 [TLSECC] adds Elliptic Curve cipher suites to TLS.  This
-   document changes some of the structures used in that document.  This
-   section details the required changes for implementors of both RFC
-   4492 and TLS 1.2.  Implementors of TLS 1.2 who are not implementing
-   RFC 4492 do not need to read this section.
+   RFC 4492 [TLSECC] adds Elliptic Curve cipher suites to TLS.  This document changes some of the structures used in that document.  This section details the required changes for implementors of both RFC 4492 and TLS 1.2.  Implementors of TLS 1.2 who are not implementing RFC 4492 do not need to read this section.
 
-   This document adds a "signature_algorithm" field to the digitally-
-   signed element in order to identify the signature and digest
-   algorithms used to create a signature.  This change applies to
-   digital signatures formed using ECDSA as well, thus allowing ECDSA
-   signatures to be used with digest algorithms other than SHA-1,
-   provided such use is compatible with the certificate and any
-   restrictions imposed by future revisions of [PKIX].
 
-   As described in Sections 7.4.2 and 7.4.6, the restrictions on the
-   signature algorithms used to sign certificates are no longer tied to
-   the cipher suite (when used by the server) or the
-   ClientCertificateType (when used by the client).  Thus, the
-   restrictions on the algorithm used to sign certificates specified in
-   Sections 2 and 3 of RFC 4492 are also relaxed.  As in this document,
-   the restrictions on the keys in the end-entity certificate remain.
+
+
+
+   This document adds a "signature_algorithm" field to the digitally-signed element in order to identify the signature and digest algorithms used to create a signature.  This change applies to digital signatures formed using ECDSA as well, thus allowing ECDSA signatures to be used with digest algorithms other than SHA-1, provided such use is compatible with the certificate and any restrictions imposed by future revisions of [PKIX].
+
+
+
+
+
+
+
+   As described in Sections 7.4.2 and 7.4.6, the restrictions on the signature algorithms used to sign certificates are no longer tied to the cipher suite (when used by the server) or the ClientCertificateType (when used by the client).  Thus, the restrictions on the algorithm used to sign certificates specified in Sections 2 and 3 of RFC 4492 are also relaxed.  As in this document, the restrictions on the keys in the end-entity certificate remain.
+
+
+
+
+
+
 
 Appendix B.  Glossary
 
    Advanced Encryption Standard (AES)
-      AES [AES] is a widely used symmetric encryption algorithm.  AES is
-      a block cipher with a 128-, 192-, or 256-bit keys and a 16-byte
-      block size.  TLS currently only supports the 128- and 256-bit key
-      sizes.
+      AES [AES] is a widely used symmetric encryption algorithm.  AES is a block cipher with a 128-, 192-, or 256-bit keys and a 16-byte block size.  TLS currently only supports the 128- and 256-bit key sizes.
+
+
+
 
    application protocol
-      An application protocol is a protocol that normally layers
-      directly on top of the transport layer (e.g., TCP/IP).  Examples
-      include HTTP, TELNET, FTP, and SMTP.
+      An application protocol is a protocol that normally layers directly on top of the transport layer (e.g., TCP/IP).  Examples include HTTP, TELNET, FTP, and SMTP.
+
+
 
    asymmetric cipher
       See public key cryptography.
 
    authenticated encryption with additional data (AEAD)
-      A symmetric encryption algorithm that simultaneously provides
-      confidentiality and message integrity.
+      A symmetric encryption algorithm that simultaneously provides confidentiality and message integrity.
+
 
    authentication
-      Authentication is the ability of one entity to determine the
-      identity of another entity.
+      Authentication is the ability of one entity to determine the identity of another entity.
+
 
 
 
@@ -4372,34 +4372,34 @@ RFC 5246                          TLS                        August 2008
 
 
    block cipher
-      A block cipher is an algorithm that operates on plaintext in
-      groups of bits, called blocks.  64 bits was, and 128 bits is, a
-      common block size.
+      A block cipher is an algorithm that operates on plaintext in groups of bits, called blocks.  64 bits was, and 128 bits is, a common block size.
+
+
 
    bulk cipher
-      A symmetric encryption algorithm used to encrypt large quantities
-      of data.
+      A symmetric encryption algorithm used to encrypt large quantities of data.
+
 
    cipher block chaining (CBC)
-      CBC is a mode in which every plaintext block encrypted with a
-      block cipher is first exclusive-ORed with the previous ciphertext
-      block (or, in the case of the first block, with the initialization
-      vector).  For decryption, every block is first decrypted, then
-      exclusive-ORed with the previous ciphertext block (or IV).
+      CBC is a mode in which every plaintext block encrypted with a block cipher is first exclusive-ORed with the previous ciphertext block (or, in the case of the first block, with the initialization vector).  For decryption, every block is first decrypted, then exclusive-ORed with the previous ciphertext block (or IV).
+
+
+
+
 
    certificate
-      As part of the X.509 protocol (a.k.a. ISO Authentication
-      framework), certificates are assigned by a trusted Certificate
-      Authority and provide a strong binding between a party's identity
-      or some other attributes and its public key.
+      As part of the X.509 protocol (a.k.a. ISO Authentication framework), certificates are assigned by a trusted Certificate Authority and provide a strong binding between a party's identity or some other attributes and its public key.
+
+
+
 
    client
-      The application entity that initiates a TLS connection to a
-      server.  This may or may not imply that the client initiated the
-      underlying transport connection.  The primary operational
-      difference between the server and client is that the server is
-      generally authenticated, while the client is only optionally
-      authenticated.
+      The application entity that initiates a TLS connection to a server.  This may or may not imply that the client initiated the underlying transport connection.  The primary operational difference between the server and client is that the server is generally authenticated, while the client is only optionally authenticated.
+
+
+
+
+
 
    client write key
       The key used to encrypt data written by the client.
@@ -4408,17 +4408,17 @@ RFC 5246                          TLS                        August 2008
       The secret data used to authenticate data written by the client.
 
    connection
-      A connection is a transport (in the OSI layering model definition)
-      that provides a suitable type of service.  For TLS, such
-      connections are peer-to-peer relationships.  The connections are
-      transient.  Every connection is associated with one session.
+      A connection is a transport (in the OSI layering model definition) that provides a suitable type of service.  For TLS, such connections are peer-to-peer relationships.  The connections are transient.  Every connection is associated with one session.
+
+
+
 
    Data Encryption Standard
-      DES [DES] still is a very widely used symmetric encryption
-      algorithm although it is considered as rather weak now.  DES is a
-      block cipher with a 56-bit key and an 8-byte block size.  Note
-      that in TLS, for key generation purposes, DES is treated as having
-      an 8-byte key length (64 bits), but it still only provides 56 bits
+      DES [DES] still is a very widely used symmetric encryption algorithm although it is considered as rather weak now.  DES is a block cipher with a 56-bit key and an 8-byte block size.  Note that in TLS, for key generation purposes, DES is treated as having an 8-byte key length (64 bits), but it still only provides 56 bits of protection.  (The low bit of each key byte is presumed to be set to produce odd parity in that key byte.)  DES can also be operated in a mode [3DES] where three independent keys and three encryptions are used for each block of data; this uses 168 bits of key (24 bytes in the TLS key generation method) and provides the equivalent of 112 bits of security.
+
+
+
+
 
 
 
@@ -4427,50 +4427,50 @@ Dierks & Rescorla           Standards Track                    [Page 79]
 RFC 5246                          TLS                        August 2008
 
 
-      of protection.  (The low bit of each key byte is presumed to be
-      set to produce odd parity in that key byte.)  DES can also be
-      operated in a mode [3DES] where three independent keys and three
-      encryptions are used for each block of data; this uses 168 bits of
-      key (24 bytes in the TLS key generation method) and provides the
-      equivalent of 112 bits of security.
+
+
+
+
+
+
 
    Digital Signature Standard (DSS)
-      A standard for digital signing, including the Digital Signing
-      Algorithm, approved by the National Institute of Standards and
-      Technology, defined in NIST FIPS PUB 186-2, "Digital Signature
-      Standard", published January 2000 by the U.S. Department of
-      Commerce [DSS].  A significant update [DSS-3] has been drafted and
-      was published in March 2006.
+      A standard for digital signing, including the Digital Signing Algorithm, approved by the National Institute of Standards and Technology, defined in NIST FIPS PUB 186-2, "Digital Signature Standard", published January 2000 by the U.S. Department of Commerce [DSS].  A significant update [DSS-3] has been drafted and was published in March 2006.
+
+
+
+
+
 
    digital signatures
-      Digital signatures utilize public key cryptography and one-way
-      hash functions to produce a signature of the data that can be
-      authenticated, and is difficult to forge or repudiate.
+      Digital signatures utilize public key cryptography and one-way hash functions to produce a signature of the data that can be authenticated, and is difficult to forge or repudiate.
 
-   handshake An initial negotiation between client and server that
-      establishes the parameters of their transactions.
+
+
+   handshake
+      An initial negotiation between client and server that establishes the parameters of their transactions.
 
    Initialization Vector (IV)
-      When a block cipher is used in CBC mode, the initialization vector
-      is exclusive-ORed with the first plaintext block prior to
-      encryption.
+      When a block cipher is used in CBC mode, the initialization vector is exclusive-ORed with the first plaintext block prior to encryption.
+
+
 
    Message Authentication Code (MAC)
-      A Message Authentication Code is a one-way hash computed from a
-      message and some secret data.  It is difficult to forge without
-      knowing the secret data.  Its purpose is to detect if the message
-      has been altered.
+      A Message Authentication Code is a one-way hash computed from a message and some secret data.  It is difficult to forge without knowing the secret data.  Its purpose is to detect if the message has been altered.
+
+
+
 
    master secret
-      Secure secret data used for generating encryption keys, MAC
-      secrets, and IVs.
+      Secure secret data used for generating encryption keys, MAC secrets, and IVs.
+
 
    MD5
-      MD5 [MD5] is a hashing function that converts an arbitrarily long
-      data stream into a hash of fixed size (16 bytes).  Due to
-      significant progress in cryptanalysis, at the time of publication
-      of this document, MD5 no longer can be considered a 'secure'
-      hashing function.
+      MD5 [MD5] is a hashing function that converts an arbitrarily long data stream into a hash of fixed size (16 bytes).  Due to significant progress in cryptanalysis, at the time of publication of this document, MD5 no longer can be considered a 'secure' hashing function.
+
+
+
+
 
 
 
@@ -4485,38 +4485,38 @@ RFC 5246                          TLS                        August 2008
 
    public key cryptography
       A class of cryptographic techniques employing two-key ciphers.
-      Messages encrypted with the public key can only be decrypted with
-      the associated private key.  Conversely, messages signed with the
-      private key can be verified with the public key.
+      Messages encrypted with the public key can only be decrypted with the associated private key.  Conversely, messages signed with the private key can be verified with the public key.
+
+
 
    one-way hash function
-      A one-way transformation that converts an arbitrary amount of data
-      into a fixed-length hash.  It is computationally hard to reverse
-      the transformation or to find collisions.  MD5 and SHA are
-      examples of one-way hash functions.
+      A one-way transformation that converts an arbitrary amount of data into a fixed-length hash.  It is computationally hard to reverse the transformation or to find collisions.  MD5 and SHA are examples of one-way hash functions.
+
+
+
 
    RC4
-      A stream cipher invented by Ron Rivest.  A compatible cipher is
-      described in [SCH].
+      A stream cipher invented by Ron Rivest.  A compatible cipher is described in [SCH].
+
 
    RSA
-      A very widely used public key algorithm that can be used for
-      either encryption or digital signing.  [RSA]
+      A very widely used public key algorithm that can be used for either encryption or digital signing.  [RSA]
+
 
    server
-      The server is the application entity that responds to requests for
-      connections from clients.  See also "client".
+      The server is the application entity that responds to requests for connections from clients.  See also "client".
+
 
    session
       A TLS session is an association between a client and a server.
-      Sessions are created by the handshake protocol.  Sessions define a
-      set of cryptographic security parameters that can be shared among
-      multiple connections.  Sessions are used to avoid the expensive
-      negotiation of new security parameters for each connection.
+      Sessions are created by the handshake protocol.  Sessions define a set of cryptographic security parameters that can be shared among multiple connections.  Sessions are used to avoid the expensive negotiation of new security parameters for each connection.
+
+
+
 
    session identifier
-      A session identifier is a value generated by a server that
-      identifies a particular session.
+      A session identifier is a value generated by a server that identifies a particular session.
+
 
    server write key
       The key used to encrypt data written by the server.
@@ -4525,10 +4525,10 @@ RFC 5246                          TLS                        August 2008
       The secret data used to authenticate data written by the server.
 
    SHA
-      The Secure Hash Algorithm [SHS] is defined in FIPS PUB 180-2.  It
-      produces a 20-byte output.  Note that all references to SHA
-      (without a numerical suffix) actually use the modified SHA-1
-      algorithm.
+      The Secure Hash Algorithm [SHS] is defined in FIPS PUB 180-2.  It produces a 20-byte output.  Note that all references to SHA (without a numerical suffix) actually use the modified SHA-1 algorithm.
+
+
+
 
 
 
@@ -4544,21 +4544,21 @@ RFC 5246                          TLS                        August 2008
       It produces a 32-byte output.
 
    SSL
-      Netscape's Secure Socket Layer protocol [SSL3].  TLS is based on
-      SSL Version 3.0.
+      Netscape's Secure Socket Layer protocol [SSL3].  TLS is based on SSL Version 3.0.
+
 
    stream cipher
-      An encryption algorithm that converts a key into a
-      cryptographically strong keystream, which is then exclusive-ORed
-      with the plaintext.
+      An encryption algorithm that converts a key into a cryptographically strong keystream, which is then exclusive-ORed with the plaintext.
+
+
 
    symmetric cipher
       See bulk cipher.
 
    Transport Layer Security (TLS)
-      This protocol; also, the Transport Layer Security working group of
-      the Internet Engineering Task Force (IETF).  See "Working Group
-      Information" at the end of this document (see page 99).
+      This protocol; also, the Transport Layer Security working group of the Internet Engineering Task Force (IETF).  See "Working Group Information" at the end of this document (see page 99).
+
+
 
 
 
@@ -4669,23 +4669,23 @@ SHA       HMAC-SHA1       20            20
 SHA256    HMAC-SHA256     32            32
 
    Type
-      Indicates whether this is a stream cipher or a block cipher
-      running in CBC mode.
+      Indicates whether this is a stream cipher or a block cipher running in CBC mode.
+
 
    Key Material
-      The number of bytes from the key_block that are used for
-      generating the write keys.
+      The number of bytes from the key_block that are used for generating the write keys.
+
 
    IV Size
-      The amount of data needed to be generated for the initialization
-      vector.  Zero for stream ciphers; equal to the block size for
-      block ciphers (this is equal to
-      SecurityParameters.record_iv_length).
+      The amount of data needed to be generated for the initialization vector.  Zero for stream ciphers; equal to the block size for block ciphers (this is equal to SecurityParameters.record_iv_length).
+
+
+
 
    Block Size
-      The amount of data a block cipher enciphers in one chunk; a block
-      cipher running in CBC mode can only encrypt an even multiple of
-      its block size.
+      The amount of data a block cipher enciphers in one chunk; a block cipher running in CBC mode can only encrypt an even multiple of its block size.
+
+
 
 
 
@@ -4709,51 +4709,51 @@ RFC 5246                          TLS                        August 2008
 
 Appendix D.  Implementation Notes
 
-   The TLS protocol cannot prevent many common security mistakes.  This
-   section provides several recommendations to assist implementors.
+   The TLS protocol cannot prevent many common security mistakes.  This section provides several recommendations to assist implementors.
+
 
 D.1.  Random Number Generation and Seeding
 
-   TLS requires a cryptographically secure pseudorandom number generator
-   (PRNG).  Care must be taken in designing and seeding PRNGs.  PRNGs
-   based on secure hash operations, most notably SHA-1, are acceptable,
-   but cannot provide more security than the size of the random number
-   generator state.
+   TLS requires a cryptographically secure pseudorandom number generator (PRNG).  Care must be taken in designing and seeding PRNGs.  PRNGs based on secure hash operations, most notably SHA-1, are acceptable, but cannot provide more security than the size of the random number generator state.
 
-   To estimate the amount of seed material being produced, add the
-   number of bits of unpredictable information in each seed byte.  For
-   example, keystroke timing values taken from a PC compatible's 18.2 Hz
-   timer provide 1 or 2 secure bits each, even though the total size of
-   the counter value is 16 bits or more.  Seeding a 128-bit PRNG would
-   thus require approximately 100 such timer values.
+
+
+
+
+   To estimate the amount of seed material being produced, add the number of bits of unpredictable information in each seed byte.  For example, keystroke timing values taken from a PC compatible's 18.2 Hz timer provide 1 or 2 secure bits each, even though the total size of the counter value is 16 bits or more.  Seeding a 128-bit PRNG would thus require approximately 100 such timer values.
+
+
+
+
+
 
    [RANDOM] provides guidance on the generation of random values.
 
 D.2.  Certificates and Authentication
 
-   Implementations are responsible for verifying the integrity of
-   certificates and should generally support certificate revocation
-   messages.  Certificates should always be verified to ensure proper
-   signing by a trusted Certificate Authority (CA).  The selection and
-   addition of trusted CAs should be done very carefully.  Users should
-   be able to view information about the certificate and root CA.
+   Implementations are responsible for verifying the integrity of certificates and should generally support certificate revocation messages.  Certificates should always be verified to ensure proper signing by a trusted Certificate Authority (CA).  The selection and addition of trusted CAs should be done very carefully.  Users should be able to view information about the certificate and root CA.
+
+
+
+
+
 
 D.3.  Cipher Suites
 
-   TLS supports a range of key sizes and security levels, including some
-   that provide no or minimal security.  A proper implementation will
-   probably not support many cipher suites.  For instance, anonymous
-   Diffie-Hellman is strongly discouraged because it cannot prevent man-
-   in-the-middle attacks.  Applications should also enforce minimum and
-   maximum key sizes.  For example, certificate chains containing 512-
-   bit RSA keys or signatures are not appropriate for high-security
-   applications.
+   TLS supports a range of key sizes and security levels, including some that provide no or minimal security.  A proper implementation will probably not support many cipher suites.  For instance, anonymous Diffie-Hellman is strongly discouraged because it cannot prevent man-in-the-middle attacks.  Applications should also enforce minimum and maximum key sizes.  For example, certificate chains containing 512-bit RSA keys or signatures are not appropriate for high-security applications.
+
+
+
+
+
+
+
 
 D.4.  Implementation Pitfalls
 
-   Implementation experience has shown that certain parts of earlier TLS
-   specifications are not easy to understand, and have been a source of
-   interoperability and security problems.  Many of these areas have
+   Implementation experience has shown that certain parts of earlier TLS specifications are not easy to understand, and have been a source of interoperability and security problems.  Many of these areas have been clarified in this document, but this appendix contains a short list of the most important things that require special attention from implementors.
+
+
 
 
 
@@ -4763,53 +4763,53 @@ Dierks & Rescorla           Standards Track                    [Page 85]
 RFC 5246                          TLS                        August 2008
 
 
-   been clarified in this document, but this appendix contains a short
-   list of the most important things that require special attention from
-   implementors.
+
+
+
 
    TLS protocol issues:
 
-   -  Do you correctly handle handshake messages that are fragmented to
-      multiple TLS records (see Section 6.2.1)? Including corner cases
-      like a ClientHello that is split to several small fragments? Do
-      you fragment handshake messages that exceed the maximum fragment
-      size? In particular, the certificate and certificate request
-      handshake messages can be large enough to require fragmentation.
+   -  Do you correctly handle handshake messages that are fragmented to multiple TLS records (see Section 6.2.1)? Including corner cases like a ClientHello that is split to several small fragments? Do you fragment handshake messages that exceed the maximum fragment size? In particular, the certificate and certificate request handshake messages can be large enough to require fragmentation.
 
-   -  Do you ignore the TLS record layer version number in all TLS
-      records before ServerHello (see Appendix E.1)?
 
-   -  Do you handle TLS extensions in ClientHello correctly, including
-      omitting the extensions field completely?
+
+
+
+
+   -  Do you ignore the TLS record layer version number in all TLS records before ServerHello (see Appendix E.1)?
+
+
+   -  Do you handle TLS extensions in ClientHello correctly, including omitting the extensions field completely?
+
 
    -  Do you support renegotiation, both client and server initiated?
-      While renegotiation is an optional feature, supporting it is
-      highly recommended.
+      While renegotiation is an optional feature, supporting it is highly recommended.
 
-   -  When the server has requested a client certificate, but no
-      suitable certificate is available, do you correctly send an empty
-      Certificate message, instead of omitting the whole message (see
-      Section 7.4.6)?
+
+   -  When the server has requested a client certificate, but no suitable certificate is available, do you correctly send an empty Certificate message, instead of omitting the whole message (see Section 7.4.6)?
+
+
+
 
    Cryptographic details:
 
-   -  In the RSA-encrypted Premaster Secret, do you correctly send and
-      verify the version number? When an error is encountered, do you
-      continue the handshake to avoid the Bleichenbacher attack (see
-      Section 7.4.7.1)?
+   -  In the RSA-encrypted Premaster Secret, do you correctly send and verify the version number? When an error is encountered, do you continue the handshake to avoid the Bleichenbacher attack (see Section 7.4.7.1)?
 
-   -  What countermeasures do you use to prevent timing attacks against
-      RSA decryption and signing operations (see Section 7.4.7.1)?
 
-   -  When verifying RSA signatures, do you accept both NULL and missing
-      parameters (see Section 4.7)? Do you verify that the RSA padding
-      doesn't have additional data after the hash value?  [FI06]
 
-   -  When using Diffie-Hellman key exchange, do you correctly strip
-      leading zero bytes from the negotiated key (see Section 8.1.2)?
 
-   -  Does your TLS client check that the Diffie-Hellman parameters sent
-      by the server are acceptable (see Section F.1.1.3)?
+   -  What countermeasures do you use to prevent timing attacks against RSA decryption and signing operations (see Section 7.4.7.1)?
+
+
+   -  When verifying RSA signatures, do you accept both NULL and missing parameters (see Section 4.7)? Do you verify that the RSA padding doesn't have additional data after the hash value?  [FI06]
+
+
+
+   -  When using Diffie-Hellman key exchange, do you correctly strip leading zero bytes from the negotiated key (see Section 8.1.2)?
+
+
+   -  Does your TLS client check that the Diffie-Hellman parameters sent by the server are acceptable (see Section F.1.1.3)?
+
 
 
 
@@ -4819,18 +4819,18 @@ Dierks & Rescorla           Standards Track                    [Page 86]
 RFC 5246                          TLS                        August 2008
 
 
-   -  How do you generate unpredictable IVs for CBC mode ciphers (see
-      Section 6.2.3.2)?
+   -  How do you generate unpredictable IVs for CBC mode ciphers (see Section 6.2.3.2)?
 
-   -  Do you accept long CBC mode padding (up to 255 bytes; see Section
-      6.2.3.2)?
+
+   -  Do you accept long CBC mode padding (up to 255 bytes; see Section 6.2.3.2)?
+
 
    -  How do you address CBC mode timing attacks (Section 6.2.3.2)?
 
-   -  Do you use a strong and, most importantly, properly seeded random
-      number generator (see Appendix D.1) for generating the premaster
-      secret (for RSA key exchange), Diffie-Hellman private values, the
-      DSA "k" parameter, and other security-critical values?
+   -  Do you use a strong and, most importantly, properly seeded random number generator (see Appendix D.1) for generating the premaster secret (for RSA key exchange), Diffie-Hellman private values, the DSA "k" parameter, and other security-critical values?
+
+
+
 
 Appendix E.  Backward Compatibility
 
@@ -5045,51 +5045,53 @@ RFC 5246                          TLS                        August 2008
 
 Appendix F.  Security Analysis
 
-   The TLS protocol is designed to establish a secure connection between
-   a client and a server communicating over an insecure channel.  This
-   document makes several traditional assumptions, including that
-   attackers have substantial computational resources and cannot obtain
-   secret information from sources outside the protocol.  Attackers are
-   assumed to have the ability to capture, modify, delete, replay, and
-   otherwise tamper with messages sent over the communication channel.
-   This appendix outlines how TLS has been designed to resist a variety
-   of attacks.
+   The TLS protocol is designed to establish a secure connection between a client and a server communicating over an insecure channel.  This document makes several traditional assumptions, including that attackers have substantial computational resources and cannot obtain secret information from sources outside the protocol.  Attackers are assumed to have the ability to capture, modify, delete, replay, and otherwise tamper with messages sent over the communication channel.
+
+
+
+
+
+
+   This appendix outlines how TLS has been designed to resist a variety of attacks.
+
 
 F.1.  Handshake Protocol
 
-   The handshake protocol is responsible for selecting a cipher spec and
-   generating a master secret, which together comprise the primary
-   cryptographic parameters associated with a secure session.  The
-   handshake protocol can also optionally authenticate parties who have
-   certificates signed by a trusted certificate authority.
+   The handshake protocol is responsible for selecting a cipher spec and generating a master secret, which together comprise the primary cryptographic parameters associated with a secure session.  The handshake protocol can also optionally authenticate parties who have certificates signed by a trusted certificate authority.
+
+
+
+
 
 F.1.1.  Authentication and Key Exchange
 
-   TLS supports three authentication modes: authentication of both
-   parties, server authentication with an unauthenticated client, and
-   total anonymity.  Whenever the server is authenticated, the channel
-   is secure against man-in-the-middle attacks, but completely anonymous
-   sessions are inherently vulnerable to such attacks.  Anonymous
-   servers cannot authenticate clients.  If the server is authenticated,
-   its certificate message must provide a valid certificate chain
-   leading to an acceptable certificate authority.  Similarly,
-   authenticated clients must supply an acceptable certificate to the
-   server.  Each party is responsible for verifying that the other's
-   certificate is valid and has not expired or been revoked.
+   TLS supports three authentication modes: authentication of both parties, server authentication with an unauthenticated client, and total anonymity.  Whenever the server is authenticated, the channel is secure against man-in-the-middle attacks, but completely anonymous sessions are inherently vulnerable to such attacks.  Anonymous servers cannot authenticate clients.  If the server is authenticated, its certificate message must provide a valid certificate chain leading to an acceptable certificate authority.  Similarly, authenticated clients must supply an acceptable certificate to the server.  Each party is responsible for verifying that the other's certificate is valid and has not expired or been revoked.
 
-   The general goal of the key exchange process is to create a
-   pre_master_secret known to the communicating parties and not to
-   attackers.  The pre_master_secret will be used to generate the
-   master_secret (see Section 8.1).  The master_secret is required to
-   generate the Finished messages, encryption keys, and MAC keys (see
-   Sections 7.4.9 and 6.3).  By sending a correct Finished message,
-   parties thus prove that they know the correct pre_master_secret.
+
+
+
+
+
+
+
+
+
+
+
+
+   The general goal of the key exchange process is to create a pre_master_secret known to the communicating parties and not to attackers.  The pre_master_secret will be used to generate the master_secret (see Section 8.1).  The master_secret is required to generate the Finished messages, encryption keys, and MAC keys (see Sections 7.4.9 and 6.3).  By sending a correct Finished message, parties thus prove that they know the correct pre_master_secret.
+
+
+
+
+
+
 
 F.1.1.1.  Anonymous Key Exchange
 
-   Completely anonymous sessions can be established using Diffie-Hellman
-   for key exchange.  The server's public parameters are contained in
-   the server key exchange message, and the client's are sent in the
+   Completely anonymous sessions can be established using Diffie-Hellman for key exchange.  The server's public parameters are contained in the server key exchange message, and the client's are sent in the client key exchange message.  Eavesdroppers who do not know the private values should not be able to find the Diffie-Hellman result (i.e., the pre_master_secret).
+
+
 
 
 
@@ -5099,54 +5101,54 @@ Dierks & Rescorla           Standards Track                    [Page 91]
 RFC 5246                          TLS                        August 2008
 
 
-   client key exchange message.  Eavesdroppers who do not know the
-   private values should not be able to find the Diffie-Hellman result
-   (i.e., the pre_master_secret).
 
-   Warning: Completely anonymous connections only provide protection
-   against passive eavesdropping.  Unless an independent tamper-proof
-   channel is used to verify that the Finished messages were not
-   replaced by an attacker, server authentication is required in
-   environments where active man-in-the-middle attacks are a concern.
+
+
+
+   Warning: Completely anonymous connections only provide protection against passive eavesdropping.  Unless an independent tamper-proof channel is used to verify that the Finished messages were not replaced by an attacker, server authentication is required in environments where active man-in-the-middle attacks are a concern.
+
+
+
+
 
 F.1.1.2.  RSA Key Exchange and Authentication
 
-   With RSA, key exchange and server authentication are combined.  The
-   public key is contained in the server's certificate.  Note that
-   compromise of the server's static RSA key results in a loss of
-   confidentiality for all sessions protected under that static key.
-   TLS users desiring Perfect Forward Secrecy should use DHE cipher
-   suites.  The damage done by exposure of a private key can be limited
-   by changing one's private key (and certificate) frequently.
+   With RSA, key exchange and server authentication are combined.  The public key is contained in the server's certificate.  Note that compromise of the server's static RSA key results in a loss of confidentiality for all sessions protected under that static key.
 
-   After verifying the server's certificate, the client encrypts a
-   pre_master_secret with the server's public key.  By successfully
-   decoding the pre_master_secret and producing a correct Finished
-   message, the server demonstrates that it knows the private key
-   corresponding to the server certificate.
 
-   When RSA is used for key exchange, clients are authenticated using
-   the certificate verify message (see Section 7.4.8).  The client signs
-   a value derived from all preceding handshake messages.  These
-   handshake messages include the server certificate, which binds the
-   signature to the server, and ServerHello.random, which binds the
-   signature to the current handshake process.
+
+   TLS users desiring Perfect Forward Secrecy should use DHE cipher suites.  The damage done by exposure of a private key can be limited by changing one's private key (and certificate) frequently.
+
+
+
+   After verifying the server's certificate, the client encrypts a pre_master_secret with the server's public key.  By successfully decoding the pre_master_secret and producing a correct Finished message, the server demonstrates that it knows the private key corresponding to the server certificate.
+
+
+
+
+
+   When RSA is used for key exchange, clients are authenticated using the certificate verify message (see Section 7.4.8).  The client signs a value derived from all preceding handshake messages.  These handshake messages include the server certificate, which binds the signature to the server, and ServerHello.random, which binds the signature to the current handshake process.
+
+
+
+
+
 
 F.1.1.3.  Diffie-Hellman Key Exchange with Authentication
 
-   When Diffie-Hellman key exchange is used, the server can either
-   supply a certificate containing fixed Diffie-Hellman parameters or
-   use the server key exchange message to send a set of temporary
-   Diffie-Hellman parameters signed with a DSA or RSA certificate.
-   Temporary parameters are hashed with the hello.random values before
-   signing to ensure that attackers do not replay old parameters.  In
-   either case, the client can verify the certificate or signature to
-   ensure that the parameters belong to the server.
+   When Diffie-Hellman key exchange is used, the server can either supply a certificate containing fixed Diffie-Hellman parameters or use the server key exchange message to send a set of temporary Diffie-Hellman parameters signed with a DSA or RSA certificate.
 
-   If the client has a certificate containing fixed Diffie-Hellman
-   parameters, its certificate contains the information required to
-   complete the key exchange.  Note that in this case the client and
-   server will generate the same Diffie-Hellman result (i.e.,
+
+
+   Temporary parameters are hashed with the hello.random values before signing to ensure that attackers do not replay old parameters.  In either case, the client can verify the certificate or signature to ensure that the parameters belong to the server.
+
+
+
+
+   If the client has a certificate containing fixed Diffie-Hellman parameters, its certificate contains the information required to complete the key exchange.  Note that in this case the client and server will generate the same Diffie-Hellman result (i.e., pre_master_secret) every time they communicate.  To prevent the pre_master_secret from staying in memory any longer than necessary, it should be converted into the master_secret as soon as possible.
+
+
+
 
 
 
@@ -5155,54 +5157,54 @@ Dierks & Rescorla           Standards Track                    [Page 92]
 RFC 5246                          TLS                        August 2008
 
 
-   pre_master_secret) every time they communicate.  To prevent the
-   pre_master_secret from staying in memory any longer than necessary,
-   it should be converted into the master_secret as soon as possible.
-   Client Diffie-Hellman parameters must be compatible with those
-   supplied by the server for the key exchange to work.
 
-   If the client has a standard DSA or RSA certificate or is
-   unauthenticated, it sends a set of temporary parameters to the server
-   in the client key exchange message, then optionally uses a
-   certificate verify message to authenticate itself.
 
-   If the same DH keypair is to be used for multiple handshakes, either
-   because the client or server has a certificate containing a fixed DH
-   keypair or because the server is reusing DH keys, care must be taken
-   to prevent small subgroup attacks.  Implementations SHOULD follow the
-   guidelines found in [SUBGROUP].
 
-   Small subgroup attacks are most easily avoided by using one of the
-   DHE cipher suites and generating a fresh DH private key (X) for each
-   handshake.  If a suitable base (such as 2) is chosen, g^X mod p can
-   be computed very quickly; therefore, the performance cost is
-   minimized.  Additionally, using a fresh key for each handshake
-   provides Perfect Forward Secrecy.  Implementations SHOULD generate a
-   new X for each handshake when using DHE cipher suites.
+   Client Diffie-Hellman parameters must be compatible with those supplied by the server for the key exchange to work.
 
-   Because TLS allows the server to provide arbitrary DH groups, the
-   client should verify that the DH group is of suitable size as defined
-   by local policy.  The client SHOULD also verify that the DH public
-   exponent appears to be of adequate size.  [KEYSIZ] provides a useful
-   guide to the strength of various group sizes.  The server MAY choose
-   to assist the client by providing a known group, such as those
-   defined in [IKEALG] or [MODP].  These can be verified by simple
-   comparison.
+
+   If the client has a standard DSA or RSA certificate or is unauthenticated, it sends a set of temporary parameters to the server in the client key exchange message, then optionally uses a certificate verify message to authenticate itself.
+
+
+
+
+   If the same DH keypair is to be used for multiple handshakes, either because the client or server has a certificate containing a fixed DH keypair or because the server is reusing DH keys, care must be taken to prevent small subgroup attacks.  Implementations SHOULD follow the guidelines found in [SUBGROUP].
+
+
+
+
+
+   Small subgroup attacks are most easily avoided by using one of the DHE cipher suites and generating a fresh DH private key (X) for each handshake.  If a suitable base (such as 2) is chosen, g^X mod p can be computed very quickly; therefore, the performance cost is minimized.  Additionally, using a fresh key for each handshake provides Perfect Forward Secrecy.  Implementations SHOULD generate a new X for each handshake when using DHE cipher suites.
+
+
+
+
+
+
+
+   Because TLS allows the server to provide arbitrary DH groups, the client should verify that the DH group is of suitable size as defined by local policy.  The client SHOULD also verify that the DH public exponent appears to be of adequate size.  [KEYSIZ] provides a useful guide to the strength of various group sizes.  The server MAY choose to assist the client by providing a known group, such as those defined in [IKEALG] or [MODP].  These can be verified by simple comparison.
+
+
+
+
+
+
+
 
 F.1.2.  Version Rollback Attacks
 
-   Because TLS includes substantial improvements over SSL Version 2.0,
-   attackers may try to make TLS-capable clients and servers fall back
-   to Version 2.0.  This attack can occur if (and only if) two TLS-
-   capable parties use an SSL 2.0 handshake.
+   Because TLS includes substantial improvements over SSL Version 2.0, attackers may try to make TLS-capable clients and servers fall back to Version 2.0.  This attack can occur if (and only if) two TLS-capable parties use an SSL 2.0 handshake.
 
-   Although the solution using non-random PKCS #1 block type 2 message
-   padding is inelegant, it provides a reasonably secure way for Version
-   3.0 servers to detect the attack.  This solution is not secure
-   against attackers who can brute-force the key and substitute a new
-   ENCRYPTED-KEY-DATA message containing the same key (but with normal
-   padding) before the application-specified wait threshold has expired.
-   Altering the padding of the least-significant 8 bytes of the PKCS
+
+
+
+   Although the solution using non-random PKCS #1 block type 2 message padding is inelegant, it provides a reasonably secure way for Version 3.0 servers to detect the attack.  This solution is not secure against attackers who can brute-force the key and substitute a new ENCRYPTED-KEY-DATA message containing the same key (but with normal padding) before the application-specified wait threshold has expired.
+
+
+
+
+
+   Altering the padding of the least-significant 8 bytes of the PKCS padding does not impact security for the size of the signed hashes and RSA key lengths used in the protocol, since this is essentially equivalent to increasing the input block size by 8 bytes.
 
 
 
@@ -5211,54 +5213,54 @@ Dierks & Rescorla           Standards Track                    [Page 93]
 RFC 5246                          TLS                        August 2008
 
 
-   padding does not impact security for the size of the signed hashes
-   and RSA key lengths used in the protocol, since this is essentially
-   equivalent to increasing the input block size by 8 bytes.
+
+
+
 
 F.1.3.  Detecting Attacks Against the Handshake Protocol
 
-   An attacker might try to influence the handshake exchange to make the
-   parties select different encryption algorithms than they would
-   normally choose.
+   An attacker might try to influence the handshake exchange to make the parties select different encryption algorithms than they would normally choose.
 
-   For this attack, an attacker must actively change one or more
-   handshake messages.  If this occurs, the client and server will
-   compute different values for the handshake message hashes.  As a
-   result, the parties will not accept each others' Finished messages.
-   Without the master_secret, the attacker cannot repair the Finished
-   messages, so the attack will be discovered.
+
+
+   For this attack, an attacker must actively change one or more handshake messages.  If this occurs, the client and server will compute different values for the handshake message hashes.  As a result, the parties will not accept each others' Finished messages.
+
+
+
+   Without the master_secret, the attacker cannot repair the Finished messages, so the attack will be discovered.
+
 
 F.1.4.  Resuming Sessions
 
-   When a connection is established by resuming a session, new
-   ClientHello.random and ServerHello.random values are hashed with the
-   session's master_secret.  Provided that the master_secret has not
-   been compromised and that the secure hash operations used to produce
-   the encryption keys and MAC keys are secure, the connection should be
-   secure and effectively independent from previous connections.
-   Attackers cannot use known encryption keys or MAC secrets to
-   compromise the master_secret without breaking the secure hash
-   operations.
+   When a connection is established by resuming a session, new ClientHello.random and ServerHello.random values are hashed with the session's master_secret.  Provided that the master_secret has not been compromised and that the secure hash operations used to produce the encryption keys and MAC keys are secure, the connection should be secure and effectively independent from previous connections.
+
+
+
+
+
+   Attackers cannot use known encryption keys or MAC secrets to compromise the master_secret without breaking the secure hash operations.
+
+
 
    Sessions cannot be resumed unless both the client and server agree.
-   If either party suspects that the session may have been compromised,
-   or that certificates may have expired or been revoked, it should
-   force a full handshake.  An upper limit of 24 hours is suggested for
-   session ID lifetimes, since an attacker who obtains a master_secret
-   may be able to impersonate the compromised party until the
-   corresponding session ID is retired.  Applications that may be run in
-   relatively insecure environments should not write session IDs to
-   stable storage.
+   If either party suspects that the session may have been compromised, or that certificates may have expired or been revoked, it should force a full handshake.  An upper limit of 24 hours is suggested for session ID lifetimes, since an attacker who obtains a master_secret may be able to impersonate the compromised party until the corresponding session ID is retired.  Applications that may be run in relatively insecure environments should not write session IDs to stable storage.
+
+
+
+
+
+
+
 
 F.2.  Protecting Application Data
 
-   The master_secret is hashed with the ClientHello.random and
-   ServerHello.random to produce unique data encryption keys and MAC
-   secrets for each connection.
+   The master_secret is hashed with the ClientHello.random and ServerHello.random to produce unique data encryption keys and MAC secrets for each connection.
 
-   Outgoing data is protected with a MAC before transmission.  To
-   prevent message replay or modification attacks, the MAC is computed
-   from the MAC key, the sequence number, the message length, the
+
+
+   Outgoing data is protected with a MAC before transmission.  To prevent message replay or modification attacks, the MAC is computed from the MAC key, the sequence number, the message length, the message contents, and two fixed character strings.  The message type field is necessary to ensure that messages intended for one TLS record layer client are not redirected to another.  The sequence number ensures that attempts to delete or reorder messages will be detected.  Since sequence numbers are 64 bits long, they should never overflow.  Messages from one party cannot be inserted into the other's output, since they use independent MAC keys.  Similarly, the server write and client write keys are independent, so stream cipher keys are used only once.
+
+
 
 
 
@@ -5267,54 +5269,54 @@ Dierks & Rescorla           Standards Track                    [Page 94]
 RFC 5246                          TLS                        August 2008
 
 
-   message contents, and two fixed character strings.  The message type
-   field is necessary to ensure that messages intended for one TLS
-   record layer client are not redirected to another.  The sequence
-   number ensures that attempts to delete or reorder messages will be
-   detected.  Since sequence numbers are 64 bits long, they should never
-   overflow.  Messages from one party cannot be inserted into the
-   other's output, since they use independent MAC keys.  Similarly, the
-   server write and client write keys are independent, so stream cipher
-   keys are used only once.
 
-   If an attacker does break an encryption key, all messages encrypted
-   with it can be read.  Similarly, compromise of a MAC key can make
-   message-modification attacks possible.  Because MACs are also
-   encrypted, message-alteration attacks generally require breaking the
-   encryption algorithm as well as the MAC.
 
-   Note: MAC keys may be larger than encryption keys, so messages can
-   remain tamper resistant even if encryption keys are broken.
+
+
+
+
+
+
+
+
+   If an attacker does break an encryption key, all messages encrypted with it can be read.  Similarly, compromise of a MAC key can make message-modification attacks possible.  Because MACs are also encrypted, message-alteration attacks generally require breaking the encryption algorithm as well as the MAC.
+
+
+
+
+
+   Note: MAC keys may be larger than encryption keys, so messages can remain tamper resistant even if encryption keys are broken.
+
 
 F.3.  Explicit IVs
 
-   [CBCATT] describes a chosen plaintext attack on TLS that depends on
-   knowing the IV for a record.  Previous versions of TLS [TLS1.0] used
-   the CBC residue of the previous record as the IV and therefore
-   enabled this attack.  This version uses an explicit IV in order to
-   protect against this attack.
+   [CBCATT] describes a chosen plaintext attack on TLS that depends on knowing the IV for a record.  Previous versions of TLS [TLS1.0] used the CBC residue of the previous record as the IV and therefore enabled this attack.  This version uses an explicit IV in order to protect against this attack.
+
+
+
+
 
 F.4.  Security of Composite Cipher Modes
 
-   TLS secures transmitted application data via the use of symmetric
-   encryption and authentication functions defined in the negotiated
-   cipher suite.  The objective is to protect both the integrity and
-   confidentiality of the transmitted data from malicious actions by
-   active attackers in the network.  It turns out that the order in
-   which encryption and authentication functions are applied to the data
-   plays an important role for achieving this goal [ENCAUTH].
+   TLS secures transmitted application data via the use of symmetric encryption and authentication functions defined in the negotiated cipher suite.  The objective is to protect both the integrity and confidentiality of the transmitted data from malicious actions by active attackers in the network.  It turns out that the order in which encryption and authentication functions are applied to the data plays an important role for achieving this goal [ENCAUTH].
 
-   The most robust method, called encrypt-then-authenticate, first
-   applies encryption to the data and then applies a MAC to the
-   ciphertext.  This method ensures that the integrity and
-   confidentiality goals are obtained with ANY pair of encryption and
-   MAC functions, provided that the former is secure against chosen
-   plaintext attacks and that the MAC is secure against chosen-message
-   attacks.  TLS uses another method, called authenticate-then-encrypt,
-   in which first a MAC is computed on the plaintext and then the
-   concatenation of plaintext and MAC is encrypted.  This method has
-   been proven secure for CERTAIN combinations of encryption functions
-   and MAC functions, but it is not guaranteed to be secure in general.
+
+
+
+
+
+
+   The most robust method, called encrypt-then-authenticate, first applies encryption to the data and then applies a MAC to the ciphertext.  This method ensures that the integrity and confidentiality goals are obtained with ANY pair of encryption and MAC functions, provided that the former is secure against chosen plaintext attacks and that the MAC is secure against chosen-message attacks.  TLS uses another method, called authenticate-then-encrypt, in which first a MAC is computed on the plaintext and then the concatenation of plaintext and MAC is encrypted.  This method has been proven secure for CERTAIN combinations of encryption functions and MAC functions, but it is not guaranteed to be secure in general.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5323,52 +5325,52 @@ Dierks & Rescorla           Standards Track                    [Page 95]
 RFC 5246                          TLS                        August 2008
 
 
-   In particular, it has been shown that there exist perfectly secure
-   encryption functions (secure even in the information-theoretic sense)
-   that combined with any secure MAC function, fail to provide the
-   confidentiality goal against an active attack.  Therefore, new cipher
-   suites and operation modes adopted into TLS need to be analyzed under
-   the authenticate-then-encrypt method to verify that they achieve the
-   stated integrity and confidentiality goals.
+   In particular, it has been shown that there exist perfectly secure encryption functions (secure even in the information-theoretic sense) that combined with any secure MAC function, fail to provide the confidentiality goal against an active attack.  Therefore, new cipher suites and operation modes adopted into TLS need to be analyzed under the authenticate-then-encrypt method to verify that they achieve the stated integrity and confidentiality goals.
 
-   Currently, the security of the authenticate-then-encrypt method has
-   been proven for some important cases.  One is the case of stream
-   ciphers in which a computationally unpredictable pad of the length of
-   the message, plus the length of the MAC tag, is produced using a
-   pseudorandom generator and this pad is exclusive-ORed with the
-   concatenation of plaintext and MAC tag.  The other is the case of CBC
-   mode using a secure block cipher.  In this case, security can be
-   shown if one applies one CBC encryption pass to the concatenation of
-   plaintext and MAC and uses a new, independent, and unpredictable IV
-   for each new pair of plaintext and MAC.  In versions of TLS prior to
-   1.1, CBC mode was used properly EXCEPT that it used a predictable IV
-   in the form of the last block of the previous ciphertext.  This made
-   TLS open to chosen plaintext attacks.  This version of the protocol
-   is immune to those attacks.  For exact details in the encryption
-   modes proven secure, see [ENCAUTH].
 
-F.5.  Denial of Service
 
-   TLS is susceptible to a number of denial-of-service (DoS) attacks.
-   In particular, an attacker who initiates a large number of TCP
-   connections can cause a server to consume large amounts of CPU for
-   doing RSA decryption.  However, because TLS is generally used over
-   TCP, it is difficult for the attacker to hide his point of origin if
-   proper TCP SYN randomization is used [SEQNUM] by the TCP stack.
 
-   Because TLS runs over TCP, it is also susceptible to a number of DoS
-   attacks on individual connections.  In particular, attackers can
-   forge RSTs, thereby terminating connections, or forge partial TLS
-   records, thereby causing the connection to stall.  These attacks
-   cannot in general be defended against by a TCP-using protocol.
-   Implementors or users who are concerned with this class of attack
-   should use IPsec AH [AH] or ESP [ESP].
+
+
+
+   Currently, the security of the authenticate-then-encrypt method has been proven for some important cases.  One is the case of stream ciphers in which a computationally unpredictable pad of the length of the message, plus the length of the MAC tag, is produced using a pseudorandom generator and this pad is exclusive-ORed with the concatenation of plaintext and MAC tag.  The other is the case of CBC mode using a secure block cipher.  In this case, security can be shown if one applies one CBC encryption pass to the concatenation of plaintext and MAC and uses a new, independent, and unpredictable IV for each new pair of plaintext and MAC.  In versions of TLS prior to 1.1, CBC mode was used properly EXCEPT that it used a predictable IV in the form of the last block of the previous ciphertext.  This made TLS open to chosen plaintext attacks.  This version of the protocol is immune to those attacks.  For exact details in the encryption modes proven secure, see [ENCAUTH].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F.5.  Denial of Service TLS is susceptible to a number of denial-of-service (DoS) attacks.
+
+
+   In particular, an attacker who initiates a large number of TCP connections can cause a server to consume large amounts of CPU for doing RSA decryption.  However, because TLS is generally used over TCP, it is difficult for the attacker to hide his point of origin if proper TCP SYN randomization is used [SEQNUM] by the TCP stack.
+
+
+
+
+
+   Because TLS runs over TCP, it is also susceptible to a number of DoS attacks on individual connections.  In particular, attackers can forge RSTs, thereby terminating connections, or forge partial TLS records, thereby causing the connection to stall.  These attacks cannot in general be defended against by a TCP-using protocol.
+
+
+
+
+   Implementors or users who are concerned with this class of attack should use IPsec AH [AH] or ESP [ESP].
+
 
 F.6.  Final Notes
 
-   For TLS to be able to provide a secure connection, both the client
-   and server systems, keys, and applications must be secure.  In
-   addition, the implementation must be free of security errors.
+   For TLS to be able to provide a secure connection, both the client and server systems, keys, and applications must be secure.  In addition, the implementation must be free of security errors.
+
+
 
 
 
@@ -5379,13 +5381,13 @@ Dierks & Rescorla           Standards Track                    [Page 96]
 RFC 5246                          TLS                        August 2008
 
 
-   The system is only as strong as the weakest key exchange and
-   authentication algorithm supported, and only trustworthy
-   cryptographic functions should be used.  Short public keys and
-   anonymous servers should be used with great caution.  Implementations
-   and users must be careful when deciding which certificates and
-   certificate authorities are acceptable; a dishonest certificate
-   authority can do tremendous damage.
+   The system is only as strong as the weakest key exchange and authentication algorithm supported, and only trustworthy cryptographic functions should be used.  Short public keys and anonymous servers should be used with great caution.  Implementations and users must be careful when deciding which certificates and certificate authorities are acceptable; a dishonest certificate authority can do tremendous damage.
+
+
+
+
+
+
 
 Normative References
 

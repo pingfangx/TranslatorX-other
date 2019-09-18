@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Anonymous key exchange may sometimes be acceptable, for example, to support opportunistic encryption when no set-up for authentication is in place, or when TLS is used as part of more complex security protocols that have other means to ensure authentication.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063327Z" creationid="pingfangx" creationdate="20190919T063327Z">
+        <seg>(匿名密钥交换有时是可以接受的，例如，在没有身份验证设置的情况下支持机会加密，或者当 TLS 用作更复杂的安全协议的一部分时，这些协议具有其他方式来确保身份验证。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(But see section 19.6.1.1 for other requirements on Host support in HTTP/1.1.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T101705Z" creationid="pingfangx" creationdate="20190829T101705Z">
@@ -218,6 +226,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T155504Z" creationid="pingfangx" creationdate="20190828T155504Z">
         <seg>(上面的最后三个标签不是注册标签；除了最后一个标签之外的所有标签都是可以在将来注册的标签示例。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(The low bit of each key byte is presumed to be set to produce odd parity in that key byte.)  DES can also be operated in a mode [3DES] where three independent keys and three encryptions are used for each block of data; this uses 168 bits of key (24 bytes in the TLS key generation method) and provides the equivalent of 112 bits of security.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065801Z" creationid="pingfangx" creationdate="20190919T065801Z">
+        <seg>(假定每个密钥字节的低位被设置为在该密钥字节中产生奇数奇偶校验。)DES 也可以在模式 [3DES] 中操作，其中三个独立密钥和三个加密用于每个数据块；它使用 168 位密钥(在 TLS 密钥生成方法中为 24 字节)，并提供相当于 112 位的安全性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -574,6 +590,62 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-  Do you accept long CBC mode padding (up to 255 bytes; see Section 6.2.3.2)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T073041Z" creationid="pingfangx" creationdate="20190919T073041Z">
+        <seg>-  是否接受长 CBC 模式填充(最多 255 字节；请参阅第 6.2.3.2 节)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  Do you correctly handle handshake messages that are fragmented to multiple TLS records (see Section 6.2.1)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072600Z" creationid="pingfangx" creationdate="20190919T072600Z">
+        <seg>-  您是否正确处理碎片化为多个 TLS 记录的握手消息(请参阅第 6.2.1 节)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  Do you handle TLS extensions in ClientHello correctly, including omitting the extensions field completely?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072718Z" creationid="pingfangx" creationdate="20190919T072718Z">
+        <seg>-  您是否在 ClientHello 中正确处理了 TLS 扩展，包括完全省略了 extensions 字段？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  Do you ignore the TLS record layer version number in all TLS records before ServerHello (see Appendix E.1)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072659Z" creationid="pingfangx" creationdate="20190919T072659Z">
+        <seg>-  在 ServerHello 之前，是否忽略所有 TLS 记录中的 TLS 记录层版本号(请参阅附录 E.1)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  Do you support renegotiation, both client and server initiated?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072727Z" creationid="pingfangx" creationdate="20190919T072727Z">
+        <seg>-  您是否支持重新协商，客户端和服务器都已启动？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  Do you use a strong and, most importantly, properly seeded random number generator (see Appendix D.1) for generating the premaster secret (for RSA key exchange), Diffie-Hellman private values, the DSA "k" parameter, and other security-critical values?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T073113Z" creationid="pingfangx" creationdate="20190919T073113Z">
+        <seg>-  您是否使用强随机数生成器（最重要的是，正确播种的随机数生成器）（请参见附录 D.1）生成预主密钥（用于 RSA 密钥交换）、Diffie-Hellman 私有值、DSA“K”参数和其他安全关键值？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  Does your TLS client check that the Diffie-Hellman parameters sent by the server are acceptable (see Section F.1.1.3)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T073001Z" creationid="pingfangx" creationdate="20190919T073001Z">
+        <seg>-  TLS 客户端是否检查服务器发送的 Diffie-Hellman 参数是否可接受(请参阅第 F.1.1.3 节)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-  ECDSA signature schemes align with TLS 1.2's ECDSA hash/signature pairs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T075528Z" creationid="pingfangx" creationdate="20190903T075528Z">
@@ -662,6 +734,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-  How do you address CBC mode timing attacks (Section 6.2.3.2)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T073045Z" creationid="pingfangx" creationdate="20190919T073045Z">
+        <seg>-  如何解决 CBC 模式定时攻击(第 6.2.3.2 节)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  How do you generate unpredictable IVs for CBC mode ciphers (see Section 6.2.3.2)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T073035Z" creationid="pingfangx" creationdate="20190919T073035Z">
+        <seg>-  如何为 CBC 模式加密生成不可预测的 IV(请参阅第 6.2.3.2 节)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-  If PSK is being used, then the server will send a "pre_shared_key" extension indicating the selected key.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T033828Z" creationid="pingfangx" creationdate="20190903T033828Z">
@@ -746,6 +834,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T075317Z" creationid="pingfangx" creationdate="20190903T075317Z">
         <seg>-  在 TLS 1.2 中，扩展包含散列/签名对。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  In the RSA-encrypted Premaster Secret, do you correctly send and verify the version number?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072849Z" creationid="pingfangx" creationdate="20190919T072849Z">
+        <seg>-  在 RSA 加密的预主密钥中，您是否正确发送并验证了版本号？</seg>
       </tuv>
     </tu>
     <tu>
@@ -1302,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-  What countermeasures do you use to prevent timing attacks against RSA decryption and signing operations (see Section 7.4.7.1)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072914Z" creationid="pingfangx" creationdate="20190919T072914Z">
+        <seg>-  您使用什么对策来防止针对 RSA 解密和签名操作的计时攻击(请参阅第 7.4.7.1 节)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-  When (EC)DHE is in use, the server will also provide a "key_share" extension.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T033912Z" creationid="pingfangx" creationdate="20190903T033912Z">
@@ -1314,6 +1418,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T033956Z" creationid="pingfangx" creationdate="20190903T033956Z">
         <seg>-  通过证书进行身份验证时，服务器将发送 Certificate(第 4.4.2 节)和 CertificateVerify(第 4.4.3 节)消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  When the server has requested a client certificate, but no suitable certificate is available, do you correctly send an empty Certificate message, instead of omitting the whole message (see Section 7.4.6)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072758Z" creationid="pingfangx" creationdate="20190919T072758Z">
+        <seg>-  当服务器已请求客户端证书，但没有合适的证书可用时，是否正确地发送空 Certificate 消息，而不是忽略整个消息(请参阅第 7.4.6 节)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  When using Diffie-Hellman key exchange, do you correctly strip leading zero bytes from the negotiated key (see Section 8.1.2)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072948Z" creationid="pingfangx" creationdate="20190919T072948Z">
+        <seg>-  使用 Diffie-Hellman 密钥交换时，是否正确地从协商密钥中去掉前导零字节(请参阅第 8.1.2 节)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-  When verifying RSA signatures, do you accept both NULL and missing parameters (see Section 4.7)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072924Z" creationid="pingfangx" creationdate="20190919T072924Z">
+        <seg>-  验证 RSA 签名时，是否同时接受空参数和缺少的参数(请参阅第 4.7 节)？</seg>
       </tuv>
     </tu>
     <tu>
@@ -1574,6 +1702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>/* Other values may be added to the algorithms specified in CompressionMethod, PRFAlgorithm, BulkCipherAlgorithm, and MACAlgorithm.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063843Z" creationid="pingfangx" creationdate="20190919T063843Z">
+        <seg>/* 其它值可以被添加到在 CompressionMethod，PRFAlgorithm，BulkCipherAlgorithm 和 MACAlgorithm 指定的算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>0-RTT data cannot be duplicated within a connection (i.e., the server will not process the same data twice for the same connection), and an attacker will not be able to make 0-RTT data appear to be 1-RTT data (because it is protected with different keys).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T152458Z" creationid="pingfangx" creationdate="20190902T152458Z">
@@ -1666,6 +1802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T090004Z" creationid="pingfangx" creationdate="20190829T090004Z">
         <seg>5.由服务器关闭连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>64 bits was, and 128 bits is, a common block size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064820Z" creationid="pingfangx" creationdate="20190919T064820Z">
+        <seg>一个公共块大小过去是 64 位，现在是 128 位。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1894,6 +2038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Message Authentication Code is a one-way hash computed from a message and some secret data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070204Z" creationid="pingfangx" creationdate="20190919T070204Z">
+        <seg>消息认证码是根据消息和一些机密数据计算的单向哈希。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A SYN-ACK is returned (line 3) and causes TCP A to generate a RST (the ACK in line 3 is not acceptable).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T060402Z" creationid="pingfangx" creationdate="20190828T060402Z">
@@ -1962,6 +2114,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T084941Z" creationid="pingfangx" creationdate="20190903T084941Z">
         <seg>TLS 实现不应自动重新发送早期数据；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A TLS session is an association between a client and a server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070617Z" creationid="pingfangx" creationdate="20190919T070617Z">
+        <seg>TLS 会话是客户端和服务器之间的关联。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2062,6 +2222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A block cipher is an algorithm that operates on plaintext in groups of bits, called blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064745Z" creationid="pingfangx" creationdate="20190919T064745Z">
+        <seg>块加密是一种对明文进行分组运算的算法，称为块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A cache behaves in a "semantically transparent" manner, with respect to a particular response, when its use affects neither the requesting client nor the origin server, except to improve performance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T144722Z" creationid="pingfangx" creationdate="20190828T082158Z">
@@ -2114,6 +2282,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T060828Z" creationid="pingfangx" creationdate="20190916T060828Z">
         <seg>证书被其签名者撤销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A cipher suite defines a cipher specification supported in TLS Version 1.2.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062138Z" creationid="pingfangx" creationdate="20190919T062138Z">
+        <seg>加密套件定义了 TLS 1.2 版本中支持的加密规范。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A class of cryptographic techniques employing two-key ciphers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070411Z" creationid="pingfangx" creationdate="20190919T070411Z">
+        <seg>一类使用两个密钥加密的加密技术。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2494,6 +2678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A compatible cipher is described in [SCH].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070530Z" creationid="pingfangx" creationdate="20190919T070530Z">
+        <seg>兼容加密在 [SCH] 中描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A component's ABNF syntax rule will not use the reserved or gen-delims rule names directly; instead, each syntax rule lists the characters allowed within that component (i.e., not delimiting it), and any of those characters that are also in the reserved set are "reserved" for use as subcomponent delimiters within the component.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T070922Z" creationid="pingfangx" creationdate="20190902T070922Z">
@@ -2506,6 +2698,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T062341Z" creationid="pingfangx" creationdate="20190830T062341Z">
         <seg>条件 GET 方法请求仅在条件首部字段描述的情况下传送实体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A connection is a transport (in the OSI layering model definition) that provides a suitable type of service.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065523Z" creationid="pingfangx" creationdate="20190919T065523Z">
+        <seg>连接是(在 OSI 分层模型定义中)提供适当类型服务的传输。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2822,6 +3022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A one-way transformation that converts an arbitrary amount of data into a fixed-length hash.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070451Z" creationid="pingfangx" creationdate="20190919T070451Z">
+        <seg>将任意数量的数据转换为固定长度散列的单向转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A parser of the generic URI syntax can parse any URI reference into its major components.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T062006Z" creationid="pingfangx" creationdate="20190902T062006Z">
@@ -2922,6 +3130,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T081706Z" creationid="pingfangx" creationdate="20190828T081706Z">
         <seg>程序的本地响应消息存储以及控制其消息存储，检索和删除的子系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A proper implementation will probably not support many cipher suites.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072405Z" creationid="pingfangx" creationdate="20190919T072405Z">
+        <seg>正确的实现可能不支持许多加密套件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3918,10 +4134,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A session identifier is a value generated by a server that identifies a particular session.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070801Z" creationid="pingfangx" creationdate="20190919T070801Z">
+        <seg>会话标识符是由服务器生成的标识特定会话的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A significant difference between HTTP/1.1 and earlier versions of HTTP is that persistent connections are the default behavior of any HTTP connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T150250Z" creationid="pingfangx" creationdate="20190829T150250Z">
         <seg>HTTP/1.1 和早期版本的 HTTP 之间的显着差异是持久连接是任何 HTTP 连接的默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A significant update [DSS-3] has been drafted and was published in March 2006.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065915Z" creationid="pingfangx" creationdate="20190919T065915Z">
+        <seg>已经起草了一份重要的更新文件 [DSS-3]，并于 2006 年 3 月出版。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3950,10 +4182,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A standard for digital signing, including the Digital Signing Algorithm, approved by the National Institute of Standards and Technology, defined in NIST FIPS PUB 186-2, "Digital Signature Standard", published January 2000 by the U.S.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065851Z" creationid="pingfangx" creationdate="20190919T065851Z">
+        <seg>美国国家标准与技术研究所批准的数字签名标准，包括数字签名算法，定义见 NIST FIPS 出版物 186-2，“数字签名标准”，2000 年 1 月出版。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A standard format for such a representation is not defined by this specification, but might be defined by future extensions to HTTP.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143630Z" creationid="pingfangx" creationdate="20190831T143630Z">
         <seg>此规范未定义此类表示的标准格式，但可能由 HTTP 的未来扩展定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A stream cipher invented by Ron Rivest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070523Z" creationid="pingfangx" creationdate="20190919T070523Z">
+        <seg>Ron Rivest 发明的一种流加密。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4002,6 +4250,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142711Z" creationid="pingfangx" creationdate="20190831T142711Z">
         <seg>成功的响应仅意味着用户代理的意图是在原始服务器处理时实现的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A symmetric encryption algorithm that simultaneously provides confidentiality and message integrity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064634Z" creationid="pingfangx" creationdate="20190919T064634Z">
+        <seg>同时提供机密性和消息完整性的对称加密算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A symmetric encryption algorithm used to encrypt large quantities of data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064837Z" creationid="pingfangx" creationdate="20190919T064837Z">
+        <seg>用于加密大量数据的对称加密算法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4158,6 +4422,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A very widely used public key algorithm that can be used for either encryption or digital signing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070547Z" creationid="pingfangx" creationdate="20190919T070547Z">
+        <seg>可用于加密或数字签名的一个非常广泛使用的公钥算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A weak entity tag can only be used for weak comparison.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T155843Z" creationid="pingfangx" creationdate="20190828T155843Z">
@@ -4210,6 +4482,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T023914Z" creationid="pingfangx" creationdate="20190904T023914Z">
         <seg>AEAD 功能提供统一的加密和认证操作，将明文转换为经过认证的密文，然后再返回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AES [AES] is a widely used symmetric encryption algorithm.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064418Z" creationid="pingfangx" creationdate="20190919T064418Z">
+        <seg>AES [AES] 是一种广泛使用的对称加密算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AES is a block cipher with a 128-, 192-, or 256-bit keys and a 16-byte block size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064435Z" creationid="pingfangx" creationdate="20190919T064435Z">
+        <seg>AES 是一种具有 128、192 或 256 位密钥和 16 字节块大小的分组加密。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4382,10 +4670,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additionally, using a fresh key for each handshake provides Perfect Forward Secrecy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115234Z" creationid="pingfangx" creationdate="20190918T115234Z">
+        <seg>此外，每个握手使用一个新的密钥提供完全正向保密。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, version numbers have been restricted to single digits, due to the fact that implementations are known to handle multi-digit version numbers incorrectly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091624Z" creationid="pingfangx" creationdate="20190830T091624Z">
         <seg>此外，由于已知实现不正确地处理多位数版本号，因此版本号限制为单个数字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Advanced Encryption Standard (AES)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064413Z" creationid="pingfangx" creationdate="20190919T064413Z">
+        <seg>高级加密标准(AES)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4450,6 +4754,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T143316Z" creationid="pingfangx" creationdate="20190916T143316Z">
         <seg>发送此消息后，服务器将等待客户端响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After verifying the server's certificate, the client encrypts a pre_master_secret with the server's public key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113939Z" creationid="pingfangx" creationdate="20190918T113939Z">
+        <seg>验证服务器的证书后，客户端使用服务器的公钥加密 pre_master_secret。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4894,6 +5206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Altering the padding of the least-significant 8 bytes of the PKCS padding does not impact security for the size of the signed hashes and RSA key lengths used in the protocol, since this is essentially equivalent to increasing the input block size by 8 bytes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120127Z" creationid="pingfangx" creationdate="20190918T120127Z">
+        <seg>更改 PKCS 填充的最低有效 8 字节的填充不会影响协议中使用的有符号散列和 RSA 密钥长度大小的安全性，因为这实际上相当于将输入块大小增加 8 字节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatives have also been explored, for example, T/TCP [27].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T144148Z" creationid="pingfangx" creationdate="20190829T144148Z">
@@ -5002,6 +5322,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T103632Z" creationid="pingfangx" creationdate="20190831T103632Z">
         <seg>虽然请求行和状态行语法规则要求每个组件元素由单个 SP 八位字节分隔，但是接收者可以改为解析以空格分隔的字边界，并且除了 CRLF 终止符之外，将任何形式的空格视为 SP 分隔符，同时忽略前面或后面的空格；这样的空白包括以下八位字节中的一个或多个：SP，HTAB，VT (%x0B)，FF (%x0C)或裸 CR。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although the solution using non-random PKCS #1 block type 2 message padding is inelegant, it provides a reasonably secure way for Version 3.0 servers to detect the attack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115909Z" creationid="pingfangx" creationdate="20190918T115909Z">
+        <seg>尽管使用非随机 PKCS #1 block type 2 消息填充的解决方案不雅，但它为 3.0 版本的服务器检测攻击提供了一种合理安全的方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5270,6 +5598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An application protocol is a protocol that normally layers directly on top of the transport layer (e.g., TCP/IP).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064531Z" creationid="pingfangx" creationdate="20190919T064531Z">
+        <seg>应用程序协议是通常直接在传输层(如 TCP/IP)上分层的协议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An application that sends a request or response message that includes HTTP-Version of "HTTP/1.1" MUST be at least conditionally compliant with this specification.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T103825Z" creationid="pingfangx" creationdate="20190828T103825Z">
@@ -5286,10 +5622,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An attacker might try to influence the handshake exchange to make the parties select different encryption algorithms than they would normally choose.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120303Z" creationid="pingfangx" creationdate="20190918T120303Z">
+        <seg>攻击者可能会试图影响握手交换，使双方选择不同于通常选择的加密算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An encoding format produced by the file compression program "gzip" (GNU zip) as described in RFC 1952 [25].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T140935Z" creationid="pingfangx" creationdate="20190828T140935Z">
         <seg>由 RFC 1952 [25] 中描述的文件压缩程序“gzip”(GNU zip)生成的编码格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An encryption algorithm that converts a key into a cryptographically strong keystream, which is then exclusive-ORed with the plaintext.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071224Z" creationid="pingfangx" creationdate="20190919T071224Z">
+        <seg>一种加密算法，它将密钥转换成加密性强的密钥流，然后与明文进行异或运算。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5526,6 +5878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An initial negotiation between client and server that establishes the parameters of their transactions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070008Z" creationid="pingfangx" creationdate="20190919T070008Z">
+        <seg>客户端和服务器之间建立其事务参数的初始协商。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An interception proxy is particularly vulnerable if it relies on the Host field-value for redirecting requests to internal servers, or for use as a cache key in a shared cache, without first verifying that the intercepted connection is targeting a valid IP address for that host.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T130334Z" creationid="pingfangx" creationdate="20190831T130334Z">
@@ -5654,6 +6014,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An upper limit of 24 hours is suggested for session ID lifetimes, since an attacker who obtains a master_secret may be able to impersonate the compromised party until the corresponding session ID is retired.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120949Z" creationid="pingfangx" creationdate="20190918T120949Z">
+        <seg>建议会话 ID 生存期的上限为 24 小时，因为获得 master_secret 的攻击者可能能够模拟受攻击方，直到相应的会话 ID 失效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Analysis of these performance problems and results from a prototype implementation are available [26] [30].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T143038Z" creationid="pingfangx" creationdate="20190829T143038Z">
@@ -5666,6 +6034,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T092719Z" creationid="pingfangx" creationdate="20190828T092719Z">
         <seg>角度括号在定义中使用，只要它们的存在有助于辨别规则名称的使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Anonymous Key Exchange</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113219Z" creationid="pingfangx" creationdate="20190918T113219Z">
+        <seg>匿名密钥交换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Anonymous servers cannot authenticate clients.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112824Z" creationid="pingfangx" creationdate="20190918T112824Z">
+        <seg>匿名服务器不能验证客户端。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5690,6 +6074,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T100753Z" creationid="pingfangx" creationdate="20190831T100753Z">
         <seg>任何大于或等于零的 Content-Length 字段值都是有效的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any Diffie-Hellman certificate provided by the client must use the parameters (group and generator) described by the server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062925Z" creationid="pingfangx" creationdate="20190919T062925Z">
+        <seg>客户端提供的任何 Diffie-Hellman 证书都必须使用服务器描述的参数(组和生成器)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5862,6 +6254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Appendix A.  Protocol Data Structures and Constant Values</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T061022Z" creationid="pingfangx" creationdate="20190919T061022Z">
+        <seg>Appendix A. 协议数据结构和常量值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Appendix A. HTTP Version History</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091402Z" creationid="pingfangx" creationdate="20190830T091402Z">
@@ -5990,6 +6390,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Applications should also enforce minimum and maximum key sizes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072436Z" creationid="pingfangx" creationdate="20190919T072436Z">
+        <seg>应用程序还应强制最小和最大密钥大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Applications should not render as clear text any data after the first colon (":") character found within a userinfo subcomponent unless the data after the colon is the empty string (indicating no password).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T073654Z" creationid="pingfangx" creationdate="20190902T073654Z">
@@ -6002,6 +6410,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T103928Z" creationid="pingfangx" creationdate="20190828T103928Z">
         <seg>至少有条件地符合此规范的应用程序应该在其消息中使用 HTTP 版本的“HTTP/1.1”，并且必须对任何与 HTTP/1.0 不兼容的消息执行此操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Applications that may be run in relatively insecure environments should not write session IDs to stable storage.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121006Z" creationid="pingfangx" creationdate="20190918T121006Z">
+        <seg>可能在相对不安全的环境中运行的应用程序不应将会话标识写入稳定的存储。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6078,6 +6494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a result, the parties will not accept each others' Finished messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120358Z" creationid="pingfangx" creationdate="20190918T120358Z">
+        <seg>因此，双方将不接受对方的 Finished 消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As a result, this specification does not mandate a particular maximum number of connections but, instead, encourages clients to be conservative when opening multiple connections.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112141Z" creationid="pingfangx" creationdate="20190831T112141Z">
@@ -6150,6 +6574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As described in Sections 7.4.2 and 7.4.6, the restrictions on the signature algorithms used to sign certificates are no longer tied to the cipher suite (when used by the server) or the ClientCertificateType (when used by the client).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064235Z" creationid="pingfangx" creationdate="20190919T064235Z">
+        <seg>如第 7.4.2 节和第 7.4.6 节所述，对用于签署证书的签名算法的限制不再依赖于加密套件(由服务器使用时)或 ClientCertificateType(由客户端使用时)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As discussed in Section 2, TLS generally uses a common set of messages for authentication, key confirmation, and handshake integrity: Certificate, CertificateVerify, and Finished.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T091055Z" creationid="pingfangx" creationdate="20190903T091055Z">
@@ -6182,6 +6614,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As in this document, the restrictions on the keys in the end-entity certificate remain.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064327Z" creationid="pingfangx" creationdate="20190919T064327Z">
+        <seg>与本文档中一样，对最终实体证书中的密钥的限制仍然存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As noted above, the HMAC input can generally be implemented by a running hash, i.e., just the handshake hash at this point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T105927Z" creationid="pingfangx" creationdate="20190903T105927Z">
@@ -6194,6 +6634,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T082227Z" creationid="pingfangx" creationdate="20190903T082227Z">
         <seg>从 TLS 1.3 开始，允许服务器向客户端发送“supported_groups”扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As part of the X.509 protocol (a.k.a.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065113Z" creationid="pingfangx" creationdate="20190919T065113Z">
+        <seg>作为 X.509 协议的一部分(也称为</seg>
       </tuv>
     </tu>
     <tu>
@@ -6414,6 +6862,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attackers are assumed to have the ability to capture, modify, delete, replay, and otherwise tamper with messages sent over the communication channel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112248Z" creationid="pingfangx" creationdate="20190918T112248Z">
+        <seg>假定攻击者能够捕获、修改、删除、重放和以其他方式篡改通过通信信道发送的消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attackers cannot use known encryption keys or MAC secrets to compromise the master_secret without breaking the secure hash operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120835Z" creationid="pingfangx" creationdate="20190918T120835Z">
+        <seg>攻击者无法在不破坏安全哈希操作的情况下，使用已知的加密密钥或 MAC 机密来破解 master_secret。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attacks Based On File and Path Names</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074402Z" creationid="pingfangx" creationdate="20190828T074402Z">
@@ -6486,10 +6950,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Authentication and Key Exchange</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112607Z" creationid="pingfangx" creationdate="20190918T112607Z">
+        <seg>身份验证和密钥交换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Authentication can happen via asymmetric cryptography (e.g., RSA [RSA], the Elliptic Curve Digital Signature Algorithm (ECDSA) [ECDSA], or the Edwards-Curve Digital Signature Algorithm (EdDSA) [RFC8032]) or a symmetric pre-shared key (PSK).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122814Z" creationid="pingfangx" creationdate="20190901T122814Z">
         <seg>身份验证可以通过非对称加密(例如，RSA [RSA]，椭圆曲线数字签名算法(ECDSA)[ECDSA] 或 Edwards 曲线数字签名算法(EdDSA)[RFC8032])或对称预共享密钥( PSK)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authentication is the ability of one entity to determine the identity of another entity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064647Z" creationid="pingfangx" creationdate="20190919T064644Z">
+        <seg>身份验证是一个实体确定另一个实体的身份的能力。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6598,6 +7078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because MACs are also encrypted, message-alteration attacks generally require breaking the encryption algorithm as well as the MAC.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121519Z" creationid="pingfangx" creationdate="20190918T121519Z">
+        <seg>由于 MAC 也是加密的，消息更改攻击通常需要破坏加密算法以及 MAC。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because TLS 1.3 changes the way keys are derived, it updates [RFC5705] as described in Section 7.5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T133736Z" creationid="pingfangx" creationdate="20190902T133736Z">
@@ -6614,6 +7102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because TLS allows the server to provide arbitrary DH groups, the client should verify that the DH group is of suitable size as defined by local policy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115407Z" creationid="pingfangx" creationdate="20190918T115407Z">
+        <seg>由于 TLS 允许服务器提供任意 DH 组，客户端应验证 DH 组是否具有本地策略定义的适当大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because TLS does not provide document oriented protection, it is impossible to determine whether the server has miscomputed the Content-Length or an attacker has truncated the connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T093713Z" creationid="pingfangx" creationdate="20190901T093713Z">
@@ -6622,10 +7118,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because TLS includes substantial improvements over SSL Version 2.0, attackers may try to make TLS-capable clients and servers fall back to Version 2.0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115732Z" creationid="pingfangx" creationdate="20190918T115732Z">
+        <seg>由于 TLS 包含了对 SSL 2.0 版本的重大改进，攻击者可能会试图使支持 TLS 的客户端和服务器回落到 2.0 版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because TLS is oblivious to HTTP request/response boundaries, it is necessary to examine the HTTP data itself (specifically the Content-Length header) to determine whether the truncation occurred inside a message or between messages.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T092405Z" creationid="pingfangx" creationdate="20190901T092405Z">
         <seg>由于 TLS 无视 HTTP 请求/响应边界，因此有必要检查 HTTP 数据本身(特别是 Content-Length 首部)以确定截断是发生在消息内还是消息之间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because TLS runs over TCP, it is also susceptible to a number of DoS attacks on individual connections.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123926Z" creationid="pingfangx" creationdate="20190918T123926Z">
+        <seg>因为 TLS 是通过 TCP 运行的，所以它也容易受到对单个连接的 DoS 攻击。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6790,6 +7302,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By sending a correct Finished message, parties thus prove that they know the correct pre_master_secret.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113203Z" creationid="pingfangx" creationdate="20190918T113203Z">
+        <seg>通过发送一个正确的 Finished 消息，双方由此证明他们知道正确的 pre_master_secret。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By successfully decoding the pre_master_secret and producing a correct Finished message, the server demonstrates that it knows the private key corresponding to the server certificate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114013Z" creationid="pingfangx" creationdate="20190918T114013Z">
+        <seg>通过成功解码 pre_master_secret 和生成正确的 Finished 消息时，服务器证明它知道对应于服务器证书的私钥。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CBC is a mode in which every plaintext block encrypted with a block cipher is first exclusive-ORed with the previous ciphertext block (or, in the case of the first block, with the initialization vector).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065021Z" creationid="pingfangx" creationdate="20190919T065021Z">
+        <seg>CBC 是一种模式，在这种模式下，用块加密加密的每一个明文块，首先与先前的密文块异或(或在第一个块的情况下，与初始化向量)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CHAR           = &lt;any US-ASCII character (octets 0 - 127)&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T094557Z" creationid="pingfangx" creationdate="20190828T094557Z">
@@ -6942,6 +7478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Care must be taken in designing and seeding PRNGs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071945Z" creationid="pingfangx" creationdate="20190919T071945Z">
+        <seg>在设计和种子 PRNG 时必须小心。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Case 1:  A single octet of option-kind.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110829Z" creationid="pingfangx" creationdate="20190827T110829Z">
@@ -7046,6 +7590,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Certificates and Authentication</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072244Z" creationid="pingfangx" creationdate="20190919T072244Z">
+        <seg>证书和认证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Certificates should always be verified to ensure proper signing by a trusted Certificate Authority (CA).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072320Z" creationid="pingfangx" creationdate="20190919T072320Z">
+        <seg>应始终验证证书，以确保由受信任的证书颁发机构(CA)正确签名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Certificates that are self-signed or certificates that are expected to be trust anchors are not validated as part of the chain and therefore MAY be signed with any algorithm.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T101744Z" creationid="pingfangx" creationdate="20190903T101744Z">
@@ -7082,6 +7642,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091416Z" creationid="pingfangx" creationdate="20190830T091416Z">
         <seg>RFC 2616 的变更</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes to RFC 4492</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063903Z" creationid="pingfangx" creationdate="20190919T063903Z">
+        <seg>对 RFC 4492 的更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -7158,6 +7726,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cipher Suites</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072340Z" creationid="pingfangx" creationdate="20190919T072340Z">
+        <seg>加密套件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Client Authentication and Key Exchange Messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062029Z" creationid="pingfangx" creationdate="20190919T062029Z">
+        <seg>客户端认证和密钥交换信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Client Behavior</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T090503Z" creationid="pingfangx" creationdate="20190901T090503Z">
@@ -7186,6 +7770,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T102227Z" creationid="pingfangx" creationdate="20190903T102227Z">
         <seg>客户证书选择</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Client Diffie-Hellman parameters must be compatible with those supplied by the server for the key exchange to work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114718Z" creationid="pingfangx" creationdate="20190918T114718Z">
+        <seg>客户端 Diffie-Hellman 参数必须与服务器提供的参数兼容，密钥交换才能工作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7590,6 +8182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Completely anonymous sessions can be established using Diffie-Hellman for key exchange.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113230Z" creationid="pingfangx" creationdate="20190918T113230Z">
+        <seg>完全匿名会话可以使用的 Diffie-Hellman 密钥交换来建立。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compliance Requirements</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122229Z" creationid="pingfangx" creationdate="20190901T122229Z">
@@ -7934,6 +8534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Conversely, messages signed with the private key can be verified with the public key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070432Z" creationid="pingfangx" creationdate="20190919T070432Z">
+        <seg>相反，使用私钥签名的消息可以使用公钥进行验证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Conversion of Date Formats</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074608Z" creationid="pingfangx" creationdate="20190828T074608Z">
@@ -7978,6 +8586,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122125Z" creationid="pingfangx" creationdate="20190901T122125Z">
         <seg>加密协商</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cryptographic details:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072802Z" creationid="pingfangx" creationdate="20190919T072802Z">
+        <seg>加密的详细信息：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8046,6 +8662,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Currently, the security of the authenticate-then-encrypt method has been proven for some important cases.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122657Z" creationid="pingfangx" creationdate="20190918T122657Z">
+        <seg>目前，认证然后加密方法的安全性已经在一些重要场合得到了验证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DES [DES] still is a very widely used symmetric encryption algorithm although it is considered as rather weak now.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065631Z" creationid="pingfangx" creationdate="20190919T065631Z">
+        <seg>DES [DES] 仍然是一个非常广泛的使用对称加密算法，虽然它现在被认为是相当薄弱。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DES is a block cipher with a 56-bit key and an 8-byte block size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065642Z" creationid="pingfangx" creationdate="20190919T065642Z">
+        <seg>DES 是一个具有 56 位密钥和 8 字节块大小的分组加密。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DH denotes cipher suites in which the server's certificate contains the Diffie-Hellman parameters signed by the certificate authority (CA).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062716Z" creationid="pingfangx" creationdate="20190919T062608Z">
+        <seg>DH 表示由证书颁发机构(CA)签名的服务器证书包含 Diffie-Hellman 参数的加密套件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DHE denotes ephemeral Diffie-Hellman, where the Diffie-Hellman parameters are signed by a signature-capable certificate, which has been signed by the CA.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062750Z" creationid="pingfangx" creationdate="20190919T062750Z">
+        <seg>DHE 表示短暂的 Diffie-Hellman，其中 Diffie-Hellman 参数由 CA 签名的可签名证书签名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DIGIT          = &lt;any US-ASCII digit "0".."9"&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T100638Z" creationid="pingfangx" creationdate="20190828T095241Z">
@@ -8074,6 +8730,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T071239Z" creationid="pingfangx" creationdate="20190828T071239Z">
         <seg>数据通讯</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Encryption Standard</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065617Z" creationid="pingfangx" creationdate="20190919T065617Z">
+        <seg>数据加密标准</seg>
       </tuv>
     </tu>
     <tu>
@@ -8166,6 +8830,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Denial of Service TLS is susceptible to a number of denial-of-service (DoS) attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123648Z" creationid="pingfangx" creationdate="20190918T123648Z">
+        <seg>拒绝服务 TLS 易受若干拒绝服务(DoS)攻击的影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Depending on the operating system supporting A's TCP, it is likely that some error recovery mechanism exists.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T055717Z" creationid="pingfangx" creationdate="20190828T055717Z">
@@ -8222,10 +8894,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Detecting Attacks Against the Handshake Protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120147Z" creationid="pingfangx" creationdate="20190918T120147Z">
+        <seg>检测针对握手协议的攻击</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Diffie-Hellman Key Exchange with Authentication</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114239Z" creationid="pingfangx" creationdate="20190918T114239Z">
+        <seg>Diffie-Hellman 密钥交换与认证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Diffie-Hellman [DH76] parameters for both clients and servers are encoded in the opaque key_exchange field of a KeyShareEntry in a KeyShare structure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T083141Z" creationid="pingfangx" creationdate="20190903T083141Z">
         <seg>客户端和服务器的 Diffie-Hellman [DH76] 参数在 KeyShare 结构中的 KeyShareEntry 的 opaque key_exchange 字段中进行编码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Digital Signature Standard (DSS)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065806Z" creationid="pingfangx" creationdate="20190919T065806Z">
+        <seg>数字签名标准(DSS)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Digital signatures utilize public key cryptography and one-way hash functions to produce a signature of the data that can be authenticated, and is difficult to forge or repudiate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065952Z" creationid="pingfangx" creationdate="20190919T065952Z">
+        <seg>数字签名利用公钥加密和单向散列函数产生可被验证的数据的签名，难以伪造或否认。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8286,10 +8990,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do you fragment handshake messages that exceed the maximum fragment size?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072627Z" creationid="pingfangx" creationdate="20190919T072627Z">
+        <seg>是否对超过最大片段大小的握手消息进行分段？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do you verify that the RSA padding doesn't have additional data after the hash value?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072933Z" creationid="pingfangx" creationdate="20190919T072933Z">
+        <seg>是否验证 RSA 填充在哈希值之后没有其他数据？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Due to interoperability problems with HTTP/1.0 proxies discovered since the publication of RFC 2068[33], caching proxies MUST, gateways MAY, and tunnels MUST NOT upgrade the request to the highest version they support.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T104145Z" creationid="pingfangx" creationdate="20190828T104145Z">
         <seg>由于自 RFC 2068 [33] 发布以来发现的 HTTP/1.0 代理的互操作性问题，缓存代理必须，网关可以和隧道不得将请求升级到它们支持的最高版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Due to significant progress in cryptanalysis, at the time of publication of this document, MD5 no longer can be considered a 'secure' hashing function.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070348Z" creationid="pingfangx" creationdate="20190919T070348Z">
+        <seg>由于在密码分析方面取得了重大进展，在本文档发布时，MD5 不再被视为“安全”的哈希函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8518,6 +9246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each party is responsible for verifying that the other's certificate is valid and has not expired or been revoked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112930Z" creationid="pingfangx" creationdate="20190918T112930Z">
+        <seg>每一方负责验证对方的证书有效并且尚未过期或撤销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each persistent connection applies to only one transport link.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T151847Z" creationid="pingfangx" creationdate="20190829T151847Z">
@@ -8586,6 +9322,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T034847Z" creationid="pingfangx" creationdate="20190903T034847Z">
         <seg>HelloRetryRequest 后不允许早期数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Eavesdroppers who do not know the private values should not be able to find the Diffie-Hellman result (i.e., the pre_master_secret).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113415Z" creationid="pingfangx" creationdate="20190918T113415Z">
+        <seg>窃听者不知道的私有值，不应该能够找到的 Diffie-Hellman 结果(即 pre_master_secret)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8894,6 +9638,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every connection is associated with one session.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065545Z" creationid="pingfangx" creationdate="20190919T065545Z">
+        <seg>每个连接都与一个会话关联。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every element of an enumerated must be assigned a value, as demonstrated in the following example.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T023439Z" creationid="pingfangx" creationdate="20190903T023439Z">
@@ -8958,6 +9710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Examples include HTTP, TELNET, FTP, and SMTP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064547Z" creationid="pingfangx" creationdate="20190919T064547Z">
+        <seg>例如 HTTP，TELNET，FTP 和 SMTP。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Except where either transparent or non-transparent behavior is explicitly stated, the HTTP proxy requirements apply to both types of proxies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T081552Z" creationid="pingfangx" creationdate="20190828T081552Z">
@@ -9010,6 +9770,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T073256Z" creationid="pingfangx" creationdate="20190828T073256Z">
         <seg>过期模型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Explicit IVs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121813Z" creationid="pingfangx" creationdate="20190918T121610Z">
+        <seg>显式 IV</seg>
       </tuv>
     </tu>
     <tu>
@@ -9214,6 +9982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Final Notes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T124124Z" creationid="pingfangx" creationdate="20190918T124124Z">
+        <seg>最后说明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Finally, note that extensions can be sent both when starting a new session and when requesting session resumption.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T091711Z" creationid="pingfangx" creationdate="20190916T091711Z">
@@ -9382,6 +10158,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For TLS to be able to provide a secure connection, both the client and server systems, keys, and applications must be secure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T124143Z" creationid="pingfangx" creationdate="20190918T124143Z">
+        <seg>为了使 TLS 能够提供安全连接，客户端和服务器系统、密钥和应用程序都必须是安全的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For TLS, such connections are peer-to-peer relationships.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065534Z" creationid="pingfangx" creationdate="20190919T065534Z">
+        <seg>对于 TLS，这种连接是对等关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For X25519 and X448, the contents of the public value are the byte string inputs and outputs of the corresponding functions defined in [RFC7748]: 32 bytes for X25519 and 56 bytes for X448.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T083553Z" creationid="pingfangx" creationdate="20190903T083553Z">
@@ -9502,6 +10294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For decryption, every block is first decrypted, then exclusive-ORed with the previous ciphertext block (or IV).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065051Z" creationid="pingfangx" creationdate="20190919T065051Z">
+        <seg>对于解密，每块首先解密，然后与先前密文块(或 IV)异或。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For definitive information on URL syntax and semantics, see "Uniform Resource Identifiers (URI): Generic Syntax and Semantics," RFC 2396 [42] (which replaces RFCs 1738 [4] and RFC 1808 [11]).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T110237Z" creationid="pingfangx" creationdate="20190828T110237Z">
@@ -9538,6 +10338,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T041008Z" creationid="pingfangx" creationdate="20190903T041008Z">
         <seg>对于每个 TLS 1.3 ClientHello，此 vector 必须包含一个字节，设置为零，这对应于先前版本的 TLS 中的“null”压缩方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For exact details in the encryption modes proven secure, see [ENCAUTH].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123620Z" creationid="pingfangx" creationdate="20190918T123620Z">
+        <seg>有关已证明安全的加密模式的确切详细信息，请参阅 [ENCAUTH]。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9726,6 +10534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, certificate chains containing 512-bit RSA keys or signatures are not appropriate for high-security applications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072445Z" creationid="pingfangx" creationdate="20190919T072445Z">
+        <seg>例如，含有 512 位 RSA 密钥或签名的证书链不适合于高安全性的应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, defining a base URI for later use by relative references calls for an absolute-URI syntax rule that does not allow a fragment.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T085340Z" creationid="pingfangx" creationdate="20190902T085340Z">
@@ -9834,6 +10650,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T144034Z" creationid="pingfangx" creationdate="20190831T144034Z">
         <seg>例如，用户代理在 TRACE 请求中发送存储的用户凭证 [RFC7235] 或 cookie [RFC6265] 是愚蠢的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, keystroke timing values taken from a PC compatible's 18.2 Hz timer provide 1 or 2 secure bits each, even though the total size of the counter value is 16 bits or more.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072153Z" creationid="pingfangx" creationdate="20190919T072153Z">
+        <seg>例如，从 PC 兼容的 18.2 Hz 计时器获取的击键计时值提供 1 或 2 个安全位，即使计数器值的总大小为 16 位或更多。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9994,6 +10818,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T082649Z" creationid="pingfangx" creationdate="20190903T082649Z">
         <seg>例如，客户端可能会为多个椭圆曲线或多个 FFDHE 组提供共享。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, anonymous Diffie-Hellman is strongly discouraged because it cannot prevent man-in-the-middle attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072425Z" creationid="pingfangx" creationdate="20190919T072425Z">
+        <seg>例如，匿名的 Diffie-Hellman 强烈反对，因为它不能阻止中间人攻击。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10210,6 +11042,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T083543Z" creationid="pingfangx" creationdate="20190903T083543Z">
         <seg>对于这些曲线，实现者不需要验证正确子组中的成员资格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this attack, an attacker must actively change one or more handshake messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120319Z" creationid="pingfangx" creationdate="20190918T120319Z">
+        <seg>对于此攻击，攻击者必须主动更改一个或多个握手消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11190,6 +12030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Handshake Finalization Message</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062037Z" creationid="pingfangx" creationdate="20190919T062037Z">
+        <seg>握手完成消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Handshake Protocol</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T122108Z" creationid="pingfangx" creationdate="20190901T122108Z">
@@ -11598,6 +12446,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, because TLS is generally used over TCP, it is difficult for the attacker to hide his point of origin if proper TCP SYN randomization is used [SEQNUM] by the TCP stack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123857Z" creationid="pingfangx" creationdate="20190918T123857Z">
+        <seg>但是，由于 TLS 通常在 TCP 上使用，因此如果 TCP 堆栈使用正确的 TCP SYN 随机化 [SEQNUM]，攻击者很难隐藏其原点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, each connection consumes server resources.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T112208Z" creationid="pingfangx" creationdate="20190831T112208Z">
@@ -11946,6 +12802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T111817Z" creationid="pingfangx" creationdate="20190827T111817Z">
         <seg>IRS     - 初始接收序列号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ISO Authentication framework), certificates are assigned by a trusted Certificate Authority and provide a strong binding between a party's identity or some other attributes and its public key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065147Z" creationid="pingfangx" creationdate="20190919T065147Z">
+        <seg>ISO 身份验证框架)，证书由受信任的证书颁发机构分配，并在参与方的身份或某些其他属性与其公钥之间提供强绑定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12414,6 +13278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a suitable base (such as 2) is chosen, g^X mod p can be computed very quickly; therefore, the performance cost is minimized.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115209Z" creationid="pingfangx" creationdate="20190918T115209Z">
+        <seg>如果选择合适的基(如 2)，g^X mod p 可以非常迅速地计算；因此，性能的成本被最小化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a valid Content-Length header field is present without Transfer-Encoding, its decimal value defines the expected message body length in octets.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T102213Z" creationid="pingfangx" creationdate="20190831T102213Z">
@@ -12450,6 +13322,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T152758Z" creationid="pingfangx" creationdate="20190828T152758Z">
         <seg>如果应用程序收到无法识别的多部分子类型，则应用程序必须将其视为等同于“multipart/mixed”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an attacker does break an encryption key, all messages encrypted with it can be read.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121430Z" creationid="pingfangx" creationdate="20190918T121430Z">
+        <seg>如果攻击者确实破解了加密密钥，则可以读取使用该密钥加密的所有消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12602,6 +13482,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T082849Z" creationid="pingfangx" creationdate="20190903T082849Z">
         <seg>如果这些检查中的任何一个失败，那么客户端必须通过“illegal_parameter”警报中止握手。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If either party suspects that the session may have been compromised, or that certificates may have expired or been revoked, it should force a full handshake.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120904Z" creationid="pingfangx" creationdate="20190918T120904Z">
+        <seg>如果任何一方怀疑会话可能已被破坏，或者证书可能已过期或已被吊销，则应强制进行完全握手。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13110,6 +13998,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the client has a certificate containing fixed Diffie-Hellman parameters, its certificate contains the information required to complete the key exchange.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114518Z" creationid="pingfangx" creationdate="20190918T114518Z">
+        <seg>如果客户有一个包含固定的 Diffie-Hellman 参数的证书，其证书包含完成密钥交换所需的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the client has a standard DSA or RSA certificate or is unauthenticated, it sends a set of temporary parameters to the server in the client key exchange message, then optionally uses a certificate verify message to authenticate itself.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114833Z" creationid="pingfangx" creationdate="20190918T114833Z">
+        <seg>如果客户端具有标准 DSA 或 RSA 证书或非认证时，则会在客户端密钥交换消息中向服务器发送一组临时参数，然后可选地使用证书验证消息认证它自己。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the client has external information as to the expected identity of the server, the hostname check MAY be omitted.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103648Z" creationid="pingfangx" creationdate="20190901T103648Z">
@@ -13590,6 +14494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the same DH keypair is to be used for multiple handshakes, either because the client or server has a certificate containing a fixed DH keypair or because the server is reusing DH keys, care must be taken to prevent small subgroup attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114951Z" creationid="pingfangx" creationdate="20190918T114951Z">
+        <seg>如果相同的 DH 密钥对将被用于多个握手，或者是因为客户端或服务器具有包含一个固定的 DH 密钥对的证书，或者是因为服务器在重用 DH 密钥，必须小心，以防止小群攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the sender closes the connection or the recipient times out before the indicated number of octets are received, the recipient MUST consider the message to be incomplete and close the connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T102226Z" creationid="pingfangx" creationdate="20190831T102226Z">
@@ -13706,6 +14618,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T063442Z" creationid="pingfangx" creationdate="20190916T063442Z">
         <seg>如果服务器已通过身份验证，则可以从客户端请求证书(如果该证书适用于所选的加密套件)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the server is authenticated, its certificate message must provide a valid certificate chain leading to an acceptable certificate authority.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112856Z" creationid="pingfangx" creationdate="20190918T112856Z">
+        <seg>如果服务器被认证，其证书消息必须提供有效的证书链，指向一个可接受的证书授权机构。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13966,6 +14886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If this occurs, the client and server will compute different values for the handshake message hashes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120346Z" creationid="pingfangx" creationdate="20190918T120346Z">
+        <seg>如果发生这种情况，客户端和服务器计算的握手消息的散列值将会不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If two URIs differ only in the case of hexadecimal digits used in percent-encoded octets, they are equivalent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T065854Z" creationid="pingfangx" creationdate="20190902T065854Z">
@@ -14014,10 +14942,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implementation Pitfalls</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072449Z" creationid="pingfangx" creationdate="20190919T072449Z">
+        <seg>实现陷阱</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Implementation experience and measurements of actual HTTP/1.1 (RFC 2068) implementations show good results [39].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T143052Z" creationid="pingfangx" creationdate="20190829T143052Z">
         <seg>实际 HTTP/1.1(RFC 2068)实现的实施经验和测量结果显示出良好的结果 [39]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implementation experience has shown that certain parts of earlier TLS specifications are not easy to understand, and have been a source of interoperability and security problems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072507Z" creationid="pingfangx" creationdate="20190919T072507Z">
+        <seg>实现经验表明，早期 TLS 规范的某些部分不容易理解，并且一直是互操作性和安全性问题的根源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14118,6 +15062,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implementations SHOULD follow the guidelines found in [SUBGROUP].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115008Z" creationid="pingfangx" creationdate="20190918T115008Z">
+        <seg>实现应遵循 [SUBGROUP] 中的指导原则。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implementations SHOULD generate a new X for each handshake when using DHE cipher suites.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115306Z" creationid="pingfangx" creationdate="20190918T115306Z">
+        <seg>使用 DHE 加密套件时，实现应该为每个握手生成一个新的 X。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implementations and users must be careful when deciding which certificates and certificate authorities are acceptable; a dishonest certificate authority can do tremendous damage.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T124432Z" creationid="pingfangx" creationdate="20190918T124345Z">
+        <seg>实现者和用户在决定哪些证书和证书颁发机构是可接受的时必须小心；不诚实的证书颁发机构可能会造成巨大的损害。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implementations are responsible for verifying the integrity of certificates and should generally support certificate revocation messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072305Z" creationid="pingfangx" creationdate="20190919T072305Z">
+        <seg>实现负责验证证书的完整性，通常应支持证书吊销消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Implementations need to be able to parse and ignore unknown values unless the definition of the field states otherwise.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T023703Z" creationid="pingfangx" creationdate="20190903T023703Z">
@@ -14162,6 +15138,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025856Z" creationid="pingfangx" creationdate="20190828T025856Z">
         <seg>实现者可以为 TCP 用户提供在连接基础上选择是否在崩溃之后等待的能力，或者可以非正式地实现所有连接的“相当时间”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implementors of TLS 1.2 who are not implementing RFC 4492 do not need to read this section.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064015Z" creationid="pingfangx" creationdate="20190919T064015Z">
+        <seg>没有实现 RFC4492 的 TLS 1.2 的实现者不需要阅读本节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implementors or users who are concerned with this class of attack should use IPsec AH [AH] or ESP [ESP].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T124116Z" creationid="pingfangx" creationdate="20190918T124116Z">
+        <seg>关心此类攻击的实现者或用户应使用 IPsec AH [AH] 或 ESP [ESP]。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14526,6 +15518,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition, the implementation must be free of security errors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T124152Z" creationid="pingfangx" creationdate="20190918T124152Z">
+        <seg>此外，实现必须没有安全错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In addition, the parameters for these algorithms are known: the MAC key and the bulk encryption keys for the connection in both the read and the write directions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T020147Z" creationid="pingfangx" creationdate="20190916T020147Z">
@@ -14650,6 +15650,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T142607Z" creationid="pingfangx" creationdate="20190831T142607Z">
         <seg>实际上，此方法类似于 UNIX 中的 rm 命令：它表示对源服务器的 URI 映射执行删除操作，而不是期望删除先前关联的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In either case, the client can verify the certificate or signature to ensure that the parameters belong to the server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114500Z" creationid="pingfangx" creationdate="20190918T114500Z">
+        <seg>在这两种情况下，客户可以验证证书或签名，以确保参数属于服务器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15006,10 +16014,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In particular, an attacker who initiates a large number of TCP connections can cause a server to consume large amounts of CPU for doing RSA decryption.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123726Z" creationid="pingfangx" creationdate="20190918T123726Z">
+        <seg>特别是，发起大量 TCP 连接的攻击者可能会导致服务器消耗大量 CPU 来执行 RSA 解密。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, attackers can forge RSTs, thereby terminating connections, or forge partial TLS records, thereby causing the connection to stall.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T124003Z" creationid="pingfangx" creationdate="20190918T124003Z">
+        <seg>特别是，攻击者可以伪造 RST，从而终止连接，或者伪造部分 TLS 记录，从而导致连接暂停。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In particular, it MUST NOT negotiate TLS 1.3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T035213Z" creationid="pingfangx" creationdate="20190903T035213Z">
         <seg>特别是，它不能协商 TLS 1.3。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, it has been shown that there exist perfectly secure encryption functions (secure even in the information-theoretic sense) that combined with any secure MAC function, fail to provide the confidentiality goal against an active attack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122534Z" creationid="pingfangx" creationdate="20190918T122534Z">
+        <seg>特别地，已经证明存在完全安全的加密函数(甚至在信息论意义上是安全的)，这些函数与任何安全的 MAC 函数相结合，都不能提供抵抗主动攻击的机密性的目标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15026,6 +16058,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T103439Z" creationid="pingfangx" creationdate="20190830T103439Z">
         <seg>特别是，Host 和 Connection 首部字段应该由所有 HTTP/1.x 实现实现，无论它们是否宣传与 HTTP/1.1 的一致性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, the certificate and certificate request handshake messages can be large enough to require fragmentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072638Z" creationid="pingfangx" creationdate="20190919T072638Z">
+        <seg>特别是，证书和证书请求握手消息可以大到需要分段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15462,6 +16502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case, security can be shown if one applies one CBC encryption pass to the concatenation of plaintext and MAC and uses a new, independent, and unpredictable IV for each new pair of plaintext and MAC.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123447Z" creationid="pingfangx" creationdate="20190918T123447Z">
+        <seg>在这种情况下，如果对明文和 MAC 的连接应用一个 CBC 加密过程，并且对每对新的明文和MACmac 使用一个新的、独立的和不可预测的 IV，则可以显示安全性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this case, the client is offering the capability to understand the extension type, and the server is taking the client up on its offer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T091630Z" creationid="pingfangx" creationdate="20190916T091630Z">
@@ -15558,10 +16606,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In versions of TLS prior to 1.1, CBC mode was used properly EXCEPT that it used a predictable IV in the form of the last block of the previous ciphertext.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123521Z" creationid="pingfangx" creationdate="20190918T123521Z">
+        <seg>在 1.1 之前的 TLS 版本中，CBC 模式被正确地使用，除了它以先前密文的最后一个块的形式使用了可预测的 IV。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Inbound and outbound refer to the request and response paths for messages: "inbound" means "traveling toward the origin server", and "outbound" means "traveling toward the user agent"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T082317Z" creationid="pingfangx" creationdate="20190828T082317Z">
         <seg>入站和出站是指消息的请求和响应路径：“入站”表示“向原始服务器行进”，“出站”表示“向用户代理行进”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Including corner cases like a ClientHello that is split to several small fragments?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072617Z" creationid="pingfangx" creationdate="20190919T072617Z">
+        <seg>包括拐角情况下，像被分成几个小片段一个 ClientHello？</seg>
       </tuv>
     </tu>
     <tu>
@@ -15586,6 +16650,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074652Z" creationid="pingfangx" creationdate="20190828T074652Z">
         <seg>索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indicates whether this is a stream cipher or a block cipher running in CBC mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071408Z" creationid="pingfangx" creationdate="20190919T071408Z">
+        <seg>指示这是在 CBC 模式下运行的流加密还是块加密。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15658,6 +16730,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T023120Z" creationid="pingfangx" creationdate="20190828T023120Z">
         <seg>初始序列号选择</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Initialization Vector (IV)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070012Z" creationid="pingfangx" creationdate="20190919T070012Z">
+        <seg>初始化向量(IV)</seg>
       </tuv>
     </tu>
     <tu>
@@ -16070,10 +17150,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is computationally hard to reverse the transformation or to find collisions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070504Z" creationid="pingfangx" creationdate="20190919T070504Z">
+        <seg>在计算上很难逆转变换或找到碰撞。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is designed to hide the details of how a service is implemented by presenting a uniform interface to clients that is independent of the types of resources provided.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T094218Z" creationid="pingfangx" creationdate="20190830T094218Z">
         <seg>它旨在通过向客户端提供独立于所提供资源类型的统一接口来隐藏服务实现方式的详细信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is difficult to forge without knowing the secret data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070231Z" creationid="pingfangx" creationdate="20190919T070231Z">
+        <seg>不知道机密资料是很难伪造的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16246,6 +17342,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It produces a 20-byte output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070928Z" creationid="pingfangx" creationdate="20190919T070928Z">
+        <seg>它产生一个 20 字节的输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It produces a 32-byte output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071012Z" creationid="pingfangx" creationdate="20190919T071012Z">
+        <seg>它产生一个 32 字节的输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It represents the consensus of the IETF community.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T090445Z" creationid="pingfangx" creationdate="20190830T090445Z">
@@ -16302,6 +17414,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It turns out that the order in which encryption and authentication functions are applied to the data plays an important role for achieving this goal [ENCAUTH].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122115Z" creationid="pingfangx" creationdate="20190918T122115Z">
+        <seg>结果表明，对数据应用加密和身份验证功能的顺序对实现这一目标起着重要的作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Items in named_group_list are ordered according to the sender's preferences (most preferred choice first).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T082222Z" creationid="pingfangx" creationdate="20190903T082222Z">
@@ -16314,6 +17434,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T023123Z" creationid="pingfangx" creationdate="20190903T023123Z">
         <seg>它的编码将包括一个前置于 vector 的两字节实际长度字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Its purpose is to detect if the message has been altered.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070239Z" creationid="pingfangx" creationdate="20190919T070239Z">
+        <seg>其目的是检测消息是否已被更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16606,6 +17734,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>MD5 [MD5] is a hashing function that converts an arbitrarily long data stream into a hash of fixed size (16 bytes).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070326Z" creationid="pingfangx" creationdate="20190919T070326Z">
+        <seg>MD5 [MD5] 是一个散列函数，它将任意长的数据流转换为固定大小(16 字节)的散列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MD5 and SHA are examples of one-way hash functions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070508Z" creationid="pingfangx" creationdate="20190919T070508Z">
+        <seg>MD5 和 SHA 是单向散列函数的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>MD5 and SHA-1 have been proven to be insecure, subject to collision attacks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T063902Z" creationid="pingfangx" creationdate="20190904T063902Z">
@@ -16694,6 +17838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Many of these areas have been clarified in this document, but this appendix contains a short list of the most important things that require special attention from implementors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072518Z" creationid="pingfangx" creationdate="20190919T072518Z">
+        <seg>本文档已经澄清了其中许多方面，但是本附录包含了需要实现者特别注意的最重要的事情的简短列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Matching is performed using the matching rules specified by [RFC2459].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T104437Z" creationid="pingfangx" creationdate="20190901T104437Z">
@@ -16722,6 +17874,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T150130Z" creationid="pingfangx" creationdate="20190828T150130Z">
         <seg>媒体类型值已在 Internet Assigned Number Authority(IANA [19])中注册。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Message Authentication Code (MAC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070049Z" creationid="pingfangx" creationdate="20190919T070049Z">
+        <seg>消息认证码(MAC)</seg>
       </tuv>
     </tu>
     <tu>
@@ -16882,6 +18042,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T095922Z" creationid="pingfangx" creationdate="20190830T095922Z">
         <seg>消息的传递格式类似于互联网邮件 [RFC5322] 和多用途互联网邮件扩展(MIME)[RFC2045] 所使用的格式(有关 HTTP 和 MIME 邮件之间的差异，请参阅 [RFC7231] 的附录 A)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Messages encrypted with the public key can only be decrypted with the associated private key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070417Z" creationid="pingfangx" creationdate="20190919T070417Z">
+        <seg>用公钥加密的消息只能用相应的私钥解密。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Messages from one party cannot be inserted into the other's output, since they use independent MAC keys.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121349Z" creationid="pingfangx" creationdate="20190918T121349Z">
+        <seg>来自一方的消息不能插入另一方的输出，因为它们使用独立的 MAC 密钥。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17126,6 +18302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Netscape's Secure Socket Layer protocol [SSL3].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071021Z" creationid="pingfangx" creationdate="20190919T071021Z">
+        <seg>Netscape 的安全套接字层协议 [SSL3]。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Network intermediaries are indistinguishable (at a protocol level) from a man-in-the-middle attack, often introducing security flaws or interoperability problems due to mistakenly violating HTTP semantics.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T101757Z" creationid="pingfangx" creationdate="20190830T101757Z">
@@ -17154,6 +18338,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T114709Z" creationid="pingfangx" creationdate="20190916T114709Z">
         <seg>新的 ClientCertificateType 值由 IANA 分配，如第 12 节所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New cipher suite values have been assigned by IANA as described in Section 12.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063603Z" creationid="pingfangx" creationdate="20190919T063603Z">
+        <seg>如第 12 节所述，IANA 已分配了新的加密组值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17550,6 +18742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that all references to SHA (without a numerical suffix) actually use the modified SHA-1 algorithm.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070942Z" creationid="pingfangx" creationdate="20190919T070942Z">
+        <seg>请注意，SHA 的所有引用(无数字后缀)实际使用修改后的 SHA-1 算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that an implementation which does this MAY choose to reuse the session.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T091851Z" creationid="pingfangx" creationdate="20190901T091851Z">
@@ -17586,6 +18786,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T091835Z" creationid="pingfangx" creationdate="20190903T091835Z">
         <seg>请注意，基于证书的客户端身份验证在 PSK 握手流程(包括 0-RTT)中不可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that compromise of the server's static RSA key results in a loss of confidentiality for all sessions protected under that static key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113830Z" creationid="pingfangx" creationdate="20190918T113830Z">
+        <seg>请注意，服务器静态 RSA 密钥的泄露会导致该静态密钥下受保护的所有会话失去机密性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17654,6 +18862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that in TLS, for key generation purposes, DES is treated as having an 8-byte key length (64 bits), but it still only provides 56 bits of protection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065702Z" creationid="pingfangx" creationdate="20190919T065702Z">
+        <seg>注意，在 TLS 中，出于密钥生成的目的，DES 被视为具有 8 字节的密钥长度(64 位)，但它仍然只提供 56 位的保护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that in many cases the URI itself comes from an untrusted source.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T111612Z" creationid="pingfangx" creationdate="20190901T111612Z">
@@ -17674,6 +18890,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T141210Z" creationid="pingfangx" creationdate="20190903T141210Z">
         <seg>请注意，在某些情况下，零长度上下文(由 "" 表示)传递给 HKDF-Expand-Label。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that in this case the client and server will generate the same Diffie-Hellman result (i.e., pre_master_secret) every time they communicate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114609Z" creationid="pingfangx" creationdate="20190918T114609Z">
+        <seg>请注意，在这种情况下，客户端和服务器每次通信时都会产生相同的 Diffie-Hellman 结果(即 pre_master_secret)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17934,6 +19158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that this mode is vulnerable to man-in-the-middle attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063158Z" creationid="pingfangx" creationdate="20190919T063158Z">
+        <seg>请注意，此模式易受中间人攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that this record may appear at a point at the handshake where the implementation is expecting protected records, and so it is necessary to detect this condition prior to attempting to deprotect the record.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T134931Z" creationid="pingfangx" creationdate="20190903T134931Z">
@@ -17970,6 +19202,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T114925Z" creationid="pingfangx" creationdate="20190828T114925Z">
         <seg>注意，不需要在另一个方向上的无条件转换，因为并非所有字符都可以在给定字符集中可用，并且字符集可以提供多于一个八位字节序列来表示特定字符​​。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that using non-anonymous key exchange without actually verifying the key exchange is essentially equivalent to anonymous key exchange, and the same precautions apply.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063414Z" creationid="pingfangx" creationdate="20190919T063414Z">
+        <seg>请注意，在不实际验证密钥交换的情况下使用非匿名密钥交换实质上等同于匿名密钥交换，同样的预防措施也适用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18166,6 +19406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note: MAC keys may be larger than encryption keys, so messages can remain tamper resistant even if encryption keys are broken.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121548Z" creationid="pingfangx" creationdate="20190918T121548Z">
+        <seg>注意：MAC 密钥可能大于加密密钥，因此即使加密密钥被破坏，消息也可以保持防篡改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note: PKCS #7 [PKCS7] is not used as the format for the certificate vector because PKCS #6 [PKCS6] extended certificates are not used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T095144Z" creationid="pingfangx" creationdate="20190916T095122Z">
@@ -18210,6 +19458,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T101429Z" creationid="pingfangx" creationdate="20190829T101429Z">
         <seg>注意：“无重写”规则可防止代理在原始服务器不正确地使用非保留 URI 字符用于保留目的时更改请求的含义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: The cipher suite values { 0x00, 0x1C } and { 0x00, 0x1D } are reserved to avoid collision with Fortezza-based cipher suites in SSL 3.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063709Z" creationid="pingfangx" creationdate="20190919T063619Z">
+        <seg>注意：加密套件值 { 0x00, 0x1C } 和 { 0x00, 0x1D } 被保留，以避免与 SSL 3 中基于 Fortezza 的加密套件冲突。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18630,6 +19886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One is the case of stream ciphers in which a computationally unpredictable pad of the length of the message, plus the length of the MAC tag, is produced using a pseudorandom generator and this pad is exclusive-ORed with the concatenation of plaintext and MAC tag.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123354Z" creationid="pingfangx" creationdate="20190918T123354Z">
+        <seg>一种情况是流加密，计算消息的长度（加上 MAC 标签长度）的不可预测的填充，使用伪随机生成器生成，并且该垫是明文和 MAC 标签的串联的异或。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One may optionally specify a value without its associated tag to force the width definition without defining a superfluous element.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T023812Z" creationid="pingfangx" creationdate="20190903T023812Z">
@@ -18918,6 +20182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Outgoing data is protected with a MAC before transmission.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121142Z" creationid="pingfangx" creationdate="20190918T121142Z">
+        <seg>传出数据在传输前由 MAC 保护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Overall Operation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T072012Z" creationid="pingfangx" creationdate="20190828T072012Z">
@@ -18986,6 +20258,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T071150Z" creationid="pingfangx" creationdate="20190828T071150Z">
         <seg>前言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PRNGs based on secure hash operations, most notably SHA-1, are acceptable, but cannot provide more security than the size of the random number generator state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072006Z" creationid="pingfangx" creationdate="20190919T072006Z">
+        <seg>基于安全散列操作的 PRNG，最显着的 SHA-1，是可以接受的，但不能提供比随机数发生器状态的大小更安全。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19230,6 +20510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Previous versions of TLS [TLS1.0] used the CBC residue of the previous record as the IV and therefore enabled this attack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121748Z" creationid="pingfangx" creationdate="20190918T121748Z">
+        <seg>以前版本的 TLS [TLS1.0] 使用此前记录的 CBC 剩余作为 IV，因此造成了此攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Previous versions of TLS would use other values in this field under some circumstances.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T135803Z" creationid="pingfangx" creationdate="20190903T135803Z">
@@ -19310,6 +20598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Protecting Application Data</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121029Z" creationid="pingfangx" creationdate="20190918T121029Z">
+        <seg>保护应用数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Protection against replay for ordinary TLS 1.3 1-RTT data is provided via the server's Random value, but 0-RTT data does not depend on the ServerHello and therefore has weaker guarantees.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T152409Z" creationid="pingfangx" creationdate="20190902T152409Z">
@@ -19346,6 +20642,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T031709Z" creationid="pingfangx" creationdate="20190903T031709Z">
         <seg>协议消息必须按照第 4.4.1 节中定义的顺序发送，并在第 2 节的图中显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Provided that the master_secret has not been compromised and that the secure hash operations used to produce the encryption keys and MAC keys are secure, the connection should be secure and effectively independent from previous connections.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120735Z" creationid="pingfangx" creationdate="20190918T120735Z">
+        <seg>如果主密钥没有被泄露，并且用于生成加密密钥和 MAC 密钥的安全散列操作是安全的，那么连接应该是安全的，并且有效地独立于以前的连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19502,6 +20806,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>RFC 4492 [TLSECC] adds Elliptic Curve cipher suites to TLS.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063922Z" creationid="pingfangx" creationdate="20190919T063922Z">
+        <seg>RFC 4492 [TLSECC] 椭圆曲线加密套件添加到 TLS。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RSA Key Exchange and Authentication</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113622Z" creationid="pingfangx" creationdate="20190918T113622Z">
+        <seg>RSA 密钥交换和身份验证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>RSA encryption is done using the RSAES-PKCS1-v1_5 encryption scheme defined in [PKCS1].</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T233210Z" creationid="pingfangx" creationdate="20190905T233210Z">
@@ -19554,6 +20874,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105420Z" creationid="pingfangx" creationdate="20190827T105420Z">
         <seg>RST：重置连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Random Number Generation and Seeding</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071910Z" creationid="pingfangx" creationdate="20190919T071910Z">
+        <seg>随机数生成和种子</seg>
       </tuv>
     </tu>
     <tu>
@@ -20230,6 +21558,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Resuming Sessions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120434Z" creationid="pingfangx" creationdate="20190918T120434Z">
+        <seg>恢复会话</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Resumption and Pre-Shared Key (PSK)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T121748Z" creationid="pingfangx" creationdate="20190901T121748Z">
@@ -20590,6 +21926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Secure secret data used for generating encryption keys, MAC secrets, and IVs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070310Z" creationid="pingfangx" creationdate="20190919T070310Z">
+        <seg>用于生成加密密钥、MAC 密钥和 IV 的安全机密数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Security Considerations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074313Z" creationid="pingfangx" creationdate="20190828T074313Z">
@@ -20602,6 +21946,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190917T103118Z" creationid="pingfangx" creationdate="20190917T103118Z">
         <seg>安全问题在这份备忘录中讨论，尤其是在附录 D，E 和 F。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Security of Composite Cipher Modes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121828Z" creationid="pingfangx" creationdate="20190918T121828Z">
+        <seg>复合加密模式的安全性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SecurityParameters includes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063805Z" creationid="pingfangx" creationdate="20190919T063805Z">
+        <seg>SecurityParameters 包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See "Working Group Information" at the end of this document (see page 99).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071323Z" creationid="pingfangx" creationdate="20190919T071323Z">
+        <seg>见本文件末尾的“工作组信息”(见第 99 页)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20702,6 +22070,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See also "client".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070611Z" creationid="pingfangx" creationdate="20190919T070611Z">
+        <seg>另请参见“客户端”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See bulk cipher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071231Z" creationid="pingfangx" creationdate="20190919T071231Z">
+        <seg>见批量加密。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See public key cryptography.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064606Z" creationid="pingfangx" creationdate="20190919T064606Z">
+        <seg>请参阅公共密钥加密。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See section 15.1.3 for security considerations when used for forms.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T063016Z" creationid="pingfangx" creationdate="20190830T063016Z">
@@ -20738,6 +22130,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T151747Z" creationid="pingfangx" creationdate="20190828T151747Z">
         <seg>有关兼容性问题，请参见第 3.4.1 节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Seeding a 128-bit PRNG would thus require approximately 100 such timer values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072223Z" creationid="pingfangx" creationdate="20190919T072223Z">
+        <seg>从而种子 128 位 PRNG 将需要大约 100 个这样的计时器值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20826,6 +22226,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T022142Z" creationid="pingfangx" creationdate="20190916T022142Z">
         <seg>序列号不会回转重用(wrap)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Server Authentication and Key Exchange Messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T061948Z" creationid="pingfangx" creationdate="20190919T061948Z">
+        <seg>服务器认证和密钥交换信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -21126,6 +22534,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sessions are created by the handshake protocol.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070623Z" creationid="pingfangx" creationdate="20190919T070623Z">
+        <seg>会话由握手协议创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sessions are used to avoid the expensive negotiation of new security parameters for each connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070727Z" creationid="pingfangx" creationdate="20190919T070727Z">
+        <seg>会话用于避免为每个连接进行新安全参数的昂贵的协商。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sessions cannot be resumed unless both the client and server agree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120845Z" creationid="pingfangx" creationdate="20190918T120845Z">
+        <seg>除非客户端和服务器都同意，否则无法恢复会话。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sessions define a set of cryptographic security parameters that can be shared among multiple connections.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070633Z" creationid="pingfangx" creationdate="20190919T070633Z">
+        <seg>会话定义一组可在多个连接之间共享的加密安全参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Several examples of connection initiation follow.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T031601Z" creationid="pingfangx" creationdate="20190828T031601Z">
@@ -21138,6 +22578,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T074033Z" creationid="pingfangx" creationdate="20190828T074033Z">
         <seg>共享和非共享缓存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Short public keys and anonymous servers should be used with great caution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T124333Z" creationid="pingfangx" creationdate="20190918T124333Z">
+        <seg>短公钥和匿名服务器应该非常谨慎地使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21190,10 +22638,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similarly, authenticated clients must supply an acceptable certificate to the server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112912Z" creationid="pingfangx" creationdate="20190918T112912Z">
+        <seg>同样，认证客户端必须提供一个可接受的证书给服务器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, compromise of a MAC key can make message-modification attacks possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121447Z" creationid="pingfangx" creationdate="20190918T121447Z">
+        <seg>类似地，MAC 密钥的泄露可以使消息修改攻击成为可能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly, if early data assumes anything about the connection state, it might be sent in error after the handshake completes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T084935Z" creationid="pingfangx" creationdate="20190903T084935Z">
         <seg>同样，如果早期数据假设有关连接状态的任何内容，则在握手完成后可能会错误地发送。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, the server write and client write keys are independent, so stream cipher keys are used only once.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121409Z" creationid="pingfangx" creationdate="20190918T121409Z">
+        <seg>同样，服务器写入和客户端写入密钥是独立的，所以流加密密钥只能使用一次。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21274,6 +22746,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T082607Z" creationid="pingfangx" creationdate="20190831T082607Z">
         <seg>由于它不能组合成单个字段值，因此接收者应该在处理首部字段时将“Set-Cookie”作为特殊情况处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since sequence numbers are 64 bits long, they should never overflow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121324Z" creationid="pingfangx" creationdate="20190918T121324Z">
+        <seg>由于序列号是 64 位长，他们应该永远不会溢出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21394,6 +22874,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T020044Z" creationid="pingfangx" creationdate="20190903T020044Z">
         <seg>包含未解释数据的单字节实体属于不透明类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Small subgroup attacks are most easily avoided by using one of the DHE cipher suites and generating a fresh DH private key (X) for each handshake.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115126Z" creationid="pingfangx" creationdate="20190918T115126Z">
+        <seg>通过使用一个 DHE 加密套件并为每次握手生成新的 DH 私钥 (X)，可以很容易避免小群攻击。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22166,6 +23654,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TLS currently only supports the 128- and 256-bit key sizes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064443Z" creationid="pingfangx" creationdate="20190919T064443Z">
+        <seg>TLS 目前只支持 128 位和 256 位密钥大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TLS does not hide the length of the data it transmits, though endpoints are able to pad TLS records in order to obscure lengths and improve protection against traffic analysis techniques.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T123159Z" creationid="pingfangx" creationdate="20190901T123159Z">
@@ -22198,10 +23694,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TLS is based on SSL Version 3.0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071137Z" creationid="pingfangx" creationdate="20190919T071137Z">
+        <seg>TLS 基于 SSL 3.0 版。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TLS only presumes a reliable connection-oriented data stream.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103316Z" creationid="pingfangx" creationdate="20190901T103316Z">
         <seg>TLS 仅假定可靠的面向连接的数据流。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS protocol issues:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072545Z" creationid="pingfangx" creationdate="20190919T072545Z">
+        <seg>TLS 协议的问题：</seg>
       </tuv>
     </tu>
     <tu>
@@ -22230,6 +23742,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TLS requires a cryptographically secure pseudorandom number generator (PRNG).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071927Z" creationid="pingfangx" creationdate="20190919T071927Z">
+        <seg>TLS 需要密码安全伪随机数生成器(PRNG)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS secures transmitted application data via the use of symmetric encryption and authentication functions defined in the negotiated cipher suite.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122023Z" creationid="pingfangx" creationdate="20190918T122023Z">
+        <seg>TLS 通过使用协商加密套件中定义的对称加密和身份验证功能来保护传输的应用数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TLS servers MUST support receiving this extension.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T093136Z" creationid="pingfangx" creationdate="20190916T093136Z">
@@ -22238,10 +23766,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TLS supports a range of key sizes and security levels, including some that provide no or minimal security.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072356Z" creationid="pingfangx" creationdate="20190919T072356Z">
+        <seg>TLS 支持多种密钥大小和安全级别，包括一些提供没有或很少安全的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS supports three authentication modes: authentication of both parties, server authentication with an unauthenticated client, and total anonymity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112714Z" creationid="pingfangx" creationdate="20190918T112714Z">
+        <seg>TLS 支持三种认证方式：双方认证，服务器认证但客户端未认证，和完全匿名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TLS supports three basic key exchange modes:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T144808Z" creationid="pingfangx" creationdate="20190902T144808Z">
         <seg>TLS 支持三种基本密钥交换模式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS users desiring Perfect Forward Secrecy should use DHE cipher suites.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113858Z" creationid="pingfangx" creationdate="20190918T113858Z">
+        <seg>希望完全前向保密的 TLS 用户应该使用 DHE 加密套件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS uses another method, called authenticate-then-encrypt, in which first a MAC is computed on the plaintext and then the concatenation of plaintext and MAC is encrypted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122325Z" creationid="pingfangx" creationdate="20190918T122325Z">
+        <seg>TLS 使用另一种方法，称为验证然后加密，其中首先对明文计算 MAC，然后对明文和 MAC 的连接进行加密。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22266,6 +23826,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T025103Z" creationid="pingfangx" creationdate="20190916T025103Z">
         <seg>TLSCiphertext.fragment 结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TLS_NULL_WITH_NULL_NULL is specified and is the initial state of a TLS connection during the first handshake on that channel, but MUST NOT be negotiated, as it provides no more protection than an unsecured connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062351Z" creationid="pingfangx" creationdate="20190919T062351Z">
+        <seg>TLS_NULL_WITH_NULL_NULL 被指定并且是信道在第一握手期间 TLS 连接的初始状态，但决不能被协商，因为它提供的保护和不安全连接一样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22301,6 +23869,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T091027Z" creationid="pingfangx" creationdate="20190830T091027Z">
         <seg>拆除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Temporary parameters are hashed with the hello.random values before signing to ensure that attackers do not replay old parameters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114449Z" creationid="pingfangx" creationdate="20190918T114449Z">
+        <seg>在签名之前，临时参数与 hello.random 值进行散列，以确保攻击者不会重放旧参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22633,6 +24209,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The 256-bit Secure Hash Algorithm is defined in FIPS PUB 180-2.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070953Z" creationid="pingfangx" creationdate="20190919T070953Z">
+        <seg>在 FIPS PUB 180-2 定义的 256 位安全散列算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;major&gt; number is incremented when the format of a message within the protocol is changed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T103152Z" creationid="pingfangx" creationdate="20190828T103152Z">
@@ -22741,6 +24325,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T035847Z" creationid="pingfangx" creationdate="20190916T035847Z">
         <seg>在协商安全参数之后但在发送验证完成消息之前，在握手期间发送 ChangeCipherSpec 消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Cipher Suite</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062041Z" creationid="pingfangx" creationdate="20190919T062041Z">
+        <seg>加密套件</seg>
       </tuv>
     </tu>
     <tu>
@@ -23345,6 +24937,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Secure Hash Algorithm [SHS] is defined in FIPS PUB 180-2.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070926Z" creationid="pingfangx" creationdate="20190919T070926Z">
+        <seg>安全哈希算法 [SHS] 在 FIPS PUB 180-2 中定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Security Parameters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063736Z" creationid="pingfangx" creationdate="20190919T063736Z">
+        <seg>安全参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The ServerHello MUST only include extensions which are required to establish the cryptographic context and negotiate the protocol version.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T042932Z" creationid="pingfangx" creationdate="20190903T042932Z">
@@ -23501,6 +25109,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T140736Z" creationid="pingfangx" creationdate="20190903T140736Z">
         <seg>TLS 握手建立一个或多个输入机密，这些输入机密被组合以创建实际的工作密钥材料，如下所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The TLS protocol cannot prevent many common security mistakes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071849Z" creationid="pingfangx" creationdate="20190919T071849Z">
+        <seg>TLS 协议不能阻止许多常见的安全错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The TLS protocol is designed to establish a secure connection between a client and a server communicating over an insecure channel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112105Z" creationid="pingfangx" creationdate="20190918T112105Z">
+        <seg>TLS 协议被设计为在客户端和服务器之间建立安全连接，他们通过不安全的通道通信。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23849,10 +25473,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The amount of data a block cipher enciphers in one chunk; a block cipher running in CBC mode can only encrypt an even multiple of its block size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071753Z" creationid="pingfangx" creationdate="20190919T071753Z">
+        <seg>一个块加密在一个块中加密的数据量；在 CBC 模式下运行的块加密只能加密其块大小的偶数倍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The amount of data needed to be generated for the initialization vector.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071445Z" creationid="pingfangx" creationdate="20190919T071445Z">
+        <seg>需要为初始化向量生成的数据量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The application data.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T023724Z" creationid="pingfangx" creationdate="20190916T023724Z">
         <seg>应用数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The application entity that initiates a TLS connection to a server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065200Z" creationid="pingfangx" creationdate="20190919T065200Z">
+        <seg>启动到服务器的 TLS 连接的应用程序实体。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24169,6 +25817,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The client SHOULD also verify that the DH public exponent appears to be of adequate size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115417Z" creationid="pingfangx" creationdate="20190918T115417Z">
+        <seg>客户端也应该确认 DH 公开指数似乎是足够大的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The client and the server must share knowledge that the connection is ending in order to avoid a truncation attack.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T041411Z" creationid="pingfangx" creationdate="20190916T041411Z">
@@ -24229,6 +25885,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T064318Z" creationid="pingfangx" creationdate="20190903T064318Z">
         <seg>客户端在 ClientHello 消息中发送其扩展请求，服务器在 ServerHello，EncryptedExtensions，HelloRetryRequest 和 Certificate 消息中发送其扩展响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The client signs a value derived from all preceding handshake messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114102Z" creationid="pingfangx" creationdate="20190918T114102Z">
+        <seg>客户端对从前面所有握手消息派生的一个值进行签名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24425,6 +26089,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The connections are transient.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065538Z" creationid="pingfangx" creationdate="20190919T065538Z">
+        <seg>连接是暂时的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The content of the header beyond the End-of-Option option must be header padding (i.e., zero).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T110945Z" creationid="pingfangx" creationdate="20190827T110945Z">
@@ -24549,6 +26221,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T074118Z" creationid="pingfangx" creationdate="20190916T074118Z">
         <seg>根据发送方的内部时钟，标准 UNIX 32 位格式的当前时间和日期(从 1970 年 1 月 1 日午夜开始，UTC，忽略闰秒)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The damage done by exposure of a private key can be limited by changing one's private key (and certificate) frequently.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113922Z" creationid="pingfangx" creationdate="20190918T113922Z">
+        <seg>通过频繁地更改私钥(和证书)，可以限制私钥暴露所造成的损害。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25009,10 +26689,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following CipherSuite definitions require that the server provide an RSA certificate that can be used for key exchange.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062410Z" creationid="pingfangx" creationdate="20190919T062410Z">
+        <seg>以下 CipherSuite 定义要求服务器提供可用于密钥交换的 RSA 证书。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following are two example URIs and their component parts:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T072316Z" creationid="pingfangx" creationdate="20190902T072316Z">
         <seg>以下是两个示例 URI 及其组成部分：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following cipher suite definitions are used for server-authenticated (and optionally client-authenticated) Diffie-Hellman.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062517Z" creationid="pingfangx" creationdate="20190919T062517Z">
+        <seg>以下加密套件定义用于服务器身份验证(以及可选的客户端身份验证)的 Diffie-Hellman。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following cipher suites are used for completely anonymous Diffie-Hellman communications in which neither party is authenticated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063151Z" creationid="pingfangx" creationdate="20190919T063151Z">
+        <seg>以下加密套件用于完全匿名的 Diffie-Hellman 通信，其中任何一方都没有经过身份验证。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25185,6 +26889,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following values define the cipher suite codes used in the ClientHello and ServerHello messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062112Z" creationid="pingfangx" creationdate="20190919T062112Z">
+        <seg>以下值定义了 ClientHello 和 ServerHello 消息中使用的加密套件代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following very basic and somewhat casually defined presentation syntax will be used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T152538Z" creationid="pingfangx" creationdate="20190902T152538Z">
@@ -25253,6 +26965,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T062658Z" creationid="pingfangx" creationdate="20190916T062658Z">
         <seg>基本规则是，更高级别必须认识到其安全要求是什么，并且永远不会通过比其需要的安全性更低的信道传输信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The general goal of the key exchange process is to create a pre_master_secret known to the communicating parties and not to attackers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113051Z" creationid="pingfangx" creationdate="20190918T113018Z">
+        <seg>密钥交换过程的一般目标是创建一个通信双方知道，但攻击者不知道的 pre_master_secret。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25353,10 +27073,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The handshake protocol can also optionally authenticate parties who have certificates signed by a trusted certificate authority.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112544Z" creationid="pingfangx" creationdate="20190918T112544Z">
+        <seg>握手协议还可以选择性地对拥有由可信证书颁发机构签名的证书的各方进行身份验证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The handshake protocol is designed to resist tampering; an active attacker should not be able to force the peers to negotiate different parameters than they would if the connection were not under attack.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T133005Z" creationid="pingfangx" creationdate="20190902T133005Z">
         <seg>握手协议旨在抵制篡改；如果连接没有受到攻击，主动攻击者应该不能够强制对等方协商不同的参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The handshake protocol is responsible for selecting a cipher spec and generating a master secret, which together comprise the primary cryptographic parameters associated with a secure session.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112506Z" creationid="pingfangx" creationdate="20190918T112506Z">
+        <seg>握手协议负责选择一个加密规范和生成主密钥，它们共同构成与安全会话相关联的主加密参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25589,6 +27325,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T105840Z" creationid="pingfangx" creationdate="20190903T105840Z">
         <seg>用于计算 Finished 消息的密钥是使用 HKDF 从第 4.4 节中定义的 Base Key 计算的(参见第 7.1 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The key used to encrypt data written by the client.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065442Z" creationid="pingfangx" creationdate="20190919T065442Z">
+        <seg>用于加密客户端写入的数据的密钥。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The key used to encrypt data written by the server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070810Z" creationid="pingfangx" creationdate="20190919T070810Z">
+        <seg>用于服务器写入的数据进行加密的密钥。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25969,6 +27721,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The master_secret is hashed with the ClientHello.random and ServerHello.random to produce unique data encryption keys and MAC secrets for each connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121126Z" creationid="pingfangx" creationdate="20190918T121126Z">
+        <seg>master_secret 与 ClientHello.random 和 ServerHello.random 进行散列，为每个连接生成唯一的数据加密密钥和 MAC 机密。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The master_secret is required to generate the Finished messages, encryption keys, and MAC keys (see Sections 7.4.9 and 6.3).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113148Z" creationid="pingfangx" creationdate="20190918T113148Z">
+        <seg>所述 master_secret 用来产生的 Finished 消息，加密密钥和 MAC 密钥(参见第 7.4.9 和 6.3)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The meaning of the "deflate" content coding has been clarified.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T092055Z" creationid="pingfangx" creationdate="20190830T092055Z">
@@ -26029,6 +27797,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T035328Z" creationid="pingfangx" creationdate="20190916T035328Z">
         <seg>该消息由值为 1 的单个字节组成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The message type field is necessary to ensure that messages intended for one TLS record layer client are not redirected to another.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121253Z" creationid="pingfangx" creationdate="20190918T121253Z">
+        <seg>消息类型字段是必要的，以确保适用于一个 TLS 记录层客户端的消息不会被重定向到另一个。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26145,6 +27921,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The most robust method, called encrypt-then-authenticate, first applies encryption to the data and then applies a MAC to the ciphertext.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122148Z" creationid="pingfangx" creationdate="20190918T122148Z">
+        <seg>最健壮的方法，称为加密然后验证，首先对数据应用加密，然后对密文应用 MAC。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of a rule is simply the name itself (without any enclosing "&lt;" and "&gt;") and is separated from its definition by the equal "=" character.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T092612Z" creationid="pingfangx" creationdate="20190828T092612Z">
@@ -26257,6 +28041,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The number of bytes from the key_block that are used for generating the write keys.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071437Z" creationid="pingfangx" creationdate="20190919T071437Z">
+        <seg>用于生成写入密钥的 key_block 的字节数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The number of data octets beginning with the one indicated in the acknowledgment field which the sender of this segment is willing to accept.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190827T105729Z" creationid="pingfangx" creationdate="20190827T105729Z">
@@ -26269,6 +28061,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T024055Z" creationid="pingfangx" creationdate="20190903T024055Z">
         <seg>数值可以描述相同名称适用的范围。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The objective is to protect both the integrity and confidentiality of the transmitted data from malicious actions by active attackers in the network.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122045Z" creationid="pingfangx" creationdate="20190918T122045Z">
+        <seg>其目的是保护传输数据的完整性和机密性，防止网络中活动攻击者的恶意行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26357,6 +28157,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T043907Z" creationid="pingfangx" creationdate="20190831T043907Z">
         <seg>“http”URI 的原始服务器由 authority 组件标识，该组件包括主机标识符和可选的 TCP 端口([RFC3986]，第 3.2.2 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The other is the case of CBC mode using a secure block cipher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123407Z" creationid="pingfangx" creationdate="20190918T123407Z">
+        <seg>另一种是使用安全分组加密的 CBC 模式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26513,6 +28321,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The pre_master_secret will be used to generate the master_secret (see Section 8.1).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113118Z" creationid="pingfangx" creationdate="20190918T113118Z">
+        <seg>pre_master_secret 将被用来生成 master_secret (见 8.1 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The presence of a host subcomponent within a URI does not imply that the scheme requires access to the given host on the Internet.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T073847Z" creationid="pingfangx" creationdate="20190902T073847Z">
@@ -26597,6 +28413,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T111733Z" creationid="pingfangx" creationdate="20190905T111733Z">
         <seg>TLS 协议的主要目标是在两个通信应用程序之间提供隐私和数据完整性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The primary operational difference between the server and client is that the server is generally authenticated, while the client is only optionally authenticated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065423Z" creationid="pingfangx" creationdate="20190919T065423Z">
+        <seg>服务器和客户端之间的主要操作区别在于，服务器通常是经过身份验证的，而客户端只能可选性地经过身份验证。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26749,6 +28573,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T104153Z" creationid="pingfangx" creationdate="20190828T104153Z">
         <seg>代理/网关对该请求的响应必须与请求处于相同的主要版本中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The public key is contained in the server's certificate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113701Z" creationid="pingfangx" creationdate="20190918T113701Z">
+        <seg>公钥包含在服务器的证书中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27289,6 +29121,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The secret data used to authenticate data written by the client.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065507Z" creationid="pingfangx" creationdate="20190919T065507Z">
+        <seg>用于验证客户端写入的数据的密钥数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The secret data used to authenticate data written by the server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070838Z" creationid="pingfangx" creationdate="20190919T070838Z">
+        <seg>用于验证服务器写入的数据的密钥数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The security parameters for a TLS Connection read and write state are set by providing the following values:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T020411Z" creationid="pingfangx" creationdate="20190916T020411Z">
@@ -27317,6 +29165,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T022829Z" creationid="pingfangx" creationdate="20190828T022829Z">
         <seg>报文段长度(SEG.LEN)包括数据和控制位占用的序列空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The selection and addition of trusted CAs should be done very carefully.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072325Z" creationid="pingfangx" creationdate="20190919T072325Z">
+        <seg>选择和添加信任的 CA 应该非常谨慎。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27409,6 +29265,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The sequence number ensures that attempts to delete or reorder messages will be detected.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121317Z" creationid="pingfangx" creationdate="20190918T121317Z">
+        <seg>序列号可确保尝试删除或重新排序信息将被检测到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The sequence number for this record.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T025150Z" creationid="pingfangx" creationdate="20190916T025150Z">
@@ -27429,6 +29293,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T064409Z" creationid="pingfangx" creationdate="20190903T064409Z">
         <seg>服务器也可以在 NewSessionTicket 中发送未经请求的扩展，但客户端不会直接响应这些扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The server MAY choose to assist the client by providing a known group, such as those defined in [IKEALG] or [MODP].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115525Z" creationid="pingfangx" creationdate="20190918T115525Z">
+        <seg>服务器可以选择通过提供已知组来帮助客户端，例如在 [IKEALG] 或 [MODP] 中定义的组。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27493,6 +29365,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T070748Z" creationid="pingfangx" creationdate="20190903T070748Z">
         <seg>服务器可以通过将 ClientHello 的哈希值存储在 HelloRetryRequest cookie 中(使用一些合适的完整性保护算法进行保护)来完成此操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The server can request any signature-capable certificate from the client for client authentication, or it may request a Diffie-Hellman certificate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062850Z" creationid="pingfangx" creationdate="20190919T062850Z">
+        <seg>服务器可以从客户端请求任何签名能力的证书进行客户端认证，或者它可以请求的 Diffie-Hellman 证书。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The server is the application entity that responds to requests for connections from clients.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070603Z" creationid="pingfangx" creationdate="20190919T070603Z">
+        <seg>服务器是响应来自客户端的连接的请求的应用程序实体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The server may request any signature-capable certificate in the certificate request message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062424Z" creationid="pingfangx" creationdate="20190919T062424Z">
+        <seg>服务器可以在证书请求消息中请求任何支持签名的证书。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27665,6 +29561,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The server's public parameters are contained in the server key exchange message, and the client's are sent in the client key exchange message.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113305Z" creationid="pingfangx" creationdate="20190918T113305Z">
+        <seg>该服务器的公共参数包含在服务器密钥交换消息，客户端的在客户端密钥交换消息中发送。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The session identifier MAY be from an earlier connection, this connection, or from another currently active connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T074724Z" creationid="pingfangx" creationdate="20190916T074724Z">
@@ -27717,6 +29621,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T075126Z" creationid="pingfangx" creationdate="20190903T075126Z">
         <seg>自签名证书上的签名或信任锚证书的签名未经验证，因为它们开始了证书路径(参见 [RFC5280]，第 3.2 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The signing algorithm used by the server is specified after the DHE component of the CipherSuite name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T062827Z" creationid="pingfangx" creationdate="20190919T062827Z">
+        <seg>服务器使用的签名算法是在 CipherSuite 名称的 DHE 组件之后指定的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27901,6 +29813,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T024435Z" creationid="pingfangx" creationdate="20190903T024435Z">
         <seg>用于定义的语法非常类似于 C。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The system is only as strong as the weakest key exchange and authentication algorithm supported, and only trustworthy cryptographic functions should be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T124324Z" creationid="pingfangx" creationdate="20190918T124324Z">
+        <seg>该系统的强度与最弱的密钥交换和认证算法有关，并且只应该使用可信的密码函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28625,6 +30545,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Therefore, new cipher suites and operation modes adopted into TLS need to be analyzed under the authenticate-then-encrypt method to verify that they achieve the stated integrity and confidentiality goals.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122639Z" creationid="pingfangx" creationdate="20190918T122639Z">
+        <seg>因此，采用到新的 TLS 加密套件和工作模式，需要进行验证然后加密方法下的分析，以验证他们实现既定的完整性和机密性的目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Therefore, the integer values used by the ABNF must be mapped back to their corresponding characters via US-ASCII in order to complete the syntax rules.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T065058Z" creationid="pingfangx" creationdate="20190902T065058Z">
@@ -28673,10 +30601,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These attacks cannot in general be defended against by a TCP-using protocol.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T124022Z" creationid="pingfangx" creationdate="20190918T124022Z">
+        <seg>使用协议的 TCP 通常无法防御这些攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These bytes are redundant in the case of RSA because the EncryptedPreMasterSecret is the only data in the ClientKeyExchange and its length can therefore be unambiguously determined.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T153854Z" creationid="pingfangx" creationdate="20190916T153854Z">
         <seg>在 RSA 的情况下，这些字节是冗余的，因为 EncryptedPreMasterSecret 是 ClientKeyExchange 中的唯一数据，因此可以明确地确定其长度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These can be verified by simple comparison.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115603Z" creationid="pingfangx" creationdate="20190918T115603Z">
+        <seg>这些可以通过简单的比较来验证。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28757,6 +30701,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T152632Z" creationid="pingfangx" creationdate="20190829T152632Z">
         <seg>这些准则旨在改善 HTTP 响应时间并避免拥塞。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These handshake messages include the server certificate, which binds the signature to the server, and ServerHello.random, which binds the signature to the current handshake process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114230Z" creationid="pingfangx" creationdate="20190918T114230Z">
+        <seg>这些握手消息包括服务器证书，其将签名绑定到服务器，以及 ServerHello.random，其将签名绑定到当前握手过程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28901,6 +30853,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T142828Z" creationid="pingfangx" creationdate="20190828T142828Z">
         <seg>这些规则允许收件人确定邮件的传输长度(第 4.4 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These security parameters are determined by the TLS Handshake Protocol and provided as parameters to the TLS record layer in order to initialize a connection state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063802Z" creationid="pingfangx" creationdate="20190919T063802Z">
+        <seg>这些安全参数由 TLS 握手协议确定，并作为参数提供给 TLS 记录层以初始化连接状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29137,6 +31097,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This appendix outlines how TLS has been designed to resist a variety of attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112301Z" creationid="pingfangx" creationdate="20190918T112301Z">
+        <seg>本附录概述了 TLS 如何被设计成抵御各种攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This attack can occur if (and only if) two TLS-capable parties use an SSL 2.0 handshake.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115759Z" creationid="pingfangx" creationdate="20190918T115759Z">
+        <seg>如果(且仅当)两个支持 TLS 的参与方使用 SSL 2.0 握手，则可能发生此攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This authentication can be made optional, but is generally required for at least one of the peers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T112455Z" creationid="pingfangx" creationdate="20190905T112455Z">
@@ -29149,6 +31125,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T020001Z" creationid="pingfangx" creationdate="20190903T020001Z">
         <seg>多字节值的这种字节排序是常见的网络字节顺序或大端格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This change applies to digital signatures formed using ECDSA as well, thus allowing ECDSA signatures to be used with digest algorithms other than SHA-1, provided such use is compatible with the certificate and any restrictions imposed by future revisions of [PKIX].</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064137Z" creationid="pingfangx" creationdate="20190919T064137Z">
+        <seg>此更改也适用于使用 ECDSA 形成的数字签名，从而允许 ECDSA 签名与 SHA-1 以外的摘要算法一起使用，前提是这种使用与证书兼容，并且与将来修订的 [PKIX] 施加的任何限制兼容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29233,6 +31217,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This document adds a "signature_algorithm" field to the digitally-signed element in order to identify the signature and digest algorithms used to create a signature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064054Z" creationid="pingfangx" creationdate="20190919T064054Z">
+        <seg>本文档将“signature_algorithm”字段添加到数字签名元素中，以标识用于创建签名的签名和摘要算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document also defines representation metadata that describe how a payload is intended to be interpreted by a recipient, the request header fields that might influence content selection, and the various selection algorithms that are collectively referred to as "content negotiation" (Section 3.4).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T121755Z" creationid="pingfangx" creationdate="20190831T121755Z">
@@ -29253,6 +31245,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T143108Z" creationid="pingfangx" creationdate="20190905T143108Z">
         <seg>本文档和 TLS 协议本身基于 Netscape 发布的 SSL 3.0 协议规范。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document changes some of the structures used in that document.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063933Z" creationid="pingfangx" creationdate="20190919T063933Z">
+        <seg>此文档更改了该文档中使用的某些结构。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29381,6 +31381,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T093338Z" creationid="pingfangx" creationdate="20190830T093338Z">
         <seg>本文档是一系列文档中的第一个，它们共同构成了 HTTP/1.1 规范：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document makes several traditional assumptions, including that attackers have substantial computational resources and cannot obtain secret information from sources outside the protocol.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112207Z" creationid="pingfangx" creationdate="20190918T112207Z">
+        <seg>本文档做了几个传统的假设，包括攻击者有大量的计算资源和无法从协议之外的源获取机密信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29977,10 +31985,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This made TLS open to chosen plaintext attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123551Z" creationid="pingfangx" creationdate="20190918T123551Z">
+        <seg>这使 TLS 会发生选择明文攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This may be different from handshake_messages in Section 7.4.8 because it would include the CertificateVerify message (if sent).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190917T101100Z" creationid="pingfangx" creationdate="20190917T101100Z">
         <seg>这可能不同于第 7.4.8 节中的 handshake_messages，因为它将包括 CertificateVerify 消息(如果发送)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This may or may not imply that the client initiated the underlying transport connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065214Z" creationid="pingfangx" creationdate="20190919T065214Z">
+        <seg>这可能意味着也可能不意味着客户端启动了底层传输连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30329,6 +32353,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This method ensures that the integrity and confidentiality goals are obtained with ANY pair of encryption and MAC functions, provided that the former is secure against chosen plaintext attacks and that the MAC is secure against chosen-message attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122241Z" creationid="pingfangx" creationdate="20190918T122241Z">
+        <seg>该方法保证了在任意一对加密和 MAC 函数下都能获得完整性和机密性目标，前提是前者对选择明文攻击是安全的，而 MAC 对选择消息攻击是安全的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This method has been proven secure for CERTAIN combinations of encryption functions and MAC functions, but it is not guaranteed to be secure in general.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T122349Z" creationid="pingfangx" creationdate="20190918T122349Z">
+        <seg>这种方法在加密函数和 MAC 函数的某些组合中已被证明是安全的，但一般来说不能保证其安全性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This method is often used for testing hypertext links for validity, accessibility, and recent modification.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T063455Z" creationid="pingfangx" creationdate="20190830T063455Z">
@@ -30389,6 +32429,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T065100Z" creationid="pingfangx" creationdate="20190916T065100Z">
         <seg>该协议用于协商会话的安全属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This protocol; also, the Transport Layer Security working group of the Internet Engineering Task Force (IETF).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071314Z" creationid="pingfangx" creationdate="20190919T071314Z">
+        <seg>该协议；此外，互联网工程任务组(IETF)的传输层安全工作组。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30481,6 +32529,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This section describes protocol types and constants.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T061029Z" creationid="pingfangx" creationdate="20190919T061029Z">
+        <seg>本节描述了协议类型和常量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This section details the required changes for implementors of both RFC 4492 and TLS 1.2.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064003Z" creationid="pingfangx" creationdate="20190919T064003Z">
+        <seg>本节详细介绍了 RFC 4492 和 TLS 1.2 实现者所需的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This section provides TLS-specific requirements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T102421Z" creationid="pingfangx" creationdate="20190903T102421Z">
@@ -30489,10 +32553,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This section provides several recommendations to assist implementors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071857Z" creationid="pingfangx" creationdate="20190919T071857Z">
+        <seg>本节提供了一些建议，以帮助实现者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This signaling takes place using the Connection header field (section 14.10).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T150331Z" creationid="pingfangx" creationdate="20190829T150331Z">
         <seg>此信号使用 Connection 首部字段进行(第 14.10 节)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This solution is not secure against attackers who can brute-force the key and substitute a new ENCRYPTED-KEY-DATA message containing the same key (but with normal padding) before the application-specified wait threshold has expired.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120041Z" creationid="pingfangx" creationdate="20190918T120041Z">
+        <seg>此解决方案对攻击者不安全，如果攻击者可以在应用程序指定的等待阈值过期之前暴力破解密钥和替代含有相同的密钥(但具有正常填充)的新的 ENCRYPTED-KEY-DATA 消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30889,6 +32969,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This version of the protocol is immune to those attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T123601Z" creationid="pingfangx" creationdate="20190918T123601Z">
+        <seg>这个版本的协议对这些攻击免疫。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This version uses an explicit IV in order to protect against this attack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121822Z" creationid="pingfangx" creationdate="20190918T121805Z">
+        <seg>此版本使用显式 IV 来防止此攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This version value is historical, deriving from the use of 0x0301 for TLS 1.0 and 0x0300 for SSL 3.0.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T135923Z" creationid="pingfangx" creationdate="20190903T135923Z">
@@ -31041,6 +33137,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thus, the restrictions on the algorithm used to sign certificates specified in Sections 2 and 3 of RFC 4492 are also relaxed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064316Z" creationid="pingfangx" creationdate="20190919T064316Z">
+        <seg>因此，RFC 4492 的第 2 和第 3 节中对用于签署证书的算法的限制也被放宽。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To allow for transition to absoluteURIs in all requests in future versions of HTTP, all HTTP/1.1 servers MUST accept the absoluteURI form in requests, even though HTTP/1.1 clients will only generate them in requests to proxies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190829T100841Z" creationid="pingfangx" creationdate="20190829T100841Z">
@@ -31089,10 +33193,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To estimate the amount of seed material being produced, add the number of bits of unpredictable information in each seed byte.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072054Z" creationid="pingfangx" creationdate="20190919T072054Z">
+        <seg>要估计正在生成的种子材料的数量，请在每个种子字节中添加不可预测信息的位数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To generate the key material, compute</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T032147Z" creationid="pingfangx" creationdate="20190916T032139Z">
         <seg>要生成密钥材料，进行计算</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To prevent message replay or modification attacks, the MAC is computed from the MAC key, the sequence number, the message length, the message contents, and two fixed character strings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121223Z" creationid="pingfangx" creationdate="20190918T121223Z">
+        <seg>为了防止消息重放或修改攻击，MAC 由 MAC 密钥，序列号，消息长度，消息内容，和两个固定字符串来计算。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To prevent the pre_master_secret from staying in memory any longer than necessary, it should be converted into the master_secret as soon as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114640Z" creationid="pingfangx" creationdate="20190918T114640Z">
+        <seg>为了防止 pre_master_secret 在内存中停留的时间超过必要的时间，应尽快转换成 master_secret。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31249,6 +33377,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Transport Layer Security (TLS)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071237Z" creationid="pingfangx" creationdate="20190919T071237Z">
+        <seg>传输层安全(TLS)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tunnels are commonly used to create an end-to-end virtual connection, through one or more proxies, which can then be secured using TLS (Transport Layer Security, [RFC5246]).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T143000Z" creationid="pingfangx" creationdate="20190831T143000Z">
@@ -31261,14 +33397,6 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T101712Z" creationid="pingfangx" creationdate="20190830T101712Z">
         <seg>隧道用于通过中介扩展虚拟连接，例如当使用传输层安全性(TLS，[RFC5246])通过共享防火墙代理建立机密通信时。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Type</seg>
-      </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T072948Z" creationid="pingfangx" creationdate="20190828T072948Z">
-        <seg>类型</seg>
       </tuv>
     </tu>
     <tu>
@@ -31565,6 +33693,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T102354Z" creationid="pingfangx" creationdate="20190831T102354Z">
         <seg>除非已经应用了除 chunked 之外的传输编码，否则发送包含消息体的请求的客户端应该使用有效的 Content-Length 首部字段，如果事先知道消息体长度，而不是分块传输编码，因为一些已存在即使服务器理解了分块传输编码，服务也会响应具有 411(需要长度)状态代码的分块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unless an independent tamper-proof channel is used to verify that the Finished messages were not replaced by an attacker, server authentication is required in environments where active man-in-the-middle attacks are a concern.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113615Z" creationid="pingfangx" creationdate="20190918T113615Z">
+        <seg>除非一个独立的防篡改通道用来验证 Finished 消息没有被攻击者替换，否则在关心中间人主动攻击的环境中需要服务器身份验证。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31897,6 +34033,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Users should be able to view information about the certificate and root CA.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072337Z" creationid="pingfangx" creationdate="20190919T072337Z">
+        <seg>用户应该能够查看有关证书和根 CA 的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using this mode therefore is of limited use: These cipher suites MUST NOT be used by TLS 1.2 implementations unless the application layer has specifically requested to allow anonymous key exchange.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063237Z" creationid="pingfangx" creationdate="20190919T063237Z">
+        <seg>因此，使用此模式的用途有限：除非应用层明确请求允许匿名密钥交换，否则 TLS 1.2 实现不得使用这些加密套件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Valid extensions for server certificates at present include the OCSP Status extension [RFC6066] and the SignedCertificateTimestamp extension [RFC6962]; future extensions may be defined for this message as well.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T095640Z" creationid="pingfangx" creationdate="20190903T095640Z">
@@ -31977,6 +34129,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Version Rollback Attacks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115625Z" creationid="pingfangx" creationdate="20190918T115625Z">
+        <seg>版本回滚攻击</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Wait either for an error response from the server, or for T seconds (whichever comes first)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190830T030447Z" creationid="pingfangx" creationdate="20190830T030447Z">
@@ -31989,6 +34149,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T075415Z" creationid="pingfangx" creationdate="20190916T075415Z">
         <seg>警告：由于 SessionID 是在没有加密或立即 MAC 保护的情况下传输的，因此服务器不得将机密信息放在会话标识符中，或者让伪会话标识符的内容导致任何安全漏洞。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Warning: Completely anonymous connections only provide protection against passive eavesdropping.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113431Z" creationid="pingfangx" creationdate="20190918T113431Z">
+        <seg>警告：完全匿名连接只提供针对被动窃听保护。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32113,6 +34281,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When Diffie-Hellman key exchange is used, the server can either supply a certificate containing fixed Diffie-Hellman parameters or use the server key exchange message to send a set of temporary Diffie-Hellman parameters signed with a DSA or RSA certificate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114428Z" creationid="pingfangx" creationdate="20190918T114428Z">
+        <seg>使用 Diffie-Hellman 密钥交换时，服务器可以提供包含固定 Diffie-Hellman 参数的证书，也可以使用服务器密钥交换消息发送使用 DSA 或 RSA 证书签名的一组临时 Diffie-Hellman 参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When HTTP/TLS is being run over a TCP/IP connection, the default port is 443.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190901T103259Z" creationid="pingfangx" creationdate="20190901T103259Z">
@@ -32125,6 +34301,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T151809Z" creationid="pingfangx" creationdate="20190902T151809Z">
         <seg>当 PSK 在带外配置时，PSK 身份和要与 PSK 一起使用的 KDF 哈希算法也必须提供。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When RSA is used for key exchange, clients are authenticated using the certificate verify message (see Section 7.4.8).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T114044Z" creationid="pingfangx" creationdate="20190918T114044Z">
+        <seg>当 RSA 用于密钥交换时，客户端将使用证书验证消息进行身份验证(请参阅第 7.4.8 节)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32193,6 +34377,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a block cipher is used in CBC mode, the initialization vector is exclusive-ORed with the first plaintext block prior to encryption.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070043Z" creationid="pingfangx" creationdate="20190919T070043Z">
+        <seg>当在 CBC 模式下使用块加密时，在加密之前，初始化向量与第一个明文块异或。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When a cache is semantically transparent, the client receives exactly the same response (except for hop-by-hop headers) that it would have received had its request been handled directly by the origin server.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T082216Z" creationid="pingfangx" creationdate="20190828T082216Z">
@@ -32245,6 +34437,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190831T125058Z" creationid="pingfangx" creationdate="20190831T125058Z">
         <seg>当客户端希望为整个服务器请求 OPTIONS 时，与该服务器的特定命名资源相反，客户端必须仅发送“*”(%x2A) 作为请求目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a connection is established by resuming a session, new ClientHello.random and ServerHello.random values are hashed with the session's master_secret.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120556Z" creationid="pingfangx" creationdate="20190918T120556Z">
+        <seg>当通过恢复会话建立连接时，新的 ClientHello.random 和 ServerHello.random 值与会话的 master_secret 进行散列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32429,6 +34629,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T042444Z" creationid="pingfangx" creationdate="20190916T042444Z">
         <seg>当检测到错误时，检测方向另一方发送消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When an error is encountered, do you continue the handshake to avoid the Bleichenbacher attack (see Section 7.4.7.1)?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072904Z" creationid="pingfangx" creationdate="20190919T072904Z">
+        <seg>遇到错误时，是否继续握手以避免 Bleichenbacher 攻击(请参阅第 7.4.7.1 节)？</seg>
       </tuv>
     </tu>
     <tu>
@@ -32817,6 +35025,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whenever the server is authenticated, the channel is secure against man-in-the-middle attacks, but completely anonymous sessions are inherently vulnerable to such attacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T112812Z" creationid="pingfangx" creationdate="20190918T112812Z">
+        <seg>只要服务器进行身份验证，通道就能抵御中间人攻击，但完全匿名的会话本身容易受到这种攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Where HkdfLabel is specified as:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T141105Z" creationid="pingfangx" creationdate="20190903T141105Z">
@@ -32865,6 +35081,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While non-anonymous key exchange will generally involve a higher computational and communicational cost than anonymous key exchange, it may be in the interest of interoperability not to disable non-anonymous key exchange when the application layer is allowing anonymous key exchange.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T063551Z" creationid="pingfangx" creationdate="20190919T063457Z">
+        <seg>虽然非匿名密钥交换通常比匿名密钥交换涉及更高的计算和通信成本，但当应用层允许匿名密钥交换时，不禁用非匿名密钥交换可能有利于互操作性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While renegotiation is an optional feature, supporting it is highly recommended.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072733Z" creationid="pingfangx" creationdate="20190919T072733Z">
+        <seg>虽然重新谈判是一项可选功能，强烈建议支持它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>White space is not allowed within the tag and all tags are case- insensitive.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T154904Z" creationid="pingfangx" creationdate="20190828T154904Z">
@@ -32889,6 +35121,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With RSA, key exchange and server authentication are combined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T113653Z" creationid="pingfangx" creationdate="20190918T113653Z">
+        <seg>使用 RSA，密钥交换和服务器身份验证结合在一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With this message, the premaster secret is set, either by direct transmission of the RSA-encrypted secret or by the transmission of Diffie-Hellman parameters that will allow each side to agree upon the same premaster secret.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T145111Z" creationid="pingfangx" creationdate="20190916T145111Z">
@@ -32909,6 +35149,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190828T025219Z" creationid="pingfangx" creationdate="20190828T025219Z">
         <seg>如果没有这样的假设，可以想象两个不同的 TCP 报文段被分配相同或重叠的序列号，从而导致接收器对哪些数据是新的以及哪些是旧的混淆。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Without the master_secret, the attacker cannot repair the Finished messages, so the attack will be discovered.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T120426Z" creationid="pingfangx" creationdate="20190918T120426Z">
+        <seg>如果没有 master_secret，攻击者无法修复 Finished 消息，因此这样的攻击将被发现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32953,6 +35201,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Zero for stream ciphers; equal to the block size for block ciphers (this is equal to SecurityParameters.record_iv_length).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071528Z" creationid="pingfangx" creationdate="20190919T071528Z">
+        <seg>流加密为零；等于块加密的块大小(等于 SecurityParameters.record_iv_length)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Zero-length fragments of Application Data MAY be sent, as they are potentially useful as a traffic analysis countermeasure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T135705Z" creationid="pingfangx" creationdate="20190903T135705Z">
@@ -32977,10 +35233,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[CBCATT] describes a chosen plaintext attack on TLS that depends on knowing the IV for a record.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T121655Z" creationid="pingfangx" creationdate="20190918T121655Z">
+        <seg>[CBCATT] 描述了对 TLS 的选择明文攻击，该攻击依赖于已知记录的 IV。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[CBCTIME] have demonstrated a timing attack on CBC padding based on the time required to compute the MAC.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T031145Z" creationid="pingfangx" creationdate="20190916T031145Z">
         <seg>[CBCTIME] 已经根据计算 MAC 所需的时间证明了对 CBC 填充的定时攻击。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[KEYSIZ] provides a useful guide to the strength of various group sizes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190918T115446Z" creationid="pingfangx" creationdate="20190918T115446Z">
+        <seg>[KEYSIZ] 对各种组大小的强度提供了一种有用的指导。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32997,6 +35269,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T153444Z" creationid="pingfangx" creationdate="20190916T153444Z">
         <seg>[KPR03] 描述了一些理论攻击，因此建议使用所描述的第一个构造。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[RANDOM] provides guidance on the generation of random values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T072235Z" creationid="pingfangx" creationdate="20190919T072235Z">
+        <seg>[RANDOM] 提供生成随机值的指导。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33065,10 +35345,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>application protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064449Z" creationid="pingfangx" creationdate="20190919T064449Z">
+        <seg>应用协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>applications are in a better position to decide when retransmission is appropriate.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T084945Z" creationid="pingfangx" creationdate="20190903T084945Z">
         <seg>应用程序可以更好地决定何时重传。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>asymmetric cipher</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064601Z" creationid="pingfangx" creationdate="20190919T064601Z">
+        <seg>非对称加密</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>authenticated encryption with additional data (AEAD)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064618Z" creationid="pingfangx" creationdate="20190919T064618Z">
+        <seg>带附加数据的身份验证加密(AEAD)</seg>
       </tuv>
     </tu>
     <tu>
@@ -33129,6 +35433,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>cipher block chaining (CBC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T064845Z" creationid="pingfangx" creationdate="20190919T064845Z">
+        <seg>加密块链(CBC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>cipher_suite:  The single cipher suite selected by the server from the list in ClientHello.cipher_suites.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T042847Z" creationid="pingfangx" creationdate="20190903T042847Z">
@@ -33141,6 +35453,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T040423Z" creationid="pingfangx" creationdate="20190903T040423Z">
         <seg>cipher_suites：客户端支持的对称密码选项列表，特别是记录保护算法(包括密钥长度)和与 HKDF 一起使用的散列，按客户端首选项的降序排列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>client write MAC key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065447Z" creationid="pingfangx" creationdate="20190919T065447Z">
+        <seg>客户端写入 mac 密钥</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>client write key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065427Z" creationid="pingfangx" creationdate="20190919T065427Z">
+        <seg>客户端写入密钥</seg>
       </tuv>
     </tu>
     <tu>
@@ -33173,6 +35501,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T024046Z" creationid="pingfangx" creationdate="20190904T024046Z">
         <seg>content：TLSPlaintext.fragment 值，包含握手或警报消息的字节编码，或要发送的应用程序数据的原始字节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>digital signatures</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T065917Z" creationid="pingfangx" creationdate="20190919T065917Z">
+        <seg>数字签名</seg>
       </tuv>
     </tu>
     <tu>
@@ -33449,6 +35785,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>master secret</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070242Z" creationid="pingfangx" creationdate="20190919T070242Z">
+        <seg>主密钥</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>no fields are altered.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190916T024518Z" creationid="pingfangx" creationdate="20190916T024518Z">
@@ -33521,6 +35865,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>one-way hash function</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070437Z" creationid="pingfangx" creationdate="20190919T070437Z">
+        <seg>单向散列函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>opaque_type:  The outer opaque_type field of a TLSCiphertext record is always set to the value 23 (application_data) for outward compatibility with middleboxes accustomed to parsing previous versions of TLS.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190904T024219Z" creationid="pingfangx" creationdate="20190904T024219Z">
@@ -33565,6 +35917,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T083837Z" creationid="pingfangx" creationdate="20190903T083837Z">
         <seg>psk_ke：仅限 PSK 密钥建立。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>public key cryptography</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070400Z" creationid="pingfangx" creationdate="20190919T070400Z">
+        <seg>公钥加密</seg>
       </tuv>
     </tu>
     <tu>
@@ -33617,6 +35977,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>server write MAC key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070817Z" creationid="pingfangx" creationdate="20190919T070817Z">
+        <seg>服务器写入 MAC 密钥</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>server write key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070804Z" creationid="pingfangx" creationdate="20190919T070804Z">
+        <seg>服务器写入密钥</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>server:  The endpoint that did not initiate the TLS connection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190902T134750Z" creationid="pingfangx" creationdate="20190902T134750Z">
@@ -33629,6 +36005,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190903T082916Z" creationid="pingfangx" creationdate="20190903T082916Z">
         <seg>server_share：与客户端的一个共享位于同一组中的单个 KeyShareEntry 值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>session identifier</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T070730Z" creationid="pingfangx" creationdate="20190919T070730Z">
+        <seg>会话标识符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>stream cipher</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071138Z" creationid="pingfangx" creationdate="20190919T071138Z">
+        <seg>流加密</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>symmetric cipher</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190919T071227Z" creationid="pingfangx" creationdate="20190919T071227Z">
+        <seg>对称加密</seg>
       </tuv>
     </tu>
     <tu>

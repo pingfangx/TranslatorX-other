@@ -15,3 +15,4 @@ extension	扩展	扩展名|
 implement	实现	实施|
 secret	机密,密钥	秘密|
 cipher	加密	密码|
+client	客户端	客户机|
