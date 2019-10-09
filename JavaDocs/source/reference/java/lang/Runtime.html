@@ -1,0 +1,4116 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
+<link rel="alternate" href="http://developer.android.com/" hreflang="en" />
+<link rel="alternate" href="http://developer.android.com/intl/es/" hreflang="es" />
+<link rel="alternate" href="http://developer.android.com/intl/id/" hreflang="id" />
+<link rel="alternate" href="http://developer.android.com/intl/ja/" hreflang="ja" />
+<link rel="alternate" href="http://developer.android.com/intl/ko/" hreflang="ko" />
+<link rel="alternate" href="http://developer.android.com/intl/pt-br/" hreflang="pt-br" />
+<link rel="alternate" href="http://developer.android.com/intl/ru/" hreflang="ru" />
+<link rel="alternate" href="http://developer.android.com/intl/vi/" hreflang="vi" />
+<link rel="alternate" href="http://developer.android.com/intl/zh-cn/" hreflang="zh-cn" />
+<link rel="alternate" href="http://developer.android.com/intl/zh-tw/" hreflang="zh-tw" />
+
+
+<title>Runtime - Android SDK | Android Developers
+</title>
+
+
+<!-- STYLESHEETS -->
+<link rel="stylesheet"
+href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:light,regular,medium,thin,italic,mediumitalic,bold"
+  title="roboto">
+
+<link href="../../../assets/css/default.css?v=16" rel="stylesheet" type="text/css">
+
+<!-- JAVASCRIPT -->
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script src="../../../assets/js/android_3p-bundle.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var toRoot = "../../../";
+  var metaTags = [];
+  var devsite = false;
+  var useUpdatedTemplates = false;
+</script>
+<script src="../../../assets/js/docs.js?v=17" type="text/javascript"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5831155-1', 'android.com');
+  ga('create', 'UA-49880327-2', 'android.com', {'name': 'universal'});  // New tracker);
+  ga('send', 'pageview');
+  ga('universal.send', 'pageview'); // Send page view for new tracker.
+</script>
+
+</head>
+
+<body class="gc-documentation develop reference api apilevel-1">
+<div id="doc-api-level" class="1" style="display:none"></div>
+
+
+  
+  <a name="top"></a>
+  <!-- Header -->
+  <div id="header-wrapper">
+    <div class="dac-header " id="header">
+      <div class="dac-header-inner">
+        <a class="dac-nav-toggle" data-dac-toggle-nav href="javascript:;" title="Open navigation">
+          <span class="dac-nav-hamburger">
+            <span class="dac-nav-hamburger-top"></span>
+            <span class="dac-nav-hamburger-mid"></span>
+            <span class="dac-nav-hamburger-bot"></span>
+          </span>
+        </a>
+        <a class="dac-header-logo" href="../../../index.html">
+          <img class="dac-header-logo-image" src="../../../assets/images/android_logo.png"
+              srcset="../../../assets/images/android_logo@2x.png 2x"
+              width="32" height="36" alt="Android" /> Developers
+          </a>
+
+        <ul class="dac-header-tabs">
+          <li>
+          <a class="dac-header-tab" href="../../../design/index.html"
+             zh-tw-lang="設計"
+             zh-cn-lang="设计"
+             ru-lang="Проектирование"
+             ko-lang="디자인"
+             ja-lang="設計"
+             es-lang="Diseñar">Design</a>
+          </li>
+          <li>
+          <a class="dac-header-tab" href="../../../develop/index.html"
+             zh-tw-lang="開發"
+             zh-cn-lang="开发"
+             ru-lang="Разработка"
+             ko-lang="개발"
+             ja-lang="開発"
+             es-lang="Desarrollar">Develop</a>
+          </li>
+          <li>
+          <a class="dac-header-tab" href="../../../distribute/index.html"
+             zh-tw-lang="發佈"
+             zh-cn-lang="分发"
+             ru-lang="Распространение"
+             ko-lang="배포"
+             ja-lang="配布"
+             es-lang="Distribuir">Distribute</a>
+          </li>
+        </ul>
+
+        <a class="dac-header-console-btn" href="https://play.google.com/apps/publish/">
+          <span class="dac-sprite dac-google-play"></span>
+          <span class="dac-visible-desktop-inline">Developer</span>
+          Console
+        </a>
+
+        
+        
+        
+  <form data-search class="dac-header-search">
+    <button class="dac-header-search-close" data-search-close>
+      <i class="dac-sprite dac-back-arrow"></i>
+    </button>
+
+    <div class="dac-header-search-inner">
+      <i class="dac-sprite dac-search-white dac-header-search-icon"></i>
+      <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q" class="dac-header-search-input" placeholder="Search" />
+      <button class="dac-header-search-clear dac-hidden" data-search-clear>
+        <i class="dac-sprite dac-close-black"></i>
+      </button>
+    </div>
+  </form>
+
+        
+      </div><!-- end header-wrap.wrap -->
+    </div><!-- end header -->
+  </div> <!--end header-wrapper -->
+
+  
+  <!-- Navigation-->
+  <nav class="dac-nav">
+    <div class="dac-nav-dimmer" data-dac-toggle-nav></div>
+
+    <div class="dac-nav-sidebar" data-swap data-dynamic="false" data-transition-speed="300" data-dac-nav>
+      <div data-swap-container>
+        
+  
+    <a class="dac-nav-back-button dac-swap-section dac-up dac-no-anim" data-swap-button href="javascript:;">
+      <i class="dac-sprite dac-nav-back"></i> <span class="dac-nav-back-title">Back</span>
+    </a>
+    <div class="dac-nav-sub dac-swap-section dac-right dac-active" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      
+        
+  <!-- Fullscreen toggler -->
+  <button data-fullscreen class="dac-nav-fullscreen">
+    <i class="dac-sprite dac-fullscreen"></i>
+  </button>
+
+  <script>$('[data-fullscreen]').dacFullscreen();</script>
+  <!-- End: Fullscreen toggler -->
+
+  
+    <div id="devdoc-nav">
+      <div id="api-nav-header">
+        <div id="api-level-toggle">
+          <label for="apiLevelCheckbox" class="disabled"
+                 title="Select your target API level to dim unavailable APIs">API level: </label>
+          <div class="select-wrapper">
+            <select id="apiLevelSelector">
+              <!-- option elements added by buildApiLevelSelector() -->
+            </select>
+          </div>
+        </div><!-- end toggle -->
+        <div id="api-nav-title">Android APIs</div>
+      </div><!-- end nav header -->
+      <script>
+        var SINCE_DATA = [ '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24' ];
+        buildApiLevelSelector();
+      </script>
+
+      <div class="dac-reference-nav" data-reference-tree>
+        <ul class="dac-reference-nav-list" data-reference-namespaces>
+          
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/package-summary.html">android</a></li>
+    <li class="api apilevel-4">
+  <a href="../../../reference/android/accessibilityservice/package-summary.html">android.accessibilityservice</a></li>
+    <li class="api apilevel-5">
+  <a href="../../../reference/android/accounts/package-summary.html">android.accounts</a></li>
+    <li class="api apilevel-11">
+  <a href="../../../reference/android/animation/package-summary.html">android.animation</a></li>
+    <li class="api apilevel-16">
+  <a href="../../../reference/android/annotation/package-summary.html">android.annotation</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/app/package-summary.html">android.app</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/android/app/admin/package-summary.html">android.app.admin</a></li>
+    <li class="api apilevel-23">
+  <a href="../../../reference/android/app/assist/package-summary.html">android.app.assist</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/android/app/backup/package-summary.html">android.app.backup</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/app/job/package-summary.html">android.app.job</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/app/usage/package-summary.html">android.app.usage</a></li>
+    <li class="api apilevel-3">
+  <a href="../../../reference/android/appwidget/package-summary.html">android.appwidget</a></li>
+    <li class="api apilevel-5">
+  <a href="../../../reference/android/bluetooth/package-summary.html">android.bluetooth</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/bluetooth/le/package-summary.html">android.bluetooth.le</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/content/package-summary.html">android.content</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/content/pm/package-summary.html">android.content.pm</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/content/res/package-summary.html">android.content.res</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/database/package-summary.html">android.database</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/database/sqlite/package-summary.html">android.database.sqlite</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/databinding/package-summary.html">android.databinding</a></li>
+    <li class="api apilevel-11">
+  <a href="../../../reference/android/drm/package-summary.html">android.drm</a></li>
+    <li class="api apilevel-4">
+  <a href="../../../reference/android/gesture/package-summary.html">android.gesture</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/graphics/package-summary.html">android.graphics</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/graphics/drawable/package-summary.html">android.graphics.drawable</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/graphics/drawable/shapes/package-summary.html">android.graphics.drawable.shapes</a></li>
+    <li class="api apilevel-19">
+  <a href="../../../reference/android/graphics/pdf/package-summary.html">android.graphics.pdf</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/hardware/package-summary.html">android.hardware</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/hardware/camera2/package-summary.html">android.hardware.camera2</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/hardware/camera2/params/package-summary.html">android.hardware.camera2.params</a></li>
+    <li class="api apilevel-17">
+  <a href="../../../reference/android/hardware/display/package-summary.html">android.hardware.display</a></li>
+    <li class="api apilevel-23">
+  <a href="../../../reference/android/hardware/fingerprint/package-summary.html">android.hardware.fingerprint</a></li>
+    <li class="api apilevel-16">
+  <a href="../../../reference/android/hardware/input/package-summary.html">android.hardware.input</a></li>
+    <li class="api apilevel-12">
+  <a href="../../../reference/android/hardware/usb/package-summary.html">android.hardware.usb</a></li>
+    <li class="api apilevel-24">
+  <a href="../../../reference/android/icu/lang/package-summary.html">android.icu.lang</a></li>
+    <li class="api apilevel-24">
+  <a href="../../../reference/android/icu/math/package-summary.html">android.icu.math</a></li>
+    <li class="api apilevel-24">
+  <a href="../../../reference/android/icu/text/package-summary.html">android.icu.text</a></li>
+    <li class="api apilevel-24">
+  <a href="../../../reference/android/icu/util/package-summary.html">android.icu.util</a></li>
+    <li class="api apilevel-3">
+  <a href="../../../reference/android/inputmethodservice/package-summary.html">android.inputmethodservice</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/location/package-summary.html">android.location</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/media/package-summary.html">android.media</a></li>
+    <li class="api apilevel-9">
+  <a href="../../../reference/android/media/audiofx/package-summary.html">android.media.audiofx</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/media/browse/package-summary.html">android.media.browse</a></li>
+    <li class="api apilevel-14">
+  <a href="../../../reference/android/media/effect/package-summary.html">android.media.effect</a></li>
+    <li class="api apilevel-23">
+  <a href="../../../reference/android/media/midi/package-summary.html">android.media.midi</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/media/projection/package-summary.html">android.media.projection</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/media/session/package-summary.html">android.media.session</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/media/tv/package-summary.html">android.media.tv</a></li>
+    <li class="api apilevel-12">
+  <a href="../../../reference/android/mtp/package-summary.html">android.mtp</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/net/package-summary.html">android.net</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/net/http/package-summary.html">android.net.http</a></li>
+    <li class="api apilevel-16">
+  <a href="../../../reference/android/net/nsd/package-summary.html">android.net.nsd</a></li>
+    <li class="api apilevel-12">
+  <a href="../../../reference/android/net/rtp/package-summary.html">android.net.rtp</a></li>
+    <li class="api apilevel-9">
+  <a href="../../../reference/android/net/sip/package-summary.html">android.net.sip</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/net/wifi/package-summary.html">android.net.wifi</a></li>
+    <li class="api apilevel-14">
+  <a href="../../../reference/android/net/wifi/p2p/package-summary.html">android.net.wifi.p2p</a></li>
+    <li class="api apilevel-16">
+  <a href="../../../reference/android/net/wifi/p2p/nsd/package-summary.html">android.net.wifi.p2p.nsd</a></li>
+    <li class="api apilevel-9">
+  <a href="../../../reference/android/nfc/package-summary.html">android.nfc</a></li>
+    <li class="api apilevel-19">
+  <a href="../../../reference/android/nfc/cardemulation/package-summary.html">android.nfc.cardemulation</a></li>
+    <li class="api apilevel-10">
+  <a href="../../../reference/android/nfc/tech/package-summary.html">android.nfc.tech</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/opengl/package-summary.html">android.opengl</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/os/package-summary.html">android.os</a></li>
+    <li class="api apilevel-24">
+  <a href="../../../reference/android/os/health/package-summary.html">android.os.health</a></li>
+    <li class="api apilevel-9">
+  <a href="../../../reference/android/os/storage/package-summary.html">android.os.storage</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/preference/package-summary.html">android.preference</a></li>
+    <li class="api apilevel-19">
+  <a href="../../../reference/android/print/package-summary.html">android.print</a></li>
+    <li class="api apilevel-19">
+  <a href="../../../reference/android/print/pdf/package-summary.html">android.print.pdf</a></li>
+    <li class="api apilevel-19">
+  <a href="../../../reference/android/printservice/package-summary.html">android.printservice</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/provider/package-summary.html">android.provider</a></li>
+    <li class="api apilevel-11">
+  <a href="../../../reference/android/renderscript/package-summary.html">android.renderscript</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/sax/package-summary.html">android.sax</a></li>
+    <li class="api apilevel-14">
+  <a href="../../../reference/android/security/package-summary.html">android.security</a></li>
+    <li class="api apilevel-23">
+  <a href="../../../reference/android/security/keystore/package-summary.html">android.security.keystore</a></li>
+    <li class="api apilevel-22">
+  <a href="../../../reference/android/service/carrier/package-summary.html">android.service.carrier</a></li>
+    <li class="api apilevel-23">
+  <a href="../../../reference/android/service/chooser/package-summary.html">android.service.chooser</a></li>
+    <li class="api apilevel-17">
+  <a href="../../../reference/android/service/dreams/package-summary.html">android.service.dreams</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/service/media/package-summary.html">android.service.media</a></li>
+    <li class="api apilevel-18">
+  <a href="../../../reference/android/service/notification/package-summary.html">android.service.notification</a></li>
+    <li class="api apilevel-24">
+  <a href="../../../reference/android/service/quicksettings/package-summary.html">android.service.quicksettings</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/service/restrictions/package-summary.html">android.service.restrictions</a></li>
+    <li class="api apilevel-14">
+  <a href="../../../reference/android/service/textservice/package-summary.html">android.service.textservice</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/service/voice/package-summary.html">android.service.voice</a></li>
+    <li class="api apilevel-24">
+  <a href="../../../reference/android/service/vr/package-summary.html">android.service.vr</a></li>
+    <li class="api apilevel-7">
+  <a href="../../../reference/android/service/wallpaper/package-summary.html">android.service.wallpaper</a></li>
+    <li class="api apilevel-3">
+  <a href="../../../reference/android/speech/package-summary.html">android.speech</a></li>
+    <li class="api apilevel-4">
+  <a href="../../../reference/android/speech/tts/package-summary.html">android.speech.tts</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/annotation/package-summary.html">android.support.annotation</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/annotations/package-summary.html">android.support.annotations</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/app/recommendation/package-summary.html">android.support.app.recommendation</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/customtabs/package-summary.html">android.support.customtabs</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/design/package-summary.html">android.support.design</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/design/widget/package-summary.html">android.support.design.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/graphics/drawable/package-summary.html">android.support.graphics.drawable</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/multidex/package-summary.html">android.support.multidex</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/percent/package-summary.html">android.support.percent</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/provider/package-summary.html">android.support.provider</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v13/app/package-summary.html">android.support.v13.app</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v13/view/package-summary.html">android.support.v13.view</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v14/preference/package-summary.html">android.support.v14.preference</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v17/leanback/package-summary.html">android.support.v17.leanback</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v17/leanback/app/package-summary.html">android.support.v17.leanback.app</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v17/leanback/database/package-summary.html">android.support.v17.leanback.database</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v17/leanback/graphics/package-summary.html">android.support.v17.leanback.graphics</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v17/leanback/system/package-summary.html">android.support.v17.leanback.system</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v17/leanback/widget/package-summary.html">android.support.v17.leanback.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v17/leanback/widget/picker/package-summary.html">android.support.v17.leanback.widget.picker</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v17/preference/package-summary.html">android.support.v17.preference</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/package-summary.html">android.support.v4</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/accessibilityservice/package-summary.html">android.support.v4.accessibilityservice</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/app/package-summary.html">android.support.v4.app</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/content/package-summary.html">android.support.v4.content</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/content/pm/package-summary.html">android.support.v4.content.pm</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/content/res/package-summary.html">android.support.v4.content.res</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/database/package-summary.html">android.support.v4.database</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/graphics/package-summary.html">android.support.v4.graphics</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/graphics/drawable/package-summary.html">android.support.v4.graphics.drawable</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/hardware/display/package-summary.html">android.support.v4.hardware.display</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/hardware/fingerprint/package-summary.html">android.support.v4.hardware.fingerprint</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/media/package-summary.html">android.support.v4.media</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/media/session/package-summary.html">android.support.v4.media.session</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/net/package-summary.html">android.support.v4.net</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/os/package-summary.html">android.support.v4.os</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/print/package-summary.html">android.support.v4.print</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/provider/package-summary.html">android.support.v4.provider</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/text/package-summary.html">android.support.v4.text</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/util/package-summary.html">android.support.v4.util</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/view/package-summary.html">android.support.v4.view</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/view/accessibility/package-summary.html">android.support.v4.view.accessibility</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/view/animation/package-summary.html">android.support.v4.view.animation</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v4/widget/package-summary.html">android.support.v4.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/app/package-summary.html">android.support.v7.app</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/appcompat/package-summary.html">android.support.v7.appcompat</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/cardview/package-summary.html">android.support.v7.cardview</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/content/res/package-summary.html">android.support.v7.content.res</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/graphics/package-summary.html">android.support.v7.graphics</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/graphics/drawable/package-summary.html">android.support.v7.graphics.drawable</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/gridlayout/package-summary.html">android.support.v7.gridlayout</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/media/package-summary.html">android.support.v7.media</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/mediarouter/package-summary.html">android.support.v7.mediarouter</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/palette/package-summary.html">android.support.v7.palette</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/preference/package-summary.html">android.support.v7.preference</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/recyclerview/package-summary.html">android.support.v7.recyclerview</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/util/package-summary.html">android.support.v7.util</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/view/package-summary.html">android.support.v7.view</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/widget/package-summary.html">android.support.v7.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/widget/helper/package-summary.html">android.support.v7.widget.helper</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v7/widget/util/package-summary.html">android.support.v7.widget.util</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/android/support/v8/renderscript/package-summary.html">android.support.v8.renderscript</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/system/package-summary.html">android.system</a></li>
+    <li class="api apilevel-21">
+  <a href="../../../reference/android/telecom/package-summary.html">android.telecom</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/telephony/package-summary.html">android.telephony</a></li>
+    <li class="api apilevel-5">
+  <a href="../../../reference/android/telephony/cdma/package-summary.html">android.telephony.cdma</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/telephony/gsm/package-summary.html">android.telephony.gsm</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/test/package-summary.html">android.test</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/test/mock/package-summary.html">android.test.mock</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/test/suitebuilder/package-summary.html">android.test.suitebuilder</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/test/suitebuilder/annotation/package-summary.html">android.test.suitebuilder.annotation</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/text/package-summary.html">android.text</a></li>
+    <li class="api apilevel-3">
+  <a href="../../../reference/android/text/format/package-summary.html">android.text.format</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/text/method/package-summary.html">android.text.method</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/text/style/package-summary.html">android.text.style</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/text/util/package-summary.html">android.text.util</a></li>
+    <li class="api apilevel-19">
+  <a href="../../../reference/android/transition/package-summary.html">android.transition</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/util/package-summary.html">android.util</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/view/package-summary.html">android.view</a></li>
+    <li class="api apilevel-4">
+  <a href="../../../reference/android/view/accessibility/package-summary.html">android.view.accessibility</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/view/animation/package-summary.html">android.view.animation</a></li>
+    <li class="api apilevel-3">
+  <a href="../../../reference/android/view/inputmethod/package-summary.html">android.view.inputmethod</a></li>
+    <li class="api apilevel-14">
+  <a href="../../../reference/android/view/textservice/package-summary.html">android.view.textservice</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/webkit/package-summary.html">android.webkit</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/android/widget/package-summary.html">android.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/com/android/internal/backup/package-summary.html">com.android.internal.backup</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/com/android/internal/logging/package-summary.html">com.android.internal.logging</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/com/android/internal/os/package-summary.html">com.android.internal.os</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/com/android/internal/statusbar/package-summary.html">com.android.internal.statusbar</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/com/android/internal/widget/package-summary.html">com.android.internal.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../reference/com/android/test/runner/package-summary.html">com.android.test.runner</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/dalvik/annotation/package-summary.html">dalvik.annotation</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/dalvik/bytecode/package-summary.html">dalvik.bytecode</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/dalvik/system/package-summary.html">dalvik.system</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/awt/font/package-summary.html">java.awt.font</a></li>
+    <li class="api apilevel-3">
+  <a href="../../../reference/java/beans/package-summary.html">java.beans</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/io/package-summary.html">java.io</a></li>
+    <li class="selected api apilevel-1">
+  <a href="../../../reference/java/lang/package-summary.html">java.lang</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/lang/annotation/package-summary.html">java.lang.annotation</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/lang/ref/package-summary.html">java.lang.ref</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/lang/reflect/package-summary.html">java.lang.reflect</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/math/package-summary.html">java.math</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/net/package-summary.html">java.net</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/nio/package-summary.html">java.nio</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/nio/channels/package-summary.html">java.nio.channels</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/nio/channels/spi/package-summary.html">java.nio.channels.spi</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/nio/charset/package-summary.html">java.nio.charset</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/nio/charset/spi/package-summary.html">java.nio.charset.spi</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/security/package-summary.html">java.security</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/security/acl/package-summary.html">java.security.acl</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/security/cert/package-summary.html">java.security.cert</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/security/interfaces/package-summary.html">java.security.interfaces</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/security/spec/package-summary.html">java.security.spec</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/sql/package-summary.html">java.sql</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/text/package-summary.html">java.text</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/util/package-summary.html">java.util</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/util/concurrent/package-summary.html">java.util.concurrent</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/util/concurrent/atomic/package-summary.html">java.util.concurrent.atomic</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/util/concurrent/locks/package-summary.html">java.util.concurrent.locks</a></li>
+    <li class="api apilevel-24">
+  <a href="../../../reference/java/util/function/package-summary.html">java.util.function</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/util/jar/package-summary.html">java.util.jar</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/util/logging/package-summary.html">java.util.logging</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/util/prefs/package-summary.html">java.util.prefs</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/util/regex/package-summary.html">java.util.regex</a></li>
+    <li class="api apilevel-24">
+  <a href="../../../reference/java/util/stream/package-summary.html">java.util.stream</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/java/util/zip/package-summary.html">java.util.zip</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/crypto/package-summary.html">javax.crypto</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/crypto/interfaces/package-summary.html">javax.crypto.interfaces</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/crypto/spec/package-summary.html">javax.crypto.spec</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/microedition/khronos/egl/package-summary.html">javax.microedition.khronos.egl</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/microedition/khronos/opengles/package-summary.html">javax.microedition.khronos.opengles</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/net/package-summary.html">javax.net</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/net/ssl/package-summary.html">javax.net.ssl</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/security/auth/package-summary.html">javax.security.auth</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/security/auth/callback/package-summary.html">javax.security.auth.callback</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/security/auth/login/package-summary.html">javax.security.auth.login</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/security/auth/x500/package-summary.html">javax.security.auth.x500</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/security/cert/package-summary.html">javax.security.cert</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/sql/package-summary.html">javax.sql</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/xml/package-summary.html">javax.xml</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/javax/xml/datatype/package-summary.html">javax.xml.datatype</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/javax/xml/namespace/package-summary.html">javax.xml.namespace</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/javax/xml/parsers/package-summary.html">javax.xml.parsers</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/javax/xml/transform/package-summary.html">javax.xml.transform</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/javax/xml/transform/dom/package-summary.html">javax.xml.transform.dom</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/javax/xml/transform/sax/package-summary.html">javax.xml.transform.sax</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/javax/xml/transform/stream/package-summary.html">javax.xml.transform.stream</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/javax/xml/validation/package-summary.html">javax.xml.validation</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/javax/xml/xpath/package-summary.html">javax.xml.xpath</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/junit/framework/package-summary.html">junit.framework</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/junit/runner/package-summary.html">junit.runner</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/apache/http/conn/package-summary.html">org.apache.http.conn</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/apache/http/conn/scheme/package-summary.html">org.apache.http.conn.scheme</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/apache/http/conn/ssl/package-summary.html">org.apache.http.conn.ssl</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/apache/http/params/package-summary.html">org.apache.http.params</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/json/package-summary.html">org.json</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/w3c/dom/package-summary.html">org.w3c.dom</a></li>
+    <li class="api apilevel-8">
+  <a href="../../../reference/org/w3c/dom/ls/package-summary.html">org.w3c.dom.ls</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/xml/sax/package-summary.html">org.xml.sax</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/xml/sax/ext/package-summary.html">org.xml.sax.ext</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/xml/sax/helpers/package-summary.html">org.xml.sax.helpers</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/xmlpull/v1/package-summary.html">org.xmlpull.v1</a></li>
+    <li class="api apilevel-1">
+  <a href="../../../reference/org/xmlpull/v1/sax2/package-summary.html">org.xmlpull.v1.sax2</a></li>
+        </ul>
+
+        
+        <ul data-reference-resources>
+          
+    <li><h2>Annotations</h2>
+      <ul>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Deprecated.html">Deprecated</a></li>
+          <li class="api apilevel-24"><a href="../../../reference/java/lang/FunctionalInterface.html">FunctionalInterface</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Override.html">Override</a></li>
+          <li class="api apilevel-19"><a href="../../../reference/java/lang/SafeVarargs.html">SafeVarargs</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/SuppressWarnings.html">SuppressWarnings</a></li>
+      </ul>
+    </li>
+          
+    <li><h2>Interfaces</h2>
+      <ul>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Appendable.html">Appendable</a></li>
+          <li class="api apilevel-19"><a href="../../../reference/java/lang/AutoCloseable.html">AutoCloseable</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/CharSequence.html">CharSequence</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Cloneable.html">Cloneable</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Comparable.html">Comparable</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Iterable.html">Iterable</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Readable.html">Readable</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Runnable.html">Runnable</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Thread.UncaughtExceptionHandler.html">Thread.UncaughtExceptionHandler</a></li>
+      </ul>
+    </li>
+          
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Boolean.html">Boolean</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Byte.html">Byte</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Character.html">Character</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Character.Subset.html">Character.Subset</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Character.UnicodeBlock.html">Character.UnicodeBlock</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Class.html">Class</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ClassLoader.html">ClassLoader</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Compiler.html">Compiler</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Double.html">Double</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Enum.html">Enum</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Float.html">Float</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/InheritableThreadLocal.html">InheritableThreadLocal</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Integer.html">Integer</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Long.html">Long</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Math.html">Math</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Number.html">Number</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Object.html">Object</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Package.html">Package</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Process.html">Process</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ProcessBuilder.html">ProcessBuilder</a></li>
+          <li class="selected api apilevel-1"><a href="../../../reference/java/lang/Runtime.html">Runtime</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/RuntimePermission.html">RuntimePermission</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/SecurityManager.html">SecurityManager</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Short.html">Short</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/StackTraceElement.html">StackTraceElement</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/StrictMath.html">StrictMath</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/String.html">String</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/StringBuffer.html">StringBuffer</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/StringBuilder.html">StringBuilder</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/System.html">System</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Thread.html">Thread</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ThreadGroup.html">ThreadGroup</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ThreadLocal.html">ThreadLocal</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Throwable.html">Throwable</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Void.html">Void</a></li>
+      </ul>
+    </li>
+          
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-24"><a href="../../../reference/java/lang/Character.UnicodeScript.html">Character.UnicodeScript</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Thread.State.html">Thread.State</a></li>
+      </ul>
+    </li>
+          
+    <li><h2>Exceptions</h2>
+      <ul>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ArithmeticException.html">ArithmeticException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ArrayIndexOutOfBoundsException.html">ArrayIndexOutOfBoundsException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ArrayStoreException.html">ArrayStoreException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ClassCastException.html">ClassCastException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ClassNotFoundException.html">ClassNotFoundException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/CloneNotSupportedException.html">CloneNotSupportedException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/EnumConstantNotPresentException.html">EnumConstantNotPresentException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Exception.html">Exception</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/IllegalAccessException.html">IllegalAccessException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/IllegalArgumentException.html">IllegalArgumentException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/IllegalMonitorStateException.html">IllegalMonitorStateException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/IllegalStateException.html">IllegalStateException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/IllegalThreadStateException.html">IllegalThreadStateException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/IndexOutOfBoundsException.html">IndexOutOfBoundsException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/InstantiationException.html">InstantiationException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/InterruptedException.html">InterruptedException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/NegativeArraySizeException.html">NegativeArraySizeException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/NoSuchFieldException.html">NoSuchFieldException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/NoSuchMethodException.html">NoSuchMethodException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/NullPointerException.html">NullPointerException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/NumberFormatException.html">NumberFormatException</a></li>
+          <li class="api apilevel-19"><a href="../../../reference/java/lang/ReflectiveOperationException.html">ReflectiveOperationException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/RuntimeException.html">RuntimeException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/StringIndexOutOfBoundsException.html">StringIndexOutOfBoundsException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/TypeNotPresentException.html">TypeNotPresentException</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></li>
+      </ul>
+    </li>
+          
+    <li><h2>Errors</h2>
+      <ul>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/AbstractMethodError.html">AbstractMethodError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/AssertionError.html">AssertionError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ClassCircularityError.html">ClassCircularityError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ClassFormatError.html">ClassFormatError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/Error.html">Error</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ExceptionInInitializerError.html">ExceptionInInitializerError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/IllegalAccessError.html">IllegalAccessError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/IncompatibleClassChangeError.html">IncompatibleClassChangeError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/InstantiationError.html">InstantiationError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/InternalError.html">InternalError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/LinkageError.html">LinkageError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/NoClassDefFoundError.html">NoClassDefFoundError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/NoSuchFieldError.html">NoSuchFieldError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/NoSuchMethodError.html">NoSuchMethodError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/OutOfMemoryError.html">OutOfMemoryError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/StackOverflowError.html">StackOverflowError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/ThreadDeath.html">ThreadDeath</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/UnknownError.html">UnknownError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/UnsatisfiedLinkError.html">UnsatisfiedLinkError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/UnsupportedClassVersionError.html">UnsupportedClassVersionError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/VerifyError.html">VerifyError</a></li>
+          <li class="api apilevel-1"><a href="../../../reference/java/lang/VirtualMachineError.html">VirtualMachineError</a></li>
+      </ul>
+    </li>
+        </ul>
+        
+      </div>
+    </div>
+  
+
+      
+    </div>
+  
+
+        <ul id="dac-main-navigation" class="dac-nav-list dac-swap-section dac-left dac-no-anim">
+        <li class="dac-nav-item home">
+          <a class="dac-nav-link" href="../../../index.html">Home</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary about">
+            <li class="dac-nav-item versions">
+              <a class="dac-nav-link" href="../../../about/versions/marshmallow/index.html">Android</a>
+            </li>
+            <li class="dac-nav-item wear">
+              <a class="dac-nav-link" href="../../../wear/index.html">Wear</a>
+            </li>
+            <li class="dac-nav-item tv">
+              <a class="dac-nav-link" href="../../../tv/index.html">TV</a>
+            </li>
+            <li class="dac-nav-item auto">
+              <a class="dac-nav-link" href="../../../auto/index.html">Auto</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item design">
+          <a class="dac-nav-link" href="../../../design/index.html"
+             zh-tw-lang="設計"
+             zh-cn-lang="设计"
+             ru-lang="Проектирование"
+             ko-lang="디자인"
+             ja-lang="設計"
+             es-lang="Diseñar">Design</a>
+        </li>
+        <li class="dac-nav-item develop">
+          <a class="dac-nav-link" href="../../../develop/index.html"
+             zh-tw-lang="開發"
+             zh-cn-lang="开发"
+             ru-lang="Разработка"
+             ko-lang="개발"
+             ja-lang="開発"
+             es-lang="Desarrollar">Develop</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary develop">
+            <li class="dac-nav-item training">
+              <a class="dac-nav-link" href="../../../training/index.html"
+                 zh-tw-lang="訓練課程"
+                 zh-cn-lang="培训"
+                 ru-lang="Курсы"
+                 ko-lang="교육"
+                 ja-lang="トレーニング"
+                 es-lang="Capacitación">Training</a>
+            </li>
+            <li class="dac-nav-item guide">
+              <a class="dac-nav-link" href="../../../guide/index.html"
+                 zh-tw-lang="API 指南"
+                 zh-cn-lang="API 指南"
+                 ru-lang="Руководства по API"
+                 ko-lang="API 가이드"
+                 ja-lang="API ガイド"
+                 es-lang="Guías de la API">API Guides</a>
+            </li>
+            <li class="dac-nav-item reference">
+              <a class="dac-nav-link" href="../../../reference/packages.html"
+                 zh-tw-lang="參考資源"
+                 zh-cn-lang="参考"
+                 ru-lang="Справочник"
+                 ko-lang="참조문서"
+                 ja-lang="リファレンス"
+                 es-lang="Referencia">Reference</a>
+            </li>
+            <li class="dac-nav-item tools">
+              <a class="dac-nav-link" href="../../../sdk/index.html"
+                 zh-tw-lang="相關工具"
+                 zh-cn-lang="工具"
+                 ru-lang="Инструменты"
+                 ko-lang="도구"
+                 ja-lang="ツール"
+                 es-lang="Herramientas">Tools</a></li>
+            <li class="dac-nav-item google">
+              <a class="dac-nav-link" href="../../../google/index.html">Google Services</a>
+            </li>
+            
+          </ul>
+        </li>
+        <li class="dac-nav-item distribute">
+          <a class="dac-nav-link" href="../../../distribute/googleplay/index.html"
+             zh-tw-lang="發佈"
+             zh-cn-lang="分发"
+             ru-lang="Распространение"
+             ko-lang="배포"
+             ja-lang="配布"
+             es-lang="Distribuir">Distribute</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary distribute">
+            <li class="dac-nav-item googleplay">
+              <a class="dac-nav-link" href="../../../distribute/googleplay/index.html">Google Play</a></li>
+            <li class="dac-nav-item essentials">
+              <a class="dac-nav-link" href="../../../distribute/essentials/index.html">Essentials</a></li>
+            <li class="dac-nav-item users">
+              <a class="dac-nav-link" href="../../../distribute/users/index.html">Get Users</a></li>
+            <li class="dac-nav-item engage">
+              <a class="dac-nav-link" href="../../../distribute/engage/index.html">Engage &amp; Retain</a></li>
+            <li class="dac-nav-item monetize">
+              <a class="dac-nav-link" href="../../../distribute/monetize/index.html">Earn</a>
+            </li>
+            <li class="dac-nav-item analyze">
+              <a class="dac-nav-link" href="../../../distribute/analyze/index.html">Analyze</a>
+            </li>
+            <li class="dac-nav-item stories">
+              <a class="dac-nav-link" href="../../../distribute/stories/index.html">Stories</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item preview">
+          <a class="dac-nav-link" href="../../../preview/index.html">Preview</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navigation-->
+  
+
+<!-- Nav Setup -->
+<script>$('[data-dac-nav]').dacNav();</script>
+
+
+
+  
+    
+  <div class="wrap clearfix" id="body-content">
+
+  
+
+  
+  <div id="search-results" class="dac-search-results">
+    <div id="dac-search-results-history" class="dac-search-results-history">
+      <div class="wrap dac-search-results-history-wrap">
+        <div class="cols">
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Most visited</h2>
+            <div class="resource-flow-layout" data-history-query="history:most/visited" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Recently visited</h2>
+            <div class="resource-flow-layout cols" data-history-query="history:recent" data-allow-duplicates="true" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="dac-search-results-content" class="dac-search-results-content">
+      <div class="dac-search-results-metadata wrap">
+        <div class="dac-search-results-for">
+          <h2>Results for <span id="search-results-for"></span></h2>
+        </div>
+
+        <div id="dac-search-results-hero"></div>
+
+        <div class="dac-search-results-hero cols">
+          <div id="dac-search-results-reference" class="col-3of6 col-tablet-1of2 col-mobile-1of1">
+            <div class="suggest-card reference no-display">
+              <ul class="dac-search-results-reference">
+              </ul>
+            </div>
+          </div>
+          <div id="dac-custom-search-results"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+<div id="naMessage"></div>
+
+<div id="api-info-block">
+<div class="api-level">
+  
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a>
+  
+  
+
+</div>
+
+
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+Summary:
+
+
+
+
+
+
+
+
+
+
+
+  <a href="#pubmethods">Methods</a>
+  
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+</div><!-- end api-info-block -->
+
+<div class="api apilevel-1" id="jd-content">
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<h1 class="api-title">Runtime</h1>
+<p>
+<code class="api-signature">
+  public
+  
+  
+  
+  class
+  Runtime
+</code>
+<br>
+
+
+<code class="api-signature">
+  
+    extends <a href="../../../reference/java/lang/Object.html">Object</a>
+  
+  
+  
+</code>
+
+<code class="api-signature">
+  
+  
+  
+</code>
+
+</p><table class="jd-inheritance-table">
+
+
+  <tr>
+    
+    <td colspan="2" class="jd-inheritance-class-cell"><a href="../../../reference/java/lang/Object.html">java.lang.Object</a>
+    </td>
+  </tr>
+  
+
+  <tr>
+    
+      <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+    
+    <td colspan="1" class="jd-inheritance-class-cell">java.lang.Runtime
+    </td>
+  </tr>
+  
+
+</table>
+  
+
+    
+
+<br><hr>
+
+
+  <p>Every Java application has a single instance of class
+ <code>Runtime</code> that allows the application to interface with
+ the environment in which the application is running. The current
+ runtime can be obtained from the <code>getRuntime</code> method.
+ <p>
+ An application cannot create its own instance of this class.</p>
+
+
+
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/Runtime.html#getRuntime()">getRuntime()</a></code></li>
+      </ul>
+  </div>
+
+
+
+
+<h2 class="api-section">Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="responsive methods">
+<tr><th colspan="2"><h3>Public methods</h3></th></tr>
+
+
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#addShutdownHook(java.lang.Thread)">addShutdownHook</a>(<a href="../../../reference/java/lang/Thread.html">Thread</a> hook)
+      </code>
+      
+        <p>Registers a new virtual-machine shutdown hook.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        int</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#availableProcessors()">availableProcessors</a>()
+      </code>
+      
+        <p>Returns the number of processors available to the Java virtual machine.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/lang/Process.html">Process</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String[])">exec</a>(<a href="../../../reference/java/lang/String.html">String[]</a> cmdarray)
+      </code>
+      
+        <p>Executes the specified command and arguments in a separate process.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/lang/Process.html">Process</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String[], java.lang.String[])">exec</a>(<a href="../../../reference/java/lang/String.html">String[]</a> cmdarray, <a href="../../../reference/java/lang/String.html">String[]</a> envp)
+      </code>
+      
+        <p>Executes the specified command and arguments in a separate process
+ with the specified environment.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/lang/Process.html">Process</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String)">exec</a>(<a href="../../../reference/java/lang/String.html">String</a> command)
+      </code>
+      
+        <p>Executes the specified string command in a separate process.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/lang/Process.html">Process</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String, java.lang.String[])">exec</a>(<a href="../../../reference/java/lang/String.html">String</a> command, <a href="../../../reference/java/lang/String.html">String[]</a> envp)
+      </code>
+      
+        <p>Executes the specified string command in a separate process with the
+ specified environment.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/lang/Process.html">Process</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String[], java.lang.String[], java.io.File)">exec</a>(<a href="../../../reference/java/lang/String.html">String[]</a> cmdarray, <a href="../../../reference/java/lang/String.html">String[]</a> envp, <a href="../../../reference/java/io/File.html">File</a> dir)
+      </code>
+      
+        <p>Executes the specified command and arguments in a separate process with
+ the specified environment and working directory.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/lang/Process.html">Process</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String, java.lang.String[], java.io.File)">exec</a>(<a href="../../../reference/java/lang/String.html">String</a> command, <a href="../../../reference/java/lang/String.html">String[]</a> envp, <a href="../../../reference/java/io/File.html">File</a> dir)
+      </code>
+      
+        <p>Executes the specified string command in a separate process with the
+ specified environment and working directory.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#exit(int)">exit</a>(int status)
+      </code>
+      
+        <p>Terminates the currently running Java virtual machine by initiating its
+ shutdown sequence.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        long</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#freeMemory()">freeMemory</a>()
+      </code>
+      
+        <p>Returns the amount of free memory in the Java Virtual Machine.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#gc()">gc</a>()
+      </code>
+      
+        <p>Runs the garbage collector.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/io/InputStream.html">InputStream</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#getLocalizedInputStream(java.io.InputStream)">getLocalizedInputStream</a>(<a href="../../../reference/java/io/InputStream.html">InputStream</a> in)
+      </code>
+      
+        <p><em>
+      This method was deprecated
+      in API level 1.
+    As of JDK&nbsp;1.1, the preferred way to translate a byte
+ stream in the local encoding into a character stream in Unicode is via
+ the <code>InputStreamReader</code> and <code>BufferedReader</code>
+ classes.
+</em>
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/io/OutputStream.html">OutputStream</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#getLocalizedOutputStream(java.io.OutputStream)">getLocalizedOutputStream</a>(<a href="../../../reference/java/io/OutputStream.html">OutputStream</a> out)
+      </code>
+      
+        <p><em>
+      This method was deprecated
+      in API level 1.
+    As of JDK&nbsp;1.1, the preferred way to translate a
+ Unicode character stream into a byte stream in the local encoding is via
+ the <code>OutputStreamWriter</code>, <code>BufferedWriter</code>, and
+ <code>PrintWriter</code> classes.</em>
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        static
+        
+        
+        <a href="../../../reference/java/lang/Runtime.html">Runtime</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#getRuntime()">getRuntime</a>()
+      </code>
+      
+        <p>Returns the runtime object associated with the current Java application.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#halt(int)">halt</a>(int status)
+      </code>
+      
+        <p>Forcibly terminates the currently running Java virtual machine.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#load(java.lang.String)">load</a>(<a href="../../../reference/java/lang/String.html">String</a> filename)
+      </code>
+      
+        <p>Loads the specified filename as a dynamic library.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#loadLibrary(java.lang.String)">loadLibrary</a>(<a href="../../../reference/java/lang/String.html">String</a> libname)
+      </code>
+      
+        <p>Loads the dynamic library with the specified library name.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        long</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#maxMemory()">maxMemory</a>()
+      </code>
+      
+        <p>Returns the maximum amount of memory that the Java virtual machine will
+ attempt to use.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        boolean</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#removeShutdownHook(java.lang.Thread)">removeShutdownHook</a>(<a href="../../../reference/java/lang/Thread.html">Thread</a> hook)
+      </code>
+      
+        <p>De-registers a previously-registered virtual-machine shutdown hook.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#runFinalization()">runFinalization</a>()
+      </code>
+      
+        <p>Runs the finalization methods of any objects pending finalization.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        static
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#runFinalizersOnExit(boolean)">runFinalizersOnExit</a>(boolean value)
+      </code>
+      
+        <p><em>
+      This method was deprecated
+      in API level 1.
+    This method is inherently unsafe.  It may result in
+      finalizers being called on live objects while other threads are
+      concurrently manipulating those objects, resulting in erratic
+      behavior or deadlock.</em>
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        long</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#totalMemory()">totalMemory</a>()
+      </code>
+      
+        <p>Returns the total amount of memory in the Java virtual machine.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#traceInstructions(boolean)">traceInstructions</a>(boolean enable)
+      </code>
+      
+        <p>Enables/Disables tracing of instructions.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Runtime.html#traceMethodCalls(boolean)">traceMethodCalls</a>(boolean enable)
+      </code>
+      
+        <p>Enables/Disables tracing of method calls.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="methods inhtable">
+<tr><th><h3>Inherited methods</h3></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="2">
+
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img height="34" id="inherited-methods-java.lang.Object-trigger"
+          src="../../../assets/images/styles/disclosure_down.png"
+          class="jd-expando-trigger-img" /></a>From
+class
+<code>
+  
+    <a href="../../../reference/java/lang/Object.html">java.lang.Object</a>
+  
+</code>
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando responsive">
+      
+
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/lang/Object.html">Object</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#clone()">clone</a>()
+      </code>
+      
+        <p>Creates and returns a copy of this object.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        boolean</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#equals(java.lang.Object)">equals</a>(<a href="../../../reference/java/lang/Object.html">Object</a> obj)
+      </code>
+      
+        <p>Indicates whether some other object is "equal to" this one.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#finalize()">finalize</a>()
+      </code>
+      
+        <p>Called by the garbage collector on an object when garbage collection
+ determines that there are no more references to the object.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        <a href="../../../reference/java/lang/Class.html">Class</a>&lt;?&gt;</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#getClass()">getClass</a>()
+      </code>
+      
+        <p>Returns the runtime class of this <code>Object</code>.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        int</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#hashCode()">hashCode</a>()
+      </code>
+      
+        <p>Returns a hash code value for the object.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#notify()">notify</a>()
+      </code>
+      
+        <p>Wakes up a single thread that is waiting on this object's
+ monitor.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#notifyAll()">notifyAll</a>()
+      </code>
+      
+        <p>Wakes up all threads that are waiting on this object's monitor.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../reference/java/lang/String.html">String</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#toString()">toString</a>()
+      </code>
+      
+        <p>Returns a string representation of the object.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#wait(long, int)">wait</a>(long millis, int nanos)
+      </code>
+      
+        <p>Causes the current thread to wait until another thread invokes the
+ <code><a href="../../../reference/java/lang/Object.html#notify()">notify()</a></code> method or the
+ <code><a href="../../../reference/java/lang/Object.html#notifyAll()">notifyAll()</a></code> method for this object, or
+ some other thread interrupts the current thread, or a certain
+ amount of real time has elapsed.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#wait(long)">wait</a>(long millis)
+      </code>
+      
+        <p>Causes the current thread to wait until either another thread invokes the
+ <code><a href="../../../reference/java/lang/Object.html#notify()">notify()</a></code> method or the
+ <code><a href="../../../reference/java/lang/Object.html#notifyAll()">notifyAll()</a></code> method for this object, or a
+ specified amount of time has elapsed.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  
+  <tr class="api apilevel-1" >
+  
+  
+    <td><code>
+        
+        
+        
+        final
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../reference/java/lang/Object.html#wait()">wait</a>()
+      </code>
+      
+        <p>Causes the current thread to wait until another thread invokes the
+ <code><a href="../../../reference/java/lang/Object.html#notify()">notify()</a></code> method or the
+ <code><a href="../../../reference/java/lang/Object.html#notifyAll()">notifyAll()</a></code> method for this object.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+
+    </table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2 class="api-section">Public methods</h2>
+
+
+
+<A NAME="addShutdownHook(java.lang.Thread)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">addShutdownHook</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void addShutdownHook (<a href="../../../reference/java/lang/Thread.html">Thread</a> hook)</pre>
+    
+    
+
+    
+  <p>Registers a new virtual-machine shutdown hook.
+
+ <p> The Java virtual machine <i>shuts down</i> in response to two kinds
+ of events:
+
+   <ul>
+
+   <p> <li> The program <i>exits</i> normally, when the last non-daemon
+   thread exits or when the <tt><code><a href="../../../reference/java/lang/Runtime.html#exit(int)">exit</a></code></tt> (equivalently,
+   <tt><code><a href="../../../reference/java/lang/System.html#exit(int)">System.exit</a></code></tt>) method is invoked, or
+
+   <p> <li> The virtual machine is <i>terminated</i> in response to a
+   user interrupt, such as typing <tt>^C</tt>, or a system-wide event,
+   such as user logoff or system shutdown.
+
+   </ul>
+
+ <p> A <i>shutdown hook</i> is simply an initialized but unstarted
+ thread.  When the virtual machine begins its shutdown sequence it will
+ start all registered shutdown hooks in some unspecified order and let
+ them run concurrently.  When all the hooks have finished it will then
+ run all uninvoked finalizers if finalization-on-exit has been enabled.
+ Finally, the virtual machine will halt.  Note that daemon threads will
+ continue to run during the shutdown sequence, as will non-daemon threads
+ if shutdown was initiated by invoking the <tt><code><a href="../../../reference/java/lang/Runtime.html#exit(int)">exit</a></code></tt>
+ method.
+
+ <p> Once the shutdown sequence has begun it can be stopped only by
+ invoking the <tt><code><a href="../../../reference/java/lang/Runtime.html#halt(int)">halt</a></code></tt> method, which forcibly
+ terminates the virtual machine.
+
+ <p> Once the shutdown sequence has begun it is impossible to register a
+ new shutdown hook or de-register a previously-registered hook.
+ Attempting either of these operations will cause an
+ <tt><code><a href="../../../reference/java/lang/IllegalStateException.html">IllegalStateException</a></code></tt> to be thrown.
+
+ <p> Shutdown hooks run at a delicate time in the life cycle of a virtual
+ machine and should therefore be coded defensively.  They should, in
+ particular, be written to be thread-safe and to avoid deadlocks insofar
+ as possible.  They should also not rely blindly upon services that may
+ have registered their own shutdown hooks and therefore may themselves in
+ the process of shutting down.  Attempts to use other thread-based
+ services such as the AWT event-dispatch thread, for example, may lead to
+ deadlocks.
+
+ <p> Shutdown hooks should also finish their work quickly.  When a
+ program invokes <tt><code><a href="../../../reference/java/lang/Runtime.html#exit(int)">exit</a></code></tt> the expectation is
+ that the virtual machine will promptly shut down and exit.  When the
+ virtual machine is terminated due to user logoff or system shutdown the
+ underlying operating system may only allow a fixed amount of time in
+ which to shut down and exit.  It is therefore inadvisable to attempt any
+ user interaction or to perform a long-running computation in a shutdown
+ hook.
+
+ <p> Uncaught exceptions are handled in shutdown hooks just as in any
+ other thread, by invoking the <tt><code><a href="../../../reference/java/lang/ThreadGroup.html#uncaughtException(java.lang.Thread, java.lang.Throwable)">uncaughtException</a></code></tt> method of the thread's <tt><code><a href="../../../reference/java/lang/ThreadGroup.html">ThreadGroup</a></code></tt> object.  The default implementation of this method
+ prints the exception's stack trace to <tt><code><a href="../../../reference/java/lang/System.html#err">err</a></code></tt> and
+ terminates the thread; it does not cause the virtual machine to exit or
+ halt.
+
+ <p> In rare circumstances the virtual machine may <i>abort</i>, that is,
+ stop running without shutting down cleanly.  This occurs when the
+ virtual machine is terminated externally, for example with the
+ <tt>SIGKILL</tt> signal on Unix or the <tt>TerminateProcess</tt> call on
+ Microsoft Windows.  The virtual machine may also abort if a native
+ method goes awry by, for example, corrupting internal data structures or
+ attempting to access nonexistent memory.  If the virtual machine aborts
+ then no guarantee can be made about whether or not any shutdown hooks
+ will be run. <p></p>
+    
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>hook</code></td>
+        <td width="100%">
+          <code>Thread</code>:
+          An initialized but unstarted <tt><code><a href="../../../reference/java/lang/Thread.html">Thread</a></code></tt> object</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/IllegalArgumentException.html">IllegalArgumentException</a></code></td>
+          <td width="100%">If the specified hook has already been registered,
+          or if it can be determined that the hook is already running or
+          has already been run</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/IllegalStateException.html">IllegalStateException</a></code></td>
+          <td width="100%">If the virtual machine is already in the process
+          of shutting down</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager is present and it denies
+          <tt><code><a href="../../../reference/java/lang/RuntimePermission.html">RuntimePermission</a></code>("shutdownHooks")</tt></td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/Runtime.html#removeShutdownHook(java.lang.Thread)">removeShutdownHook(Thread)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#halt(int)">halt(int)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#exit(int)">exit(int)</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="availableProcessors()"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">availableProcessors</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+int availableProcessors ()</pre>
+    
+    
+
+    
+  <p>Returns the number of processors available to the Java virtual machine.
+
+ <p> This value may change during a particular invocation of the virtual
+ machine.  Applications that are sensitive to the number of available
+ processors should therefore occasionally poll this property and adjust
+ their resource usage appropriately. </p></p>
+    
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code>int</code></td>
+        <td width="100%">the maximum number of processors available to the virtual
+          machine; never smaller than one</td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="exec(java.lang.String[])"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">exec</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="../../../reference/java/lang/Process.html">Process</a> exec (<a href="../../../reference/java/lang/String.html">String[]</a> cmdarray)</pre>
+    
+    
+
+    
+  <p>Executes the specified command and arguments in a separate process.
+
+ <p>This is a convenience method.  An invocation of the form
+ <tt>exec(cmdarray)</tt>
+ behaves in exactly the same way as the invocation
+ <tt><code><a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String[], java.lang.String[], java.io.File)">exec</a></code>(cmdarray, null, null)</tt>.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>cmdarray</code></td>
+        <td width="100%">
+          <code>String</code>:
+          array containing the command to call and
+                    its arguments.</td>
+      </tr>
+    </table>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../reference/java/lang/Process.html">Process</a></code></td>
+        <td width="100%">A new <code><a href="../../../reference/java/lang/Process.html">Process</a></code> object for managing the subprocess</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager exists and its
+          <code><a href="../../../reference/java/lang/SecurityManager.html#checkExec(java.lang.String)">checkExec</a></code>
+          method doesn't allow creation of the subprocess</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/io/IOException.html">IOException</a></code></td>
+          <td width="100%">If an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/NullPointerException.html">NullPointerException</a></code></td>
+          <td width="100%">If <code>cmdarray</code> is <code>null</code>,
+          or one of the elements of <code>cmdarray</code> is <code>null</code></td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/IndexOutOfBoundsException.html">IndexOutOfBoundsException</a></code></td>
+          <td width="100%">If <code>cmdarray</code> is an empty array
+          (has length <code>0</code>)</td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/ProcessBuilder.html">ProcessBuilder</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="exec(java.lang.String[], java.lang.String[])"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">exec</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="../../../reference/java/lang/Process.html">Process</a> exec (<a href="../../../reference/java/lang/String.html">String[]</a> cmdarray, 
+                <a href="../../../reference/java/lang/String.html">String[]</a> envp)</pre>
+    
+    
+
+    
+  <p>Executes the specified command and arguments in a separate process
+ with the specified environment.
+
+ <p>This is a convenience method.  An invocation of the form
+ <tt>exec(cmdarray, envp)</tt>
+ behaves in exactly the same way as the invocation
+ <tt><code><a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String[], java.lang.String[], java.io.File)">exec</a></code>(cmdarray, envp, null)</tt>.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>cmdarray</code></td>
+        <td width="100%">
+          <code>String</code>:
+          array containing the command to call and
+                    its arguments.</td>
+      </tr>
+      <tr>
+        <td><code>envp</code></td>
+        <td width="100%">
+          <code>String</code>:
+          array of strings, each element of which
+                    has environment variable settings in the format
+                    <i>name</i>=<i>value</i>, or
+                    <tt>null</tt> if the subprocess should inherit
+                    the environment of the current process.</td>
+      </tr>
+    </table>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../reference/java/lang/Process.html">Process</a></code></td>
+        <td width="100%">A new <code><a href="../../../reference/java/lang/Process.html">Process</a></code> object for managing the subprocess</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager exists and its
+          <code><a href="../../../reference/java/lang/SecurityManager.html#checkExec(java.lang.String)">checkExec</a></code>
+          method doesn't allow creation of the subprocess</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/io/IOException.html">IOException</a></code></td>
+          <td width="100%">If an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/NullPointerException.html">NullPointerException</a></code></td>
+          <td width="100%">If <code>cmdarray</code> is <code>null</code>,
+          or one of the elements of <code>cmdarray</code> is <code>null</code>,
+          or one of the elements of <code>envp</code> is <code>null</code></td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/IndexOutOfBoundsException.html">IndexOutOfBoundsException</a></code></td>
+          <td width="100%">If <code>cmdarray</code> is an empty array
+          (has length <code>0</code>)</td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/ProcessBuilder.html">ProcessBuilder</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="exec(java.lang.String)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">exec</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="../../../reference/java/lang/Process.html">Process</a> exec (<a href="../../../reference/java/lang/String.html">String</a> command)</pre>
+    
+    
+
+    
+  <p>Executes the specified string command in a separate process.
+
+ <p>This is a convenience method.  An invocation of the form
+ <tt>exec(command)</tt>
+ behaves in exactly the same way as the invocation
+ <tt><code><a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String, java.lang.String[], java.io.File)">exec</a></code>(command, null, null)</tt>.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>command</code></td>
+        <td width="100%">
+          <code>String</code>:
+          a specified system command.</td>
+      </tr>
+    </table>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../reference/java/lang/Process.html">Process</a></code></td>
+        <td width="100%">A new <code><a href="../../../reference/java/lang/Process.html">Process</a></code> object for managing the subprocess</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager exists and its
+          <code><a href="../../../reference/java/lang/SecurityManager.html#checkExec(java.lang.String)">checkExec</a></code>
+          method doesn't allow creation of the subprocess</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/io/IOException.html">IOException</a></code></td>
+          <td width="100%">If an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/NullPointerException.html">NullPointerException</a></code></td>
+          <td width="100%">If <code>command</code> is <code>null</code></td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/IllegalArgumentException.html">IllegalArgumentException</a></code></td>
+          <td width="100%">If <code>command</code> is empty</td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String[], java.lang.String[], java.io.File)">exec(String[], String[], File)</a></code></li><li><code><a href="../../../reference/java/lang/ProcessBuilder.html">ProcessBuilder</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="exec(java.lang.String, java.lang.String[])"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">exec</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="../../../reference/java/lang/Process.html">Process</a> exec (<a href="../../../reference/java/lang/String.html">String</a> command, 
+                <a href="../../../reference/java/lang/String.html">String[]</a> envp)</pre>
+    
+    
+
+    
+  <p>Executes the specified string command in a separate process with the
+ specified environment.
+
+ <p>This is a convenience method.  An invocation of the form
+ <tt>exec(command, envp)</tt>
+ behaves in exactly the same way as the invocation
+ <tt><code><a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String, java.lang.String[], java.io.File)">exec</a></code>(command, envp, null)</tt>.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>command</code></td>
+        <td width="100%">
+          <code>String</code>:
+          a specified system command.</td>
+      </tr>
+      <tr>
+        <td><code>envp</code></td>
+        <td width="100%">
+          <code>String</code>:
+          array of strings, each element of which
+                    has environment variable settings in the format
+                    <i>name</i>=<i>value</i>, or
+                    <tt>null</tt> if the subprocess should inherit
+                    the environment of the current process.</td>
+      </tr>
+    </table>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../reference/java/lang/Process.html">Process</a></code></td>
+        <td width="100%">A new <code><a href="../../../reference/java/lang/Process.html">Process</a></code> object for managing the subprocess</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager exists and its
+          <code><a href="../../../reference/java/lang/SecurityManager.html#checkExec(java.lang.String)">checkExec</a></code>
+          method doesn't allow creation of the subprocess</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/io/IOException.html">IOException</a></code></td>
+          <td width="100%">If an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/NullPointerException.html">NullPointerException</a></code></td>
+          <td width="100%">If <code>command</code> is <code>null</code>,
+          or one of the elements of <code>envp</code> is <code>null</code></td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/IllegalArgumentException.html">IllegalArgumentException</a></code></td>
+          <td width="100%">If <code>command</code> is empty</td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String[], java.lang.String[], java.io.File)">exec(String[], String[], File)</a></code></li><li><code><a href="../../../reference/java/lang/ProcessBuilder.html">ProcessBuilder</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="exec(java.lang.String[], java.lang.String[], java.io.File)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">exec</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="../../../reference/java/lang/Process.html">Process</a> exec (<a href="../../../reference/java/lang/String.html">String[]</a> cmdarray, 
+                <a href="../../../reference/java/lang/String.html">String[]</a> envp, 
+                <a href="../../../reference/java/io/File.html">File</a> dir)</pre>
+    
+    
+
+    
+  <p>Executes the specified command and arguments in a separate process with
+ the specified environment and working directory.
+
+ <p>Given an array of strings <code>cmdarray</code>, representing the
+ tokens of a command line, and an array of strings <code>envp</code>,
+ representing "environment" variable settings, this method creates
+ a new process in which to execute the specified command.
+
+ <p>This method checks that <code>cmdarray</code> is a valid operating
+ system command.  Which commands are valid is system-dependent,
+ but at the very least the command must be a non-empty list of
+ non-null strings.
+
+ <p>If <tt>envp</tt> is <tt>null</tt>, the subprocess inherits the
+ environment settings of the current process.
+
+ <p>A minimal set of system dependent environment variables may
+ be required to start a process on some operating systems.
+ As a result, the subprocess may inherit additional environment variable
+ settings beyond those in the specified environment.
+
+ <p><code><a href="../../../reference/java/lang/ProcessBuilder.html#start()">start()</a></code> is now the preferred way to
+ start a process with a modified environment.
+
+ <p>The working directory of the new subprocess is specified by <tt>dir</tt>.
+ If <tt>dir</tt> is <tt>null</tt>, the subprocess inherits the
+ current working directory of the current process.
+
+ <p>If a security manager exists, its
+ <code><a href="../../../reference/java/lang/SecurityManager.html#checkExec(java.lang.String)">checkExec</a></code>
+ method is invoked with the first component of the array
+ <code>cmdarray</code> as its argument. This may result in a
+ <code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code> being thrown.
+
+ <p>Starting an operating system process is highly system-dependent.
+ Among the many things that can go wrong are:
+ <ul>
+ <li>The operating system program file was not found.
+ <li>Access to the program file was denied.
+ <li>The working directory does not exist.
+ </ul>
+
+ <p>In such cases an exception will be thrown.  The exact nature
+ of the exception is system-dependent, but it will always be a
+ subclass of <code><a href="../../../reference/java/io/IOException.html">IOException</a></code>.</p>
+    
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>cmdarray</code></td>
+        <td width="100%">
+          <code>String</code>:
+          array containing the command to call and
+                    its arguments.</td>
+      </tr>
+      <tr>
+        <td><code>envp</code></td>
+        <td width="100%">
+          <code>String</code>:
+          array of strings, each element of which
+                    has environment variable settings in the format
+                    <i>name</i>=<i>value</i>, or
+                    <tt>null</tt> if the subprocess should inherit
+                    the environment of the current process.</td>
+      </tr>
+      <tr>
+        <td><code>dir</code></td>
+        <td width="100%">
+          <code>File</code>:
+          the working directory of the subprocess, or
+                    <tt>null</tt> if the subprocess should inherit
+                    the working directory of the current process.</td>
+      </tr>
+    </table>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../reference/java/lang/Process.html">Process</a></code></td>
+        <td width="100%">A new <code><a href="../../../reference/java/lang/Process.html">Process</a></code> object for managing the subprocess</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager exists and its
+          <code><a href="../../../reference/java/lang/SecurityManager.html#checkExec(java.lang.String)">checkExec</a></code>
+          method doesn't allow creation of the subprocess</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/io/IOException.html">IOException</a></code></td>
+          <td width="100%">If an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/NullPointerException.html">NullPointerException</a></code></td>
+          <td width="100%">If <code>cmdarray</code> is <code>null</code>,
+          or one of the elements of <code>cmdarray</code> is <code>null</code>,
+          or one of the elements of <code>envp</code> is <code>null</code></td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/IndexOutOfBoundsException.html">IndexOutOfBoundsException</a></code></td>
+          <td width="100%">If <code>cmdarray</code> is an empty array
+          (has length <code>0</code>)</td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/ProcessBuilder.html">ProcessBuilder</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="exec(java.lang.String, java.lang.String[], java.io.File)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">exec</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="../../../reference/java/lang/Process.html">Process</a> exec (<a href="../../../reference/java/lang/String.html">String</a> command, 
+                <a href="../../../reference/java/lang/String.html">String[]</a> envp, 
+                <a href="../../../reference/java/io/File.html">File</a> dir)</pre>
+    
+    
+
+    
+  <p>Executes the specified string command in a separate process with the
+ specified environment and working directory.
+
+ <p>This is a convenience method.  An invocation of the form
+ <tt>exec(command, envp, dir)</tt>
+ behaves in exactly the same way as the invocation
+ <tt><code><a href="../../../reference/java/lang/Runtime.html#exec(java.lang.String[], java.lang.String[], java.io.File)">exec</a></code>(cmdarray, envp, dir)</tt>,
+ where <code>cmdarray</code> is an array of all the tokens in
+ <code>command</code>.
+
+ <p>More precisely, the <code>command</code> string is broken
+ into tokens using a <code><a href="../../../reference/java/util/StringTokenizer.html">StringTokenizer</a></code> created by the call
+ <code>new <code><a href="../../../reference/java/util/StringTokenizer.html">StringTokenizer</a></code>(command)</code> with no
+ further modification of the character categories.  The tokens
+ produced by the tokenizer are then placed in the new string
+ array <code>cmdarray</code>, in the same order.</p>
+    
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>command</code></td>
+        <td width="100%">
+          <code>String</code>:
+          a specified system command.</td>
+      </tr>
+      <tr>
+        <td><code>envp</code></td>
+        <td width="100%">
+          <code>String</code>:
+          array of strings, each element of which
+                    has environment variable settings in the format
+                    <i>name</i>=<i>value</i>, or
+                    <tt>null</tt> if the subprocess should inherit
+                    the environment of the current process.</td>
+      </tr>
+      <tr>
+        <td><code>dir</code></td>
+        <td width="100%">
+          <code>File</code>:
+          the working directory of the subprocess, or
+                    <tt>null</tt> if the subprocess should inherit
+                    the working directory of the current process.</td>
+      </tr>
+    </table>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../reference/java/lang/Process.html">Process</a></code></td>
+        <td width="100%">A new <code><a href="../../../reference/java/lang/Process.html">Process</a></code> object for managing the subprocess</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager exists and its
+          <code><a href="../../../reference/java/lang/SecurityManager.html#checkExec(java.lang.String)">checkExec</a></code>
+          method doesn't allow creation of the subprocess</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/io/IOException.html">IOException</a></code></td>
+          <td width="100%">If an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/NullPointerException.html">NullPointerException</a></code></td>
+          <td width="100%">If <code>command</code> is <code>null</code>,
+          or one of the elements of <code>envp</code> is <code>null</code></td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/IllegalArgumentException.html">IllegalArgumentException</a></code></td>
+          <td width="100%">If <code>command</code> is empty</td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/ProcessBuilder.html">ProcessBuilder</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="exit(int)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">exit</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void exit (int status)</pre>
+    
+    
+
+    
+  <p>Terminates the currently running Java virtual machine by initiating its
+ shutdown sequence.  This method never returns normally.  The argument
+ serves as a status code; by convention, a nonzero status code indicates
+ abnormal termination.
+
+ <p> The virtual machine's shutdown sequence consists of two phases.  In
+ the first phase all registered <code><a href="../../../reference/java/lang/Runtime.html#addShutdownHook(java.lang.Thread)">shutdown hooks</a></code>,
+ if any, are started in some unspecified order and allowed to run
+ concurrently until they finish.  In the second phase all uninvoked
+ finalizers are run if <code><a href="../../../reference/java/lang/Runtime.html#runFinalizersOnExit(boolean)">finalization-on-exit</a></code>
+ has been enabled.  Once this is done the virtual machine <code><a href="../../../reference/java/lang/Runtime.html#halt(int)">halts</a></code>.
+
+ <p> If this method is invoked after the virtual machine has begun its
+ shutdown sequence then if shutdown hooks are being run this method will
+ block indefinitely.  If shutdown hooks have already been run and on-exit
+ finalization has been enabled then this method halts the virtual machine
+ with the given status code if the status is nonzero; otherwise, it
+ blocks indefinitely.
+
+ <p> The <tt><code><a href="../../../reference/java/lang/System.html#exit(int)">System.exit</a></code></tt> method is the
+ conventional and convenient means of invoking this method. <p></p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>status</code></td>
+        <td width="100%">
+          <code>int</code>:
+          Termination status.  By convention, a nonzero status code
+         indicates abnormal termination.</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager is present and its <tt><code><a href="../../../reference/java/lang/SecurityManager.html#checkExit(int)">checkExit</a></code></tt> method does not permit
+         exiting with the specified status</td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></li><li><code><a href="../../../reference/java/lang/SecurityManager.html#checkExit(int)">checkExit(int)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#addShutdownHook(java.lang.Thread)">addShutdownHook(Thread)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#removeShutdownHook(java.lang.Thread)">removeShutdownHook(Thread)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#runFinalizersOnExit(boolean)">runFinalizersOnExit(boolean)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#halt(int)">halt(int)</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="freeMemory()"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">freeMemory</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+long freeMemory ()</pre>
+    
+    
+
+    
+  <p>Returns the amount of free memory in the Java Virtual Machine.
+ Calling the
+ <code>gc</code> method may result in increasing the value returned
+ by <code>freeMemory.</code></p>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code>long</code></td>
+        <td width="100%">an approximation to the total amount of memory currently
+          available for future allocated objects, measured in bytes.
+</td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="gc()"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">gc</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void gc ()</pre>
+    
+    
+
+    
+  <p>Runs the garbage collector.
+ Calling this method suggests that the Java virtual machine expend
+ effort toward recycling unused objects in order to make the memory
+ they currently occupy available for quick reuse. When control
+ returns from the method call, the virtual machine has made
+ its best effort to recycle all discarded objects.
+ <p>
+ The name <code>gc</code> stands for "garbage
+ collector". The virtual machine performs this recycling
+ process automatically as needed, in a separate thread, even if the
+ <code>gc</code> method is not invoked explicitly.
+ <p>
+ The method <code><a href="../../../reference/java/lang/System.html#gc()">gc()</a></code> is the conventional and convenient
+ means of invoking this method.
+</p>
+
+</div>
+
+
+<A NAME="getLocalizedInputStream(java.io.InputStream)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">getLocalizedInputStream</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="../../../reference/java/io/InputStream.html">InputStream</a> getLocalizedInputStream (<a href="../../../reference/java/io/InputStream.html">InputStream</a> in)</pre>
+    
+    
+
+    <p>
+  <p class="caution"><strong>
+      This method was deprecated
+      in API level 1.</strong><br/>
+    As of JDK&nbsp;1.1, the preferred way to translate a byte
+ stream in the local encoding into a character stream in Unicode is via
+ the <code>InputStreamReader</code> and <code>BufferedReader</code>
+ classes.
+
+  </p>
+  <p>Creates a localized version of an input stream. This method takes
+ an <code>InputStream</code> and returns an <code>InputStream</code>
+ equivalent to the argument in all respects except that it is
+ localized: as characters in the local character set are read from
+ the stream, they are automatically converted from the local
+ character set to Unicode.
+ <p>
+ If the argument is already a localized stream, it may be returned
+ as the result.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>in</code></td>
+        <td width="100%">
+          <code>InputStream</code>:
+          InputStream to localize</td>
+      </tr>
+    </table>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../reference/java/io/InputStream.html">InputStream</a></code></td>
+        <td width="100%">a localized input stream</td>
+      </tr>
+    </table>
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/io/InputStream.html">InputStream</a></code></li><li><code><a href="../../../reference/java/io/BufferedReader.html#BufferedReader(java.io.Reader)">BufferedReader(java.io.Reader)</a></code></li><li><code><a href="../../../reference/java/io/InputStreamReader.html#InputStreamReader(java.io.InputStream)">InputStreamReader(java.io.InputStream)</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="getLocalizedOutputStream(java.io.OutputStream)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">getLocalizedOutputStream</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="../../../reference/java/io/OutputStream.html">OutputStream</a> getLocalizedOutputStream (<a href="../../../reference/java/io/OutputStream.html">OutputStream</a> out)</pre>
+    
+    
+
+    <p>
+  <p class="caution"><strong>
+      This method was deprecated
+      in API level 1.</strong><br/>
+    As of JDK&nbsp;1.1, the preferred way to translate a
+ Unicode character stream into a byte stream in the local encoding is via
+ the <code>OutputStreamWriter</code>, <code>BufferedWriter</code>, and
+ <code>PrintWriter</code> classes.
+  </p>
+  <p>Creates a localized version of an output stream. This method
+ takes an <code>OutputStream</code> and returns an
+ <code>OutputStream</code> equivalent to the argument in all respects
+ except that it is localized: as Unicode characters are written to
+ the stream, they are automatically converted to the local
+ character set.
+ <p>
+ If the argument is already a localized stream, it may be returned
+ as the result.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>out</code></td>
+        <td width="100%">
+          <code>OutputStream</code>:
+          OutputStream to localize</td>
+      </tr>
+    </table>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../reference/java/io/OutputStream.html">OutputStream</a></code></td>
+        <td width="100%">a localized output stream</td>
+      </tr>
+    </table>
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/io/OutputStream.html">OutputStream</a></code></li><li><code><a href="../../../reference/java/io/BufferedWriter.html#BufferedWriter(java.io.Writer)">BufferedWriter(java.io.Writer)</a></code></li><li><code><a href="../../../reference/java/io/OutputStreamWriter.html#OutputStreamWriter(java.io.OutputStream)">OutputStreamWriter(java.io.OutputStream)</a></code></li><li><code><a href="../../../reference/java/io/PrintWriter.html#PrintWriter(java.io.OutputStream)">PrintWriter(java.io.OutputStream)</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="getRuntime()"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">getRuntime</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+<a href="../../../reference/java/lang/Runtime.html">Runtime</a> getRuntime ()</pre>
+    
+    
+
+    
+  <p>Returns the runtime object associated with the current Java application.
+ Most of the methods of class <code>Runtime</code> are instance
+ methods and must be invoked with respect to the current runtime object.</p>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../reference/java/lang/Runtime.html">Runtime</a></code></td>
+        <td width="100%">the <code>Runtime</code> object associated with the current
+          Java application.
+</td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="halt(int)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">halt</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void halt (int status)</pre>
+    
+    
+
+    
+  <p>Forcibly terminates the currently running Java virtual machine.  This
+ method never returns normally.
+
+ <p> This method should be used with extreme caution.  Unlike the
+ <tt><code><a href="../../../reference/java/lang/Runtime.html#exit(int)">exit</a></code></tt> method, this method does not cause shutdown
+ hooks to be started and does not run uninvoked finalizers if
+ finalization-on-exit has been enabled.  If the shutdown sequence has
+ already been initiated then this method does not wait for any running
+ shutdown hooks or finalizers to finish their work. <p></p>
+    
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>status</code></td>
+        <td width="100%">
+          <code>int</code>:
+          Termination status.  By convention, a nonzero status code
+         indicates abnormal termination.  If the <tt><code><a href="../../../reference/java/lang/Runtime.html#exit(int)">exit</a></code></tt> (equivalently, <tt><code><a href="../../../reference/java/lang/System.html#exit(int)">System.exit</a></code></tt>) method has already been invoked then this
+         status code will override the status code passed to that method.</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager is present and its <tt><code><a href="../../../reference/java/lang/SecurityManager.html#checkExit(int)">checkExit</a></code></tt> method does not permit
+         an exit with the specified status</td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/Runtime.html#exit(int)">exit(int)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#addShutdownHook(java.lang.Thread)">addShutdownHook(Thread)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#removeShutdownHook(java.lang.Thread)">removeShutdownHook(Thread)</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="load(java.lang.String)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">load</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void load (<a href="../../../reference/java/lang/String.html">String</a> filename)</pre>
+    
+    
+
+    
+  <p>Loads the specified filename as a dynamic library. The filename
+ argument must be a complete path name,
+ (for example
+ <code>Runtime.getRuntime().load("/home/avh/lib/libX11.so");</code>).
+ <p>
+ First, if there is a security manager, its <code>checkLink</code>
+ method is called with the <code>filename</code> as its argument.
+ This may result in a security exception.
+ <p>
+ This is similar to the method <code><a href="../../../reference/java/lang/Runtime.html#loadLibrary(java.lang.String)">loadLibrary(String)</a></code>, but it
+ accepts a general file name as an argument rather than just a library
+ name, allowing any file of native code to be loaded.
+ <p>
+ The method <code><a href="../../../reference/java/lang/System.html#load(java.lang.String)">load(String)</a></code> is the conventional and
+ convenient means of invoking this method.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>filename</code></td>
+        <td width="100%">
+          <code>String</code>:
+          the file to load.</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">if a security manager exists and its
+             <code>checkLink</code> method doesn't allow
+             loading of the specified dynamic library</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/UnsatisfiedLinkError.html">UnsatisfiedLinkError</a></code></td>
+          <td width="100%">if the file does not exist.</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/NullPointerException.html">NullPointerException</a></code></td>
+          <td width="100%">if <code>filename</code> is
+             <code>null</code></td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/Runtime.html#getRuntime()">getRuntime()</a></code></li><li><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></li><li><code><a href="../../../reference/java/lang/SecurityManager.html#checkLink(java.lang.String)">checkLink(java.lang.String)</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="loadLibrary(java.lang.String)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">loadLibrary</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void loadLibrary (<a href="../../../reference/java/lang/String.html">String</a> libname)</pre>
+    
+    
+
+    
+  <p>Loads the dynamic library with the specified library name.
+ A file containing native code is loaded from the local file system
+ from a place where library files are conventionally obtained. The
+ details of this process are implementation-dependent. The
+ mapping from a library name to a specific filename is done in a
+ system-specific manner.
+ <p>
+ First, if there is a security manager, its <code>checkLink</code>
+ method is called with the <code>libname</code> as its argument.
+ This may result in a security exception.
+ <p>
+ The method <code><a href="../../../reference/java/lang/System.html#loadLibrary(java.lang.String)">loadLibrary(String)</a></code> is the conventional
+ and convenient means of invoking this method. If native
+ methods are to be used in the implementation of a class, a standard
+ strategy is to put the native code in a library file (call it
+ <code>LibFile</code>) and then to put a static initializer:
+ <blockquote><pre>
+ static { System.loadLibrary("LibFile"); }
+ </pre></blockquote>
+ within the class declaration. When the class is loaded and
+ initialized, the necessary native code implementation for the native
+ methods will then be loaded as well.
+ <p>
+ If this method is called more than once with the same library
+ name, the second and subsequent calls are ignored.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>libname</code></td>
+        <td width="100%">
+          <code>String</code>:
+          the name of the library.</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">if a security manager exists and its
+             <code>checkLink</code> method doesn't allow
+             loading of the specified dynamic library</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/UnsatisfiedLinkError.html">UnsatisfiedLinkError</a></code></td>
+          <td width="100%">if the library does not exist.</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/NullPointerException.html">NullPointerException</a></code></td>
+          <td width="100%">if <code>libname</code> is
+             <code>null</code></td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></li><li><code><a href="../../../reference/java/lang/SecurityManager.html#checkLink(java.lang.String)">checkLink(java.lang.String)</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="maxMemory()"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">maxMemory</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+long maxMemory ()</pre>
+    
+    
+
+    
+  <p>Returns the maximum amount of memory that the Java virtual machine will
+ attempt to use.  If there is no inherent limit then the value <code><a href="../../../reference/java/lang/Long.html#MAX_VALUE">MAX_VALUE</a></code> will be returned. </p></p>
+    
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code>long</code></td>
+        <td width="100%">the maximum amount of memory that the virtual machine will
+          attempt to use, measured in bytes</td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="removeShutdownHook(java.lang.Thread)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">removeShutdownHook</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+boolean removeShutdownHook (<a href="../../../reference/java/lang/Thread.html">Thread</a> hook)</pre>
+    
+    
+
+    
+  <p>De-registers a previously-registered virtual-machine shutdown hook. <p></p>
+    
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>hook</code></td>
+        <td width="100%">
+          <code>Thread</code>:
+          the hook to remove</td>
+      </tr>
+    </table>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code>boolean</code></td>
+        <td width="100%"><tt>true</tt> if the specified hook had previously been
+ registered and was successfully de-registered, <tt>false</tt>
+ otherwise.</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/IllegalStateException.html">IllegalStateException</a></code></td>
+          <td width="100%">If the virtual machine is already in the process of shutting
+          down</td>
+        </tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">If a security manager is present and it denies
+          <tt><code><a href="../../../reference/java/lang/RuntimePermission.html">RuntimePermission</a></code>("shutdownHooks")</tt></td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/Runtime.html#addShutdownHook(java.lang.Thread)">addShutdownHook(Thread)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#exit(int)">exit(int)</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="runFinalization()"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">runFinalization</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void runFinalization ()</pre>
+    
+    
+
+    
+  <p>Runs the finalization methods of any objects pending finalization.
+ Calling this method suggests that the Java virtual machine expend
+ effort toward running the <code>finalize</code> methods of objects
+ that have been found to be discarded but whose <code>finalize</code>
+ methods have not yet been run. When control returns from the
+ method call, the virtual machine has made a best effort to
+ complete all outstanding finalizations.
+ <p>
+ The virtual machine performs the finalization process
+ automatically as needed, in a separate thread, if the
+ <code>runFinalization</code> method is not invoked explicitly.
+ <p>
+ The method <code><a href="../../../reference/java/lang/System.html#runFinalization()">runFinalization()</a></code> is the conventional
+ and convenient means of invoking this method.</p>
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/Object.html#finalize()">finalize()</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="runFinalizersOnExit(boolean)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">runFinalizersOnExit</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void runFinalizersOnExit (boolean value)</pre>
+    
+    
+
+    <p>
+  <p class="caution"><strong>
+      This method was deprecated
+      in API level 1.</strong><br/>
+    This method is inherently unsafe.  It may result in
+      finalizers being called on live objects while other threads are
+      concurrently manipulating those objects, resulting in erratic
+      behavior or deadlock.
+  </p>
+  <p>Enable or disable finalization on exit; doing so specifies that the
+ finalizers of all objects that have finalizers that have not yet been
+ automatically invoked are to be run before the Java runtime exits.
+ By default, finalization on exit is disabled.
+
+ <p>If there is a security manager,
+ its <code>checkExit</code> method is first called
+ with 0 as its argument to ensure the exit is allowed.
+ This could result in a SecurityException.</p>
+    
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>value</code></td>
+        <td width="100%">
+          <code>boolean</code>:
+          true to enable finalization on exit, false to disable</td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code><a href="../../../reference/java/lang/SecurityException.html">SecurityException</a></code></td>
+          <td width="100%">if a security manager exists and its <code>checkExit</code>
+        method doesn't allow the exit.</td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../reference/java/lang/Runtime.html#exit(int)">exit(int)</a></code></li><li><code><a href="../../../reference/java/lang/Runtime.html#gc()">gc()</a></code></li><li><code><a href="../../../reference/java/lang/SecurityManager.html#checkExit(int)">checkExit(int)</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+
+<A NAME="totalMemory()"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">totalMemory</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+long totalMemory ()</pre>
+    
+    
+
+    
+  <p>Returns the total amount of memory in the Java virtual machine.
+ The value returned by this method may vary over time, depending on
+ the host environment.
+ <p>
+ Note that the amount of memory required to hold an object of any
+ given type may be implementation-dependent.</p>
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code>long</code></td>
+        <td width="100%">the total amount of memory currently available for current
+          and future objects, measured in bytes.
+</td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="traceInstructions(boolean)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">traceInstructions</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void traceInstructions (boolean enable)</pre>
+    
+    
+
+    
+  <p>Enables/Disables tracing of instructions.
+ If the <code>boolean</code> argument is <code>true</code>, this
+ method suggests that the Java virtual machine emit debugging
+ information for each instruction in the virtual machine as it
+ is executed. The format of this information, and the file or other
+ output stream to which it is emitted, depends on the host environment.
+ The virtual machine may ignore this request if it does not support
+ this feature. The destination of the trace output is system
+ dependent.
+ <p>
+ If the <code>boolean</code> argument is <code>false</code>, this
+ method causes the virtual machine to stop performing the
+ detailed instruction trace it is performing.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>enable</code></td>
+        <td width="100%">
+          <code>boolean</code>:
+          <code>true</code> to enable instruction tracing;
+               <code>false</code> to disable this feature.
+</td>
+      </tr>
+    </table>
+
+</div>
+
+
+<A NAME="traceMethodCalls(boolean)"></A>
+
+<div class="api apilevel-1">
+    <h3 class="api-name">traceMethodCalls</h3>
+    <div class="api-level">
+      <div>
+  Added in <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API level 1</a></div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+void traceMethodCalls (boolean enable)</pre>
+    
+    
+
+    
+  <p>Enables/Disables tracing of method calls.
+ If the <code>boolean</code> argument is <code>true</code>, this
+ method suggests that the Java virtual machine emit debugging
+ information for each method in the virtual machine as it is
+ called. The format of this information, and the file or other output
+ stream to which it is emitted, depends on the host environment. The
+ virtual machine may ignore this request if it does not support
+ this feature.
+ <p>
+ Calling this method with argument false suggests that the
+ virtual machine cease emitting per-call debugging information.</p>
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>enable</code></td>
+        <td width="100%">
+          <code>boolean</code>:
+          <code>true</code> to enable instruction tracing;
+               <code>false</code> to disable this feature.
+</td>
+      </tr>
+    </table>
+
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+
+</div><!-- end jd-content -->
+
+
+
+
+
+<div class="wrap">
+  <div class="dac-footer">
+    <div class="cols dac-footer-main">
+      <div class="col-1of2">
+        <a class="dac-footer-getnews" id="newsletter" data-modal-toggle="newsletter" href="javascript:;">Get news &amp; tips <span
+          class="dac-fab dac-primary"><i class="dac-sprite dac-mail"></i></span></a>
+      </div>
+      <div class="col-1of2 dac-footer-reachout">
+        <div class="dac-footer-contact">
+          <a class="dac-footer-contact-link" href="http://android-developers.blogspot.com/">Blog</a>
+          <a class="dac-footer-contact-link" href="/support.html">Support</a>
+        </div>
+        <div class="dac-footer-social">
+          <a class="dac-button-social dac-youtube dac-footer-social-link" href="https://www.youtube.com/user/androiddevelopers"><i class="dac-sprite dac-youtube"></i></a>
+          <a class="dac-button-social dac-gplus dac-footer-social-link" href="https://plus.google.com/+AndroidDevelopers"><i class="dac-sprite dac-gplus"></i></a>
+          <a class="dac-button-social dac-twitter dac-footer-social-link" href="https://twitter.com/AndroidDev"><i class="dac-sprite dac-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+
+    
+      <p class="dac-footer-copyright">
+        
+  Except as noted, this content is licensed under <a
+  href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a>.
+  For details and restrictions, see the <a href="../../../license.html">
+  Content License</a>.
+
+      </p>
+      <p class="dac-footer-build">
+        
+  
+    Android 6.0&nbsp;r1 &mdash;
+  
+  <script src="../../../timestamp.js" type="text/javascript"></script>
+  <script>document.write(BUILD_TIMESTAMP)</script>
+
+      </p>
+    
+
+    <p class="dac-footer-links">
+      <a href="/about/android.html">About Android</a>
+      <a href="/auto/index.html">Auto</a>
+      <a href="/tv/index.html">TV</a>
+      <a href="/wear/index.html">Wear</a>
+      <a href="/legal.html">Legal</a>
+
+      <span id="language" class="locales">
+        <select name="language" onchange="changeLangPref(this.value, true)">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Español</option>
+          <option value="in">Bahasa Indonesia</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="pt-br">Português Brasileiro</option>
+          <option value="ru">Русский</option>
+          <option value="vi">tiếng Việt</option>
+          <option value="zh-cn">中文（简体)</option>
+          <option value="zh-tw">中文（繁體)</option>
+        </select>
+      </span>
+    </p>
+  </div>
+</div>
+<!-- end footer -->
+
+
+
+  
+
+
+
+<div data-modal="newsletter" data-newsletter data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title"></h2>
+            <p class="dac-modal-header-subtitle" data-t="newsletter.requiredHint"></p>
+          </section>
+          <section class="dac-swap-section dac-up">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.successTitle">Hooray!</h2>
+          </section>
+        </div>
+      </header>
+      <div class="dac-swap" data-swap-container>
+        <section class="dac-swap-section dac-active dac-left">
+          <form action="https://docs.google.com/forms/d/1QgnkzbEJIDu9lMEea0mxqWrXUJu0oBCLD7ar23V0Yys/formResponse" class="dac-form" method="post" target="dac-newsletter-iframe">
+            <input type="hidden" name="entry.935454734" data-newsletter-language>
+            <section class="dac-modal-content">
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-full-name" class="dac-form-floatlabel" data-t="newsletter.name">Full name</label>
+                      <input type="text" class="dac-form-input" name="entry.1357890476" id="newsletter-full-name" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-email" class="dac-form-floatlabel" data-t="newsletter.email">Email address</label>
+                      <input type="email" class="dac-form-input" name="entry.472100832" id="newsletter-email" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-company" class="dac-form-floatlabel" data-t="newsletter.company">Company / developer name</label>
+                      <input type="text" class="dac-form-input" name="entry.1664780309" id="newsletter-company">
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-play-store" class="dac-form-floatlabel" data-t="newsletter.appUrl">One of your Play Store app URLs</label>
+                      <input type="url" class="dac-form-input" name="entry.47013838" id="newsletter-play-store" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <legend class="dac-form-legend"><span data-t="newsletter.business.label">Which best describes your business:</span><span class="dac-form-required">*</span>
+                    </legend>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-app" required>
+                      <label for="newsletter-business-type-app" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-app" class="dac-form-label" data-t="newsletter.business.apps">Apps</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-games" required>
+                      <label for="newsletter-business-type-games" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-games" class="dac-form-label" data-t="newsletter.business.games">Games</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps and Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-appsgames" required>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-label" data-t="newsletter.business.both">Apps &amp; Games</label>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol newsletter-checkboxes">
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.732309842" id="newsletter-add" required value="Add me to the mailing list for the monthly newsletter and occasional emails about development and Google Play opportunities.">
+                          <label for="newsletter-add" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-add" class="dac-form-label dac-form-aside"><span data-t="newsletter.confirmMailingList"></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.2045036090" id="newsletter-terms" required value="I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).">
+                          <label for="newsletter-terms" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-terms" class="dac-form-label dac-form-aside"><span data-t="newsletter.privacyPolicy" data-t-html></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </section>
+            <footer class="dac-modal-footer">
+              <div class="cols">
+                <div class="col-2of5">
+                </div>
+              </div>
+              <button type="submit" value="Submit" class="dac-fab dac-primary dac-large dac-modal-action"><i class="dac-sprite dac-arrow-right"></i></button>
+            </footer>
+          </form>
+        </section>
+        <section class="dac-swap-section dac-right">
+          <div class="dac-modal-content">
+            <p class="newsletter-success-message" data-t="newsletter.successDetails"></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end newsletter modal -->
+
+<!-- start reset language header modal -->
+<div data-modal="langform" class="dac-modal" id="langform">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <section class="dac-swap-section dac-active dac-down">
+          <h2 class="norule dac-modal-header-title"></h2>
+        </section>
+      </header>
+      <section class="dac-swap-section dac-active dac-left">
+          <section class="dac-modal-content">
+            <fieldset class="dac-form-fieldset">
+              <div class="cols">
+                <div class="col-2of2 langform-leftCol">
+                  <p id="resetLangText"></p>
+                  <p id="resetLangCta"></p>
+                </div>
+              </div>
+            </fieldset>
+          </section>
+          <footer class="dac-modal-footer" id="langfooter">
+            <div class="cols">
+              <div class="col-2of5">
+              </div>
+            </div>
+              <button class="button dac-primary dac-modal-action lang yes" data-t="newsletter.resetLangButtonYes" data-modal-toggle></button>
+              <button class="button dac-primary dac-modal-action lang no" data-t="newsletter.resetLangButtonNo" data-modal-toggle></button>
+            </a>
+          </footer>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- end langreset modal -->
+
+
+</div> <!-- end body-content --> 
+
+
+
+
+<script src="https://developer.android.com/ytblogger_lists_unified.js" defer></script>
+<script src="/jd_lists_unified_en.js?v=17" defer></script>
+<script src="/reference/lists.js?v=17" defer></script>
+<script src="/reference/gcm_lists.js?v=17" defer></script>
+<script src="/reference/gms_lists.js?v=17" defer></script>
+<script>
+  // Load localized metadata.
+  (function(lang) {
+    if (lang === 'en') { return; }
+
+    // Write it to the document so it gets evaluated before DOMContentReady.
+    document.write('<script src="/jd_lists_unified_' + lang + '.js?v=14" defer></' + 'script>');
+  })(getLangPref())
+</script>
+
+
+</body>
+</html>
