@@ -21,3 +21,4 @@ Java 的文档提供离线版本，可在 <JDK_HOME>\docs\api\
 * anotation 注解->注释
 * checked exception 检查型异常->经过检查的异常
 * unchecked exception 非检查型异常->未经检查的异常
+* literal 字面量->字面值
