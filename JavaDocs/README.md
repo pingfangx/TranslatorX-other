@@ -6,6 +6,9 @@
 
 获取，但是后续新版本都只有在线版本。
 
+## 文档对齐
+使用 en改 对齐 cn
+
 # 与 JavaDocs 的比较
 Java 的文档提供离线版本，可在 <JDK_HOME>\docs\api\
 
