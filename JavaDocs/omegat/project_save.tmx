@@ -14,6 +14,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(A &lt;t3&gt;null&lt;/t3&gt; return can also indicate that the map         previously associated &lt;t4&gt;null&lt;/t4&gt; with &lt;t5&gt;key&lt;/t5&gt;.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T092915Z" creationid="pingfangx" creationdate="20191026T092915Z">
+        <seg>（返回 &lt;t3&gt;null&lt;/t3&gt; 还可能表示该映射之前将 &lt;t4&gt;null&lt;/t4&gt; 与 &lt;t5&gt;key&lt;/t5&gt; 关联。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(A &lt;t3&gt;null&lt;/t3&gt; return can also indicate that the map previously associated &lt;t4&gt;null&lt;/t4&gt; with &lt;t5&gt;key&lt;/t5&gt;.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141148Z" creationid="pingfangx" creationdate="20191025T141148Z">
+        <seg>（返回 &lt;t3&gt;null&lt;/t3&gt; 还可能表示该映射之前将 &lt;t4&gt;null&lt;/t4&gt; 与 &lt;t5&gt;key&lt;/t5&gt; 关联。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(A structural modification is any operation that adds or deletes one or more mappings; merely changing the value associated with a key that an instance already contains is not a structural modification.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134539Z" creationid="pingfangx" creationdate="20191025T134539Z">
+        <seg>（结构上的修改是指添加或删除一个或多个映射关系的任何操作；仅改变与实例已经包含的键关联的值不是结构上的修改。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(Among known examples are sets of Float keys holding consecutive whole numbers in small tables.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082935Z" creationid="pingfangx" creationdate="20191026T082935Z">
+        <seg>（在已知的例子中有：在小表中，以 Float 为键的集合持有连续的整数）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(And the value of the maximumPoolSize therefore doesn't have any effect.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T125234Z" creationid="pingfangx" creationdate="20191025T125234Z">
@@ -54,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(If neither of these apply, we may waste about a factor of two in time and space compared to taking no precautions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T080734Z" creationid="pingfangx" creationdate="20191026T080734Z">
+        <seg>（如果这些都不适用，那么与未采取预防措施相比，我们可能浪费大约两倍的时间和空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(In the case of annotation member values, this is a recursive definition.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T151722Z" creationid="pingfangx" creationdate="20191014T151722Z">
@@ -66,6 +106,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T150335Z" creationid="pingfangx" creationdate="20191014T150335Z">
         <seg>（注意，此定义对于 annotation 类型的成员是递归的。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(Otherwise the table is resized if too many nodes in a bin.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082546Z" creationid="pingfangx" creationdate="20191026T082546Z">
+        <seg>（否则，如果 bin 中的节点太多，则调整表的大小。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -94,6 +142,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(See ConcurrentModificationException).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T084015Z" creationid="pingfangx" creationdate="20191026T084015Z">
+        <seg>（请参阅 ConcurrentModificationException）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(See below for TreeNode subclass, and in LinkedHashMap for its Entry subclass.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082658Z" creationid="pingfangx" creationdate="20191026T082658Z">
+        <seg>（请参阅下面的 TreeNode 子类，以及 LinkedHashMap 中的 Entry 子类。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Such spurious failures may for example be due to memory contention effects that are unrelated to whether the expected and current values are equal.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T125253Z" creationid="pingfangx" creationdate="20191025T125253Z">
@@ -110,10 +174,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(The &lt;t3&gt;HashMap&lt;/t3&gt; class is roughly equivalent to &lt;t4&gt;Hashtable&lt;/t4&gt;, except that it is unsynchronized and permits nulls.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T131506Z" creationid="pingfangx" creationdate="20191025T131506Z">
+        <seg>（除了非同步和允许使用 null 之外，&lt;t3&gt;HashMap&lt;/t3&gt; 类与 &lt;t4&gt;Hashtable&lt;/t4&gt; 大致相同。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(The javadoc description is true upon serialization.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T084050Z" creationid="pingfangx" creationdate="20191026T084050Z">
+        <seg>（在序列化时，javadoc 描述是真实的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(The specification for the persistent collection should indicate that it is capable of throwing such exceptions.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T113351Z" creationid="pingfangx" creationdate="20191013T113351Z">
         <seg>（持久集合的规范应该指示它能够抛出这种异常。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(The test triggers somewhere between 2 and 6 nodes, depending on tree structure).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100835Z" creationid="pingfangx" creationdate="20191026T100835Z">
+        <seg>（测试触发 2 到 6 个节点之间，取决于树结构）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -126,10 +214,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(There can be at most one such mapping.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140915Z" creationid="pingfangx" creationdate="20191025T140915Z">
+        <seg>（最多只能有一个这样的映射关系。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(There is one overloading for each primitive type, and one for object reference types.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T151728Z" creationid="pingfangx" creationdate="20191014T151728Z">
         <seg>（各种基本类型和对象引用类型分别对应一个重载。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(This also requires that a map instance be passed to some utility methods that may create new nodes.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081848Z" creationid="pingfangx" creationdate="20191026T081848Z">
+        <seg>（这也要求映射实例被传递给可能创建新节点的一些实用方法。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -170,6 +274,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T150303Z" creationid="pingfangx" creationdate="20191014T150303Z">
         <seg>（与 &lt;t4&gt;==&lt;/t4&gt; 运算符不同，NaN 被认为等于其自身，并且 &lt;t5&gt;0.0f&lt;/t5&gt; 不等于 &lt;t6&gt;-0.0f&lt;/t6&gt;。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(We also tolerate length zero in some operations to allow bootstrapping mechanics that are currently not needed.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083605Z" creationid="pingfangx" creationdate="20191026T083605Z">
+        <seg>(在某些操作中，我们还允许长度为零，以允许当前不需要的引导机制。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(We conservatively check generic types via reflection to validate this -- see method comparableClassFor).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T080441Z" creationid="pingfangx" creationdate="20191026T080441Z">
+        <seg>我们保守地通过反射检查泛型类型来验证是否是 Comparable，见 comparableClassFor 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(else is already treeified)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T101050Z" creationid="pingfangx" creationdate="20191026T101050Z">
+        <seg>(否则已经 treeified)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(if zero, use defaults)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095516Z" creationid="pingfangx" creationdate="20191026T095516Z">
+        <seg>(如果为零，则使用默认值)</seg>
       </tuv>
     </tu>
     <tu>
@@ -686,6 +822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;true&lt;/c0&gt; if the value was replaced</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141259Z" creationid="pingfangx" creationdate="20191025T141259Z">
+        <seg>&lt;c0&gt;true&lt;/c0&gt; 如果该值被替换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;weakCompareAndSet&lt;/c0&gt; atomically reads and conditionally writes a variable but does &lt;e1&gt;not&lt;/e1&gt; create any happens-before orderings, so provides no guarantees with respect to previous or subsequent reads and writes of any variables other than the target of the &lt;c2&gt;weakCompareAndSet&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T120924Z" creationid="pingfangx" creationdate="20191025T120924Z">
@@ -846,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note that this implementation is not synchronized.&lt;/s0&gt; If multiple threads access a hash map concurrently, and at least one of the threads modifies the map structurally, it &lt;i1&gt;must&lt;/i1&gt; be synchronized externally.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134529Z" creationid="pingfangx" creationdate="20191025T134529Z">
+        <seg>&lt;s0&gt;注意，此实现不是同步的。&lt;/s0&gt;如果多个线程同时访问一个哈希映射，而其中至少一个线程从结构上修改了该映射，则它&lt;i1&gt;必须&lt;/i1&gt; 保持外部同步。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Which best describes your business:&lt;/s0&gt;&lt;s1&gt;*&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T114425Z" creationid="pingfangx" creationdate="20191011T114425Z">
@@ -858,6 +1010,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T071607Z" creationid="pingfangx" creationdate="20191014T071607Z">
         <seg>数组类的 &lt;t0&gt;Class&lt;/t0&gt; 对象不是由类加载器创建的，而是由 Java 运行时根据需要自动创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;t0&gt;true&lt;/t0&gt; if this map contains a mapping for the specified key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140557Z" creationid="pingfangx" creationdate="20191025T140557Z">
+        <seg>如果此映射包含对于指定键的映射关系，则返回 &lt;t0&gt;true&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;t0&gt;true&lt;/t0&gt; if this map contains no key-value mappings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141109Z" creationid="pingfangx" creationdate="20191025T141109Z">
+        <seg>如果此映射不包含键-值映射关系，则返回 &lt;t0&gt;true&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;t0&gt;true&lt;/t0&gt; if this map maps one or more keys to the         specified value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095020Z" creationid="pingfangx" creationdate="20191026T095020Z">
+        <seg>如果此映射将一个或多个键映射到指定值，则返回 &lt;t0&gt;true&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;t0&gt;true&lt;/t0&gt; if this map maps one or more keys to the specified value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140617Z" creationid="pingfangx" creationdate="20191025T140617Z">
+        <seg>如果此映射将一个或多个键映射到指定值，则返回 &lt;t0&gt;true&lt;/t0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2422,6 +2606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A return value of &lt;c0&gt;null&lt;/c0&gt; does not &lt;i1&gt;necessarily&lt;/i1&gt; indicate that the map contains no mapping for the key; it's also possible that the map explicitly maps the key to &lt;c2&gt;null&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140918Z" creationid="pingfangx" creationdate="20191025T140918Z">
+        <seg>返回 &lt;c0&gt;null&lt;/c0&gt; 值并不&lt;i1&gt;一定&lt;/i1&gt; 表明该映射不包含该键的映射关系；也可能该映射将该键显示地映射为 &lt;c2&gt;null&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A reusable synchronization barrier, similar in functionality to &lt;c0&gt;&lt;a1&gt;CyclicBarrier&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;CountDownLatch&lt;/a3&gt;&lt;/c2&gt; but supporting more flexible usage.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T120456Z" creationid="pingfangx" creationdate="20191025T120456Z">
@@ -3110,6 +3302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additionally, if the table array has not been allocated, this</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T084327Z" creationid="pingfangx" creationdate="20191026T084110Z">
+        <seg>此外，如果表格数组尚未分配，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, method &lt;c5&gt;&lt;a6&gt;terminated()&lt;/a6&gt;&lt;/c5&gt; can be overridden to perform any special processing that needs to be done once the Executor has fully terminated.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T125727Z" creationid="pingfangx" creationdate="20191025T125727Z">
@@ -3202,6 +3402,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T161031Z" creationid="pingfangx" creationdate="20191014T161031Z">
         <seg>由此接口中的方法返回的所有注释都是不可变并且可序列化的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All applicable internal methods accept a hash code as an argument (as normally supplied from a public method), allowing them to call each other without recomputing user hashCodes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081548Z" creationid="pingfangx" creationdate="20191026T081548Z">
+        <seg>所有适用的内部方法都接受散列码作为参数（通常由公共方法提供），允许它们互相调用而不用重新计算 hash。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3798,6 +4006,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An instance of &lt;t0&gt;HashMap&lt;/t0&gt; has two parameters that affect its performance: &lt;i1&gt;initial capacity&lt;/i1&gt; and &lt;i2&gt;load factor&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T132358Z" creationid="pingfangx" creationdate="20191025T132358Z">
+        <seg>&lt;t0&gt;HashMap&lt;/t0&gt; 的实例有两个参数影响其性能：&lt;i1&gt;初始容量&lt;/i1&gt; 和&lt;i2&gt;加载因子&lt;/i2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An instance of one of these subclasses encapsulates a single reference to a particular object, called the &lt;e3&gt;referent&lt;/e3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T085642Z" creationid="pingfangx" creationdate="20191012T085642Z">
@@ -4158,10 +4374,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And when they become too small (due to removal or resizing) they are converted back to plain bins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T080924Z" creationid="pingfangx" creationdate="20191026T080924Z">
+        <seg>当它们变得太小时（由于移除或调整大小），它们被转换回普通 bins。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android 6.0 r1 —</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T114411Z" creationid="pingfangx" creationdate="20191011T114411Z">
         <seg>Android 6.0 r1 —</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android-changed: Detect changes to modCount early.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095135Z" creationid="pingfangx" creationdate="20191026T095135Z">
+        <seg>Android 的更改：及早检测 modcount 的更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4486,6 +4718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a general rule, the default load factor (.75) offers a good tradeoff between time and space costs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134437Z" creationid="pingfangx" creationdate="20191025T134437Z">
+        <seg>通常，默认加载因子 (.75) 在时间和空间成本上寻求一种折衷。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As a result, the subprocess may inherit additional environment variable settings beyond those in the process builder's &lt;c0&gt;&lt;a1&gt;environment()&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T080340Z" creationid="pingfangx" creationdate="20191014T080340Z">
@@ -4606,6 +4846,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Associates the specified value with the specified key in this map (optional operation).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140102Z" creationid="pingfangx" creationdate="20191025T140102Z">
+        <seg>在此映射中关联指定值与指定键(可选操作)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Associates the specified value with the specified key in this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135745Z" creationid="pingfangx" creationdate="20191025T135745Z">
+        <seg>在此映射中关联指定值与指定键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At any point in time it contains some particular sequence of characters, but the length and content of the sequence can be changed through certain method calls.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T063816Z" creationid="pingfangx" creationdate="20191014T063816Z">
@@ -4694,6 +4950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attempts to compute a mapping for the specified key and its current mapped value (or &lt;c0&gt;null&lt;/c0&gt; if there is no current mapping).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140156Z" creationid="pingfangx" creationdate="20191025T140156Z">
+        <seg>尝试计算用于指定键和其当前映射值(或 &lt;c0&gt;null&lt;/c0&gt; 如果没有当前映射)的映射。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attempts to read characters into the specified character buffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T103614Z" creationid="pingfangx" creationdate="20191014T103614Z">
@@ -4766,6 +5030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basic hash bin node, used for most entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T101537Z" creationid="pingfangx" creationdate="20191026T082606Z">
+        <seg>基本的哈希 bin 节点，用于大多数 entry。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basic thread blocking primitives for creating locks and other synchronization classes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T123036Z" creationid="pingfangx" creationdate="20191025T123036Z">
@@ -4778,6 +5050,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T020938Z" creationid="pingfangx" creationdate="20191014T020938Z">
         <seg>因为 String 对象是不可变的，所以可以共享。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because TreeNodes are about twice the size of regular nodes, we use them only when bins contain enough nodes to warrant use (see TREEIFY_THRESHOLD).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T080856Z" creationid="pingfangx" creationdate="20191026T080856Z">
+        <seg>由于 TreeNodes 大约是常规节点大小的两倍，因此我们仅在 bins 包含足够的节点以保证使用时才使用它们（请参阅 TREEIFY_THRESHOLD ）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because many common sets of hashes are already reasonably distributed (so don't benefit from spreading), and because we use trees to handle large sets of collisions in bins, we just XOR some shifted bits in the cheapest possible way to reduce systematic lossage, as well as to incorporate impact of the highest bits that would otherwise never be used in index calculations because of table bounds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083343Z" creationid="pingfangx" creationdate="20191026T083054Z">
+        <seg>因为许多常见的散列集合已经合理分布（所以不能从扩散中受益），并且因为我们使用树来处理 bins 中的大量碰撞。我们只以最便宜的方式对一些位移进行异或运算，以减少系统损失， 以及合并最高位的影响，这些最高位由于表边界而不会用于索引计算。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4822,6 +5110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because the table uses power-of-two masking, sets of hashes that vary only in bits above the current mask will always collide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082922Z" creationid="pingfangx" creationdate="20191026T082922Z">
+        <seg>由于表使用 2 的幂级别的掩码，所以只在当前掩码之上的位上发生变化的散列总是会发生冲突。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Being active simply means that a thread has been started and has not yet been stopped.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T154659Z" creationid="pingfangx" creationdate="20191013T154659Z">
@@ -4842,6 +5138,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T151326Z" creationid="pingfangx" creationdate="20191013T151326Z">
         <seg>除了个别参数的准确性之外，维护不同参数的方法之间的正确关系也很重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bins are converted to trees when adding an element to a bin with at least this many nodes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082430Z" creationid="pingfangx" creationdate="20191026T082430Z">
+        <seg>将元素添加到 bin 中时，如果 bin 至少包含该数量的结点时，该 bin 将转换为树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bins of TreeNodes may be traversed and used like any others, but additionally support faster lookup when overpopulated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T080018Z" creationid="pingfangx" creationdate="20191026T080018Z">
+        <seg>TreeNodes 的 bin 可以像任何其他的一样被遍历和使用，但是数量过多时还支持更快的查找。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4898,6 +5210,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T122827Z" creationid="pingfangx" creationdate="20191025T122827Z">
         <seg>但程序员可以创建自己的、适用于非标准要求的实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But the only known cases stem from poor user programming practices that are already so slow that this makes little difference.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T080811Z" creationid="pingfangx" creationdate="20191026T080811Z">
+        <seg>但是，唯一已知的情况源于糟糕的用户编程实践，这些实践已经非常缓慢，使得几乎没有区别）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5046,6 +5366,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Callbacks to allow LinkedHashMap post-actions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100229Z" creationid="pingfangx" creationdate="20191026T100229Z">
+        <seg>回调允许的 LinkedHashMap 后操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called by clone and readObject.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100201Z" creationid="pingfangx" creationdate="20191026T100201Z">
+        <seg>由 clone 和 readObject 调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Called by the Java Virtual Machine when a thread in this thread group stops because of an uncaught exception, and the thread does not have a specific &lt;c0&gt;&lt;a1&gt;Thread.UncaughtExceptionHandler&lt;/a1&gt;&lt;/c0&gt; installed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T093334Z" creationid="pingfangx" creationdate="20191014T093334Z">
@@ -5058,6 +5394,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T095139Z" creationid="pingfangx" creationdate="20191012T095139Z">
         <seg>当垃圾回收器确定不存在对该对象的更多引用时，由对象的垃圾回收器调用此方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called only from resize; see above discussion about split bits and indices.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100950Z" creationid="pingfangx" creationdate="20191026T100950Z">
+        <seg>只能从 resize 调用; 请参阅上面关于分割位和索引的讨论。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called only from writeObject, to ensure compatible ordering.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100238Z" creationid="pingfangx" creationdate="20191026T100238Z">
+        <seg>仅从 writeObject 调用，以确保排序兼容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5082,6 +5434,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T065326Z" creationid="pingfangx" creationdate="20191014T065326Z">
         <seg>调用此方法可能影响后续调用 capacity() 方法时返回的值（但不要求如此）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calls find for root node.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100540Z" creationid="pingfangx" creationdate="20191026T100540Z">
+        <seg>对根节点调用 find 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5390,6 +5750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cloning and serialization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095313Z" creationid="pingfangx" creationdate="20191026T095313Z">
+        <seg>克隆和序列化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Code generators are encouraged to use platform-specific native libraries or microprocessor instructions, where available, to provide higher-performance implementations of &lt;c2&gt;Math&lt;/c2&gt; methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T151209Z" creationid="pingfangx" creationdate="20191013T151209Z">
@@ -5410,6 +5778,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T114424Z" creationid="pingfangx" creationdate="20191011T114424Z">
         <seg>Company / developer name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compares the specified object with this map for equality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140032Z" creationid="pingfangx" creationdate="20191025T140032Z">
+        <seg>比较指定对象与此映射的相等性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5654,6 +6030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Computes key.hashCode() and spreads (XORs) higher bits of hash to lower.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082833Z" creationid="pingfangx" creationdate="20191026T082833Z">
+        <seg>计算 key.hashCode() 并将高位散列扩散（XORs）到低位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Computes the child's initial value for this inheritable thread-local variable as a function of the parent's value at the time the child thread is created.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T094734Z" creationid="pingfangx" creationdate="20191014T094734Z">
@@ -5834,6 +6218,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T153823Z" creationid="pingfangx" creationdate="20191014T153823Z">
         <seg>构造具有指定详细消息的新 &lt;t0&gt;AnnotationFormatError&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Constructs a new &lt;t0&gt;HashMap&lt;/t0&gt; with the same mappings as the specified &lt;t1&gt;Map&lt;/t1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135551Z" creationid="pingfangx" creationdate="20191025T135551Z">
+        <seg>构造一个映射关系与指定 &lt;t0&gt;Map&lt;/t0&gt; 相同的新 &lt;t1&gt;HashMap&lt;/t1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6198,6 +6590,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Constructs an empty &lt;t0&gt;HashMap&lt;/t0&gt; with the default initial capacity (16) and the default load factor (0.75).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135548Z" creationid="pingfangx" creationdate="20191025T135548Z">
+        <seg>构造一个具有默认初始容量 (16) 和默认加载因子 (0.75) 的空 &lt;t0&gt;HashMap&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Constructs an empty &lt;t0&gt;HashMap&lt;/t0&gt; with the specified initial capacity and load factor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135523Z" creationid="pingfangx" creationdate="20191025T135523Z">
+        <seg>构造一个带指定初始容量和加载因子的空 &lt;t0&gt;HashMap&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Constructs an empty &lt;t0&gt;HashMap&lt;/t0&gt; with the specified initial capacity and the default load factor (0.75).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135526Z" creationid="pingfangx" creationdate="20191025T135526Z">
+        <seg>构造一个带指定初始容量和默认加载因子 (0.75) 的空 &lt;t0&gt;HashMap&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Contains the collections framework, legacy collection classes, event model, date and time facilities, internationalization, and miscellaneous utility classes (a string tokenizer, a random-number generator, and a bit array).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T034323Z" creationid="pingfangx" creationdate="20191012T034323Z">
@@ -6406,6 +6822,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copies all of the mappings from the specified map to this map (optional operation).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140106Z" creationid="pingfangx" creationdate="20191025T140106Z">
+        <seg>从指定映射中将所有映射关系复制到此映射中（可选操作）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copies all of the mappings from the specified map to this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135832Z" creationid="pingfangx" creationdate="20191025T135832Z">
+        <seg>将指定映射的所有映射关系复制到此映射中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copies an array from the specified source array, beginning at the specified position, to the specified position of the destination array.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T154126Z" creationid="pingfangx" creationdate="20191013T154047Z">
@@ -6466,6 +6898,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T123648Z" creationid="pingfangx" creationdate="20191025T123648Z">
         <seg>核心和最大池大小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a regular (non-tree) node</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100053Z" creationid="pingfangx" creationdate="20191026T100053Z">
+        <seg>创建一个常规(非树)节点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a tree bin node</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100124Z" creationid="pingfangx" creationdate="20191026T100124Z">
+        <seg>创建树 bin 节点</seg>
       </tuv>
     </tu>
     <tu>
@@ -6642,6 +7090,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T124116Z" creationid="pingfangx" creationdate="20191025T124116Z">
         <seg>创建新线程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DEFAULT_INITIAL_CAPACITY.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T084335Z" creationid="pingfangx" creationdate="20191026T084335Z">
+        <seg>或者零表示 DEFAULT_INITIAL_CAPACITY。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -7470,6 +7926,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ensures that the given root is the first node of its bin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100451Z" creationid="pingfangx" creationdate="20191026T100442Z">
+        <seg>确保给定的根是它的 bin 的第一个节点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entry for Tree bins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100256Z" creationid="pingfangx" creationdate="20191026T100256Z">
+        <seg>Tree bins 的条目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enum constants are only comparable to other enum constants of the same enum type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T094157Z" creationid="pingfangx" creationdate="20191014T094157Z">
@@ -7694,6 +8166,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exceptions thrown by the action are relayed to the caller.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140705Z" creationid="pingfangx" creationdate="20191025T140705Z">
+        <seg>操作引发的异常将转达到调用方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exceptions thrown by the function are relayed to the caller.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141320Z" creationid="pingfangx" creationdate="20191025T141320Z">
+        <seg>函数引发的异常将转达到调用方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Executes the given command at some time in the future.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T130711Z" creationid="pingfangx" creationdate="20191025T130711Z">
@@ -7814,6 +8302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Extends LinkedHashMap.Entry (which in turn extends Node) so can be used as extension of either regular or linked node.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100316Z" creationid="pingfangx" creationdate="20191026T100316Z">
+        <seg>扩展 LinkedHashMap.Entry(进而扩展 Node)，因此可以用作常规节点或链接节点的扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Factory and utility methods for &lt;c0&gt;&lt;a1&gt;Executor&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;ExecutorService&lt;/a3&gt;&lt;/c2&gt;, &lt;c4&gt;&lt;a5&gt;ScheduledExecutorService&lt;/a5&gt;&lt;/c4&gt;, &lt;c6&gt;&lt;a7&gt;ThreadFactory&lt;/a7&gt;&lt;/c6&gt;, and &lt;c8&gt;&lt;a9&gt;Callable&lt;/a9&gt;&lt;/c8&gt; classes defined in this package.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T114126Z" creationid="pingfangx" creationdate="20191025T114126Z">
@@ -7826,6 +8322,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T115613Z" creationid="pingfangx" creationdate="20191025T115613Z">
         <seg>用于创建新的 &lt;c0&gt;&lt;a1&gt;ForkJoinWorkerThread&lt;/a1&gt;&lt;/c0&gt; 的工厂。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fail-fast iterators throw &lt;t0&gt;ConcurrentModificationException&lt;/t0&gt; on a best-effort basis.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134955Z" creationid="pingfangx" creationdate="20191025T134955Z">
+        <seg>快速失败迭代器尽最大努力抛出 &lt;t0&gt;ConcurrentModificationException&lt;/t0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7942,6 +8446,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finds the node starting at root p with the given hash and key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100514Z" creationid="pingfangx" creationdate="20191026T100514Z">
+        <seg>使用给定的 hash 和 key 查找从根 p 开始的节点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Finds the resource with the given name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T073036Z" creationid="pingfangx" creationdate="20191014T073036Z">
@@ -8034,6 +8546,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T113642Z" creationid="pingfangx" creationdate="20191015T113642Z">
         <seg>对于有相同签名的指定接口中任何成员方法集：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For conversion from TreeNodes to plain nodes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100106Z" creationid="pingfangx" creationdate="20191026T100106Z">
+        <seg>用于从 TreeNodes 转换为普通节点</seg>
       </tuv>
     </tu>
     <tu>
@@ -8414,6 +8934,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For treeifyBin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100130Z" creationid="pingfangx" creationdate="20191026T100130Z">
+        <seg>用于 treeifyBin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Forcibly terminates the currently running Java virtual machine.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T153626Z" creationid="pingfangx" creationdate="20191013T153626Z">
@@ -8426,6 +8954,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T152419Z" creationid="pingfangx" creationdate="20191014T152419Z">
         <seg>形式参数的声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Forms tree of the nodes linked from this node.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100722Z" creationid="pingfangx" creationdate="20191026T100722Z">
+        <seg>将从此节点链接的节点转为树形式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8958,6 +9494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hash table based implementation of the &lt;tt&gt;Map&lt;/tt&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T183514Z" creationid="pingfangx" creationdate="20191025T183435Z">
+        <seg>Hash table based implementation of the &lt;tt&gt;Map&lt;/tt&gt; interface.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are brief descriptions of the main components.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T105044Z" creationid="pingfangx" creationdate="20191025T105044Z">
@@ -9002,6 +9546,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T081017Z" creationid="pingfangx" creationdate="20191011T081017Z">
         <seg>高级 API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Higher values decrease the space overhead but increase the lookup cost (reflected in most of the operations of the &lt;t0&gt;HashMap&lt;/t0&gt; class, including &lt;t1&gt;get&lt;/t1&gt; and &lt;t2&gt;put&lt;/t2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134447Z" creationid="pingfangx" creationdate="20191025T134447Z">
+        <seg>加载因子过高虽然减少了空间开销，但同时也增加了查询成本（在大多数 &lt;t0&gt;HashMap&lt;/t0&gt; 类的操作中，包括 &lt;t1&gt;get&lt;/t1&gt; 和 &lt;t2&gt;put&lt;/t2&gt; 操作，都反映了这一点）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Holds cached entrySet().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083816Z" creationid="pingfangx" creationdate="20191026T083816Z">
+        <seg>持有的缓存的 entrySet()。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9062,10 +9622,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, since the vast majority of bins in normal use are not overpopulated, checking for existence of tree bins may be delayed in the course of table methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T080242Z" creationid="pingfangx" creationdate="20191026T080242Z">
+        <seg>然而，大多数情况下 bin 容量不会过大，检查树 bin 的存在可能会延时到 table 方法中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, some classes may not originate from a file; they may originate from other sources, such as the network, or they could be constructed by an application.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T072232Z" creationid="pingfangx" creationdate="20191014T072232Z">
         <seg>然而，有些类可能并非源自一个文件；它们可能源自其他来源（如网络），也可能是由应用程序构造的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, sometimes (currently only upon Iterator.remove), the root might be elsewhere, but can be recovered following parent links (method TreeNode.root()).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081522Z" creationid="pingfangx" creationdate="20191026T081522Z">
+        <seg>但是，有时（当前仅在 Iterator.remove 时）根可能在其他地方，但可以用父链接取得（方法 TreeNode.root()）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9098,6 +9674,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T102050Z" creationid="pingfangx" creationdate="20191011T102050Z">
         <seg>I/O&lt;/a0&gt; 族。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ideally, under random hashCodes, the frequency of nodes in bins follows a Poisson distribution (http://en.wikipedia.org/wiki/Poisson_distribution) with a parameter of about 0.5 on average for the default resizing threshold of 0.75, although with a large variance because of resizing granularity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081040Z" creationid="pingfangx" creationdate="20191026T081040Z">
+        <seg>对于默认的 resizing 阈值 0.75 ，bin 中节点的频率遵循泊松分布（http://en.wikipedia.org/wiki/Poisson_distribution），参数约为 0.5，尽管由于 resizing 粒度会具有很大的变动。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9446,10 +10030,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If many mappings are to be stored in a &lt;t0&gt;HashMap&lt;/t0&gt; instance, creating it with a sufficiently large capacity will allow the mappings to be stored more efficiently than letting it perform automatic rehashing as needed to grow the table.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134515Z" creationid="pingfangx" creationdate="20191025T134515Z">
+        <seg>如果很多映射关系要存储在 &lt;t0&gt;HashMap&lt;/t0&gt; 实例中，则相对于按需执行自动的 rehash 操作以增大表的容量来说，使用足够大的初始容量创建它将使得映射关系能更有效地存储。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no Retention annotation is present on an annotation type declaration, the retention policy defaults to &lt;c0&gt;RetentionPolicy.CLASS&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T152140Z" creationid="pingfangx" creationdate="20191014T152140Z">
         <seg>如果注释类型声明中不存在 Retention 注释，则保留策略默认为 &lt;c0&gt;RetentionPolicy.CLASS&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no such object exists, the map should be "wrapped" using the &lt;a0&gt;Collections#synchronizedMap Collections.synchronizedMap&lt;/a0&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T075316Z" creationid="pingfangx" creationdate="20191026T075316Z">
+        <seg>如果不存在这样的对象，则应该使用 &lt;a0&gt;Collections#synchronizedMap Collections.synchronizedMap&lt;/a0&gt; 方法来“包装”该映射。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no such object exists, the map should be "wrapped" using the &lt;a2&gt;Collections#synchronizedMap Collections.synchronizedMap&lt;/a2&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T051404Z" creationid="pingfangx" creationdate="20191026T051404Z">
+        <seg>如果不存在这样的对象，则应该使用 &lt;a2&gt;Collections#synchronizedMap Collections.synchronizedMap&lt;/a2&gt; 方法来“包装”该映射。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no such object exists, the map should be "wrapped" using the &lt;c2&gt;&lt;a3&gt;Collections.synchronizedMap&lt;/a3&gt;&lt;/c2&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134819Z" creationid="pingfangx" creationdate="20191025T134819Z">
+        <seg>如果不存在这样的对象，则应该使用 &lt;c2&gt;&lt;a3&gt;Collections.synchronizedMap&lt;/a3&gt;&lt;/c2&gt; 方法来“包装”该映射。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9474,6 +10090,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T124234Z" creationid="pingfangx" creationdate="20191025T124234Z">
         <seg>如果没有另外说明，则在同一个 &lt;c2&gt;&lt;a3&gt;ThreadGroup&lt;/a3&gt;&lt;/c2&gt; 中一律使用 &lt;c4&gt;&lt;a5&gt;defaultThreadFactory()&lt;/a5&gt;&lt;/c4&gt; 创建线程，并且这些线程具有相同的 &lt;c6&gt;NORM_PRIORITY&lt;/c6&gt; 优先级和非守护进程状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If null, allocates in accord with initial capacity target held in field threshold.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094512Z" creationid="pingfangx" creationdate="20191026T094436Z">
+        <seg>如果为空，则根据 threshold 中保存的阈值对应的初始容量进行分配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9614,6 +10238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the current tree appears to have too few nodes, the bin is converted back to a plain bin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100826Z" creationid="pingfangx" creationdate="20191026T100826Z">
+        <seg>如果当前树看起来节点太少，则该 bin 将转换回普通 bin。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the declared return type of the interface method is a primitive type, then the value returned by this method must be an instance of the corresponding primitive wrapper class; otherwise, it must be a type assignable to the declared return type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T121154Z" creationid="pingfangx" creationdate="20191015T121154Z">
@@ -9638,6 +10270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the initial capacity is greater than the maximum number of entries divided by the load factor, no rehash operations will ever occur.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134508Z" creationid="pingfangx" creationdate="20191025T134508Z">
+        <seg>如果初始容量大于最大条目数除以加载因子，则不会发生 rehash 操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the internal buffer overflows, it is automatically made larger.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T030439Z" creationid="pingfangx" creationdate="20191014T030439Z">
@@ -9650,6 +10290,62 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T065217Z" creationid="pingfangx" creationdate="20191014T065217Z">
         <seg>如果指定的 &lt;c0&gt;CharSequence&lt;/c0&gt; 的长度小于或等于 0，则返回容量为 &lt;c1&gt;16&lt;/c1&gt; 的空缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the map is modified while an iteration over the collection is in progress (except through the iterator's own &lt;t1&gt;remove&lt;/t1&gt; operation), the results of the iteration are undefined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095157Z" creationid="pingfangx" creationdate="20191026T095157Z">
+        <seg>如果在对 collection 进行迭代的同时修改了映射（通过迭代器自己的 &lt;t1&gt;remove&lt;/t1&gt; 操作除外），则迭代结果是不确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the map is modified while an iteration over the collection is in progress (except through the iterator's own &lt;t2&gt;remove&lt;/t2&gt; operation), the results of the iteration are undefined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141344Z" creationid="pingfangx" creationdate="20191025T141344Z">
+        <seg>如果在对 collection 进行迭代的同时修改了映射（通过迭代器自己的 &lt;t2&gt;remove&lt;/t2&gt; 操作除外），则迭代结果是不确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the map is modified while an iteration over the set is in progress (except through the iterator's own &lt;t1&gt;remove&lt;/t1&gt; operation), the results of the iteration are undefined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095038Z" creationid="pingfangx" creationdate="20191026T095038Z">
+        <seg>如果在对 set 进行迭代的同时修改了映射（通过迭代器自己的 &lt;t1&gt;remove&lt;/t1&gt; 操作除外），则迭代结果是不确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the map is modified while an iteration over the set is in progress (except through the iterator's own &lt;t1&gt;remove&lt;/t1&gt; operation, or through the &lt;t2&gt;setValue&lt;/t2&gt; operation on a map entry returned by the iterator) the results of the iteration are undefined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095210Z" creationid="pingfangx" creationdate="20191026T095210Z">
+        <seg>如果在对 set 进行迭代的同时修改了映射（通过迭代器自己的 &lt;t1&gt;remove&lt;/t1&gt; 操作，或者通过在该迭代器返回的映射项上执行 &lt;t2&gt;setValue&lt;/t2&gt; 操作除外），则迭代结果是不确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the map is modified while an iteration over the set is in progress (except through the iterator's own &lt;t2&gt;remove&lt;/t2&gt; operation), the results of the iteration are undefined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141113Z" creationid="pingfangx" creationdate="20191025T141113Z">
+        <seg>如果在对 set 进行迭代的同时修改了映射（通过迭代器自己的 &lt;t2&gt;remove&lt;/t2&gt; 操作除外），则迭代结果是不确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the map is modified while an iteration over the set is in progress (except through the iterator's own &lt;t2&gt;remove&lt;/t2&gt; operation, or through the &lt;t3&gt;setValue&lt;/t3&gt; operation on a map entry returned by the iterator) the results of the iteration are undefined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140625Z" creationid="pingfangx" creationdate="20191025T140625Z">
+        <seg>如果在对 set 进行迭代的同时修改了映射（通过迭代器自己的 &lt;t2&gt;remove&lt;/t2&gt; 操作，或者通过在该迭代器返回的映射项上执行 &lt;t3&gt;setValue&lt;/t3&gt; 操作除外），则迭代结果是不确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the map previously contained a mapping for the key, the old value is replaced.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141121Z" creationid="pingfangx" creationdate="20191025T141121Z">
+        <seg>如果该映射以前包含了一个该键的映射关系，则旧值被替换。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9698,6 +10394,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T103556Z" creationid="pingfangx" creationdate="20191015T103556Z">
         <seg>如果 &lt;c0&gt;index&lt;/c0&gt; 参数为负，或者它大于等于指定数组的长度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the specified key is not already associated with a value (or is mapped to &lt;c0&gt;null&lt;/c0&gt;) associates it with the given value and returns &lt;c1&gt;null&lt;/c1&gt;, else returns the current value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140355Z" creationid="pingfangx" creationdate="20191025T140355Z">
+        <seg>如果指定的键尚未与值关联(或映射到 &lt;c0&gt;null&lt;/c0&gt;)，则将其与给定值关联并返回 &lt;c1&gt;null&lt;/c1&gt;，否则返回当前值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the specified key is not already associated with a value (or is mapped to &lt;c0&gt;null&lt;/c0&gt;), attempts to compute its value using the given mapping function and enters it into this map unless &lt;c1&gt;null&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140240Z" creationid="pingfangx" creationdate="20191025T140240Z">
+        <seg>如果指定的键尚未与值关联(或映射到 &lt;c0&gt;null&lt;/c0&gt;)，则尝试使用给定的映射函数计算其值并将其输入此映射，除非 &lt;c1&gt;null&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140344Z" creationid="pingfangx" creationdate="20191025T140344Z">
+        <seg>如果指定的键尚未与值关联或与 null 关联，请将其与给定的非 null 值关联。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9770,6 +10490,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T082617Z" creationid="pingfangx" creationdate="20191014T082617Z">
         <seg>如果要恢复目标线程的线程在调用 &lt;c0&gt;resume&lt;/c0&gt; 之前试图锁定此监视器，则会导致死锁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the value for the specified key is present and non-null, attempts to compute a new mapping given the key and its current mapped value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140254Z" creationid="pingfangx" creationdate="20191025T140254Z">
+        <seg>如果指定键的值存在且不为空，则尝试计算给定键及其当前映射值的新映射。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9950,6 +10678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ignoring variance, the expected occurrences of list size k are (exp(-0.5) * pow(0.5, k) / factorial(k)).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081116Z" creationid="pingfangx" creationdate="20191026T081116Z">
+        <seg>忽略变动，大小为 k 的列表的预期出现为 (exp(-0.5) * pow(0.5, k) / factorial(k))，前几个值为：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Immutable objects describing settings such as rounding mode and digit precision for the numerical operations provided by class &lt;c0&gt;&lt;a1&gt;BigDecimal&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T070654Z" creationid="pingfangx" creationdate="20191011T070654Z">
@@ -9982,6 +10718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implementation notes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T075359Z" creationid="pingfangx" creationdate="20191026T075359Z">
+        <seg>实现说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Implementations make a "best effort" to detect time-outs as soon as possible after they occur.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T111412Z" creationid="pingfangx" creationdate="20191025T111412Z">
@@ -9994,6 +10738,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T065851Z" creationid="pingfangx" creationdate="20191012T065851Z">
         <seg>实现这个接口允许对象成为 "for-each 循环" 语句的目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implements Map.get and related methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090801Z" creationid="pingfangx" creationdate="20191026T090801Z">
+        <seg>实现 Map.get 和相关方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implements Map.put and related methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T092929Z" creationid="pingfangx" creationdate="20191026T092929Z">
+        <seg>实现 Map.put 和相关的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implements Map.putAll and Map constructor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090521Z" creationid="pingfangx" creationdate="20191026T090521Z">
+        <seg>实现 Map.putAll 和 Map 构造函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implements Map.remove and related methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094841Z" creationid="pingfangx" creationdate="20191026T094841Z">
+        <seg>实现 Map.remove 和相关的方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -10414,6 +11190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In usages with well-distributed user hashCodes, tree bins are rarely used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081004Z" creationid="pingfangx" creationdate="20191026T081004Z">
+        <seg>在具有分布良好的用户散列码的使用中，很少使用 tree bins。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In which case, most methods, when called with an Inet6Address will throw an Exception.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T080454Z" creationid="pingfangx" creationdate="20191011T080454Z">
@@ -10530,6 +11314,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T022433Z" creationid="pingfangx" creationdate="20191014T022433Z">
         <seg>初始化一个新创建的 &lt;c0&gt;String&lt;/c0&gt; 对象，使其表示一个与参数相同的字符序列；换句话说，新创建的字符串是该参数字符串的副本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Initializes or doubles table size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094425Z" creationid="pingfangx" creationdate="20191026T094425Z">
+        <seg>初始化或加倍表的大小。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10886,6 +11678,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It does not support the &lt;t7&gt;add&lt;/t7&gt; or &lt;t8&gt;addAll&lt;/t8&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095053Z" creationid="pingfangx" creationdate="20191026T095053Z">
+        <seg>它不支持 &lt;t7&gt;add&lt;/t7&gt; 或 &lt;t8&gt;addAll&lt;/t8&gt; 操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It does not support the &lt;t8&gt;add&lt;/t8&gt; or &lt;t9&gt;addAll&lt;/t9&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141116Z" creationid="pingfangx" creationdate="20191025T141116Z">
+        <seg>它不支持 &lt;t8&gt;add&lt;/t8&gt; 或 &lt;t9&gt;addAll&lt;/t9&gt; 操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It does not support the &lt;t9&gt;add&lt;/t9&gt; or &lt;t10&gt;addAll&lt;/t10&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140631Z" creationid="pingfangx" creationdate="20191025T140631Z">
+        <seg>它不支持 &lt;t9&gt;add&lt;/t9&gt; 或 &lt;t10&gt;addAll&lt;/t10&gt; 操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It follows immediately from the contract for &lt;t0&gt;compareTo&lt;/t0&gt; that the quotient is an &lt;i1&gt;equivalence relation&lt;/i1&gt; on &lt;t2&gt;C&lt;/t2&gt;, and that the natural ordering is a &lt;i3&gt;total order&lt;/i3&gt; on &lt;t4&gt;C&lt;/t4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T102140Z" creationid="pingfangx" creationdate="20191014T102140Z">
@@ -11150,6 +11966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Iteration over collection views requires time proportional to the "capacity" of the &lt;t2&gt;HashMap&lt;/t2&gt; instance (the number of buckets) plus its size (the number of key-value mappings).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T131753Z" creationid="pingfangx" creationdate="20191025T131753Z">
+        <seg>迭代 collection 视图所需的时间与 &lt;t2&gt;HashMap&lt;/t2&gt; 实例的“容量”（桶的数量）及其大小（键-值映射关系数）成比例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Its functionality has been replaced by &lt;c1&gt;java.security.KeyStore&lt;/c1&gt;, the &lt;c2&gt;java.security.cert&lt;/c2&gt; package, and &lt;c3&gt;java.security.Principal&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T032236Z" creationid="pingfangx" creationdate="20191012T032236Z">
@@ -11246,6 +12070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>LinkedHashMap support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095915Z" creationid="pingfangx" creationdate="20191026T095915Z">
+        <seg>LinkedHashMap 支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Links the specified class.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T073423Z" creationid="pingfangx" creationdate="20191014T073423Z">
@@ -11314,6 +12146,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T155942Z" creationid="pingfangx" creationdate="20191014T155942Z">
         <seg>LruCache 有一个有效的逐出策略，允许用户调整分配了多少内存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MUST be a power of two &lt;= 1&lt;&lt;30.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082318Z" creationid="pingfangx" creationdate="20191026T082318Z">
+        <seg>必须是 2 的幂，&lt;= 1&lt;&lt;30。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11486,6 +12326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>More formally, if this map contains a mapping from a key &lt;c0&gt;k&lt;/c0&gt; to a value &lt;c1&gt;v&lt;/c1&gt; such that &lt;c2&gt;(key==null ?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140858Z" creationid="pingfangx" creationdate="20191025T140731Z">
+        <seg>更确切地讲，如果此映射包含一个从 &lt;c0&gt;k&lt;/c0&gt; 键到 &lt;c1&gt;v&lt;/c1&gt; 值的映射关系满足 &lt;c2&gt;(key==null ? </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More information about annotation types can be found in section 9.6 of &lt;c1&gt;The Java™ Language Specification&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T094245Z" creationid="pingfangx" creationdate="20191012T094245Z">
@@ -11558,6 +12406,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most internal methods also accept a "tab" argument, that is normally the current table, but may be a new or old one when resizing or converting.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081640Z" creationid="pingfangx" creationdate="20191026T081640Z">
+        <seg>大多数内部方法也接受一个 “tab” 参数，通常是当前表，但在调整大小或转换时可能是新的或旧的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most methods try to use normal bins, but relay to TreeNode methods when applicable (simply by checking instanceof a node).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T075819Z" creationid="pingfangx" creationdate="20191026T075819Z">
+        <seg>大多数方法尝试使用普通的 bin，但在适用时会转到 TreeNode 方法(只需要用 instanceof 检查节点)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most programmers will have no use for this method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T094526Z" creationid="pingfangx" creationdate="20191014T094526Z">
@@ -11594,6 +12458,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T081950Z" creationid="pingfangx" creationdate="20191015T081950Z">
         <seg>可以在运行时将多个对象实例化，以表示一个给定的类型变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nearly all other internal methods are also package-protected but are declared final, so can be used by LinkedHashMap, view classes, and HashSet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100003Z" creationid="pingfangx" creationdate="20191026T100003Z">
+        <seg>几乎所有其他的内部方法也被封装保护，但被声明为 final，因此可以被 LinkedHashMap，视图类和 HashSet 使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11750,6 +12622,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that AbstractMap fields are used for keySet() and values().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083904Z" creationid="pingfangx" creationdate="20191026T083904Z">
+        <seg>请注意，AbstractMap 的字段用于 keySet() 和 values()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that all arrays are considered to implement the interface &lt;c4&gt;Cloneable&lt;/c4&gt; and that the return type of the &lt;c5&gt;clone&lt;/c5&gt; method of an array type &lt;c6&gt;T[]&lt;/c6&gt; is &lt;c7&gt;T[]&lt;/c7&gt; where T is any reference or primitive type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T135827Z" creationid="pingfangx" creationdate="20191014T135827Z">
@@ -11854,6 +12734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that the fail-fast behavior of an iterator cannot be guaranteed as it is, generally speaking, impossible to make any hard guarantees in the presence of unsynchronized concurrent modification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134951Z" creationid="pingfangx" creationdate="20191025T134951Z">
+        <seg>注意，迭代器的快速失败行为不能得到保证，一般来说，存在非同步的并发修改时，不可能作出任何坚决的保证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that the order of the specified proxy interfaces is significant: two requests for a proxy class with the same combination of interfaces but in a different order will result in two distinct proxy classes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T113720Z" creationid="pingfangx" creationdate="20191015T113720Z">
@@ -11882,6 +12770,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T151903Z" creationid="pingfangx" creationdate="20191014T151903Z">
         <seg>注意，如果使用注释类型注释类以外的任何事物，此元注释类型都是无效的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that using many keys with the same &lt;c1&gt;hashCode()&lt;/c1&gt; is a sure way to slow down performance of any hash table.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T051314Z" creationid="pingfangx" creationdate="20191026T051314Z">
+        <seg>请注意，使用多个具有相同 &lt;c1&gt;hashCode()&lt;/c1&gt; 的键肯定会降低任何哈希表的性能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12126,6 +13022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise, because we are using power-of-two expansion, the elements from each bin must either stay at same index, or move with a power of two offset in the new table.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094622Z" creationid="pingfangx" creationdate="20191026T094622Z">
+        <seg>否则，因为我们正在使用 2 次幂的扩展，所以每个桶中的元素都必须保持相同的索引，或者在新表中以 2 的幂的偏移量移动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise, one of the methods must have a return type that is assignable to all of the return types of the rest of the methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T113653Z" creationid="pingfangx" creationdate="20191015T113653Z">
@@ -12186,6 +13090,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T104134Z" creationid="pingfangx" creationdate="20191015T104134Z">
         <seg>覆盖方法的声明类(同 declaringClass 除非 declaringClass 是一个代理类)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Overrides of JDK8 Map extension methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095228Z" creationid="pingfangx" creationdate="20191026T095228Z">
+        <seg>JDK8 映射扩展方法的重写</seg>
       </tuv>
     </tu>
     <tu>
@@ -12290,6 +13202,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T103359Z" creationid="pingfangx" creationdate="20191014T103359Z">
         <seg>对 &lt;c0&gt;Iterable&lt;/c0&gt; 的每个元素执行给定的操作，直到处理完所有元素或操作引发异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Performs the given action for each entry in this map until all entries have been processed or the action throws an exception.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135632Z" creationid="pingfangx" creationdate="20191025T135632Z">
+        <seg>对该映射中的每个条目执行给定操作，直到所有条目都已处理或该操作引发异常。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12598,6 +13518,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Read and ignore number of buckets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095506Z" creationid="pingfangx" creationdate="20191026T095506Z">
+        <seg>读取并忽略存储桶数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Read in the threshold (ignored), loadfactor, and any hidden stuff</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095458Z" creationid="pingfangx" creationdate="20191026T095458Z">
+        <seg>读取阈值(忽略)、加载因子和任何隐藏的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Read number of mappings (size)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095511Z" creationid="pingfangx" creationdate="20191026T095511Z">
+        <seg>读取映射数(大小)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Read the keys and values, and put the mappings in the HashMap</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095703Z" creationid="pingfangx" creationdate="20191026T095703Z">
+        <seg>读取键和值，并将映射放到 HashMap 中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reads text from a character-input stream, buffering characters so as to provide for the efficient reading of characters, arrays, and lines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191010T094626Z" creationid="pingfangx" creationdate="20191010T094626Z">
@@ -12626,6 +13578,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T154508Z" creationid="pingfangx" creationdate="20191013T154508Z">
         <seg>重新分配“标准”输出流。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reconstitute the &lt;c0&gt;HashMap&lt;/c0&gt; instance from a stream (i.e., deserialize it).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095451Z" creationid="pingfangx" creationdate="20191026T095451Z">
+        <seg>从流中重建 &lt;c0&gt;HashMap&lt;/c0&gt; 实例(即反序列化它)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recursive invariant check</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T101107Z" creationid="pingfangx" creationdate="20191026T101107Z">
+        <seg>递归不变检查</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Red-black tree methods, all adapted from CLR</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T101059Z" creationid="pingfangx" creationdate="20191026T101059Z">
+        <seg>红黑树方法，全部改编自 CLR</seg>
       </tuv>
     </tu>
     <tu>
@@ -12702,6 +13678,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Relink into lo and hi lists, preserving order</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T101045Z" creationid="pingfangx" creationdate="20191026T101045Z">
+        <seg>重新链接到 lo 和 hi 列表，保持顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removes all of the mappings from this map (optional operation).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140001Z" creationid="pingfangx" creationdate="20191025T140001Z">
+        <seg>从此映射中移除所有映射关系（可选操作）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removes all of the mappings from this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135555Z" creationid="pingfangx" creationdate="20191025T135555Z">
+        <seg>从此映射中移除所有映射关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Removes the &lt;c0&gt;char&lt;/c0&gt; at the specified position in this sequence.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T033557Z" creationid="pingfangx" creationdate="20191014T033557Z">
@@ -12722,6 +13722,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T100744Z" creationid="pingfangx" creationdate="20191014T100744Z">
         <seg>移除此线程局部变量当前线程的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removes the entry for the specified key only if it is currently mapped to the specified value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140404Z" creationid="pingfangx" creationdate="20191025T140404Z">
+        <seg>仅当指定项当前映射到指定值时，才删除该项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removes the given node, that must be present before this call.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100757Z" creationid="pingfangx" creationdate="20191026T100757Z">
+        <seg>删除给定的节点，该节点必须在此调用之前存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removes the mapping for a key from this map if it is present (optional operation).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140119Z" creationid="pingfangx" creationdate="20191025T140119Z">
+        <seg>如果存在一个键的映射关系，则将其从此映射中移除（可选操作）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removes the mapping for the specified key from this map if present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135835Z" creationid="pingfangx" creationdate="20191025T135835Z">
+        <seg>从此映射中移除指定键的映射关系（如果存在）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12782,6 +13814,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Replaces all linked nodes in bin at index for given hash unless table is too small, in which case resizes instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094759Z" creationid="pingfangx" creationdate="20191026T094759Z">
+        <seg>替换给定 hash 对应的索引的桶中所有的链接节点，除非表太小，在这种情况下用 resize 代替。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135914Z" creationid="pingfangx" creationdate="20191025T135914Z">
+        <seg>将每个项的值替换为对该项调用给定函数的结果，直到处理完所有项或函数引发异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Replaces each substring of this string that matches the given &lt;a0&gt;regular expression&lt;/a0&gt; with the given replacement.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T030044Z" creationid="pingfangx" creationdate="20191014T030044Z">
@@ -12802,6 +13850,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T033905Z" creationid="pingfangx" creationdate="20191014T033905Z">
         <seg>使用给定 &lt;c0&gt;String&lt;/c0&gt; 中的字符替换此序列的子字符串中的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Replaces the entry for the specified key only if currently mapped to the specified value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135857Z" creationid="pingfangx" creationdate="20191025T135857Z">
+        <seg>仅当当前映射到指定值时，才替换指定键的项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Replaces the entry for the specified key only if it is currently mapped to some value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140418Z" creationid="pingfangx" creationdate="20191025T140418Z">
+        <seg>仅当指定项当前映射到某个值时，才替换该项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12890,6 +13954,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T083417Z" creationid="pingfangx" creationdate="20191011T083417Z">
         <seg>表示代理类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reset to initial default state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100151Z" creationid="pingfangx" creationdate="20191026T100151Z">
+        <seg>重置为初始默认状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13230,6 +14302,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns &lt;c0&gt;true&lt;/c0&gt; if this map contains a mapping for the specified key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140009Z" creationid="pingfangx" creationdate="20191025T140009Z">
+        <seg>如果此映射包含对于指定键的映射关系，则返回 &lt;c0&gt;true&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns &lt;c0&gt;true&lt;/c0&gt; if this map contains no key-value mappings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140037Z" creationid="pingfangx" creationdate="20191025T140037Z">
+        <seg>如果此映射不包含键-值映射关系，则返回 &lt;c0&gt;true&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns &lt;c0&gt;true&lt;/c0&gt; if this map maps one or more keys to the specified value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140011Z" creationid="pingfangx" creationdate="20191025T140011Z">
+        <seg>如果此映射将一个或多个键映射到指定值，则返回 &lt;c0&gt;true&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns &lt;c0&gt;true&lt;/c0&gt; if this member was introduced by the compiler; returns &lt;c1&gt;false&lt;/c1&gt; otherwise.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T014910Z" creationid="pingfangx" creationdate="20191015T014910Z">
@@ -13286,6 +14382,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns &lt;t0&gt;true&lt;/t0&gt; if this map contains a mapping for the specified key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135601Z" creationid="pingfangx" creationdate="20191025T135601Z">
+        <seg>如果此映射包含对于指定键的映射关系，则返回 &lt;t0&gt;true&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns &lt;t0&gt;true&lt;/t0&gt; if this map contains no key-value mappings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135638Z" creationid="pingfangx" creationdate="20191025T135638Z">
+        <seg>如果此映射不包含键-值映射关系，则返回 &lt;t0&gt;true&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns &lt;t0&gt;true&lt;/t0&gt; if this map maps one or more keys to the specified value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135603Z" creationid="pingfangx" creationdate="20191025T135603Z">
+        <seg>如果此映射将一个或多个键映射到指定值，则返回 &lt;t0&gt;true&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns &lt;t0&gt;true&lt;/t0&gt; if, and only if, &lt;c1&gt;&lt;a2&gt;length()&lt;/a2&gt;&lt;/c1&gt; is &lt;t3&gt;0&lt;/t3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T025606Z" creationid="pingfangx" creationdate="20191014T025606Z">
@@ -13298,6 +14418,54 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T151744Z" creationid="pingfangx" creationdate="20191013T151744Z">
         <seg>返回欧拉数 &lt;i0&gt;e&lt;/i0&gt; 的 &lt;c1&gt;double&lt;/c1&gt; 次幂的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a &lt;a0&gt;Collection&lt;/a0&gt; view of the values contained in this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095154Z" creationid="pingfangx" creationdate="20191026T095154Z">
+        <seg>返回此映射所包含的值的 &lt;a0&gt;Collection&lt;/a0&gt; 视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a &lt;a0&gt;Set&lt;/a0&gt; view of the keys contained in this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095032Z" creationid="pingfangx" creationdate="20191026T095032Z">
+        <seg>返回此映射中所包含的键的 &lt;a0&gt;Set&lt;/a0&gt; 视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a &lt;a0&gt;Set&lt;/a0&gt; view of the mappings contained in this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095207Z" creationid="pingfangx" creationdate="20191026T095207Z">
+        <seg>返回此映射所包含的映射关系的 &lt;a0&gt;Set&lt;/a0&gt; 视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a &lt;c0&gt;&lt;a1&gt;Collection&lt;/a1&gt;&lt;/c0&gt; view of the values contained in this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135919Z" creationid="pingfangx" creationdate="20191025T135919Z">
+        <seg>返回此映射所包含的值的 &lt;c0&gt;&lt;a1&gt;Collection&lt;/a1&gt;&lt;/c0&gt; 视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a &lt;c0&gt;&lt;a1&gt;Set&lt;/a1&gt;&lt;/c0&gt; view of the keys contained in this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135642Z" creationid="pingfangx" creationdate="20191025T135642Z">
+        <seg>返回此映射中所包含的键的 &lt;c0&gt;&lt;a1&gt;Set&lt;/a1&gt;&lt;/c0&gt; 视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a &lt;c0&gt;&lt;a1&gt;Set&lt;/a1&gt;&lt;/c0&gt; view of the mappings contained in this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135607Z" creationid="pingfangx" creationdate="20191025T135607Z">
+        <seg>返回此映射所包含的映射关系的 &lt;c0&gt;&lt;a1&gt;Set&lt;/a1&gt;&lt;/c0&gt; 视图。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13910,6 +15078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns a list of non-TreeNodes replacing those linked from this node.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100741Z" creationid="pingfangx" creationdate="20191026T100741Z">
+        <seg>返回非 TreeNodes 的列表，替换从此节点链接的列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns a map of stack traces for all live threads.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T081955Z" creationid="pingfangx" creationdate="20191014T081955Z">
@@ -14006,6 +15182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns a power of two size for the given target capacity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083513Z" creationid="pingfangx" creationdate="20191026T083513Z">
+        <seg>为给定的目标容量返回 2 的幂的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns a reference to the currently executing thread object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T081615Z" creationid="pingfangx" creationdate="20191014T081615Z">
@@ -14042,6 +15226,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T132104Z" creationid="pingfangx" creationdate="20191013T132104Z">
         <seg>根据 IEEE 754 浮点“单一格式”位布局，返回指定浮点值的表示形式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a shallow copy of this &lt;t0&gt;AbstractMap&lt;/t0&gt; instance: the keys and values themselves are not cloned.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140006Z" creationid="pingfangx" creationdate="20191025T140006Z">
+        <seg>返回此 &lt;t0&gt;AbstractMap&lt;/t0&gt; 实例的浅表副本：不复制键和值本身。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a shallow copy of this &lt;t0&gt;HashMap&lt;/t0&gt; instance: the keys and values themselves are not cloned.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135558Z" creationid="pingfangx" creationdate="20191025T135558Z">
+        <seg>返回此 &lt;t0&gt;HashMap&lt;/t0&gt; 实例的浅表副本：并不复制键和值本身。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14250,6 +15450,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T150153Z" creationid="pingfangx" creationdate="20191014T150153Z">
         <seg>返回此 annotation 的字符串表示形式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a string representation of this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140123Z" creationid="pingfangx" creationdate="20191025T140123Z">
+        <seg>返回此映射的字符串表示形式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14626,6 +15834,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T154305Z" creationid="pingfangx" creationdate="20191013T154305Z">
         <seg>返回一个不能修改的当前系统环境的字符串映射视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns k.compareTo(x) if x matches kc (k's screened comparable class), else 0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083425Z" creationid="pingfangx" creationdate="20191026T083425Z">
+        <seg>如果 x 匹配 kc(k 的筛选 comparable 类)，则返回 k.compareTo(x)，否则返回 0。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns root of tree containing this node.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100437Z" creationid="pingfangx" creationdate="20191026T100437Z">
+        <seg>返回包含此节点的树的根。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15542,6 +16766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the hash code value for this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140036Z" creationid="pingfangx" creationdate="20191025T140036Z">
+        <seg>返回此映射的哈希码值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the hyperbolic cosine of a &lt;c0&gt;double&lt;/c0&gt; value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T151656Z" creationid="pingfangx" creationdate="20191013T151656Z">
@@ -15970,6 +17202,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T145010Z" creationid="pingfangx" creationdate="20191013T145010Z">
         <seg>返回指定字符序列的文本范围内的 Unicode 代码点数量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the number of key-value mappings in this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135916Z" creationid="pingfangx" creationdate="20191025T135916Z">
+        <seg>返回此映射中的键-值映射关系数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16982,6 +18222,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the value to which the specified key is mapped, or &lt;c0&gt;defaultValue&lt;/c0&gt; if this map contains no mapping for the key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140329Z" creationid="pingfangx" creationdate="20191025T140329Z">
+        <seg>返回到指定键所映射的值，或 &lt;c0&gt;defaultValue&lt;/c0&gt; 如果此映射不包含该键的映射。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the value to which the specified key is mapped, or &lt;c0&gt;null&lt;/c0&gt; if this map contains no mapping for the key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135635Z" creationid="pingfangx" creationdate="20191025T135635Z">
+        <seg>返回指定键所映射的值；如果对于该键来说，此映射不包含任何映射关系，则返回 &lt;c0&gt;null&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns this element's annotation for the specified type if such an annotation is present, else null.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T102417Z" creationid="pingfangx" creationdate="20191013T102417Z">
@@ -17126,6 +18382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns x's Class if it is of the form "class C implements Comparable&lt;c0&gt;", else null.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083220Z" creationid="pingfangx" creationdate="20191026T083126Z">
+        <seg>如果 x 的形式是 "class C implements Comparable&lt;c0&gt;"，则返回 x 的 Class，否则返回 null。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns zero if the specified value has no one-bits in its two's complement binary representation, that is, if it is equal to zero.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T124603Z" creationid="pingfangx" creationdate="20191013T124603Z">
@@ -17154,6 +18418,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T072305Z" creationid="pingfangx" creationdate="20191014T072305Z">
         <seg>示例代码如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Save the state of the &lt;t0&gt;HashMap&lt;/t0&gt; instance to a stream (i.e., serialize it).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095436Z" creationid="pingfangx" creationdate="20191026T095436Z">
+        <seg>将 &lt;t0&gt;HashMap&lt;/t0&gt; 实例的状态保存到流(即序列化它)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17194,6 +18466,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T105140Z" creationid="pingfangx" creationdate="20191025T105140Z">
         <seg>另请参阅 &lt;c0&gt;&lt;a1&gt;java.util.concurrent.locks&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;java.util.concurrent.atomic&lt;/a3&gt;&lt;/c2&gt; 包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See also:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135208Z" creationid="pingfangx" creationdate="20191025T135208Z">
+        <seg>另请参阅：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See below for hook methods defined to be invoked upon insertion, removal and access that allow LinkedHashMap internals to otherwise remain independent of these mechanics.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081831Z" creationid="pingfangx" creationdate="20191026T081831Z">
+        <seg>请参阅下面的钩子方法，这些钩子方法被定义为在插入，移除和访问时被调用，以允许 LinkedHashMap 内部部件保持独立于这些机制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17582,6 +18870,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Should be at least 4 * TREEIFY_THRESHOLD to avoid conflicts between resizing and treeification thresholds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082557Z" creationid="pingfangx" creationdate="20191026T082557Z">
+        <seg>应该至少为 4 * TREEIFY_THRESHOLD 以避免调整大小和树化阈值之间的冲突。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Should be less than TREEIFY_THRESHOLD, and at most 6 to mesh with shrinkage detection under removal.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082521Z" creationid="pingfangx" creationdate="20191026T082521Z">
+        <seg>应该小于 TREEIFY_THRESHOLD ，并且最大为6，以吻合移除期间的收缩检测。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Signals that a malformed string in &lt;a0&gt;modified UTF-8&lt;/a0&gt; format has been read in a data input stream or by any class that implements the data input interface.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T065627Z" creationid="pingfangx" creationdate="20191011T065627Z">
@@ -17766,6 +19070,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Size the table using given load factor only if within</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095640Z" creationid="pingfangx" creationdate="20191026T095526Z">
+        <seg>设置表的大小，仅当在给定的加载因子在</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So instead we swap the tree linkages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100817Z" creationid="pingfangx" creationdate="20191026T100817Z">
+        <seg>所以相反，我们交换树链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So we apply a transform that spreads the impact of higher bits downward.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082939Z" creationid="pingfangx" creationdate="20191026T082939Z">
+        <seg>所以我们应用一个转换，将高位的影响向下扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So, while it is possible to create an URI with any kind of protocol scheme (e.g. &lt;c0&gt;myproto://myhost.mydomain/resource/&lt;/c0&gt;), a similar URL will try to instantiate the handler for the specified protocol; if it doesn't exist an exception will be thrown.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T082858Z" creationid="pingfangx" creationdate="20191011T082858Z">
@@ -17882,6 +19210,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T070718Z" creationid="pingfangx" creationdate="20191011T070718Z">
         <seg>指定其结果不能精确表示的操作的舍入行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Splits nodes in a tree bin into lower and upper tree bins, or untreeifies if now too small.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100938Z" creationid="pingfangx" creationdate="20191026T100938Z">
+        <seg>将树形结构中的节点拆分为较低和较高的树形结构，或者如果现在太小，则将结果拆分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18418,6 +19754,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T111102Z" creationid="pingfangx" creationdate="20191015T111102Z">
         <seg>“由调用处理程序抛出的经过检查的未声明异常”可以在构造的时候提供，并且可以通过 &lt;c0&gt;&lt;a1&gt;getUndeclaredThrowable()&lt;/a1&gt;&lt;/c0&gt; 方法访问，这类对象目前被认为是导致异常的&lt;i2&gt;原因&lt;/i2&gt;，可以通过 &lt;c3&gt;&lt;a4&gt;getCause()&lt;/a4&gt;&lt;/c3&gt; 方法以及前面提到的“遗留方法”访问它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;a3&gt;#containsKey containsKey&lt;/a3&gt; operation may be used to distinguish these two cases.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090746Z" creationid="pingfangx" creationdate="20191026T090746Z">
+        <seg>&lt;a3&gt;#containsKey containsKey&lt;/a3&gt; 操作可用于区分这两种情况。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19110,6 +20454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c3&gt;&lt;a4&gt;containsKey&lt;/a4&gt;&lt;/c3&gt; operation may be used to distinguish these two cases.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140920Z" creationid="pingfangx" creationdate="20191025T140920Z">
+        <seg>可使用 &lt;c3&gt;&lt;a4&gt;containsKey&lt;/a4&gt;&lt;/c3&gt; 操作来区分这两种情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c3&gt;append&lt;/c3&gt; method always adds these characters at the end of the buffer; the &lt;c4&gt;insert&lt;/c4&gt; method adds the characters at a specified point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T063913Z" creationid="pingfangx" creationdate="20191014T063913Z">
@@ -19198,6 +20550,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;i3&gt;capacity&lt;/i3&gt; is the number of buckets in the hash table, and the initial capacity is simply the capacity at the time the hash table is created.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T132403Z" creationid="pingfangx" creationdate="20191025T132403Z">
+        <seg>&lt;i3&gt;容量&lt;/i3&gt; 是哈希表中桶的数量，初始容量只是哈希表在创建时的容量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;i4&gt;load factor&lt;/i4&gt; is a measure of how full the hash table is allowed to get before its capacity is automatically increased.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T132410Z" creationid="pingfangx" creationdate="20191025T132410Z">
+        <seg>&lt;i4&gt;加载因子&lt;/i4&gt; 是哈希表在其容量自动增加之前可以达到多满的一种尺度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;t0&gt;ClassLoader&lt;/t0&gt; class uses a delegation model to search for classes and resources.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T071909Z" creationid="pingfangx" creationdate="20191014T071909Z">
@@ -19226,6 +20594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T101405Z" creationid="pingfangx" creationdate="20191014T101405Z">
         <seg>如果某个类的实例打算接收取自 &lt;c2&gt;&lt;a3&gt;Formatter&lt;/a3&gt;&lt;/c2&gt; 的格式化输出，那么该类必须实现 &lt;t1&gt;Appendable&lt;/t1&gt; 接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;t2&gt;HashMap&lt;/t2&gt; is created with default load factor (0.75) and an initial capacity sufficient to hold the mappings in the specified &lt;t3&gt;Map&lt;/t3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140510Z" creationid="pingfangx" creationdate="20191025T140510Z">
+        <seg>所创建的 &lt;t2&gt;HashMap&lt;/t2&gt; 具有默认加载因子 (0.75) 和足以容纳指定 &lt;t3&gt;Map&lt;/t3&gt; 中映射关系的初始容量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19422,6 +20798,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The action to be performed for each entry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140713Z" creationid="pingfangx" creationdate="20191025T140713Z">
+        <seg>为每个条目执行的操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The added complexity of tree bins is worthwhile in providing worst-case O(log n) operations when keys either have distinct hashes or are orderable, Thus, performance degrades gracefully under accidental or malicious usages in which hashCode() methods return values that are poorly distributed, as well as those in which many keys share a hashCode, so long as they are also Comparable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T080703Z" creationid="pingfangx" creationdate="20191026T080703Z">
+        <seg>tree bins 所增加的复杂度是值得的，当 keys 具有不同的哈希或者可排序时，都提供最坏 O(log n) 的操作。因此，在无意或有意的使用中，如果 hashCode() 返回的值分布不均，或者多个 key 共享一个 hashCode，只要它们是 Comparable，性能的下降也会平滑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The amount of real time, measured in nanoseconds, is given by:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T133413Z" creationid="pingfangx" creationdate="20191014T133413Z">
@@ -19506,6 +20898,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T080049Z" creationid="pingfangx" creationdate="20191014T080049Z">
         <seg>返回的映射的行为取决于系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The bin count threshold for untreeifying a (split) bin during a resize operation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082503Z" creationid="pingfangx" creationdate="20191026T082503Z">
+        <seg>用于 resize 期间对 bin 取消树化（分割）的 bin 数阈值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The bin count threshold for using a tree rather than list for a bin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082415Z" creationid="pingfangx" creationdate="20191026T082415Z">
+        <seg>使用树而不是列表的 bin 数阈值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19814,10 +21222,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The collection is backed by the map, so changes to the map are reflected in the collection, and vice-versa.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141343Z" creationid="pingfangx" creationdate="20191025T141343Z">
+        <seg>该 collection 受映射的支持，所以对映射的更改将反映在该 collection 中，反之亦然。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The collection supports element removal, which removes the corresponding mapping from the map, via the &lt;t2&gt;Iterator.remove&lt;/t2&gt;, &lt;t3&gt;Collection.remove&lt;/t3&gt;, &lt;t4&gt;removeAll&lt;/t4&gt;, &lt;t5&gt;retainAll&lt;/t5&gt; and &lt;t6&gt;clear&lt;/t6&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095202Z" creationid="pingfangx" creationdate="20191026T095202Z">
+        <seg>该 collection 支持元素的移除，通过 &lt;t2&gt;Iterator.remove&lt;/t2&gt;、&lt;t3&gt;Collection.remove&lt;/t3&gt;、&lt;t4&gt;removeAll&lt;/t4&gt;、&lt;t5&gt;retainAll&lt;/t5&gt; 和 &lt;t6&gt;clear&lt;/t6&gt; 操作可从该映射中移除相应的映射关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The collection supports element removal, which removes the corresponding mapping from the map, via the &lt;t3&gt;Iterator.remove&lt;/t3&gt;, &lt;t4&gt;Collection.remove&lt;/t4&gt;, &lt;t5&gt;removeAll&lt;/t5&gt;, &lt;t6&gt;retainAll&lt;/t6&gt; and &lt;t7&gt;clear&lt;/t7&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141347Z" creationid="pingfangx" creationdate="20191025T141347Z">
+        <seg>该 collection 支持元素的移除，通过 &lt;t3&gt;Iterator.remove&lt;/t3&gt;、&lt;t4&gt;Collection.remove&lt;/t4&gt;、&lt;t5&gt;removeAll&lt;/t5&gt;、&lt;t6&gt;retainAll&lt;/t6&gt; 和 &lt;t7&gt;clear&lt;/t7&gt; 操作可从该映射中移除相应的映射关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The common interface extended by all annotation types.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T082757Z" creationid="pingfangx" creationdate="20191012T082757Z">
         <seg>所有 annotation 类型都要扩展的公共接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The concurrent-programming-like SSA-based coding style helps avoid aliasing errors amid all of the twisty pointer operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081904Z" creationid="pingfangx" creationdate="20191026T081904Z">
+        <seg>类似于并发编程的基于 SSA 的编码风格有助于避免所有扭曲的指针操作中的别名错误。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19902,6 +21342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default initial capacity - MUST be a power of two.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082117Z" creationid="pingfangx" creationdate="20191026T082117Z">
+        <seg>默认初始容量 - 必须是 2 的幂。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default priority that is assigned to a thread.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T081359Z" creationid="pingfangx" creationdate="20191014T081359Z">
@@ -19982,6 +21430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The expected number of entries in the map and its load factor should be taken into account when setting its initial capacity, so as to minimize the number of rehash operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134459Z" creationid="pingfangx" creationdate="20191025T134459Z">
+        <seg>在设置初始容量时应该考虑到映射中所需的条目数及其加载因子，以便最大限度地减少 rehash 操作次数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The file and its description are available from the Unicode Consortium at:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T142052Z" creationid="pingfangx" creationdate="20191013T142052Z">
@@ -20014,6 +21470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first values are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081122Z" creationid="pingfangx" creationdate="20191026T081122Z">
+        <seg>第一个值是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following code would then create a thread and start it running:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T081113Z" creationid="pingfangx" creationdate="20191014T081113Z">
@@ -20026,6 +21490,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T035217Z" creationid="pingfangx" creationdate="20191013T035217Z">
         <seg>以下示例使用 &lt;c0&gt;Class&lt;/c0&gt; 对象来显示对象的类名：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following package-protected methods are designed to be overridden by LinkedHashMap, but not by any other subclass.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095953Z" creationid="pingfangx" creationdate="20191026T095953Z">
+        <seg>下面的包保护方法被设计为被 LinkedHashMap 覆盖，但不被其他子类覆盖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20294,6 +21766,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The iterators returned by all of this class's "collection view methods" are &lt;i0&gt;fail-fast&lt;/i0&gt;: if the map is structurally modified at any time after the iterator is created, in any way except through the iterator's own &lt;t1&gt;remove&lt;/t1&gt; method, the iterator will throw a &lt;a2&gt;ConcurrentModificationException&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T051442Z" creationid="pingfangx" creationdate="20191026T051442Z">
+        <seg>由所有此类的“collection 视图方法”所返回的迭代器都是&lt;i0&gt;快速失败&lt;/i0&gt; 的：在迭代器创建之后，如果从结构上对映射进行修改，除非通过迭代器本身的 &lt;t1&gt;remove&lt;/t1&gt; 方法，其他任何时间任何方式的修改，迭代器都将抛出 &lt;a2&gt;ConcurrentModificationException&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The iterators returned by all of this class's "collection view methods" are &lt;i0&gt;fail-fast&lt;/i0&gt;: if the map is structurally modified at any time after the iterator is created, in any way except through the iterator's own &lt;t1&gt;remove&lt;/t1&gt; method, the iterator will throw a &lt;c2&gt;&lt;a3&gt;ConcurrentModificationException&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134930Z" creationid="pingfangx" creationdate="20191025T134930Z">
+        <seg>由所有此类的“collection 视图方法”所返回的迭代器都是&lt;i0&gt;快速失败&lt;/i0&gt; 的：在迭代器创建之后，如果从结构上对映射进行修改，除非通过迭代器本身的 &lt;t1&gt;remove&lt;/t1&gt; 方法，其他任何时间任何方式的修改，迭代器都将抛出 &lt;c2&gt;&lt;a3&gt;ConcurrentModificationException&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The java.net package can be roughly divided in two sections:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T073136Z" creationid="pingfangx" creationdate="20191011T073136Z">
@@ -20306,6 +21794,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T080500Z" creationid="pingfangx" creationdate="20191011T080500Z">
         <seg>java.net 包提供 4 种套接字：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The kc argument caches comparableClassFor(key) upon first use comparing keys.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100530Z" creationid="pingfangx" creationdate="20191026T100530Z">
+        <seg>kc 参数在第一次使用比较键时缓存 comparableClassFor(key)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The key whose presence in this map is to be tested</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140548Z" creationid="pingfangx" creationdate="20191025T140548Z">
+        <seg>要测试其是否在此映射中存在的键</seg>
       </tuv>
     </tu>
     <tu>
@@ -20406,6 +21910,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The load factor for the hash table.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T084359Z" creationid="pingfangx" creationdate="20191026T084359Z">
+        <seg>哈希表的加载因子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The load factor used when none specified in constructor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082345Z" creationid="pingfangx" creationdate="20191026T082345Z">
+        <seg>当没有在构造函数中指定时，所使用的加载因子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The lock returned by method &lt;c0&gt;&lt;a1&gt;readLock()&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T123056Z" creationid="pingfangx" creationdate="20191025T123056Z">
@@ -20434,6 +21954,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T122811Z" creationid="pingfangx" creationdate="20191025T122811Z">
         <seg>主要的实现是 &lt;c2&gt;&lt;a3&gt;ReentrantLock&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The map will be empty after this call returns.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140540Z" creationid="pingfangx" creationdate="20191025T140540Z">
+        <seg>此调用返回后，映射将为空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The maximum capacity, used if a higher value is implicitly specified by either of the constructors with arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082259Z" creationid="pingfangx" creationdate="20191026T082259Z">
+        <seg>最大容量，如果任何一个带参数的构造函数隐式指定了更大的值，则使用该最大值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20726,6 +22262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The next size value at which to resize (capacity * load factor).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T084037Z" creationid="pingfangx" creationdate="20191026T084037Z">
+        <seg>下一次调整大小的值（容量 * 加载因子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The number of bits used to represent a &lt;c0&gt;byte&lt;/c0&gt; value in two's complement binary form.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T121339Z" creationid="pingfangx" creationdate="20191013T121339Z">
@@ -20842,6 +22386,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T103735Z" creationid="pingfangx" creationdate="20191015T103735Z">
         <seg>新数组的维数不能超过该实现所支持的数组维数（通常为 255）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The number of key-value mappings contained in this map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083918Z" creationid="pingfangx" creationdate="20191026T083918Z">
+        <seg>此映射中包含的键值映射的数量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The number of times this HashMap has been structurally modified Structural modifications are those that change the number of mappings in the HashMap or otherwise modify its internal structure (e.g., rehash).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083950Z" creationid="pingfangx" creationdate="20191026T083950Z">
+        <seg>这个 HashMap 被结构修改的次数，结构修改是那些改变 HashMap 中的映射数量或修改其内部结构（例如，rehash）的修改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21302,6 +22862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The root of a tree bin is normally its first node.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081459Z" creationid="pingfangx" creationdate="20191026T081459Z">
+        <seg>树 bin 的根节点通常是它的第一个节点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The runtime doesn't have enough information on which references to clear and which to keep.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T155852Z" creationid="pingfangx" creationdate="20191014T155852Z">
@@ -21334,6 +22902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The set is backed by the map, so changes to the map are reflected in the set, and vice-versa.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140623Z" creationid="pingfangx" creationdate="20191025T140623Z">
+        <seg>该 set 受映射支持，所以对映射的更改将反映在此 set 中，反之亦然。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The set of classes that make up the package may implement a particular specification and if so the specification title, version number, and vendor strings identify that specification.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T094837Z" creationid="pingfangx" creationdate="20191014T094837Z">
@@ -21342,10 +22918,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The set supports element removal, which removes the corresponding mapping from the map, via the &lt;t2&gt;Iterator.remove&lt;/t2&gt;, &lt;t3&gt;Set.remove&lt;/t3&gt;, &lt;t4&gt;removeAll&lt;/t4&gt;, &lt;t5&gt;retainAll&lt;/t5&gt;, and &lt;t6&gt;clear&lt;/t6&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095047Z" creationid="pingfangx" creationdate="20191026T095047Z">
+        <seg>该 set 支持元素的移除，通过 &lt;t2&gt;Iterator.remove&lt;/t2&gt;、&lt;t3&gt;Set.remove&lt;/t3&gt;、&lt;t4&gt;removeAll&lt;/t4&gt;、&lt;t5&gt;retainAll&lt;/t5&gt; 和 &lt;t6&gt;clear&lt;/t6&gt; 操作可从该映射中移除相应的映射关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The set supports element removal, which removes the corresponding mapping from the map, via the &lt;t3&gt;Iterator.remove&lt;/t3&gt;, &lt;t4&gt;Set.remove&lt;/t4&gt;, &lt;t5&gt;removeAll&lt;/t5&gt;, &lt;t6&gt;retainAll&lt;/t6&gt; and &lt;t7&gt;clear&lt;/t7&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095215Z" creationid="pingfangx" creationdate="20191026T095215Z">
+        <seg>该 set 支持元素的移除，通过 &lt;t3&gt;Iterator.remove&lt;/t3&gt;、&lt;t4&gt;Set.remove&lt;/t4&gt;、&lt;t5&gt;removeAll&lt;/t5&gt;、&lt;t6&gt;retainAll&lt;/t6&gt; 和 &lt;t7&gt;clear&lt;/t7&gt; 操作可从该映射中移除相应的映射关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The set supports element removal, which removes the corresponding mapping from the map, via the &lt;t3&gt;Iterator.remove&lt;/t3&gt;, &lt;t4&gt;Set.remove&lt;/t4&gt;, &lt;t5&gt;removeAll&lt;/t5&gt;, &lt;t6&gt;retainAll&lt;/t6&gt;, and &lt;t7&gt;clear&lt;/t7&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141114Z" creationid="pingfangx" creationdate="20191025T141114Z">
+        <seg>该 set 支持元素的移除，通过 &lt;t3&gt;Iterator.remove&lt;/t3&gt;、&lt;t4&gt;Set.remove&lt;/t4&gt;、&lt;t5&gt;removeAll&lt;/t5&gt;、&lt;t6&gt;retainAll&lt;/t6&gt; 和 &lt;t7&gt;clear&lt;/t7&gt; 操作可从该映射中移除相应的映射关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The set supports element removal, which removes the corresponding mapping from the map, via the &lt;t4&gt;Iterator.remove&lt;/t4&gt;, &lt;t5&gt;Set.remove&lt;/t5&gt;, &lt;t6&gt;removeAll&lt;/t6&gt;, &lt;t7&gt;retainAll&lt;/t7&gt; and &lt;t8&gt;clear&lt;/t8&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140627Z" creationid="pingfangx" creationdate="20191025T140627Z">
+        <seg>该 set 支持元素的移除，通过 &lt;t4&gt;Iterator.remove&lt;/t4&gt;、&lt;t5&gt;Set.remove&lt;/t5&gt;、&lt;t6&gt;removeAll&lt;/t6&gt;、&lt;t7&gt;retainAll&lt;/t7&gt; 和 &lt;t8&gt;clear&lt;/t8&gt; 操作可从该映射中移除相应的映射关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The sets of modifiers are represented as integers with distinct bit positions representing different modifiers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T110429Z" creationid="pingfangx" creationdate="20191015T110429Z">
         <seg>修饰符集被表示为整数，用不同的位位置 (bit position) 表示不同的修饰符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The smallest table capacity for which bins may be treeified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082527Z" creationid="pingfangx" creationdate="20191026T082527Z">
+        <seg>bins 可能被树化的最小表容量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21502,6 +23118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The table, initialized on first use, and resized as necessary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083537Z" creationid="pingfangx" creationdate="20191026T083537Z">
+        <seg>表，在初次使用时初始化，并根据需要调整大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The target thread should check this variable regularly, and return from its run method in an orderly fashion if the variable indicates that it is to stop running.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T082840Z" creationid="pingfangx" creationdate="20191014T082840Z">
@@ -21622,6 +23246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The use and transitions among plain vs tree modes is complicated by the existence of subclass LinkedHashMap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081805Z" creationid="pingfangx" creationdate="20191026T081805Z">
+        <seg>由于存在子类 LinkedHashMap，在普通模式和树模式之间的使用和转换变得复杂了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The use of this queue interacts with pool sizing:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T124535Z" creationid="pingfangx" creationdate="20191025T124535Z">
@@ -21634,6 +23266,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T103525Z" creationid="pingfangx" creationdate="20191015T103525Z">
         <seg>如果该值是一个基本类型值，则自动将其包装在一个对象中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The value must be greater than 2 and should be at least 8 to mesh with assumptions in tree removal about conversion back to plain bins upon shrinkage.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082442Z" creationid="pingfangx" creationdate="20191026T082442Z">
+        <seg>该值必须大于 2，并且应该至少为 8，以便满足在收缩时移除树转换回普通 bin 的假设。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21758,6 +23398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is a tradeoff between speed, utility, and quality of bit-spreading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082957Z" creationid="pingfangx" creationdate="20191026T082957Z">
+        <seg>这是在速度，效用和比特传播质量之间进行的权衡。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is no requirement that a process represented by a &lt;c0&gt;Process&lt;/c0&gt; object execute asynchronously or concurrently with respect to the Java process that owns the &lt;c1&gt;Process&lt;/c1&gt; object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T074831Z" creationid="pingfangx" creationdate="20191014T074831Z">
@@ -21786,6 +23434,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T101533Z" creationid="pingfangx" creationdate="20191014T101533Z">
         <seg>因此，因为某个对象实现了此接口就克隆它是不可能的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore, it would be wrong to write a program that depended on this exception for its correctness: &lt;i1&gt;the fail-fast behavior of iterators should be used only to detect bugs.&lt;/i1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135028Z" creationid="pingfangx" creationdate="20191025T135001Z">
+        <seg>因此，编写依赖于此异常的程序的做法是错误的，正确做法是：&lt;i1&gt;迭代器的快速失败行为应该仅用于检测程序错误。&lt;/i1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -21906,6 +23562,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T104805Z" creationid="pingfangx" creationdate="20191014T104800Z">
         <seg>这种情况包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These mappings will replace any mappings that this map had for any of the keys currently in the specified map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141214Z" creationid="pingfangx" creationdate="20191025T141214Z">
+        <seg>这些映射关系将替换此映射目前针对指定映射中所有键的所有映射关系。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These methods are also used when serializing HashSets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095426Z" creationid="pingfangx" creationdate="20191026T095426Z">
+        <seg>序列化哈希集时也使用这些方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22302,6 +23974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This class is a member of the &lt;a0&gt; Java Collections Framework&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T135016Z" creationid="pingfangx" creationdate="20191025T135016Z">
+        <seg>此类是 &lt;a0&gt;Java Collections Framework&lt;/a0&gt; 的成员。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This class is a simple holder for a key pair (a public key and a private key).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T032255Z" creationid="pingfangx" creationdate="20191012T032255Z">
@@ -22354,6 +24034,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T083408Z" creationid="pingfangx" creationdate="20191011T083408Z">
         <seg>该类加载器用于从指向 JAR 文件和目录的 URL 的搜索路径加载类和资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T131514Z" creationid="pingfangx" creationdate="20191025T131514Z">
+        <seg>此类不保证映射的顺序，特别是它不保证该顺序恒久不变。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22710,6 +24398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This field is used to make iterators on Collection-views of the HashMap fail-fast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T084003Z" creationid="pingfangx" creationdate="20191026T084003Z">
+        <seg>该字段用于在 HashMap 的 Collection 视图的迭代上产生快速失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This file specifies various properties including name and general category for every defined Unicode code point or character range.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T142036Z" creationid="pingfangx" creationdate="20191013T142036Z">
@@ -22722,6 +24418,94 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T094626Z" creationid="pingfangx" creationdate="20191014T094626Z">
         <seg>这可保证永远不会复制枚举，这对于保留其“单元素”状态是必需的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation always throws an &lt;t0&gt;UnsupportedOperationException&lt;/t0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140104Z" creationid="pingfangx" creationdate="20191025T140104Z">
+        <seg>此实现始终抛出 &lt;t0&gt;UnsupportedOperationException&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation calls &lt;t0&gt;entrySet().clear()&lt;/t0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140002Z" creationid="pingfangx" creationdate="20191025T140002Z">
+        <seg>此实现调用 &lt;t0&gt;entrySet().clear()&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation iterates over &lt;t0&gt;entrySet()&lt;/t0&gt; searching for an entry with the specified key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140010Z" creationid="pingfangx" creationdate="20191025T140010Z">
+        <seg>此实现在 &lt;t0&gt;entrySet()&lt;/t0&gt; 上进行迭代，以搜索带有指定键的条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation iterates over &lt;t0&gt;entrySet()&lt;/t0&gt; searching for an entry with the specified value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140028Z" creationid="pingfangx" creationdate="20191025T140013Z">
+        <seg>此实现在 &lt;t0&gt;entrySet()&lt;/t0&gt; 上进行迭代，以搜索带有指定值的条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation iterates over the specified map's &lt;t0&gt;entrySet()&lt;/t0&gt; collection, and calls this map's &lt;t1&gt;put&lt;/t1&gt; operation once for each entry returned by the iteration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140108Z" creationid="pingfangx" creationdate="20191025T140108Z">
+        <seg>此实现在指定映射的 &lt;t0&gt;entrySet()&lt;/t0&gt; collection 上进行迭代，并对迭代返回的每个条目调用一次此映射的 &lt;t1&gt;put&lt;/t1&gt; 操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation provides all of the optional map operations, and permits &lt;t1&gt;null&lt;/t1&gt; values and the &lt;t2&gt;null&lt;/t2&gt; key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T131456Z" creationid="pingfangx" creationdate="20191025T131456Z">
+        <seg>此实现提供所有可选的映射操作，并允许使用 &lt;t1&gt;null&lt;/t1&gt; 值和 &lt;t2&gt;null&lt;/t2&gt; 键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation provides constant-time performance for the basic operations (&lt;t0&gt;get&lt;/t0&gt; and &lt;t1&gt;put&lt;/t1&gt;), assuming the hash function disperses the elements properly among the buckets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T131743Z" creationid="pingfangx" creationdate="20191025T131743Z">
+        <seg>此实现假定哈希函数将元素适当地分布在各桶之间，可为基本操作（&lt;t0&gt;get&lt;/t0&gt; 和 &lt;t1&gt;put&lt;/t1&gt;）提供稳定的性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation returns &lt;t0&gt;entrySet().size()&lt;/t0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140121Z" creationid="pingfangx" creationdate="20191025T140121Z">
+        <seg>此实现返回 &lt;t0&gt;entrySet().size()&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation returns &lt;t0&gt;size() == 0&lt;/t0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140039Z" creationid="pingfangx" creationdate="20191025T140039Z">
+        <seg>此实现返回 &lt;t0&gt;size() == 0&lt;/t0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation returns a collection that subclasses &lt;c0&gt;&lt;a1&gt;AbstractCollection&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140126Z" creationid="pingfangx" creationdate="20191025T140126Z">
+        <seg>此实现返回一个子类化 &lt;c0&gt;&lt;a1&gt;AbstractCollection&lt;/a1&gt;&lt;/c0&gt; 的 collection。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation returns a set that subclasses &lt;c0&gt;&lt;a1&gt;AbstractSet&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140044Z" creationid="pingfangx" creationdate="20191025T140044Z">
+        <seg>此实现返回一个子类化 &lt;c0&gt;&lt;a1&gt;AbstractSet&lt;/a1&gt;&lt;/c0&gt; 的 set。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22878,6 +24662,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is best done at creation time, to prevent accidental unsynchronized access to the map:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134920Z" creationid="pingfangx" creationdate="20191025T134920Z">
+        <seg>最好在创建时完成这一操作，以防止对映射进行意外的非同步访问，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is how the &lt;c0&gt;&lt;c1&gt;&lt;a2&gt;WeakHashMap&lt;/a2&gt;&lt;/c1&gt;&lt;/c0&gt; class works.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T090438Z" creationid="pingfangx" creationdate="20191012T090438Z">
@@ -22890,6 +24682,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T154747Z" creationid="pingfangx" creationdate="20191013T154747Z">
         <seg>这很重要，因为除非程序员打算修改或增强类的基本行为，否则不应为该类创建子类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is messier than typical red-black deletion code because we cannot swap the contents of an interior node with a leaf successor that is pinned by "next" pointers that are accessible independently during traversal.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100811Z" creationid="pingfangx" creationdate="20191026T100811Z">
+        <seg>这比典型的红黑删除代码更混乱，因为我们不能将内部节点的内容与被遍历期间独立访问的“下一个”指针固定的叶子后继替换。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22982,6 +24782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is typically accomplished by synchronizing on some object that naturally encapsulates the map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134544Z" creationid="pingfangx" creationdate="20191025T134544Z">
+        <seg>这一般通过对自然封装该映射的对象进行同步操作来完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This limitation exists because the corresponding method implementation in the generated proxy class cannot determine which interface it was invoked through.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T113050Z" creationid="pingfangx" creationdate="20191015T113050Z">
@@ -22994,6 +24802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T080107Z" creationid="pingfangx" creationdate="20191014T080107Z">
         <seg>这使得关联错误消息和相应的输出变得更容易。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This map usually acts as a binned (bucketed) hash table, but when bins get too large, they are transformed into bins of TreeNodes, each structured similarly to those in java.util.TreeMap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T075640Z" creationid="pingfangx" creationdate="20191026T075640Z">
+        <seg>这个映射通常充当一个 binned (分箱的)(bucketed (分桶的))哈希表，但是当 bin 变得太大时，它们会被转换成 TreeNodes (树结点) 的 bin，每个 bin 的结构与 java.util.TreeMap 中的相似。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24142,6 +25958,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thus, in the face of concurrent modification, the iterator fails quickly and cleanly, rather than risking arbitrary, non-deterministic behavior at an undetermined time in the future.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T134943Z" creationid="pingfangx" creationdate="20191025T134943Z">
+        <seg>因此，面对并发的修改，迭代器很快就会完全失败，而不冒在将来不确定的时间发生任意不确定行为的风险。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus, it's very important not to set the initial capacity too high (or the load factor too low) if iteration performance is important.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T131812Z" creationid="pingfangx" creationdate="20191025T131812Z">
+        <seg>所以，如果迭代性能很重要，则不要将初始容量设置得太高（或将加载因子设置得太低）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thus, no more than corePoolSize threads will ever be created.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T125053Z" creationid="pingfangx" creationdate="20191025T125053Z">
@@ -24174,6 +26006,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tie-breaking utility for ordering insertions when equal hashCodes and non-comparable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100550Z" creationid="pingfangx" creationdate="20191026T100550Z">
+        <seg>相同的 hashCodes 非不可比较的时候，用于排序插入的打断实用方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Timing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T111323Z" creationid="pingfangx" creationdate="20191025T111323Z">
@@ -24186,6 +26026,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191014T135446Z" creationid="pingfangx" creationdate="20191014T135446Z">
         <seg>要获得此独立性，在 &lt;c0&gt;super.clone&lt;/c0&gt; 返回对象之前，有必要对该对象的一个或多个字段进行修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To ameliorate impact, when keys are &lt;a2&gt;Comparable&lt;/a2&gt;, this class may use comparison order among keys to help break ties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T051340Z" creationid="pingfangx" creationdate="20191026T051340Z">
+        <seg>为了改善影响，当键是 &lt;a2&gt;Comparable&lt;/a2&gt;，这个类可以使用键之间的比较，以帮助打破僵局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24242,6 +26090,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T111424Z" creationid="pingfangx" creationdate="20191025T111424Z">
         <seg>要“永远”等待，可以使用 &lt;c2&gt;Long.MAX_VALUE&lt;/c2&gt; 值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tree bins (i.e., bins whose elements are all TreeNodes) are ordered primarily by hashCode, but in the case of ties, if two elements are of the same "class C implements Comparable&lt;c0&gt;", type then their compareTo method is used for ordering.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T080413Z" creationid="pingfangx" creationdate="20191026T080413Z">
+        <seg>Tree bins （即 TreeNode 的 bin）主要通过 hashCode 排序，但如果两个元素都是相同的 "class C implements Comparable&lt;c0&gt;"，将会使用它们的 compareTo 方法来排序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tree version of putVal.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100747Z" creationid="pingfangx" creationdate="20191026T100747Z">
+        <seg>树版本的 putVal。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24582,6 +26446,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unless otherwise specified by the implementing class, actions are performed in the order of entry set iteration (if an iteration order is specified.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140644Z" creationid="pingfangx" creationdate="20191025T140644Z">
+        <seg>除非实现类另有指定，否则按条目集迭代的顺序执行操作(如果指定了迭代顺序)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unless otherwise specified, the behavior with respect to supplementary characters and surrogate &lt;c3&gt;char&lt;/c3&gt; values is as follows:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T143722Z" creationid="pingfangx" creationdate="20191013T143722Z">
@@ -24742,6 +26614,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We don't require a total order, just a consistent insertion rule to maintain equivalence across rebalancings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100602Z" creationid="pingfangx" creationdate="20191026T100602Z">
+        <seg>我们不需要全部排序，只需要一个一致的插入规则来维护重新包装之间的等价关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Weak bidirectional character type "AN" in the Unicode specification.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T143926Z" creationid="pingfangx" creationdate="20191013T143926Z">
@@ -24878,10 +26758,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When allocated, length is always a power of two.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083541Z" creationid="pingfangx" creationdate="20191026T083541Z">
+        <seg>在分配时，长度总是 2 的幂。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When an object implementing interface &lt;c0&gt;Runnable&lt;/c0&gt; is used to create a thread, starting the thread causes the object's &lt;c1&gt;run&lt;/c1&gt; method to be called in that separately executing thread.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T154755Z" creationid="pingfangx" creationdate="20191013T154755Z">
         <seg>使用实现接口 &lt;c0&gt;Runnable&lt;/c0&gt; 的对象创建一个线程时，启动该线程将导致在独立执行的线程中调用对象的 &lt;c1&gt;run&lt;/c1&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When bin lists are treeified, split, or untreeified, we keep them in the same relative access/traversal order (i.e., field Node.next) to better preserve locality, and to slightly simplify handling of splits and traversals that invoke iterator.remove.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081717Z" creationid="pingfangx" creationdate="20191026T081717Z">
+        <seg>当 bin 列表被树化，分裂或者取消树化时，我们使它们保持相同的相对访问/遍历顺序（即，字段 Node.next）以更好地保持局部性，并略微简化调用 iterator.remove 的分割和遍历的处理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24934,6 +26830,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the number of entries in the hash table exceeds the product of the load factor and the current capacity, the hash table is &lt;i5&gt;rehashed&lt;/i5&gt; (that is, internal data structures are rebuilt) so that the hash table has approximately twice the number of buckets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T132426Z" creationid="pingfangx" creationdate="20191025T132426Z">
+        <seg>当哈希表中的条目数超出了加载因子与当前容量的乘积时，则要对该哈希表进行 &lt;i5&gt;rehash&lt;/i5&gt; 操作（即重建内部数据结构），从而哈希表将具有大约两倍的桶数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the weak references to a weakly-reachable object are cleared, the object becomes eligible for finalization.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191012T090659Z" creationid="pingfangx" creationdate="20191012T090659Z">
@@ -24946,6 +26850,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T113018Z" creationid="pingfangx" creationdate="20191015T113018Z">
         <seg>当代理类的两个或多个接口包含一个具有相同名称和参数签名的方法时，代理类的接口顺序变得非常重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using comparators on insertion, to keep a total ordering (or as close as is required here) across rebalancings, we compare classes and identityHashCodes as tie-breakers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081750Z" creationid="pingfangx" creationdate="20191026T081750Z">
+        <seg>为了在整个重定位过程中保持总体排序（或尽可能接近此处所需），我们比较类和 identityHashCodes 用作联合破坏。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25078,6 +26990,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Write out the threshold, loadfactor, and any hidden stuff</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095444Z" creationid="pingfangx" creationdate="20191026T095444Z">
+        <seg>写出阈值、负载因子和任何隐藏的东西</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Writes and reads of &lt;c2&gt;volatile&lt;/c2&gt; fields have similar memory consistency effects as entering and exiting monitors, but do &lt;e3&gt;not&lt;/e3&gt; entail mutual exclusion locking.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T113313Z" creationid="pingfangx" creationdate="20191025T113313Z">
@@ -25134,6 +27054,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>a collection view of the values contained in this map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141349Z" creationid="pingfangx" creationdate="20191025T141349Z">
+        <seg>此映射中包含的值的 collection 视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>a proxy class that is defined in the specified class loader and that implements the specified interfaces</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T115130Z" creationid="pingfangx" creationdate="20191015T115130Z">
@@ -25150,10 +27078,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>a set view of the keys contained in this map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141119Z" creationid="pingfangx" creationdate="20191025T141119Z">
+        <seg>此映射中包含的键的 set 视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a set view of the mappings contained in this map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140635Z" creationid="pingfangx" creationdate="20191025T140635Z">
+        <seg>此映射所包含的映射关系的 set 视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a shallow copy of this map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140546Z" creationid="pingfangx" creationdate="20191025T140546Z">
+        <seg>此映射的浅表副本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>advance to first entry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095741Z" creationid="pingfangx" creationdate="20191026T095741Z">
+        <seg>前进到第一个条目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>aka 16</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T082153Z" creationid="pingfangx" creationdate="20191026T082153Z">
+        <seg>即 16</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>all annotations present on this element</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T090638Z" creationid="pingfangx" creationdate="20191015T090638Z">
         <seg>此元素上存在的所有注释</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>all other fields defaulted</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090316Z" creationid="pingfangx" creationdate="20191026T090316Z">
+        <seg>其他所有字段默认</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>always check first node</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090830Z" creationid="pingfangx" creationdate="20191026T090830Z">
+        <seg>总是检查第一个节点</seg>
       </tuv>
     </tu>
     <tu>
@@ -25246,10 +27230,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>bypass checks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083242Z" creationid="pingfangx" creationdate="20191026T083242Z">
+        <seg>绕过检查</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>clear, flip, rewind, and mark/reset</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T102729Z" creationid="pingfangx" creationdate="20191011T102729Z">
         <seg>清除，反转，重绕和标记/重置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>current entry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095722Z" creationid="pingfangx" creationdate="20191026T095722Z">
+        <seg>当前条目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>current index, modified on advance/split</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095821Z" creationid="pingfangx" creationdate="20191026T095821Z">
+        <seg>当前索引，在前进/拆分时修改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>current node</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095804Z" creationid="pingfangx" creationdate="20191026T095804Z">
+        <seg>当前节点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>current slot</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095734Z" creationid="pingfangx" creationdate="20191026T095734Z">
+        <seg>当前插槽</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>detach</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100923Z" creationid="pingfangx" creationdate="20191026T100923Z">
+        <seg>分离</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>double threshold</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094645Z" creationid="pingfangx" creationdate="20191026T094645Z">
+        <seg>阈值加倍</seg>
       </tuv>
     </tu>
     <tu>
@@ -25262,6 +27302,70 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>existing mapping for key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094407Z" creationid="pingfangx" creationdate="20191026T094407Z">
+        <seg>已存在键的映射</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>false when initially constructing this map, else true (relayed to method afterNodeInsertion).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090618Z" creationid="pingfangx" creationdate="20191026T090618Z">
+        <seg>在初始化构造 map 时为 false,否则为 true (传到方法 afterNodeInsertio)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>field holds the initial array capacity, or zero signifying</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T084332Z" creationid="pingfangx" creationdate="20191026T084332Z">
+        <seg>则此字段保存初始数组容量，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>find successor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100858Z" creationid="pingfangx" creationdate="20191026T100858Z">
+        <seg>寻找继任者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>for cast to Comparable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083449Z" creationid="pingfangx" creationdate="20191026T083449Z">
+        <seg>用于转为 Comparable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>for comodification checks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095855Z" creationid="pingfangx" creationdate="20191026T095855Z">
+        <seg>用于共同修改检查</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>for fast-fail</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095727Z" creationid="pingfangx" creationdate="20191026T095727Z">
+        <seg>用于快速失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>force init</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095911Z" creationid="pingfangx" creationdate="20191026T095911Z">
+        <seg>强制初始化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>getAnnotation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T105709Z" creationid="pingfangx" creationdate="20191015T105709Z">
@@ -25282,6 +27386,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T105709Z" creationid="pingfangx" creationdate="20191015T105709Z">
         <seg>getDeclaredAnnotations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hash for key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090815Z" creationid="pingfangx" creationdate="20191026T090815Z">
+        <seg>键的哈希</seg>
       </tuv>
     </tu>
     <tu>
@@ -25334,6 +27446,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if false do not move other nodes while removing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095000Z" creationid="pingfangx" creationdate="20191026T095000Z">
+        <seg>如果为 false，则在移除时不要移动其他节点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if false, the table is in creation mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T093038Z" creationid="pingfangx" creationdate="20191026T093038Z">
+        <seg>如果为 false，该表是在创建模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>if the &lt;c0&gt;interfaces&lt;/c0&gt; array argument or any of its elements are &lt;c1&gt;null&lt;/c1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T120409Z" creationid="pingfangx" creationdate="20191015T120409Z">
@@ -25374,6 +27502,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if the initial capacity is negative         or the load factor is nonpositive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090254Z" creationid="pingfangx" creationdate="20191026T090254Z">
+        <seg>如果初始容量为负或者加载因子为非正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if the initial capacity is negative or the load factor is nonpositive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140502Z" creationid="pingfangx" creationdate="20191025T140502Z">
+        <seg>如果初始容量为负或者加载因子为非正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if the initial capacity is negative.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140508Z" creationid="pingfangx" creationdate="20191025T140508Z">
+        <seg>如果初始容量为负。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>if the owner type refers to a non-existent type declaration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T071754Z" creationid="pingfangx" creationdate="20191015T071754Z">
@@ -25386,6 +27538,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T071813Z" creationid="pingfangx" creationdate="20191015T071813Z">
         <seg>如果所有者类型引用了出于某些原因无法实例化的参数化类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if the specified map is null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140523Z" creationid="pingfangx" creationdate="20191025T140523Z">
+        <seg>如果指定的映射为 null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if true only remove if value is equal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094916Z" creationid="pingfangx" creationdate="20191026T094916Z">
+        <seg>如果为 true，则仅当值相等时移除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if true, don't change existing value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T093047Z" creationid="pingfangx" creationdate="20191026T093006Z">
+        <seg>如果为 true，则不改变现有的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>initial capacity was placed in threshold</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094701Z" creationid="pingfangx" creationdate="20191026T094701Z">
+        <seg>初始容量被放置在阈值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>initialize fence and size on first use</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095901Z" creationid="pingfangx" creationdate="20191026T095901Z">
+        <seg>首次使用时初始化围栏和大小</seg>
       </tuv>
     </tu>
     <tu>
@@ -25414,6 +27606,78 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>iterators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095715Z" creationid="pingfangx" creationdate="20191026T095715Z">
+        <seg>迭代器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>k==null : key.equals(k))&lt;/c2&gt;, then this method returns &lt;c3&gt;v&lt;/c3&gt;; otherwise it returns &lt;c4&gt;null&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140913Z" creationid="pingfangx" creationdate="20191025T140744Z">
+        <seg>k==null : key.equals(k))&lt;/c2&gt; 的，则此方法返回 &lt;c3&gt;v&lt;/c3&gt;；否则返回 &lt;c4&gt;null&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>key whose mapping is to be removed from the map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141222Z" creationid="pingfangx" creationdate="20191025T141222Z">
+        <seg>其映射关系要从映射中移除的键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>key with which the specified value is associated</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141241Z" creationid="pingfangx" creationdate="20191025T141241Z">
+        <seg>与指定值相关联的键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>key with which the specified value is to be associated</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141139Z" creationid="pingfangx" creationdate="20191025T141139Z">
+        <seg>指定值将要关联的键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mappings to be stored in this map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141217Z" creationid="pingfangx" creationdate="20191025T141217Z">
+        <seg>要在此映射中存储的映射关系</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>more: less than 1 in ten million</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T081147Z" creationid="pingfangx" creationdate="20191026T081147Z">
+        <seg>更多：小于千万分之一。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>needed to unlink next upon deletion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100427Z" creationid="pingfangx" creationdate="20191026T100427Z">
+        <seg>删除后需要取消链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>next entry to return</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095720Z" creationid="pingfangx" creationdate="20191026T095720Z">
+        <seg>下一个要返回的条目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>null : cause.toString())&lt;/c0&gt; (which typically contains the class and detail message of &lt;c1&gt;cause&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191013T115916Z" creationid="pingfangx" creationdate="20191013T114813Z">
@@ -25438,6 +27702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>one past last index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095835Z" creationid="pingfangx" creationdate="20191026T095835Z">
+        <seg>上一个索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>or more simply:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T112131Z" creationid="pingfangx" creationdate="20191015T112131Z">
@@ -25446,10 +27718,90 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>p was s's direct parent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100919Z" creationid="pingfangx" creationdate="20191026T100919Z">
+        <seg>p 是 s 的直接父</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>preserve order</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094739Z" creationid="pingfangx" creationdate="20191026T094739Z">
+        <seg>维持顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>previous value, or null if none</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T093103Z" creationid="pingfangx" creationdate="20191026T093103Z">
+        <seg>以前的值，如果没有则为 null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>range of 0.25...4.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095647Z" creationid="pingfangx" creationdate="20191026T095647Z">
+        <seg>范围 0.25...4.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>red-black tree links</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100319Z" creationid="pingfangx" creationdate="20191026T100319Z">
+        <seg>红黑树链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>root of tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100725Z" creationid="pingfangx" creationdate="20191026T100725Z">
+        <seg>树的根</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>setAccessible</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T105709Z" creationid="pingfangx" creationdate="20191015T105709Z">
         <seg>setAccessible</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>size estimate</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095838Z" creationid="pingfangx" creationdate="20191026T095838Z">
+        <seg>规模估算</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>spliterators</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095801Z" creationid="pingfangx" creationdate="20191026T095801Z">
+        <seg>分割器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>swap colors</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100901Z" creationid="pingfangx" creationdate="20191026T100901Z">
+        <seg>交换颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>symmetric</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T101102Z" creationid="pingfangx" creationdate="20191026T101102Z">
+        <seg>对称</seg>
       </tuv>
     </tu>
     <tu>
@@ -25474,6 +27826,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T105709Z" creationid="pingfangx" creationdate="20191015T105709Z">
         <seg>对应于注释类型的 Class 对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the bit of hash to split on</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T101032Z" creationid="pingfangx" creationdate="20191026T101032Z">
+        <seg>要拆分的哈希位</seg>
       </tuv>
     </tu>
     <tu>
@@ -25566,6 +27926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>the function to apply to each entry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141328Z" creationid="pingfangx" creationdate="20191025T141328Z">
+        <seg>应用于每个条目的函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the generic declaration declared for this type variable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T082828Z" creationid="pingfangx" creationdate="20191015T082828Z">
@@ -25578,6 +27946,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T103723Z" creationid="pingfangx" creationdate="20191015T103723Z">
         <seg>索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the index of the table being split</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T101025Z" creationid="pingfangx" creationdate="20191026T101025Z">
+        <seg>被拆分表的索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the initial capacity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140457Z" creationid="pingfangx" creationdate="20191025T140457Z">
+        <seg>初始容量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the initial capacity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140504Z" creationid="pingfangx" creationdate="20191025T140504Z">
+        <seg>初始容量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25614,6 +28006,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>the key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090819Z" creationid="pingfangx" creationdate="20191026T090819Z">
+        <seg>键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the key whose associated value is to be returned</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140931Z" creationid="pingfangx" creationdate="20191025T140931Z">
+        <seg>要返回其关联值的键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the list of interfaces for the proxy class to implement</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T114801Z" creationid="pingfangx" creationdate="20191015T114801Z">
@@ -25622,10 +28030,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>the load factor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140459Z" creationid="pingfangx" creationdate="20191025T140459Z">
+        <seg>加载因子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090532Z" creationid="pingfangx" creationdate="20191026T090532Z">
+        <seg>映射</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the map whose mappings are to be placed in this map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140514Z" creationid="pingfangx" creationdate="20191025T140514Z">
+        <seg>映射，其映射关系将存放在此映射中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the name of this type variable, as it appears in the source code</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T082249Z" creationid="pingfangx" creationdate="20191015T082249Z">
         <seg>此类型变量的名称，它出现在源代码中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the node, or null if none</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T090826Z" creationid="pingfangx" creationdate="20191026T090826Z">
+        <seg>节点，如果没有则为 null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the number of key-value mappings in this map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141330Z" creationid="pingfangx" creationdate="20191025T141330Z">
+        <seg>此映射中的键-值映射关系数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the previous value associated with &lt;t0&gt;key&lt;/t0&gt;, or         &lt;t1&gt;null&lt;/t1&gt; if there was no mapping for &lt;t2&gt;key&lt;/t2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T092909Z" creationid="pingfangx" creationdate="20191026T092909Z">
+        <seg>与 &lt;t0&gt;key&lt;/t0&gt; 关联的旧值；如果 &lt;t1&gt;key&lt;/t1&gt; 没有任何映射关系，则返回 &lt;t2&gt;null&lt;/t2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the previous value associated with &lt;t0&gt;key&lt;/t0&gt;, or &lt;t1&gt;null&lt;/t1&gt; if there was no mapping for &lt;t2&gt;key&lt;/t2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141145Z" creationid="pingfangx" creationdate="20191025T141145Z">
+        <seg>与 &lt;t0&gt;key&lt;/t0&gt; 关联的旧值；如果 &lt;t1&gt;key&lt;/t1&gt; 没有任何映射关系，则返回 &lt;t2&gt;null&lt;/t2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25654,6 +28118,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>the table for recording bin heads</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T101017Z" creationid="pingfangx" creationdate="20191026T101017Z">
+        <seg>记录 bin 头的表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the type of keys maintained by this map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T060528Z" creationid="pingfangx" creationdate="20191026T060528Z">
+        <seg>此映射所维护的键的类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the type of mapped values</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T060530Z" creationid="pingfangx" creationdate="20191026T060530Z">
+        <seg>所映射值的类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the undeclared checked exception that was thrown</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T111136Z" creationid="pingfangx" creationdate="20191015T111136Z">
@@ -25678,10 +28166,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>the value to match if matchValue, else ignored</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094945Z" creationid="pingfangx" creationdate="20191026T094945Z">
+        <seg>如果 matchValue 为 true 表示匹配值，否则忽略</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the value to put</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T092947Z" creationid="pingfangx" creationdate="20191026T092947Z">
+        <seg>要设置的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the value to return from the method invocation on the proxy instance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T121150Z" creationid="pingfangx" creationdate="20191015T121150Z">
         <seg>从代理实例的方法调用返回的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the value to which the specified key is mapped, or &lt;c0&gt;null&lt;/c0&gt; if this map contains no mapping for the key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140934Z" creationid="pingfangx" creationdate="20191025T140934Z">
+        <seg>指定键所映射的值；如果此映射不包含该键的映射关系，则返回 &lt;c0&gt;null&lt;/c0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -25718,6 +28230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>this shouldn't happen, since we are Cloneable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T095318Z" creationid="pingfangx" creationdate="20191026T095318Z">
+        <seg>这不应该发生，因为我们是 Cloneable 的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>tiếng Việt</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191011T114417Z" creationid="pingfangx" creationdate="20191011T114417Z">
@@ -25734,6 +28254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>too small</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T100840Z" creationid="pingfangx" creationdate="20191026T100840Z">
+        <seg>太小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>true if an annotation for the specified annotation type is present on this element, else false</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T105709Z" creationid="pingfangx" creationdate="20191015T105709Z">
@@ -25746,6 +28274,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191015T062749Z" creationid="pingfangx" creationdate="20191015T062749Z">
         <seg>当且仅当编译器引入此对象时，才返回 true。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>type arg is c</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T083411Z" creationid="pingfangx" creationdate="20191026T083411Z">
+        <seg>类型参数是 c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>value expected to be associated with the specified key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141250Z" creationid="pingfangx" creationdate="20191025T141250Z">
+        <seg>应与指定键关联的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>value to be associated with the specified key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T141141Z" creationid="pingfangx" creationdate="20191025T141141Z">
+        <seg>指定键将要关联的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>value whose presence in this map is to be tested</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T140609Z" creationid="pingfangx" creationdate="20191025T140609Z">
+        <seg>要测试其是否在此映射中存在的值</seg>
       </tuv>
     </tu>
     <tu>
@@ -25794,6 +28354,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191025T121052Z" creationid="pingfangx" creationdate="20191025T121052Z">
         <seg>编写实用方法如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>zero initial threshold signifies using defaults</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T094714Z" creationid="pingfangx" creationdate="20191026T094714Z">
+        <seg>零初始阈值表示使用默认值</seg>
       </tuv>
     </tu>
     <tu>
