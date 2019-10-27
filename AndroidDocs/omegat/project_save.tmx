@@ -7743,6 +7743,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds a mapping from the specified key to the specified value, replacing the previous mapping from the specified key if there was one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162524Z" creationid="pingfangx" creationdate="20191026T162524Z">
+        <seg>添加从指定键到指定值的映射，如果有指定键的映射，则替换以前的映射。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adds a view to a horizontal chain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7979,6 +7987,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073306Z" creationid="pingfangx" creationdate="20181205T073306Z">
         <seg>之后，您需要定期调用 &lt;c4&gt;&lt;a5&gt;Scroller.computeScrollOffset()&lt;/a5&gt;&lt;/c4&gt; 来更新 &lt;c2&gt;&lt;a3&gt;Scroller&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alias for &lt;c0&gt;&lt;a1&gt;delete(int)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162536Z" creationid="pingfangx" creationdate="20191026T162536Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;delete(int)&lt;/a1&gt;&lt;/c0&gt; 的别名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9423,6 +9439,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ArrayMap is a generic key-&gt;value mapping data structure that is designed to be more memory efficient than a traditional &lt;c0&gt;&lt;a1&gt;HashMap&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T093833Z" creationid="pingfangx" creationdate="20191027T093833Z">
+        <seg>ArrayMap 是一个泛型的 键-&gt;值 映射数据结构，它的设计比传统的 &lt;c0&gt;&lt;a1&gt;HashMap&lt;/a1&gt;&lt;/c0&gt; 更节省内存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ArrayRes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -9435,6 +9459,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>ArrayRes - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ArraySet is a generic set data structure that is designed to be more memory efficient than a traditional &lt;c0&gt;&lt;a1&gt;HashSet&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T101410Z" creationid="pingfangx" creationdate="20191027T101410Z">
+        <seg>ArraySet 是一种泛型的 set 数据结构，它的设计比传统的 &lt;c0&gt;&lt;a1&gt;HashSet&lt;/a1&gt;&lt;/c0&gt; 更节省内存。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10183,6 +10215,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because this container is intended to better balance memory use, unlike most other standard Java containers it will shrink its array as items are removed from it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T100450Z" creationid="pingfangx" creationdate="20191027T100450Z">
+        <seg>因为这个容器的目的是更好地平衡内存使用，不像大多数其他标准 Java 容器，它会在从中移除项时收缩数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because we can't fully support color theming on all API levels for the BottomAppBar, to use the default theme, we are requiring you to opt in for now.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T021751Z" creationid="pingfangx" creationdate="20190614T021751Z">
@@ -10291,6 +10331,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>注意这些方法可能无法计算 adapter 的位置，当调用了 &lt;c7&gt;&lt;a8&gt;notifyDataSetChanged()&lt;/a8&gt;&lt;/c7&gt; 且新的布局还没有被计算时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beware that this is a linear search, unlike lookups by key, and that multiple keys can map to the same value and this will find only one of them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T163130Z" creationid="pingfangx" creationdate="20191026T163130Z">
+        <seg>请注意，这是一个线性搜索，与按键查找不同，多个键可以映射到同一个值，而这将只找到其中一个键。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13055,6 +13103,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creates a new SparseArray containing no mappings that will not require any additional memory allocation to store the specified number of mappings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T161317Z" creationid="pingfangx" creationdate="20191026T161317Z">
+        <seg>创建不包含映射的新 SparseArray，该 SparseArray 不需要任何额外内存分配来存储指定数量的映射。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creates a new SparseArray containing no mappings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T161125Z" creationid="pingfangx" creationdate="20191026T161125Z">
+        <seg>创建不包含映射的新 SparseArray。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creates a new bitmap, scaled from an existing bitmap, when possible.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094445Z" creationid="pingfangx" creationdate="20180408T094445Z">
@@ -13179,6 +13243,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101917Z" creationid="pingfangx" creationdate="20180408T101917Z">
         <seg>目前该字段只影响 JPEG 解码，在这种情况下，将使用更精确但速度稍慢的 IDCT 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Currently you have no control over this shrinking -- if you set a capacity and then remove an item, it may reduce the capacity to better match the current size.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T100508Z" creationid="pingfangx" creationdate="20191027T100508Z">
+        <seg>目前，你无法控制这种缩小 -- 如果设置了容量，然后移除了某个项，则可能会减少容量，以更好地匹配当前大小。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16663,6 +16735,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For containers holding up to hundreds of items, the performance difference is not significant, less than 50%.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T160748Z" creationid="pingfangx" creationdate="20191026T160748Z">
+        <seg>对于容纳数百项的容器，性能差异不显著，小于 50%。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For convenience, this class also provides several blending modes, which similarly define the result of compositing a source and a destination but without being constrained to the alpha channel.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T042448Z" creationid="pingfangx" creationdate="20180510T042448Z">
@@ -17211,6 +17291,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T063642Z" creationid="pingfangx" creationdate="20190613T063642Z">
         <seg>对于水平滚动，请改用 &lt;c0&gt;&lt;a1&gt;HorizontalScrollView&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For indices outside of the range &lt;c0&gt;0...size()-1&lt;/c0&gt;, the behavior is undefined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T163231Z" creationid="pingfangx" creationdate="20191026T163231Z">
+        <seg>对于范围 &lt;c0&gt;0...size()-1&lt;/c0&gt; 之外的索引，行为未定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18071,6 +18159,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gets the Object mapped from the specified key, or &lt;c0&gt;null&lt;/c0&gt; if no such mapping has been made.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162118Z" creationid="pingfangx" creationdate="20191026T162104Z">
+        <seg>获取从指定键映射的对象，如果未进行此类映射，则返回 &lt;c0&gt;null&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gets the Object mapped from the specified key, or the specified Object if no such mapping has been made.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162132Z" creationid="pingfangx" creationdate="20191026T162132Z">
+        <seg>获取从指定键映射的对象，如果尚未进行此类映射，则返回指定的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gets the content inset that will be used on the ending side of the bar in the current toolbar configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T093703Z" creationid="pingfangx" creationdate="20190514T093703Z">
@@ -18171,6 +18275,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T092756Z" creationid="pingfangx" creationdate="20180920T092756Z">
         <seg>给定 BitmapRegionDecoder，用户可以重复调用 decodeRegion() 以获得指定区域的解码位图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Given an index in the range &lt;c0&gt;0...size()-1&lt;/c0&gt;, returns the key from the &lt;c1&gt;index&lt;/c1&gt;th key-value mapping that this SparseArray stores.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162949Z" creationid="pingfangx" creationdate="20191026T162422Z">
+        <seg>给定一个在 &lt;c0&gt;0...size()-1&lt;/c0&gt; 范围内的索引，从该 SparseArray 存储的第 &lt;c1&gt;index&lt;/c1&gt; 个键值映射返回键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Given an index in the range &lt;c0&gt;0...size()-1&lt;/c0&gt;, returns the value from the &lt;c1&gt;index&lt;/c1&gt;th key-value mapping that this SparseArray stores.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162844Z" creationid="pingfangx" creationdate="20191026T162844Z">
+        <seg>给定一个在 &lt;c0&gt;0...size()-1&lt;/c0&gt; 范围内的索引，从该 SparseArray 存储的第 &lt;c1&gt;index&lt;/c1&gt; 个键值映射返回值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Given an index in the range &lt;c0&gt;0...size()-1&lt;/c0&gt;, sets a new value for the &lt;c1&gt;index&lt;/c1&gt;th key-value mapping that this SparseArray stores.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T163021Z" creationid="pingfangx" creationdate="20191026T162658Z">
+        <seg>给定一个在 &lt;c0&gt;0...size()-1&lt;/c0&gt; 范围内的索引，为 SparseArray 存储的第 &lt;c1&gt;index&lt;/c1&gt; 个键值映射设置一个新值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20527,6 +20655,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you supply an initial capacity of 0, the sparse array will be initialized with a light-weight representation not requiring any additional array allocations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T163115Z" creationid="pingfangx" creationdate="20191026T163115Z">
+        <seg>如果初始容量为 0，稀疏数组将使用不需要任何额外数组分配的轻量级表示进行初始化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you use AppBarLayout within a different &lt;c2&gt;&lt;a3&gt;ViewGroup&lt;/a3&gt;&lt;/c2&gt;, most of its functionality will not work.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T030945Z" creationid="pingfangx" creationdate="20190513T030945Z">
@@ -21611,6 +21747,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T075335Z" creationid="pingfangx" creationdate="20181205T075335Z">
         <seg>在以下示例中，修改 PieChart 中当前选定的饼图切片会导致整个图表旋转，以使选择指针在所选切片中居中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the future an explicit call to set the capacity should turn off this aggressive shrinking behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T100523Z" creationid="pingfangx" creationdate="20191027T100523Z">
+        <seg>在将来，一个设置容量的显式调用应该会关闭这种激进的收缩行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22871,6 +23015,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is generally slower than a traditional HashMap, since lookups require a binary search and adds and removes require inserting and deleting entries in the array.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T160323Z" creationid="pingfangx" creationdate="20191026T160310Z">
+        <seg>它通常比传统的 HashMap 慢，因为查找需要二分搜索，添加和移除需要在数组中插入和移除条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is generally slower than a traditional HashSet, since lookups require a binary search and adds and removes require inserting and deleting entries in the array.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T101616Z" creationid="pingfangx" creationdate="20191027T101613Z">
+        <seg>它通常比传统的 HashSet 慢，因为查找需要二分搜索，添加和移除需要在数组中插入和移除条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is guaranteed, however, that the thread that invokes finalize will not be holding any user-visible synchronization locks when finalize is invoked.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T104759Z" creationid="pingfangx" creationdate="20180427T104759Z">
@@ -22903,6 +23063,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is intended to be more memory efficient than using a HashMap to map Integers to Objects, both because it avoids auto-boxing keys and its data structure doesn't rely on an extra entry object for each mapping.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T154508Z" creationid="pingfangx" creationdate="20191026T154508Z">
+        <seg>它的目的是比使用 HashMap 将整数映射到对象更有效，这是因为它避免了自动装箱键，并且它的数据结构不依赖于每个映射的额外条目对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is intended to be used as a child view of a ViewPager widget in your XML layout.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T083639Z" creationid="pingfangx" creationdate="20190613T083639Z">
@@ -22931,6 +23099,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T094849Z" creationid="pingfangx" creationdate="20190611T094849Z">
         <seg>通过调用 &lt;c0&gt;&lt;a1&gt;is24HourModeEnabled()&lt;/a1&gt;&lt;/c0&gt;，可以确定系统当前是否处于 24 小时模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is possible to iterate over the items in this container using &lt;c0&gt;&lt;a1&gt;keyAt(int)&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;valueAt(int)&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T160956Z" creationid="pingfangx" creationdate="20191026T160956Z">
+        <seg>可以使用 &lt;c0&gt;&lt;a1&gt;keyAt(int)&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;valueAt(int)&lt;/a3&gt;&lt;/c2&gt; 遍历此容器中的项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23011,6 +23187,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这样做非常危险，因为这意味着系统会在处理应用级错误期间捕获到您从未预料到的异常(包括 ClassCastException 之类的 RuntimeException)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It keeps its mappings in an array data structure -- an integer array of hash codes for each item, and an Object array of the key/value pairs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T100053Z" creationid="pingfangx" creationdate="20191027T100053Z">
+        <seg>它将映射保存在一个数组数据结构中 -- 每个项的是一个散列码的整数数组，以及键/值对的一个对象数组。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23227,6 +23411,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073409Z" creationid="pingfangx" creationdate="20181205T073409Z">
         <seg>您有责任确保经常获得并应用新坐标，以使滚动动画看起来流畅。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Iterating over the keys using &lt;c4&gt;keyAt(int)&lt;/c4&gt; with ascending values of the index will return the keys in ascending order, or the values corresponding to the keys in ascending order in the case of &lt;c5&gt;valueAt(int)&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T161028Z" creationid="pingfangx" creationdate="20191026T161028Z">
+        <seg>使用带索引升序值的 &lt;c4&gt;keyAt(int)&lt;/c4&gt; 对键进行迭代将按升序返回键，或者在 &lt;c5&gt;valueAt(int)&lt;/c5&gt; 的情况下，按升序返回与键对应的值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24687,6 +24879,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note also that unlike most collections' &lt;c0&gt;indexOf&lt;/c0&gt; methods, this method compares values using &lt;c1&gt;==&lt;/c1&gt; rather than &lt;c2&gt;equals&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T163154Z" creationid="pingfangx" creationdate="20191026T163154Z">
+        <seg>还要注意，与大多数集合的&lt;c0&gt;indexOf&lt;/c0&gt; 方法不同，此方法使用 &lt;c1&gt;==&lt;/c1&gt; 而不是 &lt;c2&gt;equals&lt;/c2&gt; 来比较值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that "-1" means "unset".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24831,10 +25031,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that this container keeps its mappings in an array data structure, using a binary search to find keys.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T160203Z" creationid="pingfangx" creationdate="20191026T160203Z">
+        <seg>注意，这个容器将其映射保存在一个数组数据结构中，使用二分搜索来查找键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that this exception does not always indicate that an object has been concurrently modified by a &lt;i0&gt;different&lt;/i0&gt; thread.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>注意，此异常不会始终指出对象已经由 &lt;i0&gt;different&lt;/i0&gt; 线程并发修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that this implementation is not intended to be appropriate for data structures that may contain large numbers of items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T100302Z" creationid="pingfangx" creationdate="20191027T100302Z">
+        <seg>请注意，此实现不适用于可能包含大量项的数据结构。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26223,6 +26439,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Puts a key/value pair into the array, optimizing for the case where the key is greater than all existing keys in the array.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T161344Z" creationid="pingfangx" creationdate="20191026T161344Z">
+        <seg>将键/值对放入数组中，对键大于数组中所有现有键的情况进行优化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Px</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26639,6 +26863,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove a range of mappings as a batch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162553Z" creationid="pingfangx" creationdate="20191026T162553Z">
+        <seg>将一系列映射作为批处理移除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove all constraints from this view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26719,10 +26951,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Removes all key-value mappings from this SparseArray.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T161940Z" creationid="pingfangx" creationdate="20191026T161940Z">
+        <seg>移除此 SparseArray 所有键值映射关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Removes all listeners that were added via &lt;c0&gt;&lt;a1&gt;addOnChildAttachStateChangeListener(OnChildAttachStateChangeListener)&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>移除所有通过 &lt;c0&gt;&lt;a1&gt;addOnChildAttachStateChangeListener(OnChildAttachStateChangeListener)&lt;/a1&gt;&lt;/c0&gt; 添加的监听器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removes the mapping at the specified index.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162544Z" creationid="pingfangx" creationdate="20191026T162544Z">
+        <seg>移除指定索引处的映射。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removes the mapping from the specified key, if there was any.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T161955Z" creationid="pingfangx" creationdate="20191026T161955Z">
+        <seg>从指定键中移除映射(如果有)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27943,6 +28199,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns an index for which &lt;c0&gt;&lt;a1&gt;valueAt(int)&lt;/a1&gt;&lt;/c0&gt; would return the specified key, or a negative number if no keys map to the specified value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162337Z" creationid="pingfangx" creationdate="20191026T162337Z">
+        <seg>返回一个索引，对于该索引，&lt;c0&gt;&lt;a1&gt;valueAt(int)&lt;/a1&gt;&lt;/c0&gt; 将返回指定的键，如果没有键映射到指定的值，则返回负数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns how long the scroll event will take, in milliseconds.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190415T094710Z" creationid="pingfangx" creationdate="20190415T094710Z">
@@ -28151,6 +28415,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the index for which &lt;c0&gt;&lt;a1&gt;keyAt(int)&lt;/a1&gt;&lt;/c0&gt; would return the specified key, or a negative number if the specified key is not mapped.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162352Z" creationid="pingfangx" creationdate="20191026T162319Z">
+        <seg>返回一个索引，对于该索引，&lt;c0&gt;&lt;a1&gt;keyAt(int)&lt;/a1&gt;&lt;/c0&gt; 将返回指定键，如果未映射指定键，则返回负数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the index of the child to draw for this iteration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -28267,6 +28539,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回父 RecyclerView 绑定的 adapter 的 item 数量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the number of key-value mappings that this SparseArray currently stores.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162802Z" creationid="pingfangx" creationdate="20191026T162802Z">
+        <seg>返回此 SparseArray 当前存储的键值映射数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31167,6 +31447,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>SparseArrays map integers to Objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T154314Z" creationid="pingfangx" creationdate="20191026T154314Z">
+        <seg>SparseArrays 将整数映射到对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Special TabHost that allows the use of &lt;c0&gt;&lt;a1&gt;Fragment&lt;/a1&gt;&lt;/c0&gt; objects for its tab content.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T035248Z" creationid="pingfangx" creationdate="20190613T035248Z">
@@ -33815,6 +34103,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The design is very similar to &lt;c2&gt;&lt;a3&gt;ArrayMap&lt;/a3&gt;&lt;/c2&gt;, with all of the caveats described there.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T101434Z" creationid="pingfangx" creationdate="20191027T101434Z">
+        <seg>该设计与 &lt;c2&gt;&lt;a3&gt;ArrayMap&lt;/a3&gt;&lt;/c2&gt; 非常相似，这里描述了所有的注意事项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The design time location of the left side of the child.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -33979,6 +34275,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当目标 gone 时使用的 end margin。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The entry can then be re-used for the same key, or compacted later in a single garbage collection step of all removed entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T160851Z" creationid="pingfangx" creationdate="20191026T160851Z">
+        <seg>然后可以对同一个键重新使用该项，或者稍后在所有已移除项的单个垃圾收集步骤中压缩该项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34391,6 +34695,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The implementation is not intended to be appropriate for data structures that may contain large numbers of items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T160248Z" creationid="pingfangx" creationdate="20191026T160248Z">
+        <seg>该实现不适合于可能包含大量项的数据结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The implementation of &lt;c6&gt;&lt;a7&gt;onHeaderDecoded&lt;/a7&gt;&lt;/c6&gt; can then change the decode settings as desired.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T035337Z" creationid="pingfangx" creationdate="20180925T035337Z">
@@ -34547,6 +34859,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T091900Z" creationid="pingfangx" creationdate="20190613T091900Z">
         <seg>网格中的项目来自与此 view 关联的 &lt;c0&gt;&lt;a1&gt;ListAdapter&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The keys corresponding to indices in ascending order are guaranteed to be in ascending order, e.g., &lt;c0&gt;keyAt(0)&lt;/c0&gt; will return the smallest key and &lt;c1&gt;keyAt(size()-1)&lt;/c1&gt; will return the largest key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T163213Z" creationid="pingfangx" creationdate="20191026T163213Z">
+        <seg>与按升序排列的索引对应的键保证按升序排列，例如，&lt;c0&gt;keyAt(0)&lt;/c0&gt; 将返回最小键，&lt;c1&gt;keyAt(size()-1)&lt;/c1&gt; 将返回最大键。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36223,6 +36543,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The values corresponding to indices in ascending order are guaranteed to be associated with keys in ascending order, e.g., &lt;c0&gt;valueAt(0)&lt;/c0&gt; will return the value associated with the smallest key and &lt;c1&gt;valueAt(size()-1)&lt;/c1&gt; will return the value associated with the largest key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T163337Z" creationid="pingfangx" creationdate="20191026T163337Z">
+        <seg>升序索引对应的值保证与升序键关联，例如，&lt;c0&gt;valueAt(0)&lt;/c0&gt; 将返回与最小键关联的值，&lt;c1&gt;valueAt(size()-1)&lt;/c1&gt; 将返回与最大键关联的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The vertical bias attribute of the child will then affect the positioning of the packed elements</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -37135,6 +37463,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This allows it to avoid having to create an extra object for every entry put in to the map, and it also tries to control the growth of the size of these arrays more aggressively (since growing them only requires copying the entries in the array, not rebuilding a hash map).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T100138Z" creationid="pingfangx" creationdate="20191027T100138Z">
+        <seg>这允许它避免为放入映射中的每个条目创建额外的对象，并且它还尝试更积极地控制这些数组大小的增长(因为增长它们只需要复制数组中的条目，而不需要重建散列映射)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This allows the pager to hold on to much less memory associated with each visited page as compared to &lt;c0&gt;&lt;a1&gt;FragmentPagerAdapter&lt;/a1&gt;&lt;/c0&gt; at the cost of potentially more overhead when switching between pages.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -37872,6 +38208,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This garbage collection will need to be performed at any time the array needs to be grown or the the map size or entry values are retrieved.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T160945Z" creationid="pingfangx" creationdate="20191026T160945Z">
+        <seg>这个垃圾收集需要在数组需要增长或获取映射大小或获取条目值时执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This gesture makes sense if the UI responds by moving quickly in the direction of the fling, then slowing down, as if the user had pushed on a flywheel and set it spinning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T073124Z" creationid="pingfangx" creationdate="20181205T073124Z">
@@ -37924,6 +38268,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>该提示默认是 true，它将在 fragment 的保存和恢复过程中保持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation composes a string by iterating over its mappings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162812Z" creationid="pingfangx" creationdate="20191026T162812Z">
+        <seg>此实现通过迭代其映射来组合字符串。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This implementation is separate from ArrayMap, however, so the Object array contains only one item for each entry in the set (instead of a pair for a mapping).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T101559Z" creationid="pingfangx" creationdate="20191027T101559Z">
+        <seg>但是，这个实现与 ArrayMap 是分开的，因此对象数组对于集合中的每个项只包含一个项(而不是一对映射项)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40048,6 +40408,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To help with performance, the container includes an optimization when removing keys: instead of compacting its array immediately, it leaves the removed entry marked as deleted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T160833Z" creationid="pingfangx" creationdate="20191026T160833Z">
+        <seg>为了提高性能，容器在移除键时包含一个优化：它不会立即压缩其数组，而是将移除的项标记为已移除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To help you avoid missing constraints, the Layout Editor can automatically add constraints for you with the &lt;a2&gt;Autoconnect and infer constraints&lt;/a2&gt; features.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -40756,6 +41124,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>不像 IDs，tags 不用来标识 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unlike a normal array of Objects, there can be gaps in the indices.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T154421Z" creationid="pingfangx" creationdate="20191026T154421Z">
+        <seg>与正常的对象数组不同，索引中可能存在间隙。</seg>
       </tuv>
     </tu>
     <tu>
