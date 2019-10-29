@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.0.0_0_dev" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s6&gt;Not using these components correctly can result in the system killing the application's process while it is doing important work.&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074109Z" creationid="pingfangx" creationdate="20191029T074109Z">
+        <seg>&lt;s6&gt;不正确使用这些组件可能导致系统在应用程序执行重要工作时终止其进程。&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;s0&gt;background process&lt;/s0&gt; is one holding an &lt;c1&gt;&lt;a2&gt;Activity&lt;/a2&gt;&lt;/c1&gt; that is not currently visible to the user (its &lt;c3&gt;&lt;a4&gt;onStop()&lt;/a4&gt;&lt;/c3&gt; method has been called).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T075243Z" creationid="pingfangx" creationdate="20191029T075243Z">
+        <seg>&lt;s0&gt;后台进程&lt;/s0&gt; 保持一个 &lt;c1&gt;&lt;a2&gt;Activity&lt;/a2&gt;&lt;/c1&gt; 当前未对用户可见(其 &lt;c3&gt;&lt;a4&gt;onStop()&lt;/a4&gt;&lt;/c3&gt; 方法被调用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;s0&gt;cached process&lt;/s0&gt; is one that is not currently needed, so the system is free to kill it as desired when memory is needed elsewhere.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081358Z" creationid="pingfangx" creationdate="20191029T081358Z">
+        <seg>&lt;s0&gt;缓存进程&lt;/s0&gt; 是当前不需要的进程，因此当其他地方需要内存时，系统可以根据需要终止它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;s0&gt;foreground process&lt;/s0&gt; is one that is required for what the user is currently doing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074500Z" creationid="pingfangx" creationdate="20191029T074500Z">
+        <seg>&lt;s0&gt;前台进程&lt;/s0&gt; 是用户当前所做工作所必需的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;s0&gt;service process&lt;/s0&gt; is one holding a &lt;c1&gt;&lt;a2&gt;Service&lt;/a2&gt;&lt;/c1&gt; that has been started with the &lt;c3&gt;&lt;a4&gt;startService()&lt;/a4&gt;&lt;/c3&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T075122Z" creationid="pingfangx" creationdate="20191029T075122Z">
+        <seg>&lt;s0&gt;服务进程&lt;/s0&gt; 保持一个 &lt;c1&gt;&lt;a2&gt;Service&lt;/a2&gt;&lt;/c1&gt; 期已经由 &lt;c3&gt;&lt;a4&gt;startService()&lt;/a4&gt;&lt;/c3&gt; 方法启动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;s0&gt;visible process&lt;/s0&gt; is doing work that the user is currently aware of, so killing it would have a noticeable negative impact on the user experience.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080913Z" creationid="pingfangx" creationdate="20191029T080913Z">
+        <seg>&lt;s0&gt;可见进程&lt;/s0&gt; 正在做用户当前意识到的工作，因此终止它将对用户体验产生明显的负面影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;s0&gt;visible process&lt;/s0&gt; is one holding an &lt;c1&gt;&lt;a2&gt;Activity&lt;/a2&gt;&lt;/c1&gt; that is visible to the user on-screen but not in the foreground (its &lt;c3&gt;&lt;a4&gt;onPause()&lt;/a4&gt;&lt;/c3&gt; method has been called).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074927Z" creationid="pingfangx" creationdate="20191029T074927Z">
+        <seg>&lt;s0&gt;可见进程&lt;/s0&gt; 是一个保持一个 &lt;c1&gt;&lt;a2&gt;Activity&lt;/a2&gt;&lt;/c1&gt; 是用户在屏幕上但不是在前台(可见其 &lt;c3&gt;&lt;a4&gt;onPause()&lt;/a4&gt;&lt;/c3&gt; 方法被调用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A common example of a process life-cycle bug is a &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; that starts a thread when it receives an Intent in its &lt;c2&gt;&lt;a3&gt;BroadcastReceiver.onReceive()&lt;/a3&gt;&lt;/c2&gt; method, and then returns from the function.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074218Z" creationid="pingfangx" creationdate="20191029T074218Z">
+        <seg>进程生命周期错误的一个常见示例是 &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; 当它在其 &lt;c2&gt;&lt;a3&gt;BroadcastReceiver.onReceive()&lt;/a3&gt;&lt;/c2&gt; 方法方法中接收到 Intent 时启动线程，然后从函数返回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A process is considered to be in the foreground if any of the following conditions hold:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074632Z" creationid="pingfangx" creationdate="20191029T074632Z">
+        <seg>如果满足以下任一条件，则认为进程处于前台：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A process is considered visible in the following conditions:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080947Z" creationid="pingfangx" creationdate="20191029T080947Z">
+        <seg>在下列条件下，进程被视为可见进程：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A process's priority may also be increased based on other dependencies a process has to it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080352Z" creationid="pingfangx" creationdate="20191029T080352Z">
+        <seg>进程的优先级也可以根据进程对它的其他依赖关系而增加。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An &lt;s0&gt;empty process&lt;/s0&gt; is one that doesn't hold any active application components.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T082347Z" creationid="pingfangx" creationdate="20191029T080212Z">
+        <seg>&lt;s0&gt;空进程&lt;/s0&gt; 是一个不持有任何活动应用组件的进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An unusual and fundamental feature of Android is that an application process's lifetime is &lt;e0&gt;not&lt;/e0&gt; directly controlled by the application itself.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T073714Z" creationid="pingfangx" creationdate="20191029T073714Z">
+        <seg>Android 一个不寻常的和基本特征是，一个应用程序过程的生命周期 &lt;e0&gt;不&lt;/e0&gt; 直接由应用程序本身来控制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, the system will often kill these processes in order to balance overall system resources between these empty cached processes and the underlying kernel caches.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080232Z" creationid="pingfangx" creationdate="20191029T080232Z">
+        <seg>因此，系统通常会终止这些进程，以便在这些空缓存进程和底层内核缓存之间平衡整个系统资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if process A has bound to a &lt;c0&gt;&lt;a1&gt;Service&lt;/a1&gt;&lt;/c0&gt; with the &lt;c2&gt;&lt;a3&gt;Context.BIND_AUTO_CREATE&lt;/a3&gt;&lt;/c2&gt; flag or is using a &lt;c4&gt;&lt;a5&gt;ContentProvider&lt;/a5&gt;&lt;/c4&gt; in process B, then process B's classification will always be at least as important as process A's.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080622Z" creationid="pingfangx" creationdate="20191029T080455Z">
+        <seg>例如，如果过程 A 已绑定到进程 B 中 &lt;c0&gt;&lt;a1&gt;Service&lt;/a1&gt;&lt;/c0&gt; 用 &lt;c2&gt;&lt;a3&gt;Context.BIND_AUTO_CREATE&lt;/a3&gt;&lt;/c2&gt; 标志，或使用进程 B 中的 &lt;c4&gt;&lt;a5&gt;ContentProvider&lt;/a5&gt;&lt;/c4&gt;，则进程 B 的分类将总是至少与进程 A 的一样重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generally, at this point, the device has reached a memory paging state, so this action is required in order to keep the user interface responsive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074847Z" creationid="pingfangx" creationdate="20191029T074847Z">
+        <seg>通常，此时设备已达到内存分页状态，因此需要执行此操作以保持用户界面响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In a normally behaving system, these are the only processes involved in memory management: a well running system will have multiple cached processes always available (for more efficient switching between applications) and regularly kill the oldest ones as needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081423Z" creationid="pingfangx" creationdate="20191029T081423Z">
+        <seg>在正常运行的系统中，这些进程是内存管理所涉及的唯一进程：运行良好的系统将始终有多个缓存进程可用(以便在应用程序之间进行更有效的切换)，并根据需要定期杀死最旧的进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In most cases, every Android application runs in its own Linux process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T073609Z" creationid="pingfangx" creationdate="20191029T073609Z">
+        <seg>在大多数情况下，每一个 Android 应用程序在自己的 Linux 进程中运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, it is determined by the system through a combination of the parts of the application that the system knows are running, how important these things are to the user, and how much overall memory is available in the system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T073935Z" creationid="pingfangx" creationdate="20191029T073935Z">
+        <seg>相反，它是由系统通过组合应用程序中系统知道正在运行的部分、这些东西对用户有多重要以及系统中有多少总内存可用来确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It has a &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; that is currently running (its &lt;c2&gt;&lt;a3&gt;BroadcastReceiver.onReceive()&lt;/a3&gt;&lt;/c2&gt; method is executing).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074715Z" creationid="pingfangx" creationdate="20191029T074715Z">
+        <seg>它有一个 &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; 当前正在运行(其 &lt;c2&gt;&lt;a3&gt;BroadcastReceiver.onReceive()&lt;/a3&gt;&lt;/c2&gt; 方法正在执行)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It has a &lt;c0&gt;&lt;a1&gt;Service&lt;/a1&gt;&lt;/c0&gt; that is currently executing code in one of its callbacks (&lt;c2&gt;&lt;a3&gt;Service.onCreate()&lt;/a3&gt;&lt;/c2&gt;, &lt;c4&gt;&lt;a5&gt;Service.onStart()&lt;/a5&gt;&lt;/c4&gt;, or &lt;c6&gt;&lt;a7&gt;Service.onDestroy()&lt;/a7&gt;&lt;/c6&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074753Z" creationid="pingfangx" creationdate="20191029T074753Z">
+        <seg>它有一个 &lt;c0&gt;&lt;a1&gt;Service&lt;/a1&gt;&lt;/c0&gt; 当前在其回调之一中执行代码(&lt;c2&gt;&lt;a3&gt;Service.onCreate()&lt;/a3&gt;&lt;/c2&gt;，&lt;c4&gt;&lt;a5&gt;Service.onStart()&lt;/a5&gt;&lt;/c4&gt; 或 &lt;c6&gt;&lt;a7&gt;Service.onDestroy()&lt;/a7&gt;&lt;/c6&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It has a &lt;c0&gt;&lt;a1&gt;Service&lt;/a1&gt;&lt;/c0&gt; that is running as a foreground service, through &lt;c2&gt;&lt;a3&gt;Service.startForeground()&lt;/a3&gt;&lt;/c2&gt; (which is asking the system to treat the service as something the user is aware of, or essentially visible to them).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081114Z" creationid="pingfangx" creationdate="20191029T081114Z">
+        <seg>它有一个 &lt;c0&gt;&lt;a1&gt;Service&lt;/a1&gt;&lt;/c0&gt; 作为前台服务运行，通过 &lt;c2&gt;&lt;a3&gt;Service.startForeground()&lt;/a3&gt;&lt;/c2&gt;(它要求系统将该服务视为用户意识到的或用户基本可见的东西)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is hosting a service that the system is using for a particular feature that the user is aware, such as a live wallpaper, input method service, etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081132Z" creationid="pingfangx" creationdate="20191029T081132Z">
+        <seg>它托管了一个服务，系统正在使用该服务来实现用户知道的特定功能，例如实时墙纸、输入方法服务等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is important that application developers understand how different application components (in particular &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;Service&lt;/a3&gt;&lt;/c2&gt;, and &lt;c4&gt;&lt;a5&gt;BroadcastReceiver&lt;/a5&gt;&lt;/c4&gt;) impact the lifetime of the application's process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074012Z" creationid="pingfangx" creationdate="20191029T074012Z">
+        <seg>应用程序开发人员必须了解不同的应用程序组件(特别是 &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt;、&lt;c2&gt;&lt;a3&gt;Service&lt;/a3&gt;&lt;/c2&gt; 和 &lt;c4&gt;&lt;a5&gt;BroadcastReceiver&lt;/a5&gt;&lt;/c4&gt;)如何影响应用程序进程的生命周期。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is running an &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt; at the top of the screen that the user is interacting with (its &lt;c2&gt;&lt;a3&gt;onResume()&lt;/a3&gt;&lt;/c2&gt; method has been called).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074707Z" creationid="pingfangx" creationdate="20191029T074707Z">
+        <seg>它运行的是 &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt; 在屏幕的顶部，该用户与交互(其 &lt;c2&gt;&lt;a3&gt;onResume()&lt;/a3&gt;&lt;/c2&gt; 方法被调用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is running an &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt; that is visible to the user on-screen but not in the foreground (its &lt;c2&gt;&lt;a3&gt;onPause()&lt;/a3&gt;&lt;/c2&gt; method has been called).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081042Z" creationid="pingfangx" creationdate="20191029T081042Z">
+        <seg>它运行的是 &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt; 在屏幕上对用户可见，但是不在前台(其 &lt;c2&gt;&lt;a3&gt;onPause()&lt;/a3&gt;&lt;/c2&gt; 方法被调用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once it returns, the system considers the BroadcastReceiver to be no longer active, and thus, its hosting process no longer needed (unless other application components are active in it).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074240Z" creationid="pingfangx" creationdate="20191029T074240Z">
+        <seg>一旦返回，系统将认为广播接收器不再处于活动状态，因此不再需要其宿主进程(除非其他应用程序组件在其中处于活动状态)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only in very critical (and undesireable) situations will the system get to a point where all cached processes are killed and it must start killing service processes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081439Z" creationid="pingfangx" creationdate="20191029T081439Z">
+        <seg>只有在非常关键(且不希望发生)的情况下，系统才会达到这样的程度：所有缓存的进程都将被终止，它必须开始终止服务进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other policies for killing processes may also be applied: hard limits on the number of processes allowed, limits on the amount of time a process can stay continually cached, etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081836Z" creationid="pingfangx" creationdate="20191029T081836Z">
+        <seg>还可以应用其他用于终止进程的策略：对允许的进程数的硬限制、对进程可以持续缓存的时间的限制等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Processes and Application Life Cycle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T073556Z" creationid="pingfangx" creationdate="20191029T073556Z">
+        <seg>进程和应用生命周期</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Processes and Application Lifecycle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081853Z" creationid="pingfangx" creationdate="20191029T081853Z">
+        <seg>进程和应用生命周期</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Provided they implement their Activity life-cycle correctly (see &lt;c4&gt;&lt;a5&gt;Activity&lt;/a5&gt;&lt;/c4&gt; for more details), when the system kills such processes it will not impact the user's experience when returning to that app: it can restore the previously saved state when the associated activity is recreated in a new process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081625Z" creationid="pingfangx" creationdate="20191029T081625Z">
+        <seg>如果他们正确地实现了他们的 Activity 生命周期(请参见活动 &lt;c4&gt;&lt;a5&gt;Activity&lt;/a5&gt;&lt;/c4&gt; 了解更多详细信息)，那么当系统终止这些进程时，返回到该应用程序时不会影响用户的体验：当在新进程中重新创建关联的 Activity 时，它可以恢复先前保存的状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Provided they implement their Activity life-cycle correctly (see &lt;c5&gt;&lt;a6&gt;Activity&lt;/a6&gt;&lt;/c5&gt; for more details), the system can kill such processes at any time to reclaim memory for one of the three previous processes types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T075342Z" creationid="pingfangx" creationdate="20191029T075342Z">
+        <seg>如果它们正确地实现其 Activity 生命周期(请参见活动 &lt;c5&gt;&lt;a6&gt;Activity&lt;/a6&gt;&lt;/c5&gt; 了解更多详细信息)，系统可以随时终止此类进程，以回收内存用于前三种进程类型之一。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See the &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;Service&lt;/a3&gt;&lt;/c2&gt;, and &lt;c4&gt;&lt;a5&gt;BroadcastReceiver&lt;/a5&gt;&lt;/c4&gt; documentation for more detail on how each of these components contribute to the overall life-cycle of a process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080316Z" creationid="pingfangx" creationdate="20191029T080316Z">
+        <seg>查看 &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt;，&lt;c2&gt;&lt;a3&gt;Service&lt;/a3&gt;&lt;/c2&gt; 和 &lt;c4&gt;&lt;a5&gt;BroadcastReceiver&lt;/a5&gt;&lt;/c4&gt; 文档，了解每个组件有助于进程的整体生命周期的更多细节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Services that have been running for a long time (such as 30 minutes or more) may be demoted in importance to allow their process to drop to the cached LRU list described next.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081312Z" creationid="pingfangx" creationdate="20191029T081312Z">
+        <seg>运行了很长时间(如 30 分钟或更长)的服务可能会被降级，以允许其进程降到下面描述的缓存的 LRU 列表中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So, the system may kill the process at any time to reclaim memory, and in doing so, it terminates the spawned thread running in the process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074300Z" creationid="pingfangx" creationdate="20191029T074300Z">
+        <seg>因此，系统可以随时终止进程以回收内存，这样做时，它会终止进程中运行的派生线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such a process is considered extremely important and will not be killed unless doing so is required to keep all foreground processes running.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T075029Z" creationid="pingfangx" creationdate="20191029T075029Z">
+        <seg>这样的进程被认为是非常重要的，并且不会被终止，除非这样做是为了保持所有前台进程都在运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The documentation for each of these classes describes in more detail how they impact the overall life-cycle of their application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080331Z" creationid="pingfangx" creationdate="20191029T080331Z">
+        <seg>这些类的文档更详细地描述了它们如何影响应用程序的整个生命周期。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The exact policy of ordering on this list is an implementation detail of the platform, but generally it will try to keep more useful processes (one hosting the user's home application, the last activity they saw, etc) before other types of processes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081823Z" creationid="pingfangx" creationdate="20191029T081823Z">
+        <seg>在这个列表上进行排序的确切策略是平台的实现细节，但通常它会尝试在其他类型的进程之前保留更多有用的进程(用户 home 应用程序的宿主、他们看到的最后一个 activity 等)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The number of these processes running in the system is less bounded than foreground processes, but still relatively controlled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081155Z" creationid="pingfangx" creationdate="20191029T081155Z">
+        <seg>在系统中运行的这些进程的数量比前台进程的限制要小，但仍然是相对可控的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The only reason to keep such a process around is as a cache to improve startup time the next time a component of its application needs to run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080223Z" creationid="pingfangx" creationdate="20191029T080223Z">
+        <seg>保留这样一个进程的唯一原因是作为一个缓存，以便在其应用程序的组件下次需要运行时提高启动时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The solution to this problem is to start a &lt;c4&gt;&lt;a5&gt;Service&lt;/a5&gt;&lt;/c4&gt; from the BroadcastReceiver, so the system knows that there is still active work being done in the process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074337Z" creationid="pingfangx" creationdate="20191029T074337Z">
+        <seg>解决此问题的方法是从广播接收器启动 &lt;c4&gt;&lt;a5&gt;Service&lt;/a5&gt;&lt;/c4&gt;，以便系统知道此进程中仍有活动工作正在进行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The solution to this problem is typically to schedule a &lt;c4&gt;&lt;a5&gt;JobService&lt;/a5&gt;&lt;/c4&gt; from the BroadcastReceiver, so the system knows that there is still active work being done in the process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080808Z" creationid="pingfangx" creationdate="20191029T080808Z">
+        <seg>解决此问题的方法通常是从广播接收器调度一个 &lt;c4&gt;&lt;a5&gt;JobService&lt;/a5&gt;&lt;/c4&gt;，以便系统知道此进程中仍有活动工作正在进行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There will only ever be a few such processes in the system, and these will only be killed as a last resort if memory is so low that not even these processes can continue to run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074830Z" creationid="pingfangx" creationdate="20191029T074830Z">
+        <seg>系统中只有少数这样的进程，如果内存太低，甚至这些进程都无法继续运行，这些进程将作为最后手段被终止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These process types are (in order of importance):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074432Z" creationid="pingfangx" creationdate="20191029T074432Z">
+        <seg>这些进程类型是(按重要性排序)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These processes are considered extremely important and will not be killed unless doing so is required to keep all foreground processes running.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081210Z" creationid="pingfangx" creationdate="20191029T081210Z">
+        <seg>这些进程被认为是非常重要的，并且不会被杀死，除非需要这样做来保持所有前台进程运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These processes are kept in a pseudo-LRU list, where the last process on the list is the first killed to reclaim memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081710Z" creationid="pingfangx" creationdate="20191029T081710Z">
+        <seg>这些进程保存在伪 LRU 列表中，其中列表中的最后一个进程是第一个被终止以回收内存的进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These processes have no direct impact on the user experience.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T075247Z" creationid="pingfangx" creationdate="20191029T075247Z">
+        <seg>这些进程对用户体验没有直接影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These processes often hold one or more &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt; instances that are not currently visible to the user (the &lt;c2&gt;&lt;a3&gt;onStop()&lt;/a3&gt;&lt;/c2&gt; method has been called and returned).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081535Z" creationid="pingfangx" creationdate="20191029T081535Z">
+        <seg>这些进程通常保存一个或多个用户当前不可见的 &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt; 实例(调用了 &lt;c2&gt;&lt;a3&gt;onStop()&lt;/a3&gt;&lt;/c2&gt; 方法并返回)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This helps avoid situations where very long running services with memory leaks or other problems consume so much RAM that they prevent the system from making effective use of cached processes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081333Z" creationid="pingfangx" creationdate="20191029T081333Z">
+        <seg>这有助于避免长时间运行的带有内存泄漏或其他问题的服务消耗大量 RAM，从而阻止系统有效使用缓存进程的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This may occur, for example, if the foreground Activity is displayed as a dialog that allows the previous Activity to be seen behind it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T075018Z" creationid="pingfangx" creationdate="20191029T075018Z">
+        <seg>这可能会发生，例如，如果前台 Activity 显示为一个对话框，允许在它后面观察前一个 Activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This process is created for the application when some of its code needs to be run, and will remain running until it is no longer needed &lt;e0&gt;and&lt;/e0&gt; the system needs to reclaim its memory for use by other applications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T073644Z" creationid="pingfangx" creationdate="20191029T073644Z">
+        <seg>此进程是在应用程序的某些代码需要运行时为其创建的，并将保持运行状态，直到不再需要它为止 &lt;e0&gt;并且&lt;/e0&gt; 系统需要回收其内存以供其他应用程序使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Though these processes are not directly visible to the user, they are generally doing things that the user cares about (such as background mp3 playback or background network data upload or download), so the system will always keep such processes running unless there is not enough memory to retain all foreground and visible process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T075209Z" creationid="pingfangx" creationdate="20191029T075209Z">
+        <seg>虽然这些进程对用户不直接可见，但它们通常都在做用户关心的事情(如后台 MP3 播放或后台网络数据上传或下载)，因此系统将始终保持这些进程的运行，除非没有足够的内存来保留所有的前台和可见进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Though these processes are not directly visible to the user, they are generally doing things that the user cares about (such as background network data upload or download), so the system will always keep such processes running unless there is not enough memory to retain all foreground and visible processes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081251Z" creationid="pingfangx" creationdate="20191029T081251Z">
+        <seg>虽然这些进程对用户不直接可见，但它们通常都在做用户关心的事情(如后台网络数据上传或下载)，因此系统将始终保持这些进程的运行，除非没有足够的内存来保留所有前台和可见的进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To determine which processes should be killed when low on memory, Android places each process into an "importance hierarchy" based on the components running in them and the state of those components.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074402Z" creationid="pingfangx" creationdate="20191029T074402Z">
+        <seg>为了确定在内存不足时应该终止哪些进程，Android 根据运行在其中的组件和这些组件的状态将每个进程放入“重要性层次结构”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Usually there are many of these processes running, so they are kept in an LRU list to ensure the process that was most recently seen by the user is the last to be killed when running low on memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T075402Z" creationid="pingfangx" creationdate="20191029T075402Z">
+        <seg>通常有许多这样的进程在运行，因此它们被保存在 LRU 列表中，以确保用户最近看到的进程是在内存不足时最后被终止的进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Various application components can cause its containing process to be considered foreground in different ways.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074641Z" creationid="pingfangx" creationdate="20191029T074602Z">
+        <seg>不同的应用组件可以用不同的方式，使其包含进程被认为是前台进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When deciding how to classify a process, the system will base its decision on the most important level found among all the components currently active in the process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080254Z" creationid="pingfangx" creationdate="20191029T080254Z">
+        <seg>在决定如何对进程进行分类时，系统将根据在进程中当前活动的所有组件中找到的最重要级别来进行决策。</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
