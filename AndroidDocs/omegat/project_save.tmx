@@ -7111,6 +7111,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A task (from the activity that started it to the next task activity) defines an atomic group of activities that the user can move to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070305Z" creationid="pingfangx" creationdate="20191028T070305Z">
+        <seg>任务(从启动它的 activity 到下一个任务 activity)定义了用户可以移动到的 activity 的原子组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A title which is larger when the layout is fully visible but collapses and becomes smaller as the layout is scrolled off screen.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T083717Z" creationid="pingfangx" creationdate="20190513T033817Z">
@@ -10683,6 +10691,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>通过改变 &lt;c2&gt;LayoutManager&lt;/c2&gt;，&lt;c3&gt;RecyclerView&lt;/c3&gt; 可以用来实现一个标准的竖直滚动列表，一个标准的表格，交错的网格，水平滚动的集合，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default a document created by &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_NEW_DOCUMENT&lt;/a1&gt;&lt;/c0&gt; will have its entry in recent tasks removed when the user closes it (with back or however else it may finish()).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064648Z" creationid="pingfangx" creationdate="20191028T064648Z">
+        <seg>默认情况下，由 &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_NEW_DOCUMENT&lt;/a1&gt;&lt;/c0&gt; 创建的文档在用户关闭时(使用 back 或其他方式，它可能 finish())将移除其在最近任务中的条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16617,8 +16633,8 @@
       <tuv lang="EN-US">
         <seg>For a flag, set the flag attribute:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>For a flag, set the flag attribute:</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191027T124416Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>对于一个标志，设置标志属性：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16883,6 +16899,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>比如，考虑 &lt;c0&gt;android.app.Activity.startActivity(android.content.Intent)&lt;/c0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, consider a task consisting of four activities: A, B, C, D. If D calls startActivity() with an Intent that resolves to the component of activity B, then B will be brought to the front of the history stack, with this resulting order: A, C, D, B. This flag will be ignored if &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_CLEAR_TOP&lt;/a1&gt;&lt;/c0&gt; is also specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T071452Z" creationid="pingfangx" creationdate="20191028T071452Z">
+        <seg>例如，考虑一个由四个 activity 组成的任务：A，B，C，D。如果 D 使用解析为 activity B 的组件的 Intent 调用 startActivity()，则 B 将被带到历史堆栈的前面，其结果顺序为：A、C、D、B。此标志将被忽略，如果 &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_CLEAR_TOP&lt;/a1&gt;&lt;/c0&gt; 也被指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, consider a task consisting of the activities: A, B, C, D. If D calls startActivity() with an Intent that resolves to the component of activity B, then C and D will be finished and B receive the given Intent, resulting in the stack now being: A, B.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T065645Z" creationid="pingfangx" creationdate="20191028T065645Z">
+        <seg>例如，考虑一个由以下 activity 组成的任务：A、B、C、D。如果 D 调用 startActivity()的 Intent 解析为 activity B 的组件，则 C 和 D 将 finish，B 将接收给定的 Intent，从而导致堆栈现在为：A、B。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19487,6 +19519,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If it has declared its launch mode to be "multiple" (the default) and you have not set &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_SINGLE_TOP&lt;/a1&gt;&lt;/c0&gt; in the same intent, then it will be finished and re-created; for all other launch modes or if &lt;c2&gt;&lt;a3&gt;FLAG_ACTIVITY_SINGLE_TOP&lt;/a3&gt;&lt;/c2&gt; is set then this Intent will be delivered to the current instance's onNewIntent().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T065947Z" creationid="pingfangx" creationdate="20191028T065947Z">
+        <seg>如果它已声明其启动模式为“multiple”(默认值)，并且你没有在相同的 intent 中设置 &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_SINGLE_TOP&lt;/a1&gt;&lt;/c0&gt;，则它将 finish 并重新创建；对于所有其他启动模式，或者如果设置了 &lt;c2&gt;&lt;a3&gt;FLAG_ACTIVITY_SINGLE_TOP&lt;/a3&gt;&lt;/c2&gt;，则此 intent 将传递到当前实例的 onNewIntent()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If it is null, which is the default, or the request cannot be met, the decoder will pick either the color space embedded in the image or the &lt;c1&gt;&lt;a2&gt;ColorSpace&lt;/a2&gt;&lt;/c1&gt; best suited for the requested image configuration (for instance &lt;c3&gt;&lt;a4&gt;sRGB&lt;/a4&gt;&lt;/c3&gt; for the &lt;c5&gt;&lt;a6&gt;Bitmap.Config.ARGB_8888&lt;/a6&gt;&lt;/c5&gt; configuration).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090001Z" creationid="pingfangx" creationdate="20180921T085859Z">
@@ -19647,6 +19687,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If set and this intent is being used to launch a new activity from an existing one, the current activity will not be counted as the top activity for deciding whether the new intent should be delivered to the top instead of starting a new one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064311Z" creationid="pingfangx" creationdate="20191028T064311Z">
+        <seg>如果设置并且这个 intent 用于从现有的一个新的 activity 中启动，当前 activity 将不被视为决定新的 intent 是否应该被交付到顶层而不是启动新的 activity 的顶部 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set and this intent is being used to launch a new activity from an existing one, then the reply target of the existing activity will be transfered to the new activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T063826Z" creationid="pingfangx" creationdate="20191028T063826Z">
+        <seg>如果设置并且这个 intent 用于从现有的一个 activity 中启动新的 activity，那么现有 activity 的回复目标将被转移到新的 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set in an Intent passed to &lt;c0&gt;&lt;a1&gt;Context.startActivity()&lt;/a1&gt;&lt;/c0&gt;, this flag will cause a newly launching task to be placed on top of the current home activity task (if there is one).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064736Z" creationid="pingfangx" creationdate="20191028T064736Z">
+        <seg>如果在传递给 &lt;c0&gt;&lt;a1&gt;Context.startActivity()&lt;/a1&gt;&lt;/c0&gt; 的 intent 中设置，则此标志将导致新启动的 task 置于当前主 activity task 的顶部(如果有)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set in an Intent passed to &lt;c0&gt;&lt;a1&gt;Context.startActivity()&lt;/a1&gt;&lt;/c0&gt;, this flag will cause any existing task that would be associated with the activity to be cleared before the activity is started.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T063526Z" creationid="pingfangx" creationdate="20191028T063526Z">
+        <seg>如果在传入 &lt;c0&gt;&lt;a1&gt;Context.startActivity()&lt;/a1&gt;&lt;/c0&gt; 的 Intent 中设置，该标志将导致将与 activity 相关的任何现有 task 在 activity 开始之前被清除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set in an Intent passed to &lt;c0&gt;&lt;a1&gt;Context.startActivity()&lt;/a1&gt;&lt;/c0&gt;, this flag will cause the launched activity to be brought to the front of its task's history stack if it is already running.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064359Z" creationid="pingfangx" creationdate="20191028T064359Z">
+        <seg>如果在传递给 &lt;c0&gt;&lt;a1&gt;Context.startActivity()&lt;/a1&gt;&lt;/c0&gt; 的 intent 中设置此标志，则如果已启动的 activity 已在运行，则此标志将导致其被带到任务历史堆栈的前面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set in an Intent passed to &lt;c0&gt;&lt;a1&gt;Context.startActivity()&lt;/a1&gt;&lt;/c0&gt;, this flag will prevent the system from applying an activity transition animation to go to the next activity state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064203Z" creationid="pingfangx" creationdate="20191028T064203Z">
+        <seg>如果在传递给 &lt;c0&gt;&lt;a1&gt;Context.startActivity()&lt;/a1&gt;&lt;/c0&gt; 的 intent 中设置，则此标志将阻止系统应用 activity 转换动画以转到下一个 activity 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If set on a nine-patch image, the nine-patch data is ignored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T085048Z" creationid="pingfangx" creationdate="20180921T085048Z">
@@ -19695,6 +19783,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If set, and the activity being launched is already running in the current task, then instead of launching a new instance of that activity, all of the other activities on top of it will be closed and this Intent will be delivered to the (now on top) old activity as a new Intent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T063640Z" creationid="pingfangx" creationdate="20191028T063640Z">
+        <seg>如果设置，并且正在启动的 activity 已在当前 task 中运行，则不会启动该 activity 的新实例，而是关闭其上的所有其他 activity，并将此 intent 作为新 intent 传递给(现在位于顶部)旧 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, and this activity is either being started in a new task or bringing to the top an existing task, then it will be launched as the front door of the task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064538Z" creationid="pingfangx" creationdate="20191028T064538Z">
+        <seg>如果设置，这个 activity 要么是在一个新 task 中启动，要么是放到一个现有 task 顶层，然后它将作为 task 的前门启动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If set, decode methods that take the Options object will attempt to reuse this bitmap when loading content.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101621Z" creationid="pingfangx" creationdate="20180408T101621Z">
@@ -19711,6 +19815,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If set, the activity will not be launched if it is already running at the top of the history stack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064708Z" creationid="pingfangx" creationdate="20191028T064708Z">
+        <seg>如果设置，则如果 activity 已在历史堆栈顶部运行，则不会启动该 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, the new activity is not kept in the history stack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064215Z" creationid="pingfangx" creationdate="20191028T064215Z">
+        <seg>如果设置，则新 activity 不会保留在历史堆栈中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, the new activity is not kept in the list of recently launched activities.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T063710Z" creationid="pingfangx" creationdate="20191028T063710Z">
+        <seg>如果设置，则新 activity 不会保留在最近启动的 activity 列表中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If set, the system bars are drawn with a transparent background and the corresponding areas in this window are filled with the colors specified in &lt;c0&gt;&lt;a1&gt;Window.getStatusBarColor()&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;Window.getNavigationBarColor()&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T095110Z" creationid="pingfangx" creationdate="20190215T095110Z">
@@ -19723,6 +19851,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040844Z" creationid="pingfangx" creationdate="20190513T040844Z">
         <seg>如果设置，view 将捕捉到其顶部和底部边距，而不是 view 的边缘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, this activity will become the start of a new task on this history stack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070526Z" creationid="pingfangx" creationdate="20191028T064112Z">
+        <seg>如果设置，此 activity 将成为此历史堆栈上新任务的开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, this flag will prevent the normal &lt;c0&gt;&lt;a1&gt;onUserLeaveHint()&lt;/a1&gt;&lt;/c0&gt; callback from occurring on the current frontmost activity before it is paused as the newly-started activity is brought to the front.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064234Z" creationid="pingfangx" creationdate="20191028T064234Z">
+        <seg>如果设置了此标志，则在当前最前面的 activity 暂停之前，此标志将阻止在当前最前面的 activity 上发生正常的 &lt;c0&gt;&lt;a1&gt;onUserLeaveHint()&lt;/a1&gt;&lt;/c0&gt; 回调，因为新启动的 activity 被带到前面。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29343,6 +29487,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Tasks and Back Stack&lt;/a0&gt; for more information about tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070208Z" creationid="pingfangx" creationdate="20191028T070208Z">
+        <seg>有关任务的详细信息，请参见 &lt;a0&gt;Tasks and Back Stack&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt; Using a Loader&lt;/a1&gt; to learn how to avoid blocking the main thread when using a cursor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T092242Z" creationid="pingfangx" creationdate="20190613T092242Z">
@@ -29371,6 +29523,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033955Z" creationid="pingfangx" creationdate="20190513T033955Z">
         <seg>参见 &lt;c0&gt;&lt;a1&gt;COLLAPSE_MODE_PARALLAX&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;setParallaxMultiplier(float)&lt;/a3&gt;&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_MULTIPLE_TASK&lt;/a1&gt;&lt;/c0&gt; for a flag to disable this behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070655Z" creationid="pingfangx" creationdate="20191028T070417Z">
+        <seg>参见 &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_MULTIPLE_TASK&lt;/a1&gt;&lt;/c0&gt; 了解禁用此行为的标志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32439,6 +32599,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tasks can be moved to the foreground and background; all of the activities inside of a particular task always remain in the same order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070318Z" creationid="pingfangx" creationdate="20191028T070318Z">
+        <seg>任务可以移动到前台和后台；特定任务中的所有 activity 始终保持相同的顺序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Temp storage to use for decoding.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102427Z" creationid="pingfangx" creationdate="20180408T102427Z">
@@ -33947,6 +34115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T095647Z" creationid="pingfangx" creationdate="20190404T095647Z">
         <seg>当前目标将收到 ACTION_CANCEL 事件，此处不会再传递任何消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The currently running instance of activity B in the above example will either receive the new intent you are starting here in its onNewIntent() method, or be itself finished and restarted with the new intent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T065822Z" creationid="pingfangx" creationdate="20191028T065822Z">
+        <seg>上述示例中 activity B 的当前运行实例将在其 onNewIntent() 方法中接收你开始的新 intent，或者 finish 并使用新 intent 重新启动。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37999,6 +38175,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This constant was deprecated in API level 21.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T063647Z" creationid="pingfangx" creationdate="20191028T063647Z">
+        <seg>该常量在 API 级别 21 中已弃用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This constant was deprecated in API level 28.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T075713Z" creationid="pingfangx" creationdate="20190614T075713Z">
@@ -38164,6 +38348,62 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T095446Z" creationid="pingfangx" creationdate="20190215T095446Z">
         <seg>可以通过 &lt;c0&gt;&lt;a1&gt;R.attr.windowTranslucentStatus&lt;/a1&gt;&lt;/c0&gt; 属性在主题中控制此标志;此属性将在标准半透明装饰主题中自动设置，例如 &lt;c2&gt;&lt;a3&gt;R.style.Theme_Holo_NoActionBar_TranslucentDecor&lt;/a3&gt;&lt;/c2&gt;，&lt;c4&gt;&lt;a5&gt;R.style.Theme_Holo_Light_NoActionBar_TranslucentDecor&lt;/a5&gt;&lt;/c4&gt;，&lt;c6&gt;&lt;a7&gt;R.style.Theme_DeviceDefault_NoActionBar_TranslucentDecor&lt;/a7&gt;&lt;/c6&gt; 和 &lt;c8&gt;&lt;a9&gt;R.style.Theme_DeviceDefault_Light_NoActionBar_TranslucentDecor&lt;/a9&gt;&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This flag can not be used when the caller is requesting a result from the activity being launched.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070428Z" creationid="pingfangx" creationdate="20191028T070428Z">
+        <seg>当调用方从正在启动的 activity 请求结果时，不能使用此标志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This flag is generally used by activities that want to present a "launcher" style behavior: they give the user a list of separate things that can be done, which otherwise run completely independently of the activity launching them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070337Z" creationid="pingfangx" creationdate="20191028T070337Z">
+        <seg>此标志通常由希望呈现“启动程序”样式行为的 activity 使用：它们为用户提供一个可以执行的单独操作的列表，否则这些操作将完全独立于启动它们的 activity 运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This flag is not normally set by application code, but set for you by the system as described in the &lt;c0&gt;&lt;a1&gt;launchMode&lt;/a1&gt;&lt;/c0&gt; documentation for the singleTask mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T063327Z" creationid="pingfangx" creationdate="20191028T063327Z">
+        <seg>此标志通常不是由应用程序代码设置的，而是由系统为你设置的，如 singleTask 模式的 &lt;c0&gt;&lt;a1&gt;launchMode&lt;/a1&gt;&lt;/c0&gt; 文档中所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This flag is not normally set by application code, but set for you by the system if this activity is being launched from history (longpress home key).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T063845Z" creationid="pingfangx" creationdate="20191028T063845Z">
+        <seg>此标志通常不由应用程序代码设置，但如果此 activity 是从历史记录启动的(长按 Home 键)，则由系统为你设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This flag is only used in split-screen multi-window mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T063855Z" creationid="pingfangx" creationdate="20191028T063855Z">
+        <seg>该标志仅在分屏多窗口模式下使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This flag is used to create a new task and launch an activity into it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064013Z" creationid="pingfangx" creationdate="20191028T064013Z">
+        <seg>此标志用于创建新 task 并向其中启动 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This flag is used to open a document into a new task rooted at the activity launched by this Intent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T064049Z" creationid="pingfangx" creationdate="20191028T064049Z">
+        <seg>此标志用于将文档打开到此 intent 启动的 activity 的新 task 中根。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38480,6 +38720,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is especially useful, for example, when launching an activity from the notification manager.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070104Z" creationid="pingfangx" creationdate="20191028T070104Z">
+        <seg>这是特别有用，例如，从通知管理器启动 activity 时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is ignored for animated drawables.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084323Z" creationid="pingfangx" creationdate="20180921T084323Z">
@@ -38764,6 +39012,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T090337Z" creationid="pingfangx" creationdate="20190611T090337Z">
         <seg>这个关键区别允许 TextureView 移动，转换，动画。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This launch mode can also be used to good effect in conjunction with &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_NEW_TASK&lt;/a1&gt;&lt;/c0&gt;: if used to start the root activity of a task, it will bring any currently running instance of that task to the foreground, and then clear it to its root state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070034Z" creationid="pingfangx" creationdate="20191028T070034Z">
+        <seg>此启动模式还可以与 &lt;c0&gt;&lt;a1&gt;FLAG_ACTIVITY_NEW_TASK&lt;/a1&gt;&lt;/c0&gt; 一起使用，以获得良好的效果：如果用于启动任务的根 activity，则会将该任务的任何当前运行实例置于前台，然后将其清除到根状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42964,6 +43220,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083510Z" creationid="pingfangx" creationdate="20180925T083510Z">
         <seg>使用 CPU Profiler 时，请注意应用程序的 &lt;c0&gt;&lt;a1&gt;Application&lt;/a1&gt;&lt;/c0&gt; 子类构造函数和 &lt;c2&gt;com.example.customApplication.onCreate()&lt;/c2&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using this flag, if a task is already running for the activity you are now starting, then a new activity will not be started; instead, the current task will simply be brought to the front of the screen with the state it was last in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191028T070407Z" creationid="pingfangx" creationdate="20191028T070407Z">
+        <seg>使用此标志时，如果任务已在为你正在启动的 activity 运行，则不会启动新的 activity；相反，当前任务只会带到屏幕前面，并显示其上次所处的状态。</seg>
       </tuv>
     </tu>
     <tu>
