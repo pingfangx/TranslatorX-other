@@ -6,10 +6,66 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Content Providers&lt;/a0&gt; that enable apps to access data from other apps, such as the Contacts app, or to share their own data</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T045815Z" creationid="pingfangx" creationdate="20191030T045815Z">
+        <seg>&lt;a0&gt;Content Providers&lt;/a0&gt; 允许应用程序从其他应用程序(如联系人应用程序)访问数据，或共享自己的数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt;&lt;s1&gt; Although intents are used for both sending broadcasts and starting activities with &lt;c2&gt;&lt;a3&gt;startActivity(Intent)&lt;/a3&gt;&lt;/c2&gt;, these actions are completely unrelated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061741Z" creationid="pingfangx" creationdate="20191030T061741Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt;&lt;s1&gt; 虽然 intent 可用于发送广播和使用 &lt;c2&gt;&lt;a3&gt;startActivity(Intent)&lt;/a3&gt;&lt;/c2&gt; 启动 activity ，但这些操作完全无关。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt;&lt;s1&gt; Custom permissions are registered when the app is installed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062206Z" creationid="pingfangx" creationdate="20191030T062206Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt;&lt;s1&gt; 安装应用程序时会注册自定义权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt;&lt;s1&gt; If your app targets API level 26 or higher, you cannot use the manifest to declare a receiver for &lt;e2&gt;implicit&lt;/e2&gt; broadcasts (broadcasts that do not target your app specifically), except for a few implicit broadcasts that are &lt;a3&gt;exempted from that restriction&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052745Z" creationid="pingfangx" creationdate="20191030T052745Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt;&lt;s1&gt; 如果你的应用程序以 API 级别 26 或更高级别为目标，则不能使用清单为 &lt;e2&gt;implicit (隐式)&lt;/e2&gt; 广播(不针对你的应用程序的广播)声明接收器，但有少数被 &lt;a3&gt;免除该限制的&lt;/a3&gt;隐式广播除外。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt;&lt;s1&gt; To register for local broadcasts, call &lt;c2&gt;&lt;a3&gt;LocalBroadcastManager.registerReceiver(BroadcastReceiver, IntentFilter)&lt;/a3&gt;&lt;/c2&gt; instead.&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053719Z" creationid="pingfangx" creationdate="20191030T053719Z">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt;&lt;s1&gt; 要注册本地广播，请调用 &lt;c2&gt;&lt;a3&gt;LocalBroadcastManager.registerReceiver(BroadcastReceiver, IntentFilter)&lt;/a3&gt;&lt;/c2&gt;&lt;/s1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s6&gt;Not using these components correctly can result in the system killing the application's process while it is doing important work.&lt;/s6&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074109Z" creationid="pingfangx" creationdate="20191029T074109Z">
         <seg>&lt;s6&gt;不正确使用这些组件可能导致系统在应用程序执行重要工作时终止其进程。&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;a0&gt;Notification Manager&lt;/a0&gt; that enables all apps to display custom alerts in the status bar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T044340Z" creationid="pingfangx" creationdate="20191030T044340Z">
+        <seg>&lt;a0&gt;Notification Manager&lt;/a0&gt; 允许所有应用程序在状态栏中显示自定义警报</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;a0&gt;Resource Manager&lt;/a0&gt;, providing access to non-code resources such as localized strings, graphics, and layout files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T045757Z" creationid="pingfangx" creationdate="20191030T044245Z">
+        <seg>&lt;a0&gt;Resource Manage&lt;/a0&gt;，提供访问非代码资源，如本地化字符串，图形，和布局文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -94,6 +150,62 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A rich and extensible &lt;a0&gt;View System&lt;/a0&gt; you can use to build an app’s UI, including lists, grids, text boxes, buttons, and even an embeddable web browser</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T044212Z" creationid="pingfangx" creationdate="20191030T044212Z">
+        <seg>一个丰富且可扩展的&lt;a0&gt;View 系统&lt;/a0&gt;，可以用来构建应用程序的 UI，包括列表、网格、文本框、按钮，甚至是一个可嵌入的 web 浏览器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ART is written to run multiple virtual machines on low-memory devices by executing DEX files, a bytecode format designed specially for Android that's optimized for minimal memory footprint.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033906Z" creationid="pingfangx" creationdate="20191030T033906Z">
+        <seg>ART 是通过执行 DEX 文件来运行低内存设备上的多个虚拟机的，DEX 文件是专为 Android 设计的字节码格式，它优化了最小的内存占用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>About system broadcasts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050627Z" creationid="pingfangx" creationdate="20191030T050627Z">
+        <seg>关于系统广播</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After &lt;c0&gt;onReceive()&lt;/c0&gt;, the system can kill the process at any time to reclaim memory, and in doing so, it terminates the spawned thread running in the process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054939Z" creationid="pingfangx" creationdate="20191030T054939Z">
+        <seg>在 &lt;c0&gt;onReceive()&lt;/c0&gt; 之后，系统可以随时终止进程以回收内存，并在这样做时终止进程中运行的派生线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ahead-of-time (AOT) and just-in-time (JIT) compilation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T034057Z" creationid="pingfangx" creationdate="20191030T034057Z">
+        <seg>提前编译(Ahead-of-time (AOT)) 和即时编译(just-in-time (JIT))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also, apps targeting Android 7.0 and higher must register the &lt;c0&gt;&lt;a1&gt;CONNECTIVITY_ACTION&lt;/a1&gt;&lt;/c0&gt; broadcast using &lt;c2&gt;&lt;a3&gt;registerReceiver(BroadcastReceiver, IntentFilter)&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052218Z" creationid="pingfangx" creationdate="20191030T052218Z">
+        <seg>此外，针对 Android 7.0 及更高版本的应用程序必须使用 &lt;c2&gt;&lt;a3&gt;registerReceiver(BroadcastReceiver, IntentFilter)&lt;/a3&gt;&lt;/c2&gt; 注册 &lt;c0&gt;&lt;a1&gt;CONNECTIVITY_ACTION&lt;/a1&gt;&lt;/c0&gt; 广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An &lt;a0&gt;Activity Manager&lt;/a0&gt; that manages the lifecycle of apps and provides a common &lt;a1&gt;navigation back stack&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T045737Z" creationid="pingfangx" creationdate="20191030T045737Z">
+        <seg>&lt;a0&gt;Activity Manager&lt;/a0&gt; 它管理应用程序的生命周期，并提供一个通用的 &lt;a1&gt;导航返回栈&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An &lt;s0&gt;empty process&lt;/s0&gt; is one that doesn't hold any active application components.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T082347Z" creationid="pingfangx" creationdate="20191029T080212Z">
@@ -110,10 +222,346 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Android 7.0 (API level 24) and higher don't send the following system broadcasts:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052149Z" creationid="pingfangx" creationdate="20191030T052149Z">
+        <seg>Android 7.0(API 级别 24)及更高版本不发送以下系统广播：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android Runtime</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T030156Z" creationid="pingfangx" creationdate="20191030T030156Z">
+        <seg>Android 运行时</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android also includes a set of core runtime libraries that provide most of the functionality of the Java programming language, including some &lt;a0&gt;Java 8 language features&lt;/a0&gt;, that the Java API framework uses.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T041207Z" creationid="pingfangx" creationdate="20191030T041207Z">
+        <seg>Android 还包括一组核心运行库，它们提供了 Java 编程语言的大部分功能，包括 Java API 框架使用的一些 &lt;a0&gt;Java 8 语言特性&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android apps can send or receive broadcast messages from the Android system and other Android apps, similar to the &lt;a0&gt;publish-subscribe&lt;/a0&gt; design pattern.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050436Z" creationid="pingfangx" creationdate="20191030T050436Z">
+        <seg>Android 应用可以发送或接收来自 Android 系统和其他 Android 应用程序的广播消息，类似于 &lt;a0&gt;publish-subscribe&lt;/a0&gt; 设计模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android comes with a set of core apps for email, SMS messaging, calendars, internet browsing, contacts, and more.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T045937Z" creationid="pingfangx" creationdate="20191030T045937Z">
+        <seg>Android 自带了一套核心应用程序，用于电子邮件、短信、日历、互联网浏览、联系人等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android is an open source, Linux-based software stack created for a wide array of devices and form factors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033042Z" creationid="pingfangx" creationdate="20191030T033042Z">
+        <seg>Android 是一个开源的、基于 Linux 的软件栈，为各种各样的设备和形式因素（form factors）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android provides three ways for apps to send broadcast:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T060842Z" creationid="pingfangx" creationdate="20191030T060842Z">
+        <seg>Android 为应用程序提供了三种发送广播的方式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps can also send custom broadcasts, for example, to notify other apps of something that they might be interested in (for example, some new data has been downloaded).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050517Z" creationid="pingfangx" creationdate="20191030T050517Z">
+        <seg>应用程序还可以发送自定义广播，例如，通知其他应用程序他们可能感兴趣的内容(例如，一些新数据已下载)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps can receive broadcasts in two ways: through manifest-declared receivers and context-registered receivers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052516Z" creationid="pingfangx" creationdate="20191030T052516Z">
+        <seg>应用程序可以通过两种方式接收广播：通过清单声明的 (manifest-declared) 接收器和上下文注册的 (context-registered) 接收器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps can register to receive specific broadcasts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050525Z" creationid="pingfangx" creationdate="20191030T050525Z">
+        <seg>应用程序可以注册以接收特定广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps included with the platform have no special status among the apps the user chooses to install.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T045949Z" creationid="pingfangx" creationdate="20191030T045949Z">
+        <seg>平台中包含的应用在用户选择安装的应用中没有特殊状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As each receiver executes in turn, it can propagate a result to the next receiver, or it can completely abort the broadcast so that it won't be passed to other receivers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T060928Z" creationid="pingfangx" creationdate="20191030T060928Z">
+        <seg>当每个接收器依次执行时，它可以将结果传播到下一个接收器，或者它可以完全中止广播，这样就不会传递给其他接收器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As such, the system will often kill these processes in order to balance overall system resources between these empty cached processes and the underlying kernel caches.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080232Z" creationid="pingfangx" creationdate="20191029T080232Z">
         <seg>因此，系统通常会终止这些进程，以便在这些空缓存进程和底层内核缓存之间平衡整个系统资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As the Android platform evolves, it periodically changes how system broadcasts behave.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051917Z" creationid="pingfangx" creationdate="20191030T051917Z">
+        <seg>随着 Android 平台的发展，它会周期性地改变系统广播的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be mindful of where you register and unregister the receiver, for example, if you register a receiver in &lt;c0&gt;&lt;a1&gt;onCreate(Bundle)&lt;/a1&gt;&lt;/c0&gt; using the activity's context, you should unregister it in &lt;c2&gt;&lt;a3&gt;onDestroy()&lt;/a3&gt;&lt;/c2&gt; to prevent leaking the receiver out of the activity context.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054426Z" creationid="pingfangx" creationdate="20191030T054426Z">
+        <seg>注意注册和注销接收器的位置，例如，如果使用 Activity 的上下文在 &lt;c0&gt;&lt;a1&gt;onCreate(Bundle)&lt;/a1&gt;&lt;/c0&gt; 中注册接收器，则应在 &lt;c2&gt;&lt;a3&gt;onDestroy()&lt;/a3&gt;&lt;/c2&gt; 中注销接收器，以防止接收器泄漏出 Activity 上下文。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be sure to unregister the receiver when you no longer need it or the context is no longer valid.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054322Z" creationid="pingfangx" creationdate="20191030T054322Z">
+        <seg>当不再需要接收器或上下文不再有效时，请确保注销接收器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because a receiver's &lt;c0&gt;&lt;a1&gt;onReceive(Context, Intent)&lt;/a1&gt;&lt;/c0&gt; method runs on the main thread, it should execute and return quickly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064307Z" creationid="pingfangx" creationdate="20191030T064307Z">
+        <seg>因为接收器的 &lt;c0&gt;&lt;a1&gt;onReceive(Context, Intent)&lt;/a1&gt;&lt;/c0&gt; 方法在主线程上运行，所以它应该快速执行并返回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beginning with Android 8.0 (API level 26), the system imposes additional restrictions on manifest-declared receivers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052053Z" creationid="pingfangx" creationdate="20191030T052053Z">
+        <seg>从 Android 8.0(API 级别 26)开始，系统对清单声明的接收者施加额外的限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beginning with Android 9 (API level 28), The &lt;a0&gt;&lt;c1&gt;NETWORK_STATE_CHANGED_ACTION&lt;/c1&gt;&lt;/a0&gt; broadcast doesn't receive information about the user's location or personally identifiable data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052006Z" creationid="pingfangx" creationdate="20191030T052006Z">
+        <seg>从 Android 9(API 级别 28)开始，&lt;a0&gt;&lt;c1&gt;NETWORK_STATE_CHANGED_ACTION&lt;/c1&gt;&lt;/a0&gt; 广播不会接收有关用户位置或个人识别数据的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Better debugging support, including a dedicated sampling profiler, detailed diagnostic exceptions and crash reporting, and the ability to set watchpoints to monitor specific fields</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T034155Z" creationid="pingfangx" creationdate="20191030T034155Z">
+        <seg>更好的调试支持，包括专用的采样分析器、详细的诊断异常和崩溃报告，以及设置观察点以监视特定字段的能力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Broadcast receivers can't see or capture intents used to start an activity; likewise, when you broadcast an intent, you can't find or start an activity.&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061807Z" creationid="pingfangx" creationdate="20191030T061807Z">
+        <seg>广播接收器无法看到或捕获用于启动 activity 的 intent；同样，当你广播 intent 时，也无法找到或启动 activity。&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Broadcasts overview</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050411Z" creationid="pingfangx" creationdate="20191030T050411Z">
+        <seg>广播概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Build toolchains, such as &lt;a1&gt;Jack&lt;/a1&gt;, compile Java sources into DEX bytecode, which can run on the Android platform.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033951Z" creationid="pingfangx" creationdate="20191030T033951Z">
+        <seg>构建工具链，比如 &lt;a1&gt;Jack&lt;/a1&gt;，将 Java 源代码编译成 DEX 字节码，可以在 Android 平台上运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calling &lt;c0&gt;&lt;a1&gt;goAsync()&lt;/a1&gt;&lt;/c0&gt; in your receiver's &lt;c2&gt;onReceive()&lt;/c2&gt; method and passing the &lt;c3&gt;&lt;a4&gt;BroadcastReceiver.PendingResult&lt;/a4&gt;&lt;/c3&gt; to a background thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064537Z" creationid="pingfangx" creationdate="20191030T064537Z">
+        <seg>在接收器的 &lt;c2&gt;onReceive()&lt;/c2&gt; 方法中调用 &lt;c0&gt;&lt;a1&gt;goAsync()&lt;/a1&gt;&lt;/c0&gt; 并将 &lt;c3&gt;&lt;a4&gt;BroadcastReceiver.PendingResult&lt;/a4&gt;&lt;/c3&gt; 传递到后台线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes to system broadcasts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051901Z" creationid="pingfangx" creationdate="20191030T051901Z">
+        <seg>对系统广播的更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Content and code samples on this page are subject to the licenses described in the &lt;a0&gt;Content License&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064729Z" creationid="pingfangx" creationdate="20191030T064729Z">
+        <seg>此页上的内容和代码示例受 &lt;a0&gt;Content License&lt;/a0&gt; 中描述的许可证的约束。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Context-registered receivers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053513Z" creationid="pingfangx" creationdate="20191030T053513Z">
+        <seg>上下文注册接收器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Context-registered receivers receive broadcasts as long as their registering context is valid.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053751Z" creationid="pingfangx" creationdate="20191030T053751Z">
+        <seg>上下文注册的接收器，只在其注册上下文有效时接收广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create an &lt;c0&gt;&lt;a1&gt;IntentFilter&lt;/a1&gt;&lt;/c0&gt; and register the receiver by calling &lt;c2&gt;&lt;a3&gt;registerReceiver(BroadcastReceiver, IntentFilter)&lt;/a3&gt;&lt;/c2&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053623Z" creationid="pingfangx" creationdate="20191030T053623Z">
+        <seg>创建 &lt;c0&gt;&lt;a1&gt;IntentFilter&lt;/a1&gt;&lt;/c0&gt; 并通过调用 &lt;c2&gt;&lt;a3&gt;registerReceiver(BroadcastReceiver, IntentFilter)&lt;/a3&gt;&lt;/c2&gt; 注册接收器：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create an instance of &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053608Z" creationid="pingfangx" creationdate="20191030T053608Z">
+        <seg>创建一个 &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Declaring a receiver in the manifest doesn't work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052224Z" creationid="pingfangx" creationdate="20191030T052224Z">
+        <seg>在清单中声明接收者不起作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Developers have full access to the same &lt;a0&gt;framework APIs&lt;/a0&gt; that Android system apps use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T045853Z" creationid="pingfangx" creationdate="20191030T045853Z">
+        <seg>开发者可以完全访问 Android 系统应用程序使用的&lt;a0&gt;框架 API&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do not broadcast sensitive information using an implicit intent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063930Z" creationid="pingfangx" creationdate="20191030T063930Z">
+        <seg>不要使用隐式 intent 广播敏感信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do not start activities from broadcast receivers because the user experience is jarring; especially if there is more than one receiver.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064658Z" creationid="pingfangx" creationdate="20191030T064658Z">
+        <seg>不要从广播接收器启动 activity，因为用户体验不稳定；特别是如果有多个接收器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do not unregister in &lt;c8&gt;&lt;a9&gt;onSaveInstanceState(Bundle)&lt;/a9&gt;&lt;/c8&gt;, because this isn't called if the user moves back in the history stack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054539Z" creationid="pingfangx" creationdate="20191030T054539Z">
+        <seg>不要在 &lt;c8&gt;&lt;a9&gt;onSaveInstanceState(Bundle)&lt;/a9&gt;&lt;/c8&gt; 中注销，因为如果用户移回历史堆栈中，则不会调用此命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Documentation for each broadcast action is available in its associated constant field.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051558Z" creationid="pingfangx" creationdate="20191030T051558Z">
+        <seg>每个广播 action 的文档在其关联的常量字段中可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each broadcast action has a constant field associated with it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051450Z" creationid="pingfangx" creationdate="20191030T051450Z">
+        <seg>每个广播 action 都有一个与之关联的常量字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Effects on process state</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054550Z" creationid="pingfangx" creationdate="20191030T054550Z">
+        <seg>对进程状态的影响</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a complete list of system broadcast actions, see the &lt;c0&gt;BROADCAST_ACTIONS.TXT&lt;/c0&gt; file in the Android SDK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051346Z" creationid="pingfangx" creationdate="20191030T051346Z">
+        <seg>有关系统广播操作的完整列表，请参阅 Android SDK 中的 &lt;c0&gt;broadcast_actions.TXT&lt;/c0&gt; 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For an example, if you register within an &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt; context, you receive broadcasts as long as the activity is not destroyed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054257Z" creationid="pingfangx" creationdate="20191030T053823Z">
+        <seg>例如，如果你使用 &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt; 上下文注册，只要该 Activity 未被 destroyed，你就可以接收广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For devices running Android version 5.0 (API level 21) or higher, each app runs in its own process and with its own instance of the &lt;a0&gt;Android Runtime (ART)&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033546Z" creationid="pingfangx" creationdate="20191030T033546Z">
+        <seg>对于运行 Android 5.0 版(API 级别 21)或更高版本的设备，每个应用程序都在其自己的进程中运行，并带有自己的 &lt;a0&gt;Android Runtime (ART)&lt;/a0&gt; 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, &lt;a0&gt;the Android Runtime (ART)&lt;/a0&gt; relies on the Linux kernel for underlying functionalities such as threading and low-level memory management.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033142Z" creationid="pingfangx" creationdate="20191030T033142Z">
+        <seg>例如，&lt;a0&gt;Android Runtime (ART)&lt;/a0&gt; 依赖于 Linux 内核为基础的功能，诸如线程和低级别的存储器管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, assume your receiving app has a manifest-declared receiver as shown below:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062928Z" creationid="pingfangx" creationdate="20191030T062928Z">
+        <seg>例如，假设你的接收应用程序有一个清单声明的接收器，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -126,10 +574,282 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if your app would like to deliver an SMS message, you don't need to build that functionality yourself—you can instead invoke whichever SMS app is already installed to deliver a message to the recipient you specify.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050124Z" creationid="pingfangx" creationdate="20191030T050124Z">
+        <seg>例如，如果你的应用程序希望发送短信，则不需要自己构建该功能，你可以调用已安装的任何短消息应用程序来将消息发送给指定的收件人。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the &lt;c0&gt;&lt;a1&gt;CONNECTIVITY_ACTION&lt;/a1&gt;&lt;/c0&gt; broadcast is delivered only to context-registered receivers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063923Z" creationid="pingfangx" creationdate="20191030T063923Z">
+        <seg>例如，&lt;c0&gt;&lt;a1&gt;CONNECTIVITY_ACTION&lt;/a1&gt;&lt;/c0&gt; 广播仅传送给上下文注册的接收器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the Android system sends broadcasts when various system events occur, such as when the system boots up or the device starts charging.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050458Z" creationid="pingfangx" creationdate="20191030T050458Z">
+        <seg>例如，当各种系统事件发生时，比如当系统启动或设备开始充电时，Android 系统发送广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the airplane mode intent includes a boolean extra that indicates whether or not Airplane Mode is on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051248Z" creationid="pingfangx" creationdate="20191030T051248Z">
+        <seg>例如，飞行模式 intent 包含一个布尔 extra，指示飞行模式是否打开。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the following code sends a broadcast:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062023Z" creationid="pingfangx" creationdate="20191030T062023Z">
+        <seg>例如，以下代码发送广播：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the value of the constant &lt;c1&gt;&lt;a2&gt;ACTION_AIRPLANE_MODE_CHANGED&lt;/a2&gt;&lt;/c1&gt; is &lt;c3&gt;android.intent.action.AIRPLANE_MODE&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051538Z" creationid="pingfangx" creationdate="20191030T051538Z">
+        <seg>例如，常量 &lt;c1&gt;&lt;a2&gt;ACTION_AIRPLANE_MODE_CHANGED&lt;/a2&gt;&lt;/c1&gt; 的值为 &lt;c3&gt;android.intent.action.AIRPLANE_MODE&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, when a process executes a receiver (that is, currently running the code in its &lt;c2&gt;&lt;a3&gt;onReceive()&lt;/a3&gt;&lt;/c2&gt; method), it is considered to be a foreground process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054657Z" creationid="pingfangx" creationdate="20191030T054657Z">
+        <seg>例如，当一个进程执行一个接收器(即，当前正在其 &lt;c2&gt;&lt;a3&gt;onReceive()&lt;/a3&gt;&lt;/c2&gt; 方法中运行代码)时，它被认为是一个前台进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, you can access &lt;a0&gt;OpenGL ES&lt;/a0&gt; through the Android framework’s &lt;a1&gt;Java OpenGL API&lt;/a1&gt; to add support for drawing and manipulating 2D and 3D graphics in your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T041806Z" creationid="pingfangx" creationdate="20191030T041734Z">
+        <seg>例如，你可以通过 Android 框架的 &lt;a1&gt;Java OpenGL API&lt;/a1&gt; 访问 &lt;a0&gt;OpenGL ES&lt;/a0&gt; 来添加对在应用程序中绘制和操作 2D 和 3D 图形的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For information on permissions and security in general, see the &lt;a4&gt;System Permissions&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062159Z" creationid="pingfangx" creationdate="20191030T062159Z">
+        <seg>有关权限和一般安全性的信息，请参阅 &lt;a4&gt;System Permissions&lt;/a4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For manifest-declared receivers, you can set the &lt;a0&gt;android:exported&lt;/a0&gt; attribute to "false" in the manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064142Z" creationid="pingfangx" creationdate="20191030T064142Z">
+        <seg>对于清单声明的接收器，可以在清单中将 &lt;a0&gt;android:exported&lt;/a0&gt; 属性设置为“false”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information about how to read intents and get the action string from an intent, see &lt;a0&gt;Intents and Intent Filters&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051327Z" creationid="pingfangx" creationdate="20191030T051327Z">
+        <seg>有关如何读取 intent 并从中获取 action 字符串的详细信息，请参阅 &lt;a0&gt;intents and intent Filters&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information, see &lt;a2&gt;Intelligent Job Scheduling&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064645Z" creationid="pingfangx" creationdate="20191030T064645Z">
+        <seg>有关详细信息，请参见 &lt;a2&gt;Intelligent Job Scheduling&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information, see &lt;a3&gt;Effect on process state&lt;/a3&gt; To perform long running work, we recommend:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064433Z" creationid="pingfangx" creationdate="20191030T064433Z">
+        <seg>有关详细信息，请参见 &lt;a3&gt;Effect on process state&lt;/a3&gt; 要执行长时间运行的工作，我们建议：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information, see &lt;a7&gt;Processes and Application Life Cycle&lt;/a7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T055100Z" creationid="pingfangx" creationdate="20191030T055100Z">
+        <seg>有关详细信息，请参见 &lt;a7&gt;Processes and Application Life Cycle&lt;/a7&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this reason, you should not start long running background threads from a broadcast receiver.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054926Z" creationid="pingfangx" creationdate="20191030T054926Z">
+        <seg>因此，不应该从广播接收器开始长时间运行后台线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generally speaking, broadcasts can be used as a messaging system across apps and outside of the normal user flow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050607Z" creationid="pingfangx" creationdate="20191030T050607Z">
+        <seg>一般来说，广播可以用作跨应用程序和正常用户流之外的消息传递系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generally, at this point, the device has reached a memory paging state, so this action is required in order to keep the user interface responsive.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074847Z" creationid="pingfangx" creationdate="20191029T074847Z">
         <seg>通常，此时设备已达到内存分页状态，因此需要执行此操作以保持用户界面响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hardware Abstraction Layer (HAL)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T030147Z" creationid="pingfangx" creationdate="20191030T030147Z">
+        <seg>硬件抽象层(HAL)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are some security considerations and best practices for sending and receiving broadcasts:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063043Z" creationid="pingfangx" creationdate="20191030T063043Z">
+        <seg>以下是发送和接收广播时的一些安全注意事项和最佳做法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, even with this approach the system expects you to finish with the broadcast very quickly (under 10 seconds).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064611Z" creationid="pingfangx" creationdate="20191030T064611Z">
+        <seg>然而，即使采用这种方法，系统也希望你能够非常快地完成广播(不到 10 秒)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, once your code returns from &lt;c0&gt;onReceive()&lt;/c0&gt;, the BroadcastReceiver is no longer active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054720Z" creationid="pingfangx" creationdate="20191030T054720Z">
+        <seg>但是，一旦代码从 &lt;c0&gt;onReceive()&lt;/c0&gt; 返回，广播接收器将不再处于活动状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, you must be careful not to abuse the opportunity to respond to broadcasts and run jobs in the background that can contribute to a slow system performance, as described in the following video.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050625Z" creationid="pingfangx" creationdate="20191030T050625Z">
+        <seg>但是，你必须小心，不要滥用在后台响应广播和运行作业的机会，这可能会导致系统性能降低，如以下视频中所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If many apps have registered to receive the same broadcast in their manifest, it can cause the system to launch a lot of apps, causing a substantial impact on both device performance and user experience.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063902Z" creationid="pingfangx" creationdate="20191030T063902Z">
+        <seg>如果许多应用程序在其清单中注册接收相同的广播，则可能导致系统启动许多应用程序，从而对设备性能和用户体验造成实质性影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If that process hosts only a manifest-declared receiver (a common case for apps that the user has never or not recently interacted with), then upon returning from &lt;c1&gt;onReceive()&lt;/c1&gt;, the system considers its process to be a low-priority process and may kill it to make resources available for other more important processes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054841Z" creationid="pingfangx" creationdate="20191030T054841Z">
+        <seg>如果该进程仅承载清单声明的接收器(这是用户从未或最近没有与之交互的应用程序的常见情况)，那么当从 &lt;c1&gt;onReceive()&lt;/c1&gt; 返回时，系统会将其进程视为低优先级进程，并可能会终止该进程，以便为其他更重要的进程提供资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are developing an app that requires C or C++ code, you can use the &lt;a0&gt;Android NDK&lt;/a0&gt; to access some of these &lt;a1&gt;native platform libraries&lt;/a1&gt; directly from your native code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T043059Z" creationid="pingfangx" creationdate="20191030T043059Z">
+        <seg>如果你正在开发一个需要 C 或 C++ 代码的应用程序，你可以使用 &lt;a0&gt;Android NDK&lt;/a0&gt; 直接从原生代码访问这些 &lt;a1&gt;原生平台库&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you declare a broadcast receiver in your manifest, the system launches your app (if the app is not already running) when the broadcast is sent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052548Z" creationid="pingfangx" creationdate="20191030T052548Z">
+        <seg>如果在清单中声明广播接收器，则在发送广播时，系统将启动应用程序(如果应用程序尚未运行)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you don't need to send broadcasts across apps, use local broadcasts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061237Z" creationid="pingfangx" creationdate="20191030T061237Z">
+        <seg>如果不需要跨应用程序发送广播，请使用本地广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you don't need to send broadcasts to components outside of your app, then send and receive local broadcasts with the &lt;c0&gt;&lt;a1&gt;LocalBroadcastManager&lt;/a1&gt;&lt;/c0&gt; which is available in the &lt;a2&gt;Support Library&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063742Z" creationid="pingfangx" creationdate="20191030T063742Z">
+        <seg>如果不需要向应用程序外部的组件发送广播，则使用 &lt;a2&gt;支持库&lt;/a2&gt; 中提供的 &lt;c0&gt;&lt;a1&gt;LocalBroadcastManager&lt;/a1&gt;&lt;/c0&gt; 发送和接收本地广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need to perform long running work, be careful about spawning threads or starting background services because the system can kill the entire process after &lt;c2&gt;onReceive()&lt;/c2&gt; returns.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064420Z" creationid="pingfangx" creationdate="20191030T064420Z">
+        <seg>如果需要执行长时间运行的工作，请小心生成线程或启动后台服务，因为系统可能会在 &lt;c2&gt;onReceive()&lt;/c2&gt; 返回后终止整个进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you register a receiver in &lt;c4&gt;&lt;a5&gt;onResume()&lt;/a5&gt;&lt;/c4&gt;, you should unregister it in &lt;c6&gt;&lt;a7&gt;onPause()&lt;/a7&gt;&lt;/c6&gt; to prevent registering it multiple times (If you don't want to receive broadcasts when paused, and this can cut down on unnecessary system overhead).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054509Z" creationid="pingfangx" creationdate="20191030T054509Z">
+        <seg>如果在 &lt;c4&gt;&lt;a5&gt;onResume()&lt;/a5&gt;&lt;/c4&gt; 中注册接收器，则应在 &lt;c6&gt;&lt;a7&gt;onPause()&lt;/a7&gt;&lt;/c6&gt; 中注销接收器，以防止多次注册(如果你不希望在暂停时接收广播，这可以减少不必要的系统开销)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you register with the Application context, you receive broadcasts as long as the app is running.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054301Z" creationid="pingfangx" creationdate="20191030T054241Z">
+        <seg>如果你使用应用程序上下文注册，则只要应用程序在运行，就可以接收广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you specify a permission parameter when registering a broadcast receiver (either with &lt;c0&gt;&lt;a1&gt;registerReceiver(BroadcastReceiver, IntentFilter, String, Handler)&lt;/a1&gt;&lt;/c0&gt; or in &lt;a2&gt;&lt;c3&gt;&lt;receiver&gt;&lt;/c3&gt;&lt;/a2&gt; tag in your manifest), then only broadcasters who have requested the permission with the &lt;a4&gt;&lt;c5&gt;&lt;uses-permission&gt;&lt;/c5&gt;&lt;/a4&gt; tag in their manifest (and subsequently been granted the permission if it is dangerous) can send an Intent to the receiver.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062505Z" creationid="pingfangx" creationdate="20191030T062431Z">
+        <seg>如果在注册广播接收器时指定了权限参数(使用 &lt;c0&gt;&lt;a1&gt;registerReceiver(BroadcastReceiver, IntentFilter, String, Handler)&lt;/a1&gt;&lt;/c0&gt; 或在清单中的 &lt;a2&gt;&lt;c3&gt;&lt;receiver&gt;&lt;/c3&gt;&lt;/a2&gt; 标记中)。然后，只有在清单中使用 &lt;a4&gt;&lt;c5&gt;&lt;uses-permission&gt;&lt;/c5&gt;&lt;/a4&gt; 标记请求权限(如果是权限危险，则需要随后被授予该权限)的广播者才能向接收器发送 intent。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your app runs well on ART, then it should work on Dalvik as well, but &lt;a0&gt;the reverse may not be true&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T041125Z" creationid="pingfangx" creationdate="20191030T041125Z">
+        <seg>如果你的应用程序在 ART 上运行良好，那么它也应该在 Dalvik 上运行，但是 &lt;a0&gt;反过来可能不正确&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your app targets Android 8.0 or higher, you cannot use the manifest to declare a receiver for most implicit broadcasts (broadcasts that don't target your app specifically).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052116Z" creationid="pingfangx" creationdate="20191030T052116Z">
+        <seg>如果你的应用程序以 Android 8.0 或更高版本为目标，则无法使用清单为大多数隐式广播(不是专门针对您的应用程序的广播)声明接收器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Android 4.0 and higher, you can specify a &lt;a0&gt;package&lt;/a0&gt; with &lt;c1&gt;&lt;a2&gt;setPackage(String)&lt;/a2&gt;&lt;/c1&gt; when sending a broadcast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064019Z" creationid="pingfangx" creationdate="20191030T064019Z">
+        <seg>在 Android 4.0 及更高版本中，你可以在发送广播时使用 &lt;c1&gt;&lt;a2&gt;setPackage(String)&lt;/a2&gt;&lt;/c1&gt; 指定 &lt;a0&gt;package&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -142,6 +862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition, if your app is installed on a device running Android 9 or higher, system broadcasts from Wi-Fi don't contain SSIDs, BSSIDs, connection information, or scan results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052022Z" creationid="pingfangx" creationdate="20191030T052022Z">
+        <seg>此外，如果应用程序安装在运行 Android9 或更高版本的设备上，则 Wi-Fi 的系统广播不包含 SSID、BSSID、连接信息或扫描结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In most cases, every Android application runs in its own Linux process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T073609Z" creationid="pingfangx" creationdate="20191029T073609Z">
@@ -150,10 +878,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In most cases, you can use &lt;a4&gt;scheduled jobs&lt;/a4&gt; instead.&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052754Z" creationid="pingfangx" creationdate="20191030T052754Z">
+        <seg>在大多数情况下，你可以使用 &lt;a4&gt;scheduled jobs&lt;/a4&gt; 代替。&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this document</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T030117Z" creationid="pingfangx" creationdate="20191030T030117Z">
+        <seg>在本文档中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, consider displaying a &lt;a0&gt;notification&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064720Z" creationid="pingfangx" creationdate="20191030T064720Z">
+        <seg>相反，请考虑显示 &lt;a0&gt;通知&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead, it is determined by the system through a combination of the parts of the application that the system knows are running, how important these things are to the user, and how much overall memory is available in the system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T073935Z" creationid="pingfangx" creationdate="20191029T073935Z">
         <seg>相反，它是由系统通过组合应用程序中系统知道正在运行的部分、这些东西对用户有多重要以及系统中有多少总内存可用来确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It does allow you to move work to another thread to avoid glitching the main thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064626Z" creationid="pingfangx" creationdate="20191030T064626Z">
+        <seg>它允许你将工作转移到另一个线程，以避免主线程出现故障。</seg>
       </tuv>
     </tu>
     <tu>
@@ -214,10 +974,82 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Java API Framework</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T030211Z" creationid="pingfangx" creationdate="20191030T030211Z">
+        <seg>Java API 框架</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Java is a registered trademark of Oracle and/or its affiliates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064740Z" creationid="pingfangx" creationdate="20191030T064740Z">
+        <seg>Java 是 Oracle 和/或其附属公司的注册商标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keep the following changes in mind if your app targets Android 7.0 (API level 24) or higher, or if it's installed on devices running Android 7.0 or higher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051930Z" creationid="pingfangx" creationdate="20191030T051930Z">
+        <seg>如果你的应用针对的是 Android 7.0(API 级别 24)或更高版本，或者安装在运行 Android 7.0 或更高版本的设备上，请记住以下更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Local Broadcasts can be used as a general purpose pub/sub event bus in your app without any overheads of system wide broadcasts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063843Z" creationid="pingfangx" creationdate="20191030T063843Z">
+        <seg>本地广播可以用作应用程序中的通用 pub/sub 事件总线，而无需系统范围广播的任何开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make sure that action names and other strings are written in a namespace you own, or else you may inadvertently conflict with other apps.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064232Z" creationid="pingfangx" creationdate="20191030T064232Z">
+        <seg>请确保操作名和其他字符串是在你自己的命名空间中写入的，否则你可能会无意中与其他应用程序发生冲突。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Manifest-declared receivers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052532Z" creationid="pingfangx" creationdate="20191030T052532Z">
+        <seg>清单声明接收器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many core Android system components and services, such as ART and HAL, are built from native code that require native libraries written in C and C++.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T041335Z" creationid="pingfangx" creationdate="20191030T041335Z">
+        <seg>许多核心 Android 系统组件和服务，如 ART 和 HAL，都是由需要用 C 和 C++ 编写的原生库的原生代码构建的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Native C/C++ Libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T030207Z" creationid="pingfangx" creationdate="20191030T030207Z">
+        <seg>原生 C/C++ 库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once it returns, the system considers the BroadcastReceiver to be no longer active, and thus, its hosting process no longer needed (unless other application components are active in it).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074240Z" creationid="pingfangx" creationdate="20191029T074240Z">
         <seg>一旦返回，系统将认为广播接收器不再处于活动状态，因此不再需要其宿主进程(除非其他应用程序组件在其中处于活动状态)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once your code returns from this method, the system considers the component no longer active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053505Z" creationid="pingfangx" creationdate="20191030T053505Z">
+        <seg>一旦代码从此方法返回后，系统将认为该组件不再处于活动状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -230,10 +1062,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only receivers who have requested that permission with the &lt;u4&gt; tag in their manifest (and subsequently been granted the permission if it is dangerous) can receive the broadcast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062516Z" creationid="pingfangx" creationdate="20191030T062018Z">
+        <seg>只有在其清单中使用 &lt;u4&gt; 标记请求该权限的接收器(如果是危险权限，则需要随后被授予该权限)才能接收广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optimized garbage collection (GC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T034101Z" creationid="pingfangx" creationdate="20191030T034101Z">
+        <seg>优化垃圾回收(GC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or your receiving app has a context-registered receiver as shown below:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062956Z" creationid="pingfangx" creationdate="20191030T062956Z">
+        <seg>或者你的接收应用程序有一个上下文注册的接收器，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other policies for killing processes may also be applied: hard limits on the number of processes allowed, limits on the amount of time a process can stay continually cached, etc.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081836Z" creationid="pingfangx" creationdate="20191029T081836Z">
         <seg>还可以应用其他用于终止进程的策略：对允许的进程数的硬限制、对进程可以持续缓存的时间的限制等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Permissions allow you to restrict broadcasts to the set of apps that hold certain permissions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061858Z" creationid="pingfangx" creationdate="20191030T061858Z">
+        <seg>权限允许你将广播限制为具有特定权限的应用程序集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Platform Architecture</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T030103Z" creationid="pingfangx" creationdate="20191030T030103Z">
+        <seg>平台架构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Prior to Android version 5.0 (API level 21), Dalvik was the Android runtime.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T034234Z" creationid="pingfangx" creationdate="20191030T034234Z">
+        <seg>在 Android 版本 5.0(API 级别 21)之前，Dalvik 是 Android 运行时。</seg>
       </tuv>
     </tu>
     <tu>
@@ -270,10 +1150,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Receiving broadcasts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052227Z" creationid="pingfangx" creationdate="20191030T052227Z">
+        <seg>接收广播</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Receiving with permissions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062240Z" creationid="pingfangx" creationdate="20191030T062240Z">
+        <seg>带权限接收</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Restricting broadcasts with permissions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061850Z" creationid="pingfangx" creationdate="20191030T061850Z">
+        <seg>使用权限限制广播</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scheduling a job with the &lt;c0&gt;&lt;a1&gt;JobScheduler&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064640Z" creationid="pingfangx" creationdate="20191030T064640Z">
+        <seg>使用 &lt;c0&gt;&lt;a1&gt;JobScheduler&lt;/a1&gt;&lt;/c0&gt; 调度作业。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Security considerations and best practices</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063024Z" creationid="pingfangx" creationdate="20191030T063018Z">
+        <seg>安全考虑和最佳做法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See the &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt;, &lt;c2&gt;&lt;a3&gt;Service&lt;/a3&gt;&lt;/c2&gt;, and &lt;c4&gt;&lt;a5&gt;BroadcastReceiver&lt;/a5&gt;&lt;/c4&gt; documentation for more detail on how each of these components contribute to the overall life-cycle of a process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080316Z" creationid="pingfangx" creationdate="20191029T080316Z">
         <seg>查看 &lt;c0&gt;&lt;a1&gt;Activity&lt;/a1&gt;&lt;/c0&gt;，&lt;c2&gt;&lt;a3&gt;Service&lt;/a3&gt;&lt;/c2&gt; 和 &lt;c4&gt;&lt;a5&gt;BroadcastReceiver&lt;/a5&gt;&lt;/c4&gt; 文档，了解每个组件有助于进程的整体生命周期的更多细节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sending broadcasts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T055243Z" creationid="pingfangx" creationdate="20191030T055243Z">
+        <seg>发送广播</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sending with permissions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061910Z" creationid="pingfangx" creationdate="20191030T061910Z">
+        <seg>使用权限发送</seg>
       </tuv>
     </tu>
     <tu>
@@ -286,10 +1222,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So a third-party app can become the user's default web browser, SMS messenger, or even the default keyboard (some exceptions apply, such as the system's Settings app).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050023Z" creationid="pingfangx" creationdate="20191030T050023Z">
+        <seg>因此，第三方应用程序可以成为用户的默认 web 浏览器、SMS messenger，甚至默认键盘(有一些例外情况，例如系统的设置应用程序)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So, the system may kill the process at any time to reclaim memory, and in doing so, it terminates the spawned thread running in the process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074300Z" creationid="pingfangx" creationdate="20191029T074300Z">
         <seg>因此，系统可以随时终止进程以回收内存，这样做时，它会终止进程中运行的派生线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some of the major features of ART include the following:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T034015Z" creationid="pingfangx" creationdate="20191030T034015Z">
+        <seg>ART 的一些主要特征包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes, the Android system itself enforces the use of context-registered receivers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063915Z" creationid="pingfangx" creationdate="20191030T063915Z">
+        <seg>有时，Android 系统本身会强制使用上下文注册接收器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specify the &lt;a0&gt;&lt;c1&gt;&lt;receiver&gt;&lt;/c1&gt;&lt;/a0&gt; element in your app's manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052815Z" creationid="pingfangx" creationdate="20191030T052815Z">
+        <seg>指定应用程序清单中的 &lt;a0&gt;&lt;c1&gt;&lt;receiver&gt;&lt;/c1&gt;&lt;/a0&gt; 元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Subclass &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; and implement &lt;c2&gt;&lt;a3&gt;onReceive(Context, Intent)&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053025Z" creationid="pingfangx" creationdate="20191030T053025Z">
+        <seg>子类化 &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; 并实现 &lt;c2&gt;&lt;a3&gt;onReceive(Context, Intent)&lt;/a3&gt;&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -302,6 +1278,118 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>System Apps</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T030214Z" creationid="pingfangx" creationdate="20191030T030214Z">
+        <seg>系统应用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>System broadcasts are sent to all apps that are subscribed to receive the event.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051053Z" creationid="pingfangx" creationdate="20191030T051053Z">
+        <seg>系统广播发送给订阅接收事件的所有应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;a0&gt; hardware abstraction layer (HAL)&lt;/a0&gt; provides standard interfaces that expose device hardware capabilities to the higher-level &lt;a1&gt;Java API framework&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033403Z" creationid="pingfangx" creationdate="20191030T033403Z">
+        <seg>&lt;a0&gt;硬件抽象层 (HAL)&lt;/a0&gt; 提供标准接口，将设备硬件功能公开给更高级别的 &lt;a1&gt;Java API 框架&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;&lt;a1&gt;LocalBroadcastManager.sendBroadcast&lt;/a1&gt;&lt;/c0&gt; method sends broadcasts to receivers that are in the same app as the sender.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061229Z" creationid="pingfangx" creationdate="20191030T061229Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;LocalBroadcastManager.sendBroadcast&lt;/a1&gt;&lt;/c0&gt; 方法将广播发送到与发送方位于同一应用程序中的接收器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;&lt;a1&gt;sendBroadcast(Intent)&lt;/a1&gt;&lt;/c0&gt; method sends broadcasts to all receivers in an undefined order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061130Z" creationid="pingfangx" creationdate="20191030T061130Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;sendBroadcast(Intent)&lt;/a1&gt;&lt;/c0&gt; 方法以未定义的顺序向所有接收器发送广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;&lt;a1&gt;sendOrderedBroadcast(Intent, String)&lt;/a1&gt;&lt;/c0&gt; method sends broadcasts to one receiver at a time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T060858Z" creationid="pingfangx" creationdate="20191030T060858Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;sendOrderedBroadcast(Intent, String)&lt;/a1&gt;&lt;/c0&gt; 方法一次向一个接收器发送广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c3&gt;&lt;a4&gt;LocalBroadcastManager&lt;/a4&gt;&lt;/c3&gt; is much more efficient (no interprocess communication needed) and allows you to avoid thinking about any security issues related to other apps being able to receive or send your broadcasts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063808Z" creationid="pingfangx" creationdate="20191030T063808Z">
+        <seg>&lt;c3&gt;&lt;a4&gt;LocalBroadcastManager&lt;/a4&gt;&lt;/c3&gt; 效率更高(不需要进程间通信)，并且允许你避免考虑与能够接收或发送你的广播的其他应用程序相关的任何安全问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Android platform provides Java framework APIs to expose the functionality of some of these native libraries to apps.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T041632Z" creationid="pingfangx" creationdate="20191030T041607Z">
+        <seg>Android 平台提供了 Java 框架 API 来向应用程序公开其中一些原生库的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The HAL consists of multiple library modules, each of which implements an interface for a specific type of hardware component, such as the &lt;a2&gt;camera&lt;/a2&gt; or &lt;a3&gt;bluetooth&lt;/a3&gt; module.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033425Z" creationid="pingfangx" creationdate="20191030T033425Z">
+        <seg>HAL 由多个库模块组成，每个库模块实现一个特定类型硬件组件的接口，例如 &lt;a2&gt;camera&lt;/a2&gt; 或 &lt;a3&gt;bluetooth&lt;/a3&gt; 模块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Linux Kernel</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T030143Z" creationid="pingfangx" creationdate="20191030T030143Z">
+        <seg>Linux 内核</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The app that defines the custom permission must be installed before the app that uses it.&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062223Z" creationid="pingfangx" creationdate="20191030T062223Z">
+        <seg>定义自定义权限的应用程序必须在使用它的应用程序之前安装。&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The broadcast message is wrapped in an &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061424Z" creationid="pingfangx" creationdate="20191030T061424Z">
+        <seg>广播消息包装在 &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; 对象中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The broadcast message itself is wrapped in an &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; object whose action string identifies the event that occurred (for example &lt;c2&gt;android.intent.action.AIRPLANE_MODE&lt;/c2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051139Z" creationid="pingfangx" creationdate="20191030T051115Z">
+        <seg>广播消息本身包装在一个 &lt;c0&gt;&lt;a1&gt;Intent&lt;/a1&gt;&lt;/c0&gt; 对象中，该对象的 action 字符串标识发生的事件(例如 &lt;c2&gt;android.Intent.action.AIRPLANE_MODE&lt;/c2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The broadcast receiver in the following example logs and displays the contents of the broadcast:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053034Z" creationid="pingfangx" creationdate="20191030T053034Z">
+        <seg>以下示例中的广播接收器记录并显示广播的内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The documentation for each of these classes describes in more detail how they impact the overall life-cycle of their application.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080331Z" creationid="pingfangx" creationdate="20191029T080331Z">
@@ -310,10 +1398,98 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The entire feature-set of the Android OS is available to you through APIs written in the Java language.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T043718Z" creationid="pingfangx" creationdate="20191030T043718Z">
+        <seg>Android 操作系统的整个特性集都可以通过用 Java 语言编写的 API 获得。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The exact policy of ordering on this list is an implementation detail of the platform, but generally it will try to keep more useful processes (one hosting the user's home application, the last activity they saw, etc) before other types of processes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T081823Z" creationid="pingfangx" creationdate="20191029T081823Z">
         <seg>在这个列表上进行排序的确切策略是平台的实现细节，但通常它会尝试在其他类型的进程之前保留更多有用的进程(用户 home 应用程序的宿主、他们看到的最后一个 activity 等)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following code snippet demonstrates how to send a broadcast by creating an Intent and calling &lt;c0&gt;&lt;a1&gt;sendBroadcast(Intent)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061330Z" creationid="pingfangx" creationdate="20191030T061330Z">
+        <seg>下面的代码片段演示如何通过创建 intent 并调用 &lt;c0&gt;&lt;a1&gt;sendBroadcast(Intent)&lt;/a1&gt;&lt;/c0&gt; 来发送广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following diagram shows the major components of the Android platform.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033052Z" creationid="pingfangx" creationdate="20191030T033052Z">
+        <seg>下图显示了 Android 平台的主要组成部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following snippet shows a &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; that uses &lt;c2&gt;&lt;a3&gt;goAsync()&lt;/a3&gt;&lt;/c2&gt; to flag that it needs more time to finish after &lt;c4&gt;onReceive()&lt;/c4&gt; is complete.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T055133Z" creationid="pingfangx" creationdate="20191030T055133Z">
+        <seg>下面的代码片段显示了一个 &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt;，它使用 &lt;c2&gt;&lt;a3&gt;goAsync()&lt;/a3&gt;&lt;/c2&gt; 来标记在完成 &lt;c4&gt;onReceive()&lt;/c4&gt; 之后需要更多时间才能完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The foundation of the Android platform is the Linux kernel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033115Z" creationid="pingfangx" creationdate="20191030T033115Z">
+        <seg>Android 平台的基础是 Linux 内核。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The implementation is much more efficient (no interprocess communication needed) and you don't need to worry about any security issues related to other apps being able to receive or send your broadcasts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061259Z" creationid="pingfangx" creationdate="20191030T061259Z">
+        <seg>该实现效率更高(不需要进程间通信)，而且你不必担心与其他应用程序能够接收或发送广播相关的任何安全问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The information can be read by any app that registers to receive the broadcast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063942Z" creationid="pingfangx" creationdate="20191030T063942Z">
+        <seg>任何注册接收广播的应用程序都可以读取该信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The intent filters specify the broadcast actions your receiver subscribes to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053000Z" creationid="pingfangx" creationdate="20191030T053000Z">
+        <seg>intent 过滤器指定接收器订阅的广播操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The intent may also include additional information bundled into its extra field.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051222Z" creationid="pingfangx" creationdate="20191030T051134Z">
+        <seg>intent 还可以包括捆绑到其 extra 字段中的附加信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The intent's action string must provide the app's Java package name syntax and uniquely identify the broadcast event.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061527Z" creationid="pingfangx" creationdate="20191030T061527Z">
+        <seg>intent 的操作字符串必须提供应用程序的 Java 包名称语法，并唯一标识广播事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The namespace for broadcast actions is global.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064218Z" creationid="pingfangx" creationdate="20191030T064218Z">
+        <seg>广播操作的命名空间是全局的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -334,6 +1510,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The order receivers run in can be controlled with the android:priority attribute of the matching intent-filter; receivers with the same priority will be run in an arbitrary order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061025Z" creationid="pingfangx" creationdate="20191030T060952Z">
+        <seg>可以使用匹配 intent 过滤器的 android:priority 属性控制接收器的运行顺序；具有相同优先级的接收器将以任意顺序运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The receiver does not receive broadcasts from sources outside of the app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064150Z" creationid="pingfangx" creationdate="20191030T064150Z">
+        <seg>接收器不接收来自应用程序外部源的广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The receiver then becomes a separate entry point into your app which means that the system can start the app and deliver the broadcast if the app is not currently running.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053248Z" creationid="pingfangx" creationdate="20191030T053248Z">
+        <seg>然后接收器成为应用程序的单独入口点，这意味着如果应用程序当前未运行，系统可以启动该应用程序并发送广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The receiver's host process becomes only as important as the other app components that are running in it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054749Z" creationid="pingfangx" creationdate="20191030T054749Z">
+        <seg>接收器的宿主进程只会变得和运行在其中的其他应用程序组件一样重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The solution to this problem is to start a &lt;c4&gt;&lt;a5&gt;Service&lt;/a5&gt;&lt;/c4&gt; from the BroadcastReceiver, so the system knows that there is still active work being done in the process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074337Z" creationid="pingfangx" creationdate="20191029T074337Z">
@@ -350,10 +1558,106 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The state of your &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; (whether it is running or not) affects the state of its containing process, which can in turn affect its likelihood of being killed by the system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054641Z" creationid="pingfangx" creationdate="20191030T054641Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; 的状态(它是否正在运行)会影响其包含进程的状态，进而影响其被系统杀死的可能性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The system apps function both as apps for users and to provide key capabilities that developers can access from their own app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050046Z" creationid="pingfangx" creationdate="20191030T050046Z">
+        <seg>系统应用程序既可以作为用户的应用程序，也可以提供开发人员可以从自己的应用程序访问的关键功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The system automatically sends broadcasts when various system events occur, such as when the system switches in and out of airplane mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T051047Z" creationid="pingfangx" creationdate="20191030T051047Z">
+        <seg>当各种系统事件发生时，例如当系统切换到飞行模式和退出飞行模式时，系统自动发送广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The system creates a new &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; component object to handle each broadcast that it receives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053421Z" creationid="pingfangx" creationdate="20191030T053421Z">
+        <seg>系统创建一个新的 &lt;c0&gt;&lt;a1&gt;BroadcastReceiver&lt;/a1&gt;&lt;/c0&gt; 组件对象来处理其接收到的每个广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The system keeps the process running except under cases of extreme memory pressure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054712Z" creationid="pingfangx" creationdate="20191030T054712Z">
+        <seg>系统保持进程运行，除非在极端内存压力的情况下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The system package manager registers the receiver when the app is installed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053059Z" creationid="pingfangx" creationdate="20191030T053059Z">
+        <seg>安装应用程序时，系统包管理器会注册接收器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The system restricts the broadcast to the set of apps that match the package.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064027Z" creationid="pingfangx" creationdate="20191030T064027Z">
+        <seg>系统将广播限制为与包匹配的应用程序集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then, to be able to send broadcasts to those receivers, the sending app must request the permission as shown below:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063012Z" creationid="pingfangx" creationdate="20191030T063012Z">
+        <seg>然后，要向这些接收器发送广播，发送应用程序必须请求如下所示的权限：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are three ways to control who can receive your broadcasts:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063948Z" creationid="pingfangx" creationdate="20191030T063948Z">
+        <seg>有三种方法可以控制谁可以接收你的广播：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are three ways to limit the broadcasts that your app receives:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064118Z" creationid="pingfangx" creationdate="20191030T064118Z">
+        <seg>有三种方法可以限制应用程序接收的广播：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There will only ever be a few such processes in the system, and these will only be killed as a last resort if memory is so low that not even these processes can continue to run.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074830Z" creationid="pingfangx" creationdate="20191029T074830Z">
         <seg>系统中只有少数这样的进程，如果内存太低，甚至这些进程都无法继续运行，这些进程将作为最后手段被终止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These APIs form the building blocks you need to create Android apps by simplifying the reuse of core, modular system components and services, which include the following:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T043854Z" creationid="pingfangx" creationdate="20191030T043854Z">
+        <seg>通过简化核心、模块化系统组件和服务的重用，这些 API 构成了创建 Android 应用程序所需的构建块，这些组件和服务包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These broadcasts are sent when an event of interest occurs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050445Z" creationid="pingfangx" creationdate="20191030T050445Z">
+        <seg>这些广播在发生感兴趣的事件时发送。</seg>
       </tuv>
     </tu>
     <tu>
@@ -406,10 +1710,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is called a Normal Broadcast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061157Z" creationid="pingfangx" creationdate="20191030T061157Z">
+        <seg>这被称为正常广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is especially useful if the work you want to complete in your &lt;c5&gt;onReceive()&lt;/c5&gt; is long enough to cause the UI thread to miss a frame (&gt;16ms), making it better suited for a background thread.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T055150Z" creationid="pingfangx" creationdate="20191030T055150Z">
+        <seg>如果你想在 &lt;c5&gt;onReceive()&lt;/c5&gt; 中完成的工作足够长，以致于 UI 线程错过一个帧(&gt;16ms)，这一点特别有用，使其更适合于后台线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is more efficient, but means that receivers cannot read results from other receivers, propagate data received from the broadcast, or abort the broadcast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061217Z" creationid="pingfangx" creationdate="20191030T061217Z">
+        <seg>这更有效，但意味着接收器无法读取其他接收器的结果、传播从广播接收到的数据或中止广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This keeps the broadcast active after returning from &lt;c5&gt;onReceive()&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064558Z" creationid="pingfangx" creationdate="20191030T064558Z">
+        <seg>从 &lt;c5&gt;onReceive()&lt;/c5&gt; 返回后，这将使广播保持活动状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This may occur, for example, if the foreground Activity is displayed as a dialog that allows the previous Activity to be seen behind it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T075018Z" creationid="pingfangx" creationdate="20191029T075018Z">
         <seg>这可能会发生，例如，如果前台 Activity 显示为一个对话框，允许在它后面观察前一个 Activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This object is valid only for the duration of the call to &lt;c2&gt;&lt;a3&gt;onReceive(Context, Intent)&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053442Z" creationid="pingfangx" creationdate="20191030T053442Z">
+        <seg>此对象仅在调用 &lt;c2&gt;&lt;a3&gt;onReceive(Context, Intent)&lt;/a3&gt;&lt;/c2&gt; 时有效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -438,10 +1782,74 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To avoid this, prefer using context registration over manifest declaration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063909Z" creationid="pingfangx" creationdate="20191030T063909Z">
+        <seg>为了避免这种情况，最好使用上下文注册而不是清单声明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To avoid this, you should either call &lt;c1&gt;&lt;a2&gt;goAsync()&lt;/a2&gt;&lt;/c1&gt; (if you want a little more time to process the broadcast in a background thread) or schedule a &lt;c3&gt;&lt;a4&gt;JobService&lt;/a4&gt;&lt;/c3&gt; from the receiver using the &lt;c5&gt;&lt;a6&gt;JobScheduler&lt;/a6&gt;&lt;/c5&gt;, so the system knows that the process continues to perform active work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T055053Z" creationid="pingfangx" creationdate="20191030T055053Z">
+        <seg>为了避免这种情况，你应该调用 &lt;c1&gt;&lt;a2&gt;goAsync()&lt;/a2&gt;&lt;/c1&gt;(如果你希望有更多的时间在后台线程中处理广播)，或者使用 &lt;c5&gt;&lt;a6&gt;JobScheduler&lt;/a6&gt;&lt;/c5&gt; 从接收器调度 &lt;c3&gt;&lt;a4&gt;JobService&lt;/a4&gt;&lt;/c3&gt;，以便系统知道该进程继续执行活动工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To declare a broadcast receiver in the manifest, perform the following steps:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052804Z" creationid="pingfangx" creationdate="20191030T052804Z">
+        <seg>要在清单中声明广播接收器，请执行以下步骤：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To determine which processes should be killed when low on memory, Android places each process into an "importance hierarchy" based on the components running in them and the state of those components.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T074402Z" creationid="pingfangx" creationdate="20191029T074402Z">
         <seg>为了确定在内存不足时应该终止哪些进程，Android 根据运行在其中的组件和这些组件的状态将每个进程放入“重要性层次结构”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To get this information, call &lt;a0&gt;&lt;c1&gt;getConnectionInfo()&lt;/c1&gt;&lt;/a0&gt; instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052041Z" creationid="pingfangx" creationdate="20191030T052041Z">
+        <seg>要获取此信息，请改为调用 &lt;a0&gt;&lt;c1&gt;getConnectionInfo()&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To receive the broadcast, the receiving app must request the permission as shown below:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062102Z" creationid="pingfangx" creationdate="20191030T062102Z">
+        <seg>要接收广播，接收应用程序必须请求如下所示的权限：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To register a receiver with a context, perform the following steps:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T053524Z" creationid="pingfangx" creationdate="20191030T053524Z">
+        <seg>要用上下文注册接收器，请执行以下步骤：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To stop receiving broadcasts, call &lt;c0&gt;&lt;a1&gt;unregisterReceiver(android.content.BroadcastReceiver)&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T054307Z" creationid="pingfangx" creationdate="20191030T054307Z">
+        <seg>要停止接收广播，调用 &lt;c0&gt;&lt;a1&gt;unregisterReceiver(android.content.BroadcastReceiver)&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using a Linux kernel allows Android to take advantage of &lt;a0&gt;key security features&lt;/a0&gt; and allows device manufacturers to develop hardware drivers for a well-known kernel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033308Z" creationid="pingfangx" creationdate="20191030T033308Z">
+        <seg>使用 Linux 内核的 Android 利用 &lt;a0&gt;关键安全特性&lt;/a0&gt;，并允许设备制造商开发为知名的内核开发硬件驱动程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -462,10 +1870,114 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a broadcast is sent, the system automatically routes broadcasts to apps that have subscribed to receive that particular type of broadcast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T050540Z" creationid="pingfangx" creationdate="20191030T050540Z">
+        <seg>发送广播时，系统会自动将广播路由到已订阅接收该特定类型广播的应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a framework API makes a call to access device hardware, the Android system loads the library module for that hardware component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T033448Z" creationid="pingfangx" creationdate="20191030T033448Z">
+        <seg>当一个框架 API 调用访问设备硬件时，Android 系统加载该硬件组件的库模块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When deciding how to classify a process, the system will base its decision on the most important level found among all the components currently active in the process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191029T080254Z" creationid="pingfangx" creationdate="20191029T080254Z">
         <seg>在决定如何对进程进行分类时，系统将根据在进程中当前活动的所有组件中找到的最重要级别来进行决策。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you call &lt;c0&gt;&lt;a1&gt;sendBroadcast(Intent, String)&lt;/a1&gt;&lt;/c0&gt; or &lt;c2&gt;&lt;a3&gt;sendOrderedBroadcast(Intent, String, BroadcastReceiver, Handler, int, String, Bundle)&lt;/a3&gt;&lt;/c2&gt;, you can specify a permission parameter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061930Z" creationid="pingfangx" creationdate="20191030T061930Z">
+        <seg>当你调用 &lt;c0&gt;&lt;a1&gt;sendBroadcast(Intent, String)&lt;/a1&gt;&lt;/c0&gt; 或 &lt;c2&gt;&lt;a3&gt;sendOrderedBroadcast(Intent, String, BroadcastReceiver, Handler, int, String, Bundle)&lt;/a3&gt;&lt;/c2&gt; 时，可以指定一个权限参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you register a receiver, any app can send potentially malicious broadcasts to your app's receiver.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064111Z" creationid="pingfangx" creationdate="20191030T064111Z">
+        <seg>注册接收器时，任何应用都可以向应用的接收器发送潜在的恶意广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also limit a broadcast to a set of apps in the same organization by calling &lt;c4&gt;&lt;a5&gt;setPackage(String)&lt;/a5&gt;&lt;/c4&gt; on the intent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061622Z" creationid="pingfangx" creationdate="20191030T061622Z">
+        <seg>你还可以通过调用 &lt;c4&gt;&lt;a5&gt;setPackage(String)&lt;/a5&gt;&lt;/c4&gt; 来将广播限制为同一组织中的一组应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can attach additional information to the intent with &lt;c2&gt;&lt;a3&gt;putExtra(String, Bundle)&lt;/a3&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061553Z" creationid="pingfangx" creationdate="20191030T061553Z">
+        <seg>你可以使用 &lt;c2&gt;&lt;a3&gt;putExtra(String, Bundle)&lt;/a3&gt;&lt;/c2&gt; 将附加信息附加到 intent 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can enforce restrictions on either the sender or receiver of a broadcast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T061906Z" creationid="pingfangx" creationdate="20191030T061906Z">
+        <seg>你可以对广播的发送者或接收器实施限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can limit yourself to only local broadcasts with &lt;c0&gt;&lt;a1&gt;LocalBroadcastManager&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064209Z" creationid="pingfangx" creationdate="20191030T064209Z">
+        <seg>你可以仅使用 &lt;c0&gt;&lt;a1&gt;LocalBroadcastManager&lt;/a1&gt;&lt;/c0&gt; 进行本地广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can send local broadcasts with &lt;c0&gt;&lt;a1&gt;LocalBroadcastManager&lt;/a1&gt;&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064059Z" creationid="pingfangx" creationdate="20191030T064059Z">
+        <seg>你可以使用 &lt;c0&gt;&lt;a1&gt;LocalBroadcastManager&lt;/a1&gt;&lt;/c0&gt; 发送本地广播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify a permission when registering a broadcast receiver.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T064132Z" creationid="pingfangx" creationdate="20191030T064132Z">
+        <seg>你可以在注册一个广播接收器时指定权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify a permission when sending a broadcast.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T063953Z" creationid="pingfangx" creationdate="20191030T063953Z">
+        <seg>你可以在发送广播时指定权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify either an existing system permission like &lt;c0&gt;&lt;a1&gt;SEND_SMS&lt;/a1&gt;&lt;/c0&gt; or define a custom permission with the &lt;a2&gt;&lt;c3&gt;&lt;permission&gt;&lt;/c3&gt;&lt;/a2&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T062128Z" creationid="pingfangx" creationdate="20191030T062128Z">
+        <seg>你可以指定现有的系统权限，如 &lt;c0&gt;&lt;a1&gt;SEND_SMS&lt;/a1&gt;&lt;/c0&gt;，或者使用 &lt;a2&gt;&lt;c3&gt;&lt;permission&gt;&lt;/c3&gt;&lt;/a2&gt; 元素定义自定义权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can still use a &lt;a0&gt;context-registered receiver&lt;/a0&gt; when the user is actively using your app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191030T052142Z" creationid="pingfangx" creationdate="20191030T052142Z">
+        <seg>当用户正在积极使用你的应用程序时，您仍然可以使用 &lt;a0&gt; 上下文注册接收器&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
