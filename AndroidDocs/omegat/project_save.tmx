@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>"Scrap" views are still attached to their parent RecyclerView but are eligible for rebinding and reuse.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155854Z" creationid="pingfangx" creationdate="20191103T155854Z">
+        <seg>“废弃” view 仍附加到其父 RecyclerView，但可以重新绑定和重用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -4381,6 +4389,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;RecyclerView&lt;/c0&gt; will attempt to synthesize visible structural change events for adapters that report that they have &lt;a1&gt;#hasStableIds() stable IDs&lt;/a1&gt; when this method is used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033953Z" creationid="pingfangx" creationdate="20191104T033953Z">
+        <seg>&lt;c0&gt;RecyclerView&lt;/c0&gt; 将尝试为适配器合成可见的结构更改事件，当这些适配器在使用此方法时报告具有 &lt;a1&gt;#hasStableIds() stable IDs&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;RecyclerView&lt;/c0&gt;: RecyclerView this ItemDecoration is decorating</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -5765,6 +5781,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt;&gt; remove removed and invalid flags, add update flag to rebind because item was invisible to us and we don't know what happened in between.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160639Z" creationid="pingfangx" creationdate="20191103T160639Z">
+        <seg>&gt;&gt; 移除已移除和无效的标志，将更新标志添加到重新绑定，因为项目对我们不可见，我们不知道两者之间发生了什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>@AnyThread</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6421,6 +6445,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A View that is bound to the given position or NULL if there is no View to re-use</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161423Z" creationid="pingfangx" creationdate="20191103T161423Z">
+        <seg>绑定到给定位置的 view，如果没有可重用的 view，则为 NULL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A ViewHolder describes an item view and metadata about its place within the RecyclerView.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -6545,6 +6577,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T062840Z" creationid="pingfangx" creationdate="20190613T062840Z">
         <seg>经常使用的子项是水平方向的 &lt;c2&gt;&lt;a3&gt;LinearLayout&lt;/a3&gt;&lt;/c2&gt;，呈现用户可以滚动的顶级项目的水平数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A child view that has entered into a temporarily detached state during layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T151148Z" creationid="pingfangx" creationdate="20191103T151148Z">
+        <seg>在布局过程中，一个进入暂时分离状态的子 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A child view that must be rebound by the adapter before being displayed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T151250Z" creationid="pingfangx" creationdate="20191103T151250Z">
+        <seg>一个子 view，它在显示之前必须由 adapter 重新绑定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6959,6 +7007,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A new ViewHolder that holds a View of the given view type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024614Z" creationid="pingfangx" creationdate="20191104T024614Z">
+        <seg>持有给定 view 类型的 View 的新 ViewHolder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A non-null list of merged payloads.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025529Z" creationid="pingfangx" creationdate="20191104T025529Z">
+        <seg>合并的有效载荷的非空列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A notifyItemRangeChanged() with null payload will clear all existing payloads on that item and prevent future payload until &lt;a1&gt;#onBindViewHolder(ViewHolder, int, List)&lt;/a1&gt; is called.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034646Z" creationid="pingfangx" creationdate="20191104T034646Z">
+        <seg>一个空有效载荷的 notifyItemRangeChanged() 将清除该项上所有现有的有效载荷，并防止未来的有效载荷，直到调用 &lt;a1&gt;#onBindViewHolder(ViewHolder, int, List)&lt;/a1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A parent view may call measure() more than once on its children.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -7023,6 +7095,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A small exception to this rule is when the view does not have an animator reference but transient state is true (due to animations created outside ItemAnimator).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155141Z" creationid="pingfangx" creationdate="20191103T155141Z">
+        <seg>此规则的一个小例外是，view 没有 animator 引用，但 transient 状态为 true (由于在 ItemAnimator 外部创建的动画)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A special sub-class of &lt;c0&gt;&lt;a1&gt;EditText&lt;/a1&gt;&lt;/c0&gt; designed for use as a child of &lt;c2&gt;&lt;a3&gt;TextInputLayout&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190612T025410Z" creationid="pingfangx" creationdate="20190612T025410Z">
@@ -7051,6 +7131,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T031046Z" creationid="pingfangx" creationdate="20190513T031046Z">
         <seg>可以使用包含完整类名的字符串资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A subclass of &lt;c1&gt;&lt;a2&gt;RecyclerView.Adapter&lt;/a2&gt;&lt;/c1&gt; responsible for providing views that represent items in a data set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T150854Z" creationid="pingfangx" creationdate="20191103T150854Z">
+        <seg>&lt;c1&gt;&lt;a2&gt;RecyclerView.Adapter&lt;/a2&gt;&lt;/c1&gt; 的子类，负责提供 view 用以展示数据集中的数据项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7243,6 +7331,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>view 有一个位置，表示为一对 &lt;e0&gt;left&lt;/e0&gt; 和 &lt;e1&gt;top&lt;/e1&gt; 坐标，以及两个尺寸，表示为宽和高。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A view is recycled when a &lt;a0&gt;LayoutManager&lt;/a0&gt; decides that it no longer needs to be attached to its parent &lt;a1&gt;RecyclerView&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031238Z" creationid="pingfangx" creationdate="20191104T031238Z">
+        <seg>当 &lt;a0&gt;LayoutManager&lt;/a0&gt; 决定不再需要将 view 附加到其父级 &lt;a1&gt;RecyclerView&lt;/a1&gt; 时，view 将被回收。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A view must be fully detached (removed from parent) before it may be recycled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154629Z" creationid="pingfangx" creationdate="20191103T154629Z">
+        <seg>view 必须完全分离(从父 view 中移除)，然后才能回收。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A view previously used to display data for a specific adapter position may be placed in a cache for later reuse to display the same type of data again later.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T151052Z" creationid="pingfangx" creationdate="20191103T151052Z">
+        <seg>一个 view 之前用于显示 adapter 中某个位置的数据，它可能会被放到缓存中，以便于之后再次使用用于显示相同类型的数据。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7475,6 +7587,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083033Z" creationid="pingfangx" creationdate="20180925T083033Z">
         <seg>创建 activity 通常需要大量高额开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adapter position to query</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030547Z" creationid="pingfangx" creationdate="20191104T030547Z">
+        <seg>要查询的适配器位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adapter should not assume that the payload passed in notify methods will be received by onBindViewHolder().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025224Z" creationid="pingfangx" creationdate="20191104T025224Z">
+        <seg>适配器不应假定 onBindViewHolder() 将接收传入 notify 方法的 payload。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adapter should not assume that the payload will always be passed to onBindViewHolder(), e.g. when the view is not attached, the payload will be simply dropped.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034705Z" creationid="pingfangx" creationdate="20191104T034705Z">
+        <seg>适配器不应假定有效负载将始终传递给 onBindViewHolder()，例如，当未附加 view 时，有效负载将被简单地丢弃。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adapters provide a binding from an app-specific data set to views that are displayed within a &lt;a0&gt;RecyclerView&lt;/a0&gt;.&lt;/p1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161611Z" creationid="pingfangx" creationdate="20191103T161611Z">
+        <seg>适配器提供了绑定功能，可以将应用相关的数据集，绑定到展示在 &lt;a0&gt;RecyclerView&lt;/a0&gt; 中的 view。&lt;/p1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8855,6 +8999,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An optional payload can be passed to each changed item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035327Z" creationid="pingfangx" creationdate="20191104T035327Z">
+        <seg>可选的有效负载可以传递给每个更改的项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An optional query hint string to be displayed in the empty query field.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190612T071106Z" creationid="pingfangx" creationdate="20190612T071106Z">
@@ -9911,6 +10063,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attempts to get the ViewHolder for the given position, either from the Recycler scrap, cache, the RecycledViewPool, or creating it directly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T152159Z" creationid="pingfangx" creationdate="20191103T152159Z">
+        <seg>尝试获取给定位置的 ViewHolder，可能从 Recycler scrap、缓存、RecycledViewPool 或直接创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attempts to match the entire region against the pattern.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -10267,6 +10427,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T021751Z" creationid="pingfangx" creationdate="20190614T021751Z">
         <seg>因为我们无法在 BottomAppBar 的所有 API 级别上完全支持颜色主题，所以要使用默认主题，我们要求你立即选择加入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Becoming detached from the window is not necessarily a permanent condition; the consumer of an Adapter's views may choose to cache views offscreen while they are not visible, attaching and detaching them as appropriate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035458Z" creationid="pingfangx" creationdate="20191104T035458Z">
+        <seg>从窗口中分离并不一定是一个永久性的条件；适配器 view 的使用者可以选择在 view 不可见时将其缓存到屏幕外，并根据需要附加和分离 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Becoming detached from the window is not necessarily a permanent condition; the consumer of an Adapter's views may choose to cache views offscreen while they are not visible, attaching and detaching them as appropriate.&lt;/p0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032800Z" creationid="pingfangx" creationdate="20191104T032800Z">
+        <seg>从窗口中分离并不一定是一个永久性的条件；适配器 view 的使用者可以选择在 view 不可见时将其缓存到屏幕外，并根据需要附加和分离 view。&lt;/p0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10691,6 +10867,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>左大括号不单独占一行，与其前面的代码位于同一行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But if the animation is based on ObjectAnimator or if the ItemAnimator uses "pending runnable" and the ViewPropertyAnimation has not started yet, the ItemAnimatior on the view may not be cleared.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154849Z" creationid="pingfangx" creationdate="20191103T154849Z">
+        <seg>但是，如果动画基于 ObjectAnimator，或者如果 itemaniator 使用“pending runnable”，并且 ViewPropertyAnimation 尚未启动，则可能不会清除 view 上的 itemaniatior。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11191,6 +11375,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Called by RecyclerView to display the data at the specified position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024642Z" creationid="pingfangx" creationdate="20191104T024642Z">
+        <seg>由 RecyclerView 调用以在指定位置显示数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called by RecyclerView when it starts observing this Adapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033109Z" creationid="pingfangx" creationdate="20191104T033109Z">
+        <seg>当 RecyclerView 开始观察此适配器时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called by RecyclerView when it stops observing this Adapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033133Z" creationid="pingfangx" creationdate="20191104T033133Z">
+        <seg>当 RecyclerView 停止观察此适配器时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called by the RecyclerView if a ViewHolder created by this Adapter cannot be recycled due to its transient state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031503Z" creationid="pingfangx" creationdate="20191104T031503Z">
+        <seg>如果此适配器创建的 ViewHolder 由于其暂时状态而无法回收，则由 RecyclerView 调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Called by the garbage collector on an object when garbage collection determines that there are no more references to the object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095707Z" creationid="pingfangx" creationdate="20180427T095707Z">
@@ -11243,6 +11459,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T022351Z" creationid="pingfangx" creationdate="20190513T022351Z">
         <seg>除非存在 &lt;c0&gt;&lt;a1&gt;Behavior&lt;/a1&gt;&lt;/c0&gt;，否则调用以测量每个子 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when RecyclerView needs a new &lt;a0&gt;ViewHolder&lt;/a0&gt; of the given type to represent an item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161629Z" creationid="pingfangx" creationdate="20191103T161629Z">
+        <seg>当 RecyclerView 需要指定类型的新 &lt;a0&gt;ViewHolder&lt;/a0&gt; 来表示项时调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11387,6 +11611,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>当轨迹球移动事件发生时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a view created by this adapter has been attached to a window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032642Z" creationid="pingfangx" creationdate="20191104T032642Z">
+        <seg>当此适配器创建的 view 已附加到窗口时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a view created by this adapter has been detached from its window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032721Z" creationid="pingfangx" creationdate="20191104T032721Z">
+        <seg>当此适配器创建的 view 与其窗口分离时调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Called when a view created by this adapter has been recycled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031115Z" creationid="pingfangx" creationdate="20191104T031115Z">
+        <seg>当此适配器创建的 view 被回收时调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11595,6 +11843,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T164013Z" creationid="pingfangx" creationdate="20191102T164013Z">
         <seg>调用此 view 的 OnLongClickListener(如果已定义)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Can be empty list if requires full                 update.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025537Z" creationid="pingfangx" creationdate="20191104T025537Z">
+        <seg>如果需要完全更新，则可以为空列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Can be empty list if requires full update.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032506Z" creationid="pingfangx" creationdate="20191104T032506Z">
+        <seg>如果需要完全更新，则可以为空列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12263,6 +12527,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Client can optionally pass a payload for partial change.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034349Z" creationid="pingfangx" creationdate="20191104T034349Z">
+        <seg>客户端可以选择传递部分更改的有效负载。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clients have to call &lt;c3&gt;&lt;a4&gt;setChecked(boolean)&lt;/a4&gt;&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T075702Z" creationid="pingfangx" creationdate="20190613T075702Z">
@@ -12423,6 +12695,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Components registering observers with an adapter are responsible for &lt;a0&gt;#unregisterAdapterDataObserver(RecyclerView.AdapterDataObserver) unregistering&lt;/a0&gt; those observers when finished.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035508Z" creationid="pingfangx" creationdate="20191104T035508Z">
+        <seg>在适配器中注册观察者的组件负责在完成后 &lt;a0&gt;#unregisterAdapterDataObserver(RecyclerView.AdapterDataObserver) unregistering&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Components registering observers with an adapter are responsible for &lt;a0&gt;#unregisterAdapterDataObserver(RecyclerView.AdapterDataObserver) unregistering&lt;/a0&gt; those observers when finished.&lt;/p1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033012Z" creationid="pingfangx" creationdate="20191104T033012Z">
+        <seg>在适配器中注册观察者的组件负责在完成后 &lt;a0&gt;#unregisterAdapterDataObserver(RecyclerView.AdapterDataObserver) unregistering&lt;/a0&gt;&lt;/p1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compositing equations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180510T060700Z" creationid="pingfangx" creationdate="20180510T060700Z">
@@ -12523,6 +12811,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T034523Z" creationid="pingfangx" creationdate="20181205T034523Z">
         <seg>符合 Android 标准</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Consider using id resources to uniquely identify item view types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030227Z" creationid="pingfangx" creationdate="20191104T030227Z">
+        <seg>考虑使用 id 资源来唯一地标识项的 view 类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13483,6 +13779,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T081132Z" creationid="pingfangx" creationdate="20190614T081132Z">
         <seg>根 view 的默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default implementation returns false.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032624Z" creationid="pingfangx" creationdate="20191104T032624Z">
+        <seg>默认实现返回 false。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15223,6 +15527,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Does a dry run, finds the ViewHolder but does not remove</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160249Z" creationid="pingfangx" creationdate="20191103T160249Z">
+        <seg>进行预演，找到 ViewHolder 但不移除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Does not do anything to hide gaps.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -15607,6 +15919,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dump it from the cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160855Z" creationid="pingfangx" creationdate="20191103T160855Z">
+        <seg>从缓存中转储它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Duration of the indeterminate animation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T064717Z" creationid="pingfangx" creationdate="20190611T064717Z">
@@ -15667,6 +15987,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>EXACTLY：用于父 view 强加给子 view 一个确切的尺寸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each &lt;c3&gt;View.setHasTransientState(true)&lt;/c3&gt; call must be matched by a &lt;c4&gt;View.setHasTransientState(false)&lt;/c4&gt; call, otherwise, the state of the View may become inconsistent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032301Z" creationid="pingfangx" creationdate="20191104T032301Z">
+        <seg>每个 &lt;c3&gt;View.setHasTransientState(true)&lt;/c3&gt; 调用都必须与 &lt;c4&gt;View.setHasTransientState(false)&lt;/c4&gt; 调用匹配，否则，View 的状态可能会变得不一致。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15955,6 +16283,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100408Z" creationid="pingfangx" creationdate="20180408T100408Z">
         <seg>枚举值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Equivalent to calling &lt;c1&gt;notifyItemChanged(position, null);&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034129Z" creationid="pingfangx" creationdate="20191104T034129Z">
+        <seg>相当于调用 &lt;c1&gt;notifyItemChanged(position, null);&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Equivalent to calling &lt;c2&gt;notifyItemRangeChanged(position, itemCount, null);&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034801Z" creationid="pingfangx" creationdate="20191104T034801Z">
+        <seg>相当于调用 &lt;c2&gt;notifyItemRangeChanged(position, itemCount, null);&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16495,10 +16839,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Find by position from scrap/hidden list/cache</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T153300Z" creationid="pingfangx" creationdate="20191103T153300Z">
+        <seg>根据位置从 scrap/hidden list/cache 中查找</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Find find views that contain the specified content description.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T075931Z" creationid="pingfangx" creationdate="20190614T075931Z">
         <seg>查找包含指定内容描述的查找 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Find from scrap/cache via stable ids, if exists</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T121946Z" creationid="pingfangx" creationdate="20191103T153609Z">
+        <seg>通过稳定 id 从 scrap/cache 中查找，如果存在</seg>
       </tuv>
     </tu>
     <tu>
@@ -16983,6 +17343,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example when the view is not attached to the screen, the payload in notifyItemChange() will be simply dropped.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025246Z" creationid="pingfangx" creationdate="20191104T025246Z">
+        <seg>例如，当 view 未附加到屏幕时，notifyItemChange() 中的 payload 将被简单地删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;c1&gt;sampleSize == 4&lt;/c1&gt; returns an image that is 1/4 the width/height of the original, and 1/16 the number of pixels.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T090521Z" creationid="pingfangx" creationdate="20180921T090521Z">
@@ -17177,8 +17545,8 @@
       <tuv lang="EN-US">
         <seg>For example, if you have a list of items on the screen and user asks for the 5&lt;s5&gt;th&lt;/s5&gt; element, you should use these methods as they'll match what user is seeing.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>例如, 如果你在屏幕上有一个项目列表，用户要求使用第五个项目元素时，你可以使用这些方法, 因为这些方法对应的位置就是用户看到的位置。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T151518Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>例如，如果你在屏幕上有一个项目列表，用户要求使用 &lt;s5&gt;第&lt;/s5&gt; 五个项目元素时，你可以使用这些方法, 因为这些方法对应的位置就是用户看到的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17879,6 +18247,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For this reason, RecyclerView leaves the decision to the Adapter and uses the return value of this method to decide whether the View should be recycled or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031952Z" creationid="pingfangx" creationdate="20191104T031952Z">
+        <seg>因此，RecyclerView 将决定权留给适配器，并使用此方法的返回值来决定是否应回收 View。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For this reason, there are two types of &lt;c0&gt;position&lt;/c0&gt; related methods in RecyclerView:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -17891,6 +18267,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>因此，你可以指定一个当连接到的小部件被标记为 GONE 时所使用的备用 margni 值(参见 &lt;a1&gt;the section above about the gone margin attributes&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this reason, you should only use the &lt;c1&gt;position&lt;/c1&gt; parameter while acquiring the related data item inside this method and should not keep a copy of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024812Z" creationid="pingfangx" creationdate="20191104T024812Z">
+        <seg>因此，在获取此方法中的相关数据项时，只应使用 &lt;c1&gt;position&lt;/c1&gt; 参数，而不应保留其副本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18051,6 +18435,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093059Z" creationid="pingfangx" creationdate="20180920T093059Z">
         <seg>释放与该区域解码器相关联的存储器，并将区域解码器标记为 "dead"，这意味着如果调用 decodeRegion()，getWidth() 或 getHeight()，它将抛出异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From RecyclerView's perspective, the view is still recyclable since Adapter wants to do so.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155156Z" creationid="pingfangx" creationdate="20191103T155156Z">
+        <seg>从 RecyclerView 的角度来看，view 仍然是可回收的，因为适配器希望这样做。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18991,6 +19383,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Holder to be added to the pool.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155604Z" creationid="pingfangx" creationdate="20191103T155604Z">
+        <seg>要添加到池中的 holder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Home</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -19351,6 +19751,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;a1&gt;#hasStableIds()&lt;/a1&gt; would return false this method should return &lt;a2&gt;#NO_ID&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030532Z" creationid="pingfangx" creationdate="20191104T030532Z">
+        <seg>如果 &lt;a1&gt;#hasStableIds()&lt;/a1&gt; 将返回 false，则此方法应返回 &lt;a2&gt;#NO_ID&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;c0&gt;&lt;a1&gt;inJustDecodeBounds&lt;/a1&gt;&lt;/c0&gt; is set to false, this will be height of the output bitmap after any scaling is applied.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103430Z" creationid="pingfangx" creationdate="20180408T103430Z">
@@ -19399,6 +19807,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If FOREVER_NS is passed, this method will not fail to                   create/bind the holder if needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T152653Z" creationid="pingfangx" creationdate="20191103T152653Z">
+        <seg>如果传递了 FOREVER_NS，则如果需要，此方法将会创建/绑定 holder 而不会失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If FOREVER_NS is passed, this method will not fail to create/bind the holder if needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032439Z" creationid="pingfangx" creationdate="20191104T032439Z">
+        <seg>如果传递了 FOREVER_NS，则如果需要，此方法将会创建/绑定 holder 而不会失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If ViewHolder isRecyclable is false, recycleViewHolderInternal() will not recycle it, endAnimation() will reset isRecyclable flag and recycle the view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155024Z" creationid="pingfangx" creationdate="20191103T155024Z">
+        <seg>如果 ViewHolder isRecyclable 为 false，则 recycleViewHolderInternal() 将不回收它，endAnimation() 将重置 isRecyclable 标志并回收 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a TableRow's parent is not a TableLayout, the TableRow will behave as an horizontal &lt;c2&gt;&lt;a3&gt;LinearLayout&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190612T080521Z" creationid="pingfangx" creationdate="20190612T080521Z">
@@ -19411,6 +19843,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果一个 View 对象设置了 NinePatch 作为它的背景，并申明的 view 的文字，它将缩放自己以使得所有的文字处于右边和上边的线申明的区域内。(如果包含右边或上边的线)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a ViewHolder is aquired and must be bound but not enough time remains, an unbound holder is returned.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T152503Z" creationid="pingfangx" creationdate="20191103T152503Z">
+        <seg>如果获取了一个 ViewHolder 并且必须被绑定，但是没有足够的时间，则返回一个未绑定的 holder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a ViewHolder must be constructed and not enough time remains, null is returned.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T152445Z" creationid="pingfangx" creationdate="20191103T152445Z">
+        <seg>如果必须构造一个 ViewHolder，并且没有足够的时间，则返回 null。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19451,6 +19899,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T015905Z" creationid="pingfangx" creationdate="20190614T015905Z">
         <seg>如果未通过 MeasureSpec 模式 &lt;c5&gt;&lt;a6&gt;UNSPECIFIED&lt;/a6&gt;&lt;/c5&gt; 进行正确测量的自定义 view 被放置在 RelativeLayout 中，那么无论如何，这将无声地工作，因为 RelativeLayout 将传递非常大的 &lt;c7&gt;&lt;a8&gt;AT_MOST&lt;/a8&gt;&lt;/c7&gt; MeasureSpec。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a deadlineNs other than &lt;a0&gt;#FOREVER_NS&lt;/a0&gt; is passed, this method early return rather than constructing or binding a ViewHolder if it doesn't think it has time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T152430Z" creationid="pingfangx" creationdate="20191103T152303Z">
+        <seg>如果传递了除 &lt;a0&gt;#FOREVER_NS&lt;/a0&gt; 以外的 deadlineNs，则此方法在它认为没有时间的情况下将提前返回，而不会构造或绑定 ViewHolder。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19571,6 +20027,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T035611Z" creationid="pingfangx" creationdate="20180925T035611Z">
         <seg>如果实例被传递到 &lt;c0&gt;&lt;a1&gt;setOnPartialImageListener&lt;/a1&gt;&lt;/c0&gt;，则本应抛出的 &lt;c2&gt;&lt;a3&gt;DecodeException&lt;/a3&gt;&lt;/c2&gt; 可以在 &lt;c4&gt;&lt;a5&gt;onPartialImage&lt;/a5&gt;&lt;/c4&gt; 内进行检查。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an item view has large or expensive data bound to it such as large bitmaps, this may be a good place to release those resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035450Z" creationid="pingfangx" creationdate="20191104T035450Z">
+        <seg>如果项目 view 绑定了大量或昂贵的数据(如大型位图)，则这可能是释放这些资源的好地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an item view has large or expensive data bound to it such as large bitmaps, this may be a good place to release those resources.&lt;/p2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031412Z" creationid="pingfangx" creationdate="20191104T031412Z">
+        <seg>如果项目 view 绑定了大量或昂贵的数据(如大型位图)，则这可能是释放这些资源的好地方。&lt;/p2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19699,6 +20171,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T153252Z" creationid="pingfangx" creationdate="20191102T153252Z">
         <seg>如果被拦截，启动正常事件分发。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If it cannot find a suitable View, Recycler will call the &lt;a1&gt;#getViewForPositionAndType(Recycler, int, int)&lt;/a1&gt; before checking &lt;a2&gt;RecycledViewPool&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161051Z" creationid="pingfangx" creationdate="20191103T161051Z">
+        <seg>如果找不到合适的 view，Recycler 将在检查 &lt;a2&gt;RecycledViewPool&lt;/a2&gt; 之前调用 &lt;a1&gt;#getViewForPositionAndType(Recycler, int, int)&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19867,6 +20347,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T064104Z" creationid="pingfangx" creationdate="20181220T064104Z">
         <seg>如果可能，请考虑使用 &lt;c1&gt;@IntDef&lt;/c1&gt; 注释和 &lt;a2&gt;ProGuard&lt;/a2&gt; 来删除枚举并将其转换为整数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If pre-layout, check the changed scrap for an exact match.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160106Z" creationid="pingfangx" creationdate="20191103T160106Z">
+        <seg>如果预先布局，检查更改的废料是否完全匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20087,6 +20575,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If that item is relocated in the data set, the ID returned for that item should be the same.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031105Z" creationid="pingfangx" creationdate="20191104T031105Z">
+        <seg>如果在数据集中重新定位了该项，则为该项返回的 ID 应相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the &lt;c0&gt;&lt;a1&gt;EditText&lt;/a1&gt;&lt;/c0&gt; child is not a &lt;c2&gt;&lt;a3&gt;TextInputEditText&lt;/a3&gt;&lt;/c2&gt;, make sure to set the &lt;c4&gt;&lt;a5&gt;EditText&lt;/a5&gt;&lt;/c4&gt;'s &lt;c6&gt;android:background&lt;/c6&gt; to &lt;c7&gt;null&lt;/c7&gt; when using an outlined or filled text field.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190612T072646Z" creationid="pingfangx" creationdate="20190612T072646Z">
@@ -20115,6 +20611,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T104009Z" creationid="pingfangx" creationdate="20190514T104009Z">
         <seg>如果工具栏具有展开的操作 view，则可以使用 &lt;c2&gt;&lt;a3&gt;collapseActionView()&lt;/a3&gt;&lt;/c2&gt; 方法折叠它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the View is marked as ignored, it should first call &lt;a1&gt;LayoutManager#stopIgnoringView(View)&lt;/a1&gt; before returning the View.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161309Z" creationid="pingfangx" creationdate="20191103T161309Z">
+        <seg>如果 view 被标记为已忽略，则在返回 view 之前，它应首先调用 &lt;a1&gt;LayoutManager#stopIgnoringView(View)&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the View is scrapped, it will be removed from scrap list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T121928Z" creationid="pingfangx" creationdate="20191104T121928Z">
+        <seg>如果 view 是 scrapped，它将从 scrap 列表中移除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the View is scrapped, it will be removed from scrap list.&lt;/p0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154708Z" creationid="pingfangx" creationdate="20191103T154708Z">
+        <seg>如果 view 是 scrapped，它将从 scrap 列表中移除。&lt;/p0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the adapter previously freed any resources in &lt;a0&gt;#onViewDetachedFromWindow(RecyclerView.ViewHolder) onViewDetachedFromWindow&lt;/a0&gt; those resources should be restored here.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035453Z" creationid="pingfangx" creationdate="20191104T035453Z">
+        <seg>如果适配器以前在 &lt;a0&gt;#onViewDetachedFromWindow(RecyclerView.ViewHolder) onViewDetachedFromWindow&lt;/a0&gt; 中释放了任何资源，则应在此处还原这些资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the adapter previously freed any resources in &lt;a0&gt;#onViewDetachedFromWindow(RecyclerView.ViewHolder) onViewDetachedFromWindow&lt;/a0&gt; those resources should be restored here.&lt;/p1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032715Z" creationid="pingfangx" creationdate="20191104T032715Z">
+        <seg>如果适配器以前在 &lt;a0&gt;#onViewDetachedFromWindow(RecyclerView.ViewHolder) onViewDetachedFromWindow&lt;/a0&gt; 中释放了任何资源，则应在此处还原这些资源。&lt;/p1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20383,6 +20919,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the payload is empty,  Adapter must run a full bind.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025204Z" creationid="pingfangx" creationdate="20191104T025204Z">
+        <seg>如果 payload 为空，则适配器必须运行完全绑定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the payload is empty, Adapter must run a full bind.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032503Z" creationid="pingfangx" creationdate="20191104T032503Z">
+        <seg>如果 payload 为空，则适配器必须运行完全绑定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the payloads list is not empty, the ViewHolder is currently bound to old data and Adapter may run an efficient partial update using the payload info.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025148Z" creationid="pingfangx" creationdate="20191104T025148Z">
+        <seg>如果 payloads 列表不为空，则 ViewHolder 当前绑定到旧数据，适配器可以使用 payloads 信息运行有效的部分更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the post failed, unpress right now</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T162708Z" creationid="pingfangx" creationdate="20191102T162708Z">
@@ -20483,6 +21043,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果有多个注释或参数化注释，则应各占一行并按字母顺序排列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there is a changed scrap, try to find from there</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T153221Z" creationid="pingfangx" creationdate="20191103T152834Z">
+        <seg>如果有更改的废料，试图从里面查找</seg>
       </tuv>
     </tu>
     <tu>
@@ -20647,6 +21215,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If this method returns &lt;c2&gt;false&lt;/c2&gt;, RecyclerView will check the View's transient state again before giving a final decision.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032618Z" creationid="pingfangx" creationdate="20191104T032618Z">
+        <seg>如果此方法返回 &lt;c2&gt;false&lt;/c2&gt;，则 RecyclerView 将在给出最终决定之前再次检查 View 的瞬态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If this returns true, the bitmap can be reconstructed by passing a corresponding inputstream to BitmapFactory.decodeStream().</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T094458Z" creationid="pingfangx" creationdate="20180408T094458Z">
@@ -20659,6 +21235,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T101955Z" creationid="pingfangx" creationdate="20180408T101955Z">
         <seg>如果为 true(这是默认值)，则生成的位图的颜色通道将由 Alpha 通道预先倍增。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If true, changes will affect ViewHolder's pre-layout position, if                         false, they'll be applied before the second layout pass</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160824Z" creationid="pingfangx" creationdate="20191103T160824Z">
+        <seg>如果为 true，则更改将影响 ViewHolder 的预布局位置，如果为 false，则在第二个布局过程之前应用这些更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If true, changes will affect ViewHolder's pre-layout position, if false, they'll be applied before the second layout pass</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032452Z" creationid="pingfangx" creationdate="20191104T032452Z">
+        <seg>如果为 true，则更改将影响 ViewHolder 的预布局位置，如果为 false，则在第二个布局过程之前应用这些更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -20791,6 +21383,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are writing an adapter it will always be more efficient to use the more specific change events if you can.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034028Z" creationid="pingfangx" creationdate="20191104T034028Z">
+        <seg>如果你正在编写适配器，那么如果可以的话，使用更具体的更改事件总是更有效的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you do so, you'll usually want to wrap this ChipGroup in a &lt;c4&gt;&lt;a5&gt;HorizontalScrollView&lt;/a5&gt;&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T022152Z" creationid="pingfangx" creationdate="20190614T022152Z">
@@ -20907,6 +21507,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T070116Z" creationid="pingfangx" creationdate="20181205T070116Z">
         <seg>如果需要更好地控制 view 的布局参数，请实现 &lt;c0&gt;&lt;a1&gt;onMeasure()&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need the position of an item later on (e.g. in a click listener), use &lt;a2&gt;ViewHolder#getAdapterPosition()&lt;/a2&gt; which will have the updated adapter position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024925Z" creationid="pingfangx" creationdate="20191104T024925Z">
+        <seg>如果以后需要某个项的位置(例如在点击监听器中)，请使用 &lt;a2&gt;ViewHolder#getAdapterPosition()&lt;/a2&gt; 方法，它具有更新的适配器位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21687,6 +22295,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In b/73552923, the View is removed by scroll pass while it's waiting in the "pending moving" list of DefaultItemAnimator and DefaultItemAnimator later in a post runnable, incorrectly performs postDelayed() on the detached view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154912Z" creationid="pingfangx" creationdate="20191103T154912Z">
+        <seg>在 b/73552923 中，当 view 稍后在 post runnable 中的 DefaultItemAnimator 和 DefaultItemAnimator 的“挂起移动”列表中等待时，该 view 通过滚动过程被移除，在分离的 view 上错误地执行 postDelayed()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In both cases, your app returns the content URI in an &lt;c6&gt;&lt;a7&gt;Intent&lt;/a7&gt;&lt;/c6&gt; sent via &lt;c8&gt;&lt;a9&gt;setResult()&lt;/a9&gt;&lt;/c8&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -21787,6 +22403,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190514T092624Z" creationid="pingfangx" creationdate="20190514T092624Z">
         <seg>在现代 Android UI 中，开发人员应该更多地依赖于工具栏的视觉上不同的颜色方案而不是应用程序图标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In most cases we dont need call endAnimation() because when view is detached, ViewPropertyAnimation will end.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154818Z" creationid="pingfangx" creationdate="20191103T154818Z">
+        <seg>在大多数情况下，我们不需要调用 endAnimation()，因为当 view 被分离时，ViewPropertyImation 将结束。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21967,6 +22591,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some cases, it is acceptable to recycle a View although it has transient state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031901Z" creationid="pingfangx" creationdate="20191104T031901Z">
+        <seg>在某些情况下，尽管 View 具有瞬态，但可以回收该 View。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In some cases, the &lt;c4&gt;&lt;a5&gt;ImageDecoder&lt;/a5&gt;&lt;/c4&gt; may have decoded part of the image.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T073750Z" creationid="pingfangx" creationdate="20180921T073750Z">
@@ -22019,6 +22651,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T102458Z" creationid="pingfangx" creationdate="20180408T102458Z">
         <seg>在这种情况下，中介可以在边界解码和图像解码之间检查操作是否被取消。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In that case, adapter may choose to recycle it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155147Z" creationid="pingfangx" creationdate="20191103T155147Z">
+        <seg>在这种情况下，适配器可能会选择回收它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22271,6 +22911,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case, the item is eventually recycled by ItemAnimatorRestoreListener#onAnimationFinished.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155404Z" creationid="pingfangx" creationdate="20191103T155404Z">
+        <seg>在本例中，项最终由 ItemAnimatorRestoreListener#onAnimationFinished 回收。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this document</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -22451,6 +23099,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T043031Z" creationid="pingfangx" creationdate="20190614T043031Z">
         <seg>向可访问性服务指示在此 view 更改时是否应通知用户。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indicates whether each item in the data set can be represented with a unique identifier of type &lt;a0&gt;java.lang.Long&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030440Z" creationid="pingfangx" creationdate="20191104T030440Z">
+        <seg>指示数据集中的每个项是否可以用 &lt;a0&gt;java.lang.Long&lt;/a0&gt; 类型的唯一标识符表示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22747,6 +23403,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T074844Z" creationid="pingfangx" creationdate="20190613T074844Z">
         <seg>相反，它添加 padding 以避免这种交集(请参阅 &lt;c0&gt;&lt;a1&gt;setPreventCornerOverlap(boolean)&lt;/a1&gt;&lt;/c0&gt; 以更改此行为)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, it is expected to return an already created View that can be re-used for the given type and position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161258Z" creationid="pingfangx" creationdate="20191103T161258Z">
+        <seg>相反，它应该返回一个已经创建的 view，该 view 可以用于给定的类型和位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23399,6 +24063,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It indicates that any reflection of the data at &lt;c0&gt;position&lt;/c0&gt; is out of date and should be updated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034158Z" creationid="pingfangx" creationdate="20191104T034158Z">
+        <seg>它表示 &lt;c0&gt;position&lt;/c0&gt; 处的数据的任何反射都已过期，应该更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It indicates that any reflection of the data in the given position range is out of date and should be updated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034811Z" creationid="pingfangx" creationdate="20191104T034811Z">
+        <seg>它表示数据在给定位置范围内的任何反射都已过期，应进行更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is &lt;c0&gt;static&lt;/c0&gt;, meaning it does not generate the so-called "synthetic methods" that allow it to access data from the parent class, which in turn means that it really behaves as a separate class rather than something strongly related to &lt;c1&gt;NoteEditor&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23435,6 +24115,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T033752Z" creationid="pingfangx" creationdate="20190513T033752Z">
         <seg>它被设计为用作 &lt;c2&gt;&lt;a3&gt;AppBarLayout&lt;/a3&gt;&lt;/c2&gt; 的直接子项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is developers responsibility to decide whether they want to keep their Views in this custom cache or let the default recycling policy handle it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161204Z" creationid="pingfangx" creationdate="20191103T161204Z">
+        <seg>开发人员有责任决定是将 view 保存在这个自定义缓存中，还是让默认的回收策略处理它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23839,6 +24527,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Item changes are when a single item has its data updated but no positional changes have occurred.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033739Z" creationid="pingfangx" creationdate="20191104T033739Z">
+        <seg>项更改是指单个项的数据已更新但未发生位置更改的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Item for this view was removed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160850Z" creationid="pingfangx" creationdate="20191103T160850Z">
+        <seg>已移除此 view 的项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Item position</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160228Z" creationid="pingfangx" creationdate="20191103T160228Z">
+        <seg>item 位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Iterating over the keys using &lt;c4&gt;keyAt(int)&lt;/c4&gt; with ascending values of the index will return the keys in ascending order, or the values corresponding to the keys in ascending order in the case of &lt;c5&gt;valueAt(int)&lt;/c5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T161028Z" creationid="pingfangx" creationdate="20191026T161028Z">
@@ -23927,6 +24639,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Keep in mind that same adapter may be observed by multiple RecyclerViews.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033123Z" creationid="pingfangx" creationdate="20191104T033123Z">
+        <seg>请记住，多个 RecyclerViews 可能会观察到同一个适配器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Keep in mind that the &lt;c0&gt;+&lt;/c0&gt; operator, when used on Strings, implicitly creates a &lt;c1&gt;StringBuilder&lt;/c1&gt; with the default buffer size (16 characters) and potentially other temporary String objects, i.e. that explicitly creating StringBuilders isn't more expensive than relying on the default '+' operator (and can be a lot more efficient in fact).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -23939,6 +24659,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T062745Z" creationid="pingfangx" creationdate="20181220T062745Z">
         <seg>请记住，&lt;c0&gt;aapt&lt;/c0&gt; 具有以下限制：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keep in mind that the View in question is already removed from the RecyclerView.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031850Z" creationid="pingfangx" creationdate="20191104T031850Z">
+        <seg>请记住，所讨论的 View 已从 RecyclerView 中移除。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24131,6 +24859,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190612T071930Z" creationid="pingfangx" creationdate="20190612T071930Z">
         <seg>包含 &lt;c0&gt;&lt;a1&gt;TextInputEditText&lt;/a1&gt;&lt;/c0&gt;，&lt;c2&gt;&lt;a3&gt;EditText&lt;/a3&gt;&lt;/c2&gt; 或后代的布局，以便当用户输入文字而隐藏提示时显示浮动标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LayoutManagers will be forced to fully rebind and relayout all visible views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035655Z" creationid="pingfangx" creationdate="20191104T035655Z">
+        <seg>LayoutManager 将被迫完全重新绑定和重新布局所有可见 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LayoutManagers will be forced to fully rebind and relayout all visible views.&lt;/p0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033841Z" creationid="pingfangx" creationdate="20191104T033841Z">
+        <seg>LayoutManager 将被迫完全重新绑定和重新布局所有可见 view。&lt;/p0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24447,6 +25191,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Look in our attached views first</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160502Z" creationid="pingfangx" creationdate="20191103T160502Z">
+        <seg>首先看我们的附加 view</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Loop variables should be declared in the for statement itself unless there is a compelling reason to do otherwise:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -24623,6 +25375,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mark an attached view as scrap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T123817Z" creationid="pingfangx" creationdate="20191103T155822Z">
+        <seg>将附加的 view 标记为 scrap (废弃0。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>MaterialButton manages its own background drawable, and setting a new background means &lt;c3&gt;&lt;a4&gt;MaterialButton&lt;/a4&gt;&lt;/c3&gt; can no longer guarantee that the new attributes it introduces will function properly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190612T022459Z" creationid="pingfangx" creationdate="20190612T022459Z">
@@ -24777,8 +25537,8 @@
       <tuv lang="EN-US">
         <seg>Methods that return or receive &lt;c0&gt;*LayoutPosition*&lt;/c0&gt; use position as of the latest layout calculation (e.g. &lt;c1&gt;&lt;a2&gt;getLayoutPosition()&lt;/a2&gt;&lt;/c1&gt;, &lt;c3&gt;&lt;a4&gt;findViewHolderForLayoutPosition(int)&lt;/a4&gt;&lt;/c3&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>返回或接收布局位(&lt;c0&gt;*LayoutPosition*&lt;/c0&gt;)的方法，使用的位置是最近的布局计算位置。(比如 &lt;c1&gt;&lt;a2&gt;getLayoutPosition()&lt;/a2&gt;&lt;/c1&gt;, &lt;c3&gt;&lt;a4&gt;findViewHolderForLayoutPosition(int)&lt;/a4&gt;&lt;/c3&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T151403Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>返回或接收布局位置(&lt;c0&gt;*LayoutPosition*&lt;/c0&gt;)的方法，使用的位置是最近的布局计算位置。(比如 &lt;c1&gt;&lt;a2&gt;getLayoutPosition()&lt;/a2&gt;&lt;/c1&gt;, &lt;c3&gt;&lt;a4&gt;findViewHolderForLayoutPosition(int)&lt;/a4&gt;&lt;/c3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24927,6 +25687,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most of the time, this is a case where the transient state will be cleared in &lt;a0&gt;#onBindViewHolder(ViewHolder, int)&lt;/a0&gt; call when View is rebound to a new position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031939Z" creationid="pingfangx" creationdate="20191104T031939Z">
+        <seg>大多数情况下，当 View 重新绑定到新位置时，在 &lt;a0&gt;#onBindViewHolder(ViewHolder, int)&lt;/a0&gt; 调用中将清除 transient 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most often, you do this by calling &lt;c2&gt;&lt;a3&gt;setResult()&lt;/a3&gt;&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25067,6 +25835,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084439Z" creationid="pingfangx" creationdate="20180921T084439Z">
         <seg>不打算替代 &lt;c0&gt;&lt;a1&gt;BitmapRegionDecoder.decodeRegion()&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NOTE: A view can fail to be recycled when it is scrolled off while an animation runs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155336Z" creationid="pingfangx" creationdate="20191103T155336Z">
+        <seg>注意：当动画运行时，view 被滚动关闭时，可能无法回收。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25215,6 +25991,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>New position of the item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040013Z" creationid="pingfangx" creationdate="20191104T040013Z">
+        <seg>项目的新位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Next, call the method &lt;c0&gt;&lt;a1&gt;Intent.setFlags()&lt;/a1&gt;&lt;/c0&gt; with either &lt;c2&gt;&lt;a3&gt;FLAG_GRANT_READ_URI_PERMISSION&lt;/a3&gt;&lt;/c2&gt; or &lt;c4&gt;&lt;a5&gt;FLAG_GRANT_WRITE_URI_PERMISSION&lt;/a5&gt;&lt;/c4&gt; or both.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25311,6 +26095,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Not all adapters may support all change types and some may fall back to a generic &lt;a0&gt;RecyclerView.AdapterDataObserver#onChanged() "something changed"&lt;/a0&gt; event if more specific data is not available.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035502Z" creationid="pingfangx" creationdate="20191104T035502Z">
+        <seg>并非所有适配器都支持所有更改类型，如果没有更具体的数据，有些适配器可能会返回到通用的 &lt;a0&gt;RecyclerView.AdapterDataObserver#onChanged() "something changed"&lt;/a0&gt; 事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Not all adapters may support all change types and some may fall back to a generic &lt;a0&gt;RecyclerView.AdapterDataObserver#onChanged() "something changed"&lt;/a0&gt; event if more specific data is not available.&lt;/p1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032924Z" creationid="pingfangx" creationdate="20191104T032924Z">
+        <seg>并非所有适配器都支持所有更改类型，如果没有更具体的数据，有些适配器可能会返回到通用的 &lt;a0&gt;RecyclerView.AdapterDataObserver#onChanged() "something changed"&lt;/a0&gt; 事件。&lt;/p1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not inflating parts of the UI that do not need to be visible during launch.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T083718Z" creationid="pingfangx" creationdate="20180925T083718Z">
@@ -25387,6 +26187,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>注意，迭代器的快速失败行为无法得到保证，因为一般来说，不可能对是否出现不同步并发修改做出任何硬性保证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that if this method returns &lt;c0&gt;true&lt;/c0&gt;, RecyclerView &lt;e1&gt;will ignore&lt;/e1&gt; the transient state of the View and recycle it regardless.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032610Z" creationid="pingfangx" creationdate="20191104T032610Z">
+        <seg>请注意，如果此方法返回 &lt;c0&gt;true&lt;/c0&gt;，则 RecyclerView &lt;e1&gt;将忽略&lt;/e1&gt; View 的瞬态并将其回收。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25527,6 +26335,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that unlike &lt;a0&gt;android.widget.ListView&lt;/a0&gt;, RecyclerView will not call this method again if the position of the item changes in the data set unless the item itself is invalidated or the new position cannot be determined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024736Z" creationid="pingfangx" creationdate="20191104T024736Z">
+        <seg>请注意，与 &lt;a0&gt;android.widget.ListView&lt;/a0&gt; 不同，如果项在数据集中的位置发生更改，RecyclerView 将不会再次调用此方法，除非项本身无效或无法确定新位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that when all animations are created by &lt;a0&gt;RecyclerView.ItemAnimator&lt;/a0&gt;, you should never receive this callback because RecyclerView keeps those Views as children until their animations are complete.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032012Z" creationid="pingfangx" creationdate="20191104T032012Z">
+        <seg>请注意，当所有动画都由 &lt;a0&gt;RecyclerView.ItemAnimator&lt;/a0&gt; 创建时，你不应该收到此回调，因为 RecyclerView 将这些 view 保留为子 view，直到它们的动画完成为止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that you also might introduce your own attributes and parameters into the XML that can be pulled out and used by your constructor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -25551,10 +26375,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that, Recycler never sends Views to this method to be cached.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161144Z" creationid="pingfangx" creationdate="20191103T161144Z">
+        <seg>请注意，Recycler 从不将 view 发送到此方法来进行缓存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that, if you specify exact dimensions for the CardView, because of the shadows, its content area will be different between platforms before Lollipop and after Lollipop.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T075106Z" creationid="pingfangx" creationdate="20190613T075106Z">
         <seg>请注意，如果你为 CardView 指定精确尺寸，由于阴影，其内容区域在 Lollipop 之前和 Lollipop 之后的平台之间会有所不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note the order: we must call endAnimation() after recycleViewHolderInternal() to avoid recycle twice.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154949Z" creationid="pingfangx" creationdate="20191103T154949Z">
+        <seg>注意顺序：我们必须在 recycleViewHolderInternal() 之后调用 endAnimation()，以避免回收两次。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25703,6 +26543,78 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notify any registered observers that the &lt;c0&gt;itemCount&lt;/c0&gt; items previously located at &lt;c1&gt;positionStart&lt;/c1&gt; have been removed from the data set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040311Z" creationid="pingfangx" creationdate="20191104T040311Z">
+        <seg>通知所有注册的观察者先前位于 &lt;c1&gt;positionStart&lt;/c1&gt; 的 &lt;c0&gt;itemCount&lt;/c0&gt; 个项已从数据集中移除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notify any registered observers that the &lt;c0&gt;itemCount&lt;/c0&gt; items starting at position &lt;c1&gt;positionStart&lt;/c1&gt; have changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034755Z" creationid="pingfangx" creationdate="20191104T034755Z">
+        <seg>通知所有注册观察者 &lt;c0&gt;itemCount&lt;/c0&gt; 个项，从 &lt;c1&gt;positionStart&lt;/c1&gt; 已更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notify any registered observers that the currently reflected &lt;c0&gt;itemCount&lt;/c0&gt; items starting at &lt;c1&gt;positionStart&lt;/c1&gt; have been newly inserted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040101Z" creationid="pingfangx" creationdate="20191104T040101Z">
+        <seg>通知所有注册的观察者，从 &lt;c1&gt;positionStart&lt;/c1&gt; 开始的当前反射的 &lt;c0&gt;itemCount&lt;/c0&gt; 个项目已被新插入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notify any registered observers that the data set has changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033227Z" creationid="pingfangx" creationdate="20191104T033227Z">
+        <seg>通知所有注册的观察者数据集已更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notify any registered observers that the item at &lt;c0&gt;position&lt;/c0&gt; has changed with an optional payload object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034325Z" creationid="pingfangx" creationdate="20191104T034325Z">
+        <seg>通知所有注册的观察者 &lt;c0&gt;position&lt;/c0&gt; 处的项目已更改，带有可选的有效载荷对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notify any registered observers that the item at &lt;c0&gt;position&lt;/c0&gt; has changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034120Z" creationid="pingfangx" creationdate="20191104T034120Z">
+        <seg>通知所有注册观察者 &lt;c0&gt;position&lt;/c0&gt; 处的项目已更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notify any registered observers that the item previously located at &lt;c0&gt;position&lt;/c0&gt; has been removed from the data set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040219Z" creationid="pingfangx" creationdate="20191104T040219Z">
+        <seg>通知所有注册观察者先前位于 &lt;c0&gt;position&lt;/c0&gt; 处的项目已从数据集中移除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notify any registered observers that the item reflected at &lt;c0&gt;fromPosition&lt;/c0&gt; has been moved to &lt;c1&gt;toPosition&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040004Z" creationid="pingfangx" creationdate="20191104T040004Z">
+        <seg>通知所有注册观察者，&lt;c0&gt;fromPosition&lt;/c0&gt; 反射的项目已移动到 &lt;c1&gt;toPosition&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notify any registered observers that the item reflected at &lt;c0&gt;position&lt;/c0&gt; has been newly inserted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035739Z" creationid="pingfangx" creationdate="20191104T035739Z">
+        <seg>通知所有注册观察者 &lt;c0&gt;position&lt;/c0&gt; 处反映的项目已被新插入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notify the scroller that we've reached a horizontal boundary.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190415T095034Z" creationid="pingfangx" creationdate="20190415T095034Z">
@@ -25767,6 +26679,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Number of items inserted</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040148Z" creationid="pingfangx" creationdate="20191104T040148Z">
+        <seg>插入的项目数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Number of items removed from the data set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040346Z" creationid="pingfangx" creationdate="20191104T040346Z">
+        <seg>从数据集中移除的项目数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Number of items that have changed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035319Z" creationid="pingfangx" creationdate="20191104T035319Z">
+        <seg>已更改的项目数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Objects should always act in the same way that real objects do.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T071145Z" creationid="pingfangx" creationdate="20181205T071145Z">
@@ -25779,6 +26715,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Observer 基类，观看 &lt;c0&gt;&lt;a1&gt;RecyclerView.Adapter&lt;/a1&gt;&lt;/c0&gt; 的变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Observer to register</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033026Z" creationid="pingfangx" creationdate="20191104T033026Z">
+        <seg>要注册的观察者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Observer to unregister</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033056Z" creationid="pingfangx" creationdate="20191104T033056Z">
+        <seg>要注销的观察者</seg>
       </tuv>
     </tu>
     <tu>
@@ -26039,6 +26991,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Optional parameter, use null to identify a "full" update</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034710Z" creationid="pingfangx" creationdate="20191104T034710Z">
+        <seg>可选参数，使用 null 标识“完全”更新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Optionally wraps, traces, and/or error-checks the renderer's OpenGL calls.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T034826Z" creationid="pingfangx" creationdate="20190611T034826Z">
@@ -26263,6 +27223,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Override &lt;a0&gt;#onBindViewHolder(ViewHolder, int, List)&lt;/a0&gt; instead if Adapter can handle efficient partial bind.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024956Z" creationid="pingfangx" creationdate="20191104T024956Z">
+        <seg>如果适配器可以处理有效的部分绑定，则重写 &lt;a0&gt;#onBindViewHolder(ViewHolder, int, List)&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Override some of the methods from the superclass.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -26427,6 +27395,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>解析 xml 属性以获得 layout managers 要使用的最常用的性性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Partial bind vs full bind:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025051Z" creationid="pingfangx" creationdate="20191104T025051Z">
+        <seg>部分绑定与完全绑定：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pass false to dispatchRecycled for views that have not been bound.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155529Z" creationid="pingfangx" creationdate="20191103T155529Z">
+        <seg>对于尚未绑定的 view，将 false 传递给 dispatchRecycled。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26655,6 +27639,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Position of ViewHolder to be returned.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T152518Z" creationid="pingfangx" creationdate="20191103T152518Z">
+        <seg>要返回 ViewHolder 的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Position of the first item that has changed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035315Z" creationid="pingfangx" creationdate="20191104T035315Z">
+        <seg>已更改的第一个项的位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Position of the first item that was inserted</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040143Z" creationid="pingfangx" creationdate="20191104T040143Z">
+        <seg>插入的第一个项目的位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Position of the item that has changed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034255Z" creationid="pingfangx" creationdate="20191104T034251Z">
+        <seg>已更改项的位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Position of the item that has now been removed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040256Z" creationid="pingfangx" creationdate="20191104T040256Z">
+        <seg>已移除的项目的位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Position of the newly inserted item in the data set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035901Z" creationid="pingfangx" creationdate="20191104T035901Z">
+        <seg>数据集中新插入项的位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Position the scroll bar along the left edge.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T080900Z" creationid="pingfangx" creationdate="20190614T080900Z">
@@ -26735,6 +27767,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Prepares the ViewHolder to be removed/recycled, and inserts it into the RecycledViewPool.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155518Z" creationid="pingfangx" creationdate="20191103T155518Z">
+        <seg>准备要移除/回收的 ViewHolder，并将其插入 RecycledViewPool。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Presenting Dynamic Data</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T094333Z" creationid="pingfangx" creationdate="20190613T094333Z">
@@ -26747,6 +27787,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Preview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Previous position of the first item that was removed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040342Z" creationid="pingfangx" creationdate="20191104T040330Z">
+        <seg>移除的第一个项目的之前位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Previous position of the item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040010Z" creationid="pingfangx" creationdate="20191104T040010Z">
+        <seg>项目的上一个位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26891,6 +27947,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>公开静态 final 字段(常量)为全部大写并用下划线连接 (ALL_CAPS_WITH_UNDERSCORES)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Public version un-scraps before calling recycle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155227Z" creationid="pingfangx" creationdate="20191103T155227Z">
+        <seg>在调用回收之前取消废弃的公共版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27103,6 +28167,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Recycle a detached view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154501Z" creationid="pingfangx" creationdate="20191103T154501Z">
+        <seg>回收一个分离的 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recycle them all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160937Z" creationid="pingfangx" creationdate="20191103T160937Z">
+        <seg>全部回收</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recycle this scrap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160735Z" creationid="pingfangx" creationdate="20191103T160735Z">
+        <seg>回收此废料。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Recycled view pools allow multiple RecyclerViews to share a common pool of scrap views.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -27115,6 +28203,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>RecycledViewPool 允许你在多个 RecyclerViews 间共享数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RecyclerView calls this method right before clearing ViewHolder's internal data and sending it to RecycledViewPool.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031426Z" creationid="pingfangx" creationdate="20191104T031426Z">
+        <seg>RecyclerView 在清除 ViewHolder 的内部数据并将其发送到 RecycledViewPool 之前调用此方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27139,6 +28235,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>RecyclerView 在 &lt;c0&gt;&lt;a1&gt;RecyclerView.Adapter&lt;/a1&gt;&lt;/c0&gt; 和 &lt;c2&gt;&lt;a3&gt;RecyclerView.LayoutManager&lt;/a3&gt;&lt;/c2&gt; 之间引入了一个额外的抽象层，用于在布局计算时批量地检测数据集的变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RecyclerView will re-bind the returned View to the position if necessary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161338Z" creationid="pingfangx" creationdate="20191103T161325Z">
+        <seg>如有必要，RecyclerView 会将返回的 view 重新绑定到位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recycles a cached view and removes the view from the list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155036Z" creationid="pingfangx" creationdate="20191103T155036Z">
+        <seg>回收缓存 view 并从列表中移除该 view。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27279,6 +28391,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Register a new observer to listen for data changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032815Z" creationid="pingfangx" creationdate="20191104T032815Z">
+        <seg>注册一个新的观察者来监听数据更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Related Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -27315,6 +28435,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>相对定位是在 ConstraintLayout 中创建布局的基本构建块之一。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rely on &lt;c0&gt;notifyDataSetChanged()&lt;/c0&gt; as a last resort.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035711Z" creationid="pingfangx" creationdate="20191104T035711Z">
+        <seg>依靠 &lt;c0&gt;notifyDataSetChanged()&lt;/c0&gt; 作为最后的手段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rely on &lt;c0&gt;notifyDataSetChanged()&lt;/c0&gt; as a last resort.&lt;/p1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034035Z" creationid="pingfangx" creationdate="20191104T034035Z">
+        <seg>依靠 &lt;c0&gt;notifyDataSetChanged()&lt;/c0&gt; 作为最后的手段。&lt;/p1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -27367,6 +28503,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove a previously scrapped view from the pool of eligible scrap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160046Z" creationid="pingfangx" creationdate="20191103T160046Z">
+        <seg>从符合条件的废料池中移除之前废弃的 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove a range of mappings as a batch.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T162553Z" creationid="pingfangx" creationdate="20191026T162553Z">
@@ -27407,10 +28551,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove count</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160813Z" creationid="pingfangx" creationdate="20191103T160813Z">
+        <seg>移除计数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove debug symbols</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065129Z" creationid="pingfangx" creationdate="20181220T065129Z">
         <seg>移除调试符号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove start index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160750Z" creationid="pingfangx" creationdate="20191103T160750Z">
+        <seg>移除开始索引</seg>
       </tuv>
     </tu>
     <tu>
@@ -27435,6 +28595,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T060637Z" creationid="pingfangx" creationdate="20181220T060637Z">
         <seg>移除未使用的资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Removed view for recycling</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154715Z" creationid="pingfangx" creationdate="20191103T154715Z">
+        <seg>移除 view 以进行回收</seg>
       </tuv>
     </tu>
     <tu>
@@ -27551,6 +28719,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Representations of other existing items in the data set are still considered up to date and will not be rebound, though their positions may be altered.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035856Z" creationid="pingfangx" creationdate="20191104T035856Z">
+        <seg>数据集中其他现有项目的表示仍被认为是最新的，不会被重新绑定，尽管它们的位置可能会改变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Represents a standard bottom navigation bar for application.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T032538Z" creationid="pingfangx" creationdate="20190613T032538Z">
@@ -27595,6 +28771,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T090213Z" creationid="pingfangx" creationdate="20190412T090213Z">
         <seg>从嵌套滚动请求 fling。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Requests for a view for a given position may return a reused or rebound scrap view instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T123755Z" creationid="pingfangx" creationdate="20191104T123755Z">
+        <seg>对给定位置的 view 的请求可能会返回一个重用或重新绑定的废弃 view 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Requests for a view for a given position may return a reused or rebound scrap view instance.&lt;/p0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155953Z" creationid="pingfangx" creationdate="20191103T155953Z">
+        <seg>对给定位置的 view 的请求可能会返回一个重用或重新绑定的废弃 view 实例。&lt;/p0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -27819,6 +29011,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>重新抛出异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retire oldest cached view</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155252Z" creationid="pingfangx" creationdate="20191103T155252Z">
+        <seg>停用最旧的缓存 view</seg>
       </tuv>
     </tu>
     <tu>
@@ -28439,6 +29639,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the stable ID for the item at &lt;c0&gt;position&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030522Z" creationid="pingfangx" creationdate="20191104T030522Z">
+        <seg>返回位于 &lt;c0&gt;position&lt;/c0&gt; 处的项的稳定的 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Return the stable item id that the given child view corresponds to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -28507,6 +29715,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T101018Z" creationid="pingfangx" creationdate="20190603T101018Z">
         <seg>返回给定资源标识符的类型名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return the view type of the item at &lt;c0&gt;position&lt;/c0&gt; for the purposes of view recycling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025734Z" creationid="pingfangx" creationdate="20191104T025734Z">
+        <seg>返回位于 &lt;c0&gt;position&lt;/c0&gt; 的项的 view 类型，以便进行 view 回收。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28599,6 +29815,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns a View that can be binded to the given Adapter position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161214Z" creationid="pingfangx" creationdate="20191103T161214Z">
+        <seg>返回可绑定到给定适配器位置的 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns a hash code value for the object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T095746Z" creationid="pingfangx" creationdate="20180427T095746Z">
@@ -28683,6 +29907,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T100421Z" creationid="pingfangx" creationdate="20190603T100421Z">
         <seg>返回与特定资源 ID 关联的主题颜色状态列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a view for the position either from attach scrap, hidden children, or cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T112904Z" creationid="pingfangx" creationdate="20191103T160203Z">
+        <seg>从附加的废料中、隐藏的子项中、或缓存中，返回指定位置的 view。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29287,6 +30519,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the total number of items in the data set held by the adapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031020Z" creationid="pingfangx" creationdate="20191104T031012Z">
+        <seg>返回适配器保存的数据集中的项目总数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the total width of item decorations applied to child's left.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -29339,6 +30579,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>返回 true，如果嵌套滚动可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns true if one or more observers are attached to this adapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032808Z" creationid="pingfangx" creationdate="20191104T032808Z">
+        <seg>如果一个或多个观察者附加到此适配器，则返回 true。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29403,6 +30651,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>如果指定的对象表示一个逻辑上等效于此的注解，则返回 true 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns true if this adapter publishes a unique &lt;c0&gt;long&lt;/c0&gt; value that can act as a key for the item at a given position in the data set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031045Z" creationid="pingfangx" creationdate="20191104T031045Z">
+        <seg>如果此适配器发布一个唯一的 &lt;c0&gt;long&lt;/c0&gt; 值，该值可以作为数据集中给定位置项的键，则返回 true。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29843,6 +31099,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>Search</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search in our first-level recycled view cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160401Z" creationid="pingfangx" creationdate="20191103T160401Z">
+        <seg>在我们的一级回收 view 缓存中搜索。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search the first-level cache</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160746Z" creationid="pingfangx" creationdate="20191103T160746Z">
+        <seg>搜索一级缓存</seg>
       </tuv>
     </tu>
     <tu>
@@ -31639,6 +32911,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since it will be re-used to display different items in the data set, it is a good idea to cache references to sub views of the View to avoid unnecessary &lt;a1&gt;View#findViewById(int)&lt;/a1&gt; calls.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024522Z" creationid="pingfangx" creationdate="20191104T024422Z">
+        <seg>由于它将被重用以显示数据集中的不同项，因此最好缓存对 View 的子 view 的引用，以避免不必要的 &lt;a1&gt;View#findViewById(int)&lt;/a1&gt; 调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since many consider this a low priority issue, just use your judgement and be consistent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -32575,6 +33855,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Structural changes are when items are inserted, removed or moved within the data set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035651Z" creationid="pingfangx" creationdate="20191104T035651Z">
+        <seg>结构更改是指在数据集中插入、移除或移动项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Structural changes are when items are inserted, removed or moved within the data set.&lt;/p0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033753Z" creationid="pingfangx" creationdate="20191104T033753Z">
+        <seg>结构更改是指在数据集中插入、移除或移动项目。&lt;/p0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Stub/no-op implementations of all methods of &lt;c0&gt;&lt;a1&gt;DrawerLayout.DrawerListener&lt;/a1&gt;&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T024439Z" creationid="pingfangx" creationdate="20190613T024439Z">
@@ -32859,6 +34155,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>System.out 和 System.err 会重定向到 /dev/null，因此你的 print 语句不会产生可见效果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TODO: consider cancelling an animation when an item is removed scrollBy, to return it to the pool faster</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155420Z" creationid="pingfangx" creationdate="20191103T155420Z">
+        <seg>TODO：考虑在滚动移除项目时取消动画，以便更快地将其返回到池中</seg>
       </tuv>
     </tu>
     <tu>
@@ -33735,6 +35039,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Recycler that can be used to bind the View</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161350Z" creationid="pingfangx" creationdate="20191103T161350Z">
+        <seg>可用于绑定 view 的 Recycler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The RecyclerView instance which started observing this adapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033129Z" creationid="pingfangx" creationdate="20191104T033129Z">
+        <seg>开始观察此适配器的 RecyclerView 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The RecyclerView instance which stopped observing this adapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033142Z" creationid="pingfangx" creationdate="20191104T033142Z">
+        <seg>已停止观察此适配器的 RecyclerView 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The RecyclerView is currently animating to a final position while not under outside control.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -33831,6 +35159,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The ViewGroup into which the new View will be added after it is bound to               an adapter position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024510Z" creationid="pingfangx" creationdate="20191104T024510Z">
+        <seg>新 View 绑定到适配器位置后将添加到其中的 ViewGroup。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ViewGroup into which the new View will be added after it is bound to an adapter position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032455Z" creationid="pingfangx" creationdate="20191104T032455Z">
+        <seg>新 View 绑定到适配器位置后将添加到其中的 ViewGroup。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ViewHolder containing the View that could not be recycled due to its transient state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032536Z" creationid="pingfangx" creationdate="20191104T032536Z">
+        <seg>包含由于其 transient 状态而无法回收的 View 的 ViewHolder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ViewHolder which should be updated to represent the contents of the               item at the given position in the data set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025433Z" creationid="pingfangx" creationdate="20191104T025433Z">
+        <seg>应更新以表示数据集中给定位置处项的内容的 ViewHolder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ViewHolder which should be updated to represent the contents of the        item at the given position in the data set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025011Z" creationid="pingfangx" creationdate="20191104T025011Z">
+        <seg>应更新以表示数据集中给定位置处项的内容的 ViewHolder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ViewHolder which should be updated to represent the contents of the item at the given position in the data set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032500Z" creationid="pingfangx" creationdate="20191104T032500Z">
+        <seg>应更新以表示数据集中给定位置处项的内容的 ViewHolder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The ViewStub then replaces itself in its parent with the inflated View or Views.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T025540Z" creationid="pingfangx" creationdate="20190611T025540Z">
@@ -33915,6 +35291,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>适配器负责从其容器中删除视图，尽管它只必须确保在从 &lt;c0&gt;&lt;a1&gt;finishUpdate(ViewGroup)&lt;/a1&gt;&lt;/c0&gt; 返回的时间完成此操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The adapter may publish a variety of events describing specific changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032826Z" creationid="pingfangx" creationdate="20191104T032826Z">
+        <seg>适配器可以发布描述特定更改的各种事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The adapter position</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161353Z" creationid="pingfangx" creationdate="20191103T161353Z">
+        <seg>适配器位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -34203,6 +35595,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T031303Z" creationid="pingfangx" creationdate="20190613T031303Z">
         <seg>用于指示用户更改日期的回调。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The caller must call &lt;a0&gt;#clearScrap()&lt;/a0&gt; when it's done to update the recycler's internal bookkeeping.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155802Z" creationid="pingfangx" creationdate="20191103T155802Z">
+        <seg>调用方必须在更新回收方的内部记帐时调用 &lt;a0&gt;#clearScrap()&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34587,6 +35987,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>链的默认行为是在可用空间中平均分配元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default implementation of this method returns 0, making the assumption of a single view type for the adapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025743Z" creationid="pingfangx" creationdate="20191104T025743Z">
+        <seg>此方法的默认实现返回 0，假设适配器只有一个 view 类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default implementation of this method returns &lt;a3&gt;#NO_ID&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030541Z" creationid="pingfangx" creationdate="20191104T030541Z">
+        <seg>此方法的默认实现返回 &lt;a3&gt;#NO_ID&lt;/a3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35343,6 +36759,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The index of an attached child view as used in a call to &lt;c1&gt;&lt;a2&gt;getChildAt(int)&lt;/a2&gt;&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T150947Z" creationid="pingfangx" creationdate="20191103T150947Z">
+        <seg>已经附加的子 view 的索引，可用于调用 &lt;c1&gt;&lt;a2&gt;getChildAt(int)&lt;/a2&gt;&lt;/c1&gt; 时使用的参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The index of the first character captured by the group, or &lt;t0&gt;-1&lt;/t0&gt; if the match was successful but the group itself did not match anything</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -35431,6 +36855,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The item at &lt;c1&gt;position&lt;/c1&gt; retains the same identity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034339Z" creationid="pingfangx" creationdate="20191104T034339Z">
+        <seg>&lt;c1&gt;position&lt;/c1&gt; 处的项保持相同的标识。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The item at &lt;c1&gt;position&lt;/c1&gt; retains the same identity.&lt;/p2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034235Z" creationid="pingfangx" creationdate="20191104T034235Z">
+        <seg>&lt;c1&gt;position&lt;/c1&gt; 处的项保持相同的标识。&lt;/p2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The item previously at &lt;c1&gt;position&lt;/c1&gt; is now at position &lt;c2&gt;position + 1&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035800Z" creationid="pingfangx" creationdate="20191104T035800Z">
+        <seg>以前位于 &lt;c1&gt;position&lt;/c1&gt; 的项目现在位于 &lt;c2&gt;position + 1&lt;/c2&gt; 位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The items come from the &lt;c2&gt;&lt;a3&gt;ExpandableListAdapter&lt;/a3&gt;&lt;/c2&gt; associated with this view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T092814Z" creationid="pingfangx" creationdate="20190613T092814Z">
@@ -35447,10 +36895,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The items in the given range retain the same identity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035335Z" creationid="pingfangx" creationdate="20191104T035335Z">
+        <seg>给定范围内的项目保持相同的标识。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The items in the given range retain the same identity.&lt;/p0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034828Z" creationid="pingfangx" creationdate="20191104T034828Z">
+        <seg>给定范围内的项目保持相同的标识。&lt;/p0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The items in the grid come from the &lt;c0&gt;&lt;a1&gt;ListAdapter&lt;/a1&gt;&lt;/c0&gt; associated with this view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T091900Z" creationid="pingfangx" creationdate="20190613T091900Z">
         <seg>网格中的项目来自与此 view 关联的 &lt;c0&gt;&lt;a1&gt;ListAdapter&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The items previously located at &lt;c2&gt;positionStart&lt;/c2&gt; and beyond can now be found starting at position &lt;c3&gt;positionStart + itemCount&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040137Z" creationid="pingfangx" creationdate="20191104T040137Z">
+        <seg>以前位于 &lt;c2&gt;positionStart&lt;/c2&gt; 及以后的项目现在可以从 &lt;c3&gt;positionStart + itemCount&lt;/c3&gt; 开始的位置找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The items previously located at and after &lt;c1&gt;position&lt;/c1&gt; may now be found at &lt;c2&gt;oldPosition - 1&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040250Z" creationid="pingfangx" creationdate="20191104T040250Z">
+        <seg>以前位于 &lt;c1&gt;position&lt;/c1&gt; 和之后的项目现在可以在 &lt;c2&gt;oldPosition - 1&lt;/c2&gt; 找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The items previously located at and after &lt;c2&gt;positionStart + itemCount&lt;/c2&gt; may now be found at &lt;c3&gt;oldPosition - itemCount&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T040322Z" creationid="pingfangx" creationdate="20191104T040322Z">
+        <seg>以前位于 &lt;c2&gt;positionStart + itemCount&lt;/c2&gt; 处和之后的项目现在可以在 &lt;c3&gt;oldPosition - itemCount&lt;/c3&gt; 处找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35903,6 +37391,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The new ViewHolder will be used to display items of the adapter using &lt;a0&gt;#onBindViewHolder(ViewHolder, int, List)&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024345Z" creationid="pingfangx" creationdate="20191104T024345Z">
+        <seg>新的 ViewHolder 将用于显示适配器的项，使用 &lt;a0&gt;#onBindViewHolder(ViewHolder, int, List)&lt;/a0&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The next section deals with retrieving and applying the values at runtime.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042458Z" creationid="pingfangx" creationdate="20181205T042458Z">
@@ -36135,6 +37631,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The payloads parameter is a merge list from &lt;a0&gt;#notifyItemChanged(int, Object)&lt;/a0&gt; or &lt;a1&gt;#notifyItemRangeChanged(int, int, Object)&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025341Z" creationid="pingfangx" creationdate="20191104T025111Z">
+        <seg>payloads (有效荷载) 参数是来自 &lt;a0&gt;#notifyItemChanged(int, Object)&lt;/a0&gt; 或 &lt;a1&gt;#notifyItemRangeChanged(int, int, Object)&lt;/a1&gt; 的合并列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The permission remains in effect until you revoke it by calling &lt;c10&gt;&lt;a11&gt;revokeUriPermission()&lt;/a11&gt;&lt;/c10&gt; or until the device reboots.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -36199,6 +37703,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The position of a data item within an &lt;e1&gt;Adapter&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T150920Z" creationid="pingfangx" creationdate="20191103T150920Z">
+        <seg>数据项在 &lt;e1&gt;Adapter&lt;/e1&gt; 中的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The position of the item within the adapter's data set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025018Z" creationid="pingfangx" creationdate="20191104T025018Z">
+        <seg>项在适配器数据集中的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The possible values are:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -36235,6 +37755,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T074835Z" creationid="pingfangx" creationdate="20180925T074835Z">
         <seg>该过程可能已继续运行，但应用程序必须通过调用 &lt;c0&gt;&lt;a1&gt;onCreate()&lt;/a1&gt;&lt;/c0&gt; 从头开始重新创建 activity。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The process of preparing a child view to display data corresponding to a &lt;e1&gt;position&lt;/e1&gt; within the adapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T151009Z" creationid="pingfangx" creationdate="20191103T151009Z">
+        <seg>准备一个 view（用于显示 adapter 中相应 &lt;e1&gt;position&lt;/e1&gt; 的数据）的过程。 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36719,6 +38247,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The specified view will be added to a pool of views for later rebinding and reuse.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154601Z" creationid="pingfangx" creationdate="20191103T154601Z">
+        <seg>指定的 view 将被添加到 view 池中，以便以后重新绑定和重用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The stable layout your UI sees is based on the system UI modes you can switch to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190215T101100Z" creationid="pingfangx" creationdate="20190215T101100Z">
@@ -37047,6 +38583,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The type of the View, defined by adapter</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161358Z" creationid="pingfangx" creationdate="20191103T161358Z">
+        <seg>view 的类型，由适配器定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The unconsumed portion may be used to allow continuous dragging of multiple scrolling or draggable elements, such as scrolling a list within a vertical drawer where the drawer begins dragging once the edge of inner scrolling content is reached.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190415T034532Z" creationid="pingfangx" creationdate="20190415T034532Z">
@@ -37059,6 +38603,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>位置和尺寸的单位是像素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The unregistered observer will no longer receive events about changes to the adapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035525Z" creationid="pingfangx" creationdate="20191104T035525Z">
+        <seg>注销的观察者将不再接收有关适配器更改的事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The unregistered observer will no longer receive events about changes to the adapter.&lt;/p0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033059Z" creationid="pingfangx" creationdate="20191104T033044Z">
+        <seg>注销的观察者将不再接收有关适配器更改的事件。&lt;/p0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -37267,6 +38827,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T080234Z" creationid="pingfangx" creationdate="20190614T080234Z">
         <seg>该 view 对于自动填充并不重要，但其子项(如果有)将被遍历。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The view type of the new View.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024531Z" creationid="pingfangx" creationdate="20191104T024531Z">
+        <seg>新 View 的 view 类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37567,6 +39135,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are two different classes of data change events, item changes and structural changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033244Z" creationid="pingfangx" creationdate="20191104T033244Z">
+        <seg>有两类不同的数据更改事件：项更改和结构更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are two flavors of this widget and which one is presented to the user depends on the current theme.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190612T081256Z" creationid="pingfangx" creationdate="20190612T081256Z">
@@ -37863,6 +39439,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These payloads will be merged and may be passed to adapter's &lt;a0&gt;#onBindViewHolder(ViewHolder, int, List)&lt;/a0&gt; if the item is already represented by a ViewHolder and it will be rebound to the same ViewHolder.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034437Z" creationid="pingfangx" creationdate="20191104T034437Z">
+        <seg>这些有效载荷将被合并，如果项目已经由一个 ViewHolder 表示，则可以传递给适配器的 &lt;a0&gt;#onBindViewHolder(ViewHolder, int, List)&lt;/a0&gt;，并且将重新绑定到同一个 ViewHolder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These permissions are available to the client app for as long as the stack for a receiving &lt;c4&gt;&lt;a5&gt;Activity&lt;/a5&gt;&lt;/c4&gt; is active.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -38039,6 +39623,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This View is good to be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T113239Z" creationid="pingfangx" creationdate="20191103T160334Z">
+        <seg>这个 View 可以很好地使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This ViewGroup should contain exactly one child.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T073901Z" creationid="pingfangx" creationdate="20190613T073901Z">
@@ -38199,10 +39791,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This callback is useful when children of the item views create animations which may not be easy to implement using an &lt;a1&gt;ItemAnimator&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032142Z" creationid="pingfangx" creationdate="20191104T032142Z">
+        <seg>当项 view 的子 view 创建的动画不容易使用 &lt;a1&gt;ItemAnimator&lt;/a1&gt; 实现时，此回调非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can be awkward but is still preferable to catching all Exceptions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>这样做可能显得比较笨拙，但仍比捕获所有异常更可取。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be because it has fallen out of visibility or a set of cached views represented by views still attached to the parent RecyclerView.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031351Z" creationid="pingfangx" creationdate="20191104T031351Z">
+        <seg>这可能是因为它已不可见，或者 view 表示的一组缓存 view 仍然附加到父 RecyclerView。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38219,6 +39827,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180921T084741Z" creationid="pingfangx" creationdate="20180921T084741Z">
         <seg>可以使用 &lt;c7&gt;setMutableRequired(true)&lt;/c7&gt; 更改此设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be used as a reasonable signal that the view is about to be seen by the user.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032648Z" creationid="pingfangx" creationdate="20191104T032648Z">
+        <seg>这可以作为用户即将看到 view 的合理信号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38267,6 +39883,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>复用 view 可以跳过初始化布局的加载或构造，这可以显著提高性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can help for the purposes of animation and visual object persistence but individual item views will still need to be rebound and relaid out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035659Z" creationid="pingfangx" creationdate="20191104T035659Z">
+        <seg>这有助于实现动画和视觉对象的持久性，但仍需要重新绑定和重新关联各个项目 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can help for the purposes of animation and visual object persistence but individual item views will still need to be rebound and relaid out.&lt;/p2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034016Z" creationid="pingfangx" creationdate="20191104T034016Z">
+        <seg>这有助于实现动画和视觉对象的持久性，但仍需要重新绑定和重新关联各个项目 view。&lt;/p2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -38735,6 +40367,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This event does not specify what about the data set has changed, forcing any observers to assume that all existing items and structure may no longer be valid.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033816Z" creationid="pingfangx" creationdate="20191104T033816Z">
+        <seg>此事件不指定数据集发生了什么变化，迫使任何观察者假定所有现有项和结构可能不再有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This example overrides only one method, &lt;c0&gt;onDraw()&lt;/c0&gt;, but you might need to override others as you create your own custom components.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T041505Z" creationid="pingfangx" creationdate="20181205T041505Z">
@@ -39072,6 +40712,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a structural change event.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T035837Z" creationid="pingfangx" creationdate="20191104T035837Z">
+        <seg>这是一个结构性变更事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is a tap, so remove the longpress check</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T162502Z" creationid="pingfangx" creationdate="20191102T162502Z">
@@ -39108,6 +40756,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190603T095918Z" creationid="pingfangx" creationdate="20190603T095918Z">
         <seg>这是开发兼容不同类型设备的 Android 应用程序的一个重要方面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is an item change event, not a structural change event.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T034138Z" creationid="pingfangx" creationdate="20191104T034138Z">
+        <seg>这是项更改事件，而不是结构更改事件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39448,6 +41104,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is very ugly but the only place we can grab this information before the View is rebound and returned to the LayoutManager for post layout ops.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154240Z" creationid="pingfangx" creationdate="20191103T154240Z">
+        <seg>这很难看，但在 view 重新绑定并返回到 LayoutManager 进行后期布局操作之前，我们只能在这里获取这些信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is very useful to efficiently store masks for instance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T100731Z" creationid="pingfangx" creationdate="20180408T100731Z">
@@ -39656,6 +41320,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This method calls &lt;a0&gt;#onCreateViewHolder(ViewGroup, int)&lt;/a0&gt; to create a new &lt;a1&gt;ViewHolder&lt;/a1&gt; and initializes some private fields to be used by RecyclerView.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025549Z" creationid="pingfangx" creationdate="20191104T025549Z">
+        <seg>此方法调用 &lt;a0&gt;#onCreateViewHolder(ViewGroup, int)&lt;/a0&gt; 创建新的 &lt;a1&gt;ViewHolder&lt;/a1&gt; 并初始化一些要由 RecyclerView 使用的私有字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This method internally calls &lt;a0&gt;#onBindViewHolder(ViewHolder, int)&lt;/a0&gt; to update the &lt;a1&gt;ViewHolder&lt;/a1&gt; contents with the item at the given position and also sets up some private fields to be used by RecyclerView.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025631Z" creationid="pingfangx" creationdate="20191104T025631Z">
+        <seg>此方法在内部调用 &lt;a0&gt;#onBindViewHolder(ViewHolder, int)&lt;/a0&gt; 以使用给定位置的项更新 &lt;a1&gt;ViewHolder&lt;/a1&gt; 内容，并设置一些私有字段供 RecyclerView 使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This method is called whenever a dependent view changes in size or position outside of the standard layout flow.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024438Z" creationid="pingfangx" creationdate="20190513T024438Z">
@@ -39744,10 +41424,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This method should &lt;b0&gt;not&lt;/b0&gt; create a new View.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161243Z" creationid="pingfangx" creationdate="20191103T161243Z">
+        <seg>此方法 &lt;b0&gt;不&lt;/b0&gt; 应创建新 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This method should return a new set of layout params suitable for this ViewGroup, possibly by copying the appropriate attributes from the specified set of layout params.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T084237Z" creationid="pingfangx" creationdate="20190614T084237Z">
         <seg>此方法应返回适合此 ViewGroup 的一组新布局参数，可能是通过从指定的布局参数集复制适当的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This method should update the contents of the &lt;a0&gt;ViewHolder#itemView&lt;/a0&gt; to reflect the item at the given position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024650Z" creationid="pingfangx" creationdate="20191104T024650Z">
+        <seg>此方法应更新 &lt;a0&gt;ViewHolder#itemView&lt;/a0&gt; 的内容，以反映给定位置的项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39880,6 +41576,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This new ViewHolder should be constructed with a new View that can represent the items of the given type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024146Z" creationid="pingfangx" creationdate="20191104T024146Z">
+        <seg>这个新的 ViewHolder 应该用一个新 View 来构造，该 View 可以表示给定类型的项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This object holds two children: a set of tab labels that the user clicks to select a specific tab, and a FrameLayout object that displays the contents of that page.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T035015Z" creationid="pingfangx" creationdate="20190613T035015Z">
@@ -39956,6 +41660,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T084053Z" creationid="pingfangx" creationdate="20190614T084053Z">
         <seg>这可以防止当用户实际尝试滚动内容时出现按下状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This public recycle method tries to make view recycle-able since layout manager intended to recycle this view (e.g. even if it is in scrap or change cache)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154803Z" creationid="pingfangx" creationdate="20191103T154803Z">
+        <seg>此公共回收方法尝试使 view 可回收，因为布局管理器打算回收此 view (例如，即使它处于废弃或更改缓存中)</seg>
       </tuv>
     </tu>
     <tu>
@@ -40344,6 +42056,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This way, if ViewHolder was holding valid information before being recycled, you can call &lt;a0&gt;ViewHolder#getAdapterPosition()&lt;/a0&gt; to get its adapter position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031444Z" creationid="pingfangx" creationdate="20191104T031444Z">
+        <seg>这样，如果 ViewHolder 在被回收之前持有有效信息，则可以调用 &lt;a0&gt;ViewHolder#getAdapterPosition()&lt;/a0&gt; 来获取其适配器位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This widget display an analogic clock with two hands for hours and minutes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T092604Z" creationid="pingfangx" creationdate="20190611T092604Z">
@@ -40588,6 +42308,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T035547Z" creationid="pingfangx" creationdate="20190613T035547Z">
         <seg>在用户完成绘制之后手势淡出之前等待的时间(以毫秒为单位)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Time, relative to getNanoTime(), by which bind/create work should                   complete.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T152600Z" creationid="pingfangx" creationdate="20191103T152600Z">
+        <seg>时间，相对于 getNanoTime()，绑定/创建工作应在该时间之前完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Time, relative to getNanoTime(), by which bind/create work should complete.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032423Z" creationid="pingfangx" creationdate="20191104T032423Z">
+        <seg>时间，相对于 getNanoTime()，绑定/创建工作应在该时间之前完成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41068,6 +42804,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T080021Z" creationid="pingfangx" creationdate="20180925T080021Z">
         <seg>要在 Android Studio 中查找已用时间，必须在 logcat 视图中禁用过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To fix the issue, we issue endAnimation() here to make sure animation of this view finishes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154924Z" creationid="pingfangx" creationdate="20191103T154924Z">
+        <seg>为了解决这个问题，我们在这里发出 endAnimation() 以确保这个 view 的动画完成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41664,6 +43408,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>True if the View should be recycled, false otherwise.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032545Z" creationid="pingfangx" creationdate="20191104T032545Z">
+        <seg>如果 View 应被回收，则为 true；否则为 false。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>True if the ViewHolder should not be removed from scrap/cache/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T152536Z" creationid="pingfangx" creationdate="20191103T152536Z">
+        <seg>如果不应从废料/缓存中移除 ViewHolder，则为 True/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>True if the event was handled by the view, false otherwise.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T161337Z" creationid="pingfangx" creationdate="20191102T161337Z">
@@ -41676,6 +43436,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090740Z" creationid="pingfangx" creationdate="20190404T090740Z">
         <seg>如果事件被处理则为 True，否则为 false。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>True to dispatch View recycled callbacks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155626Z" creationid="pingfangx" creationdate="20191103T155626Z">
+        <seg>如果要分发 view 回收回调则为 true。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Try first for an exact, non-invalid match from scrap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160320Z" creationid="pingfangx" creationdate="20191103T160320Z">
+        <seg>首先尝试从废料中获得精确的、非无效的匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41708,6 +43484,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181220T065126Z" creationid="pingfangx" creationdate="20181220T065126Z">
         <seg>两种有用的技术是移除调试符号和避免提取 native 库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type codes need not be contiguous.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030359Z" creationid="pingfangx" creationdate="20191104T030359Z">
+        <seg>类型代码不必是连续的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type mismatch.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160737Z" creationid="pingfangx" creationdate="20191103T160737Z">
+        <seg>类型不匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41880,6 +43672,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unlike ListView adapters, types need not be contiguous.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T025752Z" creationid="pingfangx" creationdate="20191104T025752Z">
+        <seg>与 ListView 适配器不同，类型不需要是连续的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unlike a normal array of Objects, there can be gaps in the indices.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191026T154421Z" creationid="pingfangx" creationdate="20191026T154421Z">
@@ -41912,6 +43712,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unregister an observer currently listening for data changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T033032Z" creationid="pingfangx" creationdate="20191104T033032Z">
+        <seg>注销当前正在侦听数据更改的观察者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Update list of touch targets for pointer down, if needed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T153421Z" creationid="pingfangx" creationdate="20191102T153421Z">
@@ -41932,6 +43740,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T040048Z" creationid="pingfangx" creationdate="20190513T040048Z">
         <seg>在滚动结束时，如果 view 仅部分可见，则它将被捕捉并滚动到其最近的边缘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Upon receiving this callback, Adapter can clear the animation(s) that effect the View's transient state and return &lt;c0&gt;true&lt;/c0&gt; so that the View can be recycled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T031537Z" creationid="pingfangx" creationdate="20191104T031516Z">
+        <seg>在接收到这个回调之后，适配器可以清除影响 View 瞬态的动画，并返回 &lt;c0&gt;true&lt;/c0&gt;，以便可以回收 View。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41964,6 +43780,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T035243Z" creationid="pingfangx" creationdate="20190613T035243Z">
         <seg>请改用 &lt;a0&gt; TabLayout and ViewPager&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;a1&gt;ViewHolder#isBound()&lt;/a1&gt; on the returned object to check for this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T152510Z" creationid="pingfangx" creationdate="20191103T152510Z">
+        <seg>对返回的对象使用 &lt;a1&gt;ViewHolder#isBound()&lt;/a1&gt; 来检查这一点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42276,6 +44100,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>使用你新的继承类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Used as a fast path for unscrapping and recycling a view during a bulk operation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155750Z" creationid="pingfangx" creationdate="20191103T155750Z">
+        <seg>用作在批量操作期间取消废弃和回收 view 的快速路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42712,6 +44544,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ViewCacheExtension is a helper class to provide an additional layer of view caching that can be controlled by the developer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160947Z" creationid="pingfangx" creationdate="20191103T160947Z">
+        <seg>ViewCacheExtension 是一个助手类，它提供了一个可以由开发人员控制的 view 缓存的附加层。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ViewCacheExtension is a helper class to provide an additional layer of view caching that can ben controlled by the developer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -42740,6 +44580,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T082631Z" creationid="pingfangx" creationdate="20190613T082631Z">
         <seg>ViewPager2 取代了 &lt;c0&gt;&lt;a1&gt;ViewPager&lt;/a1&gt;&lt;/c0&gt;，解决了其前任的大部分难点，包括从右到左的布局支持，垂直方向，可修改的 Fragment 集合等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Views are added to cache if and only if they are recyclable, so this method does not check it again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155051Z" creationid="pingfangx" creationdate="20191103T155051Z">
+        <seg>只有当 view 可回收使用时，才会将其添加到缓存中，因此此方法不会再次对其进行检查。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42888,6 +44736,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We are NOT sending the offsetPosition because LayoutManager does not know it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154031Z" creationid="pingfangx" creationdate="20191103T154031Z">
+        <seg>我们不发送 offsetPosition，因为 LayoutManager 不知道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We are currently waiting for better attribute support in ColorStateLists to land in the support library.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T021733Z" creationid="pingfangx" creationdate="20190614T021733Z">
@@ -42912,6 +44768,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We don't need this in pre-layout since the VH is not updated by the LM.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154300Z" creationid="pingfangx" creationdate="20191103T154300Z">
+        <seg>我们在预先布局不需要这样，因为 VH 不是由 LM 更新的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We expect that as IDE users work on the code, imports in all packages will match this pattern without extra engineering effort.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -42924,6 +44788,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T161528Z" creationid="pingfangx" creationdate="20191102T161528Z">
         <seg>我们有焦点，得到事件，然后使用正常的事件分发。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We just need to unhide, detach and move to the scrap list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160349Z" creationid="pingfangx" creationdate="20191103T160349Z">
+        <seg>我们只需要取消隐藏、分离并移到废料列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43100,6 +44972,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在这种情况下发生的是，约束就像是从两边用相反的力拉小部件(图 4)，所以最终使得小部在父容器中居中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When &lt;a0&gt;Recycler#getViewForPosition(int)&lt;/a0&gt; is called, Recycler checks attached scrap and first level cache to find a matching View.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T161017Z" creationid="pingfangx" creationdate="20191103T161017Z">
+        <seg>当调用 &lt;a0&gt;Recycler#getViewForPosition(int)&lt;/a0&gt; 时，Recycler 会检查附加的废料和一级缓存以找到匹配的 view。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44000,6 +45880,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whether items in data set have unique identifiers or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030453Z" creationid="pingfangx" creationdate="20191104T030453Z">
+        <seg>数据集中的项是否具有唯一标识符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether or not this view is a heading for accessibility purposes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T043021Z" creationid="pingfangx" creationdate="20190614T043021Z">
@@ -44792,6 +46680,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can either create a new View manually or inflate it from an XML layout file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T024257Z" creationid="pingfangx" creationdate="20191104T024257Z">
+        <seg>可以手动创建新 View，也可以从一个 XML 布局文件中加载。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can either use the factory to create the views, or add them yourself.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T064555Z" creationid="pingfangx" creationdate="20190613T064555Z">
@@ -45328,10 +47224,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You should &lt;e0&gt;never&lt;/e0&gt; fix this issue by calling &lt;c1&gt;holder.itemView.setHasTransientState(false);&lt;/c1&gt; unless you've previously called &lt;c2&gt;holder.itemView.setHasTransientState(true);&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032248Z" creationid="pingfangx" creationdate="20191104T032222Z">
+        <seg>除非你以前调用过 &lt;c2&gt;holder.itemView.setHasTransientState(true);&lt;/c2&gt;，否则你 &lt;e0&gt;不应该&lt;/e0&gt; 通过调用 &lt;c1&gt;holder.itemView.setHasTransientState(false);&lt;/c1&gt; 来解决此问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You should add a listener via &lt;c0&gt;&lt;a1&gt;addOnTabSelectedListener(OnTabSelectedListener)&lt;/a1&gt;&lt;/c0&gt; to be notified when any tab's selection state has been changed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T063040Z" creationid="pingfangx" creationdate="20190613T063040Z">
         <seg>你应该通过 &lt;c0&gt;&lt;a1&gt;addOnTabSelectedListener(OnTabSelectedListener)&lt;/a1&gt;&lt;/c0&gt; 添加一个监听器，以便在任何选项卡的选择状态发生更改时得到通知。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should always prefer to end or cancel animations that are triggering the transient state instead of handling it manually.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032314Z" creationid="pingfangx" creationdate="20191104T032314Z">
+        <seg>你应该始终希望结束或取消触发瞬态的动画，而不是手动处理它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45528,6 +47440,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>a ViewHolder that can be re-used for this position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T112847Z" creationid="pingfangx" creationdate="20191103T160301Z">
+        <seg>可以被重用于该位置的 ViewHolder。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>a float value, representing a ratio between width and height</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -45556,6 +47476,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>"width:height" 形式的比例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>abort - we have a deadline we can't meet</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154129Z" creationid="pingfangx" creationdate="20191103T154129Z">
+        <seg>中止 - 我们有一个最后期限，我们不能满足</seg>
       </tuv>
     </tu>
     <tu>
@@ -45602,8 +47530,8 @@
       <tuv lang="EN-US">
         <seg>adapter position: Position of an item in the adapter.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T024316Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>adapter position（适配器位置）: item 在 adapter 中的位置。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T151341Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>adapter position (适配器位置): item 在 adapter 中的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47456,6 +49384,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>cached views should not be flagged as changed because this will cause them to animate when they are returned from cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160910Z" creationid="pingfangx" creationdate="20191103T160910Z">
+        <seg>缓存 view 不应标记为已更改，因为这将导致它们在从缓存返回时动画化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>childIndex points into presorted list, find original index</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T154641Z" creationid="pingfangx" creationdate="20191102T154641Z">
@@ -47568,6 +49504,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>do not update unless we absolutely have to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154305Z" creationid="pingfangx" creationdate="20191103T154305Z">
+        <seg>除非我们必须更新，否则不要更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>due to an app switch, ANR, or some other state change.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T143801Z" creationid="pingfangx" creationdate="20191102T143801Z">
@@ -47616,6 +49560,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>even if the holder is not removed, we still call this method so that it is removed from view holder lists.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155431Z" creationid="pingfangx" creationdate="20191103T155431Z">
+        <seg>即使没有移除 holder，我们仍然调用此方法，以便从 view holder 列表中移除它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>event</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190404T090711Z" creationid="pingfangx" creationdate="20190404T090711Z">
@@ -47632,10 +49584,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fallback to pool</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154050Z" creationid="pingfangx" creationdate="20191103T154050Z">
+        <seg>回退到池</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>file location:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T061804Z" creationid="pingfangx" creationdate="20181107T061804Z">
         <seg>文件位置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>find by id</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160125Z" creationid="pingfangx" creationdate="20191103T160125Z">
+        <seg>根据 id 找到</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>find by position</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160131Z" creationid="pingfangx" creationdate="20191103T160120Z">
+        <seg>根据位置找到</seg>
       </tuv>
     </tu>
     <tu>
@@ -47864,6 +49840,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if we are running animations, it is actually better to keep it in scrap but this would force layout manager to lay it out which would be bad.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160728Z" creationid="pingfangx" creationdate="20191103T160728Z">
+        <seg>如果我们正在运行动画，实际上最好是保持它在废料，但这将迫使布局管理器布局，这将是不好的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>inPurgeable is not supported.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180920T093733Z" creationid="pingfangx" creationdate="20180920T093733Z">
@@ -47900,6 +49884,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>int SP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>integer value identifying the type of the view needed to represent the item at                 &lt;c0&gt;position&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030348Z" creationid="pingfangx" creationdate="20191104T030348Z">
+        <seg>用于表示在 &lt;c0&gt;position&lt;/c0&gt; 处的项所需 View 的类型的整数值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>integer value identifying the type of the view needed to represent the item at &lt;c0&gt;position&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T032512Z" creationid="pingfangx" creationdate="20191104T032512Z">
+        <seg>用于表示在 &lt;c0&gt;position&lt;/c0&gt; 处的项所需 View 的类型的整数值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>internal implementation checks if view is scrapped or attached and throws an exception if so.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155208Z" creationid="pingfangx" creationdate="20191103T155208Z">
+        <seg>内部实现检查 view 是否被废弃或附加，如果是，则抛出异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>invalid view holders may be in cache if adapter has stable ids as they can be retrieved via getScrapOrCachedViewForId</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160444Z" creationid="pingfangx" creationdate="20191103T160444Z">
+        <seg>如果适配器具有可通过 getScrapOrCachedViewForId 获取的稳定 id，则缓存中可能存在无效的 view holder</seg>
       </tuv>
     </tu>
     <tu>
@@ -48386,8 +50402,8 @@
       <tuv lang="EN-US">
         <seg>layout position: Position of an item in the latest layout calculation.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T024306Z" creationid="pingfangx" creationdate="20180403T023507Z">
-        <seg>layout position（布局位置）: item 在最近的一次计算中的位置。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T151328Z" creationid="pingfangx" creationdate="20180403T023507Z">
+        <seg>layout position (布局位置): item 在最近的一次计算中的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48396,6 +50412,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T034108Z" creationid="pingfangx" creationdate="20190613T034108Z">
         <seg>布局资源文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>make sure we don't rebind &gt; item is removed then added to another position and we are in post layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T122347Z" creationid="pingfangx" creationdate="20191103T160615Z">
+        <seg>确保我们没有重新绑定。&gt; 项目被移除，然后添加到另一个位置，我们在 post 布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48412,6 +50436,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190612T072456Z" creationid="pingfangx" creationdate="20190612T072456Z">
         <seg>在 &lt;c0&gt;&lt;a1&gt;AutoCompleteTextView&lt;/a1&gt;&lt;/c0&gt; 上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>only bother finding nested RV if prefetching</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154209Z" creationid="pingfangx" creationdate="20191103T154209Z">
+        <seg>只有在预取时才麻烦查找嵌套的 RV</seg>
       </tuv>
     </tu>
     <tu>
@@ -48532,6 +50564,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180408T103545Z" creationid="pingfangx" creationdate="20180408T103545Z">
         <seg>如果尝试解码时出错，outWidth 将被设置为-1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>position to query</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030231Z" creationid="pingfangx" creationdate="20191104T030231Z">
+        <seg>要查询的位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -48768,6 +50808,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>recycle holder (and unscrap if relevant) since it can't be used</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T153500Z" creationid="pingfangx" creationdate="20191103T153500Z">
+        <seg>回收 holder(并且 unscrap 如果相关)，因为它不能使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>repeat the shader's image horizontally and vertically</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180427T094610Z" creationid="pingfangx" creationdate="20180427T094610Z">
@@ -48804,6 +50852,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T143912Z" creationid="pingfangx" creationdate="20191102T143912Z">
         <seg>恢复操作以防更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return as is.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T122431Z" creationid="pingfangx" creationdate="20191103T160524Z">
+        <seg>原样返回，</seg>
       </tuv>
     </tu>
     <tu>
@@ -48964,6 +51020,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T162408Z" creationid="pingfangx" creationdate="20191102T162408Z">
         <seg>如果我们还没有焦点，获取焦点，我们应该在接触模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the stable ID of the item at position</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T030602Z" creationid="pingfangx" creationdate="20191104T030602Z">
+        <seg>在位置处的项的稳定 ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>this might be valid in two cases: &gt; item is removed but we are in pre-layout pass &gt;&gt; do nothing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191104T122408Z" creationid="pingfangx" creationdate="20191103T160518Z">
+        <seg>这可能在两种情况下有效。&gt; 项被移除，但我们在预布局过程中。&gt;&gt; 不做任何操作，</seg>
       </tuv>
     </tu>
     <tu>
@@ -49160,6 +51232,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>update position</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T153612Z" creationid="pingfangx" creationdate="20191103T153612Z">
+        <seg>更新位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>value = {NAVIGATION_MODE_STANDARD, NAVIGATION_MODE_LIST, NAVIGATION_MODE_TABS})</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -49192,10 +51272,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>we cannot re-use cached views in this case.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160914Z" creationid="pingfangx" creationdate="20191103T160914Z">
+        <seg>在这种情况下，我们不能重用缓存 view。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>we need to force it to become invisible</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T154452Z" creationid="pingfangx" creationdate="20191103T154452Z">
+        <seg>我们需要强制它不可见</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>we would like to recycle this but need to make sure it is not used by animation logic etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T153535Z" creationid="pingfangx" creationdate="20191103T153535Z">
+        <seg>我们想回收这个，但需要确保它不是用于动画逻辑等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>website</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190412T014518Z" creationid="pingfangx" creationdate="20190412T014518Z">
         <seg>website</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>when adding the view, skip past most recently prefetched views</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T155321Z" creationid="pingfangx" creationdate="20191103T155321Z">
+        <seg>添加 view 时，跳过最近预取的 view</seg>
       </tuv>
     </tu>
     <tu>

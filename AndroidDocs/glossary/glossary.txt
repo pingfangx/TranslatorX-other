@@ -56,12 +56,14 @@ drawing	绘制	绘图|
 override	重写	覆盖|
 inset	内缩	插入|
 listener	监听器	侦听器|
-inflate	加载	膨胀,扩展|
+inflate	加载	膨胀,扩展,充气|
 children	子项	儿童,孩子,子级|
 child	子项	儿童,孩子,子级|
 weight	权重	重量|
 dispatch	分发	调度|
 accessibility	无障碍	可访问,可访问性,辅助功能|
+click	点击	单击|
+observer	观察者	观察员|
 
 # 不需要翻译的
 activity	activity	活动|
