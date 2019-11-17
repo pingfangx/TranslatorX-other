@@ -3,3 +3,5 @@ receiver	接收器	接收(方|者|机|程序)|
 intent	intent	意图|
 activity	activity	活动|
 permission	权限	许可|
+tag	标签	标记|
+inflate	加载	膨胀|
