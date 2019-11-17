@@ -1,0 +1,1080 @@
+<!doctype html>
+<html       lang="en"      dir="ltr">
+  <head>
+    <meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com">
+    <meta name="google-signin-scope" content="profile email">
+    <meta property="og:site_name" content="Android Developers">
+    <meta property="og:type" content="website">
+    
+          <meta name="theme-color" content="#3ddc84">
+    
+    <meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="/_pwa/android/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons">
+        <link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/android/css/app.css">
+    <noscript>
+      <link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/android/css/ce_bundle.css">
+    </noscript>
+    <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/android/images/favicon.png">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/android/images/touchicon-180.png"><link rel="canonical" href="https://developer.android.google.cn/guide/topics/graphics/view-animation">      
+<title>View Animation &nbsp;|&nbsp; Android Developers</title>
+
+<meta property="og:title" content="View Animation &nbsp;|&nbsp; Android Developers">
+  <meta name="description" content="You can use the view animation system to perform tweened animation on Views. Tween animation calculates the animation with information such as the start point, end point, size, rotation, and other common aspects of an animation. A tween animation can …">
+  <meta property="og:description" content="You can use the view animation system to perform tweened animation on Views. Tween animation calculates the animation with information such as the start point, end point, size, rotation, and other common aspects of an animation. A tween animation can …">
+
+
+  <meta property="og:url" content="https://developer.android.google.cn/guide/topics/graphics/view-animation">
+
+  <meta property="og:image" content="/images/android-developers.png">
+  <meta property="og:image:secure_url" content="/images/android-developers.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:locale" content="en">
+  <meta name="twitter:card" content="summary_large_image">
+
+
+
+
+  
+  
+  
+  
+  
+
+    </head>
+  <body type="article"
+        theme="android-theme"
+        class=""
+        
+        layout="docs"
+        block-apix                pending>
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+    <div class="devsite-wrapper"><devsite-header>
+      
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner">
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Close menu">
+        </button>
+        <div class="devsite-product-name-wrapper">
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo">
+  <img src="https://www.gstatic.cn/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/android/images/lockup.svg" class="devsite-site-logo" alt="Android Developers">
+</a>
+            <span class="devsite-product-name">
+            <ul class="devsite-breadcrumb-list">
+    <li class="devsite-breadcrumb-item
+             ">
+                              </li>
+  </ul>
+          </span>
+        
+</div>        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+                          <devsite-tabs class="upper-tabs">
+  <div class="devsite-tabs-wrapper">
+                  <tab  >
+          <a href="/about"
+   class="gc-analytics-event"
+   title="Platform"
+           data-category="Site-Wide Custom Events"
+        data-label="Tab: Platform"
+   >
+  Platform
+</a>
+
+        </tab>
+                        <tab  >
+          <a href="/studio"
+   class="gc-analytics-event"
+   title="Android Studio"
+           data-category="Site-Wide Custom Events"
+        data-label="Tab: Android Studio"
+   >
+  Android Studio
+</a>
+
+        </tab>
+                        <tab  >
+          <a href="/distribute"
+   class="gc-analytics-event"
+   title="Google Play"
+           data-category="Site-Wide Custom Events"
+        data-label="Tab: Google Play"
+   >
+  Google Play
+</a>
+
+        </tab>
+                        <tab  >
+          <a href="/jetpack"
+   class="gc-analytics-event"
+   title="Jetpack"
+           data-category="Site-Wide Custom Events"
+        data-label="Tab: Jetpack"
+   >
+  Jetpack
+</a>
+
+        </tab>
+                        <tab  >
+          <a href="/kotlin"
+   class="gc-analytics-event"
+   title="Kotlin"
+           data-category="Site-Wide Custom Events"
+        data-label="Tab: Kotlin"
+   >
+  Kotlin
+</a>
+
+        </tab>
+                        <tab  >
+          <a href="/docs"
+   class="gc-analytics-event"
+   title="Docs"
+           data-category="Site-Wide Custom Events"
+        data-label="Tab: Docs"
+   >
+  Docs
+</a>
+
+        </tab>
+                        <tab  >
+          <a href="/news"
+   class="gc-analytics-event"
+   title="News"
+           data-category="Site-Wide Custom Events"
+        data-label="Tab: News"
+   >
+  News
+</a>
+
+        </tab>
+            </div>
+</devsite-tabs>
+
+
+                       </div>
+          <devsite-search
+            enable-suggestions
+              project-name="Android Developers"    tenant-name="Android Developers"                >
+  <form class="devsite-search-form" action="https://developer.android.google.cn/s/results" method="GET">
+    <div class="devsite-search-container">
+      <div class="devsite-searchbox">
+                <input placeholder="搜索"
+          type="text"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          value=""
+          autocomplete="off"
+                    aria-label="搜索框">
+        <div class="devsite-search-image material-icons" aria-hidden="true"></div>
+      </div>
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              aria-label="Open search box"></button>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          aria-label="Close search box"></button>
+</devsite-search>
+
+        </div>
+
+        
+        <devsite-language-selector>
+  <devsite-select class="devsite-language-selector-menu">
+    <select class="devsite-language-selector-select"
+            name="language"
+            track-name="click"
+            track-type="languageSelector">
+              <option value="id"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="id"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Bahasa Indonesia
+      </option>
+          <option value="de"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="de"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Deutsch
+      </option>
+          <option value="en"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="en"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        English
+      </option>
+          <option value="es"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="es"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Español
+      </option>
+          <option value="es_419"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="es_419"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Español – América Latina
+      </option>
+          <option value="fr"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="fr"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Français
+      </option>
+          <option value="pt_br"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="pt_br"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Português – Brasil
+      </option>
+          <option value="vi"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="vi"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Tiếng Việt
+      </option>
+          <option value="tr"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="tr"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Türkçe
+      </option>
+          <option value="ru"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="ru"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Русский
+      </option>
+          <option value="th"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="th"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        ภาษาไทย
+      </option>
+          <option value="zh_cn"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="zh_cn"
+              track-name="changed"
+              track-type="languageSelector"
+                          selected="selected"
+            >
+        中文 – 简体
+      </option>
+          <option value="zh_tw"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="zh_tw"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        中文 – 繁體
+      </option>
+          <option value="ja"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="ja"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        日本語
+      </option>
+          <option value="ko"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="ko"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        한국어
+      </option>
+        </select>
+  </devsite-select>
+</devsite-language-selector>
+
+
+        
+              </div>    </div>  </div>
+  <div class="devsite-collapsible-section
+          devsite-header-no-lower-tabs
+    ">
+    <div class="devsite-header-background">
+                              </div>  </div></div>
+
+  </devsite-header>      <devsite-book-nav scrollbars hidden>
+                  
+
+
+
+
+<nav class="devsite-book-nav devsite-nav nocontent">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Close navigation">
+    </button>
+    <div class="devsite-product-name-wrapper">
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo">
+  <img src="https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/android/images/lockup.svg" class="devsite-site-logo" alt="Android Developers">
+</a>
+        <span class="devsite-product-name">
+        <ul class="devsite-breadcrumb-list">
+    <li class="devsite-breadcrumb-item
+             ">
+                              </li>
+  </ul>
+      </span>
+    
+</div>  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+              <ul class="devsite-nav-list">
+                      <li class="devsite-nav-item">
+                  <a href="/about"
+     class="devsite-nav-title gc-analytics-event
+                        "
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Platform">
+      <span class="devsite-nav-text" >Platform</span>
+        </a>
+  
+                                        </li>
+                      <li class="devsite-nav-item">
+                  <a href="/studio"
+     class="devsite-nav-title gc-analytics-event
+                        "
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Android Studio">
+      <span class="devsite-nav-text" >Android Studio</span>
+        </a>
+  
+                                        </li>
+                      <li class="devsite-nav-item">
+                  <a href="/distribute"
+     class="devsite-nav-title gc-analytics-event
+                        "
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Play">
+      <span class="devsite-nav-text" >Google Play</span>
+        </a>
+  
+                                        </li>
+                      <li class="devsite-nav-item">
+                  <a href="/jetpack"
+     class="devsite-nav-title gc-analytics-event
+                        "
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Jetpack">
+      <span class="devsite-nav-text" >Jetpack</span>
+        </a>
+  
+                                        </li>
+                      <li class="devsite-nav-item">
+                  <a href="/kotlin"
+     class="devsite-nav-title gc-analytics-event
+                        "
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Kotlin">
+      <span class="devsite-nav-text" >Kotlin</span>
+        </a>
+  
+                                        </li>
+                      <li class="devsite-nav-item">
+                  <a href="/docs"
+     class="devsite-nav-title gc-analytics-event
+                        "
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Docs">
+      <span class="devsite-nav-text" >Docs</span>
+        </a>
+  
+                                        </li>
+                      <li class="devsite-nav-item">
+                  <a href="/news"
+     class="devsite-nav-title gc-analytics-event
+                        "
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: News">
+      <span class="devsite-nav-text" >News</span>
+        </a>
+  
+                                        </li>
+                    
+        </ul>
+          </div>
+      </div>
+</nav>
+              </devsite-book-nav>
+      <div id="gc-wrapper">
+        <div class="devsite-main-content"
+                        has-toc>
+          <devsite-toc class="devsite-nav"
+            ></devsite-toc>
+          <devsite-content>
+                          
+
+<article class="devsite-article">
+  <article class="devsite-article-inner">        
+    <div class="devsite-article-meta">
+      <ul class="devsite-breadcrumb-list">
+    <li class="devsite-breadcrumb-item
+             ">
+                    <a href="/"              class="devsite-breadcrumb-link gc-analytics-event"
+              data-category="Site-Wide Custom Events"
+              data-label="Breadcrumbs"
+              data-value="1"
+          >
+            Android Developers
+      
+  </a>
+        </li>
+  </ul>
+               <devsite-page-rating position="header" selected-rating="0" hover-rating-star="0">
+         </devsite-page-rating>
+          </div>
+
+              <h1 class="devsite-page-title">View Animation</h1>
+    
+    <devsite-toc class="devsite-nav" devsite-toc-embedded >
+    </devsite-toc>
+
+    <div class="devsite-article-body clearfix
+      ">
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>You can use the view animation system to perform tweened animation on Views. Tween animation
+  calculates the animation with information such as the start point, end point, size, rotation, and
+  other common aspects of an animation.
+  </p>
+
+  <p>A tween animation can perform a series of simple transformations (position, size, rotation,
+  and transparency) on the contents of a View object. So, if you have a <code translate="no" dir="ltr"><a href="/reference/android/widget/TextView.html">TextView</a></code> object, you can move, rotate, grow, or shrink the text. If it has a
+  background image, the background image will be transformed along with the text. The <code translate="no" dir="ltr"><a href="/reference/android/view/animation/package-summary.html">animation package</a></code> provides all the classes used in a tween animation.</p>
+
+  <p>A sequence of animation instructions defines the tween animation, defined by either XML or
+  Android code. As with defining a layout, an XML file is recommended because it's more readable,
+  reusable, and swappable than hard-coding the animation. In the example below, we use XML. (To
+  learn more about defining an animation in your application code, instead of XML, refer to the
+  <code translate="no" dir="ltr"><a href="/reference/android/view/animation/AnimationSet.html">AnimationSet</a></code> class and other <code translate="no" dir="ltr"><a href="/reference/android/view/animation/Animation.html">Animation</a></code> subclasses.)</p>
+
+  <p>The animation instructions define the transformations that you want to occur, when they will
+  occur, and how long they should take to apply. Transformations can be sequential or simultaneous
+  - for example, you can have the contents of a TextView move from left to right, and then rotate
+  180 degrees, or you can have the text move and rotate simultaneously. Each transformation takes a
+  set of parameters specific for that transformation (starting size and ending size for size
+  change, starting angle and ending angle for rotation, and so on), and also a set of common
+  parameters (for instance, start time and duration). To make several transformations happen
+  simultaneously, give them the same start time; to make them sequential, calculate the start time
+  plus the duration of the preceding transformation.</p>
+
+  <p>The animation XML file belongs in the <code translate="no" dir="ltr">res/anim/</code> directory of your Android
+  project. The file must have a single root element: this will be either a single
+  <code translate="no" dir="ltr">&lt;alpha&gt;</code>, <code translate="no" dir="ltr">&lt;scale&gt;</code>, <code translate="no" dir="ltr">&lt;translate&gt;</code>,
+  <code translate="no" dir="ltr">&lt;rotate&gt;</code>, interpolator element, or <code translate="no" dir="ltr">&lt;set&gt;</code> element that holds
+  groups of these elements (which may include another <code translate="no" dir="ltr">&lt;set&gt;</code>). By default, all
+  animation instructions are applied simultaneously. To make them occur sequentially, you must
+  specify the <code translate="no" dir="ltr">startOffset</code> attribute, as shown in the example below.</p>
+
+  <p>The following XML from one of the ApiDemos is used to stretch, then simultaneously spin and
+  rotate a View object.</p>
+  <pre class="prettyprint lang-xml" translate="no" dir="ltr">
+&lt;set android:shareInterpolator="false"&gt;
+    &lt;scale
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:fromXScale="1.0"
+        android:toXScale="1.4"
+        android:fromYScale="1.0"
+        android:toYScale="0.6"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fillAfter="false"
+        android:duration="700" /&gt;
+    &lt;set android:interpolator="@android:anim/decelerate_interpolator"&gt;
+        &lt;scale
+           android:fromXScale="1.4"
+           android:toXScale="0.0"
+           android:fromYScale="0.6"
+           android:toYScale="0.0"
+           android:pivotX="50%"
+           android:pivotY="50%"
+           android:startOffset="700"
+           android:duration="400"
+           android:fillBefore="false" /&gt;
+        &lt;rotate
+           android:fromDegrees="0"
+           android:toDegrees="-45"
+           android:toYScale="0.0"
+           android:pivotX="50%"
+           android:pivotY="50%"
+           android:startOffset="700"
+           android:duration="400" /&gt;
+    &lt;/set&gt;
+&lt;/set&gt;
+</pre>
+
+  <p>Screen coordinates (not used in this example) are (0,0) at the upper left hand corner, and
+  increase as you go down and to the right.</p>
+
+  <p>Some values, such as pivotX, can be specified relative to the object itself or relative to the
+  parent. Be sure to use the proper format for what you want ("50" for 50% relative to the parent,
+  or "50%" for 50% relative to itself).</p>
+
+  <p>You can determine how a transformation is applied over time by assigning an <code translate="no" dir="ltr"><a href="/reference/android/view/animation/Interpolator.html">Interpolator</a></code>. Android includes several Interpolator subclasses that
+  specify various speed curves: for instance, <code translate="no" dir="ltr"><a href="/reference/android/view/animation/AccelerateInterpolator.html">AccelerateInterpolator</a></code>
+  tells a transformation to start slow and speed up. Each one has an attribute value that can be
+  applied in the XML.</p>
+
+  <p>With this XML saved as <code translate="no" dir="ltr">hyperspace_jump.xml</code> in the <code translate="no" dir="ltr">res/anim/</code>
+  directory of the project, the following code will reference it and apply it to an <code translate="no" dir="ltr"><a href="/reference/android/widget/ImageView.html">ImageView</a></code> object from the layout.</p>
+<div class="ds-selector-tabs"><section><h3 id="kotlin">Kotlin</h3>
+<pre class="prettyprint lang-kotlin" translate="no" dir="ltr">
+AnimationUtils.loadAnimation(this, R.anim.hyperspace_jump).also { hyperspaceJumpAnimation -&gt;
+    findViewById&lt;ImageView&gt;(R.id.spaceshipImage).startAnimation(hyperspaceJumpAnimation)
+}
+</pre>
+</section><section><h3 id="java">Java</h3>
+<pre class="prettyprint lang-java" translate="no" dir="ltr">
+ImageView spaceshipImage = (ImageView) findViewById(R.id.spaceshipImage);
+Animation hyperspaceJumpAnimation = AnimationUtils.loadAnimation(this, R.anim.hyperspace_jump);
+spaceshipImage.startAnimation(hyperspaceJumpAnimation);
+</pre>
+</section></div>
+
+  <p>As an alternative to <code translate="no" dir="ltr">startAnimation()</code>, you can define a starting time for the
+  animation with <code translate="no" dir="ltr"><code translate="no" dir="ltr"><a href="/reference/android/view/animation/Animation.html#setStartTime(long)">Animation.setStartTime()</a></code></code>, then assign the animation to the View with <code translate="no" dir="ltr"><code translate="no" dir="ltr"><a href="/reference/android/view/View.html#setAnimation(android.view.animation.Animation)">View.setAnimation()</a></code></code>.</p>
+
+  <p>For more information on the XML syntax, available tags and attributes, see <a href="/guide/topics/resources/animation-resource.html">Animation Resources</a>.</p>
+
+  <p class="note"><strong>Note:</strong> Regardless of how your animation may move or resize, the
+  bounds of the View that holds your animation will not automatically adjust to accommodate it.
+  Even so, the animation will still be drawn beyond the bounds of its View and will not be clipped.
+  However, clipping <em>will occur</em> if the animation exceeds the bounds of the parent View.</p>
+
+
+
+
+          </div>
+
+    
+                   <devsite-page-rating position="footer" selected-rating="0" hover-rating-star="0">
+         </devsite-page-rating>
+                   
+          </article>
+</article>
+
+<devsite-content-footer class="nocontent">
+  <p>Content and code samples on this page are subject to the licenses described in the <a href="/license">Content License</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+</devsite-content-footer>
+
+
+                      </devsite-content>
+        </div>
+        <devsite-footer-promos class="devsite-footer">
+                      <nav class="devsite-footer-promos nocontent">
+  <ul class="devsite-footer-promos-list">
+        <li class="devsite-footer-promo">
+      <a href="https://developers.google.cn/china/#follow-google-developers-on-wechat"
+          class="devsite-footer-promo-title gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+                              data-modal-toggle="wechat"
+                    data-label="Footer WeChat Promo"
+          >
+                        <img class="devsite-footer-promo-icon"
+             src="https://developer.android.google.cn/_static/android/images/logo-wechat.png"
+             alt="微信">
+                微信
+      </a>
+      <div class="devsite-footer-promo-description">在微信上关注“Google Developers”</div>
+    </li>
+        <li class="devsite-footer-promo">
+      <a href="https://twitter.com/AndroidDev"
+          class="devsite-footer-promo-title gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+                              data-label="Footer Twitter Promo"
+          >
+                        <img class="devsite-footer-promo-icon"
+             src="https://developer.android.google.cn/_static/android/images/logo-twitter.svg"
+             alt="Twitter">
+                Twitter
+      </a>
+      <div class="devsite-footer-promo-description">在 Twitter 上关注 @AndroidDev</div>
+    </li>
+        <li class="devsite-footer-promo">
+      <a href="https://www.youtube.com/user/androiddevelopers"
+          class="devsite-footer-promo-title gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+                              data-label="Footer YouTube Promo"
+          >
+                        <img class="devsite-footer-promo-icon"
+             src="https://www.gstatic.com/images/icons/material/product/2x/youtube_48dp.png"
+             alt="YouTube">
+                YouTube
+      </a>
+      <div class="devsite-footer-promo-description">在 YouTube 上访问“Android Developers”频道</div>
+    </li>
+      </ul>
+</nav>
+
+                  </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+                      <nav class="devsite-footer-linkboxes nocontent">
+    <ul class="devsite-footer-linkboxes-list">
+        <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading">关于 Android</h3>      <ul class="devsite-footer-linkbox-list">
+                <li class="devsite-footer-linkbox-item">
+          <a href="https://www.android.com/"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 1)"           >
+            Android
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="https://www.android.com/enterprise/"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 2)"           >
+            Enterprise
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="https://www.android.com/security-center/"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 3)"           >
+            安全
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="https://source.android.com/"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 4)"           >
+            源代码
+          </a>
+        </li>
+              </ul>
+    </li>
+        <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading">支持</h3>      <ul class="devsite-footer-linkbox-list">
+                <li class="devsite-footer-linkbox-item">
+          <a href="https://issuetracker.google.com/issues/new?component=190923&amp;template=841312"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 1)"           >
+            报告平台错误
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="https://issuetracker.google.com/issues/new?component=192697"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 2)"           >
+            报告文档错误
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="https://support.google.com/googleplay/android-developer"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 3)"           >
+            Google Play support
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="https://google.qualtrics.com/jfe/form/SV_ewWXIoEVLBcyp7f??reserved=1&amp;utm_source=FooterLink&amp;Q_Language=en&amp;utm_medium=own_srch&amp;utm_campaign=developer.android.com&amp;utm_term=0&amp;utm_content=0&amp;productTag=reg&amp;campaignDate=may19&amp;pType=devel&amp;referral_code=gV420370"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 4)"           >
+            参加调查研究
+          </a>
+        </li>
+              </ul>
+    </li>
+        <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading">文档</h3>      <ul class="devsite-footer-linkbox-list">
+                <li class="devsite-footer-linkbox-item">
+          <a href="/guide"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 1)"           >
+            开发者指南
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="/design"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 2)"           >
+            设计指南
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="/reference"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 3)"           >
+            API 参考
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="/samples"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 4)"           >
+            示例
+          </a>
+        </li>
+                <li class="devsite-footer-linkbox-item">
+          <a href="/studio/intro"
+             class="devsite-footer-linkbox-link
+                    gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+                        data-label="Footer Link (index 5)"           >
+            Android Studio
+          </a>
+        </li>
+              </ul>
+    </li>
+      </ul>
+  </nav>
+                  </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+                      
+<div class="devsite-footer-utility nocontent">
+    <nav class="devsite-footer-sites">
+    <a href="https://developers.google.cn/"
+       class="devsite-footer-sites-logo-link gc-analytics-event"
+       data-category="Site-Wide Custom Events"
+       data-label="Footer Google Developers Link">
+      <img class="devsite-footer-sites-logo"
+           src="https://developer.android.google.cn/_static/images/lockup-developers.svg"
+           alt="Google Developers">
+    </a>
+    <ul class="devsite-footer-sites-list">
+            <li class="devsite-footer-sites-item">
+        <a href="https://developer.android.google.cn"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+                    data-label="Footer Android Link"
+                  >
+          Android
+        </a>
+      </li>
+            <li class="devsite-footer-sites-item">
+        <a href="https://developer.chrome.com/home"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+                    data-label="Footer Chrome Link"
+                  >
+          Chrome
+        </a>
+      </li>
+            <li class="devsite-footer-sites-item">
+        <a href="https://firebase.google.cn"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+                    data-label="Footer Firebase Link"
+                  >
+          Firebase
+        </a>
+      </li>
+            <li class="devsite-footer-sites-item">
+        <a href="https://cloud.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+                    data-label="Footer Google Cloud Platform Link"
+                  >
+          Google Cloud Platform
+        </a>
+      </li>
+            <li class="devsite-footer-sites-item">
+        <a href="https://developers.google.cn/products/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+                    data-label="Footer All products Link"
+                  >
+          所有产品
+        </a>
+      </li>
+          </ul>
+  </nav>
+  
+  <nav class="devsite-footer-utility-links">
+        <ul class="devsite-footer-utility-list">
+            <li class="devsite-footer-utility-item
+                 ">
+                        <a class="devsite-footer-utility-link
+                  gc-analytics-event"
+           href="https://policies.google.cn/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link">
+          隐私权政策
+        </a>
+              </li>
+            <li class="devsite-footer-utility-item
+                 ">
+                        <a class="devsite-footer-utility-link
+                  gc-analytics-event"
+           href="/license"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer License link">
+          许可
+        </a>
+              </li>
+            <li class="devsite-footer-utility-item
+                 ">
+                        <a class="devsite-footer-utility-link
+                  gc-analytics-event"
+           href="/distribute/marketing-tools/brand-guidelines"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Brand guidelines link">
+          品牌指南
+        </a>
+              </li>
+            <li class="devsite-footer-utility-item
+                 devsite-footer-utility-button">
+                <span class="devsite-footer-utility-description">通过电子邮件接收资讯和提示</span>
+                        <a class="devsite-footer-utility-link
+                  gc-analytics-event"
+           href="/newsletter/#subscribe"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Subscribe link">
+          订阅
+        </a>
+              </li>
+          </ul>
+    
+    <devsite-language-selector>
+  <devsite-select class="devsite-language-selector-menu">
+    <select class="devsite-language-selector-select"
+            name="language"
+            track-name="click"
+            track-type="languageSelector">
+              <option value="id"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="id"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Bahasa Indonesia
+      </option>
+          <option value="de"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="de"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Deutsch
+      </option>
+          <option value="en"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="en"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        English
+      </option>
+          <option value="es"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="es"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Español
+      </option>
+          <option value="es_419"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="es_419"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Español – América Latina
+      </option>
+          <option value="fr"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="fr"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Français
+      </option>
+          <option value="pt_br"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="pt_br"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Português – Brasil
+      </option>
+          <option value="vi"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="vi"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Tiếng Việt
+      </option>
+          <option value="tr"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="tr"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Türkçe
+      </option>
+          <option value="ru"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="ru"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        Русский
+      </option>
+          <option value="th"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="th"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        ภาษาไทย
+      </option>
+          <option value="zh_cn"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="zh_cn"
+              track-name="changed"
+              track-type="languageSelector"
+                          selected="selected"
+            >
+        中文 – 简体
+      </option>
+          <option value="zh_tw"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="zh_tw"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        中文 – 繁體
+      </option>
+          <option value="ja"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="ja"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        日本語
+      </option>
+          <option value="ko"
+              track-metadata-original-language="zh_cn"
+              track-metadata-selected-language="ko"
+              track-name="changed"
+              track-type="languageSelector"
+            >
+        한국어
+      </option>
+        </select>
+  </devsite-select>
+</devsite-language-selector>
+
+  </nav>
+</div>
+                  </devsite-footer-utility>
+      </div></div>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar                    data-cookie-policy="https://policies.google.cn/technologies/cookies"
+                  ></devsite-snackbar>
+    <devsite-tooltip blocked-link></devsite-tooltip>
+    <devsite-analytics>
+              <script type="application/json" analytics>[{"metrics": {"ratings_value": "metric1", "ratings_count": "metric2"}, "dimensions": {"dimension6": "en", "dimension4": "Android Developers", "dimension5": "zh-cn", "dimension3": false, "dimension1": "Signed out"}, "gaid": "UA-5831155-3"}]</script>
+<script type="application/json" gtm>["GTM-KMSWPCJ"]</script>
+          </devsite-analytics>
+        <script>
+    (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/js/app_loader.js', '[3,"zh_cn",null,"/js/devsite_app.js","https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528","https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/android","https://android-dot-google-developers.gonglchuangl.net",null,null,["/_pwa/android/manifest.json","/_static/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/android/images/favicon.png","https://www.gstatic.com/devrel-devsite/v0bcab1972c3b1579b82e221c810ad3eb061cbd75c8520328bda82087ceb07528/android/images/lockup.svg","https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"]]')
+  </script>  </body>
+</html>

@@ -5,3 +5,5 @@ activity	activity	活动|
 permission	权限	许可|
 tag	标签	标记|
 inflate	加载	膨胀|
+transition	过渡	转换,转换|官方指南翻译为过渡
+Interpolator	插值器	内插器|
