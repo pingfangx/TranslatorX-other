@@ -2101,8 +2101,8 @@
       <tuv lang="EN-US">
         <seg>Both paths must be compatible for morphing: they must have the same number of commands and the same number of parameters for each command.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191117T114329Z" creationid="pingfangx" creationdate="20191117T114329Z">
-        <seg>这两条路径对于变形必须兼容：它们必须具有相同数量的命令和每个命令相同数量的参数。</seg>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191117T182846Z" creationid="pingfangx" creationdate="20191117T114329Z">
+        <seg>这两条路径对于变形必须是兼容的：它们必须具有相同数量的命令，且每个命令的参数数量相同。</seg>
       </tuv>
     </tu>
     <tu>

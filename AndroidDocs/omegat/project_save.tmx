@@ -7063,6 +7063,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A resource identifier of a style resource that supplies default values for the view, used only if defStyleAttr is 0 or can not be found in the theme.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T104229Z" creationid="pingfangx" creationdate="20191118T104229Z">
+        <seg>为 view 提供默认值的样式资源的资源标识符，仅在 defStyleAttr 为 0 或在主题中找不到时使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A scrim may be used to indicate that the other elements beneath it are not currently interactive or actionable, drawing user focus and attention to the views above the scrim.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190513T024336Z" creationid="pingfangx" creationdate="20190513T024336Z">
@@ -8823,6 +8831,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An attribute in the current theme that contains a reference to a style resource that supplies default values for the view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T104157Z" creationid="pingfangx" creationdate="20191118T104157Z">
+        <seg>当前主题中的一个属性，包含对样式资源的引用，该样式资源为 view 提供默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An easy way to do this is with an XML drawable "selector." For example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190611T083020Z" creationid="pingfangx" creationdate="20190611T083020Z">
@@ -9291,6 +9307,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T020910Z" creationid="pingfangx" creationdate="20190614T020910Z">
         <seg>添加到此 view 组的任何 &lt;c0&gt;&lt;a1&gt;MaterialButton&lt;/a1&gt;&lt;/c0&gt; 将自动标记为 &lt;c2&gt;checkable&lt;/c2&gt;，默认情况下，可以选中同一组中的多个按钮。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any attribute values in the given AttributeSet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103536Z" creationid="pingfangx" creationdate="20191118T103536Z">
+        <seg>在给定的 AttributeSet 的任何属性值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11843,6 +11867,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191102T164013Z" creationid="pingfangx" creationdate="20191102T164013Z">
         <seg>调用此 view 的 OnLongClickListener(如果已定义)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Can be 0 to not look for defaults.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T104202Z" creationid="pingfangx" creationdate="20191118T104202Z">
+        <seg>可以为 0 以不查找默认值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16091,6 +16123,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190614T023411Z" creationid="pingfangx" creationdate="20190614T023411Z">
         <seg>如此定义的每个边距可以通过对适当布局参数的赋值独立地覆盖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each of these inputs is considered in-order, with the first listed taking precedence over the following ones.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103808Z" creationid="pingfangx" creationdate="20191118T103808Z">
+        <seg>每个输入都是按顺序考虑的，第一个列出的输入优先于下面的输入。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22503,6 +22543,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In other words, if in the AttributeSet you have supplied &lt;c0&gt;&lt;Button * textColor="#ff000000"&gt;&lt;/c0&gt; , then the button's text will &lt;e1&gt;always&lt;/e1&gt; be black, regardless of what is specified in any of the styles.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103836Z" creationid="pingfangx" creationdate="20191118T103836Z">
+        <seg>换句话说，如果在 AttributeSet 中提供了 &lt;c0&gt;&lt;Button * textColor="#ff000000"&gt;&lt;/c0&gt;，则无论在任何样式中指定了什么，按钮的文本都将 &lt;e1&gt;始终&lt;/e1&gt; 是黑色的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In other words, it provides consistency for the real-world sizes of your UI elements across different devices.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181107T065450Z" creationid="pingfangx" creationdate="20181107T065450Z">
@@ -27479,6 +27527,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Perform inflation from XML and apply a class-specific base style from a theme attribute or style resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103500Z" creationid="pingfangx" creationdate="20191118T103500Z">
+        <seg>从 XML 执行加载，并从主题属性或样式资源应用特定于类的基样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Performance issues can arise during creation of the app and creation of the activity.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180925T072710Z" creationid="pingfangx" creationdate="20180925T072710Z">
@@ -28505,7 +28561,7 @@
       <tuv lang="EN-US">
         <seg>Remove a previously scrapped view from the pool of eligible scrap.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191103T160046Z" creationid="pingfangx" creationdate="20191103T160046Z">
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191120T134651Z" creationid="pingfangx" creationdate="20191103T160046Z">
         <seg>从符合条件的废料池中移除之前废弃的 view。</seg>
       </tuv>
     </tu>
@@ -34951,6 +35007,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Context the view is running in, through which it can access the current theme, resources, etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T104118Z" creationid="pingfangx" creationdate="20191118T104118Z">
+        <seg>view 正在运行的上下文，通过它可以访问当前主题、资源等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The CustomView sample in the &lt;a0&gt;API Demos&lt;/a0&gt; provides an example of a customized View.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -35359,6 +35423,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The attributes of the XML tag that is inflating the view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T104130Z" creationid="pingfangx" creationdate="20191118T104130Z">
+        <seg>正在加载 view 的 XML 标记的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The available properties and the methods that set them will vary among the different subclasses of views.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -35443,6 +35515,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>实现测量的基本类默认是背景的大小，除非 MeasureSpec 允许一个更大的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The base values in this theme.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103752Z" creationid="pingfangx" creationdate="20191118T103752Z">
+        <seg>此主题中的基值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36067,6 +36147,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190613T100323Z" creationid="pingfangx" creationdate="20190613T100323Z">
         <seg>此 view 的默认样式为 &lt;c0&gt;&lt;a1&gt;R.style.Widget_FragmentBreadCrumbs&lt;/a1&gt;&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default style specified by &lt;v0&gt;defStyleAttr&lt;/v0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103721Z" creationid="pingfangx" creationdate="20191118T103721Z">
+        <seg>由 &lt;v0&gt;defStyleAttr&lt;/v0&gt; 指定的默认样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default style specified by &lt;v0&gt;defStyleRes&lt;/v0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103732Z" creationid="pingfangx" creationdate="20191118T103732Z">
+        <seg>由 &lt;v0&gt;defStyleRes&lt;/v0&gt; 指定的默认样式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38319,6 +38415,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The style resource specified in the AttributeSet (named "style").</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103552Z" creationid="pingfangx" creationdate="20191118T103552Z">
+        <seg>AttributeSet 中指定的样式资源(名为“style”)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The subdirectory name for this value is contained in the &lt;c0&gt;path&lt;/c0&gt; attribute.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -40275,6 +40379,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20181205T042150Z" creationid="pingfangx" creationdate="20181205T042150Z">
         <seg>此构造函数允许布局编辑器创建和编辑 view 的实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This constructor of View allows subclasses to use their own base style when they are inflating.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103512Z" creationid="pingfangx" creationdate="20191118T103512Z">
+        <seg>View 的这个构造函数允许子类在加载时使用它们自己的基样式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44456,6 +44568,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>View - Android SDK | Android Developers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191120T134644Z" creationid="pingfangx" creationdate="20191120T134644Z">
+        <seg>从符合条件的废料池中移View - Android SDK | Android Developers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>View IDs need not be unique throughout the tree, but it is good practice to ensure that they are at least unique within the part of the tree you are searching.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
@@ -45140,6 +45260,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="pingfangx" changedate="20180403T023507Z" creationid="pingfangx" creationdate="20180403T023507Z">
         <seg>在修饰一个方法时，指示该方法可以合理地返回 null 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When determining the final value of a particular attribute, there are four inputs that come into play:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20191118T103525Z" creationid="pingfangx" creationdate="20191118T103525Z">
+        <seg>在确定特定属性的最终值时，有四个输入会起作用：</seg>
       </tuv>
     </tu>
     <tu>
