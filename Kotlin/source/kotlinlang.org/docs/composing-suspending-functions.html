@@ -1,0 +1,214 @@
+<html lang="en-US" data-colors-preset="contrast" data-primary-color="#307FFF"><!--
+* PyWebCopy Engine [version 7.0.1]
+* Copyright 2020; Raja Tomar
+* File mirrored from [https://kotlinlang.org/docs/composing-suspending-functions.html]
+* At UTC datetime: [2022-04-07 08:44:39.264432]
+--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8">  <meta name="built-on" content="2022-04-06T17:37:57.754102"><meta name="build-number" content="345">   <link rel="canonical" href="./composing-suspending-functions.html" data-react-helmet="true">   <meta name="keywords" content="">   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5P98');</script><script src="static/v3/analytics.js"></script>  <title>Composing suspending functions | Kotlin</title>   <link href="static/v3/app.css" rel="stylesheet">   
+        
+<link rel="icon" href="../assets/images/favicon_v2.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../assets/images/favicon_v2.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/images/apple-touch-icon_v2.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/images/apple-touch-icon-72x72_v2.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../assets/images/apple-touch-icon-114x114_v2.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../assets/images/apple-touch-icon-144x144_v2.png">
+        
+          <meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Composing suspending functions | Kotlin"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Kotlin Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://kotlinlang.org/docs/composing-suspending-functions.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Composing suspending functions | Kotlin"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebPage", "@id": "https://kotlinlang.org/docs/composing-suspending-functions.html#webpage", "url": "https://kotlinlang.org/docs/composing-suspending-functions.html", "name": "Composing suspending functions | Kotlin", "description": "", "image": "", "inLanguage":"en-US" }</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json"> { "@type": "WebSite", "@id": "https://kotlinlang.org/docs#website", "url": "https://kotlinlang.org/docs", "name": "Kotlin Help" }</script><!-- End Schema.org --></head>    <body data-id="composing-suspending-functions" data-main-title="Composing suspending functions" data-article-props='{"seeAlsoStyle":"links"}' data-template="article" data-breadcrumbs="Official libraries///Coroutines (kotlinx.coroutines)" data-edit-url="https://github.com/Kotlin/kotlinx.coroutines/edit/master/docs/topics/composing-suspending-functions.md">  <div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Kotlin  Help</h3><div class="shortcuts-switcher"><label for="switch-shortcuts">Keymap:</label><select class="select _shortcuts" height="1" id="switch-shortcuts">  </select></div><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="composing-suspending-functions" id="composing-suspending-functions.md">Composing suspending functions</h1><p id="f400e4b9">This section covers various approaches to composition of suspending functions.</p><section class="chapter"><h2 id="sequential-by-default" data-toc="composing-suspending-functions#sequential-by-default">Sequential by default</h2><p id="c7c7ee10">Assume that we have two suspending functions defined elsewhere that do something useful like some kind of remote service call or computation. We just pretend they are useful, but actually each one just delays for a second for the purpose of this example:</p><div class="code-block" data-lang="kotlin">suspend fun doSomethingUsefulOne(): Int {
+    delay(1000L) // pretend we are doing something useful here
+    return 13
+}
+
+suspend fun doSomethingUsefulTwo(): Int {
+    delay(1000L) // pretend we are doing something useful here, too
+    return 29
+}
+</div><p id="9e304478">What do we do if we need them to be invoked <em id="d51f17f0" class="">sequentially</em> &#8212; first <code class="code ">doSomethingUsefulOne</code> <em id="332be43d" class="">and then</em> <code class="code ">doSomethingUsefulTwo</code>, and compute the sum of their results? In practice, we do this if we use the result of the first function to make a decision on whether we need to invoke the second one or to decide on how to invoke it.</p><p id="5c66dbaf">We use a normal sequential invocation, because the code in the coroutine, just like in the regular code, is <em id="f9fa1d30" class="">sequential</em> by default. The following example demonstrates it by measuring the total time it takes to execute both suspending functions:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlin.system.*
+
+fun main() = runBlocking&lt;Unit&gt; {
+//sampleStart
+    val time = measureTimeMillis {
+        val one = doSomethingUsefulOne()
+        val two = doSomethingUsefulTwo()
+        println("The answer is ${one + two}")
+    }
+    println("Completed in $time ms")
+//sampleEnd    
+}
+
+suspend fun doSomethingUsefulOne(): Int {
+    delay(1000L) // pretend we are doing something useful here
+    return 13
+}
+
+suspend fun doSomethingUsefulTwo(): Int {
+    delay(1000L) // pretend we are doing something useful here, too
+    return 29
+}
+</div><aside data-type="note" class="prompt" data-title="" id="5758204e"><p id="8d8332b5">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-compose-01.kt" id="a4b42582" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="a6107bc0">It produces something like this:</p><div class="code-block" data-lang="plaintext">The answer is 42
+Completed in 2017 ms
+</div></section><section class="chapter"><h2 id="concurrent-using-async" data-toc="composing-suspending-functions#concurrent-using-async">Concurrent using async</h2><p id="d9d5453b">What if there are no dependencies between invocations of <code class="code ">doSomethingUsefulOne</code> and <code class="code ">doSomethingUsefulTwo</code> and we want to get the answer faster, by doing both <em id="f980d72f" class="">concurrently</em>? This is where <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/async.html" id="2cc6c906" data-external="true" rel="noopener noreferrer">async</a> comes to help.</p><p id="b8fd1202">Conceptually, <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/async.html" id="26e2f580" data-external="true" rel="noopener noreferrer">async</a> is just like <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/launch.html" id="de239261" data-external="true" rel="noopener noreferrer">launch</a>. It starts a separate coroutine which is a light-weight thread that works concurrently with all the other coroutines. The difference is that <code class="code ">launch</code> returns a <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/index.html" id="98d01b35" data-external="true" rel="noopener noreferrer">Job</a> and does not carry any resulting value, while <code class="code ">async</code> returns a <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-deferred/index.html" id="f49148e3" data-external="true" rel="noopener noreferrer">Deferred</a> &#8212; a light-weight non-blocking future that represents a promise to provide a result later. You can use <code class="code ">.await()</code> on a deferred value to get its eventual result, but <code class="code ">Deferred</code> is also a <code class="code ">Job</code>, so you can cancel it if needed.</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlin.system.*
+
+fun main() = runBlocking&lt;Unit&gt; {
+//sampleStart
+    val time = measureTimeMillis {
+        val one = async { doSomethingUsefulOne() }
+        val two = async { doSomethingUsefulTwo() }
+        println("The answer is ${one.await() + two.await()}")
+    }
+    println("Completed in $time ms")
+//sampleEnd    
+}
+
+suspend fun doSomethingUsefulOne(): Int {
+    delay(1000L) // pretend we are doing something useful here
+    return 13
+}
+
+suspend fun doSomethingUsefulTwo(): Int {
+    delay(1000L) // pretend we are doing something useful here, too
+    return 29
+}
+</div><aside data-type="note" class="prompt" data-title="" id="dc030cc1"><p id="8c8f6710">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-compose-02.kt" id="163e4406" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="47f15391">It produces something like this:</p><div class="code-block" data-lang="plaintext">The answer is 42
+Completed in 1017 ms
+</div><p id="b5fc57a">This is twice as fast, because the two coroutines execute concurrently. Note that concurrency with coroutines is always explicit.</p></section><section class="chapter"><h2 id="lazily-started-async" data-toc="composing-suspending-functions#lazily-started-async">Lazily started async</h2><p id="c5ea78df">Optionally, <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/async.html" id="47a4826d" data-external="true" rel="noopener noreferrer">async</a> can be made lazy by setting its <code class="code ">start</code> parameter to <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-start/-l-a-z-y/index.html" id="c42e1f1d" data-external="true" rel="noopener noreferrer">CoroutineStart.LAZY</a>. In this mode it only starts the coroutine when its result is required by <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-deferred/await.html" id="88a654a8" data-external="true" rel="noopener noreferrer">await</a>, or if its <code class="code ">Job</code>'s <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/start.html" id="62c8a53d" data-external="true" rel="noopener noreferrer">start</a> function is invoked. Run the following example:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlin.system.*
+
+fun main() = runBlocking&lt;Unit&gt; {
+//sampleStart
+    val time = measureTimeMillis {
+        val one = async(start = CoroutineStart.LAZY) { doSomethingUsefulOne() }
+        val two = async(start = CoroutineStart.LAZY) { doSomethingUsefulTwo() }
+        // some computation
+        one.start() // start the first one
+        two.start() // start the second one
+        println("The answer is ${one.await() + two.await()}")
+    }
+    println("Completed in $time ms")
+//sampleEnd    
+}
+
+suspend fun doSomethingUsefulOne(): Int {
+    delay(1000L) // pretend we are doing something useful here
+    return 13
+}
+
+suspend fun doSomethingUsefulTwo(): Int {
+    delay(1000L) // pretend we are doing something useful here, too
+    return 29
+}
+</div><aside data-type="note" class="prompt" data-title="" id="287cfa7c"><p id="8f1b230b">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-compose-03.kt" id="3a91b820" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="cc252503">It produces something like this:</p><div class="code-block" data-lang="plaintext">The answer is 42
+Completed in 1017 ms
+</div><p id="f91e564d">So, here the two coroutines are defined but not executed as in the previous example, but the control is given to the programmer on when exactly to start the execution by calling <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/start.html" id="7488265d" data-external="true" rel="noopener noreferrer">start</a>. We first start <code class="code ">one</code>, then start <code class="code ">two</code>, and then await for the individual coroutines to finish.</p><p id="90146e70">Note that if we just call <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-deferred/await.html" id="e40fefbb" data-external="true" rel="noopener noreferrer">await</a> in <code class="code ">println</code> without first calling <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/start.html" id="baa38acd" data-external="true" rel="noopener noreferrer">start</a> on individual coroutines, this will lead to sequential behavior, since <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-deferred/await.html" id="887e8ce6" data-external="true" rel="noopener noreferrer">await</a> starts the coroutine execution and waits for its finish, which is not the intended use-case for laziness. The use-case for <code class="code ">async(start = CoroutineStart.LAZY)</code> is a replacement for the standard <code class="code ">lazy</code> function in cases when computation of the value involves suspending functions.</p></section><section class="chapter"><h2 id="async-style-functions" data-toc="composing-suspending-functions#async-style-functions">Async-style functions</h2><p id="f590bd09">We can define async-style functions that invoke <code class="code ">doSomethingUsefulOne</code> and <code class="code ">doSomethingUsefulTwo</code> <em id="33e482df" class="">asynchronously</em> using the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/async.html" id="867ec19d" data-external="true" rel="noopener noreferrer">async</a> coroutine builder using a <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-global-scope/index.html" id="1851b937" data-external="true" rel="noopener noreferrer">GlobalScope</a> reference to opt-out of the structured concurrency. We name such functions with the "...Async" suffix to highlight the fact that they only start asynchronous computation and one needs to use the resulting deferred value to get the result.</p><aside data-type="note" class="prompt" data-title="" id="ce41dfc1"><p id="aae33e77"><a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-global-scope/index.html" id="2947daae" data-external="true" rel="noopener noreferrer">GlobalScope</a> is a delicate API that can backfire in non-trivial ways, one of which will be explained below, so you must explicitly opt-in into using <code class="code ">GlobalScope</code> with <code class="code ">@OptIn(DelicateCoroutinesApi::class)</code>.</p></aside><div class="code-block" data-lang="kotlin">// The result type of somethingUsefulOneAsync is Deferred&lt;Int&gt;
+@OptIn(DelicateCoroutinesApi::class)
+fun somethingUsefulOneAsync() = GlobalScope.async {
+    doSomethingUsefulOne()
+}
+
+// The result type of somethingUsefulTwoAsync is Deferred&lt;Int&gt;
+@OptIn(DelicateCoroutinesApi::class)
+fun somethingUsefulTwoAsync() = GlobalScope.async {
+    doSomethingUsefulTwo()
+}
+</div><p id="2e5bca77">Note that these <code class="code ">xxxAsync</code> functions are <b id="52d2e56" class="">not</b> <em id="76511f68" class="">suspending</em> functions. They can be used from anywhere. However, their use always implies asynchronous (here meaning <em id="a150060e" class="">concurrent</em>) execution of their action with the invoking code.</p><p id="eb1ccc2c">The following example shows their use outside of coroutine:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlin.system.*
+
+//sampleStart
+// note that we don't have `runBlocking` to the right of `main` in this example
+fun main() {
+    val time = measureTimeMillis {
+        // we can initiate async actions outside of a coroutine
+        val one = somethingUsefulOneAsync()
+        val two = somethingUsefulTwoAsync()
+        // but waiting for a result must involve either suspending or blocking.
+        // here we use `runBlocking { ... }` to block the main thread while waiting for the result
+        runBlocking {
+            println("The answer is ${one.await() + two.await()}")
+        }
+    }
+    println("Completed in $time ms")
+}
+//sampleEnd
+
+@OptIn(DelicateCoroutinesApi::class)
+fun somethingUsefulOneAsync() = GlobalScope.async {
+    doSomethingUsefulOne()
+}
+
+@OptIn(DelicateCoroutinesApi::class)
+fun somethingUsefulTwoAsync() = GlobalScope.async {
+    doSomethingUsefulTwo()
+}
+
+suspend fun doSomethingUsefulOne(): Int {
+    delay(1000L) // pretend we are doing something useful here
+    return 13
+}
+
+suspend fun doSomethingUsefulTwo(): Int {
+    delay(1000L) // pretend we are doing something useful here, too
+    return 29
+}
+</div><aside data-type="note" class="prompt" data-title="" id="d33509fb"><p id="1d2a495b">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-compose-04.kt" id="d4112e48" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><aside data-type="note" class="prompt" data-title="" id="ff80c096"><p id="c8cb7162">This programming style with async functions is provided here only for illustration, because it is a popular style in other programming languages. Using this style with Kotlin coroutines is <b id="c7b56b85" class="">strongly discouraged</b> for the reasons explained below.</p></aside><p id="c75599c7">Consider what happens if between the <code class="code ">val one = somethingUsefulOneAsync()</code> line and <code class="code ">one.await()</code> expression there is some logic error in the code, and the program throws an exception, and the operation that was being performed by the program aborts. Normally, a global error-handler could catch this exception, log and report the error for developers, but the program could otherwise continue doing other operations. However, here we have <code class="code ">somethingUsefulOneAsync</code> still running in the background, even though the operation that initiated it was aborted. This problem does not happen with structured concurrency, as shown in the section below.</p></section><section class="chapter"><h2 id="structured-concurrency-with-async" data-toc="composing-suspending-functions#structured-concurrency-with-async">Structured concurrency with async</h2><p id="d517848d">Let us take the <a href="https://kotlinlang.org/docs/composing-suspending-functions.html#concurrent-using-async" id="4212c9ba">Concurrent using async</a> example and extract a function that concurrently performs <code class="code ">doSomethingUsefulOne</code> and <code class="code ">doSomethingUsefulTwo</code> and returns the sum of their results. Because the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/async.html" id="be56f78b" data-external="true" rel="noopener noreferrer">async</a> coroutine builder is defined as an extension on <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope/index.html" id="de44bfbc" data-external="true" rel="noopener noreferrer">CoroutineScope</a>, we need to have it in the scope and that is what the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html" id="a7d19065" data-external="true" rel="noopener noreferrer">coroutineScope</a> function provides:</p><div class="code-block" data-lang="kotlin">suspend fun concurrentSum(): Int = coroutineScope {
+    val one = async { doSomethingUsefulOne() }
+    val two = async { doSomethingUsefulTwo() }
+    one.await() + two.await()
+}
+</div><p id="599b82cf">This way, if something goes wrong inside the code of the <code class="code ">concurrentSum</code> function, and it throws an exception, all the coroutines that were launched in its scope will be cancelled.</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlin.system.*
+
+fun main() = runBlocking&lt;Unit&gt; {
+//sampleStart
+    val time = measureTimeMillis {
+        println("The answer is ${concurrentSum()}")
+    }
+    println("Completed in $time ms")
+//sampleEnd    
+}
+
+suspend fun concurrentSum(): Int = coroutineScope {
+    val one = async { doSomethingUsefulOne() }
+    val two = async { doSomethingUsefulTwo() }
+    one.await() + two.await()
+}
+
+suspend fun doSomethingUsefulOne(): Int {
+    delay(1000L) // pretend we are doing something useful here
+    return 13
+}
+
+suspend fun doSomethingUsefulTwo(): Int {
+    delay(1000L) // pretend we are doing something useful here, too
+    return 29
+}
+</div><aside data-type="note" class="prompt" data-title="" id="f7f72239"><p id="a570b023">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-compose-05.kt" id="dbdbe5f7" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="81975c27">We still have concurrent execution of both operations, as evident from the output of the above <code class="code ">main</code> function:</p><div class="code-block" data-lang="plaintext">The answer is 42
+Completed in 1017 ms
+</div><p id="945c48a2">Cancellation is always propagated through coroutines hierarchy:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+fun main() = runBlocking&lt;Unit&gt; {
+    try {
+        failedConcurrentSum()
+    } catch(e: ArithmeticException) {
+        println("Computation failed with ArithmeticException")
+    }
+}
+
+suspend fun failedConcurrentSum(): Int = coroutineScope {
+    val one = async&lt;Int&gt; { 
+        try {
+            delay(Long.MAX_VALUE) // Emulates very long computation
+            42
+        } finally {
+            println("First child was cancelled")
+        }
+    }
+    val two = async&lt;Int&gt; { 
+        println("Second child throws an exception")
+        throw ArithmeticException()
+    }
+    one.await() + two.await()
+}
+</div><aside data-type="note" class="prompt" data-title="" id="7b013f9e"><p id="de338e62">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-compose-06.kt" id="d8a54c4d" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="6e02d607">Note how both the first <code class="code ">async</code> and the awaiting parent are cancelled on failure of one of the children (namely, <code class="code ">two</code>):</p><div class="code-block" data-lang="plaintext">Second child throws an exception
+First child was cancelled
+Computation failed with ArithmeticException
+</div></section><div class="last-modified"> Last modified: 04 April 2022</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom">  <a class="navigation-links__prev" href="https://kotlinlang.org/docs/cancellation-and-timeouts.html">Cancellation and timeouts</a>   <a class="navigation-links__next" href="https://kotlinlang.org/docs/coroutine-context-and-dispatchers.html">Coroutine context and dispatchers</a>  </div></article>  </div></section></main></div>  <script src="static/v3/app.js"></script>  </body></html>

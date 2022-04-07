@@ -1,0 +1,112 @@
+<html lang="en-US" data-colors-preset="contrast" data-primary-color="#307FFF"><!--
+* PyWebCopy Engine [version 7.0.1]
+* Copyright 2020; Raja Tomar
+* File mirrored from [https://kotlinlang.org/docs/coroutines-basics.html]
+* At UTC datetime: [2022-04-07 08:41:55.300645]
+--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8">  <meta name="built-on" content="2022-04-06T17:37:57.570633"><meta name="build-number" content="345">   <link rel="canonical" href="./coroutines-basics.html" data-react-helmet="true">   <meta name="keywords" content="">   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5P98');</script><script src="static/v3/analytics.js"></script>  <title>Coroutines basics | Kotlin</title>   <link href="static/v3/app.css" rel="stylesheet">   
+        
+<link rel="icon" href="../assets/images/favicon_v2.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../assets/images/favicon_v2.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/images/apple-touch-icon_v2.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/images/apple-touch-icon-72x72_v2.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../assets/images/apple-touch-icon-114x114_v2.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../assets/images/apple-touch-icon-144x144_v2.png">
+        
+          <meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Coroutines basics | Kotlin"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Kotlin Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://kotlinlang.org/docs/coroutines-basics.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Coroutines basics | Kotlin"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebPage", "@id": "https://kotlinlang.org/docs/coroutines-basics.html#webpage", "url": "https://kotlinlang.org/docs/coroutines-basics.html", "name": "Coroutines basics | Kotlin", "description": "", "image": "", "inLanguage":"en-US" }</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json"> { "@type": "WebSite", "@id": "https://kotlinlang.org/docs#website", "url": "https://kotlinlang.org/docs", "name": "Kotlin Help" }</script><!-- End Schema.org --></head>    <body data-id="coroutines-basics" data-main-title="Coroutines basics" data-article-props='{"seeAlsoStyle":"links"}' data-template="article" data-breadcrumbs="Official libraries///Coroutines (kotlinx.coroutines)" data-edit-url="https://github.com/Kotlin/kotlinx.coroutines/edit/master/docs/topics/coroutines-basics.md">  <div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Kotlin  Help</h3><div class="shortcuts-switcher"><label for="switch-shortcuts">Keymap:</label><select class="select _shortcuts" height="1" id="switch-shortcuts">  </select></div><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="coroutines-basics" id="coroutines-basics.md">Coroutines basics</h1><p id="453f0475">This section covers basic coroutine concepts.</p><section class="chapter"><h2 id="your-first-coroutine" data-toc="coroutines-basics#your-first-coroutine">Your first coroutine</h2><p id="c370d7c">A <em id="2aae8472" class="">coroutine</em> is an instance of suspendable computation. It is conceptually similar to a thread, in the sense that it takes a block of code to run that works concurrently with the rest of the code. However, a coroutine is not bound to any particular thread. It may suspend its execution in one thread and resume in another one.</p><p id="695a50b3">Coroutines can be thought of as light-weight threads, but there is a number of important differences that make their real-life usage very different from threads.</p><p id="119683e1">Run the following code to get to your first working coroutine:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+//sampleStart
+fun main() = runBlocking { // this: CoroutineScope
+    launch { // launch a new coroutine and continue
+        delay(1000L) // non-blocking delay for 1 second (default time unit is ms)
+        println("World!") // print after delay
+    }
+    println("Hello") // main coroutine continues while a previous one is delayed
+}
+//sampleEnd
+</div><aside data-type="note" class="prompt" data-title="" id="1a324157"><p id="6424f9a1">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-basic-01.kt" id="3a5f7181" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="6b5d5845">You will see the following result:</p><div class="code-block" data-lang="plaintext">Hello
+World!
+</div><p id="390a7fc6">Let's dissect what this code does.</p><p id="fa0074b"><a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/launch.html" id="b0afc15e" data-external="true" rel="noopener noreferrer">launch</a> is a <em id="1e9a8b9d" class="">coroutine builder</em>. It launches a new coroutine concurrently with the rest of the code, which continues to work independently. That's why <code class="code ">Hello</code> has been printed first.</p><p id="9efea736"><a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/delay.html" id="8811a6d0" data-external="true" rel="noopener noreferrer">delay</a> is a special <em id="e03d202e" class="">suspending function</em>. It <em id="c7d6e242" class="">suspends</em> the coroutine for a specific time. Suspending a coroutine does not <em id="eb954f44" class="">block</em> the underlying thread, but allows other coroutines to run and use the underlying thread for their code.</p><p id="aa8411b1"><a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/run-blocking.html" id="9ab9bc98" data-external="true" rel="noopener noreferrer">runBlocking</a> is also a coroutine builder that bridges the non-coroutine world of a regular <code class="code ">fun main()</code> and the code with coroutines inside of <code class="code ">runBlocking { ... }</code> curly braces. This is highlighted in an IDE by <code class="code ">this: CoroutineScope</code> hint right after the <code class="code ">runBlocking</code> opening curly brace.</p><p id="a7b4bd36">If you remove or forget <code class="code ">runBlocking</code> in this code, you'll get an error on the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/launch.html" id="7572c270" data-external="true" rel="noopener noreferrer">launch</a> call, since <code class="code ">launch</code> is declared only in the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope/index.html" id="856c1632" data-external="true" rel="noopener noreferrer">CoroutineScope</a>:</p><div class="code-block" data-lang="none" data-disable-link-processing="true">Unresolved reference: launch
+</div><p id="2be266cf">The name of <code class="code ">runBlocking</code> means that the thread that runs it (in this case &#8212; the main thread) gets <em id="fac00082" class="">blocked</em> for the duration of the call, until all the coroutines inside <code class="code ">runBlocking { ... }</code> complete their execution. You will often see <code class="code ">runBlocking</code> used like that at the very top-level of the application and quite rarely inside the real code, as threads are expensive resources and blocking them is inefficient and is often not desired.</p><section class="chapter"><h3 id="structured-concurrency" data-toc="coroutines-basics#structured-concurrency">Structured concurrency</h3><p id="112800a8">Coroutines follow a principle of <b id="b9cfd407" class="">structured concurrency</b> which means that new coroutines can be only launched in a specific <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope/index.html" id="165ab309" data-external="true" rel="noopener noreferrer">CoroutineScope</a> which delimits the lifetime of the coroutine. The above example shows that <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/run-blocking.html" id="8145a984" data-external="true" rel="noopener noreferrer">runBlocking</a> establishes the corresponding scope and that is why the previous example waits until <code class="code ">World!</code> is printed after a second's delay and only then exits.</p><p id="b35a6ece">In a real application, you will be launching a lot of coroutines. Structured concurrency ensures that they are not lost and do not leak. An outer scope cannot complete until all its children coroutines complete. Structured concurrency also ensures that any errors in the code are properly reported and are never lost.</p></section></section><section class="chapter"><h2 id="extract-function-refactoring" data-toc="coroutines-basics#extract-function-refactoring">Extract function refactoring</h2><p id="a8ce349c">Let's extract the block of code inside <code class="code ">launch { ... }</code> into a separate function. When you perform "Extract function" refactoring on this code, you get a new function with the <code class="code ">suspend</code> modifier. This is your first <em id="54caf071" class="">suspending function</em>. Suspending functions can be used inside coroutines just like regular functions, but their additional feature is that they can, in turn, use other suspending functions (like <code class="code ">delay</code> in this example) to <em id="c4ed30e0" class="">suspend</em> execution of a coroutine.</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+//sampleStart
+fun main() = runBlocking { // this: CoroutineScope
+    launch { doWorld() }
+    println("Hello")
+}
+
+// this is your first suspending function
+suspend fun doWorld() {
+    delay(1000L)
+    println("World!")
+}
+//sampleEnd
+</div><aside data-type="note" class="prompt" data-title="" id="7b06abcd"><p id="4a809974">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-basic-02.kt" id="6a8d07b" data-external="true" rel="noopener noreferrer">here</a>.</p></aside></section><section class="chapter"><h2 id="scope-builder" data-toc="coroutines-basics#scope-builder">Scope builder</h2><p id="7f25d8d1">In addition to the coroutine scope provided by different builders, it is possible to declare your own scope using the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html" id="ba8ce32e" data-external="true" rel="noopener noreferrer">coroutineScope</a> builder. It creates a coroutine scope and does not complete until all launched children complete.</p><p id="d42879a6"><a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/run-blocking.html" id="abafad9f" data-external="true" rel="noopener noreferrer">runBlocking</a> and <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html" id="a95f1fe4" data-external="true" rel="noopener noreferrer">coroutineScope</a> builders may look similar because they both wait for their body and all its children to complete. The main difference is that the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/run-blocking.html" id="e990148f" data-external="true" rel="noopener noreferrer">runBlocking</a> method <em id="6bbd8ff9" class="">blocks</em> the current thread for waiting, while <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html" id="4f29e25c" data-external="true" rel="noopener noreferrer">coroutineScope</a> just suspends, releasing the underlying thread for other usages. Because of that difference, <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/run-blocking.html" id="88fdc31c" data-external="true" rel="noopener noreferrer">runBlocking</a> is a regular function and <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html" id="412d7ba" data-external="true" rel="noopener noreferrer">coroutineScope</a> is a suspending function.</p><p id="a8ca1934">You can use <code class="code ">coroutineScope</code> from any suspending function. For example, you can move the concurrent printing of <code class="code ">Hello</code> and <code class="code ">World</code> into a <code class="code ">suspend fun doWorld()</code> function:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+//sampleStart
+fun main() = runBlocking {
+    doWorld()
+}
+
+suspend fun doWorld() = coroutineScope {  // this: CoroutineScope
+    launch {
+        delay(1000L)
+        println("World!")
+    }
+    println("Hello")
+}
+//sampleEnd
+</div><aside data-type="note" class="prompt" data-title="" id="7f17c095"><p id="d9ad4c4c">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-basic-03.kt" id="ca017be0" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="f5f03a88">This code also prints:</p><div class="code-block" data-lang="plaintext">Hello
+World!
+</div></section><section class="chapter"><h2 id="scope-builder-and-concurrency" data-toc="coroutines-basics#scope-builder-and-concurrency">Scope builder and concurrency</h2><p id="ecbd301e">A <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html" id="846504b" data-external="true" rel="noopener noreferrer">coroutineScope</a> builder can be used inside any suspending function to perform multiple concurrent operations. Let's launch two concurrent coroutines inside a <code class="code ">doWorld</code> suspending function:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+//sampleStart
+// Sequentially executes doWorld followed by "Done"
+fun main() = runBlocking {
+    doWorld()
+    println("Done")
+}
+
+// Concurrently executes both sections
+suspend fun doWorld() = coroutineScope { // this: CoroutineScope
+    launch {
+        delay(2000L)
+        println("World 2")
+    }
+    launch {
+        delay(1000L)
+        println("World 1")
+    }
+    println("Hello")
+}
+//sampleEnd
+</div><aside data-type="note" class="prompt" data-title="" id="bf8aa2bc"><p id="54a744b0">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-basic-04.kt" id="6309ebef" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="82c161f5">Both pieces of code inside <code class="code ">launch { ... }</code> blocks execute <em id="356f5e12" class="">concurrently</em>, with <code class="code ">World 1</code> printed first, after a second from start, and <code class="code ">World 2</code> printed next, after two seconds from start. A <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html" id="963d1a03" data-external="true" rel="noopener noreferrer">coroutineScope</a> in <code class="code ">doWorld</code> completes only after both are complete, so <code class="code ">doWorld</code> returns and allows <code class="code ">Done</code> string to be printed only after that:</p><div class="code-block" data-lang="plaintext">Hello
+World 1
+World 2
+Done
+</div></section><section class="chapter"><h2 id="an-explicit-job" data-toc="coroutines-basics#an-explicit-job">An explicit job</h2><p id="9cc1256a">A <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/launch.html" id="a7111f76" data-external="true" rel="noopener noreferrer">launch</a> coroutine builder returns a <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/index.html" id="35ea5f53" data-external="true" rel="noopener noreferrer">Job</a> object that is a handle to the launched coroutine and can be used to explicitly wait for its completion. For example, you can wait for completion of the child coroutine and then print "Done" string:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+//sampleStart
+    val job = launch { // launch a new coroutine and keep a reference to its Job
+        delay(1000L)
+        println("World!")
+    }
+    println("Hello")
+    job.join() // wait until child coroutine completes
+    println("Done") 
+//sampleEnd    
+}
+</div><aside data-type="note" class="prompt" data-title="" id="a4638305"><p id="76b035e3">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-basic-05.kt" id="eb898eab" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="50dc544e">This code produces:</p><div class="code-block" data-lang="plaintext">Hello
+World!
+Done
+</div></section><section class="chapter"><h2 id="coroutines-are-light-weight" data-toc="coroutines-basics#coroutines-are-light-weight">Coroutines are light-weight</h2><p id="f10dfa04">Coroutines are less resource-intensive than JVM threads. Code that exhausts the JVM's available memory when using threads can be expressed using coroutines without hitting resource limits. For example, the following code launches 100000 distinct coroutines that each wait 5 seconds and then print a period ('.') while consuming very little memory:</p><div class="code-block" data-lang="kotlin">import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    repeat(100_000) { // launch a lot of coroutines
+        launch {
+            delay(5000L)
+            print(".")
+        }
+    }
+}
+</div><aside data-type="note" class="prompt" data-title="" id="7ad0b80f"><p id="a0a9dafc">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-basic-06.kt" id="58d1d42" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="847c7144">If you write the same program using threads (remove <code class="code ">runBlocking</code>, replace <code class="code ">launch</code> with <code class="code ">thread</code>, and replace <code class="code ">delay</code> with <code class="code ">Thread.sleep</code>), it will likely consume too much memory and throw an out-of-memory error.</p></section><div class="last-modified"> Last modified: 04 April 2022</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom">  <a class="navigation-links__prev" href="coroutines-guide.html">Coroutines guide</a>   <a class="navigation-links__next" href="cancellation-and-timeouts.html">Cancellation and timeouts</a>  </div></article>  </div></section></main></div>  <script src="static/v3/app.js"></script>  </body></html>

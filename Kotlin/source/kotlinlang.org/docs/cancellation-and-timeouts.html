@@ -1,0 +1,222 @@
+<html lang="en-US" data-colors-preset="contrast" data-primary-color="#307FFF"><!--
+* PyWebCopy Engine [version 7.0.1]
+* Copyright 2020; Raja Tomar
+* File mirrored from [https://kotlinlang.org/docs/cancellation-and-timeouts.html]
+* At UTC datetime: [2022-04-07 08:43:15.756326]
+--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8">  <meta name="built-on" content="2022-04-06T17:37:57.659504"><meta name="build-number" content="345">   <link rel="canonical" href="./cancellation-and-timeouts.html" data-react-helmet="true">   <meta name="keywords" content="">   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5P98');</script><script src="static/v3/analytics.js"></script>  <title>Cancellation and timeouts | Kotlin</title>   <link href="static/v3/app.css" rel="stylesheet">   
+        
+<link rel="icon" href="../assets/images/favicon_v2.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../assets/images/favicon_v2.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/images/apple-touch-icon_v2.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/images/apple-touch-icon-72x72_v2.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../assets/images/apple-touch-icon-114x114_v2.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../assets/images/apple-touch-icon-144x144_v2.png">
+        
+          <meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Cancellation and timeouts | Kotlin"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Kotlin Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://kotlinlang.org/docs/cancellation-and-timeouts.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Cancellation and timeouts | Kotlin"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebPage", "@id": "https://kotlinlang.org/docs/cancellation-and-timeouts.html#webpage", "url": "https://kotlinlang.org/docs/cancellation-and-timeouts.html", "name": "Cancellation and timeouts | Kotlin", "description": "", "image": "", "inLanguage":"en-US" }</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json"> { "@type": "WebSite", "@id": "https://kotlinlang.org/docs#website", "url": "https://kotlinlang.org/docs", "name": "Kotlin Help" }</script><!-- End Schema.org --></head>    <body data-id="cancellation-and-timeouts" data-main-title="Cancellation and timeouts" data-article-props='{"seeAlsoStyle":"links"}' data-template="article" data-breadcrumbs="Official libraries///Coroutines (kotlinx.coroutines)" data-edit-url="https://github.com/Kotlin/kotlinx.coroutines/edit/master/docs/topics/cancellation-and-timeouts.md">  <div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Kotlin  Help</h3><div class="shortcuts-switcher"><label for="switch-shortcuts">Keymap:</label><select class="select _shortcuts" height="1" id="switch-shortcuts">  </select></div><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="cancellation-and-timeouts" id="cancellation-and-timeouts.md">Cancellation and timeouts</h1><p id="c2875488">This section covers coroutine cancellation and timeouts.</p><section class="chapter"><h2 id="cancelling-coroutine-execution" data-toc="cancellation-and-timeouts#cancelling-coroutine-execution">Cancelling coroutine execution</h2><p id="f8590126">In a long-running application you might need fine-grained control on your background coroutines. For example, a user might have closed the page that launched a coroutine and now its result is no longer needed and its operation can be cancelled. The <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/launch.html" id="68111c50" data-external="true" rel="noopener noreferrer">launch</a> function returns a <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/index.html" id="c5083220" data-external="true" rel="noopener noreferrer">Job</a> that can be used to cancel the running coroutine:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+//sampleStart
+    val job = launch {
+        repeat(1000) { i -&gt;
+            println("job: I'm sleeping $i ...")
+            delay(500L)
+        }
+    }
+    delay(1300L) // delay a bit
+    println("main: I'm tired of waiting!")
+    job.cancel() // cancels the job
+    job.join() // waits for job's completion 
+    println("main: Now I can quit.")
+//sampleEnd    
+}
+</div><aside data-type="note" class="prompt" data-title="" id="6ea1a38d"><p id="ead695e5">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-cancel-01.kt" id="8979c4b8" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="f02da125">It produces the following output:</p><div class="code-block" data-lang="plaintext">job: I'm sleeping 0 ...
+job: I'm sleeping 1 ...
+job: I'm sleeping 2 ...
+main: I'm tired of waiting!
+main: Now I can quit.
+</div><p id="b645a5ea">As soon as main invokes <code class="code ">job.cancel</code>, we don't see any output from the other coroutine because it was cancelled. There is also a <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/index.html" id="2c16059b" data-external="true" rel="noopener noreferrer">Job</a> extension function <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/cancel-and-join.html" id="8d751ee9" data-external="true" rel="noopener noreferrer">cancelAndJoin</a> that combines <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/cancel.html" id="44312b29" data-external="true" rel="noopener noreferrer">cancel</a> and <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/join.html" id="a7dbc3bb" data-external="true" rel="noopener noreferrer">join</a> invocations.</p></section><section class="chapter"><h2 id="cancellation-is-cooperative" data-toc="cancellation-and-timeouts#cancellation-is-cooperative">Cancellation is cooperative</h2><p id="ddb37cbc">Coroutine cancellation is <em id="c944750d" class="">cooperative</em>. A coroutine code has to cooperate to be cancellable. All the suspending functions in <code class="code ">kotlinx.coroutines</code> are <em id="f8626aa4" class="">cancellable</em>. They check for cancellation of coroutine and throw <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-cancellation-exception/index.html" id="8ebd0865" data-external="true" rel="noopener noreferrer">CancellationException</a> when cancelled. However, if a coroutine is working in a computation and does not check for cancellation, then it cannot be cancelled, like the following example shows:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+//sampleStart
+    val startTime = System.currentTimeMillis()
+    val job = launch(Dispatchers.Default) {
+        var nextPrintTime = startTime
+        var i = 0
+        while (i &lt; 5) { // computation loop, just wastes CPU
+            // print a message twice a second
+            if (System.currentTimeMillis() &gt;= nextPrintTime) {
+                println("job: I'm sleeping ${i++} ...")
+                nextPrintTime += 500L
+            }
+        }
+    }
+    delay(1300L) // delay a bit
+    println("main: I'm tired of waiting!")
+    job.cancelAndJoin() // cancels the job and waits for its completion
+    println("main: Now I can quit.")
+//sampleEnd    
+}
+</div><aside data-type="note" class="prompt" data-title="" id="4325aa9b"><p id="130050e0">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-cancel-02.kt" id="803051f2" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="446c8253">Run it to see that it continues to print "I'm sleeping" even after cancellation until the job completes by itself after five iterations.</p></section><section class="chapter"><h2 id="making-computation-code-cancellable" data-toc="cancellation-and-timeouts#making-computation-code-cancellable">Making computation code cancellable</h2><p id="b7213054">There are two approaches to making computation code cancellable. The first one is to periodically invoke a suspending function that checks for cancellation. There is a <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/yield.html" id="ebbe97bf" data-external="true" rel="noopener noreferrer">yield</a> function that is a good choice for that purpose. The other one is to explicitly check the cancellation status. Let us try the latter approach.</p><p id="68feecd8">Replace <code class="code ">while (i &lt; 5)</code> in the previous example with <code class="code ">while (isActive)</code> and rerun it.</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+//sampleStart
+    val startTime = System.currentTimeMillis()
+    val job = launch(Dispatchers.Default) {
+        var nextPrintTime = startTime
+        var i = 0
+        while (isActive) { // cancellable computation loop
+            // print a message twice a second
+            if (System.currentTimeMillis() &gt;= nextPrintTime) {
+                println("job: I'm sleeping ${i++} ...")
+                nextPrintTime += 500L
+            }
+        }
+    }
+    delay(1300L) // delay a bit
+    println("main: I'm tired of waiting!")
+    job.cancelAndJoin() // cancels the job and waits for its completion
+    println("main: Now I can quit.")
+//sampleEnd    
+}
+</div><aside data-type="note" class="prompt" data-title="" id="d990a882"><p id="c2baa7e1">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-cancel-03.kt" id="306a73ba" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="2b98d91">As you can see, now this loop is cancelled. <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/is-active.html" id="9b63147f" data-external="true" rel="noopener noreferrer">isActive</a> is an extension property available inside the coroutine via the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope/index.html" id="f663cb45" data-external="true" rel="noopener noreferrer">CoroutineScope</a> object.</p></section><section class="chapter"><h2 id="closing-resources-with-finally" data-toc="cancellation-and-timeouts#closing-resources-with-finally">Closing resources with finally</h2><p id="e8273208">Cancellable suspending functions throw <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-cancellation-exception/index.html" id="73bca6ee" data-external="true" rel="noopener noreferrer">CancellationException</a> on cancellation which can be handled in the usual way. For example, <code class="code ">try {...} finally {...}</code> expression and Kotlin <code class="code ">use</code> function execute their finalization actions normally when a coroutine is cancelled:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+//sampleStart
+    val job = launch {
+        try {
+            repeat(1000) { i -&gt;
+                println("job: I'm sleeping $i ...")
+                delay(500L)
+            }
+        } finally {
+            println("job: I'm running finally")
+        }
+    }
+    delay(1300L) // delay a bit
+    println("main: I'm tired of waiting!")
+    job.cancelAndJoin() // cancels the job and waits for its completion
+    println("main: Now I can quit.")
+//sampleEnd    
+}
+</div><aside data-type="note" class="prompt" data-title="" id="3082118d"><p id="a8b94542">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-cancel-04.kt" id="c5670bbb" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="a331d8cd">Both <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/join.html" id="965e6371" data-external="true" rel="noopener noreferrer">join</a> and <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/cancel-and-join.html" id="6dec0cdd" data-external="true" rel="noopener noreferrer">cancelAndJoin</a> wait for all finalization actions to complete, so the example above produces the following output:</p><div class="code-block" data-lang="plaintext">job: I'm sleeping 0 ...
+job: I'm sleeping 1 ...
+job: I'm sleeping 2 ...
+main: I'm tired of waiting!
+job: I'm running finally
+main: Now I can quit.
+</div></section><section class="chapter"><h2 id="run-non-cancellable-block" data-toc="cancellation-and-timeouts#run-non-cancellable-block">Run non-cancellable block</h2><p id="1e0a51d8">Any attempt to use a suspending function in the <code class="code ">finally</code> block of the previous example causes <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-cancellation-exception/index.html" id="b526e7f1" data-external="true" rel="noopener noreferrer">CancellationException</a>, because the coroutine running this code is cancelled. Usually, this is not a problem, since all well-behaving closing operations (closing a file, cancelling a job, or closing any kind of a communication channel) are usually non-blocking and do not involve any suspending functions. However, in the rare case when you need to suspend in a cancelled coroutine you can wrap the corresponding code in <code class="code ">withContext(NonCancellable) {...}</code> using <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-context.html" id="9def80ea" data-external="true" rel="noopener noreferrer">withContext</a> function and <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-non-cancellable/index.html" id="2aaad5cc" data-external="true" rel="noopener noreferrer">NonCancellable</a> context as the following example shows:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+//sampleStart
+    val job = launch {
+        try {
+            repeat(1000) { i -&gt;
+                println("job: I'm sleeping $i ...")
+                delay(500L)
+            }
+        } finally {
+            withContext(NonCancellable) {
+                println("job: I'm running finally")
+                delay(1000L)
+                println("job: And I've just delayed for 1 sec because I'm non-cancellable")
+            }
+        }
+    }
+    delay(1300L) // delay a bit
+    println("main: I'm tired of waiting!")
+    job.cancelAndJoin() // cancels the job and waits for its completion
+    println("main: Now I can quit.")
+//sampleEnd    
+}
+</div><aside data-type="note" class="prompt" data-title="" id="7af65725"><p id="67cb4463">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-cancel-05.kt" id="7aec9895" data-external="true" rel="noopener noreferrer">here</a>.</p></aside></section><section class="chapter"><h2 id="timeout" data-toc="cancellation-and-timeouts#timeout">Timeout</h2><p id="1899498d">The most obvious practical reason to cancel execution of a coroutine is because its execution time has exceeded some timeout. While you can manually track the reference to the corresponding <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/index.html" id="2238bff1" data-external="true" rel="noopener noreferrer">Job</a> and launch a separate coroutine to cancel the tracked one after delay, there is a ready to use <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-timeout.html" id="8dccec2a" data-external="true" rel="noopener noreferrer">withTimeout</a> function that does it. Look at the following example:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+//sampleStart
+    withTimeout(1300L) {
+        repeat(1000) { i -&gt;
+            println("I'm sleeping $i ...")
+            delay(500L)
+        }
+    }
+//sampleEnd
+}
+</div><aside data-type="note" class="prompt" data-title="" id="e5053072"><p id="d9604173">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-cancel-06.kt" id="2fa409ef" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="7e05705c">It produces the following output:</p><div class="code-block" data-lang="plaintext">I'm sleeping 0 ...
+I'm sleeping 1 ...
+I'm sleeping 2 ...
+Exception in thread "main" kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 1300 ms
+</div><p id="bf894001">The <code class="code ">TimeoutCancellationException</code> that is thrown by <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-timeout.html" id="c606ada1" data-external="true" rel="noopener noreferrer">withTimeout</a> is a subclass of <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-cancellation-exception/index.html" id="e8f159b4" data-external="true" rel="noopener noreferrer">CancellationException</a>. We have not seen its stack trace printed on the console before. That is because inside a cancelled coroutine <code class="code ">CancellationException</code> is considered to be a normal reason for coroutine completion. However, in this example we have used <code class="code ">withTimeout</code> right inside the <code class="code ">main</code> function.</p><p id="10819476">Since cancellation is just an exception, all resources are closed in the usual way. You can wrap the code with timeout in a <code class="code ">try {...} catch (e: TimeoutCancellationException) {...}</code> block if you need to do some additional action specifically on any kind of timeout or use the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-timeout-or-null.html" id="746f9a4b" data-external="true" rel="noopener noreferrer">withTimeoutOrNull</a> function that is similar to <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-timeout.html" id="f622b07b" data-external="true" rel="noopener noreferrer">withTimeout</a> but returns <code class="code ">null</code> on timeout instead of throwing an exception:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+//sampleStart
+    val result = withTimeoutOrNull(1300L) {
+        repeat(1000) { i -&gt;
+            println("I'm sleeping $i ...")
+            delay(500L)
+        }
+        "Done" // will get cancelled before it produces this result
+    }
+    println("Result is $result")
+//sampleEnd
+}
+</div><aside data-type="note" class="prompt" data-title="" id="1f9cc0f3"><p id="406b68ac">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-cancel-07.kt" id="c69a6df8" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="98f22314">There is no longer an exception when running this code:</p><div class="code-block" data-lang="plaintext">I'm sleeping 0 ...
+I'm sleeping 1 ...
+I'm sleeping 2 ...
+Result is null
+</div></section><section class="chapter"><h2 id="asynchronous-timeout-and-resources" data-toc="cancellation-and-timeouts#asynchronous-timeout-and-resources">Asynchronous timeout and resources</h2><p id="a8ac06c8">The timeout event in <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-timeout.html" id="ad2060de" data-external="true" rel="noopener noreferrer">withTimeout</a> is asynchronous with respect to the code running in its block and may happen at any time, even right before the return from inside of the timeout block. Keep this in mind if you open or acquire some resource inside the block that needs closing or release outside of the block.</p><p id="49e4194b">For example, here we imitate a closeable resource with the <code class="code ">Resource</code> class, that simply keeps track of how many times it was created by incrementing the <code class="code ">acquired</code> counter and decrementing this counter from its <code class="code ">close</code> function. Let us run a lot of coroutines with the small timeout try acquire this resource from inside of the <code class="code ">withTimeout</code> block after a bit of delay and release it from outside.</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+//sampleStart
+var acquired = 0
+
+class Resource {
+    init { acquired++ } // Acquire the resource
+    fun close() { acquired-- } // Release the resource
+}
+
+fun main() {
+    runBlocking {
+        repeat(100_000) { // Launch 100K coroutines
+            launch { 
+                val resource = withTimeout(60) { // Timeout of 60 ms
+                    delay(50) // Delay for 50 ms
+                    Resource() // Acquire a resource and return it from withTimeout block     
+                }
+                resource.close() // Release the resource
+            }
+        }
+    }
+    // Outside of runBlocking all coroutines have completed
+    println(acquired) // Print the number of resources still acquired
+}
+//sampleEnd
+</div><aside data-type="note" class="prompt" data-title="" id="eba57d1c"><p id="aecb9b6e">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-cancel-08.kt" id="1eaba3ed" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="1dc9f947">If you run the above code you'll see that it does not always print zero, though it may depend on the timings of your machine you may need to tweak timeouts in this example to actually see non-zero values.</p><aside data-type="note" class="prompt" data-title="" id="830292eb"><p id="3654eef2">Note, that incrementing and decrementing <code class="code ">acquired</code> counter here from 100K coroutines is completely safe, since it always happens from the same main thread. More on that will be explained in the chapter on coroutine context.</p></aside><p id="b6c2f550">To workaround this problem you can store a reference to the resource in the variable as opposed to returning it from the <code class="code ">withTimeout</code> block.</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+
+var acquired = 0
+
+class Resource {
+    init { acquired++ } // Acquire the resource
+    fun close() { acquired-- } // Release the resource
+}
+
+fun main() {
+//sampleStart
+    runBlocking {
+        repeat(100_000) { // Launch 100K coroutines
+            launch { 
+                var resource: Resource? = null // Not acquired yet
+                try {
+                    withTimeout(60) { // Timeout of 60 ms
+                        delay(50) // Delay for 50 ms
+                        resource = Resource() // Store a resource to the variable if acquired      
+                    }
+                    // We can do something else with the resource here
+                } finally {  
+                    resource?.close() // Release the resource if it was acquired
+                }
+            }
+        }
+    }
+    // Outside of runBlocking all coroutines have completed
+    println(acquired) // Print the number of resources still acquired
+//sampleEnd
+}
+</div><aside data-type="note" class="prompt" data-title="" id="33d190be"><p id="bbbae402">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-cancel-09.kt" id="e0d5952b" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="da560f96">This example always prints zero. Resources do not leak.</p></section><div class="last-modified"> Last modified: 04 April 2022</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom">  <a class="navigation-links__prev" href="https://kotlinlang.org/docs/coroutines-basics.html">Coroutines basics</a>   <a class="navigation-links__next" href="https://kotlinlang.org/docs/composing-suspending-functions.html">Composing suspending functions</a>  </div></article>  </div></section></main></div>  <script src="static/v3/app.js"></script>  </body></html>

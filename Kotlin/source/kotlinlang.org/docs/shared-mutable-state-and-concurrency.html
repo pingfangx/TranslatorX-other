@@ -1,0 +1,286 @@
+<html lang="en-US" data-colors-preset="contrast" data-primary-color="#307FFF"><!--
+* PyWebCopy Engine [version 7.0.1]
+* Copyright 2020; Raja Tomar
+* File mirrored from [https://kotlinlang.org/docs/shared-mutable-state-and-concurrency.html]
+* At UTC datetime: [2022-04-07 08:47:24.351002]
+--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8">  <meta name="built-on" content="2022-04-06T17:37:58.711741"><meta name="build-number" content="345">   <link rel="canonical" href="./shared-mutable-state-and-concurrency.html" data-react-helmet="true">   <meta name="keywords" content="">   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5P98');</script><script src="static/v3/analytics.js"></script>  <title>Shared mutable state and concurrency | Kotlin</title>   <link href="static/v3/app.css" rel="stylesheet">   
+        
+<link rel="icon" href="../assets/images/favicon_v2.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../assets/images/favicon_v2.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/images/apple-touch-icon_v2.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/images/apple-touch-icon-72x72_v2.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../assets/images/apple-touch-icon-114x114_v2.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../assets/images/apple-touch-icon-144x144_v2.png">
+        
+          <meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Shared mutable state and concurrency | Kotlin"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Kotlin Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://kotlinlang.org/docs/shared-mutable-state-and-concurrency.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Shared mutable state and concurrency | Kotlin"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebPage", "@id": "https://kotlinlang.org/docs/shared-mutable-state-and-concurrency.html#webpage", "url": "https://kotlinlang.org/docs/shared-mutable-state-and-concurrency.html", "name": "Shared mutable state and concurrency | Kotlin", "description": "", "image": "", "inLanguage":"en-US" }</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json"> { "@type": "WebSite", "@id": "https://kotlinlang.org/docs#website", "url": "https://kotlinlang.org/docs", "name": "Kotlin Help" }</script><!-- End Schema.org --></head>    <body data-id="shared-mutable-state-and-concurrency" data-main-title="Shared mutable state and concurrency" data-article-props='{"seeAlsoStyle":"links"}' data-template="article" data-breadcrumbs="Official libraries///Coroutines (kotlinx.coroutines)" data-edit-url="https://github.com/Kotlin/kotlinx.coroutines/edit/master/docs/topics/shared-mutable-state-and-concurrency.md">  <div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Kotlin  Help</h3><div class="shortcuts-switcher"><label for="switch-shortcuts">Keymap:</label><select class="select _shortcuts" height="1" id="switch-shortcuts">  </select></div><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="shared-mutable-state-and-concurrency" id="shared-mutable-state-and-concurrency.md">Shared mutable state and concurrency</h1><p id="a4561b0a">Coroutines can be executed parallelly using a multi-threaded dispatcher like the <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-default.html" id="14029e92" data-external="true" rel="noopener noreferrer">Dispatchers.Default</a>. It presents all the usual parallelism problems. The main problem being synchronization of access to <b id="6a76a9fc" class="">shared mutable state</b>. Some solutions to this problem in the land of coroutines are similar to the solutions in the multi-threaded world, but others are unique.</p><section class="chapter"><h2 id="the-problem" data-toc="shared-mutable-state-and-concurrency#the-problem">The problem</h2><p id="f9c55776">Let us launch a hundred coroutines all doing the same action a thousand times. We'll also measure their completion time for further comparisons:</p><div class="code-block" data-lang="kotlin">suspend fun massiveRun(action: suspend () -&gt; Unit) {
+    val n = 100  // number of coroutines to launch
+    val k = 1000 // times an action is repeated by each coroutine
+    val time = measureTimeMillis {
+        coroutineScope { // scope for coroutines 
+            repeat(n) {
+                launch {
+                    repeat(k) { action() }
+                }
+            }
+        }
+    }
+    println("Completed ${n * k} actions in $time ms")    
+}
+</div><p id="9080614c">We start with a very simple action that increments a shared mutable variable using multi-threaded <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-default.html" id="f5e06d4f" data-external="true" rel="noopener noreferrer">Dispatchers.Default</a>.</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlin.system.*    
+
+suspend fun massiveRun(action: suspend () -&gt; Unit) {
+    val n = 100  // number of coroutines to launch
+    val k = 1000 // times an action is repeated by each coroutine
+    val time = measureTimeMillis {
+        coroutineScope { // scope for coroutines 
+            repeat(n) {
+                launch {
+                    repeat(k) { action() }
+                }
+            }
+        }
+    }
+    println("Completed ${n * k} actions in $time ms")    
+}
+
+//sampleStart
+var counter = 0
+
+fun main() = runBlocking {
+    withContext(Dispatchers.Default) {
+        massiveRun {
+            counter++
+        }
+    }
+    println("Counter = $counter")
+}
+//sampleEnd    
+</div><aside data-type="note" class="prompt" data-title="" id="b5f2595f"><p id="72020bb1">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-sync-01.kt" id="16e50fda" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="d43dbfe6">What does it print at the end? It is highly unlikely to ever print "Counter = 100000", because a hundred coroutines increment the <code class="code ">counter</code> concurrently from multiple threads without any synchronization.</p></section><section class="chapter"><h2 id="volatiles-are-of-no-help" data-toc="shared-mutable-state-and-concurrency#volatiles-are-of-no-help">Volatiles are of no help</h2><p id="6b671b33">There is a common misconception that making a variable <code class="code ">volatile</code> solves concurrency problem. Let us try it:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlin.system.*
+
+suspend fun massiveRun(action: suspend () -&gt; Unit) {
+    val n = 100  // number of coroutines to launch
+    val k = 1000 // times an action is repeated by each coroutine
+    val time = measureTimeMillis {
+        coroutineScope { // scope for coroutines 
+            repeat(n) {
+                launch {
+                    repeat(k) { action() }
+                }
+            }
+        }
+    }
+    println("Completed ${n * k} actions in $time ms")    
+}
+
+//sampleStart
+@Volatile // in Kotlin `volatile` is an annotation 
+var counter = 0
+
+fun main() = runBlocking {
+    withContext(Dispatchers.Default) {
+        massiveRun {
+            counter++
+        }
+    }
+    println("Counter = $counter")
+}
+//sampleEnd    
+</div><aside data-type="note" class="prompt" data-title="" id="dcd4d2c3"><p id="3b277fa5">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-sync-02.kt" id="c8aa3b43" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="a76bf515">This code works slower, but we still don't get "Counter = 100000" at the end, because volatile variables guarantee linearizable (this is a technical term for "atomic") reads and writes to the corresponding variable, but do not provide atomicity of larger actions (increment in our case).</p></section><section class="chapter"><h2 id="thread-safe-data-structures" data-toc="shared-mutable-state-and-concurrency#thread-safe-data-structures">Thread-safe data structures</h2><p id="7cfac0ca">The general solution that works both for threads and for coroutines is to use a thread-safe (aka synchronized, linearizable, or atomic) data structure that provides all the necessary synchronization for the corresponding operations that needs to be performed on a shared state. In the case of a simple counter we can use <code class="code ">AtomicInteger</code> class which has atomic <code class="code ">incrementAndGet</code> operations:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import java.util.concurrent.atomic.*
+import kotlin.system.*
+
+suspend fun massiveRun(action: suspend () -&gt; Unit) {
+    val n = 100  // number of coroutines to launch
+    val k = 1000 // times an action is repeated by each coroutine
+    val time = measureTimeMillis {
+        coroutineScope { // scope for coroutines 
+            repeat(n) {
+                launch {
+                    repeat(k) { action() }
+                }
+            }
+        }
+    }
+    println("Completed ${n * k} actions in $time ms")    
+}
+
+//sampleStart
+val counter = AtomicInteger()
+
+fun main() = runBlocking {
+    withContext(Dispatchers.Default) {
+        massiveRun {
+            counter.incrementAndGet()
+        }
+    }
+    println("Counter = $counter")
+}
+//sampleEnd    
+</div><aside data-type="note" class="prompt" data-title="" id="8a86b209"><p id="80934260">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-sync-03.kt" id="1a215821" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="331b971c">This is the fastest solution for this particular problem. It works for plain counters, collections, queues and other standard data structures and basic operations on them. However, it does not easily scale to complex state or to complex operations that do not have ready-to-use thread-safe implementations.</p></section><section class="chapter"><h2 id="thread-confinement-fine-grained" data-toc="shared-mutable-state-and-concurrency#thread-confinement-fine-grained">Thread confinement fine-grained</h2><p id="1d5798ab"><em id="967f56c4" class="">Thread confinement</em> is an approach to the problem of shared mutable state where all access to the particular shared state is confined to a single thread. It is typically used in UI applications, where all UI state is confined to the single event-dispatch/application thread. It is easy to apply with coroutines by using a<br> single-threaded context.</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlin.system.*
+
+suspend fun massiveRun(action: suspend () -&gt; Unit) {
+    val n = 100  // number of coroutines to launch
+    val k = 1000 // times an action is repeated by each coroutine
+    val time = measureTimeMillis {
+        coroutineScope { // scope for coroutines 
+            repeat(n) {
+                launch {
+                    repeat(k) { action() }
+                }
+            }
+        }
+    }
+    println("Completed ${n * k} actions in $time ms")    
+}
+
+//sampleStart
+val counterContext = newSingleThreadContext("CounterContext")
+var counter = 0
+
+fun main() = runBlocking {
+    withContext(Dispatchers.Default) {
+        massiveRun {
+            // confine each increment to a single-threaded context
+            withContext(counterContext) {
+                counter++
+            }
+        }
+    }
+    println("Counter = $counter")
+}
+//sampleEnd      
+</div><aside data-type="note" class="prompt" data-title="" id="2b686f37"><p id="aff37dfb">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-sync-04.kt" id="d60f5b1e" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="28af4b59">This code works very slowly, because it does <em id="18ff33f" class="">fine-grained</em> thread-confinement. Each individual increment switches from multi-threaded <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-default.html" id="94e72825" data-external="true" rel="noopener noreferrer">Dispatchers.Default</a> context to the single-threaded context using <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-context.html" id="1e8f77f9" data-external="true" rel="noopener noreferrer">withContext(counterContext)</a> block.</p></section><section class="chapter"><h2 id="thread-confinement-coarse-grained" data-toc="shared-mutable-state-and-concurrency#thread-confinement-coarse-grained">Thread confinement coarse-grained</h2><p id="9c009eab">In practice, thread confinement is performed in large chunks, e.g. big pieces of state-updating business logic are confined to the single thread. The following example does it like that, running each coroutine in the single-threaded context to start with.</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlin.system.*
+
+suspend fun massiveRun(action: suspend () -&gt; Unit) {
+    val n = 100  // number of coroutines to launch
+    val k = 1000 // times an action is repeated by each coroutine
+    val time = measureTimeMillis {
+        coroutineScope { // scope for coroutines 
+            repeat(n) {
+                launch {
+                    repeat(k) { action() }
+                }
+            }
+        }
+    }
+    println("Completed ${n * k} actions in $time ms")    
+}
+
+//sampleStart
+val counterContext = newSingleThreadContext("CounterContext")
+var counter = 0
+
+fun main() = runBlocking {
+    // confine everything to a single-threaded context
+    withContext(counterContext) {
+        massiveRun {
+            counter++
+        }
+    }
+    println("Counter = $counter")
+}
+//sampleEnd     
+</div><aside data-type="note" class="prompt" data-title="" id="92e71db8"><p id="feb7a759">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-sync-05.kt" id="730f2ef7" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="dd6ef25a">This now works much faster and produces correct result.</p></section><section class="chapter"><h2 id="mutual-exclusion" data-toc="shared-mutable-state-and-concurrency#mutual-exclusion">Mutual exclusion</h2><p id="cd4e753b">Mutual exclusion solution to the problem is to protect all modifications of the shared state with a <em id="bd41627c" class="">critical section</em> that is never executed concurrently. In a blocking world you'd typically use <code class="code ">synchronized</code> or <code class="code ">ReentrantLock</code> for that. Coroutine's alternative is called <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.sync/-mutex/index.html" id="cdd85784" data-external="true" rel="noopener noreferrer">Mutex</a>. It has <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.sync/-mutex/lock.html" id="7e00ac77" data-external="true" rel="noopener noreferrer">lock</a> and <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.sync/-mutex/unlock.html" id="b35a3099" data-external="true" rel="noopener noreferrer">unlock</a> functions to delimit a critical section. The key difference is that <code class="code ">Mutex.lock()</code> is a suspending function. It does not block a thread.</p><p id="3a163734">There is also <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.sync/with-lock.html" id="3cadea42" data-external="true" rel="noopener noreferrer">withLock</a> extension function that conveniently represents <code class="code ">mutex.lock(); try { ... } finally { mutex.unlock() }</code> pattern:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlinx.coroutines.sync.*
+import kotlin.system.*
+
+suspend fun massiveRun(action: suspend () -&gt; Unit) {
+    val n = 100  // number of coroutines to launch
+    val k = 1000 // times an action is repeated by each coroutine
+    val time = measureTimeMillis {
+        coroutineScope { // scope for coroutines 
+            repeat(n) {
+                launch {
+                    repeat(k) { action() }
+                }
+            }
+        }
+    }
+    println("Completed ${n * k} actions in $time ms")    
+}
+
+//sampleStart
+val mutex = Mutex()
+var counter = 0
+
+fun main() = runBlocking {
+    withContext(Dispatchers.Default) {
+        massiveRun {
+            // protect each increment with lock
+            mutex.withLock {
+                counter++
+            }
+        }
+    }
+    println("Counter = $counter")
+}
+//sampleEnd    
+</div><aside data-type="note" class="prompt" data-title="" id="7cb0e38f"><p id="33c5b456">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-sync-06.kt" id="e81b4363" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="93918911">The locking in this example is fine-grained, so it pays the price. However, it is a good choice for some situations where you absolutely must modify some shared state periodically, but there is no natural thread that this state is confined to.</p></section><section class="chapter"><h2 id="actors" data-toc="shared-mutable-state-and-concurrency#actors">Actors</h2><p id="f766ea5f">An <a href="https://en.wikipedia.org/wiki/Actor_model" id="455c4721" data-external="true" rel="noopener noreferrer">actor</a> is an entity made up of a combination of a coroutine, the state that is confined and encapsulated into this coroutine, and a channel to communicate with other coroutines. A simple actor can be written as a function, but an actor with a complex state is better suited for a class.</p><p id="2bbe3dab">There is an <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/actor.html" id="c1a9c28a" data-external="true" rel="noopener noreferrer">actor</a> coroutine builder that conveniently combines actor's mailbox channel into its scope to receive messages from and combines the send channel into the resulting job object, so that a single reference to the actor can be carried around as its handle.</p><p id="98aeb040">The first step of using an actor is to define a class of messages that an actor is going to process. Kotlin's <a href="https://kotlinlang.org/docs/reference/sealed-classes.html" id="41585b51" data-external="true" rel="noopener noreferrer">sealed classes</a> are well suited for that purpose. We define <code class="code ">CounterMsg</code> sealed class with <code class="code ">IncCounter</code> message to increment a counter and <code class="code ">GetCounter</code> message to get its value. The latter needs to send a response. A <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-completable-deferred/index.html" id="40605d1b" data-external="true" rel="noopener noreferrer">CompletableDeferred</a> communication primitive, that represents a single value that will be known (communicated) in the future, is used here for that purpose.</p><div class="code-block" data-lang="kotlin">// Message types for counterActor
+sealed class CounterMsg
+object IncCounter : CounterMsg() // one-way message to increment counter
+class GetCounter(val response: CompletableDeferred&lt;Int&gt;) : CounterMsg() // a request with reply
+</div><p id="767f34ff">Then we define a function that launches an actor using an <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/actor.html" id="9eaad95" data-external="true" rel="noopener noreferrer">actor</a> coroutine builder:</p><div class="code-block" data-lang="kotlin">// This function launches a new counter actor
+fun CoroutineScope.counterActor() = actor&lt;CounterMsg&gt; {
+    var counter = 0 // actor state
+    for (msg in channel) { // iterate over incoming messages
+        when (msg) {
+            is IncCounter -&gt; counter++
+            is GetCounter -&gt; msg.response.complete(counter)
+        }
+    }
+}
+</div><p id="aaeea1c0">The main code is straightforward:</p><div class="code-block" data-lang="kotlin" data-runnable="true" data-min-compiler-version="1.3">import kotlinx.coroutines.*
+import kotlinx.coroutines.channels.*
+import kotlin.system.*
+
+suspend fun massiveRun(action: suspend () -&gt; Unit) {
+    val n = 100  // number of coroutines to launch
+    val k = 1000 // times an action is repeated by each coroutine
+    val time = measureTimeMillis {
+        coroutineScope { // scope for coroutines 
+            repeat(n) {
+                launch {
+                    repeat(k) { action() }
+                }
+            }
+        }
+    }
+    println("Completed ${n * k} actions in $time ms")    
+}
+
+// Message types for counterActor
+sealed class CounterMsg
+object IncCounter : CounterMsg() // one-way message to increment counter
+class GetCounter(val response: CompletableDeferred&lt;Int&gt;) : CounterMsg() // a request with reply
+
+// This function launches a new counter actor
+fun CoroutineScope.counterActor() = actor&lt;CounterMsg&gt; {
+    var counter = 0 // actor state
+    for (msg in channel) { // iterate over incoming messages
+        when (msg) {
+            is IncCounter -&gt; counter++
+            is GetCounter -&gt; msg.response.complete(counter)
+        }
+    }
+}
+
+//sampleStart
+fun main() = runBlocking&lt;Unit&gt; {
+    val counter = counterActor() // create the actor
+    withContext(Dispatchers.Default) {
+        massiveRun {
+            counter.send(IncCounter)
+        }
+    }
+    // send a message to get a counter value from an actor
+    val response = CompletableDeferred&lt;Int&gt;()
+    counter.send(GetCounter(response))
+    println("Counter = ${response.await()}")
+    counter.close() // shutdown the actor
+}
+//sampleEnd    
+</div><aside data-type="note" class="prompt" data-title="" id="4e13ea3c"><p id="b259c1a0">You can get the full code <a href="https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/test/guide/example-sync-07.kt" id="79572a91" data-external="true" rel="noopener noreferrer">here</a>.</p></aside><p id="c430afe6">It does not matter (for correctness) what context the actor itself is executed in. An actor is a coroutine and a coroutine is executed sequentially, so confinement of the state to the specific coroutine works as a solution to the problem of shared mutable state. Indeed, actors may modify their own private state, but can only affect each other through messages (avoiding the need for any locks).</p><p id="9e0a66e3">Actor is more efficient than locking under load, because in this case it always has work to do and it does not have to switch to a different context at all.</p><aside data-type="note" class="prompt" data-title="" id="328a0895"><p id="a8cf3ca5">Note that an <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/actor.html" id="e3650ffb" data-external="true" rel="noopener noreferrer">actor</a> coroutine builder is a dual of <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/produce.html" id="4d46eff" data-external="true" rel="noopener noreferrer">produce</a> coroutine builder. An actor is associated with the channel that it receives messages from, while a producer is associated with the channel that it sends elements to.</p></aside></section><div class="last-modified"> Last modified: 04 April 2022</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom">  <a class="navigation-links__prev" href="exception-handling.html">Coroutine exceptions handling</a>   <a class="navigation-links__next" href="select-expression.html">Select expression (experimental)</a>  </div></article>  </div></section></main></div>  <script src="static/v3/app.js"></script>  </body></html>
