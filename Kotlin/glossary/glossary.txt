@@ -1,0 +1,13 @@
+#英文	中文	[不使用的翻译|]备注
+coroutine	协程	协同程序,协同路由,协同过程|
+channel	通道	渠道,频道|
+build	构建
+builder	构建器	生成器|生成器应该是 generator
+producer	生产者
+consumer	消费者
+prime	质数	素数|
+suspended	挂起	暂停|
+suspension	挂起	暂停|
+exception	异常	例外|
+scope	作用域	范围|协程中一般翻译为作用域
+function	函数	流|

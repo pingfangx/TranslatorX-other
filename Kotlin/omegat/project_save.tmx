@@ -1,0 +1,2137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_d22680c87" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;a1&gt;CoroutineExceptionHandler&lt;/a1&gt; context element on a &lt;e2&gt;root&lt;/e2&gt; coroutine can be used as a generic &lt;c3&gt;catch&lt;/c3&gt; block for this root coroutine and all its children where custom exception handling may take place.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T080137Z" creationid="pingfangx" creationdate="20220406T080019Z">
+        <seg>&lt;e2&gt;根&lt;/e2&gt; 协程上的 &lt;a1&gt;CoroutineExceptionHandler&lt;/a1&gt; 上下文元素，可以用作此根协程及其所有子协程的通用 &lt;c3&gt;catch&lt;/c3&gt; 块，在块中可以进行自定义异常处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;a2&gt;CoroutineExceptionHandler&lt;/a2&gt; implementation is not used for child coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T084832Z" creationid="pingfangx" creationdate="20220406T084829Z">
+        <seg>&lt;a2&gt;CoroutineExceptionHandler&lt;/a2&gt; 实现不用于子协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;c0&gt;CoroutineExceptionHandler&lt;/c0&gt; is invoked only on &lt;b1&gt;uncaught&lt;/b1&gt; exceptions —— exceptions that were not handled in any other way.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T083601Z" creationid="pingfangx" creationdate="20220406T083559Z">
+        <seg>&lt;c0&gt;CoroutineExceptionHandler&lt;/c0&gt; 仅在 &lt;b1&gt;uncaught&lt;/b1&gt; 异常时调用，这些异常没有以任何其他方式处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;c0&gt;kotlinx.coroutines&lt;/c0&gt; is a rich library for coroutines developed by JetBrains.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T062359Z" creationid="pingfangx" creationdate="20220408T062344Z">
+        <seg>&lt;c0&gt;kotlinx.coroutines&lt;/c0&gt; 是由 Jetbrains 开发的丰富的协程库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;c2&gt;buffer()&lt;/c2&gt; stores emitted values and runs the flow collector in a separate coroutine.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081221Z" creationid="pingfangx" creationdate="20220407T081203Z">
+        <seg>&lt;c2&gt;buffer()&lt;/c2&gt; 存储发射的值，并在单独的协程中运行流收集器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;e0&gt;Thread confinement&lt;/e0&gt; is an approach to the problem of shared mutable state where all access to the particular shared state is confined to a single thread.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062550Z" creationid="pingfangx" creationdate="20220407T062550Z">
+        <seg>&lt;e0&gt;Thread confinement (线程限制)&lt;/e0&gt; 是一种解决共享可变状态问题的方法，其中对特定共享状态的所有访问都限制在单个线程中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A &lt;a0&gt;Channel&lt;/a0&gt; is conceptually very similar to &lt;c1&gt;BlockingQueue&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220401T093322Z" creationid="pingfangx" creationdate="20220401T093322Z">
+        <seg>&lt;a0&gt;Channel&lt;/a0&gt; 在概念上与 &lt;c1&gt;BlockingQueue&lt;/c1&gt; 非常相似。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A &lt;a4&gt;CompletableDeferred&lt;/a4&gt; communication primitive, that represents a single value that will be known (communicated) in the future, is used here for that purpose.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065756Z" creationid="pingfangx" creationdate="20220407T065756Z">
+        <seg>此处使用了一个表示将来已知(通信)的单个值的 &lt;a4&gt;CompletableDeferred&lt;/a4&gt; 通信原语。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A further &lt;a0&gt;Supervision&lt;/a0&gt; section of this document gives more details.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T083409Z" creationid="pingfangx" creationdate="20220406T083321Z">
+        <seg>本文档的 &lt;a0&gt;Supervision&lt;/a0&gt; 部分提供了更多详细信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A good example of such a requirement is a UI component with the job defined in its scope.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095015Z" creationid="pingfangx" creationdate="20220406T091300Z">
+        <seg>这种需求的一个很好的例子是在其作用域内定义了作业的 UI 组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A pipeline is a pattern where one coroutine is producing, possibly infinite, stream of values:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T031427Z" creationid="pingfangx" creationdate="20220402T024005Z">
+        <seg>管道（pipeline）是一种模式，用于协程生产（可能是无限的）值流：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A simple actor can be written as a function, but an actor with a complex state is better suited for a class.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065312Z" creationid="pingfangx" creationdate="20220407T065217Z">
+        <seg>简单的 actor 可以编写为函数，但具有复杂状态的 actor 更适合用类表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Actor is more efficient than locking under load, because in this case it always has work to do and it does not have to switch to a different context at all.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T070456Z" creationid="pingfangx" creationdate="20220407T070455Z">
+        <seg>Actor 比在负载下锁定更有效，因为在这种情况下，它总是有工作要做，而且根本不需要切换到不同的上下文。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add a call to the &lt;a0&gt;&lt;c1&gt;buffer()&lt;/c1&gt;&lt;/a0&gt; function to run the emitter and collector concurrently.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081147Z" creationid="pingfangx" creationdate="20220407T081147Z">
+        <seg>添加对 &lt;a0&gt;&lt;c1&gt;buffer()&lt;/c1&gt;&lt;/a0&gt; 函数的调用，以同时运行发射器和收集器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add a concurrently running coroutine</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081135Z" creationid="pingfangx" creationdate="20220407T081129Z">
+        <seg>添加并发运行的协程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Additional references</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T062821Z" creationid="pingfangx" creationdate="20220408T062820Z">
+        <seg>其他参考资料</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All additional exceptions that happen after the first one are attached to the first exception as suppressed ones.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085630Z" creationid="pingfangx" creationdate="20220406T085629Z">
+        <seg>在第一个异常之后发生的所有其他异常都作为抑制异常附加到第一个异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All functions that create coroutines are defined as extensions on &lt;a0&gt;CoroutineScope&lt;/a0&gt;, so that we can rely on &lt;a1&gt;structured concurrency&lt;/a1&gt; to make sure that we don't have lingering global coroutines in our application.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T034350Z" creationid="pingfangx" creationdate="20220402T034223Z">
+        <seg>所有创建协程的函数都被定义为 &lt;a0&gt;CoroutineScope&lt;/a0&gt; 上的扩展，因此我们可以依靠 &lt;a1&gt;structured concurrency&lt;/a1&gt; 来确保我们的应用程序中没有常驻的全局协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Also, pay attention to how we explicitly iterate over channel with &lt;c0&gt;for&lt;/c0&gt; loop to perform fan-out in &lt;c1&gt;launchProcessor&lt;/c1&gt; code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T054654Z" creationid="pingfangx" creationdate="20220402T054654Z">
+        <seg>另外，请注意我们如何使用 &lt;c0&gt;for&lt;/c0&gt; 循环显式迭代通道，以在 &lt;c1&gt;launchProcessor&lt;/c1&gt; 代码中执行扇出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An &lt;a0&gt;actor&lt;/a0&gt; is an entity made up of a combination of a coroutine, the state that is confined and encapsulated into this coroutine, and a channel to communicate with other coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065110Z" creationid="pingfangx" creationdate="20220407T065109Z">
+        <seg>&lt;a0&gt;actor&lt;/a0&gt; 是一个实体，由一个协程、被限制并封装在该协程中的状态，以及一个与其他协程通信的通道组成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An actor is a coroutine and a coroutine is executed sequentially, so confinement of the state to the specific coroutine works as a solution to the problem of shared mutable state.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T070410Z" creationid="pingfangx" creationdate="20220407T070354Z">
+        <seg>actor 是一个协程，而协程是按顺序执行的，因此将状态限制在特定的协程中可以解决共享可变状态的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An actor is associated with the channel that it receives messages from, while a producer is associated with the channel that it sends elements to.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T070642Z" creationid="pingfangx" creationdate="20220407T070619Z">
+        <seg>actor 与它从中接收消息的通道相关联，而 producer 与它向其发送元素的通道相关联。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>And another coroutine or coroutines are consuming that stream, doing some processing, and producing some other results.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T024726Z" creationid="pingfangx" creationdate="20220402T024403Z">
+        <seg>另外一个或多个协程正在使用该流，进行一些处理，并产生一些其他结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Another crucial difference between regular and supervisor jobs is exception handling.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095912Z" creationid="pingfangx" creationdate="20220406T095858Z">
+        <seg>常规工作和 supervisor 工作之间的另一个关键区别是异常处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Another example is a server process that spawns multiple child jobs and needs to &lt;e0&gt;supervise&lt;/e0&gt; their execution, tracking their failures and only restarting the failed ones.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095136Z" creationid="pingfangx" creationdate="20220406T095106Z">
+        <seg>另一个例子是一个服务器进程，它生成多个子作业，需要 &lt;e0&gt;supervise (监督)&lt;/e0&gt; 它们的执行，跟踪它们的失败并只重新启动失败的作业。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Anyway, this is an extremely impractical way to find prime numbers.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053302Z" creationid="pingfangx" creationdate="20220402T053300Z">
+        <seg>无论如何，这是一种非常不切实际的寻找质数的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As we have studied before, cancellation is a bidirectional relationship propagating through the whole hierarchy of coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T091226Z" creationid="pingfangx" creationdate="20220406T091226Z">
+        <seg>正如我们之前所研究的，取消是一种双向关系，在整个协程层次结构中传播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Both &lt;a0&gt;Channel()&lt;/a0&gt; factory function and &lt;a1&gt;produce&lt;/a1&gt; builder take an optional &lt;c2&gt;capacity&lt;/c2&gt; parameter to specify &lt;e3&gt;buffer size&lt;/e3&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T060415Z" creationid="pingfangx" creationdate="20220402T060333Z">
+        <seg>&lt;a0&gt;Channel()&lt;/a0&gt; 工厂函数和 &lt;a1&gt;produce&lt;/a1&gt; 构建器都接受可选的 &lt;c2&gt;capacity&lt;/c2&gt; 参数来指定 &lt;e3&gt;buffer size (缓冲区大小)&lt;/e3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Buffer allows senders to send multiple elements before suspending, similar to the &lt;c4&gt;BlockingQueue&lt;/c4&gt; with a specified capacity, which blocks when buffer is full.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T060556Z" creationid="pingfangx" creationdate="20220402T060527Z">
+        <seg>缓冲区允许发送者在挂起之前发送多个元素，类似于具有指定容量的 &lt;c4&gt;BlockingQueue&lt;/c4&gt;，该队列在缓冲区满时阻塞。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Buffered channels</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T055725Z" creationid="pingfangx" creationdate="20220402T055725Z">
+        <seg>缓冲通道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Build the code by clicking &lt;b0&gt;Build Project&lt;/b0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075807Z" creationid="pingfangx" creationdate="20220407T075753Z">
+        <seg>通过点击 &lt;b0&gt;Build Project&lt;/b0&gt; 来构建代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Building channel producers</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T020433Z" creationid="pingfangx" creationdate="20220402T020414Z">
+        <seg>构建通道生产者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Cancellation and exceptions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T084113Z" creationid="pingfangx" creationdate="20220406T084107Z">
+        <seg>取消和异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Cancellation exceptions are transparent and are unwrapped by default:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085950Z" creationid="pingfangx" creationdate="20220406T085950Z">
+        <seg>取消异常是透明的，默认情况下会取消包装：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Cancellation is closely related to exceptions.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T084126Z" creationid="pingfangx" creationdate="20220406T084121Z">
+        <seg>取消与异常密切相关。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Change code in the &lt;c0&gt;main()&lt;/c0&gt; function:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075651Z" creationid="pingfangx" creationdate="20220407T075651Z">
+        <seg>更改 &lt;c0&gt;main()&lt;/c0&gt; 函数中的代码：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Change the code in the &lt;c0&gt;main()&lt;/c0&gt; function:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080751Z" creationid="pingfangx" creationdate="20220407T080751Z">
+        <seg>更改 &lt;c0&gt;main()&lt;/c0&gt; 函数中的代码：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Channel basics</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220401T093233Z" creationid="pingfangx" creationdate="20220401T093221Z">
+        <seg>通道基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Channels</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220401T053142Z" creationid="pingfangx" creationdate="20220330T074527Z">
+        <seg>通道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Channels are fair</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T060948Z" creationid="pingfangx" creationdate="20220402T060948Z">
+        <seg>通道是公平的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Channels provide a way to transfer a stream of values.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220401T092849Z" creationid="pingfangx" creationdate="20220401T092742Z">
+        <seg>通道提供了一种传输值的流的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Closing and iteration over channels</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220401T094310Z" creationid="pingfangx" creationdate="20220401T094310Z">
+        <seg>关闭和迭代渠道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Collect the emitted values using the &lt;a0&gt;&lt;c1&gt;collect()&lt;/c1&gt;&lt;/a0&gt; function.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080815Z" creationid="pingfangx" creationdate="20220407T080804Z">
+        <seg>使用 &lt;a0&gt;&lt;c1&gt;collect()&lt;/c1&gt;&lt;/a0&gt; 函数来收集发射的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Conceptually, a &lt;a0&gt;close&lt;/a0&gt; is like sending a special close token to the channel.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T014821Z" creationid="pingfangx" creationdate="20220402T014739Z">
+        <seg>从概念上讲，&lt;a0&gt;close&lt;/a0&gt; 类似于向通道发送特殊的关闭指令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Coroutine builders come in two flavors: propagating exceptions automatically (&lt;a0&gt;launch&lt;/a0&gt; and &lt;a1&gt;actor&lt;/a1&gt;) or exposing them to users (&lt;a2&gt;async&lt;/a2&gt; and &lt;a3&gt;produce&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T074104Z" creationid="pingfangx" creationdate="20220406T074104Z">
+        <seg>协程构建器有两种风格：自动传播异常(&lt;a0&gt;launch&lt;/a0&gt; 和 &lt;a1&gt;actor&lt;/a1&gt;)或向用户公开异常(&lt;a2&gt;async&lt;/a2&gt; 和 &lt;a3&gt;produce&lt;/a3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Coroutine exceptions handling</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T072743Z" creationid="pingfangx" creationdate="20220406T072743Z">
+        <seg>协程异常处理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Coroutine's alternative is called &lt;a3&gt;Mutex&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064149Z" creationid="pingfangx" creationdate="20220407T064140Z">
+        <seg>协程的替代方案称为 &lt;a3&gt;Mutex&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Coroutines can be executed parallelly using a multi-threaded dispatcher like the &lt;a0&gt;Dispatchers.Default&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060255Z" creationid="pingfangx" creationdate="20220407T060217Z">
+        <seg>协程可以通过使用多线程调度器(如 &lt;a0&gt;Dispatchers.Default&lt;/a0&gt; 来并行执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Coroutines guide</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T061109Z" creationid="pingfangx" creationdate="20220408T061106Z">
+        <seg>协程指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Coroutines internally use &lt;c0&gt;CancellationException&lt;/c0&gt; for cancellation, these exceptions are ignored by all handlers, so they should be used only as the source of additional debug information, which can be obtained by &lt;c1&gt;catch&lt;/c1&gt; block.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T084219Z" creationid="pingfangx" creationdate="20220406T084149Z">
+        <seg>协程内部使用 &lt;c0&gt;CancellationException&lt;/c0&gt; 进行取消，所有处理程序都会忽略这类异常，因此它们只能用作附加调试信息的源，这些信息可以通过 &lt;c1&gt;catch&lt;/c1&gt; 块获得。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Coroutines running in supervision scope do not propagate exceptions to their parent and are excluded from this rule.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T083319Z" creationid="pingfangx" creationdate="20220406T083251Z">
+        <seg>在 supervision 作用域内运行的协程不会将异常传播到其父级，并且不在此规则中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a Kotlin &lt;a0&gt;flow&lt;/a0&gt; with a slow emitter and a slow collector:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080559Z" creationid="pingfangx" creationdate="20220407T080540Z">
+        <seg>使用慢速发射器和慢速收集器创建 Kotlin &lt;a0&gt;flow&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a Kotlin flow</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080534Z" creationid="pingfangx" creationdate="20220407T080534Z">
+        <seg>创建一个 Kotlin 流</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create coroutines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075506Z" creationid="pingfangx" creationdate="20220407T075506Z">
+        <seg>创建协程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create the &lt;c0&gt;simple()&lt;/c0&gt; function that returns a flow of three numbers:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080612Z" creationid="pingfangx" creationdate="20220407T080612Z">
+        <seg>创建返回三个数字流的 &lt;c0&gt;simple()&lt;/c0&gt; 函数：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating a root coroutine for the whole application is one of the rare legitimate uses for &lt;c1&gt;GlobalScope&lt;/c1&gt;, so you must explicitly opt-in into using &lt;c2&gt;GlobalScope&lt;/c2&gt; with &lt;c3&gt;@OptIn(DelicateCoroutinesApi::class)&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T075048Z" creationid="pingfangx" creationdate="20220406T074618Z">
+        <seg>为整个应用程序创建根协程是 &lt;c1&gt;GlobalScope&lt;/c1&gt; 罕见的合法用途之一，因此在使用 &lt;c2&gt;GlobalScope&lt;/c2&gt; 时应显示地使用 &lt;c3&gt;@OptIn(DelicateCoroutinesApi::class)&lt;/c3&gt; 注解。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Debug Kotlin Flow using IntelliJ IDEA – tutorial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080452Z" creationid="pingfangx" creationdate="20220407T080451Z">
+        <seg>使用 IntelliJ IDEA 调试 Kotlin 流–教程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Debug a Kotlin flow with two coroutines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081247Z" creationid="pingfangx" creationdate="20220407T081224Z">
+        <seg>调试使用两个协程的 Kotlin 流</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Debug coroutines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075821Z" creationid="pingfangx" creationdate="20220407T075821Z">
+        <seg>调试协程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Debug coroutines using IntelliJ IDEA – tutorial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075323Z" creationid="pingfangx" creationdate="20220407T075323Z">
+        <seg>使用 IntelliJ IDEA 调试协程–教程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Debug the coroutine</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080934Z" creationid="pingfangx" creationdate="20220407T080934Z">
+        <seg>调试协程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Debugging works for &lt;c0&gt;kotlinx-coroutines-core&lt;/c0&gt; version 1.3.8 or later.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075457Z" creationid="pingfangx" creationdate="20220407T075453Z">
+        <seg>调试适用于 &lt;c0&gt;kotlinx-coroutines-core&lt;/c0&gt; 版本 1.3.8 或更高版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Deferred values provide a convenient way to transfer a single value between coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220401T092727Z" creationid="pingfangx" creationdate="20220401T092727Z">
+        <seg>延迟值提供了一种方便的方法，可以在协程之间传输单个值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each individual increment switches from multi-threaded &lt;a1&gt;Dispatchers.Default&lt;/a1&gt; context to the single-threaded context using &lt;a2&gt;withContext(counterContext)&lt;/a2&gt; block.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T063239Z" creationid="pingfangx" creationdate="20220407T063144Z">
+        <seg>每个单独的自增操作，从多线程 &lt;a1&gt;Dispatchers.Default&lt;/a1&gt; 上下文使用 &lt;a2&gt;withContext(counterContext)&lt;/a2&gt; 块切换到单线程上下文。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enhance the code to run the emitter and collector concurrently:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081139Z" creationid="pingfangx" creationdate="20220407T081137Z">
+        <seg>增强代码以同时运行发射器和收集器：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Even though "ping" coroutine immediately starts receiving the ball again after sending it back to the table, the ball gets received by the "pong" coroutine, because it was already waiting for it:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T061656Z" creationid="pingfangx" creationdate="20220402T061622Z">
+        <seg>尽管“ping”协程在将球送回桌上后立即开始再次接球，但“pong”协程还是会先收到球，因为它已经在等待它了：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Every child should handle its exceptions by itself via the exception handling mechanism.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095926Z" creationid="pingfangx" creationdate="20220406T095915Z">
+        <seg>每个协协程都应该通过异常处理机制自己处理自己的异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Exception propagation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T074040Z" creationid="pingfangx" creationdate="20220406T074040Z">
+        <seg>异常传播</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Exceptions aggregation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085515Z" creationid="pingfangx" creationdate="20220406T085515Z">
+        <seg>异常聚合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Exceptions in supervised coroutines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095852Z" creationid="pingfangx" creationdate="20220406T095744Z">
+        <seg>supervised 协程中的异常</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, let us have a channel of strings, and a suspending function that repeatedly sends a specified string to this channel with a specified delay:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T055343Z" creationid="pingfangx" creationdate="20220402T055258Z">
+        <seg>例如，让我们有一个字符串通道，以及一个挂起函数，该函数以指定的延迟向该通道重复发送指定的字符串：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here we look at what happens if an exception is thrown during cancellation or multiple children of the same coroutine throw an exception.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T074028Z" creationid="pingfangx" creationdate="20220406T073956Z">
+        <seg>这里我们来看一下如果在取消过程中抛出异常，或者同一个协程的多个子协程抛出异常，会发生什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However, it does not easily scale to complex state or to complex operations that do not have ready-to-use thread-safe implementations.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062321Z" creationid="pingfangx" creationdate="20220407T062320Z">
+        <seg>然而，它不容易扩展到复杂状态或没有现成线程安全实现的复杂操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However, it is a good choice for some situations where you absolutely must modify some shared state periodically, but there is no natural thread that this state is confined to.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065000Z" creationid="pingfangx" creationdate="20220407T064711Z">
+        <seg>然而，在某些情况下它是一个不错的选择，例如你必须定期修改某些共享状态，但这些状态并未局限于自然线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However, the benefit of a pipeline that uses channels as shown above is that it can actually use multiple CPU cores if you run it in &lt;a11&gt;Dispatchers.Default&lt;/a11&gt; context.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053256Z" creationid="pingfangx" creationdate="20220402T053149Z">
+        <seg>然而，如上所示使用通道的管道的好处是，如果在 &lt;a11&gt;Dispatchers.Default&lt;/a11&gt; 上下文中运行它，实际上可以使用多个 CPU 内核。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If a coroutine encounters an exception other than &lt;c0&gt;CancellationException&lt;/c0&gt;, it cancels its parent with that exception.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T084705Z" creationid="pingfangx" creationdate="20220406T084636Z">
+        <seg>如果协程遇到了除 &lt;c0&gt;CancellationException&lt;/c0&gt; 之外的异常，它会使用该异常取消其父协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If any of the UI's child tasks have failed, it is not always necessary to cancel (effectively kill) the whole UI component, but if the UI component is destroyed (and its job is cancelled), then it is necessary to cancel all child jobs as their results are no longer needed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095044Z" creationid="pingfangx" creationdate="20220406T095043Z">
+        <seg>如果 UI 的任何子任务失败，并不总是需要取消(有效地杀死)整个 UI 组件，但如果 UI 组件被销毁(其作业被取消)，则有必要取消所有子作业，因为不再需要它们的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If one of the processor coroutines fails, then others would still be processing the channel, while a processor that is written via &lt;c4&gt;consumeEach&lt;/c4&gt; always consumes (cancels) the underlying channel on its normal or abnormal completion.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T055014Z" creationid="pingfangx" creationdate="20220402T054819Z">
+        <seg>如果其中一个处理器协程失败，那么其他处理器仍将处理该通道，而通过 &lt;c4&gt;consumeEach&lt;/c4&gt; 编写的处理器始终在正常或异常完成时消费(取消)其通道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If send is invoked first, then it is suspended until receive is invoked, if receive is invoked first, it is suspended until send is invoked.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T060323Z" creationid="pingfangx" creationdate="20220402T060216Z">
+        <seg>如果先调用 send，则在调用 receive 之前挂起，如果先调用 receive，则在调用 send 之前挂起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you don't have a project, &lt;a0&gt;create one&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075623Z" creationid="pingfangx" creationdate="20220407T075611Z">
+        <seg>如果你没有项目，先&lt;a0&gt;创建一个&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In a blocking world you'd typically use &lt;c1&gt;synchronized&lt;/c1&gt; or &lt;c2&gt;ReentrantLock&lt;/c2&gt; for that.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064138Z" creationid="pingfangx" creationdate="20220407T064107Z">
+        <seg>在阻塞世界（译注：指不使用协程）中，您通常会使用 &lt;c1&gt;synchronized&lt;/c1&gt; 或 &lt;c2&gt;ReentrantLock&lt;/c2&gt; 来实现这一点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In addition to that, &lt;a5&gt;async&lt;/a5&gt; builder always catches all exceptions and represents them in the resulting &lt;a6&gt;Deferred&lt;/a6&gt; object, so its &lt;c7&gt;CoroutineExceptionHandler&lt;/c7&gt; has no effect either.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T083224Z" creationid="pingfangx" creationdate="20220406T083154Z">
+        <seg>除此之外，&lt;a5&gt;async&lt;/a5&gt; 构建器始终捕获所有异常，并在结果的 &lt;a6&gt;Deferred&lt;/a6&gt; 对象中表示它们，因此其 &lt;c7&gt;CoroutineExceptionHandler&lt;/c7&gt; 也没有任何效果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In order to use coroutines as well as follow the examples in this guide, you need to add a dependency on the &lt;c0&gt;kotlinx-coroutines-core&lt;/c0&gt; module as explained &lt;a1&gt;in the project README&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T062757Z" creationid="pingfangx" creationdate="20220408T062634Z">
+        <seg>为了遵循本指南中的示例使用协程，你需要添加添加 &lt;c0&gt;kotlinx-coroutines-core&lt;/c0&gt; 依赖，如项目 &lt;a1&gt;README&lt;/a1&gt; 文件中所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In particular, all &lt;e2&gt;children&lt;/e2&gt; coroutines (coroutines created in the context of another &lt;a3&gt;Job&lt;/a3&gt;) delegate handling of their exceptions to their parent coroutine, which also delegates to the parent, and so on until the root, so the &lt;c4&gt;CoroutineExceptionHandler&lt;/c4&gt; installed in their context is never used.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T083046Z" creationid="pingfangx" creationdate="20220406T082946Z">
+        <seg>特别是，所有 &lt;e2&gt;子&lt;/e2&gt; 协程(在另一个 &lt;a3&gt;Job&lt;/a3&gt; 的上下文中创建的协程)都将其异常的处理委托给父协程，父协程也会委托给父协程，依此类推，直到根协程，因此永远不会使用在其上下文中安装的 &lt;c4&gt;CoroutineExceptionHandler&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In practice, pipelines do involve some other suspending invocations (like asynchronous calls to remote services) and these pipelines cannot be built using &lt;c0&gt;sequence&lt;/c0&gt;/&lt;c1&gt;iterator&lt;/c1&gt;, because they do not allow arbitrary suspension, unlike &lt;c2&gt;produce&lt;/c2&gt;, which is fully asynchronous.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053550Z" creationid="pingfangx" creationdate="20220402T053355Z">
+        <seg>在实践中，管道确实涉及一些其他挂起调用(比如对远程服务的异步调用)，这些管道不能使用 &lt;c0&gt;sequence&lt;/c0&gt;/&lt;c1&gt;iterator&lt;/c1&gt; 构建，因为它们不允许任意挂起，而 &lt;c2&gt;produce&lt;/c2&gt; 是完全异步的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In practice, thread confinement is performed in large chunks, e.g. big pieces of state-updating business logic are confined to the single thread.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T063850Z" creationid="pingfangx" creationdate="20220407T063733Z">
+        <seg>实践中，线程限制是在大块中执行的，例如，状态更新业务逻辑的大块被限制在单个线程中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the &lt;b0&gt;Coroutines&lt;/b0&gt; tab, you can see that there are two coroutines running concurrently.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081325Z" creationid="pingfangx" creationdate="20220407T081325Z">
+        <seg>在 &lt;b0&gt;Coroutines&lt;/b0&gt; 选项卡中，您可以看到有两个协程同时运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the case of a simple counter we can use &lt;c0&gt;AtomicInteger&lt;/c0&gt; class which has atomic &lt;c1&gt;incrementAndGet&lt;/c1&gt; operations:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062221Z" creationid="pingfangx" creationdate="20220407T062148Z">
+        <seg>在简单计数器的情况下，我们可以使用具有原子 &lt;c1&gt;incrementAndGet&lt;/c1&gt; 运算的 &lt;c0&gt;AtomicInteger&lt;/c0&gt; 类：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the example below, the numbers are just squared:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T024951Z" creationid="pingfangx" creationdate="20220402T024735Z">
+        <seg>在下面的例子中，仅对数字做了平方：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the following example two coroutines "ping" and "pong" are receiving the "ball" object from the shared "table" channel.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T061246Z" creationid="pingfangx" creationdate="20220402T061246Z">
+        <seg>在下面的示例中，两个协程“ping”和“pong”从共享的“table”通道接收“ball”对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In these examples, &lt;a0&gt;CoroutineExceptionHandler&lt;/a0&gt; is always installed to a coroutine that is created in &lt;a1&gt;GlobalScope&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085002Z" creationid="pingfangx" creationdate="20220406T084948Z">
+        <seg>在这些示例中，&lt;a0&gt;CoroutineExceptionHandler&lt;/a0&gt; 始终安装到在 &lt;a1&gt;GlobalScope&lt;/a1&gt; 中创建的协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this example, they just print their id and received number:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053804Z" creationid="pingfangx" creationdate="20220402T053747Z">
+        <seg>在本例中，他们只需打印自己的 id 和收到的数字：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Indeed, actors may modify their own private state, but can only affect each other through messages (avoiding the need for any locks).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T070440Z" creationid="pingfangx" creationdate="20220407T070423Z">
+        <seg>实际上，actor 可以修改自己的私有状态，但只能通过消息相互影响(避免任何锁的需要)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instead of &lt;a0&gt;coroutineScope&lt;/a0&gt;, we can use &lt;a1&gt;supervisorScope&lt;/a1&gt; for &lt;e2&gt;scoped&lt;/e2&gt; concurrency.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095531Z" creationid="pingfangx" creationdate="20220406T095419Z">
+        <seg>我们可以使用 &lt;a1&gt;supervisorScope&lt;/a1&gt; 来实现 &lt;e2&gt;scoped (作用域)&lt;/e2&gt; 并发，而不用 &lt;a0&gt;coroutineScope&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It also waits for all children before completion just like &lt;a3&gt;coroutineScope&lt;/a3&gt; does.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095634Z" creationid="pingfangx" creationdate="20220406T095550Z">
+        <seg>它也会像 &lt;a3&gt;coroutineScope&lt;/a3&gt; 一样等待所有子协程完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It can be demonstrated by a simple example that creates root coroutines using the &lt;a0&gt;GlobalScope&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T074508Z" creationid="pingfangx" creationdate="20220406T074448Z">
+        <seg>可以通过一个简单的示例来演示，该示例使用 &lt;a0&gt;GlobalScope&lt;/a0&gt; 创建根协程：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It contains a number of high-level coroutine-enabled primitives that this guide covers, including &lt;c1&gt;launch&lt;/c1&gt;, &lt;c2&gt;async&lt;/c2&gt; and others.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T062439Z" creationid="pingfangx" creationdate="20220408T062419Z">
+        <seg>它包含本指南涵盖的许多高级的协程启用原语，包括 &lt;c1&gt;launch&lt;/c1&gt;，&lt;c2&gt;async&lt;/c2&gt; 等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It does not block a thread.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064242Z" creationid="pingfangx" creationdate="20220407T064242Z">
+        <seg>它不会阻塞线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It does not make sense to install an exception handler to a coroutine that is launched in the scope of the main &lt;a2&gt;runBlocking&lt;/a2&gt;, since the main coroutine is going to be always cancelled when its child completes with exception despite the installed handler.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085037Z" creationid="pingfangx" creationdate="20220406T085017Z">
+        <seg>将异常处理程序安装到在主 &lt;a2&gt;runBlocking&lt;/a2&gt; 作用域内启动的协程中是没有意义的，因为尽管安装了异常处理程序，但当其子进程异常完成时，主协程总是会被取消。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It does not matter (for correctness) what context the actor itself is executed in.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T070337Z" creationid="pingfangx" creationdate="20220407T070326Z">
+        <seg>(对于正确性)actor 本身在什么环境中执行并不重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It has &lt;a4&gt;lock&lt;/a4&gt; and &lt;a5&gt;unlock&lt;/a5&gt; functions to delimit a critical section.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064228Z" creationid="pingfangx" creationdate="20220407T064206Z">
+        <seg>它有 &lt;a4&gt;lock&lt;/a4&gt; 和 &lt;a5&gt;unlock&lt;/a5&gt; 函数来划分关键区域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is easy to apply with coroutines by using a&lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062808Z" creationid="pingfangx" creationdate="20220407T062645Z">
+        <seg>在协程中应用很简单，只需使用 &lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is highly unlikely to ever print "Counter = 100000", because a hundred coroutines increment the &lt;c0&gt;counter&lt;/c0&gt; concurrently from multiple threads without any synchronization.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060700Z" creationid="pingfangx" creationdate="20220407T060614Z">
+        <seg>打印“Counter=100000”的可能性很小，因为一百个协程同时从多个线程递增 &lt;c0&gt;counter&lt;/c0&gt;，而没有任何同步。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is possible to customize the default behavior of printing &lt;b0&gt;uncaught&lt;/b0&gt; exceptions to the console.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T075953Z" creationid="pingfangx" creationdate="20220406T075915Z">
+        <seg>可以自定义将 &lt;b0&gt;uncaught&lt;/b0&gt; 异常打印到控制台的默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is similar to &lt;a4&gt;&lt;c5&gt;Thread.uncaughtExceptionHandler&lt;/c5&gt;&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T080140Z" creationid="pingfangx" creationdate="20220406T080140Z">
+        <seg>它类似于 &lt;a4&gt;&lt;c5&gt;Thread.uncaughtExceptionHandler&lt;/c5&gt;&lt;/a4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is similar to a regular &lt;a1&gt;Job&lt;/a1&gt; with the only exception that cancellation is propagated only downwards.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095217Z" creationid="pingfangx" creationdate="20220406T095158Z">
+        <seg>它类似于常规的 &lt;a1&gt;Job&lt;/a1&gt;，唯一的区别是取消只会向下传播。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is typically used in UI applications, where all UI state is confined to the single event-dispatch/application thread.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062634Z" creationid="pingfangx" creationdate="20220407T062616Z">
+        <seg>它通常用于 UI 应用程序，其中所有 UI 状态都限制于单个事件分派/应用程序线程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It means that coroutines launched directly inside the &lt;a0&gt;supervisorScope&lt;/a0&gt; &lt;e1&gt;do&lt;/e1&gt; use the &lt;a2&gt;CoroutineExceptionHandler&lt;/a2&gt; that is installed in their scope in the same way as root coroutines do (see the &lt;a3&gt;CoroutineExceptionHandler&lt;/a3&gt; section for details).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T100209Z" creationid="pingfangx" creationdate="20220406T100008Z">
+        <seg>这意味着直接在 &lt;a0&gt;supervisorScope&lt;/a0&gt; 内 launch 的协程，&lt;e1&gt;会&lt;/e1&gt;使用安装在其作用域内的 &lt;a2&gt;CoroutineExceptionHandler&lt;/a2&gt;，与根协程相同(有关详细信息，请参阅 &lt;a3&gt;CoroutineExceptionHandler&lt;/a3&gt; 部分)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It presents all the usual parallelism problems.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060210Z" creationid="pingfangx" creationdate="20220407T060200Z">
+        <seg>它表现了所有常见的并行性问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It prints "sending" &lt;e0&gt;five&lt;/e0&gt; times using a buffered channel with capacity of &lt;e1&gt;four&lt;/e1&gt;:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T060738Z" creationid="pingfangx" creationdate="20220402T060650Z">
+        <seg>使用容量为四个的缓冲通道时，打印了 &lt;e0&gt;5&lt;/e0&gt; 次“sending”：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It prints following lines:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T063042Z" creationid="pingfangx" creationdate="20220402T063041Z">
+        <seg>它打印以下行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It propagates the cancellation in one direction only and cancels all its children only if it failed itself.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095538Z" creationid="pingfangx" creationdate="20220406T095538Z">
+        <seg>它只在一个方向上传播取消，并且仅在自身失败时才取消其所有子项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It shows that there are three coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080028Z" creationid="pingfangx" creationdate="20220407T080027Z">
+        <seg>它显示有三个协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It suspends the coroutine for 100 ms without blocking the thread.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080648Z" creationid="pingfangx" creationdate="20220407T080647Z">
+        <seg>它会在不阻塞线程的情况下挂起协程 100 毫秒。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It suspends the coroutine for 300 ms without blocking the thread.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080910Z" creationid="pingfangx" creationdate="20220407T080909Z">
+        <seg>它会在不阻塞线程的情况下挂起协程 300 毫秒。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It works for plain counters, collections, queues and other standard data structures and basic operations on them.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062303Z" creationid="pingfangx" creationdate="20220407T062302Z">
+        <seg>它适用于普通计数器、集合、队列和其他标准数据结构，以及对它们的基本操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Kotlin's &lt;a0&gt;sealed classes&lt;/a0&gt; are well suited for that purpose.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065501Z" creationid="pingfangx" creationdate="20220407T065501Z">
+        <seg>Kotlin 的 &lt;a0&gt;sealed classes&lt;/a0&gt; 非常适合这一目的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Kotlin, as a language, provides only minimal low-level APIs in its standard library to enable various other libraries to utilize coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T062232Z" creationid="pingfangx" creationdate="20220408T062213Z">
+        <seg>Kotlin 作为一门语言，在其标准库中只提供最低限度的低级 API，以使其他各种库能够利用协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let us launch a hundred coroutines all doing the same action a thousand times.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060428Z" creationid="pingfangx" creationdate="20220407T060416Z">
+        <seg>让我们启动 100 个协程，所有这些协程都执行相同的操作 1000 次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let us start with a producer coroutine that is periodically producing integers (ten numbers per second):</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053712Z" creationid="pingfangx" creationdate="20220402T053712Z">
+        <seg>让我们从周期性地产生整数(每秒十个数字)的生产者协程开始：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let us take a look at the case when unidirectional cancellation is required.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T091248Z" creationid="pingfangx" creationdate="20220406T091247Z">
+        <seg>让我们看看需要单向取消的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let us try it:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060753Z" creationid="pingfangx" creationdate="20220407T060742Z">
+        <seg>让我们试一下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's take pipelines to the extreme with an example that generates prime numbers using a pipeline of coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T034600Z" creationid="pingfangx" creationdate="20220402T034456Z">
+        <seg>让我们用一个例子来将管道发挥到极致，这个例子使用一系列协程生成质数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Moreover, Kotlin's concept of &lt;e2&gt;suspending function&lt;/e2&gt; provides a safer and less error-prone abstraction for asynchronous operations than futures and promises.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T062340Z" creationid="pingfangx" creationdate="20220408T062250Z">
+        <seg>此外，Kotlin 的 &lt;e2&gt;挂起函数&lt;/e2&gt; 的概念为异步操作提供了一种比 future 和 promise 更安全、更不容易出错的抽象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Multiple coroutines may receive from the same channel, distributing work between themselves.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053657Z" creationid="pingfangx" creationdate="20220402T053656Z">
+        <seg>多个协程可以从同一个通道接收，在它们之间分配工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Multiple coroutines may send to the same channel.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T055053Z" creationid="pingfangx" creationdate="20220402T055052Z">
+        <seg>多个协程可以发送到同一个通道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Mutual exclusion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064151Z" creationid="pingfangx" creationdate="20220407T064151Z">
+        <seg>互斥</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Mutual exclusion solution to the problem is to protect all modifications of the shared state with a &lt;e0&gt;critical section&lt;/e0&gt; that is never executed concurrently.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064053Z" creationid="pingfangx" creationdate="20220407T064053Z">
+        <seg>该问题的互斥解决方案是保护共享状态的所有修改，使其具有一个决不会同时执行的 &lt;e0&gt;critical section (关键部分)&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Normally, the handler is used to log the exception, show some kind of error message, terminate, and/or restart the application.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T080257Z" creationid="pingfangx" creationdate="20220406T080257Z">
+        <seg>通常，处理程序用于记录异常、显示某种错误消息、终止和/或重新启动应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note that &lt;a0&gt;ticker&lt;/a0&gt; is aware of possible consumer pauses and, by default, adjusts next produced element delay if a pause occurs, trying to maintain a fixed rate of produced elements.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T063126Z" creationid="pingfangx" creationdate="20220402T063126Z">
+        <seg>请注意，&lt;a0&gt;ticker&lt;/a0&gt; 知道可能的消费者暂停，并且默认情况下，如果暂停发生，会调整下一个生产的元素延迟，试图保持生产元素的固定速率。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note that an &lt;a0&gt;actor&lt;/a0&gt; coroutine builder is a dual of &lt;a1&gt;produce&lt;/a1&gt; coroutine builder.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T071011Z" creationid="pingfangx" creationdate="20220407T070519Z">
+        <seg>请注意，&lt;a0&gt;actor&lt;/a0&gt; 协程构建器是 &lt;a1&gt;produce&lt;/a1&gt; 协程构建器的对偶（译注：a dual of）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note that cancelling a producer coroutine closes its channel, thus eventually terminating iteration over the channel that processor coroutines are doing.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T054626Z" creationid="pingfangx" creationdate="20220402T054625Z">
+        <seg>请注意，取消生产者协程将关闭其通道，从而最终终止处理器协程正在进行的通道上的迭代。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note that sometimes channels may produce executions that look unfair due to the nature of the executor that is being used.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T061709Z" creationid="pingfangx" creationdate="20220402T061707Z">
+        <seg>请注意，由于所使用的执行者的性质，有时通道可能会产生看起来不公平的执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note that this mechanism currently only works on Java version 1.7+.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085929Z" creationid="pingfangx" creationdate="20220406T085925Z">
+        <seg>请注意，这种机制目前仅适用于 Java 1.7+ 版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note that you can build the same pipeline using &lt;a0&gt;&lt;c1&gt;iterator&lt;/c1&gt;&lt;/a0&gt; coroutine builder from the standard library.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053009Z" creationid="pingfangx" creationdate="20220402T052904Z">
+        <seg>请注意，你可以使用标准库的 &lt;a0&gt;&lt;c1&gt;iterator&lt;/c1&gt;&lt;/a0&gt; 协程构建器来构建相同的管道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note: This above code will work properly only on JDK7+ that supports &lt;c0&gt;suppressed&lt;/c0&gt; exceptions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085921Z" creationid="pingfangx" creationdate="20220406T085715Z">
+        <seg>注意：上述代码仅在支持 &lt;c0&gt;suppressed&lt;/c0&gt; 异常的 JDK7+ 上正常工作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now let us launch five processors and let them work for almost a second.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T054515Z" creationid="pingfangx" creationdate="20220402T053808Z">
+        <seg>现在让我们启动五个处理器，让它们工作近一秒钟。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now let's see how it works in practice:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T063032Z" creationid="pingfangx" creationdate="20220402T063031Z">
+        <seg>现在让我们看看它在实践中是如何工作的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now the &lt;b0&gt;Coroutines&lt;/b0&gt; tab shows the following:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080148Z" creationid="pingfangx" creationdate="20220407T080148Z">
+        <seg>现在，&lt;b0&gt;Coroutines&lt;/b0&gt; 选项卡显示以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now the collector coroutine has the &lt;b0&gt;RUNNING&lt;/b0&gt; status, while the emitter coroutine has the &lt;b1&gt;SUSPENDED&lt;/b1&gt; status.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081451Z" creationid="pingfangx" creationdate="20220407T081451Z">
+        <seg>现在收集器协程的状态为 &lt;b0&gt;RUNNING&lt;/b0&gt;，而发射器协程的状态为 &lt;b1&gt;SUSPENDED&lt;/b1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now the flow emits the second value.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081041Z" creationid="pingfangx" creationdate="20220407T081040Z">
+        <seg>现在，流将发出第二个值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now we build our pipeline by starting a stream of numbers from 2, taking a prime number from the current channel, and launching new pipeline stage for each prime number found:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T034908Z" creationid="pingfangx" creationdate="20220402T034906Z">
+        <seg>现在，我们通过从 2 开始一系列数字，从当前通道中获取一个质数，并为找到的每个质数启动新的管道阶段来构建管道：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now, let us see what happens if we launch a couple of coroutines sending strings (in this example we launch them in the context of the main thread as main coroutine's children):</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T055653Z" creationid="pingfangx" creationdate="20220402T055511Z">
+        <seg>现在，让我们看一下如果我们启动几个发送字符串的协程会发生什么(在本例中，我们在主线程的上下文中作为主协程的子协程来启动它们)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>On the receiver side it is convenient to use a regular &lt;c0&gt;for&lt;/c0&gt; loop to receive elements from the channel.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T014721Z" creationid="pingfangx" creationdate="20220402T014609Z">
+        <seg>在接收端，可以方便地使用常规的 &lt;c0&gt;for&lt;/c0&gt; 循环来接收来自通道的元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One key difference is that instead of a blocking &lt;c2&gt;put&lt;/c2&gt; operation it has a suspending &lt;a3&gt;send&lt;/a3&gt;, and instead of a blocking &lt;c4&gt;take&lt;/c4&gt; operation it has a suspending &lt;a5&gt;receive&lt;/a5&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220401T093636Z" creationid="pingfangx" creationdate="20220401T093510Z">
+        <seg>一个关键区别是，它没有阻塞的 &lt;c2&gt;put&lt;/c2&gt; 操作，而是提供挂起的 &lt;a3&gt;send&lt;/a3&gt;，没有阻塞的 &lt;c4&gt;take&lt;/c4&gt; 操作，而是提供挂起的 &lt;a5&gt;receive&lt;/a5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open a Kotlin project in IntelliJ IDEA.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075606Z" creationid="pingfangx" creationdate="20220407T075558Z">
+        <seg>在 IntelliJ IDEA 中打开一个 Kotlin 项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the &lt;c0&gt;main.kt&lt;/c0&gt; file in &lt;c1&gt;src/main/kotlin&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075637Z" creationid="pingfangx" creationdate="20220407T075626Z">
+        <seg>打开位于 &lt;c1&gt;src/main/kotlin&lt;/c1&gt; 中的 &lt;c0&gt;main.kt&lt;/c0&gt; 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Optionally, a &lt;c0&gt;mode&lt;/c0&gt; parameter equal to &lt;a1&gt;TickerMode.FIXED_DELAY&lt;/a1&gt; can be specified to maintain a fixed delay between elements.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T063213Z" creationid="pingfangx" creationdate="20220402T063144Z">
+        <seg>可选地，指定一个等于 &lt;a1&gt;TickerMode.FIXED_DELAY&lt;/a1&gt; 的 &lt;c0&gt;mode&lt;/c0&gt; 参数来保持元素之间的固定延迟。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Pipelines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T023821Z" creationid="pingfangx" creationdate="20220402T023821Z">
+        <seg>管道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Prime numbers with pipeline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T030100Z" creationid="pingfangx" creationdate="20220402T030028Z">
+        <seg>使用管道的质数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Print the collected value from the flow using the &lt;a0&gt;&lt;c1&gt;println()&lt;/c1&gt;&lt;/a0&gt; function.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080917Z" creationid="pingfangx" creationdate="20220407T080917Z">
+        <seg>使用 &lt;a0&gt;&lt;c1&gt;println()&lt;/c1&gt;&lt;/a0&gt; 函数打印从流中收集的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Produce the values in the &lt;c0&gt;for&lt;/c0&gt; loop using the &lt;a1&gt;&lt;c2&gt;emit()&lt;/c2&gt;&lt;/a1&gt; function.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080749Z" creationid="pingfangx" creationdate="20220407T080658Z">
+        <seg>使用 &lt;a1&gt;&lt;c2&gt;emit()&lt;/c2&gt;&lt;/a1&gt; 函数在 &lt;c0&gt;for&lt;/c0&gt; 循环中产生值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Replace &lt;c2&gt;produce&lt;/c2&gt; with &lt;c3&gt;iterator&lt;/c3&gt;, &lt;c4&gt;send&lt;/c4&gt; with &lt;c5&gt;yield&lt;/c5&gt;, &lt;c6&gt;receive&lt;/c6&gt; with &lt;c7&gt;next&lt;/c7&gt;, &lt;c8&gt;ReceiveChannel&lt;/c8&gt; with &lt;c9&gt;Iterator&lt;/c9&gt;, and get rid of the coroutine scope.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053129Z" creationid="pingfangx" creationdate="20220402T053017Z">
+        <seg>将 &lt;c2&gt;produce&lt;/c2&gt; 替换为 &lt;c3&gt;iterator&lt;/c3&gt;，&lt;c4&gt;send&lt;/c4&gt; 替换为 &lt;c5&gt;yield&lt;/c5&gt;，&lt;c6&gt;receive&lt;/c6&gt; 替换为 &lt;c7&gt;next&lt;/c7&gt;，&lt;c8&gt;ReceiveChannel&lt;/c8&gt; 替换为 &lt;c9&gt;Iterator&lt;/c9&gt;，并摆脱协程作用域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Resume the debugger session by clicking &lt;b0&gt;Resume Program&lt;/b0&gt; in the &lt;b1&gt;Debug&lt;/b1&gt; tool window.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081026Z" creationid="pingfangx" creationdate="20220407T081026Z">
+        <seg>通过单击 &lt;b1&gt;Debug&lt;/b1&gt; 工具窗口中的 &lt;b0&gt;Resume Program&lt;/b0&gt; 来继续调试器会话。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Resume the debugger session by clicking &lt;b0&gt;Resume Program&lt;/b0&gt; in the &lt;b1&gt;Debug&lt;/b1&gt; tool window:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080145Z" creationid="pingfangx" creationdate="20220407T080059Z">
+        <seg>通过单击 &lt;b1&gt;Debug&lt;/b1&gt; 工具窗口中的 &lt;b0&gt;Resume Program&lt;/b0&gt; 来继续调试器会话：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Run the code in debug mode by clicking &lt;b0&gt;Debug&lt;/b0&gt; next to the run configuration at the top of the screen.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075919Z" creationid="pingfangx" creationdate="20220407T075859Z">
+        <seg>在调试模式下运行代码，方法是单击屏幕顶部运行配置旁边的 &lt;b0&gt;Debug&lt;/b0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See &lt;a0&gt;this issue&lt;/a0&gt; for details.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T061739Z" creationid="pingfangx" creationdate="20220402T061729Z">
+        <seg>有关详细信息，请参阅 &lt;a0&gt;该 issue&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See what happens:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053827Z" creationid="pingfangx" creationdate="20220402T053827Z">
+        <seg>看看会发生什么：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Send and receive operations to channels are &lt;e0&gt;fair&lt;/e0&gt; with respect to the order of their invocation from multiple coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T061142Z" creationid="pingfangx" creationdate="20220402T061052Z">
+        <seg>就多个协程调用通道的顺序而言，通道的发送和接收操作是 &lt;e0&gt;公平的&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set a breakpoint at the line where the &lt;c0&gt;emit()&lt;/c0&gt; function is called:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080939Z" creationid="pingfangx" creationdate="20220407T080938Z">
+        <seg>在调用 &lt;c0&gt;emit()&lt;/c0&gt; 函数的行上设置断点：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set a new breakpoint at &lt;c0&gt;println(value)&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081254Z" creationid="pingfangx" creationdate="20220407T081249Z">
+        <seg>在 &lt;c0&gt;println(value)&lt;/c0&gt; 上设置新的断点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set breakpoints at the lines with the &lt;c0&gt;println()&lt;/c0&gt; function call:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075843Z" creationid="pingfangx" creationdate="20220407T075825Z">
+        <seg>在带有 &lt;c0&gt;println()&lt;/c0&gt; 函数调用的行上设置断点：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shared mutable state and concurrency</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060130Z" creationid="pingfangx" creationdate="20220407T060130Z">
+        <seg>共享可变状态和并发性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Since all the coroutines are launched in the scope of the main &lt;a0&gt;runBlocking&lt;/a0&gt; coroutine we don't have to keep an explicit list of all the coroutines we have started.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T035120Z" creationid="pingfangx" creationdate="20220402T035003Z">
+        <seg>因为所有的协程都是在主 &lt;a0&gt;runBlocking&lt;/a0&gt; 协程的范围内启动的，所以我们不必保留一个明确的列表来保存我们已经启动的所有协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some solutions to this problem in the land of coroutines are similar to the solutions in the multi-threaded world, but others are unique.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060407Z" creationid="pingfangx" creationdate="20220407T060349Z">
+        <seg>在协程领域，这个问题的一些解决方案与多线程世界中的解决方案类似，但其他一些解决方案是独一无二的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Table of contents</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T062806Z" creationid="pingfangx" creationdate="20220408T062806Z">
+        <seg>目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Take a look at the behavior of the following code:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T060604Z" creationid="pingfangx" creationdate="20220402T060558Z">
+        <seg>看一下以下代码的行为：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The "ping" coroutine is started first, so it is the first one to receive the ball.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T061611Z" creationid="pingfangx" creationdate="20220402T061554Z">
+        <seg>“ping”协程先开始，所以它是第一个接到球的人。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;a0&gt;SupervisorJob&lt;/a0&gt; can be used for these purposes.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095150Z" creationid="pingfangx" creationdate="20220406T095149Z">
+        <seg>&lt;a0&gt;SupervisorJob&lt;/a0&gt; 可用于这些目的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;b0&gt;Coroutines&lt;/b0&gt; tab contains information on running or suspended coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080020Z" creationid="pingfangx" creationdate="20220407T080019Z">
+        <seg>&lt;b0&gt;Coroutines&lt;/b0&gt; 选项卡包含有关正在运行或挂起的协程的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;b0&gt;Debug&lt;/b0&gt; tool window appears.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081320Z" creationid="pingfangx" creationdate="20220407T081320Z">
+        <seg>出现 &lt;b0&gt;Debug&lt;/b0&gt; 工具窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;b0&gt;Debug&lt;/b0&gt; tool window appears:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075936Z" creationid="pingfangx" creationdate="20220407T075936Z">
+        <seg>出现 &lt;b0&gt;Debug&lt;/b0&gt; 工具窗口：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;b0&gt;Frames&lt;/b0&gt; tab contains the call stack.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075954Z" creationid="pingfangx" creationdate="20220407T075941Z">
+        <seg>&lt;b0&gt;Frames&lt;/b0&gt; 选项卡包含调用栈。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;b0&gt;Variables&lt;/b0&gt; tab contains variables in the current context.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080000Z" creationid="pingfangx" creationdate="20220407T080000Z">
+        <seg>&lt;b0&gt;Variables&lt;/b0&gt; 选项卡包含当前上下文中的变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;c0&gt;src&lt;/c0&gt; directory contains Kotlin source files and resources.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075640Z" creationid="pingfangx" creationdate="20220407T075640Z">
+        <seg>&lt;c0&gt;src&lt;/c0&gt; 目录包含 kotlin 源文件和资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;c1&gt;main.kt&lt;/c1&gt; file contains sample code that will print &lt;c2&gt;Hello World!&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075646Z" creationid="pingfangx" creationdate="20220407T075646Z">
+        <seg>&lt;c1&gt;main.kt&lt;/c1&gt; 文件包含将打印 &lt;c2&gt;Hello World!&lt;/c2&gt; 的示例代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;c2&gt;buffer()&lt;/c2&gt; function buffers emitted values from the flow.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081428Z" creationid="pingfangx" creationdate="20220407T081412Z">
+        <seg>&lt;c2&gt;buffer()&lt;/c2&gt; 函数缓冲从流中发出的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The JS and Native restrictions are temporary and will be lifted in the future.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085946Z" creationid="pingfangx" creationdate="20220406T085934Z">
+        <seg>JS 和 Native 限制是暂时的，将在未来取消。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The channels shown so far had no buffer.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T060128Z" creationid="pingfangx" creationdate="20220402T060127Z">
+        <seg>目前显示的通道没有缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The coroutine had already completed with the corresponding exception when the handler is called.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T080232Z" creationid="pingfangx" creationdate="20220406T080232Z">
+        <seg>调用处理程序时，协程已经完成，但出现了相应的异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The emitter coroutine has the &lt;b3&gt;RUNNING&lt;/b3&gt; status, and the collector coroutine has the &lt;b4&gt;SUSPENDED&lt;/b4&gt; status.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081432Z" creationid="pingfangx" creationdate="20220407T081431Z">
+        <seg>发射器协程具有 &lt;b3&gt;RUNNING&lt;/b3&gt; 状态，收集器协程具有 &lt;b4&gt;SUSPENDED&lt;/b4&gt; 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first coroutine has the &lt;b0&gt;SUSPENDED&lt;/b0&gt; status – it is waiting for the values so it can multiply them.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080224Z" creationid="pingfangx" creationdate="20220407T080209Z">
+        <seg>第一个协程的状态为 &lt;b0&gt;SUSPENDED&lt;/b0&gt;，它正在等待值，以便将它们相乘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first four elements are added to the buffer and the sender suspends when trying to send the fifth one.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T060939Z" creationid="pingfangx" creationdate="20220402T060757Z">
+        <seg>前四个元素被添加到缓冲区中，发送者在尝试发送第五个元素时挂起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first one has the &lt;b1&gt;RUNNING&lt;/b1&gt; status, and the other two have the &lt;b2&gt;CREATED&lt;/b2&gt; status.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080056Z" creationid="pingfangx" creationdate="20220407T080040Z">
+        <seg>第一个具有 &lt;b1&gt;RUNNING&lt;/b1&gt; 状态，另外两个具有 &lt;b2&gt;CREATED&lt;/b2&gt; 状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first step of using an actor is to define a class of messages that an actor is going to process.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065459Z" creationid="pingfangx" creationdate="20220407T065440Z">
+        <seg>使用 actor 的第一步是定义 actor 将要处理的一类消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The flow collector and emitter run in separate coroutines because of the &lt;c1&gt;buffer()&lt;/c1&gt; function.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081410Z" creationid="pingfangx" creationdate="20220407T081340Z">
+        <seg>由于使用了 &lt;c1&gt;buffer()&lt;/c1&gt; 函数，流收集器和发射器在单独的协程中运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following example does it like that, running each coroutine in the single-threaded context to start with.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T063749Z" creationid="pingfangx" creationdate="20220407T063749Z">
+        <seg>下面的示例就是这样做的，首先在单线程上下文中运行每个协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following example prints the first ten prime numbers, running the whole pipeline in the context of the main thread.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T034949Z" creationid="pingfangx" creationdate="20220402T034948Z">
+        <seg>下面的示例打印前十个质数，在主线程的上下文中运行整个管道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following pipeline stage filters an incoming stream of numbers, removing all the numbers that are divisible by the given prime number:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T034714Z" creationid="pingfangx" creationdate="20220402T034713Z">
+        <seg>以下管道阶段过滤传入的数字流，删除可被给定质数整除的所有数字：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The general solution that works both for threads and for coroutines is to use a thread-safe (aka synchronized, linearizable, or atomic) data structure that provides all the necessary synchronization for the corresponding operations that needs to be performed on a shared state.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062141Z" creationid="pingfangx" creationdate="20220407T062109Z">
+        <seg>适用于线程和协程的一般解决方案是使用线程安全(也称为同步、线性化或原子)的数据结构，为需要在共享状态下执行的相应操作提供所有必要的同步。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The iteration stops as soon as this close token is received, so there is a guarantee that all previously sent elements before the close are received:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T015457Z" creationid="pingfangx" creationdate="20220402T015042Z">
+        <seg>接收到此 close 指令时，迭代会停止，因此可以保证 close 之前发送的所有元素都能被接收到：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The key difference is that &lt;c6&gt;Mutex.lock()&lt;/c6&gt; is a suspending function.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064241Z" creationid="pingfangx" creationdate="20220407T064232Z">
+        <seg>主要关键在于 &lt;c6&gt;Mutex.lock()&lt;/c6&gt; 是一个挂起函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The latter needs to send a response.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065555Z" creationid="pingfangx" creationdate="20220407T065549Z">
+        <seg>后者需要发送响应。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The locking in this example is fine-grained, so it pays the price.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064652Z" creationid="pingfangx" creationdate="20220407T064626Z">
+        <seg>本例中的锁定是细粒度的，因此需要付出代价（译注：指耗时较长）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The main code is straightforward:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065844Z" creationid="pingfangx" creationdate="20220407T065842Z">
+        <seg>主要代码很简单：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The main code starts and connects the whole pipeline:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T025935Z" creationid="pingfangx" creationdate="20220402T025008Z">
+        <seg>主代码启动并连接整个管道：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The main problem being synchronization of access to &lt;b1&gt;shared mutable state&lt;/b1&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060335Z" creationid="pingfangx" creationdate="20220407T060308Z">
+        <seg>主要问题是对 &lt;b1&gt;共享可变状态&lt;/b1&gt; 的访问同步。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The original exception is handled by the parent only when all its children terminate, which is demonstrated by the following example.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085114Z" creationid="pingfangx" creationdate="20220406T085045Z">
+        <seg>只有当父协程的所有子协程终止时，父协程才会处理原始异常，下面的示例演示了这一点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The output is:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T055703Z" creationid="pingfangx" creationdate="20220402T055703Z">
+        <seg>输出为：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The output of this code is (with &lt;a0&gt;debug&lt;/a0&gt;):</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T075837Z" creationid="pingfangx" creationdate="20220406T075837Z">
+        <seg>此代码的输出是(使用 &lt;a0&gt;debug&lt;/a0&gt;)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The output of this code is:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220401T093711Z" creationid="pingfangx" creationdate="20220401T093710Z">
+        <seg>此代码的输出是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The output will be similar to the the following one, albeit the processor ids that receive each specific integer may be different:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T054611Z" creationid="pingfangx" creationdate="20220402T054522Z">
+        <seg>虽然接收每个特定整数的处理器 id 可能不同，但输出将类似于以下输出：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The pattern where a coroutine is producing a sequence of elements is quite common.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T021207Z" creationid="pingfangx" creationdate="20220402T020450Z">
+        <seg>协程生成一系列元素的模式非常常见。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The problem</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060408Z" creationid="pingfangx" creationdate="20220407T060408Z">
+        <seg>问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The program stops at the same breakpoint.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081031Z" creationid="pingfangx" creationdate="20220407T081028Z">
+        <seg>程序在同一断点处停止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The second coroutine has computed its value and disappeared.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080328Z" creationid="pingfangx" creationdate="20220407T080327Z">
+        <seg>第二个协程计算了它的值，然后消失了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The second coroutine is calculating the &lt;c0&gt;a&lt;/c0&gt; value – it has the &lt;b1&gt;RUNNING&lt;/b1&gt; status.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080302Z" creationid="pingfangx" creationdate="20220407T080227Z">
+        <seg>第二个协程正在计算 &lt;c0&gt;a&lt;/c0&gt; 值–它的状态为 &lt;b1&gt;RUNNING&lt;/b1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The third coroutine has the &lt;b0&gt;CREATED&lt;/b0&gt; status and isn’t calculating the value of &lt;c1&gt;b&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080307Z" creationid="pingfangx" creationdate="20220407T080306Z">
+        <seg>第三个协程有 &lt;b0&gt;CREATED&lt;/b0&gt; 状态，并且没有计算 &lt;c1&gt;b&lt;/c1&gt; 的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The third coroutine is calculating the value of &lt;c0&gt;b&lt;/c0&gt; – it has the &lt;b1&gt;RUNNING&lt;/b1&gt; status.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080424Z" creationid="pingfangx" creationdate="20220407T080336Z">
+        <seg>第三个协程正在计算 &lt;c0&gt;b&lt;/c0&gt;–它的状态为 &lt;b1&gt;RUNNING&lt;/b1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The tutorial assumes you have prior knowledge of the &lt;a0&gt;coroutines&lt;/a0&gt; and &lt;a1&gt;Kotlin Flow&lt;/a1&gt; concepts.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080533Z" creationid="pingfangx" creationdate="20220407T080513Z">
+        <seg>本教程假设你已事先了解了 &lt;a0&gt;coroutines&lt;/a0&gt; 和 &lt;a1&gt;Kotlin Flow&lt;/a1&gt; 的概念。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The tutorial assumes you have prior knowledge of the &lt;a0&gt;coroutines&lt;/a0&gt; concept.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075452Z" creationid="pingfangx" creationdate="20220407T075407Z">
+        <seg>本教程假设你已事先了解了 &lt;a0&gt;coroutines&lt;/a0&gt; 的概念。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Then we can have several processor coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053743Z" creationid="pingfangx" creationdate="20220402T053725Z">
+        <seg>然后我们可以有几个处理器协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Then we define a function that launches an actor using an &lt;a0&gt;actor&lt;/a0&gt; coroutine builder:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065840Z" creationid="pingfangx" creationdate="20220407T065821Z">
+        <seg>然后，我们定义一个函数，该函数使用 &lt;a0&gt;actor&lt;/a0&gt; 协程构建器启动 actor：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is a common misconception that making a variable &lt;c0&gt;volatile&lt;/c0&gt; solves concurrency problem.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060740Z" creationid="pingfangx" creationdate="20220407T060723Z">
+        <seg>有一种常见的误解是，将变量设置为 &lt;c0&gt;volatile&lt;/c0&gt; 可以解决并发问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is a convenient coroutine builder named &lt;a0&gt;produce&lt;/a0&gt; that makes it easy to do it right on producer side, and an extension function &lt;a1&gt;consumeEach&lt;/a1&gt;, that replaces a &lt;c2&gt;for&lt;/c2&gt; loop on the consumer side:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T031410Z" creationid="pingfangx" creationdate="20220402T030209Z">
+        <seg>因此为了方便提供一个名为 &lt;a0&gt;produce&lt;/a0&gt; 的协程构建器，可轻松地在生产者端执行，还有一个扩展函数 &lt;a1&gt;consumeEach&lt;/a1&gt;，可在消费者端替换 &lt;c2&gt;for&lt;/c2&gt; 循环：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is also &lt;a0&gt;withLock&lt;/a0&gt; extension function that conveniently represents &lt;c1&gt;mutex.lock(); try { ... } finally { mutex.unlock() }&lt;/c1&gt; pattern:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064341Z" creationid="pingfangx" creationdate="20220407T064319Z">
+        <seg>还有 &lt;a0&gt;withLock&lt;/a0&gt; 扩展函数，可以方便地表示 &lt;c1&gt;mutex.lock(); try { ... } finally { mutex.unlock() }&lt;/c1&gt; 模式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is an &lt;a0&gt;actor&lt;/a0&gt; coroutine builder that conveniently combines actor's mailbox channel into its scope to receive messages from and combines the send channel into the resulting job object, so that a single reference to the actor can be carried around as its handle.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065433Z" creationid="pingfangx" creationdate="20220407T065351Z">
+        <seg>有一个 &lt;a0&gt;actor&lt;/a0&gt; 协程构建器，可以方便地将 actor 的邮箱通道组合到其作用域中，以从中接收消息，并将发送通道组合到生成的作业对象中，这样就可以将对 actor 的单个引用作为其句柄。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They are served in first-in first-out order, e.g. the first coroutine to invoke &lt;c1&gt;receive&lt;/c1&gt; gets the element.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T061230Z" creationid="pingfangx" creationdate="20220402T061152Z">
+        <seg>它们是以先进先出的顺序提供的，例如，调用 &lt;c1&gt;receive&lt;/c1&gt; 的第一个协程获取元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This behaviour cannot be overridden and is used to provide stable coroutines hierarchies for &lt;a1&gt;structured concurrency&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T084827Z" creationid="pingfangx" creationdate="20220406T084716Z">
+        <seg>此行为无法覆盖，其用于为 &lt;a1&gt;structured concurrency&lt;/a1&gt; 提供稳定的协程层次结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This can easily be demonstrated using the following example:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095220Z" creationid="pingfangx" creationdate="20220406T095220Z">
+        <seg>这可以通过以下示例轻松演示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This code works slower, but we still don't get "Counter = 100000" at the end, because volatile variables guarantee linearizable (this is a technical term for "atomic") reads and writes to the corresponding variable, but do not provide atomicity of larger actions (increment in our case).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060947Z" creationid="pingfangx" creationdate="20220407T060906Z">
+        <seg>这段代码运行得比较慢，但我们最终还是没有得到“Counter=100000”，因为 volatile 变量保证对相应变量的读写是线性的(这是“原子”的技术术语)，但不提供更大操作的原子性(在我们的例子中是自增)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This code works very slowly, because it does &lt;e0&gt;fine-grained&lt;/e0&gt; thread-confinement.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T063133Z" creationid="pingfangx" creationdate="20220407T063110Z">
+        <seg>这段代码运行得非常慢，因为它执行 &lt;e0&gt;fine-grained (细粒度)&lt;/e0&gt;的线程限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This difference comes from the fact that child's failure does not propagate to the parent.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T095945Z" creationid="pingfangx" creationdate="20220406T095931Z">
+        <seg>这种差异来自这样一个事实：子协程的失败不会传播给父协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is a guide on core features of &lt;c0&gt;kotlinx.coroutines&lt;/c0&gt; with a series of examples, divided up into different topics.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T062541Z" creationid="pingfangx" creationdate="20220408T062444Z">
+        <seg>这是一份 &lt;c0&gt;kotlinx.coroutines&lt;/c0&gt; 的核心功能的指南，包含一系列示例，分为不同的主题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is a part of &lt;e0&gt;producer-consumer&lt;/e0&gt; pattern that is often found in concurrent code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T021759Z" creationid="pingfangx" creationdate="20220402T021221Z">
+        <seg>这是并发代码中常见的 &lt;e0&gt;producer-consumer (生产者 - 消费者)&lt;/e0&gt; 模式的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is the fastest solution for this particular problem.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062228Z" creationid="pingfangx" creationdate="20220407T062224Z">
+        <seg>这是该特定问题的最快解决方案。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This now works much faster and produces correct result.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T064019Z" creationid="pingfangx" creationdate="20220407T063809Z">
+        <seg>现在，它的工作速度要快得多，并且也会产生正确的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This section covers exception handling and cancellation on exceptions.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T073811Z" creationid="pingfangx" creationdate="20220406T073811Z">
+        <seg>本节介绍异常处理和异常取消。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This tutorial demonstrates how to create Kotlin Flow and debug it using IntelliJ IDEA.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080458Z" creationid="pingfangx" creationdate="20220407T080457Z">
+        <seg>本教程演示如何创建 Kotlin 流，并使用 IntelliJ IDEA 进行调试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This tutorial demonstrates how to create Kotlin coroutines and debug them using IntelliJ IDEA.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075359Z" creationid="pingfangx" creationdate="20220407T075359Z">
+        <seg>本教程演示如何创建 Kotlin 协程，并使用 IntelliJ IDEA 对其进行调试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Though it may seem to be useless standalone, it is a useful building block to create complex time-based &lt;a1&gt;produce&lt;/a1&gt; pipelines and operators that do windowing and other time-dependent processing.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T062817Z" creationid="pingfangx" creationdate="20220402T062535Z">
+        <seg>虽然单独使用它似乎没什么用，但它是一个有用的构建块，可以创建复杂的基于时间的 &lt;a1&gt;生产&lt;/a1&gt; 管道和执行窗口和其他依赖时间的处理的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Thread confinement coarse-grained</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T063330Z" creationid="pingfangx" creationdate="20220407T063244Z">
+        <seg>粗粒度线程限制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Thread confinement fine-grained</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T063339Z" creationid="pingfangx" creationdate="20220407T062335Z">
+        <seg>细粒度线程限制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Thread-safe data structures</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062052Z" creationid="pingfangx" creationdate="20220407T062052Z">
+        <seg>线程安全数据结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ticker channel can be used in &lt;a2&gt;select&lt;/a2&gt; to perform "on tick" action.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T062907Z" creationid="pingfangx" creationdate="20220402T062829Z">
+        <seg>Ticker 通道可以在 &lt;a2&gt;select&lt;/a2&gt; 中执行“on tick”操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ticker channel is a special rendezvous channel that produces &lt;c0&gt;Unit&lt;/c0&gt; every time given delay passes since last consumption from this channel.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T062530Z" creationid="pingfangx" creationdate="20220402T062333Z">
+        <seg>Ticker 通道是一种特殊的会合通道，自上次使用消费该通道以后，每当经过给定的延迟，都会产生 &lt;c0&gt;Unit&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To create such channel use a factory method &lt;a0&gt;ticker&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T063012Z" creationid="pingfangx" creationdate="20220402T063008Z">
+        <seg>要创建这样的通道，请使用工厂方法 &lt;a0&gt;ticker&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To indicate that no further elements are needed use &lt;a1&gt;ReceiveChannel.cancel&lt;/a1&gt; method on it.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T063026Z" creationid="pingfangx" creationdate="20220402T063025Z">
+        <seg>要表示不需要更多元素，请使用 &lt;a1&gt;ReceiveChannel.cancel&lt;/a1&gt; 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unbuffered channels transfer elements when sender and receiver meet each other (aka rendezvous).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T060209Z" creationid="pingfangx" creationdate="20220402T060153Z">
+        <seg>无缓冲信道在发送方和接收方相遇时传输元素(也称为 rendezvous)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unlike &lt;c2&gt;consumeEach&lt;/c2&gt;, this &lt;c3&gt;for&lt;/c3&gt; loop pattern is perfectly safe to use from multiple coroutines.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T054750Z" creationid="pingfangx" creationdate="20220402T054709Z">
+        <seg>与 &lt;c2&gt;consumeEach&lt;/c2&gt; 不同，这个 &lt;c3&gt;for&lt;/c3&gt; 循环模式可以从多个协程中完全安全地使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unlike a queue, a channel can be closed to indicate that no more elements are coming.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T014550Z" creationid="pingfangx" creationdate="20220402T014445Z">
+        <seg>与队列不同，通道可以被关闭，以表明没有更多元素进入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unlike many other languages with similar capabilities, &lt;c0&gt;async&lt;/c0&gt; and &lt;c1&gt;await&lt;/c1&gt; are not keywords in Kotlin and are not even part of its standard library.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T062239Z" creationid="pingfangx" creationdate="20220408T062238Z">
+        <seg>与许多其他具有类似功能的语言不同，&lt;c0&gt;async&lt;/c0&gt; 和 &lt;c1&gt;await&lt;/c1&gt; 在 Kotlin 中不是关键字，甚至不是其标准库的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the &lt;a0&gt;&lt;c1&gt;async()&lt;/c1&gt;&lt;/a0&gt; function to create coroutines that compute deferred values &lt;c2&gt;a&lt;/c2&gt; and &lt;c3&gt;b&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075717Z" creationid="pingfangx" creationdate="20220407T075715Z">
+        <seg>使用 &lt;a0&gt;&lt;c1&gt;async()&lt;/c1&gt;&lt;/a0&gt; 函数创建计算延迟值 &lt;c2&gt;a&lt;/c2&gt; 和 &lt;c3&gt;b&lt;/c3&gt; 的协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the &lt;a0&gt;&lt;c1&gt;await()&lt;/c1&gt;&lt;/a0&gt; function to await the computation result.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075727Z" creationid="pingfangx" creationdate="20220407T075723Z">
+        <seg>使用 &lt;a0&gt;&lt;c1&gt;await()&lt;/c1&gt;&lt;/a0&gt; 函数等待计算结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the &lt;a0&gt;&lt;c1&gt;delay()&lt;/c1&gt;&lt;/a0&gt; function to imitate CPU-consuming blocking code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080900Z" creationid="pingfangx" creationdate="20220407T080625Z">
+        <seg>使用 &lt;a0&gt;&lt;c1&gt;delay()&lt;/c1&gt;&lt;/a0&gt; 函数来模拟消耗 CPU 的阻塞代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the &lt;a0&gt;&lt;c1&gt;delay()&lt;/c1&gt;&lt;/a0&gt; function to imitate CPU-consuming code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T080854Z" creationid="pingfangx" creationdate="20220407T080822Z">
+        <seg>使用 &lt;a0&gt;&lt;c1&gt;delay()&lt;/c1&gt;&lt;/a0&gt; 函数来模拟消耗 CPU 的代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the &lt;a0&gt;&lt;c1&gt;println()&lt;/c1&gt;&lt;/a0&gt; function to print computing status and the result of multiplication to the output.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075744Z" creationid="pingfangx" creationdate="20220407T075744Z">
+        <seg>使用 &lt;a0&gt;&lt;c1&gt;println()&lt;/c1&gt;&lt;/a0&gt; 函数将计算状态和乘法结果打印到输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the &lt;a0&gt;&lt;c1&gt;runBlocking()&lt;/c1&gt;&lt;/a0&gt; block to wrap a coroutine.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T075701Z" creationid="pingfangx" creationdate="20220407T075658Z">
+        <seg>使用 &lt;a0&gt;&lt;c1&gt;runBlocking()&lt;/c1&gt;&lt;/a0&gt; 块包装一个协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using IntelliJ IDEA debugger, you can dig deeper into each coroutine to debug your code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081537Z" creationid="pingfangx" creationdate="20220407T080427Z">
+        <seg>使用 IntelliJ IDEA 调试器，你可以深入每个协程来调试代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Volatiles are of no help</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060718Z" creationid="pingfangx" creationdate="20220407T060718Z">
+        <seg>Volatiles 没有作用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We already know that a cancelled coroutine throws &lt;a0&gt;CancellationException&lt;/a0&gt; in suspension points and that it is ignored by the coroutines' machinery.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T073930Z" creationid="pingfangx" creationdate="20220406T073835Z">
+        <seg>我们已经知道，被取消的协程在挂起点中抛出 &lt;a0&gt;CancellationException&lt;/a0&gt;，并且被协程的机制忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We define &lt;c1&gt;CounterMsg&lt;/c1&gt; sealed class with &lt;c2&gt;IncCounter&lt;/c2&gt; message to increment a counter and &lt;c3&gt;GetCounter&lt;/c3&gt; message to get its value.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T065546Z" creationid="pingfangx" creationdate="20220407T065513Z">
+        <seg>我们定义 &lt;c1&gt;CounterMsg&lt;/c1&gt; 密封类，使用 &lt;c2&gt;IncCounter&lt;/c2&gt; 消息递增计数器，使用 &lt;c3&gt;GetCounter&lt;/c3&gt; 消息获取其值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We start with a very simple action that increments a shared mutable variable using multi-threaded &lt;a0&gt;Dispatchers.Default&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060953Z" creationid="pingfangx" creationdate="20220407T060451Z">
+        <seg>我们从一个非常简单的操作开始，该操作使用多线程 &lt;a0&gt;Dispatchers.Default&lt;/a0&gt;，自增共享可变变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We start with an infinite sequence of numbers.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T034619Z" creationid="pingfangx" creationdate="20220402T034603Z">
+        <seg>我们从一个无限的数字序列开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We use &lt;a1&gt;cancelChildren&lt;/a1&gt; extension function to cancel all the children coroutines after we have printed the first ten prime numbers.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T035144Z" creationid="pingfangx" creationdate="20220402T035144Z">
+        <seg>在打印出前十个质数后，我们使用 &lt;a1&gt;cancelChildren&lt;/a1&gt; 扩展函数来取消所有子进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We'll also measure their completion time for further comparisons:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060433Z" creationid="pingfangx" creationdate="20220407T060432Z">
+        <seg>我们还将测量它们的完成时间，以便进行进一步比较：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>What does it print at the end?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T060551Z" creationid="pingfangx" creationdate="20220407T060540Z">
+        <seg>最后会打印什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When a coroutine is cancelled using &lt;a2&gt;Job.cancel&lt;/a2&gt;, it terminates, but it does not cancel its parent.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T084333Z" creationid="pingfangx" creationdate="20220406T084226Z">
+        <seg>当使用 &lt;a2&gt;Job.cancel&lt;/a2&gt; 取消协程时，它会终止，但不取消其父协程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When multiple children of a coroutine fail with an exception, the general rule is "the first exception wins", so the first exception gets handled.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T085624Z" creationid="pingfangx" creationdate="20220406T085605Z">
+        <seg>当一个协程的多个子协程因异常而失败时，一般规则是“第一个异常获胜”，因此第一个异常得到处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When these builders are used to create a &lt;e4&gt;root&lt;/e4&gt; coroutine, that is not a &lt;e5&gt;child&lt;/e5&gt; of another coroutine, the former builders treat exceptions as &lt;b6&gt;uncaught&lt;/b6&gt; exceptions, similar to Java's &lt;c7&gt;Thread.uncaughtExceptionHandler&lt;/c7&gt;, while the latter are relying on the user to consume the final exception, for example via &lt;a8&gt;await&lt;/a8&gt; or &lt;a9&gt;receive&lt;/a9&gt; (&lt;a10&gt;produce&lt;/a10&gt; and &lt;a11&gt;receive&lt;/a11&gt; are covered in &lt;a12&gt;Channels&lt;/a12&gt; section).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T074429Z" creationid="pingfangx" creationdate="20220406T074240Z">
+        <seg>当这些构建器用于创建一个 &lt;e4&gt;root (根)&lt;/e4&gt; 协程，而不是另一个协程的子 &lt;e5&gt;子协程&lt;/e5&gt; 时，前者的构建器将异常视为 &lt;b6&gt;uncaught&lt;/b6&gt; 异常，类似于 Java 的 &lt;c7&gt;Thread.uncaughtExceptionHandler&lt;/c7&gt;，而后者则依赖于用户消费最终的异常，例如通过 &lt;a8&gt;await&lt;/a8&gt; 或 &lt;a9&gt;receive&lt;/a9&gt;(&lt;a10&gt;produce&lt;/a10&gt; 和 &lt;a11&gt;receive&lt;/a11&gt; 在 &lt;a12&gt;Channels&lt;/a12&gt; 部分中介绍)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can dig deeper into each coroutine to debug your code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T081533Z" creationid="pingfangx" creationdate="20220407T081459Z">
+        <seg>你可以深入每个协程来调试代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can get the full code &lt;a0&gt;here&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T023745Z" creationid="pingfangx" creationdate="20220402T020200Z">
+        <seg>你可以在 &lt;a0&gt;这里&lt;/a0&gt; 获取完整代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You cannot recover from the exception in the &lt;c6&gt;CoroutineExceptionHandler&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220406T080225Z" creationid="pingfangx" creationdate="20220406T080214Z">
+        <seg>无法从 &lt;c6&gt;CoroutineExceptionHandler&lt;/c6&gt; 中的异常中恢复。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You could abstract such a producer into a function that takes channel as its parameter, but this goes contrary to common sense that results must be returned from functions.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T023657Z" creationid="pingfangx" creationdate="20220402T022039Z">
+        <seg>你可以将这样一个生产者抽象为一个以通道为参数的函数，但这违背了必须从函数返回结果的常识。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will not need &lt;c10&gt;runBlocking&lt;/c10&gt; either.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220402T053102Z" creationid="pingfangx" creationdate="20220402T053049Z">
+        <seg>你将不需要 &lt;c10&gt;runBlocking&lt;/c10&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>single-threaded context.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220407T062820Z" creationid="pingfangx" creationdate="20220407T062820Z">
+        <seg>单线程上下文。</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
