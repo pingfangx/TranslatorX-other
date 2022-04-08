@@ -1,366 +1,876 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.0.0_0_dev" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_d22680c87" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>A GitHub mirror is also provided:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024645Z" creationid="pingfangx" creationdate="20220408T024643Z">
+        <seg>还提供了 GitHub 镜像：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A sender shall:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023422Z" creationid="pingfangx" creationdate="20190905T023422Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023422Z" creationid="pingfangx" creationdate="20190905T023422Z">
         <seg>发送者应：</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>About Files in This Directory</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T025039Z" creationid="pingfangx" creationdate="20220408T025039Z">
+        <seg>关于此目录中的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Bit 6 shall be set to zero if the encoding is primitive, and shall be set to one if the encoding is constructed.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023050Z" creationid="pingfangx" creationdate="20190905T023050Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023050Z" creationid="pingfangx" creationdate="20190905T023050Z">
         <seg>如果编码是原始的，则第 6 位应设置为零，如果编码是结构，则应设置为 1。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>Bits 8 to 1 of the first subsequent octet, followed by bits 8 to 1 of the second subsequent octet, followed in turn by bits 8 to 1 of each further octet up to and including the last subsequent octet, shall be the encoding of an unsigned binary integer equal to the number of octets in the contents octets, with bit 8 of the first subsequent octet as the most significant bit.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024331Z" creationid="pingfangx" creationdate="20190905T024331Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T024331Z" creationid="pingfangx" creationdate="20190905T024331Z">
         <seg>第一个后续八位字节的第 8 位到第 1 位，接着是第二个后续八位字节的第 8 位到第 1 位，接着是每个另外的八位字节的第 8 位到第 1 位，直到并包括最后一个后续八位字节，应该是无符号二进制整数的编码，等于内容八位字节中的八位字节数，第一个后续八位字节的第 8 位作为最高有效位。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>Check the other files in this directory for documentation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T015029Z" creationid="pingfangx" creationdate="20220408T015026Z">
+        <seg>检查此目录中的其他文件以获取文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Configuring Build Tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T020059Z" creationid="pingfangx" creationdate="20220408T020059Z">
+        <seg>配置构建任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Consider opening a discussion on the developers' list first:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024750Z" creationid="pingfangx" creationdate="20220408T024721Z">
+        <seg>首先考虑在开发列表中开设讨论：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Contributing to OmegaT</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024549Z" creationid="pingfangx" creationdate="20220408T024537Z">
+        <seg>贡献源码到 OmegaT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Customized Dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T022028Z" creationid="pingfangx" creationdate="20220408T022027Z">
+        <seg>自定义依赖项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dependencies not available for consumption via Maven/Gradle are committed to
+/lib/manual.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T022340Z" creationid="pingfangx" creationdate="20220408T022258Z">
+        <seg>无法通过 Maven/Gradle 引入的依赖提交到 /lib/manual 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dependency JARs are provided in the "source" distribution of OmegaT under
+/lib/provided, as insurance in case any dependencies should become unavailable
+online.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021909Z" creationid="pingfangx" creationdate="20220408T021649Z">
+        <seg>OmegaT 的 "source" 发布提供了所有依赖 JAR 在 /lib/provided 目录下，用于任何依赖项无法在线使用的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Docs generation requires a whole ecosystem.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021408Z" creationid="pingfangx" creationdate="20220408T021405Z">
+        <seg>文档生成需要一个完整的生态系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Eclipse and NetBeans are recommended IDEs for working with OmegaT source
+code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T014931Z" creationid="pingfangx" creationdate="20220408T014841Z">
+        <seg>推荐使用 Eclipse 和 NetBeans 来编辑 OmegaT 源代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Figure 3 illustrates the form of an identifier octet for a type with a tag whose number is in the range zero to 30 (inclusive).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022406Z" creationid="pingfangx" creationdate="20190905T022406Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022406Z" creationid="pingfangx" creationdate="20190905T022406Z">
         <seg>图 3 说明了具有标签的类型的标识符八位字节的形式，该标签的编号在 0 到 30(包括 0 和 30)的范围内。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>Figure 3 – Identifier octet (low tag number)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022424Z" creationid="pingfangx" creationdate="20190905T022424Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022424Z" creationid="pingfangx" creationdate="20190905T022424Z">
         <seg>图 3  - 标识符八位字节(低标签号)</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>Figure 4 illustrates the form of the identifier octets for a type with a tag whose number is greater than 30.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022955Z" creationid="pingfangx" creationdate="20190905T022955Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022955Z" creationid="pingfangx" creationdate="20190905T022955Z">
         <seg>图 4 说明了具有其编号大于 30 的标签的类型的标识符八位字节的形式。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>For tags with a number greater than or equal to 31, the identifier shall comprise a leading octet followed by one or more subsequent octets.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022441Z" creationid="pingfangx" creationdate="20190905T022441Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022441Z" creationid="pingfangx" creationdate="20190905T022441Z">
         <seg>对于数字大于或等于 31 的标签，标识符应包括前导八位字节，后跟一个或多个后续八位字节。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>For tags with a number ranging from zero to 30 (inclusive), the identifier octets shall compri se a single octet encoded as follows:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022235Z" creationid="pingfangx" creationdate="20190905T022235Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022235Z" creationid="pingfangx" creationdate="20190905T022235Z">
         <seg>对于编号范围从 0 到 30(含)的标签，标识符八位字节应包含如下编码的单个八位字节：</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>For the definite form, the length octets shall consist of one or more octets, and shall represent the number of octets in the contents octets using either the short form (see 8.1.3.4) or the long form (see 8.1.3.5) as a sender's option.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023615Z" creationid="pingfangx" creationdate="20190905T023615Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023615Z" creationid="pingfangx" creationdate="20190905T023615Z">
         <seg>对于确定形式，长度八位字节应由一个或多个八位字节组成，并应使用短格式(见 8.1.3.4)或长格式(见 8.1.3.5)表示内容八位字节中的八位字节数，根据发送者的选择。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>For the indefinite form, the length octets indicate that the contents octets are terminated by end-of contents octets (see 8.1.5), and shall consist of a single octet.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024630Z" creationid="pingfangx" creationdate="20190905T024630Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T024630Z" creationid="pingfangx" creationdate="20190905T024630Z">
         <seg>对于不定形式，长度八位字节表示内容八位字节由结束内容八位字节终止(见 8.1.5)，并且应由一个八位字节组成。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>ITU-T X.680 | ISO/IEC 8824-1 specifies that the tag of a type defined using the CHOICE keyword takes the value of the tag of the type from which the chosen data value is taken.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023306Z" creationid="pingfangx" creationdate="20190905T023306Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023306Z" creationid="pingfangx" creationdate="20190905T023306Z">
         <seg>ITU-T X.680 | ISO/IEC 8824-1 规定使用 CHOICE 关键字定义的类型的标记采用从中获取所选数据值的类型的标记的值。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>ITU-T X.681 | ISO/IEC 8824-2, 14.2 and 14.4, specifies that the tag of a type defined using "ObjectClassFieldType" is indeterminate if it is a type field, a variable-type value field, or a variable-type value set field.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023321Z" creationid="pingfangx" creationdate="20190905T023321Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023321Z" creationid="pingfangx" creationdate="20190905T023321Z">
         <seg>ITU-T X.681 | ISO/IEC 8824-2,14.2 和 14.4 规定，如果类型字段，变量类型值字段或变量类型值集字段，使用“ObjectClassFieldType”定义的类型的标记是不确定的。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>Identifier octets</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022150Z" creationid="pingfangx" creationdate="20190905T022150Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022150Z" creationid="pingfangx" creationdate="20190905T022150Z">
         <seg>标识符八位字节</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>If it's a bug fix, create a Bug ticket:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024928Z" creationid="pingfangx" creationdate="20220408T024916Z">
+        <seg>如果是 bug 修复，请创建 Bug ticket：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If it's a new feature or enhancement, open a Request For Enhancement (RFE):</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024943Z" creationid="pingfangx" creationdate="20220408T024931Z">
+        <seg>如果是新功能或增强功能，请创建增强请求(RFE)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If this form of length is used, then end-of-contents octets (see 8.1.5) shall be present in the encoding following the contents octets.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024642Z" creationid="pingfangx" creationdate="20190905T024642Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T024642Z" creationid="pingfangx" creationdate="20190905T024642Z">
         <seg>如果使用这种形式的长度，则在内容八位字节之后的编码中应存在内容结束八位字节(见 8.1.5)。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>If you want to run these build
+tasks, you are strongly recommended to install Docker:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021522Z" creationid="pingfangx" creationdate="20220408T021512Z">
+        <seg>如果你想运行这些构建任务，强烈建议安装 Docker：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you would like to submit a patch, the recommended procedure is as follows:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024719Z" creationid="pingfangx" creationdate="20220408T024702Z">
+        <seg>如果要提交补丁，建议按以下步骤：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In particular, with-JRE builds require a JRE tarball for the appropriate
+platform, e.g. `jre-*-macosx-x64.tar.gz`.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T020704Z" creationid="pingfangx" creationdate="20220408T020610Z">
+        <seg>特别是，with-JRE 构建需要一个适当的 JRE tarball 平台，例如 `jre-*-macosx-x64.tar.gz`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In some cases (especially defunct projects) OmegaT forks are also published for
+general use on Maven Central:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T022254Z" creationid="pingfangx" creationdate="20220408T022214Z">
+        <seg>在某些情况下(特别是废弃的项目) OmegaT 的 fork 也发布到 Maven Central 用于一般用途：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the long form, the length octets shall consist of an initial octet and one or more subsequent octets.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023744Z" creationid="pingfangx" creationdate="20190905T023744Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023744Z" creationid="pingfangx" creationdate="20190905T023744Z">
         <seg>在长形式中，长度八位字节应由初始八位字节和一个或多个后续八位字节组成。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>In the past there was also an "update" number following PATCH, but this has been
+deprecated.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024051Z" creationid="pingfangx" creationdate="20220408T024016Z">
+        <seg>在过去，在 PATCH 之后也有一个“update”号，但已经弃用了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the short form, the length octets shall consist of a single octet in which bit 8 is zero and bits 7 to 1 encode the number of octets in the contents octets (which may be zero), as an unsigned binary integer with bit 7 as the most significant bit.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023710Z" creationid="pingfangx" creationdate="20190905T023710Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023710Z" creationid="pingfangx" creationdate="20190905T023710Z">
         <seg>在短格式中，长度八位字节应由单个八位字节组成，其中位 8 为零，位 7 到 1 编码内容八位字节中的八位字节数(可以为零)，作为无符号二进制整数，位 7 为最高位。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>Latest: May have breaking changes, incomplete manual</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024534Z" creationid="pingfangx" creationdate="20220408T024510Z">
+        <seg>Latest：可能有破坏性的更改，手册不完整</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Length octets</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023344Z" creationid="pingfangx" creationdate="20190905T023344Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023344Z" creationid="pingfangx" creationdate="20190905T023344Z">
         <seg>长度八位字节</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>MAJOR: The distinction between "standard" and "latest" flavors (see below)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024429Z" creationid="pingfangx" creationdate="20220408T023849Z">
+        <seg>MAJOR："standard" 和 "latest" 变种的区别（见下方）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>MAJOR: The distinction between "standard" and "latest" flavors (see below)
+-</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T023252Z" creationid="pingfangx" creationdate="20220408T023252Z">
+        <seg>MAJOR："standard" 和 "latest" flavors (see below)
+-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>MINOR: "Large" changes that affect the UI or core functionality</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T023915Z" creationid="pingfangx" creationdate="20220408T023901Z">
+        <seg>MINOR：影响用户界面或核心功能的“大”更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Main development is performed in the `master` branch of the SourceForge-hosted
+Git repository:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024640Z" creationid="pingfangx" creationdate="20220408T024607Z">
+        <seg>主要开发在 SourceForge 托管 Git 仓库的“master”分支中进行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>NOTE 1 – This restriction is introduced for possible future extension.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024123Z" creationid="pingfangx" creationdate="20190905T024123Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T024123Z" creationid="pingfangx" creationdate="20190905T024123Z">
         <seg>注 1  - 引入此限制以便将来可能的扩展。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>NOTE 2 – In the long form, it is a sender's option whether to use more length octets than the minimum necessary.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024401Z" creationid="pingfangx" creationdate="20190905T024401Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T024401Z" creationid="pingfangx" creationdate="20190905T024401Z">
         <seg>注 2  - 在长形式中，发送者可以选择是否使用比最小必要值更长的八位字节。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>NOTE – Subsequent subclauses specify whether the encoding is primitive or constructed for each type.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023143Z" creationid="pingfangx" creationdate="20190905T023143Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023143Z" creationid="pingfangx" creationdate="20190905T023143Z">
         <seg>注 - 后续子条款为每种类型指定编码是原始的还是为结构的。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>NOTE – The short form can only be used if the number of octets in the contents octets is less than or equal to 127.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023623Z" creationid="pingfangx" creationdate="20190905T023623Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023623Z" creationid="pingfangx" creationdate="20190905T023623Z">
         <seg>注 - 只有当内容八位字节中的八位字节数小于或等于 127 时，才能使用短格式。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>NetBeans is required to modify *.form-based GUI layouts (install the
+Gradle Support plugin to open the OmegaT project in NetBeans.)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T015024Z" creationid="pingfangx" creationdate="20220408T014934Z">
+        <seg>NetBeans 需要修改 *.form-based GUI 布局(安装 Gradle 支持插件以在 NetBeans 中打开 Omegat 项目。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT is built with Gradle.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T014115Z" creationid="pingfangx" creationdate="20220408T014102Z">
+        <seg>OmegaT 是用 Gradle 建建的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT uses Gradle to manage and fetch dependencies automatically.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021553Z" creationid="pingfangx" creationdate="20220408T021550Z">
+        <seg>OmegaT 使用 Gradle 自动管理和获取依赖项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT uses unmodified packages as much as possible, but when modifications are
+required and the upstream project is abandoned or unresponsive, custom-patched
+libraries are also used.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T022144Z" creationid="pingfangx" creationdate="20220408T022056Z">
+        <seg>Omegat 尽可能地使用未修改的包，但是当必需修改且上游项目被遗弃或无响应时，也会使用定制修补库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT versions loosely follow semver (https://semver.org/).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T022355Z" creationid="pingfangx" creationdate="20220408T022354Z">
+        <seg>OmegaT 版本大致遵循 semver(https://semver.org/)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OmegaT will run on the latest Java, but is required to be compatible with Java
+1.8.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T014838Z" creationid="pingfangx" creationdate="20220408T014825Z">
+        <seg>OmegaT 将在最新的 Java 上运行，但必须与 Java 1.8 兼容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open a ticket for your change.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024913Z" creationid="pingfangx" creationdate="20220408T024751Z">
+        <seg>为更改开启一个 ticket。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>PATCH: Bug fixes and small changes that aren't "large"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T023937Z" creationid="pingfangx" creationdate="20220408T023919Z">
+        <seg>PATCH：错误修复和不“大”的小更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Patched forks can be found on GitHub:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T022204Z" creationid="pingfangx" creationdate="20220408T022149Z">
+        <seg>可以在 GitHub 上找到修补过的 fork：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Run `gradlew build` to build all possible distfiles and run the
+main tests.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T014611Z" creationid="pingfangx" creationdate="20220408T014535Z">
+        <seg>运行 `gradlew build` 生成所有可能的目标文件并运行主测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Run `gradlew tasks` from the top level to see the
+available tasks.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T014646Z" creationid="pingfangx" creationdate="20220408T014519Z">
+        <seg>从顶层运行 `gradlew tasks` 以查看可用的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See
+`local.properties.example`.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T020305Z" creationid="pingfangx" creationdate="20220408T020305Z">
+        <seg>参阅 `local.properties.example`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Signed Windows installers require osslsigncode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021313Z" creationid="pingfangx" creationdate="20220408T021305Z">
+        <seg>签名的 Windows 安装程序需要 osslsigncode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some build tasks require additional software to be installed:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021140Z" creationid="pingfangx" creationdate="20220408T020732Z">
+        <seg>某些构建任务需要安装其他软件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some build tasks require the user to supply additional files not included in the
+OmegaT source.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T020350Z" creationid="pingfangx" creationdate="20220408T020320Z">
+        <seg>一些构建任务要求用户提供不包含在 Omegat 源代码中的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some build tasks, such as signed installers, require additional configuration
+via a `local.properties` file placed at the root of the source tree.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T020244Z" creationid="pingfangx" creationdate="20220408T020121Z">
+        <seg>某些构建任务(如签名安装程序)需要额外的配置，通过设置位于在源代码树根目录中的 `local.properties` 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Standard: Stable, with a complete manual (sometimes "beta" in the code)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024507Z" creationid="pingfangx" creationdate="20220408T024451Z">
+        <seg>Standard：稳定，有完整的手册(代码中有时有“beta”)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Table 1 – Encoding of class of tag</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022326Z" creationid="pingfangx" creationdate="20190905T022326Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022326Z" creationid="pingfangx" creationdate="20190905T022326Z">
         <seg>表 1  - 标签类的编码</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>Tasks skipped due to missing requirements will be noted in the
+output.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T014819Z" creationid="pingfangx" creationdate="20220408T014714Z">
+        <seg>由于缺少必要条件而跳过的任务将在输出中显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The identifier octets shall encode the ASN.1 tag (class and number) of the type of the data value.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022202Z" creationid="pingfangx" creationdate="20190905T022202Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022202Z" creationid="pingfangx" creationdate="20190905T022202Z">
         <seg>标识符八位字节应编码数据值类型的 ASN.1 标记(类和编号)。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>The initial octet shall be encoded as follows:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024005Z" creationid="pingfangx" creationdate="20190905T024005Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T024005Z" creationid="pingfangx" creationdate="20190905T024005Z">
         <seg>初始八位字节应编码如下：</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>The leading octet shall be encoded as follows:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022444Z" creationid="pingfangx" creationdate="20190905T022444Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022444Z" creationid="pingfangx" creationdate="20190905T022444Z">
         <seg>前导八位组的编码如下：</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>The single octet shall have bit 8 set to one, and bits 7 to 1 set to zero.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024638Z" creationid="pingfangx" creationdate="20190905T024638Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T024638Z" creationid="pingfangx" creationdate="20190905T024638Z">
         <seg>单个八位字节应将第 8 位设置为 1，将第 7 位设置为 0。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>The subsequent octets shall encode the number of the tag as follows:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022556Z" creationid="pingfangx" creationdate="20190905T022556Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022556Z" creationid="pingfangx" creationdate="20190905T022556Z">
         <seg>随后的八位字节应编码标签的编号，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>The version number
+consists of three parts: MAJOR.MINOR.PATCH.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T022423Z" creationid="pingfangx" creationdate="20220408T022414Z">
+        <seg>版本号由三部分组成：MAJOR.MINOR.PATCH。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are two "flavors" of OmegaT:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T024435Z" creationid="pingfangx" creationdate="20220408T024054Z">
+        <seg>OmegaT 有两种“变种”：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These are:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023349Z" creationid="pingfangx" creationdate="20190905T023349Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023349Z" creationid="pingfangx" creationdate="20190905T023349Z">
         <seg>这些是：</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>These files should be placed in the assets directory, which by
+default is `..`, i.e. one level up from the OmegaT source root.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T020505Z" creationid="pingfangx" creationdate="20220408T020400Z">
+        <seg>这些文件应放在 assets 目录中，该目录默认为 `..`，即，OmegaT 源代码根目录的上一个级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This describes the overall architecture of OmegaT as well as some technical
+details of its implementation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T025339Z" creationid="pingfangx" creationdate="20220408T025312Z">
+        <seg>该文档描述了 OmegaT 的总体架构以及一些技术实现细节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This document is the source for the UML diagrams in the developer's guide; it
+contains no content not also viewable within the developer's guide.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T025509Z" creationid="pingfangx" creationdate="20220408T025400Z">
+        <seg>本文档是开发人员指南中 UML 图表的源；它不包含在开发人员指南中的内容或可物。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This documents how different filters identify "alternate" translations.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T025210Z" creationid="pingfangx" creationdate="20220408T025104Z">
+        <seg>该本档介绍不同的过滤器如何识别“alternate”翻译。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This type is subsequently defined to be an ASN.1 type, and the complete encoding is then identical to that of a value of the assigned type (including the identifier octets).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023342Z" creationid="pingfangx" creationdate="20190905T023342Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023342Z" creationid="pingfangx" creationdate="20190905T023342Z">
         <seg>随后将此类型定义为 ASN.1 类型，然后完整编码与指定类型的值(包括标识符八位字节)相同。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>To add,
+change, or remove a dependency, see the dependencies block in build.gradle.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021640Z" creationid="pingfangx" creationdate="20220408T021618Z">
+        <seg>要添加，更改或移除依赖项，请参阅 build.gradle 中的 dependencies 块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To alleviate the pain of installing and configuring things, these tools have
+been containerized and automated via Docker.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021509Z" creationid="pingfangx" creationdate="20220408T021429Z">
+        <seg>为了减轻安装和配置东西的痛苦，这些工具已通过 Docker 被装箱化和自动化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Two forms of length octets are specified.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023347Z" creationid="pingfangx" creationdate="20190905T023347Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023347Z" creationid="pingfangx" creationdate="20190905T023347Z">
         <seg>指定了两种形式的长度八位字节。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
+        <seg>Versioning</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T022345Z" creationid="pingfangx" creationdate="20220408T022342Z">
+        <seg>版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Visual
+Paradigm Community Edition (free) is required to edit the file
+(http://www.visual-paradigm.com)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T025545Z" creationid="pingfangx" creationdate="20220408T025514Z">
+        <seg>要编辑该文件需要 Visual Paradigm Community Edition (free)(http://www.visual-paradigm.com)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When /lib/provided is present, compile-time dependencies will be
+resolved locally, minimizing network access (network access is still required
+for initializing the Gradle wrapper, fetching Gradle plugins, and fetching test
+dependencies).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T022026Z" creationid="pingfangx" creationdate="20220408T021912Z">
+        <seg>当 /lib/provided 存在时，编译时依赖项将会在本地解析，最大限度地减少网络访问(但初始化 Gradle 包装器、获取 Gradle 插件和获取测试
+依赖性仍然需要网络访问，)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When PATCH is zero it can be elided
+from documentation or casual references, but not in code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T023040Z" creationid="pingfangx" creationdate="20220408T022439Z">
+        <seg>当 PATCH 为 0 时，可以在文档或非正式引用中省略，但代码中不可以省略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Windows installers require InnoSetup with all optional language files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021249Z" creationid="pingfangx" creationdate="20220408T021240Z">
+        <seg>Windows 安装程序需要 InnoSetup 和所有可选的语言文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Working with Dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T021526Z" creationid="pingfangx" creationdate="20220408T021525Z">
+        <seg>使用依赖项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can
+produce Javadoc by running `gradlew javadoc`, or browse online:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T015152Z" creationid="pingfangx" creationdate="20220408T015056Z">
+        <seg>你可以通过运行 `gradlew javadoc` 生成 Javadoc，或者在线浏览：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can
+view it with LibreOffice or any ODF-compatible viewer.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T025232Z" creationid="pingfangx" creationdate="20220408T025213Z">
+        <seg>你可以用 LibreOffice 或任何 ODF 兼容的查看器查看它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can specify
+a different directory by supplying the argument `-PassetDir=/path/to/wherever`.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T020556Z" creationid="pingfangx" creationdate="20220408T020510Z">
+        <seg>通过提供参数 `-PassetDir=/path/to/wherever`，你可以指定不同的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can view it with LibreOffice or any
+ODF-compatible viewer.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20220408T025351Z" creationid="pingfangx" creationdate="20220408T025351Z">
+        <seg>你可以用 LibreOffice 或任何 ODF 兼容的查看器查看它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>a)    bit 8 of each octet shall be set to one unless it is the last octet of the identifier octets;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022609Z" creationid="pingfangx" creationdate="20190905T022609Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022609Z" creationid="pingfangx" creationdate="20190905T022609Z">
         <seg>a)每个八位字节的第 8 位应设置为 1，除非它是标识符八位字节的最后一个八位字节；</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>a)    bit 8 shall be one;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024009Z" creationid="pingfangx" creationdate="20190905T024009Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T024009Z" creationid="pingfangx" creationdate="20190905T024009Z">
         <seg>a)第 8 位应为 1；</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>a)    bits 8 and 7 shall be encoded to represent the class of the tag as listed in Table 1;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022458Z" creationid="pingfangx" creationdate="20190905T022458Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022458Z" creationid="pingfangx" creationdate="20190905T022458Z">
         <seg>a)第 8 和第 7 位应编码以表示表 1 中列出的标签类；</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>a)    bits 8 and 7 shall be encoded to represent the class of the tag as specified in Table 1;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022254Z" creationid="pingfangx" creationdate="20190905T022249Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022254Z" creationid="pingfangx" creationdate="20190905T022249Z">
         <seg>a)应对第 8 和第 7 位进行编码，以表示表 1 中规定的标签类；</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>a)    the definite form (see 8.1.3.3); and</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023418Z" creationid="pingfangx" creationdate="20190905T023353Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023418Z" creationid="pingfangx" creationdate="20190905T023353Z">
         <seg>a)确定形式(见 8.1.3.3);和</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>a)    use the definite form (see 8.1.3.3) if the encoding is primitive;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023429Z" creationid="pingfangx" creationdate="20190905T023429Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023429Z" creationid="pingfangx" creationdate="20190905T023429Z">
         <seg>a)如果编码是原始的，则使用确定形式(见 8.1.3.3)；</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>b)    bit 6 shall be a zero or a one according to the rules of 8.1.2.5;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022301Z" creationid="pingfangx" creationdate="20190905T022301Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022301Z" creationid="pingfangx" creationdate="20190905T022301Z">
         <seg>b)根据 8.1.2.5 的规则，第 6 位应为零或一；</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>b)    bits  7  to  1  shall  encode  the  number  of  subsequent  octets  in  the  length  octets,  as  an  unsigned  binary                    integer with bit 7 as the most significant bit;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T024046Z" creationid="pingfangx" creationdate="20190905T024046Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T024046Z" creationid="pingfangx" creationdate="20190905T024046Z">
         <seg>b)第 7 到 1 应编码长度八位字节中后续八位字节的数目，作为无符号二进制整数，其中第 7 位为最高有效位；</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>b)    bits 7 to 1 of the first subsequent octet, followed by bits 7 to 1 of the second  subsequent octet, followed                    in turn by bits 7 to 1 of each further octet, up to and including the last subsequent octet in the identifier                    octets shall be the encoding of an unsigned binary integer equal to the tag number, with bit 7 of the first                    subsequent octet as the most significant bit;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022925Z" creationid="pingfangx" creationdate="20190905T022925Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022925Z" creationid="pingfangx" creationdate="20190905T022925Z">
         <seg>b)第一个后续八位字节的第 7 位到第 1 位，然后是第二个后续八位字节的第 7 位到第 1 位，接着是每个另外的八位字节的第 7 位到第 1 位，直到并包括标识符八位字节中的最后一个后续八位字节（的第 7 位到第 1 位），是无符号二进制整数的编码，等于标记号，第一个后续八位字节的第 7 位作为最高有效位；</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>b)    the indefinite form (see 8.1.3.6).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023359Z" creationid="pingfangx" creationdate="20190905T023359Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023359Z" creationid="pingfangx" creationdate="20190905T023359Z">
         <seg>b)不确定形式(见 8.1.3.6)。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>b)    use  either  the  definite  form  (see  8.1.3.3)  or  the  indefinite  form  (see  8.1.3.6),  a  sender's  option,  if  the                    encoding is constructed and all immediately available;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023504Z" creationid="pingfangx" creationdate="20190905T023504Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023504Z" creationid="pingfangx" creationdate="20190905T023504Z">
         <seg>b)使用确定的形式(见 8.1.3.3)或不确定形式(见 8.1.3.6)，根据发送者的选择，如果编码是结构的并且全部立即可用；</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>c)    bits 5 to 1 shall be encoded as 111112.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022532Z" creationid="pingfangx" creationdate="20190905T022532Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022532Z" creationid="pingfangx" creationdate="20190905T022532Z">
         <seg>c) 5 到 1 位应编码为 11111（二进制）。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>c)    bits 5 to 1 shall encode the number of the tag as a binary integer with bit 5 as the most significant bit.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022324Z" creationid="pingfangx" creationdate="20190905T022324Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022324Z" creationid="pingfangx" creationdate="20190905T022324Z">
         <seg>c) 5 到 1 位应将标签的编号编码为二进制整数，其中第 5 位为最高有效位。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>c)    bits 7 to 1 of the first subsequent octet shall not all be zero.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T022934Z" creationid="pingfangx" creationdate="20190905T022934Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T022934Z" creationid="pingfangx" creationdate="20190905T022934Z">
         <seg>c)第一个后续八位位组的第 7 位到第 1 位不应全为零。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="EN-US">
+      <tuv lang="en-US">
         <seg>c)    use the indefinite form (see 8.1.3.6) if the encoding is constructed and is not all immediately available.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="pingfangx" changedate="20190905T023516Z" creationid="pingfangx" creationdate="20190905T023516Z">
+      <tuv lang="zh-CN" changeid="pingfangx" changedate="20190905T023516Z" creationid="pingfangx" creationdate="20190905T023516Z">
         <seg>c)如果编码是构造的并且并非全部立即可用，则使用不确定形式(见 8.1.3.6)。</seg>
       </tuv>
     </tu>
